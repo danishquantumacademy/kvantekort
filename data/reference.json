@@ -166,16 +166,24 @@
     },
     "KU": {
       "name": "University of Copenhagen",
-      "course_base": "https://phdcourses.dk",
-      "course_url": "https://phdcourses.dk/Course/{ref}",
+      "course_base": "https://kucourses.dk",
+      "course_url": "https://kucourses.dk/course/{code}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Currently PhD courses only, from the PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk was unavailable on 2 November 2026.",
+      "scope": "Faculty of SCIENCE. Bachelor and master courses from kucourses.dk, a student-run mirror of KU's course catalogue, because kurser.ku.dk was unavailable on 2 November 2026. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.",
       "totals": {
+        "BSc": 446,
+        "MSc": 416,
         "PhD": 60
       },
       "departments": {
-        "SCI": "Faculty of SCIENCE"
+        "SCI": "Faculty of SCIENCE",
+        "NBI": "Niels Bohr Institute",
+        "MATH": "Mathematical Sciences",
+        "DIKU": "Computer Science",
+        "KEM": "Chemistry",
+        "IND": "Science Education",
+        "BIO": "Biology"
       }
     },
     "AU": {

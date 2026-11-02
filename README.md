@@ -22,6 +22,7 @@ scrapers/
   sdu_browser.js            # SDU's ODIN: iterates code prefixes + Faculty of Engineering curricula
   aau_browser.js            # moduler.aau.dk: broad search + every module page for 2026/27
   phdcourses_browser.js     # PhD courses from the national portal phdcourses.dk
+  ku_kucourses_browser.js   # KU SCIENCE courses via kucourses.dk (temporary source)
 scripts/
   cfqt_estimates.txt        # the CFQT estimate per course (source of truth for the first round)
   apply_cfqt.py             # writes the estimates into data/classification/*.csv
@@ -54,9 +55,9 @@ Harvested data and expert judgement are kept apart: scrapers only write to `data
 | AU | 1,554 unique courses, Natural + Technical Sciences | 58 |
 | SDU | Active course descriptions, Faculty of Science + Faculty of Engineering (Physics and Technology, Electronics) | 52 |
 | AAU | 6,841 modules; Engineering & Science + IT & Design: 1,947 unique titles | 37 |
-| KU (SCIENCE only) | PhD courses only (kurser.ku.dk was unavailable) | 2 |
+| KU (SCIENCE only) | 862 BSc/MSc courses via [kucourses.dk](https://kucourses.dk) (student-run mirror; kurser.ku.dk was unavailable) + PhD courses | 55 |
 
-251 courses analysed; 242 match the CFQT content map and are shown on the site. PhD courses for AU, SDU, AAU and KU come from [phdcourses.dk](https://phdcourses.dk); DTU's from its own course base.
+304 courses analysed; 290 match the CFQT content map and are shown on the site. PhD courses for AU, SDU, AAU and KU come from [phdcourses.dk](https://phdcourses.dk); DTU's from its own course base.
 
 ## Update workflow
 

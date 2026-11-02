@@ -167,16 +167,24 @@
    },
    "KU": {
     "name": "University of Copenhagen",
-    "course_base": "https://phdcourses.dk",
-    "course_url": "https://phdcourses.dk/Course/{ref}",
+    "course_base": "https://kucourses.dk",
+    "course_url": "https://kucourses.dk/course/{code}",
     "harvested": "2026-11-02",
     "academic_year": "2026/2027",
-    "scope": "Currently PhD courses only, from the PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk was unavailable on 2 November 2026.",
+    "scope": "Faculty of SCIENCE. Bachelor and master courses from kucourses.dk, a student-run mirror of KU's course catalogue, because kurser.ku.dk was unavailable on 2 November 2026. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.",
     "totals": {
+     "BSc": 446,
+     "MSc": 416,
      "PhD": 60
     },
     "departments": {
-     "SCI": "Faculty of SCIENCE"
+     "SCI": "Faculty of SCIENCE",
+     "NBI": "Niels Bohr Institute",
+     "MATH": "Mathematical Sciences",
+     "DIKU": "Computer Science",
+     "KEM": "Chemistry",
+     "IND": "Science Education",
+     "BIO": "Biology"
     }
    },
    "AU": {
@@ -4343,6 +4351,1051 @@
    "url": "https://phdcourses.dk/Course/148446"
   },
   {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NDAK26003U",
+   "title": "Hybrid Quantum Programming (HQP)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Computer Science",
+   "subs": [
+    "5.3",
+    "4.7",
+    "5.5"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "B2"
+   },
+   "status": "estimated",
+   "kw_strong": 31,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NDAK26003U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK23002U",
+   "title": "Introduction to Quantum Information Science",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.2",
+    "5.1",
+    "7.3"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B2",
+    "II": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 23,
+   "kw_medium": 3,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK23002U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK18004U",
+   "title": "Advanced Quantum Optics and Photonics",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.2",
+    "4.4",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1",
+    "II": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 22,
+   "kw_medium": 20,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK18004U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NMAK23007U",
+   "title": "Introduction to Quantum Computing",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "5.1",
+    "5.5",
+    "7.3"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 21,
+   "kw_medium": 3,
+   "note": "",
+   "url": "https://kucourses.dk/course/NMAK23007U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK13006U",
+   "title": "Quantum Optics",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.2",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
+   "kw_strong": 20,
+   "kw_medium": 23,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK13006U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK26000U",
+   "title": "Advanced Qubit Technologies",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "4.1",
+    "4.6",
+    "3.1"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B1",
+    "II": "B2"
+   },
+   "status": "estimated",
+   "kw_strong": 20,
+   "kw_medium": 3,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK26000U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYA06015U",
+   "title": "Nanokvant",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.1",
+    "2.3"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 18,
+   "kw_medium": 11,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYA06015U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK23005U",
+   "title": "Physical Implementations of Quantum Information Processing",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "4.8",
+    "4.1",
+    "4.3"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B2",
+    "II": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 18,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK23005U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NMAK14020U",
+   "title": "Quantum Information Theory (QIT)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "1.2",
+    "7.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 17,
+   "kw_medium": 1,
+   "note": "",
+   "url": "https://kucourses.dk/course/NMAK14020U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK24003U",
+   "title": "Quantum Nanoelectronics",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "4.2",
+    "2.3",
+    "3.2"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B2",
+    "II": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 15,
+   "kw_medium": 8,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK24003U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEA05042U",
+   "title": "Kvantekemi og teoretisk spektroskopi (KemiKS)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 14,
+   "kw_medium": 10,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEA05042U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYB24001U",
+   "title": "Kvantemekanik 1 (KM1)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 14,
+   "kw_medium": 3,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB24001U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK15003U",
+   "title": "Advanced Quantum Mechanics (Quant3)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.2",
+    "2.4"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 14,
+   "kw_medium": 1,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK15003U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYA05020U",
+   "title": "Optical Physics and Lasers",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.2",
+    "3.3",
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 13,
+   "kw_medium": 48,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYA05020U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK13004U",
+   "title": "Quantum Field Theory 1",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 12,
+   "kw_medium": 1,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK13004U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK26002U",
+   "title": "Large-Scale Simulations of Quantum Systems",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "5.2",
+    "3.5",
+    "4.7"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 11,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK26002U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYB10010U",
+   "title": "Kvantemekanik 2 (KM2)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.1",
+    "1.2",
+    "2.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 10,
+   "kw_medium": 4,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB10010U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYB22000U",
+   "title": "Quantum Phenomena in Nanosystems (Nano3)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.3",
+    "3.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 7,
+   "kw_medium": 5,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB22000U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NMAA05012U",
+   "title": "Mathematical Physics (MatFys)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "1.2",
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 6,
+   "kw_medium": 3,
+   "note": "",
+   "url": "https://kucourses.dk/course/NMAA05012U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NDAK24010U",
+   "title": "Quantum Error Correction (QEC)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Computer Science",
+   "subs": [
+    "5.3",
+    "5.1"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B2",
+    "II": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 6,
+   "kw_medium": 1,
+   "note": "",
+   "url": "https://kucourses.dk/course/NDAK24010U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NMAK22000U",
+   "title": "Analysis in Quantum Information Theory",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 6,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NMAK22000U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYB13007U",
+   "title": "Introduction to Atomic Physics",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.1",
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 5,
+   "kw_medium": 17,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB13007U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK10017U",
+   "title": "Condensed Matter Theory 1 (CMT1)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 5,
+   "kw_medium": 5,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK10017U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NMAK15003U",
+   "title": "Advanced Mathematical Physics (AdvMathPhys)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "1.2",
+    "2.4"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 5,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NMAK15003U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEA05037U",
+   "title": "Advanced Quantum Chemistry (KemiVK)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "1.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
+   "kw_strong": 4,
+   "kw_medium": 12,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEA05037U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEB13003U",
+   "title": "Uorganisk kemi 1 (KemiU1)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 4,
+   "kw_medium": 4,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEB13003U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYA04021U",
+   "title": "Condensed Matter Physics 1 (CMP1)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 3,
+   "kw_medium": 7,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYA04021U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYA05060U",
+   "title": "Optics",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 20,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYA05060U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEA04034U",
+   "title": "Kemisk binding (KemiBin)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 7,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEA04034U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYB10021U",
+   "title": "Condensed Matter Physics 2 (CMP2)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 6,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB10021U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEB23003U",
+   "title": "Grundlæggende nanokemi",
+   "language": "Danish",
+   "ects": 15.0,
+   "dept_name": "Chemistry",
+   "subs": [
+    "3.2",
+    "2.4"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 6,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEB23003U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK10003U",
+   "title": "Condensed Matter Theory 2 (CMT2)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 4,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK10003U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYB10026U",
+   "title": "Statistisk fysik (StatFys)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB10026U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NKEA07016U",
+   "title": "Computational Chemistry",
+   "language": "English",
+   "ects": 15.0,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEA07016U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYA04070U",
+   "title": "Matematik F (MatF)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {},
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYA04070U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEA04057U",
+   "title": "Fotokemi og Fotofysik (KemiFoto)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEA04057U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NKEK22001U",
+   "title": "Advanced Vibrational Spectroscopy",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 2,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEK22001U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NFYB16006U",
+   "title": "Matematiske metoder i fysik - del 3 (MatF3)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {},
+   "status": "estimated",
+   "kw_strong": 1,
+   "kw_medium": 1,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYB16006U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NMAK23014U",
+   "title": "Topics in Operator Algebras",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 1,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NMAK23014U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NNDB19003U",
+   "title": "VtFys: Videnskabsteori og etik for fysikere",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Science Education",
+   "subs": [
+    "8.3"
+   ],
+   "domain": "8",
+   "prof": {
+    "III": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 1,
+   "kw_medium": 0,
+   "note": "",
+   "url": "https://kucourses.dk/course/NNDB19003U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NKEK25005U",
+   "title": "Methods and Modelling in Inorganic Chemistry",
+   "language": "English",
+   "ects": 15.0,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 11,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEK25005U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NFYK13021U",
+   "title": "Neutron Scattering",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Niels Bohr Institute",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 7,
+   "note": "",
+   "url": "https://kucourses.dk/course/NFYK13021U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEB10006U",
+   "title": "Almen kemi",
+   "language": "Danish",
+   "ects": 15.0,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 4,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEB10006U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NBIK16001U",
+   "title": "NMR Spectroscopy",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Biology",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NBIK16001U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NDAA09025U",
+   "title": "It-sikkerhed (ITS)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NDAA09025U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEB11004U",
+   "title": "Almen og uorganisk kemi (AlmUorg)",
+   "language": "Danish",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEB11004U"
+  },
+  {
+   "institution": "KU",
+   "level": "BSc",
+   "code": "NKEB23002U",
+   "title": "Materials Chemistry (MatKem)",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEB23002U"
+  },
+  {
+   "institution": "KU",
+   "level": "MSc",
+   "code": "NKEK12008U",
+   "title": "Structural Tools in Nanoscience",
+   "language": "English",
+   "ects": 7.5,
+   "dept_name": "Chemistry",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 2,
+   "note": "",
+   "url": "https://kucourses.dk/course/NKEK12008U"
+  },
+  {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY544",
@@ -5380,5 +6433,5 @@
    "url": "https://phdcourses.dk/Course/105100"
   }
  ],
- "unmapped": 9
+ "unmapped": 14
 }
