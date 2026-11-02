@@ -33,7 +33,7 @@ DATE_RES = [
     (re.compile(r"\b(\d{1,2})(?:\s*[-–]\s*\d{1,2})?\.?\s+(" + MON + r")\.?,?\s+(20\d\d)\b", re.I), lambda m: (int(m[3]), MONTHS[m[2].lower()], int(m[1]))),
     (re.compile(r"\b(" + MON + r")\.?\s+(\d{1,2}),?\s+(20\d\d)\b", re.I), lambda m: (int(m[3]), MONTHS[m[1].lower()], int(m[2]))),
 ]
-GRANT = re.compile(r"\b(grant|granted|awarded|award|funding|funded|bevilling|bevilget|ERC|Villum|Novo Nordisk|Carlsberg|DNRF|Grundforskningsfond|Marie Sk[lł]odowska|Independent Research Fund|DFF|Horizon)\b", re.I)
+GRANT = re.compile(r"(\bgrant(s|ed)?\b|\bawarded\b|\breceives?\b.{0,80}\b(million|mio\.?|DKK|EUR|kr\.)|\bbevilling|\bbevilget|\bERC (Starting|Consolidator|Advanced|Synergy|Proof)|Sk[lł]odowska-Curie|Villum (Investigator|Young Investigator|Experiment)|\b\d+(\.\d+)? ?(million|mio\.?) ?(DKK|kr|EUR|euro))", re.I)
 JOB = re.compile(r"\b(vacanc\w*|position[s]? (?:in|at|available|open)|open position|phd position|postdoc(?:toral)? position|we are hiring|ledig\w* stilling|stillingsopslag|apply now)\b", re.I)
 EVENT = re.compile(r"\b(seminar|colloquium|workshop|conference|symposium|summer school|defen[cs]e|lecture|hackathon|hack|talk|meeting|retreat)\b", re.I)
 
@@ -77,7 +77,7 @@ def generic_list(html, base):
         if not a:
             continue
         txt = clean(el.get_text(" "))
-        if len(txt) > 600 or len(txt) < 12:
+        if len(txt) > 600 or len(txt) < 12 or re.search(r"\b(Revideret|Revised|Senest opdateret|Last updated)\b", txt):
             continue
         date = find_date(txt)
         if not date:

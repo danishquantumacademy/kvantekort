@@ -22,6 +22,9 @@ data/
   people/research.txt       # research focus per teacher with CFQT subdomains (written by DQA)
   people/teaching.csv       # who teaches which course and in which role (no contact data)
   people/units.txt          # landing pages of departments, sections, groups and centres
+  groups/groups.json        # research groups on groups.html: summary, CFQT tags, links, feed sources
+  groups/<key>.txt          # members, publications and portal projects per group (harvested with a browser)
+  groups/feeds.json         # news, events, grants and positions (updated weekly by GitHub Actions)
 scrapers/
   dtu_browser.js            # kurser.dtu.dk (run in the browser console)
   au_browser.js             # kursuskatalog.au.dk via the catalogue's own API
@@ -39,6 +42,7 @@ site/
   students_template.html    # study path profiles per MSc programme (students.html)
   planner_template.html     # course finder: interests -> three MSc course plans (planner.html)
   people_template.html      # research behind the courses: teachers, units, research and course fit (people.html)
+  groups_template.html      # research group profiles: members, publications, projects, news, events, positions, courses (groups.html)
   index.html                # generated; served by GitHub Pages
   CNAME                     # map.danishquantumacademy.dk
 .github/workflows/pages.yml # builds and publishes the site on every push to main
@@ -81,6 +85,12 @@ Harvested data and expert judgement are kept apart: scrapers only write to `data
 ## Teachers and research
 
 `data/people/` describes the teachers named in the course catalogues, from the universities' research portals (DTU Orbit, KU research portal, AU Pure, SDU Find Researcher, AAU VBN): position, department, section or group, centres, the portal's automatic fingerprint concepts and recent research output titles. Only professional information is kept; no e-mail addresses, phone numbers or CV details. `research.txt` adds a short research focus and the CFQT subdomains it touches, written by Danish Quantum Academy from that data. `people.html` compares those subdomains with the subdomains of each course the teacher teaches.
+
+## Research groups (pilot)
+
+`groups.html` profiles one research group per university: QPIT (DTU), NQCP (KU), CCQ (AU), POLIMA (SDU) and Classique (AAU). Summaries and CFQT tags in `data/groups/groups.json` are written by Danish Quantum Academy; only a short quote is taken from each group's own page, and the groups' images are not reused. Members (including PhD students), positions, current projects, recent output and portal projects are in `data/groups/<key>.txt`; the member and project lists in the research portals sit behind bot protection, so they are refreshed by hand with a browser.
+
+`scripts/fetch_group_feeds.py` runs every Monday in the Pages workflow (and on manual runs). It reads the groups' news and event pages and the research-portal front pages, sorts items into news, events, grants and positions, and writes `data/groups/feeds.json`. If a source cannot be read, the last known items from that source are kept and the page says so. To add a group, add an entry to `groups.json` with its feed URLs and a `<key>.txt` file.
 
 ## Update workflow
 

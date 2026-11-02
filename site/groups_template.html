@@ -1,0 +1,209 @@
+<title>Quantum Research Groups</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a row of group cards (pilot: one group per university), each with a CFQT colour banner;
+   choosing a card opens the group profile below: summary and links, CFQT map, four live panels
+   (news and grants, events, positions, publications), members by category with their projects,
+   linked courses and portal projects. */
+:root{
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
+  --good:#0f6b3f;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f; --good:#5fd39a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f; --good:#5fd39a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1160px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
+.nav{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.nav a{color:var(--accent);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 24px/1.15 var(--display);margin:0;letter-spacing:-.01em}
+h3{font:700 16px/1.25 var(--display);margin:0}
+.lede{max-width:76ch;color:var(--muted);margin:0}
+a{color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(210px,100%),1fr));gap:12px}
+.gcard{all:unset;cursor:pointer;display:grid;grid-template-rows:auto 1fr;border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden;min-width:0}
+.gcard:hover{border-color:var(--muted)}
+.gcard[aria-pressed="true"]{outline:2px solid var(--accent);outline-offset:-1px}
+.gcard:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.banner{display:flex;height:54px}
+.banner i{flex:1;display:block}
+.gc-body{padding:12px 14px;display:grid;gap:6px;align-content:start}
+.gc-inst{font:600 11px/1 var(--mono);letter-spacing:.06em;color:var(--muted)}
+.gc-name{font:700 17px/1.2 var(--display)}
+.gc-kind{font-size:12.5px;color:var(--muted)}
+.gc-stats{display:flex;gap:10px;flex-wrap:wrap;font:500 12px var(--mono);color:var(--muted)}
+.sd{font:500 11px/1 var(--mono);padding:3px 5px;border-radius:3px;border:1.5px solid currentColor;white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.profile{display:grid;gap:22px}
+.phead{display:grid;gap:10px;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--surface);position:relative;overflow:hidden}
+.phead .banner{position:absolute;inset:0 0 auto 0;height:6px}
+.phead .meta{font-size:13.5px;color:var(--muted)}
+.links{display:flex;gap:8px;flex-wrap:wrap}
+.btn{font:600 13px/1 var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--line);text-decoration:none;color:var(--fg);background:var(--bg)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);color:var(--muted);font-style:italic;max-width:70ch}
+.themes{display:flex;flex-wrap:wrap;gap:6px}
+.theme{font-size:13px;padding:5px 9px;border-radius:999px;background:var(--chip)}
+.cfqt{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:6px}
+.cf{display:flex;gap:8px;align-items:baseline;font-size:13.5px}
+.panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:12px;align-items:start}
+.panel{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:14px;display:grid;gap:8px;min-width:0}
+.panel h3{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.panel h3 small{font:500 11px var(--mono);color:var(--muted)}
+.it{display:grid;gap:1px;padding:6px 0;border-top:1px solid var(--line)}
+.it:first-of-type{border-top:0}
+.it a,.it b{font-size:13.5px;font-weight:600;color:var(--fg);text-decoration:none;line-height:1.3}
+.it a:hover{color:var(--accent);text-decoration:underline}
+.it .d{font:500 11.5px var(--mono);color:var(--muted)}
+.it .t{font-size:12.5px;color:var(--muted)}
+.tag{font:600 10.5px/1 var(--mono);padding:2px 5px;border-radius:3px;background:var(--chip);color:var(--fg);margin-left:4px;vertical-align:1px}
+.tag.up{background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good)}
+.empty{font-size:13px;color:var(--muted)}
+.mtools{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.mtools input{flex:1 1 240px;min-width:0;font:15px var(--body);padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.mcat{display:grid;gap:8px}
+.mcat h3 small{font:500 12px var(--mono);color:var(--muted);margin-left:6px}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:8px}
+.mem{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 12px;display:grid;gap:3px;min-width:0}
+.mem .n{font-weight:600;font-size:14px}
+.mem .n a{color:var(--fg);text-decoration:none}
+.mem .n a:hover{color:var(--accent);text-decoration:underline}
+.mem .r{font-size:12.5px;color:var(--muted)}
+.mem .p{font-size:13px}
+.mem .p em{font-style:normal;color:var(--muted)}
+.tb{font:600 10.5px/1 var(--mono);padding:2px 5px;border-radius:3px;border:1px solid var(--accent);color:var(--accent);margin-left:6px}
+.clist{display:grid;gap:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:4px 14px}
+.c1{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:8px 0;border-top:1px solid var(--line)}
+.c1:first-child{border-top:0}
+.c1 a{font-weight:600;font-size:14px;color:var(--fg);text-decoration:none}
+.c1 a:hover{color:var(--accent);text-decoration:underline}
+.c1 .m{grid-column:1/3;font-size:12.5px;color:var(--muted);display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.c1 .lv{font:500 12px var(--mono);color:var(--muted)}
+.note{font-size:13px;color:var(--muted);max-width:86ch}
+section{display:grid;gap:12px}
+footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
+footer p{margin:0;max-width:86ch}
+</style>
+
+<div class="wrap">
+  <div class="nav"><span>Danish Quantum Academy · Education mapping</span><a href="index.html">Coverage matrix</a><a href="triangle.html">Course triangle</a><a href="students.html">Study path profiles</a><a href="planner.html">Course finder</a><a href="people.html">Research behind the courses</a></div>
+  <header style="display:grid;gap:10px">
+    <h1>Quantum Research Groups</h1>
+    <p class="lede">Profiles of research groups behind the quantum courses: what they work on, who is in them, what they publish, their projects and funding, news, events, open positions, and the courses their members teach. This is a pilot with one group per university.</p>
+  </header>
+
+  <div class="cards" id="cards" role="group" aria-label="Research groups"></div>
+  <div class="profile" id="profile" aria-live="polite"></div>
+
+  <footer>
+    <p>Sources: each group's own website and its unit in the university's research portal (DTU Orbit, KU research portal, AU Pure, SDU Find Researcher, AAU VBN). Members, positions, projects and recent work were harvested on <span id="harv"></span>. News, events, grants and positions are fetched automatically from the groups' websites every Monday (last run <span id="feedrun"></span>); sources that cannot be read automatically are marked in each panel.</p>
+    <p>The summaries and CFQT tags are written by Danish Quantum Academy and are not the groups' own texts; follow the links for their own descriptions. A member's line shows their current project in the portal, or else their most recent research output. Course links show courses taught by members of the group.</p>
+  </footer>
+</div>
+
+<script id="qdk-data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent);
+  const Q=D.reference.cfqt, G=D.groups, INST=D.reference.institutions;
+  const dcol=d=>`var(--d${d})`, subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&c!==false&&c!==''&&e.append(c));return e};
+  const link=(href,text)=>href?el('a',{href,target:'_blank',rel:'noopener'},text):el('b',{},text);
+  const CATS=['Faculty','Researchers and postdocs','PhD students','Technical and administrative staff','Affiliates and external','Other members'];
+  const today=new Date().toISOString().slice(0,10);
+  const fmt=d=>{if(!d)return'';if(/^\d{4}-\d{2}-\d{2}$/.test(d)){const x=new Date(d+'T12:00:00');return x.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}return d};
+  document.getElementById('harv').textContent=fmt(D.harvested);
+  document.getElementById('feedrun').textContent=D.feeds_generated?fmt(D.feeds_generated.slice(0,10)):'not yet run';
+  const banner=g=>{const doms=g.cfqt.map(s=>s.split('.')[0]);return el('div',{class:'banner','aria-hidden':'true'},...doms.map(d=>el('i',{style:`background:${dcol(d)}`})))};
+  let cur=null;
+  try{const h=location.hash.slice(1);if(G.some(g=>g.key===h))cur=h}catch(e){}
+
+  // ---- cards ----
+  const cards=document.getElementById('cards');
+  function drawCards(){cards.innerHTML='';G.forEach(g=>{
+    const n=c=>g.members.filter(m=>m.cat===c).length;
+    const b=el('button',{class:'gcard',type:'button','aria-pressed':String(cur===g.key),'aria-controls':'profile'},banner(g),
+      el('div',{class:'gc-body'},el('span',{class:'gc-inst'},g.institution+' · '+g.unit),el('span',{class:'gc-name'},g.short),el('span',{class:'gc-kind'},g.kind),
+        el('span',{class:'gc-stats'},el('span',{},`${g.members.length} members`),el('span',{},`${n('PhD students')} PhD`),el('span',{},`${g.courses.length} courses`)),
+        el('div',{class:'chips'},...g.cfqt.slice(0,5).map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)))));
+    b.onclick=()=>{cur=g.key;try{history.replaceState(null,'','#'+g.key)}catch(e){}drawCards();drawProfile();document.getElementById('profile').scrollIntoView({behavior:'smooth',block:'start'})};
+    cards.append(b)})}
+
+  // ---- profile ----
+  function panel(title,items,render,emptyText,extra){
+    const p=el('div',{class:'panel'},el('h3',{},title,items.length?el('small',{},String(items.length)):null));
+    if(items.length) items.forEach(x=>p.append(render(x))); else p.append(el('span',{class:'empty'},emptyText));
+    if(extra)p.append(extra);return p}
+  function drawProfile(){
+    const box=document.getElementById('profile');box.innerHTML='';
+    const g=G.find(x=>x.key===cur);
+    if(!g){box.append(el('p',{class:'note'},'Choose a group above to see its profile.'));return}
+    const F=g.feed||{};const src=(F.sources||[]);
+    // head
+    box.append(el('div',{class:'phead'},banner(g),
+      el('span',{class:'gc-inst',style:'margin-top:4px'},`${g.institution} · ${INST[g.institution].name} · ${g.unit}`),
+      el('h2',{},g.name),el('span',{class:'meta'},g.kind+(g.centres.length?' · '+g.centres.join(' · '):'')),
+      g.quote?el('blockquote',{},`“${g.quote}”`,el('span',{style:'font-style:normal'},' — from the group’s website')):null,
+      el('p',{style:'margin:0;max-width:78ch'},g.summary),
+      el('div',{class:'themes'},...g.themes.map(t=>el('span',{class:'theme'},t))),
+      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},'Group website ↗'),el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'),el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},`Vacancies at ${g.institution} ↗`))));
+    // CFQT
+    box.append(el('section',{},el('h3',{},'Research on the CFQT content map'),
+      el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name)))))));
+    // live panels
+    const news=[...(F.news||[]),...g.press.map(p=>({date:p.date.split('/').reverse().join('-'),title:p.title,url:p.url,text:'Press / media'}))].sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,8);
+    const grants=[...(F.grants||[]),...g.prizes.map(p=>({date:'',title:p.title,url:p.url,text:'Prize · '+p.date}))];
+    const evs=[...(F.events||[]),...g.static_events.filter(e=>!(F.events||[]).some(f=>f.title.startsWith(e.title.slice(0,12)))).map(e=>({date:'',title:e.title,url:g.website,text:e.date})),...g.acts.map(a=>({date:'',title:a.title,url:a.url,text:'Activity · '+a.date}))];
+    evs.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const up=evs.filter(e=>e.date&&e.date>=today), past=evs.filter(e=>!(e.date&&e.date>=today)).slice(0,6);
+    const item=x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'d'},[fmt(x.date),x.text&&x.text.length<60?x.text:''].filter(Boolean).join(' · ')),x.text&&x.text.length>=60?el('span',{class:'t'},x.text.replace(/^\d{1,2}[./]\d{1,2}[./]\d{4}\s*/,'').slice(0,150)):null);
+    const srcNote=k=>{const s=src.filter(x=>x.kind===k);if(!s.length)return el('span',{class:'empty'},'No automatic source for this group yet.');const bad=s.filter(x=>!x.ok);return bad.length?el('span',{class:'empty'},'Last automatic check could not read: '+bad.map(x=>new URL(x.url).host).join(', ')):null};
+    box.append(el('div',{class:'panels'},
+      panel('News',news,item,'No news found on the group’s website or in the portal.',srcNote('news')),
+      panel('Grants and prizes',[...grants,...g.projects.filter(p=>p.funder&&p.type!=='PhD').map(p=>({date:'',title:p.title,url:p.url,text:`${p.funder} · ${p.period}`}))],item,'No grant announcements found in the sources.'),
+      panel('Events',[...up.map(e=>({...e,up:1})),...past],x=>{const n=item(x);if(x.up)n.querySelector('.d').append(el('span',{class:'tag up'},'upcoming'));return n},'No events found.',srcNote('events')),
+      panel('Open positions',F.jobs||[],item,'No positions announced on the group’s pages this week.',el('a',{href:g.jobs_url,target:'_blank',rel:'noopener',style:'font-size:13px'},`All vacancies at ${g.institution} ↗`))));
+    // publications + projects
+    box.append(el('div',{class:'panels'},
+      panel('Latest publications',[...g.pubs,...(F.outputs||[]).filter(o=>!g.pubs.some(p=>p.title===o.title)).slice(0,4).map(o=>({title:o.title,url:o.url,cite:fmt(o.date)}))].slice(0,8),x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'t'},x.cite)),'No publications listed.'),
+      panel('Projects in the research portal',g.projects,x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'d'},[x.type,x.period,x.funder].filter(Boolean).join(' · ')),el('span',{class:'t'},x.people)),'The research portal lists no projects for this unit.')));
+    // members
+    const ms=el('section',{},el('h3',{},`Members (${g.members.length})`));
+    const q=el('input',{type:'search',placeholder:'Search members, projects or topics','aria-label':'Search members'});
+    ms.append(el('div',{class:'mtools'},q,el('span',{class:'note'},'Current project from the portal, or else the most recent research output.')));
+    const mbox=el('div',{style:'display:grid;gap:16px'});ms.append(mbox);
+    const drawM=()=>{mbox.innerHTML='';const t=q.value.trim().toLowerCase();
+      CATS.forEach(c=>{const list=g.members.filter(m=>m.cat===c&&(!t||[m.name,m.role,m.project,m.output].join(' ').toLowerCase().includes(t)));if(!list.length)return;
+        const grid=el('div',{class:'mgrid'});
+        list.forEach(m=>{const res=!/staff|administrat|assistant$|officer|manager|engineer$/i.test(c+' '+m.role)||m.project||m.output;
+          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'teacher'):null),
+            el('span',{class:'r'},m.role||'Position not stated'),
+            m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
+            m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null))});
+        mbox.append(el('div',{class:'mcat'},el('h3',{},c,el('small',{},String(list.length))),grid))})};
+    q.addEventListener('input',drawM);drawM();box.append(ms);
+    // courses
+    const cs=el('section',{},el('h3',{},`Courses taught by members (${g.courses.length})`));
+    if(g.courses.length){const cl=el('div',{class:'clist'});g.courses.forEach(c=>cl.append(el('div',{class:'c1'},c.url?el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title):el('b',{},c.title),el('span',{class:'lv'},[c.institution!==g.institution?c.institution:'',c.code,c.level].filter(Boolean).join(' · ')),
+      el('div',{class:'m'},...c.subs.slice(0,3).map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)),c.teachers.map(t=>`${t.name} (${t.role.toLowerCase()})`).join(', ')))));cs.append(cl)}
+    else cs.append(el('p',{class:'note'},'No members of this group are listed as teachers of the mapped courses.'));
+    box.append(cs);
+  }
+  drawCards();drawProfile();
+  if(!cur){/* open the first group so the page is useful at rest */cur=G[0].key;drawCards();drawProfile()}
+})();
+</script>

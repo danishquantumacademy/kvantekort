@@ -175,4 +175,62 @@ pbody2 = pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</
 (ROOT / "site/people.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody2 + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/people_artifact.html").write_text(pbody2, encoding="utf-8")
 print(f"people: {len(plist)} undervisere, {sum(1 for p in plist if p.get('found'))} med portalprofil")
+# Forskningsgrupper (groups.html): kuraterede beskrivelser + portaldata + ugentlige feeds + tilknyttede kurser.
+gcfg = json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))
+feeds = json.loads((ROOT / "data/groups/feeds.json").read_text(encoding="utf-8")) if (ROOT / "data/groups/feeds.json").exists() else {"groups": {}}
+def member_cat(role):
+    r = role.lower()
+    if re.search(r"affiliate|external", r): return "Affiliates and external"
+    if re.search(r"phd", r): return "PhD students"
+    if re.search(r"professor|group leader|centre leader|executive director", r): return "Faculty"
+    if re.search(r"postdoc|researcher|research consultant|senior consultant|special consultant|research assistant|scientist|specialist|academic staff", r): return "Researchers and postdocs"
+    return "Technical and administrative staff" if r else "Other members"
+import unicodedata
+def nkey(n):
+    t = unicodedata.normalize("NFD", n).encode("ascii", "ignore").decode().lower().replace(".", " ").split()
+    return (t[0], t[-1]) if t else ("", "")
+pmap = {(p["institution"], nkey(p["name"])): p for p in plist}
+groups_out = []
+for g in gcfg["groups"]:
+    txt = (ROOT / f"data/groups/{g['key']}.txt").read_text(encoding="utf-8")
+    members, pubs, projects, press, acts, prizes, events = [], [], [], [], [], [], []
+    for line in txt.splitlines():
+        if not line.strip() or line.startswith("#"): continue
+        f = line.split("||")
+        if f[0] == "P":
+            name, role, path, proj, out_ = (f + [""] * 6)[1:6]
+            per = re.search(r"\[(.*?)\]", proj)
+            years = re.findall(r"(20\d\d)", per[1]) if per else []
+            pp = pmap.get((g["institution"], nkey(name)))
+            members.append({"name": name, "role": role, "cat": member_cat(role), "url": (g["portal_base"] + path) if path else "",
+                            "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]),
+                            "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
+        elif f[0] == "PUBS": pubs.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "cite": f[3] if len(f) > 3 else ""})
+        elif f[0] == "PROJ": projects.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "people": f[3], "period": f[4], "funder": f[5], "type": f[6] if len(f) > 6 else ""})
+        elif f[0] == "PRESS": press.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
+        elif f[0] == "ACT": acts.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
+        elif f[0] == "PRIZE": prizes.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
+        elif f[0] == "EVENT": events.append({"date": f[1], "title": f[2]})
+    bad = [s for s in g["cfqt"] if s not in valid_subs]
+    if bad: raise SystemExit(f"Ugyldig CFQT i gruppe {g['key']}: {bad}")
+    # tilknyttede kurser: undervisere, der er medlem af gruppen eller hører til gruppens enhed
+    names = {nkey(m["name"]) for m in members}
+    crs = {}
+    for p in plist:
+        if p["institution"] != g["institution"] and p.get("employer") != g["institution"]: continue
+        if nkey(p["name"]) in names or any(u in g.get("teacher_units", []) for u in p.get("units", []) + p.get("centres", [])):
+            for c in p.get("courses", []):
+                k = (c["institution"], c["code"])
+                crs.setdefault(k, {**{x: c[x] for x in ("institution", "code", "title", "level", "url", "subs", "mapped")}, "teachers": []})
+                crs[k]["teachers"].append({"name": p["name"], "role": c["role"]})
+    groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "members": members, "pubs": pubs, "projects": projects,
+                       "press": press, "acts": acts, "prizes": prizes, "static_events": events,
+                       "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),
+                       "feed": feeds.get("groups", {}).get(g["key"], {})})
+gout = {"reference": ref, "groups": groups_out, "feeds_generated": feeds.get("generated", ""), "harvested": "2026-11-02"}
+gt = (ROOT / "site/groups_template.html").read_text(encoding="utf-8")
+gbody = gt.replace("/*DATA*/", json.dumps(gout, ensure_ascii=False).replace("</", "<\\/"))
+(ROOT / "site/groups.html").write_text(page.split("<body>\n")[0] + "<body>\n" + gbody + "\n</body>\n</html>\n", encoding="utf-8")
+(ROOT / "site/groups_artifact.html").write_text(gbody, encoding="utf-8")
+print(f"groups: {len(groups_out)} grupper, {sum(len(g['members']) for g in groups_out)} medlemmer")
 print(f"site: {len(courses)} kurser med CFQT-match, {unmapped} uden match (vises ikke)")
