@@ -1,0 +1,315 @@
+<title>Danish Quantum Proficiency Triangle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: header; a row of mini triangles (one per university + Denmark) that act as the selector;
+   then the large CFQT proficiency triangle beside the CFQT content map for the selection; course list below.
+   Triangle geometry follows CFQT v3.0: the outer triangle is split into four congruent triangles; the inverted
+   centre holds A1/A2 in three sectors, the corner triangles hold B1-C2 for areas I (top), II (left), III (right). */
+:root{
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
+  --aI:#6b8a12; --aII:#13729c; --aIII:#a3173d; --empty:#eef0f5;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
+  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
+  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1120px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:32px}
+header{display:grid;gap:10px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.eyebrow a{color:var(--accent);text-decoration:none}
+.eyebrow a:hover{text-decoration:underline}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 20px/1.2 var(--display);margin:0;letter-spacing:-.01em}
+h3{font:600 14px/1.3 var(--body);margin:0}
+.lede{max-width:70ch;color:var(--muted);margin:0}
+.lede strong{color:var(--fg);font-weight:600}
+
+/* selector: mini triangles */
+.picker{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:10px}
+.pick{display:grid;justify-items:center;gap:4px;padding:10px 8px 8px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;color:var(--fg);font:inherit;text-align:center}
+.pick:hover{border-color:var(--muted)}
+.pick[aria-pressed="true"]{border-color:var(--fg);box-shadow:inset 0 0 0 1px var(--fg)}
+.pick:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pick svg{width:100%;max-width:112px;height:auto;display:block}
+.pick .nm{font:600 14px var(--mono)}
+.pick .ct{font-size:12px;color:var(--muted)}
+
+/* main panel */
+.main{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:1fr}}
+.panel{display:grid;gap:12px;min-width:0}
+.tri-wrap{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}
+.tri-wrap svg{width:100%;height:auto;display:block}
+.cell{cursor:pointer;transition:opacity .15s}
+.cell:hover{opacity:.82}
+.cell:focus-visible{outline:none;stroke:var(--fg);stroke-width:3}
+.cell.sel{stroke:var(--fg);stroke-width:3}
+.tri-legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted)}
+.tri-legend .sw{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.levels-key{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px;color:var(--muted)}
+.levels-key b{font:600 12px var(--mono);color:var(--fg)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font:500 13px/1 var(--body);padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.flabel{font-size:12.5px;color:var(--muted);margin-right:4px}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.stat{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--surface);display:grid;gap:2px}
+.stat .k{font-size:12px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.stat .v{font:600 18px var(--mono);font-variant-numeric:tabular-nums}
+.stat .s{font-size:11.5px;color:var(--muted)}
+.dot{width:9px;height:9px;border-radius:2px;display:inline-block;flex:none}
+
+/* content map */
+.cmap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.blk{font:500 10.5px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:2px 2px 0}
+.tile{position:relative;border-radius:8px;padding:9px 10px;min-height:76px;display:grid;align-content:space-between;gap:6px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg);text-align:left;font:inherit;overflow:hidden}
+.tile .bg{position:absolute;inset:0;pointer-events:none}
+.tile>*:not(.bg){position:relative}
+.tile .tn{font:700 12px var(--mono);color:var(--bg);border-radius:4px;padding:2px 6px;justify-self:start}
+.tile .tt{font:600 12.5px/1.25 var(--body)}
+.tile .tc{font:500 11.5px var(--mono);color:var(--muted)}
+.tile.sel{box-shadow:inset 0 0 0 2px var(--fg)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile.zero{opacity:.55}
+.span2{grid-column:span 2}
+
+/* list */
+.list-head{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline}
+.list-head .count{font:500 13px var(--mono);color:var(--muted)}
+.list-head button{font:500 12px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:4px 10px;cursor:pointer}
+.rows{display:grid}
+.row{display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:4px 12px;padding:9px 4px;border-bottom:1px solid var(--line);align-items:baseline}
+.row:hover{background:var(--surface)}
+.ic{font:600 12px var(--mono);color:var(--muted)}
+.ttl a{color:var(--fg);text-decoration:none;font-weight:500}
+.ttl a:hover{color:var(--accent);text-decoration:underline}
+.b{font:500 11.5px/1 var(--mono);padding:5px 7px;border-radius:4px;background:var(--chip);white-space:nowrap}
+.tags{grid-column:2/4;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.sd{font:500 11px/1 var(--mono);padding:3px 5px;border-radius:4px;border:1.5px solid currentColor}
+.sd.p{color:var(--bg)!important}
+.pl{font:600 11px/1 var(--mono);padding:3px 5px;border-radius:4px;background:var(--chip)}
+.empty{padding:20px;color:var(--muted);text-align:center}
+footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
+footer p{margin:0;max-width:80ch}
+footer a{color:var(--accent)}
+@media (max-width:520px){.row{grid-template-columns:40px minmax(0,1fr)}.row .b{grid-column:2;justify-self:start}.stats{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><span>Danish Quantum Academy · Education mapping</span><a href="index.html">Coverage matrix and course list →</a></div>
+    <h1>Danish Quantum Proficiency Triangle</h1>
+    <p class="lede">The <strong>CFQT proficiency triangle</strong> shows how far courses take students in the three proficiency areas of the European Competence Framework for Quantum Technologies: (I) Quantum concepts at the top, (II) QT hardware &amp; software engineering on the left, (III) QT applications &amp; strategies on the right. Levels grow from A1 in the centre to C2 at the corners. Choose a university to see where its courses land. All levels are first estimates, to be validated with course responsibles.</p>
+  </header>
+
+  <section aria-label="Choose university" style="display:grid;gap:10px">
+    <div class="picker" id="picker"></div>
+  </section>
+
+  <div class="main">
+    <section class="panel" aria-labelledby="tri-h">
+      <h2 id="tri-h">Proficiency triangle</h2>
+      <div class="filters" id="lvl-filters"><span class="flabel">Study level</span></div>
+      <div class="tri-wrap"><svg id="tri" role="img" aria-labelledby="tri-title"><title id="tri-title">CFQT proficiency triangle</title></svg></div>
+      <div class="tri-legend">
+        <span><span class="sw" style="background:var(--aI)"></span>(I) Quantum concepts</span>
+        <span><span class="sw" style="background:var(--aII)"></span>(II) QT HW &amp; SW engineering</span>
+        <span><span class="sw" style="background:var(--aIII)"></span>(III) QT applications &amp; strategies</span>
+      </div>
+      <p class="lede" style="font-size:13px">Each band shows the number of courses whose estimated level in that area is exactly that level; darker means more courses. Select a band to list its courses.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="cm-h">
+      <h2 id="cm-h">Selection</h2>
+      <div class="stats" id="stats"></div>
+      <h3 style="margin-top:6px">CFQT content map</h3>
+      <p class="lede" style="font-size:13px;margin-top:-6px">Courses covering each domain (primary or secondary subdomain). Select a domain to list its courses.</p>
+      <div class="cmap" id="cmap"></div>
+      <div class="levels-key" id="levels-key"></div>
+    </section>
+  </div>
+
+  <section style="display:grid;gap:10px" aria-labelledby="list-h">
+    <div class="list-head"><h2 id="list-h">Courses</h2><span class="count" id="count"></span><span id="active"></span></div>
+    <div class="rows" id="list"></div>
+  </section>
+
+  <footer>
+    <p id="cite"></p>
+    <p>Courses without QT-specific proficiency (for example classical optics or nanofabrication courses mapped to CFQT domain 3) appear in the content map but not in the triangle. Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> as part of the mapping task of the European Quantum Academy (Northern European Regional Quantum Academy). Data and code: <a href="https://github.com/danishquantumacademy/kvantekort">github.com/danishquantumacademy/kvantekort</a>.</p>
+  </footer>
+</div>
+
+<script id="qdk-data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent);
+  const R=D.reference, C=D.courses, Q=R.cfqt;
+  const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], DOMS=Object.keys(Q.domains);
+  const INSTS=Object.keys(R.institutions);
+  const LEVEL_ORDER=['BSc','MSc','PhD','Diplom','Master'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
+  const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
+  const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
+  const NS='http://www.w3.org/2000/svg';
+  const state={inst:'ALL',levels:new Set(LEVELS),cell:null,dom:null};
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
+  const sel=inst=>C.filter(c=>(inst==='ALL'||c.institution===inst)&&state.levels.has(c.level));
+
+  // ---- CFQT triangle geometry ----
+  function geometry(W){
+    const h=W*Math.sqrt(3)/2, pad=W*.04;
+    const A=[W/2+pad,pad], BL=[pad,h+pad], BR=[W+pad,h+pad];
+    const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2], lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];
+    const L=mid(A,BL), Rr=mid(A,BR), M=mid(BL,BR), O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];
+    const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]};
+    const cells=[];
+    for(const a of AREAS){
+      const [P1,P2,V]=sides[a];
+      cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});
+      cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});
+      ['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}));
+    }
+    return {W:W+2*pad,H:h+2*pad,A,BL,BR,L,R:Rr,M,O,cells};
+  }
+  const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return [x/pts.length,y/pts.length]};
+  const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
+  const counts=list=>{const m={};AREAS.forEach(a=>LV.forEach(l=>m[a+l]=0));list.forEach(c=>AREAS.forEach(a=>{if(c.prof[a])m[a+c.prof[a]]++}));return m};
+  const op=(n,max)=>n<=0?0:.16+.74*Math.sqrt(n/max);
+
+  function drawTriangle(svg,list,opts){
+    const g=geometry(opts.W); svg.setAttribute('viewBox',`0 0 ${g.W.toFixed(0)} ${(g.H+(opts.labels?30:0)).toFixed(0)}`);
+    while(svg.lastChild&&svg.lastChild.tagName!=='title') svg.removeChild(svg.lastChild);
+    const m=counts(list), max=opts.max||Math.max(1,...Object.values(m));
+    g.cells.forEach(c=>{
+      const n=m[c.a+c.l];
+      const poly=sv('polygon',{points:P(c.pts),fill:n?acol(c.a):'var(--empty)','fill-opacity':n?op(n,max).toFixed(2):'1',stroke:'var(--surface)','stroke-width':opts.labels?1.5:1});
+      if(opts.labels){
+        poly.setAttribute('class','cell'+(state.cell&&state.cell.a===c.a&&state.cell.l===c.l?' sel':''));
+        poly.setAttribute('tabindex','0'); poly.setAttribute('role','button');
+        const label=`(${c.a}) ${Q.areas[c.a]} – ${c.l} ${Q.levels[c.l]}: ${Q.level_by_area[c.a][c.l]}. ${n} course(s).`;
+        poly.setAttribute('aria-label',label); poly.append(sv('title',{},label));
+        const act=()=>{state.cell=(state.cell&&state.cell.a===c.a&&state.cell.l===c.l)?null:{a:c.a,l:c.l};state.dom=null;render()};
+        poly.addEventListener('click',act); poly.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();act()}});
+      }
+      svg.append(poly);
+      if(opts.labels){
+        const [x,y]=centroid(c.pts), dark=n&&op(n,max)>.55, small=c.l==='A1';
+        const t=sv('text',{x:x.toFixed(1),y:(y-(small?1:4)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:11,'font-weight':600,fill:dark?'var(--bg)':'var(--muted)','pointer-events':'none'},c.l);
+        svg.append(t);
+        if(!small||n) svg.append(sv('text',{x:x.toFixed(1),y:(y+(small?9:11)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:13,'font-weight':700,fill:dark?'var(--bg)':(n?'var(--fg)':'var(--muted)'),'pointer-events':'none'},n?String(n):'–'));
+      }
+    });
+    // area bars, as in the CFQT figure
+    const bw=opts.labels?7:3.5;
+    [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':bw,'stroke-linecap':'round','pointer-events':'none'})));
+    svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':opts.labels?1.2:.8,'pointer-events':'none'}));
+    if(opts.labels){
+      const fs=12, tx=(x,y,txt,anchor,col)=>svg.append(sv('text',{x,y,'text-anchor':anchor,'font-family':'IBM Plex Sans, sans-serif','font-size':fs,'font-weight':600,fill:col},txt));
+      tx(g.A[0],g.A[1]-4+0,'','middle','var(--fg)');
+      tx(g.BL[0],g.H+20,'(II) Develop new QT','start',acol('II'));
+      tx(g.BR[0],g.H+20,'Develop QT strategies (III)','end',acol('III'));
+      const mi=[(g.L[0]+g.R[0])/2,g.L[1]];
+      svg.append(sv('rect',{x:mi[0]-62,y:mi[1]-9,width:124,height:18,rx:3,fill:acol('I')}));
+      svg.append(sv('text',{x:mi[0],y:mi[1]+4,'text-anchor':'middle','font-family':'IBM Plex Sans, sans-serif','font-size':11,'font-weight':600,fill:'var(--bg)'},'(I) Quantum concepts'));
+    }
+    return m;
+  }
+
+  // ---- picker (mini triangles) ----
+  const picker=document.getElementById('picker');
+  const opts=['ALL',...INSTS];
+  function renderPicker(){
+    picker.innerHTML='';
+    const all=opts.map(k=>counts(sel(k))); const gmax=Math.max(1,...all.flatMap(m=>Object.values(m)));
+    opts.forEach((k,i)=>{
+      const svg=sv('svg',{'aria-hidden':'true'});
+      const list=sel(k);
+      drawTriangle(svg,list,{W:200,max:gmax});
+      const b=el('button',{class:'pick',type:'button','aria-pressed':String(state.inst===k),title:k==='ALL'?'All Danish universities':R.institutions[k].name},svg,el('span',{class:'nm'},k==='ALL'?'Denmark':k),el('span',{class:'ct'},`${list.filter(c=>Object.keys(c.prof).length).length} with QT proficiency`));
+      b.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;render()};
+      picker.append(b);
+    });
+  }
+
+  // ---- level filter ----
+  const lf=document.getElementById('lvl-filters');
+  LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':'true'},LEVEL_LABEL[L]||L);b.onclick=()=>{if(state.levels.has(L)){if(state.levels.size===1)return;state.levels.delete(L)}else state.levels.add(L);b.setAttribute('aria-pressed',String(state.levels.has(L)));state.cell=null;render()};lf.append(b)});
+
+  // ---- levels key ----
+  const lk=document.getElementById('levels-key');
+  LV.forEach(l=>lk.append(el('b',{},l),el('span',{},Q.levels[l])));
+
+  function renderStats(list){
+    const s=document.getElementById('stats'); s.innerHTML='';
+    AREAS.forEach(a=>{
+      const with_=list.filter(c=>c.prof[a]); const top=with_.reduce((m,c)=>Math.max(m,LV.indexOf(c.prof[a])),-1);
+      s.append(el('div',{class:'stat'},el('span',{class:'k'},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),el('span',{class:'v'},String(with_.length)),el('span',{class:'s'},top>=0?`courses; highest ${LV[top]} ${Q.levels[LV[top]]}`:'no courses')));
+    });
+  }
+
+  function renderCmap(list){
+    const box=document.getElementById('cmap'); box.innerHTML='';
+    const cnt=d=>list.filter(c=>c.subs.some(s=>s.split('.')[0]===d)).length;
+    const prim=d=>list.filter(c=>c.domain===d).length;
+    const max=Math.max(1,...DOMS.map(cnt));
+    const tile=(d,extra='')=>{const n=cnt(d); const t=el('button',{type:'button',class:'tile'+(extra?' '+extra:'')+(n?'':' zero')+(state.dom===d?' sel':''),title:`${d} ${Q.domains[d].name}: ${n} course(s), ${prim(d)} with this as primary domain`},
+      el('span',{class:'bg',style:`background:${dcol(d)};opacity:${n?(.06+.32*Math.sqrt(n/max)).toFixed(2):0}`}),
+      el('span',{class:'tn',style:`background:${dcol(d)}`},d),el('span',{class:'tt'},Q.domains[d].name),el('span',{class:'tc'},`${n} course${n===1?'':'s'} · ${prim(d)} primary`));
+      t.onclick=()=>{state.dom=state.dom===d?null:d;state.cell=null;render()}; return t;};
+    box.append(el('div',{class:'blk',style:'grid-column:1/-1'},Q.blocks.QB));
+    box.append(tile('1'),tile('2','span2'));
+    box.append(el('div',{class:'blk'},Q.blocks.CDT),el('div',{class:'blk span2'},Q.blocks.QSA));
+    box.append(tile('3'),tile('5'),tile('7'),tile('4'),tile('6'),tile('8'));
+  }
+
+  function renderList(list){
+    const box=document.getElementById('list'); box.innerHTML='';
+    let f=list, label='';
+    if(state.cell){f=list.filter(c=>c.prof[state.cell.a]===state.cell.l); label=`(${state.cell.a}) ${Q.areas[state.cell.a]} at ${state.cell.l} ${Q.levels[state.cell.l]}`}
+    else if(state.dom){f=list.filter(c=>c.subs.some(s=>s.split('.')[0]===state.dom)); label=`Domain ${state.dom} ${Q.domains[state.dom].name}`}
+    else f=list.filter(c=>Object.keys(c.prof).length);
+    const where=state.inst==='ALL'?'Denmark':state.inst;
+    document.getElementById('count').textContent=`${f.length} course${f.length===1?'':'s'} · ${where}`;
+    const act=document.getElementById('active'); act.innerHTML='';
+    if(label){const b=el('button',{type:'button'},'Clear'); b.onclick=()=>{state.cell=null;state.dom=null;render()}; act.append(el('span',{style:'font-size:13px;margin-right:8px'},label),b)}
+    else act.append(el('span',{style:'font-size:13px;color:var(--muted)'},'All courses with QT-specific proficiency. Select a band or a domain to narrow down.'));
+    if(!f.length){box.append(el('div',{class:'empty'},'No courses in this selection.'));return}
+    f.sort((a,b)=>{const ka=state.cell?0:-Math.max(...Object.values(a.prof).map(p=>LV.indexOf(p)),-1), kb=state.cell?0:-Math.max(...Object.values(b.prof).map(p=>LV.indexOf(p)),-1); return ka-kb||a.institution.localeCompare(b.institution)||a.title.localeCompare(b.title)});
+    f.forEach(c=>{
+      const tags=el('div',{class:'tags'});
+      Object.entries(c.prof).forEach(([a,l])=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${l} ${Q.levels[l]}`},`${a} ${l}`)));
+      c.subs.forEach((s,i)=>{const d=s.split('.')[0]; tags.append(el('span',{class:'sd'+(i?'':' p'),style:`color:${dcol(d)};${i?'':`background:${dcol(d)};border-color:${dcol(d)}`}`,title:subName(s)},s))});
+      box.append(el('div',{class:'row'},el('span',{class:'ic'},c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),el('span',{class:'b'},`${LEVEL_LABEL[c.level]||c.level} · ${c.ects??'–'} ECTS`),tags));
+    });
+  }
+
+  function render(){
+    const list=sel(state.inst);
+    renderPicker();
+    document.getElementById('tri-h').textContent=`Proficiency triangle · ${state.inst==='ALL'?'Denmark':R.institutions[state.inst].name}`;
+    drawTriangle(document.getElementById('tri'),list,{W:600,labels:true});
+    renderStats(list); renderCmap(list); renderList(list);
+  }
+  const cite=document.getElementById('cite');
+  cite.append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The triangle layout, areas, levels and domains are taken from the framework. The assignment of courses is Danish Quantum Academy\'s own estimate.');
+  render();
+})();
+</script>

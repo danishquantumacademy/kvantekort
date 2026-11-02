@@ -49,4 +49,11 @@ page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n
         "</head>\n<body>\n" + body + "\n</body>\n</html>\n")
 (ROOT / "site/index.html").write_text(page, encoding="utf-8")
 (ROOT / "site/artifact.html").write_text(body, encoding="utf-8")  # til claude.ai-preview
+
+# Trekant-siden (CFQT proficiency triangle) bygges af de samme data.
+ttpl = (ROOT / "site/triangle_template.html").read_text(encoding="utf-8")
+tbody = ttpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/"))
+tpage = page.split("<body>\n")[0] + "<body>\n" + tbody + "\n</body>\n</html>\n"
+(ROOT / "site/triangle.html").write_text(tpage, encoding="utf-8")
+(ROOT / "site/triangle_artifact.html").write_text(tbody, encoding="utf-8")
 print(f"site: {len(courses)} kurser med CFQT-match, {unmapped} uden match (vises ikke)")
