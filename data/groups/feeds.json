@@ -1,0 +1,658 @@
+{
+ "generated": "2026-11-02T17:15Z",
+ "groups": {
+  "qpit": {
+   "news": [
+    {
+     "date": "2019-06-12",
+     "title": "Interview om kvantecomputing og fintech til Børsen",
+     "url": "https://orbit.dtu.dk/en/clippings/interview-om-kvantecomputing-og-fintech-til-b%C3%B8rsen/",
+     "text": "",
+     "kind": "press",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+    },
+    {
+     "date": "2018-08-16",
+     "title": "Interview til DR P1 Kulturen om den grafiske roman “Thanatos”",
+     "url": "https://orbit.dtu.dk/en/clippings/interview-til-dr-p1-kulturen-om-den-grafiske-roman-thanatos/",
+     "text": "",
+     "kind": "press",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+    },
+    {
+     "date": "2018-01-09",
+     "title": "\"Finn Foton og kvantefysikken\" i nyhederne på TV2 Østjylland",
+     "url": "https://orbit.dtu.dk/en/clippings/finn-foton-og-kvantefysikken-i-nyhederne-p%C3%A5-tv2-%C3%B8stjylland/",
+     "text": "",
+     "kind": "press",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-01-26",
+     "title": "QST-Hackaton 2026, DTU, Copenhagen",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "26-30 January 2026",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2023-12-18",
+     "title": "Workshop on Guassian and Non-Gaussian Quantum Correlations",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "18-20 December 2023",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2022-12-14",
+     "title": "Workshop on Continuous-Variable Photonic Quantum Computing , Hotel Scandic Falkoner, Copenhagen",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "14-15 December 2022",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2022-09-06",
+     "title": "Workshop on Continuous-Variable Quantum Correlations , Carlsberg Foundation, Copenhagen",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "6-8 September 2022",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2022-04-27",
+     "title": "bigQ symposium on Quantum Information Science 2022 , Carlsberg Foundation, Copenhagen",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "27-28 April 2022",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-09-14",
+     "title": "Catxere Andrade Casacio , University of Queensland, Australia",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "14 September 2021, 11:00",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-06-01",
+     "title": "David Vitali , University of Camerino, Italy",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "1 June 2021, 11:30",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-05-07",
+     "title": "Elizabeth Agudelo Ospina , IQOQI Vienna, Austria",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "7 May 2021, 10:30",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-05-04",
+     "title": "Yiwen Chu , Swiss Federal Institute of Technology in Zurich, Switzerland",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "4 May 2021, 11:30",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-04-13",
+     "title": "Giulia Ferrini , Chalmers University of Technology, Gothenburg, Sweden",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "13 April 2021, 11:30",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-04-06",
+     "title": "Avi Pe'er , Bar-Ilan University, Ramat Gan, Israel",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "6 April 2021, 11:30",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    },
+    {
+     "date": "2021-03-23",
+     "title": "George Moreno , IIP Natal, Brazil",
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "text": "23 March 2021, 14:00",
+     "source": "https://physics.dtu.dk/research/sections/qpit/Events"
+    }
+   ],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-01-01",
+     "title": "Continuous Variable Measurement-Device-Independent Quantum Certification",
+     "url": "https://orbit.dtu.dk/en/publications/continuous-variable-measurement-device-independent-quantum-certif/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+    },
+    {
+     "date": "2025-07-09",
+     "title": "A system for signal mode-matching for quantum key distribution setups",
+     "url": "https://orbit.dtu.dk/en/publications/a-system-for-signal-mode-matching-for-quantum-key-distribution-se/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+    },
+    {
+     "date": "2025-07-02",
+     "title": "A multi-dimensional cluster state generation system",
+     "url": "https://orbit.dtu.dk/en/publications/a-multi-dimensional-cluster-state-generation-system/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://physics.dtu.dk/research/sections/qpit/Events",
+     "kind": "events",
+     "ok": true,
+     "n": 14,
+     "checked": "2026-11-02T17:15Z"
+    },
+    {
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 6,
+     "checked": "2026-11-02T17:15Z"
+    }
+   ]
+  },
+  "nqcp": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-10-13",
+     "title": "Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems",
+     "url": "https://researchprofiles.ku.dk/en/publications/ancilla-train-quantum-algorithm-for-simulating-non-markovian-open/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/nqcp/"
+    },
+    {
+     "date": "2026-09-11",
+     "title": "Artificial Intelligence-Assisted Workflow for Transmission Electron Microscopy: From Data Analysis Automation to Materials Knowledge Unveiling",
+     "url": "https://researchprofiles.ku.dk/en/publications/artificial-intelligence-assisted-workflow-for-transmission-electr/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/nqcp/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "A Tutorial on Mechanistic Modeling of Nonstatistical Reactivity: Example of Light and Heat Effects in the Garratt-Braverman/[1,5]-H Shift of Ene-diallenes",
+     "url": "https://researchprofiles.ku.dk/en/publications/a-tutorial-on-mechanistic-modeling-of-nonstatistical-reactivity-e/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/nqcp/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://researchprofiles.ku.dk/en/organisations/nqcp/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 3,
+     "checked": "2026-11-02T17:15Z"
+    },
+    {
+     "url": "https://nqcp.ku.dk/news/",
+     "kind": "news",
+     "ok": false,
+     "error": "<urlopen error timed out>",
+     "checked": "2026-11-02T17:15Z"
+    }
+   ]
+  },
+  "ccq": {
+   "news": [
+    {
+     "date": "2025-11-13",
+     "title": "Mai Korsbæk",
+     "url": "mailto:mkorsbaek@phys.au.dk?subject=t3Pageid:129294_t3PageUrl:http://phys.au.dk/ccq/news",
+     "text": "Revideret 13.11.2025 -",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2024-04-15",
+     "title": "PhD defence - Toke Vibel",
+     "url": "https://phys.au.dk/ccq/show/artikel/default-9fed1302f8",
+     "text": "15. april 2024 - Science and Technology Congratulations to Toke Vibel, who succesfully defended his PhD thesis on 9 April 2024",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-05-16",
+     "title": "New intern - Rogier Venderbosch",
+     "url": "https://phys.au.dk/ccq/show/artikel/new-intern-rogier-venderbosch",
+     "text": "16. maj 2023 May 8th Rogier Venderbosch began a 3 months internship at CCQ",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-05-02",
+     "title": "New PhD Student - Daniel Holleufer",
+     "url": "https://phys.au.dk/ccq/show/artikel/new-phd-students-daniel-holleufer",
+     "text": "02. maj 2023 On May 1st Daniel Holleufer joined CCQ as a PhD student",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-04-20",
+     "title": "Heat can freeze fluids in the quantum world",
+     "url": "https://phys.au.dk/ccq/show/artikel/heat-can-freeze-fluids-in-the-quantum-world",
+     "text": "20. april 2023 - Science and Technology New paper in Nature Communication",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-04-17",
+     "title": "New employee: Anna Katrine Mathiassen",
+     "url": "https://phys.au.dk/ccq/show/artikel/new-temporary-center-manager-anna-katrine-mathiassen",
+     "text": "17. april 2023 - Science and Technology Anna Katrine Mathiassen joins CCQ as temporary Center Manager on 17 April 2023",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-03-14",
+     "title": "New PhD Student - Laurits Nikolaj Stokholm",
+     "url": "https://phys.au.dk/ccq/show/artikel/new-phd-student-laurits-nikolaj-stokholm",
+     "text": "14. marts 2023 - Science and Technology On 1 February 2023 Laurits Nikolaj Stokholm joined CCQ as PhD student",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-02-24",
+     "title": "New Postdoc - Sumanta Khan",
+     "url": "https://phys.au.dk/ccq/show/artikel/new-postdoc-sumanta-khan",
+     "text": "24. februar 2023 - Science and Technology Sumanta Khan joins the Center for Complex Quantum Systems in February 2023",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2023-02-10",
+     "title": "New PhD Student - Maximilian Baron",
+     "url": "https://phys.au.dk/ccq/show/artikel/new-phd-student-maximilian-baron",
+     "text": "10. februar 2023 - Science and Technology In December 2022, Maximilian Baron joined Michael Drewsen’s group at CCQ.",
+     "source": "https://phys.au.dk/ccq/news"
+    },
+    {
+     "date": "2022-12-15",
+     "title": "Stop motion of a hole in a quantum magnet",
+     "url": "https://phys.au.dk/ccq/show/artikel/stop-motion-of-a-hole-in-a-quantum-magnet",
+     "text": "15. december 2022 - Science and Technology New paper in Physical Review Letters",
+     "source": "https://phys.au.dk/ccq/news"
+    }
+   ],
+   "events": [
+    {
+     "date": "2025-11-13",
+     "title": "Mai Korsbæk",
+     "url": "mailto:mkorsbaek@phys.au.dk?subject=t3Pageid:131995_t3PageUrl:http://phys.au.dk/ccq/events",
+     "text": "Revideret 13.11.2025 -",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2024-01-16",
+     "title": "Quantum Science Colloquium: Nikolaos Proukakis",
+     "url": "https://phys.au.dk/ccq/show/artikel/quantum-science-colloquium-nikolaos-proukakis",
+     "text": "16 jan. 1022 dage, Tirsdag 16. januar 2024, kl. 11:00 - . 1525-626 Join us when Nikolaos Proukakis visits us. He will give a talk titled: Dissipation in ultracold quantum gases",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-09-28",
+     "title": "Quantum Science Colloquium: Ashley Cook",
+     "url": "https://phys.au.dk/ccq/show/artikel/default-9c6c9c4503",
+     "text": "28 sep. Torsdag 28. september 2023, kl. 14:30 1525-626 Join us for the next colloquium where Ashley Cook will give a talk titled: Generalising the framework of the quantum Hall effect",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-09-14",
+     "title": "Quantum Science Colloquium - Alexei Ourjoumtsev",
+     "url": "https://phys.au.dk/ccq/show/artikel/quantum-science-colloquium-alexei-ourjoumtsev",
+     "text": "14 sep. Torsdag 14. september 2023, kl. 15:00 1525-626 Speaker: Alexei Ourjoumtsev, Collège de France, Paris Title: Quantum engineering of light with an intracavity Rydberg superatom Abstract: This…",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-08-21",
+     "title": "Conference: Impurity Physics with Cold Atoms and Ions",
+     "url": "https://phys.au.dk/ccq/events/workshops-and-conferences/ccq-conference-impurity-physics-with-cold-atoms-and-ions",
+     "text": "21 aug. 3 dage, Mandag 21. august 2023, kl. 08:00 - 23. august",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-08-09",
+     "title": "Quantum Science Colloquium - Adi Pick",
+     "url": "https://phys.au.dk/aktuelt/nyhed/artikel/quantum-science-colloquium-adi-pick",
+     "text": "9 aug. Onsdag 9. august 2023, kl. 15:00",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-06-29",
+     "title": "Quantum Science Colloquium - Offek Tziperman-Lotan",
+     "url": "https://phys.au.dk/ccq/show/artikel/quantum-science-colloquium-offek-tziperman-lotan",
+     "text": "29 jun. Torsdag 29. juni 2023, kl. 14:00 1525-626 Title: Spontaneous emission from correlated emitters",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-06-16",
+     "title": "CCQ Round Table Meeting - Christian Saugbjerg Lange",
+     "url": "https://phys.au.dk/ccq/show/artikel/ccq-round-table-meeting-christian-saubjerg-a",
+     "text": "16 jun. Fredag 16. juni 2023, kl. 15:00 1520-732",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-06-14",
+     "title": "CCQ Lunch Seminar - Fan Yang",
+     "url": "https://phys.au.dk/ccq/show/artikel/ccq-lunch-seminar-fan-yang",
+     "text": "14 jun. Onsdag 14. juni 2023, kl. 11:30 1525-626 Title: Continuous time crystal and emergent Hilbert space fragmentation with Rydberg atoms",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-06-02",
+     "title": "CCQ Round Table Meeting - Anton Andersen",
+     "url": "https://phys.au.dk/ccq/show/artikel/ccq-round-table-meeting-anton-andersen",
+     "text": "2 jun. Fredag 2. juni 2023, kl. 15:00 1520-732",
+     "source": "https://phys.au.dk/ccq/events"
+    },
+    {
+     "date": "2023-05-25",
+     "title": "Quantum Science Colloquium - Jesús Pérez Ríos",
+     "url": "https://phys.au.dk/ccq/show/artikel/quantum-science-colloquium-jesus-perez-rios",
+     "text": "25 maj Torsdag 25. maj 2023, kl. 15:00 1525-626 Title: Dark Matter searches with atomic and molecular systems Abstract: Atomic, molecular, and optical physics has evolved rapidly in the last years,…",
+     "source": "https://phys.au.dk/ccq/events"
+    }
+   ],
+   "grants": [
+    {
+     "date": "2023-06-12",
+     "title": "CCQ attracts EU grant",
+     "url": "https://phys.au.dk/ccq/show/artikel/ccq-attracts-eu-grant",
+     "text": "12. juni 2023 - Natur og teknologi Jan Kumlin from the DNRF Center for Complex Quantum Systems has been awarded a Marie Skłodowska-Curie Postdoctoral Fellowship from the European Union.…",
+     "source": "https://phys.au.dk/ccq/news"
+    }
+   ],
+   "jobs": [],
+   "outputs": [],
+   "sources": [
+    {
+     "url": "https://phys.au.dk/ccq/news",
+     "kind": "news",
+     "ok": true,
+     "n": 11,
+     "checked": "2026-11-02T17:15Z"
+    },
+    {
+     "url": "https://phys.au.dk/ccq/events",
+     "kind": "events",
+     "ok": true,
+     "n": 11,
+     "checked": "2026-11-02T17:15Z"
+    }
+   ]
+  },
+  "polima": {
+   "news": [
+    {
+     "date": "2026-10-20",
+     "title": "Yonas Lebsir PhD defense",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/yonas-lebsir-phd-defense",
+     "text": "20.10.2026 Title of PhD thesis: “Controlling Optical Excitations in Nanoscale Resonators and Two-Dimensional Materials”",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-09-14",
+     "title": "From CNR-Nano in Modena to POLIMA",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/from-cnr-nano-in-modena-to-polima",
+     "text": "14.09.2026 Costanza Borghesi joins POLIMA as Postdoc to explore how artificial intelligence could change the way we predict the optical properties of solids.",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-09-09",
+     "title": "New POLIMA PhD student from the University of Crete",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/new-polima-phd-student-from-the-university-of-crete",
+     "text": "09.09.2026 PhD project focusing on strong light matter interactions exploring Mie-Exciton systems using primarily Cathodoluminescence spectroscopy.",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-08-21",
+     "title": "Professor inaugural seminar",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/professor-inaugural-seminar",
+     "text": "21.08.2026 20 August 2026, POLIMA celebrated the appointment to Professor of Joel D Cox and Christos Tserkezis",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-08-14",
+     "title": "16th International Conference on Metamaterials, Photonic Crystals and Plasmonics",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/16th-international-conference-on-metamaterials-photonic-crystals-and-plasmonics",
+     "text": "14.08.2026 POLIMA researchers went to Dublin in July",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-08-07",
+     "title": "POLIMA celebrates its 100th scientific publication",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/polima-celebrates-its-100th-scientific-publication",
+     "text": "07.08.2026 'Velocity-Tunable Exciton-Photon Hybridization in Cathodoluminescence' in Advanced Functional Materials",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-08-07",
+     "title": "MSc Thesis Defense",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/msc-thesis-defense",
+     "text": "07.08.2026 POLIMA Celebrates the Successful Defense of MSc Student Frederik W. Christensen",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-08-03",
+     "title": "Nonlocal and Nonlinear Plasmonics in Atomically Thin Heterostructures",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/nonlocal-and-nonlinear-plasmonics-in-atomically-thin-heterostructures",
+     "text": "03.08.2026 A new theoretical study published in ACS Nano shows how interactions between electrically tunable graphene and phosphorene nanoribbons can be used to control and selectively enhance nonlinear optical processes",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-07-09",
+     "title": "Master thesis defense",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/master-thesis-defense",
+     "text": "09.07.2026 19 June, Viktor Damsgaard Skarby succefully defended his Master thesis",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "PhD Defense and visit from Birmingham",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/phd-defense-and-visit-from-birmingham",
+     "text": "30.06.2026 29 June Nikolaos Kyvelos successfully defended his PhD thesis.",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-06-18",
+     "title": "Visit from Brazil",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/visit-from-brazil",
+     "text": "18.06.2026 PhD student Victor Duarte spends the week at POLIMA",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2026-06-12",
+     "title": "Summer visit from Joel Yang",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/summer-visit-from-joel-yang",
+     "text": "12.06.2026 Visiting Professor Joel Yang spends June at POLIMA",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-11-05",
+     "title": "PhD Defense Sven Ebel",
+     "url": "https://www.sdu.dk/en/forskning/polima/events/phd-defense-sven-ebel",
+     "text": "Title of the thesis: Cathodoluminescence Spectroscopy of Nanoscale Light-Matter Interactions 5 November 2026",
+     "source": "https://www.sdu.dk/en/forskning/polima/events"
+    },
+    {
+     "date": "2026-11-04",
+     "title": "Seminar: Mathieu Kociak",
+     "url": "https://www.sdu.dk/en/forskning/polima/events/seminar-mathieu-kociak",
+     "text": "Polima invites for a seminar with Professor Mathieu Kociak from Université Paris-Saclay 4 November 2026",
+     "source": "https://www.sdu.dk/en/forskning/polima/events"
+    }
+   ],
+   "grants": [
+    {
+     "date": "2025-12-18",
+     "title": "AI to make quantum physics more accessible and sustainable",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/ai-skal-goere-kvantefysik-mere-tilgaengelig-og-baeredygtig",
+     "text": "18.12.2025 Line Jelver, a newly appointed assistant professor at the University of Southern Denmark (SDU), has received DKK 13.3 million from the Novo Nordisk Foundation. By integrating advanced language models with supe",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2025-12-04",
+     "title": "DNRF Photo Competition",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/dnrf-photo-competition",
+     "text": "04.12.2025 POLIMA photo was selected as one of the top 10 images",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2025-09-09",
+     "title": "When electrons stand still – SDU researcher receives 18.8 million DKK from Novo Nordisk Foundation",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/nicolas-ubrig-modtager-19-millioner-kr-fra-novo-nordisk-fonden",
+     "text": "09.09.2025 Nicolas Ubrig receives 18.8 million DKK to explore current-free technology.",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2025-01-24",
+     "title": "Young physicist receives prestigious grant and returns to SDU",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/andre-vender-tilbage-til-sdu",
+     "text": "24.01.2025 How do light and matter behave at the nanoscale? This is one of the key questions physicist P. André D. Gonçalves will investigate as he returns to the Faculty of Engineering at SDU, supported by a Villum Youn",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2024-11-05",
+     "title": "P. Elli Stamatopoulou receives prestigious grant from the Villum Foundation",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/panagiota-elli-stamatopoulou-modtager-prestigefuld-bevilling-fra-villum-fonden",
+     "text": "05.11.2024 Villum Foundation awards over 16 million DKK to seven excellent female researchers in technical and natural sciences. One of them is P. Elli Stamatopoulou.",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "OWTNM Workshop 2024",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/owtnm-workshop-2024",
+     "text": "03.06.2024 POLIMA PhD students visit the OWTNM Workshop 2024 in Kiel and receive poster award",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2024-01-18",
+     "title": "Sven Ebel receives award",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/sven-ebel-receives-award",
+     "text": "18.01.2024 PhD student at POLIMA awarded a best poster presentation at NANOMeta2024",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2023-12-01",
+     "title": "Mikkel Have Eriksen receives award",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/mikkel-have-eriksen-receives-award",
+     "text": "01.12.2023 PhD student at POLIMA awarded best poster presentation at NANOP2023",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2023-06-23",
+     "title": "New Marie Skłodowska-Curie Postdoctoral grant at POLIMA",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/new-marie-sklodowska-curie-postdoctoral-grant-at-polima",
+     "text": "23.06.2023 Zhengli Han has received a Marie Curie Postdoctoral grant and started 1 June in POLIMA",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2023-03-22",
+     "title": "Brobdingnagian photon bunching in cathodoluminescence of 2D excitons",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/brobdingnagian-photon-bunching-in-cathodoluminescence-of-2d-excitons",
+     "text": "22.03.2023 New paper published in collaboration with DNRF Center for Nanostructured Graphene and The Chinese University of Hong Kong.",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2022-12-01",
+     "title": "POLIMA - new Center of Excellence",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/polima-new-center-of-excellence",
+     "text": "01.12.2022 DNRF has granted 60 million DKK for POLIMA - a new Center of Excellence",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    }
+   ],
+   "jobs": [],
+   "outputs": [],
+   "sources": [
+    {
+     "url": "https://www.sdu.dk/en/forskning/polima/news",
+     "kind": "news",
+     "ok": true,
+     "n": 108,
+     "checked": "2026-11-02T17:15Z"
+    },
+    {
+     "url": "https://www.sdu.dk/en/forskning/polima/events",
+     "kind": "events",
+     "ok": true,
+     "n": 2,
+     "checked": "2026-11-02T17:15Z"
+    }
+   ]
+  },
+  "classique": {
+   "news": [
+    {
+     "date": "2026-10-31",
+     "title": "Vi reagerer i slowmotion på AI-agenternes stormløb. Spørgsmålet er, hvordan vi holder mennesket i centrum",
+     "url": "https://vbn.aau.dk/en/clippings/vi-reagerer-i-slowmotion-p%C3%A5-ai-agenternes-storml%C3%B8b-sp%C3%B8rgsm%C3%A5let-er/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    },
+    {
+     "date": "2026-10-20",
+     "title": "Quantum networks at QCE26 met the weather",
+     "url": "https://vbn.aau.dk/en/clippings/quantum-networks-at-qce26-met-the-weather/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    },
+    {
+     "date": "2026-09-15",
+     "title": "Kvantify workshop explores tools for efficient quantum programming",
+     "url": "https://vbn.aau.dk/en/clippings/kvantify-workshop-explores-tools-for-efficient-quantum-programmin/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    }
+   ],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-06-03",
+     "title": "Access Protocols for Segmented Waveguide-Enabled Pinching-Antenna Systems (SWANs)",
+     "url": "https://vbn.aau.dk/en/publications/access-protocols-for-segmented-waveguide-enabled-pinching-antenna/",
+     "text": "",
+     "kind": "output",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "A Combined Push-Pull Access Framework for Digital Twin Alignment and Anomaly Reporting",
+     "url": "https://vbn.aau.dk/en/publications/a-combined-push-pull-access-framework-for-digital-twin-alignment--2/",
+     "text": "",
+     "kind": "output",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    },
+    {
+     "date": "2026-01-12",
+     "title": "1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication",
+     "url": "https://vbn.aau.dk/en/publications/1q-first-generation-wireless-systems-integrating-classical-and-qu-2/",
+     "text": "",
+     "kind": "output",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 6,
+     "checked": "2026-11-02T17:15Z"
+    }
+   ]
+  }
+ }
+}
