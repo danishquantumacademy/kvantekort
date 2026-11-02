@@ -1,0 +1,51 @@
+institution,level,code,ref,url,title,language,ects,dept,relevance,track,kw_strong,kw_medium,note
+SDU,BSc,FY544,,,Quantum mechanics I,Danish or English,5,FKF,1,QM,24,6,
+SDU,BSc,FY547,,,Quantum mechanics II,Danish or English,5,FKF,1,QM,6,2,
+SDU,BSc,FY560,,,Physics of Quantum Matter,English,5,FKF,1,QM,6,9,samme indhold som FY845
+SDU,BSc,KE522,,,Quantum Chemistry and Theoretical Spectroscopy,Danish,10,FKF,1,QM,15,23,
+SDU,BSc,KE554,,,Quantum chemistry for medicinal chemistry,Danish,5,FKF,1,QM,12,18,
+SDU,BSc,KE540,,,Quantum Chemistry and Modelling,Danish or English,5,FKF,1,QM,7,1,
+SDU,MSc,QC801,,,Introduction to Quantum Computing,English,10,QC,1,QC,25,0,MSc in Quantum Computing
+SDU,MSc,QC802,,,Quantum Information Theory,English,10,QC,1,QT,20,1,MSc in Quantum Computing
+SDU,MSc,QC803,,,Quantum Platforms and Programming,English,10,QC,1,QT,22,1,MSc in Quantum Computing
+SDU,MSc,QC804,,,Quantum Algorithms,English,10,QC,1,QC,16,0,MSc in Quantum Computing
+SDU,MSc,QC805,,,Quantum Cryptography and Quantum Key Distribution,English,10,QC,1,QT,13,10,MSc in Quantum Computing
+SDU,MSc,QC806,,,Fault-tolerant Quantum Computing,English,10,QC,1,QC,14,2,MSc in Quantum Computing
+SDU,MSc,QC807,,,Quantum Continuous Variables Formalism,English,10,QC,1,QT,17,4,MSc in Quantum Computing
+SDU,MSc,QC808,,,Topological Quantum Computing,English,10,QC,1,QC,12,1,MSc in Quantum Computing
+SDU,MSc,QC809,,,Quantum Computation and Phases of Quantum Matter,English,10,QC,1,QC,20,0,MSc in Quantum Computing
+SDU,MSc,QC810,,,Quantum Machine Learning,English,10,QC,1,QC,6,0,MSc in Quantum Computing
+SDU,MSc,DM893,,,Quantum Computing,Danish or English,5,IMADA,1,QC,15,0,
+SDU,MSc,MM866,,,Introduction to HPC and Quantum Computing,English,5,IMADA,1,QC,4,0,
+SDU,MSc,FY803,,,Quantum physics,Danish or English,10,FKF,1,QM,3,0,godkendt som ph.d.-kursus
+SDU,MSc,FY845,,,Physics of Quantum Matter,English,5,FKF,1,QM,6,9,
+SDU,MSc,T470021101,186488,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en,Quantum Engineering,English,5,TEK,1,QT,22,9,Civilingeniør i Fysik og Teknologi
+SDU,BSc,FY548,,,Solid state physics,Danish or English,5,FKF,2,MAT,3,12,
+SDU,BSc,FY550,,,Statistical Physics,Danish or English,5,FKF,2,QM,2,0,
+SDU,BSc,KE533,,,Computational Quantum Chemistry,Danish or English,5,FKF,2,QM,2,10,
+SDU,MSc,FY837,,,Solid state physics,Danish or English,5,FKF,2,MAT,3,12,
+SDU,MSc,FY809,,,Quantum Field Theory,Danish or English,10,FKF,2,QM,4,0,
+SDU,MSc,KE820,,,Computational Quantum Chemistry,Danish or English,5,FKF,2,QM,2,10,godkendt som ph.d.-kursus
+SDU,MSc,KE829,,,"Computational Quantum Chemistry II: Optical, electrical and magnetic properties",Danish or English,5,FKF,2,QM,2,12,
+SDU,MSc,T470038101,188652,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en,Atomic Physics,English,5,TEK,2,PHO,5,16,
+SDU,MSc,T470005101,186481,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en,Laser Physics and Technology,English,5,TEK,2,PHO,2,27,
+SDU,MSc,T470008101,204228,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en,Nano-optics,English,5,TEK,2,PHO,1,41,
+SDU,BSc,FY542,,,Experimental physics and semiconductors,Danish or English,5,FKF,3,MAT,1,6,
+SDU,BSc,FY545,,,Particle physics,Danish or English,5,FKF,3,QM,1,0,
+SDU,BSc,FY549,,,Electrodynamics,English,5,FKF,3,PHO,1,1,
+SDU,BSc,FT504,,,Electromagnetism and Optics,Danish or English,10,FKF,3,PHO,0,10,
+SDU,BSc,MM553,,,Computational Physics,Danish or English,10,IMADA,3,QM,1,2,
+SDU,BSc,KE525,,,Inorganic chemistry A,Danish or English,5,FKF,3,QM,0,4,
+SDU,BSc,DM572,,,Networks and Cybersecurity,Danish or English,10,IMADA,3,CRY,0,2,
+SDU,BSc,DM586,,,Networks and Cybersecurity,Danish or English,7.5,IMADA,3,CRY,0,2,
+SDU,MSc,FY831,,,Introduction to quantum gravity,Danish or English,5,FKF,3,QM,10,0,
+SDU,MSc,FY824,,,Quantum field theory in curved space,Danish or English,5,FKF,3,QM,5,0,godkendt som ph.d.-kursus
+SDU,MSc,FY841,,,Particle physics,Danish or English,5,FKF,3,QM,1,0,
+SDU,MSc,MM837,,,Computational Physics,Danish or English,10,IMADA,3,QM,1,2,
+SDU,MSc,MM868,,,Compact quantum metric spaces,Danish or English,5,IMADA,3,QM,4,0,ren matematik
+SDU,MSc,DM886,,,Cryptographic Engineering,Danish or English,5,IMADA,3,CRY,0,7,
+SDU,MSc,T470017101,186485,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en,Advanced Physical Optics,English,10,TEK,3,PHO,0,41,
+SDU,MSc,T470042101,199298,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en,Optical System Design and Spectroscopy,English,5,TEK,3,PHO,0,19,
+SDU,MSc,T470040101,186494,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en,Journal Club and Industrial Case Studies,English,5,TEK,3,PHO,1,2,
+SDU,MSc,T380014401,211138,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en,Material Science in Electrical Engineering,English,5,TEK,3,MAT,1,13,
+SDU,MSc,T470030X01,186490,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en,Microtechnology and Device Fabrication,English,5,TEK,3,FAB,0,1,

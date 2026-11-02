@@ -43,7 +43,19 @@
         "ECE": "Elektro- og Computerteknologi", "MP": "Mekanik og Produktion"
       }
     },
-    "SDU": {"name": "Syddansk Universitet", "status": "planlagt"},
+    "SDU": {
+      "name": "Syddansk Universitet",
+      "course_base": "https://odinlister.sdu.dk",
+      "course_url": "https://odinlister.sdu.dk/fagbesk/internkode/{ref}/en",
+      "harvested": "2026-11-02",
+      "academic_year": "2026/2027",
+      "scope": "Det Naturvidenskabelige Fakultet (kodepræfikserne FY, FT, KE, MM, DM, AI, NAT, QC) samt TEK-uddannelserne i Fysik og Teknologi og Elektronik. Kun aktive kursusbeskrivelser.",
+      "totals": {"BSc": 161, "MSc": 191, "PhD": 1, "Diplom": 2, "Master": 24},
+      "departments": {
+        "FKF": "Fysik, Kemi og Farmaci", "IMADA": "Matematik og Datalogi",
+        "QC": "MSc i Quantum Computing", "TEK": "Det Tekniske Fakultet"
+      }
+    },
     "AAU": {"name": "Aalborg Universitet", "status": "planlagt"}
   }
 }

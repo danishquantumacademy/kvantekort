@@ -201,7 +201,7 @@ footer p{margin:0;max-width:72ch}
         el('span',{class:'code',title:c.code},c.institution),
         el('span',{class:'title'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
         el('span',{class:'badges'},el('span',{class:'b',title:LEVEL_NAME[c.level]},c.level),el('span',{class:'b'},`${c.ects} ECTS`)),
-        el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),el('span',{},R.tracks[c.track]||c.track),el('span',{},c.language==='Danish'?'Dansk':c.language==='English'?'Engelsk':c.language),kwbars(c),c.note?el('span',{class:'note-i'},c.note):''))));
+        el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),el('span',{},R.tracks[c.track]||c.track),el('span',{},({'Danish':'Dansk','English':'Engelsk','Danish or English':'Dansk eller engelsk'})[c.language]||c.language),kwbars(c),c.note?el('span',{class:'note-i'},c.note):''))));
       list.append(el('section',{class:'tier'},el('div',{class:'tier-head'},el('span',{class:'sw',style:`background:${tcol(t)}`}),el('h2',{},`${R.relevance[t].label} (${rows.length})`),el('p',{},R.relevance[t].desc)),box));
     });
   }
