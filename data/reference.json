@@ -1,9 +1,21 @@
 {
   "relevance": {
-    "1": {"label": "Kerne", "desc": "Kurset handler primært om kvantefysik, kvanteinformation eller kvanteteknologi."},
-    "2": {"label": "Kvantebaseret", "desc": "Kvantemekanik er et bærende fundament (faststof, elektronstruktur, kvantekemi, fotonik), men kurset er ikke kvanteteknologi."},
-    "3": {"label": "Perifer", "desc": "Understøttende fag for kvanteområdet (klassisk fotonik, nanofabrikation, kryptografi, materialekarakterisering) eller kun nævnt i beskrivelsen."},
-    "0": {"label": "Ikke relevant", "desc": "Ingen eller kun tilfældige nøgleordstræf."}
+    "1": {
+      "label": "Kerne",
+      "desc": "Kurset handler primært om kvantefysik, kvanteinformation eller kvanteteknologi."
+    },
+    "2": {
+      "label": "Kvantebaseret",
+      "desc": "Kvantemekanik er et bærende fundament (faststof, elektronstruktur, kvantekemi, fotonik), men kurset er ikke kvanteteknologi."
+    },
+    "3": {
+      "label": "Perifer",
+      "desc": "Understøttende fag for kvanteområdet (klassisk fotonik, nanofabrikation, kryptografi, materialekarakterisering) eller kun nævnt i beskrivelsen."
+    },
+    "0": {
+      "label": "Ikke relevant",
+      "desc": "Ingen eller kun tilfældige nøgleordstræf."
+    }
   },
   "tracks": {
     "QT": "Kvanteteknologi og -information",
@@ -22,25 +34,60 @@
       "course_url": "https://kurser.dtu.dk/course/{code}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "totals": {"BSc": 376, "MSc": 726, "PhD": 172},
+      "totals": {
+        "BSc": 376,
+        "MSc": 726,
+        "PhD": 172
+      },
       "departments": {
-        "01": "DTU Compute", "10": "DTU Fysik", "22": "DTU Sundhedsteknologi",
-        "26": "DTU Kemi", "30": "DTU Space", "34": "DTU Elektro og Fotonik",
-        "47": "DTU Energi", "56": "DTU Nanolab", "62": "DTU Engineering Technology"
+        "01": "DTU Compute",
+        "10": "DTU Fysik",
+        "22": "DTU Sundhedsteknologi",
+        "26": "DTU Kemi",
+        "30": "DTU Space",
+        "34": "DTU Elektro og Fotonik",
+        "47": "DTU Energi",
+        "56": "DTU Nanolab",
+        "62": "DTU Engineering Technology"
+      },
+      "scope": "Alle niveauer fra DTU's kursusbase. Portalen phdcourses.dk indeholder de samme ph.d.-kurser."
+    },
+    "KU": {
+      "name": "Københavns Universitet",
+      "course_base": "https://phdcourses.dk",
+      "course_url": "https://phdcourses.dk/Course/{ref}",
+      "harvested": "2026-11-02",
+      "academic_year": "2026/2027",
+      "scope": "Foreløbig kun ph.d.-kurser fra PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk var utilgængelig 2. november 2026.",
+      "totals": {
+        "PhD": 60
+      },
+      "departments": {
+        "SCI": "Det Natur- og Biovidenskabelige Fakultet (SCIENCE)"
       }
     },
-    "KU": {"name": "Københavns Universitet", "status": "planlagt"},
     "AU": {
       "name": "Aarhus Universitet",
       "course_base": "https://kursuskatalog.au.dk",
       "course_url": "https://kursuskatalog.au.dk/da/course/{ref}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Natural Sciences og Technical Sciences. Kataloget indeholder ikke ph.d.-kurser.",
-      "totals": {"BSc": 456, "MSc": 652, "Diplom": 430, "Master": 16},
+      "scope": "Natural Sciences og Technical Sciences. Ph.d.-kurser fra phdcourses.dk (Graduate School of Natural / Technical Sciences).",
+      "totals": {
+        "BSc": 456,
+        "MSc": 652,
+        "Diplom": 430,
+        "Master": 16,
+        "PhD": 51
+      },
       "departments": {
-        "FA": "Fysik og Astronomi", "KEM": "Kemi", "DAT": "Datalogi", "iNANO": "iNANO",
-        "ECE": "Elektro- og Computerteknologi", "MP": "Mekanik og Produktion"
+        "FA": "Fysik og Astronomi",
+        "KEM": "Kemi",
+        "DAT": "Datalogi",
+        "iNANO": "iNANO",
+        "ECE": "Elektro- og Computerteknologi",
+        "MP": "Mekanik og Produktion",
+        "GSTS": "Graduate School of Technical Sciences"
       }
     },
     "SDU": {
@@ -49,11 +96,19 @@
       "course_url": "https://odinlister.sdu.dk/fagbesk/internkode/{ref}/en",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Det Naturvidenskabelige Fakultet (kodepræfikserne FY, FT, KE, MM, DM, AI, NAT, QC) samt TEK-uddannelserne i Fysik og Teknologi og Elektronik. Kun aktive kursusbeskrivelser.",
-      "totals": {"BSc": 161, "MSc": 191, "PhD": 1, "Diplom": 2, "Master": 24},
+      "scope": "Det Naturvidenskabelige Fakultet (kodepræfikserne FY, FT, KE, MM, DM, AI, NAT, QC) samt TEK-uddannelserne i Fysik og Teknologi og Elektronik. Kun aktive kursusbeskrivelser. Ph.d.-kurser suppleret fra phdcourses.dk.",
+      "totals": {
+        "BSc": 161,
+        "MSc": 191,
+        "PhD": 8,
+        "Diplom": 2,
+        "Master": 24
+      },
       "departments": {
-        "FKF": "Fysik, Kemi og Farmaci", "IMADA": "Matematik og Datalogi",
-        "QC": "MSc i Quantum Computing", "TEK": "Det Tekniske Fakultet"
+        "FKF": "Fysik, Kemi og Farmaci",
+        "IMADA": "Matematik og Datalogi",
+        "QC": "MSc i Quantum Computing",
+        "TEK": "Det Tekniske Fakultet"
       }
     },
     "AAU": {
@@ -62,11 +117,20 @@
       "course_url": "https://moduler.aau.dk/course/2026-2027/{code}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Det Ingeniør- og Naturvidenskabelige Fakultet og Det Tekniske Fakultet for IT og Design. Totaler er unikke modultitler pr. niveau; modulkataloget har ingen ph.d.-kurser.",
-      "totals": {"BSc": 800, "MSc": 725, "Diplom": 166, "Master": 69},
+      "scope": "Det Ingeniør- og Naturvidenskabelige Fakultet og Det Tekniske Fakultet for IT og Design. Totaler er unikke modultitler pr. niveau. Ph.d.-kurser fra phdcourses.dk.",
+      "totals": {
+        "BSc": 800,
+        "MSc": 725,
+        "Diplom": 166,
+        "Master": 69,
+        "PhD": 28
+      },
       "departments": {
-        "MP": "Materialer og Produktion (fysik og nanoteknologi)", "KB": "Kemi og Biovidenskab",
-        "CS": "Datalogi", "ES": "Elektroniske Systemer", "MATH": "Matematiske Fag"
+        "MP": "Materialer og Produktion (fysik og nanoteknologi)",
+        "KB": "Kemi og Biovidenskab",
+        "CS": "Datalogi",
+        "ES": "Elektroniske Systemer",
+        "MATH": "Matematiske Fag"
       }
     }
   }

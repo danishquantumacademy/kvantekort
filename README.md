@@ -26,6 +26,7 @@ scrapers/
   au_browser.js             # høster kursuskatalog.au.dk via katalogets eget API
   sdu_browser.js            # høster SDU's ODIN: gennemløber kodepræfikser + TEK-studieordninger
   aau_browser.js            # høster moduler.aau.dk: bred søgning + alle modulsider for 2026/27
+  phdcourses_browser.js     # høster ph.d.-kurser fra den nationale portal phdcourses.dk
 scripts/
   build_site.py             # samler classification/*.csv → site/data.json + site/index.html
 site/
@@ -63,6 +64,8 @@ site/
 | AU | 2026-11-02 (1.554 unikke kurser, Natural + Technical Sciences, 2026/27; ingen ph.d. i kataloget) | 57 relevante (12 kerne, 14 kvantebaseret, 31 perifere) |
 | SDU | 2026-11-02 (aktive kursusbeskrivelser i ODIN: NAT-præfikser + TEK Fysik og Teknologi/Elektronik) | 50 relevante (21 kerne, 10 kvantebaseret, 19 perifere) |
 | AAU | 2026-11-02 (6.841 moduler i modulkataloget; ENG + TECH: 1.947 unikke titler; ingen ph.d.) | 37 relevante (8 kerne, 7 kvantebaseret, 22 perifere) |
-| KU (kun SCIENCE) | – (kurser.ku.dk nede 2. nov.) | – |
+| KU (kun SCIENCE) | ph.d.-kurser fra phdcourses.dk (kurser.ku.dk nede 2. nov.) | 2 kerne (ph.d.) |
+
+Ph.d.-kurser for AU, SDU, AAU og KU er hentet fra den nationale portal [phdcourses.dk](https://phdcourses.dk) (kurser med dato i 2026/27 eller uden dato, ekskl. arkiverede "Gl."-kurser). DTU's ph.d.-kurser kommer fra DTU's egen kursusbase.
 
 Vedligeholdes af Dansk Fysisk Selskab.
