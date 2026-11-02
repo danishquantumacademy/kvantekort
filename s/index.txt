@@ -1,0 +1,12 @@
+1 72 https://physics.dtu.dk/api/v1/news/newslist?contextId=%7BBE75662C-E618-41AA-91ED-BFEB9E9C355E%7D&language=en&database=web&page=1
+2 72 https://physics.dtu.dk/api/v1/news/newslist?contextid=BE75662C-E618-41AA-91ED-BFEB9E9C355E&lang=en&database=web
+3 351 https://api.hr-manager.net/JobPortal.svc/ku/PositionList/rss/?protype=RecruitmentProject&incads=true
+4 111405 https://www.vacancies.aau.dk/scientific-positions
+5 110287 https://www.vacancies.aau.dk/phd-positions
+6 50908 https://phd.au.dk/index.php?id=17537
+7 534592 https://au.career.emply.com/en
+8 150402 https://www.sdu.dk/en/service/ledige_stillinger/videnskabelige-stillinger
+9 2888 https://www.classique.aau.dk/news
+10 29534 https://www.classique.aau.dk/events
+11 128913 https://www.sdu.dk/en/forskning/polima/events
+12  https://nqcp.ku.dk/
