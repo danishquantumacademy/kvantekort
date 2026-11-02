@@ -1,5 +1,7 @@
 name: probe reachability
-on: workflow_dispatch
+on:
+  push:
+    branches: [probe-reach]
 jobs:
   probe:
     runs-on: ubuntu-latest
