@@ -1,0 +1,9 @@
+1 5873 https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/persons/
+2 5888 https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/publications/
+3 5876 https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/projects/
+4 5747 https://researchprofiles.ku.dk/en/organisations/nqcp/persons/
+5 5955 https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/persons/
+6 22499 https://orbit.dtu.dk/en/projects/quantum-control-of-single-molecules/
+7 28370 https://orbit.dtu.dk/en/persons/zohran-ali/
+8 57783 https://phys.au.dk/ccq/people
+9 27214 https://phys.au.dk/ccq/about
