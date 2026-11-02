@@ -1,0 +1,257 @@
+<title>Research Behind the Courses</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: university tabs; key figures; research landscape (departments > groups and centres, with the
+   CFQT domains their teachers research); a domain x university table; searchable teacher cards with
+   position, units, research focus, evidence from the research portals and a course-by-course fit note. */
+:root{
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
+  --aI:#6b8a12; --aII:#13729c; --aIII:#a3173d; --good:#0f6b3f; --warn:#8a5a00;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
+  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --good:#5fd39a; --warn:#e8b14a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
+  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --good:#5fd39a; --warn:#e8b14a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1160px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
+.nav{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.nav a{color:var(--accent);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 21px/1.2 var(--display);margin:0;letter-spacing:-.01em}
+h3{font:600 15px/1.3 var(--body);margin:0}
+.lede{max-width:74ch;color:var(--muted);margin:0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{font:600 13px/1 var(--body);padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.stat b{display:block;font:700 26px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--muted)}
+.levels{display:flex;height:12px;border-radius:4px;overflow:hidden;background:var(--chip)}
+.levels i{display:block;height:100%}
+.lkey{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--muted)}
+.lkey .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+section{display:grid;gap:12px}
+.land{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:12px;align-items:start}
+.dept{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:14px;display:grid;gap:10px;min-width:0}
+.dept h3{font:700 15.5px/1.25 var(--display)}
+.dept .inst{font:600 11px/1 var(--mono);letter-spacing:.06em;color:var(--muted)}
+.grp{display:grid;gap:5px;padding-top:9px;border-top:1px solid var(--line)}
+.grp .gn{font-weight:600;font-size:13.5px}
+.grp .ppl{font-size:13px;color:var(--muted)}
+.grp .ppl button{font:inherit;color:var(--fg);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.grp .ppl button:hover{color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.sd{font:500 11px/1 var(--mono);padding:3px 5px;border-radius:3px;border:1.5px solid currentColor;white-space:nowrap}
+.cen{font:600 11px/1.2 var(--body);padding:3px 7px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:560px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line)}
+th{font:600 12px var(--mono);color:var(--muted)}
+td.n{font-variant-numeric:tabular-nums;text-align:right}
+td.n span{display:inline-block;min-width:2.2em;padding:2px 6px;border-radius:4px}
+tr:last-child td{border-bottom:0}
+.tools{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;font-size:14px}
+.tools input[type=search]{flex:1 1 260px;min-width:0;font:15px var(--body);padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.tools select{font:14px var(--body);padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);max-width:100%}
+.tools label{display:flex;gap:7px;align-items:center;cursor:pointer}
+.count{font-size:13px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(360px,100%),1fr));gap:12px;align-items:start}
+.card{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:14px;display:grid;gap:8px;min-width:0;scroll-margin-top:20px}
+.card.flash{outline:2px solid var(--accent)}
+.card .sd{white-space:normal;line-height:1.3}
+.card .top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.card .nm{font:700 17px/1.2 var(--display)}
+.card .nm a{color:var(--fg);text-decoration:none}
+.card .nm a:hover{color:var(--accent);text-decoration:underline}
+.lv{font:600 11px/1 var(--mono);padding:4px 6px;border-radius:4px;background:var(--chip);white-space:nowrap}
+.unit{font-size:13px;color:var(--muted)}
+.focus{font-size:14px}
+.ev{font-size:12.5px;color:var(--muted)}
+.ev i{font-style:normal;color:var(--fg)}
+.crs{display:grid;gap:6px;padding-top:8px;border-top:1px solid var(--line)}
+.c1{display:grid;gap:2px}
+.c1 a{color:var(--fg);font-weight:600;font-size:13.5px;text-decoration:none}
+.c1 a:hover{color:var(--accent);text-decoration:underline}
+.c1 .meta{font:500 11.5px var(--mono);color:var(--muted)}
+.fit{font-size:13px}
+.fit b{font-weight:600}
+.fit.direct b{color:var(--good)}.fit.related b{color:var(--accent)}.fit.adjacent b{color:var(--warn)}.fit.outside b{color:var(--muted)}
+.miss{font-size:13px;color:var(--muted);padding:10px 12px;border:1px dashed var(--line);border-radius:10px}
+footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
+footer p{margin:0;max-width:86ch}
+footer a{color:var(--accent)}
+</style>
+
+<div class="wrap">
+  <div class="nav"><span>Danish Quantum Academy · Education mapping</span><a href="index.html">Coverage matrix</a><a href="triangle.html">Course triangle</a><a href="students.html">Study path profiles</a><a href="planner.html">Course finder</a></div>
+  <header style="display:grid;gap:10px">
+    <h1>Research Behind the Courses</h1>
+    <p class="lede">Who teaches the quantum-relevant courses at Danish universities, where they work, what they research, and how their research connects to the courses they teach. Research areas are tagged with the same CFQT content map as the courses.</p>
+  </header>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+
+  <section aria-labelledby="k-h">
+    <h2 id="k-h">Teachers and positions</h2>
+    <div class="stats" id="stats"></div>
+    <div class="levels" id="levels" role="img"></div>
+    <div class="lkey" id="lkey"></div>
+  </section>
+
+  <section aria-labelledby="l-h">
+    <h2 id="l-h">Research landscape</h2>
+    <p class="lede" style="font-size:14px">Departments, sections, groups and centres that the teachers belong to, with the CFQT subdomains their research touches. Click a name to jump to the teacher.</p>
+    <div class="land" id="land"></div>
+  </section>
+
+  <section aria-labelledby="m-h">
+    <h2 id="m-h">Research by CFQT domain</h2>
+    <p class="lede" style="font-size:14px">Number of teachers whose own research touches each domain of the CFQT content map. Compare with the courses on the coverage matrix: a domain with researchers but few courses is room to grow the teaching.</p>
+    <div class="tblwrap"><table id="mx"></table></div>
+  </section>
+
+  <section aria-labelledby="t-h">
+    <h2 id="t-h">Teachers</h2>
+    <div class="tools">
+      <input type="search" id="q" placeholder="Search name, group, topic or course" aria-label="Search teachers">
+      <select id="lvsel" aria-label="Position"></select>
+      <label><input type="checkbox" id="qt"> Research on the quantum content map</label>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="cards" id="cards"></div>
+    <div id="missing"></div>
+  </section>
+
+  <footer>
+    <p>Sources: the teachers named in the 2026/27 course catalogues, and their profiles in the universities' research portals (DTU Orbit, University of Copenhagen research portal, AU Pure, SDU Find Researcher, AAU VBN), harvested November 2026. Positions and organisational units are as stated in the portals. Fingerprint concepts are generated automatically by the portals and can contain odd terms. The research focus and its CFQT tags are written by Danish Quantum Academy from that portal data.</p>
+    <p>The fit notes compare the CFQT subdomains of each course with those of the teacher's research. They describe overlap in subject, not teaching quality, and many excellent courses are taught from a neighbouring field. All tags are first estimates and will be checked with the teachers through the European Quantum Academy survey. <span id="cite"></span></p>
+  </footer>
+</div>
+
+<script id="qdk-data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent);
+  const Q=D.reference.cfqt, INST=D.reference.institutions, P=D.people;
+  const INSTS=Object.keys(INST);
+  const LEVELS=['Professor','Associate Professor','Assistant Professor','Senior Researcher','Researcher','Postdoc','Other staff','Not stated'];
+  const LCOL={'Professor':'var(--d5)','Associate Professor':'var(--d4)','Assistant Professor':'var(--d2)','Senior Researcher':'var(--d1)','Researcher':'var(--d7)','Postdoc':'var(--d6)','Other staff':'var(--d3)','Not stated':'var(--line)'};
+  const dcol=d=>`var(--d${d})`, subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&c!==false&&e.append(c));return e};
+  const qtResearch=p=>(p.subs||[]).some(s=>/^[14567]\./.test(s));
+  const slug=p=>'t-'+p.institution+'-'+p.name.normalize('NFD').replace(/[^\w]+/g,'-');
+  const isCentre=u=>/cent(er|re)|nanophoton|^dias$|danish institute for advanced|climate cluster|initiative|classique/i.test(u);
+  const state={inst:'ALL'};
+  try{const s=localStorage.getItem('qdk-people-inst');if(s&&(s==='ALL'||INST[s]))state.inst=s}catch(e){}
+
+  // ---- tabs ----
+  const tabs=document.getElementById('tabs');
+  const mkTabs=()=>{tabs.innerHTML='';[['ALL','All universities'],...INSTS.map(i=>[i,i])].forEach(([k,l])=>{const b=el('button',{class:'tab',role:'tab','aria-selected':String(state.inst===k),type:'button'},l);b.onclick=()=>{state.inst=k;try{localStorage.setItem('qdk-people-inst',k)}catch(e){}render()};tabs.append(b)})};
+
+  // ---- fit between a course and a teacher's research ----
+  function fit(p,c){
+    const ps=p.subs||[], cs=c.subs||[];
+    if(!c.mapped) return {k:'outside',t:'Course not on the CFQT content map.'};
+    if(!p.found&&!ps.length) return {k:'outside',t:'No research profile found, so the fit could not be assessed.'};
+    const shared=cs.filter(s=>ps.includes(s));
+    if(cs[0]&&ps.includes(cs[0])) return {k:'direct',lab:'Direct fit',t:`the course's core topic, ${cs[0]} ${subName(cs[0])}, is the teacher's own research field${shared.length>1?`, as are ${shared.slice(1).map(s=>s+' '+subName(s)).join(' and ')}`:''}.`};
+    if(shared.length) return {k:'related',lab:'Related research',t:`the course also covers ${shared.map(s=>s+' '+subName(s)).join(' and ')}, which is part of the teacher's research.`};
+    const cd=new Set(cs.map(s=>s.split('.')[0])), pd=ps.map(s=>s.split('.')[0]).filter(d=>cd.has(d));
+    if(pd.length) return {k:'adjacent',lab:'Neighbouring field',t:`the teacher researches another part of CFQT domain ${pd[0]}, ${Q.domains[pd[0]].name}, close to the course's topic.`};
+    if(ps.length) return {k:'outside',lab:'Broader base',t:`the course's topic lies outside the teacher's research areas (${ps.map(s=>s).join(', ')}); it is taught from a broader base.`};
+    return {k:'outside',lab:'Broader base',t:'the teacher\'s research lies outside the quantum content map; the course is taught from a broader base.'};
+  }
+
+  // ---- render ----
+  function render(){
+    mkTabs();
+    const sel=P.filter(p=>state.inst==='ALL'||p.institution===state.inst);
+    const found=sel.filter(p=>p.found);
+    // stats
+    const st=document.getElementById('stats');st.innerHTML='';
+    const cnt=l=>found.filter(p=>p.level===l).length;
+    [[sel.length,'teachers of mapped courses'],[found.length,'with a research-portal profile'],[cnt('Professor'),'professors'],[cnt('Associate Professor'),'associate professors'],[found.filter(qtResearch).length,'research on the quantum content map']].forEach(([n,l])=>st.append(el('div',{class:'stat'},el('b',{},String(n)),el('span',{},l))));
+    const lv=document.getElementById('levels'),lk=document.getElementById('lkey');lv.innerHTML='';lk.innerHTML='';
+    lv.setAttribute('aria-label','Positions: '+LEVELS.map(l=>`${l} ${cnt(l)}`).join(', '));
+    LEVELS.forEach(l=>{const n=cnt(l);if(!n)return;lv.append(el('i',{style:`width:${n/found.length*100}%;background:${LCOL[l]}`,title:`${l}: ${n}`}));lk.append(el('span',{},el('span',{class:'sw',style:`background:${LCOL[l]}`}),`${l} ${n}`))});
+    // landscape
+    const land=document.getElementById('land');land.innerHTML='';
+    const depts=new Map();
+    found.forEach(p=>{const u=p.units||[];const dep=u.find(x=>!isCentre(x))||u[0]||'Unit not stated';const key=p.institution+'|'+dep;
+      if(!depts.has(key))depts.set(key,{inst:p.institution,dep,groups:new Map(),centres:new Map(),n:0});const d=depts.get(key);d.n++;
+      const grps=u.filter(x=>x!==dep&&!isCentre(x));const g=grps.length?grps[grps.length-1]:'Department level';
+      if(!d.groups.has(g))d.groups.set(g,[]);d.groups.get(g).push(p);
+      u.filter(isCentre).concat(p.centres||[]).forEach(c=>{if(!d.centres.has(c))d.centres.set(c,[]);d.centres.get(c).push(p)})});
+    [...depts.values()].sort((a,b)=>b.n-a.n).forEach(d=>{
+      const box=el('div',{class:'dept'},el('span',{class:'inst'},d.inst),el('h3',{},d.dep));
+      const block=(name,ps,isC)=>{const subs={};ps.forEach(p=>(p.subs||[]).forEach(s=>subs[s]=(subs[s]||0)+1));
+        const top=Object.entries(subs).sort((a,b)=>b[1]-a[1]).slice(0,6);
+        const ppl=el('div',{class:'ppl'});ps.forEach((p,i)=>{const b=el('button',{type:'button'},p.name);b.onclick=()=>jump(p);ppl.append(b,i<ps.length-1?', ':'')});
+        return el('div',{class:'grp'},el('span',{class:'gn'},isC?el('span',{class:'cen'},name):name),top.length?el('div',{class:'chips'},...top.map(([s,n])=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:`${subName(s)}: ${n} teacher(s)`},s))):null,ppl)};
+      [...d.groups.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([g,ps])=>box.append(block(g,ps)));
+      [...d.centres.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([c,ps])=>box.append(block(c,ps,true)));
+      land.append(box)});
+    // matrix
+    const mx=document.getElementById('mx');mx.innerHTML='';
+    const cols=state.inst==='ALL'?INSTS:[state.inst];
+    mx.append(el('thead',{},el('tr',{},el('th',{},'CFQT domain'),...cols.map(i=>el('th',{style:'text-align:right'},i)),cols.length>1?el('th',{style:'text-align:right'},'All'):null)));
+    const tb=el('tbody');const max=Math.max(1,...Object.keys(Q.domains).flatMap(d=>cols.map(i=>P.filter(p=>p.institution===i&&(p.subs||[]).some(s=>s.split('.')[0]===d)).length)));
+    Object.entries(Q.domains).forEach(([d,v])=>{const n=i=>P.filter(p=>(i==='*'||p.institution===i)&&(p.subs||[]).some(s=>s.split('.')[0]===d)).length;
+      const cell=x=>el('td',{class:'n'},el('span',{style:x?`background:color-mix(in srgb, ${dcol(d)} ${Math.round(10+36*x/max)}%, transparent)`:''},String(x)));
+      tb.append(el('tr',{},el('td',{},el('span',{class:'sd',style:`color:${dcol(d)};margin-right:8px`},d),v.name),...cols.map(i=>cell(n(i))),cols.length>1?el('td',{class:'n'},String(n('*'))):null))});
+    mx.append(tb);
+    renderCards();
+  }
+  const q=document.getElementById('q'),lvsel=document.getElementById('lvsel'),qt=document.getElementById('qt');
+  lvsel.append(el('option',{value:''},'All positions'),...LEVELS.map(l=>el('option',{value:l},l)));
+  [q,lvsel,qt].forEach(x=>x.addEventListener('input',renderCards));
+  function card(p){
+    const head=el('div',{class:'top'},el('span',{class:'nm'},p.url?el('a',{href:p.url,target:'_blank',rel:'noopener'},p.name):p.name),el('span',{class:'lv',style:`color:${LCOL[p.level]||'var(--muted)'}`},p.level));
+    const c=el('article',{class:'card',id:slug(p)},head);
+    if(p.title&&p.title!==p.level) c.append(el('span',{class:'unit'},p.title));
+    if(p.units&&p.units.length) c.append(el('span',{class:'unit'},p.institution+' · '+p.units.join(' › ')));
+    if((p.centres||[]).length) c.append(el('div',{class:'chips'},...p.centres.map(x=>el('span',{class:'cen'},x))));
+    if(p.focus) c.append(el('span',{class:'focus'},p.focus));
+    if((p.subs||[]).length) c.append(el('div',{class:'chips'},...p.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},`${s} ${subName(s)}`))));
+    if((p.concepts||[]).length) c.append(el('span',{class:'ev'},'Portal fingerprint: ',el('i',{},p.concepts.slice(0,6).join(', '))));
+    if((p.outputs||[]).length) c.append(el('span',{class:'ev'},'Recent work: ',el('i',{},p.outputs.slice(0,2).map(o=>`“${o}”`).join('; '))));
+    const crs=el('div',{class:'crs'});
+    (p.courses||[]).forEach(x=>{const f=fit(p,x);
+      crs.append(el('div',{class:'c1'},x.url?el('a',{href:x.url,target:'_blank',rel:'noopener'},x.title):el('span',{style:'font-weight:600;font-size:13.5px'},x.title),
+        el('span',{class:'meta'},[x.institution!==p.institution?x.institution:'',x.code,x.level,x.role,...(x.subs||[]).slice(0,3)].filter(Boolean).join(' · ')),
+        el('span',{class:'fit '+f.k},f.lab?el('b',{},f.lab+': '):null,f.t)))});
+    c.append(crs);
+    return c;
+  }
+  function renderCards(){
+    const box=document.getElementById('cards');box.innerHTML='';
+    const t=q.value.trim().toLowerCase();
+    const list=P.filter(p=>p.found&&(state.inst==='ALL'||p.institution===state.inst)&&(!lvsel.value||p.level===lvsel.value)&&(!qt.checked||qtResearch(p))&&
+      (!t||[p.name,p.title,p.focus,...(p.units||[]),...(p.centres||[]),...(p.concepts||[]),...(p.subs||[]).map(subName),...(p.courses||[]).map(c=>c.title+' '+c.code)].join(' ').toLowerCase().includes(t)));
+    list.sort((a,b)=>LEVELS.indexOf(a.level)-LEVELS.indexOf(b.level)||a.name.localeCompare(b.name));
+    list.forEach(p=>box.append(card(p)));
+    document.getElementById('count').textContent=`${list.length} teachers`;
+    const miss=P.filter(p=>!p.found&&(state.inst==='ALL'||p.institution===state.inst));
+    const m=document.getElementById('missing');m.innerHTML='';
+    if(miss.length) m.append(el('div',{class:'miss'},`No research-portal profile found for: ${miss.map(p=>`${p.name} (${p.institution}${(p.courses||[]).length?', '+p.courses.map(c=>c.code).join(', '):''})`).join('; ')}. They may have left the university, be external teachers, or use another name in the portal.`));
+  }
+  function jump(p){q.value='';lvsel.value='';qt.checked=false;renderCards();const e=document.getElementById(slug(p));if(e){e.scrollIntoView({behavior:'smooth',block:'start'});e.classList.add('flash');setTimeout(()=>e.classList.remove('flash'),1600)}}
+  document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'CFQT v3.0'),' (Greinert and Müller, QUCATS, 2025, CC BY 4.0).');
+  render();
+})();
+</script>

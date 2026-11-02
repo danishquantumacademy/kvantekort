@@ -94,4 +94,75 @@ ptpl = (ROOT / "site/planner_template.html").read_text(encoding="utf-8")
 pbody = ptpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/"))
 (ROOT / "site/planner.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/planner_artifact.html").write_text(pbody, encoding="utf-8")
+# Undervisere og forskning (people.html): portaldata + forskningsfokus + hvem underviser hvad.
+import re
+from urllib.parse import quote
+PORTAL = {"DTU": "https://orbit.dtu.dk", "KU": "https://researchprofiles.ku.dk", "AU": "https://pure.au.dk",
+          "SDU": "https://portal.findresearcher.sdu.dk", "AAU": "https://vbn.aau.dk"}
+def level_of(title):
+    t = title.lower()
+    if not t: return "Not stated"
+    first = t.split("/")[0]
+    for key, lv in (("associate professor", "Associate Professor"), ("assistant professor", "Assistant Professor"),
+                    ("tenure track", "Assistant Professor"), ("professor", "Professor"), ("senior researcher", "Senior Researcher"),
+                    ("postdoc", "Postdoc"), ("post.doc", "Postdoc"), ("researcher", "Researcher")):
+        if key in first: return lv
+    for key, lv in (("associate professor", "Associate Professor"), ("professor", "Professor")):
+        if key in t: return lv
+    return "Other staff"
+def roles_of(title):
+    r = []
+    for key, lab in (("head of department", "Head of department"), ("deputy head of department", "Deputy head of department"),
+                     ("head of section", "Head of section"), ("section leader", "Head of section"), ("head of sections", "Head of section"),
+                     ("groupleader", "Group leader"), ("group leader", "Group leader"), ("deputy director", "Deputy director"), ("chair", "Chair")):
+        if key in title.lower() and lab not in r: r.append(lab)
+    return r
+people = {}
+for f in sorted((ROOT / "data/people").glob("*.txt")):
+    inst = f.stem.upper()
+    if inst not in PORTAL: continue
+    for line in f.read_text(encoding="utf-8").splitlines():
+        if not line.strip() or line.startswith("#"): continue
+        x = line.split("||")
+        name = x[0]
+        if len(x) < 3:
+            people[(inst, name)] = {"institution": inst, "name": name, "found": False}; continue
+        if inst == "DTU": title, units, concepts, path, pubs, centres = x[1], x[2], x[3], x[4], "", ""
+        elif inst == "KU": title, units, centres, pubs, path, concepts = x[1], x[2], x[3], x[4], x[5], ""
+        elif inst == "AU": title, units, concepts, pubs, path, centres = x[1], x[2], x[3], x[4], "", ""
+        else: title, units, concepts, pubs, path, centres = x[1], x[2], x[3], x[4], x[5], ""
+        url = PORTAL[inst] + path if path else f'{PORTAL[inst]}/portal/en/persons/?search={quote(chr(34) + name + chr(34))}'
+        people[(inst, name)] = {"institution": inst, "name": name, "found": True, "title": title, "level": level_of(title), "roles": roles_of(title),
+                                "units": [u for u in units.split(" > ") if u], "centres": [c for c in centres.split("; ") if c],
+                                "concepts": [c for c in concepts.split(", ") if c], "outputs": [o for o in pubs.split(" ¦ ") if o], "url": url}
+for line in (ROOT / "data/people/research.txt").read_text(encoding="utf-8").splitlines():
+    if not line.strip() or line.startswith("#"): continue
+    inst, name, focus, subs = line.split("|")
+    bad = [s for s in subs.split(";") if s and s not in valid_subs]
+    if bad: raise SystemExit(f"Ugyldig CFQT-underdomæne {bad} for {name}")
+    p = people.setdefault((inst, name), {"institution": inst, "name": name, "found": False})
+    p["focus"], p["subs"] = focus, [s for s in subs.split(";") if s]
+# en underviser registreret ved ét universitet, men ansat ved et andet (fx en KU-forsker på et DTU-kursus)
+for (inst, name), p in list(people.items()):
+    if not p.get("found"):
+        other = next((q for (i2, n2), q in people.items() if n2 == name and i2 != inst and q.get("found")), None)
+        if other: p.update({k: v for k, v in other.items() if k != "institution"}); p["employer"] = other["institution"]
+mapped = {(c["institution"], c["code"]): c for c in courses}
+for r in csv.DictReader((ROOT / "data/people/teaching.csv").open(encoding="utf-8")):
+    p = people.setdefault((r["institution"], r["name"]), {"institution": r["institution"], "name": r["name"], "found": False})
+    c = mapped.get((r["institution"], r["code"]))
+    p.setdefault("courses", []).append({"institution": r["institution"], "code": r["code"], "title": r["title"], "level": r["level"], "role": r["role"],
+                                        "subs": c["subs"] if c else [], "url": c["url"] if c else "", "mapped": bool(c), "prof": c["prof"] if c else {}})
+# saml personer, der underviser ved et andet universitet end deres ansættelsessted, under ansættelsesstedet
+for key, p in list(people.items()):
+    if p.get("employer") and (p["employer"], p["name"]) in people:
+        people[(p["employer"], p["name"])].setdefault("courses", []).extend(p.get("courses", []))
+        del people[key]
+plist = sorted(people.values(), key=lambda p: (p["institution"], p["name"]))
+pout = {"reference": ref, "people": plist}
+pt = (ROOT / "site/people_template.html").read_text(encoding="utf-8")
+pbody2 = pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/"))
+(ROOT / "site/people.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody2 + "\n</body>\n</html>\n", encoding="utf-8")
+(ROOT / "site/people_artifact.html").write_text(pbody2, encoding="utf-8")
+print(f"people: {len(plist)} undervisere, {sum(1 for p in plist if p.get('found'))} med portalprofil")
 print(f"site: {len(courses)} kurser med CFQT-match, {unmapped} uden match (vises ikke)")

@@ -1,0 +1,279 @@
+# Research focus per teacher, written by Danish Quantum Academy from the harvested portal data (units, fingerprints, recent outputs).
+# INST|name|research focus (short)|CFQT subdomains the research touches (empty = research outside the QT content map)
+DTU|Ada-Ioana Bunea|Light robotics: two-photon polymerisation and optical manipulation of microrobots|3.3;3.2
+DTU|Adnan Adil Ebrahim Hajomer|Continuous-variable quantum key distribution with squeezed light|7.3;4.4;2.2
+DTU|Alexander Huck|NV centres in diamond for quantum sensing and magnetometry|6.2;4.2;6.7
+DTU|Anders Clausen|High-speed optical communication and wavelength conversion|3.3
+DTU|Anders Kristensen|Optofluidics, nanoimprint lithography and photonic crystals|3.2;3.3
+DTU|Anders Riisager|Catalysis with ionic liquids and zeolites|
+DTU|Andrea Crovetto|Thin-film solar cell materials|3.2
+DTU|Andrei Laurynenka|Metamaterials and metasurfaces for integrated photonics|3.3;4.4
+DTU|Astri Bjørnetun Haugen|Piezoelectric ceramics and ceramic processing|
+DTU|Battulga Munkhbat|Quantum emitters in quantum dots and 2D transition-metal dichalcogenides|4.4;2.3
+DTU|Binbin Zhou|Terahertz and mid-infrared ultrafast science|3.3
+DTU|Birger Andersen|Internet-of-things and sensor systems|
+DTU|Bjarke Sørensen Jessen|Graphene and 2D-material devices and fabrication|3.2;2.3
+DTU|Brian Seger|Electrochemical CO2 reduction and catalysis|
+DTU|Carsten Baum|Cryptography: multi-party computation, zero-knowledge proofs and signatures|7.4;7.1
+DTU|Cathrine Frandsen|Magnetic nanoparticles and magnetic materials|2.3
+DTU|Christian Danvad Damsgaard|Operando electron microscopy of catalysts|3.2
+DTU|Christian Majenz|Quantum cryptography and post-quantum security (quantum random oracle model)|7.4;7.1;1.2
+DTU|Claus E. Andersen|Radiation dosimetry and luminescence detectors|6.3
+DTU|Coraline Lapre|Mid-infrared optical coherence tomography and supercontinuum sources|3.3
+DTU|David Earl Roberson|Quantum graph theory, quantum automorphism groups and nonlocal games|1.2;5.4
+DTU|Dennis Larsen|Supramolecular and organic chemistry|
+DTU|Edmund John Railton Kelleher|Ultrafast fibre lasers and terahertz photonics|3.3
+DTU|Elizaveta Semenova|Semiconductor epitaxy of quantum dots and photonic devices|4.4;3.2;4.8
+DTU|Erik Vilain Thomsen|MEMS ultrasound transducers|3.2
+DTU|Eugen Stamate|Plasma-aided nanotechnology and thin films|3.2
+DTU|Evgeniia Gilshtein|Thin-film photovoltaics and printed electronics|3.2
+DTU|Ganesh Ghimire|Transition-metal dichalcogenide nanostructures|2.3;3.2
+DTU|Georg Kastlunger|First-principles electrocatalysis|2.3
+DTU|Henning Friis Poulsen|X-ray diffraction and tomography of materials|3.1
+DTU|Henri Jansen|Silicon dry etching and nanofabrication|3.2
+DTU|Henrik Bruus|Acoustofluidics and theoretical microfluidics|
+DTU|Ib Chorkendorff|Surface physics and electrocatalysis|
+DTU|Irfan Kuvvetli|X-ray and gamma-ray detectors for space|6.3
+DTU|Ivano Eligio Castelli|Autonomous materials discovery with first-principles methods|2.3;5.6
+DTU|Jakob Birkedal Wagner|In situ transmission electron microscopy|3.2
+DTU|Jakob Kibsgaard|Electrocatalysis for sustainable fuels|
+DTU|Jakob Schiøtz|Atomic-scale simulation of nanoparticles and electron microscopy|2.3
+DTU|Janus Juul Eriksen|Electronic-structure theory and quantum chemistry|5.6;2.4
+DTU|Jesper Lægsgaard|Photonic-crystal fibres and fibre lasers|3.3
+DTU|Jesper Mørk|Quantum and laser photonics: nanolasers, photonic crystals and quantum dots|4.4;2.2;3.3
+DTU|Jesper Rasmussen|Fusion plasma diagnostics|
+DTU|Jesper Yue Pan|Microfabrication process engineering|3.2
+DTU|Joerg R. Jinschek|Electron microscopy of materials structure|3.2
+DTU|Jonas Schou Neergaard-Nielsen|Optical quantum computing with squeezed light and cluster states|4.4;5.1;2.2
+DTU|Jonatan Bohr Brask|Quantum information theory: device-independent protocols, randomness and quantum thermodynamics|1.2;7.2;7.1
+DTU|Jonathan Frank Kirby|Gravity field modelling and geodesy|6.4
+DTU|Karen Birkelund|Lithography and wet-chemical processing in the cleanroom|3.2
+DTU|Karsten Rottwitt|Nonlinear fibre optics, four-wave mixing and frequency conversion|3.3;4.4
+DTU|Karsten Wedel Jacobsen|Computational materials design with density functional theory|2.3
+DTU|Klaus Braagaard Møller|Theoretical chemical dynamics and ultrafast X-ray scattering|2.4
+DTU|Kresten Yvind|Nanophotonic semiconductor devices and AlGaAs-on-insulator photonics|3.3;4.4;3.2
+DTU|Kristian Sommer Thygesen|First-principles theory of 2D materials and excitons|2.3
+DTU|Kristian Speranza Mølhave|In situ electron microscopy systems|3.2
+DTU|Kristoffer Haldrup|Time-resolved X-ray scattering|
+DTU|Lars G. Hanson|Magnetic resonance imaging methods|6.7
+DTU|Leif Katsuo Oxenløwe|Optical communication and silicon photonics, including quantum communication|7.5;4.4;3.3
+DTU|Louise Kindt|Administration in the quantum physics section|
+DTU|Luca Vannucci|Theory of quantum-dot single-photon sources|4.4;2.2
+DTU|Luisa Siniscalchi|Cryptographic protocols: oblivious transfer and multi-party computation|7.4
+DTU|Mads Brandbyge|Electron transport in graphene and 2D materials from first principles|2.3
+DTU|Maria Dimaki|Nano-bio integrated systems and silicon nanowires|3.2
+DTU|Martijn Wubs|Quantum and nonlocal nanophotonics in low-dimensional systems|2.2;4.4
+DTU|Martin Arentoft Jacobsen|Quantum-dot single-photon sources|4.4
+DTU|Martin Nielsen|Homogeneous catalysis|
+DTU|Michael Galili|Optical and quantum communication systems|7.5;3.3
+DTU|Michael Linde Jakobsen|Optical sensor technology and speckle metrology|3.3
+DTU|Minhao Pu|Integrated nonlinear photonics and microresonators|3.3;4.4
+DTU|Nicola Dragoni|Security of internet-of-things systems|
+DTU|Nicolas Stenger|Light–matter interaction in hexagonal boron nitride and 2D materials|2.2;4.4
+DTU|Niels Bech Christensen|Neutron scattering on magnetism and superconductors|2.3
+DTU|Niels Engholm Henriksen|Quantum dynamics of molecules and wave packets|2.4;1.1
+DTU|Niels Gregersen|Theory and design of single-photon sources|4.4;2.2
+DTU|Nika Akopian|Quantum networks with nanowire quantum dots|7.5;4.4;4.2
+DTU|Nini Pryds|Functional oxides and thin films|2.3;3.2
+DTU|Ole Bang|Supercontinuum sources and fibre sensors|3.3
+DTU|Ole Christensen|Harmonic analysis: frames and wavelets in Hilbert spaces|1.2
+DTU|Osamu Takayama|Metamaterials and metasurfaces|3.3
+DTU|Paul Michael Petersen|Diode lasers and LED systems|3.3
+DTU|Peter Bøggild|Graphene and 2D-material engineering|3.2;2.3
+DTU|Peter Christian Kjærgaard Vesborg|Photo- and electrocatalysis|
+DTU|Peter Tidemand-Lichtenberg|Upconversion detection and mid-infrared sensing|3.3
+DTU|Peter Uhd Jepsen|Ultrafast terahertz spectroscopy|3.3
+DTU|Peter Vang Hendriksen|Solid oxide cells and electrochemistry|
+DTU|Philip Trøst Kristensen|Theory of optical cavities and quasinormal modes|2.2;4.4
+DTU|Piotr de Silva|Theory of excited states in organic emitters|2.4
+DTU|Radu Malureanu|Plasmonics and metamaterial fabrication|3.3;3.2
+DTU|Rafael Taboryski|Polymer nanostructures and injection moulding|3.2
+DTU|Rajmund Mokso|X-ray tomography and 3D imaging|
+DTU|René Forsberg|Geodesy, gravity and ice-sheet observation|6.4
+DTU|Rodolphe Marie|Nanofluidics and single-molecule imaging|3.2
+DTU|Salvatore De Angelis|Tomography of solid oxide cells|
+DTU|Sebastian Meier|NMR spectroscopy of carbohydrates and catalysis|6.7
+DTU|Selina Ringsborg Howalt Owe|Semiconductor radiation detectors for space|6.3
+DTU|Shima Kadkhodazadeh|Electron energy-loss spectroscopy of quantum dots and nanostructures|3.2;4.4
+DTU|Simone Latini|Excitons in van der Waals heterostructures|2.3
+DTU|Sonia Coriani|Coupled-cluster theory of excited states and spectroscopy|5.6;2.4
+DTU|Stela Canulescu|Pulsed laser deposition of thin films for photovoltaics|3.2
+DTU|Stephan Sylvest Keller|Polymer and carbon microsystems|3.2
+DTU|Stig Helveg|Transmission electron microscopy of catalyst nanoparticles|3.2
+DTU|Susanne Mossin|EPR spectroscopy and catalysis|4.2
+DTU|Sven Karlsson|Compilers, embedded systems and FPGAs|3.5;5.3
+DTU|Søren Bredmose Simonsen|Electron microscopy of energy materials|3.2
+DTU|Søren Kegnæs|Catalysis with zeolites and nanoparticles|
+DTU|Søren Otto Forchhammer|Coding and visual communication|7.1
+DTU|Søren Raza|Electron energy-loss spectroscopy and nonlocal plasmonics|2.2;3.2
+DTU|Søren Stobbe|Photonic nanotechnology: quantum dots and photonic-crystal waveguides|4.4;3.2;4.8
+DTU|Thomas Olsen|First-principles theory of 2D magnetic and topological materials|2.3
+DTU|Thomas Pedersen|Cleanroom fabrication support|3.2
+DTU|Thomas Sand Jespersen|Oxide and nanowire quantum devices|2.3;4.5;3.2
+DTU|Timothy John Booth|Fabrication of graphene and boron-nitride heterostructures|3.2;2.3
+DTU|Toshio Morioka|Space-division multiplexing in multicore fibres|3.3
+DTU|Tyge Tiessen|Cryptanalysis and block ciphers|7.4
+DTU|Ulrik Lund Andersen|Quantum information technology: squeezed light, CV-QKD and optical quantum computing|7.3;4.4;5.1;2.2
+DTU|Vincenzo Esposito|Functional ceramics and solid-state electrochemistry|
+DTU|Yi Yu|Fano lasers and photonic-crystal nanocavities|3.3;4.4
+DTU|Yiyu Ou|LEDs and silicon-carbide photonics|3.3
+DTU|Yunhong Ding|Silicon photonics for communication and quantum photonic chips|3.3;4.4;7.5
+KU|Albert H. Werner|Mathematical quantum information: quantum walks, Hamiltonian learning and quantum simulation|1.2;5.2
+KU|Albert Schliesser|Quantum optomechanics and spin–mechanical sensing|2.2;6.1;4.5
+KU|Anders Søndberg Sørensen|Quantum optics theory: photonic networks, error correction and sensing|2.2;7.5;5.3;6.1
+KU|Bo Wegge Laursen|Fluorescent dyes and molecular photophysics|
+KU|Boel Nelson|Privacy and differential privacy|7.4
+KU|Brian Møller Andersen|Theory of unconventional superconductivity|2.3
+KU|Charlotte Fløe Kristjansen|Integrable quantum spin chains and gauge theory|2.4
+KU|D. Jason Koskinen|Neutrino physics with IceCube|
+KU|Emil Bjerrum-Bohr|Scattering amplitudes, string theory and gravity|
+KU|Emil Zeuthen|Quantum optomechanics and hybrid quantum sensing networks|2.2;6.1;2.4
+KU|Eugene Simon Polzik|Quantum optics and quantum sensing with atoms and light|6.1;2.2;4.3;7.1
+KU|Francesco Borsoi|Semiconductor quantum-dot qubit arrays|4.2;4.6
+KU|Harold Adriaan Nieuwboer|Tensors, entanglement and algebraic complexity|1.2
+KU|Henrik Grum Kjærgaard|Computational atmospheric chemistry and spectroscopy|
+KU|James Emil Avery|Scientific computing and programming languages|3.5
+KU|Jan Philip Solovej|Mathematical physics of many-body quantum systems|1.2;2.4
+KU|Jan Westenkær Thomsen|Cold-atom clocks and superradiant lasers|6.6;4.3;2.1
+KU|Jean-Baptiste Sylvain Béguin|Light–atom interfaces and waveguide QED|2.2;4.3
+KU|Jens Paaske|Theory of quantum devices: superconducting hybrids and circuit QED|2.3;4.1;4.5
+KU|Jesper Nygård|Nanowire and hybrid superconductor–semiconductor quantum devices|4.5;3.2;4.1
+KU|Jörg Helge Müller|Experimental quantum optics: atomic magnetometry and spin oscillators|6.2;2.1;6.1
+KU|Jørgen Peder Steffensen|Ice-core climate physics|
+KU|Kaare Teilum|Protein dynamics studied by NMR|6.7
+KU|Karsten Flensberg|Theory of Majorana modes and hybrid superconducting qubits|4.5;4.1;2.3
+KU|Kim Lefmann|Quantum magnetism and neutron scattering instrumentation|2.3;2.4
+KU|Kim Splittorff|Quantum algorithms and their teaching; lattice field theory|5.5;5.1
+KU|Kirsten Marie Ørnsbjerg Jensen|Materials chemistry with X-ray and neutron scattering|
+KU|Klaus Mølmer|Quantum optics and quantum information theory|2.2;1.2;6.1;2.4
+KU|Kristine Cecile Harper|History of science and technology|8.3
+KU|Kurt Valentin Mikkelsen|Computational chemistry of molecular properties|5.6
+KU|Laura Mancinska|Quantum computing theory: self-testing, nonlocality and tomography|1.2;5.1;5.5;5.4;7.1
+KU|Leonardo Midolo|Quantum photonic integrated circuits with quantum dots|4.4;4.8;3.2
+KU|Magdalena Elena Musat|Operator algebras and quantum channels|1.2
+KU|Mark Kamper Svendsen|Theory of light–matter coupling and qubit materials|2.2;4.1
+KU|Markus Tobias Ahlers|Astroparticle physics|
+KU|Marvin Raimund Schulz|Mathematics (no portal output listed)|
+KU|Matthias Christandl|Quantum information theory and fault-tolerant quantum computing|1.2;5.3;5.6
+KU|Michael Kastoryano|Quantum and quantum-inspired algorithms; thermal simulation|5.5;5.2;2.4
+KU|Mikael Rørdam|Operator algebras (C*-algebras)|1.2
+KU|Mikkel Boas Thygesen|Chemical biology and peptide chemistry|
+KU|Mogens Dam|Experimental particle physics with ATLAS|
+KU|Morten Holm Christensen|Theory of unconventional superconductors and magnetism|2.3
+KU|Morten Kjaergaard|Superconducting qubits|4.1;4.6;5.1
+KU|Niels Anne Jacob Obers|String theory and holography|
+KU|Oleg Ruchayskiy|Particle physics beyond the Standard Model|
+KU|Saulius Vaitiekenas|Hybrid superconductor–semiconductor nanowires and Josephson arrays|4.5;2.3
+KU|Shingo Kono|Circuit QED and hybrid optomechanics|4.1;4.6
+KU|Siddharth Vadnerkar|Mathematics (no portal output listed)|
+KU|Stefan Alaric Schäffer|Strontium atomic clocks and superradiant lasers|6.6;4.3;2.1
+KU|Stephan P. A. Sauer|Computational quantum chemistry (Dalton program)|5.6;2.4
+KU|Stergios Piligkos|Molecular spin qudits for quantum computing|4.2;4.5;5.1
+KU|Søren Eilers|Operator algebras and classification of C*-algebras|1.2
+KU|Thomas Just Sørensen|Lanthanide chemistry and luminescent probes|
+KU|Tom André Jos Vosch|Fluorescent silver nanoclusters and spectroscopy|
+KU|Troels Harmark|String theory, AdS/CFT and gravitational waves|
+KU|Tulio Brito Brasil|Quantum optics: entanglement, teleportation and sensing|2.2;6.1;7.1
+AU|Alexander Kies|Energy-system modelling|
+AU|Anne E. B. Nielsen|Theory of strongly correlated quantum many-body systems and anyons|2.4;1.2
+AU|Artem Volosniev|Few- and many-body theory of cold atoms|2.4;2.1
+AU|Aurelien Romain Dantan|Cavity optomechanics and ion Coulomb crystals|2.2;4.3
+AU|Bo Brummerstedt Iversen|Thermoelectric and nanomaterials chemistry|
+AU|Brian Julsgaard|Silicon nanocrystals, luminescence and dosimetry|2.3
+AU|Brigitte Maria Städler|Artificial cells and micromotors|
+AU|Claudio Orlandi|Cryptography: secure multi-party computation|7.4
+AU|Diego F. Aranha|Cryptographic engineering, including post-quantum and isogeny-based schemes|7.4
+AU|Duncan Sutherland|Plasmonic nanoparticles and nanofabrication|3.2
+AU|Frank Jensen|Computational chemistry methods|5.6
+AU|Hans Otto Uldall Fynbo|Experimental nuclear physics|
+AU|Heine Dølrath Thomsen|Accelerator physics|
+AU|Ivan Bjerre Damgård|Cryptography: multi-party computation and secret sharing|7.4;7.1
+AU|Jan Joachim Arlt|Ultracold atoms and Bose–Einstein condensates|2.1;4.3;2.4
+AU|Jeppe Vang Lauritsen|Scanning tunnelling microscopy of surfaces and catalysts|3.2
+AU|Jørgen Skibsted|Solid-state NMR of materials|
+AU|Karsten Riisager|Experimental nuclear physics|
+AU|Lars Bojer Madsen|Strong-field and attosecond physics; strong-field quantum optics|2.1;2.2
+AU|Martin Bremholm|Topological insulators and solid-state chemistry|2.3
+AU|Merete Bilde|Atmospheric aerosol chemistry|
+AU|Michael Drewsen|Ion traps and ion Coulomb crystals|4.3;2.1
+AU|Nick Volet|Integrated photonics and photon-pair sources|4.4;3.3
+AU|Nikolaj Thomas Zinner|Quantum computing for chemistry and quantum simulation|5.6;5.2;4.1
+AU|Ove Christiansen|Vibrational coupled-cluster theory and quantum computing for chemistry|5.6;2.4
+AU|Pernille Klarskov Hansen|Terahertz spectroscopy and metasurfaces|3.3
+AU|Peter Balling|Laser–matter interaction and optical dosimetry|3.3
+AU|Peter Scholl|Cryptography: secret sharing and homomorphic encryption|7.4
+AU|Philip Hofmann|Electronic structure of surfaces and 2D materials (ARPES)|2.3
+AU|Rasmus Schmidt Davidsen|Silicon photovoltaics and carbon microdevices|3.2
+AU|Rosana Martinez Turtos|Scintillators and dosimetry|6.3
+AU|Sonal Shreya|Spintronics and magnetic tunnel junctions|2.3;7.2
+AU|Sophia Yakoubov|Cryptography: secret sharing and secure computation|7.4
+AU|Steen Brøndsted Nielsen|Gas-phase spectroscopy of molecular ions|2.1
+AU|Sune Jespersen|Diffusion MRI and magnetic resonance modelling|6.7
+AU|Søren Ulstrup|Electronic structure of 2D materials and heterostructures|2.3
+AU|Tobias Weidner|Surface spectroscopy of biomolecules|
+AU|Trolle René Linderoth|Scanning tunnelling microscopy of molecular self-assembly|3.2
+AU|Yong Chen|Graphene, topological insulators and 2D quantum materials|2.3;4.5
+AU|Zhengli Han|Terahertz metamaterials and MEMS|3.3
+AU|Zoran Cenev|Magnetic soft materials and biofabrication|
+SDU|Adam Cohen Simonsen|Membrane biophysics and atomic force microscopy|
+SDU|Adrian Petr|Symplectic geometry|
+SDU|Ali Asghar Hakami Zanjani|Molecular dynamics of membranes|
+SDU|Apoorv Tiwari|Topological phases, categorical symmetries and tensor networks|2.4;1.2;5.2
+SDU|Benjamin Jäger|Lattice QCD|5.2
+SDU|Christina Wegeberg|Photoactive transition-metal complexes|
+SDU|Christos Tserkezis|Theory of nonclassical plasmonics and excitons|2.2
+SDU|David Kyed|Quantum groups and quantum metric spaces|1.2
+SDU|Du Pei|Mathematical physics: quantum field theory and topology|1.2
+SDU|Eduardo Dias|Free-electron–light interaction and polaritons|2.2
+SDU|Erik Donovan Hedegård|Multiconfigurational quantum chemistry|5.6;2.4
+SDU|Ernst Dennis Larsson|Quantum chemistry and quantum algorithms for surface chemistry|5.6;5.5
+SDU|Fabrizio Montesi|Programming languages and distributed systems|3.5
+SDU|Fei Ding|Plasmonic metasurfaces|3.3
+SDU|Francesca Serra|Liquid crystals and soft matter|
+SDU|Francesco Sannino|Particle physics and gauge theory|
+SDU|Frederik Kamper Jørgensen|Multiconfigurational density functional methods|5.6
+SDU|Greyson Potter|Mathematics (no portal output listed)|
+SDU|Hans Jørgen Aagaard Jensen|Multiconfigurational quantum chemistry methods|5.6;2.4
+SDU|Jacob Kongsted|Computational chemistry and quantum error mitigation|5.6;5.3
+SDU|Jakob Kjelstrup-Hansen|Organic thin films and nanofibres|3.2
+SDU|Joel Cox|Theory of graphene plasmonics and polaritons|2.2
+SDU|Jonas Beermann Kristiansen|Plasmonic nano-optics and microscopy|3.3
+SDU|Konstantin Wernli|Mathematical physics: quantum field theory|1.2
+SDU|Line Jelver|Theory of 2D-material devices|2.3
+SDU|Manuel Meyer|Astroparticle physics and transition-edge sensors|6.3
+SDU|Marco Antonio Gonzalez Angulo|2D semiconductor thin films and sensors|3.2
+SDU|Martin Aage Barsøe Hedegaard|Raman spectroscopy|
+SDU|Martin Snoager Sloth|Cosmology|
+SDU|Matthias Oliver Wilhelm|Mathematical physics: scattering amplitudes and Feynman integrals|1.2
+SDU|Michael Lomholt|Biophysics and statistical modelling|
+SDU|Michele Della Morte|Lattice QCD|5.2
+SDU|N. Asger Mortensen|Quantum and nonlocal plasmonics in 2D materials|2.2;2.3
+SDU|Nicolas Ubrig|2D materials (no portal output listed)|2.3
+SDU|Paulo André Dias Goncalves|Quantum plasmonics and nanophotonics|2.2
+SDU|Peter Mayer|Usable security and authentication|
+SDU|Peter Reinholdt|Computational chemistry and quantum error mitigation|5.6;5.3
+SDU|Robin Kaarsgaard Sales|Quantum programming languages|5.3;5.1
+SDU|Ruben Niederhagen|Post-quantum cryptography on hardware|7.4
+SDU|Sergey I. Bozhevolnyi|Plasmonics and metasurfaces, including single-photon sources|3.3;4.4
+SDU|Shailesh Kumar|Metasurface-enabled single-photon sources|4.4;3.3
+SDU|Shan Shan|Mathematics (portal output not reliable)|
+SDU|Sofie Marie Koksbang|Cosmology|
+SDU|Thomas Aaby Ryttov|Gauge field theory|
+SDU|Torgom Yezekyan|Nonlocal metasurfaces and integrated nanophotonics|3.3
+SDU|Volodymyr Zenin|Near-field optics and polaritons|3.3
+SDU|William Elbæk Mistegård|Quantum topology: quantum invariants|1.2
+AAU|Casper Steinmann|Computational chemistry and molecular embedding|5.6
+AAU|Esben Pilgaard Skovsen|Terahertz spectroscopy|3.3
+AAU|Jens Myrup Pedersen|Network topology and cybersecurity|
+AAU|Kjeld Pedersen|Nanostructures and power-electronics interconnects|3.2
+AAU|Lars Diekhöner|Scanning tunnelling microscopy of surfaces and molecular magnets|3.2;4.2
+AAU|Leonid Gurevich|Materials science and biosensors|
+AAU|Lone Leth Thomsen|Programming languages and concurrency|3.5
+AAU|Manohar Chirumamilla|Plasmonic nanostructures and thermophotovoltaics|3.3
+AAU|Matteo Bonini|Coding theory and algebraic geometry|7.1
+AAU|Oliver Wilhelm Gnilke|Coding theory: private information retrieval and wiretap channels|7.1
+AAU|Ove Kjeld Andersen|Signal processing|
+AAU|Reinhard Wimmer|NMR spectroscopy|6.7
+AAU|Tatiana Kozlova Madsen|Wireless and quantum-era connectivity|7.5
+AAU|Thomas Garm Pedersen|Excitons in 2D materials; classical–quantum wireless communication|2.3;7.5
+AAU|Yuanzheng Yue|Glass and amorphous materials|

@@ -1,0 +1,473 @@
+institution,level,code,title,role,name
+AAU,MSc,24KMAT2KRYPT,Cryptography,Course responsible,Matteo Bonini
+AAU,MSc,24KMAT2KRYPT,Cryptography,Course responsible,Oliver Wilhelm Gnilke
+AAU,MSc,DSNDATK215,Quantum Information and Computing,Course responsible,Lone Leth Thomsen
+AAU,MSc,ESNCEKK3K2,Quantum Technologies,Course responsible,Tatiana Kozlova Madsen
+AAU,MSc,ESNCYSK1K1,Fundamentals of Security and Cryptography,Course responsible,Tatiana Kozlova Madsen
+AAU,BSc,ESNITCOB5K1,Network and Application Security,Course responsible,Ove Kjeld Andersen
+AAU,Master,ESNITV1212,Applied Cryptography,Course responsible,Jens Myrup Pedersen
+AAU,Master,ESNITV1213,Modern Security Solutions: Safeguarding the Digital Landscape,Course responsible,Jens Myrup Pedersen
+AAU,BSc,F-FYS-B2-1A,Gassers termodynamiske og optiske egenskaber (P2),Course responsible,Esben Pilgaard Skovsen
+AAU,BSc,F-FYS-B4-3,Optik og spektroskopi,Course responsible,Esben Pilgaard Skovsen
+AAU,BSc,F-FYS-B4-6,Kvantemekanik II: metoder (miniprojekt; fysik sidefag),Course responsible,Thomas Garm Pedersen
+AAU,MSc,F-FYS-K1-1A,Fysikkens anvendelser: (A) Teoretisk faststoffysik,Course responsible,Thomas Møller Søndergaard
+AAU,MSc,F-FYS-K1-2A,Fysikkens anvendelser: (B) Eksperimentel faststoffysik,Course responsible,Thomas Møller Søndergaard
+AAU,MSc,F-FYS-K1-3,Statistisk mekanik,Course responsible,Thomas Møller Søndergaard
+AAU,MSc,F-FYS-K1-4,Solid State Physics II: Electronic Structure,Course responsible,Lars Diekhöner
+AAU,MSc,F-FYS-K1-5,Moderne fysik,Course responsible,Thomas Garm Pedersen
+AAU,MSc,F-FYS-K2-1A,Nanofysik: (A) Optik,Course responsible,Kjeld Pedersen
+AAU,MSc,F-FYS-K2-3,Kvantemekanik II: metoder,Course responsible,Thomas Garm Pedersen
+AAU,MSc,F-FYS-K3-1A,Avanceret faststoffysik og optik,Course responsible,Thomas Møller Søndergaard
+AAU,MSc,F-FYS-K3-9,"Halvledere: fysik, komponenter og teknologi",Course responsible,Kjeld Pedersen
+AAU,BSc,F-NAN-B2-1,Kunstige nanostrukturer (P2),Course responsible,Esben Pilgaard Skovsen
+AAU,BSc,F-NAN-B5-2,Nanofabrication,Course responsible,Leonid Gurevich
+AAU,BSc,F-NAN-B6-5,Kvante-elektronik,Course responsible,Thomas Møller Søndergaard
+AAU,BSc,F-NAN-B6-6,Optoelektronik,Course responsible,Vladimir Popok
+AAU,MSc,F-NFM-K2-3,Quantum materials and optical nanostructures,Course responsible,Thomas Garm Pedersen
+AAU,BSc,K-BT-B6-14,NMR og MS,Course responsible,Reinhard Wimmer
+AAU,BSc,K-KEM-B3-57,Kemisk binding,Course responsible,Casper Steinmann
+AAU,BSc,K-KEM-B6-48,Kvantekemi,Course responsible,Casper Steinmann
+AAU,MSc,K-KEM-K1-20,Materials Chemistry,Course responsible,Yuanzheng Yue
+AAU,BSc,M-NT-B3-4,Faststoffysik I,Course responsible,Lars Diekhöner
+AAU,BSc,M-NT-B4-2,Optik - workshop,Course responsible,Esben Pilgaard Skovsen
+AAU,BSc,M-NT-B4-3,Grundlæggende kvantemekanik,Course responsible,Thomas Garm Pedersen
+AAU,BSc,M-NT-B4-4,Anvendt optik,Course responsible,Esben Pilgaard Skovsen
+AAU,BSc,M-NT-B5-2,Nano- og mikrofabrikation,Course responsible,Leonid Gurevich
+AAU,BSc,M-NT-B5-3,Energifysik,Course responsible,Thomas Garm Pedersen
+AAU,BSc,M-NT-B5-4,Statistisk mekanik,Course responsible,Thomas Garm Pedersen
+AAU,BSc,M-NT-B6-2,Fotonik og optoelektronik,Course responsible,Esben Pilgaard Skovsen
+AAU,BSc,M-NT-B6-2,Fotonik og optoelektronik,Course responsible,Manohar Chirumamilla
+AAU,BSc,M-NT-B6-3,Solid State Physics 2,Course responsible,Lars Diekhöner
+AU,BSc,285191U029,Moderne fysik,Course responsible,Pernille Klarskov Hansen
+AU,BSc,285201U034,Halvleder komponenter,Course responsible,Zhengli Han
+AU,MSc,285222U008,MEMS and Sensors,Course responsible,Rasmus Schmidt Davidsen
+AU,MSc,285222U010,Terahertz Photonics,Course responsible,Pernille Klarskov Hansen
+AU,Diplom,28523PU002,EEAPME-01 Advanced Physics and Math for Electrical Engineering Applications,Course responsible,Alexander Kies
+AU,BSc,285251U002,Introduktion til lysbølgeteknologi,Course responsible,Nick Volet
+AU,MSc,285252U001,Photonic Integrated Circuits,Course responsible,Nick Volet
+AU,MSc,285252U005,Applied Spintronics,Course responsible,Sonal Shreya
+AU,MSc,290252U013,Micro- and Nanoengineering,Course responsible,Zoran Cenev
+AU,BSc,520171U016,Distribuerede Systemer og Sikkerhed,Course responsible,Claudio Orlandi
+AU,MSc,520172U006,Cryptology,Course responsible,Ivan Bjerre Damgård
+AU,MSc,520172U007,Cryptologic Protocol Theory,Course responsible,Sophia Yakoubov
+AU,MSc,520172U008,Cryptographic Computing,Course responsible,Peter Scholl
+AU,MSc,520212U009,Systems Security,Course responsible,Diego F. Aranha
+AU,MSc,520222U003,Quantum Information Processing,Course responsible,Ivan Bjerre Damgård
+AU,BSc,520241U006,Distributed Systems and Security,Course responsible,Claudio Orlandi
+AU,MSc,525142U005,Analytical tools in theoretical physics,Course responsible,Artem Volosniev
+AU,BSc,525171U002,Eksperimentel fysik 2,Course responsible,Michael Drewsen
+AU,BSc,525171U008,Lasers & Optics,Course responsible,Peter Balling
+AU,BSc,525171U011,Statistisk fysik og faststoffysik,Course responsible,Anne E. B. Nielsen
+AU,BSc,525171U024,Statistisk fysik og faststoffysik for sidefagsstuderende,Course responsible,Søren Ulstrup
+AU,MSc,525172U004,Eksperimentel kvanteoptik 1: Introduktion,Course responsible,Aurelien Romain Dantan
+AU,MSc,525172U009,Overflade- og halvlederfysik,Course responsible,Jeppe Vang Lauritsen
+AU,MSc,525172U013,Ultrafast Science,Course responsible,Peter Balling
+AU,MSc,525192U001,Partiklers indtrængning i stof og dosimetri,Course responsible,Rosana Martinez Turtos
+AU,MSc,525202U003,Accelerator- og detektorfysik,Course responsible,Heine Dølrath Thomsen
+AU,MSc,525222U001,Fysiske undervisningsforsøg,Course responsible,Trolle René Linderoth
+AU,MSc,525232U001,Platforms for Quantum Technology,Course responsible,Jan Joachim Arlt
+AU,BSc,525241U004,Subatomar fysik og astrofysik,Course responsible,Hans Otto Uldall Fynbo
+AU,BSc,525241U005,"Elektromagnetisme, optik og relativitetsteori",Course responsible,Aurelien Romain Dantan
+AU,BSc,525241U007,Videregående elektrodynamik og kvantemekanik,Course responsible,Brian Julsgaard
+AU,MSc,525242U001,Kvantefysik,Course responsible,Anne E. B. Nielsen
+AU,MSc,525242U004,"Videregående atom-, molekylær- og optisk fysik",Course responsible,Lars Bojer Madsen
+AU,MSc,525242U005,Videregående faststoffysik,Course responsible,Philip Hofmann
+AU,MSc,525242U011,Advanced Nuclear Physics,Course responsible,Karsten Riisager
+AU,MSc,525242U013,Advanced Particle Physics,Course responsible,Nikolaj Thomas Zinner
+AU,MSc,525242U015,Quantum Engineering,Course responsible,Aurelien Romain Dantan
+AU,MSc,525242U019,Physics of Magnetic Resonance Imaging (MRI),Course responsible,Sune Jespersen
+AU,BSc,525251U001,Kvantemekanik og atomfysik,Course responsible,Philip Hofmann
+AU,MSc,525252U008,Eksperimentel Kvantefysik,Course responsible,Aurelien Romain Dantan
+AU,BSc,525261U001,"Elektromagnetisme, optik og Python programmering",Course responsible,Aurelien Romain Dantan
+AU,MSc,525262U003,Quantum Engineering part I,Course responsible,Aurelien Romain Dantan
+AU,BSc,545171U002,Fysisk kemi I: Termodynamik og statistisk mekanik,Course responsible,Merete Bilde
+AU,BSc,545171U003,Fysisk kemi II: Reaktionsdynamik,Course responsible,Tobias Weidner
+AU,BSc,545171U012,Modellering I: Kemisk binding og spektroskopi,Course responsible,Ove Christiansen
+AU,BSc,545171U015,Modellering IIb: Computational Chemistry,Course responsible,Frank Jensen
+AU,BSc,545171U024,Uorganisk kemi I: Almen kemi,Course responsible,Bo Brummerstedt Iversen
+AU,BSc,545171U025,Mekanik og moderne fysik for kemikere,Course responsible,Steen Brøndsted Nielsen
+AU,MSc,545172U003,Materialekemi IIIc: Faststof NMR,Course responsible,Jørgen Skibsted
+AU,MSc,545222U001,Materialekemi IIIa: Fysisk faststofkemi,Course responsible,Martin Bremholm
+AU,MSc,545242U001,Quantum Molecular Dynamics,Course responsible,Ove Christiansen
+AU,MSc,545242U010,Kvantekemi og kvantecomputerberegninger,Course responsible,Ove Christiansen
+AU,BSc,560121U001,Nanokarakterisering,Course responsible,Duncan Sutherland
+AU,MSc,560132U002,Cleanroom-based Micro- and Nano-Fabrication,Course responsible,Duncan Sutherland
+AU,BSc,560191U002,Nanosyntese og nanomaterialer,Course responsible,Brigitte Maria Städler
+AU,BSc,560201U002,Kvantemekanik for nanoscience,Course responsible,Yong Chen
+AU,BSc,560241U002,"Elektromagnetisme, optik og Python-programmering",Course responsible,Aurelien Romain Dantan
+AU,PhD,PC-147858,Introduction to solid-state NMR of inorganic materials,Course responsible,Jørgen Skibsted
+DTU,MSc,01325,Mathematics 4: Analysis - a Toolbox in Physics and Engineering,Course responsible,Ole Christensen
+DTU,MSc,01425,Advanced Cryptography,Course responsible,Luisa Siniscalchi
+DTU,MSc,01425,Advanced Cryptography,Co-responsible,Tyge Tiessen
+DTU,MSc,01426,Research Topics in Cryptography,Co-responsible,Christian Majenz
+DTU,MSc,01426,Research Topics in Cryptography,Course responsible,Luisa Siniscalchi
+DTU,MSc,01426,Research Topics in Cryptography,Co-responsible,Tyge Tiessen
+DTU,MSc,02195,Quantum Algorithms and Machine Learning,Course responsible,Christian Majenz
+DTU,MSc,02196,Quantum Compilers,Course responsible,Sven Karlsson
+DTU,MSc,02197,"Topics in Quantum Nonlocality: Games, Graphs, and Applications",Course responsible,David Earl Roberson
+DTU,MSc,02197,"Topics in Quantum Nonlocality: Games, Graphs, and Applications",Co-responsible,Jonatan Bohr Brask
+DTU,MSc,02197,"Topics in Quantum Nonlocality: Games, Graphs, and Applications",Co-responsible,Laura Mancinska
+DTU,MSc,02231,Cryptography Fundamentals,Co-responsible,Carsten Baum
+DTU,MSc,02231,Cryptography Fundamentals,Course responsible,Christian Majenz
+DTU,MSc,02232,Applied Cryptography,Co-responsible,Carsten Baum
+DTU,MSc,02232,Applied Cryptography,Course responsible,Tyge Tiessen
+DTU,MSc,02234,Research Topics in Cybersecurity,Course responsible,Nicola Dragoni
+DTU,MSc,02278,Post-Quantum Cryptography,Course responsible,Carsten Baum
+DTU,MSc,02278,Post-Quantum Cryptography,Co-responsible,Christian Majenz
+DTU,BSc,10031,Introduction to Engineering Physics,Co-responsible,Anders Kristensen
+DTU,BSc,10031,Introduction to Engineering Physics,Course responsible,Kristoffer Haldrup
+DTU,BSc,10031,Introduction to Engineering Physics,Co-responsible,Søren Stobbe
+DTU,BSc,10037,Continuum physics and modelling,Course responsible,Henrik Bruus
+DTU,BSc,10037,Continuum physics and modelling,Co-responsible,Jakob Schiøtz
+DTU,BSc,10080,Physics for materials and energy,Course responsible,Jesper Rasmussen
+DTU,BSc,10080,Physics for materials and energy,Co-responsible,Thomas Sand Jespersen
+DTU,BSc,10081,"Physics for materials and energy, digital version",Course responsible,Jesper Rasmussen
+DTU,BSc,10081,"Physics for materials and energy, digital version",Co-responsible,Thomas Sand Jespersen
+DTU,BSc,10102,Quantum Mechanics,Co-responsible,Jakob Schiøtz
+DTU,BSc,10102,Quantum Mechanics,Course responsible,Ulrik Lund Andersen
+DTU,BSc,10104,Introduction to Quantum Mechanics,Course responsible,Simone Latini
+DTU,MSc,10112,Advanced Quantum Mechanics,Course responsible,Karsten Wedel Jacobsen
+DTU,MSc,10112,Advanced Quantum Mechanics,Co-responsible,Mads Brandbyge
+DTU,MSc,10122,Statistical Physics,Course responsible,Henning Friis Poulsen
+DTU,MSc,10122,Statistical Physics,Co-responsible,Kristian Sommer Thygesen
+DTU,MSc,10200,The structure and dynamics of materials studied with X-rays and neutrons,Co-responsible,Kristoffer Haldrup
+DTU,MSc,10200,The structure and dynamics of materials studied with X-rays and neutrons,Course responsible,Niels Bech Christensen
+DTU,BSc,10208,"Diffraction, Spectroscopy and Imaging of Materials",Co-responsible,Jakob Birkedal Wagner
+DTU,BSc,10208,"Diffraction, Spectroscopy and Imaging of Materials",Co-responsible,Niels Bech Christensen
+DTU,BSc,10208,"Diffraction, Spectroscopy and Imaging of Materials",Course responsible,Rajmund Mokso
+DTU,BSc,10208,"Diffraction, Spectroscopy and Imaging of Materials",Co-responsible,Stig Helveg
+DTU,BSc,10209,X-ray and Neutron Experiments at International Research Facilities,Course responsible,Kristoffer Haldrup
+DTU,BSc,10209,X-ray and Neutron Experiments at International Research Facilities,Co-responsible,Rajmund Mokso
+DTU,BSc,10260,Physics of solar energy and energy storage,Course responsible,Brian Seger
+DTU,BSc,10260,Physics of solar energy and energy storage,Co-responsible,Georg Kastlunger
+DTU,MSc,10302,"Electronic Structure Methods in Material Physics, Chemistry and Biology",Co-responsible,Karsten Wedel Jacobsen
+DTU,MSc,10302,"Electronic Structure Methods in Material Physics, Chemistry and Biology",Course responsible,Thomas Olsen
+DTU,MSc,10304,Experimental Surface Physics,Course responsible,Ib Chorkendorff
+DTU,MSc,10304,Experimental Surface Physics,Co-responsible,Jakob Kibsgaard
+DTU,MSc,10306,Theory of 2D materials and Strong Light-Matter Interaction,Course responsible,Simone Latini
+DTU,MSc,10314,Magnetism and Magnetic Materials,Course responsible,Cathrine Frandsen
+DTU,MSc,10314,Magnetism and Magnetic Materials,Co-responsible,Niels Bech Christensen
+DTU,MSc,10315,Magnetism and Magnetic Materials - with project,Course responsible,Cathrine Frandsen
+DTU,MSc,10315,Magnetism and Magnetic Materials - with project,Co-responsible,Niels Bech Christensen
+DTU,BSc,10317,Condensed Matter Physics,Course responsible,Niels Bech Christensen
+DTU,BSc,10317,Condensed Matter Physics,Co-responsible,Peter Christian Kjærgaard Vesborg
+DTU,BSc,10317,Condensed Matter Physics,Co-responsible,Stig Helveg
+DTU,BSc,10317,Condensed Matter Physics,Co-responsible,Søren Raza
+DTU,MSc,10319,Advanced solid state physics,Course responsible,Kristian Sommer Thygesen
+DTU,MSc,10321,Nanosystems engineering,Co-responsible,Astri Bjørnetun Haugen
+DTU,MSc,10321,Nanosystems engineering,Co-responsible,Kristian Speranza Mølhave
+DTU,MSc,10321,Nanosystems engineering,Co-responsible,Maria Dimaki
+DTU,MSc,10321,Nanosystems engineering,Co-responsible,Osamu Takayama
+DTU,MSc,10321,Nanosystems engineering,Course responsible,Peter Bøggild
+DTU,MSc,10321,Nanosystems engineering,Co-responsible,Peter Uhd Jepsen
+DTU,MSc,10321,Nanosystems engineering,Co-responsible,Rodolphe Marie
+DTU,MSc,10325,Quantum mechanical modelling of nanoelectronics,Course responsible,Mads Brandbyge
+DTU,MSc,10333,Physics of Sustainable Energy,Course responsible,Brian Seger
+DTU,MSc,10350,Numerical studies in physics,Course responsible,Henrik Bruus
+DTU,MSc,10380,Quantum Optics,Course responsible,Alexander Huck
+DTU,MSc,10380,Quantum Optics,Co-responsible,Luca Vannucci
+DTU,MSc,10380,Quantum Optics,Co-responsible,Niels Gregersen
+DTU,MSc,10384,Quantum information,Course responsible,Jonas Schou Neergaard-Nielsen
+DTU,MSc,10384,Quantum information,Co-responsible,Jonatan Bohr Brask
+DTU,MSc,10385,Quantum Information Technology,Co-responsible,Jonatan Bohr Brask
+DTU,MSc,10385,Quantum Information Technology,Course responsible,Ulrik Lund Andersen
+DTU,MSc,10386,Experimental Techniques in Quantum Technology,Co-responsible,Adnan Adil Ebrahim Hajomer
+DTU,MSc,10386,Experimental Techniques in Quantum Technology,Course responsible,Alexander Huck
+DTU,MSc,10387,Scientific computing in quantum information science,Course responsible,Jonas Schou Neergaard-Nielsen
+DTU,MSc,10405,Theory of Relativity,Course responsible,Thomas Olsen
+DTU,PhD,10507,Surface Physics and Catalysis,Course responsible,Ib Chorkendorff
+DTU,PhD,10507,Surface Physics and Catalysis,Co-responsible,Jakob Kibsgaard
+DTU,PhD,10508,Electronic structure journal club,Course responsible,Jakob Schiøtz
+DTU,PhD,10512,Journal club in Quantum Optics,Course responsible,Alexander Huck
+DTU,PhD,10512,Journal club in Quantum Optics,Co-responsible,Jonas Schou Neergaard-Nielsen
+DTU,PhD,10519,Advanced electron microscopy physics,Co-responsible,Joerg R. Jinschek
+DTU,PhD,10519,Advanced electron microscopy physics,Course responsible,Stig Helveg
+DTU,PhD,10521,Two-dimensional materials from physics to applications,Co-responsible,Bjarke Sørensen Jessen
+DTU,PhD,10521,Two-dimensional materials from physics to applications,Course responsible,Peter Bøggild
+DTU,PhD,10521,Two-dimensional materials from physics to applications,Co-responsible,Søren Raza
+DTU,PhD,10521,Two-dimensional materials from physics to applications,Co-responsible,Timothy John Booth
+DTU,PhD,10540,CAMD Summer School on Electronic Structure Theory and Materials Design,Co-responsible,Karsten Wedel Jacobsen
+DTU,PhD,10540,CAMD Summer School on Electronic Structure Theory and Materials Design,Course responsible,Thomas Olsen
+DTU,PhD,10550,DigiQ PhD School on Quantum Technology,Course responsible,Jonatan Bohr Brask
+DTU,PhD,10550,DigiQ PhD School on Quantum Technology,Co-responsible,Louise Kindt
+DTU,MSc,10850,Micro- and nanofabrication for quantum engineering,Co-responsible,Eugen Stamate
+DTU,MSc,10850,Micro- and nanofabrication for quantum engineering,Co-responsible,Henri Jansen
+DTU,MSc,10850,Micro- and nanofabrication for quantum engineering,Co-responsible,Radu Malureanu
+DTU,MSc,10850,Micro- and nanofabrication for quantum engineering,Course responsible,Rafael Taboryski
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Ada-Ioana Bunea
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Andrea Crovetto
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Elizaveta Semenova
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Henri Jansen
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Karen Birkelund
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Peter Bøggild
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Course responsible,Rafael Taboryski
+DTU,MSc,10855,Advanced fabrication of micro- and nanostructures,Co-responsible,Thomas Pedersen
+DTU,MSc,10871,Advanced design and simulation of solar cells,Course responsible,Andrea Crovetto
+DTU,MSc,10871,Advanced design and simulation of solar cells,Co-responsible,Peter Christian Kjærgaard Vesborg
+DTU,MSc,22531,Ionizing radiation protection and safety,Course responsible,Claus E. Andersen
+DTU,BSc,22600,Fabrication of micro- and nanostructures,Co-responsible,Anders Kristensen
+DTU,BSc,22600,Fabrication of micro- and nanostructures,Course responsible,Erik Vilain Thomsen
+DTU,BSc,22602,Visualisation of micro and nano structures,Co-responsible,Christian Danvad Damsgaard
+DTU,BSc,22602,Visualisation of micro and nano structures,Course responsible,Rodolphe Marie
+DTU,BSc,22602,Visualisation of micro and nano structures,Co-responsible,Stig Helveg
+DTU,MSc,22610,Physics in Health Technology,Course responsible,Claus E. Andersen
+DTU,MSc,22610,Physics in Health Technology,Co-responsible,Erik Vilain Thomsen
+DTU,MSc,22610,Physics in Health Technology,Co-responsible,Lars G. Hanson
+DTU,MSc,22610,Physics in Health Technology,Co-responsible,Rodolphe Marie
+DTU,PhD,22681,Topics in Advanced Micro and Nanofabrication,Course responsible,Erik Vilain Thomsen
+DTU,BSc,26001,General and inorganic chemistry,Course responsible,Anders Riisager
+DTU,BSc,26001,General and inorganic chemistry,Co-responsible,Søren Kegnæs
+DTU,BSc,26124,Inorganic Chemistry 2 (Coordination chemistry),Co-responsible,Martin Nielsen
+DTU,BSc,26124,Inorganic Chemistry 2 (Coordination chemistry),Course responsible,Susanne Mossin
+DTU,BSc,26200,Physical Chemistry 1,Co-responsible,Janus Juul Eriksen
+DTU,BSc,26200,Physical Chemistry 1,Course responsible,Niels Engholm Henriksen
+DTU,MSc,26231,Physical Chemistry 3,Co-responsible,Klaus Braagaard Møller
+DTU,MSc,26231,Physical Chemistry 3,Course responsible,Niels Engholm Henriksen
+DTU,MSc,26236,Statistical thermodynamics and reaction dynamics,Co-responsible,Klaus Braagaard Møller
+DTU,MSc,26236,Statistical thermodynamics and reaction dynamics,Course responsible,Niels Engholm Henriksen
+DTU,BSc,26245,Applied computational chemistry,Co-responsible,Janus Juul Eriksen
+DTU,BSc,26245,Applied computational chemistry,Course responsible,Niels Engholm Henriksen
+DTU,BSc,26261,Introduction to Quantum Chemistry,Co-responsible,Janus Juul Eriksen
+DTU,BSc,26261,Introduction to Quantum Chemistry,Course responsible,Sonia Coriani
+DTU,MSc,26263,Molecular electronic structure methods,Co-responsible,Janus Juul Eriksen
+DTU,MSc,26263,Molecular electronic structure methods,Course responsible,Sonia Coriani
+DTU,BSc,26428,Spectroscopy of Organic Compounds,Course responsible,Dennis Larsen
+DTU,BSc,26428,Spectroscopy of Organic Compounds,Co-responsible,Sebastian Meier
+DTU,MSc,30564,Summer School in Gravity Field and Earth Observation,Co-responsible,Jonathan Frank Kirby
+DTU,MSc,30564,Summer School in Gravity Field and Earth Observation,Co-responsible,Ole Andersen
+DTU,MSc,30564,Summer School in Gravity Field and Earth Observation,Course responsible,René Forsberg
+DTU,MSc,30784,X-ray and gamma-ray detectors for space instrumentation,Course responsible,Irfan Kuvvetli
+DTU,MSc,30784,X-ray and gamma-ray detectors for space instrumentation,Co-responsible,Selina Ringsborg Howalt Owe
+DTU,BSc,34020,Optics and photonics,Course responsible,Martijn Wubs
+DTU,BSc,34021,Introduction to optics and photonics,Course responsible,Michael Linde Jakobsen
+DTU,BSc,34023,Projects in Quantum and Nanophotonics,Course responsible,Yi Yu
+DTU,BSc,34024,Optical properties of materials,Co-responsible,Andrei Laurynenka
+DTU,BSc,34024,Optical properties of materials,Course responsible,Radu Malureanu
+DTU,MSc,34032,Optical properties of solids,Course responsible,Nicolas Stenger
+DTU,MSc,34034,Lasers and photonic systems,Co-responsible,Kresten Yvind
+DTU,MSc,34034,Lasers and photonic systems,Course responsible,Peter Tidemand-Lichtenberg
+DTU,BSc,34038,Optical design and modelling,Course responsible,Michael Linde Jakobsen
+DTU,MSc,34042,Quantum photonic communication,Course responsible,Nika Akopian
+DTU,MSc,34043,Projects in Optics and Photonics,Course responsible,Karsten Rottwitt
+DTU,MSc,34046,Experimental methods in photonics,Course responsible,Yiyu Ou
+DTU,MSc,34051,Nanophotonics,Co-responsible,Andrei Laurynenka
+DTU,MSc,34051,Nanophotonics,Co-responsible,Jesper Mørk
+DTU,MSc,34051,Nanophotonics,Course responsible,Philip Trøst Kristensen
+DTU,MSc,34051,Nanophotonics,Co-responsible,Søren Stobbe
+DTU,MSc,34052,Nonlinear optics,Course responsible,Karsten Rottwitt
+DTU,MSc,34053,Numerical methods in photonics,Course responsible,Andrei Laurynenka
+DTU,MSc,34053,Numerical methods in photonics,Co-responsible,Jesper Lægsgaard
+DTU,MSc,34053,Numerical methods in photonics,Co-responsible,Ole Bang
+DTU,MSc,34060,Ultrafast optics: fundamentals and applications,Co-responsible,Binbin Zhou
+DTU,MSc,34060,Ultrafast optics: fundamentals and applications,Course responsible,Edmund John Railton Kelleher
+DTU,MSc,34060,Ultrafast optics: fundamentals and applications,Co-responsible,Peter Uhd Jepsen
+DTU,MSc,34062,Photonic integrated circuits,Co-responsible,Elizaveta Semenova
+DTU,MSc,34062,Photonic integrated circuits,Course responsible,Kresten Yvind
+DTU,MSc,34062,Photonic integrated circuits,Co-responsible,Minhao Pu
+DTU,MSc,34062,Photonic integrated circuits,Co-responsible,Yunhong Ding
+DTU,MSc,34063,Epitaxy: Principles and Applications,Course responsible,Elizaveta Semenova
+DTU,MSc,34064,Waveguide optics,Course responsible,Jesper Lægsgaard
+DTU,MSc,34064,Waveguide optics,Co-responsible,Peter Uhd Jepsen
+DTU,PhD,34091,PhD Course - Advanced photonic devices journal club,Course responsible,Kresten Yvind
+DTU,PhD,34092,PhD Course - Nano-optics,Co-responsible,Battulga Munkhbat
+DTU,PhD,34092,PhD Course - Nano-optics,Co-responsible,Martin Arentoft Jacobsen
+DTU,PhD,34092,PhD Course - Nano-optics,Course responsible,Niels Gregersen
+DTU,PhD,34094,PhD Course - Quantum Information Journal Club,Course responsible,Luca Vannucci
+DTU,PhD,34094,PhD Course - Quantum Information Journal Club,Co-responsible,Niels Gregersen
+DTU,BSc,34121,Introduction to Fibre Optic Communications,Course responsible,Toshio Morioka
+DTU,BSc,34126,Experimental course in optical communication,Course responsible,Michael Galili
+DTU,BSc,34127,Experimental optics and photonics,Course responsible,Yiyu Ou
+DTU,BSc,34129,Experimental course in optical communication,Course responsible,Michael Galili
+DTU,MSc,34130,Fundamentals of fibre-optic communication systems,Course responsible,Anders Clausen
+DTU,MSc,34153,Physical concepts in optical communication,Course responsible,Michael Galili
+DTU,MSc,34156,Advanced Optical Communication Systems,Course responsible,Leif Katsuo Oxenløwe
+DTU,MSc,34251,Advanced forward error correction and iterative decoding,Course responsible,Søren Otto Forchhammer
+DTU,MSc,34451,Nonlinear mathematical physics,Co-responsible,Coraline Lapre
+DTU,MSc,34451,Nonlinear mathematical physics,Course responsible,Ole Bang
+DTU,PhD,34492,PhD Course in nonlinear Optics,Course responsible,Karsten Rottwitt
+DTU,MSc,34540,Light emitting diodes and photovoltaics for energy applications,Course responsible,Paul Michael Petersen
+DTU,MSc,34556,Solar Cells: From Fundamentals to Device Engineering,Co-responsible,Evgeniia Gilshtein
+DTU,MSc,34556,Solar Cells: From Fundamentals to Device Engineering,Co-responsible,Ganesh Ghimire
+DTU,MSc,34556,Solar Cells: From Fundamentals to Device Engineering,Course responsible,Stela Canulescu
+DTU,MSc,47319,Functional materials,Co-responsible,Nini Pryds
+DTU,MSc,47319,Functional materials,Course responsible,Peter Vang Hendriksen
+DTU,MSc,47319,Functional materials,Co-responsible,Vincenzo Esposito
+DTU,MSc,47333,Electron microscopy for materials science,Co-responsible,Salvatore De Angelis
+DTU,MSc,47333,Electron microscopy for materials science,Co-responsible,Shima Kadkhodazadeh
+DTU,MSc,47333,Electron microscopy for materials science,Course responsible,Søren Bredmose Simonsen
+DTU,MSc,47335,Atomic-scale modelling of energy materials (online),Course responsible,Ivano Eligio Castelli
+DTU,MSc,47335,Atomic-scale modelling of energy materials (online),Co-responsible,Piotr de Silva
+DTU,PhD,56868,Methods in micro- and nanofabrication,Co-responsible,Jesper Yue Pan
+DTU,PhD,56868,Methods in micro- and nanofabrication,Course responsible,Stephan Sylvest Keller
+DTU,BSc,63860,System and Network Security,Course responsible,Birger Andersen
+KU,MSc,NBIK16001U,NMR Spectroscopy,Course responsible,Kaare Teilum
+KU,BSc,NDAA09025U,It-sikkerhed (ITS),Course responsible,Boel Nelson
+KU,MSc,NDAK24010U,Quantum Error Correction (QEC),Course responsible,Michael Kastoryano
+KU,MSc,NDAK26003U,Hybrid Quantum Programming (HQP),Course responsible,James Emil Avery
+KU,BSc,NFYA04021U,Condensed Matter Physics 1 (CMP1),Course responsible,Karsten Flensberg
+KU,MSc,NFYA04036U,Elementary Particle Physics,Course responsible,Oleg Ruchayskiy
+KU,BSc,NFYA04070U,Matematik F (MatF),Course responsible,Jørgen Peder Steffensen
+KU,BSc,NFYA05020U,Optical Physics and Lasers,Course responsible,Albert Schliesser
+KU,BSc,NFYA05020U,Optical Physics and Lasers,Course responsible,Tulio Brito Brasil
+KU,BSc,NFYA05060U,Optics,Course responsible,Jan Westenkær Thomsen
+KU,BSc,NFYA06015U,Nanokvant,Course responsible,Jesper Nygård
+KU,BSc,NFYB10010U,Kvantemekanik 2 (KM2),Course responsible,Anders Søndberg Sørensen
+KU,BSc,NFYB10010U,Kvantemekanik 2 (KM2),Course responsible,D. Jason Koskinen
+KU,BSc,NFYB10010U,Kvantemekanik 2 (KM2),Course responsible,Klaus Mølmer
+KU,BSc,NFYB10010U,Kvantemekanik 2 (KM2),Course responsible,Morten Kjaergaard
+KU,MSc,NFYB10021U,Condensed Matter Physics 2 (CMP2),Course responsible,Kim Lefmann
+KU,MSc,NFYB10021U,Condensed Matter Physics 2 (CMP2),Course responsible,Morten Holm Christensen
+KU,BSc,NFYB10026U,Statistisk fysik (StatFys),Course responsible,Brian Møller Andersen
+KU,BSc,NFYB13007U,Introduction to Atomic Physics,Course responsible,Jean-Baptiste Sylvain Béguin
+KU,BSc,NFYB13007U,Introduction to Atomic Physics,Course responsible,Jörg Helge Müller
+KU,BSc,NFYB13007U,Introduction to Atomic Physics,Course responsible,Stefan Alaric Schäffer
+KU,BSc,NFYB13008U,Introduction to Nuclear and Particle Physics,Course responsible,Markus Tobias Ahlers
+KU,BSc,NFYB16006U,Matematiske metoder i fysik - del 3 (MatF3),Course responsible,Charlotte Fløe Kristjansen
+KU,BSc,NFYB22000U,Quantum Phenomena in Nanosystems (Nano3),Course responsible,Saulius Vaitiekenas
+KU,BSc,NFYB24001U,Kvantemekanik 1 (KM1),Course responsible,Kim Splittorff
+KU,BSc,NFYB24001U,Kvantemekanik 1 (KM1),Course responsible,Klaus Mølmer
+KU,BSc,NFYB24001U,Kvantemekanik 1 (KM1),Course responsible,Leonardo Midolo
+KU,MSc,NFYK10003U,Condensed Matter Theory 2 (CMT2),Course responsible,Jens Paaske
+KU,MSc,NFYK10017U,Condensed Matter Theory 1 (CMT1),Course responsible,Brian Møller Andersen
+KU,MSc,NFYK13004U,Quantum Field Theory 1,Course responsible,Niels Anne Jacob Obers
+KU,MSc,NFYK13006U,Quantum Optics,Course responsible,Emil Zeuthen
+KU,MSc,NFYK13006U,Quantum Optics,Course responsible,Eugene Simon Polzik
+KU,MSc,NFYK13021U,Neutron Scattering,Course responsible,Kim Lefmann
+KU,MSc,NFYK14014U,Introduction to String Theory,Course responsible,Niels Anne Jacob Obers
+KU,MSc,NFYK14014U,Introduction to String Theory,Course responsible,Troels Harmark
+KU,MSc,NFYK15003U,Advanced Quantum Mechanics (Quant3),Course responsible,Markus Tobias Ahlers
+KU,MSc,NFYK16000U,Modern Methods for Particle Scattering,Course responsible,Emil Bjerrum-Bohr
+KU,MSc,NFYK18004U,Advanced Quantum Optics and Photonics,Course responsible,Leonardo Midolo
+KU,MSc,NFYK22002U,Modern Particle Physics,Course responsible,Mogens Dam
+KU,MSc,NFYK23002U,Introduction to Quantum Information Science,Course responsible,Klaus Mølmer
+KU,MSc,NFYK23005U,Physical Implementations of Quantum Information Processing,Course responsible,Anders Søndberg Sørensen
+KU,MSc,NFYK24003U,Quantum Nanoelectronics,Course responsible,Jesper Nygård
+KU,MSc,NFYK26000U,Advanced Qubit Technologies,Course responsible,Francesco Borsoi
+KU,MSc,NFYK26000U,Advanced Qubit Technologies,Course responsible,Shingo Kono
+KU,MSc,NFYK26002U,Large-Scale Simulations of Quantum Systems,Course responsible,Mark Kamper Svendsen
+KU,BSc,NKEA04034U,Kemisk binding (KemiBin),Course responsible,Kurt Valentin Mikkelsen
+KU,BSc,NKEA04057U,Fotokemi og Fotofysik (KemiFoto),Course responsible,Bo Wegge Laursen
+KU,BSc,NKEA05037U,Advanced Quantum Chemistry (KemiVK),Course responsible,Kurt Valentin Mikkelsen
+KU,BSc,NKEA05042U,Kvantekemi og teoretisk spektroskopi (KemiKS),Course responsible,Stephan P. A. Sauer
+KU,MSc,NKEA07016U,Computational Chemistry,Course responsible,Kurt Valentin Mikkelsen
+KU,BSc,NKEB10006U,Almen kemi,Course responsible,Mikkel Boas Thygesen
+KU,BSc,NKEB11004U,Almen og uorganisk kemi (AlmUorg),Course responsible,Tom André Jos Vosch
+KU,BSc,NKEB13003U,Uorganisk kemi 1 (KemiU1),Course responsible,Anders Døssing
+KU,BSc,NKEB23002U,Materials Chemistry (MatKem),Course responsible,Kirsten Marie Ørnsbjerg Jensen
+KU,BSc,NKEB23003U,Grundlæggende nanokemi,Course responsible,Thomas Just Sørensen
+KU,MSc,NKEK12008U,Structural Tools in Nanoscience,Course responsible,Kirsten Marie Ørnsbjerg Jensen
+KU,MSc,NKEK22001U,Advanced Vibrational Spectroscopy,Course responsible,Henrik Grum Kjærgaard
+KU,MSc,NKEK25005U,Methods and Modelling in Inorganic Chemistry,Course responsible,Stergios Piligkos
+KU,BSc,NMAA05012U,Mathematical Physics (MatFys),Course responsible,Albert H. Werner
+KU,MSc,NMAK14020U,Quantum Information Theory (QIT),Course responsible,Harold Adriaan Nieuwboer
+KU,MSc,NMAK14020U,Quantum Information Theory (QIT),Course responsible,Matthias Christandl
+KU,MSc,NMAK15003U,Advanced Mathematical Physics (AdvMathPhys),Course responsible,Jan Philip Solovej
+KU,MSc,NMAK15003U,Advanced Mathematical Physics (AdvMathPhys),Course responsible,Marvin Raimund Schulz
+KU,MSc,NMAK15003U,Advanced Mathematical Physics (AdvMathPhys),Course responsible,Siddharth Vadnerkar
+KU,MSc,NMAK22000U,Analysis in Quantum Information Theory,Course responsible,Magdalena Elena Musat
+KU,MSc,NMAK22000U,Analysis in Quantum Information Theory,Course responsible,Mikael Rørdam
+KU,MSc,NMAK23007U,Introduction to Quantum Computing,Course responsible,Albert H. Werner
+KU,MSc,NMAK23007U,Introduction to Quantum Computing,Course responsible,Laura Mancinska
+KU,MSc,NMAK23007U,Introduction to Quantum Computing,Course responsible,Morten Kjaergaard
+KU,MSc,NMAK23014U,Topics in Operator Algebras,Course responsible,Magdalena Elena Musat
+KU,MSc,NMAK23014U,Topics in Operator Algebras,Course responsible,Mikael Rørdam
+KU,MSc,NMAK23014U,Topics in Operator Algebras,Course responsible,Søren Eilers
+KU,BSc,NNDB19003U,VtFys: Videnskabsteori og etik for fysikere,Course responsible,Kristine Cecile Harper
+KU,PhD,PC-148446,Preparation and control of neutral atoms for quantum applications,Course responsible,Jörg Helge Müller
+KU,PhD,PC-148446,Preparation and control of neutral atoms for quantum applications,Course responsible,Stefan Alaric Schäffer
+KU,PhD,PC-150049,Quantum Chemistry of Molecules Electromagnetic Properties,Course responsible,Stephan P. A. Sauer
+SDU,BSc,DM572,Networks and Cybersecurity,Teacher,Fabrizio Montesi
+SDU,BSc,DM572,Networks and Cybersecurity,Course responsible,Peter Mayer
+SDU,BSc,DM586,Networks and Cybersecurity,Teacher,Fabrizio Montesi
+SDU,BSc,DM586,Networks and Cybersecurity,Course responsible,Peter Mayer
+SDU,MSc,DM886,Cryptographic Engineering,Course responsible,Ruben Niederhagen
+SDU,MSc,DM893,Quantum Computing,Course responsible,Robin Kaarsgaard Sales
+SDU,BSc,FT504,Electromagnetism and Optics,Teacher,Christos Tserkezis
+SDU,BSc,FT504,Electromagnetism and Optics,Teacher,Francesca Serra
+SDU,BSc,FT504,Electromagnetism and Optics,Course responsible,Sofie Marie Koksbang
+SDU,BSc,FY542,Experimental physics and semiconductors,Course responsible,Adam Cohen Simonsen
+SDU,BSc,FY542,Experimental physics and semiconductors,Course responsible,Nicolas Ubrig
+SDU,BSc,FY544,Quantum mechanics I,Course responsible,Joel Cox
+SDU,BSc,FY544,Quantum mechanics I,Course responsible,Paulo André Dias Goncalves
+SDU,BSc,FY545,Particle physics,Course responsible,Thomas Aaby Ryttov
+SDU,BSc,FY547,Quantum mechanics II,Teacher,Eduardo Dias
+SDU,BSc,FY547,Quantum mechanics II,Course responsible,Francesco Sannino
+SDU,BSc,FY547,Quantum mechanics II,Course responsible,Joel Cox
+SDU,BSc,FY547,Quantum mechanics II,Teacher,Paulo André Dias Goncalves
+SDU,BSc,FY548,Solid state physics,Course responsible,Line Jelver
+SDU,BSc,FY549,Electrodynamics,Teacher,Ali Asghar Hakami Zanjani
+SDU,BSc,FY549,Electrodynamics,Course responsible,Manuel Meyer
+SDU,BSc,FY550,Statistical Physics,Course responsible,Michael Lomholt
+SDU,BSc,FY560,Physics of Quantum Matter,Teacher,Line Jelver
+SDU,BSc,FY560,Physics of Quantum Matter,Course responsible,Nicolas Ubrig
+SDU,MSc,FY803,Quantum physics,Teacher,Gustavo Pazzini de Brito
+SDU,MSc,FY803,Quantum physics,Course responsible,Martin Snoager Sloth
+SDU,MSc,FY803,Quantum physics,Course responsible,Thomas Aaby Ryttov
+SDU,MSc,FY809,Quantum Field Theory,Course responsible,Francesco Sannino
+SDU,MSc,FY824,Quantum field theory in curved space,Course responsible,Martin Snoager Sloth
+SDU,MSc,FY831,Introduction to quantum gravity,Course responsible,Astrid Eichhorn
+SDU,MSc,FY837,Solid state physics,Course responsible,Line Jelver
+SDU,MSc,FY841,Particle physics,Course responsible,Thomas Aaby Ryttov
+SDU,MSc,FY845,Physics of Quantum Matter,Teacher,Line Jelver
+SDU,MSc,FY845,Physics of Quantum Matter,Course responsible,Nicolas Ubrig
+SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Course responsible,Erik Donovan Hedegård
+SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Teacher,Jacob Kongsted
+SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Course responsible,Peter Reinholdt
+SDU,BSc,KE525,Inorganic chemistry A,Course responsible,Christina Wegeberg
+SDU,BSc,KE533,Computational Quantum Chemistry,Course responsible,Erik Donovan Hedegård
+SDU,BSc,KE533,Computational Quantum Chemistry,Teacher,Ernst Dennis Larsson
+SDU,BSc,KE540,Quantum Chemistry and Modelling,Course responsible,Frederik Kamper Jørgensen
+SDU,BSc,KE554,Quantum chemistry for medicinal chemistry,Course responsible,Erik Donovan Hedegård
+SDU,BSc,KE554,Quantum chemistry for medicinal chemistry,Course responsible,Jacob Kongsted
+SDU,MSc,KE820,Computational Quantum Chemistry,Course responsible,Erik Donovan Hedegård
+SDU,MSc,KE820,Computational Quantum Chemistry,Course responsible,Jacob Kongsted
+SDU,MSc,KE829,"Computational Quantum Chemistry II: Optical, electrical and magnetic properties",Course responsible,Hans Jørgen Aagaard Jensen
+SDU,BSc,MM553,Computational Physics,Course responsible,Michele Della Morte
+SDU,MSc,MM837,Computational Physics,Course responsible,Michele Della Morte
+SDU,MSc,MM866,Introduction to HPC and Quantum Computing,Course responsible,Benjamin Jäger
+SDU,MSc,MM868,Compact quantum metric spaces,Course responsible,David Kyed
+SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Course responsible,Christos Tserkezis
+SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Teacher,Joel Cox
+SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Teacher,N. Asger Mortensen
+SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Course responsible,Christos Tserkezis
+SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Teacher,Joel Cox
+SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Teacher,N. Asger Mortensen
+SDU,MSc,QC801,Introduction to Quantum Computing,Teacher,Konstantin Wernli
+SDU,MSc,QC801,Introduction to Quantum Computing,Course responsible,Matthias Oliver Wilhelm
+SDU,MSc,QC802,Quantum Information Theory,Course responsible,Du Pei
+SDU,MSc,QC802,Quantum Information Theory,Course responsible,William Elbæk Mistegård
+SDU,MSc,QC803,Quantum Platforms and Programming,Teacher,Greyson Potter
+SDU,MSc,QC803,Quantum Platforms and Programming,Course responsible,Robin Kaarsgaard Sales
+SDU,MSc,QC804,Quantum Algorithms,Course responsible,Robin Kaarsgaard Sales
+SDU,MSc,QC805,Quantum Cryptography and Quantum Key Distribution,Course responsible,Konstantin Wernli
+SDU,MSc,QC806,Fault-tolerant Quantum Computing,Teacher,Adrian Petr
+SDU,MSc,QC806,Fault-tolerant Quantum Computing,Course responsible,William Elbæk Mistegård
+SDU,MSc,QC807,Quantum Continuous Variables Formalism,Course responsible,Shan Shan
+SDU,MSc,QC807,Quantum Continuous Variables Formalism,Course responsible,William Elbæk Mistegård
+SDU,MSc,QC808,Topological Quantum Computing,Course responsible,Konstantin Wernli
+SDU,MSc,QC809,Quantum Computation and Phases of Quantum Matter,Course responsible,Apoorv Tiwari
+SDU,MSc,QC809,Quantum Computation and Phases of Quantum Matter,Course responsible,William Elbæk Mistegård
+SDU,MSc,QC810,Quantum Machine Learning,Course responsible,Matthias Oliver Wilhelm
+SDU,MSc,T380014401,Material Science in Electrical Engineering,Course responsible,Jakob Kjelstrup-Hansen
+SDU,MSc,T380014401,Material Science in Electrical Engineering,Teacher,Marco Antonio Gonzalez Angulo
+SDU,MSc,T470005101,Laser Physics and Technology,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470005101,Laser Physics and Technology,Teacher,Torgom Yezekyan
+SDU,MSc,T470008101,Nano-optics,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470008101,Nano-optics,Teacher,Sergey I. Bozhevolnyi
+SDU,MSc,T470017101,Advanced Physical Optics,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470017101,Advanced Physical Optics,Teacher,Sergey I. Bozhevolnyi
+SDU,MSc,T470021101,Quantum Engineering,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470021101,Quantum Engineering,Teacher,Shailesh Kumar
+SDU,MSc,T470030X01,Microtechnology and Device Fabrication,Teacher,Jakob Kjelstrup-Hansen
+SDU,MSc,T470030X01,Microtechnology and Device Fabrication,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470038101,Atomic Physics,Teacher,Christos Tserkezis
+SDU,MSc,T470038101,Atomic Physics,Teacher,Joel Cox
+SDU,MSc,T470038101,Atomic Physics,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Fei Ding
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Sergey I. Bozhevolnyi
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Shailesh Kumar
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Volodymyr Zenin
+SDU,MSc,T470042101,Optical System Design and Spectroscopy,Formally responsible (head of studies),Jonas Beermann Kristiansen
+SDU,MSc,T470042101,Optical System Design and Spectroscopy,Teacher,Martin Aage Barsøe Hedegaard
+SDU,MSc,T470042101,Optical System Design and Spectroscopy,Teacher,Shailesh Kumar
