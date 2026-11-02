@@ -27,12 +27,20 @@ h1{font:700 clamp(32px,6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.0
 h2{font:700 20px/1.2 var(--display);margin:0;letter-spacing:-.01em}
 .lede{max-width:64ch;color:var(--muted);margin:0}
 .inst{display:flex;flex-wrap:wrap;gap:8px}
-.inst span{font:500 13px/1 var(--body);padding:8px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
-.inst span.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.inst span.planned{font:500 13px/1 var(--body);padding:8px 11px;border-radius:999px;border:1px dashed var(--line);color:var(--muted)}
 
 /* niveaudiagram */
-.levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-@media (max-width:720px){.levels{grid-template-columns:1fr}}
+.levels{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.tbl{overflow-x:auto}
+.tbl table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+.tbl th,.tbl td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+.tbl thead th{font:500 12px var(--body);color:var(--muted);border-bottom:2px solid var(--line)}
+.tbl .num{text-align:right}
+.tbl .muted{color:var(--muted)}
+.iname{font:600 14px var(--mono);margin-right:10px}
+.ifull{color:var(--muted);font-weight:400}
+.rung.rest .n{color:var(--muted)}
+.mono{font-family:var(--mono)}
 .lvl{display:grid;gap:12px;min-width:0}
 .lvl h3{font:600 13px/1 var(--body);margin:0;display:flex;justify-content:space-between;color:var(--muted)}
 .lvl h3 b{color:var(--fg);font-weight:600}
@@ -64,7 +72,7 @@ input{flex:1 1 180px;min-width:0}
 .rows{display:grid}
 .row{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:4px 14px;padding:10px 4px;border-bottom:1px solid var(--line);align-items:baseline}
 .row:hover{background:var(--surface)}
-.code{font:500 13px var(--mono);color:var(--muted)}
+.code{font:600 12px var(--mono);color:var(--muted);letter-spacing:.04em}
 .title a{color:var(--fg);text-decoration:none;font-weight:500}
 .title a:hover{color:var(--accent);text-decoration:underline}
 .meta{grid-column:2/4;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12.5px;color:var(--muted)}
@@ -85,12 +93,13 @@ footer p{margin:0;max-width:72ch}
   <header>
     <div class="eyebrow">Dansk Fysisk Selskab · Uddannelse</div>
     <h1>Kvantekort Danmark</h1>
-    <p class="lede">Hvor undervises der i kvante på danske universiteter? Hvert kursus er placeret på et af tre relevansniveauer ud fra kursusbeskrivelsen: kerne, kvantebaseret eller perifer.</p>
+    <p class="lede">Hvor undervises der i kvante på danske universiteter? Hvert kursus er placeret på et af tre relevansniveauer ud fra kursusbeskrivelsen: kerne, kvantebaseret eller perifer. Vælg institutioner herunder.</p>
     <div class="inst" id="inst"></div>
   </header>
 
   <section aria-labelledby="ov"><div style="display:grid;gap:16px">
-    <h2 id="ov">Overblik pr. studieniveau</h2>
+    <h2 id="ov">Overblik</h2>
+    <div class="tbl"><table id="compare"></table></div>
     <div class="levels" id="levels"></div>
     <p class="note" id="ovnote"></p>
   </div></section>
@@ -119,63 +128,84 @@ footer p{margin:0;max-width:72ch}
   const D = JSON.parse(document.getElementById('qdk-data').textContent);
   const R = D.reference, C = D.courses;
   const TIERS = [1,2,3];
-  const LEVELS = ['BSc','MSc','PhD'];
+  const LEVEL_ORDER = ['BSc','MSc','PhD','Diplom','Master'];
+  const LEVEL_NAME = {BSc:'Bachelor',MSc:'Kandidat',PhD:'Ph.d.',Diplom:'Diplomingeniør',Master:'Master (efter-/videreuddannelse)'};
+  const ACTIVE = Object.entries(R.institutions).filter(([k,v])=>!v.status).map(([k])=>k);
+  const LEVELS = LEVEL_ORDER.filter(L=>ACTIVE.some(i=>(R.institutions[i].totals||{})[L]));
   const tcol = t => `var(--t${t})`;
-  const state = {tiers:new Set(TIERS), levels:new Set(LEVELS), track:'', q:''};
-  try{ const s=JSON.parse(localStorage.getItem('qdk-f')||'null'); if(s){state.tiers=new Set(s.t);state.levels=new Set(s.l);state.track=s.k||'';} }catch(e){}
-  const save=()=>{try{localStorage.setItem('qdk-f',JSON.stringify({t:[...state.tiers],l:[...state.levels],k:state.track}))}catch(e){}};
-  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else if(x==='html')e.innerHTML=y;else e.setAttribute(x,y)}k.flat().forEach(c=>e.append(c));return e};
+  const state = {insts:new Set(ACTIVE), tiers:new Set(TIERS), levels:new Set(LEVELS), track:'', q:''};
+  try{ const s=JSON.parse(localStorage.getItem('qdk-f2')||'null'); if(s){
+    const keep=(arr,ok)=>{const v=(arr||[]).filter(x=>ok.includes(x));return v.length?new Set(v):null};
+    state.insts=keep(s.i,ACTIVE)||state.insts; state.tiers=keep(s.t,TIERS)||state.tiers; state.levels=keep(s.l,LEVELS)||state.levels; state.track=s.k||''; } }catch(e){}
+  const save=()=>{try{localStorage.setItem('qdk-f2',JSON.stringify({i:[...state.insts],t:[...state.tiers],l:[...state.levels],k:state.track}))}catch(e){}};
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>e.append(c));return e};
+  const chip=(label,on,dot,fn,title)=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(on)},dot?el('span',{class:'dot',style:`background:${dot}`}):'',label);if(title)b.title=title;b.onclick=()=>{if(fn()===false)return;b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true');save();renderAll()};return b};
+  const toggle=(set,v)=>()=>{ if(set.has(v)){ if(set.size===1) return false; set.delete(v);} else set.add(v); };
 
-  // institutioner
+  // institutioner (header)
   const inst=document.getElementById('inst');
-  Object.entries(R.institutions).forEach(([k,v])=>inst.append(el('span',{class:v.status?'':'on',title:v.name},k+(v.status?' · planlagt':''))));
-
-  // overblik
-  const lv=document.getElementById('levels');
-  const dtu=R.institutions.DTU;
-  LEVELS.forEach(L=>{
-    const total=dtu.totals[L]; const cs=C.filter(c=>c.level===L);
-    const n=t=>cs.filter(c=>c.relevance===t).length;
-    const max=Math.max(...LEVELS.map(l=>C.filter(c=>c.level===l).length),1);
-    const lad=el('div',{class:'ladder'});
-    TIERS.forEach(t=>lad.append(el('div',{class:'rung'},el('span',{class:'lab'},R.relevance[t].label),el('span',{class:'bar'},el('i',{style:`width:${(n(t)/max*100).toFixed(1)}%;background:${tcol(t)}`})),el('span',{class:'n'},String(n(t))))));
-    const rest=total-cs.length;
-    lad.append(el('div',{class:'rung'},el('span',{class:'lab'},'Ikke relevant'),el('span',{class:'bar'},el('i',{style:`width:100%;background:var(--t0);opacity:.5`})),el('span',{class:'n'},String(rest))));
-    const ects=cs.filter(c=>c.relevance===1).reduce((a,c)=>a+(c.ects||0),0);
-    lv.append(el('div',{class:'lvl'},el('h3',{},el('b',{},L),el('span',{},`${total} kurser · ${ects} ECTS kerne`)),lad));
+  Object.entries(R.institutions).forEach(([k,v])=>{
+    if(v.status) inst.append(el('span',{class:'planned',title:v.name},k+' · planlagt'));
+    else inst.append(chip(k,state.insts.has(k),null,toggle(state.insts,k),v.name));
   });
-  document.getElementById('ovnote').textContent=`DTU, studieåret ${dtu.academic_year}. Søjlerne for de tre relevansniveauer er skaleret til samme akse; "Ikke relevant" vises som rest.`;
 
   // filtre
   const ft=document.getElementById('f-tier'), fl=document.getElementById('f-level'), fk=document.getElementById('f-track'), fq=document.getElementById('f-q');
-  const chip=(label,on,dot,fn)=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(on)},dot?el('span',{class:'dot',style:`background:${dot}`}):'',label);b.onclick=()=>{fn();b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true');save();render()};return b};
-  TIERS.forEach(t=>ft.append(chip(R.relevance[t].label,state.tiers.has(t),tcol(t),()=>state.tiers.has(t)?state.tiers.delete(t):state.tiers.add(t))));
-  LEVELS.forEach(L=>fl.append(chip(L,state.levels.has(L),null,()=>state.levels.has(L)?state.levels.delete(L):state.levels.add(L))));
+  TIERS.forEach(t=>ft.append(chip(R.relevance[t].label,state.tiers.has(t),tcol(t),toggle(state.tiers,t))));
+  LEVELS.forEach(L=>fl.append(chip(L,state.levels.has(L),null,toggle(state.levels,L),LEVEL_NAME[L])));
   fk.append(el('option',{value:''},'Alle fagspor'));
   Object.entries(R.tracks).forEach(([k,v])=>fk.append(el('option',{value:k},v)));
-  fk.value=state.track; fk.onchange=()=>{state.track=fk.value;save();render()};
-  fq.oninput=()=>{state.q=fq.value.trim().toLowerCase();render()};
+  fk.value=state.track; fk.onchange=()=>{state.track=fk.value;save();renderList()};
+  fq.oninput=()=>{state.q=fq.value.trim().toLowerCase();renderList()};
+
+  function renderOverview(){
+    const insts=[...state.insts];
+    // sammenligning pr. institution
+    const tb=document.getElementById('compare'); tb.innerHTML='';
+    const head=el('tr',{},el('th',{scope:'col'},'Institution'),...TIERS.map(t=>el('th',{scope:'col',class:'num'},el('span',{class:'dot',style:`background:${tcol(t)}`}),' ',R.relevance[t].label)),el('th',{scope:'col',class:'num'},'ECTS i kerne'),el('th',{scope:'col',class:'num'},'Kurser i alt'));
+    tb.append(el('thead',{},head));
+    const body=el('tbody');
+    insts.forEach(i=>{const cs=C.filter(c=>c.institution===i); const tot=Object.values(R.institutions[i].totals).reduce((a,b)=>a+b,0);
+      body.append(el('tr',{},el('th',{scope:'row'},el('span',{class:'iname'},i),el('span',{class:'ifull'},R.institutions[i].name)),...TIERS.map(t=>el('td',{class:'num'},String(cs.filter(c=>c.relevance===t).length))),el('td',{class:'num'},String(cs.filter(c=>c.relevance===1).reduce((a,c)=>a+(c.ects||0),0))),el('td',{class:'num muted'},tot.toLocaleString('da-DK'))));});
+    tb.append(body);
+    // niveaustiger
+    const lv=document.getElementById('levels'); lv.innerHTML='';
+    const shown=LEVELS.filter(L=>insts.some(i=>(R.institutions[i].totals||{})[L]));
+    const counts=L=>C.filter(c=>c.level===L&&state.insts.has(c.institution));
+    const max=Math.max(...shown.flatMap(L=>TIERS.map(t=>counts(L).filter(c=>c.relevance===t).length)),1);
+    shown.forEach(L=>{
+      const cs=counts(L); const total=insts.reduce((a,i)=>a+((R.institutions[i].totals||{})[L]||0),0);
+      const lad=el('div',{class:'ladder'});
+      TIERS.forEach(t=>{const n=cs.filter(c=>c.relevance===t).length; lad.append(el('div',{class:'rung'},el('span',{class:'lab'},R.relevance[t].label),el('span',{class:'bar'},el('i',{style:`width:${(n/max*100).toFixed(1)}%;background:${tcol(t)}`})),el('span',{class:'n'},String(n))))});
+      lad.append(el('div',{class:'rung rest'},el('span',{class:'lab'},'Ikke relevant'),el('span',{class:'lab'},''),el('span',{class:'n'},String(total-cs.length))));
+      lv.append(el('div',{class:'lvl'},el('h3',{},el('b',{title:LEVEL_NAME[L]},L),el('span',{},`${total.toLocaleString('da-DK')} kurser`)),lad));
+    });
+    const missing=insts.filter(i=>!(R.institutions[i].totals||{}).PhD);
+    document.getElementById('ovnote').textContent=`Studieåret ${R.institutions[insts[0]].academic_year}. Søjlerne deler samme akse.`+(missing.length?` Ph.d.-kurser mangler for ${missing.join(', ')}.`:'');
+    document.getElementById('src').textContent=insts.map(i=>{const v=R.institutions[i];return `${i}: ${v.course_base}, høstet ${v.harvested}${v.scope?' ('+v.scope+')':''}.`}).join(' ');
+  }
 
   const kwbars=c=>{const s=Math.min(c.kw_strong,30),m=Math.min(c.kw_medium,30);const w=el('span',{class:'kw',title:`${c.kw_strong} stærke / ${c.kw_medium} svage nøgleordstræf`});[[s,''],[m,'m']].forEach(([v,cl])=>w.append(el('i',{class:cl,style:`height:${Math.max(2,v/30*12)}px`})));return w};
 
-  function render(){
+  function renderList(){
     const list=document.getElementById('list'); list.innerHTML='';
-    const f=C.filter(c=>state.tiers.has(c.relevance)&&state.levels.has(c.level)&&(!state.track||c.track===state.track)&&(!state.q||(c.title+' '+c.code).toLowerCase().includes(state.q)));
-    document.getElementById('count').textContent=`${f.length} af ${C.length}`;
+    const pool=C.filter(c=>state.insts.has(c.institution));
+    const f=pool.filter(c=>state.tiers.has(c.relevance)&&state.levels.has(c.level)&&(!state.track||c.track===state.track)&&(!state.q||(c.title+' '+c.code).toLowerCase().includes(state.q)));
+    document.getElementById('count').textContent=`${f.length} af ${pool.length}`;
     if(!f.length){list.append(el('div',{class:'empty'},'Ingen kurser matcher filtrene. Slå et niveau til eller ryd søgningen.'));return}
     TIERS.filter(t=>state.tiers.has(t)).forEach(t=>{
-      const rows=f.filter(c=>c.relevance===t).sort((a,b)=>LEVELS.indexOf(a.level)-LEVELS.indexOf(b.level)||a.code.localeCompare(b.code));
+      const rows=f.filter(c=>c.relevance===t).sort((a,b)=>a.institution.localeCompare(b.institution)||LEVEL_ORDER.indexOf(a.level)-LEVEL_ORDER.indexOf(b.level)||a.title.localeCompare(b.title,'da'));
       if(!rows.length)return;
       const box=el('div',{class:'rows'});
       rows.forEach(c=>box.append(el('div',{class:'row'},
-        el('span',{class:'code'},c.code),
+        el('span',{class:'code',title:c.code},c.institution),
         el('span',{class:'title'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
-        el('span',{class:'badges'},el('span',{class:'b'},c.level),el('span',{class:'b'},`${c.ects} ECTS`)),
-        el('div',{class:'meta'},el('span',{},c.institution+' · '+c.dept_name),el('span',{},R.tracks[c.track]||c.track),el('span',{},c.language),kwbars(c),c.note?el('span',{class:'note-i'},c.note):''))));
+        el('span',{class:'badges'},el('span',{class:'b',title:LEVEL_NAME[c.level]},c.level),el('span',{class:'b'},`${c.ects} ECTS`)),
+        el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),el('span',{},R.tracks[c.track]||c.track),el('span',{},c.language==='Danish'?'Dansk':c.language==='English'?'Engelsk':c.language),kwbars(c),c.note?el('span',{class:'note-i'},c.note):''))));
       list.append(el('section',{class:'tier'},el('div',{class:'tier-head'},el('span',{class:'sw',style:`background:${tcol(t)}`}),el('h2',{},`${R.relevance[t].label} (${rows.length})`),el('p',{},R.relevance[t].desc)),box));
     });
   }
-  document.getElementById('src').textContent=`Kilde: ${dtu.course_base}, høstet ${dtu.harvested}. ${C.length} kurser er klassificeret som relevante ud af ${Object.values(dtu.totals).reduce((a,b)=>a+b,0)} kursusrækker.`;
-  render();
+  function renderAll(){renderOverview();renderList()}
+  renderAll();
 })();
 </script>

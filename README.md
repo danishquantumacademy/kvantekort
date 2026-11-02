@@ -23,6 +23,7 @@ data/
   classification/<inst>.csv # kvanterelevante kurser med niveau og spor (redigeres manuelt)
 scrapers/
   dtu_browser.js            # høster kurser.dtu.dk i browserkonsollen
+  au_browser.js             # høster kursuskatalog.au.dk via katalogets eget API
 scripts/
   build_site.py             # samler classification/*.csv → site/data.json + site/index.html
 site/
@@ -48,13 +49,16 @@ site/
 
 ## CSV-kolonner
 
-`institution, level, code, title, language, ects, dept, relevance, track, kw_strong, kw_medium, note`
+`institution, level, code, [ref,] title, language, ects, dept, relevance, track, kw_strong, kw_medium, note`
+
+`ref` er valgfri og bruges når kursussidens URL bygger på et internt id i stedet for kursuskoden (AU). `level` er en af `BSc`, `MSc`, `PhD`, `Diplom`, `Master`.
 
 ## Status
 
 | Institution | Høstet | Klassificeret |
 |---|---|---|
 | DTU | 2026-11-02 (1.274 kursusrækker, 2026/27) | 102 relevante (20 kerne, 23 kvantebaseret, 59 perifere) |
-| KU, AU, SDU, AAU | – | – |
+| AU | 2026-11-02 (1.554 unikke kurser, Natural + Technical Sciences, 2026/27; ingen ph.d. i kataloget) | 57 relevante (12 kerne, 14 kvantebaseret, 31 perifere) |
+| KU (kun SCIENCE), SDU, AAU | – | – |
 
 Vedligeholdes af Dansk Fysisk Selskab.

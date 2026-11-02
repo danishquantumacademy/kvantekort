@@ -30,7 +30,19 @@
       }
     },
     "KU": {"name": "Københavns Universitet", "status": "planlagt"},
-    "AU": {"name": "Aarhus Universitet", "status": "planlagt"},
+    "AU": {
+      "name": "Aarhus Universitet",
+      "course_base": "https://kursuskatalog.au.dk",
+      "course_url": "https://kursuskatalog.au.dk/da/course/{ref}",
+      "harvested": "2026-11-02",
+      "academic_year": "2026/2027",
+      "scope": "Natural Sciences og Technical Sciences. Kataloget indeholder ikke ph.d.-kurser.",
+      "totals": {"BSc": 456, "MSc": 652, "Diplom": 430, "Master": 16},
+      "departments": {
+        "FA": "Fysik og Astronomi", "KEM": "Kemi", "DAT": "Datalogi", "iNANO": "iNANO",
+        "ECE": "Elektro- og Computerteknologi", "MP": "Mekanik og Produktion"
+      }
+    },
     "SDU": {"name": "Syddansk Universitet", "status": "planlagt"},
     "AAU": {"name": "Aalborg Universitet", "status": "planlagt"}
   }

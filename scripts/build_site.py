@@ -21,7 +21,7 @@ for f in sorted((ROOT / "data/classification").glob("*.csv")):
             r["kw_strong"] = int(r["kw_strong"] or 0)
             r["kw_medium"] = int(r["kw_medium"] or 0)
             r["dept_name"] = inst.get("departments", {}).get(r["dept"], r["dept"])
-            r["url"] = inst.get("course_url", "").format(code=r["code"])
+            r["url"] = inst.get("course_url", "").format_map({**r, "ref": r.get("ref") or r["code"]})
             courses.append(r)
 
 out = {"reference": ref, "courses": courses}
