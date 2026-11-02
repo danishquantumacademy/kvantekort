@@ -1,0 +1,99 @@
+# NQCP – Quantum Information Science & Technology, Niels Bohr Institute (KU). Harvested 2026-11-02 from the KU research portal (organisation: nqcp).
+# The KU portal lists no projects for this unit; nqcp.ku.dk was not reachable on 2 November 2026.
+P||Thiziri Aissaoui||Postdoc||/en/persons/thiziri-aissaoui/||||
+P||Malte Wettergren Andreasen||Academic staff||/en/persons/malte-wettergren-andreasen/||||
+P||Martin Hayhurst Appel||Postdoc||/en/persons/martin-hayhurst-appel/||||Deterministic photon source of genuine three-qubit entanglement (2024)
+P||Camila Beli Silva||Postdoc||/en/persons/camila-beli-silva/||||
+P||Kokeb Belete Benti||Research Assistant||/en/persons/kokeb-belete-benti/||||
+P||Søren Kristoffer Roed Bentsen||Academic staff||/en/persons/s%C3%B8ren-kristoffer-roed-bentsen/||||
+P||Emma Boeri||Academic staff||/en/persons/emma-boeri/||||
+P||Francesco Borsoi||Associate Professor||/en/persons/francesco-borsoi/||||Modular Autonomous Virtualization System for Two-Dimensional Semiconductor Quantum Dot Arrays (2025)
+P||Anna Liv Bjerregaard Bruun||PhD Student||/en/persons/anna-liv-bjerregaard-bruun/||||Building intuition for quantum algorithms using the Aharonov-Bohm effect (2026)
+P||Julius Rye Bønnelykke||PhD Student||/en/persons/julius-rye-b%C3%B8nnelykke/||||
+P||Bjarke Takashi Røjle Christensen||Senior Consultant||/en/persons/bjarke-takashi-r%C3%B8jle-christensen/||||Cavity-immune spectral features in the pulsed superradiant crossover regime (2021)
+P||Hans Michael Christensen||PhD Student||/en/persons/hans-michael-christensen/||||Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems (2026)
+P||Christian Hjort Christiansen||PhD Student||/en/persons/christian-hjort-christiansen/||||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration (2026)
+P||Marta Colombo||PhD Student||/en/persons/marta-colombo/||||
+P||Tyra Cortinez Samenius||PhD Student||/en/persons/tyra-cortinez-samenius/||||
+P||Jack Sutton Dienhart||PhD Student||/en/persons/jack-sutton-dienhart/||||
+P||Birk Nøhr Dissing||PhD Student||/en/persons/birk-n%C3%B8hr-dissing/||||
+P||Asbjørn Cennet Cliff Drachmann||Senior Research Consultant||/en/persons/asbj%C3%B8rn-cennet-cliff-drachmann/||||Long-range phase coherence and phase patterns in hybrid Josephson junction arrays (2026)
+P||Maria Efthymiou Tsironi||Postdoc||/en/persons/maria-efthymiou-tsironi/||||Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays (2025)
+P||Jonathan Guldberg Elsborg||Academic staff||/en/persons/jonathan-guldberg-elsborg/||||
+P||Andrea Sommer Eriksen||PhD Student||/en/persons/andrea-sommer-eriksen/||||
+P||Marcel David Fabian||Special Consultant||/en/persons/marcel-david-fabian/||||The PPP model – a minimum viable parametrisation of conjugated chemistry for modern computing applications (2026)
+P||Yousra Farhani||PhD Student||/en/persons/yousra-farhani/||||
+P||Roberto Florez Ablan||PhD Student||/en/persons/roberto-florez-ablan/||||
+P||Selene Colette Forget||Postdoc||/en/persons/selene-colette-forget/||||
+P||Bernadette Varsha Francis Jaihar||PhD Student||/en/persons/bernadette-varsha-francis-jaihar/||||
+P||Josu Gomez Beldarrain||PhD Student||/en/persons/josu-gomez-beldarrain/||||
+P||Laura Gomez Fernandez||PhD Student||/en/persons/laura-gomez-fernandez/||||
+P||David Ahmad Rivas Góngora||Postdoc (external)||/en/persons/david-ahmad-rivas-g%C3%B3ngora/||||
+P||Ben Graham||Research Assistant||/en/persons/ben-graham/||||
+P||Kasper Grove-Rasmussen||Associate Professor||/en/persons/kasper-grove-rasmussen/||||Correlation between two distant quasiparticles in separate superconducting islands mediated by a single spin (2024)
+P||Emil Grovn||Research Assistant||/en/persons/emil-grovn/||||
+P||Sebastiano Guaraldo||PhD Student||/en/persons/sebastiano-guaraldo/||||
+P||Jacob Hastrup||Research Consultant||/en/persons/jacob-hastrup/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Philip Holm||Academic staff||/en/persons/philip-holm/||||
+P||Wei-Che Hsu||Research Assistant||/en/persons/wei-che-hsu/||||
+P||Mohammad Elsayed Khalifa Hussein||Postdoc||/en/persons/mohammad-elsayed-khalifa-hussein/||||
+P||Laurits Moestrup Høgel||PhD Student||/en/persons/laurits-moestrup-h%C3%B8gel/||||
+P||Victoria Bøje Inselmann||PhD Student||/en/persons/victoria-b%C3%B8je-inselmann/||||
+P||Fabian Depenau Bjørnholt Jacobsen||PhD Student||/en/persons/fabian-depenau-bj%C3%B8rnholt-jacobsen/||||
+P||Peter Krogstrup Jeppesen||Executive Director, Professor||/en/persons/peter-krogstrup-jeppesen/||||Artificial Intelligence-Assisted Workflow for Transmission Electron Microscopy: From Data Analysis Automation to Materials Knowledge Unveiling (2026)
+P||Benjamin Joecker||Research Consultant||/en/persons/benjamin-joecker/||||Scalable entanglement of nuclear spins mediated by electron exchange (2025)
+P||Maria Gabriela Jordão Oliveira||PhD Student||/en/persons/maria-gabriela-jord%C3%A3o-oliveira/||||Jet evolution in a quantum computer: quark and gluon dynamics (2025)
+P||Mikkel Weis Kallesøe||PhD Student||/en/persons/mikkel-weis-kalles%C3%B8e/||||
+P||Chen Klein||Postdoc||/en/persons/chen-klein/||||
+P||Shingo Kono||Associate Professor||/en/persons/shingo-kono/||||Strongly driven cavity-quantum-electrodynamical-optomechanical hybrid system (2026)
+P||Nils Kraschon||Teaching Assistant||/en/persons/nils-kraschon/||||
+P||Svend Krøjer Krebs||Assistant Professor||/en/persons/svend-kr%C3%B8jer-krebs/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Henrik Høj Kristensen||Postdoc||/en/persons/henrik-h%C3%B8j-kristensen/||||
+P||Rune Kutchinsky||Research Assistant||/en/persons/rune-kutchinsky/||||
+P||Nils Hugo Laurell||Postdoc||/en/persons/nils-hugo-laurell/||||
+P||Chulhyeong Lee||PhD Student||/en/persons/kpm737-kpm737/||||
+P||Kristian Lindholmer||Teaching Assistant||/en/persons/kristian-lindholmer/||||
+P||Yizhi Liu||PhD Student||/en/persons/yizhi-liu/||||
+P||Sara Luise||Academic staff||/en/persons/sara-luise/||||
+P||Magnus Linnet Madsen||PhD Student||/en/persons/magnus-linnet-madsen/||||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration (2026)
+P||Albert Lars Sigurd Malmros||PhD Student||/en/persons/albert-lars-sigurd-malmros/||||
+P||Jakob Mannstadt||PhD Student||/en/persons/jakob-mannstadt/||||
+P||Filip Manu-Marin||Academic staff||/en/persons/filip-manu-marin/||||
+P||Julius Monberg Marcussen||Research Assistant, PhD Student||/en/persons/julius-monberg-marcussen/||||
+P||Alexander Erik Meulengracht||Academic staff||/en/persons/alexander-erik-meulengracht/||||
+P||Vincent Philippe Michal||Assistant Professor||/en/persons/vincent-philippe-michal/||||Localized Josephson hot spots due to two-level systems (2026)
+P||Avan Mirkhan||Academic staff||/en/persons/avan-mirkhan/||||
+P||Alba Molina Sardina||PhD Student||/en/persons/alba-molina-sardina/||||
+P||Frederik Norlén Nathan||Associate Professor||/en/persons/frederik-norl%C3%A9n-nathan/||||Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems (2026)
+P||Liva Danner Nielsen||Teaching Assistant||/en/persons/liva-danner-nielsen/||||
+P||Anders Filip Nilsson||Academic staff||/en/persons/anders-filip-nilsson/||||
+P||Stefano Paesani||Assistant Professor||/en/persons/hxb885-hxb885/||||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration (2026)
+P||Mithilesh Kumar Parit||Postdoc||/en/persons/mithilesh-kumar-parit/||||
+P||Srushti Tukaram Patil||PhD Student||/en/persons/srushti-tukaram-patil/||||
+P||Eike Laurits Piehorsch||Research Assistant||/en/persons/eike-laurits-piehorsch/||||
+P||Beatriz Piniello Castillo||Postdoc||/en/persons/beatriz-piniello-castillo/||||New mechanistic frontiers in carbohydrate-active enzymes revealed by QM/MM simulations (2026)
+P||Eoghan Michael Ryan||External Researcher||/en/persons/eoghan-michael-ryan/||||
+P||Tobias Skov Særkjær||External||/en/persons/tobias-skov-s%C3%A6rkj%C3%A6r/||||Bottom-up nanoscale synthesis of quantum circuits (2024)
+P||Matilde Kammer Sandager||Academic staff||/en/persons/matilde-kammer-sandager/||||
+P||Suresh Kumar Reddy Sangu||PhD Student||/en/persons/suresh-kumar-reddy-sangu/||||
+P||Stefan Alaric Schäffer||Associate Professor||/en/persons/stefan-alaric-sch%C3%A4ffer/||||Lasing on a narrow transition in a cold thermal strontium ensemble (2020)
+P||Arnulf Johannes Snedker-Nielsen||PhD Student||/en/persons/arnulf-johannes-snedker-nielsen/||||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration (2026)
+P||Naia Soler Iturrioz||PhD Student||/en/persons/naia-soler-iturrioz/||||
+P||Kim Splittorff||Associate Professor||/en/persons/kim-splittorff/||||Building intuition for quantum algorithms using the Aharonov-Bohm effect (2026)
+P||Marcus Vestergaard Spørring||PhD Student||/en/persons/marcus-vestergaard-sp%C3%B8rring/||||
+P||Vita Stefanija||Teaching Assistant||/en/persons/vita-stefanija/||||
+P||Zhenhai Sun||Postdoc||/en/persons/zhenhai-sun/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Mark Kamper Svendsen||Associate Professor||/en/persons/mark-kamper-svendsen/||||Bridging scales in polaritonic chemistry: ab initio frameworks with realistic spatially structured cavities (2026)
+P||Hao Tang||PhD Student||/en/persons/hao-tang/||||
+P||Asbjørn Frost Teilmann||PhD Student (external)||/en/persons/asbj%C3%B8rn-frost-teilmann/||||
+P||Jan Westenkær Thomsen||Professor||/en/persons/jan-westenk%C3%A6r-thomsen/||||Collectively enhanced Ramsey readout by cavity sub- to superradiant transition (2024)
+P||Pranav Ticku||PhD Student (Marie Curie)||/en/persons/pranav-ticku/||||
+P||Tommaso Vedana||Academic staff||/en/persons/tommaso-vedana/||||
+P||Rohit Yadav||Postdoc||/en/persons/rohit-yadav/||||Giant Rashba splitting in InBi/SbBi chains on InSb(110): Surface reconstruction as a route to spin-split one-dimensional states (2026)
+P||Alexandr Zaykov||Postdoc||/en/persons/alexandr-zaykov/||||
+PUBS||Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems||/en/publications/ancilla-train-quantum-algorithm-for-simulating-non-markovian-open/||Christensen, H. M., Agerskov, J. & Nathan, F. N., 13 Oct 2026, Physical Review A 114, 042422
+PUBS||Building intuition for quantum algorithms using the Aharonov-Bohm effect||/en/publications/building-intuition-for-quantum-algorithms-using-the-aharonov-bohm/||Paludan Bjerregaard, A. L. & Splittorff, K., 21 Jul 2026, European Journal of Physics 47, 045402
+PUBS||Bridging scales in polaritonic chemistry: ab initio frameworks with realistic spatially structured cavities||/en/publications/bridging-scales-in-polaritonic-chemistry-ab-initio-frameworks-wit/||Bustamante, C. M., Bonafe, F. P., Svendsen, M. K. & Rubio, A., 29 Jun 2026, Optical Materials Express 16
+PUBS||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration||/en/publications/color-center-formation-in-silicon-on-insulator-for-on-chip-photon/||Snedker-Nielsen, A. J., Gongora, D. R., Madsen, M. L., Christiansen, C. H., Piehorsch, E. L. et al., 2026
+PUBS||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit||/en/publications/controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu/||Feldstein-Bofill, D., Jakobsen, L. U., Shagalov, K., Sun, Z., Wied, C., Singh, S., Kringhoj, A., Hastrup, J., Gyenis, A., Flensberg, K., Krojer, S. & Kjaergaard, M., 2026
+PUBS||Directional conductance of Andreev crystals in hybrid Josephson junction arrays||/en/publications/directional-conductance-of-andreev-crystals-in-hybrid-josephson-j/||Dahl, A. E., Maiani, A., Geier, M., Shabani, J. & Flensberg, K., 11 May 2026, Physical Review B 113, 184513

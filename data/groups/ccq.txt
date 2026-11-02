@@ -1,0 +1,24 @@
+# CCQ – Center for Complex Quantum Systems, Department of Physics and Astronomy (AU). Members from phys.au.dk/ccq/people (revised 22.10.2026);
+# positions and recent output from AU Pure where a profile could be matched by name. Harvested 2026-11-02.
+P||Michael Drewsen||Professor, group leader||||Heat management in microscopic systems: from the classical to the quantum regime||Ion Coulomb crystals: An exotic form of condensed matter (2026)
+P||Jan Arlt||Professor, group leader||||||Cloud parameter estimation for interacting BEC after time-of-flight (2026)
+P||Georg Bruun||Professor, group leader||||||Exciton interacting with the phonons of an electronic Wigner crystal (2026)
+P||Andreas Madsen Morgen||Postdoc||||||
+P||Rasmus Malthe F. Andersen||PhD Student||||||
+P||Laurits Nikolaj Stokholm||PhD Student||||||
+P||Frederik Skifter Tribler||PhD Student||||||
+P||Victor Rueskov Christiansen||PhD Student||||||Composing Photons in Time: Multimode Nonlinear Interactions in Quantum Networks with Temporal Pulses of Light (2026)
+P||Maximilian Baron||PhD Student||||||
+P||Søren Skovgaard Balling||PhD Student||||||
+P||Jens Havgaard Nyhegn||PhD Student||||||
+P||Emil Lenler-Eriksen||PhD Student||||||
+P||Mai Korsbæk||Technical and administrative staff||||||
+P||Adam Simon Chatterley||Technical and administrative staff||||||
+P||Brigitte Christina Henderson||Technical and administrative staff||||||
+P||Archak Purkayastha||Affiliate||||||
+P||Juan Sánchez Baena||Affiliate||||||
+P||Klaus Mølmer||Affiliate (University of Copenhagen)||||||
+PUBS||Ion Coulomb crystals: An exotic form of condensed matter||||Drewsen, M. et al., 2026
+PUBS||Cloud parameter estimation for interacting BEC after time-of-flight||||Andersen, R. M. F., Frederiksen, S., Stockholm, L., Zebergs, I., Kristensen, M., Weidner, C. & Arlt, J. J., 14 May 2026
+PUBS||Exciton interacting with the phonons of an electronic Wigner crystal||||Bruun, G. et al., 2026
+PUBS||Composing Photons in Time: Multimode Nonlinear Interactions in Quantum Networks with Temporal Pulses of Light||||Christiansen, V. R. et al., 2026

@@ -1,0 +1,91 @@
+# QPIT, DTU Physics. Harvested 2026-11-02 from DTU Orbit (organisation: quantum-physics-and-information-technology).
+# P||name||position||profile path||current project [period]||latest research output (year)
+P||Zohran Ali||PhD Student||/en/persons/zohran-ali/||Quantum Optomechanics using ultra-coherent mechanical oscillators [01/04/2024 → 31/03/2027]||
+P||Ulrik Lund Andersen||Professor||/en/persons/ulrik-lund-andersen/||Quantum Control of Single Molecules [01/12/2025 → 30/11/2028]||A multi-dimensional cluster state generation system (2026)
+P||Vasiliki Angelopoulou||Postdoc||/en/persons/vasiliki-angelopoulou/||||
+P||Evangelia Aspropotamiti||Postdoc||/en/persons/evangelia-aspropotamiti/||||
+P||Zsuzsanna Bagotai||Executive Assistant||/en/persons/zsuzsanna-bagotai/||||
+P||Samuel John Padraig Bensted||PhD Student||/en/persons/samuel-john-padraig-bensted/||Continuous Variable Quantum Information Processing in Cluster States [01/01/2025 → 31/12/2027]||
+P||Vikas S Bhat||Postdoc||/en/persons/vikas-s-bhat/||||
+P||Yiming Bian||Postdoc||/en/persons/yiming-bian/||||
+P||Jonatan Bohr Brask||Associate Professor||/en/persons/jonatan-bohr-brask/||New architectures and error correcting schemes for universal and fault-tolerant continuous variable quantum computing [01/11/2024 → 31/10/2027]||A Friendly Guide to Exorcising Maxwell's Demon (2025)
+P||Ilia Breev||Postdoc||/en/persons/ilia-breev/||||Quantifying the creation of negatively charged boron vacancies in He-ion irradiated hexagonal boron nitride (2025)
+P||Axel Bogdan Bregnsbo||Research Engineer||/en/persons/axel-bogdan-bregnsbo/||||Quantum learning advantage on a scalable photonic platform (2025)
+P||Romain Jeremie Baptiste Brunel||PhD Student||/en/persons/romain-jeremie-baptiste-brunel/||Continuous variable measurement-based quantum information processing [01/02/2024 → 31/01/2027]||Quantum learning advantage on a scalable photonic platform (2025)
+P||Kaustav Chatterjee||PhD Student||/en/persons/kaustav-chatterjee/||New architectures and error correcting schemes for universal and fault-tolerant continuous variable quantum computing [01/11/2024 → 31/10/2027]||No-Broadcasting of Non-Gaussian States (2026)
+P||Yingxuan Chen||Postdoc||/en/persons/yingxuan-chen/||||
+P||Óscar Cordero Boronat||PhD Student||/en/persons/%C3%B3scar-cordero-boronat/||Measurement-Based Gaussian Boson Sampling [01/09/2024 → 31/08/2027]||Quantum learning advantage on a scalable photonic platform (2025)
+P||Alexssandre de Oliveira Junior||Postdoc||/en/persons/alexssandre-de-oliveira-junior/||||A Friendly Guide to Exorcising Maxwell's Demon (2025)
+P||Adaleta Dozo||Senior Administrative Officer||/en/persons/adaleta-dozo/||||
+P||Riya Dutta||Postdoc||/en/persons/riya-dutta/||||
+P||Tobias Egebjerg||PhD Student||/en/persons/tobias-egebjerg/||||
+P||Anne Birgitte Tramm Ejdrup||Academic Officer||/en/persons/anne-birgitte-tramm-ejdrup/||||
+P||Tobias Gehring||Associate Professor||/en/persons/tobias-gehring/||Quantum Communication and Co-Existence with Classical Communication [01/02/2025 → 31/01/2028]||A system for signal mode-matching for quantum key distribution setups (2026)
+P||Felix Hahne||Postdoc||/en/persons/felix-hahne/||||
+P||Adnan Adil Ebrahim Hajomer||Researcher||/en/persons/adnan-adil-ebrahim-hajomer/||||Continuous Variable Measurement-Device-Independent Quantum Certification (2026)
+P||Saeed Hakimi||Postdoc||/en/persons/saeed-hakimi/||||
+P||Ze-Yan Hao||Postdoc||/en/persons/ze-yan-hao/||||
+P||Nicholas Alan Hill||PhD Student||/en/persons/nicholas-alan-hill/||Evidence-Based Learning and Discrimination in Photonic Platforms [15/11/2025 → 14/11/2028]||
+P||Luis Carlos González Hofmann||PhD Student||/en/persons/luis-carlos-gonz%C3%A1lez-hofmann/||||
+P||Alexander Huck||Associate Professor||/en/persons/alexander-huck/||Enabling far-field coupling of telecom-band quantum dots on the near-zero-index platform [01/01/2026 → 31/12/2028]||General method of wavelength-tuning of Dirac-like cones in photonic crystals (2026)
+P||Nitin Jain||QKD Security Evaluation Specialist||/en/persons/nitin-jain/||||A system for signal mode-matching for quantum key distribution setups (2026)
+P||Mateusz Jakub Kicinski||PhD Student||/en/persons/mateusz-jakub-kicinski/||Development of advanced photonics quantum sensing schemes [01/04/2024 → 31/03/2027]||Variational quantum algorithm for enhanced continuous variable optical phase sensing (2025)
+P||David Palm Borup Johansen||PhD Student||/en/persons/david-palm-borup-johansen/||||
+P||Tobias Junicke||Senior Project Manager||/en/persons/tobias-junicke/||||
+P||Dhiren Kara||Senior Researcher||/en/persons/dhiren-kara/||Quantum sensing in photosynthesis [01/12/2023 → 30/11/2026]||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning (2026)
+P||Louise Kindt||Senior Officer||/en/persons/louise-kindt/||||
+P||Yuta Kochi||Postdoc||/en/persons/yuta-kochi/||||
+P||Vojtech Kuchar||PhD Student||/en/persons/vojtech-kuchar/||||
+P||Benjamin Lundgren Larsen||Postdoc||/en/persons/benjamin-lundgren-larsen/||||Continuous variable quantum information protocols with squeezed light (2024)
+P||Kian Latifi Yaghin||PhD Student||/en/persons/kian-latifi-yaghin/||||
+P||Donghwa Lee||Postdoc||/en/persons/donghwa-lee/||||
+P||Gergely János Lendvay||Student Assistant||/en/persons/gergely-j%C3%A1nos-lendvay/||||
+P||Qizhong Li||PhD Student||/en/persons/qizhong-li/||||
+P||Zhenghao Liu||Researcher||/en/persons/zhenghao-liu/||||Improving semi-device-independent randomness certification by entropy accumulation (2025)
+P||Jacob Christian Loft||PhD Student||/en/persons/jacob-christian-loft/||||
+P||Timour Korsak Javar Magnier||PhD Student||/en/persons/timour-korsak-javar-magnier/||Variational Methods and Architectures for Near-Term Continuous Variable Quantum Computers with Applications in Mathematical and Biological Computation [01/11/2024 → 31/10/2027]||
+P||Ian Bendix McKenzie||PhD Student||/en/persons/ian-bendix-mckenzie/||Quantum Control of Single Molecules [01/12/2025 → 30/11/2028]||
+P||Yu Meng||Postdoc||/en/persons/yu-meng/||||
+P||Monika Maria Mikulicz||Postdoc||/en/persons/monika-maria-mikulicz/||||High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL (2026)
+P||Marta Isabel Moreno Babuglia||PhD Student||/en/persons/marta-isabel-moreno-babuglia/||Quantum information security and randomness certification [01/09/2024 → 31/08/2027]||
+P||Alif Laila Muthali||Research Process Scientist||/en/persons/alif-laila-muthali/||||Photonic simulation of disordered spin systems on a silicon chip (2026)
+P||Jonas Schou Neergaard-Nielsen||Associate Professor||/en/persons/jonas-schou-neergaard-nielsen/||Evidence-Based Learning and Discrimination in Photonic Platforms [15/11/2025 → 14/11/2028]||A multi-dimensional cluster state generation system (2026)
+P||Huy Quang Nguyen||Postdoc||/en/persons/huy-quang-nguyen/||||Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching (2025)
+P||Jens Arnbak Holbøll Nielsen||Sci. Lab Manager||/en/persons/jens-arnbak-holb%C3%B8ll-nielsen/||||Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching (2025)
+P||Sarah Nyeki||PhD Student||/en/persons/sarah-nyeki/||Quantum sensing in photosynthesis [01/12/2023 → 30/11/2026]||
+P||Naja Lautrup Nysom||Software Engineer||/en/persons/naja-lautrup-nysom/||||Future proofing network encryption technology with continuous-variable quantum key distribution (2024)
+P||Alessandro Perino||Postdoc||/en/persons/alessandro-perino/||||
+P||Dot Pio||||/en/persons/dot-pio/||||
+P||Annika Pörner||PhD Student||/en/persons/annika-p%C3%B6rner/||||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning (2026)
+P||Chu-Dan Qiu||PhD Student||/en/persons/chu-dan-qiu/||Theoretical quantum dynamics of solid-state systems [01/11/2024 → 31/10/2027]||
+P||Mervan Ramadan||Research Process Engineer||/en/persons/mervan-ramadan/||||
+P||Thomas Borup Ravnborg||PhD Student||/en/persons/thomas-borup-ravnborg/||||
+P||Chan Roh||Postdoc||/en/persons/chan-roh/||||
+P||Clémentine Rouvière||Postdoc||/en/persons/cl%C3%A9mentine-rouvi%C3%A8re/||||
+P||Aniket Sengupta||PhD Student||/en/persons/aniket-sengupta/||||
+P||Sandeep Singh||Postdoc||/en/persons/sandeep-singh/||||
+P||Björn Sinz||PhD Student||/en/persons/bj%C3%B6rn-sinz/||Room-Temperature Quantum Optomechanics [01/10/2025 → 30/09/2028]||
+P||Santiago Tarrago Velez||Researcher||/en/persons/santiago-tarrago-velez/||Macroscopic quantum opto-acoustics [01/12/2023 → 30/11/2026]||Strong optomechanical coupling at room temperature with a centimeter-scale quartz crystal (2025)
+P||Aleksander Tchernavskij||Electronics Engineer||/en/persons/aleksander-tchernavskij/||||
+P||Davide Tomasella||PhD Student||/en/persons/davide-tomasella/||Macroscopic quantum opto-acoustics [01/12/2023 → 30/11/2026]||Strong optomechanical coupling at room temperature with a centimeter-scale quartz crystal (2025)
+P||Luca Troise||Senior Researcher||/en/persons/luca-troise/||Intracellular Quantum Sensing using diamond with NV centers [01/11/2023 → 31/10/2026]||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning (2026)
+P||Abhinav Verma||Postdoc||/en/persons/abhinav-verma/||||Non Gaussian States and Operations (2024)
+P||Xiaotian Yang||PhD Student||/en/persons/xiaotian-yang/||||
+P||Feiyang Yue||PhD Student||/en/persons/feiyang-yue/||||
+# PUBS||title||path||authors and source
+PUBS||Continuous-variable quantum communication||/en/publications/continuous-variable-quantum-communication/||Usenko, V. C., Acín, A., Alléaume, R., Andersen, U. L., Diamanti, E., Gehring, T., Hajomer, A. A. E. et al., 2026, Reviews of Modern Physics 98
+PUBS||Continuous Variable Measurement-Device-Independent Quantum Certification||/en/publications/continuous-variable-measurement-device-independent-quantum-certif/||Larsen, B. L., Hajomer, A. A. E., Abiuso, P., Izumi, S., Gehring, T., Neergaard-Nielsen, J. S., Acín, A. & Andersen, U. L., 2026, Physical Review X 16, 011070
+PUBS||No-Broadcasting of Non-Gaussian States||/en/publications/no-broadcasting-of-non-gaussian-states/||Chatterjee, K. & Andersen, U. L., 2026, Physical Review Letters 136, 190202
+PUBS||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning||/en/publications/high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast/||Troise, L., Hansen, N. W., Holten, M., Kara, D., Pörner, A., Perrier, J. F., Andersen, U. L. & Huck, A., 2026, Physical Review Applied 25, 064065
+PUBS||A multi-dimensional cluster state generation system||/en/publications/a-multi-dimensional-cluster-state-generation-system/||Østergaard, E. E. B., Andersen, U. L., Neergaard-Nielsen, J. S., Budinger, N. M., Van Loock, P. & Larsen, M. V., 2026, patent (IPC G06N 10)
+PUBS||A system for signal mode-matching for quantum key distribution setups||/en/publications/a-system-for-signal-mode-matching-for-quantum-key-distribution-se/||Chin, H. M., Jain, N. & Gehring, T., 2026, patent WO2026013107
+# PROJ||title||path||people||period||funder||type
+PROJ||QSense: Applications of quantum sensing using nitrogen-vacancy centres||/en/projects/qsense-applications-of-quantum-sensing-using-nitrogen-vacancy-cen/||Webb, J. L. (PI) & Huck, A. (PI)||01/04/2023 → 31/03/2024||||Research
+PROJ||Biological sensing by optically trapped nanodiamonds with NV centers||/en/projects/6762acbe-e0d4-4eb4-8dcd-3cb7921ae2ef/||Berg-Sørensen, K. & Huck, A.||01/10/2022 → 30/09/2025||Novo Nordisk Foundation||Research
+PROJ||Quantum Control of Single Molecules||/en/projects/quantum-control-of-single-molecules/||McKenzie, I. B. & Andersen, U. L.||01/12/2025 → 30/11/2028||||PhD
+PROJ||Room-Temperature Quantum Optomechanics||/en/projects/room-temperature-quantum-optomechanics/||Sinz, B., Andersen, U. L. & Huck, A.||01/10/2025 → 30/09/2028||||PhD
+PROJ||Evidence-Based Learning and Discrimination in Photonic Platforms||/en/projects/evidence-based-learning-and-discrimination-in-photonic-platforms/||Hill, N. A., Neergaard-Nielsen, J. S. & Andersen, U. L.||15/11/2025 → 14/11/2028||||PhD
+PROJ||Enabling far-field coupling of telecom-band quantum dots on the near-zero-index platform||/en/projects/enabling-far-field-coupling-of-telecom-band-quantum-dots-on-the-n/||Vallar, E., Laurynenka, A., Huck, A., Semenova, E. & Moskalenko, A. S.||01/01/2026 → 31/12/2028||||PhD
+# EVENT||date||title (from the QPIT events page)
+EVENT||26-30 January 2026||QST-Hackathon 2026, DTU, Copenhagen
+EVENT||2026||Quantum Information Science with Light and Matter Summer School 2026

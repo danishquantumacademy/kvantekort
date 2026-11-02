@@ -1,0 +1,45 @@
+# Classique – Center for Classical Communication in the Quantum Era, Department of Electronic Systems (AAU). Harvested 2026-11-02 from AAU VBN.
+P||Mahmoud Abouamer||||/en/persons/mahmoudabo/||||Digital Twin-Aided Prescreening for User Scheduling in MU-MIMO Downlink Systems (2026)
+P||Suhaib Al-Rousan||PhD Student||/en/persons/suhaibar/||EQuaL: Equivalence Checking of Quantum Circuits via Tensor Decision Diagrams and Machine Learning [15/12/2024 → 14/12/2027]||Reinforcement Learning for Efficient Quantum Circuit Equivalence Checking via Tensor Network Contraction (2025)
+P||Benjamin Clausen Bennetzen||PhD Student||/en/persons/benjamin-clausen-bennetzen/||||A Type Safe Calculus for Generating Syntax-Directed Editors (2025)
+P||Christophe Biscio||Associate Professor||/en/persons/christophe/||||Multi-Agent Conformal Prediction with Personalized Statistical Validity (2026)
+P||René Bødker Christensen||Associate Professor||/en/persons/rene/||||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Horia Cornean||Professor||/en/persons/cornean/||Classique – Center for Classical Communication in the Quantum Era [01/02/2025 → 31/01/2031]||
+P||Jaron Skovsted Gundersen||Assistant Professor||/en/persons/jaron-gundersen/||||Privacy-Preservation over Directed Graphs: A Case Study of Average Consensus (2026)
+P||Jaemin Kim||||/en/persons/jaemink/||||Carrier-Assisted Entanglement Purification (2026)
+P||Nikolaj Rossander Kristensen||PhD Student||/en/persons/nrk/||||Analysis and Verification of Quantum Communication Protocols in UPPAAL (2026)
+P||Kim Guldstrand Larsen||Professor||/en/persons/kgl/||ODAQS: Optimal Design Automation towards a Performant Quantum Software Stack [01/05/2026 → 31/07/2029]||
+P||Thomas Grubbe Sandborg Lauritsen||PhD Student||/en/persons/thomas-lauritsen/||||Exploring Unknown Environments with Uppaal Stratego: Safe Reinforcement Learning for Navigation and Pump Localization (2025)
+P||Israel Leyva Mayorga||Associate Professor||/en/persons/ilm/||||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Marius Mikučionis||Special Consultant||/en/persons/marius-miku%C4%8Dionis/||||
+P||Shashi Raj Pandey||Assistant Professor||/en/persons/srp/||NETML: Networks for Reliable Machine Learning [01/08/2025 → 31/07/2028]||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Nicolai Peder Bülow Pedersen||PhD Student||/en/persons/nicolai-peder-b%C3%BClow-pedersen/||||Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes (2026)
+P||Thomas Garm Pedersen||Professor||/en/persons/tgp/||Classique – Center for Classical Communication in the Quantum Era [01/02/2025 → 31/01/2031]||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Petar Popovski||Professor, centre leader||/en/persons/petarp/||Classique – Center for Classical Communication in the Quantum Era [01/02/2025 → 31/01/2031]||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Søren Pilegaard Rasmussen||PhD Student||/en/persons/spr/||||Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework (2026)
+P||Christian Schilling||Associate Professor||/en/persons/christianms/||ODAQS: Optimal Design Automation towards a Performant Quantum Software Stack [01/05/2026 → 31/07/2029]||
+P||Ali Sepas||PhD Student||/en/persons/asep/||||
+P||Beatriz Soret||Associate Professor||/en/persons/124676/||||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Jiri Srba||Professor||/en/persons/srba/||||Analysis and Verification of Quantum Communication Protocols in UPPAAL (2026)
+P||Cedomir Stefanovic||Professor||/en/persons/126055/||||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Jakob Kaltoft Søndergaard||PhD Student||/en/persons/jakobks/||||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication (2026)
+P||Mikkel Hviid Thorn||PhD Student||/en/persons/mikkel-hviid-thorn/||||Magnetic pseudo-differential operators with Hörmander symbols dominated by tempered weights (2026)
+P||Max Tschaikowski||Associate Professor||/en/persons/tschaikowski/||EQuaL: Equivalence Checking of Quantum Circuits via Tensor Decision Diagrams and Machine Learning [15/12/2024 → 14/12/2027]||
+P||Loke Walsted||PhD Student||/en/persons/lokew/||||Analysis and Verification of Quantum Communication Protocols in UPPAAL (2026)
+P||Rafal Wisniewski||Professor||/en/persons/raf/||||
+P||Jan Østergaard||Professor||/en/persons/104838/||Classique – Center for Classical Communication in the Quantum Era [01/02/2025 → 31/01/2031]||
+PUBS||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication||/en/publications/1q-first-generation-wireless-systems-integrating-classical-and-qu-2/||Popovski, P., Stefanović, Č., Soret, B., Leyva-Mayorga, I., Pandey, S. R., Christensen, R. B., Søndergaard, J. K., Pedersen, T. G. et al., 2026
+PUBS||Analysis and Verification of Quantum Communication Protocols in UPPAAL||/en/publications/analysis-and-verification-of-quantum-communication-protocols-in-u/||Christensen, R. B., Kristensen, N. R., Larsen, K. G., Mikučionis, M., Srba, J. & Walsted, L., 24 Jul 2026, International Conference on Computer Aided Verification
+PUBS||Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework||/en/persons/spr/||Rasmussen, S. P. et al., 2026
+PUBS||Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes||/en/persons/nicolai-peder-b%C3%BClow-pedersen/||Pedersen, N. P. B. et al., 2026
+PUBS||Carrier-Assisted Entanglement Purification||/en/persons/jaemink/||Kim, J. et al., 2026
+PROJ||Classique – Center for Classical Communication in the Quantum Era||/en/projects/classique-center-for-classical-communication-in-the-quantum-era/||Popovski, P. (PI), Østergaard, J., Pedersen, T. G., Cornean, H. & Larsen, K. G.||01/02/2025 → 31/01/2031||Danish National Research Foundation||Centre of Excellence
+PROJ||ODAQS: Optimal Design Automation towards a Performant Quantum Software Stack||/en/projects/optimal-design-automation-towards-a-performant-quantum-software-s/||Larsen, K. G. (PI), Schilling, C., Holik, L. & Vester, J.||01/05/2026 → 31/07/2029||||Research
+PROJ||EQuaL: Equivalence Checking of Quantum Circuits via Tensor Decision Diagrams and Machine Learning||/en/persons/tschaikowski/||Tschaikowski, M. & Al-Rousan, S.||15/12/2024 → 14/12/2027||||Research
+PRESS||20/10/2026||Quantum networks at QCE26 met the weather||/en/clippings/quantum-networks-at-qce26-met-the-weather/
+PRESS||15/09/2026||Kvantify workshop explores tools for efficient quantum programming||/en/clippings/kvantify-workshop-explores-tools-for-efficient-quantum-programmin/
+PRESS||29/08/2026||Entanglement swap now yields the same state every time||/en/clippings/entanglement-swap-now-yields-the-same-state-every-time/
+ACT||23 Sep 2026||Invited talk: 1Q – First-Generation Wireless Systems Integrating Classical and Quantum Communication||/en/activities/invited-talk-1q-first-generation-wireless-systems-integrating-cla/
+ACT||23 Sep 2026||Cyber Security meets Quantum Communications||/en/activities/cyber-security-meets-quantum-communications/
+ACT||4 May 2026||QCNA-Launch||/en/activities/qcna-launch/
+PRIZE||23 Oct 2026||Danish Mathematical Society's master thesis prize (Mikkel Hviid Thorn)||/en/prizes/danish-mathematical-societys-master-thesis-prize/

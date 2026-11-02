@@ -1,0 +1,34 @@
+# POLIMA – Center for Polariton-driven Light-Matter Interactions, Mads Clausen Institute (SDU). Harvested 2026-11-02 from SDU Find Researcher.
+P||Jorge Barcia Rodriguez||Research Assistant||/en/persons/jorod/||||
+P||Costanza Borghesi||Postdoc||/en/persons/borghesi/||||
+P||Ida Juliane Bundgaard||PhD Student||/en/persons/bundgaard/||||Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Structural Colors (2026)
+P||Minoas Chairetis||PhD Student||/en/persons/chairetis/||||
+P||Emil Clausen||PhD Student||/en/persons/eclausen/||||
+P||Joel Cox||Professor||/en/persons/joel-cox/||||Active light steering with electron beams (2026)
+P||Eduardo Dias||Postdoc||/en/persons/dias/||||Active light steering with electron beams (2026)
+P||Sven Lennart Ebel||Research Assistant||/en/persons/sleb/||||Cathodoluminescence spectroscopy of nanoscale light-matter interactions (2026)
+P||Catarina Ferreira||Postdoc||/en/persons/cferreira/||||Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Structural Colors (2026)
+P||Paulo André Dias Gonçalves||Assistant Professor (tenure track)||/en/persons/paulo-andr%C3%A9-dias-gon%C3%A7alves/||||Quantum Plasmonics in Metals and Emerging Applications of Graphene Plasmons (2026)
+P||Christian Nicolaisen Hansen||PhD Student||/en/persons/nicolaisen/||||Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticles for tailored light-matter interactions (2026)
+P||Jacob Terndrup Heiden||Postdoc||/en/persons/jahe/||||Prospects to bypass metal nonlocal phenomena using phonon-polaritons (2026)
+P||Huatian Hu||Postdoc||/en/persons/huhu/||||Tunable nonlinearities of nonlocal free-electron in plasmonic heavily doped semiconductors (2026)
+P||Line Jelver||Assistant Professor||/en/persons/lije/||||Schottky barrier lowering due to interface states in 2D heterophase devices (2021)
+P||Louise Skovborg Just||Centre Administrator||/en/persons/loju/||||
+P||Toke Marstrand Pontoppidan Lindhard||PhD Student||/en/persons/lindhard/||||
+P||Daniel de Abreu Miranda||PhD Student||/en/persons/miranda/||||Nanoscopy of surface polarization with oblique dipole orientations (2026)
+P||Sergii Morozov||Special Consultant||/en/persons/sergii-morozov/||||Controlling Electron-Beam-Induced Charging in Colloidal Quantum Dots (2026)
+P||N. Asger Mortensen||Professor, centre leader||/en/persons/namo/||||Crystalline metal flakes: platforms for advanced plasmonics and hybrid 2D material architectures (2026)
+P||Christos Mystilidis||Postdoc||/en/persons/chrmys/||||An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Nanowires (2026)
+P||Christos Tserkezis||Professor||/en/persons/ct/||SCOM5: Strong Coupling with Organic Molecules [01/03/2025 → 30/11/2025]||An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Nanowires (2026)
+P||Nicolas Ubrig||Assistant Professor (tenure track)||/en/persons/ubrig/||||
+PUBS||Active steering of cathodoluminescence through a generalized Smith–Purcell effect||/en/publications/active-steering-of-cathodoluminescence-through-a-generalized-smit/||Dias, E. J. C., Rodríguez Echarri, A., Rasmussen, T. P., García de Abajo, F. J. & Cox, J. D., Dec 2026, Light: Science and Applications 15, 218
+PUBS||Cathodoluminescence spectroscopy of nanoscale light-matter interactions||/en/publications/cathodoluminescence-spectroscopy-of-nanoscale-light-matter-intera-2/||Ebel, S. L., 22 Oct 2026, PhD thesis, SDU Faculty of Engineering
+PUBS||Controlling Optical Excitations in Nanoscale Resonators and Two-Dimensional Materials||/en/publications/controlling-optical-excitations-in-nanoscale-resonators-and-two-d/||Lebsir, Y., 12 Oct 2026, PhD thesis, SDU Faculty of Engineering
+PUBS||An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Sphere Aggregates||/en/publications/an-s-matrix-formalism-for-the-nonclassical-optical-response-of-pl-2/||Zheng, X., Mystilidis, C., Tserkezis, C., Vandenbosch, G. A. E. & Zheng, X., 2026, IEEE Transactions on Antennas and Propagation
+PUBS||Controlling Electron-Beam-Induced Charging in Colloidal Quantum Dots||/en/publications/controlling-electron-beam-induced-charging-in-colloidal-quantum-d/||Ebel, S. L., Myslovska, A., Vezzoli, S., Moreels, I. & Morozov, S., 31 Jul 2026, arXiv
+PUBS||Coupled electric dipole model for a Su-Schrieffer-Heeger chain of optically resonant coreshell nanoparticles||/en/publications/coupled-electric-dipole-model-for-a-su-schrieffer-heeger-chain-of/||Buendía, Á. & Peres, N. M. R., 14 Feb 2026, Journal of Applied Physics 139, 063110
+PROJ||SCOM5: Strong Coupling with Organic Molecules||/en/projects/scom5-strong-coupling-with-organic-molecules/||Tserkezis, C. (PI)||01/03/2025 → 30/11/2025||Novo Nordisk Foundation||Research
+PROJ||Villum Mobility Package (2025)||/en/projects/villum-mobility-package-2025/||Larsen, L. (PI)||01/01/2025 → 31/12/2025||Villum Foundation||Travel
+PROJ||2DCHEX: Tuning emission of charged excitons in two-dimensional transition metal dichalcogenide monolayers||/en/projects/tuning-emission-of-charged-excitons-in-two-dimensional-transition/||Morozov, S. & Mortensen, N. A.||01/07/2021 → 30/06/2023||EU||EU
+PROJ||Quantum Plasmonics: The quantum realm of metal nanostructures and enhanced light-matter interactions||/en/projects/quantum-plasmonics-the-quantum-realm-of-metal-nanostructures-and-/||Mortensen, N. A. (PI), Cox, J., Zenin, V. et al.||17/05/2017 → 15/03/2023||||Research
+PRESS||17/11/2023||N. Asger Mortensen modtager Fyens Stiftstidendes Forskerpris 2023||/en/clippings/n-asger-mortensen-modtager-fyens-stiftstidendes-forskerpris-2023-2/

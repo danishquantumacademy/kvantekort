@@ -1,0 +1,238 @@
+{
+  "_note": "Research groups shown on groups.html (pilot: one group per university). Summaries are written by Danish Quantum Academy; quotes are short excerpts from the group's own page. Members, publications and projects come from data/groups/<key>.txt; news, events and positions from data/groups/feeds.json (refreshed weekly by scripts/fetch_group_feeds.py).",
+  "groups": [
+    {
+      "key": "qpit",
+      "institution": "DTU",
+      "name": "Quantum Physics and Information Technology (QPIT)",
+      "short": "QPIT",
+      "unit": "Department of Physics",
+      "kind": "Section",
+      "website": "https://physics.dtu.dk/research/sections/qpit",
+      "portal": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
+      "portal_base": "https://orbit.dtu.dk",
+      "teacher_units": [
+        "Quantum Physics and Information Technology"
+      ],
+      "quote": "to understand, to engineer, and to control complex quantum systems of light and matter",
+      "summary": "A DTU Physics section that builds quantum systems of light and matter and uses them for computing, communication and sensing. Main lines are optical quantum computing with squeezed light and cluster states, continuous-variable quantum key distribution, quantum sensing with NV centres in diamond, and quantum optomechanics. The section is part of the bigQ centre (Center for Macroscopic Quantum States), the Copenhagen Center for Biomedical Quantum Sensing (CBQS) and Biomag.",
+      "themes": [
+        "Optical quantum computing with squeezed light",
+        "Continuous-variable QKD",
+        "NV-diamond quantum sensing",
+        "Quantum optomechanics",
+        "Quantum information theory and randomness"
+      ],
+      "cfqt": [
+        "4.4",
+        "7.3",
+        "5.1",
+        "6.2",
+        "2.2",
+        "1.2",
+        "4.2",
+        "6.7"
+      ],
+      "centres": [
+        "Center for Macroscopic Quantum States (bigQ)",
+        "Copenhagen Center for Biomedical Quantum Sensing",
+        "Center for Quantum Technologies"
+      ],
+      "jobs_url": "https://www.dtu.dk/english/about/job-and-career/vacant-positions",
+      "feeds": [
+        {
+          "kind": "events",
+          "type": "dated_lines",
+          "url": "https://physics.dtu.dk/research/sections/qpit/Events"
+        },
+        {
+          "kind": "outputs",
+          "type": "pure_overview",
+          "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/"
+        }
+      ]
+    },
+    {
+      "key": "nqcp",
+      "institution": "KU",
+      "name": "Quantum Information Science & Technology (NQCP)",
+      "short": "NQCP",
+      "unit": "Niels Bohr Institute",
+      "kind": "Section and programme",
+      "website": "https://nqcp.ku.dk/",
+      "portal": "https://researchprofiles.ku.dk/en/organisations/nqcp/",
+      "portal_base": "https://researchprofiles.ku.dk",
+      "teacher_units": [
+        "Quantum Information Science & Technology"
+      ],
+      "quote": "",
+      "summary": "The Niels Bohr Institute unit behind the Novo Nordisk Foundation Quantum Computing Programme (NQCP), with its own website at nqcp.ku.dk. Its members work across the stack of a future quantum computer: superconducting and hybrid superconductor–semiconductor qubits, spin qubits in semiconductor quantum dots, photonic qubits from colour centres in silicon, quantum algorithms for chemistry and open quantum systems, and strontium atomic clocks.",
+      "themes": [
+        "Superconducting and hybrid qubits",
+        "Semiconductor spin qubits",
+        "Photonic and colour-centre qubits",
+        "Quantum algorithms for chemistry and open systems",
+        "Atomic clocks and superradiant lasers"
+      ],
+      "cfqt": [
+        "4.1",
+        "4.2",
+        "4.4",
+        "4.5",
+        "5.5",
+        "5.6",
+        "6.6",
+        "5.1"
+      ],
+      "centres": [
+        "Novo Nordisk Foundation Quantum Computing Programme"
+      ],
+      "jobs_url": "https://employment.ku.dk/all-vacancies/",
+      "feeds": [
+        {
+          "kind": "outputs",
+          "type": "pure_overview",
+          "url": "https://researchprofiles.ku.dk/en/organisations/nqcp/"
+        },
+        {
+          "kind": "news",
+          "type": "generic_list",
+          "url": "https://nqcp.ku.dk/news/"
+        }
+      ]
+    },
+    {
+      "key": "ccq",
+      "institution": "AU",
+      "name": "Center for Complex Quantum Systems (CCQ)",
+      "short": "CCQ",
+      "unit": "Department of Physics and Astronomy",
+      "kind": "DNRF Center of Excellence",
+      "website": "https://phys.au.dk/ccq",
+      "portal": "https://pure.au.dk/portal/en/organisations/department-of-physics-and-astronomy-center-for-complex-quantum-sy/",
+      "portal_base": "https://pure.au.dk/portal",
+      "teacher_units": [
+        "Center for Complex Quantum Systems"
+      ],
+      "quote": "advance our understanding of collective quantum phenomena in large collections of particles",
+      "summary": "A Danish National Research Foundation Center of Excellence at Aarhus University, started in September 2020. It studies collective quantum behaviour in many atoms, ions and photons and builds hybrid systems where these meet: ion Coulomb crystals and ion traps (Drewsen), Bose–Einstein condensates and impurities (Arlt) and theory of polarons and many-body physics (Bruun). Former founding groups of Klaus Mølmer (now KU) and Thomas Pohl (now TU Wien) remain partners.",
+      "themes": [
+        "Trapped ions and Coulomb crystals",
+        "Ultracold atoms and Bose–Einstein condensates",
+        "Polarons and many-body theory",
+        "Hybrid atom–ion–photon systems"
+      ],
+      "cfqt": [
+        "2.4",
+        "4.3",
+        "2.1",
+        "2.2",
+        "5.2"
+      ],
+      "centres": [
+        "Danish National Research Foundation Center of Excellence"
+      ],
+      "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+      "feeds": [
+        {
+          "kind": "news",
+          "type": "generic_list",
+          "url": "https://phys.au.dk/ccq/news"
+        },
+        {
+          "kind": "events",
+          "type": "generic_list",
+          "url": "https://phys.au.dk/ccq/events"
+        }
+      ]
+    },
+    {
+      "key": "polima",
+      "institution": "SDU",
+      "name": "Center for Polariton-driven Light-Matter Interactions (POLIMA)",
+      "short": "POLIMA",
+      "unit": "Mads Clausen Institute",
+      "kind": "DNRF Center of Excellence",
+      "website": "https://www.sdu.dk/en/forskning/polima",
+      "portal": "https://portal.findresearcher.sdu.dk/en/organisations/center-for-polariton-driven-light-matter-interactions-polima/",
+      "portal_base": "https://portal.findresearcher.sdu.dk",
+      "teacher_units": [
+        "Center for Polariton-driven Light-Matter Interactions (POLIMA)"
+      ],
+      "quote": "",
+      "summary": "A Danish National Research Foundation Center of Excellence at SDU's Mads Clausen Institute. It studies how light couples to matter at the nanoscale through polaritons: quantum and nonlocal plasmonics in metals, polaritons in graphene and other 2D materials, excitons, free-electron–light interaction and cathodoluminescence. The work is mostly theory, with experiments in electron-beam spectroscopy and nanophotonics.",
+      "themes": [
+        "Quantum and nonlocal plasmonics",
+        "Polaritons in 2D materials",
+        "Excitons and strong coupling",
+        "Free-electron–light interaction",
+        "Cathodoluminescence spectroscopy"
+      ],
+      "cfqt": [
+        "2.2",
+        "2.3",
+        "4.4",
+        "3.3"
+      ],
+      "centres": [
+        "Danish National Research Foundation Center of Excellence",
+        "Danish Institute for Advanced Study (DIAS)"
+      ],
+      "jobs_url": "https://www.sdu.dk/en/service/ledige_stillinger",
+      "feeds": [
+        {
+          "kind": "news",
+          "type": "generic_list",
+          "url": "https://www.sdu.dk/en/forskning/polima/news"
+        },
+        {
+          "kind": "events",
+          "type": "generic_list",
+          "url": "https://www.sdu.dk/en/forskning/polima/events"
+        }
+      ]
+    },
+    {
+      "key": "classique",
+      "institution": "AAU",
+      "name": "Classique – Center for Classical Communication in the Quantum Era",
+      "short": "Classique",
+      "unit": "Department of Electronic Systems",
+      "kind": "DNRF Center of Excellence",
+      "website": "https://www.classique.aau.dk",
+      "portal": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/",
+      "portal_base": "https://vbn.aau.dk",
+      "teacher_units": [
+        "Classique – Center for Classical Communication in the Quantum Era",
+        "Classical and Quantum Information and Connectivity"
+      ],
+      "quote": "revolutionize communication systems for the quantum age",
+      "summary": "A Danish National Research Foundation Center of Excellence at Aalborg University (2025–2031). It asks how classical communication networks must change to serve both ordinary data and quantum information, which is fragile and time-limited. Researchers from communication engineering, physics, mathematics and computer science work on hybrid classical–quantum and satellite networks, physics-based models of quantum components, data compression and coding, and verification of quantum protocols.",
+      "themes": [
+        "Hybrid classical–quantum networks",
+        "Satellite-supported quantum communication",
+        "Entanglement-assisted coding and teleportation",
+        "Verification of quantum protocols",
+        "Quantum software design automation"
+      ],
+      "cfqt": [
+        "7.5",
+        "7.6",
+        "7.1",
+        "5.3",
+        "1.2"
+      ],
+      "centres": [
+        "Danish National Research Foundation Center of Excellence"
+      ],
+      "jobs_url": "https://www.vacancies.aau.dk/",
+      "feeds": [
+        {
+          "kind": "outputs",
+          "type": "pure_overview",
+          "url": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+        }
+      ]
+    }
+  ]
+}
