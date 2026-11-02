@@ -68,4 +68,4 @@ site/
 
 Ph.d.-kurser for AU, SDU, AAU og KU er hentet fra den nationale portal [phdcourses.dk](https://phdcourses.dk) (kurser med dato i 2026/27 eller uden dato, ekskl. arkiverede "Gl."-kurser). DTU's ph.d.-kurser kommer fra DTU's egen kursusbase.
 
-Vedligeholdes af Dansk Fysisk Selskab.
+Vedligeholdes af [Danish Quantum Academy](https://danishquantumacademy.dk) som led i kortlægningsopgaven i European Quantum Academy (Northern European Regional Quantum Academy). Siden publiceres på danishquantumacademy.dk.
