@@ -32,6 +32,7 @@ site/
   template.html             # coverage matrix and course list (index.html)
   triangle_template.html    # CFQT proficiency triangle per university (triangle.html)
   students_template.html    # study path profiles per MSc programme (students.html)
+  planner_template.html     # course finder: interests -> three MSc course plans (planner.html)
   index.html                # generated; served by GitHub Pages
   CNAME                     # map.danishquantumacademy.dk
 .github/workflows/pages.yml # builds and publishes the site on every push to main

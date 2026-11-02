@@ -1,0 +1,290 @@
+<title>Quantum Course Finder</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a question with a free-text answer and example chips; "what we understood" as removable topic chips;
+   settings (home university, other universities, quantum share, thesis); three study plans side by side, each with
+   a CFQT profile triangle, an ECTS bar for the whole 120 ECTS MSc and the course list with reasons. */
+:root{
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
+  --aI:#6b8a12; --aII:#13729c; --aIII:#a3173d; --empty:#eef0f5; --ref:#141a2b; --other:#c9cfdc;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
+  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; --ref:#ffffff; --other:#3a4360; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
+  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; --ref:#ffffff; --other:#3a4360; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1160px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:26px}
+.nav{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.nav a{color:var(--accent);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 20px/1.2 var(--display);margin:0;letter-spacing:-.01em}
+h3{font:600 15px/1.3 var(--body);margin:0}
+.lede{max-width:72ch;color:var(--muted);margin:0}
+.ask{display:grid;gap:12px;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.ask label.q{font:700 clamp(20px,3vw,26px)/1.2 var(--display)}
+.ask form{display:flex;gap:10px;flex-wrap:wrap}
+.ask textarea{flex:1 1 420px;min-width:0;min-height:64px;resize:vertical;font:16px/1.45 var(--body);padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.ask button.go{font:600 15px var(--body);padding:0 22px;min-height:48px;border-radius:10px;border:0;background:var(--accent);color:var(--bg);cursor:pointer;align-self:stretch}
+.ask textarea:focus-visible,.ask button:focus-visible,select:focus-visible,input:focus-visible,.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.examples{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.examples span.l{font-size:12.5px;color:var(--muted);margin-right:2px}
+.chip{font:500 13px/1 var(--body);padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.chip:hover{border-color:var(--muted)}
+.settings{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;font-size:14px}
+.settings label{display:flex;gap:8px;align-items:center;cursor:pointer}
+.settings select{max-width:100%;font:14px var(--body);padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.understood{display:grid;gap:8px}
+.understood .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.topic{display:inline-flex;gap:6px;align-items:center;font:500 13px/1 var(--body);padding:6px 6px 6px 10px;border-radius:999px;background:var(--chip);border:1px solid var(--line)}
+.topic button{border:0;background:transparent;color:var(--muted);cursor:pointer;font:600 14px/1 var(--body);padding:2px 4px;border-radius:50%}
+.topic button:hover{color:var(--fg)}
+.topic .subs{font:500 11px var(--mono);color:var(--muted)}
+.style-note{font-size:13px;color:var(--muted)}
+.msg{font-size:14px;color:var(--muted);padding:10px 12px;border:1px dashed var(--line);border-radius:10px}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:14px;align-items:start}
+.plan{display:grid;gap:10px;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface);min-width:0}
+.plan .kicker{font:600 11.5px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.plan .why{font-size:13.5px;color:var(--muted);margin:0}
+.plan svg.tri{width:100%;max-width:300px;height:auto;justify-self:center;display:block}
+.lv{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.lvc{font:600 12px/1 var(--mono);padding:4px 6px;border-radius:4px;background:var(--chip)}
+.ectsbar{display:flex;height:14px;border-radius:4px;overflow:hidden;background:var(--chip)}
+.ectsbar i{display:block;height:100%}
+.ectskey{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}
+.ectskey .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.clist{display:grid}
+.crow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.crow:last-child{border-bottom:0}
+.crow a{color:var(--fg);text-decoration:none;font-weight:500;font-size:14px}
+.crow a:hover{color:var(--accent);text-decoration:underline}
+.crow .e{font:500 12px var(--mono);color:var(--muted);white-space:nowrap}
+.crow .m{grid-column:1/3;display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:12px;color:var(--muted)}
+.pl{font:600 11px/1 var(--mono);padding:3px 5px;border-radius:4px;background:var(--chip)}
+.sd{font:500 11px/1 var(--mono);padding:2px 4px;border-radius:3px;border:1.5px solid currentColor}
+.badge{font:600 10.5px/1 var(--mono);padding:3px 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
+.badge.x{border-color:var(--accent);color:var(--accent)}
+.badge.f{border-color:var(--aI);color:var(--aI)}
+.match{font-style:italic}
+.placeholder{font-size:12.5px;color:var(--muted);padding:8px 10px;border-radius:8px;background:var(--chip)}
+footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
+footer p{margin:0;max-width:84ch}
+footer a{color:var(--accent)}
+</style>
+
+<div class="wrap">
+  <div class="nav"><span>Danish Quantum Academy · Education mapping</span><a href="index.html">Coverage matrix</a><a href="triangle.html">Course triangle</a><a href="students.html">Study path profiles</a></div>
+  <header style="display:grid;gap:10px">
+    <h1>Quantum Course Finder</h1>
+    <p class="lede">Tell us what you find interesting, in your own words, and get three suggestions for the quantum part of a master's programme (120 ECTS), each with its CFQT proficiency profile. Quantum courses are only part of a master's degree; the rest is your thesis and the other courses in your programme.</p>
+  </header>
+
+  <section class="ask" aria-label="Your interests">
+    <label class="q" for="q">What do you find interesting?</label>
+    <form id="f">
+      <textarea id="q" placeholder="For example: I like programming and would like to work on quantum algorithms, maybe for chemistry. I also enjoy maths."></textarea>
+      <button class="go" type="submit">Suggest courses</button>
+    </form>
+    <div class="examples" id="examples"><span class="l">Or try:</span></div>
+    <div class="settings">
+      <label>I study at <select id="home"></select></label>
+      <label><input type="checkbox" id="cross"> Include courses at other universities</label>
+      <label>Quantum courses <select id="target"><option value="30">about 30 ECTS</option><option value="45" selected>about 45 ECTS</option><option value="60">about 60 ECTS</option><option value="75">about 75 ECTS</option></select></label>
+      <label>Thesis <select id="thesis"><option value="30" selected>30 ECTS, quantum topic</option><option value="45">45 ECTS, quantum topic</option><option value="60">60 ECTS, quantum topic</option><option value="0">not in quantum</option></select></label>
+    </div>
+  </section>
+
+  <section class="understood" aria-labelledby="u-h">
+    <h2 id="u-h">What we understood</h2>
+    <div class="row" id="topics"></div>
+    <div class="style-note" id="style"></div>
+  </section>
+
+  <section style="display:grid;gap:12px" aria-labelledby="p-h">
+    <h2 id="p-h">Three suggestions</h2>
+    <div id="msg"></div>
+    <div class="plans" id="plans"></div>
+  </section>
+
+  <footer>
+    <p>How it works: your text is matched against a list of topics (in English and Danish) that are linked to subdomains of the European Competence Framework for Quantum Technologies (CFQT), and against course titles. Courses are scored by how well their CFQT subdomains match your interests. The first suggestion follows your interests most closely; the other two lean towards hands-on engineering or towards theory, so you can see how the profile changes. Each plan includes a foundation course in quantum concepts if your interests did not already bring one in. The thesis is assumed to reach C1 in (I) Quantum concepts when it is in a quantum topic.</p>
+    <p>These are suggestions, not study advice. Check your programme's curriculum for which courses count towards your degree and their prerequisites, and talk to your study counsellor. Course levels are first estimates by Danish Quantum Academy. <span id="cite"></span></p>
+  </footer>
+</div>
+
+<script id="qdk-data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent);
+  const R=D.reference, Q=R.cfqt, AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'];
+  const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
+  const NS='http://www.w3.org/2000/svg';
+  const INSTS=Object.keys(R.institutions);
+  const NEAR={KU:['DTU'],DTU:['KU']};
+  const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+
+  // ---- topic lexicon: phrases (EN/DA) -> CFQT subdomains, optional style ----
+  const LEX=[
+    {name:'Quantum computing',w:['quantum comput','kvantecomput','quantum computer','qubit','gate','kvantecomputer'],subs:['5.1','5.5','5.4']},
+    {name:'Quantum algorithms',w:['algorithm','algoritm','shor','grover','complexity','kompleksitet'],subs:['5.5','5.4','5.1']},
+    {name:'Programming and software',w:['program','software','coding','code','kode','compiler','python','qiskit','developer','udvikl'],subs:['5.3','3.5','5.1'],style:'II'},
+    {name:'Error correction',w:['error correct','fejlkorrek','fault','fejltoler'],subs:['5.3','5.1']},
+    {name:'Machine learning and AI',w:['machine learning','maskinlæring','neural','artificial intelligence','kunstig intelligens',' ai ',' ml '],subs:['5.5','4.7']},
+    {name:'Quantum simulation',w:['simulat','many-body','mangepartikel','many body'],subs:['5.2','2.4','5.6']},
+    {name:'Chemistry and molecules',w:['chemi','kemi','molecul','molekyl','drug','lægemiddel','catalys','katalys'],subs:['2.4','5.6']},
+    {name:'Cryptography and security',w:['crypt','krypt','security','sikkerhed','privacy','hack','encrypt'],subs:['7.1','7.3','7.4']},
+    {name:'Quantum communication and networks',w:['communicat','kommunikation','network','netværk','internet','teleport'],subs:['7.3','7.5','7.1']},
+    {name:'Light, optics and photonics',w:['light','lys','optic','optik','photon','foton','laser'],subs:['2.2','3.3','4.4']},
+    {name:'Atoms and ions',w:['atom','ion trap','ion-trap','ioner','cold atom','kolde atom','rydberg'],subs:['2.1','4.3']},
+    {name:'Superconducting qubits and chips',w:['superconduct','superled','transmon','chip','cryogen','kryogen'],subs:['4.1','4.6','4.8'],style:'II'},
+    {name:'Spins, quantum dots and semiconductors',w:['spin','quantum dot','kvanteprik','semiconduct','halvleder','nv cent','diamond','diamant'],subs:['4.2','2.3','3.2']},
+    {name:'Materials and solid-state physics',w:['material','solid state','solid-state','faststof','condensed','kondenseret','crystal','krystal','topolog'],subs:['2.3','3.2']},
+    {name:'Nanotechnology and fabrication',w:['nano','fabricat','fabrikat','cleanroom','renrum'],subs:['3.2','4.8'],style:'II'},
+    {name:'Sensors and measurement',w:['sensor','sensing','measur','måling','måle','metrolog','magnetomet','clock','ur ','gravit','imaging'],subs:['6.1','6.2','3.4','2.2']},
+    {name:'Mathematics and information theory',w:['math','matemat','proof','bevis','information theory','informationsteori','linear algebra','lineær algebra','operator','abstract','abstrakt'],subs:['1.2'],style:'I'},
+    {name:'Quantum foundations',w:['foundation','grundlag','quantum mechanic','kvantemekanik','entangle','sammenfiltr','superposition','bell','paradox','fundamental'],subs:['1.1','1.2'],style:'I'},
+    {name:'Physics',w:['physic','fysik'],subs:['2.2','2.3','2.1']},
+    {name:'Theory',w:['theor','teori'],subs:['1.2','2.4'],style:'I'},
+    {name:'Experiments and lab work',w:['experiment','eksperiment','lab','hands-on','hands on','build','bygge','hardware','apparat','instrument'],subs:['3.1','3.4','4.6'],style:'II'},
+    {name:'Electronics and control',w:['electronic','elektronik','control','kontrol','regulering','microwave','mikrobølge','fpga','signal'],subs:['3.4','4.6'],style:'II'},
+    {name:'Engineering',w:['engineer','ingeniør','technolog','teknolog','device','komponent'],subs:['4.8','3.4'],style:'II'},
+    {name:'Business, startups and society',w:['business','startup','start-up','iværksæt','entrepreneur','industry','industri','company','virksomhed','market','marked','society','samfund','ethic','etik','policy','politik'],subs:['8.1','8.2','8.3'],style:'III'},
+    {name:'Teaching and communication',w:['teach','undervis','education','formidl','outreach','school','gymnasi'],subs:['8.4'],style:'III'},
+    {name:'Energy',w:['energy','energi','solar','sol','battery','batteri'],subs:['2.3','5.6']}
+  ];
+  const EXAMPLES=['I want to build quantum computers in the lab','Quantum algorithms and programming','Light, lasers and photonics','Cryptography and secure communication','Mathematics and information theory','Chemistry and molecules on quantum computers','Materials and nanotechnology','Startups and how quantum creates value'];
+
+  function interpret(text){
+    const t=' '+text.toLowerCase().replace(/[^a-zæøåäöü0-9\- ]/g,' ')+' ';
+    const found=LEX.filter(x=>x.w.some(w=>t.includes(w)));
+    // also direct matches on CFQT subdomain names
+    const words=t.split(/\s+/).filter(w=>w.length>3&&!['quantum','kvante','computing','computer','want','would','like','that','with','also','maybe','about','være','gerne','godt','noget','interesse','interesting','interested','work','arbejde','find','think','syntes','synes'].includes(w));
+    return {topics:found,words};
+  }
+
+  // ---- triangle (CFQT geometry) ----
+  function geometry(W){const h=W*Math.sqrt(3)/2,pad=W*.04,top=pad;const A=[W/2+pad,top],BL=[pad,h+top],BR=[W+pad,h+top];const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2],lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];const L=mid(A,BL),Rr=mid(A,BR),M=mid(BL,BR),O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]};const cells=[];for(const a of AREAS){const[P1,P2,V]=sides[a];cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}))}return{W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,cells,sides,lerp}}
+  const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
+  const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return[x/pts.length,y/pts.length]};
+  function profile(courses,thesis){const lv={},depth={},tOnly={};AREAS.forEach(a=>{const idx=courses.map(c=>c.prof[a]?LV.indexOf(c.prof[a]):-1);const t=thesis&&a==='I'?LV.indexOf('C1'):-1;const cm=Math.max(-1,...idx),mx=Math.max(cm,t);lv[a]=mx;LV.forEach((l,i)=>{depth[a+l]=idx.filter(v=>v>=i).length+(t>=i?1:0);tOnly[a+l]=i>cm&&i<=t})});return{lv,depth,tOnly}}
+  function drawTri(pr){const g=geometry(280);const svg=sv('svg',{class:'tri',viewBox:`0 0 ${g.W.toFixed(0)} ${g.H.toFixed(0)}`,role:'img','aria-label':`Profile: ${AREAS.map(a=>`(${a}) ${pr.lv[a]>=0?LV[pr.lv[a]]:'none'}`).join(', ')}`});
+    g.cells.forEach(c=>{const r=LV.indexOf(c.l)<=pr.lv[c.a],d=pr.depth[c.a+c.l],t=pr.tOnly[c.a+c.l];const op=!r?1:t?.28:Math.min(.92,.32+.15*d);const poly=sv('polygon',{points:P(c.pts),fill:r?acol(c.a):'var(--empty)','fill-opacity':op.toFixed(2),stroke:t?acol(c.a):'var(--surface)','stroke-width':t?1.3:1,'stroke-dasharray':t?'2 2':'none'});poly.append(sv('title',{},`(${c.a}) ${Q.areas[c.a]} ${c.l} ${Q.levels[c.l]}: ${r?(t?'through the thesis':`${d} course(s)`):'not reached'}`));svg.append(poly);const[x,y]=centroid(c.pts);if(c.l!=='A1')svg.append(sv('text',{x:x.toFixed(1),y:(y+3.5).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':9.5,'font-weight':600,fill:r&&!t&&op>.55?'var(--bg)':'var(--muted)','pointer-events':'none'},c.l))});
+    [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':4,'stroke-linecap':'round'})));
+    svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':1}));
+    // CFQT P6 reference (QT engineering professional, "e.g. QT degree programme"): I B1, II B2, III A2
+    const fr=(a,l)=>{const[P1,P2,V]=g.sides[a];const k=Math.max(0,LV.indexOf(l)-1)/4;return[g.lerp(P1,V,k),g.lerp(P2,V,k)]};
+    const[i1,i2]=fr('I','B1'),[ii1,ii2]=fr('II','B2'),[iii1,iii2]=fr('III','A2');
+    svg.append(sv('polygon',{points:P([g.L,i1,i2,g.R,iii1,iii2,g.M,ii2,ii1]),fill:'none',stroke:'var(--ref)','stroke-width':1.6,'stroke-dasharray':'5 4','stroke-linejoin':'round','pointer-events':'none'}));
+    return svg}
+
+  // ---- scoring and plans ----
+  const MSC=D.courses.filter(c=>c.level==='MSc');
+  function scoreCourse(c,topics,words){
+    let s=0; const why=new Set();
+    topics.forEach(t=>{t.subs.forEach((sub,ti)=>{const i=c.subs.indexOf(sub); if(i>=0){s+=(i===0?1:.55)*(ti===0?1:.75); why.add(t.name)}})});
+    const title=c.title.toLowerCase(); words.forEach(w=>{if(w.length>4&&title.includes(w.slice(0,Math.max(5,w.length-2)))){s+=.6; why.add('“'+w+'” in title')}});
+    return {s,why:[...why]};
+  }
+  const lvIdx=(c,a)=>c.prof[a]?LV.indexOf(c.prof[a])+1:0;
+  const norm=t=>t.toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-z0-9æøå]+/g,' ').trim();
+  function build(pool,topics,words,target,kind,avoid,home){
+    const scored=pool.map(c=>{const m=scoreCourse(c,topics,words);let k=m.s*3;
+      if(kind==='match') k+=.25*(lvIdx(c,'I')+lvIdx(c,'II')+lvIdx(c,'III'))+(Object.keys(c.prof).length?0:-1);
+      if(kind==='hands') k=m.s*2+1.4*lvIdx(c,'II')-.4*lvIdx(c,'I')+(c.subs.some(s=>/^[34]\./.test(s))?.8:0)+(Object.keys(c.prof).length?0:-.5);
+      if(kind==='theory') k=m.s*2+1.1*lvIdx(c,'I')-.5*lvIdx(c,'II')+(c.subs.some(s=>/^[12]\./.test(s))?.8:0)-(lvIdx(c,'II')>0?.2:0)+(Object.keys(c.prof).length?0:-1.5);
+      if(m.s<=0&&kind==='match') k=0;
+      if(home&&c.institution===home&&m.s>0) k+=1.2;
+      if(m.s<=0) k*=.4;
+      if(avoid&&avoid.has(c.institution+c.code)) k*=.55;
+      return {c,m,k}}).filter(x=>x.k>0).sort((a,b)=>b.k-a.k||(a.c.ects||0)-(b.c.ects||0));
+    const chosen=[], seen=new Set(); let ects=0;
+    const add=(x,flag)=>{const n=norm(x.c.title); if(seen.has(n)) return false; if(ects+(x.c.ects||5)>target+2.5) return false; chosen.push({...x,flag}); seen.add(n); ects+=x.c.ects||5; return true};
+    // foundation course in quantum concepts if none of the top picks provides one
+    const isFound=c=>c.subs.some(s=>s==='1.1'||s==='1.2')&&lvIdx(c,'I')>=3;
+    for(const x of scored){ if(ects>=target-2) break; add(x); }
+    if(!chosen.some(x=>isFound(x.c))){
+      const f=pool.filter(isFound).map(c=>({c,m:scoreCourse(c,topics,words),k:0})).sort((a,b)=>b.m.s-a.m.s||lvIdx(a.c,'I')-lvIdx(b.c,'I'))[0];
+      if(f){ while(chosen.length&&ects+(f.c.ects||5)>target+2.5){const r=chosen.pop(); seen.delete(norm(r.c.title)); ects-=r.c.ects||5} add(f,'foundation'); }
+    }
+    return {items:chosen,ects};
+  }
+
+  // ---- UI ----
+  const home=document.getElementById('home');
+  home.append(el('option',{value:'ALL'},'any Danish university'),...INSTS.map(i=>el('option',{value:i},`${i} – ${R.institutions[i].name}`)));
+  const ex=document.getElementById('examples');
+  EXAMPLES.forEach(t=>{const b=el('button',{class:'chip',type:'button'},t); b.onclick=()=>{q.value=t; run()}; ex.append(b)});
+  const q=document.getElementById('q'), state={removed:new Set()};
+  document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();state.removed.clear();run()});
+  ['home','cross','target','thesis'].forEach(id=>document.getElementById(id).addEventListener('change',run));
+
+  function run(){
+    const text=q.value.trim(); const {topics:all,words}=interpret(text);
+    const topics=all.filter(t=>!state.removed.has(t.name));
+    // topics chips
+    const tb=document.getElementById('topics'); tb.innerHTML='';
+    if(!text){tb.append(el('span',{class:'style-note'},'Write a few words about what interests you, or pick an example above.'))}
+    else if(!topics.length){tb.append(el('span',{class:'style-note'},'We could not link your text to a quantum topic. Try words like algorithms, light, atoms, materials, cryptography, chemistry, mathematics or lab work.'))}
+    topics.forEach(t=>{const x=el('button',{type:'button','aria-label':`Remove ${t.name}`,title:'Remove'},'×'); x.onclick=()=>{state.removed.add(t.name);run()}; tb.append(el('span',{class:'topic'},t.name,el('span',{class:'subs'},t.subs.join(' ')),x))});
+    const styles=topics.map(t=>t.style).filter(Boolean); const cnt=s=>styles.filter(x=>x===s).length;
+    const st=document.getElementById('style'); st.textContent=styles.length?`You lean towards ${cnt('II')>=cnt('I')&&cnt('II')>=cnt('III')?'hands-on engineering':cnt('I')>=cnt('III')?'theory and concepts':'applications and value creation'}. The suggestions below include one closest to your interests and two that shift the profile.`:'';
+    // pool
+    const h=home.value, cross=document.getElementById('cross').checked;
+    const allowed=h==='ALL'?new Set(INSTS):new Set([h,...(cross?INSTS.filter(i=>i!==h):[])]);
+    const pool=MSC.filter(c=>allowed.has(c.institution));
+    const target=+document.getElementById('target').value, thesis=+document.getElementById('thesis').value;
+    const box=document.getElementById('plans'); box.innerHTML=''; const msg=document.getElementById('msg'); msg.innerHTML='';
+    if(!topics.length){ msg.append(el('div',{class:'msg'},'Suggestions appear here once we have understood at least one topic.')); return; }
+    const plans=[
+      {kind:'match',kicker:'Closest to your interests',why:'Courses that match your topics most closely, balanced across the CFQT areas.',col:'var(--accent)'},
+      {kind:'hands',kicker:'More hands-on',why:'Leans towards (II) hardware and software engineering: lab, devices, control and programming.',col:acol('II')},
+      {kind:'theory',kicker:'More theory',why:'Leans towards (I) quantum concepts: foundations, mathematics and the physics behind the technology.',col:acol('I')}
+    ];
+    const hb=h!=='ALL'&&cross?h:null; const first=build(pool,topics,words,target,'match',null,hb);
+    const used=new Set(first.items.map(x=>x.c.institution+x.c.code));
+    const built=plans.map((p,i)=>({...p,...(i?build(pool,topics,words,target,p.kind,used,hb):first)}));
+    if(built.every(b=>!b.items.length)){ msg.append(el('div',{class:'msg'},'No master\'s courses match these topics at the selected university. Try including other universities or broadening your interests.')); return; }
+    if(h!=='ALL'&&!cross) msg.append(el('div',{class:'style-note'},`Showing master's courses at ${h}. ${NEAR[h]?`Students at ${h} can often take courses at ${NEAR[h].join(' and ')}; tick "Include courses at other universities" to see them.`:''}`));
+    built.forEach(b=>{
+      const courses=b.items.map(x=>x.c), pr=profile(courses,thesis>0);
+      const other=Math.max(0,120-b.ects-thesis);
+      const bar=el('div',{class:'ectsbar',role:'img','aria-label':`${b.ects} ECTS quantum courses, ${thesis} ECTS thesis, ${other} ECTS other courses`},
+        el('i',{style:`width:${b.ects/120*100}%;background:${b.col}`}),el('i',{style:`width:${thesis/120*100}%;background:${b.col};opacity:.45`}),el('i',{style:`width:${other/120*100}%;background:var(--other)`}));
+      const key=el('div',{class:'ectskey'},el('span',{},el('span',{class:'sw',style:`background:${b.col}`}),`${b.ects} ECTS quantum courses`),el('span',{},el('span',{class:'sw',style:`background:${b.col};opacity:.45`}),thesis?`${thesis} ECTS quantum thesis`:'thesis outside quantum'),el('span',{},el('span',{class:'sw',style:'background:var(--other)'}),`${other} ECTS other programme courses`));
+      const list=el('div',{class:'clist'});
+      b.items.forEach(x=>{const c=x.c;
+        const m=el('div',{class:'m'},el('span',{class:'badge'+(h!=='ALL'&&c.institution!==h?' x':'')},c.institution),
+          ...Object.entries(c.prof).map(([a,l])=>el('span',{class:'pl',style:`color:${acol(a)}`},`${a} ${l}`)),
+          ...c.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)),
+          x.flag==='foundation'?el('span',{class:'badge f'},'foundation'):null,
+          x.m.why.length?el('span',{class:'match'},'matches '+x.m.why.slice(0,2).join(', ')):null);
+        list.append(el('div',{class:'crow'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title),el('span',{class:'e'},`${c.ects} ECTS`),m));
+      });
+      if(thesis) list.append(el('div',{class:'crow'},el('span',{style:'font-size:14px;font-style:italic'},'Master\'s thesis in a quantum topic'),el('span',{class:'e'},`${thesis} ECTS`),el('div',{class:'m'},el('span',{class:'pl',style:`color:${acol('I')}`},'I C1'),el('span',{},'assumed'))));
+      list.append(el('div',{class:'placeholder'},`${other} ECTS: compulsory and elective courses in your programme outside quantum, chosen with your study counsellor.`));
+      box.append(el('article',{class:'plan',style:`border-top:3px solid ${b.col}`},el('span',{class:'kicker',style:`color:${b.col}`},b.kicker),el('p',{class:'why'},b.why),drawTri(pr),
+        el('div',{class:'lv'},...AREAS.map(a=>el('span',{class:'lvc',style:`color:${acol(a)}`,title:Q.areas[a]},`${a} ${pr.lv[a]>=0?LV[pr.lv[a]]:'–'}`))),
+        bar,key,list));
+    });
+    msg.append(el('div',{class:'style-note'},'The dashed outline in each triangle is CFQT profile P6, QT engineering professional, which the framework describes as typical for a quantum degree programme.'));
+  }
+  document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'CFQT v3.0'),' (Greinert and Müller, QUCATS, 2025, CC BY 4.0).');
+  // example state so the page shows what it does
+  q.value='I like programming and would like to work on quantum algorithms, maybe for chemistry. I also enjoy maths.';
+  home.value='ALL'; run();
+})();
+</script>
