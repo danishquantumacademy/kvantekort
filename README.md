@@ -21,6 +21,7 @@ data/
   people/<inst>.txt         # teachers: position, organisational units, portal fingerprint / recent outputs (research portals)
   people/research.txt       # research focus per teacher with CFQT subdomains (written by DQA)
   people/teaching.csv       # who teaches which course and in which role (no contact data)
+  people/units.txt          # landing pages of departments, sections, groups and centres
 scrapers/
   dtu_browser.js            # kurser.dtu.dk (run in the browser console)
   au_browser.js             # kursuskatalog.au.dk via the catalogue's own API

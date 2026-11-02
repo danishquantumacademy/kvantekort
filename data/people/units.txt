@@ -1,0 +1,160 @@
+# Landing pages for departments, sections, groups and centres. INST|unit name (as in the research portal)|research-portal organisation page|unit website
+# Harvested 2026-11-02 from the "Website" field of each organisation page in the research portals. Where the website is only the
+# department front page, or missing, the site links to the portal organisation page instead.
+DTU|2D Materials Engineering and Physics|https://orbit.dtu.dk/en/organisations/2d-materials-engineering-and-physics/|https://physics.dtu.dk/research/sections/2dphys
+DTU|Administration|https://orbit.dtu.dk/en/organisations/administration-7/|https://electro.dtu.dk/
+DTU|Algorithms, Logic and Graphs|https://orbit.dtu.dk/en/organisations/algorithms-logic-and-graphs/|https://www.compute.dtu.dk/english/research/research-sections/algolog
+DTU|Applied Ceramics and Processing|https://orbit.dtu.dk/en/organisations/applied-ceramics-and-processing/|https://www.energy.dtu.dk/english
+DTU|Astrophysics and Atmospheric Physics|https://orbit.dtu.dk/en/organisations/astrophysics-and-atmospheric-physics-2/|https://www.space.dtu.dk/english/research-divisions/astrophysics-and-atmospheric-physics
+DTU|Atomic Scale Materials Modelling|https://orbit.dtu.dk/en/organisations/atomic-scale-materials-modelling/|https://www.energy.dtu.dk/english
+DTU|Autonomous Materials Discovery|https://orbit.dtu.dk/en/organisations/autonomous-materials-discovery/|https://www.energy.dtu.dk/english
+DTU|Biomaterial Microsystems|https://orbit.dtu.dk/en/organisations/biomaterial-microsystems/|https://www.nanolab.dtu.dk/research/biomic
+DTU|Biophysics and Fluids|https://orbit.dtu.dk/en/organisations/biophysics-and-fluids/|https://physics.dtu.dk/research/sections/fluids
+DTU|Catalysis and Operando Characterization|https://orbit.dtu.dk/en/organisations/catalysis-and-operando-characterization/|https://www.nanolab.dtu.dk/research/catalysis-and-operando-characterization
+DTU|Center for Macroscopic Quantum States|https://orbit.dtu.dk/en/organisations/center-for-macroscopic-quantum-states/|https://www.bigq.fysik.dtu.dk/
+DTU|Center for Quantum Technologies|https://orbit.dtu.dk/en/organisations/center-for-quantum-technologies/|https://quantum.dtu.dk/en/
+DTU|Centre of Excellence for Silicon Photonics for Optical Communications|https://orbit.dtu.dk/en/organisations/centre-of-excellence-for-silicon-photonics-for-optical-communicat/|http://www.spoc.dtu.dk/
+DTU|Coding and Visual Communication|https://orbit.dtu.dk/en/organisations/coding-and-visual-communication-2/|https://electro.dtu.dk/research/research-areas/communication-and-cyber-technology/coding-og-visual-communication
+DTU|Computational Atomic-scale Materials Design|https://orbit.dtu.dk/en/organisations/computational-atomic-scale-materials-design/|https://physics.dtu.dk/research/sections/camd
+DTU|Cybersecurity Engineering|https://orbit.dtu.dk/en/organisations/cybersecurity-engineering/|https://www.compute.dtu.dk/english/research/research-sections/cyber
+DTU|DTU Microbes Initiative|https://orbit.dtu.dk/en/organisations/dtu-microbes-initiative/|https://microbes.dtu.dk/
+DTU|Department of Applied Mathematics and Computer Science|https://orbit.dtu.dk/en/organisations/department-of-applied-mathematics-and-computer-science/|https://www.compute.dtu.dk/english
+DTU|Department of Biotechnology and Biomedicine|https://orbit.dtu.dk/en/organisations/department-of-biotechnology-and-biomedicine/|https://www.bioengineering.dtu.dk/
+DTU|Department of Chemistry|https://orbit.dtu.dk/en/organisations/department-of-chemistry/|https://www.kemi.dtu.dk/english/
+DTU|Department of Electrical and Photonics Engineering|https://orbit.dtu.dk/en/organisations/department-of-electrical-and-photonics-engineering/|https://electro.dtu.dk/
+DTU|Department of Energy Conversion and Storage|https://orbit.dtu.dk/en/organisations/department-of-energy-conversion-and-storage/|https://www.energy.dtu.dk/
+DTU|Department of Engineering Technology and Didactics|https://orbit.dtu.dk/en/organisations/department-of-engineering-technology-and-didactics/|https://engtech.dtu.dk/english
+DTU|Department of Health Technology|https://orbit.dtu.dk/en/organisations/department-of-health-technology/|https://www.healthtech.dtu.dk/
+DTU|Department of Physics|https://orbit.dtu.dk/en/organisations/department-of-physics/|https://www.fysik.dtu.dk/english
+DTU|Department of Space Research and Technology|https://orbit.dtu.dk/en/organisations/department-of-space-research-and-technology/|https://www.space.dtu.dk/english
+DTU|Diode Lasers and LED Systems|https://orbit.dtu.dk/en/organisations/diode-lasers-and-led-systems-2/|https://electro.dtu.dk/research/research-areas/advanced-optoelectronics-og-sensing/diode-lasers-og-led-systems
+DTU|Dosimetry|https://orbit.dtu.dk/en/organisations/dosimetry-3/|https://www.healthtech.dtu.dk/services-and-products/industrial-and-medical-dosimetry
+DTU|Embedded Systems Engineering|https://orbit.dtu.dk/en/organisations/embedded-systems-engineering/|https://www.compute.dtu.dk/english/research/research-sections/ese
+DTU|Fiber Optics, Devices and Non-linear Effects|https://orbit.dtu.dk/en/organisations/fiber-optics-devices-and-non-linear-effects-2/|https://electro.dtu.dk/research/research-areas/nonlinear-optics-and-biophotonics/fiber-optics-devices-og-nonlinear-effects
+DTU|Fiber Sensors & Supercontinuum|https://orbit.dtu.dk/en/organisations/fiber-sensors-supercontinuum-2/|https://electro.dtu.dk/research/research-areas/nonlinear-optics-and-biophotonics/fiber-sensors-og-supercontinuum
+DTU|Functional Oxides|https://orbit.dtu.dk/en/organisations/functional-oxides/|https://www.energy.dtu.dk/english
+DTU|Geodesy and Earth Observation|https://orbit.dtu.dk/en/organisations/geodesy-and-earth-observation-2/|https://www.space.dtu.dk/english/research-divisions/geodesy-and-earth-observation
+DTU|High-Speed Optical Communications|https://orbit.dtu.dk/en/organisations/high-speed-optical-communications/|https://electro.dtu.dk/research/research-areas/communication-and-cyber-technology/high-speed-optical-communications
+DTU|Hyperpolarization & Metabolism|https://orbit.dtu.dk/en/organisations/hyperpolarization-metabolism/|https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-hyperpolarization
+DTU|Hyperspectral Electron Nanoscopy|https://orbit.dtu.dk/en/organisations/hyperspectral-electron-nanoscopy/|https://www.nanolab.dtu.dk/research/hyperdimensional-electron-nanoscopy
+DTU|Inorganic Chemistry|https://orbit.dtu.dk/en/organisations/inorganic-chemistry/|https://www.kemi.dtu.dk/english/research/inorganic-chemistry
+DTU|Lithography|https://orbit.dtu.dk/en/organisations/lithography/|https://www.nanolab.dtu.dk/english
+DTU|MRI Acquisition|https://orbit.dtu.dk/en/organisations/mri-acquisition/|https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-mri-acquisition
+DTU|Magnetic Resonance|https://orbit.dtu.dk/en/organisations/magnetic-resonance/|https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance
+DTU|Magnetic materials and neutron scattering|https://orbit.dtu.dk/en/organisations/magnetic-materials-and-neutron-scattering/|https://physics.dtu.dk/research/sections/magnet
+DTU|Materials Physics in Time and Space|https://orbit.dtu.dk/en/organisations/materials-physics-in-time-and-space/|https://physics.dtu.dk/research/sections/4dmap
+DTU|Mathematics|https://orbit.dtu.dk/en/organisations/mathematics/|https://www.compute.dtu.dk/english/research/research-sections/mathematics
+DTU|Mems Applied Sensors Group|https://orbit.dtu.dk/en/organisations/mems-applied-sensors-group-2/|https://www.healthtech.dtu.dk/research/research-sections/section-ultrasound-and-biomechanics-usb/group-mems
+DTU|Molecular Windows|https://orbit.dtu.dk/en/organisations/molecular-windows/|https://www.nanolab.dtu.dk/research/molecular-windows
+DTU|Nano Bio Integrated Systems|https://orbit.dtu.dk/en/organisations/nano-bio-integrated-systems-2/|https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis
+DTU|Nano-Micro-Macro. Structure in Materials|https://orbit.dtu.dk/en/organisations/nano-micro-macro-structure-in-materials/|https://www.nanolab.dtu.dk/research/nano-micro-macro-structure-in-materials
+DTU|NanoPhoton – Center for Nanophotonics|https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/|https://nanophoton.dtu.dk/
+DTU|Nanocharacterization|https://orbit.dtu.dk/en/organisations/nanocharacterization/|https://www.nanolab.dtu.dk
+DTU|Nanofluidics and Bioimaging|https://orbit.dtu.dk/en/organisations/nanofluidics-and-bioimaging-3/|https://www.healthtech.dtu.dk/research/research-sections/section-optical-sensing-and-imaging-systems-oasis/group-nanofluidics-and-bioimaging
+DTU|Nanophotonic Devices|https://orbit.dtu.dk/en/organisations/nanophotonic-devices-2/|https://electro.dtu.dk/research/research-areas/nanophotonics/nanophotonic-devices
+DTU|National Centre for Nano Fabrication and Characterization|https://orbit.dtu.dk/en/organisations/national-centre-for-nano-fabrication-and-characterization/|https://www.nanolab.dtu.dk
+DTU|Optical Sensing and Imaging Systems|https://orbit.dtu.dk/en/organisations/optical-sensing-and-imaging-systems/|https://www.healthtech.dtu.dk/research/research-sections/section-optical-sensing-and-imaging-systems-oasis
+DTU|Optical Sensor Technology|https://orbit.dtu.dk/en/organisations/optical-sensor-technology-2/|https://electro.dtu.dk/research/research-areas/advanced-optoelectronics-og-sensing/optical-sensor-technology
+DTU|Optofluidics|https://orbit.dtu.dk/en/organisations/optofluidics-3/|https://www.healthtech.dtu.dk/research/research-sections/section-optical-sensing-and-imaging-systems-oasis/group-optofluidics
+DTU|Organic Chemistry|https://orbit.dtu.dk/en/organisations/organic-chemistry/|https://www.kemi.dtu.dk/english/research/organic-chemistry
+DTU|Photonic Nanotechnology|https://orbit.dtu.dk/en/organisations/photonic-nanotechnology-2/|https://electro.dtu.dk/research/research-areas/nanophotonics/photonic-nanotechnology
+DTU|Physical Chemistry|https://orbit.dtu.dk/en/organisations/physical-chemistry/|https://www.kemi.dtu.dk/english/research/physicalchemistry
+DTU|Plasma Aided Nanotechnology|https://orbit.dtu.dk/en/organisations/plasma-aided-nanotechnology/|https://www.nanolab.dtu.dk/research/plasma-aided-nanotechnology
+DTU|Plasma Physics and Fusion Energy|https://orbit.dtu.dk/en/organisations/plasma-physics-and-fusion-energy/|https://physics.dtu.dk/research/sections/ppfe
+DTU|Plasmonics and Metamaterials|https://orbit.dtu.dk/en/organisations/plasmonics-and-metamaterials/|https://www.fotonik.dtu.dk/english
+DTU|Polymer Microsystems|https://orbit.dtu.dk/en/organisations/polymer-microsystems/|https://www.nanolab.dtu.dk/research/polymer-microsystems
+DTU|Quantum Communication Systems|https://orbit.dtu.dk/en/organisations/quantum-communication-systems/|https://electro.dtu.dk/research/research-areas/communication-and-cyber-technology/quantum-communication-systems
+DTU|Quantum Light Sources|https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/|https://electro.dtu.dk/research/research-areas/nanophotonics/quantum-light-sources
+DTU|Quantum Networks|https://orbit.dtu.dk/en/organisations/quantum-networks/|https://electro.dtu.dk/research/research-areas/nanophotonics/quantum-networks
+DTU|Quantum Photonics of Low-dimensional Systems|https://orbit.dtu.dk/en/organisations/quantum-photonics-of-low-dimensional-systems/|https://electro.dtu.dk/research/research-areas/nanophotonics/quantum-photonics-of-low-dimensional-systems
+DTU|Quantum Physics and Information Technology|https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/|https://physics.dtu.dk/research/sections/qpit
+DTU|Quantum and Laser Photonics|https://orbit.dtu.dk/en/organisations/quantum-and-laser-photonics-2/|https://electro.dtu.dk/research/research-areas/nanophotonics/quantum-and-laser-photonics
+DTU|Solid State Electrochemistry|https://orbit.dtu.dk/en/organisations/solid-state-electrochemistry/|https://www.energy.dtu.dk/english
+DTU|Structural Analysis and Modelling|https://orbit.dtu.dk/en/organisations/structural-analysis-and-modelling/|https://www.energy.dtu.dk/english
+DTU|Surface Physics and Catalysis|https://orbit.dtu.dk/en/organisations/surface-physics-and-catalysis/|https://physics.dtu.dk/research/sections/surfcat
+DTU|Thin-Film Photovoltaics|https://orbit.dtu.dk/en/organisations/thin-film-photovoltaics/|https://electro.dtu.dk/research/research-areas/advanced-optoelectronics-og-sensing/thin-film-photovoltaics
+DTU|UltraSound and Biomechanics|https://orbit.dtu.dk/en/organisations/ultrasound-and-biomechanics/|https://www.healthtech.dtu.dk/research/research-sections/section-ultrasound-and-biomechanics-usb
+DTU|Ultrafast Infrared and Terahertz Science|https://orbit.dtu.dk/en/organisations/ultrafast-infrared-and-terahertz-science-2/|https://electro.dtu.dk/research/research-areas/nonlinear-optics-and-biophotonics/ultrafast-infrared-og-terahertz-science
+DTU|Wetchemistry|https://orbit.dtu.dk/en/organisations/wetchemistry/|https://www.nanolab.dtu.dk/english
+KU|Biomolecular Sciences|https://researchprofiles.ku.dk/en/organisations/biomolecular-sciences/|http://www1.bio.ku.dk/english/research/bms/
+KU|Condensed Matter Physics|https://researchprofiles.ku.dk/en/organisations/faststoffysik/|http://nbi.ku.dk/Forskning/faststoffysik/
+KU|Department of Biology|https://researchprofiles.ku.dk/en/organisations/biologisk-institut/|http://www.bio.ku.dk
+KU|Department of Chemistry|https://researchprofiles.ku.dk/en/organisations/kemisk-institut/|http://www.ki.ku.dk
+KU|Department of Computer Science|https://researchprofiles.ku.dk/en/organisations/datalogisk-institut/|http://diku.dk/
+KU|Department of Mathematical Sciences|https://researchprofiles.ku.dk/en/organisations/institut-for-matematiske-fag/|https://www.math.ku.dk/english/
+KU|Department of Science Education|https://researchprofiles.ku.dk/en/organisations/institut-for-naturfagenes-didaktik/|http://www.ind.ku.dk
+KU|Experimental Particle Physics|https://researchprofiles.ku.dk/en/organisations/eksperimentel-subatomar-fysik/|https://nbi.ku.dk/english/research/experimental-particle-physics/
+KU|Machine Learning|https://researchprofiles.ku.dk/en/organisations/machine-learning/|http://di.ku.dk/english/research/machine-learning/
+KU|Niels Bohr Institute|https://researchprofiles.ku.dk/en/organisations/niels-bohr-institutet/|http://www.nbi.ku.dk/
+KU|Niels Bohr International Academy|https://researchprofiles.ku.dk/en/organisations/niels-bohr-internationale-akademi/|https://nbia.nbi.ku.dk/
+KU|Physics of Ice, Climate and Earth|https://researchprofiles.ku.dk/en/organisations/is-klima-og-geofysik/|http://nbi.ku.dk/Forskning/is_klima_geofysik/
+KU|Programming Languages and Theory of Computation|https://researchprofiles.ku.dk/en/organisations/programming-languages-and-theory-of-computation/|http://di.ku.dk/english/research/pltc/
+KU|Quantum Information Science & Technology|https://researchprofiles.ku.dk/en/organisations/nqcp/|https://nqcp.ku.dk/
+KU|Quantum Optics and Photonics|https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/|https://nbi.ku.dk/english/research/quantum-optics-and-photonics/
+KU|Theoretical high energy, astroparticle and gravitational physics|https://researchprofiles.ku.dk/en/organisations/teoretisk-h%C3%B8jenergi-astropartikel-og-gravitationel-fysik/|
+KU|Center for Quantum Devices (QDev)||https://qdev.nbi.ku.dk/
+KU|QMATH – Centre for the Mathematics of Quantum Theory||https://www.qmath.ku.dk/
+KU|Quantum for Life Center (centre leader)||https://quantumforlife.ku.dk/
+KU|Quantum for Life||https://quantumforlife.ku.dk/
+KU|Copenhagen Center for Biomedical Quantum Sensing||https://cbqs.ku.dk/
+KU|Nano-Science Center||https://nano.ku.dk/english/about/
+KU|Nano-Science Center (director)||https://nano.ku.dk/english/about/
+SDU|Analysis|https://portal.findresearcher.sdu.dk/en/organisations/analyse-2/|
+SDU|Artificial Intelligence, Cybersecurity and Programming Languages|https://portal.findresearcher.sdu.dk/en/organisations/kunstig-intelligens-cybersikkerhed-og-programmeringssprog/|
+SDU|Center for Polariton-driven Light-Matter Interactions (POLIMA)|https://portal.findresearcher.sdu.dk/en/organisations/center-for-polariton-driven-light-matter-interactions-polima/|https://www.sdu.dk/en/forskning/polima/research/projects/polima-centre-for-polariton-driven-light-matter-interactions
+SDU|Centre for Formal Methods and Future Computing (FORM)|https://portal.findresearcher.sdu.dk/en/organisations/centre-for-formal-methods-and-future-computing-form/|https://www.sdu.dk/form
+SDU|Centre for Industrial Electronics|https://portal.findresearcher.sdu.dk/en/organisations/sdu-center-for-industriel-elektronik-cie/|https://www.sdu.dk/en/cie
+SDU|Chemistry and Pharmacy|https://portal.findresearcher.sdu.dk/en/organisations/kemi-og-farmaci/|https://www.sdu.dk/en/forskning/kemi-farmaci
+SDU|Computational Science|https://portal.findresearcher.sdu.dk/en/organisations/computational-science/|
+SDU|Danish Institute for Advanced Study (DIAS)|https://portal.findresearcher.sdu.dk/en/organisations/dias-3/|https://www.sdu.dk/en/forskning/dias/about-dias
+SDU|Department of Green Technology|https://portal.findresearcher.sdu.dk/en/organisations/institut-for-gr%C3%B8n-teknologi/|https://www.sdu.dk/en/igt
+SDU|Department of Mathematics and Computer Science|https://portal.findresearcher.sdu.dk/en/organisations/institut-for-matematik-og-datalogi/|https://www.sdu.dk/en/imada
+SDU|Department of Physics, Chemistry and Pharmacy|https://portal.findresearcher.sdu.dk/en/organisations/institut-for-fysik-kemi-og-farmaci/|https://www.sdu.dk/en/fkf
+SDU|Digital Democracy Centre|https://portal.findresearcher.sdu.dk/en/organisations/digital-democracy-centre/|https://www.sdu.dk/en/forskning/forskningsenheder/samf/digitaldemocracycentre
+SDU|Institute of Mechanical and Electrical Engineering|https://portal.findresearcher.sdu.dk/en/organisations/institut-for-mekanik-og-elektronik-ime/|https://www.sdu.dk/en/om_sdu/institutter_centre/ime-mekanik-elektronik
+SDU|Mads Clausen Institute|https://portal.findresearcher.sdu.dk/en/organisations/mads-clausen-instituttet-mci/|https://www.sdu.dk/en/mci
+SDU|Physics|https://portal.findresearcher.sdu.dk/en/organisations/fysik/|https://www.sdu.dk/en/forskning/fysik
+SDU|Quantum Mathematics|https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/|https://www.sdu.dk/en/qm
+SDU|SDU Chemical Engineering|https://portal.findresearcher.sdu.dk/en/organisations/sdu-chemical-engineering/|https://www.sdu.dk/en/chemicalengineering
+SDU|SDU Climate Cluster|https://portal.findresearcher.sdu.dk/en/organisations/sdu-climate-cluster/|https://www.sdu.dk/en/forskning/sdu-climate-cluster
+SDU|SDU Nano Optics|https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/|https://www.sdu.dk/en/nano-optics
+SDU|SDU NanoSyd|https://portal.findresearcher.sdu.dk/en/organisations/sdu-nanosyd/|https://www.sdu.dk/en/nanosyd
+AAU|Artificial Intelligence and Sound|https://vbn.aau.dk/en/organisations/artificial-intelligence-and-sound/|
+AAU|CISS – Center for Embedded Software Systems|https://vbn.aau.dk/en/organisations/ciss-center-for-embedded-software-systems/|http://www.ciss.dk/en/welcome.htm
+AAU|Center for Microbial Communities|https://vbn.aau.dk/en/organisations/wwwcmcaaudk/|https://www.cmc.aau.dk
+AAU|Classical and Quantum Information and Connectivity|https://vbn.aau.dk/en/organisations/classical-and-quantum-information-and-connectivity-2/|
+AAU|Classique – Center for Classical Communication in the Quantum Era|https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/|http://www.classique.aau.dk
+AAU|Communication, Media and Information technologies|https://vbn.aau.dk/en/organisations/httpwwwcmiaaudk/|
+AAU|Computational Chemistry|https://vbn.aau.dk/en/organisations/computational-chemistry/|
+AAU|Connectivity (section)|https://vbn.aau.dk/en/organisations/connectivity-section/|
+AAU|Daisy – Center for Data-intensive Systems|https://vbn.aau.dk/en/organisations/daisy-center-for-data-intensive-systemer/|http://daisy.aau.dk/
+AAU|Department of Chemistry and Bioscience|https://vbn.aau.dk/en/organisations/institut-for-kemi-og-biovidenskab/|http://www.bio.aau.dk/
+AAU|Department of Computer Science|https://vbn.aau.dk/en/organisations/institut-for-datalogi/|http://www.cs.aau.dk
+AAU|Department of Electronic Systems|https://vbn.aau.dk/en/organisations/institut-for-elektroniske-systemer/|http://es.aau.dk/
+AAU|Department of Materials and Production|https://vbn.aau.dk/en/organisations/institut-for-materialer-og-produktion/|http://www.mp.aau.dk
+AAU|Department of Mathematical Sciences|https://vbn.aau.dk/en/organisations/institut-for-matematiske-fag/|http://www.math.aau.dk
+AAU|Distributed Sustainable Software and Systems|https://vbn.aau.dk/en/organisations/distributed-sustainable-software-and-systems/|
+AAU|Functional Amorphous Materials|https://vbn.aau.dk/en/organisations/functional-amorphous-materials/|
+AAU|Materials Science and Engineering|https://vbn.aau.dk/en/organisations/materials-science-and-engineering/|
+AAU|Mathematics|https://vbn.aau.dk/en/organisations/matematik/|https://www.math.aau.dk/research/Mathematics/
+AAU|NMR Spectroscopy|https://vbn.aau.dk/en/organisations/nmr-spectroscopy/|
+AAU|Physics and Mechanics|https://vbn.aau.dk/en/organisations/fysik-og-mekanik/|
+AAU|Physics|https://vbn.aau.dk/en/organisations/physics/|
+AAU|Section for Distributed, Embedded and Intelligent Systems|https://vbn.aau.dk/en/organisations/section-for-distributed-embedded-and-intelligent-systems/|
+AAU|Section of Applied Supramolecular Chemistry|https://vbn.aau.dk/en/organisations/section-of-applied-supramolecular-chemistry/|
+AAU|Section of Disordered Materials|https://vbn.aau.dk/en/organisations/section-of-disordered-materials/|
+AAU|Section of Medical Biotechnology|https://vbn.aau.dk/en/organisations/section-of-medical-biotechnology/|
+AU|Centre of Functionally Integrative Neuroscience|https://pure.au.dk/portal/en/organisations/centre-of-functionally-integrative-neuroscience/|http://cfin.au.dk
+AU|Department of Chemistry|https://pure.au.dk/portal/en/organisations/department-of-chemistry-3/|https://chem.au.dk/en/
+AU|Department of Computer Science|https://pure.au.dk/portal/en/organisations/department-of-computer-science/|http://www.cs.au.dk
+AU|Department of Electrical and Computer Engineering|https://pure.au.dk/portal/en/organisations/department-of-electrical-and-computer-engineering-biomedical-engi/|https://ece.au.dk/en
+AU|Department of Mechanical and Production Engineering|https://pure.au.dk/portal/en/organisations/department-of-mechanical-and-production-engineering-manufacturing/|https://mpe.au.dk/en
+AU|Center for Complex Quantum Systems|https://pure.au.dk/portal/en/organisations/department-of-physics-and-astronomy-center-for-complex-quantum-sy/|https://phys.au.dk/ccq
+AU|Centre for Storage Ring Facilities (ISA)|https://pure.au.dk/portal/en/organisations/department-of-physics-and-astronomy-centre-for-storage-ring-facil/|http://phys.au.dk/isa
+AU|Department of Physics and Astronomy|https://pure.au.dk/portal/en/organisations/department-of-physics-and-astronomy/|https://phys.au.dk/en/
+AU|Interdisciplinary Nanoscience Center (iNANO)|https://pure.au.dk/portal/en/organisations/interdisciplinary-nanoscience-center/|https://inano.au.dk
+KU|QUANTOP – Quantum Optics Center (leader)||https://nbi.ku.dk/english/research/quantum-optics-and-photonics/quantop/
+KU|QMATH||https://www.qmath.ku.dk/
+AU|Biomedical Engineering|https://pure.au.dk/portal/en/organisations/department-of-electrical-and-computer-engineering-biomedical-engi/|
+AU|Electrical Energy and Electronics|https://pure.au.dk/portal/en/organisations/department-of-electrical-and-computer-engineering-electrical-ener/|
+AU|Manufacturing and Mechatronics|https://pure.au.dk/portal/en/organisations/department-of-mechanical-and-production-engineering-manufacturing/|

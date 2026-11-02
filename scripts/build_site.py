@@ -159,7 +159,17 @@ for key, p in list(people.items()):
         people[(p["employer"], p["name"])].setdefault("courses", []).extend(p.get("courses", []))
         del people[key]
 plist = sorted(people.values(), key=lambda p: (p["institution"], p["name"]))
-pout = {"reference": ref, "people": plist}
+# landingssider for institutter, sektioner, grupper og centre (data/people/units.txt)
+from urllib.parse import urlparse
+units = {}
+rows = [l.split("|") for l in (ROOT / "data/people/units.txt").read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")]
+dept_sites = {(i, w) for i, n, pu, w in rows if w and re.search(r"Department|Institute|National Centre", n)}
+for inst, name, portal, web in rows:
+    trivial = web and urlparse(web).path.strip("/") in ("", "english", "en")
+    is_dept = bool(re.search(r"Department|Institute|National Centre", name))
+    weak = (not web) or (not is_dept and ((inst, web) in dept_sites or trivial))
+    units.setdefault(inst, {})[name] = portal if (weak and portal) else (web or portal)
+pout = {"reference": ref, "people": plist, "units": units}
 pt = (ROOT / "site/people_template.html").read_text(encoding="utf-8")
 pbody2 = pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/"))
 (ROOT / "site/people.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody2 + "\n</body>\n</html>\n", encoding="utf-8")

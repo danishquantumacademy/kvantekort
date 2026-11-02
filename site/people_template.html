@@ -92,6 +92,12 @@ tr:last-child td{border-bottom:0}
 .fit b{font-weight:600}
 .fit.direct b{color:var(--good)}.fit.related b{color:var(--accent)}.fit.adjacent b{color:var(--warn)}.fit.outside b{color:var(--muted)}
 .miss{font-size:13px;color:var(--muted);padding:10px 12px;border:1px dashed var(--line);border-radius:10px}
+a.ul{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb, currentColor 35%, transparent);text-underline-offset:3px}
+a.ul:hover{color:var(--accent);text-decoration-color:var(--accent)}
+a.ul .cen{text-decoration:none}
+a.ul .cen::after{content:" ↗";color:var(--muted)}
+a.ul:has(.cen){text-decoration:none}
+a.ul:hover .cen{background:color-mix(in srgb, var(--accent) 16%, var(--chip))}
 footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
 footer p{margin:0;max-width:86ch}
 footer a{color:var(--accent)}
@@ -115,7 +121,7 @@ footer a{color:var(--accent)}
 
   <section aria-labelledby="l-h">
     <h2 id="l-h">Research landscape</h2>
-    <p class="lede" style="font-size:14px">Departments, sections, groups and centres that the teachers belong to, with the CFQT subdomains their research touches. Click a name to jump to the teacher.</p>
+    <p class="lede" style="font-size:14px">Departments, sections, groups and centres that the teachers belong to, with the CFQT subdomains their research touches. Unit names link to their own web pages (or to the research-portal page where a unit has none). Click a name to jump to the teacher.</p>
     <div class="land" id="land"></div>
   </section>
 
@@ -156,6 +162,9 @@ footer a{color:var(--accent)}
   const qtResearch=p=>(p.subs||[]).some(s=>/^[14567]\./.test(s));
   const slug=p=>'t-'+p.institution+'-'+p.name.normalize('NFD').replace(/[^\w]+/g,'-');
   const isCentre=u=>/cent(er|re)|nanophoton|^dias$|danish institute for advanced|climate cluster|initiative|classique/i.test(u);
+  const UL=D.units||{};
+  // link a department, section, group or centre to its landing page when one is known
+  const ulink=(inst,name,content)=>{const u=(UL[inst]||{})[name];return u?el('a',{href:u,target:'_blank',rel:'noopener',class:'ul',title:`Open the ${name} page`},content==null?name:content):(content==null?name:content)};
   const state={inst:'ALL'};
   try{const s=localStorage.getItem('qdk-people-inst');if(s&&(s==='ALL'||INST[s]))state.inst=s}catch(e){}
 
@@ -198,11 +207,11 @@ footer a{color:var(--accent)}
       if(!d.groups.has(g))d.groups.set(g,[]);d.groups.get(g).push(p);
       u.filter(isCentre).concat(p.centres||[]).forEach(c=>{if(!d.centres.has(c))d.centres.set(c,[]);d.centres.get(c).push(p)})});
     [...depts.values()].sort((a,b)=>b.n-a.n).forEach(d=>{
-      const box=el('div',{class:'dept'},el('span',{class:'inst'},d.inst),el('h3',{},d.dep));
+      const box=el('div',{class:'dept'},el('span',{class:'inst'},d.inst),el('h3',{},ulink(d.inst,d.dep)));
       const block=(name,ps,isC)=>{const subs={};ps.forEach(p=>(p.subs||[]).forEach(s=>subs[s]=(subs[s]||0)+1));
         const top=Object.entries(subs).sort((a,b)=>b[1]-a[1]).slice(0,6);
         const ppl=el('div',{class:'ppl'});ps.forEach((p,i)=>{const b=el('button',{type:'button'},p.name);b.onclick=()=>jump(p);ppl.append(b,i<ps.length-1?', ':'')});
-        return el('div',{class:'grp'},el('span',{class:'gn'},isC?el('span',{class:'cen'},name):name),top.length?el('div',{class:'chips'},...top.map(([s,n])=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:`${subName(s)}: ${n} teacher(s)`},s))):null,ppl)};
+        return el('div',{class:'grp'},el('span',{class:'gn'},isC?ulink(d.inst,name,el('span',{class:'cen'},name)):ulink(d.inst,name)),top.length?el('div',{class:'chips'},...top.map(([s,n])=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:`${subName(s)}: ${n} teacher(s)`},s))):null,ppl)};
       [...d.groups.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([g,ps])=>box.append(block(g,ps)));
       [...d.centres.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([c,ps])=>box.append(block(c,ps,true)));
       land.append(box)});
@@ -224,8 +233,8 @@ footer a{color:var(--accent)}
     const head=el('div',{class:'top'},el('span',{class:'nm'},p.url?el('a',{href:p.url,target:'_blank',rel:'noopener'},p.name):p.name),el('span',{class:'lv',style:`color:${LCOL[p.level]||'var(--muted)'}`},p.level));
     const c=el('article',{class:'card',id:slug(p)},head);
     if(p.title&&p.title!==p.level) c.append(el('span',{class:'unit'},p.title));
-    if(p.units&&p.units.length) c.append(el('span',{class:'unit'},p.institution+' · '+p.units.join(' › ')));
-    if((p.centres||[]).length) c.append(el('div',{class:'chips'},...p.centres.map(x=>el('span',{class:'cen'},x))));
+    if(p.units&&p.units.length) c.append(el('span',{class:'unit'},p.institution+' · ',...p.units.flatMap((u,i)=>[i?' › ':null,ulink(p.institution,u)])));
+    if((p.centres||[]).length) c.append(el('div',{class:'chips'},...p.centres.map(x=>ulink(p.institution,x,el('span',{class:'cen'},x)))));
     if(p.focus) c.append(el('span',{class:'focus'},p.focus));
     if((p.subs||[]).length) c.append(el('div',{class:'chips'},...p.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},`${s} ${subName(s)}`))));
     if((p.concepts||[]).length) c.append(el('span',{class:'ev'},'Portal fingerprint: ',el('i',{},p.concepts.slice(0,6).join(', '))));
