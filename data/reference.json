@@ -56,6 +56,18 @@
         "QC": "MSc i Quantum Computing", "TEK": "Det Tekniske Fakultet"
       }
     },
-    "AAU": {"name": "Aalborg Universitet", "status": "planlagt"}
+    "AAU": {
+      "name": "Aalborg Universitet",
+      "course_base": "https://moduler.aau.dk",
+      "course_url": "https://moduler.aau.dk/course/2026-2027/{code}",
+      "harvested": "2026-11-02",
+      "academic_year": "2026/2027",
+      "scope": "Det Ingeniør- og Naturvidenskabelige Fakultet og Det Tekniske Fakultet for IT og Design. Totaler er unikke modultitler pr. niveau; modulkataloget har ingen ph.d.-kurser.",
+      "totals": {"BSc": 800, "MSc": 725, "Diplom": 166, "Master": 69},
+      "departments": {
+        "MP": "Materialer og Produktion (fysik og nanoteknologi)", "KB": "Kemi og Biovidenskab",
+        "CS": "Datalogi", "ES": "Elektroniske Systemer", "MATH": "Matematiske Fag"
+      }
+    }
   }
 }
