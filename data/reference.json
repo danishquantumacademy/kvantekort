@@ -1,0 +1,37 @@
+{
+  "relevance": {
+    "1": {"label": "Kerne", "desc": "Kurset handler primært om kvantefysik, kvanteinformation eller kvanteteknologi."},
+    "2": {"label": "Kvantebaseret", "desc": "Kvantemekanik er et bærende fundament (faststof, elektronstruktur, kvantekemi, fotonik), men kurset er ikke kvanteteknologi."},
+    "3": {"label": "Perifer", "desc": "Understøttende fag for kvanteområdet (klassisk fotonik, nanofabrikation, kryptografi, materialekarakterisering) eller kun nævnt i beskrivelsen."},
+    "0": {"label": "Ikke relevant", "desc": "Ingen eller kun tilfældige nøgleordstræf."}
+  },
+  "tracks": {
+    "QT": "Kvanteteknologi og -information",
+    "QC": "Kvantecomputing og software",
+    "QM": "Kvantefysik og -kemi (grundlag)",
+    "MAT": "Materialer og faststof",
+    "PHO": "Fotonik og optik",
+    "FAB": "Mikro- og nanofabrikation",
+    "CRY": "Kryptografi og sikkerhed",
+    "SEN": "Sensorer og måling"
+  },
+  "institutions": {
+    "DTU": {
+      "name": "Danmarks Tekniske Universitet",
+      "course_base": "https://kurser.dtu.dk",
+      "course_url": "https://kurser.dtu.dk/course/{code}",
+      "harvested": "2026-11-02",
+      "academic_year": "2026/2027",
+      "totals": {"BSc": 376, "MSc": 726, "PhD": 172},
+      "departments": {
+        "01": "DTU Compute", "10": "DTU Fysik", "22": "DTU Sundhedsteknologi",
+        "26": "DTU Kemi", "30": "DTU Space", "34": "DTU Elektro og Fotonik",
+        "47": "DTU Energi", "56": "DTU Nanolab", "62": "DTU Engineering Technology"
+      }
+    },
+    "KU": {"name": "Københavns Universitet", "status": "planlagt"},
+    "AU": {"name": "Aarhus Universitet", "status": "planlagt"},
+    "SDU": {"name": "Syddansk Universitet", "status": "planlagt"},
+    "AAU": {"name": "Aalborg Universitet", "status": "planlagt"}
+  }
+}
