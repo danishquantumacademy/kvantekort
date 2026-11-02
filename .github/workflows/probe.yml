@@ -1,0 +1,25 @@
+name: probe reachability
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in \
+            https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/ \
+            https://physics.dtu.dk/research/sections/qpit/News \
+            https://researchprofiles.ku.dk/en/organisations/nqcp/ \
+            https://nqcp.ku.dk/news/ \
+            https://pure.au.dk/portal/en/organisations/department-of-physics-and-astronomy-center-for-complex-quantum-sy/ \
+            https://phys.au.dk/ccq \
+            https://portal.findresearcher.sdu.dk/en/organisations/center-for-polariton-driven-light-matter-interactions-polima/ \
+            https://www.sdu.dk/en/forskning/polima \
+            https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/ \
+            https://www.classique.aau.dk \
+            https://www.dtu.dk/english/about/job-and-career/vacant-positions \
+            https://candidate.hr-manager.net/vacancies/list.aspx?customer=ku \
+            ; do
+            code=$(curl -s -o /tmp/b -w '%{http_code} %{size_download}' -A 'Mozilla/5.0 (DQA map bot; +https://map.danishquantumacademy.dk)' -L --max-time 30 "$u")
+            title=$(grep -o '<title>[^<]*' /tmp/b | head -1)
+            echo "$code | $u | $title"
+          done
