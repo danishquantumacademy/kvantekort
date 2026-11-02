@@ -37,6 +37,12 @@ for f in sorted((ROOT / "data/classification").glob("*.csv")):
                 "url": r.get("url") or inst.get("course_url", "").format_map({**r, "ref": r.get("ref") or r["code"]}),
             })
 
+programmes = json.loads((ROOT / "data/programmes.json").read_text(encoding="utf-8"))
+known = {(c["institution"], c["code"]) for c in courses}
+for prog in programmes["programmes"]:
+    for x in prog["courses"]:
+        if (x["inst"], x["code"]) not in known:
+            raise SystemExit(f"Studiesti {prog['id']}: kurset {x['inst']} {x['code']} findes ikke blandt de kortlagte kurser")
 out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 (ROOT / "site").mkdir(exist_ok=True)
 (ROOT / "site/data.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -56,4 +62,11 @@ tbody = ttpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</
 tpage = page.split("<body>\n")[0] + "<body>\n" + tbody + "\n</body>\n</html>\n"
 (ROOT / "site/triangle.html").write_text(tpage, encoding="utf-8")
 (ROOT / "site/triangle_artifact.html").write_text(tbody, encoding="utf-8")
+
+# Studiestier (den studerendes trekant) bygges af kurserne + data/programmes.json.
+sout = {**out, "programmes": programmes}
+stpl = (ROOT / "site/students_template.html").read_text(encoding="utf-8")
+sbody = stpl.replace("/*DATA*/", json.dumps(sout, ensure_ascii=False).replace("</", "<\\/"))
+(ROOT / "site/students.html").write_text(page.split("<body>\n")[0] + "<body>\n" + sbody + "\n</body>\n</html>\n", encoding="utf-8")
+(ROOT / "site/students_artifact.html").write_text(sbody, encoding="utf-8")
 print(f"site: {len(courses)} kurser med CFQT-match, {unmapped} uden match (vises ikke)")

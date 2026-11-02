@@ -13,6 +13,7 @@ All assignments are **first estimates** (`cfqt_status = estimated`) made from th
 
 ```
 data/
+  programmes.json           # study paths through MSc programmes (student-perspective triangles)
   reference.json            # CFQT content map (8 domains, 42 subdomains), areas, levels; institutions and totals
   raw/<inst>_courses.json   # full harvest (all courses), produced by the scrapers
   classification/<inst>.csv # quantum-relevant courses with CFQT subdomains and proficiency levels
@@ -28,7 +29,9 @@ scripts/
   apply_cfqt.py             # writes the estimates into data/classification/*.csv
   build_site.py             # builds site/data.json and site/index.html (data embedded)
 site/
-  template.html             # website template
+  template.html             # coverage matrix and course list (index.html)
+  triangle_template.html    # CFQT proficiency triangle per university (triangle.html)
+  students_template.html    # study path profiles per MSc programme (students.html)
   index.html                # generated; served by GitHub Pages
   CNAME                     # map.danishquantumacademy.dk
 .github/workflows/pages.yml # builds and publishes the site on every push to main
