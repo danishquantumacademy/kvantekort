@@ -175,8 +175,8 @@ footer a{color:var(--accent)}
 
   // ---- CFQT triangle geometry ----
   function geometry(W){
-    const h=W*Math.sqrt(3)/2, pad=W*.04;
-    const A=[W/2+pad,pad], BL=[pad,h+pad], BR=[W+pad,h+pad];
+    const h=W*Math.sqrt(3)/2, pad=W*.04, top=pad+(W>300?22:0);
+    const A=[W/2+pad,top], BL=[pad,h+top], BR=[W+pad,h+top];
     const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2], lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];
     const L=mid(A,BL), Rr=mid(A,BR), M=mid(BL,BR), O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];
     const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]};
@@ -187,7 +187,7 @@ footer a{color:var(--accent)}
       cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});
       ['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}));
     }
-    return {W:W+2*pad,H:h+2*pad,A,BL,BR,L,R:Rr,M,O,cells};
+    return {W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,O,cells};
   }
   const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return [x/pts.length,y/pts.length]};
   const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
@@ -222,13 +222,10 @@ footer a{color:var(--accent)}
     [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':bw,'stroke-linecap':'round','pointer-events':'none'})));
     svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':opts.labels?1.2:.8,'pointer-events':'none'}));
     if(opts.labels){
-      const fs=12, tx=(x,y,txt,anchor,col)=>svg.append(sv('text',{x,y,'text-anchor':anchor,'font-family':'IBM Plex Sans, sans-serif','font-size':fs,'font-weight':600,fill:col},txt));
-      tx(g.A[0],g.A[1]-4+0,'','middle','var(--fg)');
-      tx(g.BL[0],g.H+20,'(II) Develop new QT','start',acol('II'));
-      tx(g.BR[0],g.H+20,'Develop QT strategies (III)','end',acol('III'));
-      const mi=[(g.L[0]+g.R[0])/2,g.L[1]];
-      svg.append(sv('rect',{x:mi[0]-62,y:mi[1]-9,width:124,height:18,rx:3,fill:acol('I')}));
-      svg.append(sv('text',{x:mi[0],y:mi[1]+4,'text-anchor':'middle','font-family':'IBM Plex Sans, sans-serif','font-size':11,'font-weight':600,fill:'var(--bg)'},'(I) Quantum concepts'));
+      const tx=(x,y,txt,anchor,col)=>svg.append(sv('text',{x,y,'text-anchor':anchor,'font-family':'IBM Plex Sans, sans-serif','font-size':12.5,'font-weight':600,fill:col},txt));
+      tx(g.A[0],g.A[1]-10,'(I) Quantum concepts','middle',acol('I'));
+      tx(g.BL[0],g.H+20,'(II) QT HW & SW engineering','start',acol('II'));
+      tx(g.BR[0],g.H+20,'QT applications & strategies (III)','end',acol('III'));
     }
     return m;
   }
@@ -238,11 +235,11 @@ footer a{color:var(--accent)}
   const opts=['ALL',...INSTS];
   function renderPicker(){
     picker.innerHTML='';
-    const all=opts.map(k=>counts(sel(k))); const gmax=Math.max(1,...all.flatMap(m=>Object.values(m)));
+    const uniMax=Math.max(1,...INSTS.flatMap(k=>Object.values(counts(sel(k)))));
     opts.forEach((k,i)=>{
       const svg=sv('svg',{'aria-hidden':'true'});
       const list=sel(k);
-      drawTriangle(svg,list,{W:200,max:gmax});
+      drawTriangle(svg,list,{W:200,max:k==='ALL'?undefined:uniMax});
       const b=el('button',{class:'pick',type:'button','aria-pressed':String(state.inst===k),title:k==='ALL'?'All Danish universities':R.institutions[k].name},svg,el('span',{class:'nm'},k==='ALL'?'Denmark':k),el('span',{class:'ct'},`${list.filter(c=>Object.keys(c.prof).length).length} with QT proficiency`));
       b.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;render()};
       picker.append(b);

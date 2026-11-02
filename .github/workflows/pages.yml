@@ -3,7 +3,7 @@ name: Byg og publicér Kvantekort
 on:
   push:
     branches: [main]
-    paths: ["data/**", "site/template.html", "scripts/**"]
+    paths: ["data/**", "site/*template.html", "scripts/**"]
   workflow_dispatch:
 
 permissions:
