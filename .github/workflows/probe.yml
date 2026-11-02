@@ -2,6 +2,8 @@ name: probe reachability
 on:
   push:
     branches: [probe-reach]
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -16,7 +18,6 @@ jobs:
             curl -s -L --max-time 40 -A 'Mozilla/5.0 (compatible; DQA-map/1.0; +https://map.danishquantumacademy.dk)' -o "s/$i.html" "$u"
             echo "$i $(stat -c %s s/$i.html 2>/dev/null) $u" | tee -a s/index.txt
           done < probe-urls.txt
-      - uses: actions/upload-artifact@v4
-        with:
-          name: samples
-          path: s/
+      - run: |
+          git config user.name "probe" && git config user.email "probe@users.noreply.github.com"
+          git add s && git commit -m "samples [skip ci]" && git push
