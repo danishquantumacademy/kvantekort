@@ -368,7 +368,13 @@
    "kw_strong": 45,
    "kw_medium": 0,
    "note": "also DSNCSITK229 and ESNESNK1K1",
-   "url": "https://moduler.aau.dk/course/2026-2027/DSNDATK215"
+   "url": "https://moduler.aau.dk/course/2026-2027/DSNDATK215",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -391,7 +397,13 @@
    "kw_strong": 33,
    "kw_medium": 0,
    "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/ESNCEKK3K2"
+   "url": "https://moduler.aau.dk/course/2026-2027/ESNCEKK3K2",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -414,7 +426,13 @@
    "kw_strong": 6,
    "kw_medium": 12,
    "note": "also F-NFM-K2-3A",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-NFM-K2-3"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-NFM-K2-3",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -435,7 +453,13 @@
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "also F-FYS-K2-3A",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K2-3"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K2-3",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -519,7 +543,13 @@
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "also F-FYS-K1-3A",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-3"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-3",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -540,7 +570,13 @@
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-4"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-4",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -563,7 +599,13 @@
    "kw_strong": 1,
    "kw_medium": 16,
    "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-9"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-9",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -585,7 +627,13 @@
    "kw_strong": 2,
    "kw_medium": 1,
    "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-5"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-5",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -860,7 +908,13 @@
    "kw_strong": 2,
    "kw_medium": 5,
    "note": "project",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K2-1A"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K2-1A",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -881,7 +935,13 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "project",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-1A"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-1A",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -903,7 +963,13 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "project",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-2A"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-2A",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -925,7 +991,13 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "project; also F-FYS-K3-3A",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-1A"
+   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-1A",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -944,7 +1016,13 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/K-KEM-K1-20"
+   "url": "https://moduler.aau.dk/course/2026-2027/K-KEM-K1-20",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -963,7 +1041,13 @@
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "also ESNCYSK1K5",
-   "url": "https://moduler.aau.dk/course/2026-2027/ESNCYSK1K1"
+   "url": "https://moduler.aau.dk/course/2026-2027/ESNCYSK1K1",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -982,7 +1066,13 @@
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/24KMAT2KRYPT"
+   "url": "https://moduler.aau.dk/course/2026-2027/24KMAT2KRYPT",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AAU",
@@ -1114,7 +1204,13 @@
    "kw_strong": 31,
    "kw_medium": 12,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138667"
+   "url": "https://kursuskatalog.au.dk/da/course/138667",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1138,7 +1234,13 @@
    "kw_strong": 29,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142217"
+   "url": "https://kursuskatalog.au.dk/da/course/142217",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1162,7 +1264,13 @@
    "kw_strong": 22,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142244"
+   "url": "https://kursuskatalog.au.dk/da/course/142244",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1184,7 +1292,13 @@
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142250"
+   "url": "https://kursuskatalog.au.dk/da/course/142250",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1207,7 +1321,13 @@
    "kw_strong": 10,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142331"
+   "url": "https://kursuskatalog.au.dk/da/course/142331",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1231,7 +1351,13 @@
    "kw_strong": 9,
    "kw_medium": 11,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138452"
+   "url": "https://kursuskatalog.au.dk/da/course/138452",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1255,7 +1381,13 @@
    "kw_strong": 9,
    "kw_medium": 11,
    "note": "Same syllabus as Experimental Quantum Optics 1",
-   "url": "https://kursuskatalog.au.dk/da/course/145674"
+   "url": "https://kursuskatalog.au.dk/da/course/145674",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1279,7 +1411,13 @@
    "kw_strong": 6,
    "kw_medium": 12,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142635"
+   "url": "https://kursuskatalog.au.dk/da/course/142635",
+   "sched": {
+    "sem": "EF",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1301,7 +1439,13 @@
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142325"
+   "url": "https://kursuskatalog.au.dk/da/course/142325",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1476,7 +1620,13 @@
    "kw_strong": 5,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138468"
+   "url": "https://kursuskatalog.au.dk/da/course/138468",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1497,7 +1647,13 @@
    "kw_strong": 5,
    "kw_medium": 17,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142253"
+   "url": "https://kursuskatalog.au.dk/da/course/142253",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1520,7 +1676,13 @@
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142252"
+   "url": "https://kursuskatalog.au.dk/da/course/142252",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1541,7 +1703,13 @@
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142324"
+   "url": "https://kursuskatalog.au.dk/da/course/142324",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1563,7 +1731,13 @@
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138453"
+   "url": "https://kursuskatalog.au.dk/da/course/138453",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1585,7 +1759,13 @@
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138455"
+   "url": "https://kursuskatalog.au.dk/da/course/138455",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1608,7 +1788,13 @@
    "kw_strong": 0,
    "kw_medium": 46,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138836"
+   "url": "https://kursuskatalog.au.dk/da/course/138836",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1885,7 +2071,13 @@
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/145553"
+   "url": "https://kursuskatalog.au.dk/da/course/145553",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1908,7 +2100,13 @@
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "Aimed at upper-secondary teaching; includes quantum experiments",
-   "url": "https://kursuskatalog.au.dk/da/course/142243"
+   "url": "https://kursuskatalog.au.dk/da/course/142243",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1927,7 +2125,13 @@
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142241"
+   "url": "https://kursuskatalog.au.dk/da/course/142241",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1949,7 +2153,13 @@
    "kw_strong": 1,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138470"
+   "url": "https://kursuskatalog.au.dk/da/course/138470",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1969,7 +2179,13 @@
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138459"
+   "url": "https://kursuskatalog.au.dk/da/course/138459",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -1991,7 +2207,13 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142312"
+   "url": "https://kursuskatalog.au.dk/da/course/142312",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2011,7 +2233,13 @@
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142437"
+   "url": "https://kursuskatalog.au.dk/da/course/142437",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2030,7 +2258,13 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142195"
+   "url": "https://kursuskatalog.au.dk/da/course/142195",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2049,7 +2283,15 @@
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142196"
+   "url": "https://kursuskatalog.au.dk/da/course/142196",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "520172U006"
+    ]
+   }
   },
   {
    "institution": "AU",
@@ -2068,7 +2310,15 @@
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138414"
+   "url": "https://kursuskatalog.au.dk/da/course/138414",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "520172U006"
+    ]
+   }
   },
   {
    "institution": "AU",
@@ -2087,7 +2337,13 @@
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138666"
+   "url": "https://kursuskatalog.au.dk/da/course/138666",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2109,7 +2365,13 @@
    "kw_strong": 3,
    "kw_medium": 17,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/142058"
+   "url": "https://kursuskatalog.au.dk/da/course/142058",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2128,7 +2390,13 @@
    "kw_strong": 0,
    "kw_medium": 9,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/137934"
+   "url": "https://kursuskatalog.au.dk/da/course/137934",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2148,7 +2416,13 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/137979"
+   "url": "https://kursuskatalog.au.dk/da/course/137979",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2167,7 +2441,13 @@
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138698"
+   "url": "https://kursuskatalog.au.dk/da/course/138698",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "AU",
@@ -2326,7 +2606,13 @@
    "kw_strong": 29,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02195"
+   "url": "https://kurser.dtu.dk/course/02195",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F2A",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -2350,7 +2636,13 @@
    "kw_strong": 20,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02196"
+   "url": "https://kurser.dtu.dk/course/02196",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F5B",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -2372,7 +2664,17 @@
    "kw_strong": 16,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02197"
+   "url": "https://kurser.dtu.dk/course/02197",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F4A",
+    "pre": [
+     "10384",
+     "01227",
+     "NMAK23007U"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2393,7 +2695,18 @@
    "kw_strong": 6,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02278"
+   "url": "https://kurser.dtu.dk/course/02278",
+   "sched": {
+    "sem": "Jun",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "01410",
+     "02231",
+     "01425",
+     "01426"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2416,7 +2729,17 @@
    "kw_strong": 16,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10112"
+   "url": "https://kurser.dtu.dk/course/10112",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E2",
+    "pre": [
+     "10102",
+     "10104",
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2439,7 +2762,17 @@
    "kw_strong": 5,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10325"
+   "url": "https://kurser.dtu.dk/course/10325",
+   "sched": {
+    "sem": "Jan",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "10102",
+     "10104",
+     "26261"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2463,7 +2796,16 @@
    "kw_strong": 26,
    "kw_medium": 25,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10380"
+   "url": "https://kurser.dtu.dk/course/10380",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F4",
+    "pre": [
+     "34020",
+     "10102"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2487,7 +2829,15 @@
    "kw_strong": 30,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10384"
+   "url": "https://kurser.dtu.dk/course/10384",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E4B",
+    "pre": [
+     "10102"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2512,7 +2862,15 @@
    "kw_strong": 28,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10385"
+   "url": "https://kurser.dtu.dk/course/10385",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F3A",
+    "pre": [
+     "10384"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2536,7 +2894,18 @@
    "kw_strong": 19,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10386"
+   "url": "https://kurser.dtu.dk/course/10386",
+   "sched": {
+    "sem": "Jun",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "10102",
+     "10112",
+     "10384",
+     "10380"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2560,7 +2929,19 @@
    "kw_strong": 12,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10387"
+   "url": "https://kurser.dtu.dk/course/10387",
+   "sched": {
+    "sem": "Aug",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "10112",
+     "10380",
+     "10384",
+     "10385",
+     "34042"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2583,7 +2964,15 @@
    "kw_strong": 12,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10850"
+   "url": "https://kurser.dtu.dk/course/10850",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F3B",
+    "pre": [
+     "22600"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2608,7 +2997,15 @@
    "kw_strong": 24,
    "kw_medium": 16,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34042"
+   "url": "https://kurser.dtu.dk/course/34042",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E5A",
+    "pre": [
+     "10102"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2834,7 +3231,13 @@
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10122"
+   "url": "https://kurser.dtu.dk/course/10122",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E3A",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -2857,7 +3260,17 @@
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10302"
+   "url": "https://kurser.dtu.dk/course/10302",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F5",
+    "pre": [
+     "10112",
+     "10303",
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2879,7 +3292,19 @@
    "kw_strong": 2,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10306"
+   "url": "https://kurser.dtu.dk/course/10306",
+   "sched": {
+    "sem": "Jun",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "10102",
+     "10104",
+     "10303",
+     "10317",
+     "10112"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2901,7 +3326,18 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10314"
+   "url": "https://kurser.dtu.dk/course/10314",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F5B",
+    "pre": [
+     "10036",
+     "10102",
+     "10303",
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2923,7 +3359,17 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10315"
+   "url": "https://kurser.dtu.dk/course/10315",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F5B+F5A",
+    "pre": [
+     "10036",
+     "10102",
+     "10303"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2944,7 +3390,16 @@
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10319"
+   "url": "https://kurser.dtu.dk/course/10319",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E5B",
+    "pre": [
+     "10317",
+     "10112"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2966,7 +3421,19 @@
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/26231"
+   "url": "https://kurser.dtu.dk/course/26231",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F5B",
+    "pre": [
+     "01001",
+     "01003",
+     "01004",
+     "26220",
+     "26222"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -2987,7 +3454,19 @@
    "kw_strong": 2,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/26236"
+   "url": "https://kurser.dtu.dk/course/26236",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E4B",
+    "pre": [
+     "01001",
+     "01003",
+     "01002",
+     "01004",
+     "26231"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3009,7 +3488,17 @@
    "kw_strong": 2,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/26263"
+   "url": "https://kurser.dtu.dk/course/26263",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F2A",
+    "pre": [
+     "26231",
+     "26245",
+     "26261"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3032,7 +3521,18 @@
    "kw_strong": 9,
    "kw_medium": 26,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34032"
+   "url": "https://kurser.dtu.dk/course/34032",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1B",
+    "pre": [
+     "10036",
+     "10102",
+     "10303",
+     "34033"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3055,7 +3555,19 @@
    "kw_strong": 2,
    "kw_medium": 32,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34034"
+   "url": "https://kurser.dtu.dk/course/34034",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1A",
+    "pre": [
+     "34021",
+     "34020",
+     "34127",
+     "34033",
+     "10370"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3079,7 +3591,16 @@
    "kw_strong": 10,
    "kw_medium": 20,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34051"
+   "url": "https://kurser.dtu.dk/course/34051",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F1",
+    "pre": [
+     "10102",
+     "34020"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3101,7 +3622,13 @@
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34063"
+   "url": "https://kurser.dtu.dk/course/34063",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E5B",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -3123,7 +3650,13 @@
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/47335"
+   "url": "https://kurser.dtu.dk/course/47335",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F2A",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -3551,7 +4084,22 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/01325"
+   "url": "https://kurser.dtu.dk/course/01325",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F1A",
+    "pre": [
+     "01035",
+     "01025",
+     "01034",
+     "01037",
+     "01001",
+     "01002",
+     "01005",
+     "01020"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3570,7 +4118,16 @@
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/01425"
+   "url": "https://kurser.dtu.dk/course/01425",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F5B",
+    "pre": [
+     "02231",
+     "01410"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3589,7 +4146,18 @@
    "kw_strong": 0,
    "kw_medium": 10,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/01426"
+   "url": "https://kurser.dtu.dk/course/01426",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E3A",
+    "pre": [
+     "02231",
+     "01410",
+     "01425",
+     "02255"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3608,7 +4176,16 @@
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02231"
+   "url": "https://kurser.dtu.dk/course/02231",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1A",
+    "pre": [
+     "01017",
+     "01019"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3627,7 +4204,16 @@
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02232"
+   "url": "https://kurser.dtu.dk/course/02232",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F1B",
+    "pre": [
+     "02231",
+     "01410"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3646,7 +4232,17 @@
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/02234"
+   "url": "https://kurser.dtu.dk/course/02234",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E4A",
+    "pre": [
+     "02270",
+     "02271",
+     "02232"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3667,7 +4263,22 @@
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10200"
+   "url": "https://kurser.dtu.dk/course/10200",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1B",
+    "pre": [
+     "10036",
+     "10041",
+     "10080",
+     "10081",
+     "10102",
+     "10104",
+     "10303",
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3689,7 +4300,17 @@
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10304"
+   "url": "https://kurser.dtu.dk/course/10304",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F3",
+    "pre": [
+     "10300",
+     "10303",
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3709,7 +4330,17 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10321"
+   "url": "https://kurser.dtu.dk/course/10321",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1",
+    "pre": [
+     "10300",
+     "10303",
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3730,7 +4361,17 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10333"
+   "url": "https://kurser.dtu.dk/course/10333",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E5B",
+    "pre": [
+     "10331",
+     "10260",
+     "10034"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3750,7 +4391,22 @@
    "kw_strong": 3,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10350"
+   "url": "https://kurser.dtu.dk/course/10350",
+   "sched": {
+    "sem": "Jan",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "01001",
+     "01002",
+     "01035",
+     "10033",
+     "10034",
+     "10036",
+     "10102",
+     "34020"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3770,7 +4426,17 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10855"
+   "url": "https://kurser.dtu.dk/course/10855",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E2+E5",
+    "pre": [
+     "22600",
+     "10851",
+     "10852"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3789,7 +4455,18 @@
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/10871"
+   "url": "https://kurser.dtu.dk/course/10871",
+   "sched": {
+    "sem": "Jun",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "10303",
+     "10317",
+     "10260",
+     "34551"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3808,7 +4485,23 @@
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/22610"
+   "url": "https://kurser.dtu.dk/course/22610",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E2B",
+    "pre": [
+     "10031",
+     "10033",
+     "10034",
+     "10036",
+     "10102",
+     "01001",
+     "01002",
+     "01035",
+     "22481"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3829,7 +4522,17 @@
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/30564"
+   "url": "https://kurser.dtu.dk/course/30564",
+   "sched": {
+    "sem": "Jun",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "30142",
+     "30150",
+     "30560"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3849,7 +4552,17 @@
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/30784"
+   "url": "https://kurser.dtu.dk/course/30784",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E2A",
+    "pre": [
+     "30120",
+     "30794",
+     "10122"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3868,7 +4581,13 @@
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34043"
+   "url": "https://kurser.dtu.dk/course/34043",
+   "sched": {
+    "sem": "EF",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -3888,7 +4607,16 @@
    "kw_strong": 0,
    "kw_medium": 26,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34046"
+   "url": "https://kurser.dtu.dk/course/34046",
+   "sched": {
+    "sem": "Jan",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "34020",
+     "34021"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3908,7 +4636,18 @@
    "kw_strong": 0,
    "kw_medium": 12,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34052"
+   "url": "https://kurser.dtu.dk/course/34052",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E3",
+    "pre": [
+     "10036",
+     "10370",
+     "34031",
+     "34530"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3928,7 +4667,18 @@
    "kw_strong": 1,
    "kw_medium": 11,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34053"
+   "url": "https://kurser.dtu.dk/course/34053",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F2A",
+    "pre": [
+     "10036",
+     "31400",
+     "10370",
+     "34041"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3947,7 +4697,16 @@
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34060"
+   "url": "https://kurser.dtu.dk/course/34060",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F4A",
+    "pre": [
+     "34034",
+     "34052"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3967,7 +4726,15 @@
    "kw_strong": 0,
    "kw_medium": 14,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34062"
+   "url": "https://kurser.dtu.dk/course/34062",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F3",
+    "pre": [
+     "34034"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -3986,7 +4753,18 @@
    "kw_strong": 0,
    "kw_medium": 12,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34064"
+   "url": "https://kurser.dtu.dk/course/34064",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F4B",
+    "pre": [
+     "10036",
+     "31400",
+     "34020",
+     "34021"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4005,7 +4783,20 @@
    "kw_strong": 1,
    "kw_medium": 27,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34130"
+   "url": "https://kurser.dtu.dk/course/34130",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E4",
+    "pre": [
+     "34120",
+     "31400",
+     "10036",
+     "34210",
+     "34230",
+     "34231"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4024,7 +4815,19 @@
    "kw_strong": 0,
    "kw_medium": 16,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34153"
+   "url": "https://kurser.dtu.dk/course/34153",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F3A",
+    "pre": [
+     "10370",
+     "34033",
+     "34020",
+     "34032",
+     "34021"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4044,7 +4847,17 @@
    "kw_strong": 0,
    "kw_medium": 25,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34156"
+   "url": "https://kurser.dtu.dk/course/34156",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1A",
+    "pre": [
+     "34130",
+     "34153",
+     "34210"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4063,7 +4876,18 @@
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34251"
+   "url": "https://kurser.dtu.dk/course/34251",
+   "sched": {
+    "sem": "Jan",
+    "per": "3w",
+    "slot": "",
+    "pre": [
+     "01405",
+     "30300",
+     "34230",
+     "34231"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4082,7 +4906,15 @@
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34451"
+   "url": "https://kurser.dtu.dk/course/34451",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E5B",
+    "pre": [
+     "34031"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4102,7 +4934,16 @@
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34540"
+   "url": "https://kurser.dtu.dk/course/34540",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E2A",
+    "pre": [
+     "34020",
+     "34021"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4121,7 +4962,15 @@
    "kw_strong": 2,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/34556"
+   "url": "https://kurser.dtu.dk/course/34556",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E1A",
+    "pre": [
+     "10317"
+    ]
+   }
   },
   {
    "institution": "DTU",
@@ -4140,7 +4989,13 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/47319"
+   "url": "https://kurser.dtu.dk/course/47319",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "F1A",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -4160,7 +5015,13 @@
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kurser.dtu.dk/course/47333"
+   "url": "https://kurser.dtu.dk/course/47333",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "E3A",
+    "pre": []
+   }
   },
   {
    "institution": "DTU",
@@ -4372,7 +5233,13 @@
    "kw_strong": 31,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NDAK26003U"
+   "url": "https://kucourses.dk/course/NDAK26003U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4396,7 +5263,13 @@
    "kw_strong": 23,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK23002U"
+   "url": "https://kucourses.dk/course/NFYK23002U",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4420,7 +5293,15 @@
    "kw_strong": 22,
    "kw_medium": 20,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK18004U"
+   "url": "https://kucourses.dk/course/NFYK18004U",
+   "sched": {
+    "sem": "F",
+    "per": "H2",
+    "slot": "B",
+    "pre": [
+     "NFYK13006U"
+    ]
+   }
   },
   {
    "institution": "KU",
@@ -4444,7 +5325,13 @@
    "kw_strong": 21,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK23007U"
+   "url": "https://kucourses.dk/course/NMAK23007U",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "C",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4466,7 +5353,13 @@
    "kw_strong": 20,
    "kw_medium": 23,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK13006U"
+   "url": "https://kucourses.dk/course/NFYK13006U",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "C",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4490,7 +5383,13 @@
    "kw_strong": 20,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK26000U"
+   "url": "https://kucourses.dk/course/NFYK26000U",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4536,7 +5435,13 @@
    "kw_strong": 18,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK23005U"
+   "url": "https://kucourses.dk/course/NFYK23005U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4558,7 +5463,13 @@
    "kw_strong": 17,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK14020U"
+   "url": "https://kucourses.dk/course/NMAK14020U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "C",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4582,7 +5493,13 @@
    "kw_strong": 15,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK24003U"
+   "url": "https://kucourses.dk/course/NFYK24003U",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4647,7 +5564,13 @@
    "kw_strong": 14,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK15003U"
+   "url": "https://kucourses.dk/course/NFYK15003U",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "B",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4692,7 +5615,17 @@
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK13004U"
+   "url": "https://kucourses.dk/course/NFYK13004U",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "A",
+    "pre": [
+     "NFYA04036U",
+     "NFYA04022U",
+     "NFYB16006U"
+    ]
+   }
   },
   {
    "institution": "KU",
@@ -4716,7 +5649,13 @@
    "kw_strong": 11,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK26002U"
+   "url": "https://kucourses.dk/course/NFYK26002U",
+   "sched": {
+    "sem": "F",
+    "per": "H2",
+    "slot": "B",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4807,7 +5746,16 @@
    "kw_strong": 6,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NDAK24010U"
+   "url": "https://kucourses.dk/course/NDAK24010U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "B",
+    "pre": [
+     "NFYK23002U",
+     "NMAK23007U"
+    ]
+   }
   },
   {
    "institution": "KU",
@@ -4828,7 +5776,13 @@
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK22000U"
+   "url": "https://kucourses.dk/course/NMAK22000U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "B",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -4872,7 +5826,15 @@
    "kw_strong": 5,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK10017U"
+   "url": "https://kucourses.dk/course/NFYK10017U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "C",
+    "pre": [
+     "NFYK15003U"
+    ]
+   }
   },
   {
    "institution": "KU",
@@ -4894,7 +5856,13 @@
    "kw_strong": 5,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK15003U"
+   "url": "https://kucourses.dk/course/NMAK15003U",
+   "sched": {
+    "sem": "F",
+    "per": "H2",
+    "slot": "C",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5022,7 +5990,13 @@
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB10021U"
+   "url": "https://kucourses.dk/course/NFYB10021U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "B",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5066,7 +6040,15 @@
    "kw_strong": 2,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK10003U"
+   "url": "https://kucourses.dk/course/NFYK10003U",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "B",
+    "pre": [
+     "NFYK10017U"
+    ]
+   }
   },
   {
    "institution": "KU",
@@ -5109,7 +6091,13 @@
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEA07016U"
+   "url": "https://kucourses.dk/course/NKEA07016U",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5171,7 +6159,13 @@
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEK22001U"
+   "url": "https://kucourses.dk/course/NKEK22001U",
+   "sched": {
+    "sem": "F",
+    "per": "H1",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5211,7 +6205,13 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK23014U"
+   "url": "https://kucourses.dk/course/NMAK23014U",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "A",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5254,7 +6254,15 @@
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEK25005U"
+   "url": "https://kucourses.dk/course/NKEK25005U",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "B",
+    "pre": [
+     "NKEB13013U"
+    ]
+   }
   },
   {
    "institution": "KU",
@@ -5275,7 +6283,13 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK13021U"
+   "url": "https://kucourses.dk/course/NFYK13021U",
+   "sched": {
+    "sem": "F",
+    "per": "H2",
+    "slot": "B",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5315,7 +6329,13 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NBIK16001U"
+   "url": "https://kucourses.dk/course/NBIK16001U",
+   "sched": {
+    "sem": "E",
+    "per": "H2",
+    "slot": "B",
+    "pre": []
+   }
   },
   {
    "institution": "KU",
@@ -5393,7 +6413,13 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEK12008U"
+   "url": "https://kucourses.dk/course/NKEK12008U",
+   "sched": {
+    "sem": "E",
+    "per": "H1",
+    "slot": "C",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -5548,7 +6574,16 @@
    "kw_strong": 25,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC801/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC801/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "MM505",
+     "DM545"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5570,7 +6605,13 @@
    "kw_strong": 20,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC802/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC802/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -5594,7 +6635,15 @@
    "kw_strong": 22,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC803/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC803/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5617,7 +6666,15 @@
    "kw_strong": 16,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC804/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC804/en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5642,7 +6699,16 @@
    "kw_strong": 13,
    "kw_medium": 10,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC805/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC805/en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801",
+     "QC802"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5665,7 +6731,17 @@
    "kw_strong": 14,
    "kw_medium": 2,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC806/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC806/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801",
+     "QC802",
+     "QC803"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5687,7 +6763,18 @@
    "kw_strong": 17,
    "kw_medium": 4,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC807/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC807/en",
+   "sched": {
+    "sem": "EF",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801",
+     "QC802",
+     "QC803",
+     "QC805"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5711,7 +6798,17 @@
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC808/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC808/en",
+   "sched": {
+    "sem": "EF",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801",
+     "QC802",
+     "QC803"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5734,7 +6831,16 @@
    "kw_strong": 20,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC809/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC809/en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801",
+     "QC802"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5757,7 +6863,15 @@
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC810/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC810/en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "QC801"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5780,7 +6894,16 @@
    "kw_strong": 15,
    "kw_medium": 0,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM893/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM893/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "DM561",
+     "MM505"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5802,7 +6925,16 @@
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM866/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM866/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "MM553",
+     "MM533"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5824,7 +6956,13 @@
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "Approved as PhD course",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY803/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY803/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -5846,7 +6984,20 @@
    "kw_strong": 6,
    "kw_medium": 9,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY845/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY845/en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "FY837",
+     "FY548",
+     "FT504",
+     "FY544",
+     "FY547",
+     "FY550"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5870,7 +7021,13 @@
    "kw_strong": 22,
    "kw_medium": 9,
    "note": "MSc in Engineering Physics",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -5955,7 +7112,20 @@
    "kw_strong": 3,
    "kw_medium": 12,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY837/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY837/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "FT504",
+     "FY546",
+     "FY544",
+     "FY547",
+     "FY550",
+     "FY548"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5976,7 +7146,15 @@
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY809/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY809/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "FY803"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -5998,7 +7176,17 @@
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "Approved as PhD course",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE820/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE820/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "KE522",
+     "FY544",
+     "FY547"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -6019,7 +7207,16 @@
    "kw_strong": 2,
    "kw_medium": 12,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE829/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE829/en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "KE820",
+     "KE533"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -6041,7 +7238,13 @@
    "kw_strong": 5,
    "kw_medium": 16,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6064,7 +7267,13 @@
    "kw_strong": 2,
    "kw_medium": 27,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6086,7 +7295,13 @@
    "kw_strong": 1,
    "kw_medium": 41,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6245,7 +7460,18 @@
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM837/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM837/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "DM550",
+     "MM547",
+     "MM536",
+     "MM538"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -6266,7 +7492,19 @@
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "Pure mathematics",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM868/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM868/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": [
+     "MM548",
+     "MM549",
+     "MM570",
+     "MM567",
+     "MM819"
+    ]
+   }
   },
   {
    "institution": "SDU",
@@ -6285,7 +7523,13 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM886/en"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM886/en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6305,7 +7549,13 @@
    "kw_strong": 0,
    "kw_medium": 41,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6324,7 +7574,13 @@
    "kw_strong": 0,
    "kw_medium": 19,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6346,7 +7602,13 @@
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6368,7 +7630,13 @@
    "kw_strong": 1,
    "kw_medium": 13,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en",
+   "sched": {
+    "sem": "E",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",
@@ -6387,7 +7655,13 @@
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en",
+   "sched": {
+    "sem": "F",
+    "per": "S",
+    "slot": "",
+    "pre": []
+   }
   },
   {
    "institution": "SDU",

@@ -1,0 +1,18 @@
+# AAU, moduler.aau.dk 2026/27, harvested 2026-11-02. code|semester|period|slot|prerequisite codes
+# AAU modules run over the semester alongside the semester project; no weekly schedule group in the module base.
+# Prerequisites in AAU modules refer to bachelor modules or earlier semester projects, none of them among the mapped courses.
+24KMAT2KRYPT|F|S||
+DSNDATK215|F|S||
+ESNCEKK3K2|E|S||
+ESNCYSK1K1|E|S||
+F-FYS-K1-1A|E|S||
+F-FYS-K1-2A|E|S||
+F-FYS-K1-3|E|S||
+F-FYS-K1-4|E|S||
+F-FYS-K1-5|F|S||
+F-FYS-K2-1A|F|S||
+F-FYS-K2-3|E|S||
+F-FYS-K3-1A|E|S||
+F-FYS-K3-9|E|S||
+F-NFM-K2-3|F|S||
+K-KEM-K1-20|E|S||

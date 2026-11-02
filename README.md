@@ -17,6 +17,7 @@ data/
   reference.json            # CFQT content map (8 domains, 42 subdomains), areas, levels; institutions and totals
   raw/<inst>_courses.json   # full harvest (all courses), produced by the scrapers
   classification/<inst>.csv # quantum-relevant courses with CFQT subdomains and proficiency levels
+  schedule/<inst>.txt       # MSc courses: semester, teaching block, weekly schedule slot, prerequisite course codes
 scrapers/
   dtu_browser.js            # kurser.dtu.dk (run in the browser console)
   au_browser.js             # kursuskatalog.au.dk via the catalogue's own API
@@ -62,6 +63,15 @@ Harvested data and expert judgement are kept apart: scrapers only write to `data
 | KU (SCIENCE only) | 862 BSc/MSc courses via [kucourses.dk](https://kucourses.dk) (student-run mirror; kurser.ku.dk was unavailable) + PhD courses | 55 |
 
 304 courses analysed; 290 match the CFQT content map and are shown on the site. PhD courses for AU, SDU, AAU and KU come from [phdcourses.dk](https://phdcourses.dk); DTU's from its own course base.
+
+## Schedule data
+
+`data/schedule/<inst>.txt` holds one line per MSc course: `code|semester|period|slot|prerequisites`, harvested from the course catalogues for 2026/27. The course finder uses it to order courses and flag timetable clashes.
+
+- `semester`: `E` autumn, `F` spring, `EF` both, or a 3-week period `Jan`, `Jun`, `Aug`.
+- `period`: `S` whole semester, `H1`/`H2` first/second half (KU blocks 1–4, AU quarters, SDU quarters), `3w` for 3-week courses.
+- `slot`: the weekly schedule slot where the university has one: DTU modules (e.g. `F3A`, Tuesday 8–12) and KU schedule groups (`A`, `B`, `C`). AU, SDU and AAU publish no comparable slots in their catalogues.
+- `prerequisites`: course codes named under recommended or academic prerequisites; where a course is named only by title, the code was added by hand (noted in the file header).
 
 ## Update workflow
 

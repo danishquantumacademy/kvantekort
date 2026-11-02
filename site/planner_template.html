@@ -79,6 +79,33 @@ h3{font:600 15px/1.3 var(--body);margin:0}
 .badge.f{border-color:var(--aI);color:var(--aI)}
 .match{font-style:italic}
 .placeholder{font-size:12.5px;color:var(--muted);padding:8px 10px;border-radius:8px;background:var(--chip)}
+/* timetable */
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{font:600 13px/1 var(--body);padding:9px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.tab:focus-visible,.ttbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ttbtn{justify-self:start;font:600 13px var(--body);padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--accent);cursor:pointer}
+.tt{display:grid;gap:8px}
+.term{display:grid;grid-template-columns:150px minmax(0,1fr);gap:10px;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.term.short{padding:8px 12px;background:transparent;border-style:dashed}
+.term .lab{display:grid;align-content:start;gap:4px}
+.term .lab b{font:700 15px/1.2 var(--display)}
+.term .lab span{font-size:12px;color:var(--muted)}
+.halves{display:grid;grid-template-columns:1fr 1fr;gap:6px;grid-auto-flow:row dense}
+.halves .hh{font:500 11px/1 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-bottom:2px}
+.blk{border-radius:8px;padding:8px 10px;background:var(--chip);border-left:4px solid var(--blk,var(--accent));display:grid;gap:3px;min-width:0}
+.blk a{color:var(--fg);font-weight:600;font-size:13.5px;text-decoration:none;line-height:1.3}
+.blk a:hover{color:var(--accent);text-decoration:underline}
+.blk .mm{font:500 11.5px/1.35 var(--mono);color:var(--muted)}
+.blk .after{font-size:12px;color:var(--muted)}
+.blk .warn{font-size:12px;color:var(--aIII);font-weight:500}
+.blk.bad{outline:2px solid var(--aIII);outline-offset:-1px}
+.blk.thesis{background:transparent;border:1px dashed var(--muted);border-left:4px solid var(--aI)}
+.blk.fill{background:transparent;border:1px dashed var(--line);border-left:4px solid var(--other);color:var(--muted);font-size:12.5px}
+.s1{grid-column:1/2}.s2{grid-column:2/3}.sS{grid-column:1/3}
+.ttsum{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted)}
+.ttsum b{color:var(--fg)}
+@media (max-width:700px){.term{grid-template-columns:1fr}.term .lab{display:flex;flex-wrap:wrap;gap:2px 10px;align-items:baseline}}
 footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
 footer p{margin:0;max-width:84ch}
 footer a{color:var(--accent)}
@@ -118,8 +145,16 @@ footer a{color:var(--accent)}
     <div class="plans" id="plans"></div>
   </section>
 
+  <section style="display:grid;gap:12px" aria-labelledby="tt-h" id="tt-sec">
+    <h2 id="tt-h">Timetable: in which order, and what runs at the same time</h2>
+    <p class="lede" style="font-size:14px">The courses of a suggestion placed in a two-year master's programme starting in September. Courses come after their recommended prerequisites and only in the semester or teaching block where they are offered. Two courses that use the same weekly schedule slot at the same university are flagged as a clash. Courses at different universities can only be checked against each other in their own timetables.</p>
+    <div class="tabs" role="tablist" id="tt-tabs"></div>
+    <div class="ttsum" id="tt-sum"></div>
+    <div class="tt" id="tt"></div>
+  </section>
+
   <footer>
-    <p>How it works: your text is matched against a list of topics (in English and Danish) that are linked to subdomains of the European Competence Framework for Quantum Technologies (CFQT), and against course titles. Courses are scored by how well their CFQT subdomains match your interests. The first suggestion follows your interests most closely; the other two lean towards hands-on engineering or towards theory, so you can see how the profile changes. Each plan includes a foundation course in quantum concepts if your interests did not already bring one in. The thesis is assumed to reach C1 in (I) Quantum concepts when it is in a quantum topic.</p>
+    <p>How it works: your text is matched against a list of topics (in English and Danish) that are linked to subdomains of the European Competence Framework for Quantum Technologies (CFQT), and against course titles. Courses are scored by how well their CFQT subdomains match your interests. The first suggestion follows your interests most closely; the other two lean towards hands-on engineering or towards theory, so you can see how the profile changes. Each plan includes a foundation course in quantum concepts if your interests did not already bring one in. The thesis is assumed to reach C1 in (I) Quantum concepts when it is in a quantum topic. The timetable uses each course's semester, teaching block, weekly schedule slot (DTU modules and KU schedule groups) and recommended prerequisites from the 2026/27 course catalogues; plans avoid combining courses in the same slot, and spread the courses over the semesters that the thesis leaves free.</p>
     <p>These are suggestions, not study advice. Check your programme's curriculum for which courses count towards your degree and their prerequisites, and talk to your study counsellor. Course levels are first estimates by Danish Quantum Academy. <span id="cite"></span></p>
   </footer>
 </div>
@@ -201,7 +236,7 @@ footer a{color:var(--accent)}
   }
   const lvIdx=(c,a)=>c.prof[a]?LV.indexOf(c.prof[a])+1:0;
   const norm=t=>t.toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-z0-9æøå]+/g,' ').trim();
-  function build(pool,topics,words,target,kind,avoid,home){
+  function build(pool,topics,words,target,kind,avoid,home,thesis){
     const scored=pool.map(c=>{const m=scoreCourse(c,topics,words);let k=m.s*3;
       if(kind==='match') k+=.25*(lvIdx(c,'I')+lvIdx(c,'II')+lvIdx(c,'III'))+(Object.keys(c.prof).length?0:-1);
       if(kind==='hands') k=m.s*2+1.4*lvIdx(c,'II')-.4*lvIdx(c,'I')+(c.subs.some(s=>/^[34]\./.test(s))?.8:0)+(Object.keys(c.prof).length?0:-.5);
@@ -212,7 +247,15 @@ footer a{color:var(--accent)}
       if(avoid&&avoid.has(c.institution+c.code)) k*=.55;
       return {c,m,k}}).filter(x=>x.k>0).sort((a,b)=>b.k-a.k||(a.c.ects||0)-(b.c.ects||0));
     const chosen=[], seen=new Set(); let ects=0;
-    const add=(x,flag)=>{const n=norm(x.c.title); if(seen.has(n)) return false; if(ects+(x.c.ects||5)>target+2.5) return false; chosen.push({...x,flag}); seen.add(n); ects+=x.c.ects||5; return true};
+    // keep the plan schedulable: autumn-only and spring-only courses must fit the semesters left besides the thesis,
+    // and two courses in the same weekly slot at the same university in the same semester are not combined
+    const capE=30+(thesis>=60?0:thesis>=45?15:30), capF=30+(thesis>0?0:30), semLoad={E:0,F:0};
+    const fitsSem=c=>{const s=c.sched;if(!s)return true;const e=c.ects||5;if(s.sem==='E')return semLoad.E+e<=capE;if(s.sem==='F')return semLoad.F+e<=capF;return true};
+    const clashes=c=>chosen.some(y=>{const a=c.sched,b=y.c.sched;if(!a||!b||a.sem!==b.sem||!/^[EF]$/.test(a.sem))return false;
+      const ov=a.per==='S'||b.per==='S'||a.per===b.per;return ov&&clash({c},y)});
+    const add=(x,flag)=>{const n=norm(x.c.title); if(seen.has(n)) return false; if(ects+(x.c.ects||5)>target+2.5) return false;
+      if(!flag&&(!fitsSem(x.c)||clashes(x.c))) return false;
+      chosen.push({...x,flag}); seen.add(n); ects+=x.c.ects||5; const s=x.c.sched; if(s&&(s.sem==='E'||s.sem==='F')) semLoad[s.sem]+=x.c.ects||5; return true};
     // foundation course in quantum concepts if none of the top picks provides one
     const isFound=c=>c.subs.some(s=>s==='1.1'||s==='1.2')&&lvIdx(c,'I')>=3;
     for(const x of scored){ if(ects>=target-2) break; add(x); }
@@ -221,6 +264,82 @@ footer a{color:var(--accent)}
       if(f){ while(chosen.length&&ects+(f.c.ects||5)>target+2.5){const r=chosen.pop(); seen.delete(norm(r.c.title)); ects-=r.c.ects||5} add(f,'foundation'); }
     }
     return {items:chosen,ects};
+  }
+
+  // ---- timetable ----
+  const TERMS=[{id:'T1',label:'Year 1 · Autumn',when:'Sep–Jan',sem:'E',a:0,b:1},{id:'J1',label:'January',when:'3-week period',sem:'Jan',a:1,b:1.1,short:1},
+    {id:'T2',label:'Year 1 · Spring',when:'Feb–Jun',sem:'F',a:1.1,b:2.1},{id:'S1',label:'Summer',when:'June or August, 3 weeks',sem:'Sum',a:2.1,b:2.2,short:1},
+    {id:'T3',label:'Year 2 · Autumn',when:'Sep–Jan',sem:'E',a:2.2,b:3.2},{id:'J2',label:'January',when:'3-week period',sem:'Jan',a:3.2,b:3.3,short:1},
+    {id:'T4',label:'Year 2 · Spring',when:'Feb–Jun',sem:'F',a:3.3,b:4.3}];
+  const fits=(s,t)=>s.sem==='EF'?!t.short:s.sem==='Jan'?t.sem==='Jan':(s.sem==='Jun'||s.sem==='Aug')?t.sem==='Sum':s.sem===t.sem;
+  const span=(s,t)=>{if(t.short)return[t.a,t.b];const m=(t.a+t.b)/2;return s.per==='H1'?[t.a,m]:s.per==='H2'?[m,t.b]:[t.a,t.b]};
+  const dtuSlots=s=>s.split('+').flatMap(x=>/^[EF]\d$/.test(x)?[x+'A',x+'B']:[x]);
+  const DTUTIME={'1A':'Mon 8–12','1B':'Thu 13–17','2A':'Mon 13–17','2B':'Thu 8–12','3A':'Tue 8–12','3B':'Fri 13–17','4A':'Tue 13–17','4B':'Fri 8–12','5A':'Wed 8–12','5B':'Wed 13–17'};
+  const slotText=c=>{const s=c.sched;if(!s||!s.slot)return '';if(c.institution==='DTU')return dtuSlots(s.slot).map(x=>`${x} ${DTUTIME[x.slice(1)]||''}`.trim()).join(', ');if(c.institution==='KU')return `schedule group ${s.slot}`;return s.slot};
+  const perText=s=>!s?'':s.sem==='Jan'?'January, 3 weeks':s.sem==='Jun'?'June, 3 weeks':s.sem==='Aug'?'August, 3 weeks':s.per==='H1'?'first half of the semester':s.per==='H2'?'second half of the semester':'whole semester';
+  function clash(x,y){if(x.c.institution!==y.c.institution)return null;const a=x.c.sched,b=y.c.sched;if(!a||!b||!a.slot||!b.slot)return null;
+    if(x.c.institution==='DTU'){const A=dtuSlots(a.slot),B=dtuSlots(b.slot);return A.some(z=>B.includes(z))?'same DTU schedule module':null}
+    if(x.c.institution==='KU'){const A=a.slot.split('+'),B=b.slot.split('+');return A.some(z=>B.includes(z))?'same KU schedule group':null}
+    return null}
+  const FEEDS=new Set(D.courses.flatMap(c=>(c.sched&&c.sched.pre)||[])); // courses that other courses build on go first
+  const BYCODE=new Map(); D.courses.forEach(c=>{if(!BYCODE.has(c.code))BYCODE.set(c.code,c)});
+  function schedule(items,thesis){
+    const cap={T1:30,T2:30,T3:thesis>=60?0:thesis>=45?15:30,T4:thesis>0?0:30,J1:5,J2:5,S1:5};
+    const load={};TERMS.forEach(t=>load[t.id]=0);
+    const byCode=new Map(items.map(x=>[x.c.code,x]));
+    const inPre=x=>((x.c.sched&&x.c.sched.pre)||[]).filter(p=>byCode.has(p));
+    const order=[],done=new Set();
+    const visit=(x,stack=new Set())=>{if(done.has(x)||stack.has(x))return;stack.add(x);inPre(x).forEach(p=>visit(byCode.get(p),stack));done.add(x);order.push(x)};
+    const lvSum=c=>lvIdx(c,'I')+lvIdx(c,'II')+lvIdx(c,'III');
+    [...items].sort((a,b)=>(b.flag==='foundation')-(a.flag==='foundation')||FEEDS.has(b.c.code)-FEEDS.has(a.c.code)||lvSum(a.c)-lvSum(b.c)).forEach(x=>visit(x));
+    // spread the quantum courses over the open semesters instead of front-loading year 1
+    const open=['T1','T2','T3','T4'].filter(k=>cap[k]>0), total=items.filter(x=>!(x.c.sched&&x.c.sched.per==='3w')).reduce((n,x)=>n+(x.c.ects||5),0);
+    const soft=Math.min(30,Math.ceil(total/Math.max(1,open.length)/5)*5);
+    const placed=[];
+    for(const x of order){
+      const s=x.c.sched||{sem:'EF',per:'S',slot:'',pre:[]}, e=x.c.ects||5;
+      const preEnd=Math.max(0,...inPre(x).map(p=>placed.find(z=>z.x.c.code===p)).filter(Boolean).map(z=>z.b));
+      const cands=TERMS.filter(t=>fits(s,t)).map(t=>{const[a,b]=span(s,t);return{t,a,b}});
+      const ok=(o,f={})=>(f.pre===false||o.a>=preEnd-1e-9)&&(f.cap===false||load[o.t.id]+e<=cap[o.t.id]+.01)&&(f.cl===false||!placed.some(z=>z.t===o.t&&z.a<o.b&&o.a<z.b&&clash(z.x,x)));
+      const o=cands.find(o=>ok(o)&&(o.t.short||load[o.t.id]+e<=soft+.01))||cands.find(o=>ok(o))||cands.find(o=>ok(o,{cl:false}))||cands.find(o=>ok(o,{cap:false}))||cands.find(o=>ok(o,{cap:false,cl:false}))||cands.find(o=>ok(o,{pre:false,cap:false,cl:false}));
+      if(!o)continue;
+      const warn=[];if(o.a<preEnd-1e-9)warn.push('runs before or alongside its recommended prerequisite');
+      if(load[o.t.id]+e>cap[o.t.id]+.01)warn.push(o.t.id==='T4'||o.t.id==='T3'&&thesis>=45?'overlaps with the thesis period':'makes this a heavy semester');
+      load[o.t.id]+=e;placed.push({x,t:o.t,a:o.a,b:o.b,warn,after:inPre(x).map(p=>byCode.get(p).c)});
+    }
+    let clashes=0;
+    placed.forEach(p=>placed.forEach(q=>{if(p!==q&&p.t===q.t&&p.a<q.b&&q.a<p.b){const r=clash(p.x,q.x);if(r){p.warn.push(`timetable clash with ${q.x.c.title} (${r})`);clashes+=.5}}}));
+    placed.forEach(p=>{p.missing=((p.x.c.sched&&p.x.c.sched.pre)||[]).filter(code=>!byCode.has(code)&&BYCODE.has(code)&&BYCODE.get(code).level!=='BSc').map(code=>BYCODE.get(code))});
+    return{placed,load,cap,clashes:Math.round(clashes)};
+  }
+  function drawTimetable(b,thesis,h){
+    const tt=document.getElementById('tt'),sum=document.getElementById('tt-sum');tt.innerHTML='';sum.innerHTML='';
+    const S=schedule(b.items,thesis);
+    const insts=[...new Set(b.items.map(x=>x.c.institution))];
+    const warnN=S.placed.filter(p=>p.warn.length).length;
+    sum.append(el('span',{},el('b',{},String(S.placed.length)),' courses placed'),el('span',{},el('b',{},String(S.clashes)),S.clashes===1?' timetable clash':' timetable clashes'),
+      el('span',{},el('b',{},String(warnN)),warnN===1?' course needs attention':' courses need attention'),...(insts.length>1?[el('span',{},'Courses at ',insts.join(', '),': check travel time and each university\'s timetable')]:[]));
+    const thesisIn={T3:thesis>=60?30:thesis>=45?15:0,T4:thesis>0?30:0};
+    TERMS.forEach(t=>{
+      const here=S.placed.filter(p=>p.t===t);
+      if(t.short&&!here.length)return;
+      const q=S.load[t.id],th=thesisIn[t.id]||0,other=t.short?0:Math.max(0,30-q-th);
+      const lab=el('div',{class:'lab'},el('b',{},t.label),el('span',{},t.when),t.short?null:el('span',{},[q?`${q} ECTS quantum`:'',th?`${th} ECTS thesis`:'',other?`${other} ECTS other`:''].filter(Boolean).join(' · ')));
+      const body=el('div',{class:t.short?'':'halves'});
+      if(!t.short) body.append(el('div',{class:'hh s1'},'1st half'),el('div',{class:'hh s2'},'2nd half'));
+      here.sort((p,r)=>p.a-r.a||(r.b-r.a)-(p.b-p.a)).forEach(p=>{const c=p.x.c,s=c.sched;
+        const pos=t.short?'':s&&s.per==='H1'?'s1':s&&s.per==='H2'?'s2':'sS';
+        const meta=[c.institution,`${c.ects} ECTS`,perText(s),slotText(c)].filter(Boolean).join(' · ');
+        body.append(el('div',{class:`blk ${pos}${p.warn.length?' bad':''}`,style:`--blk:${acol(Object.keys(c.prof)[0]||'I')}`},
+          el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title),el('span',{class:'mm'},meta),
+          p.after.length?el('span',{class:'after'},'after '+p.after.map(a=>a.title).join(', ')):null,
+          p.missing.length?el('span',{class:'after'},'recommended first, not in this plan: '+p.missing.map(m=>`${m.title} (${m.institution})`).join(', ')):null,
+          ...p.warn.map(w=>el('span',{class:'warn'},'⚠ '+w))));
+      });
+      if(th) body.append(el('div',{class:'blk thesis sS'},el('span',{style:'font-weight:600;font-size:13.5px'},th===30&&t.id==='T3'?'Master\'s thesis, first part':'Master\'s thesis'),el('span',{class:'mm'},`${th} ECTS${t.id==='T3'&&thesis===45?' · second half of the semester':''}`)));
+      if(other) body.append(el('div',{class:'blk fill sS'},`${other} ECTS other courses in your programme`));
+      tt.append(el('div',{class:'term'+(t.short?' short':'')},lab,body));
+    });
   }
 
   // ---- UI ----
@@ -232,6 +351,12 @@ footer a{color:var(--accent)}
   document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();state.removed.clear();run()});
   ['home','cross','target','thesis'].forEach(id=>document.getElementById(id).addEventListener('change',run));
 
+  function renderTT(){
+    const tabs=document.getElementById('tt-tabs');tabs.innerHTML='';const sec=document.getElementById('tt-sec');
+    const B=state.built||[];sec.hidden=!B.some(b=>b.items.length);if(sec.hidden)return;
+    B.forEach((b,i)=>{const t=el('button',{type:'button',class:'tab',role:'tab','aria-selected':String(i===state.tt)},b.kicker);t.onclick=()=>{state.tt=i;renderTT()};tabs.append(t)});
+    drawTimetable(B[state.tt],state.thesis,state.home);
+  }
   function run(){
     const text=q.value.trim(); const {topics:all,words}=interpret(text);
     const topics=all.filter(t=>!state.removed.has(t.name));
@@ -248,18 +373,19 @@ footer a{color:var(--accent)}
     const pool=MSC.filter(c=>allowed.has(c.institution));
     const target=+document.getElementById('target').value, thesis=+document.getElementById('thesis').value;
     const box=document.getElementById('plans'); box.innerHTML=''; const msg=document.getElementById('msg'); msg.innerHTML='';
+    state.built=[];renderTT();
     if(!topics.length){ msg.append(el('div',{class:'msg'},'Suggestions appear here once we have understood at least one topic.')); return; }
     const plans=[
       {kind:'match',kicker:'Closest to your interests',why:'Courses that match your topics most closely, balanced across the CFQT areas.',col:'var(--accent)'},
       {kind:'hands',kicker:'More hands-on',why:'Leans towards (II) hardware and software engineering: lab, devices, control and programming.',col:acol('II')},
       {kind:'theory',kicker:'More theory',why:'Leans towards (I) quantum concepts: foundations, mathematics and the physics behind the technology.',col:acol('I')}
     ];
-    const hb=h!=='ALL'&&cross?h:null; const first=build(pool,topics,words,target,'match',null,hb);
+    const hb=h!=='ALL'&&cross?h:null; const first=build(pool,topics,words,target,'match',null,hb,thesis);
     const used=new Set(first.items.map(x=>x.c.institution+x.c.code));
-    const built=plans.map((p,i)=>({...p,...(i?build(pool,topics,words,target,p.kind,used,hb):first)}));
+    const built=plans.map((p,i)=>({...p,...(i?build(pool,topics,words,target,p.kind,used,hb,thesis):first)}));
     if(built.every(b=>!b.items.length)){ msg.append(el('div',{class:'msg'},'No master\'s courses match these topics at the selected university. Try including other universities or broadening your interests.')); return; }
     if(h!=='ALL'&&!cross) msg.append(el('div',{class:'style-note'},`Showing master's courses at ${h}. ${NEAR[h]?`Students at ${h} can often take courses at ${NEAR[h].join(' and ')}; tick "Include courses at other universities" to see them.`:''}`));
-    built.forEach(b=>{
+    built.forEach((b,bi)=>{
       const courses=b.items.map(x=>x.c), pr=profile(courses,thesis>0);
       const other=Math.max(0,120-b.ects-thesis);
       const bar=el('div',{class:'ectsbar',role:'img','aria-label':`${b.ects} ECTS quantum courses, ${thesis} ECTS thesis, ${other} ECTS other courses`},
@@ -276,10 +402,12 @@ footer a{color:var(--accent)}
       });
       if(thesis) list.append(el('div',{class:'crow'},el('span',{style:'font-size:14px;font-style:italic'},'Master\'s thesis in a quantum topic'),el('span',{class:'e'},`${thesis} ECTS`),el('div',{class:'m'},el('span',{class:'pl',style:`color:${acol('I')}`},'I C1'),el('span',{},'assumed'))));
       list.append(el('div',{class:'placeholder'},`${other} ECTS: compulsory and elective courses in your programme outside quantum, chosen with your study counsellor.`));
+      const tb=el('button',{type:'button',class:'ttbtn'},'See timetable ↓');tb.onclick=()=>{state.tt=bi;renderTT();document.getElementById('tt-sec').scrollIntoView({behavior:'smooth'})};
       box.append(el('article',{class:'plan',style:`border-top:3px solid ${b.col}`},el('span',{class:'kicker',style:`color:${b.col}`},b.kicker),el('p',{class:'why'},b.why),drawTri(pr),
         el('div',{class:'lv'},...AREAS.map(a=>el('span',{class:'lvc',style:`color:${acol(a)}`,title:Q.areas[a]},`${a} ${pr.lv[a]>=0?LV[pr.lv[a]]:'–'}`))),
-        bar,key,list));
+        bar,key,list,tb));
     });
+    state.built=built;state.thesis=thesis;state.home=h;if(!(state.tt<built.length))state.tt=0;renderTT();
     msg.append(el('div',{class:'style-note'},'The dashed outline in each triangle is CFQT profile P6, QT engineering professional, which the framework describes as typical for a quantum degree programme.'));
   }
   document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'CFQT v3.0'),' (Greinert and Müller, QUCATS, 2025, CC BY 4.0).');

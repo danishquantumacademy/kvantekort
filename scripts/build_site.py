@@ -37,6 +37,26 @@ for f in sorted((ROOT / "data/classification").glob("*.csv")):
                 "url": r.get("url") or inst.get("course_url", "").format_map({**r, "ref": r.get("ref") or r["code"]}),
             })
 
+# Skema og forudsætninger for kandidatkurser (data/schedule/<inst>.txt): code|semester|period|slot|prerequisites
+sched = {}
+for f in sorted((ROOT / "data/schedule").glob("*.txt")):
+    inst = f.stem.upper()
+    for line in f.read_text(encoding="utf-8").splitlines():
+        if not line.strip() or line.startswith("#"):
+            continue
+        code, sem, per, slot, pre = (line.split("|") + [""] * 5)[:5]
+        if sem not in {"E", "F", "EF", "Jan", "Jun", "Aug"} or per not in {"S", "H1", "H2", "3w"}:
+            raise SystemExit(f"Ugyldig skemalinje i {f.name}: {line}")
+        sched[(inst, code)] = {"sem": sem, "per": per, "slot": slot, "pre": [x for x in pre.split(";") if x and x != code]}
+missing = []
+for c in courses:
+    if (c["institution"], c["code"]) in sched:
+        c["sched"] = sched[(c["institution"], c["code"])]
+    elif c["level"] == "MSc":
+        missing.append(f'{c["institution"]} {c["code"]}')
+if missing:
+    print("Advarsel: kandidatkurser uden skemadata:", ", ".join(missing))
+
 programmes = json.loads((ROOT / "data/programmes.json").read_text(encoding="utf-8"))
 known = {(c["institution"], c["code"]) for c in courses}
 for prog in programmes["programmes"]:
