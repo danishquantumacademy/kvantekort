@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T17:15Z",
+ "generated": "2026-11-02T17:18Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     }
    ]
   },
@@ -196,26 +196,19 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": false,
      "error": "<urlopen error timed out>",
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     }
    ]
   },
   "ccq": {
    "news": [
-    {
-     "date": "2025-11-13",
-     "title": "Mai Korsbæk",
-     "url": "mailto:mkorsbaek@phys.au.dk?subject=t3Pageid:129294_t3PageUrl:http://phys.au.dk/ccq/news",
-     "text": "Revideret 13.11.2025 -",
-     "source": "https://phys.au.dk/ccq/news"
-    },
     {
      "date": "2024-04-15",
      "title": "PhD defence - Toke Vibel",
@@ -281,13 +274,6 @@
     }
    ],
    "events": [
-    {
-     "date": "2025-11-13",
-     "title": "Mai Korsbæk",
-     "url": "mailto:mkorsbaek@phys.au.dk?subject=t3Pageid:131995_t3PageUrl:http://phys.au.dk/ccq/events",
-     "text": "Revideret 13.11.2025 -",
-     "source": "https://phys.au.dk/ccq/events"
-    },
     {
      "date": "2024-01-16",
      "title": "Quantum Science Colloquium: Nikolaos Proukakis",
@@ -375,15 +361,15 @@
      "url": "https://phys.au.dk/ccq/news",
      "kind": "news",
      "ok": true,
-     "n": 11,
-     "checked": "2026-11-02T17:15Z"
+     "n": 10,
+     "checked": "2026-11-02T17:18Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
-     "n": 11,
-     "checked": "2026-11-02T17:15Z"
+     "n": 10,
+     "checked": "2026-11-02T17:18Z"
     }
    ]
   },
@@ -492,20 +478,6 @@
    ],
    "grants": [
     {
-     "date": "2025-12-18",
-     "title": "AI to make quantum physics more accessible and sustainable",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/ai-skal-goere-kvantefysik-mere-tilgaengelig-og-baeredygtig",
-     "text": "18.12.2025 Line Jelver, a newly appointed assistant professor at the University of Southern Denmark (SDU), has received DKK 13.3 million from the Novo Nordisk Foundation. By integrating advanced language models with supe",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
-     "date": "2025-12-04",
-     "title": "DNRF Photo Competition",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/dnrf-photo-competition",
-     "text": "04.12.2025 POLIMA photo was selected as one of the top 10 images",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
      "date": "2025-09-09",
      "title": "When electrons stand still – SDU researcher receives 18.8 million DKK from Novo Nordisk Foundation",
      "url": "https://www.sdu.dk/en/forskning/polima/news/nicolas-ubrig-modtager-19-millioner-kr-fra-novo-nordisk-fonden",
@@ -524,13 +496,6 @@
      "title": "P. Elli Stamatopoulou receives prestigious grant from the Villum Foundation",
      "url": "https://www.sdu.dk/en/forskning/polima/news/panagiota-elli-stamatopoulou-modtager-prestigefuld-bevilling-fra-villum-fonden",
      "text": "05.11.2024 Villum Foundation awards over 16 million DKK to seven excellent female researchers in technical and natural sciences. One of them is P. Elli Stamatopoulou.",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
-     "date": "2024-06-03",
-     "title": "OWTNM Workshop 2024",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/owtnm-workshop-2024",
-     "text": "03.06.2024 POLIMA PhD students visit the OWTNM Workshop 2024 in Kiel and receive poster award",
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     },
     {
@@ -555,13 +520,6 @@
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     },
     {
-     "date": "2023-03-22",
-     "title": "Brobdingnagian photon bunching in cathodoluminescence of 2D excitons",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/brobdingnagian-photon-bunching-in-cathodoluminescence-of-2d-excitons",
-     "text": "22.03.2023 New paper published in collaboration with DNRF Center for Nanostructured Graphene and The Chinese University of Hong Kong.",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
      "date": "2022-12-01",
      "title": "POLIMA - new Center of Excellence",
      "url": "https://www.sdu.dk/en/forskning/polima/news/polima-new-center-of-excellence",
@@ -577,14 +535,14 @@
      "kind": "news",
      "ok": true,
      "n": 108,
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     }
    ]
   },
@@ -650,7 +608,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-02T17:15Z"
+     "checked": "2026-11-02T17:18Z"
     }
    ]
   }
