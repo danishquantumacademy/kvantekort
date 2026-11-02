@@ -1,36 +1,148 @@
 {
  "reference": {
-  "relevance": {
-   "1": {
-    "label": "Kerne",
-    "desc": "Kurset handler primært om kvantefysik, kvanteinformation eller kvanteteknologi."
+  "cfqt": {
+   "source": "European Competence Framework for Quantum Technologies (CFQT), version 3.0, April 2025. F. Greinert and R. Müller, QUCATS. doi:10.2759/8917117. CC BY 4.0.",
+   "doi": "https://doi.org/10.2759/8917117",
+   "blocks": {
+    "QB": "Quantum background",
+    "CDT": "Core device technologies",
+    "QSA": "QT systems and applications"
    },
-   "2": {
-    "label": "Kvantebaseret",
-    "desc": "Kvantemekanik er et bærende fundament (faststof, elektronstruktur, kvantekemi, fotonik), men kurset er ikke kvanteteknologi."
+   "domains": {
+    "1": {
+     "name": "Concepts and foundations",
+     "block": "QB",
+     "subdomains": {
+      "1.1": "Basic quantum concepts",
+      "1.2": "Mathematical formalism and information theory"
+     }
+    },
+    "2": {
+     "name": "Physical foundations of quantum technologies",
+     "block": "QB",
+     "subdomains": {
+      "2.1": "Atomic physics",
+      "2.2": "Quantum optics and electrodynamics",
+      "2.3": "Solid-state physics",
+      "2.4": "Quantum many-body systems and open quantum systems"
+     }
+    },
+    "3": {
+     "name": "Enabling technologies and techniques",
+     "block": "CDT",
+     "subdomains": {
+      "3.1": "Laboratory techniques, noise and shielding",
+      "3.2": "Solid-state technologies, nanotechnologies",
+      "3.3": "Optical technologies",
+      "3.4": "Control technologies",
+      "3.5": "Computers and software"
+     }
+    },
+    "4": {
+     "name": "Quantum hardware",
+     "block": "CDT",
+     "subdomains": {
+      "4.1": "Superconducting electronic circuits",
+      "4.2": "Spin-based systems",
+      "4.3": "Neutral atoms and ions",
+      "4.4": "Photonic systems",
+      "4.5": "Emerging qubit concepts",
+      "4.6": "Quantum state control",
+      "4.7": "Hybrid quantum-classical systems",
+      "4.8": "Technology realisation"
+     }
+    },
+    "5": {
+     "name": "Quantum computing and simulation",
+     "block": "QSA",
+     "subdomains": {
+      "5.1": "Basics",
+      "5.2": "Quantum simulators",
+      "5.3": "Quantum programming tools and software stack, error correction",
+      "5.4": "Quantum computing subroutines",
+      "5.5": "Quantum algorithms",
+      "5.6": "Applications of quantum computing and simulation"
+     }
+    },
+    "6": {
+     "name": "Quantum sensors and imaging systems",
+     "block": "QSA",
+     "subdomains": {
+      "6.1": "Basics",
+      "6.2": "Electromagnetic field sensors",
+      "6.3": "Temperature, particle and pressure sensors",
+      "6.4": "Inertial and gravity sensors",
+      "6.5": "Quantum imaging",
+      "6.6": "Atomic clocks",
+      "6.7": "Applications of quantum sensors"
+     }
+    },
+    "7": {
+     "name": "Quantum communication and networks",
+     "block": "QSA",
+     "subdomains": {
+      "7.1": "Basics",
+      "7.2": "Quantum random number generators",
+      "7.3": "Quantum key distribution",
+      "7.4": "Applications of quantum cryptography",
+      "7.5": "Infrastructure for quantum information networks (quantum internet)",
+      "7.6": "Systems networks (composite systems), quantum internet applications"
+     }
+    },
+    "8": {
+     "name": "Valorisation",
+     "block": "QSA",
+     "subdomains": {
+      "8.1": "Industry landscape and market analysis",
+      "8.2": "Business strategy, entrepreneurship and management",
+      "8.3": "Impact and responsibility",
+      "8.4": "Education and communication"
+     }
+    }
    },
-   "3": {
-    "label": "Perifer",
-    "desc": "Understøttende fag for kvanteområdet (klassisk fotonik, nanofabrikation, kryptografi, materialekarakterisering) eller kun nævnt i beskrivelsen."
+   "areas": {
+    "I": "Quantum concepts",
+    "II": "QT hardware & software engineering",
+    "III": "QT applications & strategies"
    },
-   "0": {
-    "label": "Ikke relevant",
-    "desc": "Ingen eller kun tilfældige nøgleordstræf."
+   "levels": {
+    "A1": "Awareness",
+    "A2": "Literacy",
+    "B1": "Utilisation",
+    "B2": "Investigation",
+    "C1": "Specialisation",
+    "C2": "Innovation"
+   },
+   "level_by_area": {
+    "I": {
+     "A1": "Reproduce basic quantum concepts & terminology",
+     "A2": "Describe fundamental quantum concepts",
+     "B1": "Apply quantum methods to problems",
+     "B2": "Analyse problems with quantum",
+     "C1": "Refine and extend quantum methods",
+     "C2": "Develop innovative solutions"
+    },
+    "II": {
+     "A1": "Reproduce basic functionalities of a QT facet",
+     "A2": "Perform basic tasks on a QT facet",
+     "B1": "Modify/apply a QT facet",
+     "B2": "Analyse performance, improve QT",
+     "C1": "Conceptualise integrated QT systems",
+     "C2": "Develop new QT facet"
+    },
+    "III": {
+     "A1": "Recognise potential of QT",
+     "A2": "Identify value of QT",
+     "B1": "Classify available QT applications/approaches",
+     "B2": "Analyse QT market and opportunities",
+     "C1": "Advise on QT application selection or strategies",
+     "C2": "Develop and assess QT (product) strategies"
+    }
    }
-  },
-  "tracks": {
-   "QT": "Kvanteteknologi og -information",
-   "QC": "Kvantecomputing og software",
-   "QM": "Kvantefysik og -kemi (grundlag)",
-   "MAT": "Materialer og faststof",
-   "PHO": "Fotonik og optik",
-   "FAB": "Mikro- og nanofabrikation",
-   "CRY": "Kryptografi og sikkerhed",
-   "SEN": "Sensorer og måling"
   },
   "institutions": {
    "DTU": {
-    "name": "Danmarks Tekniske Universitet",
+    "name": "Technical University of Denmark",
     "course_base": "https://kurser.dtu.dk",
     "course_url": "https://kurser.dtu.dk/course/{code}",
     "harvested": "2026-11-02",
@@ -42,38 +154,38 @@
     },
     "departments": {
      "01": "DTU Compute",
-     "10": "DTU Fysik",
-     "22": "DTU Sundhedsteknologi",
-     "26": "DTU Kemi",
+     "10": "DTU Physics",
+     "22": "DTU Health Tech",
+     "26": "DTU Chemistry",
      "30": "DTU Space",
-     "34": "DTU Elektro og Fotonik",
-     "47": "DTU Energi",
+     "34": "DTU Electro",
+     "47": "DTU Energy",
      "56": "DTU Nanolab",
      "62": "DTU Engineering Technology"
     },
-    "scope": "Alle niveauer fra DTU's kursusbase. Portalen phdcourses.dk indeholder de samme ph.d.-kurser."
+    "scope": "All levels from DTU's course base. The national portal phdcourses.dk lists the same PhD courses."
    },
    "KU": {
-    "name": "Københavns Universitet",
+    "name": "University of Copenhagen",
     "course_base": "https://phdcourses.dk",
     "course_url": "https://phdcourses.dk/Course/{ref}",
     "harvested": "2026-11-02",
     "academic_year": "2026/2027",
-    "scope": "Foreløbig kun ph.d.-kurser fra PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk var utilgængelig 2. november 2026.",
+    "scope": "Currently PhD courses only, from the PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk was unavailable on 2 November 2026.",
     "totals": {
      "PhD": 60
     },
     "departments": {
-     "SCI": "Det Natur- og Biovidenskabelige Fakultet (SCIENCE)"
+     "SCI": "Faculty of SCIENCE"
     }
    },
    "AU": {
-    "name": "Aarhus Universitet",
+    "name": "Aarhus University",
     "course_base": "https://kursuskatalog.au.dk",
     "course_url": "https://kursuskatalog.au.dk/da/course/{ref}",
     "harvested": "2026-11-02",
     "academic_year": "2026/2027",
-    "scope": "Natural Sciences og Technical Sciences. Ph.d.-kurser fra phdcourses.dk (Graduate School of Natural / Technical Sciences).",
+    "scope": "Natural Sciences and Technical Sciences. PhD courses from phdcourses.dk (Graduate Schools of Natural and Technical Sciences).",
     "totals": {
      "BSc": 456,
      "MSc": 652,
@@ -82,22 +194,22 @@
      "PhD": 51
     },
     "departments": {
-     "FA": "Fysik og Astronomi",
-     "KEM": "Kemi",
-     "DAT": "Datalogi",
+     "FA": "Physics and Astronomy",
+     "KEM": "Chemistry",
+     "DAT": "Computer Science",
      "iNANO": "iNANO",
-     "ECE": "Elektro- og Computerteknologi",
-     "MP": "Mekanik og Produktion",
+     "ECE": "Electrical and Computer Engineering",
+     "MP": "Mechanical and Production Engineering",
      "GSTS": "Graduate School of Technical Sciences"
     }
    },
    "SDU": {
-    "name": "Syddansk Universitet",
+    "name": "University of Southern Denmark",
     "course_base": "https://odinlister.sdu.dk",
     "course_url": "https://odinlister.sdu.dk/fagbesk/internkode/{ref}/en",
     "harvested": "2026-11-02",
     "academic_year": "2026/2027",
-    "scope": "Det Naturvidenskabelige Fakultet (kodepræfikserne FY, FT, KE, MM, DM, AI, NAT, QC) samt TEK-uddannelserne i Fysik og Teknologi og Elektronik. Kun aktive kursusbeskrivelser. Ph.d.-kurser suppleret fra phdcourses.dk.",
+    "scope": "Faculty of Science (code prefixes FY, FT, KE, MM, DM, AI, NAT, QC) and the Faculty of Engineering programmes in Physics and Technology and Electronics. Active course descriptions only. PhD courses supplemented from phdcourses.dk.",
     "totals": {
      "BSc": 161,
      "MSc": 191,
@@ -106,19 +218,19 @@
      "Master": 24
     },
     "departments": {
-     "FKF": "Fysik, Kemi og Farmaci",
-     "IMADA": "Matematik og Datalogi",
-     "QC": "MSc i Quantum Computing",
-     "TEK": "Det Tekniske Fakultet"
+     "FKF": "Physics, Chemistry and Pharmacy",
+     "IMADA": "Mathematics and Computer Science",
+     "QC": "MSc in Quantum Computing",
+     "TEK": "Faculty of Engineering"
     }
    },
    "AAU": {
-    "name": "Aalborg Universitet",
+    "name": "Aalborg University",
     "course_base": "https://moduler.aau.dk",
     "course_url": "https://moduler.aau.dk/course/2026-2027/{code}",
     "harvested": "2026-11-02",
     "academic_year": "2026/2027",
-    "scope": "Det Ingeniør- og Naturvidenskabelige Fakultet og Det Tekniske Fakultet for IT og Design. Totaler er unikke modultitler pr. niveau. Ph.d.-kurser fra phdcourses.dk.",
+    "scope": "Faculty of Engineering and Science and the Technical Faculty of IT and Design. Totals are unique module titles per level. PhD courses from phdcourses.dk.",
     "totals": {
      "BSc": 800,
      "MSc": 725,
@@ -127,11 +239,11 @@
      "PhD": 28
     },
     "departments": {
-     "MP": "Materialer og Produktion (fysik og nanoteknologi)",
-     "KB": "Kemi og Biovidenskab",
-     "CS": "Datalogi",
-     "ES": "Elektroniske Systemer",
-     "MATH": "Matematiske Fag"
+     "MP": "Materials and Production (physics and nanotechnology)",
+     "KB": "Chemistry and Bioscience",
+     "CS": "Computer Science",
+     "ES": "Electronic Systems",
+     "MATH": "Mathematical Sciences"
     }
    }
   }
@@ -144,13 +256,19 @@
    "title": "Grundlæggende kvantemekanik",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "1.1",
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 17,
    "kw_medium": 3,
-   "note": "også M-NT-B4-3A og F-FYS-B4-2",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also M-NT-B4-3A and F-FYS-B4-2",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B4-3"
   },
   {
@@ -160,13 +278,19 @@
    "title": "Kvantemekanik II: metoder (miniprojekt; fysik sidefag)",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "1.2",
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-B4-6"
   },
   {
@@ -176,13 +300,20 @@
    "title": "Kvante-elektronik",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 1,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3",
+    "3.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 8,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-NAN-B6-5"
   },
   {
@@ -192,13 +323,19 @@
    "title": "Kvantekemi",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "KB",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Chemistry and Bioscience",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Kemi og Biovidenskab",
    "url": "https://moduler.aau.dk/course/2026-2027/K-KEM-B6-48"
   },
   {
@@ -208,13 +345,21 @@
    "title": "Quantum Information and Computing",
    "language": "English",
    "ects": 5.0,
-   "dept": "CS",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "Computer Science",
+   "subs": [
+    "5.1",
+    "5.5",
+    "1.2"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 45,
    "kw_medium": 0,
-   "note": "også DSNCSITK229 og ESNESNK1K1",
-   "dept_name": "Datalogi",
+   "note": "also DSNCSITK229 and ESNESNK1K1",
    "url": "https://moduler.aau.dk/course/2026-2027/DSNDATK215"
   },
   {
@@ -224,13 +369,20 @@
    "title": "Quantum Technologies",
    "language": "English",
    "ects": 5.0,
-   "dept": "ES",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "Electronic Systems",
+   "subs": [
+    "5.1",
+    "5.5"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 33,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Elektroniske Systemer",
    "url": "https://moduler.aau.dk/course/2026-2027/ESNCEKK3K2"
   },
   {
@@ -240,13 +392,20 @@
    "title": "Quantum materials and optical nanostructures",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 1,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3",
+    "3.2",
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 12,
-   "note": "også F-NFM-K2-3A",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also F-NFM-K2-3A",
    "url": "https://moduler.aau.dk/course/2026-2027/F-NFM-K2-3"
   },
   {
@@ -256,13 +415,18 @@
    "title": "Kvantemekanik II: metoder",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 3,
-   "note": "også F-FYS-K2-3A",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also F-FYS-K2-3A",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K2-3"
   },
   {
@@ -272,13 +436,18 @@
    "title": "Statistisk mekanik",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 0,
-   "note": "også M-NT-B5-4A",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also M-NT-B5-4A",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B5-4"
   },
   {
@@ -288,13 +457,18 @@
    "title": "Kemisk binding",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "KB",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Chemistry and Bioscience",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Kemi og Biovidenskab",
    "url": "https://moduler.aau.dk/course/2026-2027/K-KEM-B3-57"
   },
   {
@@ -304,13 +478,18 @@
    "title": "Solid State Physics 2",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B6-3"
   },
   {
@@ -320,13 +499,18 @@
    "title": "Statistisk mekanik",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 1,
-   "note": "også F-FYS-K1-3A",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also F-FYS-K1-3A",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-3"
   },
   {
@@ -336,13 +520,18 @@
    "title": "Solid State Physics II: Electronic Structure",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-4"
   },
   {
@@ -352,13 +541,20 @@
    "title": "Halvledere: fysik, komponenter og teknologi",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3",
+    "3.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 16,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-9"
   },
   {
@@ -368,13 +564,19 @@
    "title": "Moderne fysik",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "1.1",
+    "2.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-5"
   },
   {
@@ -384,13 +586,18 @@
    "title": "Gassers termodynamiske og optiske egenskaber (P2)",
    "language": "Danish",
    "ects": 15.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 3,
-   "note": "projekt; også F-FYS-B2-1 og M-FYS-B2-1",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "project; also F-FYS-B2-1 and M-FYS-B2-1",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-B2-1A"
   },
   {
@@ -400,13 +607,18 @@
    "title": "Energifysik",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B5-3"
   },
   {
@@ -416,13 +628,16 @@
    "title": "Faststoffysik I",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 1,
-   "note": "også F-FYS-B3-3",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also F-FYS-B3-3",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B3-4"
   },
   {
@@ -432,13 +647,17 @@
    "title": "Optik og spektroskopi",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-B4-3"
   },
   {
@@ -448,13 +667,16 @@
    "title": "Optik - workshop",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 11,
-   "note": "også F-FYS-B4-5",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "also F-FYS-B4-5",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B4-2"
   },
   {
@@ -464,13 +686,16 @@
    "title": "Anvendt optik",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B4-4"
   },
   {
@@ -480,13 +705,16 @@
    "title": "Fotonik og optoelektronik",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B6-2"
   },
   {
@@ -496,13 +724,17 @@
    "title": "Optoelektronik",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.3",
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-NAN-B6-6"
   },
   {
@@ -512,13 +744,16 @@
    "title": "Nano- og mikrofabrikation",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B5-2"
   },
   {
@@ -528,13 +763,16 @@
    "title": "Nanofabrication",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
    "url": "https://moduler.aau.dk/course/2026-2027/F-NAN-B5-2"
   },
   {
@@ -544,13 +782,16 @@
    "title": "Kunstige nanostrukturer (P2)",
    "language": "Danish or English",
    "ects": 15.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
-   "note": "projekt; også M-NT-B2-1",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "project; also M-NT-B2-1",
    "url": "https://moduler.aau.dk/course/2026-2027/F-NAN-B2-1"
   },
   {
@@ -560,13 +801,16 @@
    "title": "NMR og MS",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "KB",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "Chemistry and Bioscience",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "Kemi og Biovidenskab",
    "url": "https://moduler.aau.dk/course/2026-2027/K-BT-B6-14"
   },
   {
@@ -576,13 +820,16 @@
    "title": "Network and Application Security",
    "language": "English",
    "ects": 5.0,
-   "dept": "ES",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Electronic Systems",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "Elektroniske Systemer",
    "url": "https://moduler.aau.dk/course/2026-2027/ESNITCOB5K1"
   },
   {
@@ -592,13 +839,19 @@
    "title": "Nanofysik: (A) Optik",
    "language": "Danish",
    "ects": 15.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 5,
-   "note": "projekt",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "project",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K2-1A"
   },
   {
@@ -608,13 +861,18 @@
    "title": "Fysikkens anvendelser: (A) Teoretisk faststoffysik",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
-   "note": "projekt",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "project",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-1A"
   },
   {
@@ -624,13 +882,19 @@
    "title": "Fysikkens anvendelser: (B) Eksperimentel faststoffysik",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3",
+    "3.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
-   "note": "projekt",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "project",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-2A"
   },
   {
@@ -640,13 +904,19 @@
    "title": "Avanceret faststoffysik og optik",
    "language": "Danish",
    "ects": 20.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Materials and Production (physics and nanotechnology)",
+   "subs": [
+    "2.3",
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
-   "note": "projekt; også F-FYS-K3-3A",
-   "dept_name": "Materialer og Produktion (fysik og nanoteknologi)",
+   "note": "project; also F-FYS-K3-3A",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-1A"
   },
   {
@@ -656,13 +926,16 @@
    "title": "Materials Chemistry",
    "language": "English",
    "ects": 5.0,
-   "dept": "KB",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Chemistry and Bioscience",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Kemi og Biovidenskab",
    "url": "https://moduler.aau.dk/course/2026-2027/K-KEM-K1-20"
   },
   {
@@ -672,13 +945,16 @@
    "title": "Fundamentals of Security and Cryptography",
    "language": "English",
    "ects": 5.0,
-   "dept": "ES",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Electronic Systems",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 4,
-   "note": "også ESNCYSK1K5",
-   "dept_name": "Elektroniske Systemer",
+   "note": "also ESNCYSK1K5",
    "url": "https://moduler.aau.dk/course/2026-2027/ESNCYSK1K1"
   },
   {
@@ -688,13 +964,16 @@
    "title": "Cryptography",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "MATH",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Mathematical Sciences",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Matematiske Fag",
    "url": "https://moduler.aau.dk/course/2026-2027/24KMAT2KRYPT"
   },
   {
@@ -704,13 +983,19 @@
    "title": "Modern Security Solutions: Safeguarding the Digital Landscape",
    "language": "English",
    "ects": 5.0,
-   "dept": "ES",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Electronic Systems",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {
+    "II": "A1",
+    "III": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 8,
    "kw_medium": 3,
-   "note": "post-kvantekryptografi indgår",
-   "dept_name": "Elektroniske Systemer",
+   "note": "Includes post-quantum cryptography",
    "url": "https://moduler.aau.dk/course/2026-2027/ESNITV1213"
   },
   {
@@ -720,1000 +1005,1204 @@
    "title": "Applied Cryptography",
    "language": "English",
    "ects": 5.0,
-   "dept": "ES",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Electronic Systems",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Elektroniske Systemer",
    "url": "https://moduler.aau.dk/course/2026-2027/ESNITV1212"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525251U001",
-   "ref": "142258",
-   "url": "https://kursuskatalog.au.dk/da/course/142258",
    "title": "Kvantemekanik og atomfysik",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "1.1",
+    "2.1",
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 11,
    "kw_medium": 16,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142258"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "560201U002",
-   "ref": "142442",
-   "url": "https://kursuskatalog.au.dk/da/course/142442",
    "title": "Kvantemekanik for nanoscience",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 9,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142442"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525241U007",
-   "ref": "128358",
-   "url": "https://kursuskatalog.au.dk/da/course/128358",
    "title": "Videregående elektrodynamik og kvantemekanik",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "1.2",
+    "2.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/128358"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525242U015",
-   "ref": "138667",
-   "url": "https://kursuskatalog.au.dk/da/course/138667",
    "title": "Quantum Engineering",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "4.6",
+    "5.1",
+    "7.3"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B1",
+    "II": "B1",
+    "III": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 31,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138667"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "520222U003",
-   "ref": "142217",
-   "url": "https://kursuskatalog.au.dk/da/course/142217",
    "title": "Quantum Information Processing",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "Computer Science",
+   "subs": [
+    "5.5",
+    "1.2",
+    "7.3"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 29,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/142217"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525232U001",
-   "ref": "142244",
-   "url": "https://kursuskatalog.au.dk/da/course/142244",
    "title": "Platforms for Quantum Technology",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "4.8",
+    "4.1",
+    "4.3"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 22,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142244"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525242U001",
-   "ref": "142250",
-   "url": "https://kursuskatalog.au.dk/da/course/142250",
    "title": "Kvantefysik",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "1.2",
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142250"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "545242U010",
-   "ref": "142331",
-   "url": "https://kursuskatalog.au.dk/da/course/142331",
    "title": "Kvantekemi og kvantecomputerberegninger",
    "language": "English",
    "ects": 5.0,
-   "dept": "KEM",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "5.6"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 10,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/142331"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525172U004",
-   "ref": "138452",
-   "url": "https://kursuskatalog.au.dk/da/course/138452",
    "title": "Eksperimentel kvanteoptik 1: Introduktion",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.2",
+    "3.3",
+    "3.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 9,
    "kw_medium": 11,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138452"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525262U003",
-   "ref": "145674",
-   "url": "https://kursuskatalog.au.dk/da/course/145674",
    "title": "Quantum Engineering part I",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.2",
+    "3.3",
+    "3.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 9,
    "kw_medium": 11,
-   "note": "samme pensum som Eksperimentel kvanteoptik 1",
-   "dept_name": "Fysik og Astronomi"
+   "note": "Same syllabus as Experimental Quantum Optics 1",
+   "url": "https://kursuskatalog.au.dk/da/course/145674"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525252U008",
-   "ref": "142635",
-   "url": "https://kursuskatalog.au.dk/da/course/142635",
    "title": "Eksperimentel Kvantefysik",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "3.4",
+    "3.3",
+    "4.4"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142635"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "545242U001",
-   "ref": "142325",
-   "url": "https://kursuskatalog.au.dk/da/course/142325",
    "title": "Quantum Molecular Dynamics",
    "language": "English",
    "ects": 5.0,
-   "dept": "KEM",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/142325"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "545171U025",
-   "ref": "138518",
-   "url": "https://kursuskatalog.au.dk/da/course/138518",
    "title": "Mekanik og moderne fysik for kemikere",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 10,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138518"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525171U024",
-   "ref": "138450",
-   "url": "https://kursuskatalog.au.dk/da/course/138450",
    "title": "Statistisk fysik og faststoffysik for sidefagsstuderende",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138450"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525171U011",
-   "ref": "128777",
-   "url": "https://kursuskatalog.au.dk/da/course/128777",
    "title": "Statistisk fysik og faststoffysik",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 4,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/128777"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "545171U012",
-   "ref": "138509",
-   "url": "https://kursuskatalog.au.dk/da/course/138509",
    "title": "Modellering I: Kemisk binding og spektroskopi",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/138509"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "545171U015",
-   "ref": "138512",
-   "url": "https://kursuskatalog.au.dk/da/course/138512",
    "title": "Modellering IIb: Computational Chemistry",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/138512"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525171U008",
-   "ref": "138446",
-   "url": "https://kursuskatalog.au.dk/da/course/138446",
    "title": "Lasers & Optics",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 37,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138446"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "285191U029",
-   "ref": "137988",
-   "url": "https://kursuskatalog.au.dk/da/course/137988",
    "title": "Moderne fysik",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "1.1",
+    "2.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/137988"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525242U013",
-   "ref": "138468",
-   "url": "https://kursuskatalog.au.dk/da/course/138468",
    "title": "Advanced Particle Physics",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138468"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525242U005",
-   "ref": "142253",
-   "url": "https://kursuskatalog.au.dk/da/course/142253",
    "title": "Videregående faststoffysik",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 17,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142253"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525242U004",
-   "ref": "142252",
-   "url": "https://kursuskatalog.au.dk/da/course/142252",
    "title": "Videregående atom-, molekylær- og optisk fysik",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.1",
+    "2.2",
+    "3.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142252"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "545222U001",
-   "ref": "142324",
-   "url": "https://kursuskatalog.au.dk/da/course/142324",
    "title": "Materialekemi IIIa: Fysisk faststofkemi",
    "language": "English",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/142324"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525172U009",
-   "ref": "138453",
-   "url": "https://kursuskatalog.au.dk/da/course/138453",
    "title": "Overflade- og halvlederfysik",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.3",
+    "3.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138453"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525172U013",
-   "ref": "138455",
-   "url": "https://kursuskatalog.au.dk/da/course/138455",
    "title": "Ultrafast Science",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138455"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "285252U005",
-   "ref": "138836",
-   "url": "https://kursuskatalog.au.dk/da/course/138836",
    "title": "Applied Spintronics",
    "language": "English",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "3.2",
+    "2.3"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 46,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/138836"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "545171U002",
-   "ref": "142297",
-   "url": "https://kursuskatalog.au.dk/da/course/142297",
    "title": "Fysisk kemi I: Termodynamik og statistisk mekanik",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/142297"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "545171U003",
-   "ref": "142298",
-   "url": "https://kursuskatalog.au.dk/da/course/142298",
    "title": "Fysisk kemi II: Reaktionsdynamik",
    "language": "English",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Kemi"
-  },
-  {
-   "institution": "AU",
-   "level": "BSc",
-   "code": "525241U004",
-   "ref": "128475",
-   "url": "https://kursuskatalog.au.dk/da/course/128475",
-   "title": "Subatomar fysik og astrofysik",
-   "language": "Danish",
-   "ects": 10.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 1,
-   "kw_medium": 0,
-   "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142298"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "545171U024",
-   "ref": "142305",
-   "url": "https://kursuskatalog.au.dk/da/course/142305",
    "title": "Uorganisk kemi I: Almen kemi",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/142305"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "560191U002",
-   "ref": "138634",
-   "url": "https://kursuskatalog.au.dk/da/course/138634",
    "title": "Nanosyntese og nanomaterialer",
    "language": "English",
    "ects": 5.0,
-   "dept": "iNANO",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "iNANO",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "iNANO"
+   "url": "https://kursuskatalog.au.dk/da/course/138634"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "560121U001",
-   "ref": "142435",
-   "url": "https://kursuskatalog.au.dk/da/course/142435",
    "title": "Nanokarakterisering",
    "language": "English",
    "ects": 5.0,
-   "dept": "iNANO",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "iNANO",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "iNANO"
+   "url": "https://kursuskatalog.au.dk/da/course/142435"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "520171U016",
-   "ref": "138407",
-   "url": "https://kursuskatalog.au.dk/da/course/138407",
    "title": "Distribuerede Systemer og Sikkerhed",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/138407"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "520241U006",
-   "ref": "133283",
-   "url": "https://kursuskatalog.au.dk/da/course/133283",
    "title": "Distributed Systems and Security",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/133283"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525171U002",
-   "ref": "128776",
-   "url": "https://kursuskatalog.au.dk/da/course/128776",
    "title": "Eksperimentel fysik 2",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "3.3",
+    "3.1"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/128776"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525241U005",
-   "ref": "138464",
-   "url": "https://kursuskatalog.au.dk/da/course/138464",
    "title": "Elektromagnetisme, optik og relativitetsteori",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138464"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "525261U001",
-   "ref": "146863",
-   "url": "https://kursuskatalog.au.dk/da/course/146863",
    "title": "Elektromagnetisme, optik og Python programmering",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/146863"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "560241U002",
-   "ref": "138635",
-   "url": "https://kursuskatalog.au.dk/da/course/138635",
    "title": "Elektromagnetisme, optik og Python-programmering",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "iNANO",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "iNANO",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "iNANO"
+   "url": "https://kursuskatalog.au.dk/da/course/138635"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "285251U002",
-   "ref": "137716",
-   "url": "https://kursuskatalog.au.dk/da/course/137716",
    "title": "Introduktion til lysbølgeteknologi",
    "language": "English",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/137716"
   },
   {
    "institution": "AU",
    "level": "BSc",
    "code": "285201U034",
-   "ref": "141955",
-   "url": "https://kursuskatalog.au.dk/da/course/141955",
    "title": "Halvleder komponenter",
    "language": "English",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "3.2",
+    "2.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/141955"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525142U005",
-   "ref": "145553",
-   "url": "https://kursuskatalog.au.dk/da/course/145553",
    "title": "Analytical tools in theoretical physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
-  },
-  {
-   "institution": "AU",
-   "level": "MSc",
-   "code": "525242U011",
-   "ref": "138467",
-   "url": "https://kursuskatalog.au.dk/da/course/138467",
-   "title": "Advanced Nuclear Physics",
-   "language": "English",
-   "ects": 10.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 1,
-   "kw_medium": 1,
-   "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/145553"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525222U001",
-   "ref": "142243",
-   "url": "https://kursuskatalog.au.dk/da/course/142243",
    "title": "Fysiske undervisningsforsøg",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "8.4",
+    "1.1"
+   ],
+   "domain": "8",
+   "prof": {
+    "I": "A2",
+    "III": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
-   "note": "gymnasierettet; kvanteforsøg indgår",
-   "dept_name": "Fysik og Astronomi"
+   "note": "Aimed at upper-secondary teaching; includes quantum experiments",
+   "url": "https://kursuskatalog.au.dk/da/course/142243"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525192U001",
-   "ref": "142241",
-   "url": "https://kursuskatalog.au.dk/da/course/142241",
    "title": "Partiklers indtrængning i stof og dosimetri",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "6.3"
+   ],
+   "domain": "6",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/142241"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525242U019",
-   "ref": "138470",
-   "url": "https://kursuskatalog.au.dk/da/course/138470",
    "title": "Physics of Magnetic Resonance Imaging (MRI)",
    "language": "English",
    "ects": 5.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "6.7",
+    "2.1"
+   ],
+   "domain": "6",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138470"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "525202U003",
-   "ref": "138459",
-   "url": "https://kursuskatalog.au.dk/da/course/138459",
    "title": "Accelerator- og detektorfysik",
    "language": "English",
    "ects": 10.0,
-   "dept": "FA",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "Physics and Astronomy",
+   "subs": [
+    "6.3",
+    "3.4"
+   ],
+   "domain": "6",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "Fysik og Astronomi"
+   "url": "https://kursuskatalog.au.dk/da/course/138459"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "545172U003",
-   "ref": "142312",
-   "url": "https://kursuskatalog.au.dk/da/course/142312",
    "title": "Materialekemi IIIc: Faststof NMR",
    "language": "English",
    "ects": 10.0,
-   "dept": "KEM",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "Chemistry",
+   "subs": [
+    "2.3",
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Kemi"
+   "url": "https://kursuskatalog.au.dk/da/course/142312"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "560132U002",
-   "ref": "142437",
-   "url": "https://kursuskatalog.au.dk/da/course/142437",
    "title": "Cleanroom-based Micro- and Nano-Fabrication",
    "language": "English",
    "ects": 5.0,
-   "dept": "iNANO",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "iNANO",
+   "subs": [
+    "3.2",
+    "3.1"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "iNANO"
+   "url": "https://kursuskatalog.au.dk/da/course/142437"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "520172U006",
-   "ref": "142195",
-   "url": "https://kursuskatalog.au.dk/da/course/142195",
    "title": "Cryptology",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/142195"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "520172U008",
-   "ref": "142196",
-   "url": "https://kursuskatalog.au.dk/da/course/142196",
    "title": "Cryptographic Computing",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/142196"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "520172U007",
-   "ref": "138414",
-   "url": "https://kursuskatalog.au.dk/da/course/138414",
    "title": "Cryptologic Protocol Theory",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/138414"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "520212U009",
-   "ref": "138666",
-   "url": "https://kursuskatalog.au.dk/da/course/138666",
    "title": "Systems Security",
    "language": "English",
    "ects": 10.0,
-   "dept": "DAT",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Datalogi"
+   "url": "https://kursuskatalog.au.dk/da/course/138666"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "285252U001",
-   "ref": "142058",
-   "url": "https://kursuskatalog.au.dk/da/course/142058",
    "title": "Photonic Integrated Circuits",
    "language": "English",
    "ects": 10.0,
-   "dept": "ECE",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "3.3",
+    "4.8"
+   ],
+   "domain": "3",
+   "prof": {
+    "II": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 17,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/142058"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "285222U010",
-   "ref": "137934",
-   "url": "https://kursuskatalog.au.dk/da/course/137934",
    "title": "Terahertz Photonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 9,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/137934"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "285222U008",
-   "ref": "137979",
-   "url": "https://kursuskatalog.au.dk/da/course/137979",
    "title": "MEMS and Sensors",
    "language": "English",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "6.4",
+    "3.2"
+   ],
+   "domain": "6",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/137979"
   },
   {
    "institution": "AU",
    "level": "MSc",
    "code": "290252U013",
-   "ref": "138698",
-   "url": "https://kursuskatalog.au.dk/da/course/138698",
    "title": "Micro- and Nanoengineering",
    "language": "English",
    "ects": 5.0,
-   "dept": "MP",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "Mechanical and Production Engineering",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Mekanik og Produktion"
+   "url": "https://kursuskatalog.au.dk/da/course/138698"
   },
   {
    "institution": "AU",
    "level": "Diplom",
    "code": "28523PU002",
-   "ref": "142017",
-   "url": "https://kursuskatalog.au.dk/da/course/142017",
    "title": "EEAPME-01 Advanced Physics and Math for Electrical Engineering Applications",
    "language": "English",
    "ects": 5.0,
-   "dept": "ECE",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Electrical and Computer Engineering",
+   "subs": [
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "Elektro- og Computerteknologi"
+   "url": "https://kursuskatalog.au.dk/da/course/142017"
   },
   {
    "institution": "AU",
    "level": "PhD",
    "code": "PC-147858",
-   "ref": "",
-   "url": "https://phdcourses.dk/Course/147858",
    "title": "Introduction to solid-state NMR of inorganic materials",
    "language": "",
    "ects": 5.0,
-   "dept": "GSTS",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "Graduate School of Technical Sciences",
+   "subs": [
+    "2.3",
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 5,
-   "note": "phdcourses.dk; september 2026",
-   "dept_name": "Graduate School of Technical Sciences"
+   "note": "phdcourses.dk; September 2026",
+   "url": "https://phdcourses.dk/Course/147858"
   },
   {
    "institution": "DTU",
@@ -1722,13 +2211,20 @@
    "title": "Quantum Mechanics",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "1.1",
+    "1.2",
+    "2.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 8,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10102"
   },
   {
@@ -1738,13 +2234,19 @@
    "title": "Introduction to Quantum Mechanics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "1.1",
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 7,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10104"
   },
   {
@@ -1754,13 +2256,20 @@
    "title": "Introduction to Quantum Chemistry",
    "language": "English",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "1.1",
+    "2.4",
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 13,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26261"
   },
   {
@@ -1770,13 +2279,21 @@
    "title": "Projects in Quantum and Nanophotonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "4.4",
+    "3.3",
+    "2.2"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "A2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 14,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34023"
   },
   {
@@ -1786,13 +2303,21 @@
    "title": "Quantum Algorithms and Machine Learning",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "5.5",
+    "5.4",
+    "5.1"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 29,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02195"
   },
   {
@@ -1802,13 +2327,21 @@
    "title": "Quantum Compilers",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "5.3",
+    "5.1",
+    "3.5"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "A2",
+    "II": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 20,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02196"
   },
   {
@@ -1818,13 +2351,19 @@
    "title": "Topics in Quantum Nonlocality: Games, Graphs, and Applications",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "1.1",
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 16,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02197"
   },
   {
@@ -1834,13 +2373,18 @@
    "title": "Post-Quantum Cryptography",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 1,
-   "track": "CRY",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02278"
   },
   {
@@ -1850,13 +2394,20 @@
    "title": "Advanced Quantum Mechanics",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "1.2",
+    "2.4",
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 16,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10112"
   },
   {
@@ -1866,13 +2417,20 @@
    "title": "Quantum mechanical modelling of nanoelectronics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "3.2",
+    "1.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10325"
   },
   {
@@ -1882,13 +2440,21 @@
    "title": "Quantum Optics",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.2",
+    "3.3",
+    "4.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 26,
    "kw_medium": 25,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10380"
   },
   {
@@ -1898,13 +2464,21 @@
    "title": "Quantum information",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "1.2",
+    "5.1",
+    "7.3"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 30,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10384"
   },
   {
@@ -1914,13 +2488,22 @@
    "title": "Quantum Information Technology",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "5.1",
+    "6.1",
+    "7.1"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "A2",
+    "III": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 28,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10385"
   },
   {
@@ -1930,13 +2513,21 @@
    "title": "Experimental Techniques in Quantum Technology",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "3.4",
+    "3.3",
+    "4.6"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 19,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10386"
   },
   {
@@ -1946,13 +2537,21 @@
    "title": "Scientific computing in quantum information science",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "3.5",
+    "5.3",
+    "5.2"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10387"
   },
   {
@@ -1962,13 +2561,20 @@
    "title": "Micro- and nanofabrication for quantum engineering",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "3.2",
+    "4.8",
+    "3.1"
+   ],
+   "domain": "3",
+   "prof": {
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10850"
   },
   {
@@ -1978,13 +2584,22 @@
    "title": "Quantum photonic communication",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "7.3",
+    "4.4",
+    "3.3"
+   ],
+   "domain": "7",
+   "prof": {
+    "I": "B1",
+    "II": "B1",
+    "III": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 24,
    "kw_medium": 16,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34042"
   },
   {
@@ -1994,13 +2609,21 @@
    "title": "Journal club in Quantum Optics",
    "language": "English",
    "ects": 7.5,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.2",
+    "4.4",
+    "5.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C2",
+    "II": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10512"
   },
   {
@@ -2010,13 +2633,22 @@
    "title": "DigiQ PhD School on Quantum Technology",
    "language": "English",
    "ects": 2.5,
-   "dept": "10",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "4.8",
+    "5.1",
+    "6.1"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "C1",
+    "II": "B1",
+    "III": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10550"
   },
   {
@@ -2026,13 +2658,21 @@
    "title": "PhD Course - Quantum Information Journal Club",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "5.1",
+    "7.1",
+    "4.4"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "C1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34094"
   },
   {
@@ -2042,13 +2682,19 @@
    "title": "Physics for materials and energy",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 4,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10080"
   },
   {
@@ -2058,13 +2704,19 @@
    "title": "Physics for materials and energy, digital version",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 4,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10081"
   },
   {
@@ -2074,13 +2726,18 @@
    "title": "Condensed Matter Physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10317"
   },
   {
@@ -2090,13 +2747,19 @@
    "title": "Physical Chemistry 1",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "1.1",
+    "2.4"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26200"
   },
   {
@@ -2106,13 +2769,19 @@
    "title": "Applied computational chemistry",
    "language": "English",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.4",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26245"
   },
   {
@@ -2122,13 +2791,20 @@
    "title": "Optical properties of materials",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "2.3",
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34024"
   },
   {
@@ -2138,13 +2814,18 @@
    "title": "Statistical Physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10122"
   },
   {
@@ -2154,13 +2835,20 @@
    "title": "Electronic Structure Methods in Material Physics, Chemistry and Biology",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "2.4",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10302"
   },
   {
@@ -2170,13 +2858,19 @@
    "title": "Theory of 2D materials and Strong Light-Matter Interaction",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10306"
   },
   {
@@ -2186,13 +2880,19 @@
    "title": "Magnetism and Magnetic Materials",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
-   "note": "vurderet på titel",
-   "dept_name": "DTU Fysik",
+   "note": "",
    "url": "https://kurser.dtu.dk/course/10314"
   },
   {
@@ -2202,13 +2902,19 @@
    "title": "Magnetism and Magnetic Materials - with project",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
-   "note": "vurderet på titel",
-   "dept_name": "DTU Fysik",
+   "note": "",
    "url": "https://kurser.dtu.dk/course/10315"
   },
   {
@@ -2218,13 +2924,18 @@
    "title": "Advanced solid state physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10319"
   },
   {
@@ -2234,13 +2945,19 @@
    "title": "Physical Chemistry 3",
    "language": "English",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26231"
   },
   {
@@ -2250,13 +2967,18 @@
    "title": "Statistical thermodynamics and reaction dynamics",
    "language": "English",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26236"
   },
   {
@@ -2266,13 +2988,19 @@
    "title": "Molecular electronic structure methods",
    "language": "English",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.4",
+    "1.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26263"
   },
   {
@@ -2282,13 +3010,20 @@
    "title": "Optical properties of solids",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "2.3",
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 9,
    "kw_medium": 26,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34032"
   },
   {
@@ -2298,13 +3033,20 @@
    "title": "Lasers and photonic systems",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 32,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34034"
   },
   {
@@ -2314,13 +3056,21 @@
    "title": "Nanophotonics",
    "language": "English",
    "ects": 10.0,
-   "dept": "34",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "2.2",
+    "3.3",
+    "4.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 10,
    "kw_medium": 20,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34051"
   },
   {
@@ -2330,13 +3080,19 @@
    "title": "Epitaxy: Principles and Applications",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.2",
+    "2.3"
+   ],
+   "domain": "3",
+   "prof": {
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34063"
   },
   {
@@ -2346,13 +3102,19 @@
    "title": "Atomic-scale modelling of energy materials (online)",
    "language": "English",
    "ects": 5.0,
-   "dept": "47",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Energy",
+   "subs": [
+    "2.3",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
-   "dept_name": "DTU Energi",
    "url": "https://kurser.dtu.dk/course/47335"
   },
   {
@@ -2362,13 +3124,19 @@
    "title": "Electronic structure journal club",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10508"
   },
   {
@@ -2378,13 +3146,19 @@
    "title": "CAMD Summer School on Electronic Structure Theory and Materials Design",
    "language": "English",
    "ects": 2.5,
-   "dept": "10",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 13,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10540"
   },
   {
@@ -2394,13 +3168,19 @@
    "title": "PhD Course - Nano-optics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 10,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34092"
   },
   {
@@ -2410,30 +3190,19 @@
    "title": "Introduction to Engineering Physics",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10031"
-  },
-  {
-   "institution": "DTU",
-   "level": "BSc",
-   "code": "10037",
-   "title": "Continuum physics and modelling",
-   "language": "Danish",
-   "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
-   "kw_strong": 1,
-   "kw_medium": 2,
-   "note": "",
-   "dept_name": "DTU Fysik",
-   "url": "https://kurser.dtu.dk/course/10037"
   },
   {
    "institution": "DTU",
@@ -2442,13 +3211,19 @@
    "title": "Diffraction, Spectroscopy and Imaging of Materials",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10208"
   },
   {
@@ -2458,13 +3233,17 @@
    "title": "X-ray and Neutron Experiments at International Research Facilities",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "3.1"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10209"
   },
   {
@@ -2474,13 +3253,18 @@
    "title": "Physics of solar energy and energy storage",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10260"
   },
   {
@@ -2490,13 +3274,16 @@
    "title": "Fabrication of micro- and nanostructures",
    "language": "English",
    "ects": 5.0,
-   "dept": "22",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "DTU Health Tech",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Sundhedsteknologi",
    "url": "https://kurser.dtu.dk/course/22600"
   },
   {
@@ -2506,13 +3293,17 @@
    "title": "Visualisation of micro and nano structures",
    "language": "English",
    "ects": 5.0,
-   "dept": "22",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "DTU Health Tech",
+   "subs": [
+    "3.2",
+    "3.1"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "DTU Sundhedsteknologi",
    "url": "https://kurser.dtu.dk/course/22602"
   },
   {
@@ -2522,13 +3313,18 @@
    "title": "General and inorganic chemistry",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26001"
   },
   {
@@ -2538,13 +3334,18 @@
    "title": "Inorganic Chemistry 2 (Coordination chemistry)",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26124"
   },
   {
@@ -2554,13 +3355,19 @@
    "title": "Spectroscopy of Organic Compounds",
    "language": "English",
    "ects": 5.0,
-   "dept": "26",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "DTU Chemistry",
+   "subs": [
+    "2.1",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Kemi",
    "url": "https://kurser.dtu.dk/course/26428"
   },
   {
@@ -2570,13 +3377,19 @@
    "title": "Optics and photonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 17,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34020"
   },
   {
@@ -2586,13 +3399,16 @@
    "title": "Introduction to optics and photonics",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 20,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34021"
   },
   {
@@ -2602,13 +3418,16 @@
    "title": "Optical design and modelling",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 9,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34038"
   },
   {
@@ -2618,13 +3437,16 @@
    "title": "Introduction to Fibre Optic Communications",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 17,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34121"
   },
   {
@@ -2634,13 +3456,16 @@
    "title": "Experimental course in optical communication",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 22,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34126"
   },
   {
@@ -2650,13 +3475,17 @@
    "title": "Experimental optics and photonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "3.4"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 27,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34127"
   },
   {
@@ -2666,13 +3495,16 @@
    "title": "Experimental course in optical communication",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 22,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34129"
   },
   {
@@ -2682,13 +3514,16 @@
    "title": "System and Network Security",
    "language": "English",
    "ects": 5.0,
-   "dept": "62",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "DTU Engineering Technology",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Engineering Technology",
    "url": "https://kurser.dtu.dk/course/63860"
   },
   {
@@ -2698,13 +3533,16 @@
    "title": "Mathematics 4: Analysis - a Toolbox in Physics and Engineering",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/01325"
   },
   {
@@ -2714,13 +3552,16 @@
    "title": "Advanced Cryptography",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/01425"
   },
   {
@@ -2730,13 +3571,16 @@
    "title": "Research Topics in Cryptography",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 10,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/01426"
   },
   {
@@ -2746,13 +3590,16 @@
    "title": "Cryptography Fundamentals",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02231"
   },
   {
@@ -2762,13 +3609,16 @@
    "title": "Applied Cryptography",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02232"
   },
   {
@@ -2778,13 +3628,16 @@
    "title": "Research Topics in Cybersecurity",
    "language": "English",
    "ects": 5.0,
-   "dept": "01",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "DTU Compute",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Compute",
    "url": "https://kurser.dtu.dk/course/02234"
   },
   {
@@ -2794,13 +3647,18 @@
    "title": "The structure and dynamics of materials studied with X-rays and neutrons",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10200"
   },
   {
@@ -2810,13 +3668,19 @@
    "title": "Experimental Surface Physics",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "3.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10304"
   },
   {
@@ -2826,13 +3690,17 @@
    "title": "Nanosystems engineering",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "3.2",
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10321"
   },
   {
@@ -2842,13 +3710,18 @@
    "title": "Physics of Sustainable Energy",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10333"
   },
   {
@@ -2858,30 +3731,18 @@
    "title": "Numerical studies in physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "3.5",
+    "1.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10350"
-  },
-  {
-   "institution": "DTU",
-   "level": "MSc",
-   "code": "10405",
-   "title": "Theory of Relativity",
-   "language": "English",
-   "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 2,
-   "kw_medium": 2,
-   "note": "",
-   "dept_name": "DTU Fysik",
-   "url": "https://kurser.dtu.dk/course/10405"
   },
   {
    "institution": "DTU",
@@ -2890,13 +3751,17 @@
    "title": "Advanced fabrication of micro- and nanostructures",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "3.2",
+    "3.1"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10855"
   },
   {
@@ -2906,30 +3771,17 @@
    "title": "Advanced design and simulation of solar cells",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10871"
-  },
-  {
-   "institution": "DTU",
-   "level": "MSc",
-   "code": "22531",
-   "title": "Ionizing radiation protection and safety",
-   "language": "English",
-   "ects": 5.0,
-   "dept": "22",
-   "relevance": 3,
-   "track": "MAT",
-   "kw_strong": 0,
-   "kw_medium": 3,
-   "note": "",
-   "dept_name": "DTU Sundhedsteknologi",
-   "url": "https://kurser.dtu.dk/course/22531"
   },
   {
    "institution": "DTU",
@@ -2938,13 +3790,16 @@
    "title": "Physics in Health Technology",
    "language": "English",
    "ects": 5.0,
-   "dept": "22",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Health Tech",
+   "subs": [
+    "6.7"
+   ],
+   "domain": "6",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
-   "dept_name": "DTU Sundhedsteknologi",
    "url": "https://kurser.dtu.dk/course/22610"
   },
   {
@@ -2954,13 +3809,18 @@
    "title": "Summer School in Gravity Field and Earth Observation",
    "language": "English",
    "ects": 5.0,
-   "dept": "30",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "DTU Space",
+   "subs": [
+    "6.4"
+   ],
+   "domain": "6",
+   "prof": {
+    "II": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Space",
    "url": "https://kurser.dtu.dk/course/30564"
   },
   {
@@ -2970,13 +3830,17 @@
    "title": "X-ray and gamma-ray detectors for space instrumentation",
    "language": "English",
    "ects": 5.0,
-   "dept": "30",
-   "relevance": 3,
-   "track": "SEN",
+   "dept_name": "DTU Space",
+   "subs": [
+    "6.3",
+    "3.2"
+   ],
+   "domain": "6",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Space",
    "url": "https://kurser.dtu.dk/course/30784"
   },
   {
@@ -2986,13 +3850,16 @@
    "title": "Projects in Optics and Photonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34043"
   },
   {
@@ -3002,13 +3869,17 @@
    "title": "Experimental methods in photonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "3.4"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 26,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34046"
   },
   {
@@ -3018,13 +3889,17 @@
    "title": "Nonlinear optics",
    "language": "English",
    "ects": 10.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34052"
   },
   {
@@ -3034,13 +3909,17 @@
    "title": "Numerical methods in photonics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "3.5"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 11,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34053"
   },
   {
@@ -3050,13 +3929,16 @@
    "title": "Ultrafast optics: fundamentals and applications",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34060"
   },
   {
@@ -3066,13 +3948,17 @@
    "title": "Photonic integrated circuits",
    "language": "English",
    "ects": 10.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "4.8"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 14,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34062"
   },
   {
@@ -3082,13 +3968,16 @@
    "title": "Waveguide optics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34064"
   },
   {
@@ -3098,13 +3987,16 @@
    "title": "Fundamentals of fibre-optic communication systems",
    "language": "English",
    "ects": 10.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 27,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34130"
   },
   {
@@ -3114,13 +4006,16 @@
    "title": "Physical concepts in optical communication",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 16,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34153"
   },
   {
@@ -3130,13 +4025,17 @@
    "title": "Advanced Optical Communication Systems",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "3.4"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 25,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34156"
   },
   {
@@ -3146,13 +4045,16 @@
    "title": "Advanced forward error correction and iterative decoding",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "QC",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.4"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34251"
   },
   {
@@ -3162,13 +4064,16 @@
    "title": "Nonlinear mathematical physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34451"
   },
   {
@@ -3178,13 +4083,17 @@
    "title": "Light emitting diodes and photovoltaics for energy applications",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "2.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34540"
   },
   {
@@ -3194,13 +4103,16 @@
    "title": "Solar Cells: From Fundamentals to Device Engineering",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34556"
   },
   {
@@ -3210,13 +4122,16 @@
    "title": "Functional materials",
    "language": "English",
    "ects": 5.0,
-   "dept": "47",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Energy",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Energi",
    "url": "https://kurser.dtu.dk/course/47319"
   },
   {
@@ -3226,13 +4141,17 @@
    "title": "Electron microscopy for materials science",
    "language": "English",
    "ects": 5.0,
-   "dept": "47",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Energy",
+   "subs": [
+    "3.2",
+    "3.1"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Energi",
    "url": "https://kurser.dtu.dk/course/47333"
   },
   {
@@ -3242,13 +4161,18 @@
    "title": "Surface Physics and Catalysis",
    "language": "English",
    "ects": 10.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10507"
   },
   {
@@ -3258,13 +4182,19 @@
    "title": "Advanced electron microscopy physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.2",
+    "3.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 8,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10519"
   },
   {
@@ -3274,13 +4204,19 @@
    "title": "Two-dimensional materials from physics to applications",
    "language": "English",
    "ects": 5.0,
-   "dept": "10",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "DTU Physics",
+   "subs": [
+    "2.3",
+    "3.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Fysik",
    "url": "https://kurser.dtu.dk/course/10521"
   },
   {
@@ -3290,13 +4226,16 @@
    "title": "Topics in Advanced Micro and Nanofabrication",
    "language": "English",
    "ects": 5.0,
-   "dept": "22",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "DTU Health Tech",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
-   "dept_name": "DTU Sundhedsteknologi",
    "url": "https://kurser.dtu.dk/course/22681"
   },
   {
@@ -3306,13 +4245,16 @@
    "title": "PhD Course - Advanced photonic devices journal club",
    "language": "English",
    "ects": 5.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34091"
   },
   {
@@ -3322,13 +4264,17 @@
    "title": "PhD Course in nonlinear Optics",
    "language": "English",
    "ects": 10.0,
-   "dept": "34",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "DTU Electro",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
-   "dept_name": "DTU Elektro og Fotonik",
    "url": "https://kurser.dtu.dk/course/34492"
   },
   {
@@ -3338,930 +4284,1101 @@
    "title": "Methods in micro- and nanofabrication",
    "language": "English",
    "ects": 5.0,
-   "dept": "56",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "DTU Nanolab",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "DTU Nanolab",
    "url": "https://kurser.dtu.dk/course/56868"
   },
   {
    "institution": "KU",
    "level": "PhD",
    "code": "PC-150049",
-   "url": "https://phdcourses.dk/Course/150049",
    "title": "Quantum Chemistry of Molecules Electromagnetic Properties",
    "language": "",
    "ects": 7.5,
-   "dept": "SCI",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Faculty of SCIENCE",
+   "subs": [
+    "2.4",
+    "1.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 14,
    "kw_medium": 3,
-   "note": "phdcourses.dk; februar 2027",
-   "dept_name": "Det Natur- og Biovidenskabelige Fakultet (SCIENCE)"
+   "note": "phdcourses.dk; February 2027",
+   "url": "https://phdcourses.dk/Course/150049"
   },
   {
    "institution": "KU",
    "level": "PhD",
    "code": "PC-148446",
-   "url": "https://phdcourses.dk/Course/148446",
    "title": "Preparation and control of neutral atoms for quantum applications",
    "language": "",
    "ects": 2.0,
-   "dept": "SCI",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Faculty of SCIENCE",
+   "subs": [
+    "4.3",
+    "3.4",
+    "2.1"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "C1",
+    "II": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 19,
-   "note": "phdcourses.dk; december 2026",
-   "dept_name": "Det Natur- og Biovidenskabelige Fakultet (SCIENCE)"
+   "note": "phdcourses.dk; December 2026",
+   "url": "https://phdcourses.dk/Course/148446"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY544",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY544/en",
    "title": "Quantum mechanics I",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "1.1",
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 24,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY544/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY547",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY547/en",
    "title": "Quantum mechanics II",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "1.1",
+    "2.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY547/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY560",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY560/en",
    "title": "Physics of Quantum Matter",
    "language": "English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 9,
-   "note": "samme indhold som FY845",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "note": "Same content as FY845",
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY560/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "KE522",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE522/en",
    "title": "Quantum Chemistry and Theoretical Spectroscopy",
    "language": "Danish",
    "ects": 10.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 15,
    "kw_medium": 23,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE522/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "KE554",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE554/en",
    "title": "Quantum chemistry for medicinal chemistry",
    "language": "Danish",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4",
+    "1.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 18,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE554/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "KE540",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE540/en",
    "title": "Quantum Chemistry and Modelling",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 7,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE540/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC801",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC801/en",
    "title": "Introduction to Quantum Computing",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "5.1",
+    "1.1",
+    "1.2"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 25,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC801/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC802",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC802/en",
    "title": "Quantum Information Theory",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "1.2",
+    "7.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 20,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC802/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC803",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC803/en",
    "title": "Quantum Platforms and Programming",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "4.8",
+    "5.3",
+    "4.6"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 22,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC803/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC804",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC804/en",
    "title": "Quantum Algorithms",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "5.5",
+    "5.4"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B2",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 16,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC804/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC805",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC805/en",
    "title": "Quantum Cryptography and Quantum Key Distribution",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "7.3",
+    "7.1",
+    "7.4"
+   ],
+   "domain": "7",
+   "prof": {
+    "I": "B1",
+    "II": "B1",
+    "III": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 13,
    "kw_medium": 10,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC805/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC806",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC806/en",
    "title": "Fault-tolerant Quantum Computing",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "5.3",
+    "5.1"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B2",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 14,
    "kw_medium": 2,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC806/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC807",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC807/en",
    "title": "Quantum Continuous Variables Formalism",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "2.2",
+    "1.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 17,
    "kw_medium": 4,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC807/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC808",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC808/en",
    "title": "Topological Quantum Computing",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "4.5",
+    "5.3",
+    "2.3"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "C1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC808/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC809",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC809/en",
    "title": "Quantum Computation and Phases of Quantum Matter",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "2.4",
+    "4.5",
+    "5.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 20,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC809/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "QC810",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC810/en",
    "title": "Quantum Machine Learning",
    "language": "English",
    "ects": 10.0,
-   "dept": "QC",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "MSc in Quantum Computing",
+   "subs": [
+    "5.5",
+    "4.7"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
-   "dept_name": "MSc i Quantum Computing"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/QC810/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "DM893",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM893/en",
    "title": "Quantum Computing",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "IMADA",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "5.1",
+    "5.5"
+   ],
+   "domain": "5",
+   "prof": {
+    "I": "B1",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 15,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM893/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "MM866",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM866/en",
    "title": "Introduction to HPC and Quantum Computing",
    "language": "English",
    "ects": 5.0,
-   "dept": "IMADA",
-   "relevance": 1,
-   "track": "QC",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "4.7",
+    "5.3"
+   ],
+   "domain": "4",
+   "prof": {
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM866/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "FY803",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY803/en",
    "title": "Quantum physics",
    "language": "Danish or English",
    "ects": 10.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "1.2",
+    "1.1"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 0,
-   "note": "godkendt som ph.d.-kursus",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "note": "Approved as PhD course",
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY803/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "FY845",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY845/en",
    "title": "Physics of Quantum Matter",
    "language": "English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 1,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.3",
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 6,
    "kw_medium": 9,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY845/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470021101",
-   "ref": "186488",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en",
    "title": "Quantum Engineering",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "4.8",
+    "4.1",
+    "4.2"
+   ],
+   "domain": "4",
+   "prof": {
+    "I": "B1",
+    "II": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 22,
    "kw_medium": 9,
-   "note": "Civilingeniør i Fysik og Teknologi",
-   "dept_name": "Det Tekniske Fakultet"
+   "note": "MSc in Engineering Physics",
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY548",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY548/en",
    "title": "Solid state physics",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY548/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY550",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY550/en",
    "title": "Statistical Physics",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY550/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "KE533",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE533/en",
    "title": "Computational Quantum Chemistry",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE533/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "FY837",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY837/en",
    "title": "Solid state physics",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "MAT",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY837/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "FY809",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY809/en",
    "title": "Quantum Field Theory",
    "language": "Danish or English",
    "ects": 10.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY809/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "KE820",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE820/en",
    "title": "Computational Quantum Chemistry",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4",
+    "3.5"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 10,
-   "note": "godkendt som ph.d.-kursus",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "note": "Approved as PhD course",
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE820/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "KE829",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE829/en",
    "title": "Computational Quantum Chemistry II: Optical, electrical and magnetic properties",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 2,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 12,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE829/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470038101",
-   "ref": "188652",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en",
    "title": "Atomic Physics",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "2.1",
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 16,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470005101",
-   "ref": "186481",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en",
    "title": "Laser Physics and Technology",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "3.3",
+    "3.4"
+   ],
+   "domain": "3",
+   "prof": {
+    "I": "A2",
+    "II": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 2,
    "kw_medium": 27,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470008101",
-   "ref": "204228",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en",
    "title": "Nano-optics",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 2,
-   "track": "PHO",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 41,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY542",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY542/en",
    "title": "Experimental physics and semiconductors",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.3",
+    "3.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A2"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
-  },
-  {
-   "institution": "SDU",
-   "level": "BSc",
-   "code": "FY545",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY545/en",
-   "title": "Particle physics",
-   "language": "Danish or English",
-   "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 1,
-   "kw_medium": 0,
-   "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY542/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FY549",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY549/en",
    "title": "Electrodynamics",
    "language": "English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY549/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "FT504",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FT504/en",
    "title": "Electromagnetism and Optics",
    "language": "Danish or English",
    "ects": 10.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.2",
+    "3.3"
+   ],
+   "domain": "2",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 10,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FT504/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "MM553",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM553/en",
    "title": "Computational Physics",
    "language": "Danish or English",
    "ects": 10.0,
-   "dept": "IMADA",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "3.5",
+    "1.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM553/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "KE525",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE525/en",
    "title": "Inorganic chemistry A",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Physics, Chemistry and Pharmacy",
+   "subs": [
+    "2.1"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE525/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "DM572",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM572/en",
    "title": "Networks and Cybersecurity",
    "language": "Danish or English",
    "ects": 10.0,
-   "dept": "IMADA",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM572/en"
   },
   {
    "institution": "SDU",
    "level": "BSc",
    "code": "DM586",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM586/en",
    "title": "Networks and Cybersecurity",
    "language": "Danish or English",
    "ects": 7.5,
-   "dept": "IMADA",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
-  },
-  {
-   "institution": "SDU",
-   "level": "MSc",
-   "code": "FY831",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY831/en",
-   "title": "Introduction to quantum gravity",
-   "language": "Danish or English",
-   "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 10,
-   "kw_medium": 0,
-   "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
-  },
-  {
-   "institution": "SDU",
-   "level": "MSc",
-   "code": "FY824",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY824/en",
-   "title": "Quantum field theory in curved space",
-   "language": "Danish or English",
-   "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 5,
-   "kw_medium": 0,
-   "note": "godkendt som ph.d.-kursus",
-   "dept_name": "Fysik, Kemi og Farmaci"
-  },
-  {
-   "institution": "SDU",
-   "level": "MSc",
-   "code": "FY841",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY841/en",
-   "title": "Particle physics",
-   "language": "Danish or English",
-   "ects": 5.0,
-   "dept": "FKF",
-   "relevance": 3,
-   "track": "QM",
-   "kw_strong": 1,
-   "kw_medium": 0,
-   "note": "",
-   "dept_name": "Fysik, Kemi og Farmaci"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM586/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "MM837",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM837/en",
    "title": "Computational Physics",
    "language": "Danish or English",
    "ects": 10.0,
-   "dept": "IMADA",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "3.5"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM837/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "MM868",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM868/en",
    "title": "Compact quantum metric spaces",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "IMADA",
-   "relevance": 3,
-   "track": "QM",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "1.2"
+   ],
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "estimated",
    "kw_strong": 4,
    "kw_medium": 0,
-   "note": "ren matematik",
-   "dept_name": "Matematik og Datalogi"
+   "note": "Pure mathematics",
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM868/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "DM886",
-   "ref": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM886/en",
    "title": "Cryptographic Engineering",
    "language": "Danish or English",
    "ects": 5.0,
-   "dept": "IMADA",
-   "relevance": 3,
-   "track": "CRY",
+   "dept_name": "Mathematics and Computer Science",
+   "subs": [
+    "7.1"
+   ],
+   "domain": "7",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "dept_name": "Matematik og Datalogi"
+   "url": "https://odinlister.sdu.dk/fagbesk/internkode/DM886/en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470017101",
-   "ref": "186485",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en",
    "title": "Advanced Physical Optics",
    "language": "English",
    "ects": 10.0,
-   "dept": "TEK",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "3.3",
+    "2.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 41,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470042101",
-   "ref": "199298",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en",
    "title": "Optical System Design and Spectroscopy",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "3.3"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 19,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470040101",
-   "ref": "186494",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en",
    "title": "Journal Club and Industrial Case Studies",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 3,
-   "track": "PHO",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "3.3",
+    "8.2"
+   ],
+   "domain": "3",
+   "prof": {
+    "III": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T380014401",
-   "ref": "211138",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en",
    "title": "Material Science in Electrical Engineering",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 3,
-   "track": "MAT",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "2.3",
+    "3.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 13,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en"
   },
   {
    "institution": "SDU",
    "level": "MSc",
    "code": "T470030X01",
-   "ref": "186490",
-   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en",
    "title": "Microtechnology and Device Fabrication",
    "language": "English",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 3,
-   "track": "FAB",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "3.2"
+   ],
+   "domain": "3",
+   "prof": {},
+   "status": "estimated",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
-   "dept_name": "Det Tekniske Fakultet"
+   "url": "https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en"
   },
   {
    "institution": "SDU",
    "level": "PhD",
    "code": "PC-108871",
-   "ref": "",
-   "url": "https://phdcourses.dk/Course/108871",
    "title": "Theoretical Nano- and Quantum Optics II",
    "language": "",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "2.2",
+    "4.4"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 9,
    "kw_medium": 7,
-   "note": "phdcourses.dk; ph.d.-skolen ved TEK; ingen dato angivet",
-   "dept_name": "Det Tekniske Fakultet"
+   "note": "phdcourses.dk; PhD School, Faculty of Engineering; no date given",
+   "url": "https://phdcourses.dk/Course/108871"
   },
   {
    "institution": "SDU",
    "level": "PhD",
    "code": "PC-105100",
-   "ref": "",
-   "url": "https://phdcourses.dk/Course/105100",
    "title": "Theoretical Nano- and Quantum Optics I",
    "language": "",
    "ects": 5.0,
-   "dept": "TEK",
-   "relevance": 1,
-   "track": "QT",
+   "dept_name": "Faculty of Engineering",
+   "subs": [
+    "2.2"
+   ],
+   "domain": "2",
+   "prof": {
+    "I": "C1"
+   },
+   "status": "estimated",
    "kw_strong": 3,
    "kw_medium": 8,
-   "note": "phdcourses.dk; ph.d.-skolen ved TEK; ingen dato angivet",
-   "dept_name": "Det Tekniske Fakultet"
+   "note": "phdcourses.dk; PhD School, Faculty of Engineering; no date given",
+   "url": "https://phdcourses.dk/Course/105100"
   }
- ]
+ ],
+ "unmapped": 9
 }

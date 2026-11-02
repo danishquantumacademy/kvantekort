@@ -1,71 +1,68 @@
-# Kvantekort Danmark
+# Danish Quantum Education Map
 
-Kortlægning af kvanteområdet i Danmark – uddannelse, forskning, innovation og erhverv.
-Første fase: kvanterelevante kurser på de fem universiteter med kvanteaktivitet (DTU, KU, AU, SDU, AAU).
+Mapping of quantum technology education at Danish universities, published at **[map.danishquantumacademy.dk](https://map.danishquantumacademy.dk)** by [Danish Quantum Academy](https://danishquantumacademy.dk) as part of the mapping task of the European Quantum Academy (Northern European Regional Quantum Academy).
 
-Hjemmesiden (`site/index.html`) viser hvert kursus på et af tre relevansniveauer:
+Every course is described with the terms of the **European Competence Framework for Quantum Technologies (CFQT) v3.0** (F. Greinert and R. Müller, QUCATS, April 2025, [doi:10.2759/8917117](https://doi.org/10.2759/8917117), CC BY 4.0):
 
-| Niveau | Navn | Betydning |
-|---|---|---|
-| 1 | Kerne | Kurset handler primært om kvantefysik, kvanteinformation eller kvanteteknologi |
-| 2 | Kvantebaseret | Kvantemekanik er bærende fundament (faststof, elektronstruktur, kvantekemi, fotonik) |
-| 3 | Perifer | Understøttende fag (klassisk fotonik, nanofab, kryptografi) eller kun nævnt |
-| 0 | Ikke relevant | Ingen eller tilfældige nøgleordstræf (vises kun i totaler) |
+- **Content map:** up to three CFQT subdomains per course (e.g. `2.3` Solid-state physics, `5.5` Quantum algorithms). The first is the primary subdomain.
+- **Proficiency levels:** the level (A1 Awareness to C2 Innovation) the course brings students to in each proficiency area it addresses: (I) Quantum concepts, (II) QT hardware & software engineering, (III) QT applications & strategies. An empty level means the course gives no QT-specific proficiency in that area, which is typical for enabling technologies such as classical optics or nanofabrication.
 
-Hvert kursus har desuden et **fagspor** (`QT`, `QC`, `QM`, `MAT`, `PHO`, `FAB`, `CRY`, `SEN`), defineret i `data/reference.json`.
+All assignments are **first estimates** (`cfqt_status = estimated`) made from the course descriptions, study level and workload. They will be validated with the course responsibles through the European Quantum Academy survey.
 
-## Struktur
+## Repository structure
 
 ```
 data/
-  reference.json            # relevansniveauer, fagspor, institutioner, totaler
-  raw/<inst>_courses.json   # rå høst (alle kurser) – genereres af scraperne
-  classification/<inst>.csv # kvanterelevante kurser med niveau og spor (redigeres manuelt)
+  reference.json            # CFQT content map (8 domains, 42 subdomains), areas, levels; institutions and totals
+  raw/<inst>_courses.json   # full harvest (all courses), produced by the scrapers
+  classification/<inst>.csv # quantum-relevant courses with CFQT subdomains and proficiency levels
 scrapers/
-  dtu_browser.js            # høster kurser.dtu.dk i browserkonsollen
-  au_browser.js             # høster kursuskatalog.au.dk via katalogets eget API
-  sdu_browser.js            # høster SDU's ODIN: gennemløber kodepræfikser + TEK-studieordninger
-  aau_browser.js            # høster moduler.aau.dk: bred søgning + alle modulsider for 2026/27
-  phdcourses_browser.js     # høster ph.d.-kurser fra den nationale portal phdcourses.dk
+  dtu_browser.js            # kurser.dtu.dk (run in the browser console)
+  au_browser.js             # kursuskatalog.au.dk via the catalogue's own API
+  sdu_browser.js            # SDU's ODIN: iterates code prefixes + Faculty of Engineering curricula
+  aau_browser.js            # moduler.aau.dk: broad search + every module page for 2026/27
+  phdcourses_browser.js     # PhD courses from the national portal phdcourses.dk
 scripts/
-  build_site.py             # samler classification/*.csv → site/data.json + site/index.html
+  cfqt_estimates.txt        # the CFQT estimate per course (source of truth for the first round)
+  apply_cfqt.py             # writes the estimates into data/classification/*.csv
+  build_site.py             # builds site/data.json and site/index.html (data embedded)
 site/
-  template.html             # hjemmesidens skabelon
-  index.html                # genereret, data indlejret (serveres af GitHub Pages)
-.github/workflows/pages.yml # bygger og publicerer siden ved push til main
+  template.html             # website template
+  index.html                # generated; served by GitHub Pages
+  CNAME                     # map.danishquantumacademy.dk
+.github/workflows/pages.yml # builds and publishes the site on every push to main
 ```
 
-**Princip:** rå høst og menneskelig vurdering holdes adskilt. Scraperne overskriver kun `data/raw/`; klassifikationerne i `data/classification/` er kuraterede og ændres via pull requests, så hver vurdering har en historik og kan diskuteres.
+Harvested data and expert judgement are kept apart: scrapers only write to `data/raw/`, while the CFQT assignments in `data/classification/` are curated and changed through pull requests, so every change has a history.
 
-## Arbejdsgang
+## CSV columns
 
-1. **Høst** – kør institutionens scraper (for DTU: åbn kurser.dtu.dk, indsæt `scrapers/dtu_browser.js` i konsollen). Gem filen i `data/raw/`.
-2. **Forslag** – kurser med nøgleordstræf (`kw_strong > 0` eller `kw_medium ≥ 2`) eller kvanterelaterede titler er kandidater.
-3. **Vurdering** – sæt `relevance` og `track` i `data/classification/<inst>.csv`. Tilføj `note`, hvis vurderingen kun bygger på titlen.
-4. **Byg** – `python scripts/build_site.py`. GitHub Actions gør det automatisk ved push.
+`institution, level, code, [ref,] [url,] title, language, ects, dept, cfqt_primary, cfqt_secondary, prof_I, prof_II, prof_III, cfqt_status, kw_strong, kw_medium, note`
 
-## Ny institution
+- `cfqt_primary`: primary CFQT subdomain; `cfqt_secondary`: further subdomains separated by `;`. Courses with no subdomain have no meaningful CFQT match and are not shown on the site.
+- `prof_I`, `prof_II`, `prof_III`: proficiency level `A1`–`C2`, or empty.
+- `cfqt_status`: `estimated` (first round) or `confirmed` (validated by the course responsible).
+- `kw_strong`, `kw_medium`: keyword counts in the course description (quantum terms / related technical terms).
+- `level`: `BSc`, `MSc`, `PhD`, `Diplom` (Bachelor of Engineering) or `Master` (professional master).
+- `url` overrides the institution's link template; `ref` is used where the course page is addressed by an internal id (AU).
 
-1. Tilføj institutionen i `data/reference.json` (navn, kursusbase, `course_url`-skabelon, totaler, institutkoder).
-2. Skriv `scrapers/<inst>.*` der leverer samme felter som DTU-høsten.
-3. Opret `data/classification/<inst>.csv` med samme kolonner.
+## Status (2 November 2026)
 
-## CSV-kolonner
-
-`institution, level, code, [ref,] [url,] title, language, ects, dept, relevance, track, kw_strong, kw_medium, note`
-
-`url` er valgfri og overstyrer institutionens link-skabelon (bruges for SDU's TEK-kurser uden intern kode). `ref` er valgfri og bruges når kursussidens URL bygger på et internt id i stedet for kursuskoden (AU). `level` er en af `BSc`, `MSc`, `PhD`, `Diplom`, `Master`.
-
-## Status
-
-| Institution | Høstet | Klassificeret |
+| Institution | Harvest | Mapped courses |
 |---|---|---|
-| DTU | 2026-11-02 (1.274 kursusrækker, 2026/27) | 102 relevante (20 kerne, 23 kvantebaseret, 59 perifere) |
-| AU | 2026-11-02 (1.554 unikke kurser, Natural + Technical Sciences, 2026/27; ingen ph.d. i kataloget) | 57 relevante (12 kerne, 14 kvantebaseret, 31 perifere) |
-| SDU | 2026-11-02 (aktive kursusbeskrivelser i ODIN: NAT-præfikser + TEK Fysik og Teknologi/Elektronik) | 50 relevante (21 kerne, 10 kvantebaseret, 19 perifere) |
-| AAU | 2026-11-02 (6.841 moduler i modulkataloget; ENG + TECH: 1.947 unikke titler; ingen ph.d.) | 37 relevante (8 kerne, 7 kvantebaseret, 22 perifere) |
-| KU (kun SCIENCE) | ph.d.-kurser fra phdcourses.dk (kurser.ku.dk nede 2. nov.) | 2 kerne (ph.d.) |
+| DTU | 1,274 course rows, all levels, 2026/27 | 102 |
+| AU | 1,554 unique courses, Natural + Technical Sciences | 58 |
+| SDU | Active course descriptions, Faculty of Science + Faculty of Engineering (Physics and Technology, Electronics) | 52 |
+| AAU | 6,841 modules; Engineering & Science + IT & Design: 1,947 unique titles | 37 |
+| KU (SCIENCE only) | PhD courses only (kurser.ku.dk was unavailable) | 2 |
 
-Ph.d.-kurser for AU, SDU, AAU og KU er hentet fra den nationale portal [phdcourses.dk](https://phdcourses.dk) (kurser med dato i 2026/27 eller uden dato, ekskl. arkiverede "Gl."-kurser). DTU's ph.d.-kurser kommer fra DTU's egen kursusbase.
+251 courses analysed; 242 match the CFQT content map and are shown on the site. PhD courses for AU, SDU, AAU and KU come from [phdcourses.dk](https://phdcourses.dk); DTU's from its own course base.
 
-Vedligeholdes af [Danish Quantum Academy](https://danishquantumacademy.dk) som led i kortlægningsopgaven i European Quantum Academy (Northern European Regional Quantum Academy). Siden publiceres på [map.danishquantumacademy.dk](https://map.danishquantumacademy.dk).
+## Update workflow
+
+1. **Harvest:** run the institution's scraper and save the file in `data/raw/`.
+2. **Screen:** courses with keyword hits or quantum-related titles are candidates.
+3. **Map:** add or edit the line in `scripts/cfqt_estimates.txt` and run `python scripts/apply_cfqt.py`, or edit `data/classification/<inst>.csv` directly.
+4. **Build:** `python scripts/build_site.py`. GitHub Actions does this automatically on push.
+
+Contact data for course responsibles is kept in a separate private repository and is never published here.

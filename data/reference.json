@@ -1,35 +1,147 @@
 {
-  "relevance": {
-    "1": {
-      "label": "Kerne",
-      "desc": "Kurset handler primært om kvantefysik, kvanteinformation eller kvanteteknologi."
+  "cfqt": {
+    "source": "European Competence Framework for Quantum Technologies (CFQT), version 3.0, April 2025. F. Greinert and R. Müller, QUCATS. doi:10.2759/8917117. CC BY 4.0.",
+    "doi": "https://doi.org/10.2759/8917117",
+    "blocks": {
+      "QB": "Quantum background",
+      "CDT": "Core device technologies",
+      "QSA": "QT systems and applications"
     },
-    "2": {
-      "label": "Kvantebaseret",
-      "desc": "Kvantemekanik er et bærende fundament (faststof, elektronstruktur, kvantekemi, fotonik), men kurset er ikke kvanteteknologi."
+    "domains": {
+      "1": {
+        "name": "Concepts and foundations",
+        "block": "QB",
+        "subdomains": {
+          "1.1": "Basic quantum concepts",
+          "1.2": "Mathematical formalism and information theory"
+        }
+      },
+      "2": {
+        "name": "Physical foundations of quantum technologies",
+        "block": "QB",
+        "subdomains": {
+          "2.1": "Atomic physics",
+          "2.2": "Quantum optics and electrodynamics",
+          "2.3": "Solid-state physics",
+          "2.4": "Quantum many-body systems and open quantum systems"
+        }
+      },
+      "3": {
+        "name": "Enabling technologies and techniques",
+        "block": "CDT",
+        "subdomains": {
+          "3.1": "Laboratory techniques, noise and shielding",
+          "3.2": "Solid-state technologies, nanotechnologies",
+          "3.3": "Optical technologies",
+          "3.4": "Control technologies",
+          "3.5": "Computers and software"
+        }
+      },
+      "4": {
+        "name": "Quantum hardware",
+        "block": "CDT",
+        "subdomains": {
+          "4.1": "Superconducting electronic circuits",
+          "4.2": "Spin-based systems",
+          "4.3": "Neutral atoms and ions",
+          "4.4": "Photonic systems",
+          "4.5": "Emerging qubit concepts",
+          "4.6": "Quantum state control",
+          "4.7": "Hybrid quantum-classical systems",
+          "4.8": "Technology realisation"
+        }
+      },
+      "5": {
+        "name": "Quantum computing and simulation",
+        "block": "QSA",
+        "subdomains": {
+          "5.1": "Basics",
+          "5.2": "Quantum simulators",
+          "5.3": "Quantum programming tools and software stack, error correction",
+          "5.4": "Quantum computing subroutines",
+          "5.5": "Quantum algorithms",
+          "5.6": "Applications of quantum computing and simulation"
+        }
+      },
+      "6": {
+        "name": "Quantum sensors and imaging systems",
+        "block": "QSA",
+        "subdomains": {
+          "6.1": "Basics",
+          "6.2": "Electromagnetic field sensors",
+          "6.3": "Temperature, particle and pressure sensors",
+          "6.4": "Inertial and gravity sensors",
+          "6.5": "Quantum imaging",
+          "6.6": "Atomic clocks",
+          "6.7": "Applications of quantum sensors"
+        }
+      },
+      "7": {
+        "name": "Quantum communication and networks",
+        "block": "QSA",
+        "subdomains": {
+          "7.1": "Basics",
+          "7.2": "Quantum random number generators",
+          "7.3": "Quantum key distribution",
+          "7.4": "Applications of quantum cryptography",
+          "7.5": "Infrastructure for quantum information networks (quantum internet)",
+          "7.6": "Systems networks (composite systems), quantum internet applications"
+        }
+      },
+      "8": {
+        "name": "Valorisation",
+        "block": "QSA",
+        "subdomains": {
+          "8.1": "Industry landscape and market analysis",
+          "8.2": "Business strategy, entrepreneurship and management",
+          "8.3": "Impact and responsibility",
+          "8.4": "Education and communication"
+        }
+      }
     },
-    "3": {
-      "label": "Perifer",
-      "desc": "Understøttende fag for kvanteområdet (klassisk fotonik, nanofabrikation, kryptografi, materialekarakterisering) eller kun nævnt i beskrivelsen."
+    "areas": {
+      "I": "Quantum concepts",
+      "II": "QT hardware & software engineering",
+      "III": "QT applications & strategies"
     },
-    "0": {
-      "label": "Ikke relevant",
-      "desc": "Ingen eller kun tilfældige nøgleordstræf."
+    "levels": {
+      "A1": "Awareness",
+      "A2": "Literacy",
+      "B1": "Utilisation",
+      "B2": "Investigation",
+      "C1": "Specialisation",
+      "C2": "Innovation"
+    },
+    "level_by_area": {
+      "I": {
+        "A1": "Reproduce basic quantum concepts & terminology",
+        "A2": "Describe fundamental quantum concepts",
+        "B1": "Apply quantum methods to problems",
+        "B2": "Analyse problems with quantum",
+        "C1": "Refine and extend quantum methods",
+        "C2": "Develop innovative solutions"
+      },
+      "II": {
+        "A1": "Reproduce basic functionalities of a QT facet",
+        "A2": "Perform basic tasks on a QT facet",
+        "B1": "Modify/apply a QT facet",
+        "B2": "Analyse performance, improve QT",
+        "C1": "Conceptualise integrated QT systems",
+        "C2": "Develop new QT facet"
+      },
+      "III": {
+        "A1": "Recognise potential of QT",
+        "A2": "Identify value of QT",
+        "B1": "Classify available QT applications/approaches",
+        "B2": "Analyse QT market and opportunities",
+        "C1": "Advise on QT application selection or strategies",
+        "C2": "Develop and assess QT (product) strategies"
+      }
     }
-  },
-  "tracks": {
-    "QT": "Kvanteteknologi og -information",
-    "QC": "Kvantecomputing og software",
-    "QM": "Kvantefysik og -kemi (grundlag)",
-    "MAT": "Materialer og faststof",
-    "PHO": "Fotonik og optik",
-    "FAB": "Mikro- og nanofabrikation",
-    "CRY": "Kryptografi og sikkerhed",
-    "SEN": "Sensorer og måling"
   },
   "institutions": {
     "DTU": {
-      "name": "Danmarks Tekniske Universitet",
+      "name": "Technical University of Denmark",
       "course_base": "https://kurser.dtu.dk",
       "course_url": "https://kurser.dtu.dk/course/{code}",
       "harvested": "2026-11-02",
@@ -41,38 +153,38 @@
       },
       "departments": {
         "01": "DTU Compute",
-        "10": "DTU Fysik",
-        "22": "DTU Sundhedsteknologi",
-        "26": "DTU Kemi",
+        "10": "DTU Physics",
+        "22": "DTU Health Tech",
+        "26": "DTU Chemistry",
         "30": "DTU Space",
-        "34": "DTU Elektro og Fotonik",
-        "47": "DTU Energi",
+        "34": "DTU Electro",
+        "47": "DTU Energy",
         "56": "DTU Nanolab",
         "62": "DTU Engineering Technology"
       },
-      "scope": "Alle niveauer fra DTU's kursusbase. Portalen phdcourses.dk indeholder de samme ph.d.-kurser."
+      "scope": "All levels from DTU's course base. The national portal phdcourses.dk lists the same PhD courses."
     },
     "KU": {
-      "name": "Københavns Universitet",
+      "name": "University of Copenhagen",
       "course_base": "https://phdcourses.dk",
       "course_url": "https://phdcourses.dk/Course/{ref}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Foreløbig kun ph.d.-kurser fra PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk var utilgængelig 2. november 2026.",
+      "scope": "Currently PhD courses only, from the PhD School at the Faculty of SCIENCE via phdcourses.dk. kurser.ku.dk was unavailable on 2 November 2026.",
       "totals": {
         "PhD": 60
       },
       "departments": {
-        "SCI": "Det Natur- og Biovidenskabelige Fakultet (SCIENCE)"
+        "SCI": "Faculty of SCIENCE"
       }
     },
     "AU": {
-      "name": "Aarhus Universitet",
+      "name": "Aarhus University",
       "course_base": "https://kursuskatalog.au.dk",
       "course_url": "https://kursuskatalog.au.dk/da/course/{ref}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Natural Sciences og Technical Sciences. Ph.d.-kurser fra phdcourses.dk (Graduate School of Natural / Technical Sciences).",
+      "scope": "Natural Sciences and Technical Sciences. PhD courses from phdcourses.dk (Graduate Schools of Natural and Technical Sciences).",
       "totals": {
         "BSc": 456,
         "MSc": 652,
@@ -81,22 +193,22 @@
         "PhD": 51
       },
       "departments": {
-        "FA": "Fysik og Astronomi",
-        "KEM": "Kemi",
-        "DAT": "Datalogi",
+        "FA": "Physics and Astronomy",
+        "KEM": "Chemistry",
+        "DAT": "Computer Science",
         "iNANO": "iNANO",
-        "ECE": "Elektro- og Computerteknologi",
-        "MP": "Mekanik og Produktion",
+        "ECE": "Electrical and Computer Engineering",
+        "MP": "Mechanical and Production Engineering",
         "GSTS": "Graduate School of Technical Sciences"
       }
     },
     "SDU": {
-      "name": "Syddansk Universitet",
+      "name": "University of Southern Denmark",
       "course_base": "https://odinlister.sdu.dk",
       "course_url": "https://odinlister.sdu.dk/fagbesk/internkode/{ref}/en",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Det Naturvidenskabelige Fakultet (kodepræfikserne FY, FT, KE, MM, DM, AI, NAT, QC) samt TEK-uddannelserne i Fysik og Teknologi og Elektronik. Kun aktive kursusbeskrivelser. Ph.d.-kurser suppleret fra phdcourses.dk.",
+      "scope": "Faculty of Science (code prefixes FY, FT, KE, MM, DM, AI, NAT, QC) and the Faculty of Engineering programmes in Physics and Technology and Electronics. Active course descriptions only. PhD courses supplemented from phdcourses.dk.",
       "totals": {
         "BSc": 161,
         "MSc": 191,
@@ -105,19 +217,19 @@
         "Master": 24
       },
       "departments": {
-        "FKF": "Fysik, Kemi og Farmaci",
-        "IMADA": "Matematik og Datalogi",
-        "QC": "MSc i Quantum Computing",
-        "TEK": "Det Tekniske Fakultet"
+        "FKF": "Physics, Chemistry and Pharmacy",
+        "IMADA": "Mathematics and Computer Science",
+        "QC": "MSc in Quantum Computing",
+        "TEK": "Faculty of Engineering"
       }
     },
     "AAU": {
-      "name": "Aalborg Universitet",
+      "name": "Aalborg University",
       "course_base": "https://moduler.aau.dk",
       "course_url": "https://moduler.aau.dk/course/2026-2027/{code}",
       "harvested": "2026-11-02",
       "academic_year": "2026/2027",
-      "scope": "Det Ingeniør- og Naturvidenskabelige Fakultet og Det Tekniske Fakultet for IT og Design. Totaler er unikke modultitler pr. niveau. Ph.d.-kurser fra phdcourses.dk.",
+      "scope": "Faculty of Engineering and Science and the Technical Faculty of IT and Design. Totals are unique module titles per level. PhD courses from phdcourses.dk.",
       "totals": {
         "BSc": 800,
         "MSc": 725,
@@ -126,11 +238,11 @@
         "PhD": 28
       },
       "departments": {
-        "MP": "Materialer og Produktion (fysik og nanoteknologi)",
-        "KB": "Kemi og Biovidenskab",
-        "CS": "Datalogi",
-        "ES": "Elektroniske Systemer",
-        "MATH": "Matematiske Fag"
+        "MP": "Materials and Production (physics and nanotechnology)",
+        "KB": "Chemistry and Bioscience",
+        "CS": "Computer Science",
+        "ES": "Electronic Systems",
+        "MATH": "Mathematical Sciences"
       }
     }
   }
