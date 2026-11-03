@@ -147,6 +147,18 @@ for cat, hosts in summ.items():
     lines.append(f"\n### {cat}\n\n| Site | Pages |\n|---|---:|")
     for h, n in sorted(hosts.items(), key=lambda x: (-x[1], x[0])):
         lines.append(f"| {h} | {n} |")
+chk = D / "sources_check.csv"
+if chk.exists():
+    cr = list(csv.DictReader(chk.open(encoding="utf-8")))
+    cnt = {v: sum(1 for r in cr if r["verdict"] == v) for v in ("public", "bot-protected", "login", "error")}
+    lines.append(f"""
+## Access check
+
+The workflow "Check sources" opened {len(cr)} pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **{cnt['public']} public, {cnt['login']} behind a login**, {cnt['bot-protected']} bot-protected and {cnt['error']} not reachable.
+
+- *Bot-protected* pages (the AU research portal) show a Cloudflare challenge to scripts but open normally in a browser without logging in.
+- *Not reachable* are mostly University of Copenhagen web servers (ku.dk), which do not answer requests from GitHub's servers; they open normally in a browser without logging in. The rest were outdated links to unit websites, which have been removed (the map links to the research-portal page instead).
+""")
 lines.append(f"\n\nTotal: {len(out)} pages from {len({urlparse(r['url'].split(' ')[0]).netloc for r in out})} sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).\n")
 (ROOT / "SOURCES.md").write_text("\n".join(lines), encoding="utf-8")
 print(f"{len(out)} kilder, {len(summ)} kategorier")

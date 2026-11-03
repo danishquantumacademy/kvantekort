@@ -87,11 +87,11 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | electro.dtu.dk | 16 |
 | researchprofiles.ku.dk | 16 |
 | pure.au.dk | 10 |
-| www.healthtech.dtu.dk | 10 |
 | www.nanolab.dtu.dk | 9 |
 | physics.dtu.dk | 8 |
+| www.healthtech.dtu.dk | 8 |
 | nbi.ku.dk | 5 |
-| www.compute.dtu.dk | 5 |
+| www.compute.dtu.dk | 4 |
 | www.kemi.dtu.dk | 4 |
 | phys.au.dk | 3 |
 | www.space.dtu.dk | 3 |
@@ -102,7 +102,6 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | cbqs.ku.dk | 1 |
 | cfin.au.dk | 1 |
 | chem.au.dk | 1 |
-| daisy.aau.dk | 1 |
 | diku.dk | 1 |
 | ece.au.dk | 1 |
 | engtech.dtu.dk | 1 |
@@ -120,12 +119,10 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | www.bigq.fysik.dtu.dk | 1 |
 | www.bio.aau.dk | 1 |
 | www.bio.ku.dk | 1 |
-| www.ciss.dk | 1 |
 | www.classique.aau.dk | 1 |
 | www.cmc.aau.dk | 1 |
 | www.cs.aau.dk | 1 |
 | www.cs.au.dk | 1 |
-| www.fotonik.dtu.dk | 1 |
 | www.fysik.dtu.dk | 1 |
 | www.ind.ku.dk | 1 |
 | www.ki.ku.dk | 1 |
@@ -167,5 +164,13 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | researchprofiles.ku.dk | 1 |
 | vbn.aau.dk | 1 |
 
+## Access check
 
-Total: 1169 pages from 73 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+The workflow "Check sources" opened 131 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **100 public, 0 behind a login**, 3 bot-protected and 28 not reachable.
+
+- *Bot-protected* pages (the AU research portal) show a Cloudflare challenge to scripts but open normally in a browser without logging in.
+- *Not reachable* are mostly University of Copenhagen web servers (ku.dk), which do not answer requests from GitHub's servers; they open normally in a browser without logging in. The rest were outdated links to unit websites, which have been removed (the map links to the research-portal page instead).
+
+
+
+Total: 1163 pages from 70 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
