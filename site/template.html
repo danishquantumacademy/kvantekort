@@ -168,7 +168,6 @@ details.dgroup>summary:hover h2{color:var(--accent)}
 .meta{grid-column:2/4;display:flex;flex-wrap:wrap;gap:3px 12px;font-size:12.5px;color:var(--muted)}
 .meta .mono{font-family:var(--mono)}
 .empty{padding:20px;color:var(--muted);text-align:center}
-.pick.school{border-style:dashed}
 .schoolbox{display:grid;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
 .schoolbox h3{margin:0;font-size:14px}
 .stbl{border-collapse:collapse;font-size:13px;width:100%}
@@ -388,8 +387,8 @@ footer a{color:var(--accent)}
   AREAS.forEach(a=>rl.append(el('span',{class:'an',style:`color:${acol(a)}`},`(${a}) ${a==='I'?'Concepts':a==='II'?'HW & SW eng.':'Applications'}`),...BINS.map((b,i)=>el('span',{class:'sw5',style:`background:var(--a${a}-${i+1})`,title:`(${a}) ${Q.areas[a]}: ${b[2]} course(s)`}))));
   const lk=document.getElementById('levels-key'); LV.forEach(l=>lk.append(el('b',{},l),el('span',{},Q.levels[l])));
   const heat=n=>n<=0?0:Math.min(.85,.14+.13*n);
-  const lg=document.getElementById('legend'); lg.append(el('span',{},'Courses per cell:'));
-  [[1,'1'],[3,'3'],[6,'6+']].forEach(([n,l])=>lg.append(el('span',{},el('span',{class:'sw',style:`background:rgba(var(--heat),${heat(n)})`}),l)));
+  const lg=document.getElementById('legend'); lg.append(el('span',{},'Number of courses per cell, by shade:'));
+  [[1,'1'],[2,'2'],[3,'3'],[4,'4'],[5,'5'],[6,'6 or more']].forEach(([n,l])=>lg.append(el('span',{},el('span',{class:'sw',style:`background:rgba(var(--heat),${heat(n)})`}),l)));
 
   function renderProf(list){
     const box=document.getElementById('prof'); box.innerHTML='';
