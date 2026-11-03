@@ -8,20 +8,20 @@
    a CFQT profile triangle, an ECTS bar for the whole 120 ECTS MSc and the course list with reasons. */
 :root{
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
-  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
-  --aI:#6b8a12; --aII:#13729c; --aIII:#a3173d; --empty:#eef0f5; --ref:#141a2b; --other:#c9cfdc;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5; --ref:#141a2b; --other:#c9cfdc;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; --ref:#ffffff; --other:#3a4360; color-scheme:dark}}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; --ref:#ffffff; --other:#3a4360; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; --ref:#ffffff; --other:#3a4360; color-scheme:dark}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; --ref:#ffffff; --other:#3a4360; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -127,9 +127,10 @@ footer a{color:var(--accent)}
     <div class="examples" id="examples"><span class="l">Or try:</span></div>
     <div class="settings">
       <label>I study at <select id="home"></select></label>
+      <label>Compare with CFQT profile <select id="prof"></select></label>
       <label><input type="checkbox" id="cross"> Include courses at other universities</label>
       <label>Quantum courses <select id="target"><option value="30">about 30 ECTS</option><option value="45" selected>about 45 ECTS</option><option value="60">about 60 ECTS</option><option value="75">about 75 ECTS</option></select></label>
-      <label>Thesis <select id="thesis"><option value="30" selected>30 ECTS, quantum topic</option><option value="45">45 ECTS, quantum topic</option><option value="60">60 ECTS, quantum topic</option><option value="0">not in quantum</option></select></label>
+      <label>Thesis <select id="thesis"><option value="60" selected>60 ECTS, quantum topic</option><option value="45">45 ECTS, quantum topic</option><option value="30">30 ECTS, quantum topic</option><option value="0">not in quantum</option></select></label>
     </div>
   </section>
 
@@ -201,7 +202,7 @@ footer a{color:var(--accent)}
     {name:'Teaching and communication',w:['teach','undervis','education','formidl','outreach','school','gymnasi'],subs:['8.4'],style:'III'},
     {name:'Energy',w:['energy','energi','solar','sol','battery','batteri'],subs:['2.3','5.6']}
   ];
-  const EXAMPLES=['I want to build quantum computers in the lab','Quantum algorithms and programming','Light, lasers and photonics','Cryptography and secure communication','Mathematics and information theory','Chemistry and molecules on quantum computers','Materials and nanotechnology','Startups and how quantum creates value'];
+  const EXAMPLES=['I want to build quantum computers in the lab','Quantum algorithms and programming','Light, lasers and photonics'];
 
   function interpret(text){
     const t=' '+text.toLowerCase().replace(/[^a-zæøåäöü0-9\- ]/g,' ')+' ';
@@ -212,18 +213,28 @@ footer a{color:var(--accent)}
   }
 
   // ---- triangle (CFQT geometry) ----
-  function geometry(W){const h=W*Math.sqrt(3)/2,pad=W*.04,top=pad;const A=[W/2+pad,top],BL=[pad,h+top],BR=[W+pad,h+top];const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2],lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];const L=mid(A,BL),Rr=mid(A,BR),M=mid(BL,BR),O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]};const cells=[];for(const a of AREAS){const[P1,P2,V]=sides[a];cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}))}return{W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,cells,sides,lerp}}
+  function geometry(W){const h=W*Math.sqrt(3)/2,pad=W*.04,top=pad;const A=[W/2+pad,top],BL=[pad,h+top],BR=[W+pad,h+top];const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2],lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];const L=mid(A,BL),Rr=mid(A,BR),M=mid(BL,BR),O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]};const cells=[];for(const a of AREAS){const[P1,P2,V]=sides[a];cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}))}return{W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,O,cells,sides,lerp}}
   const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
   const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return[x/pts.length,y/pts.length]};
   function profile(courses,thesis){const lv={},depth={},tOnly={};AREAS.forEach(a=>{const idx=courses.map(c=>c.prof[a]?LV.indexOf(c.prof[a]):-1);const t=thesis&&a==='I'?LV.indexOf('C1'):-1;const cm=Math.max(-1,...idx),mx=Math.max(cm,t);lv[a]=mx;LV.forEach((l,i)=>{depth[a+l]=idx.filter(v=>v>=i).length+(t>=i?1:0);tOnly[a+l]=i>cm&&i<=t})});return{lv,depth,tOnly}}
+  const PBINS=[[1,1,'1'],[2,2,'2'],[3,4,'3–4'],[5,7,'5–7'],[8,1e9,'8+']];
+  const pstep=n=>n<=0?0:PBINS.findIndex(b=>n>=b[0]&&n<=b[1])+1;
+  const RP=D.profiles||{};
+  const lvTxt=(v,a)=>v.levels[a]?(v.levels[a]+(v.upto&&v.upto[a]?'–'+v.upto[a]:'')):'–';
   function drawTri(pr){const g=geometry(280);const svg=sv('svg',{class:'tri',viewBox:`0 0 ${g.W.toFixed(0)} ${g.H.toFixed(0)}`,role:'img','aria-label':`Profile: ${AREAS.map(a=>`(${a}) ${pr.lv[a]>=0?LV[pr.lv[a]]:'none'}`).join(', ')}`});
-    g.cells.forEach(c=>{const r=LV.indexOf(c.l)<=pr.lv[c.a],d=pr.depth[c.a+c.l],t=pr.tOnly[c.a+c.l];const op=!r?1:t?.28:Math.min(.92,.32+.15*d);const poly=sv('polygon',{points:P(c.pts),fill:r?acol(c.a):'var(--empty)','fill-opacity':op.toFixed(2),stroke:t?acol(c.a):'var(--surface)','stroke-width':t?1.3:1,'stroke-dasharray':t?'2 2':'none'});poly.append(sv('title',{},`(${c.a}) ${Q.areas[c.a]} ${c.l} ${Q.levels[c.l]}: ${r?(t?'through the thesis':`${d} course(s)`):'not reached'}`));svg.append(poly);const[x,y]=centroid(c.pts);if(c.l!=='A1')svg.append(sv('text',{x:x.toFixed(1),y:(y+3.5).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':9.5,'font-weight':600,fill:r&&!t&&op>.55?'var(--bg)':'var(--muted)','pointer-events':'none'},c.l))});
+    svg.append(sv('defs',{},...AREAS.map(a=>sv('pattern',{id:`ph-${a}`,width:6,height:6,patternUnits:'userSpaceOnUse',patternTransform:'rotate(45)'},sv('rect',{width:6,height:6,fill:'var(--empty)'}),sv('rect',{width:2.5,height:6,fill:acol(a)})))));
+    g.cells.forEach(c=>{const r=LV.indexOf(c.l)<=pr.lv[c.a],d=pr.depth[c.a+c.l],t=pr.tOnly[c.a+c.l];const k=r&&!t?pstep(d):0;
+      const poly=sv('polygon',{points:P(c.pts),fill:!r?'var(--empty)':t?`url(#ph-${c.a})`:`var(--a${c.a}-${k})`,stroke:'var(--surface)','stroke-width':1});
+      poly.append(sv('title',{},`(${c.a}) ${Q.areas[c.a]} ${c.l} ${Q.levels[c.l]}: ${r?(t?'reached only through the thesis':`${d} course(s) at or above this level`):'not reached'}`));svg.append(poly);
+      const[x,y]=centroid(c.pts);if(c.l!=='A1')svg.append(sv('text',{x:x.toFixed(1),y:(y+3.5).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':9.5,'font-weight':600,fill:k?`var(--on-${k})`:'var(--muted)','pointer-events':'none'},c.l))});
     [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':4,'stroke-linecap':'round'})));
     svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':1}));
-    // CFQT P6 reference (QT engineering professional, "e.g. QT degree programme"): I B1, II B2, III A2
-    const fr=(a,l)=>{const[P1,P2,V]=g.sides[a];const k=Math.max(0,LV.indexOf(l)-1)/4;return[g.lerp(P1,V,k),g.lerp(P2,V,k)]};
-    const[i1,i2]=fr('I','B1'),[ii1,ii2]=fr('II','B2'),[iii1,iii2]=fr('III','A2');
-    svg.append(sv('polygon',{points:P([g.L,i1,i2,g.R,iii1,iii2,g.M,ii2,ii1]),fill:'none',stroke:'var(--ref)','stroke-width':1.6,'stroke-dasharray':'5 4','stroke-linejoin':'round','pointer-events':'none'}));
+    // the chosen CFQT qualification profile as a solid outline
+    const v=RP[state.ref];
+    if(v){const fr=(a,l)=>{const[P1,P2,V]=g.sides[a];const i=l?LV.indexOf(l):-1;if(i<0)return[g.O,g.O];if(i===0)return[g.lerp(g.O,P1,.5),g.lerp(g.O,P2,.5)];if(i===1)return[P1,P2];const k=(i-1)/4;return[g.lerp(P1,V,k),g.lerp(P2,V,k)]};
+      const[i1,i2]=fr('I',v.levels.I),[ii1,ii2]=fr('II',v.levels.II),[iii1,iii2]=fr('III',v.levels.III);const pts=P([g.L,i1,i2,g.R,iii1,iii2,g.M,ii2,ii1]);
+      svg.append(sv('polygon',{points:pts,fill:'none',stroke:'var(--surface)','stroke-width':4.5,'stroke-linejoin':'round','pointer-events':'none'}));
+      svg.append(sv('polygon',{points:pts,fill:'none',stroke:'var(--ref)','stroke-width':2,'stroke-linejoin':'round','pointer-events':'none'}))}
     return svg}
 
   // ---- scoring and plans ----
@@ -344,10 +355,15 @@ footer a{color:var(--accent)}
 
   // ---- UI ----
   const home=document.getElementById('home');
-  home.append(el('option',{value:'ALL'},'any Danish university'),...INSTS.map(i=>el('option',{value:i},`${i} – ${R.institutions[i].name}`)));
+  const HOME_ORDER=['KU',...INSTS.filter(i=>i!=='KU')];
+  home.append(...HOME_ORDER.map(i=>el('option',{value:i},`${i} – ${R.institutions[i].name}`)),el('option',{value:'ALL'},'any Danish university'));
+  const profSel=document.getElementById('prof');
+  Object.entries(RP).forEach(([k,v])=>profSel.append(el('option',{value:k},`${k} ${v.name} (I ${lvTxt(v,'I')}, II ${lvTxt(v,'II')}, III ${lvTxt(v,'III')})`)));
+  profSel.value='P6';
   const ex=document.getElementById('examples');
   EXAMPLES.forEach(t=>{const b=el('button',{class:'chip',type:'button'},t); b.onclick=()=>{q.value=t; run()}; ex.append(b)});
-  const q=document.getElementById('q'), state={removed:new Set()};
+  const q=document.getElementById('q'), state={removed:new Set(),ref:'P6'};
+  profSel.addEventListener('change',()=>{state.ref=profSel.value;run()});
   document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();state.removed.clear();run()});
   ['home','cross','target','thesis'].forEach(id=>document.getElementById(id).addEventListener('change',run));
 
@@ -408,11 +424,12 @@ footer a{color:var(--accent)}
         bar,key,list,tb));
     });
     state.built=built;state.thesis=thesis;state.home=h;if(!(state.tt<built.length))state.tt=0;renderTT();
-    msg.append(el('div',{class:'style-note'},'The dashed outline in each triangle is CFQT profile P6, QT engineering professional, which the framework describes as typical for a quantum degree programme.'));
+    const v=RP[state.ref];
+    if(v) msg.append(el('div',{class:'style-note'},`The dark outline in each triangle is CFQT qualification profile ${state.ref} ${v.name}${v.note?` (${v.note})`:''}: I ${lvTxt(v,'I')}, II ${lvTxt(v,'II')}, III ${lvTxt(v,'III')}. Shades show how many courses reach each level (lighter 1, darker 8 or more); stripes mark levels reached only through the master's thesis.`));
   }
   document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'CFQT v3.0'),' (Greinert and Müller, QUCATS, 2025, CC BY 4.0).');
   // example state so the page shows what it does
   q.value='I like programming and would like to work on quantum algorithms, maybe for chemistry. I also enjoy maths.';
-  home.value='ALL'; run();
+  home.value='KU'; run();
 })();
 </script>

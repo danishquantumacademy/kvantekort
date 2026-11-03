@@ -18,8 +18,8 @@ data/
   raw/<inst>_courses.json   # full harvest (all courses), produced by the scrapers
   classification/<inst>.csv # quantum-relevant courses with CFQT subdomains and proficiency levels
   schedule/<inst>.txt       # MSc courses: semester, teaching block, weekly schedule slot, prerequisite course codes
-  people/<inst>.txt         # teachers: position, organisational units, portal fingerprint / recent outputs (research portals)
-  people/research.txt       # research focus per teacher with CFQT subdomains (written by DQA)
+  people/<inst>.txt         # educators: position, organisational units, portal fingerprint / recent outputs (research portals)
+  people/research.txt       # research focus per educator with CFQT subdomains (written by DQA)
   people/teaching.csv       # who teaches which course and in which role (no contact data)
   people/units.txt          # landing pages of departments, sections, groups and centres
   groups/groups.json        # research groups on groups.html: summary, CFQT tags, links, feed sources
@@ -41,7 +41,7 @@ site/
   triangle_template.html    # CFQT proficiency triangle per university (triangle.html)
   students_template.html    # study path profiles per MSc programme (students.html)
   planner_template.html     # course finder: interests -> three MSc course plans (planner.html)
-  people_template.html      # research behind the courses: teachers, units, research and course fit (people.html)
+  people_template.html      # research behind the courses: educators, units, research and course fit (people.html)
   groups_template.html      # research group profiles: members, publications, projects, news, events, positions, courses (groups.html)
   index.html                # generated; served by GitHub Pages
   CNAME                     # map.danishquantumacademy.dk
@@ -82,9 +82,9 @@ Harvested data and expert judgement are kept apart: scrapers only write to `data
 - `slot`: the weekly schedule slot where the university has one: DTU modules (e.g. `F3A`, Tuesday 8–12) and KU schedule groups (`A`, `B`, `C`). AU, SDU and AAU publish no comparable slots in their catalogues.
 - `prerequisites`: course codes named under recommended or academic prerequisites; where a course is named only by title, the code was added by hand (noted in the file header).
 
-## Teachers and research
+## Educators and research
 
-`data/people/` describes the teachers named in the course catalogues, from the universities' research portals (DTU Orbit, KU research portal, AU Pure, SDU Find Researcher, AAU VBN): position, department, section or group, centres, the portal's automatic fingerprint concepts and recent research output titles. Only professional information is kept; no e-mail addresses, phone numbers or CV details. `research.txt` adds a short research focus and the CFQT subdomains it touches, written by Danish Quantum Academy from that data. `people.html` compares those subdomains with the subdomains of each course the teacher teaches.
+`data/people/` describes the educators named in the course catalogues, from the universities' research portals (DTU Orbit, KU research portal, AU Pure, SDU Find Researcher, AAU VBN): position, department, section or group, centres, the portal's automatic fingerprint concepts and recent research output titles. Only professional information is kept; no e-mail addresses, phone numbers or CV details. `research.txt` adds a short research focus and the CFQT subdomains it touches, written by Danish Quantum Academy from that data. `people.html` compares those subdomains with the subdomains of each course the educator teaches.
 
 ## Research groups (pilot)
 

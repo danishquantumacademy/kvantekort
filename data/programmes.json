@@ -1,229 +1,824 @@
 {
-  "_comment": "Student study paths through Danish MSc programmes, used for the student-perspective triangles. 'dedicated' = a quantum MSc whose structure is taken from the curriculum; 'path' = Danish Quantum Academy's example of a quantum-focused route through a broader MSc. Course roles: compulsory, restricted (restricted elective in the curriculum), elective (an elective a quantum-focused student would plausibly choose). The thesis profile is an assumption: a master's thesis in a quantum topic (CFQT gives a master's thesis in quantum information science as an example of C1 in area I).",
-  "reference_profiles": {
-    "P6": {"name": "QT engineering professional", "note": "e.g. QT degree programme", "levels": {"I": "B1", "II": "B2", "III": "A2"}},
-    "P7": {"name": "QT (HW or SW) specialist", "note": "e.g. QT master + work experience", "levels": {"I": "B2", "II": "C1", "III": "B1"}},
-    "P9": {"name": "QT core innovator", "note": "e.g. PhD in quantum physics", "levels": {"I": "C1", "II": "B1", "III": "A2"}}
+ "_comment": "Student study paths through Danish MSc programmes, used for the student-perspective triangles. 'dedicated' = a quantum MSc whose structure is taken from the curriculum; 'path' = Danish Quantum Academy's example of a quantum-focused route through a broader MSc. Course roles: compulsory, restricted (restricted elective in the curriculum), elective (an elective a quantum-focused student would plausibly choose). The thesis profile is an assumption: a master's thesis in a quantum topic (CFQT gives a master's thesis in quantum information science as an example of C1 in area I).",
+ "reference_profiles": {
+  "P1": {
+   "name": "QT aware person",
+   "note": "",
+   "levels": {
+    "I": "A1",
+    "II": "A1",
+    "III": "A1"
+   }
   },
-  "groups": {
-    "quantum": "Dedicated quantum programmes",
-    "physics": "Physics and engineering physics",
-    "mathematics": "Mathematics",
-    "chemistry": "Chemistry"
+  "P2": {
+   "name": "QT informed decision maker",
+   "note": "",
+   "levels": {
+    "I": null,
+    "II": null,
+    "III": "A1"
+   }
   },
-  "programmes": [
+  "P3": {
+   "name": "QT literate person",
+   "note": "QT-literate business role, advocate, enthusiast",
+   "levels": {
+    "I": "A2",
+    "II": "A2",
+    "III": "A2"
+   }
+  },
+  "P4": {
+   "name": "QT practitioner",
+   "note": "works with QT, technician, QT user",
+   "levels": {
+    "I": "A1",
+    "II": "B1",
+    "III": "A1"
+   }
+  },
+  "P5": {
+   "name": "QT business analyst",
+   "note": "",
+   "levels": {
+    "I": "A2",
+    "II": "A2",
+    "III": "B1"
+   },
+   "upto": {
+    "III": "B2"
+   }
+  },
+  "P6": {
+   "name": "QT engineering professional",
+   "note": "e.g. QT degree programme",
+   "levels": {
+    "I": "B1",
+    "II": "B2",
+    "III": "A2"
+   }
+  },
+  "P7": {
+   "name": "QT (HW or SW) specialist",
+   "note": "e.g. senior QT engineer, QT architect",
+   "levels": {
+    "I": "B2",
+    "II": "C1",
+    "III": "B1"
+   },
+   "upto": {
+    "II": "C2"
+   }
+  },
+  "P8": {
+   "name": "QT (product) strategist",
+   "note": "",
+   "levels": {
+    "I": "B2",
+    "II": "B2",
+    "III": "C1"
+   },
+   "upto": {
+    "III": "C2"
+   }
+  },
+  "P9": {
+   "name": "QT core innovator",
+   "note": "e.g. PhD in quantum physics",
+   "levels": {
+    "I": "C1",
+    "II": "B1",
+    "III": "A2"
+   },
+   "upto": {
+    "I": "C2"
+   }
+  }
+ },
+ "groups": {
+  "quantum": "Dedicated quantum programmes",
+  "physics": "Physics and engineering physics",
+  "mathematics": "Mathematics",
+  "chemistry": "Chemistry"
+ },
+ "programmes": [
+  {
+   "id": "qis-ku-dtu",
+   "group": "quantum",
+   "type": "dedicated",
+   "name": "MSc in Quantum Information Science",
+   "institutions": [
+    "KU",
+    "DTU"
+   ],
+   "source": "https://studies.ku.dk/masters/quantum-information-science/programme-structure/",
+   "summary": "Joint UCPH–DTU programme. 20 ECTS compulsory, 25–40 ECTS restricted electives, 30 ECTS free electives, 30 or 45 ECTS thesis.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum information science"
+   },
+   "courses": [
     {
-      "id": "qis-ku-dtu", "group": "quantum", "type": "dedicated",
-      "name": "MSc in Quantum Information Science", "institutions": ["KU", "DTU"],
-      "source": "https://studies.ku.dk/masters/quantum-information-science/programme-structure/",
-      "summary": "Joint UCPH–DTU programme. 20 ECTS compulsory, 25–40 ECTS restricted electives, 30 ECTS free electives, 30 or 45 ECTS thesis.",
-      "thesis": {"ects": 30, "levels": {"I": "C1"}, "note": "Thesis in quantum information science"},
-      "courses": [
-        {"inst": "KU", "code": "NFYK23002U", "role": "compulsory"},
-        {"inst": "KU", "code": "NMAK23007U", "role": "compulsory"},
-        {"inst": "DTU", "code": "10385", "role": "compulsory"},
-        {"inst": "KU", "code": "NMAK14020U", "role": "restricted"},
-        {"inst": "KU", "code": "NFYK23005U", "role": "restricted"},
-        {"inst": "DTU", "code": "10386", "role": "restricted"},
-        {"inst": "DTU", "code": "02196", "role": "restricted"},
-        {"inst": "DTU", "code": "02195", "role": "restricted"},
-        {"inst": "KU", "code": "NDAK24010U", "role": "elective"},
-        {"inst": "KU", "code": "NDAK26003U", "role": "elective"},
-        {"inst": "DTU", "code": "02197", "role": "elective"}
-      ]
+     "inst": "KU",
+     "code": "NFYK23002U",
+     "role": "compulsory"
     },
     {
-      "id": "qc-sdu", "group": "quantum", "type": "dedicated",
-      "name": "MSc in Quantum Computing", "institutions": ["SDU"],
-      "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78831&lang=en",
-      "summary": "Compulsory QC801–QC806 (60 ECTS), electives including QC807–QC810, 30 ECTS thesis. First intake autumn 2025.",
-      "thesis": {"ects": 30, "levels": {"I": "C1"}, "note": "Thesis in quantum computing"},
-      "courses": [
-        {"inst": "SDU", "code": "QC801", "role": "compulsory"},
-        {"inst": "SDU", "code": "QC802", "role": "compulsory"},
-        {"inst": "SDU", "code": "QC803", "role": "compulsory"},
-        {"inst": "SDU", "code": "QC804", "role": "compulsory"},
-        {"inst": "SDU", "code": "QC805", "role": "compulsory"},
-        {"inst": "SDU", "code": "QC806", "role": "compulsory"},
-        {"inst": "SDU", "code": "QC807", "role": "elective"},
-        {"inst": "SDU", "code": "QC809", "role": "elective"},
-        {"inst": "SDU", "code": "QC810", "role": "elective"}
-      ]
+     "inst": "KU",
+     "code": "NMAK23007U",
+     "role": "compulsory"
     },
     {
-      "id": "phys-au", "group": "physics", "type": "path",
-      "name": "MSc in Physics, quantum path", "institutions": ["AU"],
-      "source": "https://kursuskatalog.au.dk",
-      "summary": "Example route through AU's MSc in Physics using the Department of Physics and Astronomy's quantum courses. AU also hosts part of the Erasmus Mundus MSc in Quantum Technologies and Engineering.",
-      "thesis": {"ects": 60, "levels": {"I": "C1"}, "note": "Thesis in quantum physics or quantum technology"},
-      "courses": [
-        {"inst": "AU", "code": "525242U001", "role": "elective"},
-        {"inst": "AU", "code": "525242U015", "role": "elective"},
-        {"inst": "AU", "code": "525232U001", "role": "elective"},
-        {"inst": "AU", "code": "525172U004", "role": "elective"},
-        {"inst": "AU", "code": "525252U008", "role": "elective"},
-        {"inst": "AU", "code": "525242U004", "role": "elective"},
-        {"inst": "AU", "code": "525242U005", "role": "elective"},
-        {"inst": "AU", "code": "520222U003", "role": "elective"}
-      ]
+     "inst": "DTU",
+     "code": "10385",
+     "role": "compulsory"
     },
     {
-      "id": "phys-dtu", "group": "physics", "type": "path",
-      "name": "MSc in Physics and Nanotechnology, quantum path", "institutions": ["DTU"],
-      "source": "https://kurser.dtu.dk",
-      "summary": "Example route through DTU's MSc in Physics and Nanotechnology using DTU Physics and DTU Electro quantum courses.",
-      "thesis": {"ects": 30, "levels": {"I": "C1"}, "note": "Thesis in quantum physics or quantum technology"},
-      "courses": [
-        {"inst": "DTU", "code": "10112", "role": "elective"},
-        {"inst": "DTU", "code": "10380", "role": "elective"},
-        {"inst": "DTU", "code": "10384", "role": "elective"},
-        {"inst": "DTU", "code": "10385", "role": "elective"},
-        {"inst": "DTU", "code": "10386", "role": "elective"},
-        {"inst": "DTU", "code": "10387", "role": "elective"},
-        {"inst": "DTU", "code": "10850", "role": "elective"},
-        {"inst": "DTU", "code": "34042", "role": "elective"},
-        {"inst": "DTU", "code": "34051", "role": "elective"}
-      ]
+     "inst": "KU",
+     "code": "NMAK14020U",
+     "role": "restricted"
     },
     {
-      "id": "phys-ku", "group": "physics", "type": "path",
-      "name": "MSc in Physics, quantum path", "institutions": ["KU"],
-      "source": "https://kucourses.dk",
-      "summary": "Example route through UCPH's MSc in Physics using Niels Bohr Institute quantum courses.",
-      "thesis": {"ects": 60, "levels": {"I": "C1"}, "note": "Thesis in quantum physics or quantum technology"},
-      "courses": [
-        {"inst": "KU", "code": "NFYK15003U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK13006U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK18004U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK23002U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK23005U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK26000U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK24003U", "role": "elective"},
-        {"inst": "KU", "code": "NFYK10017U", "role": "elective"}
-      ]
+     "inst": "KU",
+     "code": "NFYK23005U",
+     "role": "restricted"
     },
     {
-      "id": "phys-sdu", "group": "physics", "type": "path",
-      "name": "MSc in Physics, quantum path", "institutions": ["SDU"],
-      "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78412&lang=en",
-      "summary": "Example route through SDU's MSc in Physics, combining physics courses with electives from the MSc in Quantum Computing.",
-      "thesis": {"ects": 60, "levels": {"I": "C1"}, "note": "Thesis in quantum physics"},
-      "courses": [
-        {"inst": "SDU", "code": "FY803", "role": "compulsory"},
-        {"inst": "SDU", "code": "FY845", "role": "elective"},
-        {"inst": "SDU", "code": "FY809", "role": "elective"},
-        {"inst": "SDU", "code": "FY837", "role": "elective"},
-        {"inst": "SDU", "code": "QC801", "role": "elective"},
-        {"inst": "SDU", "code": "QC802", "role": "elective"}
-      ]
+     "inst": "DTU",
+     "code": "10386",
+     "role": "restricted"
     },
     {
-      "id": "engphys-sdu", "group": "physics", "type": "path",
-      "name": "MSc in Engineering Physics, nano-optics path", "institutions": ["SDU"],
-      "source": "https://odin.sdu.dk",
-      "summary": "Example route through SDU's MSc in Engineering (Physics and Technology), built on the Centre for Nano Optics courses.",
-      "thesis": {"ects": 30, "levels": {"I": "B2", "II": "B2"}, "note": "Thesis in quantum or nano-optics engineering"},
-      "courses": [
-        {"inst": "SDU", "code": "T470021101", "role": "elective"},
-        {"inst": "SDU", "code": "T470038101", "role": "elective"},
-        {"inst": "SDU", "code": "T470005101", "role": "elective"},
-        {"inst": "SDU", "code": "T470008101", "role": "elective"},
-        {"inst": "SDU", "code": "T470017101", "role": "elective"},
-        {"inst": "SDU", "code": "T470042101", "role": "elective"},
-        {"inst": "SDU", "code": "T470040101", "role": "elective"}
-      ]
+     "inst": "DTU",
+     "code": "02196",
+     "role": "restricted"
     },
     {
-      "id": "phys-aau", "group": "physics", "type": "path",
-      "name": "MSc in Physics / Nanotechnology, quantum path", "institutions": ["AAU"],
-      "source": "https://moduler.aau.dk",
-      "summary": "Example route through AAU's MSc programmes in physics and nanomaterials, including AAU's quantum computing courses from Electronic Systems.",
-      "thesis": {"ects": 30, "levels": {"I": "C1"}, "note": "Thesis in quantum or nanophysics"},
-      "courses": [
-        {"inst": "AAU", "code": "F-FYS-K2-3", "role": "elective"},
-        {"inst": "AAU", "code": "F-NFM-K2-3", "role": "elective"},
-        {"inst": "AAU", "code": "F-FYS-K1-4", "role": "elective"},
-        {"inst": "AAU", "code": "F-FYS-K3-9", "role": "elective"},
-        {"inst": "AAU", "code": "F-FYS-K1-3", "role": "elective"},
-        {"inst": "AAU", "code": "ESNCEKK3K2", "role": "elective"},
-        {"inst": "AAU", "code": "F-FYS-K2-1A", "role": "elective"},
-        {"inst": "AAU", "code": "F-FYS-K3-1A", "role": "elective"}
-      ]
+     "inst": "DTU",
+     "code": "02195",
+     "role": "restricted"
     },
     {
-      "id": "math-ku", "group": "mathematics", "type": "path",
-      "name": "MSc in Mathematics, quantum information path", "institutions": ["KU"],
-      "source": "https://kucourses.dk",
-      "summary": "Example route through UCPH's MSc in Mathematics with the QMATH quantum information and mathematical physics courses.",
-      "thesis": {"ects": 30, "levels": {"I": "C1"}, "note": "Thesis in quantum information theory or mathematical physics"},
-      "courses": [
-        {"inst": "KU", "code": "NMAK14020U", "role": "elective"},
-        {"inst": "KU", "code": "NMAK22000U", "role": "elective"},
-        {"inst": "KU", "code": "NMAK23007U", "role": "elective"},
-        {"inst": "KU", "code": "NMAK15003U", "role": "elective"},
-        {"inst": "KU", "code": "NMAK23014U", "role": "elective"}
-      ]
+     "inst": "KU",
+     "code": "NDAK24010U",
+     "role": "elective"
     },
     {
-      "id": "math-sdu", "group": "mathematics", "type": "path",
-      "name": "MSc in Mathematics, quantum path", "institutions": ["SDU"],
-      "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78434&lang=en",
-      "summary": "Example route through SDU's MSc in Mathematics with operator-algebra and quantum computing electives.",
-      "thesis": {"ects": 30, "levels": {"I": "B2"}, "note": "Thesis in mathematics related to quantum information"},
-      "courses": [
-        {"inst": "SDU", "code": "MM868", "role": "elective"},
-        {"inst": "SDU", "code": "MM866", "role": "elective"},
-        {"inst": "SDU", "code": "QC802", "role": "elective"},
-        {"inst": "SDU", "code": "QC804", "role": "elective"}
-      ]
+     "inst": "KU",
+     "code": "NDAK26003U",
+     "role": "elective"
     },
     {
-      "id": "chem-ku", "group": "chemistry", "type": "path",
-      "name": "MSc in Chemistry, theoretical chemistry path", "institutions": ["KU"],
-      "source": "https://kucourses.dk",
-      "summary": "Example route through UCPH's MSc in Chemistry with computational and theoretical chemistry courses.",
-      "thesis": {"ects": 60, "levels": {"I": "C1"}, "note": "Thesis in quantum chemistry"},
-      "courses": [
-        {"inst": "KU", "code": "NKEA07016U", "role": "elective"},
-        {"inst": "KU", "code": "NKEK22001U", "role": "elective"},
-        {"inst": "KU", "code": "NKEK25005U", "role": "elective"}
-      ]
-    },
-    {
-      "id": "chem-au", "group": "chemistry", "type": "path",
-      "name": "MSc in Chemistry, quantum chemistry path", "institutions": ["AU"],
-      "source": "https://kursuskatalog.au.dk",
-      "summary": "Example route through AU's MSc in Chemistry, including quantum chemistry on quantum computers.",
-      "thesis": {"ects": 60, "levels": {"I": "C1"}, "note": "Thesis in quantum chemistry"},
-      "courses": [
-        {"inst": "AU", "code": "545242U010", "role": "elective"},
-        {"inst": "AU", "code": "545242U001", "role": "elective"},
-        {"inst": "AU", "code": "545222U001", "role": "elective"}
-      ]
-    },
-    {
-      "id": "chem-sdu", "group": "chemistry", "type": "path",
-      "name": "MSc in Chemistry, computational chemistry path", "institutions": ["SDU"],
-      "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78431&lang=en",
-      "summary": "Example route through SDU's MSc in Chemistry with computational quantum chemistry.",
-      "thesis": {"ects": 60, "levels": {"I": "C1"}, "note": "Thesis in quantum chemistry"},
-      "courses": [
-        {"inst": "SDU", "code": "KE820", "role": "elective"},
-        {"inst": "SDU", "code": "KE829", "role": "elective"}
-      ]
-    },
-    {
-      "id": "chem-dtu", "group": "chemistry", "type": "path",
-      "name": "MSc in Applied Chemistry, quantum chemistry path", "institutions": ["DTU"],
-      "source": "https://kurser.dtu.dk",
-      "summary": "Example route through DTU's MSc in Applied Chemistry with electronic structure and physical chemistry courses.",
-      "thesis": {"ects": 30, "levels": {"I": "C1"}, "note": "Thesis in quantum chemistry"},
-      "courses": [
-        {"inst": "DTU", "code": "26263", "role": "elective"},
-        {"inst": "DTU", "code": "26231", "role": "elective"},
-        {"inst": "DTU", "code": "26236", "role": "elective"},
-        {"inst": "DTU", "code": "10302", "role": "elective"}
-      ]
+     "inst": "DTU",
+     "code": "02197",
+     "role": "elective"
     }
-  ]
+   ]
+  },
+  {
+   "id": "qc-sdu",
+   "group": "quantum",
+   "type": "dedicated",
+   "name": "MSc in Quantum Computing",
+   "institutions": [
+    "SDU"
+   ],
+   "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78831&lang=en",
+   "summary": "Compulsory QC801–QC806 (60 ECTS), electives including QC807–QC810, 30 ECTS thesis. First intake autumn 2025.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum computing"
+   },
+   "courses": [
+    {
+     "inst": "SDU",
+     "code": "QC801",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC802",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC803",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC804",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC805",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC806",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC807",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC809",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC810",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "phys-au",
+   "group": "physics",
+   "type": "path",
+   "name": "MSc in Physics, quantum path",
+   "institutions": [
+    "AU"
+   ],
+   "source": "https://kursuskatalog.au.dk",
+   "summary": "Example route through AU's MSc in Physics using the Department of Physics and Astronomy's quantum courses. AU also hosts part of the Erasmus Mundus MSc in Quantum Technologies and Engineering.",
+   "thesis": {
+    "ects": 60,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum physics or quantum technology"
+   },
+   "courses": [
+    {
+     "inst": "AU",
+     "code": "525242U001",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "525242U015",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "525232U001",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "525172U004",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "525252U008",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "525242U004",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "525242U005",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "520222U003",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "phys-dtu",
+   "group": "physics",
+   "type": "path",
+   "name": "MSc in Physics and Nanotechnology, quantum path",
+   "institutions": [
+    "DTU"
+   ],
+   "source": "https://kurser.dtu.dk",
+   "summary": "Example route through DTU's MSc in Physics and Nanotechnology using DTU Physics and DTU Electro quantum courses.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum physics or quantum technology"
+   },
+   "courses": [
+    {
+     "inst": "DTU",
+     "code": "10112",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10380",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10384",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10385",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10386",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10387",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10850",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "34042",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "34051",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "phys-ku",
+   "group": "physics",
+   "type": "path",
+   "name": "MSc in Physics, quantum path",
+   "institutions": [
+    "KU"
+   ],
+   "source": "https://kucourses.dk",
+   "summary": "Example route through UCPH's MSc in Physics using Niels Bohr Institute quantum courses.",
+   "thesis": {
+    "ects": 60,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum physics or quantum technology"
+   },
+   "courses": [
+    {
+     "inst": "KU",
+     "code": "NFYK15003U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK13006U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK18004U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK23002U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK23005U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK26000U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK24003U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NFYK10017U",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "phys-sdu",
+   "group": "physics",
+   "type": "path",
+   "name": "MSc in Physics, quantum path",
+   "institutions": [
+    "SDU"
+   ],
+   "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78412&lang=en",
+   "summary": "Example route through SDU's MSc in Physics, combining physics courses with electives from the MSc in Quantum Computing.",
+   "thesis": {
+    "ects": 60,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum physics"
+   },
+   "courses": [
+    {
+     "inst": "SDU",
+     "code": "FY803",
+     "role": "compulsory"
+    },
+    {
+     "inst": "SDU",
+     "code": "FY845",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "FY809",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "FY837",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC801",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC802",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "engphys-sdu",
+   "group": "physics",
+   "type": "path",
+   "name": "MSc in Engineering Physics, nano-optics path",
+   "institutions": [
+    "SDU"
+   ],
+   "source": "https://odin.sdu.dk",
+   "summary": "Example route through SDU's MSc in Engineering (Physics and Technology), built on the Centre for Nano Optics courses.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "B2",
+     "II": "B2"
+    },
+    "note": "Thesis in quantum or nano-optics engineering"
+   },
+   "courses": [
+    {
+     "inst": "SDU",
+     "code": "T470021101",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "T470038101",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "T470005101",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "T470008101",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "T470017101",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "T470042101",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "T470040101",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "phys-aau",
+   "group": "physics",
+   "type": "path",
+   "name": "MSc in Physics / Nanotechnology, quantum path",
+   "institutions": [
+    "AAU"
+   ],
+   "source": "https://moduler.aau.dk",
+   "summary": "Example route through AAU's MSc programmes in physics and nanomaterials, including AAU's quantum computing courses from Electronic Systems.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum or nanophysics"
+   },
+   "courses": [
+    {
+     "inst": "AAU",
+     "code": "F-FYS-K2-3",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "F-NFM-K2-3",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "F-FYS-K1-4",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "F-FYS-K3-9",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "F-FYS-K1-3",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "ESNCEKK3K2",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "F-FYS-K2-1A",
+     "role": "elective"
+    },
+    {
+     "inst": "AAU",
+     "code": "F-FYS-K3-1A",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "math-ku",
+   "group": "mathematics",
+   "type": "path",
+   "name": "MSc in Mathematics, quantum information path",
+   "institutions": [
+    "KU"
+   ],
+   "source": "https://kucourses.dk",
+   "summary": "Example route through UCPH's MSc in Mathematics with the QMATH quantum information and mathematical physics courses.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum information theory or mathematical physics"
+   },
+   "courses": [
+    {
+     "inst": "KU",
+     "code": "NMAK14020U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NMAK22000U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NMAK23007U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NMAK15003U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NMAK23014U",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "math-sdu",
+   "group": "mathematics",
+   "type": "path",
+   "name": "MSc in Mathematics, quantum path",
+   "institutions": [
+    "SDU"
+   ],
+   "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78434&lang=en",
+   "summary": "Example route through SDU's MSc in Mathematics with operator-algebra and quantum computing electives.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "B2"
+    },
+    "note": "Thesis in mathematics related to quantum information"
+   },
+   "courses": [
+    {
+     "inst": "SDU",
+     "code": "MM868",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "MM866",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC802",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "QC804",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "chem-ku",
+   "group": "chemistry",
+   "type": "path",
+   "name": "MSc in Chemistry, theoretical chemistry path",
+   "institutions": [
+    "KU"
+   ],
+   "source": "https://kucourses.dk",
+   "summary": "Example route through UCPH's MSc in Chemistry with computational and theoretical chemistry courses.",
+   "thesis": {
+    "ects": 60,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum chemistry"
+   },
+   "courses": [
+    {
+     "inst": "KU",
+     "code": "NKEA07016U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NKEK22001U",
+     "role": "elective"
+    },
+    {
+     "inst": "KU",
+     "code": "NKEK25005U",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "chem-au",
+   "group": "chemistry",
+   "type": "path",
+   "name": "MSc in Chemistry, quantum chemistry path",
+   "institutions": [
+    "AU"
+   ],
+   "source": "https://kursuskatalog.au.dk",
+   "summary": "Example route through AU's MSc in Chemistry, including quantum chemistry on quantum computers.",
+   "thesis": {
+    "ects": 60,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum chemistry"
+   },
+   "courses": [
+    {
+     "inst": "AU",
+     "code": "545242U010",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "545242U001",
+     "role": "elective"
+    },
+    {
+     "inst": "AU",
+     "code": "545222U001",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "chem-sdu",
+   "group": "chemistry",
+   "type": "path",
+   "name": "MSc in Chemistry, computational chemistry path",
+   "institutions": [
+    "SDU"
+   ],
+   "source": "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78431&lang=en",
+   "summary": "Example route through SDU's MSc in Chemistry with computational quantum chemistry.",
+   "thesis": {
+    "ects": 60,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum chemistry"
+   },
+   "courses": [
+    {
+     "inst": "SDU",
+     "code": "KE820",
+     "role": "elective"
+    },
+    {
+     "inst": "SDU",
+     "code": "KE829",
+     "role": "elective"
+    }
+   ]
+  },
+  {
+   "id": "chem-dtu",
+   "group": "chemistry",
+   "type": "path",
+   "name": "MSc in Applied Chemistry, quantum chemistry path",
+   "institutions": [
+    "DTU"
+   ],
+   "source": "https://kurser.dtu.dk",
+   "summary": "Example route through DTU's MSc in Applied Chemistry with electronic structure and physical chemistry courses.",
+   "thesis": {
+    "ects": 30,
+    "levels": {
+     "I": "C1"
+    },
+    "note": "Thesis in quantum chemistry"
+   },
+   "courses": [
+    {
+     "inst": "DTU",
+     "code": "26263",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "26231",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "26236",
+     "role": "elective"
+    },
+    {
+     "inst": "DTU",
+     "code": "10302",
+     "role": "elective"
+    }
+   ]
+  }
+ ],
+ "reference_profiles_source": "CFQT v3.0, qualification profiles pp. 19-27; where the framework gives 'C1 or C2' (or 'B1 or B2') the lower level is in 'levels' and the upper in 'upto'."
 }

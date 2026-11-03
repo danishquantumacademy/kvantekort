@@ -4,24 +4,24 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
 /* Layout: university tabs; key figures; research landscape (departments > groups and centres, with the
-   CFQT domains their teachers research); a domain x university table; searchable teacher cards with
+   CFQT domains their educators research); a domain x university table; searchable educator cards with
    position, units, research focus, evidence from the research portals and a course-by-course fit note. */
 :root{
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
-  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
-  --aI:#6b8a12; --aII:#13729c; --aIII:#a3173d; --good:#0f6b3f; --warn:#8a5a00;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --good:#0f6b3f; --warn:#8a5a00;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --good:#5fd39a; --warn:#e8b14a; color-scheme:dark}}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --good:#5fd39a; --warn:#e8b14a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --good:#5fd39a; --warn:#e8b14a; color-scheme:dark}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --good:#5fd39a; --warn:#e8b14a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -113,7 +113,7 @@ footer a{color:var(--accent)}
   <div class="tabs" role="tablist" id="tabs"></div>
 
   <section aria-labelledby="k-h">
-    <h2 id="k-h">Teachers and positions</h2>
+    <h2 id="k-h">Educators and positions</h2>
     <div class="stats" id="stats"></div>
     <div class="levels" id="levels" role="img"></div>
     <div class="lkey" id="lkey"></div>
@@ -121,20 +121,20 @@ footer a{color:var(--accent)}
 
   <section aria-labelledby="l-h">
     <h2 id="l-h">Research landscape</h2>
-    <p class="lede" style="font-size:14px">Departments, sections, groups and centres that the teachers belong to, with the CFQT subdomains their research touches. Unit names link to their own web pages (or to the research-portal page where a unit has none). Click a name to jump to the teacher.</p>
+    <p class="lede" style="font-size:14px">Departments, sections, groups and centres that the educators belong to, with the CFQT subdomains their research touches. Unit names link to their own web pages (or to the research-portal page where a unit has none). Click a name to jump to the educator.</p>
     <div class="land" id="land"></div>
   </section>
 
   <section aria-labelledby="m-h">
     <h2 id="m-h">Research by CFQT domain</h2>
-    <p class="lede" style="font-size:14px">Number of teachers whose own research touches each domain of the CFQT content map. Compare with the courses on the coverage matrix: a domain with researchers but few courses is room to grow the teaching.</p>
+    <p class="lede" style="font-size:14px">Number of educators whose own research touches each domain of the CFQT content map. Compare with the courses on the coverage matrix: a domain with researchers but few courses is room to grow the teaching.</p>
     <div class="tblwrap"><table id="mx"></table></div>
   </section>
 
   <section aria-labelledby="t-h">
-    <h2 id="t-h">Teachers</h2>
+    <h2 id="t-h">Educators</h2>
     <div class="tools">
-      <input type="search" id="q" placeholder="Search name, group, topic or course" aria-label="Search teachers">
+      <input type="search" id="q" placeholder="Search name, group, topic or course" aria-label="Search educators">
       <select id="lvsel" aria-label="Position"></select>
       <label><input type="checkbox" id="qt"> Research on the quantum content map</label>
       <span class="count" id="count"></span>
@@ -144,8 +144,8 @@ footer a{color:var(--accent)}
   </section>
 
   <footer>
-    <p>Sources: the teachers named in the 2026/27 course catalogues, and their profiles in the universities' research portals (DTU Orbit, University of Copenhagen research portal, AU Pure, SDU Find Researcher, AAU VBN), harvested November 2026. Positions and organisational units are as stated in the portals. Fingerprint concepts are generated automatically by the portals and can contain odd terms. The research focus and its CFQT tags are written by Danish Quantum Academy from that portal data.</p>
-    <p>The fit notes compare the CFQT subdomains of each course with those of the teacher's research. They describe overlap in subject, not teaching quality, and many excellent courses are taught from a neighbouring field. All tags are first estimates and will be checked with the teachers through the European Quantum Academy survey. <span id="cite"></span></p>
+    <p>Sources: the educators named in the 2026/27 course catalogues, and their profiles in the universities' research portals (DTU Orbit, University of Copenhagen research portal, AU Pure, SDU Find Researcher, AAU VBN), harvested November 2026. Positions and organisational units are as stated in the portals. Fingerprint concepts are generated automatically by the portals and can contain odd terms. The research focus and its CFQT tags are written by Danish Quantum Academy from that portal data.</p>
+    <p>The fit notes compare the CFQT subdomains of each course with those of the educator's research. They describe overlap in subject, not teaching quality, and many excellent courses are taught from a neighbouring field. All tags are first estimates and will be checked with the educators through the European Quantum Academy survey. <span id="cite"></span></p>
   </footer>
 </div>
 
@@ -172,18 +172,18 @@ footer a{color:var(--accent)}
   const tabs=document.getElementById('tabs');
   const mkTabs=()=>{tabs.innerHTML='';[['ALL','All universities'],...INSTS.map(i=>[i,i])].forEach(([k,l])=>{const b=el('button',{class:'tab',role:'tab','aria-selected':String(state.inst===k),type:'button'},l);b.onclick=()=>{state.inst=k;try{localStorage.setItem('qdk-people-inst',k)}catch(e){}render()};tabs.append(b)})};
 
-  // ---- fit between a course and a teacher's research ----
+  // ---- fit between a course and a educator's research ----
   function fit(p,c){
     const ps=p.subs||[], cs=c.subs||[];
     if(!c.mapped) return {k:'outside',t:'Course not on the CFQT content map.'};
     if(!p.found&&!ps.length) return {k:'outside',t:'No research profile found, so the fit could not be assessed.'};
     const shared=cs.filter(s=>ps.includes(s));
-    if(cs[0]&&ps.includes(cs[0])) return {k:'direct',lab:'Direct fit',t:`the course's core topic, ${cs[0]} ${subName(cs[0])}, is the teacher's own research field${shared.length>1?`, as are ${shared.slice(1).map(s=>s+' '+subName(s)).join(' and ')}`:''}.`};
-    if(shared.length) return {k:'related',lab:'Related research',t:`the course also covers ${shared.map(s=>s+' '+subName(s)).join(' and ')}, which is part of the teacher's research.`};
+    if(cs[0]&&ps.includes(cs[0])) return {k:'direct',lab:'Direct fit',t:`the course's core topic, ${cs[0]} ${subName(cs[0])}, is the educator's own research field${shared.length>1?`, as are ${shared.slice(1).map(s=>s+' '+subName(s)).join(' and ')}`:''}.`};
+    if(shared.length) return {k:'related',lab:'Related research',t:`the course also covers ${shared.map(s=>s+' '+subName(s)).join(' and ')}, which is part of the educator's research.`};
     const cd=new Set(cs.map(s=>s.split('.')[0])), pd=ps.map(s=>s.split('.')[0]).filter(d=>cd.has(d));
-    if(pd.length) return {k:'adjacent',lab:'Neighbouring field',t:`the teacher researches another part of CFQT domain ${pd[0]}, ${Q.domains[pd[0]].name}, close to the course's topic.`};
-    if(ps.length) return {k:'outside',lab:'Broader base',t:`the course's topic lies outside the teacher's research areas (${ps.map(s=>s).join(', ')}); it is taught from a broader base.`};
-    return {k:'outside',lab:'Broader base',t:'the teacher\'s research lies outside the quantum content map; the course is taught from a broader base.'};
+    if(pd.length) return {k:'adjacent',lab:'Neighbouring field',t:`the educator researches another part of CFQT domain ${pd[0]}, ${Q.domains[pd[0]].name}, close to the course's topic.`};
+    if(ps.length) return {k:'outside',lab:'Broader base',t:`the course's topic lies outside the educator's research areas (${ps.map(s=>s).join(', ')}); it is taught from a broader base.`};
+    return {k:'outside',lab:'Broader base',t:'the educator\'s research lies outside the quantum content map; the course is taught from a broader base.'};
   }
 
   // ---- render ----
@@ -194,7 +194,7 @@ footer a{color:var(--accent)}
     // stats
     const st=document.getElementById('stats');st.innerHTML='';
     const cnt=l=>found.filter(p=>p.level===l).length;
-    [[sel.length,'teachers of mapped courses'],[found.length,'with a research-portal profile'],[cnt('Professor'),'professors'],[cnt('Associate Professor'),'associate professors'],[found.filter(qtResearch).length,'research on the quantum content map']].forEach(([n,l])=>st.append(el('div',{class:'stat'},el('b',{},String(n)),el('span',{},l))));
+    [[sel.length,'educators of mapped courses'],[found.length,'with a research-portal profile'],[cnt('Professor'),'professors'],[cnt('Associate Professor'),'associate professors'],[found.filter(qtResearch).length,'research on the quantum content map']].forEach(([n,l])=>st.append(el('div',{class:'stat'},el('b',{},String(n)),el('span',{},l))));
     const lv=document.getElementById('levels'),lk=document.getElementById('lkey');lv.innerHTML='';lk.innerHTML='';
     lv.setAttribute('aria-label','Positions: '+LEVELS.map(l=>`${l} ${cnt(l)}`).join(', '));
     LEVELS.forEach(l=>{const n=cnt(l);if(!n)return;lv.append(el('i',{style:`width:${n/found.length*100}%;background:${LCOL[l]}`,title:`${l}: ${n}`}));lk.append(el('span',{},el('span',{class:'sw',style:`background:${LCOL[l]}`}),`${l} ${n}`))});
@@ -211,7 +211,7 @@ footer a{color:var(--accent)}
       const block=(name,ps,isC)=>{const subs={};ps.forEach(p=>(p.subs||[]).forEach(s=>subs[s]=(subs[s]||0)+1));
         const top=Object.entries(subs).sort((a,b)=>b[1]-a[1]).slice(0,6);
         const ppl=el('div',{class:'ppl'});ps.forEach((p,i)=>{const b=el('button',{type:'button'},p.name);b.onclick=()=>jump(p);ppl.append(b,i<ps.length-1?', ':'')});
-        return el('div',{class:'grp'},el('span',{class:'gn'},isC?ulink(d.inst,name,el('span',{class:'cen'},name)):ulink(d.inst,name)),top.length?el('div',{class:'chips'},...top.map(([s,n])=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:`${subName(s)}: ${n} teacher(s)`},s))):null,ppl)};
+        return el('div',{class:'grp'},el('span',{class:'gn'},isC?ulink(d.inst,name,el('span',{class:'cen'},name)):ulink(d.inst,name)),top.length?el('div',{class:'chips'},...top.map(([s,n])=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:`${subName(s)}: ${n} educator(s)`},s))):null,ppl)};
       [...d.groups.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([g,ps])=>box.append(block(g,ps)));
       [...d.centres.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([c,ps])=>box.append(block(c,ps,true)));
       land.append(box)});
@@ -254,10 +254,10 @@ footer a{color:var(--accent)}
       (!t||[p.name,p.title,p.focus,...(p.units||[]),...(p.centres||[]),...(p.concepts||[]),...(p.subs||[]).map(subName),...(p.courses||[]).map(c=>c.title+' '+c.code)].join(' ').toLowerCase().includes(t)));
     list.sort((a,b)=>LEVELS.indexOf(a.level)-LEVELS.indexOf(b.level)||a.name.localeCompare(b.name));
     list.forEach(p=>box.append(card(p)));
-    document.getElementById('count').textContent=`${list.length} teachers`;
+    document.getElementById('count').textContent=`${list.length} educators`;
     const miss=P.filter(p=>!p.found&&(state.inst==='ALL'||p.institution===state.inst));
     const m=document.getElementById('missing');m.innerHTML='';
-    if(miss.length) m.append(el('div',{class:'miss'},`No research-portal profile found for: ${miss.map(p=>`${p.name} (${p.institution}${(p.courses||[]).length?', '+p.courses.map(c=>c.code).join(', '):''})`).join('; ')}. They may have left the university, be external teachers, or use another name in the portal.`));
+    if(miss.length) m.append(el('div',{class:'miss'},`No research-portal profile found for: ${miss.map(p=>`${p.name} (${p.institution}${(p.courses||[]).length?', '+p.courses.map(c=>c.code).join(', '):''})`).join('; ')}. They may have left the university, be external educators, or use another name in the portal.`));
   }
   function jump(p){q.value='';lvsel.value='';qt.checked=false;renderCards();const e=document.getElementById(slug(p));if(e){e.scrollIntoView({behavior:'smooth',block:'start'});e.classList.add('flash');setTimeout(()=>e.classList.remove('flash'),1600)}}
   document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'CFQT v3.0'),' (Greinert and Müller, QUCATS, 2025, CC BY 4.0).');

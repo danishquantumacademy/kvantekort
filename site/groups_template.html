@@ -9,7 +9,7 @@
    linked courses and portal projects. */
 :root{
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
-  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
   --good:#0f6b3f;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
@@ -17,10 +17,10 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f; --good:#5fd39a; color-scheme:dark}}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f; --good:#5fd39a; color-scheme:dark}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -190,7 +190,7 @@ footer p{margin:0;max-width:86ch}
       CATS.forEach(c=>{const list=g.members.filter(m=>m.cat===c&&(!t||[m.name,m.role,m.project,m.output].join(' ').toLowerCase().includes(t)));if(!list.length)return;
         const grid=el('div',{class:'mgrid'});
         list.forEach(m=>{const res=!/staff|administrat|assistant$|officer|manager|engineer$/i.test(c+' '+m.role)||m.project||m.output;
-          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'teacher'):null),
+          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'educator'):null),
             el('span',{class:'r'},m.role||'Position not stated'),
             m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
             m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null))});
@@ -200,7 +200,7 @@ footer p{margin:0;max-width:86ch}
     const cs=el('section',{},el('h3',{},`Courses taught by members (${g.courses.length})`));
     if(g.courses.length){const cl=el('div',{class:'clist'});g.courses.forEach(c=>cl.append(el('div',{class:'c1'},c.url?el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title):el('b',{},c.title),el('span',{class:'lv'},[c.institution!==g.institution?c.institution:'',c.code,c.level].filter(Boolean).join(' · ')),
       el('div',{class:'m'},...c.subs.slice(0,3).map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)),c.teachers.map(t=>`${t.name} (${t.role.toLowerCase()})`).join(', ')))));cs.append(cl)}
-    else cs.append(el('p',{class:'note'},'No members of this group are listed as teachers of the mapped courses.'));
+    else cs.append(el('p',{class:'note'},'No members of this group are listed as educators of the mapped courses.'));
     box.append(cs);
   }
   drawCards();drawProfile();

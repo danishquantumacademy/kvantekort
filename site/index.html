@@ -15,8 +15,8 @@
    Domain colours follow the CFQT content map; area colours follow the proficiency triangle. */
 :root{
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
-  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
-  --aI:#6b8a12; --aII:#13729c; --aIII:#8a1634;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff;
   --heat:31,69,201;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
@@ -24,12 +24,12 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --heat:123,155,255; color-scheme:dark}}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --heat:123,155,255; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --heat:123,155,255; color-scheme:dark}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --heat:123,155,255; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -156,6 +156,7 @@ footer a{color:var(--accent)}
       <span class="count" id="count"></span>
     </div>
     <div class="active-sub" id="active-sub" hidden></div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:12.5px;color:var(--muted)"><span><span class="sd primary" style="background:var(--d4);border-color:var(--d4)">4.4</span> filled = the course's primary CFQT subdomain (its main topic)</span><span><span class="sd" style="color:var(--d4)">2.2</span> outlined = further subdomains the course also covers</span></div>
     <div id="list" style="display:grid;gap:28px"></div>
   </section>
 

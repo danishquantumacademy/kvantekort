@@ -376,31 +376,31 @@ KU,BSc,NNDB19003U,VtFys: Videnskabsteori og etik for fysikere,Course responsible
 KU,PhD,PC-148446,Preparation and control of neutral atoms for quantum applications,Course responsible,Jörg Helge Müller
 KU,PhD,PC-148446,Preparation and control of neutral atoms for quantum applications,Course responsible,Stefan Alaric Schäffer
 KU,PhD,PC-150049,Quantum Chemistry of Molecules Electromagnetic Properties,Course responsible,Stephan P. A. Sauer
-SDU,BSc,DM572,Networks and Cybersecurity,Teacher,Fabrizio Montesi
+SDU,BSc,DM572,Networks and Cybersecurity,Educator,Fabrizio Montesi
 SDU,BSc,DM572,Networks and Cybersecurity,Course responsible,Peter Mayer
-SDU,BSc,DM586,Networks and Cybersecurity,Teacher,Fabrizio Montesi
+SDU,BSc,DM586,Networks and Cybersecurity,Educator,Fabrizio Montesi
 SDU,BSc,DM586,Networks and Cybersecurity,Course responsible,Peter Mayer
 SDU,MSc,DM886,Cryptographic Engineering,Course responsible,Ruben Niederhagen
 SDU,MSc,DM893,Quantum Computing,Course responsible,Robin Kaarsgaard Sales
-SDU,BSc,FT504,Electromagnetism and Optics,Teacher,Christos Tserkezis
-SDU,BSc,FT504,Electromagnetism and Optics,Teacher,Francesca Serra
+SDU,BSc,FT504,Electromagnetism and Optics,Educator,Christos Tserkezis
+SDU,BSc,FT504,Electromagnetism and Optics,Educator,Francesca Serra
 SDU,BSc,FT504,Electromagnetism and Optics,Course responsible,Sofie Marie Koksbang
 SDU,BSc,FY542,Experimental physics and semiconductors,Course responsible,Adam Cohen Simonsen
 SDU,BSc,FY542,Experimental physics and semiconductors,Course responsible,Nicolas Ubrig
 SDU,BSc,FY544,Quantum mechanics I,Course responsible,Joel Cox
 SDU,BSc,FY544,Quantum mechanics I,Course responsible,Paulo André Dias Goncalves
 SDU,BSc,FY545,Particle physics,Course responsible,Thomas Aaby Ryttov
-SDU,BSc,FY547,Quantum mechanics II,Teacher,Eduardo Dias
+SDU,BSc,FY547,Quantum mechanics II,Educator,Eduardo Dias
 SDU,BSc,FY547,Quantum mechanics II,Course responsible,Francesco Sannino
 SDU,BSc,FY547,Quantum mechanics II,Course responsible,Joel Cox
-SDU,BSc,FY547,Quantum mechanics II,Teacher,Paulo André Dias Goncalves
+SDU,BSc,FY547,Quantum mechanics II,Educator,Paulo André Dias Goncalves
 SDU,BSc,FY548,Solid state physics,Course responsible,Line Jelver
-SDU,BSc,FY549,Electrodynamics,Teacher,Ali Asghar Hakami Zanjani
+SDU,BSc,FY549,Electrodynamics,Educator,Ali Asghar Hakami Zanjani
 SDU,BSc,FY549,Electrodynamics,Course responsible,Manuel Meyer
 SDU,BSc,FY550,Statistical Physics,Course responsible,Michael Lomholt
-SDU,BSc,FY560,Physics of Quantum Matter,Teacher,Line Jelver
+SDU,BSc,FY560,Physics of Quantum Matter,Educator,Line Jelver
 SDU,BSc,FY560,Physics of Quantum Matter,Course responsible,Nicolas Ubrig
-SDU,MSc,FY803,Quantum physics,Teacher,Gustavo Pazzini de Brito
+SDU,MSc,FY803,Quantum physics,Educator,Gustavo Pazzini de Brito
 SDU,MSc,FY803,Quantum physics,Course responsible,Martin Snoager Sloth
 SDU,MSc,FY803,Quantum physics,Course responsible,Thomas Aaby Ryttov
 SDU,MSc,FY809,Quantum Field Theory,Course responsible,Francesco Sannino
@@ -408,14 +408,14 @@ SDU,MSc,FY824,Quantum field theory in curved space,Course responsible,Martin Sno
 SDU,MSc,FY831,Introduction to quantum gravity,Course responsible,Astrid Eichhorn
 SDU,MSc,FY837,Solid state physics,Course responsible,Line Jelver
 SDU,MSc,FY841,Particle physics,Course responsible,Thomas Aaby Ryttov
-SDU,MSc,FY845,Physics of Quantum Matter,Teacher,Line Jelver
+SDU,MSc,FY845,Physics of Quantum Matter,Educator,Line Jelver
 SDU,MSc,FY845,Physics of Quantum Matter,Course responsible,Nicolas Ubrig
 SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Course responsible,Erik Donovan Hedegård
-SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Teacher,Jacob Kongsted
+SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Educator,Jacob Kongsted
 SDU,BSc,KE522,Quantum Chemistry and Theoretical Spectroscopy,Course responsible,Peter Reinholdt
 SDU,BSc,KE525,Inorganic chemistry A,Course responsible,Christina Wegeberg
 SDU,BSc,KE533,Computational Quantum Chemistry,Course responsible,Erik Donovan Hedegård
-SDU,BSc,KE533,Computational Quantum Chemistry,Teacher,Ernst Dennis Larsson
+SDU,BSc,KE533,Computational Quantum Chemistry,Educator,Ernst Dennis Larsson
 SDU,BSc,KE540,Quantum Chemistry and Modelling,Course responsible,Frederik Kamper Jørgensen
 SDU,BSc,KE554,Quantum chemistry for medicinal chemistry,Course responsible,Erik Donovan Hedegård
 SDU,BSc,KE554,Quantum chemistry for medicinal chemistry,Course responsible,Jacob Kongsted
@@ -427,20 +427,20 @@ SDU,MSc,MM837,Computational Physics,Course responsible,Michele Della Morte
 SDU,MSc,MM866,Introduction to HPC and Quantum Computing,Course responsible,Benjamin Jäger
 SDU,MSc,MM868,Compact quantum metric spaces,Course responsible,David Kyed
 SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Course responsible,Christos Tserkezis
-SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Teacher,Joel Cox
-SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Teacher,N. Asger Mortensen
+SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Educator,Joel Cox
+SDU,PhD,PC-105100,Theoretical Nano- and Quantum Optics I,Educator,N. Asger Mortensen
 SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Course responsible,Christos Tserkezis
-SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Teacher,Joel Cox
-SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Teacher,N. Asger Mortensen
-SDU,MSc,QC801,Introduction to Quantum Computing,Teacher,Konstantin Wernli
+SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Educator,Joel Cox
+SDU,PhD,PC-108871,Theoretical Nano- and Quantum Optics II,Educator,N. Asger Mortensen
+SDU,MSc,QC801,Introduction to Quantum Computing,Educator,Konstantin Wernli
 SDU,MSc,QC801,Introduction to Quantum Computing,Course responsible,Matthias Oliver Wilhelm
 SDU,MSc,QC802,Quantum Information Theory,Course responsible,Du Pei
 SDU,MSc,QC802,Quantum Information Theory,Course responsible,William Elbæk Mistegård
-SDU,MSc,QC803,Quantum Platforms and Programming,Teacher,Greyson Potter
+SDU,MSc,QC803,Quantum Platforms and Programming,Educator,Greyson Potter
 SDU,MSc,QC803,Quantum Platforms and Programming,Course responsible,Robin Kaarsgaard Sales
 SDU,MSc,QC804,Quantum Algorithms,Course responsible,Robin Kaarsgaard Sales
 SDU,MSc,QC805,Quantum Cryptography and Quantum Key Distribution,Course responsible,Konstantin Wernli
-SDU,MSc,QC806,Fault-tolerant Quantum Computing,Teacher,Adrian Petr
+SDU,MSc,QC806,Fault-tolerant Quantum Computing,Educator,Adrian Petr
 SDU,MSc,QC806,Fault-tolerant Quantum Computing,Course responsible,William Elbæk Mistegård
 SDU,MSc,QC807,Quantum Continuous Variables Formalism,Course responsible,Shan Shan
 SDU,MSc,QC807,Quantum Continuous Variables Formalism,Course responsible,William Elbæk Mistegård
@@ -449,25 +449,25 @@ SDU,MSc,QC809,Quantum Computation and Phases of Quantum Matter,Course responsibl
 SDU,MSc,QC809,Quantum Computation and Phases of Quantum Matter,Course responsible,William Elbæk Mistegård
 SDU,MSc,QC810,Quantum Machine Learning,Course responsible,Matthias Oliver Wilhelm
 SDU,MSc,T380014401,Material Science in Electrical Engineering,Course responsible,Jakob Kjelstrup-Hansen
-SDU,MSc,T380014401,Material Science in Electrical Engineering,Teacher,Marco Antonio Gonzalez Angulo
+SDU,MSc,T380014401,Material Science in Electrical Engineering,Educator,Marco Antonio Gonzalez Angulo
 SDU,MSc,T470005101,Laser Physics and Technology,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470005101,Laser Physics and Technology,Teacher,Torgom Yezekyan
+SDU,MSc,T470005101,Laser Physics and Technology,Educator,Torgom Yezekyan
 SDU,MSc,T470008101,Nano-optics,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470008101,Nano-optics,Teacher,Sergey I. Bozhevolnyi
+SDU,MSc,T470008101,Nano-optics,Educator,Sergey I. Bozhevolnyi
 SDU,MSc,T470017101,Advanced Physical Optics,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470017101,Advanced Physical Optics,Teacher,Sergey I. Bozhevolnyi
+SDU,MSc,T470017101,Advanced Physical Optics,Educator,Sergey I. Bozhevolnyi
 SDU,MSc,T470021101,Quantum Engineering,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470021101,Quantum Engineering,Teacher,Shailesh Kumar
-SDU,MSc,T470030X01,Microtechnology and Device Fabrication,Teacher,Jakob Kjelstrup-Hansen
+SDU,MSc,T470021101,Quantum Engineering,Educator,Shailesh Kumar
+SDU,MSc,T470030X01,Microtechnology and Device Fabrication,Educator,Jakob Kjelstrup-Hansen
 SDU,MSc,T470030X01,Microtechnology and Device Fabrication,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470038101,Atomic Physics,Teacher,Christos Tserkezis
-SDU,MSc,T470038101,Atomic Physics,Teacher,Joel Cox
+SDU,MSc,T470038101,Atomic Physics,Educator,Christos Tserkezis
+SDU,MSc,T470038101,Atomic Physics,Educator,Joel Cox
 SDU,MSc,T470038101,Atomic Physics,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Fei Ding
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Educator,Fei Ding
 SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Sergey I. Bozhevolnyi
-SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Shailesh Kumar
-SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Teacher,Volodymyr Zenin
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Educator,Sergey I. Bozhevolnyi
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Educator,Shailesh Kumar
+SDU,MSc,T470040101,Journal Club and Industrial Case Studies,Educator,Volodymyr Zenin
 SDU,MSc,T470042101,Optical System Design and Spectroscopy,Formally responsible (head of studies),Jonas Beermann Kristiansen
-SDU,MSc,T470042101,Optical System Design and Spectroscopy,Teacher,Martin Aage Barsøe Hedegaard
-SDU,MSc,T470042101,Optical System Design and Spectroscopy,Teacher,Shailesh Kumar
+SDU,MSc,T470042101,Optical System Design and Spectroscopy,Educator,Martin Aage Barsøe Hedegaard
+SDU,MSc,T470042101,Optical System Design and Spectroscopy,Educator,Shailesh Kumar

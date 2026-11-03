@@ -91,7 +91,7 @@ sbody = stpl.replace("/*DATA*/", json.dumps(sout, ensure_ascii=False).replace("<
 (ROOT / "site/students_artifact.html").write_text(sbody, encoding="utf-8")
 # Kursusfinder (den studerendes søgning) bygges af de samme data.
 ptpl = (ROOT / "site/planner_template.html").read_text(encoding="utf-8")
-pbody = ptpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/"))
+pbody = ptpl.replace("/*DATA*/", json.dumps({**out, "profiles": programmes["reference_profiles"]}, ensure_ascii=False).replace("</", "<\\/"))
 (ROOT / "site/planner.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/planner_artifact.html").write_text(pbody, encoding="utf-8")
 # Undervisere og forskning (people.html): portaldata + forskningsfokus + hvem underviser hvad.

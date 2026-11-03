@@ -9,20 +9,20 @@
    centre holds A1/A2 in three sectors, the corner triangles hold B1-C2 for areas I (top), II (left), III (right). */
 :root{
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
-  --d1:#6b8a12; --d2:#0f5e4b; --d3:#1d3d5c; --d4:#13729c; --d5:#2140a3; --d6:#6a1840; --d7:#8b2f92; --d8:#8a1634;
-  --aI:#6b8a12; --aII:#13729c; --aIII:#a3173d; --empty:#eef0f5;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; color-scheme:dark}}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
-  --d1:#a5c447; --d2:#4cb79a; --d3:#7fa6cc; --d4:#4fb3df; --d5:#8aa2ff; --d6:#e07aa6; --d7:#d48ad9; --d8:#f0738f;
-  --aI:#a5c447; --aII:#4fb3df; --aIII:#f0738f; --empty:#1a2033; color-scheme:dark}
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -59,6 +59,11 @@ h3{font:600 14px/1.3 var(--body);margin:0}
 .cell.sel{stroke:var(--fg);stroke-width:3}
 .tri-legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted)}
 .tri-legend .sw{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.ramp-legend{display:grid;grid-template-columns:auto repeat(5,minmax(0,1fr));gap:4px 4px;align-items:center;font-size:12px;color:var(--muted)}
+.ramp-legend .an{font-weight:600;color:var(--fg);padding-right:6px;white-space:nowrap}
+.ramp-legend .sw5{height:18px;border-radius:3px;display:grid;place-items:center;font:600 11px var(--mono)}
+.ramp-legend .hd{text-align:center;font:500 11px var(--mono)}
+.chipkey{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:12.5px;color:var(--muted)}
 .levels-key{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px;color:var(--muted)}
 .levels-key b{font:600 12px var(--mono);color:var(--fg)}
 .filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
@@ -127,12 +132,8 @@ footer a{color:var(--accent)}
       <h2 id="tri-h">Proficiency triangle</h2>
       <div class="filters" id="lvl-filters"><span class="flabel">Study level</span></div>
       <div class="tri-wrap"><svg id="tri" role="img" aria-labelledby="tri-title"><title id="tri-title">CFQT proficiency triangle</title></svg></div>
-      <div class="tri-legend">
-        <span><span class="sw" style="background:var(--aI)"></span>(I) Quantum concepts</span>
-        <span><span class="sw" style="background:var(--aII)"></span>(II) QT HW &amp; SW engineering</span>
-        <span><span class="sw" style="background:var(--aIII)"></span>(III) QT applications &amp; strategies</span>
-      </div>
-      <p class="lede" style="font-size:13px">Each band shows the number of courses whose estimated level in that area is exactly that level; darker means more courses. Select a band to list its courses.</p>
+      <div class="ramp-legend" id="ramp-legend" aria-label="Colour key: number of courses per band"></div>
+      <p class="lede" style="font-size:13px">Each band shows the number of courses whose estimated level in that area is exactly that level. The colour tells the area (green, blue, red); the shade tells how many courses, in five fixed steps, so the same shade means the same count for every university. Grey bands have no courses. Select a band to list its courses.</p>
     </section>
 
     <section class="panel" aria-labelledby="cm-h">
@@ -147,6 +148,7 @@ footer a{color:var(--accent)}
 
   <section style="display:grid;gap:10px" aria-labelledby="list-h">
     <div class="list-head"><h2 id="list-h">Courses</h2><span class="count" id="count"></span><span id="active"></span></div>
+    <div class="chipkey"><span><span class="sd p" style="color:var(--d4);background:var(--d4);border-color:var(--d4)">4.4</span> filled = the course's primary CFQT subdomain (its main topic)</span><span><span class="sd" style="color:var(--d4)">2.2</span> outlined = further subdomains the course also covers</span><span><span class="pl" style="color:var(--aI)">I B2</span> = estimated proficiency level per area</span></div>
     <div class="rows" id="list"></div>
   </section>
 
@@ -192,7 +194,9 @@ footer a{color:var(--accent)}
   const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return [x/pts.length,y/pts.length]};
   const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
   const counts=list=>{const m={};AREAS.forEach(a=>LV.forEach(l=>m[a+l]=0));list.forEach(c=>AREAS.forEach(a=>{if(c.prof[a])m[a+c.prof[a]]++}));return m};
-  const op=(n,max)=>n<=0?0:.16+.74*Math.sqrt(n/max);
+  // number of courses -> one of five clearly separated steps of the area's colour (validated ordinal ramps)
+  const BINS=[[1,2,'1–2'],[3,5,'3–5'],[6,12,'6–12'],[13,29,'13–29'],[30,1e9,'30+']];
+  const step=n=>n<=0?0:BINS.findIndex(b=>n>=b[0]&&n<=b[1])+1;
 
   function drawTriangle(svg,list,opts){
     const g=geometry(opts.W); svg.setAttribute('viewBox',`0 0 ${g.W.toFixed(0)} ${(g.H+(opts.labels?30:0)).toFixed(0)}`);
@@ -200,7 +204,8 @@ footer a{color:var(--accent)}
     const m=counts(list), max=opts.max||Math.max(1,...Object.values(m));
     g.cells.forEach(c=>{
       const n=m[c.a+c.l];
-      const poly=sv('polygon',{points:P(c.pts),fill:n?acol(c.a):'var(--empty)','fill-opacity':n?op(n,max).toFixed(2):'1',stroke:'var(--surface)','stroke-width':opts.labels?1.5:1});
+      const k=step(n);
+      const poly=sv('polygon',{points:P(c.pts),fill:k?`var(--a${c.a}-${k})`:'var(--empty)',stroke:'var(--surface)','stroke-width':opts.labels?1.5:1});
       if(opts.labels){
         poly.setAttribute('class','cell'+(state.cell&&state.cell.a===c.a&&state.cell.l===c.l?' sel':''));
         poly.setAttribute('tabindex','0'); poly.setAttribute('role','button');
@@ -211,10 +216,10 @@ footer a{color:var(--accent)}
       }
       svg.append(poly);
       if(opts.labels){
-        const [x,y]=centroid(c.pts), dark=n&&op(n,max)>.55, small=c.l==='A1';
-        const t=sv('text',{x:x.toFixed(1),y:(y-(small?1:4)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:11,'font-weight':600,fill:dark?'var(--bg)':'var(--muted)','pointer-events':'none'},c.l);
+        const [x,y]=centroid(c.pts), ink=k?`var(--on-${k})`:'var(--muted)', small=c.l==='A1';
+        const t=sv('text',{x:x.toFixed(1),y:(y-(small?1:4)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:11,'font-weight':600,fill:ink,'pointer-events':'none'},c.l);
         svg.append(t);
-        if(!small||n) svg.append(sv('text',{x:x.toFixed(1),y:(y+(small?9:11)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:13,'font-weight':700,fill:dark?'var(--bg)':(n?'var(--fg)':'var(--muted)'),'pointer-events':'none'},n?String(n):'–'));
+        if(!small||n) svg.append(sv('text',{x:x.toFixed(1),y:(y+(small?9:11)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:13,'font-weight':700,fill:ink,'pointer-events':'none'},n?String(n):'–'));
       }
     });
     // area bars, as in the CFQT figure
@@ -250,6 +255,10 @@ footer a{color:var(--accent)}
   const lf=document.getElementById('lvl-filters');
   LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':'true'},LEVEL_LABEL[L]||L);b.onclick=()=>{if(state.levels.has(L)){if(state.levels.size===1)return;state.levels.delete(L)}else state.levels.add(L);b.setAttribute('aria-pressed',String(state.levels.has(L)));state.cell=null;render()};lf.append(b)});
 
+  // ---- colour key for the triangle ----
+  const rl=document.getElementById('ramp-legend');
+  rl.append(el('span',{class:'an'},'Courses per band'),...BINS.map(b=>el('span',{class:'hd'},b[2])));
+  AREAS.forEach(a=>{rl.append(el('span',{class:'an',style:`color:${acol(a)}`},`(${a}) ${a==='I'?'Concepts':a==='II'?'HW & SW eng.':'Applications'}`),...BINS.map((b,i)=>el('span',{class:'sw5',style:`background:var(--a${a}-${i+1});color:var(--on-${i+1})`,title:`(${a}) ${Q.areas[a]}: ${b[2]} course(s)`},'')))});
   // ---- levels key ----
   const lk=document.getElementById('levels-key');
   LV.forEach(l=>lk.append(el('b',{},l),el('span',{},Q.levels[l])));
