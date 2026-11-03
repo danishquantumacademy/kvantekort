@@ -267,9 +267,11 @@ footer a{color:var(--accent)}
   const SCH=R.schools||{}, SKEYS=Object.keys(SCH), ALLI={...R.institutions,...SCH};
   const isSchool=k=>SKEYS.includes(k);
   const inGroup=(c,i)=>i==='ALL'||c.institution===i;
-  const LEVEL_ORDER=['BSc','MSc','PhD','Diplom','Master','STX','HTX'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
+  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
   const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx'};
   const SCHOOL_LEVELS=['STX','HTX'];
+  // levels that belong to the current selection: all in Denmark, school levels for STX/HTX, university levels for a university
+  const visLevels=()=>LEVELS.filter(L=>state.inst==='ALL'||SCHOOL_LEVELS.includes(L)===isSchool(state.inst));
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
   const NS='http://www.w3.org/2000/svg';
@@ -375,7 +377,7 @@ footer a{color:var(--accent)}
 
   // ---- study level filter ----
   const lf=document.getElementById('lvl-filters');
-  LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(state.levels.has(L)),title:LEVEL_NAME[L],'data-l':L},LEVEL_LABEL[L]||L);b.onclick=()=>{const grp=LEVELS.filter(x=>SCHOOL_LEVELS.includes(x)===SCHOOL_LEVELS.includes(L));if(state.levels.has(L)){if(grp.filter(x=>state.levels.has(x)).length===1)return;state.levels.delete(L)}else state.levels.add(L);state.cell=null;render()};lf.append(b)});
+  LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(state.levels.has(L)),title:LEVEL_NAME[L],'data-l':L},LEVEL_LABEL[L]||L);b.onclick=()=>{const vis=visLevels();if(state.levels.has(L)){if(vis.filter(x=>state.levels.has(x)).length===1)return;state.levels.delete(L)}else state.levels.add(L);state.cell=null;render()};lf.append(b)});
 
   // ---- keys ----
   const rl=document.getElementById('ramp-legend');
@@ -514,6 +516,7 @@ footer a{color:var(--accent)}
   function render(){
     const list=sel(state.inst);
     renderPicker();
+    {const vis=visLevels(); if(!vis.some(L=>state.levels.has(L))) vis.forEach(L=>state.levels.add(L));}
     lf.querySelectorAll('button').forEach(b=>{b.setAttribute('aria-pressed',String(state.levels.has(b.dataset.l)));b.hidden=state.inst!=='ALL'&&SCHOOL_LEVELS.includes(b.dataset.l)!==isSchool(state.inst)});
     renderSchool();
     document.getElementById('tri-h').textContent=`Proficiency triangle · ${whereName()}`;

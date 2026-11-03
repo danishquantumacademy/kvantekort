@@ -122,6 +122,7 @@ h3{font:600 15px/1.3 var(--body);margin:0}
 .sd{font:500 11px/1 var(--mono);padding:2px 4px;border-radius:3px;border:1.5px solid currentColor}
 .badge{font:600 10.5px/1 var(--mono);padding:3px 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
 .badge.x{border-color:var(--accent);color:var(--accent)}
+.badge.g{border-color:var(--ref);color:var(--ref);background:var(--chip)}
 .badge.f{border-color:var(--aI);color:var(--aI)}
 .match{font-style:italic}
 .placeholder{font-size:12.5px;color:var(--muted);padding:8px 10px;border-radius:8px;background:var(--chip)}
@@ -190,6 +191,8 @@ footer .site-foot a{color:var(--accent)}
       <p><b>1 · Your programme.</b> Choose a bachelor's or master's programme. Dedicated quantum programmes follow their curriculum; the example paths are Danish Quantum Academy's suggestions for a quantum-focused route through a broader programme. The triangle shows the profile a graduate reaches with the quantum-relevant courses of the path and, if included, a thesis or bachelor project in a quantum topic. Choose "No programme yet" to get suggestions from all master's courses at a university instead.</p>
       <p><b>2 · Your interests.</b> Your text is matched against a list of topics (in English and Danish) that are linked to CFQT subdomains, and against course titles. The planner keeps the compulsory courses of your programme and fills the elective space with courses that match your interests, preferring the electives the curriculum lists. You get three variants: closest to your interests, more hands-on and more theory.</p>
       <p><b>Triangles.</b> Shades show how many courses reach each level (light 1, medium 2–5, dark 6 or more). Levels reached only through the electives you add are drawn paler; levels reached only through the thesis or project are striped. The dark outline is the CFQT qualification profile you compare with.</p>
+      <p><b>3 · Reach a CFQT profile.</b> Choose one of the nine CFQT qualification profiles (P1–P9). It is drawn as an outline in every triangle. Tick "Suggest courses that close the gaps" to add, area by area, the course that lifts the plan to the profile's level with the best match to your interests and the fewest ECTS; added courses are marked "for P6" (or the profile you chose). If no course in the selection reaches a level, the planner says so.</p>
+      <p><b>KU and DTU.</b> The two universities are close enough to follow courses at both, so a plan for one always includes courses at the other.</p>
       <p><b>Compare.</b> Choose a second programme to see its standard profile next to yours.</p>
       <p><b>Timetable.</b> For master's plans, the timetable uses each course's semester, teaching block, weekly schedule slot (DTU modules and KU schedule groups) and recommended prerequisites from the 2026/27 course catalogues.</p>
       <p><b>These are suggestions, not study advice.</b> Check your curriculum for which courses count towards your degree, and talk to your study counsellor. Method and sources: <a href="about.html">About the data</a>.</p>
@@ -212,6 +215,7 @@ footer .site-foot a{color:var(--accent)}
       <label><input type="checkbox" id="pthesis" checked> Include <span id="pthesis-name">thesis</span> in a quantum topic</label>
       <label>Electives to add <select id="budget"><option value="15">about 15 ECTS</option><option value="30" selected>about 30 ECTS</option><option value="45">about 45 ECTS</option></select></label>
       <label><input type="checkbox" id="pcross"> Also courses at other universities</label>
+      <span class="style-note" id="near-note"></span>
       <label>Compare with <select id="cmp"></select></label>
     </div>
   </section>
@@ -226,8 +230,17 @@ footer .site-foot a{color:var(--accent)}
     <div class="understood"><div class="row" id="topics"></div><div class="style-note" id="style"></div></div>
   </section>
 
+  <section class="ask" aria-labelledby="s3-h">
+    <h2 class="step" id="s3-h"><span>3</span> Reach a CFQT profile <em>optional</em></h2>
+    <div class="settings">
+      <label class="grow">CFQT qualification profile <select id="prof"></select></label>
+      <label><input type="checkbox" id="fill"> Suggest courses that close the gaps</label>
+    </div>
+    <p class="style-note" id="fill-note">The chosen profile is drawn as an outline in every triangle. Tick the box to add the fewest courses that bring the plan up to the profile's level in each area.</p>
+  </section>
+
   <section style="display:grid;gap:12px" aria-labelledby="p-h">
-    <div class="rhead"><h2 id="p-h">Your plan</h2><label class="settings">Compare with CFQT profile <select id="prof"></select></label></div>
+    <h2 id="p-h">Your plan</h2>
     <div id="msg"></div>
     <div id="base"></div>
     <div class="plans" id="plans"></div>
@@ -481,7 +494,7 @@ footer .site-foot a{color:var(--accent)}
   cmpSel.onchange=()=>{state.cmp=cmpSel.value;run()};
   profSel.addEventListener('change',()=>{state.ref=profSel.value;run()});
   document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();state.removed.clear();run()});
-  ['home','cross','target','thesis','pthesis','budget','pcross'].forEach(id=>document.getElementById(id).addEventListener('change',run));
+  ['home','cross','target','thesis','pthesis','budget','pcross','fill'].forEach(id=>document.getElementById(id).addEventListener('change',run));
 
   // ---- the address keeps the plan, so it can be shared (and old study-path links land here) ----
   function readURL(){const u=new URLSearchParams(location.search);
@@ -506,6 +519,28 @@ footer .site-foot a{color:var(--accent)}
   const lvChips=pr=>el('div',{class:'lv'},...AREAS.map(a=>el('span',{class:'lvc',style:`color:${acol(a)}`,title:Q.areas[a]},`${a} ${pr.lv[a]>=0?LV[pr.lv[a]]:'–'}`)));
   const pathItems=p=>p.courses.map(x=>({...x,c:BYKEY.get(x.inst+'|'+x.code)})).filter(x=>x.c);
   const thesisName=p=>p.level==='BSc'?'bachelor project':'thesis';
+
+  // ---- step 3: add the fewest courses that lift the plan to the chosen CFQT profile, area by area ----
+  function fillGaps(b,pool,tl,topics,words,bonus,homeInsts){
+    const v=RP[state.ref]; if(!v) return {added:[],missing:[]};
+    const items=[...b.items], have=new Set(items.map(x=>x.c.institution+'|'+x.c.code)), titles=new Set(items.map(x=>norm(x.c.title)));
+    const added=[], missing=[];
+    for(const a of AREAS){
+      const need=v.levels[a]?LV.indexOf(v.levels[a]):-1; if(need<0) continue;
+      const cur=profile(items.map(x=>x.c),tl).lv[a]; if(cur>=need) continue;
+      const cands=pool.filter(c=>c.prof[a]&&LV.indexOf(c.prof[a])>=need&&!have.has(c.institution+'|'+c.code)&&!titles.has(norm(c.title)))
+        .map(c=>{const m=scoreCourse(c,topics,words);return {c,m,k:m.s*2+(bonus&&bonus.has(c.institution+'|'+c.code)?1.5:0)+(homeInsts&&homeInsts.has(c.institution)?1:0)-(c.ects||5)/10-(LV.indexOf(c.prof[a])-need)*.3}})
+        .sort((x,y)=>y.k-x.k);
+      if(!cands.length){missing.push(`${a} ${lvTxt(v,a)}`);continue}
+      const x={...cands[0],flag:'profile',area:a}; items.push(x); added.push(x); have.add(x.c.institution+'|'+x.c.code); titles.add(norm(x.c.title));
+    }
+    return {items,added,missing,ects:items.reduce((n,x)=>n+(x.c.ects||5),0)};
+  }
+  const fillOn=()=>document.getElementById('fill').checked&&!!RP[state.ref];
+  function gapNote(res,where){const v=RP[state.ref];
+    if(!res.added.length&&!res.missing.length) return `${where} already reaches ${state.ref} ${v.name}; no courses added.`;
+    return [res.added.length?`${res.added.length} course${res.added.length===1?'':'s'} added to reach ${state.ref} (${res.added.map(x=>`${x.area} ${lvTxt(v,x.area)}`).join(', ')}).`:'',
+      res.missing.length?`No course in the selection reaches ${res.missing.join(' and ')}; try including other universities or a thesis.`:''].filter(Boolean).join(' ')}
 
   // the standard path of a programme: big triangle and the course table
   function baseCard(p,compare){
@@ -541,42 +576,58 @@ footer .site-foot a{color:var(--accent)}
     const cp=state.cmp&&state.cmp!==p.id?PROGS.find(x=>x.id===state.cmp):null;
     if(cp) bw.classList.add('two');
     bw.append(baseCard(p,false)); if(cp) bw.append(baseCard(cp,true));
-    if(!topics.length){ msg.append(el('div',{class:'style-note'},`This is the standard path of the programme. Write your interests in step 2 to add electives that fit them.`)); return; }
     const inc=document.getElementById('pthesis').checked, budget=+document.getElementById('budget').value, cross=document.getElementById('pcross').checked;
     const items=pathItems(p), fixed=items.filter(x=>x.role==='compulsory').map(x=>x.c), bonus=new Set(items.filter(x=>x.role!=='compulsory').map(x=>x.inst+'|'+x.code));
-    const insts=new Set(cross?INSTS:p.institutions);
+    const near=p.institutions.flatMap(i=>NEAR[i]||[]).filter(i=>!p.institutions.includes(i));
+    const insts=new Set(cross?INSTS:[...p.institutions,...near]);
+    document.getElementById('near-note').textContent=near.length&&!cross?`Courses at ${near.join(' and ')} are included: ${[...p.institutions,...near].join(' and ')} are close enough to follow courses at both.`:'';
     const pool=D.courses.filter(c=>c.level===p.level&&insts.has(c.institution));
-    const fE=fixed.reduce((n,c)=>n+(c.ects||5),0), target=fE+budget, thesis=inc&&p.level==='MSc'?p.thesis.ects:0;
+    const tl=inc?p.thesis.levels:null, thesis=inc&&p.level==='MSc'?p.thesis.ects:0, homeInsts=new Set(p.institutions);
+    if(!topics.length){
+      if(!fillOn()){ msg.append(el('div',{class:'style-note'},`This is the standard path of the programme. Write your interests in step 2 to add electives, or use step 3 to reach a CFQT profile.`)); return; }
+      const b0={kicker:`Standard path + courses for ${state.ref}`,why:`All courses of the path, plus the courses that close the gaps to ${state.ref} ${RP[state.ref].name}.`,col:'var(--ref)',
+        items:items.map(x=>({c:x.c,m:{s:0,why:[]},flag:x.role==='compulsory'?'compulsory':null}))};
+      const res=fillGaps(b0,pool,tl,topics,words,bonus,homeInsts); const built=[{...b0,items:res.items,ects:res.ects}];
+      msg.append(el('div',{class:'style-note'},gapNote(res,'The standard path')));
+      built.forEach((b,bi)=>box.append(planCard(b,bi,p,items,fixed,inc)));
+      state.built=built;state.thesis=thesis;state.home=p.institutions[0];state.tt=0;renderTT();return;
+    }
+    const fE=fixed.reduce((n,c)=>n+(c.ects||5),0), target=fE+budget;
     const plans=[
       {kind:'match',kicker:'Closest to your interests',why:'Your compulsory courses, plus the electives that match your topics most closely.',col:'var(--accent)'},
       {kind:'hands',kicker:'More hands-on',why:'Electives that lean towards (II) hardware and software engineering: lab, devices, control and programming.',col:acol('II')},
       {kind:'theory',kicker:'More theory',why:'Electives that lean towards (I) quantum concepts: foundations, mathematics and the physics behind the technology.',col:acol('I')}];
     const first=build(pool,topics,words,target,'match',null,null,thesis,fixed,bonus);
     const used=new Set(first.items.filter(x=>x.flag!=='compulsory').map(x=>x.c.institution+x.c.code));
-    const built=plans.map((pl,i)=>({...pl,...(i?build(pool,topics,words,target,pl.kind,used,null,thesis,fixed,bonus):first)}));
-    msg.append(el('div',{class:'style-note'},`Three ways to fill about ${budget} ECTS of electives around the ${fE} ECTS of compulsory quantum courses in ${p.name}. Electives the curriculum lists for this path are preferred${cross?'; courses at other universities are included':''}.`));
-    const total=p.level==='BSc'?180:120;
-    built.forEach((b,bi)=>{
-      const courses=b.items.map(x=>x.c), pr=profile(courses,inc?p.thesis.levels:null,fixed);
-      const tE=inc?p.thesis.ects:0, other=Math.max(0,total-b.ects-tE);
-      const bar=el('div',{class:'ectsbar',role:'img','aria-label':`${b.ects} ECTS quantum courses, ${tE} ECTS ${thesisName(p)}, ${other} ECTS other courses`},
-        el('i',{style:`width:${b.ects/total*100}%;background:${b.col}`}),el('i',{style:`width:${tE/total*100}%;background:${b.col};opacity:.45`}),el('i',{style:`width:${other/total*100}%;background:var(--other)`}));
-      const list=el('div',{class:'clist'});
-      b.items.forEach(x=>{const c=x.c, inPath=items.find(y=>y.inst===c.institution&&y.code===c.code);
-        const m=el('div',{class:'m'},el('span',{class:'badge'+(p.institutions.includes(c.institution)?'':' x')},c.institution),
-          x.flag==='compulsory'?el('span',{class:'badge c'},'compulsory'):inPath?el('span',{class:'badge r'},ROLE[inPath.role].toLowerCase()):el('span',{class:'badge'},'free elective'),
-          ...AREAS.filter(a=>c.prof[a]).map(a=>el('span',{class:'pl',style:`color:${acol(a)}`},`${a} ${c.prof[a]}`)),
-          ...c.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)),
-          x.flag==='foundation'?el('span',{class:'badge f'},'foundation'):null,
-          x.flag!=='compulsory'&&x.m.why.length?el('span',{class:'match'},'matches '+x.m.why.slice(0,2).join(', ')):null);
-        list.append(el('div',{class:'crow'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title),el('span',{class:'e'},`${c.ects} ECTS`),m))});
-      if(inc) list.append(el('div',{class:'crow'},el('span',{style:'font-size:14px;font-style:italic'},`${thesisName(p)[0].toUpperCase()+thesisName(p).slice(1)} in a quantum topic`),el('span',{class:'e'},`${p.thesis.ects} ECTS`),el('div',{class:'m'},...Object.entries(p.thesis.levels).map(([a,l])=>el('span',{class:'pl',style:`color:${acol(a)}`},`${a} ${l}`)),el('span',{},'assumed'))));
-      list.append(el('div',{class:'placeholder'},`${other} ECTS: other courses in your programme, chosen with your study counsellor.`));
-      const card=el('article',{class:'plan',style:`border-top:3px solid ${b.col}`},el('span',{class:'kicker',style:`color:${b.col}`},b.kicker),el('p',{class:'why'},b.why),drawTri(pr),lvChips(pr),cmpChips(pr),bar,list);
-      if(p.level==='MSc'){const tb=el('button',{type:'button',class:'ttbtn'},'See timetable ↓');tb.onclick=()=>{state.tt=bi;renderTT();document.getElementById('tt-sec').scrollIntoView({behavior:'smooth'})};card.append(tb)}
-      box.append(card);
-    });
+    let built=plans.map((pl,i)=>({...pl,...(i?build(pool,topics,words,target,pl.kind,used,null,thesis,fixed,bonus):first)}));
+    msg.append(el('div',{class:'style-note'},`Three ways to fill about ${budget} ECTS of electives around the ${fE} ECTS of compulsory quantum courses in ${p.name}. Electives the curriculum lists for this path are preferred${cross?'; courses at all universities are included':''}.`));
+    if(fillOn()){const notes=[];built=built.map(b=>{const r=fillGaps(b,pool,tl,topics,words,bonus,homeInsts);notes.push(r);return {...b,items:r.items,ects:r.ects}});
+      const n=notes.reduce((k,r)=>k+r.added.length,0), miss=[...new Set(notes.flatMap(r=>r.missing))];
+      msg.append(el('div',{class:'style-note'},`Step 3: ${n?`${n} course${n===1?'':'s'} added across the three variants to reach ${state.ref} (marked "for ${state.ref}").`:`all three variants already reach ${state.ref}.`}${miss.length?` No course in the selection reaches ${miss.join(' and ')}.`:''}`))}
+    built.forEach((b,bi)=>box.append(planCard(b,bi,p,items,fixed,inc)));
     state.built=built;state.thesis=thesis;state.home=p.institutions[0];if(!(state.tt<built.length))state.tt=0;renderTT();
+  }
+
+  function planCard(b,bi,p,items,fixed,inc){
+    const total=p.level==='BSc'?180:120, courses=b.items.map(x=>x.c), pr=profile(courses,inc?p.thesis.levels:null,fixed);
+    const tE=inc?p.thesis.ects:0, other=Math.max(0,total-b.ects-tE);
+    const bar=el('div',{class:'ectsbar',role:'img','aria-label':`${b.ects} ECTS quantum courses, ${tE} ECTS ${thesisName(p)}, ${other} ECTS other courses`},
+      el('i',{style:`width:${Math.min(100,b.ects/total*100)}%;background:${b.col}`}),el('i',{style:`width:${tE/total*100}%;background:${b.col};opacity:.45`}),el('i',{style:`width:${other/total*100}%;background:var(--other)`}));
+    const list=el('div',{class:'clist'});
+    b.items.forEach(x=>{const c=x.c, inPath=items.find(y=>y.inst===c.institution&&y.code===c.code);
+      const m=el('div',{class:'m'},el('span',{class:'badge'+(p.institutions.includes(c.institution)?'':' x')},c.institution),
+        x.flag==='compulsory'?el('span',{class:'badge c'},'compulsory'):inPath?el('span',{class:'badge r'},ROLE[inPath.role].toLowerCase()):el('span',{class:'badge'},'free elective'),
+        x.flag==='profile'?el('span',{class:'badge g'},`for ${state.ref} · ${x.area}`):null,
+        ...AREAS.filter(a=>c.prof[a]).map(a=>el('span',{class:'pl',style:`color:${acol(a)}`},`${a} ${c.prof[a]}`)),
+        ...c.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)),
+        x.flag==='foundation'?el('span',{class:'badge f'},'foundation'):null,
+        x.flag!=='compulsory'&&x.m.why.length?el('span',{class:'match'},'matches '+x.m.why.slice(0,2).join(', ')):null);
+      list.append(el('div',{class:'crow'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title),el('span',{class:'e'},`${c.ects} ECTS`),m))});
+    if(inc) list.append(el('div',{class:'crow'},el('span',{style:'font-size:14px;font-style:italic'},`${thesisName(p)[0].toUpperCase()+thesisName(p).slice(1)} in a quantum topic`),el('span',{class:'e'},`${p.thesis.ects} ECTS`),el('div',{class:'m'},...Object.entries(p.thesis.levels).map(([a,l])=>el('span',{class:'pl',style:`color:${acol(a)}`},`${a} ${l}`)),el('span',{},'assumed'))));
+    list.append(el('div',{class:'placeholder'},other?`${other} ECTS: other courses in your programme, chosen with your study counsellor.`:`The quantum courses fill the whole programme; check with your study counsellor which of them count towards your degree.`));
+    const card=el('article',{class:'plan',style:`border-top:3px solid ${b.col}`},el('span',{class:'kicker',style:`color:${b.col}`},b.kicker),el('p',{class:'why'},b.why),drawTri(pr),lvChips(pr),cmpChips(pr),bar,list);
+    if(p.level==='MSc'){const tb=el('button',{type:'button',class:'ttbtn'},'See timetable ↓');tb.onclick=()=>{state.tt=bi;renderTT();document.getElementById('tt-sec').scrollIntoView({behavior:'smooth'})};card.append(tb)}
+    return card;
   }
 
   function run(){
@@ -593,7 +644,7 @@ footer .site-foot a{color:var(--accent)}
   function runFree(text,topics,words){
     // pool
     const h=home.value, cross=document.getElementById('cross').checked;
-    const allowed=h==='ALL'?new Set(INSTS):new Set([h,...(cross?INSTS.filter(i=>i!==h):[])]);
+    const allowed=h==='ALL'?new Set(INSTS):new Set([h,...(NEAR[h]||[]),...(cross?INSTS.filter(i=>i!==h):[])]);
     const pool=MSC.filter(c=>allowed.has(c.institution));
     const target=+document.getElementById('target').value, thesis=+document.getElementById('thesis').value;
     const box=document.getElementById('plans'); const msg=document.getElementById('msg');
@@ -607,7 +658,10 @@ footer .site-foot a{color:var(--accent)}
     const used=new Set(first.items.map(x=>x.c.institution+x.c.code));
     const built=plans.map((p,i)=>({...p,...(i?build(pool,topics,words,target,p.kind,used,hb,thesis):first)}));
     if(built.every(b=>!b.items.length)){ msg.append(el('div',{class:'msg'},'No master\'s courses match these topics at the selected university. Try including other universities or broadening your interests.')); return; }
-    if(h!=='ALL'&&!cross) msg.append(el('div',{class:'style-note'},`Showing master's courses at ${h}. ${NEAR[h]?`Students at ${h} can often take courses at ${NEAR[h].join(' and ')}; tick "Include courses at other universities" to see them.`:''}`));
+    if(h!=='ALL'&&!cross) msg.append(el('div',{class:'style-note'},`Showing master's courses at ${[h,...(NEAR[h]||[])].join(' and ')}${NEAR[h]?`: ${h} and ${NEAR[h].join(' and ')} are close enough to follow courses at both`:''}. Tick "Include courses at other universities" to see the rest.`));
+    if(fillOn()){const tl=thesis>0?{I:'C1'}:null, hs=new Set([h,...(NEAR[h]||[])]);const res=built.map(b=>fillGaps(b,pool,tl,topics,words,null,hs));
+      res.forEach((r,k)=>{built[k].items=r.items;built[k].ects=r.ects});const n=res.reduce((k,r)=>k+r.added.length,0), miss=[...new Set(res.flatMap(r=>r.missing))];
+      msg.append(el('div',{class:'style-note'},`Step 3: ${n?`${n} course${n===1?'':'s'} added across the three suggestions to reach ${state.ref}.`:`all three suggestions already reach ${state.ref}.`}${miss.length?` No course in the selection reaches ${miss.join(' and ')}.`:''}`))}
     built.forEach((b,bi)=>{
       const courses=b.items.map(x=>x.c), pr=profile(courses,thesis>0?{I:'C1'}:null);
       const other=Math.max(0,120-b.ects-thesis);
@@ -620,6 +674,7 @@ footer .site-foot a{color:var(--accent)}
           ...Object.entries(c.prof).map(([a,l])=>el('span',{class:'pl',style:`color:${acol(a)}`},`${a} ${l}`)),
           ...c.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)),
           x.flag==='foundation'?el('span',{class:'badge f'},'foundation'):null,
+          x.flag==='profile'?el('span',{class:'badge g'},`for ${state.ref} · ${x.area}`):null,
           x.m.why.length?el('span',{class:'match'},'matches '+x.m.why.slice(0,2).join(', ')):null);
         list.append(el('div',{class:'crow'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title),el('span',{class:'e'},`${c.ects} ECTS`),m));
       });
