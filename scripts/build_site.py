@@ -290,6 +290,19 @@ for g in json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8
 unmapped_p = [x["title"] for x in proj_list if x["title"] and x["subs"] is None]
 if unmapped_p: print("advarsel: projekter uden CFQT-vurdering:", len(unmapped_p), unmapped_p[:5])
 print(f"projekter: {len(proj_list)} ph.d./postdoc, {sum(1 for x in proj_list if x['subs'])} på CFQT-kortet")
+# Niveau i CFQT-trekanten for et forskningsprojekt: hovedemnets område på C2 (forskningsniveau, "Innovation"),
+# andre områder, som underdomænerne berører, på C1. Område efter underdomæne:
+# I Quantum concepts: 1, 2, 5.1, 5.4, 5.5 · II HW & SW engineering: 3, 4, 5.2, 5.3, 6.1-6.6, 7.1-7.3, 7.5
+# III Applications & strategies: 5.6, 6.7, 7.4, 7.6, 8
+def sub_area(x):
+    d = x.split(".")[0]
+    if d in ("1", "2") or x in ("5.1", "5.4", "5.5"): return "I"
+    if d == "8" or x in ("5.6", "6.7", "7.4", "7.6"): return "III"
+    return "II"
+for x in proj_list:
+    if x["subs"]:
+        areas = [sub_area(t) for t in x["subs"]]
+        x["prof"] = {a: ("C2" if a == areas[0] else "C1") for a in dict.fromkeys(areas)}
 pout = {"reference": ref, "people": plist, "units": units, "projects": proj_list}
 pt = (ROOT / "site/people_template.html").read_text(encoding="utf-8")
 pbody2 = chrome(pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/")), "people")
@@ -366,4 +379,11 @@ abody = chrome(at.replace("/*DATA*/", json.dumps(aout, ensure_ascii=False).repla
 # Kildeliste (SOURCES.md og data/sources.csv) følger data.
 import subprocess, sys
 subprocess.run([sys.executable, str(ROOT / "scripts/list_sources.py")], check=True)
+
+# Forsiden får ph.d.- og postdoc-projekterne med (små trekanter pr. universitet) og bygges derfor igen til sidst.
+out["projects"] = [{k: x[k] for k in ("kind", "inst", "prof", "basis") if k in x} for x in proj_list]
+body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "index")
+page = page.split("<body>\n")[0] + "<body>\n" + body + "\n</body>\n</html>\n"
+(ROOT / "site/index.html").write_text(page, encoding="utf-8")
+(ROOT / "site/artifact.html").write_text(body, encoding="utf-8")
 
