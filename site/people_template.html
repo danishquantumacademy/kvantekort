@@ -100,6 +100,25 @@ tr:last-child td{border-bottom:0}
 .focus{font-size:14px}
 .ev{font-size:12.5px;color:var(--muted)}
 .ev i{font-style:normal;color:var(--fg)}
+.blk{display:grid;gap:4px}
+.bl{font:600 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.outs{margin:0;padding-left:18px;display:grid;gap:3px;font-size:13.5px}
+.outs a{color:var(--fg);text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);text-underline-offset:3px}
+.outs a:hover{color:var(--accent)}
+.outs .om{color:var(--muted);font-size:12.5px}
+/* teaching-research fit chart */
+.fitwrap{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:12px;position:relative}
+.fitwrap svg{width:100%;height:auto;display:block;overflow:visible}
+.fitwrap .bub{cursor:pointer}
+.fitwrap .bub:focus-visible{outline:none;stroke:var(--fg);stroke-width:2.5}
+.flegend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);align-items:center}
+.flegend .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.fbtn{font:500 12.5px var(--body);padding:4px 9px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg);cursor:pointer}
+.fbtn[aria-pressed=false]{opacity:.45}
+.fbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.fitwrap svg{max-width:760px;margin:0 auto}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font-size:12.5px;line-height:1.4;padding:7px 9px;border-radius:6px;max-width:280px;opacity:0;transition:opacity .1s;z-index:3}
+.tip b{font-weight:600}
 .crs{display:grid;gap:6px;padding-top:8px;border-top:1px solid var(--line)}
 .c1{display:grid;gap:2px}
 .c1 a{color:var(--fg);font-weight:600;font-size:13.5px;text-decoration:none}
@@ -129,7 +148,7 @@ footer a{color:var(--accent)}
     <p class="lede">Who teaches the quantum-relevant courses, where they work, what they research, and how that research connects to their courses.</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
       <p><b>Positions and landscape.</b> The bar shows the position levels of the educators. The research landscape groups them by department, section, group and centre, with the CFQT subdomains their research touches. Open a department to see its groups; unit names link to their own web pages, or to the research portal where a unit has none.</p>
-      <p><b>Research by CFQT domain.</b> The number of educators whose research touches each domain of the CFQT content map. Compare with the courses on the coverage page: a domain with researchers but few courses is room to grow the teaching.</p>
+      <p><b>The CFQT map of the research.</b> The eight CFQT domains sit around a circle. Each bubble is an educator, placed at the centre of gravity of the CFQT subdomains of their research: someone who researches only quantum computing sits next to domain 5, someone who combines quantum optics and communication sits between 2 and 7. The colour shows how well the courses they teach fit that research (the best fit among their courses), and the size shows the number of courses. Point at a bubble to draw a line to where their courses sit on the map: a short line means they teach close to their own research. Select a colour in the legend to show or hide that group. A table of educators per CFQT domain sits under the map.</p>
       <p><b>Educators.</b> One row per educator. Open a row for the research focus, CFQT tags, recent work and courses. The fit note under each course compares the course's CFQT subdomains with the educator's research: <span class="fit direct"><b>Direct fit</b></span>, <span class="fit related"><b>Related research</b></span>, <span class="fit adjacent"><b>Neighbouring field</b></span> or <span class="fit outside"><b>Broader base</b></span>. It describes overlap in subject, not teaching quality; many excellent courses are taught from a neighbouring field.</p>
       <p><b>Status.</b> Positions and units are as stated in the research portals. The research focus and its CFQT tags are written by Danish Quantum Academy and will be checked with the educators. Method and sources: <a href="about.html">About the data</a>.</p>
     </div></details>
@@ -152,9 +171,11 @@ footer a{color:var(--accent)}
   </section>
 
   <section aria-labelledby="m-h">
-    <h2 id="m-h">Research by CFQT domain</h2>
-    <p class="lede" style="font-size:14px">Educators whose own research touches each CFQT domain.</p>
-    <div class="tblwrap"><table id="mx"></table></div>
+    <h2 id="m-h">The research on the CFQT map</h2>
+    <p class="lede" style="font-size:14px">Each bubble is an educator, placed between the CFQT domains of their research and coloured by how well their courses fit it. Point at a bubble to see where their courses sit; select it to open the educator below.</p>
+    <div class="flegend" id="flegend"></div>
+    <div class="fitwrap"><svg id="fit" role="img" aria-label="Map of educators placed by the CFQT domains of their research, coloured by teaching–research fit"></svg><div class="tip" id="tip" role="status"></div></div>
+    <details class="fold howto"><summary>Educators per CFQT domain (table)</summary><div class="hb"><div class="tblwrap"><table id="mx"></table></div></div></details>
   </section>
 
   <section aria-labelledby="t-h">
@@ -257,6 +278,7 @@ footer a{color:var(--accent)}
       const cell=x=>el('td',{class:'n'},el('span',{style:x?`background:color-mix(in srgb, ${dcol(d)} ${Math.round(10+36*x/max)}%, transparent)`:''},String(x)));
       tb.append(el('tr',{},el('td',{},el('span',{class:'sd',style:`color:${dcol(d)};margin-right:8px`},d),v.name),...cols.map(i=>cell(n(i))),cols.length>1?el('td',{class:'n'},String(n('*'))):null))});
     mx.append(tb);
+    renderFit();
     renderCards();
   }
   const q=document.getElementById('q'),lvsel=document.getElementById('lvsel'),qt=document.getElementById('qt');
@@ -279,16 +301,79 @@ footer a{color:var(--accent)}
     if(p.units&&p.units.length) c.append(el('span',{class:'unit'},p.institution+' · ',...p.units.flatMap((u,i)=>[i?' › ':null,ulink(p.institution,u)])));
     if((p.centres||[]).length) c.append(el('div',{class:'chips'},...p.centres.map(x=>ulink(p.institution,x,el('span',{class:'cen'},x)))));
     if(p.focus) c.append(el('span',{class:'focus'},p.focus));
-    if((p.subs||[]).length) c.append(el('div',{class:'chips'},...p.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},`${s} ${subName(s)}`))));
-    if((p.concepts||[]).length) c.append(el('span',{class:'ev'},'Portal fingerprint: ',el('i',{},p.concepts.slice(0,6).join(', '))));
-    if((p.outputs||[]).length) c.append(el('span',{class:'ev'},'Recent work: ',el('i',{},p.outputs.slice(0,2).map(o=>`“${o}”`).join('; '))));
-    const crs=el('div',{class:'crs'});
+    const blk=(label,...body)=>el('div',{class:'blk'},el('span',{class:'bl'},label),...body);
+    if(!(p.subs||[]).length) c.append(blk('CFQT profile of the research',el('span',{class:'ev'},'The research lies outside the CFQT content map (for example catalysis, particle physics or cosmology), so it is not placed on the map above.')));
+    if((p.subs||[]).length) c.append(blk('CFQT profile of the research',el('div',{class:'chips'},...p.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},`${s} ${subName(s)}`)))));
+    if((p.concepts||[]).length) c.append(blk('Portal fingerprint',el('span',{class:'ev'},el('i',{},p.concepts.slice(0,8).join(', ')))));
+    const latest=(p.latest||[]).length?p.latest:(p.outputs||[]).map(o=>({title:o}));
+    if(latest.length) c.append(blk('Latest research output',el('ul',{class:'outs'},...latest.slice(0,3).map(o=>el('li',{},o.url?el('a',{href:o.url,target:'_blank',rel:'noopener'},o.title):o.title,o.year||o.type?el('span',{class:'om'},' · '+[o.type,o.year].filter(Boolean).join(', ')):null)))));
+    if((p.phd||[]).length) c.append(blk(`Main supervisor of ${p.phd.length} ongoing PhD project${p.phd.length===1?'':'s'}`,el('ul',{class:'outs'},...p.phd.slice(0,5).map(o=>el('li',{},el('a',{href:o.url,target:'_blank',rel:'noopener'},o.title),el('span',{class:'om'},' · '+o.period.replace('-','–')))),p.phd.length>5&&p.url?el('li',{style:'list-style:none;margin-left:-18px'},el('a',{href:p.url.replace(/\/$/,'')+'/projects/',target:'_blank',rel:'noopener'},`All ${p.phd.length} projects in the research portal ↗`)):null)));
+    const crs=el('div',{class:'crs'},el('span',{class:'bl'},'Courses and fit'));
     (p.courses||[]).forEach(x=>{const f=fit(p,x);
       crs.append(el('div',{class:'c1'},x.url?el('a',{href:x.url,target:'_blank',rel:'noopener'},x.title):el('span',{style:'font-weight:600;font-size:13.5px'},x.title),
         el('span',{class:'meta'},[x.institution!==p.institution?x.institution:'',x.code,x.level,x.role,...(x.subs||[]).slice(0,3)].filter(Boolean).join(' · ')),
         el('span',{class:'fit '+f.k},f.lab?el('b',{},f.lab+': '):null,f.t)))});
     c.append(crs);
     return row;
+  }
+  // ---- CFQT map of the research: the eight domains sit around a circle; each educator is placed at the centre of gravity
+  //      of their research subdomains, coloured by how well their courses fit that research ----
+  const FITORD=['direct','related','adjacent','outside'];
+  const FITLAB={direct:'Direct fit',related:'Related research',adjacent:'Neighbouring field',outside:'Broader base'};
+  const FITCOL={direct:'var(--good)',related:'var(--accent)',adjacent:'var(--warn)',outside:'var(--muted)'};
+  const jit=(s,k)=>{let h=2166136261;for(const ch of s+k){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return ((h>>>0)%1000)/1000-.5};
+  const state2={fit:new Set(FITORD)};
+  function renderFit(){
+    const svg=document.getElementById('fit'), tip=document.getElementById('tip'), NSV='http://www.w3.org/2000/svg';
+    const sv=(t,a={},...k)=>{const e=document.createElementNS(NSV,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.forEach(c=>c!=null&&e.append(c));return e};
+    const W=760,H=620,cx0=W/2,cy0=H/2+6,R=225;
+    svg.setAttribute('viewBox',`0 0 ${W} ${H}`); svg.innerHTML='';
+    const DOMS=Object.keys(Q.domains);
+    const ang=d=>-Math.PI/2+(DOMS.indexOf(d))*2*Math.PI/DOMS.length;
+    const anchor=(d,r)=>[cx0+r*Math.cos(ang(d)),cy0+r*Math.sin(ang(d))];
+    const centre=subs=>{let x=0,y=0;subs.forEach(s=>{const [a,b]=anchor(s.split('.')[0],R);x+=a;y+=b});return [x/subs.length,y/subs.length]};
+    // guides: outer ring, spokes and domain labels
+    svg.append(sv('circle',{cx:cx0,cy:cy0,r:R,fill:'none',stroke:'var(--line)','stroke-width':1.5}));
+    svg.append(sv('circle',{cx:cx0,cy:cy0,r:R/2,fill:'none',stroke:'var(--line)','stroke-width':1,'stroke-dasharray':'2 4'}));
+    DOMS.forEach(d=>{const [ax,ay]=anchor(d,R), [lx,ly]=anchor(d,R+30);
+      svg.append(sv('line',{x1:cx0,y1:cy0,x2:ax,y2:ay,stroke:'var(--line)','stroke-width':1}));
+      svg.append(sv('circle',{cx:ax,cy:ay,r:13,fill:`var(--d${d})`}));
+      svg.append(sv('text',{x:ax,y:ay+4.5,'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':12,'font-weight':700,fill:'var(--surface)'},d));
+      const c=Math.cos(ang(d)), anc=Math.abs(c)<.3?'middle':c>0?'start':'end';
+      const words=Q.domains[d].name.split(' '), lines=[];let cur='';words.forEach(w=>{if((cur+' '+w).trim().length>22){lines.push(cur.trim());cur=w}else cur+=' '+w});lines.push(cur.trim());
+      const t=sv('text',{x:lx,y:ly-(lines.length-1)*7+4,'text-anchor':anc,'font-family':'IBM Plex Sans, sans-serif','font-size':12.5,'font-weight':600,fill:`var(--d${d})`});
+      lines.forEach((l,i)=>t.append(sv('tspan',{x:lx,dy:i?15:0},l))); svg.append(t)});
+    // educators
+    const pts=P.filter(p=>p.found&&(state.inst==='ALL'||p.institution===state.inst)&&(p.subs||[]).length).map(p=>{
+      const cs=(p.courses||[]).filter(c=>c.mapped); if(!cs.length) return null;
+      const fits=cs.map(c=>fit(p,c).k), best=FITORD.find(k=>fits.includes(k));
+      const [rx,ry]=centre(p.subs), tsubs=cs.flatMap(c=>c.subs||[]), [tx,ty]=tsubs.length?centre(tsubs):[rx,ry];
+      return {p,best,n:cs.length,x:rx,y:ry,tx,ty};}).filter(Boolean);
+    // educators with the same research mix share a position: spread each group in a small sunflower around it
+    const grp={};pts.forEach(d=>{const k=Math.round(d.x/6)+','+Math.round(d.y/6);(grp[k]=grp[k]||[]).push(d)});
+    Object.values(grp).forEach(g=>{g.sort((a,b)=>FITORD.indexOf(a.best)-FITORD.indexOf(b.best)||a.p.name.localeCompare(b.p.name));
+      const bx=g[0].x,by=g[0].y, inw=Math.hypot(bx-cx0,by-cy0)>R*.8?(R*.84)/Math.hypot(bx-cx0,by-cy0):1;
+      const ox=cx0+(bx-cx0)*inw, oy=cy0+(by-cy0)*inw;
+      g.forEach((d,i)=>{const r=i?7.2*Math.sqrt(i):0, t=i*2.39996;d.x=ox+r*Math.cos(t);d.y=oy+r*Math.sin(t)})});
+    const shown=pts.filter(d=>state2.fit.has(d.best));
+    const link=sv('g',{'pointer-events':'none'}); svg.append(link);
+    const wrap=svg.parentNode;
+    shown.forEach(d=>{
+      const r=3+Math.min(3,d.n*.8);
+      const c=sv('circle',{cx:d.x.toFixed(1),cy:d.y.toFixed(1),r,fill:FITCOL[d.best],'fill-opacity':.85,stroke:'var(--surface)','stroke-width':1.5,class:'bub',tabindex:0,role:'button','aria-label':`${d.p.name}, ${d.p.institution}: research ${(d.p.subs||[]).join(', ')}; ${FITLAB[d.best]}`});
+      const show=()=>{tip.innerHTML='';tip.append(el('b',{},d.p.name),el('br'),`${d.p.institution} · ${d.p.level}`,el('br'),`Research: ${(d.p.subs||[]).join(', ')}`,el('br'),`${d.n} course${d.n===1?'':'s'} · best: ${FITLAB[d.best]}`,el('br'),el('span',{style:'opacity:.8'},'The line points to where the courses sit on the map.'));
+        link.innerHTML='';link.append(sv('line',{x1:d.x,y1:d.y,x2:d.tx,y2:d.ty,stroke:'var(--fg)','stroke-width':1.5,'stroke-dasharray':'4 3'}),sv('rect',{x:d.tx-4,y:d.ty-4,width:8,height:8,fill:'var(--fg)',transform:`rotate(45 ${d.tx} ${d.ty})`}));
+        const bw=wrap.getBoundingClientRect(), sb=svg.getBoundingClientRect(), k=sb.width/W; let lx=(d.x*k)+(sb.left-bw.left)+12, ly=(d.y*k)+(sb.top-bw.top)-10; if(lx>bw.width-290) lx-=300; tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.style.opacity=1};
+      const hide=()=>{tip.style.opacity=0;link.innerHTML=''};
+      c.addEventListener('mouseenter',show);c.addEventListener('mouseleave',hide);c.addEventListener('focus',show);c.addEventListener('blur',hide);
+      const go=()=>{hide();jump(d.p)}; c.addEventListener('click',go); c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}});
+      svg.append(c);
+    });
+    // legend doubles as a filter on fit
+    const fl=document.getElementById('flegend'); fl.innerHTML='';
+    FITORD.forEach(k=>{const n=pts.filter(d=>d.best===k).length;const b=el('button',{type:'button',class:'fbtn','aria-pressed':String(state2.fit.has(k))},el('span',{class:'sw',style:`background:${FITCOL[k]}`}),`${FITLAB[k]} ${n}`);
+      b.onclick=()=>{state2.fit.has(k)&&state2.fit.size>1?state2.fit.delete(k):state2.fit.add(k);renderFit()};fl.append(b)});
+    fl.append(el('span',{},`Colour = best fit among the educator's courses · size = number of courses · ${shown.length} of ${pts.length} educators shown`));
   }
   function renderCards(){
     const box=document.getElementById('cards');box.innerHTML='';

@@ -1,0 +1,82 @@
+NAMES:Alexander Kies;Anne E. B. Nielsen;Artem Volosniev;Aurelien Romain Dantan;Bo Brummerstedt Iversen;Brian Julsgaard;Brigitte Maria Städler;Claudio Orlandi;Diego F. Aranha;Duncan Sutherland;Frank Jensen;Hans Otto Uldall Fynbo;Heine Dølrath Thomsen;Ivan Bjerre Damgård;Jan Joachim Arlt;Jeppe Vang Lauritsen;Jørgen Skibsted;Karsten Riisager;Lars Bojer Madsen;Martin Bremholm;Merete Bilde;Michael Drewsen;Nick Volet;Nikolaj Thomas Zinner;Ove Christiansen;Pernille Klarskov Hansen;Peter Balling;Peter Scholl;Philip Hofmann;Rasmus Schmidt Davidsen;Rosana Martinez Turtos;Sonal Shreya;Sophia Yakoubov;Steen Brøndsted Nielsen;Sune Jespersen;Søren Ulstrup;Tobias Weidner;Trolle René Linderoth;Yong Chen;Zhengli Han;Zoran Cenev
+O|0|2026|Article|=65|Digital twins of the earth can take energy systems modeling to the next level
+O|0|2026|Proceedings|=65|Hybrid renewable energy and smart transmission: Vietnamese approach and case studies
+O|1|2026|Article|experimental-protocol-for-observing-single-quantum-many-body-scar-2|Experimental protocol for observing single quantum many-body scars with transmon qubits
+O|1|2026|Article|=65|Identification and properties of topological states in the bulk of quasicrystals
+O|2|2026|Article|=65|Generalized Gross-Pitaevskii Equation for 2D Bosons with Attractive Interactions
+O|2|2026|Article|=55|Learning shape resonances from the stabilization method
+O|3|2026|Preprint|=53|Cavity optomechanics with a suspended resonant mirror
+O|3|2026|Article|dynamical-measurement-of-saturation-vapor-pressures-below-and-abo-2|Dynamical measurement of saturation vapor pressures below and above room temperature
+O|5|2026|Article|=65|Two- and three-photon absorption in silicon for above-band-gap photon energies
+O|5|2025|Article|=65|A Tissue-Equivalent, Reusable Dosimeter for 3D Verification of Radiotherapy
+O|4|2026|Article|=65|Accelerated Materials Discovery Through In Situ X-ray Diffraction: Solvothermal Formation of PdxMy (M═Si, Ge, Sn, Pb) Intermetallic Nanoparticles
+O|4|2026|Article|=58|Defect structure of yttria-stabilized hafnia nanoparticles
+O|6|2026|Article|=65|3D-Printed Actuator Powered by Liquid Crystal Elastomer Muscles at the Water–Air Interface
+O|6|2026|Article|=65|A Lipid-Conjugation Strategy for Intracellular Reactive Oxygen Species Control in Hepatic Cells
+O|7|2026|Proceedings|privately-constrained-prfs-fromdcr-puncturing-andbounded-waring-r|Privately Constrained PRFs from DCR: Puncturing and Bounded Waring Rank
+O|7|2026|Proceedings|=45|Securely Computing One-Sided Matching Markets
+O|8|2026|Proceedings|=62|A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+O|8|2026|Proceedings|better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths|Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method
+O|11|2026|Article|beta-delayed-neutron-emission-of-n84-cd-132|Beta-Delayed Neutron Emission of N=84 Cd 132
+O|11|2026|Article|first-determination-of-the-isospin-mixing-in-the-sup8supbe-2-doub|First determination of the isospin mixing in the 8Be 2+ doublet via 8B beta decay
+O|9|2026|Article|=65|Serial intravital microscopy reveals temporal dynamics of autoreactive germinal centers in the spleen
+O|9|2026|Article|=65|Shear-sensitive clustering of nanoparticles and their protein corona composition govern α-synuclein aggregation
+O|10|2026|Article|=65|A Hessian-Based Interpolation Method for Locating Transition Structures
+O|10|2026|Article|=65|Coulomb explosion imaging identifies a K-CsI complex formed at the surface of helium nanodroplets
+O|12|2023|Article|=65|Status and strategy at ISA, centre for storage ring facilities, Aarhus University, Denmark
+O|12|2019|Article|=53|Kunsten at bygge verdens mest effektfulde accelerator
+O|13|2026|Article|=65|A system capable of verifiably and privately screening global DNA synthesis
+O|13|2026|Proceedings|=23|Deniable Secret Sharing
+O|14|2026|Article|=65|Cloud parameter estimation for interacting BEC after time-of-flight
+O|14|2026|Preprint|=65|Observation of low-lying impurity states in Bose-Einstein condensates
+O|15|2026|Article|=65|Facile Ferric Nitrate Spray Fabrication and In Situ NAP-XPS Investigation of NiFeO xH y-Coated Nickel Foam Electrocatalysts for Alkaline Water Electrolysis
+O|15|2026|Article|=65|Formation and oxygen intercalation of vitreous 2D silica bilayer films on Ir(111)
+O|17|2026|Article|first-determination-of-the-isospin-mixing-in-the-sup8supbe-2-doub|First determination of the isospin mixing in the 8Be 2+ doublet via 8B beta decay
+O|17|2026|Article|measurement-of-the-ground-state-spin-and-parity-of-alsub22sub-dis|Measurement of the Ground State Spin and Parity of Al22 Disfavors Halo Formation
+O|16|2026|Article|=65|A pH-Responsive Hydrogel for Bioactive Self-Healing Cementitious Materials
+O|16|2026|Article|=65|Brave New Frameworks: Synthesis and Structural Properties of Novel Covalent Triazine Frameworks From Commercial Dicyanobenzenes for Photocatalytic Applications
+O|18|2026|Article|=65|High-order harmonic generation with beyond-semiclassical emitter dynamics: A strong-field quantum-optical Heisenberg-picture approach
+O|18|2026|Article|=59|Intense-laser nondipole-induced symmetry breaking in solids
+O|19|2026|Article|ultrafast-surface-melting-of-orbital-order-in-lasub05subsrsub15su|Ultrafast surface melting of orbital order in La0.5Sr1.5MnO4
+O|19|2025|Article|=65|Chemical synthesis, structural and magnetic properties of Al-doped neodymium orthoferrite
+O|20|2026|Article|=65|Aerosol-Cloud Interactions: Overcoming a Barrier to Projecting Near-Term Climate Evolution and Risk
+O|20|2026|Article|=65|Aerosolisation of microalgae: unveiling dimethyl-sulfide emissions during bubbling
+O|21|2026|Article|=55|Ion Coulomb crystals: An exotic form of condensed matter
+O|21|2025|Article|=65|Effects of the delocalized charge distribution in trapped ion-atom collisions
+O|22|2026|Proceedings|=65|Efficient Second-Harmonic and Photon-Pair Generation in InGaP-on-Insulator Waveguides
+O|22|2026|Proceedings|far-uvc-field-emission-devices-at-226nm-using-monolayer-ganaln-qu|Far-UVC field emission devices at 226nm using monolayer GaN/AlN quantum wells
+O|23|2026|Article|=65|Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+O|23|2025|Article|=65|Calculating the Energy Profile of an Enzymatic Reaction on a Quantum Computer
+O|25|2026|Conference|=62|MEMS and Metasurface for Sustainable and Fast Optical Displays
+O|25|2025|Conference|=54|3-dimensional THz metasurface for sensing applications
+O|24|2026|Article|=65|Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+O|24|2026|Article|=39|Forty Years of Response Function Theory
+O|26|2026|Article|=65|Characterization and 3D printing of a tissue equivalent anthropomorphic neck phantom for 2.5D dosimetric verification in radiotherapy
+O|26|2026|Article|=65|Two- and three-photon absorption in silicon for above-band-gap photon energies
+O|27|2026|Proceedings|=62|A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+O|27|2026|Article|=55|Distributed Point Functions and Function Secret Sharing
+O|28|2026|Article|=65|Anisotropy-driven double corrugation: Coexistence of one- and two-dimensional wave patterns in epitaxial graphene on iridium
+O|28|2026|Article|bulk-and-surface-electronic-structure-of-moalb010|Bulk and surface electronic structure of MoAlB(010)
+O|29|2026|Article|=65|Biomimetic graphitic carbon nitride nanoparticles for multiscale photomodulation and therapeutic intervention
+O|29|2026|Article|=65|Emerging phosphorene-based catalysts for environmental sustainability: Wastewater treatment and carbon dioxide reduction pathways
+O|30|2026|Article|=65|Characterization and 3D printing of a tissue equivalent anthropomorphic neck phantom for 2.5D dosimetric verification in radiotherapy
+O|30|2026|Article|=65|Limiting Exciton Diffusion Enhances the Optical Response of CsPbBr3 Nanocrystal Films at High Excitation Densities
+O|31|2026|Proceedings|=65|A Spintronic True Random Number Generator Using Vortex Nano-Oscillators and Probabilistic SOT-MTJ Programming
+O|31|2026|Proceedings|=65|Nonlinear Skyrmion Motion Controlled by Voltage-Induced Magnetic Exchange Gradients
+O|32|2026|Proceedings|=23|Deniable Secret Sharing
+O|32|2026|Proceedings|=65|From Ciphers to Future Cybersecurity: Engaging High School Students with Emerging Cryptographic Techniques through Hands-on Activities
+O|33|2026|Article|freezing-out-structural-effects-strong-dyedye-couplings-in-gaseou|Freezing out structural effects: strong dye–dye couplings in gaseous rhodamine dimers at cryogenic temperatures
+O|33|2026|Article|=65|Methylation-controlled photophysical tuning in isolated acridine cations revealed by cryogenic fluorescence spectroscopy and TD-DFT
+O|34|2026|Article|=65|A Combined Hemodynamic and Metabolic Exchange (HEMEX) Model for In Vivo Hyperpolarized 13C MRI
+O|34|2026|Article|=65|Axonal microstructure and compartmentalization impact the orientation and time dependence of mesoscopic transverse relaxation
+O|35|2026|Article|=65|Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions
+O|35|2026|Article|=65|Direct Visualization of Gate-Tunable Flat Bands in Twisted Double Bilayer Graphene
+O|36|2026|Article|=65|Binding and orientation of ice nucleating proteins on hydrophilic and hydrophobic surfaces probed by photoelectron spectroscopies
+O|36|2026|Article|=65|Disentangling PA6 crystalline polymorphs through amide I and amide II signatures via femtosecond 2D-IR spectroscopy
+O|37|2020|Article|=60|Two-Dimensional Coordination Networks from Cyclic Dipeptides
+O|37|2018|Article|=65|Three-dimensional hydrogen bonding between Landers and planar molecules facilitated by electrostatic interactions with Ni adatoms
+O|38|2026|Article|=65|Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions
+O|38|2026|Article|=65|Disorder Scattering Induced Large Room Temperature Nonlinear Anomalous Hall Effect in a Semiconductor CdGeAs2
+O|39|2026|Conference|=62|MEMS and Metasurface for Sustainable and Fast Optical Displays
+O|39|2025|Conference|=54|3-dimensional THz metasurface for sensing applications
+O|40|2025|Article|=65|Ferrofluid-Based Bioink for 3D Printed Skeletal Muscle Tissues with Enhanced Force and Magnetic Response

@@ -69,7 +69,7 @@ for prog in programmes["programmes"]:
 out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
-NAV = [("Education", [("index", "index.html", "Coverage"), ("triangle", "triangle.html", "Triangle"),
+NAV = [("Education", [("index", "index.html", "Courses and proficiency"),
                       ("students", "students.html", "Study paths"), ("planner", "planner.html", "Course finder")]),
        ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")])]
 SHARED_CSS = """
@@ -123,12 +123,13 @@ page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n
 (ROOT / "site/index.html").write_text(page, encoding="utf-8")
 (ROOT / "site/artifact.html").write_text(body, encoding="utf-8")  # til claude.ai-preview
 
-# Trekant-siden (CFQT proficiency triangle) bygges af de samme data.
-ttpl = (ROOT / "site/triangle_template.html").read_text(encoding="utf-8")
-tbody = chrome(ttpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "triangle")
-tpage = page.split("<body>\n")[0] + "<body>\n" + tbody + "\n</body>\n</html>\n"
-(ROOT / "site/triangle.html").write_text(tpage, encoding="utf-8")
-(ROOT / "site/triangle_artifact.html").write_text(tbody, encoding="utf-8")
+# Trekant-siden er lagt sammen med forsiden; triangle.html sender videre og bevarer parametre og anker.
+(ROOT / "site/triangle.html").write_text(
+    '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>Danish Quantum Education Map</title>'
+    '<meta http-equiv="refresh" content="0; url=index.html">'
+    '<script>location.replace("index.html"+location.search+location.hash)</script></head>'
+    '<body><p>The proficiency triangle is now on the <a href="index.html">front page</a>.</p></body></html>\n', encoding="utf-8")
+(ROOT / "site/triangle_artifact.html").unlink(missing_ok=True)
 
 # Studiestier (den studerendes trekant) bygges af kurserne + data/programmes.json.
 sout = {**out, "programmes": programmes}
@@ -189,6 +190,40 @@ for line in (ROOT / "data/people/research.txt").read_text(encoding="utf-8").spli
     if bad: raise SystemExit(f"Ugyldig CFQT-underdomæne {bad} for {name}")
     p = people.setdefault((inst, name), {"institution": inst, "name": name, "found": False})
     p["focus"], p["subs"] = focus, sort_subs(s for s in subs.split(";") if s)
+# Seneste forskningsoutput (med link) og igangværende ph.d.-projekter med underviseren som hovedvejleder,
+# høstet fra forskningsportalerne (data/people/harvest/<inst>*.txt). Linjer: TYPE|navn-indeks|år|type|slug|titel,
+# hvor slug "=N" betyder de første N tegn af titlens slug (Pure danner adressen ud fra titlen).
+import unicodedata
+def pure_slug(t):
+    t = unicodedata.normalize("NFKD", t.lower())
+    t = "".join(ch for ch in t if not 0x300 <= ord(ch) <= 0x36F)
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+PUB_BASE = {"DTU": "https://orbit.dtu.dk/en/", "KU": "https://researchprofiles.ku.dk/en/", "AU": "https://pure.au.dk/portal/en/",
+            "SDU": "https://portal.findresearcher.sdu.dk/en/", "AAU": "https://vbn.aau.dk/en/"}
+TYPE_NAME = {"Article/newspaper": "Article", "Contribution to book/anthology/report/proceeding": "Proceedings",
+             "Contribution to book/anthology/report/conference proceeding": "Proceedings", "Working paper/Preprint": "Preprint",
+             "Conference without publisher/journal": "Conference", "Book/report": "Report"}
+HARVEST_SKIP = {("SDU", "Shan Shan")}  # portalprofilen matcher ikke personen
+n_out = n_phd = 0
+for inst in PUB_BASE:
+    names = []
+    for f in sorted((ROOT / "data/people/harvest").glob(f"{inst.lower()}*.txt")):
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if line.startswith("NAMES:"):
+                names = line[6:].split(";"); continue
+            if not line.strip() or line.startswith("#"): continue
+            kind, idx, year, typ, slug, title = line.split("|", 5)
+            name = names[int(idx)]
+            if (inst, name) in HARVEST_SKIP or (inst, name) not in people: continue
+            if slug.startswith("="):
+                slug = pure_slug(title)[:int(slug[1:])]
+            url = PUB_BASE[inst] + ("publications/" if kind == "O" else "projects/") + slug + "/"
+            pp = people[(inst, name)]
+            if kind == "O":
+                pp.setdefault("latest", []).append({"title": title, "url": url, "year": year, "type": TYPE_NAME.get(typ, typ)}); n_out += 1
+            elif kind == "J":
+                pp.setdefault("phd", []).append({"title": title, "url": url, "period": year, "type": typ}); n_phd += 1
+print(f"harvest: {n_out} seneste output, {n_phd} ph.d.-projekter som hovedvejleder")
 # en underviser registreret ved ét universitet, men ansat ved et andet (fx en KU-forsker på et DTU-kursus)
 for (inst, name), p in list(people.items()):
     if not p.get("found"):

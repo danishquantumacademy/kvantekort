@@ -1,0 +1,150 @@
+O|39|2026|Article|=65|Power scaling of dispersive wave generation in higher angular order modes
+O|42|2025|Article|=65|Nano-Perforated Silicon Membrane with Monolithically Integrated Buried Cavity
+O|42|2022|Article|=65|Generation and Culture of Cardiac Microtissues in a Microfluidic Chip with a Reversible Open Top Enables Electrical Pacing, Dynamic Drug Dosing and Endothelial Cell Co-Culture
+O|44|2026|Patent|=51|A multi-dimensional cluster state generation system
+O|44|2026|Article|=65|Continuous Variable Measurement-Device-Independent Quantum Certification
+J|44|2025-2027|PhD|=65|Continuous Variable Quantum Information Processing in Cluster States
+J|44|2023-2026|PhD|=65|Active Operations on Quantum States for Applications in Photonic Computing and Simulation
+J|44|2022-2026|PhD|=65|Fast simulation of continuous-variable circuits for photonic quantum computing
+O|46|2026|Article|=36|A heterogeneous lithosphere on Venus
+O|46|2026|Article|bathymetry-prediction-with-swot-gravity-anomaly-using-machine-lea-2|Bathymetry Prediction With SWOT Gravity Anomaly Using Machine Learning Methods: Paper 1–Model Development
+O|43|2026|Article|aqueous-polymorph-and-morphology-control-in-zifs-via-1methylimida|Aqueous polymorph and morphology control in ZIFs via 1–methylimidazole for efficient lipase entrapment
+O|43|2026|Article|=65|Bayesian Exploration of Metal-Organic Framework- Derived Nanocomposites for High-Performance Supercapacitors
+J|43|2025-2028|PhD|=65|Atomic-Scale Characterization of Nanoporous Materials for Environmental Applications
+J|43|2025-2028|PhD|=65|Atomic-Level Study of Nanoclusters within Microporous 3D Frameworks
+J|43|2024-2027|PhD|unveiling-quantum-dotorganic-ligand-interactions|Unveiling Quantum Dot/Organic Ligand Interactions
+J|43|2023-2026|PhD|=65|Structural Characterization of Self-Assembly of Organic Nanomaterials and Biomaterials
+J|43|2022-2026|PhD|=65|Structural characterization of additivelymanufactured metal components
+O|45|2025|Article|a-friendly-guide-to-exorcising-maxwells-demon|A Friendly Guide to Exorcising Maxwell's Demon
+O|45|2025|Article|=48|Benchmarks for quantum communication via gravity
+J|45|2024-2027|PhD|=57|Quantum information security and randomness certification
+J|45|2023-2026|PhD|=57|Testing quantum mechanics with macroscopic quantum states
+O|47|2025|Article|=65|High-resolution hexagonal array patterns fabricated by dipole cross-exposure in deep ultraviolet lithography
+O|47|2017|Patent|=50|A method for manufacturing a hollow mems structure
+O|48|2026|Article|=65|Impulse response characterization of a quantum frequency converter
+O|48|2026|Article|=65|Thermal behavior analysis of Raman lasing in 4H-SiC microresonators
+J|48|2023-2026|PhD|=61|Effects of higher order modes on optical amplifiers and laser
+J|48|2023-2026|PhD|=32|Mode conversion of Quantum state
+J|48|2022-2026|PhD|=45|Quantum State Preserving Frequency Conversion
+O|49|2025|Article|=65|Activating the Basal Plane of 2D Transition Metal Dichalcogenides via High-Entropy Alloying
+O|49|2025|Article|=65|Global atomic structure optimization through machine-learning-enabled barrier circumvention in extra dimensions
+J|49|2023-2026|PhD|=65|Machine learning exchange correlation functionals for density functional theory
+O|50|2026|Article|=65|Analysis strategies for time-resolved X-ray solution scattering at high repetition rate XFEL sources
+O|50|2026|Article|=65|Tracking polar solvation dynamics of a photoexcited organic chromophore with ultrafast X-ray scattering
+J|50|2024-2027|PhD|=65|Prediction of Nuclear Fission Products Behavior in a Molten Salt Reactor
+J|50|2022-2026|PhD|ultrafast-mapping-of-solar-energy-conversion-2|Ultrafast Mapping of Solar Energy Conversion
+O|52|2026|Article|=65|Defect-Assisted Recombination in Semiconductors and Photovoltaic Device Parameters from First Principles
+O|52|2026|Article|=65|Large-Scale Integration of Experimental and Computational Data for 2D Materials
+J|52|2024-2027|PhD|=65|First-principles calculations of electronic properties of twodimensional van der Waals heterostructures
+J|52|2023-2027|PhD|=65|Ab-initio calculation of optical response functions and ground state correlation energies of solids from many-body perturbation theory
+J|52|2023-2026|PhD|=53|Machine learning point defects for quantum technology
+J|52|2023-2026|PhD|=65|Automated generation of low-energy modelHamiltonians for materials science
+O|51|2026|Article|=65|Broadband Parametric Amplification in AlGaAs-on-Insulator Nanowaveguides
+O|51|2026|Article|=65|Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+J|51|2022-2026|PhD|=49|Quadrature (IQ) Modulators for integrated photonics
+J|51|2020-2026|PhD|=32|MEMS VCSELs for swept source OCT
+O|54|2026|Article|=65|Analysis strategies for time-resolved X-ray solution scattering at high repetition rate XFEL sources
+O|54|2026|Article|=65|A new reference for changes in X-ray scattering from water due to temperature changes at ambient conditions
+O|53|2026|Article|=65|Charges on a suspended silicon nitride membrane under a high-energy electron beam
+O|53|2026|Article|=65|Electron holography and micromagnetic simulations unveil the magnetic domain structure of steel-embedded Fe3C carbides
+J|53|2025-2028|PhD|=28|Sustainable Microfabrication
+J|53|2023-2026|PhD|=32|Nanofluidic Electron Diffraction
+J|53|2022-2026|PhD|=65|Atomic Scale Insight into Catalysiswith Nanochannels and Microscopy (titel fortsat)
+O|55|2026|Article|=65|Increased brain coverage and efficiency when measuring current-induced magnetic fields by use of simultaneous multi-slice echo-planar MRI
+O|55|2026|Article|=65|Increasing the measurable frequency range of magnetic field oscillations with off-resonance spin-lock preparation pulses
+O|58|2026|Proceedings|=65|Broadcast-Optimal Secure Computation from Black-Box Oblivious Transfer
+O|58|2026|Proceedings|=43|Information-Theoretic Broadcast-Optimal MPC
+J|58|2026-2028|PhD|=65|Bridging the gap between theory and practice of non-interactive zero-knowledge proofs. DOCX:116707
+O|56|2026|Article|=65|Inverse design of a fiber-to-fiber integrated metasurface system for multiplexing and demultiplexing of orbital angular momentum modes
+O|56|2026|Conference|=65|Single Microcomb Source for Ultra-Scalable Datacenters for Dense Deep Neural Network Workloads
+J|56|2024-2027|PhD|=65|Absolute Environmental Sustainabi-lity Assessment of ICT technologies and services
+J|56|2024-2027|PhD|=65|PhD Scholarship in Optical Communication Systems Using Data Distribution
+J|56|2024-2027|PhD|=42|Optical Frequency Combs for Communications
+J|56|2022-2026|PhD|=49|Spatially Distributed Optical Communication Links
+O|57|2026|Article|=65|Theory of single-photon emission from neutral and charged excitons in a polarization-selective cavity
+O|57|2025|Article|high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s|High-purity and stable single-photon emission in bilayer WSe2 via phonon-assisted excitation
+J|57|2026-2028|PhD|=51|Quantum-Mechanical Theory of Single-Photon Emitters
+O|62|2025|Article|=65|Deterministic Fabrication of GaAs-Quantum-Dot Micropillar Single-Photon Sources
+O|62|2025|Article|=65|High-Purity Single-Photon Emission in the Telecom O-Band from Droplet-Epitaxy InAs Quantum Dots Integrated into a GaAs/AlGaAs Planar Microcavity on Vicinal GaAs(111)A Platform
+O|59|2026|Article|electronphonon-coupling-in-metal-intercalated-graphene|Electron–phonon coupling in metal-intercalated graphene
+O|59|2026|Article|=65|Quantum transport with spin-orbit coupling: New developments in TranSIESTA
+J|59|2024-2027|PhD|=55|Theory of Quantum Transport in 2D Carbon Nano-Circuitry
+O|61|2026|Article|on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub|On-chip waveguide-integrated light sources using MoS2/WSe2 moiré superlattices on a silicon photonic platform
+O|61|2025|Article|=65|A perspective on 25 years of advances as reported in the Journal of Optics
+J|61|2022-2026|PhD|=51|Trapping and near-field effects in optical cavities
+O|60|2026|Article|=65|A 3D-printed dual-rack push-pull syringe pump for closed-loop in-flow electrochemical measurements
+O|60|2026|Article|=65|Atomic Force Microscopy in Food Industry: Bridging Nanoscale Analysis and Real-World Applications
+O|64|2026|Conference|=65|Flattening of Microring Resonator Based Soliton Comb Using Parametric Spectral Shaping
+O|64|2026|Conference|=65|Single Microcomb Source for Ultra-Scalable Datacenters for Dense Deep Neural Network Workloads
+J|64|2025-2028|PhD|=65|Quantum Communication and Co-Existence with Classical Communication
+J|64|2023-2026|PhD|=44|Quantum communication using high-order modes
+O|63|2026|Article|=65|A benign and scalable reverse water-gas shift reaction in EMIM acetate with Ru-PNP catalysts
+O|63|2026|Article|novel-supiprsupru-macho-saltssynthesis-and-catalytic-applications|Novel iPrRu-MACHO Salts: Synthesis and Catalytic Applications With Diverse H-Trans Ligands
+O|65|2025|Article|=65|Dependence of speckle contrast in laser lighting on laser and phosphor characteristics
+O|65|2025|Article|low-cost-hyperspectral-imaging-in-macroalgae-monitoring-2|Low-Cost Hyperspectral Imaging in Macroalgae Monitoring
+O|66|2026|Article|=65|Broadband Parametric Amplification in AlGaAs-on-Insulator Nanowaveguides
+O|66|2026|Article|=65|Engineered Mode Coupling in High-Q Microresonators Enables Deterministic Low-Repetition-Rate Soliton Microcombs
+J|66|2024-2027|PhD|=36|Broadband Silicon Carbide Microcombs
+J|66|2023-2026|PhD|=65|Efficient On-Chip Second Harmonic Generation for Chip-Scale Optical Atomic Clock
+O|67|2027|Proceedings|security-andprivacy-inwi-fi-networks-from-legacy-protocols-tonext|Security and Privacy in Wi-Fi Networks: From Legacy Protocols to Next-Gen Defenses
+O|67|2026|Article|=65|A Review of Honeypots: Fingerprinting Techniques, Detection, and Evasion Mechanisms
+J|67|2024-2027|PhD|=47|Cybersecurity and Human Aspects of Cyber Ranges
+J|67|2023-2026|PhD|=65|Leading technological transformation in future conflicts and wars
+O|68|2026|Article|=65|Deterministic exfoliation of the uppermost layers of van der Waals crystals
+O|68|2026|Article|=65|Ultrafast Control of Coherent Acoustic Lattice Dynamics in the Transition Metal Dichalcogenide Alloy WSSe
+J|68|2022-2026|PhD|=65|Quantum Emitters in Two-Dimensional Materials forIntegrated Nano-Sensing
+O|70|2026|Article|isomerization-hcn-hnc-in-the-electronic-ground-state-using-chirp--2|Isomerization HCN → HNC in the electronic ground state using chirp-optimized mid-IR laser pulses: 4D quantum dynamics
+O|70|2026|Article|=65|Isomerization HCN → HNC in the electronic ground state using chirp-optimized mid-IR pump and dump laser pulses: 3D quantum dynamics
+O|69|2026|Article|=65|Inducing Ferroquadrupolar Order with Applied Magnetic Field in TbPO4
+O|69|2026|Article|=65|Sub-Kelvin Resolution X-ray Diffraction Thermometry Defies the Existence of Nanoscale Hotspots in Induction Heated Magnetic Nanoparticles
+J|69|2025-2028|PhD|=61|Toroidic domains and excitations in magnetoelectric materials
+J|69|2022-2026|PhD|=65|Tailoring the magnetoelectric ground states of Lithium orthophosphates
+O|72|2024|Article|=48|Location Qubits in a Multiple-Quantum-Dot System
+O|72|2024|Conference|=65|MBE growth and properties of III-V hybrid nanostrucres on silicon for quantum applications
+J|72|2024-2027|PhD|multi-qubit-quantum-photonic-devices-3|Multi-Qubit Quantum Photonic Devices
+J|72|2021-2026|PhD|multi-qubit-quantum-photonic-devices-2|Multi-Qubit Quantum Photonic Devices
+O|73|2026|Article|=65|A novel approach to micro-fabricated thermoelectric generators with SrTiO3
+O|73|2026|Article|=65|Complete characterization of local thermoelectric properties using a micro four-point probe
+J|73|2023-2026|PhD|=65|Synthesis and Stacking of freestanding membranes into artificial heterostructure: Strain-Mediated Enhancement of properties
+J|73|2023-2026|PhD|=65|The Effect of Oxygen Vacancies and Crystal Symmetry on Induced Piezoelectricity and Pyroelectricity in Centrosymmetric Oxides
+O|71|2026|Proceedings|=65|Coherent dynamics of individual excitons in a quantum dot embedded in a nanopost
+O|71|2026|Article|=65|Indistinguishable single photons from a quantum dot in a nanopost cavity
+O|74|2027|Article|=65|Detection of geosmin using an aptamer-functionalized LSPR chip integrated with a microfluidic platform
+O|74|2026|Article|=65|CeraMIRScan: Mid-infrared OCT Scan Dataset for Ceramic Quality Assessment
+J|74|2025-2028|PhD|=61|Femtosecond Fiber Lasers and Low-Noise Supercontinuum Sources
+J|74|2024-2027|PhD|=54|Mid-infrared supercontinuum generation and rogue waves
+J|74|2024-2027|PhD|=43|UV Supercontinuum Sources and Meta-Surfaces
+O|75|2026|Article|=50|Cyclic frames in finite-dimensional Hilbert spaces
+O|75|2026|Article|=65|Two results on polynomially-generated wavelet frames and nonorthogonal polynomial frames
+O|76|2026|Article|=65|Enhanced effective nonlinearities in silicon nitride free-standing nanopatterned membranes
+O|76|2026|Article|=65|Hybrid trapezoidal grating metasurface supporting guided-mode resonances for biosensing
+O|77|2026|Article|=65|New action spectra for vitamin D and thymidine dimers formation in human skin - does this alter the risk - benefit balance?
+O|77|2026|Proceedings|=65|Utilizing Push-Broom Fluorescence Hyperspectral Imaging for Classification of Underwater Flora and Fauna
+O|78|2026|Article|=65|Quantitative mapping of smooth topographic landscapes generated using thermal scanning-probe lithography
+O|78|2026|Article|=44|Roadmap on freestanding oxide membranes (FOMs)
+J|78|2024-2028|PhD|=65|2D materials with electrically tunable phases for neuromorphic computing
+O|79|2026|Article|=63|Liquid thickness estimation in transmission electron microscopy
+O|79|2026|Article|open-gas-cell-transmission-electron-microscopy-at-05-%C3%A5-informatio|Open gas-cell transmission electron microscopy at 0.5 Å information limit
+J|79|2025-2028|PhD|=65|Development and Optimization of EC-MS for Comprehensive Product Detection in Electrocatalytic Systems
+J|79|2024-2027|PhD|=36|High efficiency selenium solar cells
+J|79|2022-2026|PhD|=63|Electrocatalysis by Single Nanoparticles in Liquid Environments
+O|80|2026|Article|cw-and-self-pulsating-operation-of-a-tmylf-191-%CE%BCm-hemispherical-l|CW and self-pulsating operation of a Tm:YLF 1.91 μm hemispherical laser
+O|80|2025|Proceedings|investigation-of-a-tmylf-quasi-3-level-laser-in-continuous-and-pu|Investigation of a Tm:YLF Quasi-3-Level Laser in Continuous and Pulsed Operation
+O|81|2026|Patent|=64|Correction of systematic delay errors of an optical delay device
+O|81|2026|Article|=65|Crystallization Modulation and Defect Passivation of Tin-Based Perovskite Light-Emitting Diodes Avoiding DMSO
+J|81|2023-2026|PhD|=51|Confined Water in Artificial and Biological Systems
+J|81|2023-2026|PhD|=31|Terahertz Lightwave Electronics
+J|81|2022-2026|PhD|=65|Terahertz spectroscopy for non-invasive detection and monitoring of analytes through the skin
+O|82|2026|Article|=65|Impact of Ni-GDC fuel electrode microstructure on cell performance in fuel electrode-supported solid oxide cells
+O|82|2026|Article|=65|Seasonal storage and grid balancing through power-to-methanol and a “Biomass Battery”
+J|82|2023-2026|PhD|=65|Upscaling Planar Proton-Conducting Ceramic Cells for Energy Conversion
+J|82|2023-2026|PhD|=34|Novel Electrode Materials for SOEC
+O|83|2025|Article|=65|3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Field Confinement
+O|83|2025|Article|=59|Confocal polarization tomography of dielectric nanocavities
+O|84|2026|Article|=65|Dual-State Photophysical Modulation via Bifurcated Hydrogen Bonding in a U-Shaped Dipyridophenazine-Cored Donor-π-Acceptor-π-Donor Fluorophore
+O|84|2026|Article|=65|Inverted singlet-triplet gaps reduce radiative exciton processing times in TADF and hyperfluorescence applications
+J|84|2026-2028|PhD|=65|Development of electronic structure methods for molecular photoactive materials
+J|84|2025-2028|PhD|=52|Electron transfer kinetics in organic flow batteries
+J|84|2025-2028|PhD|=53|Simulations of stability of flow battery electrolytes
+J|84|2024-2027|PhD|=65|Theory and design of anti-Hund molecules for biomedical and sustainable energy applications
+J|84|2022-2026|PhD|=65|Development of density function theory methodsfor simulations of energy materials

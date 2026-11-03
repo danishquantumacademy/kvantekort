@@ -1,0 +1,107 @@
+NAMES:Albert H. Werner;Albert Schliesser;Anders Søndberg Sørensen;Bo Wegge Laursen;Boel Nelson;Brian Møller Andersen;Charlotte Fløe Kristjansen;D. Jason Koskinen;Emil Bjerrum-Bohr;Emil Zeuthen;Eugene Simon Polzik;Francesco Borsoi;Harold Adriaan Nieuwboer;Henrik Grum Kjærgaard;James Emil Avery;Jan Philip Solovej;Jan Westenkær Thomsen;Jean-Baptiste Sylvain Béguin;Jens Paaske;Jesper Nygård;Jörg Helge Müller;Jørgen Peder Steffensen;Kaare Teilum;Karsten Flensberg;Kim Lefmann;Kim Splittorff;Kirsten Marie Ørnsbjerg Jensen;Klaus Mølmer;Kristine Cecile Harper;Kurt Valentin Mikkelsen;Laura Mancinska;Leonardo Midolo;Magdalena Elena Musat;Mark Kamper Svendsen;Markus Tobias Ahlers;Matthias Christandl;Michael Kastoryano;Mikael Rørdam;Mikkel Boas Thygesen;Mogens Dam;Morten Holm Christensen;Morten Kjaergaard;Niels Anne Jacob Obers;Oleg Ruchayskiy;Saulius Vaitiekenas;Shingo Kono;Stefan Alaric Schäffer;Stephan P. A. Sauer;Stergios Piligkos;Søren Eilers;Thomas Just Sørensen;Tom André Jos Vosch;Troels Harmark;Tulio Brito Brasil
+O|3|2026|Article|=65|Breaking the limit – synthesis and properties of p-amino-triazatriangulenium, the most stable carbenium ion
+O|3|2026|Article|=61|Highly coherent organic lasing based on etch-free metasurface
+O|0|2026|Article|=62|Exponential Suppression of Transport in Electric Quantum Walks
+O|0|2026|Article|=55|Exponential Tail Estimates for Quantum Lattice Dynamics
+O|4|2026|Article|=65|User Perceptions and Attitudes Toward Untraceability in Messaging Platforms
+O|4|2025|Proceedings|=33|Private Lossless Multiple Release
+O|1|2026|Article|=65|Measuring high field gradients of cobalt nanomagnets in a spin-mechanical setup
+O|1|2026|Article|=65|Wide-field stroboscopic imaging of topologically protected phononic modes
+O|2|2026|Article|=65|Continuous-wave all-optical single-photon transistor based on a Rydberg-atom ensemble
+O|2|2026|Article|=65|Continuous-wave quantum light control via engineered Rydberg-induced dephasing
+O|5|2026|Article|=65|Electronic and structural properties of Rh- and Pd-based kagome layered shandites from first principles
+O|5|2026|Article|fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco|Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors
+O|9|2026|Article|hybrid-su11-interferometry-in-optomechanics|Hybrid SU(1,1) Interferometry in Optomechanics
+O|9|2025|Article|=65|Hybrid quantum network for sensing in the acoustic frequency range
+O|10|2026|Article|=65|The future of quantum technology as seen from the EU, USA and Japan: experts' vision over the next two decades
+O|10|2025|Article|h-jeffrey-kimble-19492024|H. Jeffrey Kimble (1949–2024)
+O|6|2026|Article|=40|Black Hole States in Quantum Spin Chains
+O|6|2025|Article|=63|Integrable corners in the space of Gukov-Witten surface defects
+O|7|2026|Article|=65|A Search for Millimeter-bright Blazars as Astrophysical Neutrino Sources
+O|7|2026|Article|=65|Constraining the Prompt Atmospheric Neutrino Flux combining IceCube's Cascade and Track samples
+O|8|2026|Article|=65|From the Gravitational Compton Amplitude to Black Hole Perturbation Theory
+O|8|2026|Article|=57|Kerr Black Hole Dynamics from an Extended Polyakov Action
+O|11|2025|Article|=65|Modular Autonomous Virtualization System for Two-Dimensional Semiconductor Quantum Dot Arrays
+O|13|2026|Article|=65|Atmospheric Fate of Acyloxyl Radicals: Decomposition versus Isomerization
+O|13|2026|Article|=65|Calculated Absorption Cross Sections and Photolysis Rates of Hydroperoxyaldehydes
+O|12|2026|Article|=59|Interior-Point Methods on Manifolds: Theory and Applications
+O|12|2025|Proceedings|=54|Asymptotic Tensor Rank Is Characterized by Polynomials
+O|17|2026|Article|=65|Steady-state multiparticle entanglement via dissipative engineering in waveguide QED
+O|17|2020|Article|=63|Coupling of light and mechanics in a photonic crystal waveguide
+O|14|2025|Article|=60|Bayesian Optimization With GPU Acceleration for Ocean Models
+O|14|2025|Article|=65|Machine Guided Derivation of the Atlantic Meridional Overturning Circulation (AMOC) Strength
+O|15|2025|Article|=65|Ground State Energy of Dense Gases of Strongly Interacting Fermions
+O|15|2025|Article|ground-state-energy-of-dilute-bose-gases-in-1d-2|Ground State Energy of Dilute Bose Gases in 1D
+O|18|2026|Article|=65|Nematostriction in frustrated two-dimensional classical Heisenberg models
+O|18|2026|Article|=65|Synchronizing microwave circuit quantum electrodynamics limit cycle oscillators
+O|16|2024|Article|=65|Collectively enhanced Ramsey readout by cavity sub- to superradiant transition
+O|16|2023|Article|subnatural-linewidth-superradiant-lasing-with-cold-sup88supsr-ato|Subnatural Linewidth Superradiant Lasing with Cold 88Sr Atoms
+O|19|2026|Article|heteroatomic-andreev-molecule-in-a-superconducting-islanddouble-q|Heteroatomic Andreev Molecule in a Superconducting Island–Double Quantum Dot Hybrid
+O|19|2026|Article|=65|Nanoscale photonic artificial neuron with biological signal processing
+O|20|2025|Article|=65|Hybrid quantum network for sensing in the acoustic frequency range
+O|20|2024|Article|=65|Collectively enhanced Ramsey readout by cavity sub- to superradiant transition
+O|21|2026|Article|=65|Bipolar volcanic ice-core synchronization of the entire last glacial period
+O|21|2026|Article|=65|Mercury accumulation over the Holocene revealed from a Greenlandic ice core
+O|22|2026|Article|=65|Blocking protein quality control degradation leads to structural stabilization of DHFR indel variants
+O|22|2026|Article|=65|Conkazal-M1 from the MKAVA family of conotoxins: A dual-function protease inhibitor and neuroactive peptide
+O|23|2026|Article|=65|Adiabatic non-Abelian braiding of imperfect Majorana bound states
+O|23|2026|Article|=65|Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+O|27|2026|Article|=65|Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right
+O|27|2026|Article|=57|Censorship of quantum resources against quantum catalysis
+O|24|2026|Article|=65|Accurate simulations of magnetic excitations in the neutron simulation package McStas
+O|24|2026|Article|=65|Approximate resolution convolution function for fitting a dispersion gap measured on a triple-axis spectrometer
+O|25|2026|Article|=65|Building intuition for quantum algorithms using the Aharonov-Bohm effect
+O|25|2025|Article|=30|Quantum determinant estimation
+O|26|2026|Article|=65|Comparison of the Arrhenius parameters between conventional hydrothermal and microwave-assisted synthesis methods for tin oxide nanoparticles
+O|26|2026|Article|=65|deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models
+O|28|2024|Proceedings|=65|History of Synoptic Meteorology in the Age of Numerical Weather Forecasting
+O|28|2023|Proceedings|science-and-technology-2|Science and Technology
+O|30|2026|Article|=65|A Mathematical Foundation for Self-testing: Lifting Common Assumptions
+O|30|2026|Article|=56|Maximal device-independent randomness in every dimension
+O|29|2026|Article|11cycloparaphenylene-incorporating-a-redox-active-dithiafulvene-m|[11]Cycloparaphenylene incorporating a redox-active dithiafulvene moiety provides access to a carbon nanohoop with an unpaired electron along the core
+O|29|2026|Article|=65|Enhancement of Dissymmetry Factors Through Axial Elongation of Hetero[n]helicenes
+O|32|2021|Article|=65|Extreme Points and Factorizability for New Classes of Unital Quantum Channels
+O|32|2021|Article|=65|Factorizable Maps and Traces on the Universal Free Product of Matrix Algebras
+O|31|2026|Article|=65|A quantum-coherent photon-emitter interface in the original telecom band
+O|31|2026|Article|fabrication-tolerant-gaassin-coupling-above-the-loss-threshold-fo|Fabrication-Tolerant GaAs/SiN Coupling Above the Loss Threshold for Quantum Photonic Applications
+O|33|2026|Article|=65|Bridging scales in polaritonic chemistry: ab initio frameworks with realistic spatially structured cavities [Invited]
+O|33|2026|Article|=65|Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+O|36|2026|Article|=65|Fast and Flexible Quantum-Inspired Differential Equation Solvers with Data Integration
+O|36|2026|Article|=65|Quantum-inspired workflow for processing distributed fiber-optic sensor data
+O|34|2026|Article|=65|A Search for Millimeter-bright Blazars as Astrophysical Neutrino Sources
+O|34|2026|Article|=65|Constraining the Prompt Atmospheric Neutrino Flux combining IceCube's Cascade and Track samples
+O|35|2026|Article|=65|Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right
+O|35|2026|Article|fault-tolerant-quantum-inputoutput|Fault-tolerant quantum input/output
+O|37|2026|Article|the-space-of-tracial-states-on-a-csupsup-algebra|The space of tracial states on a C∗-algebra
+O|37|2024|Article|inclusions-of-csupsup-algebras-arising-from-fixed-point-algebras|Inclusions of C*-algebras arising from fixed-point algebras
+O|38|2025|Article|=65|Peptide Tags for Site-Selective Nonenzymatic Covalent Modification of Proteins
+O|38|2024|Article|conjugation-of-crampsub1835sub-peptide-to-chitosan-and-hydroxypro|Conjugation of CRAMP18–35 Peptide to Chitosan and Hydroxypropyl Chitosan via Copper-Catalyzed Azide–Alkyne Cycloaddition and Investigation of Antibacterial Activity
+O|41|2026|Article|=65|Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+O|41|2026|Article|=65|Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+O|39|2026|Article|a-search-for-lepton-flavour-violating-%CF%84-3%CE%BC-decays-with-the-atlas-|A search for lepton-flavour violating τ → 3μ decays with the ATLAS detector
+O|39|2026|Article|=65|Breaking barriers: the impact of ATLAS Virtual Visits in science communication
+O|40|2026|Article|=65|Electronic and structural properties of Rh- and Pd-based kagome layered shandites from first principles
+O|40|2026|Article|=65|Odd-parity magnetism in Fe-based superconductors with coplanar magnetic order
+O|45|2026|Article|=65|Strongly driven cavity-quantum-electrodynamical-optomechanical hybrid system
+O|43|2026|Article|=65|Constraining heavy neutral leptons coupled to the tau-neutrino flavor at the Large Hadron Collider
+O|43|2026|Article|measurement-of-the-muon-flux-at-sndlhc-results-from-the-2023-2025|Measurement of the muon flux at SND@LHC Results from the 2023-2025 proton and heavy-ion periods
+O|44|2026|Article|=63|From two dimensions to wire networks in hybrid Josephson arrays
+O|44|2026|Working paper|=65|Long-range phase coherence and phase patterns in hybrid Josephson junction arrays
+O|42|2026|Article|=53|Carroll geometry meets de Sitter space via holography
+O|42|2026|Article|=34|Quantum carrollian bosonic strings
+O|49|2026|Article|=65|Diagonal-preserving isomorphisms of algebras from infinite graphs
+O|49|2026|Article|equivariant-isomorphism-of-quantum-lens-spaces-oflow-dimension|Equivariant Isomorphism of Quantum Lens Spaces of Low Dimension
+O|46|2025|Article|modeling-of-a-continuous-superradiant-laser-on-the-sub-mhz-sup1su|Modeling of a continuous superradiant laser on the sub-mHz 1S0 → 3P0 transition in neutral strontium-88
+O|46|2025|Article|=65|Terrestrial Very-Long-Baseline Atom Interferometry: summary of the second workshop
+O|47|2026|Working paper|=65|A Lanczos-based algorithm for sum-over-states calculations of NMR spin-spin coupling constants at the RPA level of theory: The Fermi-contact term
+O|47|2026|Article|=65|A Lanczos-based algorithm for the analysis of NMR spin-spin coupling constants in terms of pairs of occupied and virtual orbitals: The Fermi-contact term at the RPA level of theory
+O|48|2026|Article|an-empty-fesub16sub-cage-and-its-transformation-into-fesub17sub-a|An ‘Empty’ [Fe16] Cage and its Transformation into [Fe17] and [Fe30]
+O|48|2026|Article|=65|Implementing the Quantum Fourier Transform on a molecular qudit with full refocusing and state tomography
+O|53|2025|Article|=65|Hybrid quantum network for sensing in the acoustic frequency range
+O|53|2025|Proceedings|multi-color-continuous-variables-unconditional-quantum-teleportat-2|Multi-Color Continuous Variables Unconditional Quantum Teleportation: From Near-Infrared to Telecommunications' L-Band
+O|50|2026|Article|=65|Dual Quantum Dot Molecular FRET Probes for Picomolar DNA Hexaplexing
+O|50|2026|Article|eusup3sup-doped-ysup3sup-dipicolinate-crystals-differences-in-the|Eu3+ doped Y3+ dipicolinate crystals: differences in the luminescence spectra and concentration quenching of Eu3+ luminescence
+O|51|2026|Article|=47|A Mixed-Valent and High-Spin Vanadium Phosphide
+O|51|2026|Article|=65|Bridging the gap: thymine segments to create single-stranded versions of DNA2-[Ag16Cl2]8+
+O|52|2026|Article|=65|All-sky search for long-duration gravitational-wave transients in the first part of the fourth LIGO-Virgo-KAGRA observing run
+O|52|2026|Article|=65|Black Hole Spectroscopy and Tests of General Relativity with GW250114

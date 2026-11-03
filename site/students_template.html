@@ -36,6 +36,8 @@ h3{font:600 15px/1.3 var(--body);margin:0}
 .lede{max-width:72ch;color:var(--muted);margin:0}
 .lede strong{color:var(--fg);font-weight:600}
 .controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.progsel{flex:1 1 420px;font-weight:600}
+.progsel select{flex:1;min-width:0;font-weight:400}
 .controls label{display:flex;gap:8px;align-items:center;font-size:14px;cursor:pointer}
 .controls select{font:14px var(--body);padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
 .controls input:focus-visible,.controls select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -107,7 +109,7 @@ footer a{color:var(--accent)}
     <h1>Quantum Study Path Profiles</h1>
     <p class="lede">What CFQT proficiency profile does a <strong>student who completes a programme</strong> reach?</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
-      <p><b>The profiles.</b> Each triangle is filled up to the highest level a graduate reaches in each proficiency area, based on the quantum-relevant courses in the study path and, if included, a thesis or bachelor project in a quantum topic. The key under the controls explains colours, shades, stripes and the profile outline.</p>
+      <p><b>The profiles.</b> Choose a study path in the dropdown: dedicated quantum programmes first, then example paths. The triangle is filled up to the highest level a graduate reaches in each proficiency area, based on the quantum-relevant courses in the study path and, if included, a thesis or bachelor project in a quantum topic. The key under the controls explains colours, shades, stripes and the profile outline.</p>
       <p><b>The paths.</b> Dedicated quantum programmes follow their curriculum. The other paths are Danish Quantum Academy's examples of a quantum-focused route through a broader programme; actual students choose their own electives, and programmes also contain non-quantum courses that are not shown. Course roles (compulsory, restricted elective, elective) are taken from the curricula.</p>
       <p><b>Thesis and project.</b> Master's paths assume a thesis in a quantum topic at C1 in area I, the example CFQT gives. Bachelor paths assume a bachelor project in a quantum topic at B2 in area I, with the project size the curriculum gives (10–20 ECTS).</p>
       <p><b>Status.</b> All course levels are first estimates. Method and sources: <a href="about.html">About the data</a>.</p>
@@ -116,6 +118,7 @@ footer a{color:var(--accent)}
 
   <div class="controls">
     <div class="seg" role="group" aria-label="Degree level"><button type="button" data-lv="MSc" aria-pressed="true">Master's (MSc)</button><button type="button" data-lv="BSc" aria-pressed="false">Bachelor's (BSc)</button></div>
+    <label class="progsel">Study path <select id="prog" aria-label="Study path"></select></label>
     <label><input type="checkbox" id="thesis" checked> Include <span id="thesis-name">master's thesis</span></label>
     <label>Compare with CFQT profile
       <select id="ref"><option value="">None</option></select>
@@ -123,10 +126,9 @@ footer a{color:var(--accent)}
     <div class="key" id="key"></div>
   </div>
 
-  <div id="groups" style="display:grid;gap:28px"></div>
-
   <section id="detail-wrap" aria-labelledby="detail-h" style="display:grid;gap:10px">
     <h2 id="detail-h">Programme detail</h2>
+    <p class="lede" id="detail-sub" style="margin-top:-4px;font-size:14px"></p>
     <div class="detail" id="detail"></div>
   </section>
 
@@ -251,27 +253,24 @@ footer a{color:var(--accent)}
     document.getElementById('thesis-name').textContent=TNAME[state.level];
     if(!progs().some(p=>p.id===state.sel)) state.sel=progs()[0].id; drawKey();render()});
 
-  function renderCards(){
-    const box=document.getElementById('groups'); box.innerHTML='';
-    Object.entries(PG.groups).forEach(([gk,gname])=>{
-      const ps=progs().filter(p=>p.group===gk); if(!ps.length) return;
-      const cards=el('div',{class:'cards'});
-      ps.forEach(p=>{
-        const pr=profile(p), svg=sv('svg',{'aria-hidden':'true'}); draw(svg,pr,220,false);
-        const b=el('button',{class:'card',type:'button','aria-pressed':String(state.sel===p.id)},svg,
-          el('span',{class:'meta'},...p.institutions.map(i=>el('span',{class:'tag'},i)),el('span',{class:'type'+(p.type==='dedicated'?' ded':'')},p.type==='dedicated'?'Dedicated programme':'Example path')),
-          el('span',{class:'nm'},p.name),lvChips(pr),cmpChips(pr),
-          el('span',{class:'ects'},`${pr.qECTS} ECTS of quantum-relevant courses${state.thesis?` + ${p.thesis.ects} ECTS ${p.level==='BSc'?'project':'thesis'}`:''}`));
-        b.onclick=()=>{state.sel=p.id;render();document.getElementById('detail-wrap').scrollIntoView({behavior:'smooth',block:'start'})};
-        cards.append(b);
-      });
-      box.append(el('section',{class:'group'},el('h2',{},gname),cards));
+  // study path picker: one dropdown, dedicated programmes first, then Danish Quantum Academy's example paths
+  const progSel=document.getElementById('prog');
+  progSel.onchange=()=>{state.sel=progSel.value;renderDetail()};
+  function renderSelect(){
+    progSel.innerHTML='';
+    [['dedicated','Dedicated quantum programmes'],['path','Example paths through broader programmes']].forEach(([t,label])=>{
+      const ps=progs().filter(p=>(p.type==='dedicated')===(t==='dedicated')); if(!ps.length) return;
+      const og=el('optgroup',{label});
+      Object.keys(PG.groups).forEach(gk=>ps.filter(p=>p.group===gk).forEach(p=>og.append(el('option',{value:p.id},`${p.institutions.join(' + ')} · ${p.name}`))));
+      progSel.append(og);
     });
+    progSel.value=state.sel;
   }
 
   function renderDetail(){
     const p=PG.programmes.find(x=>x.id===state.sel), pr=profile(p), box=document.getElementById('detail'); box.innerHTML='';
     document.getElementById('detail-h').textContent=`${p.name} · ${p.institutions.join(' + ')}`;
+    document.getElementById('detail-sub').textContent=`${p.type==='dedicated'?'Dedicated quantum programme':'Example path by Danish Quantum Academy'} · ${pr.qECTS} ECTS of quantum-relevant courses${state.thesis?` + ${p.thesis.ects} ECTS ${p.level==='BSc'?'bachelor project':'thesis'}`:''}`;
     const svg=sv('svg',{role:'img','aria-label':`Profile triangle for ${p.name}`}); draw(svg,pr,520,true);
     const left=el('div',{class:'dcol'},svg,lvChips(pr),cmpChips(pr),
       el('p',{class:'dsum'},AREAS.map(a=>`(${a}) ${Q.areas[a]}: ${pr.lv[a]>=0?`${LV[pr.lv[a]]} ${Q.levels[LV[pr.lv[a]]]} – ${Q.level_by_area[a][LV[pr.lv[a]]]}`:'not addressed'}`).join('. ')+'.'));
@@ -296,7 +295,7 @@ footer a{color:var(--accent)}
     box.append(left,right);
   }
 
-  function render(){renderCards();renderDetail()}
+  function render(){renderSelect();renderDetail()}
   document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The reference profiles P1–P9 are the CFQT qualification profiles (pp. 19–27); where the framework gives a range such as "C1 or C2", the outline uses the lower level.');
   render();
 })();

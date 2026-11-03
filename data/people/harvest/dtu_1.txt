@@ -1,0 +1,151 @@
+NAMES:Ada-Ioana Bunea;Adnan Adil Ebrahim Hajomer;Alexander Huck;Anders Clausen;Anders Kristensen;Anders Riisager;Andrea Crovetto;Andrei Laurynenka;Astri Bjørnetun Haugen;Battulga Munkhbat;Binbin Zhou;Birger Andersen;Bjarke Sørensen Jessen;Brian Seger;Carsten Baum;Cathrine Frandsen;Christian Danvad Damsgaard;Christian Majenz;Claus E. Andersen;Coraline Lapre;David Earl Roberson;Dennis Larsen;Edmund John Railton Kelleher;Elizaveta Semenova;Erik Vilain Thomsen;Eugen Stamate;Evgeniia Gilshtein;Ganesh Ghimire;Georg Kastlunger;Henning Friis Poulsen;Henri Jansen;Henrik Bruus;Ib Chorkendorff;Irfan Kuvvetli;Ivano Eligio Castelli;Jakob Birkedal Wagner;Jakob Kibsgaard;Jakob Schiøtz;Janus Juul Eriksen;Jesper Lægsgaard;Jesper Mørk;Jesper Rasmussen;Jesper Yue Pan;Joerg R. Jinschek;Jonas Schou Neergaard-Nielsen;Jonatan Bohr Brask;Jonathan Frank Kirby;Karen Birkelund;Karsten Rottwitt;Karsten Wedel Jacobsen;Klaus Braagaard Møller;Kresten Yvind;Kristian Sommer Thygesen;Kristian Speranza Mølhave;Kristoffer Haldrup;Lars G. Hanson;Leif Katsuo Oxenløwe;Luca Vannucci;Luisa Siniscalchi;Mads Brandbyge;Maria Dimaki;Martijn Wubs;Martin Arentoft Jacobsen;Martin Nielsen;Michael Galili;Michael Linde Jakobsen;Minhao Pu;Nicola Dragoni;Nicolas Stenger;Niels Bech Christensen;Niels Engholm Henriksen;Niels Gregersen;Nika Akopian;Nini Pryds;Ole Bang;Ole Christensen;Osamu Takayama;Paul Michael Petersen;Peter Bøggild;Peter Christian Kjærgaard Vesborg;Peter Tidemand-Lichtenberg;Peter Uhd Jepsen;Peter Vang Hendriksen;Philip Trøst Kristensen;Piotr de Silva;Radu Malureanu;Rafael Taboryski;Rajmund Mokso;René Forsberg;Rodolphe Marie;Salvatore De Angelis;Sebastian Meier;Selina Ringsborg Howalt Owe;Shima Kadkhodazadeh;Simone Latini;Sonia Coriani;Stela Canulescu;Stephan Sylvest Keller;Stig Helveg;Susanne Mossin;Sven Karlsson;Søren Bredmose Simonsen;Søren Kegnæs;Søren Otto Forchhammer;Søren Raza;Søren Stobbe;Thomas Olsen;Thomas Pedersen;Thomas Sand Jespersen;Timothy John Booth;Toshio Morioka;Tyge Tiessen;Ulrik Lund Andersen;Vincenzo Esposito;Yi Yu;Yiyu Ou;Yunhong Ding
+O|1|2026|Contribution to journal ›|=65|Continuous Variable Measurement-Device-Independent Quantum Certification
+O|1|2026|Contribution to journal ›|=41|Continuous-variable quantum communication
+O|2|2026|Contribution to journal ›|=65|General method of wavelength-tuning of Dirac-like cones in photonic crystals
+O|2|2026|Contribution to journal ›|=65|High-speed magnetic-field imaging via N-V ensemble and laser raster scanning
+J|2|2024-2027|PhD|=51|Theoretical quantum dynamics of solid-state systems
+J|2|2023-2026|PhD|=33|Quantum sensing in photosynthesis
+O|0|2026|Contribution to journal ›|=65|Fabrication and characterization of an adaptive thin-film electrostatic phase plate
+O|0|2026|Contribution to journal ›|=65|Monolithic silicon micromechanical metastructures for compliant MEMS devices
+J|0|2023-2026|PhD|=62|Smart Polymer Microrobots for Cargo Transport (Super-MicroCARTs)
+J|0|2023-2026|PhD|=65|Fabrication and characterization of adaptive phase for electron optics
+O|3|2022|Chapter in Book/Report/Conference proceeding ›|=65|All-Optical Nonlinear Pre-Compensation of Long-Reach Unrepeatered Systems
+O|3|2022|Contribution to journal ›|=65|Lumped Compensation of Nonlinearities based on Optical Phase Conjugation
+O|4|2026|Contribution to journal ›|=56|Viscoelastic flow-integrated Raman spectroscopy platform
+O|4|2025|Contribution to journal ›|=65|Viscoelastic particle enrichment using a 3D-printed enrichment device
+J|4|2025-2027|PhD|=65|Detecting and sorting contamination in non-transparent drug products using micro fluidics Raman spectroscopy and machine learning
+O|6|2026|Contribution to journal ›|=65|Machine-Learning-Assisted Discovery and Accelerated Synthesis of Metal Phosphosulfides
+O|6|2025|Contribution to journal ›|large-area-thin-film-synthesis-of-photoactive-cusub3subpssub4sub-|Large-area thin-film synthesis of photoactive Cu3PS4 thiophosphate semiconductor with 0-14 pH stability range
+J|6|2025-2028|PhD|=65|Computational design of Thin-Film Phosphosulfide Materials for Solar Cells
+J|6|2025-2028|PhD|=65|Experimental Development of Thin-Film Phosphosulfide Materials for Solar Cells
+J|6|2025-2027|PhD|=47|Thiophosphate Thin Films for Quantum Technology
+J|6|2023-2026|PhD|=65|Experimental Discovery of Phosphosulfide Materials for Solar Cells
+J|6|2023-2026|PhD|=65|Computational Discovery of Phosphosulfide Materials for Solar Cells
+O|7|2026|Contribution to journal ›|broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams|Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary phase plates
+O|7|2026|Contribution to journal ›|=65|Enhanced effective nonlinearities in silicon nitride free-standing nanopatterned membranes
+J|7|2026-2028|PhD|=65|Enabling far-field coupling of telecom-band quantum dots on the near-zero-index platform
+O|5|2026|Contribution to journal ›|=65|A benign and scalable reverse water-gas shift reaction in EMIM acetate with Ru-PNP catalysts
+O|5|2026|Contribution to journal ›|=65|Choline prolinate-based ionic liquid solvent blend for carbon capture: development and mini-pilot evaluation
+J|5|2024-2027|PhD|=61|Catalytic technology for production of green nitrile solvents
+J|5|2024-2026|PhD|=62|CO2 valorization by ionic liquid-enabled homogeneous catalysis
+J|5|2023-2026|PhD|=65|Novel sustainable transformation of renewables by electro-valorization in ionic liquids
+O|9|2026|Contribution to journal ›|=65|Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emitters
+O|9|2026|Contribution to journal ›|single-photon-detection-in-few-layer-nbsesub2sub-superconducting-|Single-photon detection in few-layer NbSe2 superconducting nanowires
+J|9|2025-2027|PhD|=65|Quantum Dot Emitters Integrated with SiN Devices for Remote Quantum Computing
+J|9|2023-2026|PhD|=65|Nanoengineered 2D TMDs-based Photonic devices for Optical Quantum Information Technology
+J|9|2023-2026|PhD|=65|Nanoengineered 2D TMDs-based Quantum Light Sources for Optical Quantum Information Technology
+O|8|2027|Contribution to journal ›|enhancing-the-ferroelectric-properties-of-knanbosub3sub-piezocera|Enhancing the ferroelectric properties of (K,Na)NbO3 piezoceramic macrofibers through (K,Na)NbO3 needle templates
+O|8|2026|Contribution to journal ›|=65|Effect of Powder Type on Slurries for Additive Manufacturing of Sodium Potassium Niobate Piezoceramics
+J|8|2024-2027|PhD|=61|Effect of grain orientation on antiferroelectricity in NaNbO3
+J|8|2024-2026|Research|sustainable-components-for-underwater-acoustics-using-lead-free-m|SCUALE: Sustainable Components for Underwater Acoustics using Lead-free materials in Europe
+J|8|2022-2026|PhD|=55|Engineering of Ferroelectric Ceramic Microarchitectures
+O|10|2026|Contribution to journal ›|=65|Crystallization Modulation and Defect Passivation of Tin-Based Perovskite Light-Emitting Diodes Avoiding DMSO
+O|10|2026|Contribution to journal ›|high-field-multi-cycle-terahertz-emission-from-axially-cut-%CE%B2-bbo-|High-field multi-cycle terahertz emission from axially cut β-BBO crystals reaching several hundred kV/cm
+J|10|2022-2026|PhD|=65|Advanced terahertz spectroscopy to facilitate more efficient and stable perovskite solar cells
+O|13|2026|Contribution to journal ›|=65|Investigating CO electrolysis on cobalt at elevated temperatures to produce C4+ hydrocarbons
+O|13|2025|Contribution to journal ›|=65|Advancing the Synthesis for Perdeuterated Small Organic Chemicals via Electrochemical CO2 Reduction
+J|13|2025-2028|PhD|=44|CO2 electrolysis in non-aqueous environments
+J|13|2025-2028|PhD|=55|CO2 electrolysis at elevated temperatures and pressures
+O|12|2026|Contribution to journal ›|=24|The 2D Materials Roadmap
+O|12|2025|Contribution to journal ›|collective-modes-in-multilayer-graphenei%CE%B1i-ruclsub3sub-heterostru|Collective Modes in Multilayer Graphene/α-RuCl3 Heterostructures
+O|11|2026|Chapter in Book/Report/Conference proceeding ›|=65|AI-Driven Detection of DDoS Attacks on Cloud Services for Securing the Digital Marketplace
+O|11|2026|Contribution to conference ›|=65|Empirical Optimization of BFV Homomorphic Encryption Parameters for Reliable Privacy-Preserving Healthcare Queries
+J|11|2023-2026|PhD|=60|Towards The 6G Authentication and Key Agreement (AKA) Protocol
+O|14|2026|Contribution to journal ›|=65|A system capable of verifiably and privately screening global DNA synthesis
+O|14|2025|Chapter in Book/Report/Conference proceeding ›|low-bandwidth-mixed-arithmetic-invole-based-zk-fromlow-degree-prg|Low-Bandwidth Mixed Arithmetic in VOLE-Based ZK from Low-Degree PRGs
+J|14|2025-2028|PhD|=35|Proactive Post-Quantum Cryptography
+J|14|2024-2027|PhD|=46|Long-term security for cryptographic protocols
+O|15|2026|Contribution to journal ›|=65|AC magnetometry loop tracer compatible with magnetic calorimetry for power loss analysis
+O|15|2026|Contribution to journal ›|=65|A new reference for changes in X-ray scattering from water due to temperature changes at ambient conditions
+J|15|2022-2026|PhD|=65|Quantifying Heating Power and Internal Temperatures in InductionHeated Magnetic Nanoparticle Samples
+J|15|2021-2026|PhD|=65|Induction Heated Catalytic Reactions: Exploring Magnetic Particles and Their Use in the Green
+O|17|2026|Chapter in Book/Report/Conference proceeding ›|hybrid-query-bounds-withpartial-input-control-framework-andapplic|Hybrid-Query Bounds with Partial Input Control Framework and Application to Tight M-eTCR
+O|17|2026|Chapter in Book/Report/Conference proceeding ›|=38|The Sponge is Quantum Indifferentiable
+J|17|2024-2027|PhD|=26|Post-quantum key agreement
+J|17|2024-2027|PhD|=37|Efficient post-quantum extractability
+J|17|2024-2027|PhD|=61|The post-quantum security of the SHA-3 hash function standard
+J|17|2022-2026|PhD|efficient-security-for-post-quantum-key-encapsulation-with-correc|QSI: Efficient security for post-quantum key encapsulation with correctness errors
+O|18|2026|Contribution to journal ›|monte-carlo-comparison-of-alanine-pellets-and-ris%C3%B8-b3-film-for-el|Monte Carlo comparison of alanine pellets and Risø B3 film for electron beam dose mapping
+O|18|2025|Contribution to journal ›|=58|Electron vs proton FLASH radiation on murine skin toxicity
+O|16|2026|Contribution to journal ›|=65|Catalytic hot-spots in CO oxidation resolved by operando electron microscopy
+O|16|2026|Contribution to journal ›|=63|Liquid thickness estimation in transmission electron microscopy
+J|16|2022-2026|PhD|=42|Nanoparticle Surface Dynamics in Catalysis
+O|19|2026|Contribution to journal ›|=65|CeraMIRScan: Mid-infrared OCT Scan Dataset for Ceramic Quality Assessment
+O|19|2026|Contribution to journal ›|=65|Non-destructive sub-surface inspection of multi-layer wind turbine blade coatings by mid-infrared Optical Coherence Tomography
+O|20|2026|Contribution to journal ›|=65|Oddomorphisms and homomorphism indistinguishability over graphs of bounded degree
+O|20|2026|Contribution to journal ›|=36|Quantum automorphism groups of trees
+J|20|2022-2026|PhD|=49|Quantum Strategies for Graph Based Nonlocal Games
+O|22|2026|Contribution to journal ›|=65|Ultrafast Control of Coherent Acoustic Lattice Dynamics in the Transition Metal Dichalcogenide Alloy WSSe
+O|22|2025|Chapter in Book/Report/Conference proceeding ›|=65|Classification of grain orientation using THz-SNOM for optimized solar absorber growth of Sb2S3
+O|21|2025|Contribution to journal ›|=65|Enzyme-Mediated Dynamic Combinatorial Chemistry Enables Large-Scale Synthesis of δ-Cyclodextrin
+O|21|2024|Patent|=53|Method for the production of large-ring cyclodextrins
+O|23|2026|Contribution to journal ›|=65|General method of wavelength-tuning of Dirac-like cones in photonic crystals
+O|23|2026|Contribution to journal ›|=65|High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL
+J|23|2023-2026|PhD|=65|Monolithic integration of III-V semiconductors on Si platform for photonic applications
+J|23|2023-2026|PhD|=65|Epitaxial growth for application in nanophotonicsand quantum technology
+J|23|2022-2026|PhD|=65|A tunable source of entangled pairs ofphotons operating in the telecom C-band
+J|23|2021-2026|PhD|selective-epitaxy-of-iii-vsi-nanostructures-for-extreme-dielectri|Selective Epitaxy of III-V/Si Nanostructures for Extreme Dielectric
+O|26|2026|Contribution to journal ›|ag-induced-phase-and-defect-engineering-of-co-evaporated-sbsub2su|Ag-Induced Phase and Defect Engineering of Co-Evaporated Sb2Se3 Thin Films for Enhanced Photovoltaic Performance
+O|26|2026|Contribution to journal ›|=65|Effect of Mg content in tailoring the electronic properties of Zn(1-x)MgxO as an n-type layer for CZTSe solar cells
+O|25|2026|Contribution to journal ›|=65|Effect of Mg content in tailoring the electronic properties of Zn(1-x)MgxO as an n-type layer for CZTSe solar cells
+O|25|2026|Contribution to journal ›|=65|Influence of Metal Oxide Interface Layers on the Thermochromic Properties of VO2 Thin Films Deposited by Magnetron Sputtering
+J|25|2024-2027|PhD|=65|Nanofabrication processes based on focused ions extracted by 3D plasma sheath lenses
+J|25|2024-2026|PhD|=65|Metal oxide and metal nitride thin films for internet of things sensors
+O|24|2026|Contribution to journal ›|=65|Compound Lens Design and Beamforming for Wide-Field Volumetric Imaging Using a Row-Column Array
+O|24|2025|Chapter in Book/Report/Conference proceeding ›|=65|Acoustic Lens Design Strategy for Increasing the Effective Field of View of Row-Column Transducers
+J|24|2024-2027|PhD|=42|Silicide Based CMUTs for 2D and 3D imaging
+J|24|2024-2027|PhD|=41|Anodic Bonded CMUTs for 2D and 3D imaging
+O|27|2026|Contribution to journal ›|laser-assisted-synthesis-of-vertical-wssub2submossub2sub-heterost|Laser-Assisted Synthesis of Vertical WS2/MoS2 Heterostructures via Oxide-to-Sulfide Conversion.
+O|27|2025|Chapter in Book/Report/Conference proceeding ›|=65|Classification of grain orientation using THz-SNOM for optimized solar absorber growth of Sb2S3
+O|28|2025|Contribution to journal ›|a-perspective-on-the-reaction-mechanisms-of-cosub2sub-electrolysi|A Perspective on the Reaction Mechanisms of CO2 Electrolysis
+O|28|2025|Contribution to journal ›|=65|Bridging Outer- and Inner-Sphere Electrosynthesis from Biomass-Derived Furfural Using Single Atom Catalysts
+J|28|2024-2027|PhD|=65|Theoretical investigations on electrochemical oxidation reactions
+O|29|2026|Contribution to journal ›|=65|A neutron microscope using a nested Wolter-I condenser and a bank of diffractive–refractive achromatic objectives
+O|29|2026|Contribution to journal ›|=65|DanMAX - a beamline for materials science using powder X-ray diffraction, total scattering, and full-field tomographic imaging
+J|29|2023-2027|PhD|=65|X-ray microscopy studies of cell refinement during plastic deformation
+J|29|2022-2026|PhD|=58|Dark Field X-ray Microscopy Studies of Plastic Deformation
+O|33|2026|Chapter in Book/Report/Conference proceeding ›|=65|NewAthena WFI: ECSS qualified onboard software production methodology for astronomical instrumentation
+O|33|2026|Chapter in Book/Report/Conference proceeding ›|=65|Next-generation 3D CZT matrix detector with reduced noise and minimal readout requirements
+J|33|2025-2028|PhD|=63|AI-driven Electron Tracking for High-Energy Radiation Detection
+O|32|2026|Contribution to journal ›|=65|Catalytic hot-spots in CO oxidation resolved by operando electron microscopy
+O|32|2026|Contribution to journal ›|mechanistic-insights-into-methanol-production-on-nisub5subgasub3s|Mechanistic insights into methanol production on Ni5Ga3 thin films: An in situ XPS and DFT study
+J|32|2022-2026|PhD|=52|In Situ Synthesis and Test of New Methanol Catalysts
+J|32|2020-2026|PhD|=65|Synthesis and characterization of small mass-selected entity catalysts for synthesis of ammonia and methanol
+O|30|2026|Contribution to journal ›|highly-selective-anisotropic-dry-etching-of-smooth-siosub2sub-nan|Highly selective anisotropic dry etching of smooth SiO2 nanostructures using SF6 plasma and Cr hard mask: Toward sustainable plasma etching
+O|30|2026|Contribution to journal ›|=65|Silicon dioxide dry etching by a consumable solid source and He plasma
+O|31|2026|Contribution to journal ›|=65|Electrostriction-driven phase instability enables giant pseudo-piezoelectricity in Hf0.5Zr0.5O2X
+O|31|2026|Contribution to journal ›|=65|Microstreaming induced by a micro-cantilever vibrating elliptically in a viscous fluid
+O|34|2026|Contribution to journal ›|=65|Accelerated Percolation Path Identification in Twisted Bilayer Graphene
+O|34|2026|Contribution to journal ›|=65|Electrostriction-driven phase instability enables giant pseudo-piezoelectricity in Hf0.5Zr0.5O2X
+J|34|2025-2028|PhD|=56|Multiscale Models of Corrosion Processes in Molten Salts
+J|34|2024-2027|PhD|=52|Discovery of Kagome Materials for Magnetic Catalysis
+J|34|2024-2027|PhD|=65|Development of data infrastructure and autonomous workflows for energy applications
+J|34|2024-2026|PhD|=52|Self-healing Materials for Photovoltaic Applications
+J|34|2023-2027|PhD|=42|In-silico Strategies for Battery Recycling
+J|34|2022-2026|PhD|=65|Development of Data Infrastructure and ScientificWorkflows for the Batteries of the Future
+J|34|2022-2026|PhD|=65|Multiscale Modeling of Nanostructured Anodes for Li-ion Batteries
+O|37|2026|Contribution to journal ›|=54|Visualizing phonon edge states on molybdenum disulfide
+O|37|2025|Contribution to journal ›|=65|Defect Complexes in CrSBr Revealed Through Electron Microscopy and Deep Learning
+J|37|2025-2028|PhD|=53|Modelling of optically active defects in 2D materials
+J|37|2024-2027|PhD|mechanisms-of-silicate-dissolution-and-formation-of-secondary-pha-5|Mechanisms of silicate dissolution and formation of secondary phases in the presence of biogenic compounds ? The effects of fluid flow on reaction rates - physics perspective
+O|35|2025|Contribution to journal ›|c-band-inasinp-quantum-dots-alternative-growth-versus-indium-flus|C-band InAs/InP quantum dots: alternative growth versus indium-flush for self-assembled growth
+O|35|2025|Contribution to journal ›|=65|Insights into the Active Sites for Catalytic Steam Reforming of Methane from Oscillations in the Reaction
+O|38|2026|Contribution to journal ›|=65|A Reusable Library for Second-Order Orbital Optimization Using the Trust Region Method
+O|38|2026|Contribution to journal ›|=65|Solvation Lies Within: Simulating Condensed-Phase Properties from Local Electronic Structures
+J|38|2023-2026|PhD|=63|Focused Simulations of Electronic Structure in Composite Phases
+O|36|2026|Contribution to journal ›|=63|Liquid thickness estimation in transmission electron microscopy
+O|36|2026|Contribution to journal ›|mechanistic-insights-into-methanol-production-on-nisub5subgasub3s|Mechanistic insights into methanol production on Ni5Ga3 thin films: An in situ XPS and DFT study
+J|36|2025-2028|PhD|=65|Controlled Synthesis and Characterization of Catalysts for Electrochemical Energy Conversion Reactions
+J|36|2024-2027|PhD|=51|Exploration of electrocatalysts at the atomic scale
+J|36|2024-2027|PhD|discovering-new-dual-and-triple-atom-electrocatalysts-2|Discovering New Dual and Triple Atom Electrocatalysts
+J|36|2024-2027|PhD|discovering-new-dual-and-triple-atom-catalysts-2|Discovering New Dual and Triple Atom Catalysts
+J|36|2024-2027|PhD|=65|Synthesis and Characterization ofwell-controlled multi-metallic alloysfor selective oxidation reactions
+O|40|2026|Contribution to journal ›|=65|Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+O|40|2026|Contribution to journal ›|=65|Deterministic approach for integrating an emitter in a nanocavity with subwavelength light confinement
+J|40|2024-2027|PhD|=63|Cavity quantum electrodynamics in sub-wavelength nanostructures
+J|40|2023-2026|PhD|=30|Quantum Optics of Nanocavities
+J|40|2023-2026|PhD|=51|Fabrication and Physics of Semiconductor Nanolasers
+J|40|2022-2026|PhD|=65|Theory and experimental characterization of nanostructured lasers
+O|41|2026|Contribution to journal ›|=54|Overview of Wendelstein 7-X high-performance operation
+O|41|2026|Contribution to journal ›|=65|The potential of collective Thomson scattering measurements in burning-plasma devices
+O|39|2026|Contribution to journal ›|broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams|Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary phase plates

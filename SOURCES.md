@@ -76,6 +76,16 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | pure.au.dk | 41 |
 | vbn.aau.dk | 15 |
 
+### Educator output and PhD projects
+
+| Site | Pages |
+|---|---:|
+| orbit.dtu.dk | 386 |
+| researchprofiles.ku.dk | 98 |
+| portal.findresearcher.sdu.dk | 81 |
+| pure.au.dk | 72 |
+| vbn.aau.dk | 30 |
+
 ### Unit page
 
 | Site | Pages |
@@ -173,4 +183,4 @@ The workflow "Check sources" opened 131 pages (up to three per site) from a GitH
 
 
 
-Total: 1163 pages from 70 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 1830 pages from 70 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

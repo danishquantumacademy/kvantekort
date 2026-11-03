@@ -1,0 +1,31 @@
+NAMES:Casper Steinmann;Esben Pilgaard Skovsen;Jens Myrup Pedersen;Kjeld Pedersen;Lars Diekhöner;Leonid Gurevich;Lone Leth Thomsen;Manohar Chirumamilla;Matteo Bonini;Oliver Wilhelm Gnilke;Ove Kjeld Andersen;Reinhard Wimmer;Tatiana Kozlova Madsen;Thomas Garm Pedersen;Yuanzheng Yue
+O|0|2026|Article|=62|CACHE Challenge #3: Targeting the Nsp3 Macrodomain of SARS-CoV-2
+O|0|2026|Working paper/Preprint|=65|From Retrosynthetic Prediction to the Bench: Experimental Evaluation of Computer-Generated Synthetic Routes
+O|1|2026|Article|=65|Dose-dependent refractive index changes in megavoltage x-ray-irradiated high-density polyethylene measured by terahertz time-domain spectroscopy
+O|1|2026|Article|=65|High-accuracy material classification via reference-free terahertz spectroscopy: Revisiting spectral referencing and feature selection
+O|3|2026|Article|=65|Liquid-Metal Interconnects: Proof-of-Concept for Repairable and Recyclable SiC MOSFET Chips
+O|3|2026|Proceedings|=65|Long-Term High-Temperature Operation of Liquid-Metal Interconnects on SiC MOSFETs
+O|2|2026|Proceedings|=65|Active Learning as an Organizational Arrangement: Reflections from an Immersion in a Consolidated PBL Context
+O|2|2026|Proceedings|=65|An International and Interdisciplinary Approach to Project-Based Learning in Sustainability Challenges
+O|4|2026|Article|=65|Magnetism of High-Symmetry Lanthanide Molecular Complexes with Metalloligands Directing Orientational Attachment to Ag and HOPG Surfaces
+O|4|2024|Article|=65|An approach for patterned molecular adsorption on ferromagnets, achieved via Moiré superstructures
+O|6|2025|Proceedings|sustainable-software-development-new-challenges-for-programming-l-2|Sustainable Software Development: New Challenges for Programming, Language Design and Analysis
+O|6|2023|Conference|=65|Sustainable software development: new challenges for programming, languages design and analysis: (Preliminary version)
+O|7|2026|Article|=65|Universal and Scalable Fabrication of Plasmonic Nanocrystals for Ultrasensitive SERS
+O|7|2025|Article|2d-photonic-crystal-emitter-at-1400c-for-thermophotovoltaic-energ|2D photonic crystal emitter at 1,400°C for thermophotovoltaic energy harvesting
+O|8|2026|Preprint|=55|Constructions of Rank-Metric Codes of Small Tensor Rank
+O|8|2025|Article|the-geometry-of-covering-codes-in-the-sumrank-metric|The geometry of covering codes in the sum–rank metric
+O|5|2026|Article|=65|Electrochemical click chemistry for controlled and localized biosensor surface functionalization
+O|5|2025|Article|=59|Aspects of Electrochemical Biosensors Using Affinity Assays
+O|9|2025|Article|=52|Group testing via residuation and partial geometries
+O|9|2024|Article|=65|Almost perfect autocorrelation sequences with small number of pauses for applications in magnetic resonance
+O|10|2025|Proceedings|=65|Designing successful and sustainable interdisciplinary PBL in engineering education: A cross-case analysis of System Projects in practice
+O|10|2022|Proceedings|=65|On Numerical Robustness of Bi-quad Structures using Fixed-Point Approximate Multiplication
+O|12|2024|Article|=65|Automated Room-Level Localisation Using Building Plan Information
+O|12|2024|Proceedings|=65|End-to-End Delivery in LEO Mega-constellations and the Reordering Problem
+O|11|2026|Article|=65|Aqueous phase recirculation as a water management strategy and its effect on chemical recycling of poly(ethylene terephthalate) (PET) by neutral hydrothermal processing
+O|11|2026|Conference|=65|Combining Real-Time NMR and Metabolomics Techniques to Study the Pre- and Probiotic Effects of Fermented Seaweed
+O|13|2026|Preprint|1q-first-generation-wireless-systems-integrating-classical-and-qu-2|1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication
+O|13|2026|Article|electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su|Electrical Control of Excitons in Bare MoSe2 and MoSe2/NbSe2 Heterostructures
+O|14|2026|Article|=65|A High-Capacity and Ultrastable All-Solid-State Lithium Battery Made by Coupling Glass-Ceramic Electrolyte With Glassy Electrode
+O|14|2026|Article|=65|An in situ formed bionic cell wall interphase enables a reversible Zn anode for high-performance aqueous batteries

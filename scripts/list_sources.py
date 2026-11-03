@@ -73,6 +73,29 @@ for f in sorted((D / "people").glob("*.txt")):
         url = PORTAL[inst] + path if path else f'{PORTAL[inst]}/en/persons/?search={quote(chr(34) + name + chr(34))}'
         add("Educator profile", inst, url, f"{PORTAL_NAME[inst]} profile: position, units, fingerprint concepts, recent output ({name})", f"data/people/{f.name}")
 
+# 5b. Latest research output and ongoing PhD projects (educator as main supervisor), from the research portals
+import unicodedata
+def pure_slug(t):
+    t = unicodedata.normalize("NFKD", t.lower())
+    t = "".join(ch for ch in t if not 0x300 <= ord(ch) <= 0x36F)
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+PUB_BASE = {"DTU": "https://orbit.dtu.dk/en/", "KU": "https://researchprofiles.ku.dk/en/", "AU": "https://pure.au.dk/portal/en/",
+            "SDU": "https://portal.findresearcher.sdu.dk/en/", "AAU": "https://vbn.aau.dk/en/"}
+for inst in PUB_BASE:
+    names = []
+    for f in sorted((D / "people/harvest").glob(f"{inst.lower()}*.txt")):
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if line.startswith("NAMES:"):
+                names = line[6:].split(";"); continue
+            if not line.strip() or line.startswith("#"):
+                continue
+            kind, idx, year, typ, slug, title = line.split("|", 5)
+            if slug.startswith("="):
+                slug = pure_slug(title)[:int(slug[1:])]
+            url = PUB_BASE[inst] + ("publications/" if kind == "O" else "projects/") + slug + "/"
+            what = "latest research output" if kind == "O" else "ongoing PhD project, main supervisor"
+            add("Educator output and PhD projects", inst, url, f"{names[int(idx)]}: {what}", f"data/people/harvest/{f.name}")
+
 # 6. Organisational units: portal page and own website
 for line in (D / "people/units.txt").read_text(encoding="utf-8").splitlines():
     if not line.strip() or line.startswith("#"):

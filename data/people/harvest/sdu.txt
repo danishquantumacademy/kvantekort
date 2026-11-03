@@ -1,0 +1,90 @@
+NAMES:Adam Cohen Simonsen;Adrian Petr;Ali Asghar Hakami Zanjani;Apoorv Tiwari;Benjamin Jäger;Christina Wegeberg;Christos Tserkezis;David Kyed;Du Pei;Eduardo Dias;Erik Donovan Hedegård;Ernst Dennis Larsson;Fabrizio Montesi;Fei Ding;Francesca Serra;Francesco Sannino;Frederik Kamper Jørgensen;Hans Jørgen Aagaard Jensen;Jacob Kongsted;Jakob Kjelstrup-Hansen;Joel Cox;Jonas Beermann Kristiansen;Konstantin Wernli;Line Jelver;Manuel Meyer;Marco Antonio Gonzalez Angulo;Martin Aage Barsøe Hedegaard;Martin Snoager Sloth;Matthias Oliver Wilhelm;Michael Lomholt;Michele Della Morte;N. Asger Mortensen;Paulo André Dias Goncalves;Peter Mayer;Peter Reinholdt;Robin Kaarsgaard Sales;Ruben Niederhagen;Sergey I. Bozhevolnyi;Shailesh Kumar;Shan Shan;Sofie Marie Koksbang;Thomas Aaby Ryttov;Torgom Yezekyan;Volodymyr Zenin;William Elbæk Mistegård
+O|1|2025|Article|mapping-tori-of-asubsub-autoequivalences-and-legendrian-lifts-of-|Mapping tori of A∞-autoequivalences and Legendrian lifts of exact Lagrangians in circular contactizations
+O|3|2026|Article|21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat|(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry
+O|3|2026|Article|gapless-phases-in-21d-with-non-invertible-symmetries|Gapless phases in (2+1)d with non-invertible symmetries
+O|2|2026|Article|=65|CATpie: A Python tool for quantifying membrane curvature, area, and geometrically faithful normal-line thickness from molecular dynamics simulations
+O|2|2026|Article|=65|Molecular dynamics perspectives on annexin-mediated plasma membrane repair: From recruitment to membrane mechanics
+O|0|2027|Article|=65|Characterizing freeze-thaw instability in pectin-stabilized dairy gels using STED and FLIM microscopy
+O|0|2026|Article|=32|A FAIR road to a bioAFM databank
+O|4|2026|Article|=52|Heavy Quark Thermodynamics with Anisotropic Lattices
+O|4|2025|Article|=65|Approaching the continuum with anisotropic lattice thermodynamics
+O|5|2026|Article|fra-sj%C3%A6ldne-%C3%A6delmetaller-til-jern-og-mangan-jagten-p%C3%A5-b%C3%A6redygtige|Fra sjældne ædelmetaller til jern og mangan: Jagten på bæredygtige fotoaktive materialer
+O|5|2026|Article|=65|Resolving consecutive excited-state evolution in Fe-amido chromophores by wide-band optical transient absorption spectroscopy
+O|6|2026|Working paper|an-s-matrix-formalism-for-the-nonclassical-optical-response-of-pl-3|An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Nanowires
+O|6|2026|Article|an-s-matrix-formalism-for-the-nonclassical-optical-response-of-pl-2|An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Sphere Aggregates
+O|7|2026|Article|=55|Quantum metrics from length functions on quantum groups
+O|7|2025|Article|=65|Quantum metrics on crossed products with groups of polynomial growth
+O|8|2026|Article|generalized-global-symmetries-of-tm-theories-part-ii|Generalized global symmetries of T[M] theories. Part II
+O|8|2026|Article|=49|On mixed ’t Hooft anomalies of emergent symmetries
+O|9|2026|Proceedings|=41|Active light steering with electron beams
+O|9|2026|Article|=65|Active steering of cathodoluminescence through a generalized Smith–Purcell effect
+O|11|2026|Article|=65|Efficient Calculation of Absorption Spectra of Platinum Complexes Used as Luminescent Probes for Cancer Detection
+O|11|2026|Article|=65|Introducing PAIMP, the polarizable ab initio model potential method for embedded clusters
+O|10|2026|Article|=65|A State-Averaged Formulation for Variational Multiconfigurational Pair-Density Functional Theory
+O|10|2026|Article|cuii-complexes-of-a-pincer-ligand-with-an-anionic-central-donor-a|Cu(ii) complexes of a pincer ligand with an anionic central donor and intramolecular H-bonding in the second coordination sphere
+O|12|2026|Proceedings|=65|Benchmarking API Data Transfer Refactorings to Service-Oriented Architectures
+O|12|2026|Article|=65|Choreography-defined networks: Concepts and a case study on AI-based attack detection
+O|14|2026|Article|=44|Actuation of Cell Layers in Three Dimensions
+O|14|2026|Conference without publisher/journal|=58|Mechanism of Collective Cell Contraction During Detachment
+O|13|2026|Article|=65|Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates
+O|13|2026|Article|=65|Isolated iodine single atoms regulating the in-plane electronic structure of G-C3N4 for enhanced CO2 photoreduction
+O|16|2026|Article|=65|A State-Averaged Formulation for Variational Multiconfigurational Pair-Density Functional Theory
+O|16|2025|Article|=65|Multiconfigurational short-range on-top pair-density functional theory
+O|15|2026|Article|=45|Consistency relation for fixed point dynamics
+O|15|2026|Article|=32|Good qualities of the weak axion
+O|17|2026|Article|=65|Introducing PAIMP, the polarizable ab initio model potential method for embedded clusters
+O|17|2025|Article|=65|Excited-state methods based on state-averaged long-range CASSCF short-range DFT
+O|20|2026|Proceedings|=41|Active light steering with electron beams
+O|20|2026|Article|=65|Active steering of cathodoluminescence through a generalized Smith–Purcell effect
+O|19|2026|Conference without publisher/journal|=65|In-situ GIWAXS coupled with tensile loading of vacuum-deposited thin organic films
+O|19|2026|Conference without publisher/journal|=65|In situ GIWAXS during tensile testing of vacuum deposited thin organic films
+O|18|2026|Article|=65|Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal Protonated Schiff Base
+O|18|2026|Article|=56|Chemical basis for arginine citrullination by human PAD4
+O|21|2025|Article|=65|Vis-SWIR hyperspectral microscopy imaging of plasmonic color printed arrays
+O|21|2022|Article|=48|Anapole states in gap-surface plasmon resonators
+O|22|2026|Article|=56|Combinatorial QFT on graphs: First quantization formalism
+O|22|2026|Article|globalization-of-perturbative-chernsimons-theory-on-the-moduli-sp|Globalization of Perturbative Chern–Simons Theory on the Moduli Space of Flat Connections in the BV Formalism
+O|23|2026|Article|=65|Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS2 via Ferroelectricity-Controlled Photodoping
+O|23|2026|Proceedings|=65|Hydrodynamic model for nonlocal electrodynamics effects in ultra-confined plasmons
+O|25|2026|Article|interfacial-engineering-of-hierarchical-zno-tetrapodcoag-heterost|Interfacial engineering of hierarchical ZnO Tetrapod/Co/Ag heterostructures for room-temperature VOC sensing and photocatalytic dye degradation
+O|25|2026|Article|interfacial-engineering-of-hierarchical-zno-tetrapodcosub3subosub|Interfacial engineering of hierarchical ZnO Tetrapod/Co3O4/Ag heterostructures for room-temperature VOC sensing and photocatalytic dye degradation
+O|24|2026|Article|=65|Binary classification of signal and background triggers of a transition edge sensor using convolutional neural networks
+O|24|2026|Article|=65|Characterizing Candidate Blazar Counterparts of the Ultra-high-energy Event KM3-230213A
+O|26|2026|Article|=65|Exploration of bead mixtures containing yttrium-stabilized zirconium and cross-linked polystyrene beads for the preparation of nano- and microsuspensions
+O|26|2026|Proceedings|=61|Longitudinal Raman spectroscopic monitoring of living tissues
+O|27|2026|Other contribution|=49|Dark Acoustic Oscillations and the Hubble Tension
+O|27|2026|Article|=65|Dark Acoustic Oscillations as an Early-Universe Explanation of the DESI Anomaly
+O|28|2026|Article|=56|The spectrum of Feynman-integral geometries at two loops
+O|28|2025|Article|calabi-yau-feynman-integrals-in-gravity-%CE%B5-factorized-form-for-app|Calabi-Yau Feynman integrals in gravity: ε-factorized form for apparent singularities
+O|29|2026|Article|=65|AI-based delineation based on clinical data in MR-guided brachytherapy for cervical cancer reduces delineation time – A prospective paired trial
+O|29|2024|Article|=65|Sensing membrane voltage by reorientation of dipolar transmembrane peptides
+O|30|2026|Article|=65|Continuum foundations of lattice gauge theories: A collection of topical lecture notes
+O|30|2026|Article|=16|FLAG review 2024
+O|31|2026|Article|=65|Crystalline metal flakes: platforms for advanced plasmonics and hybrid 2D material architectures [Invited]
+O|31|2026|Proceedings|=65|Hydrodynamic model for nonlocal electrodynamics effects in ultra-confined plasmons
+O|32|2026|Proceedings|=65|Quantum Plasmonics in Metals and Emerging Applications of Graphene Plasmons
+O|32|2026|Working paper|=65|Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality
+O|34|2026|Article|=65|Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal Protonated Schiff Base
+O|34|2026|Article|cost-effective-scalable-quantum-error-mitigation-for-tiled-ans%C3%A4tz|Cost-Effective Scalable Quantum Error Mitigation for Tiled Ansätze
+O|33|2026|Book/report|=65|Cybersikkerhed i praksis: Indsigter fra danske produktionsvirksomheder
+O|33|2026|Book/report|cybersikkerhed-og-forretningskontinuitet-i-sm%C3%A5-og-mellemstore-dan-2|Cybersikkerhed og Forretningskontinuitet i små og mellemstore danske produktionsvirksomheder: Indsigter fra anden iteration med virksomhedsinddragelse
+O|35|2027|Proceedings|=20|Shadowy Institutions
+O|35|2026|Article|=22|Free quantum computing
+O|36|2026|Article|=61|An FPGA Accelerator for Extended Gaussian Elimination in WAVE
+O|36|2026|Article|=65|Improving ML-KEM and ML-DSA on OpenTitan Efficient Multiplication Vector Instructions for OTBN
+O|39|2026|Article|=65|Quantification of molar sub-regions suggests increasing herbivory during primate origins
+O|39|2024|Article|=65|“He has the whole package: lyrics, melodies, enigmatic, mythical” : Images of Bob Dylan – Results of Questionnaire
+O|37|2026|Article|=65|Chip-integrated metasurface-enabled single-photon skyrmion sources
+O|37|2026|Article|=45|Electrically controlled nonlocal metasurfaces
+O|38|2026|Article|=65|Chip-integrated metasurface-enabled single-photon skyrmion sources
+O|38|2026|Article|=65|Polarization-selective on-chip orbital angular momentum photon sources enabled by nanodiamond emitters in metasurface-decorated waveguides
+O|40|2026|Article|=57|Diagnostic Consistency Tests of the Concordance Cosmology
+O|40|2026|Article|=65|First observational assessment of cosmic backreaction over an extended redshift range
+O|41|2024|Article|=65|Hadronic spectrum in the chiral large Nc extension of quantum chromodynamics
+O|41|2023|Article|anomalous-dimensions-at-an-infrared-fixed-point-in-an-sunc-gauge-|Anomalous dimensions at an infrared fixed point in an SU(Nc) gauge theory with fermions in the fundamental and antisymmetric tensor representations
+O|42|2026|Article|=45|Electrically controlled nonlocal metasurfaces
+O|42|2026|Article|=65|Electrooptic reflective metasurfaces for discrete beam deflection
+O|44|2026|Article|=65|A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum invariants
+O|44|2025|Article|=42|The automorphism equivariant Hitchin index
+O|43|2026|Proceedings|=65|Prospects to bypass metal nonlocal phenomena using phonon-polaritons
+O|43|2025|Article|=65|2D Semiconductors as On-Chip Light Sources for Integrated Nanophotonics

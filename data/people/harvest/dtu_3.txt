@@ -1,0 +1,129 @@
+O|85|2026|Article|broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams|Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary phase plates
+O|85|2026|Article|=65|Enhanced effective nonlinearities in silicon nitride free-standing nanopatterned membranes
+O|87|2026|Article|=65|A multiscale approach linking batter properties to baked cake structure in sponge cakes
+O|87|2026|Article|=65|Polymer-Coated Manganese Dioxide Nanoparticles for Foliar Mn Delivery: Mechanisms of Uptake and Metabolic Responses in Mn Deficient Barley
+J|87|2025-2028|PhD|=34|X-ray Microscopy for Life Sciences
+J|87|2022-2026|PhD|=61|X-ray tomographic imaging of nanoparticle transport in plants
+O|86|2026|Article|=65|Fabrication and characterization of an adaptive thin-film electrostatic phase plate
+O|86|2026|Article|highly-selective-anisotropic-dry-etching-of-smooth-siosub2sub-nan|Highly selective anisotropic dry etching of smooth SiO2 nanostructures using SF6 plasma and Cr hard mask: Toward sustainable plasma etching
+J|86|2024-2027|PhD|=65|Nanonozzle with complex through-wafer buried channels in monolithic Silicon
+J|86|2023-2026|PhD|=65|Development of etch process for high volume 2D transmission gratings
+J|86|2022-2026|PhD|=61|Microstructured Polymer Surfaces for Growthof Marine Bacteria
+J|86|2022-2026|PhD|=65|Nanofabrication and Electron Beam Characterization of Plasmonic Metasurfaces
+O|88|2026|Proceedings|dronesomtowards-a-drone-based-gravity-observation-system|DroneSOM—Towards a Drone-Based Gravity Observation System
+O|88|2026|Article|=65|The development of the unified Baltic Sea Chart Datum 2000 (BSCD2000) height transformation grid: an unprecedented example of height system unification based on state-of-the-art marine geoid modelling
+J|88|2023-2026|PhD|=35|Gravimetry from aircraft and drones
+J|88|2022-2026|PhD|=53|Gravimetry by quantum sensors from space and aircraft
+O|91|2026|Article|carbon-reallocation-driven-by-aerobicanoxic-alternation-during-me|Carbon Reallocation Driven by Aerobic–Anoxic Alternation during Methanotrophic Metabolism
+O|91|2026|Article|=65|Selective and Tunable Routes for Glucose to Fructose Conversion Using MgCl2 Catalysis and Comparison to Other Metal Ions
+J|91|2023-2026|PhD|=65|Part of the solution: solvation effects and the superior formation of bio- sourced products
+O|90|2026|Article|=65|Electrochemical performance and mass transfer properties of dual electrode assemblies for aqueous vanadium redox flow batteries
+O|90|2026|Article|=16|Multi-Beam 3DXRD
+O|89|2026|Article|=65|Liposome purification from micromolar protein background using diffusiophoretic trapping
+O|89|2026|Article|=65|Micro-comb 3D printing: Rapid fabrication of tissue-guiding substrates using micro-embossed nozzles
+J|89|2024-2027|PhD|=65|Next-generation molecular profiling of soft-matter nanoparticles by nanofluidics and single molecule imaging
+J|89|2023-2026|PhD|=65|Towards new frontiers in high throughput optical detection in flow capillaries
+J|89|2023-2026|PhD|=51|Light scatter-based imaging of organ-on-chip system
+J|89|2022-2026|PhD|nanofluidics-devices-for-nanoparticles-imaging-3|Nanofluidics devices for nanoparticles imaging
+O|93|2026|Article|=65|Direct Observation of Tantalum Nitride Photoelectrode Degradation by Environmental Transmission Electron Microscopy
+O|93|2026|Article|=65|Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emitters
+O|94|2026|Article|cavity-qed-controlled-two-dimensional-moir%C3%A9-excitons-without-twis|Cavity-QED-controlled two-dimensional Moiré excitons without twisting
+O|94|2026|Article|=65|The 2025 roadmap to ultrafast dynamics: frontiers of theoretical and computational modeling
+J|94|2025-2028|PhD|=55|Light-matter interaction in strongly-correlated systems
+J|94|2025-2028|PhD|=50|Symmetry Engineering of Light-Matter Hybrid Phases
+J|94|2025-2028|PhD|=55|The Role of Coherence in Light-Matter Photogroundstates
+J|94|2025-2028|PhD|=60|Control of Composite Particles of Hybrid Light-Matter Nature
+O|92|2026|Proceedings|=65|Next-generation 3D CZT matrix detector with reduced noise and minimal readout requirements
+O|92|2025|Article|=65|A novel theoretical model framework for the 3D CdZnTe drift strip detector
+O|95|2026|Article|a-lanczos-based-algorithm-for-the-analysis-of-nmr-spinspin-coupli|A Lanczos-based algorithm for the analysis of NMR spin–spin coupling constants in terms of pairs of occupied and virtual orbitals: The Fermi-contact term at the RPA level of theory
+O|95|2026|Article|iesuptsup-i20an-efficient-open-source-molecular-electronic-struct|eT 2.0: An efficient open-source molecular electronic structure program
+J|95|2025-2028|PhD|=65|Theoretical X-ray spectroscopy to unravel ultrafast electron relaxation pathways in functional molecules
+J|95|2023-2026|PhD|=53|Hybrid Quantum Chemistry for Hybrid Quantum Computers
+J|95|2022-2026|PhD|=65|Novel response theory methods for sophisticatedlight-matter interactions
+O|98|2026|Article|aqueous-polymorph-and-morphology-control-in-zifs-via-1methylimida|Aqueous polymorph and morphology control in ZIFs via 1–methylimidazole for efficient lipase entrapment
+O|98|2026|Article|=65|Catalytic hot-spots in CO oxidation resolved by operando electron microscopy
+J|98|2024-2027|PhD|=37|Exploration of the surface reactivity
+J|98|2022-2026|PhD|=49|Theoretical modeling of single-particle catalysts
+J|98|2021-2026|PhD|=65|Atomic-Resolution Electron Microscopy of Nanoparticles for Catalysis
+O|96|2026|Article|ag-induced-phase-and-defect-engineering-of-co-evaporated-sbsub2su|Ag-Induced Phase and Defect Engineering of Co-Evaporated Sb2Se3 Thin Films for Enhanced Photovoltaic Performance
+O|96|2026|Article|=65|Effect of Mg content in tailoring the electronic properties of Zn(1-x)MgxO as an n-type layer for CZTSe solar cells
+J|96|2025-2028|PhD|=65|Photonic crystallization of antimony chalcogenide-based thin-film solar cells
+J|96|2023-2026|Research|one-dimensional-1d-structured-materials-for-improved-charge-trans-3|One-Dimensional (1D) structured materials for improved charge transport in Inorganic Thin- Film Photovoltaics
+J|96|2023-2026|PhD|one-dimensional-1d-structured-materials-for-improved-charge-trans-4|One-Dimensional (1D) structured materials for improved charge transport in Inorganic Thin- Film Photovoltaics
+J|96|2023-2026|PhD|=57|Novel n-type Materials for Emerging Thin-Film Solar Cells
+O|97|2026|Article|=65|Bayesian Exploration of Metal-Organic Framework- Derived Nanocomposites for High-Performance Supercapacitors
+O|97|2026|Article|=65|Carbon nanograss and osmium redox polymer enhance biophotovoltaic current generation from the cyanobacterium Synechocystis sp. PCC 6803 forty-fold
+J|97|2025-2028|PhD|=65|Microengineering of 3D carbon electrode platforms for microbial electrochemical systems
+J|97|2025-2028|PhD|=59|Additive Manufacturing of Microsystems for Vaccine Delivery
+J|97|2024-2027|PhD|=55|Interdigitated solar electrochemical capacitors (INSECTS)
+J|97|2024-2027|PhD|=65|Metal-Organic Frameworks-incorporated Micro-Architectured Supercapacitors
+O|99|2026|Article|=65|Optimal electrolyte pH for efficient quinone-based aqueous redox flow battery and solar cell integration
+O|99|2026|Article|=65|Persistent compensated ferrimagnetism in the molecular framework Cr(pyrazine)3
+J|99|2023-2026|PhD|=34|Spectroscopy of molybdenum sulfide
+J|99|2022-2026|PhD|=63|Design and development of redox-active metal-organic frameworks
+O|100|2026|Article|=65|GPU-accelerated 3D avalanche and streamer PIC-MCC simulations using pre-exascale supercomputers
+O|100|2026|Article|=44|Lightning initiation on the exoplanet K2-18b
+O|101|2026|Article|=65|Electrochemical performance and mass transfer properties of dual electrode assemblies for aqueous vanadium redox flow batteries
+O|101|2026|Article|=65|Establishing a framework for determining the wetting of Ni on YSZ in SOC fuel electrodes
+J|101|2024-2027|PhD|=22|P2X Electrode Dynamics
+O|103|2026|Article|=65|End-to-End Image Compression With Segmentation Guided Dual Coding for Wind Turbines
+O|103|2026|Proceedings|=65|Investigating the impact of image content and ambient light levels on preferred gamma
+J|103|2024-2027|PhD|=65|Energy-Efficient Receiver Design for Critical Communication Systems
+J|103|2023-2026|PhD|=59|Al-based high quality image and video processing and coding
+J|103|2022-2026|PhD|=45|Signal Processing for Multimode Communication
+O|102|2026|Article|=65|Cu encapsulated in hierarchical MFI zeolites for ethanol dehydrogenation to acetaldehyde
+O|102|2026|Article|facile-calcination-method-to-prepare-nanostructured-niceosub2sub-|Facile calcination method to prepare nanostructured Ni/CeO2 heterogeneous catalysts for CO2 methanation
+J|102|2025-2028|PhD|=59|Design of novel heterogeneous catalysts for CO2 utilization
+J|102|2025-2028|PhD|=56|Design of novel heterogeneous catalyst for dry reforming
+J|102|2024-2027|PhD|=63|Development of novel heterogeneous catalysisfor CO2 utilization
+O|104|2026|Article|=65|Large-Scale Integration of Experimental and Computational Data for 2D Materials
+O|104|2026|Article|=65|Quantitative mapping of smooth topographic landscapes generated using thermal scanning-probe lithography
+O|105|2026|Article|=65|Electrostatic comb-drive actuators for nanoelectromechanical photonics: theory, design, fabrication, and characterization
+O|105|2026|Article|=65|Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-Wavelength Confinement
+J|105|2024-2027|PhD|=65|Light-matter interaction in subdiffraction silicon photonic cavities
+O|107|2023|Article|=65|Enabling real-time detection of photocatalytic reactions by a re-useable micro-reactor
+O|107|2019|Conference|=65|Carrier Selective Contacts based on Low Pressure Chemical Vapor Deposition on Planar and Black Silicon
+O|106|2026|Article|=65|Fully characterized linear magnetoelectric response of 2D monolayers from high-throughput first-principles calculations
+O|106|2026|Article|=56|Giant orbital magnetization in two-dimensional materials
+J|106|2025-2028|PhD|=31|Magnon-phonon coupling in FePS3
+J|106|2022-2026|PhD|=52|Thermodynamics of 2D Magnetism from first principles
+J|106|2022-2026|PhD|=64|Itinerant magnetism in 2D materials from first principles theory
+O|108|2026|Article|magnetism-and-nonlinear-charge-transport-in-nifesub2subosub4sub%CE%B3-|Magnetism and Nonlinear Charge Transport in NiFe2O4/γ-Al2O3/SrTiO3 Heterostructure: Toward Spintronic Applications
+O|108|2026|Article|=65|Spin Hall and Edelstein effects in a ballistic quantum dot with Rashba spin-orbit coupling
+J|108|2024-2027|PhD|=48|Oxide metamaterials by nanoscale strain textures
+J|108|2024-2026|PhD|=65|Design and properties of artificial mesoscopic semiconductor lattices
+J|108|2022-2026|PhD|=64|Design, synthesis, and properties of large-scale nanowire lattices
+J|108|2021-2026|PhD|investigating-the-electronic-properties-of-laosto-free-standing-m|Investigating the electronic properties of LAO/STO free-standing micromembranes
+O|112|2026|Patent|=51|A multi-dimensional cluster state generation system
+O|112|2026|Article|=65|Continuous Variable Measurement-Device-Independent Quantum Certification
+J|112|2025-2028|PhD|=35|Quantum Control of Single Molecules
+J|112|2025-2028|PhD|=64|Evidence-Based Learning and Discrimination in Photonic Platforms
+J|112|2025-2028|PhD|=38|Room-Temperature Quantum Optomechanics
+J|112|2024-2027|PhD|=65|New architectures and error correcting schemes for universal and fault-tolerant continuous variable quantum computing
+J|112|2024-2027|PhD|=65|Variational Methods and Architectures for Near-Term Continuous Variable Quantum Computers with Applications in Mathematical and Biological Computation
+J|112|2024-2027|PhD|=41|Measurement-Based Gaussian Boson Sampling
+J|112|2024-2027|PhD|=57|Development of advanced photonics quantum sensing schemes
+J|112|2024-2027|PhD|=65|Quantum Optomechanics using ultra-coherent mechanical oscillators
+J|112|2024-2027|PhD|=65|Continuous variable measurement-basedquantum information processing
+J|112|2024-2027|PhD|=57|Long Distance Device-Independent Quantum Key Distribution
+J|112|2023-2026|PhD|=34|Macroscopic quantum opto-acoustics
+O|110|2026|Article|=65|Inverse design of a fiber-to-fiber integrated metasurface system for multiplexing and demultiplexing of orbital angular momentum modes
+O|110|2025|Conference|=65|All-dielectric Metasurface System for Sorting and Shaping of Orbital Angular Momentum Modes
+O|111|2025|Proceedings|=27|Cryptanalysis of Full SCARF
+O|111|2025|Proceedings|iis-this-your-usb-no-but-check-this-qr-code-for-a-free-meali-asse|Is this your USB? No, but check this QR code for a free meal! Assessing awareness against dropped USBs and malicious QR codes
+J|111|2022-2026|PhD|ids-for-cav-a-deep-learning-and-blockchain-secured-intrusion-dete|IDS for CAV: IDS for CAV: A Deep Learning and Blockchain-secured Intrusion Detection System (IDS) for Connected and Autonomous Vehicles (CAVs) in Smart Cities
+O|109|2026|Article|=65|Deterministic exfoliation of the uppermost layers of van der Waals crystals
+O|109|2026|Article|=65|Quantitative mapping of smooth topographic landscapes generated using thermal scanning-probe lithography
+J|109|2025-2028|PhD|=65|Nanopatterned 2D Materials for Iono- and Electronic Device Applications
+O|113|2026|Article|=65|Architecture-Driven Functional Coupling in Vertically Aligned Nanocomposites
+O|113|2026|Article|=65|Effect of Powder Type on Slurries for Additive Manufacturing of Sodium Potassium Niobate Piezoceramics
+J|113|2024-2027|PhD|=65|PhD Scholarship in Micro-single chamber solid oxide cells for IoT applications - DTU Energy (2645)
+J|113|2022-2026|PhD|=65|Nanostructured functional metal oxides oxygen ionic conductors for the next-generation solid-state batteries
+O|114|2026|Article|=65|Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+O|114|2026|Article|=65|Deterministic approach for integrating an emitter in a nanocavity with subwavelength light confinement
+J|114|2023-2026|PhD|=55|Lasers based on subwavelength dielectric nanostructures
+O|115|2026|Article|=65|New action spectra for vitamin D and thymidine dimers formation in human skin - does this alter the risk - benefit balance?
+O|115|2026|Article|promoted-current-injection-in-gainngan-multi-quantum-nanowire-bas|Promoted Current Injection in GaInN/GaN Multi-Quantum Nanowire-Based LEDs Coated With AZO Using Atomic Layer Deposition
+O|116|2026|Article|=65|Broad band on-chip Ti-based RF terminator for high-speed photonic platforms
+O|116|2026|Article|=65|High-Efficiency Graphene-Silicon Slot-Waveguide Microring Modulator at 1.5 and 2 µm Wavelength Bands
+J|116|2024-2027|PhD|=65|Bluelight Thin-film Lithium Niobate-on-Insulator IntegratedPlatform for Under Water Communications

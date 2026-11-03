@@ -10,14 +10,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
-/* Layout: one column. Header, CFQT coverage matrix (subdomains x universities) as the centrepiece,
-   proficiency distribution, then a filterable course list grouped by primary CFQT domain.
-   Domain colours follow the CFQT content map; area colours follow the proficiency triangle. */
+/* Layout: header; mini triangles (Denmark + each university) as the selector; the large CFQT proficiency
+   triangle with proficiency-level bars beside the selection stats and the CFQT content map; the content map
+   unfolds into the coverage table (domains folded, subdomains x universities); one course list below,
+   grouped by primary CFQT domain. Page state is kept in the address so links keep working.
+   Triangle geometry follows CFQT v3.0: the outer triangle is split into four congruent triangles; the inverted
+   centre holds A1/A2 in three sectors, the corner triangles hold B1-C2 for areas I (top), II (left), III (right). */
 :root{
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
   --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
-  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff;
-  --heat:31,69,201;
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5; --heat:31,69,201;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
@@ -25,105 +27,158 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
   --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
-  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --heat:123,155,255; color-scheme:dark}}
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; --heat:123,155,255; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
   --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
-  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --heat:123,155,255; color-scheme:dark}
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; --heat:123,155,255; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
-.wrap{max-width:1080px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
-header{display:grid;gap:12px}
-.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-h1{font:700 clamp(32px,6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
-h2{font:700 21px/1.2 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.wrap{max-width:1120px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:32px}
+header{display:grid;gap:10px}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 20px/1.2 var(--display);margin:0;letter-spacing:-.01em}
 h3{font:600 14px/1.3 var(--body);margin:0}
-.lede{max-width:68ch;color:var(--muted);margin:0}
+.lede{max-width:70ch;color:var(--muted);margin:0}
 .lede strong{color:var(--fg);font-weight:600}
-section{display:grid;gap:16px;min-width:0}
-.sub{color:var(--muted);margin:0;max-width:72ch;font-size:14px}
-.inst{display:flex;flex-wrap:wrap;gap:8px}
-.chip{font:500 13px/1 var(--body);padding:8px 11px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.sub{color:var(--muted);margin:0;max-width:72ch;font-size:13.5px}
+section{display:grid;gap:12px;min-width:0}
+
+/* selector: mini triangles */
+.picker{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:10px}
+.pick{display:grid;justify-items:center;gap:4px;padding:10px 8px 8px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;color:var(--fg);font:inherit;text-align:center}
+.pick:hover{border-color:var(--muted)}
+.pick[aria-pressed="true"]{border-color:var(--fg);box-shadow:inset 0 0 0 1px var(--fg)}
+.pick:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pick svg{width:100%;max-width:112px;height:auto;display:block}
+.pick .nm{font:600 14px var(--mono)}
+.pick .ct{font-size:12px;color:var(--muted)}
+
+/* main panel */
+.main{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:1fr}}
+.panel{display:grid;gap:12px;min-width:0}
+.tri-wrap{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}
+.tri-wrap svg{width:100%;height:auto;display:block}
+.cell{cursor:pointer;transition:opacity .15s}
+.cell:hover{opacity:.82}
+.cell:focus-visible{outline:none;stroke:var(--fg);stroke-width:3}
+.cell.sel{stroke:var(--fg);stroke-width:3}
+.ramp-legend{display:grid;grid-template-columns:auto repeat(5,minmax(0,1fr));gap:4px 4px;align-items:center;font-size:12px;color:var(--muted)}
+.ramp-legend .an{font-weight:600;color:var(--fg);padding-right:6px;white-space:nowrap}
+.ramp-legend .sw5{height:18px;border-radius:3px}
+.ramp-legend .hd{text-align:center;font:500 11px var(--mono)}
+.levels-key{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12.5px;color:var(--muted)}
+.levels-key b{font:600 12px var(--mono);color:var(--fg)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font:500 13px/1 var(--body);padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-.chip:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible,td button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chip:focus-visible,select:focus-visible,input:focus-visible,.linkbtn:focus-visible,.matrix button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.flabel{font-size:12.5px;color:var(--muted);margin-right:4px}
+
+/* proficiency levels under the triangle */
+.prof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:620px){.prof{grid-template-columns:1fr}}
+.parea{display:grid;gap:5px;min-width:0}
+.parea h3{display:flex;gap:6px;align-items:center;font-size:13px}
+.lvl{display:grid;grid-template-columns:24px 1fr 26px;gap:6px;align-items:center;font-size:12px}
+.lvl .k{font:600 11.5px var(--mono)}
+.lvl .bar{height:9px;background:var(--chip);border-radius:2px;overflow:hidden}
+.lvl .bar i{display:block;height:100%}
+.lvl .n{font:500 11.5px var(--mono);text-align:right;color:var(--muted)}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.stat{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--surface);display:grid;gap:2px}
+.stat .k{font-size:12px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.stat .v{font:600 18px var(--mono);font-variant-numeric:tabular-nums}
+.stat .s{font-size:11.5px;color:var(--muted)}
 .dot{width:9px;height:9px;border-radius:2px;display:inline-block;flex:none}
 
-/* coverage matrix */
-.matrix{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+/* content map */
+.cmap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.blk{font:500 10.5px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:2px 2px 0}
+.tile{position:relative;border-radius:8px;padding:9px 10px;min-height:76px;display:grid;align-content:space-between;gap:6px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg);text-align:left;font:inherit;overflow:hidden}
+.tile .bg{position:absolute;inset:0;pointer-events:none}
+.tile>*:not(.bg){position:relative}
+.tile .tn{font:700 12px var(--mono);color:var(--bg);border-radius:4px;padding:2px 6px;justify-self:start}
+.tile .tt{font:600 12.5px/1.25 var(--body)}
+.tile .tc{font:500 11.5px var(--mono);color:var(--muted)}
+.tile.sel{box-shadow:inset 0 0 0 2px var(--fg)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile.zero{opacity:.55}
+.span2{grid-column:span 2}
+.linkbtn{font:600 13.5px var(--body);padding:9px 12px;border:1px solid var(--accent);border-radius:8px;background:var(--surface);color:var(--accent);cursor:pointer;text-align:left}
+.linkbtn:hover{background:var(--accent);color:var(--surface)}
+
+/* coverage matrix, unfolded from the content map */
+details.cov{border:1px solid var(--line);border-radius:12px;background:var(--surface);scroll-margin-top:16px}
+details.cov>summary{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center;padding:14px 16px}
+details.cov>summary h2{font-size:19px}
+details.cov>summary .cnt{margin-left:auto;font-size:13px;color:var(--muted)}
+details.cov .cb{padding:0 16px 16px;display:grid;gap:10px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);align-items:center}
+.legend .sw{display:inline-block;width:22px;height:12px;border-radius:3px;vertical-align:middle;margin-right:4px}
+.matrix{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
 .matrix table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
 .matrix th,.matrix td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left}
-.matrix thead th{font:600 12px var(--mono);color:var(--muted);background:var(--surface);white-space:nowrap}
+.matrix thead th{font:600 12px var(--mono);color:var(--muted);white-space:nowrap}
 .matrix thead th.n{text-align:center;width:64px}
-.matrix tr.dom th{font:600 13px var(--body);padding-top:12px;border-bottom:2px solid var(--line)}
-.matrix tr.dom th span.code{font-family:var(--mono);margin-right:6px}
-.matrix td.sname{min-width:220px}
+.matrix thead th.on{color:var(--fg);box-shadow:inset 0 -2px 0 var(--fg)}
+.matrix tr.dom td{background:color-mix(in srgb, var(--chip) 60%, transparent)}
+.matrix tr.dom .dbtn{display:flex;gap:8px;align-items:center;font:600 13px var(--body);background:none;border:0;padding:4px 0;cursor:pointer;color:inherit;text-align:left;width:100%}
+.matrix tr.dom .dbtn::before{content:"\203A";font:700 18px/1 var(--body);width:10px;color:var(--accent);transition:transform .15s}
+.matrix tr.dom.open .dbtn::before{transform:rotate(90deg)}
+.matrix tr.dom .code{font-family:var(--mono)}
+.matrix td.sname{min-width:220px;padding-left:28px}
 .matrix td.sname .scode{font-family:var(--mono);color:var(--muted);margin-right:8px;font-size:12px}
 .matrix td.cell{text-align:center;padding:3px}
 .matrix td.cell button{width:100%;min-width:44px;height:26px;border:0;border-radius:4px;font:600 12px var(--mono);cursor:pointer;color:var(--fg)}
 .matrix td.cell button.zero{background:transparent;color:var(--muted);opacity:.45;cursor:default;font-weight:400}
 .matrix td.cell button.sel{outline:2px solid var(--fg);outline-offset:-2px}
+.matrix td.cell.on{box-shadow:inset 1px 0 0 var(--line),inset -1px 0 0 var(--line);background:color-mix(in srgb, var(--accent) 5%, transparent)}
 .matrix td.tot{text-align:center;font:600 12px var(--mono);color:var(--muted)}
-.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);align-items:center}
-.legend .sw{display:inline-block;width:22px;height:12px;border-radius:3px;vertical-align:middle;margin-right:4px}
-
-/* proficiency distribution */
-.prof{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
-.parea{display:grid;gap:8px;min-width:0}
-.parea h3{display:flex;gap:8px;align-items:center}
-.lvl{display:grid;grid-template-columns:28px 1fr 30px;gap:8px;align-items:center;font-size:12.5px}
-.lvl .k{font:600 12px var(--mono)}
-.lvl .bar{height:10px;background:var(--chip);border-radius:2px;overflow:hidden}
-.lvl .bar i{display:block;height:100%}
-.lvl .n{font:500 12px var(--mono);text-align:right;color:var(--muted)}
-.lvl .lab{grid-column:2/4;color:var(--muted);font-size:11.5px;margin-top:-6px}
-
-/* filters */
-.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
-.group{display:flex;flex-wrap:wrap;gap:6px}
-.chip.dom{padding:7px 9px}
-.chip.dom .num{font-family:var(--mono);font-weight:600}
-select,input{font:14px var(--body);padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
-input{flex:1 1 160px;min-width:0}
-.count{font:500 13px var(--mono);color:var(--muted);margin-left:auto}
-.active-sub{font-size:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.active-sub button{font:500 12px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:4px 10px;cursor:pointer}
-
-/* course list */
-.dgroup{display:grid;gap:8px}
-.dhead{display:flex;align-items:baseline;gap:10px;border-bottom:2px solid var(--line);padding-bottom:8px;flex-wrap:wrap}
-.dhead .num{font:700 13px var(--mono);color:var(--bg);border-radius:4px;padding:3px 7px;align-self:center}
-.dhead p{margin:0;color:var(--muted);font-size:13px}
-details.dgroup>summary{cursor:pointer;list-style:none;color:var(--fg);align-items:center}
-details.dgroup>summary h2{font-size:19px;margin:0}
-details.dgroup>summary .cnt{color:var(--muted);font-size:13px;margin-left:auto}
-details.dgroup>summary:hover h2{color:var(--accent)}
-details.dgroup[open]>summary{margin-bottom:6px}
-.foldbar{display:flex;gap:8px}
+.foldbar{display:flex;gap:8px;flex-wrap:wrap}
 .foldbar button{font:500 13px var(--body);padding:5px 10px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--fg);cursor:pointer}
 .foldbar button:hover{border-color:var(--accent)}
+
+/* course list */
+.lbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.lbar select,.lbar input{font:14px var(--body);padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.lbar input[type=search]{flex:1 1 180px;min-width:0}
+.lbar label{display:flex;gap:6px;align-items:center;font-size:13.5px;cursor:pointer}
+.count{font:500 13px var(--mono);color:var(--muted);margin-left:auto}
+.active{font-size:13.5px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.active b{font-weight:600}
+.active button{font:500 12px var(--body);border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:4px 10px;cursor:pointer}
+details.dgroup{display:grid;gap:8px}
+details.dgroup>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--line);padding-bottom:8px}
+details.dgroup>summary .num{font:700 13px var(--mono);color:var(--bg);border-radius:4px;padding:3px 7px}
+details.dgroup>summary h2{font-size:18px}
+details.dgroup>summary .cnt{color:var(--muted);font-size:13px;margin-left:auto}
+details.dgroup>summary:hover h2{color:var(--accent)}
+#list{display:grid;gap:14px}
 .rows{display:grid}
-.row{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:6px 14px;padding:10px 4px;border-bottom:1px solid var(--line);align-items:baseline}
+.row{display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:5px 12px;padding:10px 4px;border-bottom:1px solid var(--line);align-items:baseline}
 .row:hover{background:var(--surface)}
-.inst-code{font:600 12px var(--mono);color:var(--muted);letter-spacing:.04em}
-.title a{color:var(--fg);text-decoration:none;font-weight:500}
-.title a:hover{color:var(--accent);text-decoration:underline}
-.badges{display:flex;gap:6px;align-items:center;white-space:nowrap}
-.b{font:500 11.5px/1 var(--mono);padding:5px 7px;border-radius:4px;background:var(--chip);color:var(--fg)}
-.tags{grid-column:2/4;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.sd{font:500 11.5px/1 var(--mono);padding:4px 6px;border-radius:4px;border:1.5px solid currentColor;background:transparent}
-.sd.primary{color:var(--bg)!important}
-.pl{font:600 11.5px/1 var(--mono);padding:4px 6px;border-radius:4px;background:var(--chip)}
-.pl .ar{opacity:.75;margin-right:3px}
+.ic{font:600 12px var(--mono);color:var(--muted)}
+.ttl a{color:var(--fg);text-decoration:none;font-weight:500}
+.ttl a:hover{color:var(--accent);text-decoration:underline}
+.b{font:500 11.5px/1 var(--mono);padding:5px 7px;border-radius:4px;background:var(--chip);white-space:nowrap}
+.tags{grid-column:2/4;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.tags .sep{width:1px;height:14px;background:var(--line);margin:0 3px}
+.sd{font:500 11px/1 var(--mono);padding:3px 5px;border-radius:4px;border:1.5px solid currentColor}
+.sd.p{color:var(--bg)!important}
+.pl{font:600 11px/1 var(--mono);padding:3px 5px;border-radius:4px;background:var(--chip)}
 .none{font-size:11.5px;color:var(--muted);font-style:italic}
-.meta{grid-column:2/4;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--muted);align-items:center}
+.meta{grid-column:2/4;display:flex;flex-wrap:wrap;gap:3px 12px;font-size:12.5px;color:var(--muted)}
 .meta .mono{font-family:var(--mono)}
-.empty{padding:24px;color:var(--muted);text-align:center}
+.empty{padding:20px;color:var(--muted);text-align:center}
 footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
-footer p{margin:0;max-width:78ch}
+footer p{margin:0;max-width:80ch}
 footer a{color:var(--accent)}
-@media (max-width:560px){.row{grid-template-columns:44px minmax(0,1fr)}.badges{grid-column:2}}
-@media (prefers-reduced-motion:no-preference){.lvl .bar i{transition:width .4s ease}}
+@media (max-width:520px){.row{grid-template-columns:40px minmax(0,1fr)}.row .b{grid-column:2;justify-self:start}.stats{grid-template-columns:1fr}.count{margin-left:0}}
 
 /* shared site chrome: navigation, how-to-read boxes, footer */
 nav.site{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line);font:500 13.5px var(--body)}
@@ -152,50 +207,68 @@ footer .site-foot a{color:var(--accent)}
 
 <div class="wrap">
   <header>
-    <nav class="site" aria-label="Site"><div class="nt"><a class="brand" href="index.html">Danish Quantum Academy<span class="bx"> · Quantum education and research map</span></a><a class="p" href="about.html">About the data</a></div><div class="nb"><div class="ng"><span class="nl">Education</span><a class="p" href="index.html" aria-current="page">Coverage</a><a class="p" href="triangle.html">Triangle</a><a class="p" href="students.html">Study paths</a><a class="p" href="planner.html">Course finder</a></div><div class="ng"><span class="nl">Research</span><a class="p" href="people.html">Educators</a><a class="p" href="groups.html">Groups</a></div></div></nav>
+    <nav class="site" aria-label="Site"><div class="nt"><a class="brand" href="index.html">Danish Quantum Academy<span class="bx"> · Quantum education and research map</span></a><a class="p" href="about.html">About the data</a></div><div class="nb"><div class="ng"><span class="nl">Education</span><a class="p" href="index.html" aria-current="page">Courses and proficiency</a><a class="p" href="students.html">Study paths</a><a class="p" href="planner.html">Course finder</a></div><div class="ng"><span class="nl">Research</span><a class="p" href="people.html">Educators</a><a class="p" href="groups.html">Groups</a></div></div></nav>
     <h1>Danish Quantum Education Map</h1>
-    <p class="lede">Which parts of the <strong>European Competence Framework for Quantum Technologies (CFQT)</strong> do Danish university courses cover, and how far do they take students?</p>
+    <p class="lede">How far do quantum courses at Danish universities take students, and which parts of the <strong>European Competence Framework for Quantum Technologies (CFQT)</strong> do they cover?</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
-      <p><b>Coverage matrix.</b> Each cell counts the courses that cover a CFQT subdomain, as primary or secondary content. Empty cells point to gaps in the educational offer. Select a cell to list those courses.</p>
-      <p><b>Proficiency levels.</b> The estimated level a course brings students to in each proficiency area, from A1 (awareness) to C2. Courses on enabling technologies such as classical optics or nanofabrication often have no QT-specific proficiency and are counted under "none".</p>
-      <p><b>Course list.</b> Courses are grouped by the CFQT domain of their main topic. Open a domain to see its courses, or use the filters and search; matching domains open by themselves. In each row, <span class="sd primary" style="background:var(--d4);border-color:var(--d4)">4.4</span> filled is the course's primary subdomain and <span class="sd" style="color:var(--d4)">2.2</span> outlined are further subdomains; <span style="font-family:var(--mono)">I B2</span> is the estimated proficiency level per area. The small bars show how often quantum terms (dark) and related technical terms (grey) occur in the course description.</p>
-      <p><b>Status.</b> All tags are first estimates from the course descriptions and will be checked with the course responsibles through the European Quantum Academy survey. Method and sources: <a href="about.html">About the data</a>.</p>
+      <p><b>Choose a university.</b> The small triangles show Denmark and each university. Select one to update everything below.</p>
+      <p><b>The triangle.</b> The CFQT proficiency triangle has (I) Quantum concepts at the top, (II) QT hardware &amp; software engineering on the left and (III) QT applications &amp; strategies on the right. Levels grow from A1 in the centre to C2 at the corners. Each band shows the number of courses whose estimated level in that area is exactly that level; the shade tells how many, in five fixed steps, so the same shade means the same count for every university. Select a band to list its courses. The bars under the triangle show the same numbers per area, including courses without QT-specific proficiency ("none").</p>
+      <p><b>Content map and coverage.</b> The tiles count courses covering each CFQT domain, as primary or secondary subdomain. Select a tile to list its courses, or unfold the coverage table to see each subdomain per university; empty cells point to gaps in the educational offer.</p>
+      <p><b>Course list.</b> Courses are grouped by the CFQT domain of their main topic. In each row, <span class="sd p" style="color:var(--d4);background:var(--d4);border-color:var(--d4)">4.4</span> filled is the primary subdomain, <span class="sd" style="color:var(--d4)">2.2</span> outlined are further subdomains, and <span class="pl" style="color:var(--aI)">I B2</span> is the estimated proficiency level per area.</p>
+      <p><b>Status.</b> All tags and levels are first estimates from the course descriptions and will be checked with the course responsibles. Method and sources: <a href="about.html">About the data</a>.</p>
     </div></details>
-    <div class="inst" id="inst" aria-label="Universities"></div>
   </header>
 
-  <section aria-labelledby="cov">
-    <h2 id="cov">Coverage of the CFQT content map</h2>
-    <p class="sub">Courses per CFQT subdomain. Select a cell to list those courses.</p>
-    <div class="legend" id="legend"></div>
-    <div class="matrix"><table id="matrix"></table></div>
+  <section aria-label="Choose university">
+    <div class="picker" id="picker"></div>
   </section>
 
-  <section aria-labelledby="pr">
-    <h2 id="pr">Proficiency levels</h2>
-    <p class="sub">Courses by the estimated level they bring students to, per proficiency area.</p>
-    <div class="prof" id="prof"></div>
-  </section>
+  <div class="main">
+    <section class="panel" aria-labelledby="tri-h">
+      <h2 id="tri-h">Proficiency triangle</h2>
+      <div class="filters" id="lvl-filters"><span class="flabel">Study level</span></div>
+      <div class="tri-wrap"><svg id="tri" role="img" aria-labelledby="tri-title"><title id="tri-title">CFQT proficiency triangle</title></svg></div>
+      <div class="ramp-legend" id="ramp-legend" aria-label="Colour key: number of courses per band"></div>
+      <h3 style="margin-top:8px">Proficiency levels</h3>
+      <div class="prof" id="prof"></div>
+    </section>
 
-  <section aria-labelledby="cl">
-    <h2 id="cl">Courses</h2>
-    <div class="filters">
-      <div class="group" id="f-dom" aria-label="CFQT domain"></div>
-      <div class="group" id="f-level" aria-label="Study level"></div>
-      <select id="f-area" aria-label="Proficiency area">
+    <section class="panel" aria-labelledby="cm-h">
+      <h2 id="cm-h">Selection</h2>
+      <div class="stats" id="stats"></div>
+      <h3 style="margin-top:6px">CFQT content map</h3>
+      <div class="cmap" id="cmap"></div>
+      <button type="button" class="linkbtn" id="unfold">Unfold the content map by subdomain and university ↓</button>
+      <div class="levels-key" id="levels-key"></div>
+    </section>
+  </div>
+
+  <details class="fold cov" id="coverage">
+    <summary><h2>Coverage of the CFQT content map</h2><span class="cnt" id="cov-cnt"></span></summary>
+    <div class="cb">
+      <p class="sub">Courses per CFQT subdomain at each university, as primary or secondary content. Open a domain to see its subdomains; select a number to list those courses.</p>
+      <div class="foldbar"><button type="button" id="dom-open">Open all domains</button><button type="button" id="dom-close">Close all</button><div class="legend" id="legend"></div></div>
+      <div class="matrix"><table id="matrix"></table></div>
+    </div>
+  </details>
+
+  <section aria-labelledby="list-h" id="courses" style="scroll-margin-top:16px">
+    <h2 id="list-h">Courses</h2>
+    <div class="lbar">
+      <input id="q" type="search" placeholder="Search title or code" aria-label="Search courses">
+      <select id="area" aria-label="Proficiency area">
         <option value="">Any proficiency</option>
         <option value="I">(I) Quantum concepts</option>
         <option value="II">(II) QT HW &amp; SW engineering</option>
         <option value="III">(III) QT applications &amp; strategies</option>
         <option value="none">No QT-specific proficiency</option>
       </select>
-      <select id="f-min" aria-label="Minimum level"></select>
-      <input id="f-q" type="search" placeholder="Search title or code" aria-label="Search">
+      <select id="min" aria-label="Minimum level"></select>
       <span class="count" id="count"></span>
     </div>
-    <div class="active-sub" id="active-sub" hidden></div>
+    <div class="active" id="active"></div>
     <div class="foldbar"><button type="button" id="open-all">Open all domains</button><button type="button" id="close-all">Close all</button></div>
-    <div id="list" style="display:grid;gap:14px"></div>
+    <div id="list"></div>
   </section>
 
   <footer>
@@ -209,128 +282,253 @@ footer .site-foot a{color:var(--accent)}
 (function(){
   const D=JSON.parse(document.getElementById('qdk-data').textContent);
   const R=D.reference, C=D.courses, Q=R.cfqt;
-  const DOMS=Object.keys(Q.domains), AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'];
-  const LEVEL_ORDER=['BSc','MSc','PhD','Diplom','Master'];
+  const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], DOMS=Object.keys(Q.domains);
+  const INSTS=Object.keys(R.institutions);
+  const LEVEL_ORDER=['BSc','MSc','PhD','Diplom','Master'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
   const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master'};
-  const LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
-  const ACTIVE=Object.keys(R.institutions);
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
-  const dcol=d=>`var(--d${d})`, acol=a=>`var(--a${a})`;
-  const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
-  const state={insts:new Set(ACTIVE),doms:new Set(DOMS),levels:new Set(LEVELS),area:'',min:'',q:'',sub:null,subInst:null,open:new Set()};
+  const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
+  const NS='http://www.w3.org/2000/svg';
+  const state={inst:'ALL',levels:new Set(LEVELS),cell:null,dom:null,sub:null,q:'',area:'',min:'',open:new Set(),openDom:new Set()};
   const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
-  const chip=(content,on,fn,title,cls='chip')=>{const b=el('button',{class:cls,type:'button','aria-pressed':String(on)},...[].concat(content));if(title)b.title=title;b.onclick=()=>{if(fn()===false)return;b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true');render()};return b};
-  const toggle=(set,v)=>()=>{if(set.has(v)){if(set.size===1)return false;set.delete(v)}else set.add(v)};
-  const pool=()=>C.filter(c=>state.insts.has(c.institution));
-  const heat=n=>n<=0?0:Math.min(.85,.14+.13*n);
+  const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
+  const sel=inst=>C.filter(c=>(inst==='ALL'||c.institution===inst)&&state.levels.has(c.level));
+  const whereName=()=>state.inst==='ALL'?'Denmark':R.institutions[state.inst].name;
 
-  // header: universities
-  const inst=document.getElementById('inst');
-  ACTIVE.forEach(k=>inst.append(chip(k,true,toggle(state.insts,k),R.institutions[k].name)));
-
-  // legend
-  const lg=document.getElementById('legend');
-  lg.append(el('span',{},'Courses per cell:'));
-  [[1,'1'],[3,'3'],[6,'6+']].forEach(([n,l])=>lg.append(el('span',{},el('span',{class:'sw',style:`background:rgba(var(--heat),${heat(n)})`}),l)));
-
-  // filters
-  const fd=document.getElementById('f-dom'), fl=document.getElementById('f-level'), fa=document.getElementById('f-area'), fm=document.getElementById('f-min'), fq=document.getElementById('f-q');
-  DOMS.forEach(d=>fd.append(chip([el('span',{class:'dot',style:`background:${dcol(d)}`}),el('span',{class:'num'},d)],true,toggle(state.doms,d),Q.domains[d].name+' (primary domain)','chip dom')));
-  LEVELS.forEach(L=>fl.append(chip(LEVEL_LABEL[L]||L,true,toggle(state.levels,L),LEVEL_NAME[L])));
-  fm.append(el('option',{value:''},'Any level'),...LV.map(l=>el('option',{value:l},`${l} ${Q.levels[l]} or higher`)));
-  fa.onchange=()=>{state.area=fa.value;fm.disabled=!state.area||state.area==='none';render()}; fm.disabled=true;
-  fm.onchange=()=>{state.min=fm.value;render()};
-  fq.oninput=()=>{state.q=fq.value.trim().toLowerCase();renderList()};
-
-  function renderMatrix(){
-    const insts=[...state.insts], P=pool();
-    const t=document.getElementById('matrix'); t.innerHTML='';
-    t.append(el('thead',{},el('tr',{},el('th',{scope:'col'},'CFQT subdomain'),...insts.map(i=>el('th',{scope:'col',class:'n',title:R.institutions[i].name},i)),el('th',{scope:'col',class:'n'},'All'))));
-    const tb=el('tbody');
-    DOMS.forEach(d=>{
-      const dom=Q.domains[d];
-      tb.append(el('tr',{class:'dom'},el('th',{colspan:String(insts.length+2),scope:'colgroup',style:`color:${dcol(d)}`},el('span',{class:'code'},d),dom.name,el('span',{style:'font-weight:400;margin-left:8px;color:var(--muted);font-size:12px'},Q.blocks[dom.block]))));
-      Object.entries(dom.subdomains).forEach(([s,name])=>{
-        const tr=el('tr',{},el('td',{class:'sname'},el('span',{class:'scode'},s),name));
-        let all=0;
-        insts.forEach(i=>{
-          const cs=P.filter(c=>c.institution===i&&c.subs.includes(s)); const prim=cs.filter(c=>c.primary===s).length; all+=cs.length;
-          const b=el('button',{type:'button',class:cs.length?'':'zero',title:cs.length?`${i} · ${s} ${name}: ${cs.length} course(s), ${prim} as primary`:`${i} · ${s}: no courses`},cs.length?String(cs.length):'–');
-          if(cs.length){b.style.background=`rgba(var(--heat),${heat(cs.length)})`; if(heat(cs.length)>.55) b.style.color='var(--bg)';
-            if(state.sub===s&&state.subInst===i) b.classList.add('sel');
-            b.onclick=()=>{ if(state.sub===s&&state.subInst===i){state.sub=null;state.subInst=null}else{state.sub=s;state.subInst=i} render(); document.getElementById('cl').scrollIntoView({behavior:'smooth',block:'start'}) };}
-          else b.disabled=true;
-          tr.append(el('td',{class:'cell'},b));
-        });
-        tr.append(el('td',{class:'tot'},all?String(all):'–'));
-        tb.append(tr);
-      });
-    });
-    t.append(tb);
+  // ---- links: the page state lives in the address, so links into the old coverage and triangle pages keep working ----
+  function readURL(){
+    const p=new URLSearchParams(location.search);
+    const i=p.get('inst'); if(i&&INSTS.includes(i)) state.inst=i;
+    const s=p.get('sub'); if(s&&DOMS.includes(s.split('.')[0])&&Q.domains[s.split('.')[0]].subdomains[s]) state.sub=s;
+    const d=p.get('dom'); if(d&&DOMS.includes(d)) state.dom=d;
+    const b=p.get('band'); if(b&&/^(I|II|III)-(A1|A2|B1|B2|C1|C2)$/.test(b)){const [a,l]=b.split('-');state.cell={a,l}}
+    if(p.get('q')) state.q=p.get('q').toLowerCase();
+    const lv=p.get('levels'); if(lv){const ls=lv.split(',').filter(x=>LEVELS.includes(x)); if(ls.length) state.levels=new Set(ls)}
+    if(p.get('coverage')==='1') document.getElementById('coverage').open=true;
+  }
+  function writeURL(){
+    const p=new URLSearchParams();
+    if(state.inst!=='ALL') p.set('inst',state.inst);
+    if(state.cell) p.set('band',state.cell.a+'-'+state.cell.l);
+    if(state.dom) p.set('dom',state.dom);
+    if(state.sub) p.set('sub',state.sub);
+    if(state.q) p.set('q',state.q);
+    if(state.levels.size!==LEVELS.length) p.set('levels',[...state.levels].join(','));
+    const qs=p.toString(); try{history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash)}catch(e){}
   }
 
-  function renderProf(){
-    const P=pool(), box=document.getElementById('prof'); box.innerHTML='';
+  // ---- CFQT triangle geometry ----
+  function geometry(W){
+    const h=W*Math.sqrt(3)/2, pad=W*.04, top=pad+(W>300?22:0);
+    const A=[W/2+pad,top], BL=[pad,h+top], BR=[W+pad,h+top];
+    const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2], lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];
+    const L=mid(A,BL), Rr=mid(A,BR), M=mid(BL,BR), O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];
+    const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]};
+    const cells=[];
+    for(const a of AREAS){
+      const [P1,P2,V]=sides[a];
+      cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});
+      cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});
+      ['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}));
+    }
+    return {W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,O,cells};
+  }
+  const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return [x/pts.length,y/pts.length]};
+  const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
+  const counts=list=>{const m={};AREAS.forEach(a=>LV.forEach(l=>m[a+l]=0));list.forEach(c=>AREAS.forEach(a=>{if(c.prof[a])m[a+c.prof[a]]++}));return m};
+  const BINS=[[1,2,'1–2'],[3,5,'3–5'],[6,12,'6–12'],[13,29,'13–29'],[30,1e9,'30+']];
+  const step=n=>n<=0?0:BINS.findIndex(b=>n>=b[0]&&n<=b[1])+1;
+
+  function drawTriangle(svg,list,opts){
+    const g=geometry(opts.W); svg.setAttribute('viewBox',`0 0 ${g.W.toFixed(0)} ${(g.H+(opts.labels?30:0)).toFixed(0)}`);
+    while(svg.lastChild&&svg.lastChild.tagName!=='title') svg.removeChild(svg.lastChild);
+    const m=counts(list);
+    g.cells.forEach(c=>{
+      const n=m[c.a+c.l], k=step(n);
+      const poly=sv('polygon',{points:P(c.pts),fill:k?`var(--a${c.a}-${k})`:'var(--empty)',stroke:'var(--surface)','stroke-width':opts.labels?1.5:1});
+      if(opts.labels){
+        poly.setAttribute('class','cell'+(state.cell&&state.cell.a===c.a&&state.cell.l===c.l?' sel':''));
+        poly.setAttribute('tabindex','0'); poly.setAttribute('role','button');
+        const label=`(${c.a}) ${Q.areas[c.a]} – ${c.l} ${Q.levels[c.l]}: ${Q.level_by_area[c.a][c.l]}. ${n} course(s).`;
+        poly.setAttribute('aria-label',label); poly.append(sv('title',{},label));
+        const act=()=>{state.cell=(state.cell&&state.cell.a===c.a&&state.cell.l===c.l)?null:{a:c.a,l:c.l};state.dom=null;state.sub=null;render();toList()};
+        poly.addEventListener('click',act); poly.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();act()}});
+      }
+      svg.append(poly);
+      if(opts.labels){
+        const [x,y]=centroid(c.pts), ink=k?`var(--on-${k})`:'var(--muted)', small=c.l==='A1';
+        svg.append(sv('text',{x:x.toFixed(1),y:(y-(small?1:4)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:11,'font-weight':600,fill:ink,'pointer-events':'none'},c.l));
+        if(!small||n) svg.append(sv('text',{x:x.toFixed(1),y:(y+(small?9:11)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:13,'font-weight':700,fill:ink,'pointer-events':'none'},n?String(n):'–'));
+      }
+    });
+    const bw=opts.labels?7:3.5;
+    [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':bw,'stroke-linecap':'round','pointer-events':'none'})));
+    svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':opts.labels?1.2:.8,'pointer-events':'none'}));
+    if(opts.labels){
+      const tx=(x,y,txt,anchor,col)=>svg.append(sv('text',{x,y,'text-anchor':anchor,'font-family':'IBM Plex Sans, sans-serif','font-size':12.5,'font-weight':600,fill:col},txt));
+      tx(g.A[0],g.A[1]-10,'(I) Quantum concepts','middle',acol('I'));
+      tx(g.BL[0],g.H+20,'(II) QT HW & SW engineering','start',acol('II'));
+      tx(g.BR[0],g.H+20,'QT applications & strategies (III)','end',acol('III'));
+    }
+  }
+
+  // ---- picker (mini triangles) ----
+  const picker=document.getElementById('picker');
+  function renderPicker(){
+    picker.innerHTML='';
+    ['ALL',...INSTS].forEach(k=>{
+      const svg=sv('svg',{'aria-hidden':'true'}), list=sel(k);
+      drawTriangle(svg,list,{W:200});
+      const b=el('button',{class:'pick',type:'button','aria-pressed':String(state.inst===k),title:k==='ALL'?'All Danish universities':R.institutions[k].name},svg,el('span',{class:'nm'},k==='ALL'?'Denmark':k),el('span',{class:'ct'},`${list.length} courses`));
+      b.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;render()};
+      picker.append(b);
+    });
+  }
+
+  // ---- study level filter ----
+  const lf=document.getElementById('lvl-filters');
+  LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(state.levels.has(L)),title:LEVEL_NAME[L],'data-l':L},LEVEL_LABEL[L]||L);b.onclick=()=>{if(state.levels.has(L)){if(state.levels.size===1)return;state.levels.delete(L)}else state.levels.add(L);state.cell=null;render()};lf.append(b)});
+
+  // ---- keys ----
+  const rl=document.getElementById('ramp-legend');
+  rl.append(el('span',{class:'an'},'Courses per band'),...BINS.map(b=>el('span',{class:'hd'},b[2])));
+  AREAS.forEach(a=>rl.append(el('span',{class:'an',style:`color:${acol(a)}`},`(${a}) ${a==='I'?'Concepts':a==='II'?'HW & SW eng.':'Applications'}`),...BINS.map((b,i)=>el('span',{class:'sw5',style:`background:var(--a${a}-${i+1})`,title:`(${a}) ${Q.areas[a]}: ${b[2]} course(s)`}))));
+  const lk=document.getElementById('levels-key'); LV.forEach(l=>lk.append(el('b',{},l),el('span',{},Q.levels[l])));
+  const heat=n=>n<=0?0:Math.min(.85,.14+.13*n);
+  const lg=document.getElementById('legend'); lg.append(el('span',{},'Courses per cell:'));
+  [[1,'1'],[3,'3'],[6,'6+']].forEach(([n,l])=>lg.append(el('span',{},el('span',{class:'sw',style:`background:rgba(var(--heat),${heat(n)})`}),l)));
+
+  function renderProf(list){
+    const box=document.getElementById('prof'); box.innerHTML='';
     AREAS.forEach(a=>{
-      const counts=Object.fromEntries(LV.map(l=>[l,P.filter(c=>c.prof[a]===l).length])); const none=P.filter(c=>!c.prof[a]).length;
-      const max=Math.max(...Object.values(counts),1);
+      const cnt=Object.fromEntries(LV.map(l=>[l,list.filter(c=>c.prof[a]===l).length])), none=list.filter(c=>!c.prof[a]).length, max=Math.max(1,...Object.values(cnt));
       const g=el('div',{class:'parea'},el('h3',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`));
-      LV.forEach(l=>{g.append(el('div',{class:'lvl'},el('span',{class:'k'},l),el('span',{class:'bar'},el('i',{style:`width:${(counts[l]/max*100).toFixed(1)}%;background:${acol(a)}`})),el('span',{class:'n'},String(counts[l])),el('span',{class:'lab'},`${Q.levels[l]}: ${Q.level_by_area[a][l]}`)))});
-      g.append(el('div',{class:'lvl'},el('span',{class:'k',style:'color:var(--muted)'},'–'),el('span',{class:'lab',style:'margin:0'},'none'),el('span',{class:'n'},String(none))));
+      LV.forEach(l=>g.append(el('div',{class:'lvl',title:`${l} ${Q.levels[l]}: ${Q.level_by_area[a][l]}`},el('span',{class:'k'},l),el('span',{class:'bar'},el('i',{style:`width:${(cnt[l]/max*100).toFixed(1)}%;background:${acol(a)}`})),el('span',{class:'n'},String(cnt[l])))));
+      g.append(el('div',{class:'lvl'},el('span',{class:'k',style:'color:var(--muted)'},'–'),el('span',{style:'color:var(--muted);font-size:11.5px'},'none'),el('span',{class:'n'},String(none))));
       box.append(g);
     });
   }
 
-  const kwbars=c=>{const s=Math.min(c.kw_strong,30),m=Math.min(c.kw_medium,30);const w=el('span',{title:`${c.kw_strong} strong / ${c.kw_medium} weak keyword hits`,style:'display:inline-flex;gap:2px;align-items:flex-end;height:12px'});[[s,'var(--accent)'],[m,'var(--muted)']].forEach(([v,col])=>w.append(el('i',{style:`width:3px;border-radius:1px;background:${col};height:${Math.max(2,v/30*12)}px`})));return w};
-
-  function matches(c){
-    if(!state.doms.has(c.domain)||!state.levels.has(c.level)) return false;
-    if(state.sub&&(!c.subs.includes(state.sub)||c.institution!==state.subInst)) return false;
-    if(state.area==='none'&&Object.keys(c.prof).length) return false;
-    if(state.area&&state.area!=='none'){const p=c.prof[state.area]; if(!p) return false; if(state.min&&LV.indexOf(p)<LV.indexOf(state.min)) return false;}
-    if(state.q&&!(c.title+' '+c.code).toLowerCase().includes(state.q)) return false;
-    return true;
-  }
-
-  function renderList(){
-    const list=document.getElementById('list'); list.innerHTML='';
-    const P=pool(), f=P.filter(matches);
-    document.getElementById('count').textContent=`${f.length} of ${P.length}`;
-    const as=document.getElementById('active-sub'); as.innerHTML='';
-    if(state.sub){as.hidden=false; const clr=el('button',{type:'button'},'Clear'); clr.onclick=()=>{state.sub=null;state.subInst=null;render()}; as.append(el('span',{},`Showing ${state.subInst} courses covering `,el('strong',{},`${state.sub} ${subName(state.sub)}`)),clr)} else as.hidden=true;
-    if(!f.length){list.append(el('div',{class:'empty'},'No courses match these filters. Widen the domain, level or proficiency selection, or clear the search.'));return}
-    // domains start closed; they open by themselves when a filter or search narrows the list
-    const autoOpen=!!(state.sub||state.q||state.area)||f.length<=15;
-    DOMS.forEach(d=>{
-      const rows=f.filter(c=>c.domain===d).sort((a,b)=>a.primary.localeCompare(b.primary,undefined,{numeric:true})||a.institution.localeCompare(b.institution)||LEVEL_ORDER.indexOf(a.level)-LEVEL_ORDER.indexOf(b.level)||a.title.localeCompare(b.title));
-      if(!rows.length) return;
-      const box=el('div',{class:'rows'});
-      rows.forEach(c=>{
-        const tags=el('div',{class:'tags'});
-        c.subs.forEach(s=>{const i=s===c.primary?0:1,dd=s.split('.')[0]; tags.append(el('span',{class:'sd'+(i===0?' primary':''),title:(i===0?'Primary: ':'Secondary: ')+subName(s),style:`color:${dcol(dd)};${i===0?`background:${dcol(dd)};border-color:${dcol(dd)}`:''}`},s))});
-        const pk=Object.keys(c.prof);
-        if(pk.length) pk.forEach(a=>tags.append(el('span',{class:'pl',title:`(${a}) ${Q.areas[a]}: ${c.prof[a]} ${Q.levels[c.prof[a]]} – ${Q.level_by_area[a][c.prof[a]]}`,style:`color:${acol(a)}`},el('span',{class:'ar'},a),c.prof[a])));
-        else tags.append(el('span',{class:'none'},'no QT-specific proficiency'));
-        box.append(el('div',{class:'row'},
-          el('span',{class:'inst-code'},c.institution),
-          el('span',{class:'title'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
-          el('span',{class:'badges'},el('span',{class:'b',title:LEVEL_NAME[c.level]},LEVEL_LABEL[c.level]||c.level),el('span',{class:'b'},c.ects!=null?`${c.ects} ECTS`:'ECTS n/a')),
-          tags,
-          el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,kwbars(c),c.note?el('span',{style:'font-style:italic'},c.note):null)));
-      });
-      const det=el('details',{class:'fold dgroup'},el('summary',{class:'dhead'},el('span',{class:'num',style:`background:${dcol(d)}`},d),el('h2',{},Q.domains[d].name),el('span',{class:'cnt'},`${rows.length} course${rows.length===1?'':'s'}`)),box);
-      if(autoOpen||state.open.has(d)) det.open=true;
-      det.addEventListener('toggle',()=>{det.open?state.open.add(d):state.open.delete(d)});
-      list.append(det);
+  function renderStats(list){
+    const s=document.getElementById('stats'); s.innerHTML='';
+    AREAS.forEach(a=>{
+      const w=list.filter(c=>c.prof[a]), top=w.reduce((m,c)=>Math.max(m,LV.indexOf(c.prof[a])),-1);
+      s.append(el('div',{class:'stat'},el('span',{class:'k'},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),el('span',{class:'v'},String(w.length)),el('span',{class:'s'},top>=0?`courses; highest ${LV[top]} ${Q.levels[LV[top]]}`:'no courses')));
     });
   }
 
-  function render(){renderMatrix();renderProf();renderList()}
-  document.getElementById('open-all').onclick=()=>{document.querySelectorAll('#list details').forEach(d=>d.open=true)};
+  function renderCmap(list){
+    const box=document.getElementById('cmap'); box.innerHTML='';
+    const cnt=d=>list.filter(c=>c.subs.some(s=>s.split('.')[0]===d)).length, prim=d=>list.filter(c=>c.domain===d).length;
+    const max=Math.max(1,...DOMS.map(cnt));
+    const tile=(d,extra='')=>{const n=cnt(d); const t=el('button',{type:'button',class:'tile'+(extra?' '+extra:'')+(n?'':' zero')+(state.dom===d?' sel':''),title:`${d} ${Q.domains[d].name}: ${n} course(s), ${prim(d)} with this as primary domain`},
+      el('span',{class:'bg',style:`background:${dcol(d)};opacity:${n?(.06+.32*Math.sqrt(n/max)).toFixed(2):0}`}),
+      el('span',{class:'tn',style:`background:${dcol(d)}`},d),el('span',{class:'tt'},Q.domains[d].name),el('span',{class:'tc'},`${n} course${n===1?'':'s'} · ${prim(d)} primary`));
+      t.onclick=()=>{state.dom=state.dom===d?null:d;state.cell=null;state.sub=null;render();toList()}; return t;};
+    box.append(el('div',{class:'blk',style:'grid-column:1/-1'},Q.blocks.QB),tile('1'),tile('2','span2'));
+    box.append(el('div',{class:'blk'},Q.blocks.CDT),el('div',{class:'blk span2'},Q.blocks.QSA));
+    box.append(tile('3'),tile('5'),tile('7'),tile('4'),tile('6'),tile('8'));
+  }
+
+  // ---- coverage matrix: domains folded, subdomains on demand ----
+  function renderMatrix(){
+    const base=C.filter(c=>state.levels.has(c.level));
+    const t=document.getElementById('matrix'); t.innerHTML='';
+    const cols=[...INSTS,'ALL'];
+    t.append(el('thead',{},el('tr',{},el('th',{scope:'col'},'CFQT domain / subdomain'),...cols.map(i=>el('th',{scope:'col',class:'n'+(state.inst===i?' on':''),title:i==='ALL'?'All universities':R.institutions[i].name},i==='ALL'?'All':i)))));
+    const tb=el('tbody');
+    const cellBtn=(cs,i,s,label)=>{const b=el('button',{type:'button',class:cs.length?'':'zero',title:cs.length?`${i==='ALL'?'Denmark':i} · ${label}: ${cs.length} course(s)`:`${i==='ALL'?'Denmark':i} · ${label}: no courses`},cs.length?String(cs.length):'–');
+      if(cs.length){b.style.background=`rgba(var(--heat),${heat(cs.length)})`; if(heat(cs.length)>.55) b.style.color='var(--bg)';
+        if(s.includes('.')&&state.sub===s&&state.inst===i) b.classList.add('sel');
+        if(!s.includes('.')&&!state.sub&&state.dom===s&&state.inst===i) b.classList.add('sel');
+        b.onclick=()=>{state.inst=i;state.cell=null; if(s.includes('.')){state.sub=s;state.dom=null}else{state.dom=s;state.sub=null} render(); toList()};}
+      else b.disabled=true; return b};
+    DOMS.forEach(d=>{
+      const dom=Q.domains[d], open=state.openDom.has(d);
+      const db=el('button',{type:'button',class:'dbtn','aria-expanded':String(open),style:`color:${dcol(d)}`},el('span',{class:'code'},d),dom.name);
+      db.onclick=()=>{open?state.openDom.delete(d):state.openDom.add(d);renderMatrix()};
+      tb.append(el('tr',{class:'dom'+(open?' open':'')},el('td',{},db),...cols.map(i=>el('td',{class:'cell'+(state.inst===i?' on':'')},cellBtn(base.filter(c=>(i==='ALL'||c.institution===i)&&c.subs.some(s=>s.split('.')[0]===d)),i,d,`${d} ${dom.name}`)))));
+      if(!open) return;
+      Object.entries(dom.subdomains).forEach(([s,name])=>{
+        tb.append(el('tr',{},el('td',{class:'sname'},el('span',{class:'scode'},s),name),...cols.map(i=>el('td',{class:'cell'+(state.inst===i?' on':'')},cellBtn(base.filter(c=>(i==='ALL'||c.institution===i)&&c.subs.includes(s)),i,s,`${s} ${name}`)))));
+      });
+    });
+    t.append(tb);
+    const nsub=Object.values(Q.domains).reduce((n,d)=>n+Object.keys(d.subdomains).length,0);
+    const gaps=Object.values(Q.domains).flatMap(d=>Object.keys(d.subdomains)).filter(s=>!base.some(c=>(state.inst==='ALL'||c.institution===state.inst)&&c.subs.includes(s))).length;
+    document.getElementById('cov-cnt').textContent=`${nsub} subdomains · ${gaps} without courses in ${state.inst==='ALL'?'Denmark':state.inst}`;
+  }
+  document.getElementById('dom-open').onclick=()=>{DOMS.forEach(d=>state.openDom.add(d));renderMatrix()};
+  document.getElementById('dom-close').onclick=()=>{state.openDom.clear();renderMatrix()};
+  document.getElementById('unfold').onclick=()=>{const c=document.getElementById('coverage');c.open=true;c.scrollIntoView({behavior:'smooth',block:'start'})};
+
+  // ---- course list ----
+  const qi=document.getElementById('q'), ai=document.getElementById('area'), mi=document.getElementById('min');
+  mi.append(el('option',{value:''},'Any level'),...LV.map(l=>el('option',{value:l},`${l} ${Q.levels[l]} or higher`)));
+  mi.disabled=true;
+  qi.oninput=()=>{state.q=qi.value.trim().toLowerCase();renderList();writeURL()};
+  ai.onchange=()=>{state.area=ai.value;mi.disabled=!state.area||state.area==='none';renderList()};
+  mi.onchange=()=>{state.min=mi.value;renderList()};
+  const toList=()=>document.getElementById('courses').scrollIntoView({behavior:'smooth',block:'start'});
+  const kwbars=c=>{const s=Math.min(c.kw_strong,30),m=Math.min(c.kw_medium,30);const w=el('span',{title:`${c.kw_strong} strong / ${c.kw_medium} weak keyword hits`,style:'display:inline-flex;gap:2px;align-items:flex-end;height:12px'});[[s,'var(--accent)'],[m,'var(--muted)']].forEach(([v,col])=>w.append(el('i',{style:`width:3px;border-radius:1px;background:${col};height:${Math.max(2,v/30*12)}px`})));return w};
+  function matches(c){
+    if(state.cell&&c.prof[state.cell.a]!==state.cell.l) return false;
+    if(state.dom&&!c.subs.some(s=>s.split('.')[0]===state.dom)) return false;
+    if(state.sub&&!c.subs.includes(state.sub)) return false;
+    if(state.area==='none'&&Object.keys(c.prof).length) return false;
+    if(state.area&&state.area!=='none'){const p=c.prof[state.area]; if(!p) return false; if(state.min&&LV.indexOf(p)<LV.indexOf(state.min)) return false}
+    if(state.q&&!(c.title+' '+c.code).toLowerCase().includes(state.q)) return false;
+    return true;
+  }
+  function row(c){
+    const tags=el('div',{class:'tags'});
+    c.subs.forEach(s=>{const p=s===c.primary,d=s.split('.')[0]; tags.append(el('span',{class:'sd'+(p?' p':''),style:`color:${dcol(d)};${p?`background:${dcol(d)};border-color:${dcol(d)}`:''}`,title:(p?'Primary: ':'Also: ')+subName(s)},s))});
+    tags.append(el('span',{class:'sep'}));
+    const pk=AREAS.filter(a=>c.prof[a]);
+    if(pk.length) pk.forEach(a=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${c.prof[a]} ${Q.levels[c.prof[a]]} – ${Q.level_by_area[a][c.prof[a]]}`},`${a} ${c.prof[a]}`)));
+    else tags.append(el('span',{class:'none'},'no QT-specific proficiency'));
+    return el('div',{class:'row'},el('span',{class:'ic'},c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
+      el('span',{class:'b',title:LEVEL_NAME[c.level]},`${LEVEL_LABEL[c.level]||c.level} · ${c.ects??'–'} ECTS`),tags,
+      el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,kwbars(c)));
+  }
+  function renderList(){
+    const list=sel(state.inst), f=list.filter(matches), box=document.getElementById('list'); box.innerHTML='';
+    document.getElementById('count').textContent=`${f.length} of ${list.length} · ${state.inst==='ALL'?'Denmark':state.inst}`;
+    const act=document.getElementById('active'); act.innerHTML='';
+    const label=state.cell?`(${state.cell.a}) ${Q.areas[state.cell.a]} at ${state.cell.l} ${Q.levels[state.cell.l]}`:state.sub?`Subdomain ${state.sub} ${subName(state.sub)}`:state.dom?`Domain ${state.dom} ${Q.domains[state.dom].name}`:'';
+    if(label){const b=el('button',{type:'button'},'Clear');b.onclick=()=>{state.cell=null;state.dom=null;state.sub=null;render()};act.append(el('span',{},'Showing ',el('b',{},label),` in ${whereName()}`),b)}
+    else act.append(el('span',{style:'color:var(--muted)'},`All courses in ${whereName()}. Select a band in the triangle, a tile in the content map or a cell in the coverage table to narrow down.`));
+    if(!f.length){box.append(el('div',{class:'empty'},'No courses match. Widen the selection or clear the search.'));return}
+    const autoOpen=!!(state.cell||state.dom||state.sub||state.q||state.area)||f.length<=15;
+    DOMS.forEach(d=>{
+      const rows=f.filter(c=>c.domain===d).sort((a,b)=>a.primary.localeCompare(b.primary,undefined,{numeric:true})||a.institution.localeCompare(b.institution)||LEVEL_ORDER.indexOf(a.level)-LEVEL_ORDER.indexOf(b.level)||a.title.localeCompare(b.title));
+      if(!rows.length) return;
+      const det=el('details',{class:'fold dgroup'},el('summary',{},el('span',{class:'num',style:`background:${dcol(d)}`},d),el('h2',{},Q.domains[d].name),el('span',{class:'cnt'},`${rows.length} course${rows.length===1?'':'s'}`)),el('div',{class:'rows'},...rows.map(row)));
+      if(autoOpen||state.open.has(d)) det.open=true;
+      det.addEventListener('toggle',()=>{det.open?state.open.add(d):state.open.delete(d)});
+      box.append(det);
+    });
+  }
+  document.getElementById('open-all').onclick=()=>document.querySelectorAll('#list details').forEach(d=>d.open=true);
   document.getElementById('close-all').onclick=()=>{state.open.clear();document.querySelectorAll('#list details').forEach(d=>d.open=false)};
-  const cite=document.getElementById('cite');
-  cite.append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The assignment of courses to the framework is Danish Quantum Academy\'s own estimate.');
-  render();
+
+  function render(){
+    const list=sel(state.inst);
+    renderPicker();
+    lf.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(state.levels.has(b.dataset.l))));
+    document.getElementById('tri-h').textContent=`Proficiency triangle · ${whereName()}`;
+    drawTriangle(document.getElementById('tri'),list,{W:600,labels:true});
+    renderProf(list); renderStats(list); renderCmap(list); renderMatrix(); renderList(); writeURL();
+  }
+  document.getElementById('cite').append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The assignment of courses to the framework is Danish Quantum Academy\'s own estimate.');
+  readURL(); qi.value=state.q; render();
+  // old anchors from the former coverage and triangle pages keep working: #cl/#list-h = course list, #cov = coverage table, #pr = proficiency levels
+  if(['#cl','#list-h'].includes(location.hash)) location.hash='#courses';
+  if(location.hash==='#cov') location.hash='#coverage';
+  if(location.hash==='#pr') setTimeout(()=>document.getElementById('prof').scrollIntoView(),50);
+  if(location.hash==='#courses'||location.search.match(/[?&](sub|dom|band|q)=/)) setTimeout(toList,50);
+  if(location.hash==='#coverage'){const c=document.getElementById('coverage');c.open=true;setTimeout(()=>c.scrollIntoView(),50)}
 })();
 </script>
 

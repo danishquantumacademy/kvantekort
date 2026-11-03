@@ -13,7 +13,7 @@ All assignments are **first estimates** (`cfqt_status = estimated`) made from th
 
 ```
 data/
-  programmes.json           # study paths through MSc programmes (student-perspective triangles)
+  programmes.json           # study paths through MSc and BSc programmes, with curriculum sources (student-perspective triangles)
   reference.json            # CFQT content map (8 domains, 42 subdomains), areas, levels; institutions and totals
   raw/<inst>_courses.json   # full harvest (all courses), produced by the scrapers
   classification/<inst>.csv # quantum-relevant courses with CFQT subdomains and proficiency levels
@@ -37,9 +37,9 @@ scripts/
   apply_cfqt.py             # writes the estimates into data/classification/*.csv
   build_site.py             # builds site/data.json and site/index.html (data embedded)
 site/
-  template.html             # coverage matrix and course list (index.html)
-  triangle_template.html    # CFQT proficiency triangle per university (triangle.html)
-  students_template.html    # study path profiles per MSc programme (students.html)
+  template.html             # front page: proficiency triangle per university, CFQT content map, coverage table and course list (index.html);
+                            # triangle.html only redirects here, so old links keep working
+  students_template.html    # study path profiles per MSc and BSc programme, chosen in a dropdown (students.html)
   planner_template.html     # course finder: interests -> three MSc course plans (planner.html)
   people_template.html      # research behind the courses: educators, units, research and course fit (people.html)
   groups_template.html      # research group profiles: members, publications, projects, news, events, positions, courses (groups.html)
@@ -92,6 +92,8 @@ Everything on the map comes from public web pages that can be read without loggi
 ## Educators and research
 
 `data/people/` describes the educators named in the course catalogues, from the universities' research portals (DTU Orbit, KU research portal, AU Pure, SDU Find Researcher, AAU VBN): position, department, section or group, centres, the portal's automatic fingerprint concepts and recent research output titles. Only professional information is kept; no e-mail addresses, phone numbers or CV details. `research.txt` adds a short research focus and the CFQT subdomains it touches, written by Danish Quantum Academy from that data. `people.html` compares those subdomains with the subdomains of each course the educator teaches.
+
+`data/people/harvest/<inst>*.txt` holds each educator's latest research output and the ongoing PhD projects they supervise as main supervisor, harvested from the research portals with a browser. Lines are `O|person|year|type|slug|title` (output) or `J|person|period|type|slug|title` (PhD project), where `person` indexes the `NAMES:` line and `slug=N` means the first N characters of the title's slug, which is how the portals build the address. `people.html` lists them with links and places every educator on a CFQT map of their research.
 
 ## Research groups (pilot)
 
