@@ -1,5 +1,5 @@
 {
-  "_comment": "Student study paths through Danish MSc and BSc programmes, used for the student-perspective triangles. 'dedicated' = a quantum MSc whose structure is taken from the curriculum; 'path' = Danish Quantum Academy's example of a quantum-focused route through a broader MSc. Course roles: compulsory, restricted (restricted elective in the curriculum), elective (an elective a quantum-focused student would plausibly choose). The thesis profile is an assumption: a master's thesis in a quantum topic (CFQT gives a master's thesis in quantum information science as an example of C1 in area I). BSc paths use role 'path' (course in the path; compulsory/elective status not yet checked) and assume a bachelor project in a quantum topic at level B2 in area I.",
+  "_comment": "Student study paths through Danish MSc and BSc programmes, used for the student-perspective triangles. 'dedicated' = a quantum MSc whose structure is taken from the curriculum; 'path' = Danish Quantum Academy's example of a quantum-focused route through a broader MSc. Course roles: compulsory, restricted (restricted elective in the curriculum), elective (an elective a quantum-focused student would plausibly choose). The thesis profile is an assumption: a master's thesis in a quantum topic (CFQT gives a master's thesis in quantum information science as an example of C1 in area I). BSc course roles were checked against the 2026 curricula (KU studieordninger, DTU course base, AU programme structure, SDU study plans on odin.sdu.dk, AAU studieordninger); BSc paths assume a bachelor project in a quantum topic at level B2 in area I.",
   "reference_profiles": {
     "P1": {
       "name": "QT aware person",
@@ -843,8 +843,8 @@
       "institutions": [
         "KU"
       ],
-      "source": "https://www.ku.dk/studier/bachelor/fysik",
-      "summary": "Three-year physics bachelor at the Niels Bohr Institute, with Quantum Mechanics 1 and 2 as the core of the quantum path. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "source": "https://www.ku.dk/uddannelse/studieordninger/fysik",
+      "summary": "Three-year physics bachelor at the Niels Bohr Institute. Quantum Mechanics 1 and 2, Statistical Physics and Philosophy of Science for physicists are compulsory; Mathematics F courses are restricted electives; the rest are electives a quantum-focused student can choose.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -856,52 +856,52 @@
         {
           "inst": "KU",
           "code": "NFYB24001U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NFYB10010U",
-          "role": "path"
-        },
-        {
-          "inst": "KU",
-          "code": "NFYA04070U",
-          "role": "path"
-        },
-        {
-          "inst": "KU",
-          "code": "NFYB16006U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NFYB10026U",
-          "role": "path"
-        },
-        {
-          "inst": "KU",
-          "code": "NFYB13007U",
-          "role": "path"
-        },
-        {
-          "inst": "KU",
-          "code": "NFYA04021U",
-          "role": "path"
-        },
-        {
-          "inst": "KU",
-          "code": "NFYA05020U",
-          "role": "path"
-        },
-        {
-          "inst": "KU",
-          "code": "NMAA05012U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NNDB19003U",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "KU",
+          "code": "NFYA04070U",
+          "role": "restricted"
+        },
+        {
+          "inst": "KU",
+          "code": "NFYB16006U",
+          "role": "restricted"
+        },
+        {
+          "inst": "KU",
+          "code": "NFYB13007U",
+          "role": "elective"
+        },
+        {
+          "inst": "KU",
+          "code": "NFYA04021U",
+          "role": "elective"
+        },
+        {
+          "inst": "KU",
+          "code": "NFYA05020U",
+          "role": "elective"
+        },
+        {
+          "inst": "KU",
+          "code": "NMAA05012U",
+          "role": "elective"
         }
       ]
     },
@@ -915,7 +915,7 @@
         "DTU"
       ],
       "source": "https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab",
-      "summary": "DTU's bachelor in physics and engineering (Fysik og Ingeniørvidenskab), with Quantum Mechanics (10102) and projects in quantum and nanophotonics. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "summary": "DTU's bachelor in Physics and Engineering (Fysik og Ingeniørvidenskab). Quantum Mechanics (10102), Condensed Matter Physics, Optics and Photonics and Introduction to Engineering Physics are programme-specific (compulsory) courses; the others are electives.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -927,42 +927,42 @@
         {
           "inst": "DTU",
           "code": "10031",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "DTU",
           "code": "10102",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "DTU",
           "code": "10317",
-          "role": "path"
-        },
-        {
-          "inst": "DTU",
-          "code": "10080",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "DTU",
           "code": "34020",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "DTU",
+          "code": "10080",
+          "role": "elective"
         },
         {
           "inst": "DTU",
           "code": "34023",
-          "role": "path"
+          "role": "elective"
         },
         {
           "inst": "DTU",
           "code": "10208",
-          "role": "path"
+          "role": "elective"
         },
         {
           "inst": "DTU",
           "code": "22600",
-          "role": "path"
+          "role": "elective"
         }
       ]
     },
@@ -976,7 +976,7 @@
         "AU"
       ],
       "source": "https://bachelor.au.dk/fysik",
-      "summary": "Physics bachelor at Aarhus University, built around Quantum Mechanics and Atomic Physics and Advanced Electrodynamics and Quantum Mechanics. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "summary": "Physics bachelor at Aarhus University. The 125 ECTS compulsory programme includes Quantum Mechanics and Atomic Physics and Advanced Electrodynamics and Quantum Mechanics; Lasers & Optics is an elective.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -988,32 +988,32 @@
         {
           "inst": "AU",
           "code": "525251U001",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "525241U007",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "525171U011",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "525241U005",
-          "role": "path"
-        },
-        {
-          "inst": "AU",
-          "code": "525171U008",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "525171U002",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "AU",
+          "code": "525171U008",
+          "role": "elective"
         }
       ]
     },
@@ -1026,10 +1026,10 @@
       "institutions": [
         "SDU"
       ],
-      "source": "https://www.sdu.dk/da/uddannelse/bachelor/fysik",
-      "summary": "Physics bachelor at SDU with Quantum Mechanics I and II, solid-state physics and Physics of Quantum Matter. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "source": "https://mitsdu.dk/da/mit_studie/bachelor/fysik_bachelor/uddannelsens-opbygning/uddannelsens-forloeb",
+      "summary": "Physics bachelor at SDU. Quantum Mechanics I and II, solid-state physics, statistical physics and electrodynamics are in the compulsory study plan; Physics of Quantum Matter and Computational Physics are electives. The bachelor project is 10 ECTS.",
       "thesis": {
-        "ects": 15,
+        "ects": 10,
         "levels": {
           "I": "B2"
         },
@@ -1039,42 +1039,47 @@
         {
           "inst": "SDU",
           "code": "FY544",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "FY547",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "FY548",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "FY550",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "FY549",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "FY542",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "SDU",
+          "code": "FT504",
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "FY560",
-          "role": "path"
+          "role": "elective"
         },
         {
           "inst": "SDU",
           "code": "MM553",
-          "role": "path"
+          "role": "elective"
         }
       ]
     },
@@ -1083,12 +1088,12 @@
       "level": "BSc",
       "group": "physics",
       "type": "path",
-      "name": "BSc in Physics, quantum path",
+      "name": "BSc in Physics and Technology, physics specialisation",
       "institutions": [
         "AAU"
       ],
-      "source": "https://www.aau.dk/uddannelser/bachelor/fysik-teknologi/fysik",
-      "summary": "Physics specialisation of AAU's bachelor in Physics and Technology, taught through problem-based semester projects. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "source": "https://studieordninger.aau.dk/2026/56/6483",
+      "summary": "Physics specialisation of AAU's bachelor in Physics and Technology, taught through problem-based semester projects. All listed modules are compulsory in the specialisation; the bachelor project is 15 ECTS.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -1099,38 +1104,43 @@
       "courses": [
         {
           "inst": "AAU",
-          "code": "F-FYS-B2-1A",
-          "role": "path"
+          "code": "M-NT-B3-4",
+          "role": "compulsory"
         },
         {
           "inst": "AAU",
-          "code": "M-NT-B3-4",
-          "role": "path"
+          "code": "M-NT-B4-2",
+          "role": "compulsory"
         },
         {
           "inst": "AAU",
           "code": "M-NT-B4-3",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AAU",
-          "code": "F-FYS-B4-6",
-          "role": "path"
+          "code": "M-NT-B4-4",
+          "role": "compulsory"
         },
         {
           "inst": "AAU",
-          "code": "F-FYS-B4-3",
-          "role": "path"
+          "code": "M-NT-B5-2",
+          "role": "compulsory"
         },
         {
           "inst": "AAU",
           "code": "M-NT-B5-4",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "AAU",
+          "code": "M-NT-B6-2",
+          "role": "compulsory"
         },
         {
           "inst": "AAU",
           "code": "M-NT-B6-3",
-          "role": "path"
+          "role": "compulsory"
         }
       ]
     },
@@ -1143,8 +1153,8 @@
       "institutions": [
         "KU"
       ],
-      "source": "https://www.ku.dk/studier/bachelor/nanoscience",
-      "summary": "Nanoscience bachelor at the University of Copenhagen, where quantum mechanics is taught through Nanokvant and Quantum Phenomena in Nanosystems. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "source": "https://www.ku.dk/uddannelse/studieordninger/nanoscience",
+      "summary": "Nanoscience bachelor at the University of Copenhagen. Nanokvant, Quantum Phenomena in Nanosystems and Basic Nanochemistry are compulsory; Condensed Matter Physics 1 is a restricted elective.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -1156,32 +1166,32 @@
         {
           "inst": "KU",
           "code": "NFYA06015U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NFYB22000U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NKEB23003U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NFYA04021U",
-          "role": "path"
+          "role": "restricted"
         },
         {
           "inst": "KU",
           "code": "NFYA05060U",
-          "role": "path"
+          "role": "elective"
         },
         {
           "inst": "KU",
           "code": "NKEA04034U",
-          "role": "path"
+          "role": "elective"
         }
       ]
     },
@@ -1195,9 +1205,9 @@
         "AU"
       ],
       "source": "https://bachelor.au.dk/nanoscience",
-      "summary": "Nanoscience bachelor at iNANO, Aarhus University, with Quantum Mechanics for Nanoscience as the quantum core. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "summary": "Nanoscience bachelor at iNANO, Aarhus University. Quantum Mechanics for Nanoscience, Statistical Physics and Solid-State Physics and Modelling I are part of the compulsory programme. The bachelor project is 10 ECTS.",
       "thesis": {
-        "ects": 15,
+        "ects": 10,
         "levels": {
           "I": "B2"
         },
@@ -1207,83 +1217,32 @@
         {
           "inst": "AU",
           "code": "560201U002",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "560241U002",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
-          "code": "525171U024",
-          "role": "path"
+          "code": "525171U011",
+          "role": "compulsory"
+        },
+        {
+          "inst": "AU",
+          "code": "545171U012",
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "560191U002",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "560121U001",
-          "role": "path"
-        }
-      ]
-    },
-    {
-      "id": "bsc-nano-aau",
-      "level": "BSc",
-      "group": "nano",
-      "type": "path",
-      "name": "BSc in Physics and Technology, nanotechnology path",
-      "institutions": [
-        "AAU"
-      ],
-      "source": "https://www.aau.dk/uddannelser/bachelor/fysik-teknologi",
-      "summary": "AAU's bachelor in Physics and Technology (formerly Nanotechnology), with quantum mechanics, quantum electronics and optoelectronics. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
-      "thesis": {
-        "ects": 15,
-        "levels": {
-          "I": "B2"
-        },
-        "note": "Bachelor project in a quantum topic"
-      },
-      "courses": [
-        {
-          "inst": "AAU",
-          "code": "F-NAN-B2-1",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "M-NT-B4-3",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "M-NT-B4-4",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "M-NT-B5-2",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "F-NAN-B6-5",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "F-NAN-B6-6",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "M-NT-B6-2",
-          "role": "path"
+          "role": "compulsory"
         }
       ]
     },
@@ -1296,8 +1255,8 @@
       "institutions": [
         "KU"
       ],
-      "source": "https://www.ku.dk/studier/bachelor/kemi",
-      "summary": "Chemistry bachelor at the University of Copenhagen, with chemical bonding, quantum chemistry and theoretical spectroscopy. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "source": "https://www.ku.dk/uddannelse/studieordninger/kemi",
+      "summary": "Chemistry bachelor at the University of Copenhagen. Chemical Bonding and, in the general profile, Quantum Chemistry and Theoretical Spectroscopy are compulsory; Advanced Quantum Chemistry and Photochemistry are electives.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -1308,28 +1267,28 @@
       "courses": [
         {
           "inst": "KU",
-          "code": "NKEB10006U",
-          "role": "path"
+          "code": "NKEB13003U",
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NKEA04034U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NKEA05042U",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "KU",
           "code": "NKEA04057U",
-          "role": "path"
+          "role": "elective"
         },
         {
           "inst": "KU",
           "code": "NKEA05037U",
-          "role": "path"
+          "role": "elective"
         }
       ]
     },
@@ -1343,7 +1302,7 @@
         "DTU"
       ],
       "source": "https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/kemi-og-teknologi",
-      "summary": "DTU's bachelor in Chemistry and Technology, with physical chemistry and Introduction to Quantum Chemistry. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "summary": "DTU's bachelor in Chemistry and Technology. General and Inorganic Chemistry, Physical Chemistry 1 and Inorganic Chemistry 2 are compulsory; Introduction to Quantum Chemistry and computational chemistry are electives.",
       "thesis": {
         "ects": 15,
         "levels": {
@@ -1355,32 +1314,32 @@
         {
           "inst": "DTU",
           "code": "26001",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "DTU",
           "code": "26200",
-          "role": "path"
-        },
-        {
-          "inst": "DTU",
-          "code": "26261",
-          "role": "path"
-        },
-        {
-          "inst": "DTU",
-          "code": "26245",
-          "role": "path"
-        },
-        {
-          "inst": "DTU",
-          "code": "26428",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "DTU",
           "code": "26124",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "DTU",
+          "code": "26261",
+          "role": "elective"
+        },
+        {
+          "inst": "DTU",
+          "code": "26245",
+          "role": "elective"
+        },
+        {
+          "inst": "DTU",
+          "code": "26428",
+          "role": "elective"
         }
       ]
     },
@@ -1394,9 +1353,9 @@
         "AU"
       ],
       "source": "https://bachelor.au.dk/kemi",
-      "summary": "Chemistry bachelor at Aarhus University, with modelling courses in chemical bonding, spectroscopy and computational chemistry. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "summary": "Chemistry bachelor at Aarhus University. Modelling I (chemical bonding and spectroscopy) and Mechanics and Modern Physics for Chemists are compulsory; Modelling IIb (computational chemistry) is an elective. The bachelor project is 10 ECTS.",
       "thesis": {
-        "ects": 15,
+        "ects": 10,
         "levels": {
           "I": "B2"
         },
@@ -1406,32 +1365,32 @@
         {
           "inst": "AU",
           "code": "545171U024",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "545171U025",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "545171U012",
-          "role": "path"
-        },
-        {
-          "inst": "AU",
-          "code": "545171U015",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "AU",
           "code": "545171U002",
-          "role": "path"
+          "role": "compulsory"
+        },
+        {
+          "inst": "AU",
+          "code": "545171U015",
+          "role": "elective"
         },
         {
           "inst": "AU",
           "code": "545171U003",
-          "role": "path"
+          "role": "elective"
         }
       ]
     },
@@ -1444,10 +1403,10 @@
       "institutions": [
         "SDU"
       ],
-      "source": "https://www.sdu.dk/da/uddannelse/bachelor/kemi",
-      "summary": "Chemistry bachelor at SDU, with quantum chemistry, theoretical spectroscopy and computational quantum chemistry. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
+      "source": "https://mitsdu.dk/da/mit_studie/bachelor/kemi_bachelor/uddannelsens-opbygning/uddannelsens-forloeb",
+      "summary": "Chemistry bachelor at SDU. Quantum Chemistry and Theoretical Spectroscopy is compulsory; Computational Quantum Chemistry is one of the constituent modules students choose between. The bachelor project is 20 ECTS.",
       "thesis": {
-        "ects": 15,
+        "ects": 20,
         "levels": {
           "I": "B2"
         },
@@ -1457,63 +1416,27 @@
         {
           "inst": "SDU",
           "code": "KE525",
-          "role": "path"
-        },
-        {
-          "inst": "SDU",
-          "code": "KE540",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "KE522",
-          "role": "path"
+          "role": "compulsory"
         },
         {
           "inst": "SDU",
           "code": "KE533",
-          "role": "path"
+          "role": "restricted"
+        },
+        {
+          "inst": "SDU",
+          "code": "KE540",
+          "role": "elective"
         },
         {
           "inst": "SDU",
           "code": "KE554",
-          "role": "path"
-        }
-      ]
-    },
-    {
-      "id": "bsc-chem-aau",
-      "level": "BSc",
-      "group": "chemistry",
-      "type": "path",
-      "name": "BSc in Chemistry, quantum chemistry path",
-      "institutions": [
-        "AAU"
-      ],
-      "source": "https://www.aau.dk/uddannelser/bachelor/kemi",
-      "summary": "Chemistry bachelor at AAU, with chemical bonding, quantum chemistry and NMR and mass spectrometry. The path lists the quantum-relevant courses a student can take in the programme; whether each course is compulsory or elective has not yet been checked against the curriculum.",
-      "thesis": {
-        "ects": 15,
-        "levels": {
-          "I": "B2"
-        },
-        "note": "Bachelor project in a quantum topic"
-      },
-      "courses": [
-        {
-          "inst": "AAU",
-          "code": "K-KEM-B3-57",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "K-KEM-B6-48",
-          "role": "path"
-        },
-        {
-          "inst": "AAU",
-          "code": "K-BT-B6-14",
-          "role": "path"
+          "role": "elective"
         }
       ]
     }

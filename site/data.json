@@ -329,7 +329,7 @@
   },
   {
    "institution": "AAU",
-   "level": "BSc",
+   "level": "MSc",
    "code": "K-KEM-B6-48",
    "title": "Kvantekemi",
    "language": "Danish",
@@ -347,7 +347,7 @@
    "status": "estimated",
    "kw_strong": 5,
    "kw_medium": 2,
-   "note": "",
+   "note": "Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).",
    "url": "https://moduler.aau.dk/course/2026-2027/K-KEM-B6-48"
   },
   {
@@ -878,7 +878,7 @@
   },
   {
    "institution": "AAU",
-   "level": "BSc",
+   "level": "MSc",
    "code": "K-BT-B6-14",
    "title": "NMR og MS",
    "language": "Danish",
@@ -893,7 +893,7 @@
    "status": "estimated",
    "kw_strong": 1,
    "kw_medium": 8,
-   "note": "",
+   "note": "Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).",
    "url": "https://moduler.aau.dk/course/2026-2027/K-BT-B6-14"
   },
   {

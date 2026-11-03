@@ -2,7 +2,7 @@ institution,level,code,title,language,ects,dept,cfqt_primary,cfqt_secondary,prof
 AAU,BSc,M-NT-B4-3,Grundlæggende kvantemekanik,Danish,5,MP,1.1,1.2,B1,,,estimated,17,3,also M-NT-B4-3A and F-FYS-B4-2
 AAU,BSc,F-FYS-B4-6,Kvantemekanik II: metoder (miniprojekt; fysik sidefag),Danish or English,5,MP,1.2,1.1,B1,,,estimated,6,3,
 AAU,BSc,F-NAN-B6-5,Kvante-elektronik,Danish or English,5,MP,2.3,3.2,B1,A2,,estimated,8,4,
-AAU,BSc,K-KEM-B6-48,Kvantekemi,Danish,5,KB,2.4,1.1,B1,,,estimated,5,2,
+AAU,MSc,K-KEM-B6-48,Kvantekemi,Danish,5,KB,2.4,1.1,B1,,,estimated,5,2,Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).
 AAU,MSc,DSNDATK215,Quantum Information and Computing,English,5,CS,5.1,5.5;1.2,B1,A2,,estimated,45,0,also DSNCSITK229 and ESNESNK1K1
 AAU,MSc,ESNCEKK3K2,Quantum Technologies,English,5,ES,5.1,5.5,B1,A2,,estimated,33,0,
 AAU,MSc,F-NFM-K2-3,Quantum materials and optical nanostructures,English,5,MP,2.3,3.2;2.2,B2,,,estimated,6,12,also F-NFM-K2-3A
@@ -25,7 +25,7 @@ AAU,BSc,F-NAN-B6-6,Optoelektronik,Danish,5,MP,3.3,3.2,,,,estimated,0,5,
 AAU,BSc,M-NT-B5-2,Nano- og mikrofabrikation,English,5,MP,3.2,,,,,estimated,0,1,
 AAU,BSc,F-NAN-B5-2,Nanofabrication,English,5,MP,3.2,,,,,estimated,0,0,
 AAU,BSc,F-NAN-B2-1,Kunstige nanostrukturer (P2),Danish or English,15,MP,3.2,,,,,estimated,1,0,project; also M-NT-B2-1
-AAU,BSc,K-BT-B6-14,NMR og MS,Danish,5,KB,2.1,,,,,estimated,1,8,
+AAU,MSc,K-BT-B6-14,NMR og MS,Danish,5,KB,2.1,,,,,estimated,1,8,Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).
 AAU,BSc,ESNITCOB5K1,Network and Application Security,English,5,ES,7.1,,,,,estimated,0,3,
 AAU,MSc,F-FYS-K2-1A,Nanofysik: (A) Optik,Danish,15,MP,2.2,3.3,B1,,,estimated,2,5,project
 AAU,MSc,F-FYS-K1-1A,Fysikkens anvendelser: (A) Teoretisk faststoffysik,Danish,10,MP,2.3,,B1,,,estimated,1,0,project
