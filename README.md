@@ -41,8 +41,8 @@ scripts/
 site/
   template.html             # front page: proficiency triangle per university, CFQT content map, coverage table and course list (index.html);
                             # triangle.html only redirects here, so old links keep working
-  students_template.html    # study path profiles per MSc and BSc programme, chosen in a dropdown (students.html)
-  planner_template.html     # course finder: interests -> three MSc course plans (planner.html)
+  planner_template.html     # study planner: programme path and profile, electives from interests, comparison, timetable (planner.html);
+                            # students.html only redirects here
   people_template.html      # research behind the courses: educators, units, research and course fit (people.html)
   groups_template.html      # research group profiles: members, publications, projects, news, events, positions, courses (groups.html)
   about_template.html       # about the data: scope, sources and methods for all pages (about.html)

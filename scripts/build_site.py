@@ -69,8 +69,7 @@ for prog in programmes["programmes"]:
 out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
-NAV = [("Education", [("index", "index.html", "Courses and proficiency"),
-                      ("students", "students.html", "Study paths"), ("planner", "planner.html", "Course finder")]),
+NAV = [("Education", [("index", "index.html", "Courses and proficiency"), ("planner", "planner.html", "Study planner")]),
        ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")])]
 SHARED_CSS = """
 /* shared site chrome: navigation, how-to-read boxes, footer */
@@ -132,14 +131,16 @@ page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n
 (ROOT / "site/triangle_artifact.html").unlink(missing_ok=True)
 
 # Studiestier (den studerendes trekant) bygges af kurserne + data/programmes.json.
-sout = {**out, "programmes": programmes}
-stpl = (ROOT / "site/students_template.html").read_text(encoding="utf-8")
-sbody = chrome(stpl.replace("/*DATA*/", json.dumps(sout, ensure_ascii=False).replace("</", "<\\/")), "students")
-(ROOT / "site/students.html").write_text(page.split("<body>\n")[0] + "<body>\n" + sbody + "\n</body>\n</html>\n", encoding="utf-8")
-(ROOT / "site/students_artifact.html").write_text(sbody, encoding="utf-8")
+# Study paths er lagt sammen med kursusfinderen i planner.html; students.html sender videre og bevarer parametre.
+(ROOT / "site/students.html").write_text(
+    '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>Quantum Study Planner</title>'
+    '<meta http-equiv="refresh" content="0; url=planner.html">'
+    '<script>location.replace("planner.html"+location.search+location.hash)</script></head>'
+    '<body><p>Study paths are now part of the <a href="planner.html">Study planner</a>.</p></body></html>\n', encoding="utf-8")
+(ROOT / "site/students_artifact.html").unlink(missing_ok=True)
 # Kursusfinder (den studerendes søgning) bygges af de samme data.
 ptpl = (ROOT / "site/planner_template.html").read_text(encoding="utf-8")
-pbody = chrome(ptpl.replace("/*DATA*/", json.dumps({**out, "profiles": programmes["reference_profiles"]}, ensure_ascii=False).replace("</", "<\\/")), "planner")
+pbody = chrome(ptpl.replace("/*DATA*/", json.dumps({**out, "profiles": programmes["reference_profiles"], "programmes": programmes}, ensure_ascii=False).replace("</", "<\\/")), "planner")
 (ROOT / "site/planner.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/planner_artifact.html").write_text(pbody, encoding="utf-8")
 # Undervisere og forskning (people.html): portaldata + forskningsfokus + hvem underviser hvad.
