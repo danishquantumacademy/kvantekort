@@ -101,6 +101,9 @@ tr:last-child td{border-bottom:0}
 .ev{font-size:12.5px;color:var(--muted)}
 .ev i{font-style:normal;color:var(--fg)}
 .blk{display:grid;gap:4px}
+.sd.p{color:var(--surface)!important}
+.note2{font-size:12.5px;color:var(--muted);margin:0;max-width:90ch}
+tr.muted td{color:var(--muted)}
 .bl{font:600 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .outs{margin:0;padding-left:18px;display:grid;gap:3px;font-size:13.5px}
 .outs a{color:var(--fg);text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);text-underline-offset:3px}
@@ -149,6 +152,7 @@ footer a{color:var(--accent)}
     <details class="howto"><summary>How to read this page</summary><div class="hb">
       <p><b>Positions and landscape.</b> The bar shows the position levels of the educators. The research landscape groups them by department, section, group and centre, with the CFQT subdomains their research touches. Open a department to see its groups; unit names link to their own web pages, or to the research portal where a unit has none.</p>
       <p><b>The CFQT map of the research.</b> The eight CFQT domains sit around a circle. Each bubble is an educator, placed at the centre of gravity of the CFQT subdomains of their research: someone who researches only quantum computing sits next to domain 5, someone who combines quantum optics and communication sits between 2 and 7. The colour shows how well the courses they teach fit that research (the best fit among their courses), and the size shows the number of courses. Point at a bubble to draw a line to where their courses sit on the map: a short line means they teach close to their own research. Select a colour in the legend to show or hide that group. A table of educators per CFQT domain sits under the map.</p>
+      <p><b>PhD and postdoc projects.</b> Each project is tagged with up to three CFQT subdomains from its title; the first (filled) is the main topic, which decides the domain in the table. Projects outside the content map, such as catalysis or batteries, are counted separately. Supervised PhD projects come from DTU Orbit, the only portal that shows the main supervisor; for the other universities, PhD students and postdocs are counted through the five research groups.</p>
       <p><b>Educators.</b> One row per educator. Open a row for the research focus, CFQT tags, recent work and courses. The fit note under each course compares the course's CFQT subdomains with the educator's research: <span class="fit direct"><b>Direct fit</b></span>, <span class="fit related"><b>Related research</b></span>, <span class="fit adjacent"><b>Neighbouring field</b></span> or <span class="fit outside"><b>Broader base</b></span>. It describes overlap in subject, not teaching quality; many excellent courses are taught from a neighbouring field.</p>
       <p><b>Status.</b> Positions and units are as stated in the research portals. The research focus and its CFQT tags are written by Danish Quantum Academy and will be checked with the educators. Method and sources: <a href="about.html">About the data</a>.</p>
     </div></details>
@@ -176,6 +180,14 @@ footer a{color:var(--accent)}
     <div class="flegend" id="flegend"></div>
     <div class="fitwrap"><svg id="fit" role="img" aria-label="Map of educators placed by the CFQT domains of their research, coloured by teaching–research fit"></svg><div class="tip" id="tip" role="status"></div></div>
     <details class="fold howto"><summary>Educators per CFQT domain (table)</summary><div class="hb"><div class="tblwrap"><table id="mx"></table></div></div></details>
+  </section>
+
+  <section aria-labelledby="pj-h">
+    <h2 id="pj-h">PhD and postdoc projects on the CFQT map</h2>
+    <p class="lede" style="font-size:14px">The next generation of quantum researchers: ongoing PhD projects supervised by the educators, and the projects of PhD students and postdocs in the research groups, by the CFQT domain of their main topic.</p>
+    <div class="tblwrap"><table id="pj"></table></div>
+    <p class="note2" id="pj-note"></p>
+    <details class="fold howto"><summary>All projects by CFQT domain</summary><div class="hb" id="pj-list"></div></details>
   </section>
 
   <section aria-labelledby="t-h">
@@ -279,12 +291,15 @@ footer a{color:var(--accent)}
       tb.append(el('tr',{},el('td',{},el('span',{class:'sd',style:`color:${dcol(d)};margin-right:8px`},d),v.name),...cols.map(i=>cell(n(i))),cols.length>1?el('td',{class:'n'},String(n('*'))):null))});
     mx.append(tb);
     renderFit();
+    renderProjects();
     renderCards();
   }
   const q=document.getElementById('q'),lvsel=document.getElementById('lvsel'),qt=document.getElementById('qt');
   lvsel.append(el('option',{value:''},'All positions'),...LEVELS.map(l=>el('option',{value:l},l)));
   [q,lvsel,qt].forEach(x=>x.addEventListener('input',renderCards));
   const FITORDER=['direct','related','adjacent','outside'];
+  // CFQT chips for a project: primary filled; [] = outside the content map
+  const subChips=subs=>subs==null?[]:!subs.length?[el('span',{class:'om'},'outside the CFQT map')]:subs.map((x,i)=>el('span',{class:'sd'+(i?'':' p'),style:`color:${dcol(x.split('.')[0])};${i?'':`background:${dcol(x.split('.')[0])};border-color:${dcol(x.split('.')[0])}`}`,title:(i?'':'Primary: ')+subName(x)},x));
   function card(p){
     const fits=(p.courses||[]).map(x=>fit(p,x).k);
     const best=FITORDER.find(k=>fits.includes(k));
@@ -307,7 +322,7 @@ footer a{color:var(--accent)}
     if((p.concepts||[]).length) c.append(blk('Portal fingerprint',el('span',{class:'ev'},el('i',{},p.concepts.slice(0,8).join(', ')))));
     const latest=(p.latest||[]).length?p.latest:(p.outputs||[]).map(o=>({title:o}));
     if(latest.length) c.append(blk('Latest research output',el('ul',{class:'outs'},...latest.slice(0,3).map(o=>el('li',{},o.url?el('a',{href:o.url,target:'_blank',rel:'noopener'},o.title):o.title,o.year||o.type?el('span',{class:'om'},' · '+[o.type,o.year].filter(Boolean).join(', ')):null)))));
-    if((p.phd||[]).length) c.append(blk(`Main supervisor of ${p.phd.length} ongoing PhD project${p.phd.length===1?'':'s'}`,el('ul',{class:'outs'},...p.phd.slice(0,5).map(o=>el('li',{},el('a',{href:o.url,target:'_blank',rel:'noopener'},o.title),el('span',{class:'om'},' · '+o.period.replace('-','–')))),p.phd.length>5&&p.url?el('li',{style:'list-style:none;margin-left:-18px'},el('a',{href:p.url.replace(/\/$/,'')+'/projects/',target:'_blank',rel:'noopener'},`All ${p.phd.length} projects in the research portal ↗`)):null)));
+    if((p.phd||[]).length) c.append(blk(`Main supervisor of ${p.phd.length} ongoing PhD project${p.phd.length===1?'':'s'}`,el('ul',{class:'outs'},...p.phd.slice(0,5).map(o=>el('li',{},el('a',{href:o.url,target:'_blank',rel:'noopener'},o.title),el('span',{class:'om'},' · '+o.period.replace('-','–')),' ',...subChips(o.subs))),p.phd.length>5&&p.url?el('li',{style:'list-style:none;margin-left:-18px'},el('a',{href:p.url.replace(/\/$/,'')+'/projects/',target:'_blank',rel:'noopener'},`All ${p.phd.length} projects in the research portal ↗`)):null)));
     const crs=el('div',{class:'crs'},el('span',{class:'bl'},'Courses and fit'));
     (p.courses||[]).forEach(x=>{const f=fit(p,x);
       crs.append(el('div',{class:'c1'},x.url?el('a',{href:x.url,target:'_blank',rel:'noopener'},x.title):el('span',{style:'font-weight:600;font-size:13.5px'},x.title),
@@ -374,6 +389,27 @@ footer a{color:var(--accent)}
     FITORD.forEach(k=>{const n=pts.filter(d=>d.best===k).length;const b=el('button',{type:'button',class:'fbtn','aria-pressed':String(state2.fit.has(k))},el('span',{class:'sw',style:`background:${FITCOL[k]}`}),`${FITLAB[k]} ${n}`);
       b.onclick=()=>{state2.fit.has(k)&&state2.fit.size>1?state2.fit.delete(k):state2.fit.add(k);renderFit()};fl.append(b)});
     fl.append(el('span',{},`Colour = best fit among the educator's courses · size = number of courses · ${shown.length} of ${pts.length} educators shown`));
+  }
+  // ---- PhD and postdoc projects by CFQT domain ----
+  const PJ=D.projects||[];
+  function renderProjects(){
+    const sel=PJ.filter(x=>state.inst==='ALL'||x.inst===state.inst);
+    const COLS=[['phdsup','PhD, supervised by educators',x=>x.kind==='phd'&&x.who],['phd','PhD students in the groups',x=>x.kind==='phd'&&!x.who],['postdoc','Postdocs in the groups',x=>x.kind==='postdoc']];
+    const t=document.getElementById('pj'); t.innerHTML='';
+    t.append(el('thead',{},el('tr',{},el('th',{},'CFQT domain of the main topic'),...COLS.map(c=>el('th',{style:'text-align:right'},c[1])),el('th',{style:'text-align:right'},'All'))));
+    const tb=el('tbody'); const cell=n=>el('td',{class:'n'},n?String(n):'–');
+    Object.entries(Q.domains).forEach(([d,v])=>{const inD=x=>x.subs&&x.subs.length&&x.subs[0].split('.')[0]===d;
+      tb.append(el('tr',{},el('td',{},el('span',{class:'sd',style:`color:${dcol(d)};margin-right:8px`},d),v.name),...COLS.map(c=>cell(sel.filter(x=>c[2](x)&&inD(x)).length)),cell(sel.filter(inD).length)))});
+    const out=x=>x.subs&&!x.subs.length, none=x=>x.basis==='none';
+    tb.append(el('tr',{class:'muted'},el('td',{},'Outside the CFQT content map'),...COLS.map(c=>cell(sel.filter(x=>c[2](x)&&out(x)).length)),cell(sel.filter(out).length)));
+    tb.append(el('tr',{class:'muted'},el('td',{},'No project or output registered in the portal'),...COLS.map(c=>cell(sel.filter(x=>c[2](x)&&none(x)).length)),cell(sel.filter(none).length)));
+    t.append(tb);
+    const onMap=sel.filter(x=>x.subs&&x.subs.length).length;
+    document.getElementById('pj-note').textContent=`${sel.length} PhD and postdoc positions, ${onMap} with a main topic on the CFQT content map. Supervised PhD projects are currently available only from DTU Orbit, where the portal shows who is main supervisor; the other universities' PhD students are counted through the five research groups. For group members without a registered project, the latest research output stands in for the project. Tags are Danish Quantum Academy's estimates from the titles.`;
+    const L=document.getElementById('pj-list'); L.innerHTML='';
+    Object.entries(Q.domains).forEach(([d,v])=>{const xs=sel.filter(x=>x.subs&&x.subs.length&&x.subs[0].split('.')[0]===d);if(!xs.length)return;
+      L.append(el('div',{class:'blk'},el('span',{class:'bl',style:`color:${dcol(d)}`},`${d} ${v.name} · ${xs.length}`),el('ul',{class:'outs'},...xs.sort((a,b)=>a.subs[0].localeCompare(b.subs[0],undefined,{numeric:true})).map(x=>el('li',{},x.url?el('a',{href:x.url,target:'_blank',rel:'noopener'},x.title):x.title,
+        el('span',{class:'om'},' · '+[x.inst,x.group,x.kind==='postdoc'?'postdoc':'PhD',x.who?`supervisor ${x.who}`:null,x.basis==='output'?'latest output':null].filter(Boolean).join(' · ')),' ',...subChips(x.subs))))))});
   }
   function renderCards(){
     const box=document.getElementById('cards');box.innerHTML='';

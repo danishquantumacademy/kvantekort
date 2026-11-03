@@ -6,7 +6,7 @@ Input:  data/classification/*.csv  (én fil pr. institution, med CFQT-kolonner)
         data/reference.json        (CFQT content map, områder, niveauer, institutioner)
 Output: site/data.json, site/index.html (data indlejret), site/artifact.html
 """
-import csv, json, pathlib
+import csv, json, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ref = json.loads((ROOT / "data/reference.json").read_text(encoding="utf-8"))
@@ -15,6 +15,18 @@ valid_levels = set(ref["cfqt"]["levels"])
 # CFQT-underdomæner vises altid i numerisk rækkefølge (1.1, 1.2, …, 2.1); det primære underdomæne gemmes separat
 skey = lambda s: tuple(int(x) for x in s.split("."))
 sort_subs = lambda xs: sorted(dict.fromkeys(xs), key=skey)
+
+# CFQT-underdomæner for ph.d.- og postdoc-projekter, slået op på titel (data/projects/cfqt_projects.txt)
+ptkey = lambda t: re.sub(r"\s+", " ", t).strip().lower()
+PROJ_CFQT, OUT_CFQT = {}, {}
+for line in (ROOT / "data/projects/cfqt_projects.txt").read_text(encoding="utf-8").splitlines():
+    if not line.strip() or line.startswith("#"): continue
+    out_line = line.startswith("OUT|")
+    t, subs = (line[4:] if out_line else line).rsplit("|", 1)
+    subs = [] if subs.strip() == "-" else [x for x in subs.split(";") if x]
+    bad = [x for x in subs if x not in valid_subs]
+    if bad: raise SystemExit(f"Ugyldig CFQT {bad} for projekt {t}")
+    (OUT_CFQT if out_line else PROJ_CFQT)[ptkey(t)] = subs   # første underdomæne er det primære
 
 courses, unmapped = [], 0
 for f in sorted((ROOT / "data/classification").glob("*.csv")):
@@ -223,7 +235,7 @@ for inst in PUB_BASE:
             if kind == "O":
                 pp.setdefault("latest", []).append({"title": title, "url": url, "year": year, "type": TYPE_NAME.get(typ, typ)}); n_out += 1
             elif kind == "J":
-                pp.setdefault("phd", []).append({"title": title, "url": url, "period": year, "type": typ}); n_phd += 1
+                pp.setdefault("phd", []).append({"title": title, "url": url, "period": year, "type": typ, "subs": PROJ_CFQT.get(ptkey(title))}); n_phd += 1
 print(f"harvest: {n_out} seneste output, {n_phd} ph.d.-projekter som hovedvejleder")
 # en underviser registreret ved ét universitet, men ansat ved et andet (fx en KU-forsker på et DTU-kursus)
 for (inst, name), p in list(people.items()):
@@ -252,7 +264,33 @@ for inst, name, portal, web in rows:
     is_dept = bool(re.search(r"Department|Institute|National Centre", name))
     weak = (not web) or (not is_dept and ((inst, web) in dept_sites or trivial))
     units.setdefault(inst, {})[name] = portal if (weak and portal) else (web or portal)
-pout = {"reference": ref, "people": plist, "units": units}
+# Oversigt over ph.d.- og postdoc-projekter på CFQT-kortet: undervisernes ph.d.-projekter som hovedvejleder og gruppernes ph.d.-studerende og postdocs
+proj_list, seen_p = [], set()
+for pp in plist:
+    for j in pp.get("phd", []):
+        k = ("phd", ptkey(j["title"]))
+        if k in seen_p: continue
+        seen_p.add(k); proj_list.append({"kind": "phd", "inst": pp["institution"], "title": j["title"], "url": j["url"], "subs": j.get("subs"), "basis": "project", "who": pp["name"]})
+for g in json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]:
+    for line in (ROOT / "data/groups" / f"{g['key']}.txt").read_text(encoding="utf-8").splitlines():
+        if not line.startswith("P||"): continue
+        f = (line.split("||") + [""] * 6)
+        role = f[2]
+        if not re.search(r"phd|ph\.d|postdoc|post-doc", role, re.I): continue
+        kind = "postdoc" if re.search(r"postdoc|post-doc", role, re.I) else "phd"
+        proj = re.sub(r"\s*\[.*?\]\s*$", "", f[4]).strip(); outp = re.sub(r"\s*\(20\d\d\)\s*$", "", f[5]).strip()
+        if proj:
+            k = (kind, ptkey(proj))
+            if k in seen_p: continue
+            seen_p.add(k); proj_list.append({"kind": kind, "inst": g["institution"], "title": proj, "subs": PROJ_CFQT.get(ptkey(proj)), "basis": "project", "group": g["short"]})
+        elif outp:
+            proj_list.append({"kind": kind, "inst": g["institution"], "title": outp, "subs": OUT_CFQT.get(ptkey(outp)), "basis": "output", "group": g["short"]})
+        else:
+            proj_list.append({"kind": kind, "inst": g["institution"], "title": "", "subs": None, "basis": "none", "group": g["short"]})
+unmapped_p = [x["title"] for x in proj_list if x["title"] and x["subs"] is None]
+if unmapped_p: print("advarsel: projekter uden CFQT-vurdering:", len(unmapped_p), unmapped_p[:5])
+print(f"projekter: {len(proj_list)} ph.d./postdoc, {sum(1 for x in proj_list if x['subs'])} på CFQT-kortet")
+pout = {"reference": ref, "people": plist, "units": units, "projects": proj_list}
 pt = (ROOT / "site/people_template.html").read_text(encoding="utf-8")
 pbody2 = chrome(pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/")), "people")
 (ROOT / "site/people.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody2 + "\n</body>\n</html>\n", encoding="utf-8")

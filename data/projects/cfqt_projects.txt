@@ -1,0 +1,230 @@
+# CFQT subdomains of PhD and postdoc projects, by project title (primary first). Written by Danish Quantum Academy from the titles, 2026-11-03.
+# Sources: ongoing PhD projects of the educators (main supervisor), from DTU Orbit; current projects of PhD students and postdocs in the five research groups.
+# For PhD students and postdocs in the groups without a registered project, the latest research output stands in for the project (lines starting with OUT).
+# Format: [OUT|]title|subdomains separated by ; ("-" = outside the CFQT content map)
+2D materials with electrically tunable phases for neuromorphic computing|3.2;2.3
+A tunable source of entangled pairs ofphotons operating in the telecom C-band|4.4;2.2;7.5
+AI-driven Electron Tracking for High-Energy Radiation Detection|-
+Ab-initio calculation of optical response functions and ground state correlation energies of solids from many-body perturbation theory|2.3;2.4
+Absolute Environmental Sustainabi-lity Assessment of ICT technologies and services|-
+Active Operations on Quantum States for Applications in Photonic Computing and Simulation|4.4;5.2;4.6
+Additive Manufacturing of Microsystems for Vaccine Delivery|-
+Advanced terahertz spectroscopy to facilitate more efficient and stable perovskite solar cells|-
+Al-based high quality image and video processing and coding|-
+Anodic Bonded CMUTs for 2D and 3D imaging|-
+Atomic Scale Insight into Catalysiswith Nanochannels and Microscopy (titel fortsat)|-
+Atomic-Level Study of Nanoclusters within Microporous 3D Frameworks|-
+Atomic-Resolution Electron Microscopy of Nanoparticles for Catalysis|-
+Atomic-Scale Characterization of Nanoporous Materials for Environmental Applications|-
+Automated generation of low-energy modelHamiltonians for materials science|2.4;3.5
+Bluelight Thin-film Lithium Niobate-on-Insulator IntegratedPlatform for Under Water Communications|3.3
+Bridging the gap between theory and practice of non-interactive zero-knowledge proofs. DOCX:116707|-
+Broadband Silicon Carbide Microcombs|3.3
+CO2 electrolysis at elevated temperatures and pressures|-
+CO2 electrolysis in non-aqueous environments|-
+CO2 valorization by ionic liquid-enabled homogeneous catalysis|-
+Catalytic technology for production of green nitrile solvents|-
+Cavity quantum electrodynamics in sub-wavelength nanostructures|2.2;4.4
+Computational Discovery of Phosphosulfide Materials for Solar Cells|-
+Computational design of Thin-Film Phosphosulfide Materials for Solar Cells|-
+Confined Water in Artificial and Biological Systems|-
+Continuous Variable Quantum Information Processing in Cluster States|5.1;4.4;2.2
+Continuous variable measurement-based quantum information processing|5.1;4.4;2.2
+Continuous variable measurement-basedquantum information processing|5.1;4.4;2.2
+Control of Composite Particles of Hybrid Light-Matter Nature|2.2;2.4
+Controlled Synthesis and Characterization of Catalysts for Electrochemical Energy Conversion Reactions|-
+Cybersecurity and Human Aspects of Cyber Ranges|-
+Dark Field X-ray Microscopy Studies of Plastic Deformation|-
+Design and development of redox-active metal-organic frameworks|-
+Design and properties of artificial mesoscopic semiconductor lattices|2.3;3.2
+Design of novel heterogeneous catalyst for dry reforming|-
+Design of novel heterogeneous catalysts for CO2 utilization|-
+Design, synthesis, and properties of large-scale nanowire lattices|3.2;2.3
+Detecting and sorting contamination in non-transparent drug products using micro fluidics Raman spectroscopy and machine learning|-
+Development and Optimization of EC-MS for Comprehensive Product Detection in Electrocatalytic Systems|-
+Development of Data Infrastructure and ScientificWorkflows for the Batteries of the Future|-
+Development of advanced photonics quantum sensing schemes|6.1;6.2;4.4
+Development of data infrastructure and autonomous workflows for energy applications|-
+Development of density function theory methodsfor simulations of energy materials|2.3;3.5
+Development of electronic structure methods for molecular photoactive materials|2.4;3.5
+Development of etch process for high volume 2D transmission gratings|3.2
+Development of novel heterogeneous catalysisfor CO2 utilization|-
+Discovering New Dual and Triple Atom Catalysts|-
+Discovering New Dual and Triple Atom Electrocatalysts|-
+Discovery of Kagome Materials for Magnetic Catalysis|2.3
+EQuaL: Equivalence Checking of Quantum Circuits via Tensor Decision Diagrams and Machine Learning|5.3;5.4;3.5
+Effect of grain orientation on antiferroelectricity in NaNbO3|2.3
+Effects of higher order modes on optical amplifiers and laser|3.3
+Efficient On-Chip Second Harmonic Generation for Chip-Scale Optical Atomic Clock|6.6;3.3
+Efficient post-quantum extractability|7.4;1.2
+Electrocatalysis by Single Nanoparticles in Liquid Environments|-
+Electron transfer kinetics in organic flow batteries|-
+Enabling far-field coupling of telecom-band quantum dots on the near-zero-index platform|4.4;3.2;7.5
+Energy-Efficient Receiver Design for Critical Communication Systems|-
+Engineering of Ferroelectric Ceramic Microarchitectures|-
+Epitaxial growth for application in nanophotonicsand quantum technology|3.2;4.8
+Evidence-Based Learning and Discrimination in Photonic Platforms|4.4;1.2;5.6
+Experimental Development of Thin-Film Phosphosulfide Materials for Solar Cells|-
+Experimental Discovery of Phosphosulfide Materials for Solar Cells|-
+Exploration of electrocatalysts at the atomic scale|-
+Exploration of the surface reactivity|-
+Fabrication and Physics of Semiconductor Nanolasers|3.3;3.2
+Fabrication and characterization of adaptive phase for electron optics|3.2
+Fast simulation of continuous-variable circuits for photonic quantum computing|5.3;4.4;3.5
+Femtosecond Fiber Lasers and Low-Noise Supercontinuum Sources|3.3
+First-principles calculations of electronic properties of twodimensional van der Waals heterostructures|2.3
+Focused Simulations of Electronic Structure in Composite Phases|2.3;3.5
+Gravimetry by quantum sensors from space and aircraft|6.4;6.7
+Gravimetry from aircraft and drones|6.4
+High efficiency selenium solar cells|-
+Hybrid Quantum Chemistry for Hybrid Quantum Computers|5.6;5.5;4.7
+IDS for CAV: IDS for CAV: A Deep Learning and Blockchain-secured Intrusion Detection System (IDS) for Connected and Autonomous Vehicles (CAVs) in Smart Cities|-
+In Situ Synthesis and Test of New Methanol Catalysts|-
+In-silico Strategies for Battery Recycling|-
+Induction Heated Catalytic Reactions: Exploring Magnetic Particles and Their Use in the Green|-
+Interdigitated solar electrochemical capacitors (INSECTS)|-
+Investigating the electronic properties of LAO/STO free-standing micromembranes|2.3
+Itinerant magnetism in 2D materials from first principles theory|2.3;2.4
+Lasers based on subwavelength dielectric nanostructures|3.3;3.2
+Leading technological transformation in future conflicts and wars|-
+Light scatter-based imaging of organ-on-chip system|-
+Light-matter interaction in strongly-correlated systems|2.4;2.2
+Light-matter interaction in subdiffraction silicon photonic cavities|2.2;3.3
+Long Distance Device-Independent Quantum Key Distribution|7.3;7.5
+Long-term security for cryptographic protocols|7.4;1.2
+MEMS VCSELs for swept source OCT|3.3
+Machine learning exchange correlation functionals for density functional theory|2.4;3.5
+Machine learning point defects for quantum technology|4.5;3.5;2.3
+Macroscopic quantum opto-acoustics|4.6;2.2
+Magnon-phonon coupling in FePS3|2.3
+Measurement-Based Gaussian Boson Sampling|5.5;4.4;5.2
+Mechanisms of silicate dissolution and formation of secondary phases in the presence of biogenic compounds ? The effects of fluid flow on reaction rates - physics perspective|-
+Metal oxide and metal nitride thin films for internet of things sensors|-
+Metal-Organic Frameworks-incorporated Micro-Architectured Supercapacitors|-
+Microengineering of 3D carbon electrode platforms for microbial electrochemical systems|-
+Microstructured Polymer Surfaces for Growthof Marine Bacteria|-
+Mid-infrared supercontinuum generation and rogue waves|3.3
+Mode conversion of Quantum state|7.5;4.4
+Modelling of optically active defects in 2D materials|4.5;2.3
+Monolithic integration of III-V semiconductors on Si platform for photonic applications|3.2;3.3
+Multi-Qubit Quantum Photonic Devices|4.4;4.6;5.1
+Multiscale Modeling of Nanostructured Anodes for Li-ion Batteries|-
+Multiscale Models of Corrosion Processes in Molten Salts|-
+Nanoengineered 2D TMDs-based Photonic devices for Optical Quantum Information Technology|4.4;3.2
+Nanoengineered 2D TMDs-based Quantum Light Sources for Optical Quantum Information Technology|4.4;3.2;2.2
+Nanofabrication and Electron Beam Characterization of Plasmonic Metasurfaces|3.2;2.2
+Nanofabrication processes based on focused ions extracted by 3D plasma sheath lenses|3.2
+Nanofluidic Electron Diffraction|-
+Nanofluidics devices for nanoparticles imaging|-
+Nanonozzle with complex through-wafer buried channels in monolithic Silicon|3.2
+Nanoparticle Surface Dynamics in Catalysis|-
+Nanopatterned 2D Materials for Iono- and Electronic Device Applications|3.2;2.3
+Nanostructured functional metal oxides oxygen ionic conductors for the next-generation solid-state batteries|-
+New architectures and error correcting schemes for universal and fault-tolerant continuous variable quantum computing|5.3;4.4;5.1
+Next-generation molecular profiling of soft-matter nanoparticles by nanofluidics and single molecule imaging|-
+Novel Electrode Materials for SOEC|-
+Novel n-type Materials for Emerging Thin-Film Solar Cells|-
+Novel response theory methods for sophisticatedlight-matter interactions|2.2;2.4
+Novel sustainable transformation of renewables by electro-valorization in ionic liquids|-
+One-Dimensional (1D) structured materials for improved charge transport in Inorganic Thin- Film Photovoltaics|-
+Optical Frequency Combs for Communications|3.3
+Oxide metamaterials by nanoscale strain textures|2.3
+P2X Electrode Dynamics|-
+Part of the solution: solvation effects and the superior formation of bio- sourced products|-
+PhD Scholarship in Micro-single chamber solid oxide cells for IoT applications - DTU Energy (2645)|-
+PhD Scholarship in Optical Communication Systems Using Data Distribution|-
+Photonic crystallization of antimony chalcogenide-based thin-film solar cells|-
+Post-quantum key agreement|7.4;1.2
+Prediction of Nuclear Fission Products Behavior in a Molten Salt Reactor|-
+Proactive Post-Quantum Cryptography|7.4
+QSI: Efficient security for post-quantum key encapsulation with correctness errors|7.4;1.2
+Quadrature (IQ) Modulators for integrated photonics|3.3
+Quantifying Heating Power and Internal Temperatures in InductionHeated Magnetic Nanoparticle Samples|-
+Quantum Communication and Co-Existence with Classical Communication|7.5;7.3;7.6
+Quantum Control of Single Molecules|4.6;2.1
+Quantum Dot Emitters Integrated with SiN Devices for Remote Quantum Computing|4.4;7.5
+Quantum Emitters in Two-Dimensional Materials forIntegrated Nano-Sensing|6.2;4.5;2.3
+Quantum Optics of Nanocavities|2.2;4.4
+Quantum Optomechanics using ultra-coherent mechanical oscillators|4.6;2.2
+Quantum State Preserving Frequency Conversion|7.5;4.4;3.3
+Quantum Strategies for Graph Based Nonlocal Games|1.2;1.1
+Quantum communication using high-order modes|7.3;4.4
+Quantum information security and randomness certification|7.2;1.2;7.3
+Quantum sensing in photosynthesis|6.7;2.4
+Quantum-Mechanical Theory of Single-Photon Emitters|2.2;4.4
+Room-Temperature Quantum Optomechanics|4.6;2.2
+SCUALE: Sustainable Components for Underwater Acoustics using Lead-free materials in Europe|-
+Selective Epitaxy of III-V/Si Nanostructures for Extreme Dielectric|3.2
+Self-healing Materials for Photovoltaic Applications|-
+Signal Processing for Multimode Communication|3.3
+Silicide Based CMUTs for 2D and 3D imaging|-
+Simulations of stability of flow battery electrolytes|-
+Smart Polymer Microrobots for Cargo Transport (Super-MicroCARTs)|-
+Spatially Distributed Optical Communication Links|3.3
+Spectroscopy of molybdenum sulfide|2.1
+Structural Characterization of Self-Assembly of Organic Nanomaterials and Biomaterials|-
+Structural characterization of additivelymanufactured metal components|-
+Sustainable Microfabrication|3.2
+Symmetry Engineering of Light-Matter Hybrid Phases|2.2;2.4
+Synthesis and Characterization ofwell-controlled multi-metallic alloysfor selective oxidation reactions|-
+Synthesis and Stacking of freestanding membranes into artificial heterostructure: Strain-Mediated Enhancement of properties|2.3;3.2
+Synthesis and characterization of small mass-selected entity catalysts for synthesis of ammonia and methanol|-
+Tailoring the magnetoelectric ground states of Lithium orthophosphates|2.3
+Terahertz Lightwave Electronics|3.3;2.3
+Terahertz spectroscopy for non-invasive detection and monitoring of analytes through the skin|-
+Testing quantum mechanics with macroscopic quantum states|1.1;2.4;4.6
+The Effect of Oxygen Vacancies and Crystal Symmetry on Induced Piezoelectricity and Pyroelectricity in Centrosymmetric Oxides|2.3
+The Role of Coherence in Light-Matter Photogroundstates|2.2;2.4
+The post-quantum security of the SHA-3 hash function standard|7.4;1.2
+Theoretical X-ray spectroscopy to unravel ultrafast electron relaxation pathways in functional molecules|2.4
+Theoretical investigations on electrochemical oxidation reactions|-
+Theoretical modeling of single-particle catalysts|-
+Theoretical quantum dynamics of solid-state systems|2.4;2.3
+Theory and design of anti-Hund molecules for biomedical and sustainable energy applications|2.4
+Theory and experimental characterization of nanostructured lasers|3.3;2.2
+Theory of Quantum Transport in 2D Carbon Nano-Circuitry|2.3;3.2
+Thermodynamics of 2D Magnetism from first principles|2.3;2.4
+Thiophosphate Thin Films for Quantum Technology|4.5;3.2
+Toroidic domains and excitations in magnetoelectric materials|2.3
+Towards The 6G Authentication and Key Agreement (AKA) Protocol|7.4
+Towards new frontiers in high throughput optical detection in flow capillaries|-
+Trapping and near-field effects in optical cavities|2.2;3.3
+UV Supercontinuum Sources and Meta-Surfaces|3.3
+Ultrafast Mapping of Solar Energy Conversion|-
+Unveiling Quantum Dot/Organic Ligand Interactions|2.3
+Upscaling Planar Proton-Conducting Ceramic Cells for Energy Conversion|-
+Variational Methods and Architectures for Near-Term Continuous Variable Quantum Computers with Applications in Mathematical and Biological Computation|5.5;5.1;4.4
+X-ray Microscopy for Life Sciences|-
+X-ray microscopy studies of cell refinement during plastic deformation|-
+X-ray tomographic imaging of nanoparticle transport in plants|-
+OUT|Composing Photons in Time: Multimode Nonlinear Interactions in Quantum Networks with Temporal Pulses of Light|7.5;4.4;2.2
+OUT|A Type Safe Calculus for Generating Syntax-Directed Editors|-
+OUT|Analysis and Verification of Quantum Communication Protocols in UPPAAL|7.6;5.3
+OUT|Exploring Unknown Environments with Uppaal Stratego: Safe Reinforcement Learning for Navigation and Pump Localization|-
+OUT|Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes|5.3;7.5;1.2
+OUT|Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework|7.5;1.2
+OUT|1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication|7.6;7.5
+OUT|Magnetic pseudo-differential operators with Hörmander symbols dominated by tempered weights|1.2
+OUT|Deterministic photon source of genuine three-qubit entanglement|4.4;2.2
+OUT|Building intuition for quantum algorithms using the Aharonov-Bohm effect|5.5;1.1
+OUT|Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems|5.5;5.2;2.4
+OUT|Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration|4.4;4.5;3.2
+OUT|Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays|4.1;2.3
+OUT|Jet evolution in a quantum computer: quark and gluon dynamics|5.6;5.2
+OUT|New mechanistic frontiers in carbohydrate-active enzymes revealed by QM/MM simulations|2.4
+OUT|Controlled parity of cooper pair tunneling in a hybrid superconducting qubit|4.1;4.5
+OUT|Giant Rashba splitting in InBi/SbBi chains on InSb(110): Surface reconstruction as a route to spin-split one-dimensional states|2.3
+OUT|Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Structural Colors|3.2;3.3
+OUT|Active light steering with electron beams|2.2;3.3
+OUT|Prospects to bypass metal nonlocal phenomena using phonon-polaritons|2.2;2.3
+OUT|Tunable nonlinearities of nonlocal free-electron in plasmonic heavily doped semiconductors|2.2;2.3
+OUT|Nanoscopy of surface polarization with oblique dipole orientations|3.3;2.2
+OUT|An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Nanowires|2.2
+OUT|Quantifying the creation of negatively charged boron vacancies in He-ion irradiated hexagonal boron nitride|4.5;6.2;3.2
+OUT|A Friendly Guide to Exorcising Maxwell's Demon|1.2;2.4
+OUT|Continuous variable quantum information protocols with squeezed light|7.3;4.4;2.2
+OUT|High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL|3.3
+OUT|Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching|4.4;3.3
+OUT|High-speed magnetic-field imaging via N-V ensemble and laser raster scanning|6.2;6.5;4.2
+OUT|Non Gaussian States and Operations|4.4;4.6;1.2
+OUT|Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticles for tailored light-matter interactions|2.3;2.2
