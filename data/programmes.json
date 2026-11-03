@@ -903,6 +903,9 @@
           "code": "NMAA05012U",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/fysik/BA_Fysik_2017_2025.pdf"
       ]
     },
     {
@@ -964,6 +967,16 @@
           "code": "22600",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://kurser.dtu.dk/course/10031",
+        "https://kurser.dtu.dk/course/10102",
+        "https://kurser.dtu.dk/course/10317",
+        "https://kurser.dtu.dk/course/10080",
+        "https://kurser.dtu.dk/course/34020",
+        "https://kurser.dtu.dk/course/34023",
+        "https://kurser.dtu.dk/course/10208",
+        "https://kurser.dtu.dk/course/22600"
       ]
     },
     {
@@ -1015,6 +1028,10 @@
           "code": "525171U008",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://bachelor.au.dk/fysik",
+        "https://studerende.au.dk/studier/fagportaler/fysik/undervisning-og-opbygning/opbygning-og-struktur-bacheloruddannelsen/detaljeret-opbygning-og-struktur-af-bacheloruddannelsen-i-fysik/studieordning-2017"
       ]
     },
     {
@@ -1081,6 +1098,9 @@
           "code": "MM553",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78791&lang=da"
       ]
     },
     {
@@ -1142,6 +1162,10 @@
           "code": "M-NT-B6-3",
           "role": "compulsory"
         }
+      ],
+      "curriculum": [
+        "https://studieordninger.aau.dk/2026/56/6483",
+        "https://studieordninger.aau.dk/2026/56/6568"
       ]
     },
     {
@@ -1193,6 +1217,9 @@
           "code": "NKEA04034U",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/nanoscience/BA_nanoscience_STO.pdf"
       ]
     },
     {
@@ -1244,6 +1271,9 @@
           "code": "560121U001",
           "role": "compulsory"
         }
+      ],
+      "curriculum": [
+        "https://bachelor.au.dk/nanoscience"
       ]
     },
     {
@@ -1290,6 +1320,9 @@
           "code": "NKEA05037U",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/kemi/BA_kemi_2017_2025.pdf"
       ]
     },
     {
@@ -1341,6 +1374,14 @@
           "code": "26428",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://kurser.dtu.dk/course/26001",
+        "https://kurser.dtu.dk/course/26200",
+        "https://kurser.dtu.dk/course/26261",
+        "https://kurser.dtu.dk/course/26245",
+        "https://kurser.dtu.dk/course/26428",
+        "https://kurser.dtu.dk/course/26124"
       ]
     },
     {
@@ -1392,6 +1433,9 @@
           "code": "545171U003",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://bachelor.au.dk/kemi"
       ]
     },
     {
@@ -1438,6 +1482,9 @@
           "code": "KE554",
           "role": "elective"
         }
+      ],
+      "curriculum": [
+        "https://odin.sdu.dk/sitecore/index.php?a=sto&id=78351&lang=da"
       ]
     }
   ],

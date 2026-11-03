@@ -289,3 +289,7 @@ abody = chrome(at.replace("/*DATA*/", json.dumps(aout, ensure_ascii=False).repla
 (ROOT / "site/about.html").write_text(page.split("<body>\n")[0] + "<body>\n" + abody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/about_artifact.html").write_text(abody, encoding="utf-8")
 
+# Kildeliste (SOURCES.md og data/sources.csv) følger data.
+import subprocess, sys
+subprocess.run([sys.executable, str(ROOT / "scripts/list_sources.py")], check=True)
+

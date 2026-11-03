@@ -52,6 +52,11 @@ site/
 
 Harvested data and expert judgement are kept apart: scrapers only write to `data/raw/`, while the CFQT assignments in `data/classification/` are curated and changed through pull requests, so every change has a history.
 
+
+## Sources
+
+Everything on the map comes from public web pages that can be read without logging in. [`SOURCES.md`](SOURCES.md) explains which kinds of pages were used and how, and [`data/sources.csv`](data/sources.csv) lists every page, one row per URL. Both are generated from the data files by `scripts/list_sources.py` (run by `build_site.py`). The workflow "Check sources" opens up to three pages per site anonymously and records in `data/sources_check.csv` whether each is public, bot-protected or behind a login.
+
 ## CSV columns
 
 `institution, level, code, [ref,] [url,] title, language, ects, dept, cfqt_primary, cfqt_secondary, prof_I, prof_II, prof_III, cfqt_status, kw_strong, kw_medium, note`
