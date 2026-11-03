@@ -302,7 +302,7 @@ footer a{color:var(--accent)}
     f.forEach(c=>{
       const tags=el('div',{class:'tags'});
       Object.entries(c.prof).forEach(([a,l])=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${l} ${Q.levels[l]}`},`${a} ${l}`)));
-      c.subs.forEach((s,i)=>{const d=s.split('.')[0]; tags.append(el('span',{class:'sd'+(i?'':' p'),style:`color:${dcol(d)};${i?'':`background:${dcol(d)};border-color:${dcol(d)}`}`,title:subName(s)},s))});
+      c.subs.forEach(s=>{const i=s===c.primary?0:1,d=s.split('.')[0]; tags.append(el('span',{class:'sd'+(i?'':' p'),style:`color:${dcol(d)};${i?'':`background:${dcol(d)};border-color:${dcol(d)}`}`,title:subName(s)},s))});
       box.append(el('div',{class:'row'},el('span',{class:'ic'},c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),el('span',{class:'b'},`${LEVEL_LABEL[c.level]||c.level} · ${c.ects??'–'} ECTS`),tags));
     });
   }

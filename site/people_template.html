@@ -178,7 +178,8 @@ footer a{color:var(--accent)}
     if(!c.mapped) return {k:'outside',t:'Course not on the CFQT content map.'};
     if(!p.found&&!ps.length) return {k:'outside',t:'No research profile found, so the fit could not be assessed.'};
     const shared=cs.filter(s=>ps.includes(s));
-    if(cs[0]&&ps.includes(cs[0])) return {k:'direct',lab:'Direct fit',t:`the course's core topic, ${cs[0]} ${subName(cs[0])}, is the educator's own research field${shared.length>1?`, as are ${shared.slice(1).map(s=>s+' '+subName(s)).join(' and ')}`:''}.`};
+    const pc=c.primary||cs[0];
+    if(pc&&ps.includes(pc)) return {k:'direct',lab:'Direct fit',t:`the course's core topic, ${pc} ${subName(pc)}, is the educator's own research field${shared.length>1?`, as are ${shared.filter(s=>s!==pc).map(s=>s+' '+subName(s)).join(' and ')}`:''}.`};
     if(shared.length) return {k:'related',lab:'Related research',t:`the course also covers ${shared.map(s=>s+' '+subName(s)).join(' and ')}, which is part of the educator's research.`};
     const cd=new Set(cs.map(s=>s.split('.')[0])), pd=ps.map(s=>s.split('.')[0]).filter(d=>cd.has(d));
     if(pd.length) return {k:'adjacent',lab:'Neighbouring field',t:`the educator researches another part of CFQT domain ${pd[0]}, ${Q.domains[pd[0]].name}, close to the course's topic.`};
@@ -209,7 +210,7 @@ footer a{color:var(--accent)}
     [...depts.values()].sort((a,b)=>b.n-a.n).forEach(d=>{
       const box=el('div',{class:'dept'},el('span',{class:'inst'},d.inst),el('h3',{},ulink(d.inst,d.dep)));
       const block=(name,ps,isC)=>{const subs={};ps.forEach(p=>(p.subs||[]).forEach(s=>subs[s]=(subs[s]||0)+1));
-        const top=Object.entries(subs).sort((a,b)=>b[1]-a[1]).slice(0,6);
+        const top=Object.entries(subs).sort((a,b)=>b[1]-a[1]).slice(0,6).sort((a,b)=>a[0].localeCompare(b[0],undefined,{numeric:true}));
         const ppl=el('div',{class:'ppl'});ps.forEach((p,i)=>{const b=el('button',{type:'button'},p.name);b.onclick=()=>jump(p);ppl.append(b,i<ps.length-1?', ':'')});
         return el('div',{class:'grp'},el('span',{class:'gn'},isC?ulink(d.inst,name,el('span',{class:'cen'},name)):ulink(d.inst,name)),top.length?el('div',{class:'chips'},...top.map(([s,n])=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:`${subName(s)}: ${n} educator(s)`},s))):null,ppl)};
       [...d.groups.entries()].sort((a,b)=>b[1].length-a[1].length).forEach(([g,ps])=>box.append(block(g,ps)));

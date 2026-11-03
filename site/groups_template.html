@@ -139,7 +139,7 @@ footer p{margin:0;max-width:86ch}
     const b=el('button',{class:'gcard',type:'button','aria-pressed':String(cur===g.key),'aria-controls':'profile'},banner(g),
       el('div',{class:'gc-body'},el('span',{class:'gc-inst'},g.institution+' · '+g.unit),el('span',{class:'gc-name'},g.short),el('span',{class:'gc-kind'},g.kind),
         el('span',{class:'gc-stats'},el('span',{},`${g.members.length} members`),el('span',{},`${n('PhD students')} PhD`),el('span',{},`${g.courses.length} courses`)),
-        el('div',{class:'chips'},...g.cfqt.slice(0,5).map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)))));
+        el('div',{class:'chips'},...g.cfqt.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)))));
     b.onclick=()=>{cur=g.key;try{history.replaceState(null,'','#'+g.key)}catch(e){}drawCards();drawProfile();document.getElementById('profile').scrollIntoView({behavior:'smooth',block:'start'})};
     cards.append(b)})}
 

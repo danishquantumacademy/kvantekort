@@ -211,7 +211,7 @@ footer a{color:var(--accent)}
         const tr=el('tr',{},el('td',{class:'sname'},el('span',{class:'scode'},s),name));
         let all=0;
         insts.forEach(i=>{
-          const cs=P.filter(c=>c.institution===i&&c.subs.includes(s)); const prim=cs.filter(c=>c.subs[0]===s).length; all+=cs.length;
+          const cs=P.filter(c=>c.institution===i&&c.subs.includes(s)); const prim=cs.filter(c=>c.primary===s).length; all+=cs.length;
           const b=el('button',{type:'button',class:cs.length?'':'zero',title:cs.length?`${i} · ${s} ${name}: ${cs.length} course(s), ${prim} as primary`:`${i} · ${s}: no courses`},cs.length?String(cs.length):'–');
           if(cs.length){b.style.background=`rgba(var(--heat),${heat(cs.length)})`; if(heat(cs.length)>.55) b.style.color='var(--bg)';
             if(state.sub===s&&state.subInst===i) b.classList.add('sel');
@@ -257,12 +257,12 @@ footer a{color:var(--accent)}
     if(state.sub){as.hidden=false; const clr=el('button',{type:'button'},'Clear'); clr.onclick=()=>{state.sub=null;state.subInst=null;render()}; as.append(el('span',{},`Showing ${state.subInst} courses covering `,el('strong',{},`${state.sub} ${subName(state.sub)}`)),clr)} else as.hidden=true;
     if(!f.length){list.append(el('div',{class:'empty'},'No courses match these filters. Widen the domain, level or proficiency selection, or clear the search.'));return}
     DOMS.forEach(d=>{
-      const rows=f.filter(c=>c.domain===d).sort((a,b)=>a.subs[0].localeCompare(b.subs[0],undefined,{numeric:true})||a.institution.localeCompare(b.institution)||LEVEL_ORDER.indexOf(a.level)-LEVEL_ORDER.indexOf(b.level)||a.title.localeCompare(b.title));
+      const rows=f.filter(c=>c.domain===d).sort((a,b)=>a.primary.localeCompare(b.primary,undefined,{numeric:true})||a.institution.localeCompare(b.institution)||LEVEL_ORDER.indexOf(a.level)-LEVEL_ORDER.indexOf(b.level)||a.title.localeCompare(b.title));
       if(!rows.length) return;
       const box=el('div',{class:'rows'});
       rows.forEach(c=>{
         const tags=el('div',{class:'tags'});
-        c.subs.forEach((s,i)=>{const dd=s.split('.')[0]; tags.append(el('span',{class:'sd'+(i===0?' primary':''),title:(i===0?'Primary: ':'Secondary: ')+subName(s),style:`color:${dcol(dd)};${i===0?`background:${dcol(dd)};border-color:${dcol(dd)}`:''}`},s))});
+        c.subs.forEach(s=>{const i=s===c.primary?0:1,dd=s.split('.')[0]; tags.append(el('span',{class:'sd'+(i===0?' primary':''),title:(i===0?'Primary: ':'Secondary: ')+subName(s),style:`color:${dcol(dd)};${i===0?`background:${dcol(dd)};border-color:${dcol(dd)}`:''}`},s))});
         const pk=Object.keys(c.prof);
         if(pk.length) pk.forEach(a=>tags.append(el('span',{class:'pl',title:`(${a}) ${Q.areas[a]}: ${c.prof[a]} ${Q.levels[c.prof[a]]} – ${Q.level_by_area[a][c.prof[a]]}`,style:`color:${acol(a)}`},el('span',{class:'ar'},a),c.prof[a])));
         else tags.append(el('span',{class:'none'},'no QT-specific proficiency'));
