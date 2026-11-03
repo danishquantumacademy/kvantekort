@@ -5,7 +5,6 @@ bachelor.au.dk,https://bachelor.au.dk/kemi,200,https://bachelor.au.dk/kemi,publi
 cbqs.ku.dk,https://cbqs.ku.dk/,URLError,,error
 cfin.au.dk,http://cfin.au.dk,200,https://cfin.au.dk/,public
 chem.au.dk,https://chem.au.dk/en/,200,https://chem.au.dk/en/,public
-daisy.aau.dk,http://daisy.aau.dk/,404,https://www.dat.aau.dk/forskning/dess-data-engineering-science-and-systems,error
 di.ku.dk,http://di.ku.dk/english/research/machine-learning/,URLError,,error
 di.ku.dk,http://di.ku.dk/english/research/pltc/,URLError,,error
 diku.dk,http://diku.dk/,URLError,,error
@@ -85,13 +84,12 @@ www.bio.aau.dk,http://www.bio.aau.dk/,200,https://www.bio.aau.dk/,public
 www.bio.ku.dk,http://www.bio.ku.dk,URLError,,error
 www.bioengineering.dtu.dk,https://www.bioengineering.dtu.dk/,200,https://www.bioengineering.dtu.dk/,public
 www.bioengineering.dtu.dk,https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis,200,https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis,public
-www.ciss.dk,http://www.ciss.dk/en/welcome.htm,404,https://www.ciss.dk/en/welcome.htm,error
 www.classique.aau.dk,http://www.classique.aau.dk,200,https://www.classique.aau.dk/,public
 www.classique.aau.dk,https://www.classique.aau.dk,200,https://www.classique.aau.dk,public
 www.cmc.aau.dk,https://www.cmc.aau.dk,200,https://www.en.bio.aau.dk/research/research-centres/center-for-microbial-communities,public
 www.compute.dtu.dk,https://www.compute.dtu.dk/english/research/research-sections/algolog,200,https://www.compute.dtu.dk/sections/algolog,public
-www.compute.dtu.dk,https://www.compute.dtu.dk/english/research/research-sections/cyber,404,https://www.compute.dtu.dk/fejl/404?item=%2fsections%2fcyber&user=extranet%5cAnonymous&site=computeDK,error
 www.compute.dtu.dk,https://www.compute.dtu.dk/english,200,https://www.compute.dtu.dk/,public
+www.compute.dtu.dk,https://www.compute.dtu.dk/english/research/research-sections/ese,404,https://www.compute.dtu.dk/fejl/404?item=%2fsections%2fese&user=extranet%5cAnonymous&site=computeDK,error
 www.cs.aau.dk,http://www.cs.aau.dk,200,https://www.cs.aau.dk/,public
 www.cs.au.dk,http://www.cs.au.dk,200,https://cs.au.dk//,public
 www.dtu.dk,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab,200,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab,public
@@ -99,11 +97,10 @@ www.dtu.dk,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/kemi-og-t
 www.dtu.dk,https://www.dtu.dk/english/about/job-and-career/vacant-positions,200,https://www.dtu.dk/english/about/job-and-career/vacant-positions,public
 www.energy.dtu.dk,https://www.energy.dtu.dk/english,200,https://www.energy.dtu.dk/,public
 www.energy.dtu.dk,https://www.energy.dtu.dk/,200,https://www.energy.dtu.dk/,public
-www.fotonik.dtu.dk,https://www.fotonik.dtu.dk/english,URLError,,error
 www.fysik.dtu.dk,https://www.fysik.dtu.dk/english,200,https://physics.dtu.dk/,public
 www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/,200,https://www.healthtech.dtu.dk/,public
-www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/services-and-products/industrial-and-medical-dosimetry,404,https://www.healthtech.dtu.dk/fejl/404?item=%2fservices-and-products%2findustrial-and-medical-dosimetry&user=extranet%5cAnonymous&site=sundhedsteknologiDK,error
-www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-hyperpolarization,404,https://www.healthtech.dtu.dk/fejl/404?item=%2ffejl%2ffejl&user=extranet%5cAnonymous&site=sundhedsteknologiDK,error
+www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-mri-acquisition,200,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-mri-acquisition,public
+www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance,200,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance,public
 www.ind.ku.dk,http://www.ind.ku.dk,URLError,,error
 www.kemi.dtu.dk,https://www.kemi.dtu.dk/english/,200,https://www.kemi.dtu.dk/english/,public
 www.kemi.dtu.dk,https://www.kemi.dtu.dk/english/research/inorganic-chemistry,200,https://www.kemi.dtu.dk/english/research/inorganic-chemistry,public
