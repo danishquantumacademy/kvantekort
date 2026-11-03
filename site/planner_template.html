@@ -433,8 +433,7 @@ footer a{color:var(--accent)}
   const PG=D.programmes, PROGS=PG.programmes, ROLE={compulsory:'Compulsory',restricted:'Restricted elective',elective:'Elective in path'};
   const BYKEY=new Map(D.courses.map(c=>[c.institution+'|'+c.code,c]));
   const home=document.getElementById('home');
-  const HOME_ORDER=['KU',...INSTS.filter(i=>i!=='KU')];
-  home.append(...HOME_ORDER.map(i=>el('option',{value:i},`${i} – ${R.institutions[i].name}`)),el('option',{value:'ALL'},'any Danish university'));
+  home.append(el('option',{value:'ALL'},'any Danish university'),...INSTS.map(i=>el('option',{value:i},`${i} – ${R.institutions[i].name}`)));
   const profSel=document.getElementById('prof');
   profSel.append(el('option',{value:''},'None'));
   Object.entries(RP).forEach(([k,v])=>profSel.append(el('option',{value:k},`${k} ${v.name} (I ${lvTxt(v,'I')}, II ${lvTxt(v,'II')}, III ${lvTxt(v,'III')})`)));

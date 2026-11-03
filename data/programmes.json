@@ -109,8 +109,8 @@
       "type": "dedicated",
       "name": "MSc in Quantum Information Science",
       "institutions": [
-        "KU",
-        "DTU"
+        "DTU",
+        "KU"
       ],
       "source": "https://studies.ku.dk/masters/quantum-information-science/programme-structure/",
       "summary": "Joint UCPH–DTU programme. 20 ECTS compulsory, 25–40 ECTS restricted electives, 30 ECTS free electives, 30 or 45 ECTS thesis.",
@@ -247,67 +247,6 @@
       "level": "MSc"
     },
     {
-      "id": "phys-au",
-      "group": "physics",
-      "type": "path",
-      "name": "MSc in Physics, quantum path",
-      "institutions": [
-        "AU"
-      ],
-      "source": "https://kursuskatalog.au.dk",
-      "summary": "Example route through AU's MSc in Physics using the Department of Physics and Astronomy's quantum courses. AU also hosts part of the Erasmus Mundus MSc in Quantum Technologies and Engineering.",
-      "thesis": {
-        "ects": 60,
-        "levels": {
-          "I": "C1"
-        },
-        "note": "Thesis in quantum physics or quantum technology"
-      },
-      "courses": [
-        {
-          "inst": "AU",
-          "code": "525242U001",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "525242U015",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "525232U001",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "525172U004",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "525252U008",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "525242U004",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "525242U005",
-          "role": "elective"
-        },
-        {
-          "inst": "AU",
-          "code": "520222U003",
-          "role": "elective"
-        }
-      ],
-      "level": "MSc"
-    },
-    {
       "id": "phys-dtu",
       "group": "physics",
       "type": "path",
@@ -429,6 +368,67 @@
         {
           "inst": "KU",
           "code": "NFYK10017U",
+          "role": "elective"
+        }
+      ],
+      "level": "MSc"
+    },
+    {
+      "id": "phys-au",
+      "group": "physics",
+      "type": "path",
+      "name": "MSc in Physics, quantum path",
+      "institutions": [
+        "AU"
+      ],
+      "source": "https://kursuskatalog.au.dk",
+      "summary": "Example route through AU's MSc in Physics using the Department of Physics and Astronomy's quantum courses. AU also hosts part of the Erasmus Mundus MSc in Quantum Technologies and Engineering.",
+      "thesis": {
+        "ects": 60,
+        "levels": {
+          "I": "C1"
+        },
+        "note": "Thesis in quantum physics or quantum technology"
+      },
+      "courses": [
+        {
+          "inst": "AU",
+          "code": "525242U001",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "525242U015",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "525232U001",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "525172U004",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "525252U008",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "525242U004",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "525242U005",
+          "role": "elective"
+        },
+        {
+          "inst": "AU",
+          "code": "520222U003",
           "role": "elective"
         }
       ],
@@ -691,6 +691,47 @@
       "level": "MSc"
     },
     {
+      "id": "chem-dtu",
+      "group": "chemistry",
+      "type": "path",
+      "name": "MSc in Applied Chemistry, quantum chemistry path",
+      "institutions": [
+        "DTU"
+      ],
+      "source": "https://kurser.dtu.dk",
+      "summary": "Example route through DTU's MSc in Applied Chemistry with electronic structure and physical chemistry courses.",
+      "thesis": {
+        "ects": 30,
+        "levels": {
+          "I": "C1"
+        },
+        "note": "Thesis in quantum chemistry"
+      },
+      "courses": [
+        {
+          "inst": "DTU",
+          "code": "26263",
+          "role": "elective"
+        },
+        {
+          "inst": "DTU",
+          "code": "26231",
+          "role": "elective"
+        },
+        {
+          "inst": "DTU",
+          "code": "26236",
+          "role": "elective"
+        },
+        {
+          "inst": "DTU",
+          "code": "10302",
+          "role": "elective"
+        }
+      ],
+      "level": "MSc"
+    },
+    {
       "id": "chem-ku",
       "group": "chemistry",
       "type": "path",
@@ -794,45 +835,75 @@
       "level": "MSc"
     },
     {
-      "id": "chem-dtu",
-      "group": "chemistry",
+      "id": "bsc-phys-dtu",
+      "level": "BSc",
+      "group": "physics",
       "type": "path",
-      "name": "MSc in Applied Chemistry, quantum chemistry path",
+      "name": "BSc in Physics and Engineering, quantum path",
       "institutions": [
         "DTU"
       ],
-      "source": "https://kurser.dtu.dk",
-      "summary": "Example route through DTU's MSc in Applied Chemistry with electronic structure and physical chemistry courses.",
+      "source": "https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab",
+      "summary": "DTU's bachelor in Physics and Engineering (Fysik og Ingeniørvidenskab). Quantum Mechanics (10102), Condensed Matter Physics, Optics and Photonics and Introduction to Engineering Physics are programme-specific (compulsory) courses; the others are electives.",
       "thesis": {
-        "ects": 30,
+        "ects": 15,
         "levels": {
-          "I": "C1"
+          "I": "B2"
         },
-        "note": "Thesis in quantum chemistry"
+        "note": "Bachelor project in a quantum topic"
       },
       "courses": [
         {
           "inst": "DTU",
-          "code": "26263",
+          "code": "10031",
+          "role": "compulsory"
+        },
+        {
+          "inst": "DTU",
+          "code": "10102",
+          "role": "compulsory"
+        },
+        {
+          "inst": "DTU",
+          "code": "10317",
+          "role": "compulsory"
+        },
+        {
+          "inst": "DTU",
+          "code": "34020",
+          "role": "compulsory"
+        },
+        {
+          "inst": "DTU",
+          "code": "10080",
           "role": "elective"
         },
         {
           "inst": "DTU",
-          "code": "26231",
+          "code": "34023",
           "role": "elective"
         },
         {
           "inst": "DTU",
-          "code": "26236",
+          "code": "10208",
           "role": "elective"
         },
         {
           "inst": "DTU",
-          "code": "10302",
+          "code": "22600",
           "role": "elective"
         }
       ],
-      "level": "MSc"
+      "curriculum": [
+        "https://kurser.dtu.dk/course/10031",
+        "https://kurser.dtu.dk/course/10102",
+        "https://kurser.dtu.dk/course/10317",
+        "https://kurser.dtu.dk/course/10080",
+        "https://kurser.dtu.dk/course/34020",
+        "https://kurser.dtu.dk/course/34023",
+        "https://kurser.dtu.dk/course/10208",
+        "https://kurser.dtu.dk/course/22600"
+      ]
     },
     {
       "id": "bsc-phys-ku",
@@ -906,77 +977,6 @@
       ],
       "curriculum": [
         "https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/fysik/BA_Fysik_2017_2025.pdf"
-      ]
-    },
-    {
-      "id": "bsc-phys-dtu",
-      "level": "BSc",
-      "group": "physics",
-      "type": "path",
-      "name": "BSc in Physics and Engineering, quantum path",
-      "institutions": [
-        "DTU"
-      ],
-      "source": "https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab",
-      "summary": "DTU's bachelor in Physics and Engineering (Fysik og Ingeniørvidenskab). Quantum Mechanics (10102), Condensed Matter Physics, Optics and Photonics and Introduction to Engineering Physics are programme-specific (compulsory) courses; the others are electives.",
-      "thesis": {
-        "ects": 15,
-        "levels": {
-          "I": "B2"
-        },
-        "note": "Bachelor project in a quantum topic"
-      },
-      "courses": [
-        {
-          "inst": "DTU",
-          "code": "10031",
-          "role": "compulsory"
-        },
-        {
-          "inst": "DTU",
-          "code": "10102",
-          "role": "compulsory"
-        },
-        {
-          "inst": "DTU",
-          "code": "10317",
-          "role": "compulsory"
-        },
-        {
-          "inst": "DTU",
-          "code": "34020",
-          "role": "compulsory"
-        },
-        {
-          "inst": "DTU",
-          "code": "10080",
-          "role": "elective"
-        },
-        {
-          "inst": "DTU",
-          "code": "34023",
-          "role": "elective"
-        },
-        {
-          "inst": "DTU",
-          "code": "10208",
-          "role": "elective"
-        },
-        {
-          "inst": "DTU",
-          "code": "22600",
-          "role": "elective"
-        }
-      ],
-      "curriculum": [
-        "https://kurser.dtu.dk/course/10031",
-        "https://kurser.dtu.dk/course/10102",
-        "https://kurser.dtu.dk/course/10317",
-        "https://kurser.dtu.dk/course/10080",
-        "https://kurser.dtu.dk/course/34020",
-        "https://kurser.dtu.dk/course/34023",
-        "https://kurser.dtu.dk/course/10208",
-        "https://kurser.dtu.dk/course/22600"
       ]
     },
     {
@@ -1277,55 +1277,6 @@
       ]
     },
     {
-      "id": "bsc-chem-ku",
-      "level": "BSc",
-      "group": "chemistry",
-      "type": "path",
-      "name": "BSc in Chemistry, quantum chemistry path",
-      "institutions": [
-        "KU"
-      ],
-      "source": "https://www.ku.dk/uddannelse/studieordninger/kemi",
-      "summary": "Chemistry bachelor at the University of Copenhagen. Chemical Bonding and, in the general profile, Quantum Chemistry and Theoretical Spectroscopy are compulsory; Advanced Quantum Chemistry and Photochemistry are electives.",
-      "thesis": {
-        "ects": 15,
-        "levels": {
-          "I": "B2"
-        },
-        "note": "Bachelor project in a quantum topic"
-      },
-      "courses": [
-        {
-          "inst": "KU",
-          "code": "NKEB13003U",
-          "role": "compulsory"
-        },
-        {
-          "inst": "KU",
-          "code": "NKEA04034U",
-          "role": "compulsory"
-        },
-        {
-          "inst": "KU",
-          "code": "NKEA05042U",
-          "role": "compulsory"
-        },
-        {
-          "inst": "KU",
-          "code": "NKEA04057U",
-          "role": "elective"
-        },
-        {
-          "inst": "KU",
-          "code": "NKEA05037U",
-          "role": "elective"
-        }
-      ],
-      "curriculum": [
-        "https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/kemi/BA_kemi_2017_2025.pdf"
-      ]
-    },
-    {
       "id": "bsc-chem-dtu",
       "level": "BSc",
       "group": "chemistry",
@@ -1382,6 +1333,55 @@
         "https://kurser.dtu.dk/course/26245",
         "https://kurser.dtu.dk/course/26428",
         "https://kurser.dtu.dk/course/26124"
+      ]
+    },
+    {
+      "id": "bsc-chem-ku",
+      "level": "BSc",
+      "group": "chemistry",
+      "type": "path",
+      "name": "BSc in Chemistry, quantum chemistry path",
+      "institutions": [
+        "KU"
+      ],
+      "source": "https://www.ku.dk/uddannelse/studieordninger/kemi",
+      "summary": "Chemistry bachelor at the University of Copenhagen. Chemical Bonding and, in the general profile, Quantum Chemistry and Theoretical Spectroscopy are compulsory; Advanced Quantum Chemistry and Photochemistry are electives.",
+      "thesis": {
+        "ects": 15,
+        "levels": {
+          "I": "B2"
+        },
+        "note": "Bachelor project in a quantum topic"
+      },
+      "courses": [
+        {
+          "inst": "KU",
+          "code": "NKEB13003U",
+          "role": "compulsory"
+        },
+        {
+          "inst": "KU",
+          "code": "NKEA04034U",
+          "role": "compulsory"
+        },
+        {
+          "inst": "KU",
+          "code": "NKEA05042U",
+          "role": "compulsory"
+        },
+        {
+          "inst": "KU",
+          "code": "NKEA04057U",
+          "role": "elective"
+        },
+        {
+          "inst": "KU",
+          "code": "NKEA05037U",
+          "role": "elective"
+        }
+      ],
+      "curriculum": [
+        "https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/kemi/BA_kemi_2017_2025.pdf"
       ]
     },
     {

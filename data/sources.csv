@@ -306,18 +306,16 @@ Timetable and prerequisites,AU,https://kursuskatalog.au.dk,"Semester, teaching b
 Timetable and prerequisites,DTU,https://kurser.dtu.dk,"Semester, teaching block, schedule slot and recommended prerequisites, from the course pages",data/schedule/dtu.txt
 Timetable and prerequisites,KU,https://kucourses.dk,"Semester, teaching block, schedule slot and recommended prerequisites, from the course pages",data/schedule/ku.txt
 Timetable and prerequisites,SDU,https://odin.sdu.dk,"Semester, teaching block, schedule slot and recommended prerequisites, from the course pages",data/schedule/sdu.txt
-Programme and curriculum,KU+DTU,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,MSc in Quantum Information Science: programme page,data/programmes.json
+Programme and curriculum,DTU+KU,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,MSc in Quantum Information Science: programme page,data/programmes.json
 Programme and curriculum,SDU,https://odin.sdu.dk/sitecore/index.php?a=sto&id=78831&lang=en,MSc in Quantum Computing: programme page,data/programmes.json
-Programme and curriculum,AU,https://kursuskatalog.au.dk,"MSc in Physics, quantum path: programme page",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk,"MSc in Physics and Nanotechnology, quantum path: programme page",data/programmes.json
 Programme and curriculum,KU,https://kucourses.dk,"MSc in Physics, quantum path: programme page",data/programmes.json
+Programme and curriculum,AU,https://kursuskatalog.au.dk,"MSc in Physics, quantum path: programme page",data/programmes.json
 Programme and curriculum,SDU,https://odin.sdu.dk/sitecore/index.php?a=sto&id=78412&lang=en,"MSc in Physics, quantum path: programme page",data/programmes.json
 Programme and curriculum,SDU,https://odin.sdu.dk,"MSc in Engineering Physics, nano-optics path: programme page",data/programmes.json
 Programme and curriculum,AAU,https://moduler.aau.dk,"MSc in Physics / Nanotechnology, quantum path: programme page",data/programmes.json
 Programme and curriculum,SDU,https://odin.sdu.dk/sitecore/index.php?a=sto&id=78434&lang=en,"MSc in Mathematics, quantum path: programme page",data/programmes.json
 Programme and curriculum,SDU,https://odin.sdu.dk/sitecore/index.php?a=sto&id=78431&lang=en,"MSc in Chemistry, computational chemistry path: programme page",data/programmes.json
-Programme and curriculum,KU,https://www.ku.dk/uddannelse/studieordninger/fysik,"BSc in Physics, quantum path: programme page",data/programmes.json
-Programme and curriculum,KU,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/fysik/BA_Fysik_2017_2025.pdf,"BSc in Physics, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab,"BSc in Physics and Engineering, quantum path: programme page",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/10031,"BSc in Physics and Engineering, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/10102,"BSc in Physics and Engineering, quantum path: compulsory/elective status and project size",data/programmes.json
@@ -327,6 +325,8 @@ Programme and curriculum,DTU,https://kurser.dtu.dk/course/34020,"BSc in Physics 
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/34023,"BSc in Physics and Engineering, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/10208,"BSc in Physics and Engineering, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/22600,"BSc in Physics and Engineering, quantum path: compulsory/elective status and project size",data/programmes.json
+Programme and curriculum,KU,https://www.ku.dk/uddannelse/studieordninger/fysik,"BSc in Physics, quantum path: programme page",data/programmes.json
+Programme and curriculum,KU,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/fysik/BA_Fysik_2017_2025.pdf,"BSc in Physics, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,AU,https://bachelor.au.dk/fysik,"BSc in Physics, quantum path: programme page",data/programmes.json
 Programme and curriculum,AU,https://studerende.au.dk/studier/fagportaler/fysik/undervisning-og-opbygning/opbygning-og-struktur-bacheloruddannelsen/detaljeret-opbygning-og-struktur-af-bacheloruddannelsen-i-fysik/studieordning-2017,"BSc in Physics, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,SDU,https://mitsdu.dk/da/mit_studie/bachelor/fysik_bachelor/uddannelsens-opbygning/uddannelsens-forloeb,"BSc in Physics, quantum path: programme page",data/programmes.json
@@ -336,8 +336,6 @@ Programme and curriculum,AAU,https://studieordninger.aau.dk/2026/56/6568,"BSc in
 Programme and curriculum,KU,https://www.ku.dk/uddannelse/studieordninger/nanoscience,"BSc in Nanoscience, quantum path: programme page",data/programmes.json
 Programme and curriculum,KU,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/nanoscience/BA_nanoscience_STO.pdf,"BSc in Nanoscience, quantum path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,AU,https://bachelor.au.dk/nanoscience,"BSc in Nanoscience, quantum path: programme page",data/programmes.json
-Programme and curriculum,KU,https://www.ku.dk/uddannelse/studieordninger/kemi,"BSc in Chemistry, quantum chemistry path: programme page",data/programmes.json
-Programme and curriculum,KU,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/kemi/BA_kemi_2017_2025.pdf,"BSc in Chemistry, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/kemi-og-teknologi,"BSc in Chemistry and Technology, quantum chemistry path: programme page",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/26001,"BSc in Chemistry and Technology, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/26200,"BSc in Chemistry and Technology, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
@@ -345,6 +343,8 @@ Programme and curriculum,DTU,https://kurser.dtu.dk/course/26261,"BSc in Chemistr
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/26245,"BSc in Chemistry and Technology, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/26428,"BSc in Chemistry and Technology, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,DTU,https://kurser.dtu.dk/course/26124,"BSc in Chemistry and Technology, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
+Programme and curriculum,KU,https://www.ku.dk/uddannelse/studieordninger/kemi,"BSc in Chemistry, quantum chemistry path: programme page",data/programmes.json
+Programme and curriculum,KU,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/kemi/BA_kemi_2017_2025.pdf,"BSc in Chemistry, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
 Programme and curriculum,AU,https://bachelor.au.dk/kemi,"BSc in Chemistry, quantum chemistry path: programme page",data/programmes.json
 Programme and curriculum,SDU,https://mitsdu.dk/da/mit_studie/bachelor/kemi_bachelor/uddannelsens-opbygning/uddannelsens-forloeb,"BSc in Chemistry, quantum chemistry path: programme page",data/programmes.json
 Programme and curriculum,SDU,https://odin.sdu.dk/sitecore/index.php?a=sto&id=78351&lang=da,"BSc in Chemistry, quantum chemistry path: compulsory/elective status and project size",data/programmes.json
