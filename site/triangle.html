@@ -120,14 +120,47 @@ h3{font:600 14px/1.3 var(--body);margin:0}
 footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
 footer p{margin:0;max-width:80ch}
 footer a{color:var(--accent)}
+.morebtn{font:600 13.5px var(--body);padding:8px 14px;border:1px solid var(--accent);border-radius:8px;background:var(--surface);color:var(--accent);cursor:pointer}
+.morebtn:hover{background:var(--accent);color:var(--surface)}
 @media (max-width:520px){.row{grid-template-columns:40px minmax(0,1fr)}.row .b{grid-column:2;justify-self:start}.stats{grid-template-columns:1fr}}
+
+/* shared site chrome: navigation, how-to-read boxes, footer */
+nav.site{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line);font:500 13.5px var(--body)}
+nav.site .nt{display:flex;justify-content:space-between;align-items:center;gap:12px}
+nav.site .brand{font:600 11.5px var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-decoration:none}
+nav.site .brand:hover{color:var(--accent)}
+nav.site .nb{display:flex;flex-wrap:wrap;gap:4px 28px}
+nav.site .ng{display:flex;flex-wrap:wrap;align-items:center;gap:2px}
+nav.site .nl{font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+nav.site a.p{color:var(--fg);text-decoration:none;padding:5px 9px;border-radius:7px;white-space:nowrap}
+nav.site a.p:hover{background:var(--chip)}
+nav.site a.p[aria-current=page]{background:var(--accent);color:var(--surface)}
+nav.site a:focus-visible,details.howto>summary:focus-visible,details.fold>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+details.howto{border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:100%}
+details.howto>summary{cursor:pointer;padding:9px 14px;font:600 14px var(--body);color:var(--accent);list-style:none;display:flex;gap:8px;align-items:center}
+details.howto>summary::-webkit-details-marker,details.fold>summary::-webkit-details-marker{display:none}
+details.howto>summary::before,details.fold>summary::before{content:"\203A";font:700 20px/1 var(--body);width:12px;text-align:center;transition:transform .15s;flex:none;color:var(--accent)}
+details.howto[open]>summary::before,details.fold[open]>summary::before{transform:rotate(90deg)}
+details.howto .hb{padding:2px 16px 16px;display:grid;gap:10px;font-size:13.5px;line-height:1.5;color:var(--muted)}
+details.howto .hb p{margin:0;max-width:86ch}
+details.howto .hb b{color:var(--fg)}
+footer .site-foot{display:flex;flex-wrap:wrap;gap:6px 16px}
+footer .site-foot a{color:var(--accent)}
+@media (max-width:640px){nav.site .bx{display:none}nav.site{font-size:13px}nav.site a.p{padding:4px 7px}nav.site .nb{gap:2px 16px}nav.site .nl{width:100%;margin:2px 0 0}}
 </style>
 
 <div class="wrap">
   <header>
-    <div class="eyebrow"><span>Danish Quantum Academy · Education mapping</span><a href="index.html">Coverage matrix →</a><a href="students.html">Study path profiles →</a><a href="planner.html">Course finder →</a><a href="people.html">Research behind the courses →</a><a href="groups.html">Research groups →</a></div>
+    <nav class="site" aria-label="Site"><div class="nt"><a class="brand" href="index.html">Danish Quantum Academy<span class="bx"> · Quantum education and research map</span></a><a class="p" href="about.html">About the data</a></div><div class="nb"><div class="ng"><span class="nl">Education</span><a class="p" href="index.html">Coverage</a><a class="p" href="triangle.html" aria-current="page">Triangle</a><a class="p" href="students.html">Study paths</a><a class="p" href="planner.html">Course finder</a></div><div class="ng"><span class="nl">Research</span><a class="p" href="people.html">Educators</a><a class="p" href="groups.html">Groups</a></div></div></nav>
     <h1>Danish Quantum Proficiency Triangle</h1>
-    <p class="lede">The <strong>CFQT proficiency triangle</strong> shows how far courses take students in the three proficiency areas of the European Competence Framework for Quantum Technologies: (I) Quantum concepts at the top, (II) QT hardware &amp; software engineering on the left, (III) QT applications &amp; strategies on the right. Levels grow from A1 in the centre to C2 at the corners. Choose a university to see where its courses land. All levels are first estimates, to be validated with course responsibles.</p>
+    <p class="lede">How far do the courses at each university take students in the three CFQT proficiency areas?</p>
+    <details class="howto"><summary>How to read this page</summary><div class="hb">
+      <p><b>The triangle.</b> The CFQT proficiency triangle has (I) Quantum concepts at the top, (II) QT hardware &amp; software engineering on the left and (III) QT applications &amp; strategies on the right. Levels grow from A1 in the centre to C2 at the corners.</p>
+      <p><b>Colour and shade.</b> Each band shows the number of courses whose estimated level in that area is exactly that level. The colour tells the area (green, blue, red); the shade tells how many courses, in five fixed steps shown under the triangle, so the same shade means the same count for every university. Grey bands have no courses. Select a band to list its courses.</p>
+      <p><b>Content map.</b> The tiles count courses covering each CFQT domain, as primary or secondary subdomain. Select a domain to list its courses.</p>
+      <p><b>Course list.</b> <span class="sd p" style="color:var(--d4);background:var(--d4);border-color:var(--d4)">4.4</span> filled is the course's primary CFQT subdomain (its main topic), <span class="sd" style="color:var(--d4)">2.2</span> outlined are further subdomains, and <span class="pl" style="color:var(--aI)">I B2</span> is the estimated proficiency level per area. Courses without QT-specific proficiency, such as classical optics or nanofabrication, appear in the content map but not in the triangle.</p>
+      <p><b>Status.</b> All levels are first estimates, to be validated with the course responsibles. Method and sources: <a href="about.html">About the data</a>.</p>
+    </div></details>
   </header>
 
   <section aria-label="Choose university" style="display:grid;gap:10px">
@@ -140,14 +173,12 @@ footer a{color:var(--accent)}
       <div class="filters" id="lvl-filters"><span class="flabel">Study level</span></div>
       <div class="tri-wrap"><svg id="tri" role="img" aria-labelledby="tri-title"><title id="tri-title">CFQT proficiency triangle</title></svg></div>
       <div class="ramp-legend" id="ramp-legend" aria-label="Colour key: number of courses per band"></div>
-      <p class="lede" style="font-size:13px">Each band shows the number of courses whose estimated level in that area is exactly that level. The colour tells the area (green, blue, red); the shade tells how many courses, in five fixed steps, so the same shade means the same count for every university. Grey bands have no courses. Select a band to list its courses.</p>
     </section>
 
     <section class="panel" aria-labelledby="cm-h">
       <h2 id="cm-h">Selection</h2>
       <div class="stats" id="stats"></div>
       <h3 style="margin-top:6px">CFQT content map</h3>
-      <p class="lede" style="font-size:13px;margin-top:-6px">Courses covering each domain (primary or secondary subdomain). Select a domain to list its courses.</p>
       <div class="cmap" id="cmap"></div>
       <div class="levels-key" id="levels-key"></div>
     </section>
@@ -155,13 +186,13 @@ footer a{color:var(--accent)}
 
   <section style="display:grid;gap:10px" aria-labelledby="list-h">
     <div class="list-head"><h2 id="list-h">Courses</h2><span class="count" id="count"></span><span id="active"></span></div>
-    <div class="chipkey"><span><span class="sd p" style="color:var(--d4);background:var(--d4);border-color:var(--d4)">4.4</span> filled = the course's primary CFQT subdomain (its main topic)</span><span><span class="sd" style="color:var(--d4)">2.2</span> outlined = further subdomains the course also covers</span><span><span class="pl" style="color:var(--aI)">I B2</span> = estimated proficiency level per area</span></div>
     <div class="rows" id="list"></div>
+    <div id="more"></div>
   </section>
 
   <footer>
     <p id="cite"></p>
-    <p>Courses without QT-specific proficiency (for example classical optics or nanofabrication courses mapped to CFQT domain 3) appear in the content map but not in the triangle. Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> as part of the mapping task of the European Quantum Academy (Northern European Regional Quantum Academy). Data and code: <a href="https://github.com/danishquantumacademy/kvantekort">github.com/danishquantumacademy/kvantekort</a>.</p>
+    <p class="site-foot"><span>Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> for the European Quantum Academy (Northern European Regional Quantum Academy).</span><a href="about.html">About the data and methods</a><a href="https://github.com/danishquantumacademy/kvantekort">Data and code on GitHub</a></p>
   </footer>
 </div>
 
@@ -296,6 +327,7 @@ footer a{color:var(--accent)}
   function renderList(list){
     const box=document.getElementById('list'); box.innerHTML='';
     let f=list, label='';
+    const key=[state.inst,state.cell&&state.cell.a+state.cell.l,state.dom].join('|'); if(key!==state.listKey){state.listKey=key;state.all=false}
     if(state.cell){f=list.filter(c=>c.prof[state.cell.a]===state.cell.l); label=`(${state.cell.a}) ${Q.areas[state.cell.a]} at ${state.cell.l} ${Q.levels[state.cell.l]}`}
     else if(state.dom){f=list.filter(c=>c.subs.some(s=>s.split('.')[0]===state.dom)); label=`Domain ${state.dom} ${Q.domains[state.dom].name}`}
     else f=list.filter(c=>Object.keys(c.prof).length);
@@ -306,6 +338,8 @@ footer a{color:var(--accent)}
     else act.append(el('span',{style:'font-size:13px;color:var(--muted)'},'All courses with QT-specific proficiency. Select a band or a domain to narrow down.'));
     if(!f.length){box.append(el('div',{class:'empty'},'No courses in this selection.'));return}
     f.sort((a,b)=>{const ka=state.cell?0:-Math.max(...Object.values(a.prof).map(p=>LV.indexOf(p)),-1), kb=state.cell?0:-Math.max(...Object.values(b.prof).map(p=>LV.indexOf(p)),-1); return ka-kb||a.institution.localeCompare(b.institution)||a.title.localeCompare(b.title)});
+    const more=document.getElementById('more'); more.innerHTML='';
+    const SHOW=15, all=f.length; if(!state.all&&all>SHOW){f=f.slice(0,SHOW);const b=el('button',{type:'button',class:'morebtn'},`Show all ${all} courses`);b.onclick=()=>{state.all=true;renderList(list)};more.append(b)}
     f.forEach(c=>{
       const tags=el('div',{class:'tags'});
       Object.entries(c.prof).forEach(([a,l])=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${l} ${Q.levels[l]}`},`${a} ${l}`)));
@@ -322,7 +356,7 @@ footer a{color:var(--accent)}
     renderStats(list); renderCmap(list); renderList(list);
   }
   const cite=document.getElementById('cite');
-  cite.append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The triangle layout, areas, levels and domains are taken from the framework. The assignment of courses is Danish Quantum Academy\'s own estimate.');
+  cite.append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The assignment of courses is Danish Quantum Academy\'s own estimate.');
   render();
 })();
 </script>

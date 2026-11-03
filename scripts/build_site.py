@@ -67,12 +67,56 @@ for prog in programmes["programmes"]:
         if (x["inst"], x["code"]) not in known:
             raise SystemExit(f"Studiesti {prog['id']}: kurset {x['inst']} {x['code']} findes ikke blandt de kortlagte kurser")
 out = {"reference": ref, "courses": courses, "unmapped": unmapped}
+
+# ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
+NAV = [("Education", [("index", "index.html", "Coverage"), ("triangle", "triangle.html", "Triangle"),
+                      ("students", "students.html", "Study paths"), ("planner", "planner.html", "Course finder")]),
+       ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")])]
+SHARED_CSS = """
+/* shared site chrome: navigation, how-to-read boxes, footer */
+nav.site{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line);font:500 13.5px var(--body)}
+nav.site .nt{display:flex;justify-content:space-between;align-items:center;gap:12px}
+nav.site .brand{font:600 11.5px var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-decoration:none}
+nav.site .brand:hover{color:var(--accent)}
+nav.site .nb{display:flex;flex-wrap:wrap;gap:4px 28px}
+nav.site .ng{display:flex;flex-wrap:wrap;align-items:center;gap:2px}
+nav.site .nl{font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+nav.site a.p{color:var(--fg);text-decoration:none;padding:5px 9px;border-radius:7px;white-space:nowrap}
+nav.site a.p:hover{background:var(--chip)}
+nav.site a.p[aria-current=page]{background:var(--accent);color:var(--surface)}
+nav.site a:focus-visible,details.howto>summary:focus-visible,details.fold>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+details.howto{border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:100%}
+details.howto>summary{cursor:pointer;padding:9px 14px;font:600 14px var(--body);color:var(--accent);list-style:none;display:flex;gap:8px;align-items:center}
+details.howto>summary::-webkit-details-marker,details.fold>summary::-webkit-details-marker{display:none}
+details.howto>summary::before,details.fold>summary::before{content:"\\203A";font:700 20px/1 var(--body);width:12px;text-align:center;transition:transform .15s;flex:none;color:var(--accent)}
+details.howto[open]>summary::before,details.fold[open]>summary::before{transform:rotate(90deg)}
+details.howto .hb{padding:2px 16px 16px;display:grid;gap:10px;font-size:13.5px;line-height:1.5;color:var(--muted)}
+details.howto .hb p{margin:0;max-width:86ch}
+details.howto .hb b{color:var(--fg)}
+footer .site-foot{display:flex;flex-wrap:wrap;gap:6px 16px}
+footer .site-foot a{color:var(--accent)}
+@media (max-width:640px){nav.site .bx{display:none}nav.site{font-size:13px}nav.site a.p{padding:4px 7px}nav.site .nb{gap:2px 16px}nav.site .nl{width:100%;margin:2px 0 0}}
+"""
+
+
+def chrome(html, key):
+    links = "".join(
+        f'<div class="ng"><span class="nl">{grp}</span>' + "".join(
+            f'<a class="p" href="{href}"' + (' aria-current="page"' if k == key else "") + f">{label}</a>" for k, href, label in items) + "</div>"
+        for grp, items in NAV)
+    nav = ('<nav class="site" aria-label="Site"><div class="nt"><a class="brand" href="index.html">Danish Quantum Academy<span class="bx"> · Quantum education and research map</span></a>'
+           '<a class="p" href="about.html"' + (' aria-current="page"' if key == "about" else "") + f'>About the data</a></div><div class="nb">{links}</div></nav>')
+    foot = ('<p class="site-foot"><span>Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> for the European Quantum Academy (Northern European Regional Quantum Academy).</span>'
+            '<a href="about.html">About the data and methods</a><a href="https://github.com/danishquantumacademy/kvantekort">Data and code on GitHub</a></p>')
+    assert "<!--SITENAV-->" in html and "<!--SITEFOOT-->" in html, key
+    return html.replace("<!--SITENAV-->", nav).replace("<!--SITEFOOT-->", foot).replace("</style>", SHARED_CSS + "</style>", 1)
+
 (ROOT / "site").mkdir(exist_ok=True)
 (ROOT / "site/data.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
 # Selvstændig side: data indlejres, så index.html virker både på GitHub Pages og lokalt.
 tpl = (ROOT / "site/template.html").read_text(encoding="utf-8")
-body = tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/"))
+body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "index")
 page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
         "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
         "</head>\n<body>\n" + body + "\n</body>\n</html>\n")
@@ -81,7 +125,7 @@ page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n
 
 # Trekant-siden (CFQT proficiency triangle) bygges af de samme data.
 ttpl = (ROOT / "site/triangle_template.html").read_text(encoding="utf-8")
-tbody = ttpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/"))
+tbody = chrome(ttpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "triangle")
 tpage = page.split("<body>\n")[0] + "<body>\n" + tbody + "\n</body>\n</html>\n"
 (ROOT / "site/triangle.html").write_text(tpage, encoding="utf-8")
 (ROOT / "site/triangle_artifact.html").write_text(tbody, encoding="utf-8")
@@ -89,12 +133,12 @@ tpage = page.split("<body>\n")[0] + "<body>\n" + tbody + "\n</body>\n</html>\n"
 # Studiestier (den studerendes trekant) bygges af kurserne + data/programmes.json.
 sout = {**out, "programmes": programmes}
 stpl = (ROOT / "site/students_template.html").read_text(encoding="utf-8")
-sbody = stpl.replace("/*DATA*/", json.dumps(sout, ensure_ascii=False).replace("</", "<\\/"))
+sbody = chrome(stpl.replace("/*DATA*/", json.dumps(sout, ensure_ascii=False).replace("</", "<\\/")), "students")
 (ROOT / "site/students.html").write_text(page.split("<body>\n")[0] + "<body>\n" + sbody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/students_artifact.html").write_text(sbody, encoding="utf-8")
 # Kursusfinder (den studerendes søgning) bygges af de samme data.
 ptpl = (ROOT / "site/planner_template.html").read_text(encoding="utf-8")
-pbody = ptpl.replace("/*DATA*/", json.dumps({**out, "profiles": programmes["reference_profiles"]}, ensure_ascii=False).replace("</", "<\\/"))
+pbody = chrome(ptpl.replace("/*DATA*/", json.dumps({**out, "profiles": programmes["reference_profiles"]}, ensure_ascii=False).replace("</", "<\\/")), "planner")
 (ROOT / "site/planner.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/planner_artifact.html").write_text(pbody, encoding="utf-8")
 # Undervisere og forskning (people.html): portaldata + forskningsfokus + hvem underviser hvad.
@@ -174,7 +218,7 @@ for inst, name, portal, web in rows:
     units.setdefault(inst, {})[name] = portal if (weak and portal) else (web or portal)
 pout = {"reference": ref, "people": plist, "units": units}
 pt = (ROOT / "site/people_template.html").read_text(encoding="utf-8")
-pbody2 = pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/"))
+pbody2 = chrome(pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/")), "people")
 (ROOT / "site/people.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody2 + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/people_artifact.html").write_text(pbody2, encoding="utf-8")
 print(f"people: {len(plist)} undervisere, {sum(1 for p in plist if p.get('found'))} med portalprofil")
@@ -232,8 +276,16 @@ for g in gcfg["groups"]:
                        "feed": feeds.get("groups", {}).get(g["key"], {})})
 gout = {"reference": ref, "groups": groups_out, "feeds_generated": feeds.get("generated", ""), "harvested": "2026-11-02"}
 gt = (ROOT / "site/groups_template.html").read_text(encoding="utf-8")
-gbody = gt.replace("/*DATA*/", json.dumps(gout, ensure_ascii=False).replace("</", "<\\/"))
+gbody = chrome(gt.replace("/*DATA*/", json.dumps(gout, ensure_ascii=False).replace("</", "<\\/")), "groups")
 (ROOT / "site/groups.html").write_text(page.split("<body>\n")[0] + "<body>\n" + gbody + "\n</body>\n</html>\n", encoding="utf-8")
 (ROOT / "site/groups_artifact.html").write_text(gbody, encoding="utf-8")
 print(f"groups: {len(groups_out)} grupper, {sum(len(g['members']) for g in groups_out)} medlemmer")
 print(f"site: {len(courses)} kurser med CFQT-match, {unmapped} uden match (vises ikke)")
+
+# Om data (about.html): kilder og metoder for alle sider samlet ét sted.
+aout = {"reference": ref, "unmapped": unmapped, "n_courses": len(courses), "groups_harvested": gout["harvested"], "feeds_generated": gout["feeds_generated"]}
+at = (ROOT / "site/about_template.html").read_text(encoding="utf-8")
+abody = chrome(at.replace("/*DATA*/", json.dumps(aout, ensure_ascii=False).replace("</", "<\\/")), "about")
+(ROOT / "site/about.html").write_text(page.split("<body>\n")[0] + "<body>\n" + abody + "\n</body>\n</html>\n", encoding="utf-8")
+(ROOT / "site/about_artifact.html").write_text(abody, encoding="utf-8")
+

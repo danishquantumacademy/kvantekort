@@ -87,6 +87,14 @@ input{flex:1 1 160px;min-width:0}
 .dhead{display:flex;align-items:baseline;gap:10px;border-bottom:2px solid var(--line);padding-bottom:8px;flex-wrap:wrap}
 .dhead .num{font:700 13px var(--mono);color:var(--bg);border-radius:4px;padding:3px 7px;align-self:center}
 .dhead p{margin:0;color:var(--muted);font-size:13px}
+details.dgroup>summary{cursor:pointer;list-style:none;color:var(--fg);align-items:center}
+details.dgroup>summary h2{font-size:19px;margin:0}
+details.dgroup>summary .cnt{color:var(--muted);font-size:13px;margin-left:auto}
+details.dgroup>summary:hover h2{color:var(--accent)}
+details.dgroup[open]>summary{margin-bottom:6px}
+.foldbar{display:flex;gap:8px}
+.foldbar button{font:500 13px var(--body);padding:5px 10px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--fg);cursor:pointer}
+.foldbar button:hover{border-color:var(--accent)}
 .rows{display:grid}
 .row{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:6px 14px;padding:10px 4px;border-bottom:1px solid var(--line);align-items:baseline}
 .row:hover{background:var(--surface)}
@@ -113,22 +121,28 @@ footer a{color:var(--accent)}
 
 <div class="wrap">
   <header>
-    <div class="eyebrow" style="display:flex;gap:14px;flex-wrap:wrap"><span>Danish Quantum Academy · Education mapping</span><a href="triangle.html" style="color:var(--accent);text-decoration:none">Proficiency triangle view →</a><a href="students.html" style="color:var(--accent);text-decoration:none">Study path profiles →</a><a href="planner.html" style="color:var(--accent);text-decoration:none">Course finder →</a><a href="people.html" style="color:var(--accent);text-decoration:none">Research behind the courses →</a><a href="groups.html" style="color:var(--accent);text-decoration:none">Research groups →</a></div>
+    <!--SITENAV-->
     <h1>Danish Quantum Education Map</h1>
-    <p class="lede">University courses in Denmark mapped to the <strong>European Competence Framework for Quantum Technologies (CFQT)</strong>: which CFQT subdomains each course covers, and which proficiency level it brings students to in each of the three proficiency areas. The mapping is a first estimate from the course descriptions and will be validated with course responsibles through the European Quantum Academy survey.</p>
+    <p class="lede">Which parts of the <strong>European Competence Framework for Quantum Technologies (CFQT)</strong> do Danish university courses cover, and how far do they take students?</p>
+    <details class="howto"><summary>How to read this page</summary><div class="hb">
+      <p><b>Coverage matrix.</b> Each cell counts the courses that cover a CFQT subdomain, as primary or secondary content. Empty cells point to gaps in the educational offer. Select a cell to list those courses.</p>
+      <p><b>Proficiency levels.</b> The estimated level a course brings students to in each proficiency area, from A1 (awareness) to C2. Courses on enabling technologies such as classical optics or nanofabrication often have no QT-specific proficiency and are counted under "none".</p>
+      <p><b>Course list.</b> Courses are grouped by the CFQT domain of their main topic. Open a domain to see its courses, or use the filters and search; matching domains open by themselves. In each row, <span class="sd primary" style="background:var(--d4);border-color:var(--d4)">4.4</span> filled is the course's primary subdomain and <span class="sd" style="color:var(--d4)">2.2</span> outlined are further subdomains; <span style="font-family:var(--mono)">I B2</span> is the estimated proficiency level per area. The small bars show how often quantum terms (dark) and related technical terms (grey) occur in the course description.</p>
+      <p><b>Status.</b> All tags are first estimates from the course descriptions and will be checked with the course responsibles through the European Quantum Academy survey. Method and sources: <a href="about.html">About the data</a>.</p>
+    </div></details>
     <div class="inst" id="inst" aria-label="Universities"></div>
   </header>
 
   <section aria-labelledby="cov">
     <h2 id="cov">Coverage of the CFQT content map</h2>
-    <p class="sub">Number of courses that cover each subdomain, as primary or secondary content. Empty cells point to gaps in the educational offer. Select a cell to list those courses.</p>
+    <p class="sub">Courses per CFQT subdomain. Select a cell to list those courses.</p>
     <div class="legend" id="legend"></div>
     <div class="matrix"><table id="matrix"></table></div>
   </section>
 
   <section aria-labelledby="pr">
     <h2 id="pr">Proficiency levels</h2>
-    <p class="sub">Estimated level a course brings students to, per CFQT proficiency area. Courses on enabling technologies such as classical optics or nanofabrication often have no QT-specific proficiency and are counted under "none".</p>
+    <p class="sub">Courses by the estimated level they bring students to, per proficiency area.</p>
     <div class="prof" id="prof"></div>
   </section>
 
@@ -149,15 +163,13 @@ footer a{color:var(--accent)}
       <span class="count" id="count"></span>
     </div>
     <div class="active-sub" id="active-sub" hidden></div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:12.5px;color:var(--muted)"><span><span class="sd primary" style="background:var(--d4);border-color:var(--d4)">4.4</span> filled = the course's primary CFQT subdomain (its main topic)</span><span><span class="sd" style="color:var(--d4)">2.2</span> outlined = further subdomains the course also covers</span></div>
-    <div id="list" style="display:grid;gap:28px"></div>
+    <div class="foldbar"><button type="button" id="open-all">Open all domains</button><button type="button" id="close-all">Close all</button></div>
+    <div id="list" style="display:grid;gap:14px"></div>
   </section>
 
   <footer>
     <p id="cite"></p>
-    <p>Method: course lists are harvested from the universities' course catalogues and the national PhD course portal. Each course is assigned up to three CFQT subdomains (the first is primary) and an estimated proficiency level for each area it addresses, based on the course description, study level and workload. The small bars next to each course show how often quantum terms (strong) and related technical terms (weak) occur in its description. <span id="unmapped"></span></p>
-    <p id="src"></p>
-    <p>Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> as part of the mapping task of the European Quantum Academy (Northern European Regional Quantum Academy). Data and code: <a href="https://github.com/danishquantumacademy/kvantekort">github.com/danishquantumacademy/kvantekort</a>.</p>
+    <!--SITEFOOT-->
   </footer>
 </div>
 
@@ -174,7 +186,7 @@ footer a{color:var(--accent)}
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const dcol=d=>`var(--d${d})`, acol=a=>`var(--a${a})`;
   const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
-  const state={insts:new Set(ACTIVE),doms:new Set(DOMS),levels:new Set(LEVELS),area:'',min:'',q:'',sub:null,subInst:null};
+  const state={insts:new Set(ACTIVE),doms:new Set(DOMS),levels:new Set(LEVELS),area:'',min:'',q:'',sub:null,subInst:null,open:new Set()};
   const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const chip=(content,on,fn,title,cls='chip')=>{const b=el('button',{class:cls,type:'button','aria-pressed':String(on)},...[].concat(content));if(title)b.title=title;b.onclick=()=>{if(fn()===false)return;b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true');render()};return b};
   const toggle=(set,v)=>()=>{if(set.has(v)){if(set.size===1)return false;set.delete(v)}else set.add(v)};
@@ -256,6 +268,8 @@ footer a{color:var(--accent)}
     const as=document.getElementById('active-sub'); as.innerHTML='';
     if(state.sub){as.hidden=false; const clr=el('button',{type:'button'},'Clear'); clr.onclick=()=>{state.sub=null;state.subInst=null;render()}; as.append(el('span',{},`Showing ${state.subInst} courses covering `,el('strong',{},`${state.sub} ${subName(state.sub)}`)),clr)} else as.hidden=true;
     if(!f.length){list.append(el('div',{class:'empty'},'No courses match these filters. Widen the domain, level or proficiency selection, or clear the search.'));return}
+    // domains start closed; they open by themselves when a filter or search narrows the list
+    const autoOpen=!!(state.sub||state.q||state.area)||f.length<=15;
     DOMS.forEach(d=>{
       const rows=f.filter(c=>c.domain===d).sort((a,b)=>a.primary.localeCompare(b.primary,undefined,{numeric:true})||a.institution.localeCompare(b.institution)||LEVEL_ORDER.indexOf(a.level)-LEVEL_ORDER.indexOf(b.level)||a.title.localeCompare(b.title));
       if(!rows.length) return;
@@ -273,15 +287,18 @@ footer a{color:var(--accent)}
           tags,
           el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,kwbars(c),c.note?el('span',{style:'font-style:italic'},c.note):null)));
       });
-      list.append(el('section',{class:'dgroup'},el('div',{class:'dhead'},el('span',{class:'num',style:`background:${dcol(d)}`},d),el('h2',{},`${Q.domains[d].name} (${rows.length})`),el('p',{},'grouped by primary subdomain')),box));
+      const det=el('details',{class:'fold dgroup'},el('summary',{class:'dhead'},el('span',{class:'num',style:`background:${dcol(d)}`},d),el('h2',{},Q.domains[d].name),el('span',{class:'cnt'},`${rows.length} course${rows.length===1?'':'s'}`)),box);
+      if(autoOpen||state.open.has(d)) det.open=true;
+      det.addEventListener('toggle',()=>{det.open?state.open.add(d):state.open.delete(d)});
+      list.append(det);
     });
   }
 
   function render(){renderMatrix();renderProf();renderList()}
+  document.getElementById('open-all').onclick=()=>{document.querySelectorAll('#list details').forEach(d=>d.open=true)};
+  document.getElementById('close-all').onclick=()=>{state.open.clear();document.querySelectorAll('#list details').forEach(d=>d.open=false)};
   const cite=document.getElementById('cite');
-  cite.append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. Domain and subdomain names, proficiency areas and levels are taken from the framework. The assignment of courses to the framework is Danish Quantum Academy\'s own estimate.');
-  document.getElementById('unmapped').textContent=D.unmapped?`${D.unmapped} harvested courses with no meaningful match in the CFQT content map (e.g. particle physics, relativity) are not shown.`:'';
-  document.getElementById('src').textContent='Sources: '+ACTIVE.map(i=>{const v=R.institutions[i];return `${i}: ${v.course_base}, harvested ${v.harvested}${v.scope?' ('+v.scope+')':''}`}).join(' · ');
+  cite.append('Framework: ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. The assignment of courses to the framework is Danish Quantum Academy\'s own estimate.');
   render();
 })();
 </script>

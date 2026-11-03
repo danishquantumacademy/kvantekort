@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+</head>
+<body>
+<title>About the Data</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* About the data: one reading column with sections on scope, sources and methods per page. */
+:root{
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5; --ref:#141a2b;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; --ref:#ffffff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f;
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033; --ref:#ffffff; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1120px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:30px}
+header{display:grid;gap:10px}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 20px/1.2 var(--display);margin:0;letter-spacing:-.01em}
+h3{font:600 15px/1.3 var(--body);margin:0}
+.lede{max-width:72ch;color:var(--muted);margin:0}
+.lede strong{color:var(--fg);font-weight:600}
+.wrap{max-width:900px}
+section{display:grid;gap:10px;scroll-margin-top:16px}
+section p,section li{max-width:76ch;margin:0}
+section ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px}
+.toc a{font:500 13px var(--body);padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg);text-decoration:none}
+.toc a:hover{border-color:var(--accent);color:var(--accent)}
+a{color:var(--accent)}
+.src{font-size:14px;color:var(--muted)}
+.src b{color:var(--fg)}
+.note{padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:14px}
+footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
+footer p{margin:0;max-width:86ch}
+footer a{color:var(--accent)}
+
+/* shared site chrome: navigation, how-to-read boxes, footer */
+nav.site{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line);font:500 13.5px var(--body)}
+nav.site .nt{display:flex;justify-content:space-between;align-items:center;gap:12px}
+nav.site .brand{font:600 11.5px var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-decoration:none}
+nav.site .brand:hover{color:var(--accent)}
+nav.site .nb{display:flex;flex-wrap:wrap;gap:4px 28px}
+nav.site .ng{display:flex;flex-wrap:wrap;align-items:center;gap:2px}
+nav.site .nl{font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+nav.site a.p{color:var(--fg);text-decoration:none;padding:5px 9px;border-radius:7px;white-space:nowrap}
+nav.site a.p:hover{background:var(--chip)}
+nav.site a.p[aria-current=page]{background:var(--accent);color:var(--surface)}
+nav.site a:focus-visible,details.howto>summary:focus-visible,details.fold>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+details.howto{border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:100%}
+details.howto>summary{cursor:pointer;padding:9px 14px;font:600 14px var(--body);color:var(--accent);list-style:none;display:flex;gap:8px;align-items:center}
+details.howto>summary::-webkit-details-marker,details.fold>summary::-webkit-details-marker{display:none}
+details.howto>summary::before,details.fold>summary::before{content:"\203A";font:700 20px/1 var(--body);width:12px;text-align:center;transition:transform .15s;flex:none;color:var(--accent)}
+details.howto[open]>summary::before,details.fold[open]>summary::before{transform:rotate(90deg)}
+details.howto .hb{padding:2px 16px 16px;display:grid;gap:10px;font-size:13.5px;line-height:1.5;color:var(--muted)}
+details.howto .hb p{margin:0;max-width:86ch}
+details.howto .hb b{color:var(--fg)}
+footer .site-foot{display:flex;flex-wrap:wrap;gap:6px 16px}
+footer .site-foot a{color:var(--accent)}
+@media (max-width:640px){nav.site .bx{display:none}nav.site{font-size:13px}nav.site a.p{padding:4px 7px}nav.site .nb{gap:2px 16px}nav.site .nl{width:100%;margin:2px 0 0}}
+</style>
+
+<div class="wrap">
+  <header>
+    <nav class="site" aria-label="Site"><div class="nt"><a class="brand" href="index.html">Danish Quantum Academy<span class="bx"> · Quantum education and research map</span></a><a class="p" href="about.html" aria-current="page">About the data</a></div><div class="nb"><div class="ng"><span class="nl">Education</span><a class="p" href="index.html">Coverage</a><a class="p" href="triangle.html">Triangle</a><a class="p" href="students.html">Study paths</a><a class="p" href="planner.html">Course finder</a></div><div class="ng"><span class="nl">Research</span><a class="p" href="people.html">Educators</a><a class="p" href="groups.html">Groups</a></div></div></nav>
+    <h1>About the Data</h1>
+    <p class="lede">What the map covers, where the data come from, and how courses, educators and groups are mapped to the CFQT framework.</p>
+    <nav class="toc" aria-label="On this page"><a href="#scope">Scope</a><a href="#courses">Courses</a><a href="#levels">Proficiency levels</a><a href="#paths">Study paths</a><a href="#finder">Course finder</a><a href="#educators">Educators</a><a href="#groups">Research groups</a><a href="#framework">Framework</a></nav>
+  </header>
+
+  <section id="scope" aria-labelledby="h-scope">
+    <h2 id="h-scope">Scope</h2>
+    <p>The map covers quantum-relevant university courses at five Danish universities: DTU, the University of Copenhagen (KU), Aarhus University (AU), the University of Southern Denmark (SDU) and Aalborg University (AAU). It includes bachelor, master and PhD courses and links them to the people and research groups that teach them.</p>
+    <p>It is published by Danish Quantum Academy as part of the mapping task of the European Quantum Academy (Northern European Regional Quantum Academy). All CFQT tags and levels are first estimates and will be checked with course responsibles and educators through the European Quantum Academy survey.</p>
+  </section>
+
+  <section id="courses" aria-labelledby="h-courses">
+    <h2 id="h-courses">Courses</h2>
+    <p>Course lists are harvested from the universities' course catalogues and the national PhD course portal. Each course is assigned up to three CFQT subdomains, one of them primary (the course's main topic), and an estimated proficiency level for each proficiency area it addresses, based on the course description, study level and workload. Subdomains are always listed in numeric order; the primary one is shown filled.</p>
+    <p>On the coverage page, small bars next to each course show how often quantum terms (strong) and related technical terms (weak) occur in its description. They helped select courses and are not a quality measure.</p>
+    <p class="src" id="unmapped"></p>
+    <div class="src" id="sources"></div>
+  </section>
+
+  <section id="levels" aria-labelledby="h-levels">
+    <h2 id="h-levels">Proficiency levels and the triangle</h2>
+    <p>Levels follow the six CFQT levels from A1 (awareness) to C2 in three proficiency areas: (I) Quantum concepts, (II) QT hardware and software engineering, and (III) QT applications and strategies. Courses on enabling technologies such as classical optics or nanofabrication often have no QT-specific proficiency; they appear in the content map but not in the triangle. On the triangle page, the shade of a band counts the courses at exactly that level in five fixed steps (1–2, 3–5, 6–12, 13–29, 30+), so the same shade means the same count for every university.</p>
+  </section>
+
+  <section id="paths" aria-labelledby="h-paths">
+    <h2 id="h-paths">Study paths</h2>
+    <ul>
+      <li>Dedicated quantum master's programmes follow their curriculum. The other paths are Danish Quantum Academy's examples of a quantum-focused route through a broader programme.</li>
+      <li>Course roles (compulsory, restricted elective, elective) are taken from the 2026 curricula: KU study regulations, the DTU course base, AU programme structures, SDU study plans and AAU study regulations.</li>
+      <li>For each proficiency area, the profile reaches the highest level among the courses in the path. Shades count how many courses reach at least that level: one course, 2–5 courses, or 6 or more.</li>
+      <li>Master's paths assume a thesis in a quantum topic at C1 in area I, the example CFQT gives. Bachelor paths assume a bachelor project in a quantum topic at B2 in area I, with the project size the curriculum gives (10–20 ECTS). Levels reached only through the thesis or project are striped.</li>
+      <li>The comparison profiles are the nine CFQT qualification profiles P1–P9 (CFQT v3.0, pp. 19–27). Where the framework gives a range such as "C1 or C2", the outline uses the lower level.</li>
+    </ul>
+  </section>
+
+  <section id="finder" aria-labelledby="h-finder">
+    <h2 id="h-finder">Course finder</h2>
+    <p>The student's text is matched against a list of topics in English and Danish that are linked to CFQT subdomains, and against course titles. Courses are scored by how well their subdomains match. The three suggestions follow the interests most closely, lean towards hands-on engineering, or lean towards theory. The timetable uses each course's semester, teaching block, weekly schedule slot (DTU modules and KU schedule groups) and recommended prerequisites from the 2026/27 course catalogues. The suggestions are not study advice.</p>
+  </section>
+
+  <section id="educators" aria-labelledby="h-educators">
+    <h2 id="h-educators">Educators</h2>
+    <p>Educators are those named in the 2026/27 course catalogues. Their position, department, group and centre come from their profiles in the universities' research portals (DTU Orbit, University of Copenhagen research portal, AU Pure, SDU Find Researcher, AAU VBN), harvested in November 2026. Portal fingerprint concepts are generated automatically by the portals and can contain odd terms. The research focus and its CFQT tags are written by Danish Quantum Academy from the portal data.</p>
+    <p>The fit note for each course compares the course's CFQT subdomains with those of the educator's research. It describes overlap in subject, not teaching quality.</p>
+    <p class="note">Only professional information is shown: name, position, units, research and teaching. Contact details are not published.</p>
+  </section>
+
+  <section id="groups" aria-labelledby="h-groups">
+    <h2 id="h-groups">Research groups</h2>
+    <p>Group profiles combine each group's own website with its unit in the university's research portal. Members, projects and recent work were harvested on <span id="harv"></span>. News, events, grants and open positions are fetched automatically from the groups' websites every Monday (last run <span id="feedrun"></span>); sources that cannot be read automatically are marked on the page. Summaries and CFQT tags are written by Danish Quantum Academy; photos and long texts are not copied.</p>
+  </section>
+
+  <section id="framework" aria-labelledby="h-fw">
+    <h2 id="h-fw">Framework</h2>
+    <p id="cite"></p>
+    <p>Data, code and change history are public on <a href="https://github.com/danishquantumacademy/kvantekort">GitHub</a>. Corrections and additions are welcome through <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a>.</p>
+  </section>
+
+  <footer>
+    <p class="site-foot"><span>Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> for the European Quantum Academy (Northern European Regional Quantum Academy).</span><a href="about.html">About the data and methods</a><a href="https://github.com/danishquantumacademy/kvantekort">Data and code on GitHub</a></p>
+  </footer>
+</div>
+
+<script id="qdk-data" type="application/json">{"reference": {"cfqt": {"source": "European Competence Framework for Quantum Technologies (CFQT), version 3.0, April 2025. F. Greinert and R. Müller, QUCATS. doi:10.2759/8917117. CC BY 4.0.", "doi": "https://doi.org/10.2759/8917117", "blocks": {"QB": "Quantum background", "CDT": "Core device technologies", "QSA": "QT systems and applications"}, "domains": {"1": {"name": "Concepts and foundations", "block": "QB", "subdomains": {"1.1": "Basic quantum concepts", "1.2": "Mathematical formalism and information theory"}}, "2": {"name": "Physical foundations of quantum technologies", "block": "QB", "subdomains": {"2.1": "Atomic physics", "2.2": "Quantum optics and electrodynamics", "2.3": "Solid-state physics", "2.4": "Quantum many-body systems and open quantum systems"}}, "3": {"name": "Enabling technologies and techniques", "block": "CDT", "subdomains": {"3.1": "Laboratory techniques, noise and shielding", "3.2": "Solid-state technologies, nanotechnologies", "3.3": "Optical technologies", "3.4": "Control technologies", "3.5": "Computers and software"}}, "4": {"name": "Quantum hardware", "block": "CDT", "subdomains": {"4.1": "Superconducting electronic circuits", "4.2": "Spin-based systems", "4.3": "Neutral atoms and ions", "4.4": "Photonic systems", "4.5": "Emerging qubit concepts", "4.6": "Quantum state control", "4.7": "Hybrid quantum-classical systems", "4.8": "Technology realisation"}}, "5": {"name": "Quantum computing and simulation", "block": "QSA", "subdomains": {"5.1": "Basics", "5.2": "Quantum simulators", "5.3": "Quantum programming tools and software stack, error correction", "5.4": "Quantum computing subroutines", "5.5": "Quantum algorithms", "5.6": "Applications of quantum computing and simulation"}}, "6": {"name": "Quantum sensors and imaging systems", "block": "QSA", "subdomains": {"6.1": "Basics", "6.2": "Electromagnetic field sensors", "6.3": "Temperature, particle and pressure sensors", "6.4": "Inertial and gravity sensors", "6.5": "Quantum imaging", "6.6": "Atomic clocks", "6.7": "Applications of quantum sensors"}}, "7": {"name": "Quantum communication and networks", "block": "QSA", "subdomains": {"7.1": "Basics", "7.2": "Quantum random number generators", "7.3": "Quantum key distribution", "7.4": "Applications of quantum cryptography", "7.5": "Infrastructure for quantum information networks (quantum internet)", "7.6": "Systems networks (composite systems), quantum internet applications"}}, "8": {"name": "Valorisation", "block": "QSA", "subdomains": {"8.1": "Industry landscape and market analysis", "8.2": "Business strategy, entrepreneurship and management", "8.3": "Impact and responsibility", "8.4": "Education and communication"}}}, "areas": {"I": "Quantum concepts", "II": "QT hardware & software engineering", "III": "QT applications & strategies"}, "levels": {"A1": "Awareness", "A2": "Literacy", "B1": "Utilisation", "B2": "Investigation", "C1": "Specialisation", "C2": "Innovation"}, "level_by_area": {"I": {"A1": "Reproduce basic quantum concepts & terminology", "A2": "Describe fundamental quantum concepts", "B1": "Apply quantum methods to problems", "B2": "Analyse problems with quantum", "C1": "Refine and extend quantum methods", "C2": "Develop innovative solutions"}, "II": {"A1": "Reproduce basic functionalities of a QT facet", "A2": "Perform basic tasks on a QT facet", "B1": "Modify/apply a QT facet", "B2": "Analyse performance, improve QT", "C1": "Conceptualise integrated QT systems", "C2": "Develop new QT facet"}, "III": {"A1": "Recognise potential of QT", "A2": "Identify value of QT", "B1": "Classify available QT applications/approaches", "B2": "Analyse QT market and opportunities", "C1": "Advise on QT application selection or strategies", "C2": "Develop and assess QT (product) strategies"}}}, "institutions": {"DTU": {"name": "Technical University of Denmark", "course_base": "https://kurser.dtu.dk", "course_url": "https://kurser.dtu.dk/course/{code}", "harvested": "2026-11-02", "academic_year": "2026/2027", "totals": {"BSc": 376, "MSc": 726, "PhD": 172}, "departments": {"01": "DTU Compute", "10": "DTU Physics", "22": "DTU Health Tech", "26": "DTU Chemistry", "30": "DTU Space", "34": "DTU Electro", "47": "DTU Energy", "56": "DTU Nanolab", "62": "DTU Engineering Technology"}, "scope": "All levels from DTU's course base. The national portal phdcourses.dk lists the same PhD courses."}, "KU": {"name": "University of Copenhagen", "course_base": "https://kucourses.dk", "course_url": "https://kucourses.dk/course/{code}", "harvested": "2026-11-02", "academic_year": "2026/2027", "scope": "Faculty of SCIENCE. Bachelor and master courses from kucourses.dk, a student-run mirror of KU's course catalogue, because kurser.ku.dk was unavailable on 2 November 2026. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.", "totals": {"BSc": 446, "MSc": 416, "PhD": 60}, "departments": {"SCI": "Faculty of SCIENCE", "NBI": "Niels Bohr Institute", "MATH": "Mathematical Sciences", "DIKU": "Computer Science", "KEM": "Chemistry", "IND": "Science Education", "BIO": "Biology"}}, "AU": {"name": "Aarhus University", "course_base": "https://kursuskatalog.au.dk", "course_url": "https://kursuskatalog.au.dk/da/course/{ref}", "harvested": "2026-11-02", "academic_year": "2026/2027", "scope": "Natural Sciences and Technical Sciences. PhD courses from phdcourses.dk (Graduate Schools of Natural and Technical Sciences).", "totals": {"BSc": 456, "MSc": 652, "Diplom": 430, "Master": 16, "PhD": 51}, "departments": {"FA": "Physics and Astronomy", "KEM": "Chemistry", "DAT": "Computer Science", "iNANO": "iNANO", "ECE": "Electrical and Computer Engineering", "MP": "Mechanical and Production Engineering", "GSTS": "Graduate School of Technical Sciences"}}, "SDU": {"name": "University of Southern Denmark", "course_base": "https://odinlister.sdu.dk", "course_url": "https://odinlister.sdu.dk/fagbesk/internkode/{ref}/en", "harvested": "2026-11-02", "academic_year": "2026/2027", "scope": "Faculty of Science (code prefixes FY, FT, KE, MM, DM, AI, NAT, QC) and the Faculty of Engineering programmes in Physics and Technology and Electronics. Active course descriptions only. PhD courses supplemented from phdcourses.dk.", "totals": {"BSc": 161, "MSc": 191, "PhD": 8, "Diplom": 2, "Master": 24}, "departments": {"FKF": "Physics, Chemistry and Pharmacy", "IMADA": "Mathematics and Computer Science", "QC": "MSc in Quantum Computing", "TEK": "Faculty of Engineering"}}, "AAU": {"name": "Aalborg University", "course_base": "https://moduler.aau.dk", "course_url": "https://moduler.aau.dk/course/2026-2027/{code}", "harvested": "2026-11-02", "academic_year": "2026/2027", "scope": "Faculty of Engineering and Science and the Technical Faculty of IT and Design. Totals are unique module titles per level. PhD courses from phdcourses.dk.", "totals": {"BSc": 800, "MSc": 725, "Diplom": 166, "Master": 69, "PhD": 28}, "departments": {"MP": "Materials and Production (physics and nanotechnology)", "KB": "Chemistry and Bioscience", "CS": "Computer Science", "ES": "Electronic Systems", "MATH": "Mathematical Sciences"}}}}, "unmapped": 14, "n_courses": 290, "groups_harvested": "2026-11-02", "feeds_generated": "2026-11-02T17:18Z"}</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent);
+  const R=D.reference, Q=R.cfqt;
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  document.getElementById('unmapped').textContent=`${D.n_courses} courses are on the map. ${D.unmapped} harvested courses with no meaningful match in the CFQT content map (for example particle physics or relativity) are not shown.`;
+  const src=document.getElementById('sources');
+  src.append(el('b',{},'Course catalogues'));
+  const ul=el('ul');Object.entries(R.institutions).forEach(([k,v])=>{if(v.course_base)ul.append(el('li',{},`${k} – ${v.name}: ${v.course_base}, harvested ${v.harvested}${v.scope?' ('+v.scope+')':''}.`))});src.append(ul);
+  document.getElementById('harv').textContent=D.groups_harvested||'–';
+  document.getElementById('feedrun').textContent=D.feeds_generated?D.feeds_generated.replace('T',' ').replace('Z',' UTC'):'not yet run';
+  document.getElementById('cite').append('The map uses the ',el('a',{href:Q.doi,target:'_blank',rel:'noopener'},'European Competence Framework for Quantum Technologies (CFQT) v3.0'),', F. Greinert and R. Müller, QUCATS, April 2025, licensed CC BY 4.0. Domain and subdomain names, proficiency areas, levels and qualification profiles are taken from the framework. The assignment of courses, educators and groups to the framework is Danish Quantum Academy\'s own estimate.');
+})();
+</script>
+
+</body>
+</html>

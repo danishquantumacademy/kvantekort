@@ -112,10 +112,16 @@ footer a{color:var(--accent)}
 </style>
 
 <div class="wrap">
-  <div class="nav"><span>Danish Quantum Academy · Education mapping</span><a href="index.html">Coverage matrix</a><a href="triangle.html">Course triangle</a><a href="students.html">Study path profiles</a><a href="people.html">Research</a><a href="groups.html">Groups</a></div>
+  <!--SITENAV-->
   <header style="display:grid;gap:10px">
     <h1>Quantum Course Finder</h1>
-    <p class="lede">Tell us what you find interesting, in your own words, and get three suggestions for the quantum part of a master's programme (120 ECTS), each with its CFQT proficiency profile. Quantum courses are only part of a master's degree; the rest is your thesis and the other courses in your programme.</p>
+    <p class="lede">Tell us what you find interesting, in your own words, and get three suggestions for the quantum part of a master's programme (120 ECTS).</p>
+    <details class="howto"><summary>How it works</summary><div class="hb">
+      <p><b>Matching.</b> Your text is matched against a list of topics (in English and Danish) that are linked to CFQT subdomains, and against course titles. Courses are scored by how well their subdomains match your interests. The first suggestion follows your interests most closely; the other two lean towards hands-on engineering or towards theory, so you can see how the profile changes. Each plan includes a foundation course in quantum concepts if your interests did not already bring one in.</p>
+      <p><b>Profiles.</b> Each triangle shows the proficiency profile the plan reaches. Shades show how many courses reach each level (light 1, medium 2–5, dark 6 or more); stripes mark levels reached only through the thesis, which is assumed to reach C1 in (I) Quantum concepts. The dark outline is the CFQT qualification profile you choose.</p>
+      <p><b>Timetable.</b> The timetable uses each course's semester, teaching block, weekly schedule slot (DTU modules and KU schedule groups) and recommended prerequisites from the 2026/27 course catalogues. Plans avoid courses in the same slot and spread the courses over the semesters that the thesis leaves free.</p>
+      <p><b>These are suggestions, not study advice.</b> Check your programme's curriculum for which courses count towards your degree, and talk to your study counsellor. Method and sources: <a href="about.html">About the data</a>.</p>
+    </div></details>
   </header>
 
   <section class="ask" aria-label="Your interests">
@@ -155,8 +161,8 @@ footer a{color:var(--accent)}
   </section>
 
   <footer>
-    <p>How it works: your text is matched against a list of topics (in English and Danish) that are linked to subdomains of the European Competence Framework for Quantum Technologies (CFQT), and against course titles. Courses are scored by how well their CFQT subdomains match your interests. The first suggestion follows your interests most closely; the other two lean towards hands-on engineering or towards theory, so you can see how the profile changes. Each plan includes a foundation course in quantum concepts if your interests did not already bring one in. The thesis is assumed to reach C1 in (I) Quantum concepts when it is in a quantum topic. The timetable uses each course's semester, teaching block, weekly schedule slot (DTU modules and KU schedule groups) and recommended prerequisites from the 2026/27 course catalogues; plans avoid combining courses in the same slot, and spread the courses over the semesters that the thesis leaves free.</p>
-    <p>These are suggestions, not study advice. Check your programme's curriculum for which courses count towards your degree and their prerequisites, and talk to your study counsellor. Course levels are first estimates by Danish Quantum Academy. <span id="cite"></span></p>
+    <p id="cite"></p>
+    <!--SITEFOOT-->
   </footer>
 </div>
 
