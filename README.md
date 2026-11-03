@@ -43,6 +43,8 @@ site/
   planner_template.html     # course finder: interests -> three MSc course plans (planner.html)
   people_template.html      # research behind the courses: educators, units, research and course fit (people.html)
   groups_template.html      # research group profiles: members, publications, projects, news, events, positions, courses (groups.html)
+  about_template.html       # about the data: scope, sources and methods for all pages (about.html)
+                            # build_site.py adds the shared navigation, how-to-read styling and footer to every page
   index.html                # generated; served by GitHub Pages
   CNAME                     # map.danishquantumacademy.dk
 .github/workflows/pages.yml # builds and publishes the site on every push to main
