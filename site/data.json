@@ -254,6 +254,50 @@
      "MATH": "Mathematical Sciences"
     }
    }
+  },
+  "schools": {
+   "GYM": {
+    "name": "Upper secondary schools (stx and htx)",
+    "short": "STX/HTX",
+    "course_base": "https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/",
+    "course_url": "{url}",
+    "harvested": "2026-11-03",
+    "academic_year": "2026/2027",
+    "schools": {
+     "STX": 144,
+     "HTX": 34
+    },
+    "scope": "Physics A at stx and htx, nationwide. Content from the 2024 subject guidelines for Fysik A (stx and htx) and the Kvant21 project (KVANT, November 2025). Counts of schools (144 stx, 34 htx) as given by Danish Quantum Academy.",
+    "fysik_a": {
+     "source": "https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/",
+     "note": "Students graduating with Fysik A (written, final grade), and school departments with at least one such student, from the Ministry of Children and Education's statistics on graduates' grades (same population).",
+     "years": {
+      "2025": {
+       "STX": {
+        "students": 1053,
+        "departments": 92
+       },
+       "HTX": {
+        "students": 944,
+        "departments": 43
+       }
+      },
+      "2026": {
+       "STX": {
+        "students": 1053,
+        "departments": 92
+       },
+       "HTX": {
+        "students": 839,
+        "departments": 39
+       }
+      }
+     }
+    },
+    "departments": {
+     "FYS": "Physics (Fysik A)"
+    }
+   }
   }
  },
  "courses": [
@@ -5356,6 +5400,102 @@
    "kw_medium": 2,
    "note": "",
    "url": "https://kurser.dtu.dk/course/56868"
+  },
+  {
+   "institution": "GYM",
+   "level": "STX",
+   "code": "STX-FYS-A-KVANT21",
+   "title": "Fysik A (stx): Kvant21 – quantum physics and quantum technology in 'Fysik i det 21. århundrede'",
+   "language": "Danish",
+   "ects": null,
+   "dept_name": "Physics (Fysik A)",
+   "subs": [
+    "1.1",
+    "2.2",
+    "7.3"
+   ],
+   "primary": "1.1",
+   "domain": "1",
+   "prof": {
+    "I": "A2",
+    "III": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 0,
+   "note": "Required on stx Fysik A at all 144 stx schools (Danish Quantum Academy). Kvant21 develops the material for the 3.g topic 'Fysik i det 21. århundrede' (about 15 lessons): two-state systems such as polarised light, the Mach-Zehnder interferometer, single-photon experiments and simulations, and an introduction to quantum cryptography, quantum sensors and quantum computers. Material under development 2025–2027; first teacher courses spring 2027.",
+   "url": "https://tidsskrift.dk/KVANT/article/download/167609/208571/374195"
+  },
+  {
+   "institution": "GYM",
+   "level": "HTX",
+   "code": "HTX-FYS-A-KVANT21",
+   "title": "Fysik A (htx): Kvant21 as supplementary material (optional)",
+   "language": "Danish",
+   "ects": null,
+   "dept_name": "Physics (Fysik A)",
+   "subs": [
+    "1.1",
+    "2.2",
+    "7.3"
+   ],
+   "primary": "1.1",
+   "domain": "1",
+   "prof": {
+    "I": "A2",
+    "III": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 0,
+   "note": "Optional at the 34 htx schools: Kvant21 material can be used as supplementary reading or a project in Fysik A. Quantum technology is not on the central list of chosen topics for htx Fysik A in 2026/27.",
+   "url": "https://tidsskrift.dk/KVANT/article/download/167609/208571/374195"
+  },
+  {
+   "institution": "GYM",
+   "level": "STX",
+   "code": "STX-FYS-A-KERNE",
+   "title": "Fysik A (stx): core content in quantum physics (photons, spectra, atomic structure)",
+   "language": "Danish",
+   "ects": null,
+   "dept_name": "Physics (Fysik A)",
+   "subs": [
+    "1.1",
+    "2.1"
+   ],
+   "primary": "1.1",
+   "domain": "1",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 0,
+   "note": "Core content of stx Fysik A at all 144 stx schools and the basis of the written exam: atomic and nuclear structure, photon energy and momentum, emission and absorption spectra.",
+   "url": "https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf"
+  },
+  {
+   "institution": "GYM",
+   "level": "HTX",
+   "code": "HTX-FYS-A-KERNE",
+   "title": "Fysik A (htx): core content in atomic physics (photons, hydrogen spectrum)",
+   "language": "Danish",
+   "ects": null,
+   "dept_name": "Physics (Fysik A)",
+   "subs": [
+    "1.1",
+    "2.1"
+   ],
+   "primary": "1.1",
+   "domain": "1",
+   "prof": {
+    "I": "A1"
+   },
+   "status": "estimated",
+   "kw_strong": 0,
+   "kw_medium": 0,
+   "note": "Core content of htx Fysik A at all 34 htx schools: photon energy and the hydrogen spectrum explained with Bohr's model of quantised energy levels.",
+   "url": "https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf"
   },
   {
    "institution": "KU",

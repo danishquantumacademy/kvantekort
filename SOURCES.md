@@ -38,6 +38,15 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | odinlister.sdu.dk | 38 |
 | odin.sdu.dk | 9 |
 | phdcourses.dk | 6 |
+| uvm.dk | 2 |
+| tidsskrift.dk | 1 |
+
+### Upper secondary
+
+| Site | Pages |
+|---|---:|
+| uddannelsesstatistik.dk | 1 |
+| uvm.dk | 1 |
 
 ### Timetable and prerequisites
 
@@ -183,4 +192,4 @@ The workflow "Check sources" opened 128 pages (up to three per site) from a GitH
 
 
 
-Total: 1830 pages from 70 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 1835 pages from 73 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

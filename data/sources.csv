@@ -192,6 +192,9 @@ Course catalogue,DTU,https://kurser.dtu.dk/course/22681,"Course description, ECT
 Course catalogue,DTU,https://kurser.dtu.dk/course/34091,"Course description, ECTS, level, language (34091)",data/classification/dtu.csv
 Course catalogue,DTU,https://kurser.dtu.dk/course/34492,"Course description, ECTS, level, language (34492)",data/classification/dtu.csv
 Course catalogue,DTU,https://kurser.dtu.dk/course/56868,"Course description, ECTS, level, language (56868)",data/classification/dtu.csv
+Course catalogue,GYM,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,"Course description, ECTS, level, language (STX-FYS-A-KVANT21)",data/classification/gym.csv
+Course catalogue,GYM,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,"Course description, ECTS, level, language (STX-FYS-A-KERNE)",data/classification/gym.csv
+Course catalogue,GYM,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,"Course description, ECTS, level, language (HTX-FYS-A-KERNE)",data/classification/gym.csv
 Course catalogue,KU,https://phdcourses.dk/Course/150049,"Course description, ECTS, level, language (PC-150049)",data/classification/ku.csv
 Course catalogue,KU,https://phdcourses.dk/Course/148446,"Course description, ECTS, level, language (PC-148446)",data/classification/ku.csv
 Course catalogue,KU,https://kucourses.dk/course/NDAK26003U,"Course description, ECTS, level, language (NDAK26003U)",data/classification/ku.csv
@@ -295,6 +298,8 @@ Course catalogue,KU,https://kucourses.dk,"Course list and descriptions, 2026/27 
 Course catalogue,AU,https://kursuskatalog.au.dk,"Course list and descriptions, 2026/27 (Natural Sciences and Technical Sciences. PhD courses from phdcourses.dk (Graduate Schools of Natural and Technical Sciences).)",data/reference.json
 Course catalogue,SDU,https://odinlister.sdu.dk,"Course list and descriptions, 2026/27 (Faculty of Science (code prefixes FY, FT, KE, MM, DM, AI, NAT, QC) and the Faculty of Engineering programmes in Physics and Technology and Electronics. Active course descriptions only. PhD courses supplemented from phdcourses.dk.)",data/reference.json
 Course catalogue,AAU,https://moduler.aau.dk,"Course list and descriptions, 2026/27 (Faculty of Engineering and Science and the Technical Faculty of IT and Design. Totals are unique module titles per level. PhD courses from phdcourses.dk.)",data/reference.json
+Upper secondary,GYM,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,"Students and school departments with Fysik A, 2025 and 2026",data/reference.json
+Upper secondary,GYM,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,Subject guidelines (læreplaner) for stx,data/reference.json
 Course catalogue,,https://phdcourses.dk,PhD courses at all five universities,data/classification/*.csv
 Timetable and prerequisites,AAU,https://moduler.aau.dk,"Semester, teaching block, schedule slot and recommended prerequisites, from the course pages",data/schedule/aau.txt
 Timetable and prerequisites,AU,https://kursuskatalog.au.dk,"Semester, teaching block, schedule slot and recommended prerequisites, from the course pages",data/schedule/au.txt

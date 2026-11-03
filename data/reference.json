@@ -253,5 +253,49 @@
         "MATH": "Mathematical Sciences"
       }
     }
+  },
+  "schools": {
+    "GYM": {
+      "name": "Upper secondary schools (stx and htx)",
+      "short": "STX/HTX",
+      "course_base": "https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/",
+      "course_url": "{url}",
+      "harvested": "2026-11-03",
+      "academic_year": "2026/2027",
+      "schools": {
+        "STX": 144,
+        "HTX": 34
+      },
+      "scope": "Physics A at stx and htx, nationwide. Content from the 2024 subject guidelines for Fysik A (stx and htx) and the Kvant21 project (KVANT, November 2025). Counts of schools (144 stx, 34 htx) as given by Danish Quantum Academy.",
+      "fysik_a": {
+        "source": "https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/",
+        "note": "Students graduating with Fysik A (written, final grade), and school departments with at least one such student, from the Ministry of Children and Education's statistics on graduates' grades (same population).",
+        "years": {
+          "2025": {
+            "STX": {
+              "students": 1053,
+              "departments": 92
+            },
+            "HTX": {
+              "students": 944,
+              "departments": 43
+            }
+          },
+          "2026": {
+            "STX": {
+              "students": 1053,
+              "departments": 92
+            },
+            "HTX": {
+              "students": 839,
+              "departments": 39
+            }
+          }
+        }
+      },
+      "departments": {
+        "FYS": "Physics (Fysik A)"
+      }
+    }
   }
 }

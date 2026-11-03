@@ -168,6 +168,15 @@ details.dgroup>summary:hover h2{color:var(--accent)}
 .meta{grid-column:2/4;display:flex;flex-wrap:wrap;gap:3px 12px;font-size:12.5px;color:var(--muted)}
 .meta .mono{font-family:var(--mono)}
 .empty{padding:20px;color:var(--muted);text-align:center}
+.pick.school{border-style:dashed}
+.schoolbox{display:grid;gap:8px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.schoolbox h3{margin:0;font-size:14px}
+.stbl{border-collapse:collapse;font-size:13px;width:100%}
+.stbl th,.stbl td{padding:4px 6px;border-bottom:1px solid var(--line);text-align:left}
+.stbl .n{text-align:right;font-variant-numeric:tabular-nums}
+.stbl thead th{font:600 11px var(--mono);color:var(--muted)}
+.snote{grid-column:2/-1;margin:2px 0 0;font-size:12.5px;color:var(--muted);max-width:90ch}
+th.school{border-left:2px solid var(--line)}
 footer{font-size:13px;color:var(--muted);display:grid;gap:8px;border-top:1px solid var(--line);padding-top:18px}
 footer p{margin:0;max-width:80ch}
 footer a{color:var(--accent)}
@@ -180,7 +189,7 @@ footer a{color:var(--accent)}
     <h1>Danish Quantum Education Map</h1>
     <p class="lede">How far do quantum courses at Danish universities take students, and which parts of the <strong>European Competence Framework for Quantum Technologies (CFQT)</strong> do they cover?</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
-      <p><b>Choose a university.</b> The small triangles show Denmark and each university. Select one to update everything below.</p>
+      <p><b>Choose a university or STX/HTX.</b> The small triangles show Denmark (all universities) and each university. The last one, STX/HTX, shows physics A at upper secondary school: the content that applies to all 144 stx and 34 htx schools, including the Kvant21 material on quantum physics and quantum technology. It is kept apart from the universities and not counted in Denmark. Select one to update everything below.</p>
       <p><b>The triangle.</b> The CFQT proficiency triangle has (I) Quantum concepts at the top, (II) QT hardware &amp; software engineering on the left and (III) QT applications &amp; strategies on the right. Levels grow from A1 in the centre to C2 at the corners. Each band shows the number of courses whose estimated level in that area is exactly that level; the shade tells how many, in five fixed steps, so the same shade means the same count for every university. Select a band to list its courses. The bars under the triangle show the same numbers per area, including courses without QT-specific proficiency ("none").</p>
       <p><b>Content map and coverage.</b> The tiles count courses covering each CFQT domain, as primary or secondary subdomain. Select a tile to list its courses, or unfold the coverage table to see each subdomain per university; empty cells point to gaps in the educational offer.</p>
       <p><b>Course list.</b> Courses are grouped by the CFQT domain of their main topic. In each row, <span class="sd p" style="color:var(--d4);background:var(--d4);border-color:var(--d4)">4.4</span> filled is the primary subdomain, <span class="sd" style="color:var(--d4)">2.2</span> outlined are further subdomains, and <span class="pl" style="color:var(--aI)">I B2</span> is the estimated proficiency level per area.</p>
@@ -205,6 +214,7 @@ footer a{color:var(--accent)}
     <section class="panel" aria-labelledby="cm-h">
       <h2 id="cm-h">Selection</h2>
       <div class="stats" id="stats"></div>
+      <div class="schoolbox" id="school-info" hidden></div>
       <h3 style="margin-top:6px">CFQT content map</h3>
       <div class="cmap" id="cmap"></div>
       <button type="button" class="linkbtn" id="unfold">Unfold the content map by subdomain and university ↓</button>
@@ -253,8 +263,13 @@ footer a{color:var(--accent)}
   const R=D.reference, C=D.courses, Q=R.cfqt;
   const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], DOMS=Object.keys(Q.domains);
   const INSTS=Object.keys(R.institutions);
-  const LEVEL_ORDER=['BSc','MSc','PhD','Diplom','Master'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
-  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master'};
+  // upper secondary schools (stx/htx) are a separate group: shown with their own button, never counted in "Denmark" (the universities)
+  const SCH=R.schools||{}, SKEYS=Object.keys(SCH), ALLI={...R.institutions,...SCH};
+  const isSchool=k=>SKEYS.includes(k);
+  const inGroup=(c,i)=>i==='ALL'?!!R.institutions[c.institution]:c.institution===i;
+  const LEVEL_ORDER=['BSc','MSc','PhD','Diplom','Master','STX','HTX'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master'};
+  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx'};
+  const SCHOOL_LEVELS=['STX','HTX'];
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
   const NS='http://www.w3.org/2000/svg';
@@ -262,13 +277,14 @@ footer a{color:var(--accent)}
   const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
-  const sel=inst=>C.filter(c=>(inst==='ALL'||c.institution===inst)&&state.levels.has(c.level));
-  const whereName=()=>state.inst==='ALL'?'Denmark':R.institutions[state.inst].name;
+  const sel=inst=>C.filter(c=>inGroup(c,inst)&&state.levels.has(c.level));
+  const whereName=()=>state.inst==='ALL'?'Denmark':ALLI[state.inst].name;
+  const shortName=i=>i==='ALL'?'Denmark':(ALLI[i].short||i);
 
   // ---- links: the page state lives in the address, so links into the old coverage and triangle pages keep working ----
   function readURL(){
     const p=new URLSearchParams(location.search);
-    const i=p.get('inst'); if(i&&INSTS.includes(i)) state.inst=i;
+    const i=p.get('inst'); if(i&&(INSTS.includes(i)||isSchool(i))) state.inst=i;
     const s=p.get('sub'); if(s&&DOMS.includes(s.split('.')[0])&&Q.domains[s.split('.')[0]].subdomains[s]) state.sub=s;
     const d=p.get('dom'); if(d&&DOMS.includes(d)) state.dom=d;
     const b=p.get('band'); if(b&&/^(I|II|III)-(A1|A2|B1|B2|C1|C2)$/.test(b)){const [a,l]=b.split('-');state.cell={a,l}}
@@ -346,10 +362,12 @@ footer a{color:var(--accent)}
   const picker=document.getElementById('picker');
   function renderPicker(){
     picker.innerHTML='';
-    ['ALL',...INSTS].forEach(k=>{
+    ['ALL',...INSTS,...SKEYS].forEach(k=>{
       const svg=sv('svg',{'aria-hidden':'true'}), list=sel(k);
       drawTriangle(svg,list,{W:200});
-      const b=el('button',{class:'pick',type:'button','aria-pressed':String(state.inst===k),title:k==='ALL'?'All Danish universities':R.institutions[k].name},svg,el('span',{class:'nm'},k==='ALL'?'Denmark':k),el('span',{class:'ct'},`${list.length} courses`));
+      const sc=isSchool(k)&&SCH[k].schools;
+      const b=el('button',{class:'pick'+(isSchool(k)?' school':''),type:'button','aria-pressed':String(state.inst===k),title:k==='ALL'?'All Danish universities':ALLI[k].name},svg,el('span',{class:'nm'},shortName(k)),
+        el('span',{class:'ct'},sc?`${sc.STX} stx · ${sc.HTX} htx schools`:`${list.length} courses`));
       b.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;render()};
       picker.append(b);
     });
@@ -357,7 +375,7 @@ footer a{color:var(--accent)}
 
   // ---- study level filter ----
   const lf=document.getElementById('lvl-filters');
-  LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(state.levels.has(L)),title:LEVEL_NAME[L],'data-l':L},LEVEL_LABEL[L]||L);b.onclick=()=>{if(state.levels.has(L)){if(state.levels.size===1)return;state.levels.delete(L)}else state.levels.add(L);state.cell=null;render()};lf.append(b)});
+  LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(state.levels.has(L)),title:LEVEL_NAME[L],'data-l':L},LEVEL_LABEL[L]||L);b.onclick=()=>{const grp=LEVELS.filter(x=>SCHOOL_LEVELS.includes(x)===SCHOOL_LEVELS.includes(L));if(state.levels.has(L)){if(grp.filter(x=>state.levels.has(x)).length===1)return;state.levels.delete(L)}else state.levels.add(L);state.cell=null;render()};lf.append(b)});
 
   // ---- keys ----
   const rl=document.getElementById('ramp-legend');
@@ -387,6 +405,15 @@ footer a{color:var(--accent)}
     });
   }
 
+  function renderSchool(){
+    const box=document.getElementById('school-info'); box.innerHTML=''; box.hidden=!isSchool(state.inst); if(box.hidden) return;
+    const S=SCH[state.inst], fa=S.fysik_a, yrs=Object.keys(fa.years).sort();
+    const tb=el('tbody',{},...['STX','HTX'].map(k=>el('tr',{},el('th',{scope:'row'},k.toLowerCase()),el('td',{class:'n'},String(S.schools[k])),...yrs.flatMap(y=>[el('td',{class:'n'},String(fa.years[y][k].departments)),el('td',{class:'n'},fa.years[y][k].students.toLocaleString('en'))]))));
+    box.append(el('h3',{},'Upper secondary schools and physics A'),
+      el('table',{class:'stbl'},el('thead',{},el('tr',{},el('th',{},''),el('th',{class:'n'},'Schools'),...yrs.flatMap(y=>[el('th',{class:'n'},`Depts with Fysik A ${y}`),el('th',{class:'n'},`Fysik A students ${y}`)]))),tb),
+      el('p',{class:'sub'},fa.note+' ',el('a',{href:fa.source,target:'_blank',rel:'noopener'},'Source'),'. One school can have more than one department. The courses below apply to every school of that type; the triangle shows the content, not the number of schools.'));
+  }
+
   function renderCmap(list){
     const box=document.getElementById('cmap'); box.innerHTML='';
     const cnt=d=>list.filter(c=>c.subs.some(s=>s.split('.')[0]===d)).length, prim=d=>list.filter(c=>c.domain===d).length;
@@ -404,10 +431,10 @@ footer a{color:var(--accent)}
   function renderMatrix(){
     const base=C.filter(c=>state.levels.has(c.level));
     const t=document.getElementById('matrix'); t.innerHTML='';
-    const cols=[...INSTS,'ALL'];
-    t.append(el('thead',{},el('tr',{},el('th',{scope:'col'},'CFQT domain / subdomain'),...cols.map(i=>el('th',{scope:'col',class:'n'+(state.inst===i?' on':''),title:i==='ALL'?'All universities':R.institutions[i].name},i==='ALL'?'All':i)))));
+    const cols=[...INSTS,'ALL',...SKEYS];
+    t.append(el('thead',{},el('tr',{},el('th',{scope:'col'},'CFQT domain / subdomain'),...cols.map(i=>el('th',{scope:'col',class:'n'+(state.inst===i?' on':''),title:i==='ALL'?'All universities':ALLI[i].name,class:'n'+(state.inst===i?' on':'')+(isSchool(i)?' school':'')},i==='ALL'?'All':shortName(i))))));
     const tb=el('tbody');
-    const cellBtn=(cs,i,s,label)=>{const b=el('button',{type:'button',class:cs.length?'':'zero',title:cs.length?`${i==='ALL'?'Denmark':i} · ${label}: ${cs.length} course(s)`:`${i==='ALL'?'Denmark':i} · ${label}: no courses`},cs.length?String(cs.length):'–');
+    const cellBtn=(cs,i,s,label)=>{const b=el('button',{type:'button',class:cs.length?'':'zero',title:cs.length?`${shortName(i)} · ${label}: ${cs.length} course(s)`:`${shortName(i)} · ${label}: no courses`},cs.length?String(cs.length):'–');
       if(cs.length){b.style.background=`rgba(var(--heat),${heat(cs.length)})`; if(heat(cs.length)>.55) b.style.color='var(--bg)';
         if(s.includes('.')&&state.sub===s&&state.inst===i) b.classList.add('sel');
         if(!s.includes('.')&&!state.sub&&state.dom===s&&state.inst===i) b.classList.add('sel');
@@ -417,16 +444,16 @@ footer a{color:var(--accent)}
       const dom=Q.domains[d], open=state.openDom.has(d);
       const db=el('button',{type:'button',class:'dbtn','aria-expanded':String(open),style:`color:${dcol(d)}`},el('span',{class:'code'},d),dom.name);
       db.onclick=()=>{open?state.openDom.delete(d):state.openDom.add(d);renderMatrix()};
-      tb.append(el('tr',{class:'dom'+(open?' open':'')},el('td',{},db),...cols.map(i=>el('td',{class:'cell'+(state.inst===i?' on':'')},cellBtn(base.filter(c=>(i==='ALL'||c.institution===i)&&c.subs.some(s=>s.split('.')[0]===d)),i,d,`${d} ${dom.name}`)))));
+      tb.append(el('tr',{class:'dom'+(open?' open':'')},el('td',{},db),...cols.map(i=>el('td',{class:'cell'+(state.inst===i?' on':'')},cellBtn(base.filter(c=>inGroup(c,i)&&c.subs.some(s=>s.split('.')[0]===d)),i,d,`${d} ${dom.name}`)))));
       if(!open) return;
       Object.entries(dom.subdomains).forEach(([s,name])=>{
-        tb.append(el('tr',{},el('td',{class:'sname'},el('span',{class:'scode'},s),name),...cols.map(i=>el('td',{class:'cell'+(state.inst===i?' on':'')},cellBtn(base.filter(c=>(i==='ALL'||c.institution===i)&&c.subs.includes(s)),i,s,`${s} ${name}`)))));
+        tb.append(el('tr',{},el('td',{class:'sname'},el('span',{class:'scode'},s),name),...cols.map(i=>el('td',{class:'cell'+(state.inst===i?' on':'')},cellBtn(base.filter(c=>inGroup(c,i)&&c.subs.includes(s)),i,s,`${s} ${name}`)))));
       });
     });
     t.append(tb);
     const nsub=Object.values(Q.domains).reduce((n,d)=>n+Object.keys(d.subdomains).length,0);
-    const gaps=Object.values(Q.domains).flatMap(d=>Object.keys(d.subdomains)).filter(s=>!base.some(c=>(state.inst==='ALL'||c.institution===state.inst)&&c.subs.includes(s))).length;
-    document.getElementById('cov-cnt').textContent=`${nsub} subdomains · ${gaps} without courses in ${state.inst==='ALL'?'Denmark':state.inst}`;
+    const gaps=Object.values(Q.domains).flatMap(d=>Object.keys(d.subdomains)).filter(s=>!base.some(c=>inGroup(c,state.inst)&&c.subs.includes(s))).length;
+    document.getElementById('cov-cnt').textContent=`${nsub} subdomains · ${gaps} without courses in ${shortName(state.inst)}`;
   }
   document.getElementById('dom-open').onclick=()=>{DOMS.forEach(d=>state.openDom.add(d));renderMatrix()};
   document.getElementById('dom-close').onclick=()=>{state.openDom.clear();renderMatrix()};
@@ -457,13 +484,14 @@ footer a{color:var(--accent)}
     const pk=AREAS.filter(a=>c.prof[a]);
     if(pk.length) pk.forEach(a=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${c.prof[a]} ${Q.levels[c.prof[a]]} – ${Q.level_by_area[a][c.prof[a]]}`},`${a} ${c.prof[a]}`)));
     else tags.append(el('span',{class:'none'},'no QT-specific proficiency'));
-    return el('div',{class:'row'},el('span',{class:'ic'},c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
-      el('span',{class:'b',title:LEVEL_NAME[c.level]},`${LEVEL_LABEL[c.level]||c.level} · ${c.ects??'–'} ECTS`),tags,
-      el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,kwbars(c)));
+    return el('div',{class:'row'},el('span',{class:'ic'},isSchool(c.institution)?c.level:c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
+      el('span',{class:'b',title:LEVEL_NAME[c.level]},c.ects!=null?`${LEVEL_LABEL[c.level]||c.level} · ${c.ects} ECTS`:(LEVEL_LABEL[c.level]||c.level)),tags,
+      el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,isSchool(c.institution)?null:kwbars(c)),
+      isSchool(c.institution)&&c.note?el('p',{class:'snote'},c.note):null);
   }
   function renderList(){
     const list=sel(state.inst), f=list.filter(matches), box=document.getElementById('list'); box.innerHTML='';
-    document.getElementById('count').textContent=`${f.length} of ${list.length} · ${state.inst==='ALL'?'Denmark':state.inst}`;
+    document.getElementById('count').textContent=`${f.length} of ${list.length} · ${shortName(state.inst)}`;
     const act=document.getElementById('active'); act.innerHTML='';
     const label=state.cell?`(${state.cell.a}) ${Q.areas[state.cell.a]} at ${state.cell.l} ${Q.levels[state.cell.l]}`:state.sub?`Subdomain ${state.sub} ${subName(state.sub)}`:state.dom?`Domain ${state.dom} ${Q.domains[state.dom].name}`:'';
     if(label){const b=el('button',{type:'button'},'Clear');b.onclick=()=>{state.cell=null;state.dom=null;state.sub=null;render()};act.append(el('span',{},'Showing ',el('b',{},label),` in ${whereName()}`),b)}
@@ -485,7 +513,8 @@ footer a{color:var(--accent)}
   function render(){
     const list=sel(state.inst);
     renderPicker();
-    lf.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(state.levels.has(b.dataset.l))));
+    lf.querySelectorAll('button').forEach(b=>{b.setAttribute('aria-pressed',String(state.levels.has(b.dataset.l)));b.hidden=SCHOOL_LEVELS.includes(b.dataset.l)!==isSchool(state.inst)});
+    renderSchool();
     document.getElementById('tri-h').textContent=`Proficiency triangle · ${whereName()}`;
     drawTriangle(document.getElementById('tri'),list,{W:600,labels:true});
     renderProf(list); renderStats(list); renderCmap(list); renderMatrix(); renderList(); writeURL();

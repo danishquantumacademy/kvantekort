@@ -17,6 +17,8 @@ data/
   reference.json            # CFQT content map (8 domains, 42 subdomains), areas, levels; institutions and totals
   raw/<inst>_courses.json   # full harvest (all courses), produced by the scrapers
   classification/<inst>.csv # quantum-relevant courses with CFQT subdomains and proficiency levels
+  classification/gym.csv    # physics A at upper secondary school (stx/htx): core content and Kvant21, valid for all schools of each type;
+                            # school counts and Fysik A statistics are under "schools" in reference.json
   schedule/<inst>.txt       # MSc courses: semester, teaching block, weekly schedule slot, prerequisite course codes
   people/<inst>.txt         # educators: position, organisational units, portal fingerprint / recent outputs (research portals)
   people/research.txt       # research focus per educator with CFQT subdomains (written by DQA)

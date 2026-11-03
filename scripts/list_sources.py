@@ -36,11 +36,14 @@ for f in sorted((D / "classification").glob("*.csv")):
     for r in csv.DictReader(f.open(encoding="utf-8")):
         if not r["cfqt_primary"]:
             continue
-        inst = ref["institutions"][r["institution"]]
+        inst = {**ref["institutions"], **ref.get("schools", {})}[r["institution"]]
         url = r.get("url") or inst["course_url"].format_map({**r, "ref": r.get("ref") or r["code"]})
         add("Course catalogue", r["institution"], url, f"Course description, ECTS, level, language ({r['code']})", f"data/classification/{f.name}")
 for k, v in ref["institutions"].items():
     add("Course catalogue", k, v["course_base"], "Course list and descriptions, 2026/27 (" + v.get("scope", "") + ")", "data/reference.json")
+for k, v in ref.get("schools", {}).items():
+    add("Upper secondary", k, v["fysik_a"]["source"], "Students and school departments with Fysik A, 2025 and 2026", "data/reference.json")
+    add("Upper secondary", k, v["course_base"], "Subject guidelines (læreplaner) for stx", "data/reference.json")
 add("Course catalogue", "", "https://phdcourses.dk", "PhD courses at all five universities", "data/classification/*.csv")
 
 # 3. Timetables and prerequisites come from the same course pages as above (data/schedule/*.txt)

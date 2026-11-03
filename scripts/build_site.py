@@ -20,7 +20,7 @@ courses, unmapped = [], 0
 for f in sorted((ROOT / "data/classification").glob("*.csv")):
     with f.open(encoding="utf-8") as fh:
         for r in csv.DictReader(fh):
-            inst = ref["institutions"][r["institution"]]
+            inst = {**ref["institutions"], **ref.get("schools", {})}[r["institution"]]
             subs = [s for s in [r["cfqt_primary"], *r["cfqt_secondary"].split(";")] if s]
             bad = [s for s in subs if s not in valid_subs] + [p for p in (r["prof_I"], r["prof_II"], r["prof_III"]) if p and p not in valid_levels]
             if bad:
