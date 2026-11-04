@@ -81,7 +81,7 @@ for prog in programmes["programmes"]:
 out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
-NAV = [("Education", [("index", "index.html", "Courses and proficiency"), ("planner", "planner.html", "Study planner")]),
+NAV = [("Education", [("index", "index.html", "Proficiency"), ("planner", "planner.html", "Study planner")]),
        ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")])]
 SHARED_CSS = """
 /* shared site chrome: navigation, how-to-read boxes, footer */
@@ -381,7 +381,7 @@ import subprocess, sys
 subprocess.run([sys.executable, str(ROOT / "scripts/list_sources.py")], check=True)
 
 # Forsiden får ph.d.- og postdoc-projekterne med (små trekanter pr. universitet) og bygges derfor igen til sidst.
-out["projects"] = [{k: x[k] for k in ("kind", "inst", "prof", "basis") if k in x} for x in proj_list]
+out["projects"] = [{k: x[k] for k in ("kind", "inst", "prof", "basis", "title", "url", "subs", "who", "group") if k in x} for x in proj_list]
 body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "index")
 page = page.split("<body>\n")[0] + "<body>\n" + body + "\n</body>\n</html>\n"
 (ROOT / "site/index.html").write_text(page, encoding="utf-8")
