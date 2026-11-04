@@ -1,0 +1,59 @@
+name: Harvest research output
+
+# Reads research output (2021 onwards) and supervised PhD theses of every educator from the public research portals
+# and commits data/people/research_outputs/*.tsv. Started by hand.
+on:
+  workflow_dispatch:
+    inputs:
+      inst:
+        description: "Universities (space separated)"
+        default: "DTU KU AU SDU AAU"
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        inst: [DTU, KU, AU, SDU, AAU]
+    steps:
+      - uses: actions/checkout@v4
+        if: contains(github.event.inputs.inst, matrix.inst)
+      - uses: actions/setup-python@v5
+        if: contains(github.event.inputs.inst, matrix.inst)
+        with:
+          python-version: "3.12"
+      - name: Install browser
+        if: contains(github.event.inputs.inst, matrix.inst)
+        run: pip install playwright==1.47.0 && python -m playwright install --with-deps chromium
+      - name: Harvest
+        if: contains(github.event.inputs.inst, matrix.inst)
+        run: python scripts/harvest_research.py ${{ matrix.inst }}
+      - uses: actions/upload-artifact@v4
+        if: contains(github.event.inputs.inst, matrix.inst)
+        with:
+          name: out-${{ matrix.inst }}
+          path: data/people/research_outputs/
+
+  commit:
+    needs: harvest
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dl
+      - name: Commit
+        run: |
+          mkdir -p data/people/research_outputs
+          find dl -name '*.tsv' -exec cp {} data/people/research_outputs/ \;
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/people/research_outputs
+          git diff --cached --quiet || git commit -m "Research output harvest [skip ci]"
+          git pull --rebase && git push

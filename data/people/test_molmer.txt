@@ -1,0 +1,84 @@
+# TEST: research proficiency of one researcher, Klaus Mølmer (KU, Niels Bohr Institute, Quantum Optics and Photonics).
+# CFQT subdomains written by Danish Quantum Academy from titles, keywords and project descriptions, 2026-11-04. Primary first.
+# Sources (public):
+#   P = research profile: KU research portal (unit) and AU research portal (keywords: Atomic physics, Quantum computers, Quantum mechanics)
+#       https://researchprofiles.ku.dk/en/persons/klaus-m%C3%B8lmer/  https://pure.au.dk/portal/en/persons/klaus-m%C3%B8lmer
+#   O = research output 2021-2026, KU research portal (publications list)
+#   S = PhD supervision, AU research portal (tab "PhD supervision"); KU's portal does not record supervisor roles
+# Format: kind|year|subs|title   (subs "x" = not research, left out)
+P|2026|2.2;2.1;5.1;1.1|Research profile: quantum optics and photonics; keywords atomic physics, quantum computers, quantum mechanics
+O|2026|5.4;2.4;1.2|Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right
+O|2026|1.2;7.1|Censorship of quantum resources against quantum catalysis
+O|2026|2.2;6.6;6.1|Complementary collective spin descriptions of superradiant Ramsey spectroscopy
+O|2026|1.2|Entangling power of nonentangling channels
+O|2026|2.2;4.4|Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States
+O|2026|7.5;2.2|Interactions in quantum networks with pulse propagation delays
+O|2026|6.1;2.4;6.6|Lieb-Mattis States for Robust Entangled Differential Phase Sensing
+O|2026|4.3;4.6;3.4|Optimal control for Rydberg multi-qubit operations
+O|2026|4.2;2.2|Proposal for room-temperature superradiant echoes induced by multiple re-phasing of frequency-grated NV spin sub-ensembles
+O|2025|2.4|Boundary Time Crystals Induced by Local Dissipation and Long-Range Interactions
+O|2025|6.2;6.1;3.5|Concurrent spin squeezing and field tracking with machine learning
+O|2025|6.1;2.1|Cooperative Squeezing of Internal and Collective Spins in an Atomic Ensemble
+O|2025|5.5;4.6|Deterministic carving of quantum states with Grover's algorithm
+O|2025|5.5;2.2;4.6|Efficient Preparation of Entangled States in Cavity QED with Grover's Algorithm
+O|2025|2.2;3.3|Enhanced Laser Cooling of a Mechanical Resonator via Zero-Photon Detection
+O|2025|4.3;7.1;2.1|Generating Einstein-Podolsky-Rosen correlations for teleporting collective spin states in a two-dimensional trapped ion crystal
+O|2025|5.2;2.4;4.3|Probing Hilbert space fragmentation with strongly interacting Rydberg atoms
+O|2025|1.1;2.4|Retrodiction of measurement outcomes on a single quantum system revealing entanglement with its environment
+O|2025|2.4;6.1|Stochastic collective density-matrix approach for conditional spin squeezing
+O|2025|2.4;2.2|Stochastic Schrödinger equation for homodyne measurements of strongly correlated systems
+O|2025|2.2;4.2|Superradiance from nitrogen-vacancy centers coupled to an ultranarrow optical cavity
+O|2025|2.2;3.3|Theoretical framework for enhancing or enabling cooling of a mechanical resonator
+O|2025|2.2;4.3;4.4|Unidirectional quantum-optical elements for waveguide-QED with subwavelength Rydberg-atom arrays
+O|2024|2.2;4.2|Cavity-Mediated Collective Emission from Few Emitters in a Diamond Membrane
+O|2024|7.5;1.2|Censorship of quantum resources in quantum networks
+O|2024|4.4;3.3|Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conversion
+O|2024|2.2;6.6|Conditional Dynamics in Heterodyne Detection of Superradiant Lasing with Incoherently Pumped Atoms
+O|2024|2.2|Jaynes-Cummings interaction with a traveling light pulse
+O|2024|2.4;1.1|Many-body entanglement via 'which-path' information
+O|2024|x|Médaille d'or du CNRS Jean Dalibard: Avant-propos
+O|2024|2.2;4.4|Parametric amplification of a quantum pulse
+O|2024|5.2;4.3;2.4|Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays
+O|2024|2.2;4.4|Subtraction and Addition of Propagating Photons by Two-Level Emitters
+O|2024|4.2;2.2|Theoretical study of superradiant masing with solid-state spins at room temperature
+O|2023|2.2;4.4|Creation of nonclassical states of light in a chiral waveguide
+O|2023|4.1;4.2;6.2|In situ amplification of spin echoes within a kinetic inductance parametric amplifier
+O|2023|2.1;4.3|Interaction of two Rydberg atoms in the vicinity of an optical nanofibre
+O|2023|2.2;2.4|Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective
+O|2023|4.1;2.2|Multimode character of quantum states released from a superconducting cavity
+O|2023|2.2;2.4|Nonclassical radiation from a nonlinear oscillator driven solely by classical 1/f noise
+O|2023|4.3;5.1|Optical multiqubit gate operations on an excitation-blockaded atomic quantum register
+O|2023|2.2;4.4|Perfect splitting of a two-photon pulse
+O|2023|4.6;6.1;2.2|Qubit readout and quantum sensing with pulses of quantum radiation
+O|2022|6.6;2.1|Active Frequency Measurement on Superradiant Strontium Clock Transitions
+O|2022|4.2;2.2|A superradiant maser with nitrogen-vacancy center spins
+O|2022|4.2;2.2|Cavity Quantum Electrodynamics Effects with Nitrogen Vacancy Center Spins Coupled to Room Temperature Microwave Resonators
+O|2022|4.4;2.2|Deterministic Photon Sorting in Waveguide QED Systems
+O|2022|6.1;2.4;4.3|Enhanced metrology at the critical point of a many-body Rydberg atomic system
+O|2022|2.4;2.2|Free-Fermion Multiply Excited Eigenstates and Their Experimental Signatures in 1D Arrays of Two-Level Atoms
+O|2022|6.1;1.2|Gaussian theory for estimating fluctuating perturbations with backaction-evading oscillator variables
+O|2022|5.2;4.3|Manipulating synthetic gauge fluxes via multicolor dressing of Rydberg-atom arrays
+O|2022|2.4;5.2|Measuring out-of-time-ordered correlation functions without reversing time evolution
+O|2022|4.2;2.2|Microwave mode cooling and cavity quantum electrodynamics effects at room temperature with optically cooled nitrogen-vacancy center spins
+O|2022|2.1;4.6|Optical control of the complex phase of a quantum ground-state amplitude
+O|2022|2.2;4.3|Photon-photon interactions in Rydberg-atom arrays
+O|2022|6.1;2.2|Quantum Nondemolition Measurements of Moving Target States
+O|2022|7.5;4.4|Random-Access Quantum Memory Using Chirped Pulse Phase Encoding
+O|2022|6.1;2.4|Single-shot determination of quantum phases via continuous measurements
+O|2021|1.1;4.6|Adiabatic theorem revisited: The unexpectedly good performance of adiabatic passage
+O|2021|4.5;7.5|Ancilla-mediated qubit readout and heralded entanglement between rare-earth dopant ions in crystals
+O|2021|2.2;2.1|Collective emission of photons from dense, dipole-dipole interacting atomic ensembles
+O|2021|4.6;3.4|Crowdsourcing human common sense for quantum control
+O|2021|1.1;1.2|Guessing the outcome of separate and joint quantum measurements of noncommuting observables
+O|2021|1.1;8.4|Kvantemekanikkens Fortolkninger
+O|2021|6.1;1.2|Quantum estimation of a time-dependent perturbation
+O|2021|2.2|Radiation eigenmodes of Dicke superradiance
+O|2021|2.1;2.4|Scattering of Matter Wave Solitons on Localized Potentials
+O|2021|4.3;4.6|Squeezed vibrations: more speed out of the quantum gate
+O|2021|6.2;3.5|Time-dependent atomic magnetometry with a recurrent neural network
+O|2021|2.2;6.6|Ultranarrow Superradiant Lasing by Dark Atom-Photon Dressed States
+S|2026|7.5;2.2;4.4|Composing Photons in Time: Multimode Nonlinear Interactions in Quantum Networks with Temporal Pulses of Light (V. R. Christiansen)
+S|2024|2.4;6.1|Inducing and Detecting Population Dynamics with Quantum Measurements (A. L. Andersen)
+S|2024|2.2;4.4|Quantum State Manipulation in Temporal Modes of Light (M. M. Lund)
+S|2021|2.2;2.1|Dynamics of inhomogeneous atomic ensembles coupled to a cavity (K. Debnath)
+S|2020|1.1;6.1|Quantum measurements in the past and future (P. D. Blocher)
