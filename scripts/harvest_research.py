@@ -26,13 +26,14 @@ ROR = {"DTU": "04qtj9h94", "KU": "035b05819", "AU": "01aj84f44", "SDU": "03yrrjy
 UA = {"User-Agent": "DQA-map/1.0 (+https://map.danishquantumacademy.dk)"}
 
 def oa(url):
-    for attempt in range(4):
+    for attempt in range(8):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                time.sleep(0.25)
                 return json.load(r)
         except Exception as e:  # noqa: BLE001
-            print("  openalex retry", type(e).__name__, flush=True); time.sleep(3 * (attempt + 1))
-    return {}
+            print("  openalex retry", type(e).__name__, getattr(e, "code", ""), flush=True); time.sleep(min(90, 5 * 2 ** attempt))
+    raise RuntimeError("OpenAlex not reachable: " + url)
 
 TRANS = str.maketrans({"ø": "o", "Ø": "o", "æ": "ae", "Æ": "ae", "å": "a", "Å": "a", "ß": "ss", "ł": "l", "đ": "d"})
 def norm(s):
@@ -169,5 +170,26 @@ async def run(inst):
     with (OUT / f"{inst.lower()}.tsv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh, delimiter="\t"); w.writerow(["name", "kind", "year", "type", "title", "path"]); w.writerows(rows)
 
+def fill_missing(inst):
+    """Re-reads OpenAlex for educators whose author record was not found (e.g. after rate limiting); keeps the rest."""
+    f = OUT / f"{inst.lower()}.tsv"
+    rows = list(csv.reader(f.open(encoding="utf-8"), delimiter="\t"))
+    head, body = rows[0], rows[1:]
+    missing = [r[0] for r in body if r[1] == "A" and not r[5].strip()]
+    out = []
+    for r in body:
+        if r[0] in missing and r[1] in ("A", "O"): continue
+        out.append(r)
+        if r[0] in missing and r[1] == "-":
+            ids, outs = openalex_outputs(inst, r[0])
+            out.append([r[0], "A", "", "", "", " ".join(ids)])
+            out += [[r[0], "O", o["year"], o["type"], o["title"], o["url"]] for o in outs if o["year"] and int(o["year"]) >= FROM]
+            print(inst, r[0], len(ids), "author records,", len(outs), "outputs", flush=True)
+    with f.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh, delimiter="\t"); w.writerow(head); w.writerows(out)
+
 if __name__ == "__main__":
+    if os.environ.get("ONLY_MISSING"):
+        for i in sys.argv[1:]: fill_missing(i.upper())
+        sys.exit()
     for i in sys.argv[1:] or BASE: asyncio.run(run(i.upper()))
