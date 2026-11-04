@@ -41,6 +41,7 @@ nbi.ku.dk,https://nbi.ku.dk/english/research/experimental-particle-physics/,URLE
 nbi.ku.dk,http://nbi.ku.dk/Forskning/is_klima_geofysik/,URLError,,error
 nbia.nbi.ku.dk,https://nbia.nbi.ku.dk/,URLError,,error
 nqcp.ku.dk,https://nqcp.ku.dk/,URLError,,error
+nqcp.ku.dk,https://nqcp.ku.dk/our-work/education-team,URLError,,error
 nqcp.ku.dk,https://nqcp.ku.dk/news/,URLError,,error
 odin.sdu.dk,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en,200,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en,public
 odin.sdu.dk,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en,200,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en,public
@@ -75,12 +76,13 @@ quantumforlife.ku.dk,https://quantumforlife.ku.dk/,URLError,,error
 researchprofiles.ku.dk,https://researchprofiles.ku.dk/en/persons/albert-h-werner/,200,https://researchprofiles.ku.dk/en/persons/albert-h-werner/,public
 researchprofiles.ku.dk,https://researchprofiles.ku.dk/en/persons/albert-schliesser/,200,https://researchprofiles.ku.dk/en/persons/albert-schliesser/,public
 researchprofiles.ku.dk,https://researchprofiles.ku.dk/en/persons/anders-s%C3%B8ndberg-s%C3%B8rensen/,200,https://researchprofiles.ku.dk/en/persons/anders-s%C3%B8ndberg-s%C3%B8rensen/,public
+sites.google.com,https://sites.google.com/view/quantumteaching,200,https://sites.google.com/view/quantumteaching,public
 studerende.au.dk,https://studerende.au.dk/studier/fagportaler/fysik/undervisning-og-opbygning/opbygning-og-struktur-bacheloruddannelsen/detaljeret-opbygning-og-struktur-af-bacheloruddannelsen-i-fysik/studieordning-2017,200,https://studerende.au.dk/studier/fagportaler/fysik/undervisning-og-opbygning/opbygning-og-struktur-bacheloruddannelsen/detaljeret-opbygning-og-struktur-af-bacheloruddannelsen-i-fysik/studieordning-2017,public
 studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6483,200,https://studieordninger.aau.dk/2026/56/6483,public
 studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6568,200,https://studieordninger.aau.dk/2026/56/6568,public
 studies.ku.dk,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,URLError,,error
 tidsskrift.dk,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,200,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,public
-uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=bf%2BVGxjKqhQjm4N7wU40FfPneDfa5xUbEpmsdX5oxUBjB6hg2OWcQskiOfR0EJWC5RAYyn7wC%2BsLzLcmmjk8aaB7bWowvNmwYYf6InECbjhejU9s00o0MvYar6zPfgj%2F%2FBfcodGPYueFuBp4P1RfUcQ3l77wjeddykF8j9P5qooK5jg9iRox4MOmauq%2BfEAAv0UonP%2FFsls9jKShPBEzNmzjfUksuKwDC0z3N2bJXZYy26L7V6b8xbGOAh7%2FY3xJLFs4wXXIK8vhv3JKzVjKEQj%2FAE4a8QkPksYwdKmDxYPgqqOX4DOSTwMf8jLEiQnb5U%2Bw8y%2F9VpztFnuo8wP5eoswYz1VuApfg%2BTFPdMND1zT3In%2B%2BgAAAAE%3D,public
+uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=kGZd3LjsdAR1mYp7wU40FfPneDfa5%2BfycYe5omZXNEbY7%2BNhtc91o0SKXBlP9fIaWy9Lms5xRXj5Hz68MTH2KNDlIpEjMDhmrNI11nex98Gh6UMJcWELAMP%2BcOIXJqGvaXWlcceHUNTb77lB085BBCOojT%2BWojVpSyGlftf9Ej1tU1Iw4xdwvZHNP%2FevmqZthGTlSdCxMQmHv96BgyYwBmPx4CHe5rXlv25Y44yfWgHJZY9e8e2vJyvPHArfFHNJw3eKp5yzd%2FhXrgcBC6%2BGhEb%2BunTzGsc8xcVKLY98SWMpvut4mBY9SXgmgIZBeEVvOz7GrPYTrvZZukOO%2BHEiIfdu841Y5Dlk3Z6MK6JvUYfnz0YAAAAB,public
 uvm.dk,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,200,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,public
 uvm.dk,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,200,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,public
 uvm.dk,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,200,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,public
