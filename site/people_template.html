@@ -337,7 +337,7 @@ footer a{color:var(--accent)}
     if((p.centres||[]).length) c.append(el('div',{class:'chips'},...p.centres.map(x=>ulink(p.institution,x,el('span',{class:'cen'},x)))));
     if(p.focus) c.append(el('span',{class:'focus'},p.focus));
     const blk=(label,...body)=>el('div',{class:'blk'},el('span',{class:'bl'},label),...body);
-    if(!(p.subs||[]).length) c.append(blk('CFQT profile of the research',el('span',{class:'ev'},'The research lies outside the CFQT content map (for example catalysis, particle physics or cosmology), so it is not placed on the map above.')));
+    if(!(p.subs||[]).length) c.append(blk('CFQT profile of the research',el('span',{class:'ev'},p.rp&&p.rp.items.length?'The research focus lies outside the CFQT content map, but part of the research output touches it (see Research proficiency below).':'The research lies outside the CFQT content map (for example catalysis, particle physics or cosmology), so it is not placed on the CFQT map.')));
     if((p.subs||[]).length) c.append(blk('CFQT profile of the research',el('div',{class:'chips'},...p.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},`${s} ${subName(s)}`)))));
     if(p.rp){
       const svg=sv('svg',{role:'img','aria-label':'Research proficiency triangle'}); drawTri(svg,cellCounts(p.rp.items),{W:200,labels:false,unit:'pieces of evidence',frame:Object.fromEntries(AREAS.map(a=>[a,p.rl[a].l]))});
@@ -425,7 +425,7 @@ footer a{color:var(--accent)}
       el('tbody',{},...AREAS.map(a=>el('tr',{},el('td',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),...['C2','C1','B2'].map(l=>el('td',{class:'n'},String(m[a+l]||0))),el('td',{class:'n'},String(sel.filter(p=>!p.rl[a].l).length))))));
     const no=sel.reduce((n,p)=>n+p.rp.no,0), nm=sel.reduce((n,p)=>n+p.rp.nm,0), ns=sel.reduce((n,p)=>n+p.rp.ns,0);
     const noMap=sel.filter(p=>!AREAS.some(a=>p.rl[a].l)).length;
-    document.getElementById('rnote').textContent=`${sel.length} educators with a research-portal profile. Evidence: ${no.toLocaleString('en')} research outputs since ${D.rp_from}, of which ${nm.toLocaleString('en')} are on the CFQT content map, and ${ns} supervised PhD theses or ongoing PhD projects. ${noMap} educators have no research on the content map. C2 Innovation in an area: at least three pieces of evidence with their main topic there; C1 Specialisation: one or two, or at least two that touch the area; B2 Investigation: one that touches it. Subdomains of outputs are assigned automatically from the titles; see About the data.`;
+    document.getElementById('rnote').textContent=`${sel.length} educators with a research-portal profile. Evidence: ${no.toLocaleString('en')} research outputs since ${D.rp_from}, of which ${nm.toLocaleString('en')} are on the CFQT content map, and ${ns} supervised PhD theses or ongoing PhD projects. ${noMap} educators have no research on the content map. C2 Innovation in an area: at least three pieces of evidence with their main topic there; C1 Specialisation: one or two, or at least two that touch the area; B2 Investigation: one that touches it. Research output is matched from OpenAlex and its CFQT subdomains are assigned automatically from the titles, so single items can be wrong; see About the data.`;
   }
   // ---- PhD and postdoc projects by CFQT domain ----
   const PJ=D.projects||[];

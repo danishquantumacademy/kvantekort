@@ -33,7 +33,7 @@ RELEVANT = R(r"quantum|qubit|qudit|entangl|superpos|decoheren|quantum coheren|co
 # Particle physics, gravity and cosmology are outside the content map even when they say "quantum".
 PARTICLE = R(r"quantum gravity|gravit(on|ational wave)|neutrino|\bqcd\b|quark|gluon|lepton|hadron|higgs|collider|\blhc\b|atlas|cms experiment|dark matter|dark energy|cosmolog|black hole|inflation|standard model|supersymmetr|string theor|asymptotic safety|scale symmetry|\bcp\b|cpt symmetry|vector boson|beyond the standard")
 # Titles about these are outside the map unless they also say "quantum".
-NEGATIVE = R(r"electrochem|oxidation|biosens|gas sens|humidity|hyperthermia|nanoparticles? (for|in) (drug|cancer|therap)|clinical|catalys|catalyst|solar cell|photovolta|batter|fuel cell|electrolys|soec|vaccine|drug deliver|biofilm|food|wastewater|co2 |hydrogen production|corrosion|concrete|wind turbine|power system|energy system")
+NEGATIVE = R(r"electrochem|oxidation|biosens|gas sens|humidity|hyperthermia|nanoparticles? (for|in) (drug|cancer|therap)|clinical|catalys|catalyt|catalyst|solar cell|photovolta|batter|fuel cell|electrolys|soec|vaccine|drug deliver|biofilm|food|wastewater|co2 |hydrogen production|corrosion|concrete|wind turbine|power system|energy system")
 
 # (pattern, subdomain, weight), more specific rules first.
 RULES = [

@@ -108,7 +108,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 | Site | Pages |
 |---|---:|
-| openalex.org | 266 |
+| openalex.org | 345 |
 
 ### Unit page
 
@@ -207,4 +207,4 @@ The workflow "Check sources" opened 133 pages (up to three per site) from a GitH
 
 
 
-Total: 2488 pages from 74 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 2567 pages from 74 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
