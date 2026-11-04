@@ -16,6 +16,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = {"DTU": "https://orbit.dtu.dk", "KU": "https://researchprofiles.ku.dk", "AU": "https://pure.au.dk/portal",
         "SDU": "https://portal.findresearcher.sdu.dk", "AAU": "https://vbn.aau.dk"}
 FROM = 2021
+import os
+DEBUG = os.environ.get("DEBUG")
+LIMIT = int(os.environ.get("LIMIT", "0"))
 OUT = ROOT / "data/people/research_outputs"
 
 def educators(inst):
@@ -38,7 +41,7 @@ JS_LIST = r"""() => [...document.querySelectorAll('main h3')].map(h => {
 async def goto(page, url):
     for attempt in range(3):
         try:
-            r = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            r = await page.goto(url, wait_until="load", timeout=60000)
             # wait out a bot check ("Just a moment" / "Et øjeblik")
             for _ in range(20):
                 t = await page.title()
@@ -46,7 +49,7 @@ async def goto(page, url):
                 await page.wait_for_timeout(1500)
             # a bot check may reload the page; wait until the listing (or an empty-result text) is there
             try:
-                await page.wait_for_selector("main h3, main .empty, main p", timeout=20000)
+                await page.wait_for_selector("main h3", timeout=15000)
             except Exception:  # noqa: BLE001
                 pass
             await page.wait_for_timeout(600)
@@ -73,6 +76,7 @@ async def listing(page, url, stop_year=FROM):
         st = await goto(page, url + (f"?page={p}" if p else ""))
         if st >= 400: break
         got = await page.evaluate(JS_LIST)
+        if DEBUG: print("   ", url, p, len(got), got[:2], flush=True)
         if not got and p == 0:  # second chance after a bot check
             await page.wait_for_timeout(5000); await goto(page, url); got = await page.evaluate(JS_LIST)
         new = [g for g in got if (g["title"], g["year"]) not in seen]
@@ -90,7 +94,7 @@ async def run(inst):
         br = await pw.chromium.launch()
         ctx = await br.new_context(locale="en-GB", user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
         page = await ctx.new_page()
-        for name, path in educators(inst):
+        for name, path in educators(inst)[:LIMIT or None]:
             if inst == "AU" and not path:
                 path = await find_au(page, name)
                 if path and not path.endswith("/"): path += "/"

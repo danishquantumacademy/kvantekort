@@ -8,6 +8,12 @@ on:
       inst:
         description: "Universities (space separated)"
         default: "DTU KU AU SDU AAU"
+      limit:
+        description: "Only the first N educators per university (test); 0 = all"
+        default: "0"
+      debug:
+        description: "Print every listing page"
+        default: ""
 
 permissions:
   contents: write
@@ -33,6 +39,9 @@ jobs:
       - name: Harvest
         if: contains(github.event.inputs.inst, matrix.inst)
         run: python scripts/harvest_research.py ${{ matrix.inst }}
+        env:
+          LIMIT: ${{ github.event.inputs.limit }}
+          DEBUG: ${{ github.event.inputs.debug }}
       - uses: actions/upload-artifact@v4
         if: contains(github.event.inputs.inst, matrix.inst)
         with:
@@ -41,7 +50,7 @@ jobs:
 
   commit:
     needs: harvest
-    if: always()
+    if: always() && github.event.inputs.limit == '0'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
