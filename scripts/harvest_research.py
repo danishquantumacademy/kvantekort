@@ -194,18 +194,33 @@ def harvest_groups():
     cfg = json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]
     gout = ROOT / "data/groups/research_outputs"; gout.mkdir(parents=True, exist_ok=True)
     skip = re.compile(r"administrat|secretar|technician|lab(oratory)? (manager|engineer|technician)|coordinator|officer|communication|\bhr\b|finance|project manager|student assistant|teaching assistant|it[- ]", re.I)
+    limited = False
     for g in cfg:
         rows = []
+        f_out = gout / f"{g['key']}.tsv"
+        done = {}  # resume: keep members already read (author record found or none exists)
+        if f_out.exists():
+            for r in csv.reader(f_out.open(encoding="utf-8"), delimiter="\t"):
+                done.setdefault(r[0], []).append(r)
         for ln in (ROOT / "data/groups" / f"{g['key']}.txt").read_text(encoding="utf-8").splitlines():
             if not ln.startswith("P||"): continue
             f = (ln.split("||") + [""] * 6)
             name, role = f[1].strip(), f[2].strip()
             if skip.search(role): rows.append([name, "-", "", "", "", "skipped: " + role]); continue
-            ids, outs = openalex_outputs(g["institution"], name)
+            prev = done.get(name, [])
+            if any(r[1] == "A" and r[5] != "RATE-LIMITED" for r in prev):
+                rows += prev; continue
+            if limited:
+                rows.append([name, "A", "", "", "", "RATE-LIMITED"]); continue
+            try:
+                ids, outs = openalex_outputs(g["institution"], name)
+            except RuntimeError:
+                limited = True; print("OpenAlex rate limit reached; the rest is left for the next run", flush=True)
+                rows.append([name, "A", "", "", "", "RATE-LIMITED"]); continue
             rows.append([name, "A", "", "", "", " ".join(ids)])
             rows += [[name, "O", o["year"], o["type"], o["title"], o["url"]] for o in outs if o["year"] and int(o["year"]) >= FROM]
             print(g["key"], name, len(ids), "author records,", len(outs), "outputs", flush=True)
-        with (gout / f"{g['key']}.tsv").open("w", newline="", encoding="utf-8") as fh:
+        with f_out.open("w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh, delimiter="\t"); w.writerow(["name", "kind", "year", "type", "title", "path"]); w.writerows(rows)
 
 if __name__ == "__main__":

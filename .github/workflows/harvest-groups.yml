@@ -4,6 +4,8 @@ name: Harvest research group output
 # and commits data/groups/research_outputs/*.tsv. Started by hand.
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "41 2 * * *"   # nightly until every member is read (OpenAlex has a daily limit); later runs only fill gaps
 
 permissions:
   contents: write

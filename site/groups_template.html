@@ -8,6 +8,7 @@
    (news and grants, events, positions, publications), members by category with their projects,
    linked courses and portal projects. */
 :root{
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5;
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
   --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
   --good:#0f6b3f;
@@ -16,9 +17,11 @@
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033;
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
   --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}}
 :root[data-theme="dark"]{
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033;
   --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
   --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}
 *{box-sizing:border-box}
@@ -78,6 +81,17 @@ blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);col
 .mcat{display:grid;gap:8px}
 .mcat h3 small{font:500 12px var(--mono);color:var(--muted);margin-left:6px}
 .mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:8px}
+.gtri{width:100%;max-width:110px;height:auto;margin-top:6px}
+.rpgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:760px){.rpgrid{grid-template-columns:1fr}}
+.rpbox{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px}
+.rpbox svg{width:100%;height:auto;display:block;max-width:520px;margin:0 auto}
+.rtab{border-collapse:collapse;width:100%;font-size:13.5px}
+.rtab th,.rtab td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left}
+.rtab th{font:600 11.5px var(--mono);color:var(--muted)}
+.rtab .n{text-align:right;font-family:var(--mono)}
+.rtab .dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
+.rlv{font:600 10.5px/1 var(--mono);padding:2px 4px;border:1.5px solid;border-radius:4px;margin-left:5px;white-space:nowrap;vertical-align:1px}
 .mem{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 12px;display:grid;gap:3px;min-width:0}
 .mem .n{font-weight:600;font-size:14px}
 .mem .n a{color:var(--fg);text-decoration:none}
@@ -133,6 +147,52 @@ footer p{margin:0;max-width:86ch}
   document.getElementById('harv').textContent=fmt(D.harvested);
   document.getElementById('feedrun').textContent=D.feeds_generated?fmt(D.feeds_generated.slice(0,10)):'not yet run';
   const banner=g=>{const doms=g.cfqt.map(s=>s.split('.')[0]);return el('div',{class:'banner','aria-hidden':'true'},...doms.map(d=>el('i',{style:`background:${dcol(d)}`})))};
+  const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], NSV='http://www.w3.org/2000/svg';
+  const sv=(t,a={},...k)=>{const e=document.createElementNS(NSV,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const acol=a=>`var(--a${a})`;
+  const areaOf=s=>{const d=s.split('.')[0];if(d==='1'||d==='2'||['5.1','5.4','5.5'].includes(s))return 'I';if(d==='8'||['5.6','6.7','7.4','7.6'].includes(s))return 'III';return 'II'};
+  const KIND={P:'Research profile',O:'Research output',S:'PhD supervision'};
+  const BINS=[[1,2],[3,5],[6,12],[13,29],[30,1e9]], step=n=>n<=0?0:BINS.findIndex(b=>n>=b[0]&&n<=b[1])+1;
+  function geometry(W){
+    const h=W*Math.sqrt(3)/2, pad=W*.04, top=pad+(W>300?22:0);
+    const A=[W/2+pad,top], BL=[pad,h+top], BR=[W+pad,h+top];
+    const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2], lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];
+    const L=mid(A,BL), Rr=mid(A,BR), M=mid(BL,BR), O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];
+    const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]}, cells=[];
+    for(const a of AREAS){const [P1,P2,V]=sides[a];
+      cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});
+      cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});
+      ['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}));}
+    return {W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,cells};
+  }
+  const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return [x/pts.length,y/pts.length]};
+  const PT=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
+  // m: counts per area+level; frame: levels to outline {I:'C2',...}; onCell: click handler for a cell
+  function drawTri(svg,m,opt){
+    const big=opt.W>300, g=geometry(opt.W); svg.setAttribute('viewBox',`0 0 ${g.W.toFixed(0)} ${(g.H+(big?30:0)).toFixed(0)}`); svg.innerHTML='';
+    g.cells.forEach(c=>{const n=m[c.a+c.l]||0, k=step(n);
+      const poly=sv('polygon',{points:PT(c.pts),fill:k?`var(--a${c.a}-${k})`:'var(--empty)',stroke:'var(--surface)','stroke-width':big?1.5:1});
+      const label=`(${c.a}) ${Q.areas[c.a]} – ${c.l} ${Q.levels[c.l]}: ${n} ${opt.unit}`;
+      poly.append(sv('title',{},label));
+      if(opt.onCell&&n){poly.setAttribute('class','rcell'+(opt.sel===c.a+c.l?' sel':''));poly.setAttribute('tabindex','0');poly.setAttribute('role','button');poly.setAttribute('aria-label',label);
+        const go=()=>opt.onCell(c.a,c.l);poly.addEventListener('click',go);poly.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})}
+      svg.append(poly);
+      if(opt.labels){const [x,y]=centroid(c.pts), ink=k?`var(--on-${k})`:'var(--muted)', small=c.l==='A1', fs=big?1:.8;
+        svg.append(sv('text',{x:x.toFixed(1),y:(y-(small?1:4)*fs).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':(small?9:11)*fs,'font-weight':600,fill:ink,'pointer-events':'none'},c.l));
+        if(!small||n) svg.append(sv('text',{x:x.toFixed(1),y:(y+(small?9:11)*fs).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':(small?9:13)*fs,'font-weight':700,fill:ink,'pointer-events':'none'},n?String(n):'–'));}
+    });
+    if(opt.frame) g.cells.filter(c=>opt.frame[c.a]===c.l).forEach(c=>svg.append(sv('polygon',{points:PT(c.pts),fill:'none',stroke:'var(--fg)','stroke-width':big?3.5:2.5,'stroke-linejoin':'round','pointer-events':'none'})));
+    const bw=big?7:4;
+    [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':bw,'stroke-linecap':'round','pointer-events':'none'})));
+    svg.append(sv('polygon',{points:PT([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':big?1.2:.8,'pointer-events':'none'}));
+    if(big){const tx=(x,y,t,an,col)=>svg.append(sv('text',{x,y,'text-anchor':an,'font-family':'IBM Plex Sans, sans-serif','font-size':12.5,'font-weight':600,fill:col},t));
+      tx(g.A[0],g.A[1]-10,'(I) Quantum concepts','middle',acol('I'));
+      tx(g.BL[0],g.H+20,'(II) QT HW & SW engineering','start',acol('II'));
+      tx(g.BR[0],g.H+20,'QT applications & strategies (III)','end',acol('III'));}
+  }
+  // members at their level in each proficiency area (same rule as on the Educators page)
+  const memberCounts=g=>{const m={};g.members.forEach(x=>AREAS.forEach(a=>{const l=(x.rl||{})[a];if(l)m[a+l]=(m[a+l]||0)+1}));return m};
+  const lvBadges=x=>AREAS.filter(a=>(x.rl||{})[a]).map(a=>el('span',{class:'rlv',style:`border-color:${acol(a)};color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${x.rl[a]} ${Q.levels[x.rl[a]]}`},`${a} ${x.rl[a]}`));
   let cur=null;
   try{const h=location.hash.slice(1);if(G.some(g=>g.key===h))cur=h}catch(e){}
 
@@ -143,7 +203,8 @@ footer p{margin:0;max-width:86ch}
     const b=el('button',{class:'gcard',type:'button','aria-pressed':String(cur===g.key),'aria-controls':'profile'},banner(g),
       el('div',{class:'gc-body'},el('span',{class:'gc-inst'},g.institution+' · '+g.unit),el('span',{class:'gc-name'},g.short),el('span',{class:'gc-kind'},g.kind),
         el('span',{class:'gc-stats'},el('span',{},`${g.members.length} members`),el('span',{},`${n('PhD students')} PhD`),el('span',{},`${g.courses.length} courses`)),
-        el('div',{class:'chips'},...g.cfqt.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s)))));
+        el('div',{class:'chips'},...g.cfqt.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))),
+        (()=>{const t=sv('svg',{class:'gtri','aria-hidden':'true'});drawTri(t,memberCounts(g),{W:200,labels:false,unit:'members'});return t})()));
     b.onclick=()=>{cur=g.key;try{history.replaceState(null,'','#'+g.key)}catch(e){}drawCards();drawProfile();document.getElementById('profile').scrollIntoView({behavior:'smooth',block:'start'})};
     cards.append(b)})}
 
@@ -168,6 +229,14 @@ footer p{margin:0;max-width:86ch}
     // CFQT
     box.append(el('section',{},el('h3',{},'Research on the CFQT content map'),
       el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name)))))));
+    // research proficiency of the members
+    {const m=memberCounts(g), svg=sv('svg',{role:'img','aria-label':`Research proficiency of the ${g.short} members`});drawTri(svg,m,{W:600,labels:true,unit:'members'});
+     const withLv=g.members.filter(x=>x.rl&&Object.keys(x.rl).length), nout=g.members.reduce((n,x)=>n+(x.nout||0),0), harv=g.members.filter(x=>x.harv).length;
+     const tb=el('table',{class:'rtab'},el('thead',{},el('tr',{},el('th',{},'Area'),...['C2','C1','B2'].map(l=>el('th',{class:'n',title:Q.levels[l]},l)))),
+       el('tbody',{},...AREAS.map(a=>el('tr',{},el('td',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),...['C2','C1','B2'].map(l=>el('td',{class:'n'},String(m[a+l]||0)))))));
+     box.append(el('section',{},el('h3',{},'Research proficiency of the members'),
+       el('div',{class:'rpgrid'},el('div',{class:'rpbox'},svg),el('div',{style:'display:grid;gap:10px;align-content:start'},tb,
+         el('p',{class:'note'},`${withLv.length} of ${g.members.length} members have research on the CFQT content map, counted once in each area at their level there. Evidence: ${nout.toLocaleString('en')} research outputs since 2021 found for ${harv} members (OpenAlex), their current project and, for educators, the evidence on the Educators page. C2 Innovation: at least three pieces of evidence with their main topic in the area; C1 Specialisation: one or two, or at least two that touch it; B2 Investigation: one that touches it. Technical and administrative staff are not counted.`)))))}
     // live panels
     const news=[...(F.news||[]),...g.press.map(p=>({date:p.date.split('/').reverse().join('-'),title:p.title,url:p.url,text:'Press / media'}))].sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,8);
     const grants=[...(F.grants||[]),...g.prizes.map(p=>({date:'',title:p.title,url:p.url,text:'Prize · '+p.date}))];
@@ -194,7 +263,7 @@ footer p{margin:0;max-width:86ch}
       CATS.forEach(c=>{const list=g.members.filter(m=>m.cat===c&&(!t||[m.name,m.role,m.project,m.output].join(' ').toLowerCase().includes(t)));if(!list.length)return;
         const grid=el('div',{class:'mgrid'});
         list.forEach(m=>{const res=!/staff|administrat|assistant$|officer|manager|engineer$/i.test(c+' '+m.role)||m.project||m.output;
-          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'educator'):null),
+          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'educator'):null,...lvBadges(m)),
             el('span',{class:'r'},m.role||'Position not stated'),
             m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
             m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null))});

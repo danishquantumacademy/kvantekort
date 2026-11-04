@@ -364,6 +364,24 @@ def nkey(n):
     t = unicodedata.normalize("NFD", n).encode("ascii", "ignore").decode().lower().replace(".", " ").split()
     return (t[0], t[-1]) if t else ("", "")
 pmap = {(p["institution"], nkey(p["name"])): p for p in plist}
+# research proficiency of the group members: research output since 2021 from OpenAlex (data/groups/research_outputs),
+# the member's current project and, for educators, the evidence on the Educators page
+sys.path.insert(0, str(ROOT / "scripts"))
+from cfqt_classify import classify as _cls
+def _ar(x):
+    d = x.split(".")[0]
+    return "I" if d in ("1", "2") or x in ("5.1", "5.4", "5.5") else ("III" if d == "8" or x in ("5.6", "6.7", "7.4", "7.6") else "II")
+def levels_of(sublists):
+    mains = [_ar(s[0]) for s in sublists]; touch = [set(map(_ar, s)) for s in sublists]; out = {}
+    for a in ("I", "II", "III"):
+        m = mains.count(a); sec = sum(1 for mm, t in zip(mains, touch) if a in t and mm != a)
+        lv = "C2" if m >= 3 else "C1" if (m >= 1 or sec >= 2) else "B2" if sec == 1 else ""
+        if lv: out[a] = lv
+    return out
+gres = {}
+for f in sorted((ROOT / "data/groups/research_outputs").glob("*.tsv")) if (ROOT / "data/groups/research_outputs").exists() else []:
+    for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
+        gres.setdefault((f.stem, r["name"]), []).append(r)
 groups_out = []
 for g in gcfg["groups"]:
     txt = (ROOT / f"data/groups/{g['key']}.txt").read_text(encoding="utf-8")
@@ -379,6 +397,21 @@ for g in gcfg["groups"]:
             members.append({"name": name, "role": role, "cat": member_cat(role), "url": (g["portal_base"] + path) if path else "",
                             "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]),
                             "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
+            ev, seen = [], set()
+            for r in gres.get((g["key"], name), []):
+                if r["kind"] != "O" or not r["year"].isdigit() or int(r["year"]) < 2021 or SKIP_TYPE.search(r["type"]): continue
+                k = re.sub(r"\W", "", r["title"].lower())
+                if k in seen: continue
+                seen.add(k); sb = _cls(r["title"])
+                if sb: ev.append(sb)
+            ptitle = members[-1]["project"]
+            if ptitle and _cls(ptitle): ev.append(_cls(ptitle))
+            if pp and pp.get("rp"):
+                for x in pp["rp"]["it"]:
+                    k = re.sub(r"\W", "", x[3].lower())
+                    if k not in seen: seen.add(k); ev.append(x[2].split(";"))
+            harvested = any(r["kind"] == "A" for r in gres.get((g["key"], name), []))
+            members[-1].update({"rl": levels_of(ev), "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
         elif f[0] == "PUBS": pubs.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "cite": f[3] if len(f) > 3 else ""})
         elif f[0] == "PROJ": projects.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "people": f[3], "period": f[4], "funder": f[5], "type": f[6] if len(f) > 6 else ""})
         elif f[0] == "PRESS": press.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
