@@ -11,7 +11,6 @@ Output: data/people/research_outputs/<inst>.tsv
         plus one line per educator with kind "-" giving the profile path that was used (or MISS)
 """
 import asyncio, csv, json, pathlib, re, sys, time, unicodedata, urllib.parse, urllib.request
-from playwright.async_api import async_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = {"DTU": "https://orbit.dtu.dk", "KU": "https://researchprofiles.ku.dk", "AU": "https://pure.au.dk/portal",
@@ -140,6 +139,7 @@ async def listing(page, url, stop_year=FROM):
     return items
 
 async def run(inst):
+    from playwright.async_api import async_playwright
     OUT.mkdir(parents=True, exist_ok=True)
     rows = []
     async with async_playwright() as pw:
@@ -188,7 +188,29 @@ def fill_missing(inst):
     with f.open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh, delimiter="\t"); w.writerow(head); w.writerows(out)
 
+def harvest_groups():
+    """Research output since FROM for the members of the five research groups (data/groups/<key>.txt), from OpenAlex.
+    Technical and administrative staff are left out. Output: data/groups/research_outputs/<key>.tsv"""
+    cfg = json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]
+    gout = ROOT / "data/groups/research_outputs"; gout.mkdir(parents=True, exist_ok=True)
+    skip = re.compile(r"administrat|secretar|technician|lab(oratory)? (manager|engineer|technician)|coordinator|officer|communication|\bhr\b|finance|project manager|student assistant|teaching assistant|it[- ]", re.I)
+    for g in cfg:
+        rows = []
+        for ln in (ROOT / "data/groups" / f"{g['key']}.txt").read_text(encoding="utf-8").splitlines():
+            if not ln.startswith("P||"): continue
+            f = (ln.split("||") + [""] * 6)
+            name, role = f[1].strip(), f[2].strip()
+            if skip.search(role): rows.append([name, "-", "", "", "", "skipped: " + role]); continue
+            ids, outs = openalex_outputs(g["institution"], name)
+            rows.append([name, "A", "", "", "", " ".join(ids)])
+            rows += [[name, "O", o["year"], o["type"], o["title"], o["url"]] for o in outs if o["year"] and int(o["year"]) >= FROM]
+            print(g["key"], name, len(ids), "author records,", len(outs), "outputs", flush=True)
+        with (gout / f"{g['key']}.tsv").open("w", newline="", encoding="utf-8") as fh:
+            w = csv.writer(fh, delimiter="\t"); w.writerow(["name", "kind", "year", "type", "title", "path"]); w.writerows(rows)
+
 if __name__ == "__main__":
+    if "--groups" in sys.argv:
+        harvest_groups(); sys.exit()
     if os.environ.get("ONLY_MISSING"):
         for i in sys.argv[1:]: fill_missing(i.upper())
         sys.exit()

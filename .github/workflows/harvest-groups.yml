@@ -1,0 +1,27 @@
+name: Harvest research group output
+
+# Reads the research output (2021 onwards) of the members of the five research groups from OpenAlex
+# and commits data/groups/research_outputs/*.tsv. Started by hand.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/harvest_research.py --groups
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/groups/research_outputs
+          git diff --cached --quiet || git commit -m "Research group output harvest [skip ci]"
+          git pull --rebase && git push
