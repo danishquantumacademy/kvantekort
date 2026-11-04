@@ -34,8 +34,9 @@ def oa(url):
             print("  openalex retry", type(e).__name__, flush=True); time.sleep(3 * (attempt + 1))
     return {}
 
+TRANS = str.maketrans({"ø": "o", "Ø": "o", "æ": "ae", "Æ": "ae", "å": "a", "Å": "a", "ß": "ss", "ł": "l", "đ": "d"})
 def norm(s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    s = unicodedata.normalize("NFKD", s.translate(TRANS)).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z ]", " ", s).split()
 
 def same_person(name, cand):
@@ -46,15 +47,17 @@ def same_person(name, cand):
     return a[-1] == b[-1] and (a[0] == b[0] or (len(b[0]) == 1 and a[0][0] == b[0]) or (len(a[0]) == 1 and b[0][0] == a[0]))
 
 def openalex_outputs(inst, name):
-    q = urllib.parse.quote(" ".join(norm(name)))
+    q = urllib.parse.quote(name)
     res = oa(f"https://api.openalex.org/authors?search={q}&filter=affiliations.institution.ror:https://ror.org/{ROR[inst]}&per-page=25&select=id,display_name,display_name_alternatives,works_count")
     ids = [a["id"].rsplit("/", 1)[-1] for a in res.get("results", [])
            if a.get("works_count") and any(same_person(name, n) for n in [a["display_name"], *(a.get("display_name_alternatives") or [])])][:4]
     out, seen = [], set()
+    # several matching author records (common names): keep only works with an author at this university
+    inst_f = f",institutions.ror:https://ror.org/{ROR[inst]}" if len(ids) > 1 else ""
     for aid in ids:
         cursor = "*"
         while cursor:
-            r = oa(f"https://api.openalex.org/works?filter=author.id:{aid},publication_year:>{FROM - 1}&per-page=200&cursor={cursor}&select=id,title,publication_year,type,doi")
+            r = oa(f"https://api.openalex.org/works?filter=author.id:{aid},publication_year:>{FROM - 1}{inst_f}&per-page=200&cursor={cursor}&select=id,title,publication_year,type,doi")
             for w in r.get("results", []):
                 t = (w.get("title") or "").strip()
                 if not t or w["id"] in seen: continue
@@ -156,7 +159,7 @@ async def run(inst):
             for o in outs:
                 if o["year"] and int(o["year"]) >= FROM:
                     rows.append([name, "O", o["year"], o["type"], o["title"], o["url"]])
-            sup = await listing(page, base + "supervised/", stop_year=0) if inst != "AU" else []
+            sup = await listing(page, base + "supervised/", stop_year=0) if inst not in ("AU", "DTU") else []  # DTU Orbit has no supervised tab
             for o in sup:
                 if "dissertation" in o["type"].lower() or "thesis" in o["type"].lower() or "ph.d" in o["type"].lower() or "phd" in o["type"].lower():
                     rows.append([name, "S", o["year"], o["type"], o["title"], urllib.parse.urlparse(o["href"]).path])
