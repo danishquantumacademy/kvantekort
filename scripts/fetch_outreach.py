@@ -27,7 +27,7 @@ SOURCES = [
 PUBLIC = re.compile(r"\b(public|offentlig\w*|popular|populærvidensk\w*|for (alle|everyone|all)|open (house|lab|day)|åbent? hus|"
                     r"folkeuniversitet\w*|gymnasie\w*|high[- ]school|skoleelever|students? from upper|outreach|kulturnat\w*|"
                     r"science (show|festival|café|cafe)|videnskabsfestival|forskningens døgn|festival|museum|foredrag|lecture for)\b", re.I)
-NOT_PUBLIC = re.compile(r"\b(seminar|colloqui\w*|defen[cs]e|ph\.?d\.? defen|journal club|group meeting|retreat|annual meeting|thesis)\b", re.I)
+NOT_PUBLIC = re.compile(r"(\b(seminar|colloqui\w*|defen[cs]e|forsvar\w*|journal club|group meeting|retreat|annual meeting|thesis|afhandling|ph\.?d\.?)\b|ph\.?d\.?-)", re.I)
 
 
 def level(subs):
@@ -68,7 +68,7 @@ def keep(item, fetch_page=False):
 
 def main():
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"sources": {}, "items": []}
-    items = {x["url"] + "|" + x["title"]: x for x in old.get("items", [])}
+    items = {x["url"] + "|" + x["title"]: x for x in old.get("items", []) if not NOT_PUBLIC.search(x["title"])}
     sources = old.get("sources", {})
     today = dt.date.today().isoformat()
     for src in SOURCES:
