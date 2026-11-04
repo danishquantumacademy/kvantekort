@@ -46,7 +46,7 @@ jobs:
         if: env.SITE_PASSWORD != ''
         run: |
           rm -f site/data.json site/*artifact*.html
-          npx --yes staticrypt@3.5.4 site/*.html -d site -p "$SITE_PASSWORD" --short --remember 30 \
+          npx --yes staticrypt@3 site/*.html -d site -p "$SITE_PASSWORD" --short --remember 30 \
             --template-title "Danish Quantum Academy" \
             --template-instructions "This map is not public yet. Enter the password to open it." \
             --template-button "Open" --template-placeholder "Password" \
