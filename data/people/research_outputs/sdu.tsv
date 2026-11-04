@@ -971,13 +971,33 @@ Francesco Sannino	S	2018	Thesis > Ph.D. thesis	Unveiling Composite Dynamics	/en/
 Francesco Sannino	S	2016	Thesis > Ph.D. thesis	2016	
 Francesco Sannino	S	2016	Thesis > Ph.D. thesis	Renormalization effects in the early universe	/en/publications/renormalization-effects-in-the-early-universe/
 Frederik Kamper Jørgensen	-				/en/persons/frederik-kamper-j%C3%B8rgensen/
-Frederik Kamper Jørgensen	A				
+Frederik Kamper Jørgensen	A				A5015473292
+Frederik Kamper Jørgensen	O	2025	article	Multiconfigurational short-range on-top pair-density functional theory	https://doi.org/10.1063/5.0234346
+Frederik Kamper Jørgensen	O	2024	review	Perspective: multi-configurational methods in bio-inorganic chemistry	https://doi.org/10.1039/d4cp01297f
+Frederik Kamper Jørgensen	O	2024	article	Simulating X-ray Absorption Spectroscopy in Challenging Environments: Methodological Insights from Water-Solvated Ammonia and Ammonium Systems	https://doi.org/10.1021/acs.jctc.4c00088
+Frederik Kamper Jørgensen	O	2022	article	Nuclear Magnetic Shielding Constants with the Polarizable Density Embedding Model	https://doi.org/10.1021/acs.jctc.2c00829
+Frederik Kamper Jørgensen	O	2022	article	Multiconfigurational short-range density functional theory for nuclear magnetic resonance shielding constants with gauge-including atomic orbitals	https://doi.org/10.1063/5.0106422
+Frederik Kamper Jørgensen	O	2026	article	A State-Averaged Formulation for Variational Multiconfigurational Pair-Density Functional Theory	https://doi.org/10.1021/acs.jctc.6c00755
 Greyson Potter	-				/en/persons/gkp/
 Greyson Potter	A				
 Gustavo Pazzini de Brito	-				MISS
 Gustavo Pazzini de Brito	A				
 Hans Jørgen Aagaard Jensen	-				/en/persons/hans-j%C3%B8rgen-jensen/
-Hans Jørgen Aagaard Jensen	A				
+Hans Jørgen Aagaard Jensen	A				A5026625176
+Hans Jørgen Aagaard Jensen	O	2022	review	DFT exchange: sharing perspectives on the workhorse of quantum chemistry and materials science	https://doi.org/10.1039/d2cp02827a
+Hans Jørgen Aagaard Jensen	O	2021	article	Implementation of Relativistic Coupled Cluster Theory for Massively Parallel GPU-Accelerated Computing Architectures	https://doi.org/10.1021/acs.jctc.1c00260
+Hans Jørgen Aagaard Jensen	O	2022	article	An efficient implementation of time-dependent linear-response theory for strongly orthogonal geminal wave function models	https://doi.org/10.1063/5.0082155
+Hans Jørgen Aagaard Jensen	O	2025	article	Multiconfigurational short-range on-top pair-density functional theory	https://doi.org/10.1063/5.0234346
+Hans Jørgen Aagaard Jensen	O	2025	article	Excited-state methods based on state-averaged long-range CASSCF short-range DFT	https://doi.org/10.1039/d5cp00881f
+Hans Jørgen Aagaard Jensen	O	2021	article	Multi-configurational short-range density functional theory can describe spin–spin coupling constants of transition metal complexes	https://doi.org/10.1063/5.0059128
+Hans Jørgen Aagaard Jensen	O	2025	article	Time-Dependent Multiconfigurational Short-Range Density Functional Theory with Generalized Valence Bond Wave Functions	https://doi.org/10.1021/acs.jpca.5c04699
+Hans Jørgen Aagaard Jensen	O	2022	article	Multiconfigurational SCF and Short-Range DFT Combined with Polarizable Density Embedding: Comparison of Linear-Response and State-Specific Solvatochromic Shifts of Acrolein and Para-nitrophenolate in Water	https://doi.org/10.1021/acs.jctc.2c00739
+Hans Jørgen Aagaard Jensen	O	2022	article	Multiconfigurational short-range density functional theory for nuclear magnetic resonance shielding constants with gauge-including atomic orbitals	https://doi.org/10.1063/5.0106422
+Hans Jørgen Aagaard Jensen	O	2026	article	Introducing PAIMP, the polarizable ab initio model potential method for embedded clusters	https://doi.org/10.1063/5.0317597
+Hans Jørgen Aagaard Jensen	O	2024	article	Performance of range-separated long-range SOPPA short-range density functional theory method for vertical excitation energies	https://doi.org/10.1063/5.0197228
+Hans Jørgen Aagaard Jensen	O	2022	dataset	Replication Data for: Exact two-component Hamiltonians for relativistic quantum chemistry: Two-electron picture-change corrections made simple	https://doi.org/10.5281/zenodo.6414909
+Hans Jørgen Aagaard Jensen	O	2021	dataset	Dataset: Implementation of relativistic coupled cluster theory for massively parallel GPU-accelerated computing architectures	https://doi.org/10.5281/zenodo.4589357
+Hans Jørgen Aagaard Jensen	O	2026	dataset	DIRAC26	https://doi.org/10.5281/zenodo.18662049
 Hans Jørgen Aagaard Jensen	S	2022	Thesis > Ph.D. thesis	2022	
 Hans Jørgen Aagaard Jensen	S	2022	Thesis > Ph.D. thesis	Extending the capabilities of Multi-Configurational short-range Density Functional Theory based methods	/en/publications/extending-the-capabilities-of-multi-configurational-short-range-d/
 Hans Jørgen Aagaard Jensen	S	2022	Thesis > Ph.D. thesis	The Atomic Level Structure of Layered Double Hydroxides	/en/publications/the-atomic-level-structure-of-layered-double-hydroxides/
@@ -1430,7 +1450,35 @@ Marco Antonio Gonzalez Angulo	O	2022	article	Identifying dominant recombination 
 Marco Antonio Gonzalez Angulo	O	2021	article	Impact of the Buffer/Absorber Interface on the Metastability of Fill Factor Temperature Coefficients in CIGSSe Solar Cells	https://doi.org/10.1002/admi.202100778
 Marco Antonio Gonzalez Angulo	O	2026	article	Interfacial engineering of hierarchical ZnO Tetrapod/Co3O4/Ag heterostructures for room-temperature VOC sensing and photocatalytic dye degradation	https://doi.org/10.1016/j.apsadv.2026.101089
 Martin Aage Barsøe Hedegaard	-				/en/persons/martin-aage-bars%C3%B8e-hedegaard/
-Martin Aage Barsøe Hedegaard	A				
+Martin Aage Barsøe Hedegaard	A				A5015802204
+Martin Aage Barsøe Hedegaard	O	2024	article	Label-free 3D molecular imaging of living tissues using Raman spectral projection tomography	https://doi.org/10.1038/s41467-024-51616-y
+Martin Aage Barsøe Hedegaard	O	2023	article	In Vivo Longitudinal Monitoring of Disease Progression in Inflammatory Arthritis Animal Models Using Raman Spectroscopy	https://doi.org/10.1021/acs.analchem.2c04743
+Martin Aage Barsøe Hedegaard	O	2024	article	Stepwise Understanding on Hydrolysis Formation of the IrOx Nanoparticles as Highly Active Electrocatalyst for Oxygen Evolution Reaction	https://doi.org/10.1007/s12678-024-00874-x
+Martin Aage Barsøe Hedegaard	O	2024	article	Million Microfiber Releases: Comparing Washable and Disposable Face Masks	https://doi.org/10.1021/acs.est.4c03601
+Martin Aage Barsøe Hedegaard	O	2025	article	Solid-State Approach to Bimetallic IrRu/C Catalysts Tuning toward Boosted Oxygen Evolution in Acidic Media	https://doi.org/10.1021/acsaem.5c00307
+Martin Aage Barsøe Hedegaard	O	2022	article	Detection of low numbers of bacterial cells in a pharmaceutical drug product using Raman spectroscopy and PLS-DA multivariate analysis	https://doi.org/10.1039/d2an00683a
+Martin Aage Barsøe Hedegaard	O	2023	article	Determination of stem cell pluripotency in spent cultivation media by Raman spectroscopy	https://doi.org/10.1002/jrs.6532
+Martin Aage Barsøe Hedegaard	O	2023	article	Spectral Unmixing for Label-Free, In-Liquid Characterization of Biomass Microstructure and Biopolymer Content by Coherent Raman Imaging	https://doi.org/10.1021/acs.analchem.2c02349
+Martin Aage Barsøe Hedegaard	O	2025	article	Monitoring of milk rennet coagulation: Chemical and physical perspective using Raman spectroscopy	https://doi.org/10.1016/j.afres.2025.100701
+Martin Aage Barsøe Hedegaard	O	2025	article	Raman Spectroscopy Coupled with Multivariate Statistical Process Control for Detecting Anomalies During Milk Coagulation	https://doi.org/10.3390/pr13113519
+Martin Aage Barsøe Hedegaard	O	2022	article	In vivo non-invasive monitoring of tissue development in 3D printed subcutaneous bone scaffolds using fibre-optic Raman spectroscopy	https://doi.org/10.1016/j.bbiosy.2022.100059
+Martin Aage Barsøe Hedegaard	O	2025	article	PAT-driven dairy processing: a rheo-Raman-based kinetic model for in-line prediction of milk coagulation dynamics	https://doi.org/10.1007/s00216-025-05965-2
+Martin Aage Barsøe Hedegaard	O	2025	article	Portable Raman Spectroscopy for Non‐Invasive Chemotype Identification and pCB Profiling in Cannabis	https://doi.org/10.1002/jrs.70033
+Martin Aage Barsøe Hedegaard	O	2026	article	Exploration of bead mixtures containing yttrium-stabilized zirconium and cross-linked polystyrene beads for the preparation of nano- and microsuspensions	https://doi.org/10.1016/j.jddst.2026.108165
+Martin Aage Barsøe Hedegaard	O	2025	preprint	Open Raman Microscopy (ORM): A Modular Hardware and Software Framework for Accessible Raman Imaging	https://doi.org/10.1101/2025.10.26.684570
+Martin Aage Barsøe Hedegaard	O	2022	preprint	Unsupervised hyperspectral data mining and bioimaging by information entropy and self-modeling curve resolution	https://doi.org/10.48550/arxiv.2210.03238
+Martin Aage Barsøe Hedegaard	O	2023	conference-paper	Towards in-vivo monitoring of disease progression of inflammatory arthritis in rodent models using fibre-optic Raman spectroscopy (Conference Presentation)	https://doi.org/10.1117/12.2647619
+Martin Aage Barsøe Hedegaard	O	2023	conference-abstract	Raman projection tomography for label-free 3D molecular imaging of live tissue engineered constructs (Conference Presentation)	https://doi.org/10.1117/12.2649318
+Martin Aage Barsøe Hedegaard	O	2023	preprint	Label-free 3-D molecular imaging of living tissues using Raman Spectral Projection Tomography	https://doi.org/10.1101/2023.09.23.559025
+Martin Aage Barsøe Hedegaard	O	2024	conference-paper	In-vivo classification of THC and CBD contents in cannabis plants using machine learning assisted Raman spectroscopy	https://openalex.org/W4412210004
+Martin Aage Barsøe Hedegaard	O	2024	conference-paper	In-vivo classification of THC and CBD contents in cannabis plants using hand-handled Raman spectrometer	https://openalex.org/W4412210105
+Martin Aage Barsøe Hedegaard	O	2023	conference-paper	Raman projection tomography for label-free 3D molecular imaging of live tissue engineered constructs	https://openalex.org/W4412226417
+Martin Aage Barsøe Hedegaard	O	2022	conference-paper	In vivo monitoring disease progression in rodent models of inflammatory arthritis using fibre-optic Raman spectroscopy	https://openalex.org/W4412240754
+Martin Aage Barsøe Hedegaard	O	2022	conference-paper	In vivo monitoring tissue development in bone scaffolds using Raman spectroscopy	https://openalex.org/W4412243164
+Martin Aage Barsøe Hedegaard	O	2023	conference-paper	Towards in-vivo monitoring of disease progression of inflammatory arthritis in rodent models using fibre-optic Raman spectroscopy	https://openalex.org/W4412244369
+Martin Aage Barsøe Hedegaard	O	2022	conference-paper	Development of forward-scattered Raman tomography for monitoring treatment of rheumatoid arthritis in rodents	https://doi.org/10.1117/12.2609556
+Martin Aage Barsøe Hedegaard	O	2024	conference-paper	Transmission Raman Spectroscopy:A New Alternative to Enhance Process Raman for Biopharmaceuticals	https://openalex.org/W7126009298
+Martin Aage Barsøe Hedegaard	O	2026	article	Preformulation studies of levonorgestrel: A supplier variation analysis	https://doi.org/10.1016/j.ejps.2026.107562
 Martin Aage Barsøe Hedegaard	S	2024	Thesis > Ph.D. thesis	2024	
 Martin Aage Barsøe Hedegaard	S	2024	Thesis > Ph.D. thesis	Advanced Raman Spectroscopy for Future Manufacturing of Biopharmaceuticals	/en/publications/advanced-raman-spectroscopy-for-future-manufacturing-of-biopharma/
 Martin Aage Barsøe Hedegaard	S	2021	Thesis > Ph.D. thesis	2021	
@@ -2260,4 +2308,8 @@ Volodymyr Zenin	A
 Volodymyr Zenin	S	2026	Thesis > Ph.D. thesis	2026	
 Volodymyr Zenin	S	2026	Thesis > Ph.D. thesis	Near-field Explorations of Highly Confined Polaritons	/en/publications/near-field-explorations-of-highly-confined-polaritons/
 William Elbæk Mistegård	-				/en/persons/william-elb%C3%A6k-misteg%C3%A5rd-2/
-William Elbæk Mistegård	A				
+William Elbæk Mistegård	A				A5018708181
+William Elbæk Mistegård	O	2022	article	Resurgence analysis of quantum invariants of Seifert fibered homology spheres	https://doi.org/10.1112/jlms.12506
+William Elbæk Mistegård	O	2025	article	The automorphism equivariant Hitchin index	https://doi.org/10.1016/j.geomphys.2025.105669
+William Elbæk Mistegård	O	2025	article	A proof of the radial limit conjecture for Costantino–Geer–Patureau-Mirand quantum invariants	https://doi.org/10.1142/s021821652550097x
+William Elbæk Mistegård	O	2026	article	Topologisk kvantefeltteori – i krydsfeltet mellem matematik og fysik	https://doi.org/10.7146/kvant.168251
