@@ -5,6 +5,10 @@ bachelor.au.dk,https://bachelor.au.dk/kemi,200,https://bachelor.au.dk/kemi,publi
 cbqs.ku.dk,https://cbqs.ku.dk/,URLError,,error
 cfin.au.dk,http://cfin.au.dk,200,https://cfin.au.dk/,public
 chem.au.dk,https://chem.au.dk/en/,200,https://chem.au.dk/en/,public
+danishbusinessauthority.dk,https://danishbusinessauthority.dk/danish-quantum-ecosystem-map,403,https://danishbusinessauthority.dk/danish-quantum-ecosystem-map,bot-protected
+datacvr.virk.dk,https://datacvr.virk.dk/enhed/virksomhed/36998717,403,https://datacvr.virk.dk/enhed/virksomhed/36998717,bot-protected
+datacvr.virk.dk,https://datacvr.virk.dk/enhed/virksomhed/43152483,403,https://datacvr.virk.dk/enhed/virksomhed/43152483,bot-protected
+datacvr.virk.dk,https://datacvr.virk.dk/enhed/virksomhed/44661632,403,https://datacvr.virk.dk/enhed/virksomhed/44661632,bot-protected
 di.ku.dk,http://di.ku.dk/english/research/machine-learning/,URLError,,error
 di.ku.dk,http://di.ku.dk/english/research/pltc/,URLError,,error
 diku.dk,http://diku.dk/,URLError,,error
@@ -82,7 +86,7 @@ studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6483,200,https://s
 studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6568,200,https://studieordninger.aau.dk/2026/56/6568,public
 studies.ku.dk,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,URLError,,error
 tidsskrift.dk,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,200,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,public
-uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=kGZd3LjsdAR1mYp7wU40FfPneDfa5%2BfycYe5omZXNEbY7%2BNhtc91o0SKXBlP9fIaWy9Lms5xRXj5Hz68MTH2KNDlIpEjMDhmrNI11nex98Gh6UMJcWELAMP%2BcOIXJqGvaXWlcceHUNTb77lB085BBCOojT%2BWojVpSyGlftf9Ej1tU1Iw4xdwvZHNP%2FevmqZthGTlSdCxMQmHv96BgyYwBmPx4CHe5rXlv25Y44yfWgHJZY9e8e2vJyvPHArfFHNJw3eKp5yzd%2FhXrgcBC6%2BGhEb%2BunTzGsc8xcVKLY98SWMpvut4mBY9SXgmgIZBeEVvOz7GrPYTrvZZukOO%2BHEiIfdu841Y5Dlk3Z6MK6JvUYfnz0YAAAAB,public
+uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=ADKz8s3KvZ9OSM97wU40FfPneDfa57U6cJb5IAZLw%2BIqNkvsqwRPTkN9j7KrQm5AzS8lyKRnkrfaVU%2F8%2BBkvT53xlsde0b1SvLd5KYXXH2Es78Q2kYvGlnjdcVe%2BlnZhBBi7jUMRfxAWvsQ7c5f7A7t6sRsbz%2BrGQiiheS7PkdkU%2BYKtUg6tWpNFR1mIbMnuDhulQGuq9Gqzq9q8OL9hETx2rmqrFICM3wBBekezpE08iE5gTV9Z8TwlxrEKGlFyXlwbyrF2IN%2FqRVaXqFWaIq5sJ0YyYiUbPrTtVpX9jnqea31HkjfOCJMMW%2BqV2ooBOtaMhuaJ1rEdApo%2By%2BPdcv%2FsFr4Yz7dfO0cbjMrocV6Io4aCAAAAAQ%3D%3D,public
 uvm.dk,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,200,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,public
 uvm.dk,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,200,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,public
 uvm.dk,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,200,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,public
@@ -112,6 +116,9 @@ www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/,200,https://www.healthtech.
 www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-mri-acquisition,200,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance/group-mri-acquisition,public
 www.healthtech.dtu.dk,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance,200,https://www.healthtech.dtu.dk/research/research-sections/section-magnetic-resonance,public
 www.ind.ku.dk,http://www.ind.ku.dk,URLError,,error
+www.jobindex.dk,https://www.jobindex.dk/jobsoegning.rss?q=quantum,200,https://www.jobindex.dk/jobsoegning.rss?q=quantum,public
+www.jobindex.dk,https://www.jobindex.dk/jobsoegning.rss?q=kvante,200,https://www.jobindex.dk/jobsoegning.rss?q=kvante,public
+www.jobindex.dk,https://www.jobindex.dk/jobsoegning.rss?q=qubit,200,https://www.jobindex.dk/jobsoegning.rss?q=qubit,public
 www.kemi.dtu.dk,https://www.kemi.dtu.dk/english/,200,https://www.kemi.dtu.dk/english/,public
 www.kemi.dtu.dk,https://www.kemi.dtu.dk/english/research/inorganic-chemistry,200,https://www.kemi.dtu.dk/english/research/inorganic-chemistry,public
 www.kemi.dtu.dk,https://www.kemi.dtu.dk/english/research/organic-chemistry,200,https://www.kemi.dtu.dk/english/research/organic-chemistry,public
