@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Researcher Proficiency Test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/*ROOTCSS*/
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:36px 16px 64px;display:grid;gap:32px}
+header{display:grid;gap:10px}
+.tag{justify-self:start;font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:5px;background:var(--chip);color:var(--muted)}
+h1{font:700 clamp(30px,5.5vw,46px)/1.04 var(--display);margin:0;letter-spacing:-.02em}
+h2{font:700 20px/1.2 var(--display);margin:0}
+h3{font:600 14px/1.3 var(--body);margin:0}
+.lede{max-width:72ch;color:var(--muted);margin:0}
+.lede b{color:var(--fg);font-weight:600}
+.sub{color:var(--muted);margin:0;max-width:72ch;font-size:13.5px}
+section{display:grid;gap:12px;min-width:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:1fr}}
+svg.big{width:100%;height:auto;display:block}
+.picks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:520px){.picks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pk{display:grid;justify-items:center;gap:3px;padding:8px 4px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--fg);font:inherit;cursor:pointer;text-align:center}
+.pk svg{width:100%;max-width:96px;height:auto}
+.pk[aria-pressed="true"]{border-color:var(--fg);box-shadow:inset 0 0 0 1px var(--fg)}
+.pk:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pk .nm{font:600 12.5px/1.2 var(--body)}
+.pk .ct{font-size:11.5px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font:600 11.5px var(--mono);color:var(--muted)}
+td.n,th.n{text-align:right;font-family:var(--mono)}
+.lvl{font:700 13px var(--mono);padding:2px 6px;border-radius:4px;color:#fff}
+.dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:baseline}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);align-items:center}
+.legend .sw{display:inline-block;width:22px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle}
+.bars{display:grid;gap:4px}
+.drow{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr) 54px;gap:10px;align-items:center;font-size:13px}
+.drow.dom{margin-top:10px;font-weight:600}
+.drow .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.drow .code{font:600 12px var(--mono);margin-right:6px}
+.track{height:12px;background:var(--chip);border-radius:3px;display:flex;overflow:hidden}
+.track span{height:100%}
+.drow .v{font:500 12px var(--mono);text-align:right;color:var(--muted)}
+@media (max-width:560px){.drow{grid-template-columns:minmax(0,1fr) 54px}.drow .track{grid-column:1/-1;order:3}}
+details.fold{border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+details.fold>summary{cursor:pointer;padding:12px 14px;font-weight:600;list-style:none}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary::before{content:"›";display:inline-block;width:16px;color:var(--accent);transition:transform .15s}
+details.fold[open]>summary::before{transform:rotate(90deg)}
+.ev{display:grid;gap:0;padding:0 14px 10px}
+.evr{display:grid;grid-template-columns:44px 64px minmax(0,1fr);gap:8px;padding:7px 0;border-top:1px solid var(--line);font-size:13.5px}
+.evr .y{font:500 12.5px var(--mono);color:var(--muted)}
+.evr .k{font:600 11px var(--mono);color:var(--muted);text-transform:uppercase}
+.evr.out{opacity:.55}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:3px}
+.chip{font:600 11px/1 var(--mono);padding:3px 5px;border-radius:4px;background:var(--chip)}
+.chip.p{color:var(--bg)}
+ol.method{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14px;max-width:80ch}
+a{color:var(--accent)}
+.src{font-size:13px;color:var(--muted);display:grid;gap:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">Test · not on the public site</span>
+    <h1>Klaus Mølmer: research proficiency</h1>
+    <p class="lede"><b>Professor, Niels Bohr Institute, Quantum Optics and Photonics, University of Copenhagen.</b> A test of a new way to show research on the CFQT proficiency triangle: one researcher, built from the research profile, the research output of the last six years (2021–2026) and the PhD theses supervised in the same period. All sources are public research portals.</p>
+  </header>
+
+  <section class="grid">
+    <div class="card" style="display:grid;gap:10px">
+      <h2 id="tri-h">Proficiency triangle</h2>
+      <svg class="big" id="tri" role="img" aria-labelledby="tri-h"></svg>
+      <div class="legend" id="lg"></div>
+      <p class="sub">The number in a cell counts the pieces of evidence placed there. The framed cells are the researcher's level in each area (see Method).</p>
+    </div>
+    <div style="display:grid;gap:20px">
+      <section>
+        <h3>Evidence</h3>
+        <div class="picks" id="picks"></div>
+      </section>
+      <section>
+        <h3>Level per proficiency area</h3>
+        <table id="lvtab"></table>
+        <p class="sub" id="lvnote"></p>
+      </section>
+    </div>
+  </section>
+
+  <section>
+    <h2>Where the research sits on the CFQT content map</h2>
+    <p class="sub">Count per CFQT subdomain in the selected evidence. Dark: main topic. Light: secondary topic. Only subdomains with evidence are shown.</p>
+    <div class="legend"><span><span class="sw" style="background:var(--fg)"></span>main topic</span><span><span class="sw" style="background:var(--muted);opacity:.45"></span>secondary topic</span></div>
+    <div class="card bars" id="bars"></div>
+  </section>
+
+  <section>
+    <h2>Method (test)</h2>
+    <ol class="method">
+      <li>Every piece of evidence (research profile, research output, supervised PhD thesis) gets up to three CFQT subdomains from its title or keywords; the first is the main topic.</li>
+      <li>Subdomains map to the three proficiency areas as on the rest of the site: (I) Quantum concepts = domains 1–2 and 5.1, 5.4, 5.5; (III) Applications &amp; strategies = 5.6, 6.7, 7.4, 7.6 and domain 8; (II) Hardware &amp; software engineering = all others.</li>
+      <li>Research creates new knowledge, so the main topic's area is placed at <b>C2 Innovation</b>, and other areas the evidence touches at <b>C1 Specialisation</b>. This fills the cells of the triangle.</li>
+      <li>The researcher's <b>level per area</b> (framed cells) depends on how much evidence there is: C2 with at least 3 pieces whose main topic is in the area; C1 with at least 1 main topic or at least 2 secondary topics; B2 Investigation with a single secondary topic.</li>
+      <li>The window is 2021–2026. Older evidence is listed but not counted. Editorials and prefaces are left out.</li>
+    </ol>
+  </section>
+
+  <details class="fold" id="evd"><summary id="evs">All evidence</summary><div class="ev" id="evl"></div></details>
+
+  <section class="src">
+    <h3 style="color:var(--fg)">Sources</h3>
+    <span>Research profile and research output: <a href="https://researchprofiles.ku.dk/en/persons/klaus-m%C3%B8lmer/" target="_blank" rel="noopener">University of Copenhagen research portal</a>.</span>
+    <span>Keywords and PhD supervision: <a href="https://pure.au.dk/portal/en/persons/klaus-m%C3%B8lmer" target="_blank" rel="noopener">Aarhus University research portal</a> (affiliation from his years at Aarhus). The Copenhagen portal does not record supervisor roles, so supervision of current PhD students and postdocs at KU is not public there.</span>
+    <span>Framework: <a id="doi" target="_blank" rel="noopener">European Competence Framework for Quantum Technologies (CFQT) v3.0</a>, CC BY 4.0. Classification by Danish Quantum Academy, 4 November 2026.</span>
+  </section>
+</div>
+<script>
+(()=>{
+  const D=/*DATA*/, Q=D.cfqt, NS='http://www.w3.org/2000/svg';
+  const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], FROM=2021;
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
+  const area=s=>{const d=s.split('.')[0];if(d==='1'||d==='2'||['5.1','5.4','5.5'].includes(s))return 'I';if(d==='8'||['5.6','6.7','7.4','7.6'].includes(s))return 'III';return 'II'};
+  const KIND={P:'Research profile',O:'Research output',S:'PhD supervision'}, KSHORT={P:'profile',O:'output',S:'PhD'};
+  D.items.forEach(x=>{x.inWin=x.y>=FROM&&x.subs.length>0; const ar=x.subs.map(area); x.main=ar[0]; x.prof={}; ar.forEach(a=>{if(!x.prof[a])x.prof[a]=a===x.main?'C2':'C1'})});
+  const state={k:'ALL'};
+  const sel=k=>D.items.filter(x=>x.inWin&&(k==='ALL'||x.k===k));
+  const BINS=[[1,2],[3,5],[6,12],[13,29],[30,1e9]], step=n=>n<=0?0:BINS.findIndex(b=>n>=b[0]&&n<=b[1])+1;
+  function geometry(W){
+    const h=W*Math.sqrt(3)/2, pad=W*.04, top=pad+(W>300?22:0);
+    const A=[W/2+pad,top], BL=[pad,h+top], BR=[W+pad,h+top];
+    const mid=(p,q)=>[(p[0]+q[0])/2,(p[1]+q[1])/2], lerp=(p,q,t)=>[p[0]+(q[0]-p[0])*t,p[1]+(q[1]-p[1])*t];
+    const L=mid(A,BL), Rr=mid(A,BR), M=mid(BL,BR), O=[(L[0]+Rr[0]+M[0])/3,(L[1]+Rr[1]+M[1])/3];
+    const sides={I:[L,Rr,A],II:[L,M,BL],III:[Rr,M,BR]}, cells=[];
+    for(const a of AREAS){const [P1,P2,V]=sides[a];
+      cells.push({a,l:'A1',pts:[O,lerp(O,P1,.5),lerp(O,P2,.5)]});
+      cells.push({a,l:'A2',pts:[lerp(O,P1,.5),P1,P2,lerp(O,P2,.5)]});
+      ['B1','B2','C1','C2'].forEach((l,k)=>cells.push({a,l,pts:[lerp(P1,V,k/4),lerp(P2,V,k/4),lerp(P2,V,(k+1)/4),lerp(P1,V,(k+1)/4)]}));}
+    return {W:W+2*pad,H:h+top+pad,A,BL,BR,L,R:Rr,M,cells};
+  }
+  const centroid=pts=>{let x=0,y=0;pts.forEach(p=>{x+=p[0];y+=p[1]});return [x/pts.length,y/pts.length]};
+  const P=pts=>pts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ');
+  const counts=list=>{const m={};AREAS.forEach(a=>LV.forEach(l=>m[a+l]=0));list.forEach(c=>AREAS.forEach(a=>{if(c.prof[a])m[a+c.prof[a]]++}));return m};
+  // researcher's level per area
+  const levelOf=list=>{const r={};AREAS.forEach(a=>{const m=list.filter(x=>x.main===a).length, s=list.filter(x=>x.prof[a]&&x.main!==a).length;
+    r[a]={m,s,l:m>=3?'C2':(m>=1||s>=2)?'C1':s===1?'B2':''}});return r};
+  function draw(svg,list,big){
+    const g=geometry(big?600:200); svg.setAttribute('viewBox',`0 0 ${g.W.toFixed(0)} ${(g.H+(big?30:0)).toFixed(0)}`); svg.innerHTML='';
+    const m=counts(list), lv=levelOf(list);
+    g.cells.forEach(c=>{const n=m[c.a+c.l], k=step(n);
+      const poly=sv('polygon',{points:P(c.pts),fill:k?`var(--a${c.a}-${k})`:'var(--empty)',stroke:'var(--surface)','stroke-width':big?1.5:1});
+      if(big) poly.append(sv('title',{},`(${c.a}) ${Q.areas[c.a]} – ${c.l} ${Q.levels[c.l]}: ${n} piece(s) of evidence`));
+      svg.append(poly);
+      if(big){const [x,y]=centroid(c.pts), ink=k?`var(--on-${k})`:'var(--muted)', small=c.l==='A1';
+        svg.append(sv('text',{x:x.toFixed(1),y:(y-(small?1:4)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:11,'font-weight':600,fill:ink},c.l));
+        if(!small||n) svg.append(sv('text',{x:x.toFixed(1),y:(y+(small?9:11)).toFixed(1),'text-anchor':'middle','font-family':'IBM Plex Mono, monospace','font-size':small?9:13,'font-weight':700,fill:ink},n?String(n):'–'));}
+    });
+    // frame the researcher's level per area
+    g.cells.filter(c=>lv[c.a].l===c.l).forEach(c=>svg.append(sv('polygon',{points:P(c.pts),fill:'none',stroke:'var(--fg)','stroke-width':big?3.5:2,'stroke-linejoin':'round','pointer-events':'none'})));
+    const bw=big?7:3.5;
+    [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':bw,'stroke-linecap':'round'})));
+    svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':big?1.2:.8}));
+    if(big){const tx=(x,y,t,an,col)=>svg.append(sv('text',{x,y,'text-anchor':an,'font-family':'IBM Plex Sans, sans-serif','font-size':12.5,'font-weight':600,fill:col},t));
+      tx(g.A[0],g.A[1]-10,'(I) Quantum concepts','middle',acol('I'));
+      tx(g.BL[0],g.H+20,'(II) QT HW & SW engineering','start',acol('II'));
+      tx(g.BR[0],g.H+20,'QT applications & strategies (III)','end',acol('III'));}
+  }
+  const lg=document.getElementById('lg');
+  lg.append(el('span',{},'Evidence per cell'),...[['1','1–2'],['2','3–5'],['3','6–12'],['4','13–29'],['5','30+']].map(([k,t])=>el('span',{},el('span',{class:'sw',style:`background:var(--aI-${k})`}),t)),
+    el('span',{},el('span',{class:'sw',style:'background:transparent;outline:2.5px solid var(--fg);outline-offset:-2.5px'}),"researcher's level"));
+  function render(){
+    const list=sel(state.k);
+    draw(document.getElementById('tri'),list,true);
+    document.getElementById('tri-h').textContent='Proficiency triangle · '+(state.k==='ALL'?'all evidence':KIND[state.k].toLowerCase());
+    // picks
+    const pk=document.getElementById('picks'); pk.innerHTML='';
+    [['ALL','All evidence'],['P','Research profile'],['O','Research output'],['S','PhD supervision']].forEach(([k,n])=>{
+      const l=sel(k), s=sv('svg',{'aria-hidden':'true'}); draw(s,l,false);
+      const b=el('button',{class:'pk',type:'button','aria-pressed':String(state.k===k)},s,el('span',{class:'nm'},n),el('span',{class:'ct'},k==='P'?'portal + keywords':k==='S'?`${l.length} PhD theses`:k==='O'?`${l.length} outputs`:`${l.length} pieces`));
+      b.onclick=()=>{state.k=k;render()}; pk.append(b)});
+    // level table
+    const lv=levelOf(list), t=document.getElementById('lvtab'); t.innerHTML='';
+    t.append(el('thead',{},el('tr',{},el('th',{},'Area'),el('th',{class:'n'},'Main topic'),el('th',{class:'n'},'Secondary'),el('th',{class:'n'},'Level'))),
+      el('tbody',{},...AREAS.map(a=>el('tr',{},el('td',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),el('td',{class:'n'},String(lv[a].m)),el('td',{class:'n'},String(lv[a].s)),
+        el('td',{class:'n'},lv[a].l?el('span',{title:Q.level_by_area[a][lv[a].l]},el('span',{class:'lvl',style:`background:${acol(a)}`},lv[a].l),' ',Q.levels[lv[a].l]):'–')))));
+    const top=AREAS.filter(a=>lv[a].l).map(a=>`(${a}) ${lv[a].l}: ${Q.level_by_area[a][lv[a].l]}`);
+    document.getElementById('lvnote').textContent=top.length?'What the levels mean in CFQT: '+top.join(' · '):'';
+    // subdomain bars
+    const bars=document.getElementById('bars'); bars.innerHTML='';
+    const mx=Math.max(1,...Object.values(Q.domains).flatMap(d=>Object.keys(d.subdomains)).map(s=>list.filter(x=>x.subs.includes(s)).length));
+    Object.entries(Q.domains).forEach(([d,dom])=>{
+      const rows=Object.entries(dom.subdomains).map(([s,n])=>({s,n,m:list.filter(x=>x.subs[0]===s).length,o:list.filter(x=>x.subs.slice(1).includes(s)).length})).filter(r=>r.m+r.o);
+      const tot=list.filter(x=>x.subs.some(s=>s.split('.')[0]===d)).length;
+      bars.append(el('div',{class:'drow dom'},el('span',{class:'nm',style:`color:${dcol(d)}`},el('span',{class:'code'},d),dom.name),el('span',{}),el('span',{class:'v'},String(tot))));
+      rows.forEach(r=>bars.append(el('div',{class:'drow'},el('span',{class:'nm',title:r.n},el('span',{class:'code'},r.s),r.n),
+        el('span',{class:'track'},el('span',{style:`width:${r.m/mx*100}%;background:${dcol(d)}`}),el('span',{style:`width:${r.o/mx*100}%;background:${dcol(d)};opacity:.35`})),
+        el('span',{class:'v'},`${r.m} + ${r.o}`))));
+    });
+    // evidence list
+    const all=D.items.filter(x=>state.k==='ALL'||x.k===state.k), ev=document.getElementById('evl'); ev.innerHTML='';
+    document.getElementById('evs').textContent=`All evidence (${all.length}, of which ${all.filter(x=>x.inWin).length} counted)`;
+    [...all].sort((a,b)=>'PSO'.indexOf(a.k)-'PSO'.indexOf(b.k)||b.y-a.y).forEach(x=>ev.append(el('div',{class:'evr'+(x.inWin?'':' out')},el('span',{class:'y'},String(x.y)),el('span',{class:'k'},KSHORT[x.k]),
+      el('div',{},x.t,x.inWin?null:el('span',{class:'sub'},x.subs.length?' (outside the window)':' (not research, left out)'),
+        el('div',{class:'chips'},...x.subs.map((s,i)=>el('span',{class:'chip'+(i?'':' p'),style:i?`color:${dcol(s.split('.')[0])}`:`background:${dcol(s.split('.')[0])}`,title:Q.domains[s.split('.')[0]].subdomains[s]},s)))))));
+  }
+  document.getElementById('doi').href=Q.doi;
+  render();
+})();
+</script>
+</body>
+</html>
