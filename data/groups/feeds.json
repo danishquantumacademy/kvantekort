@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T17:18Z",
+ "generated": "2026-11-04T18:18Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     }
    ]
   },
@@ -196,14 +196,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": false,
      "error": "<urlopen error timed out>",
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "date": "2024-01-16",
      "title": "Quantum Science Colloquium: Nikolaos Proukakis",
      "url": "https://phys.au.dk/ccq/show/artikel/quantum-science-colloquium-nikolaos-proukakis",
-     "text": "16 jan. 1022 dage, Tirsdag 16. januar 2024, kl. 11:00 - . 1525-626 Join us when Nikolaos Proukakis visits us. He will give a talk titled: Dissipation in ultracold quantum gases",
+     "text": "16 jan. 1024 dage, Tirsdag 16. januar 2024, kl. 11:00 - . 1525-626 Join us when Nikolaos Proukakis visits us. He will give a talk titled: Dissipation in ultracold quantum gases",
      "source": "https://phys.au.dk/ccq/events"
     },
     {
@@ -362,19 +362,26 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     }
    ]
   },
   "polima": {
    "news": [
+    {
+     "date": "2026-11-04",
+     "title": "Visit from Université Paris-Saclay",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/visit-from-universite-paris-saclay",
+     "text": "04.11.2026 Seminar with Mathieu Kociak",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
     {
      "date": "2026-10-20",
      "title": "Yonas Lebsir PhD defense",
@@ -450,13 +457,6 @@
      "title": "Visit from Brazil",
      "url": "https://www.sdu.dk/en/forskning/polima/news/visit-from-brazil",
      "text": "18.06.2026 PhD student Victor Duarte spends the week at POLIMA",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
-     "date": "2026-06-12",
-     "title": "Summer visit from Joel Yang",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/summer-visit-from-joel-yang",
-     "text": "12.06.2026 Visiting Professor Joel Yang spends June at POLIMA",
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     }
    ],
@@ -534,15 +534,15 @@
      "url": "https://www.sdu.dk/en/forskning/polima/news",
      "kind": "news",
      "ok": true,
-     "n": 108,
-     "checked": "2026-11-02T17:18Z"
+     "n": 109,
+     "checked": "2026-11-04T18:18Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     }
    ]
   },
@@ -608,7 +608,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-02T17:18Z"
+     "checked": "2026-11-04T18:18Z"
     }
    ]
   }

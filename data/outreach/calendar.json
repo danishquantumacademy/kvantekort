@@ -1,0 +1,41 @@
+{
+ "sources": {
+  "https://nbi.ku.dk/english/kalender/?get_rss=1": {
+   "status": "not reachable (URLError)",
+   "tried": "2026-11-04"
+  },
+  "https://nbi.ku.dk/kalender/?get_rss=1": {
+   "status": "not reachable (URLError)",
+   "tried": "2026-11-04"
+  },
+  "https://phys.au.dk/aktuelt/arrangementer": {
+   "status": "read",
+   "read": "2026-11-04",
+   "events": 6,
+   "kept": 1
+  },
+  "https://phys.au.dk/en/news/events": {
+   "status": "read",
+   "read": "2026-11-04",
+   "events": 6,
+   "kept": 0
+  }
+ },
+ "items": [
+  {
+   "kind": "O",
+   "provider": "AU",
+   "date": "2026-11-11",
+   "title": "Ph.d.-forsvar: Forståelse af kvantemagneter: udforskning af deres egenskaber under forskellige ydre betingelser v/Ihsan Ahmed Kolasseri",
+   "url": "https://phd.nat.au.dk/da/about-us/currently/nyhed/artikel/understanding-quantum-magnets-exploring-their-properties-under-different-environments",
+   "subs": [
+    "2.3"
+   ],
+   "prof": {
+    "I": "A2"
+   },
+   "source": "https://phys.au.dk/aktuelt/arrangementer",
+   "found": "2026-11-04"
+  }
+ ]
+}
