@@ -121,6 +121,15 @@ for line in (D / "people/units.txt").read_text(encoding="utf-8").splitlines():
     add("Unit page", inst, portal, f"Research-portal organisation page: {name}", "data/people/units.txt")
     add("Unit page", inst, site, f"Unit website (link target): {name}", "data/people/units.txt")
 
+# 6b. Workshops and public outreach
+for line in (D / "outreach/activities.txt").read_text(encoding="utf-8").splitlines():
+    if not line.strip() or line.startswith("#"):
+        continue
+    f = line.split("|")
+    add("Workshops and public outreach", f[1], f[9], ("Workshop" if f[0] == "W" else "Outreach") + f": {f[3][:90]}", "data/outreach/activities.txt")
+for u in ("https://nbi.ku.dk/english/kalender/?get_rss=1", "https://nbi.ku.dk/kalender/?get_rss=1", "https://phys.au.dk/aktuelt/arrangementer", "https://phys.au.dk/en/news/events"):
+    add("Workshops and public outreach", "KU" if "nbi" in u else "AU", u, "Event calendar, read every Monday for public quantum events", "data/outreach/calendar.json")
+
 # 7. Research groups
 for g in groups:
     i = g["institution"]

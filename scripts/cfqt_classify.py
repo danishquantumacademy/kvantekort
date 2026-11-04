@@ -64,7 +64,7 @@ RULES = [
     (r"quantum simulat|analog simulat|simulate.*with (cold|ultracold|rydberg|trapped)|synthetic gauge|fragmentation|lattice gauge", "5.2", 3),
     (r"grover|\bshor\b|qaoa|vqe|variational quantum|quantum algorithm|quantum walk|amplitude amplif|phase estimation algorithm", "5.5", 4),
     (r"adiabatic quantum|state preparation|quantum subroutine|quantum fourier|oracle", "5.4", 2),
-    (r"quantum comput|quantum gate|gate operation|multi[- ]?qubit|two[- ]qubit|quantum processor|quantum register|nisq", "5.1", 2),
+    (r"kvantecomputer|quantum comput|quantum gate|gate operation|multi[- ]?qubit|two[- ]qubit|quantum processor|quantum register|nisq", "5.1", 2),
     # 4 hardware
     (r"superconduct(ing)? (qubit|circuit|resonator|cavity|device|amplif)|transmon|fluxonium|josephson|kinetic inductance|circuit qed|cqed|microwave resonator", "4.1", 4),
     (r"spin qubit|nitrogen[- ]vacancy|\bnv\b|colou?r cent|defect cent|electron spin|nuclear spin|rare[- ]earth|spin ensemble|maser|germanium hole|semiconductor qubit|quantum dot (qubit|spin)", "4.2", 3),

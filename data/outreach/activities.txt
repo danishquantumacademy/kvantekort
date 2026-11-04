@@ -1,0 +1,23 @@
+# Workshops for schools and teachers (W) and public outreach (O) about quantum physics and technology.
+# Written by Danish Quantum Academy from the public pages listed in the url column, 2026-11-04.
+# Each activity gets CFQT subdomains (main topic first) and a proficiency level per area it reaches (I, II, III);
+# school workshops typically reach A2 Literacy to B1 Utilisation, public talks A1 Awareness to A2 Literacy.
+# kind|provider|years|title|audience|subs|I|II|III|url
+W|KU|2026|Quantum Training Lab: class visits (photonic lab and cryostat lab)|stx and htx classes, Physics B/A and Informatics C|4.4;4.1;2.2|A2|A2||https://nbi.ku.dk/english/research_infrastructure/qtl/
+W|KU|2026|Quantum Training Lab: SRP and SOP projects with experiments and supervision|stx and htx 3rd-year students|4.4;2.2|B1|B1||https://nbi.ku.dk/english/research_infrastructure/qtl/
+W|KU|2026|KVANT21: classroom game "Search for the Stars" (Grover's algorithm)|stx and htx classes|5.5;1.1|A2|||https://nbi.ku.dk/moed-os/gymnasielaerere_og_folkeskolelaerere/temadag2026/Jeppe_Willads_Petersen_slides.pdf
+W|KU|2026|KVANT21: teaching materials, experiments, SRP catalogue and further training for Physics A teachers|physics teachers (stx and htx)|1.1;1.2;2.2|B1|A1||https://nbi.ku.dk/moed-os/gymnasielaerere_og_folkeskolelaerere/temadag2026/Jeppe_Willads_Petersen_slides.pdf
+W|KU|2026|NQCP: talent programmes with Astra, ScienceTalents and the Academy for Talented Youths|talented upper-secondary students|5.1;1.1|A2|A1||https://nqcp.ku.dk/our-work/education-team
+W|KU|2026|Quantum Teaching (Erasmus+ project with NQCP)|upper-secondary teachers|1.1;1.2|B1|||https://sites.google.com/view/quantumteaching
+W|SDU|2025|Center for Quantum Mathematics: school collaboration on quantum computing, software and communication|grades 8-10, two Odense schools|5.1;5.3;7.1|A1|A1||https://www.sdu.dk/da/forskning/qm/news/skolesamarbejde-onsdagsundervisning
+O|AU|2015;2018|Kvantemekanik – atomernes vilde verden (lecture course, Folkeuniversitetet Aarhus)|public|1.1;2.1|A2|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2015|Parallelle verdener (Folkeuniversitetet Aarhus)|public|1.1|A1|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2015|Radio interview on quantum physics, DR P1|national radio audience|1.1|A1|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2016;2017|Kvantecomputeren (Søauditorierne, livestreamed to 40 venues)|public, about 800 in the hall|5.1;1.1|A2|A1||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2017|Kvantecomputeren: fra Einsteins hovedbrud til teknologisk gennembrud|high-school students, Copenhagen|5.1;1.1|A2|A1||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2017|Quantum Music: concert introductions, Aarhus and Copenhagen|public|1.1|A1|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2018|Kvantefysikken – atomernes vilde verden (livestreamed to 120+ venues)|public|1.1;2.1|A2|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2018|Lyden af kvantemekanik (talk and music, Royal Danish Theatre)|public|1.1|A1|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2019|Quantum Movement (talk and performance, Bloom Festival)|public|1.1|A1|||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2019|Rydbergator (EU citizen-science game)|public|2.1;4.3|A1|A1||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015
+O|AU|2020|Kvantecomputeren (Søauditorierne, livestreamed to 200 venues)|public, about 900 in the hall|5.1;1.1|A2|A1||https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015

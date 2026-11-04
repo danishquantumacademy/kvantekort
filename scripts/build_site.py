@@ -445,6 +445,21 @@ for pp in plist:
     res_list.append({"inst": pp["institution"], "name": pp["name"], "level": pp.get("level", ""), "unit": ([u for u in pp.get("units", [])] or [""])[-1],
                      "prof": prof, "subs": subs, "n": len(rp["it"])})
 out["research"] = res_list
+# Workshops (W) and public outreach (O): hand-made list (data/outreach/activities.txt) and public quantum events
+# from the NBI and AU calendars (data/outreach/calendar.json, scripts/fetch_outreach.py, weekly)
+outreach = []
+for ln in (ROOT / "data/outreach/activities.txt").read_text(encoding="utf-8").splitlines():
+    if not ln.strip() or ln.startswith("#"): continue
+    kind, prov, years, title, aud, subs, l1, l2, l3, url = ln.split("|")
+    prof = {a: l for a, l in zip(("I", "II", "III"), (l1, l2, l3)) if l}
+    outreach.append({"kind": kind, "provider": prov, "years": years.replace(";", ", "), "title": title, "audience": aud,
+                     "subs": subs.split(";"), "prof": prof, "url": url})
+cal = ROOT / "data/outreach/calendar.json"
+if cal.exists():
+    for x in json.loads(cal.read_text(encoding="utf-8")).get("items", []):
+        outreach.append({"kind": "O", "provider": x["provider"], "years": (x.get("date") or x.get("found", ""))[:10], "title": x["title"],
+                         "audience": "public event (calendar)", "subs": x["subs"], "prof": x["prof"], "url": x["url"]})
+out["outreach"] = outreach
 body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "index")
 page = page.split("<body>\n")[0] + "<body>\n" + body + "\n</body>\n</html>\n"
 (ROOT / "site/index.html").write_text(page, encoding="utf-8")

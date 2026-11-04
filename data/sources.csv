@@ -2288,6 +2288,16 @@ Unit page,AU,https://pure.au.dk/portal/en/organisations/interdisciplinary-nanosc
 Unit page,AU,https://inano.au.dk,Unit website (link target): Interdisciplinary Nanoscience Center (iNANO),data/people/units.txt
 Unit page,KU,https://nbi.ku.dk/english/research/quantum-optics-and-photonics/quantop/,Unit website (link target): QUANTOP – Quantum Optics Center (leader),data/people/units.txt
 Unit page,AU,https://pure.au.dk/portal/en/organisations/department-of-electrical-and-computer-engineering-electrical-ener/,Research-portal organisation page: Electrical Energy and Electronics,data/people/units.txt
+Workshops and public outreach,KU,https://nbi.ku.dk/english/research_infrastructure/qtl/,Workshop: Quantum Training Lab: class visits (photonic lab and cryostat lab),data/outreach/activities.txt
+Workshops and public outreach,KU,https://nbi.ku.dk/moed-os/gymnasielaerere_og_folkeskolelaerere/temadag2026/Jeppe_Willads_Petersen_slides.pdf,"Workshop: KVANT21: classroom game ""Search for the Stars"" (Grover's algorithm)",data/outreach/activities.txt
+Workshops and public outreach,KU,https://nqcp.ku.dk/our-work/education-team,"Workshop: NQCP: talent programmes with Astra, ScienceTalents and the Academy for Talented Youths",data/outreach/activities.txt
+Workshops and public outreach,KU,https://sites.google.com/view/quantumteaching,Workshop: Quantum Teaching (Erasmus+ project with NQCP),data/outreach/activities.txt
+Workshops and public outreach,SDU,https://www.sdu.dk/da/forskning/qm/news/skolesamarbejde-onsdagsundervisning,"Workshop: Center for Quantum Mathematics: school collaboration on quantum computing, software and co",data/outreach/activities.txt
+Workshops and public outreach,AU,https://phys.au.dk/en/research/research-centres/quscope/public-outreach-since-2015,"Outreach: Kvantemekanik – atomernes vilde verden (lecture course, Folkeuniversitetet Aarhus)",data/outreach/activities.txt
+Workshops and public outreach,KU,https://nbi.ku.dk/english/kalender/?get_rss=1,"Event calendar, read every Monday for public quantum events",data/outreach/calendar.json
+Workshops and public outreach,KU,https://nbi.ku.dk/kalender/?get_rss=1,"Event calendar, read every Monday for public quantum events",data/outreach/calendar.json
+Workshops and public outreach,AU,https://phys.au.dk/aktuelt/arrangementer,"Event calendar, read every Monday for public quantum events",data/outreach/calendar.json
+Workshops and public outreach,AU,https://phys.au.dk/en/news/events,"Event calendar, read every Monday for public quantum events",data/outreach/calendar.json
 Research group,DTU,https://physics.dtu.dk/research/sections/qpit,"QPIT: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,DTU,https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/,QPIT: research-portal organisation page,data/groups/groups.json
 Research group,DTU,https://www.dtu.dk/english/about/job-and-career/vacant-positions,QPIT: university vacancies page (link target),data/groups/groups.json

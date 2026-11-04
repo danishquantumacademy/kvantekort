@@ -167,6 +167,16 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | www.spoc.dtu.dk | 1 |
 | www1.bio.ku.dk | 1 |
 
+### Workshops and public outreach
+
+| Site | Pages |
+|---|---:|
+| nbi.ku.dk | 4 |
+| phys.au.dk | 3 |
+| nqcp.ku.dk | 1 |
+| sites.google.com | 1 |
+| www.sdu.dk | 1 |
+
 ### Research group
 
 | Site | Pages |
@@ -207,4 +217,4 @@ The workflow "Check sources" opened 136 pages (up to three per site) from a GitH
 
 
 
-Total: 2567 pages from 74 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 2577 pages from 75 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

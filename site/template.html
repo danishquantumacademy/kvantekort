@@ -289,6 +289,10 @@ footer a{color:var(--accent)}
   // the educators' research: one item per educator at their level in each proficiency area (from the Educators page)
   (D.research||[]).forEach(x=>C.push({institution:x.inst,level:'RES',code:'Educator',title:x.name,url:'people.html#t-'+x.inst+'-'+x.name.normalize('NFD').replace(/[^\w]+/g,'-'),
     language:'',ects:null,dept_name:[x.level,x.unit,`${x.n} pieces of evidence on the content map`].filter(Boolean).join(' · '),subs:[...x.subs].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',special:true,research:true}));
+  // workshops for schools and teachers (WS) and public outreach (OUT) belong to the STX/HTX card; the provider is kept in the details
+  const SKEY0=Object.keys(R.schools||{})[0]||'GYM';
+  (D.outreach||[]).forEach(x=>C.push({institution:SKEY0,level:x.kind==='W'?'WS':'OUT',code:x.provider+' · '+x.years,title:x.title,url:x.url,language:'',ects:null,
+    dept_name:[x.provider,x.audience].filter(Boolean).join(' · '),subs:x.subs,primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',special:true,outreach:true}));
   PJALL.filter(x=>x.subs&&x.subs.length&&x.prof).forEach(x=>C.push({institution:x.inst,level:x.kind==='postdoc'?'PDP':'PHDP',code:x.kind==='postdoc'?'Postdoc':'PhD',title:x.title,url:x.url||'people.html#pj-h',
     language:'',ects:null,dept_name:[x.group?`${x.group} group`:'',x.who?`supervisor ${x.who}`:'',x.basis==='output'?'mapped from latest output':''].filter(Boolean).join(' · '),
     subs:[...x.subs].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',project:true,special:true}));
@@ -299,14 +303,14 @@ footer a{color:var(--accent)}
   const isSchool=k=>SKEYS.includes(k);
   const IORDER=[...SKEYS,...INSTS]; // order everywhere: Denmark, STX/HTX, DTU, KU, AU, SDU, AAU
   const inGroup=(c,i)=>i==='ALL'||c.institution===i;
-  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master','PHDP','PDP','RES'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master',PHDP:'PhD projects',PDP:'Postdoc projects',RES:'Educators\' research'};
-  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx',PHDP:'PhD projects (research level)',PDP:'Postdoc projects (research level)',RES:'Research of the educators: each educator at their level in each area'};
+  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master','PHDP','PDP','RES','WS','OUT'], LEVEL_LABEL={WS:'Workshops',OUT:'Public outreach',Diplom:'BEng',Master:'Prof. master',PHDP:'PhD projects',PDP:'Postdoc projects',RES:'Educators\' research'};
+  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx',PHDP:'PhD projects (research level)',PDP:'Postdoc projects (research level)',RES:'Research of the educators: each educator at their level in each area',WS:'Workshops for schools and teachers',OUT:'Public outreach: talks, events, media'};
   const PROJ_LEVELS=['PHDP','PDP'], isProj=L=>PROJ_LEVELS.includes(L), projMode=()=>state.levels.size>0&&[...state.levels].every(isProj);
-  const SPEC=['PHDP','PDP','RES'], isSpec=L=>SPEC.includes(L), specMode=()=>state.levels.size>0&&[...state.levels].every(isSpec), resMode=()=>state.levels.size===1&&state.levels.has('RES');
-  const SCHOOL_LEVELS=['STX','HTX'];
+  const SPEC=['PHDP','PDP','RES','WS','OUT'], isSpec=L=>SPEC.includes(L), specMode=()=>state.levels.size>0&&[...state.levels].every(isSpec), resMode=()=>state.levels.size===1&&state.levels.has('RES');
+  const SCHOOL_LEVELS=['STX','HTX','WS','OUT'];
   // levels that belong to the current selection: all in Denmark, school levels for STX/HTX, university levels for a university
   const visLevels=()=>LEVELS.filter(L=>state.inst==='ALL'||SCHOOL_LEVELS.includes(L)===isSchool(state.inst));
-  const noun=(n,list)=>{const p=list.length&&list.every(c=>c.project), r=list.length&&list.every(c=>c.research), m=list.some(c=>c.special)&&!p&&!r; return `${n} ${p?'project':r?'educator':m?'item':'course'}${n===1?'':'s'}`};
+  const noun=(n,list)=>{const p=list.length&&list.every(c=>c.project), r=list.length&&list.every(c=>c.research), o=list.length&&list.every(c=>c.outreach), m=list.some(c=>c.special)&&!p&&!r&&!o; return `${n} ${p?'project':r?'educator':o?'activit'+(n===1?'y':'ie'):m?'item':'course'}${n===1||o?(o&&n!==1?'s':''):'s'}`};
   const courseLevels=()=>visLevels().filter(L=>!isSpec(L));
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
@@ -420,13 +424,16 @@ footer a{color:var(--accent)}
         const rb=el('button',{class:'pk pj',type:'button','aria-pressed':String(on&&rm),title:`${k==='ALL'?'Denmark':ALLI[k].name}: research of ${rl.length} educators, each at their level in each proficiency area`},rs,el('span',{class:'ct'},`research of ${rl.length} educators`));
         rb.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;state.levels=new Set(['RES']);render()};
         card.append(rb);
-      } else ['Workshops','Public outreach'].forEach(n=>{const es=sv('svg',{'aria-hidden':'true'}); drawTriangle(es,[],{W:200});
-        card.append(el('div',{class:'pk pj nopj',title:`${n}: not mapped yet`},es,el('span',{class:'nm'},n),el('span',{class:'ct'},'not mapped yet')))});
+      } else [['WS','Workshops'],['OUT','Public outreach']].forEach(([L,n])=>{const ol=C.filter(c=>c.level===L), es=sv('svg',{'aria-hidden':'true'}); drawTriangle(es,ol,{W:200});
+        const only=on&&state.levels.size===1&&state.levels.has(L);
+        const b=el('button',{class:'pk pj',type:'button','aria-pressed':String(only),title:`${n}: ${ol.length} activities on the CFQT content map`},es,el('span',{class:'nm'},n),el('span',{class:'ct'},`${ol.length} activities`));
+        b.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;state.levels=new Set([L]);render()};
+        card.append(b)});
       picker.append(card);
     });
   }
   {const all=PJALL, on=all.filter(x=>x.prof).length;
-   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. For STX/HTX the two lower triangles are reserved for workshops and public outreach, which are not mapped yet. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses.`;}
+   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. For STX/HTX the two lower triangles show workshops for schools and teachers and public outreach (talks, events, media) about quantum physics and technology, from the universities' pages and the NBI and AU event calendars. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses.`;}
 
   // ---- study level filter ----
   const lf=document.getElementById('lvl-filters');
@@ -559,7 +566,7 @@ footer a{color:var(--accent)}
     const pk=AREAS.filter(a=>c.prof[a]);
     if(pk.length) pk.forEach(a=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${c.prof[a]} ${Q.levels[c.prof[a]]} – ${Q.level_by_area[a][c.prof[a]]}`},`${a} ${c.prof[a]}`)));
     else tags.append(el('span',{class:'none'},'no QT-specific proficiency'));
-    return el('div',{class:'row'},el('span',{class:'ic'},isSchool(c.institution)?c.level:c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
+    return el('div',{class:'row'},el('span',{class:'ic'},c.outreach?c.code.split(' · ')[0]:isSchool(c.institution)?c.level:c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
       el('span',{class:'b',title:LEVEL_NAME[c.level]},c.ects!=null?`${LEVEL_LABEL[c.level]||c.level} · ${c.ects} ECTS`:(LEVEL_LABEL[c.level]||c.level)),tags,
       el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,isSchool(c.institution)?null:kwbars(c)),
       isSchool(c.institution)&&c.note?el('p',{class:'snote'},c.note):null);
