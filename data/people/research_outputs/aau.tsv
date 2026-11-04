@@ -10,6 +10,7 @@ Casper Steinmann	O	2024	article	cclib 2.0: An updated architecture for interoper
 Casper Steinmann	O	2026	article	CACHE Challenge #3: Targeting the Nsp3 Macrodomain of SARS-CoV-2	https://doi.org/10.1021/acs.jcim.5c02441
 Casper Steinmann	O	2021	article	The aug‐cc‐pVTZ‐J basis set for the p‐block fourth‐row elements Ga, Ge, As, Se, and Br	https://doi.org/10.1002/mrc.5166
 Casper Steinmann	O	2025	article	Finding Drug Candidate Hits With A Hundred Samples: Ultralow Data Screening With Active Learning	https://doi.org/10.1002/ceur.202500134
+Casper Steinmann	O	2025	article	Adding value to botanical resources: Metabolic network analysis along with high-resolution bioassays screening and UHPLC-qToF-high-resolution MS/MS profiling detail the pharmacological potential of underexplored Latin-American plants	https://doi.org/10.1016/j.fitote.2025.106748
 Casper Steinmann	O	2022	article	Supramolecular Complexes of Plant Neurotoxin Veratridine with Cyclodextrins and Their Antidote-like Effect on Neuro-2a Cell Viability	https://doi.org/10.3390/pharmaceutics14030598
 Casper Steinmann	O	2024	article	BODIPY-based nanoparticles for highly efficient photothermal/gas synergistic therapy against drug-resistant bacterial infection	https://doi.org/10.1007/s10853-024-10351-x
 Casper Steinmann	O	2024	article	Pd EnCat™ 30 Recycling in Suzuki Cross-Coupling Reactions	https://doi.org/10.3390/org5040023
@@ -25,7 +26,6 @@ Casper Steinmann	O	2021	other	Supramolecular Chemistry 8th semester: Docking	htt
 Casper Steinmann	O	2021	other	Supramolecular Chemistry 8th semester: Monte Carlo	https://openalex.org/W3192901870
 Casper Steinmann	O	2023	preprint	Virtual Screening for Promising Kinetic Stabilizers of Light Chains in Immunoglobulin Light Chain Amyloidosis Through Drug Repurposing	https://doi.org/10.26434/chemrxiv-2023-b7jql
 Casper Steinmann	O	2023	conference-paper	Why is it so difficult to converge MM/GBSA free energies of binding for cyclodextrin inclusion complexes?	https://openalex.org/W4412233969
-Casper Steinmann	O	2025	article	Adding value to botanical resources: Metabolic network analysis along with high-resolution bioassays screening and UHPLC-qToF-high-resolution MS/MS profiling detail the pharmacological potential of underexplored Latin-American plants	https://doi.org/10.1016/j.fitote.2025.106748
 Casper Steinmann	O	2025	article	CACHE Challenge #1: Targeting the WDR Domain of LRRK2, A Parkinson’s Disease Associated Protein	https://doi.org/10.17615/sq9x-1861
 Casper Steinmann	O	2026	article	CACHE Challenge #3: Targeting the Nsp3 Macrodomain of SARS-CoV‑2	https://doi.org/10.17615/35ks-ya09
 Casper Steinmann	O	2026	article	CACHE Challenge #2: Targeting the RNA Site of the SARS-CoV‑2 Helicase Nsp13	https://doi.org/10.17615/bz0e-qm17
@@ -42,8 +42,8 @@ Esben Pilgaard Skovsen	O	2024	article	Classification of non-referenced continuou
 Esben Pilgaard Skovsen	O	2026	article	High-accuracy material classification via reference-free terahertz spectroscopy: Revisiting spectral referencing and feature selection	https://doi.org/10.1016/j.sna.2026.117648
 Esben Pilgaard Skovsen	O	2022	article	Thermal conduction in a densified oxide glass: Insights from lattice dynamics	https://doi.org/10.1016/j.mtcomm.2022.104160
 Esben Pilgaard Skovsen	O	2024	article	Autocorrelation study of terahertz and second-harmonic pulsed generations in reflection at the surface of a nonlinear dielectric crystal	https://doi.org/10.1016/j.optlastec.2024.110981
-Esben Pilgaard Skovsen	O	2025	article	Broadband two-dimensional far-field beam profiling of commercial CW terahertz photomixers from 0.2 to 1.5 THz	https://doi.org/10.1016/j.infrared.2025.106094
 Esben Pilgaard Skovsen	O	2022	conference-paper	Classification of Terahertz Reflection Spectra using Machine Learning Algorithms	https://doi.org/10.1109/irmmw-thz50927.2022.9895909
+Esben Pilgaard Skovsen	O	2025	article	Broadband two-dimensional far-field beam profiling of commercial CW terahertz photomixers from 0.2 to 1.5 THz	https://doi.org/10.1016/j.infrared.2025.106094
 Esben Pilgaard Skovsen	O	2024	conference-paper	THz and SHG autocorrelation generations in reflection from different nonlinear crystals excited by femtosecond laser pulses	https://doi.org/10.1109/irmmw-thz60956.2024.10697733
 Esben Pilgaard Skovsen	O	2022	article	All-dielectric one-dimensional gratings exhibiting Fano resonances in the terahertz region	https://doi.org/10.1364/josab.462062
 Esben Pilgaard Skovsen	O	2022	article	Correlating thermal conductivity of oxide glasses with modal characteristics and network topology	https://openalex.org/W4412341145
@@ -68,8 +68,8 @@ Jens Myrup Pedersen	-				/en/persons/jens-pedersen/
 Jens Myrup Pedersen	A				A5034797912
 Jens Myrup Pedersen	O	2023	article	Gotta Catch ’em All: A Multistage Framework for Honeypot Fingerprinting	https://doi.org/10.1145/3584976
 Jens Myrup Pedersen	O	2021	conference-paper	Open for hire	https://doi.org/10.1145/3487552.3487833
-Jens Myrup Pedersen	O	2021	conference-paper	A qualitative mapping of Darkweb marketplaces	https://doi.org/10.1109/ecrime54498.2021.9738766
 Jens Myrup Pedersen	O	2021	article	Open Data Interface (ODI) for secondary school education	https://doi.org/10.1016/j.compedu.2021.104294
+Jens Myrup Pedersen	O	2021	conference-paper	A qualitative mapping of Darkweb marketplaces	https://doi.org/10.1109/ecrime54498.2021.9738766
 Jens Myrup Pedersen	O	2022	conference-paper	Interaction matters: a comprehensive analysis and a dataset of hybrid IoT/OT honeypots	https://doi.org/10.1145/3564625.3564645
 Jens Myrup Pedersen	O	2022	article	Botnet Business Models, Takedown Attempts, and the Darkweb Market: A Survey	https://doi.org/10.1145/3575808
 Jens Myrup Pedersen	O	2022	conference-paper	Deceptive directories and “vulnerable” logs: a honeypot study of the LDAP and log4j attack landscape	https://doi.org/10.1109/eurospw55150.2022.00052
@@ -80,9 +80,9 @@ Jens Myrup Pedersen	O	2022	book-chapter	Security in the Industrial Internet of T
 Jens Myrup Pedersen	O	2021	conference-paper	Can a TLS Certificate Be Phishy?	https://doi.org/10.5220/0010516600002998
 Jens Myrup Pedersen	O	2022	conference-paper	Detecting DNS hijacking by using NetFlow data	https://doi.org/10.1109/cns56114.2022.9947264
 Jens Myrup Pedersen	O	2022	article	Detecting Cyber Attacks through Measurements: Learnings from a Cyber Range	https://doi.org/10.1109/mim.2022.9847127
+Jens Myrup Pedersen	O	2024	article	Diving Deep With BotLab-DS1: A Novel Ground Truth-Empowered Botnet Dataset	https://doi.org/10.1109/access.2024.3367122
 Jens Myrup Pedersen	O	2021	conference-paper	DefAtt - Architecture of Virtual Cyber Labs for Research and Education	https://doi.org/10.1109/cybersa52016.2021.9478236
 Jens Myrup Pedersen	O	2022	conference-paper	Detecting Ambiguous Phishing Certificates using Machine Learning	https://doi.org/10.1109/icoin53446.2022.9687264
-Jens Myrup Pedersen	O	2024	article	Diving Deep With BotLab-DS1: A Novel Ground Truth-Empowered Botnet Dataset	https://doi.org/10.1109/access.2024.3367122
 Jens Myrup Pedersen	O	2023	article	Building a Diverse Cybersecurity Workforce: A Study on Attracting Learners with Varied Educational Backgrounds	https://doi.org/10.32727/8.2023.33
 Jens Myrup Pedersen	O	2024	conference-paper	Cyber Resilience in OT: Characteristics and Security Challenges	https://doi.org/10.1109/csr61664.2024.10679463
 Jens Myrup Pedersen	O	2021	conference-paper	Using NetFlow to Measure the Impact of Deploying DNS-based Blacklists	https://doi.org/10.1007/978-3-030-90019-9_24
@@ -94,6 +94,7 @@ Jens Myrup Pedersen	O	2022	conference-paper	A Study on the Use of 3rd Party DNS 
 Jens Myrup Pedersen	O	2024	conference-paper	NLP and ML Synergy: A Novel Approach in Botnet Detection from Sandbox Artifacts	https://doi.org/10.1109/icetsis61505.2024.10459415
 Jens Myrup Pedersen	O	2024	conference-paper	Cybersecurity Training: Improving Platforms Through Usability Studies	https://doi.org/10.1007/978-981-99-6974-6_8
 Jens Myrup Pedersen	O	2024	conference-paper	Privacy and Security Training Platform for a Diverse Audience	https://doi.org/10.1007/978-981-99-6974-6_19
+Jens Myrup Pedersen	O	2024	conference-paper	Active Learning and New Technologies: Towards Better Learning	https://doi.org/10.5281/zenodo.14062684
 Jens Myrup Pedersen	O	2021	conference-paper	Digital innovation in education:Perspectives, opportunities and challenges of educational open data and sensor data	https://openalex.org/W3197574613
 Jens Myrup Pedersen	O	2023	conference-paper	In the Market for a Botnet? An In-Depth Analysis of Botnet-Related Listings on Darkweb Marketplaces	https://doi.org/10.1109/ecrime61234.2023.10485500
 Jens Myrup Pedersen	O	2022	book-chapter	Security in Internet of Things	https://doi.org/10.1201/9781003337812-6
@@ -111,7 +112,6 @@ Jens Myrup Pedersen	O	2025	article	NLP Security and Ethics, in the Wild	https://
 Jens Myrup Pedersen	O	2023	conference-paper	Winning the European Cyber Security Challenge 2022:What did We Learn?	https://openalex.org/W4412208010
 Jens Myrup Pedersen	O	2024	conference-paper	Workshop: Learning that Makes a Difference – Cross-Disciplinary Student Projects With a Real Impact	https://doi.org/10.5281/zenodo.14062956
 Jens Myrup Pedersen	O	2024	conference-paper	Tailoring Portfolio, Program, and Project Management to a Complex System	https://doi.org/10.5281/zenodo.14060903
-Jens Myrup Pedersen	O	2024	conference-paper	Active Learning and New Technologies: Towards Better Learning	https://doi.org/10.5281/zenodo.14062684
 Jens Myrup Pedersen	O	2024	conference-paper	Active Learning and Cybersecurity Training: Best practices and recommendations on using Cyber Ranges	https://doi.org/10.5281/zenodo.14060907
 Jens Myrup Pedersen	O	2023	conference-paper	Lessons learned from an international cross-disciplinary engineering collaboration:a case study of the Educado project	https://openalex.org/W4412222520
 Jens Myrup Pedersen	O	2021	conference-paper	Integrating project management and peer assessment: a case for increased teamwork	https://doi.org/10.5281/zenodo.5096279
@@ -171,11 +171,11 @@ Kjeld Pedersen	O	2023	article	Magnetron Sputter Deposition of Nanostructured AlN
 Kjeld Pedersen	O	2025	conference-paper	Liquid-Metal Interconnects on SiC MOSFETs	https://doi.org/10.1109/ecce58356.2025.11259945
 Kjeld Pedersen	O	2023	article	Engineering Substrate-Mediated Localized Surface Plasmons in Gold Nanodiscs	https://doi.org/10.3390/photonics10070821
 Kjeld Pedersen	O	2024	article	Fabrication of thick Cr masks for reactive ion substrate etching by electron beam lithography and lift-off techniques	https://doi.org/10.1116/6.0003965
+Kjeld Pedersen	O	2026	article	Universal and Scalable Fabrication of Plasmonic Nanocrystals for Ultrasensitive SERS	https://doi.org/10.1021/acsami.5c24001
 Kjeld Pedersen	O	2022	conference-paper	Aging mechanisms of Electrodes in LiFePO4/Graphite Batteries	https://doi.org/10.1109/ecce50734.2022.9947680
 Kjeld Pedersen	O	2023	conference-abstract	Quantifying the Lithium Loss in the Graphite Anodes of Commercial Batteries	https://doi.org/10.1149/ma2023-025838mtgabs
 Kjeld Pedersen	O	2023	article	Quantifying lithium losses in graphite anodes for commercial batteries	https://openalex.org/W4412228460
 Kjeld Pedersen	O	2023	article	Unravelling the aging process of commercial Li(Ni0.5Co0.2Mn0.3)O2/graphite lithium-ion batteries	https://openalex.org/W4412229675
-Kjeld Pedersen	O	2026	article	Universal and Scalable Fabrication of Plasmonic Nanocrystals for Ultrasensitive SERS	https://doi.org/10.1021/acsami.5c24001
 Kjeld Pedersen	O	2026	conference-paper	Long-Term High-Temperature Storage of Liquid-Metal Interconnects on SiC MOSFETs	https://openalex.org/W7165703373
 Kjeld Pedersen	O	2026	article	Unforeseen Failure Mode for LIME Interconnects on Power Semiconductors: Hill Growths	https://doi.org/10.1109/tdmr.2026.3738003
 Kjeld Pedersen	O	2026	article	Liquid‐Metal Interconnects: Proof‐of‐Concept for Repairable and Recyclable SiC MOSFET Chips	https://doi.org/10.1049/pel2.70323
@@ -185,24 +185,7 @@ Kjeld Pedersen	O	2026	conference-paper	Hybrid-LIME: Top-side Solder and Liquid-M
 Kjeld Pedersen	O	2026	conference-paper	Optical and interface properties of SiC grown on vicinal Si(111)	https://doi.org/10.1109/wipdaeurope69886.2026.11747043
 Kjeld Pedersen	O	2026	conference-paper	Demonstrating the Feasibility of High-Current, Noise-Immune Low-Complexity Faraday Effect Current Sensors for High-Bandwidth Applications	https://doi.org/10.1109/wipdaeurope69886.2026.11746979
 Kjeld Pedersen	O	2021	article	The Danish EQ-5D-5L Value Set: A Hybrid Model Using cTTO and DCE Data	https://doi.org/10.1007/s40258-021-00639-3
-Kjeld Pedersen	O	2024	article	Hearing Loss, Hearing Aid Use, and Risk of Dementia in Older Adults	https://doi.org/10.1001/jamaoto.2023.3509
 Kjeld Pedersen	O	2021	article	Danish population health measured by the EQ-5D-5L	https://doi.org/10.1177/14034948211058060
-Kjeld Pedersen	O	2021	article	Defensive medicine in Danish general practice. Types of defensive actions and reasons for practicing defensively	https://doi.org/10.1080/02813432.2021.1970945
-Kjeld Pedersen	O	2025	article	Causes and consequences of rejected or returned referrals from general practice	https://doi.org/10.61409/a01250002
-Kjeld Pedersen	O	2021	other	Hvad har vi lært af corona? Og hvordan omsætter vi det til praksis?	https://openalex.org/W3147872906
-Kjeld Pedersen	O	2021	other	Hvad blev der af de 870 covid-19-indlagte?	https://openalex.org/W3163440052
-Kjeld Pedersen	O	2021	article	Så meget kostede corona sundhedsvæsenet i 2020	https://openalex.org/W3163696071
-Kjeld Pedersen	O	2021	other	Professionsetik set med sundhedsøkonomens briller	https://openalex.org/W3171935899
-Kjeld Pedersen	O	2021	article	Hvis vi bare interesserede os lige så meget for de kroniske sygdomme:Covid-19-tal kan ikke stå alene	https://openalex.org/W3173988259
-Kjeld Pedersen	O	2021	other	Udspil om sundhedsklynger kobler klynger og nærhed – det er lovende,	https://openalex.org/W3174775152
-Kjeld Pedersen	O	2021	other	Hospitalsinfektioner har store menneskelige og økonomiske konsekvenser	https://openalex.org/W3197708314
-Kjeld Pedersen	O	2023	article	Den nye dagsorden for prioritering	https://openalex.org/W4412229856
-Kjeld Pedersen	O	2023	report	Vores sundhedsvæsen - vores fælles ansvar	https://openalex.org/W4412231736
-Kjeld Pedersen	O	2021	book-chapter	Sundhedsøkonomisk analyse	https://openalex.org/W4412242294
-Kjeld Pedersen	O	2021	report	Denmark Report:Sustainable Governance in the Context of the COVID-19 Crisis	https://openalex.org/W4412242818
-Kjeld Pedersen	O	2021	article	Prioriteringsdebatten fra 80erne til i dag	https://openalex.org/W4412243692
-Kjeld Pedersen	O	2021	book-chapter	Sårbehandling og sundhedsøkonomiske analyser	https://openalex.org/W4412245162
-Kjeld Pedersen	O	2023	book-chapter	Sundhedsklynger og patientforløb: ledelse i mellemrummet	https://openalex.org/W4412245686
 Kjeld Pedersen	S	2023	PhD thesis (Degree Awarded)	2023	
 Kjeld Pedersen	S	2023	PhD thesis (Degree Awarded)	AGING MECHANISMS OF LITHIUM-ION BATTERIES IN ELECTRIC VEHICLE APPLICATIONS	/en/publications/aging-mechanisms-of-lithium-ion-batteries-in-electric-vehicle-app/
 Kjeld Pedersen	S	2020	PhD thesis (Degree Awarded)	2020	
@@ -229,14 +212,14 @@ Leonid Gurevich	O	2025	review	Aspects of Electrochemical Biosensors Using Affini
 Leonid Gurevich	O	2021	article	Mastication of polyolefins alters the microbial composition in Galleria mellonella	https://doi.org/10.1016/j.envpol.2021.116877
 Leonid Gurevich	O	2022	article	Resolving the Conflict between Strength and Toughness in Bioactive Silica–Polymer Hybrid Materials	https://doi.org/10.1021/acsnano.2c03440
 Leonid Gurevich	O	2022	article	Recent Health Diagnosis Methods for Lithium-Ion Batteries	https://doi.org/10.3390/batteries8070072
-Leonid Gurevich	O	2022	article	Thermal Properties of Novel Phase-Change Materials Based on Tamanu and Coconut Oil Encapsulated in Electrospun Fiber Matrices	https://doi.org/10.3390/su14127432
 Leonid Gurevich	O	2022	article	Epoxy Compositions with Reduced Flammability Based on DER-354 Resin and a Curing Agent Containing Aminophosphazenes Synthesized in Bulk Isophoronediamine	https://doi.org/10.3390/polym14173592
+Leonid Gurevich	O	2022	article	Thermal Properties of Novel Phase-Change Materials Based on Tamanu and Coconut Oil Encapsulated in Electrospun Fiber Matrices	https://doi.org/10.3390/su14127432
 Leonid Gurevich	O	2022	article	Tailoring Hydrogel Composition and Stiffness to Control Smooth Muscle Cell Differentiation in Bioprinted Constructs	https://doi.org/10.1007/s13770-022-00500-1
 Leonid Gurevich	O	2023	article	Amperometric Biosensor for Quantitative Measurement Using Sandwich Immunoassays	https://doi.org/10.3390/bios13050519
-Leonid Gurevich	O	2021	article	Bio- and Hemo-Compatible Silk Fibroin PEGylated Nanocarriers for 5-Fluorouracil Chemotherapy in Colorectal Cancer: In Vitro Studies	https://doi.org/10.3390/pharmaceutics13050755
-Leonid Gurevich	O	2022	article	Nanoaggregates of Biphilic Carboxyl-Containing Copolymers as Carriers for Ionically Bound Doxorubicin	https://doi.org/10.3390/ma15207136
 Leonid Gurevich	O	2022	article	Which factor determines the optical losses in refractory tungsten thin films at high temperatures?	https://doi.org/10.1016/j.apsusc.2022.152927
+Leonid Gurevich	O	2022	article	Nanoaggregates of Biphilic Carboxyl-Containing Copolymers as Carriers for Ionically Bound Doxorubicin	https://doi.org/10.3390/ma15207136
 Leonid Gurevich	O	2021	article	Thermal Analysis of Organic and Nanoencapsulated Electrospun Phase Change Materials	https://doi.org/10.3390/en14040995
+Leonid Gurevich	O	2021	article	Bio- and Hemo-Compatible Silk Fibroin PEGylated Nanocarriers for 5-Fluorouracil Chemotherapy in Colorectal Cancer: In Vitro Studies	https://doi.org/10.3390/pharmaceutics13050755
 Leonid Gurevich	O	2022	article	Synthesis of Amphiphilic Copolymers of N-Vinyl-2-pyrrolidone and Allyl Glycidyl Ether for Co-Delivery of Doxorubicin and Paclitaxel	https://doi.org/10.3390/polym14091727
 Leonid Gurevich	O	2021	article	Synthesis, Self-Assembly and In Vitro Cellular Uptake Kinetics of Nanosized Drug Carriers Based on Aggregates of Amphiphilic Oligomers of N-Vinyl-2-pyrrolidone	https://doi.org/10.3390/ma14205977
 Leonid Gurevich	O	2021	article	Flexible inorganic–organic hybrids with dual inorganic components	https://doi.org/10.1016/j.mtchem.2021.100584
@@ -285,9 +268,9 @@ Manohar Chirumamilla	O	2024	article	H‐Glass Supported Hybrid Gold Nano‐Islan
 Manohar Chirumamilla	O	2024	article	Nature‐Inspired Halide Perovskite Breath Figures: Unleashing Enhanced Light‐Matter Interaction	https://doi.org/10.1002/adom.202400353
 Manohar Chirumamilla	O	2025	article	Immobilized Gold Nanoparticles on a Glass-Based Scaffold for Direct Solar-Driven H2 from Water Vapor	https://doi.org/10.1021/acsmaterialslett.4c02545
 Manohar Chirumamilla	O	2024	article	Fabrication of thick Cr masks for reactive ion substrate etching by electron beam lithography and lift-off techniques	https://doi.org/10.1116/6.0003965
+Manohar Chirumamilla	O	2026	article	Universal and Scalable Fabrication of Plasmonic Nanocrystals for Ultrasensitive SERS	https://doi.org/10.1021/acsami.5c24001
 Manohar Chirumamilla	O	2024	article	H‐Glass Supported Hybrid Gold Nano‐Islands for Visible‐Light‐Driven Hydrogen Evolution (Small 27/2024)	https://doi.org/10.1002/smll.202470207
 Manohar Chirumamilla	O	2021	conference-paper	Optical Properties of the Refractory Metals at High Temperatures	https://doi.org/10.1364/cleo_si.2021.stu1c.6
-Manohar Chirumamilla	O	2026	article	Universal and Scalable Fabrication of Plasmonic Nanocrystals for Ultrasensitive SERS	https://doi.org/10.1021/acsami.5c24001
 Matteo Bonini	-				/en/persons/mabo/
 Matteo Bonini	A				A5015311592
 Matteo Bonini	O	2021	article	An inductive construction of minimal codes	https://doi.org/10.1007/s12095-021-00474-2
@@ -295,12 +278,12 @@ Matteo Bonini	O	2023	article	Saturating systems and the rank-metric covering rad
 Matteo Bonini	O	2022	article	A short note on polynomials f(X) = X + AX1+q2(q−1)/4 + BX1+3q2(q−1)/4 ∈ 𝔽q2[X], q even	https://doi.org/10.1142/s021949882350144x
 Matteo Bonini	O	2021	article	Minimal linear codes from Hermitian varieties and quadrics	https://doi.org/10.1007/s00200-021-00500-z
 Matteo Bonini	O	2021	article	On the weight distribution of some minimal codes	https://doi.org/10.1007/s10623-020-00826-8
-Matteo Bonini	O	2021	article	On the weights of dual codes arising from the GK curve	https://doi.org/10.1007/s00200-020-00480-6
 Matteo Bonini	O	2023	article	Minimal codewords in Norm-Trace codes	https://doi.org/10.1007/s00010-023-00985-8
+Matteo Bonini	O	2025	article	The geometry of covering codes in the sum–rank metric	https://doi.org/10.1007/s10623-025-01628-6
+Matteo Bonini	O	2021	article	On the weights of dual codes arising from the GK curve	https://doi.org/10.1007/s00200-020-00480-6
 Matteo Bonini	O	2022	article	Rational points on cubic surfaces and AG codes from the Norm–Trace curve	https://doi.org/10.1007/s10231-022-01237-3
 Matteo Bonini	O	2022	preprint	Saturating systems and the rank covering radius	https://doi.org/10.48550/arxiv.2206.14740
 Matteo Bonini	O	2023	article	More on the DLW conjectures	https://doi.org/10.1016/j.ffa.2023.102332
-Matteo Bonini	O	2025	article	The geometry of covering codes in the sum–rank metric	https://doi.org/10.1007/s10623-025-01628-6
 Matteo Bonini	O	2026	preprint	On QC and GQC algebraic geometry codes	https://doi.org/10.48550/arxiv.2602.05097
 Matteo Bonini	O	2026	preprint	Constructions of Rank-Metric Codes of Small Tensor Rank	https://doi.org/10.48550/arxiv.2605.21784
 Matteo Bonini	O	2026	preprint	Almost Affine Vector Rank-Metric Codes	https://doi.org/10.48550/arxiv.2605.28072
@@ -310,10 +293,10 @@ Oliver Wilhelm Gnilke	O	2023	article	Straggler- and Adversary-Tolerant Secure Di
 Oliver Wilhelm Gnilke	O	2021	article	Well-Rounded Lattices: Towards Optimal Coset Codes for Gaussian and Fading Wiretap Channels	https://doi.org/10.1109/tit.2021.3059749
 Oliver Wilhelm Gnilke	O	2022	article	Efficient Recovery of a Shared Secret via Cooperation: Applications to SDMM and PIR	https://doi.org/10.1109/jsac.2022.3142366
 Oliver Wilhelm Gnilke	O	2023	article	Cryptographic group and semigroup actions	https://doi.org/10.1142/s0219498825300016
+Oliver Wilhelm Gnilke	O	2024	article	Group testing via residuation and partial geometries	https://doi.org/10.3934/amc.2024003
 Oliver Wilhelm Gnilke	O	2021	preprint	Low-Complexity PIR Using Subfield Subcodes	https://doi.org/10.48550/arxiv.2105.07369
 Oliver Wilhelm Gnilke	O	2023	article	Almost perfect autocorrelation sequences with small number of pauses for applications in magnetic resonance	https://doi.org/10.1007/s12095-023-00659-x
 Oliver Wilhelm Gnilke	O	2023	article	Invariants of quadratic forms and applications in design theory	https://doi.org/10.1016/j.laa.2023.11.002
-Oliver Wilhelm Gnilke	O	2024	article	Group testing via residuation and partial geometries	https://doi.org/10.3934/amc.2024003
 Oliver Wilhelm Gnilke	O	2026	preprint	Enumerating Inclusion-Maximal Arithmetic Progressions	https://doi.org/10.48550/arxiv.2606.11067
 Ove Kjeld Andersen	-				/en/persons/oa/
 Ove Kjeld Andersen	A				A5046730446
@@ -332,16 +315,16 @@ Reinhard Wimmer	O	2025	article	Reliable methodology to determine biotransformati
 Reinhard Wimmer	O	2021	article	Seminal plasma metabolomics profiles following long (4–7 days) and short (2 h) sexual abstinence periods	https://doi.org/10.1016/j.ejogrb.2021.07.024
 Reinhard Wimmer	O	2021	article	Mechanistic Insights into the Leishmanicidal and Bactericidal Activities of Batroxicidin, a Cathelicidin-Related Peptide from a South American Viper (Bothrops atrox)	https://doi.org/10.1021/acs.jnatprod.1c00153
 Reinhard Wimmer	O	2023	article	Assessing labelled carbon assimilation from poly butylene adipate-co-terephthalate (PBAT) monomers during thermophilic anaerobic digestion	https://doi.org/10.1016/j.biortech.2023.129430
+Reinhard Wimmer	O	2021	article	Cyclic, Hydrophobic Hexapeptide Fusahexin Is the Product of a Nonribosomal Peptide Synthetase in Fusarium graminearum	https://doi.org/10.1021/acs.jnatprod.0c00947
 Reinhard Wimmer	O	2023	article	Insight on physicochemical properties governing peptide MS1 response in HPLC-ESI-MS/MS: A deep learning approach	https://doi.org/10.1016/j.csbj.2023.07.027
 Reinhard Wimmer	O	2021	article	Metabolic changes during carbon monoxide poisoning: An experimental study	https://doi.org/10.1111/jcmm.16522
-Reinhard Wimmer	O	2023	article	Calmodulin mutations affecting Gly114 impair binding to the NaV1.5 IQ-domain	https://doi.org/10.3389/fphar.2023.1210140
 Reinhard Wimmer	O	2025	article	To Fly, or Not to Fly, That Is the Question: A Deep Learning Model for Peptide Detectability Prediction in Mass Spectrometry	https://doi.org/10.1021/acs.jproteome.4c00973
-Reinhard Wimmer	O	2024	article	Decoding the impact of neighboring amino acids on ESI-MS intensity output through deep learning	https://doi.org/10.1016/j.jprot.2024.105322
 Reinhard Wimmer	O	2025	article	Efficient Bioprocess for Mixed PET Waste Depolymerization Using Crude Cutinase	https://doi.org/10.3390/polym17060763
-Reinhard Wimmer	O	2021	article	Cyclic, Hydrophobic Hexapeptide Fusahexin Is the Product of a Nonribosomal Peptide Synthetase in Fusarium graminearum	https://doi.org/10.1021/acs.jnatprod.0c00947
 Reinhard Wimmer	O	2022	article	Upgrading the Nutritional Value of PKC Using a Bacillus subtilis Derived Monocomponent β-Mannanase	https://doi.org/10.3390/molecules27020563
+Reinhard Wimmer	O	2023	article	Calmodulin mutations affecting Gly114 impair binding to the NaV1.5 IQ-domain	https://doi.org/10.3389/fphar.2023.1210140
 Reinhard Wimmer	O	2023	article	Temperature- and pH-Dependent Kinetics of the Aqueous Phase Hydrogen Sulfide Scavenging Reactions with MEA-Triazine	https://doi.org/10.1021/acs.iecr.3c00668
 Reinhard Wimmer	O	2022	article	Quick guide to secondary metabolites from Apiospora and Arthrinium	https://doi.org/10.1016/j.fbr.2022.10.001
+Reinhard Wimmer	O	2024	article	Decoding the impact of neighboring amino acids on ESI-MS intensity output through deep learning	https://doi.org/10.1016/j.jprot.2024.105322
 Reinhard Wimmer	O	2023	article	Filling out the gaps – identification of fugralins as products of the PKS2 cluster in Fusarium graminearum	https://doi.org/10.3389/ffunb.2023.1264366
 Reinhard Wimmer	O	2024	article	Combined thermochemical-biotechnological approach for the valorization of polyolefins into polyhydroxyalkanoates: Development of an integrated bioconversion process by microbial consortia	https://doi.org/10.1016/j.chemosphere.2024.143671
 Reinhard Wimmer	O	2021	article	Metabolic fingerprint of progression of chronic hepatitis B: changes in the metabolome and novel diagnostic possibilities	https://doi.org/10.1007/s11306-020-01767-y
@@ -416,8 +399,8 @@ Thomas Garm Pedersen	O	2021	article	Calculation of the nonlinear response functi
 Thomas Garm Pedersen	O	2022	article	Exciton absorption, band structure, and optical emission in biased bilayer graphene	https://doi.org/10.1103/physrevb.105.115416
 Thomas Garm Pedersen	O	2023	article	Stark effect in nonhydrogenic low-dimensional excitons	https://doi.org/10.1103/physrevb.107.195419
 Thomas Garm Pedersen	O	2021	article	Plasmons and magnetoplasmon resonances in nanorings	https://doi.org/10.1103/physrevb.103.085419
-Thomas Garm Pedersen	O	2021	conference-paper	Improvements in Unfolding of Colored Petri Nets	https://doi.org/10.1007/978-3-030-89716-1_5
 Thomas Garm Pedersen	O	2021	article	Dynamic polarizability of low-dimensional excitons	https://doi.org/10.1103/physrevb.104.155414
+Thomas Garm Pedersen	O	2021	conference-paper	Improvements in Unfolding of Colored Petri Nets	https://doi.org/10.1007/978-3-030-89716-1_5
 Thomas Garm Pedersen	O	2022	article	Nanoscale View of Engineered Massive Dirac Quasiparticles in Lithographic Superstructures	https://doi.org/10.1021/acsnano.2c08929
 Thomas Garm Pedersen	O	2021	article	Excitonic two-photon absorption in monolayer transition metal dichalcogenides: Impact of screening and trigonal warping	https://doi.org/10.1103/physrevb.104.085431
 Thomas Garm Pedersen	O	2022	article	On the Two-Dimensional Quantum Confined Stark Effect in Strong Electric Fields	https://doi.org/10.1137/20m1386712
@@ -454,7 +437,10 @@ Thomas Garm Pedersen	S	2016	PhD thesis (Degree Awarded)	Chiroptical Metamaterial
 Thomas Garm Pedersen	S	2016	PhD thesis (Degree Awarded)	Electronic and magnetic properties of nanostructured graphene	/en/publications/electronic-and-magnetic-properties-of-nanostructured-graphene/
 Thomas Garm Pedersen	S	2016	PhD thesis (Degree Awarded)	Exploring the electronic and optical properties of semiconducting graphene	/en/publications/exploring-the-electronic-and-optical-properties-of-semiconducting/
 Thomas Møller Søndergaard	-				MISS
-Thomas Møller Søndergaard	A				
+Thomas Møller Søndergaard	A				A5078295490
+Thomas Møller Søndergaard	O	2022	article	All-dielectric one-dimensional gratings exhibiting Fano resonances in the terahertz region	https://doi.org/10.1364/josab.462062
+Thomas Møller Søndergaard	O	2023	article	Theory of dielectric photonic crystals sandwiched between parallel metal plates	https://doi.org/10.1364/optcon.472541
+Thomas Møller Søndergaard	O	2026	article	Formation and Stability of Solid Noses During Float Zone Silicon Growth	https://doi.org/10.1002/crat.70158
 Vladimir Popok	-				MISS
 Vladimir Popok	A				A5055810745 A5152726863
 Vladimir Popok	O	2024	article	Efficient Depolymerization of Poly(ethylene 2,5-furanoate) Using Polyester Hydrolases	https://doi.org/10.1021/acssuschemeng.4c00915
@@ -464,17 +450,12 @@ Vladimir Popok	O	2022	article	Long-Term Plasmonic Stability of Copper Nanopartic
 Vladimir Popok	O	2023	article	Magnetron Sputter Grown AlN Nanostructures with Giant Piezoelectric Response toward Energy Generation	https://doi.org/10.1021/acsanm.3c01250
 Vladimir Popok	O	2023	article	High damage-resistance and fracture toughness of transparent Nb-doped barium aluminoborate glass ceramics	https://doi.org/10.1016/j.apmt.2023.101888
 Vladimir Popok	O	2023	article	Magnetron Sputter Deposition of Nanostructured AlN Thin Films	https://doi.org/10.3390/applnano4040016
-Vladimir Popok	O	2025	article	Integration of safety and sustainability criteria into early design stages of battery cell manufacturing machinery	https://doi.org/10.1038/s41598-025-30510-7
 Vladimir Popok	O	2022	article	Formation and applications of polymer films with gas-phase aggregated nanoparticles: A brief review	https://doi.org/10.1016/j.tsf.2022.139359
+Vladimir Popok	O	2021	article	Interfacial adhesion strength of III-N heterostructures	https://doi.org/10.1016/j.matdes.2021.110319
 Vladimir Popok	O	2023	article	Engineering Substrate-Mediated Localized Surface Plasmons in Gold Nanodiscs	https://doi.org/10.3390/photonics10070821
 Vladimir Popok	O	2021	article	Formation of Advanced Nanomaterials by Gas-Phase Aggregation	https://doi.org/10.3390/applnano2010007
-Vladimir Popok	O	2021	article	Interfacial adhesion strength of III-N heterostructures	https://doi.org/10.1016/j.matdes.2021.110319
 Vladimir Popok	O	2021	conference-paper	UV/Ozone Treatment and Open-Air Copper Plasmonics	https://doi.org/10.1088/1742-6596/2015/1/012148
-Vladimir Popok	O	2021	conference-paper	Focused Ion Beam Graphene Patterning and Nanoparticle Deposition for Plasmonic Applications	https://openalex.org/W3195085003
-Vladimir Popok	O	2021	book	Formation of Advanced Nanomaterials by Gas-Phase Aggregation	https://doi.org/10.3390/books978-3-0365-2729-1
-Vladimir Popok	O	2026	article	Integration of safety and sustainability criteria into early design stages of battery cell manufacturing machinery	https://doi.org/10.18154/rwth-2026-00699
 Vladimir Popok	O	2026	article	Universal and Scalable Fabrication of Plasmonic Nanocrystals for Ultrasensitive SERS	https://doi.org/10.1021/acsami.5c24001
-Vladimir Popok	O	2026	article	D2.5 - Modular pilot scale machinery for efficient electrode coating and drying	https://doi.org/10.5281/zenodo.21530206
 Yuanzheng Yue	-				/en/persons/yy/
 Yuanzheng Yue	A				A5036309567 A5103848983 A5061392437
 Yuanzheng Yue	O	2022	article	Three-dimensional direct lithography of stable perovskite nanocrystals in glass	https://doi.org/10.1126/science.abj2691
@@ -489,17 +470,17 @@ Yuanzheng Yue	O	2023	article	Oxygen tri-clusters make glass highly crack-resista
 Yuanzheng Yue	O	2024	article	High‐Performance Dendrite‐Free Lithium Metal Anode Based on Metal‐Organic Framework Glass	https://doi.org/10.1002/adma.202400652
 Yuanzheng Yue	O	2023	article	Fabrication of Super‐Sized Metal Inorganic‐Organic Hybrid Glass with Supramolecular Network via Crystallization‐Suppressing Approach	https://doi.org/10.1002/anie.202218094
 Yuanzheng Yue	O	2024	article	Metal-organic framework-intercalated graphene oxide nanofiltration membranes for enhanced treatment of wastewater effluents	https://doi.org/10.1016/j.cej.2024.150207
-Yuanzheng Yue	O	2022	article	The Transformation from Translucent into Transparent Rare Earth Ions Doped Oxyfluoride Glass‐Ceramics with Enhanced Luminescence	https://doi.org/10.1002/adom.202102713
 Yuanzheng Yue	O	2024	article	An Adaptable Structure of Metal‐Organic Framework Glass Interlayer Enables Superior Performance in Aqueous Zinc‐Ion Batteries	https://doi.org/10.1002/adma.202413167
 Yuanzheng Yue	O	2024	article	Crystallinity dependence of thermal and mechanical properties of glass-ceramic foams	https://doi.org/10.1016/j.jeurceramsoc.2024.05.079
 Yuanzheng Yue	O	2022	article	The connection between the fragile-to-strong transition and the liquid-liquid transition in a binary alloy system	https://doi.org/10.1016/j.actamat.2022.118246
 Yuanzheng Yue	O	2025	article	Amorphous material based heterostructures with disordered heterointerfaces for advanced rechargeable batteries	https://doi.org/10.1039/d4ee04566a
 Yuanzheng Yue	O	2024	article	Deciphering the controlling factors for phase transitions in zeolitic imidazolate frameworks	https://doi.org/10.1093/nsr/nwae023
 Yuanzheng Yue	O	2024	article	Creating Single‐Crystalline β‐CaSiO 3 for High‐Performance Electronic Packaging Substrate	https://doi.org/10.1002/adma.202414156
-Yuanzheng Yue	O	2023	article	Anomaly in the relation between thermal conductivity and crystallinity of silicate glass-ceramics	https://doi.org/10.1016/j.ceramint.2023.12.084
+Yuanzheng Yue	O	2022	article	The Transformation from Translucent into Transparent Rare Earth Ions Doped Oxyfluoride Glass‐Ceramics with Enhanced Luminescence	https://doi.org/10.1002/adom.202102713
 Yuanzheng Yue	O	2021	article	Preparation and thermal properties of commercial vermiculite bonded with potassium silicate	https://doi.org/10.1016/j.tca.2021.178926
-Yuanzheng Yue	O	2021	article	Er 3+ ‐Yb 3+ ions doped fluoro‐aluminosilicate glass‐ceramics as a temperature‐sensing material	https://doi.org/10.1111/jace.17867
 Yuanzheng Yue	O	2022	article	The deformation of short-range order leading to rearrangement of topological network structure in zeolitic imidazolate framework glasses	https://doi.org/10.1016/j.isci.2022.104351
+Yuanzheng Yue	O	2023	article	Anomaly in the relation between thermal conductivity and crystallinity of silicate glass-ceramics	https://doi.org/10.1016/j.ceramint.2023.12.084
+Yuanzheng Yue	O	2021	article	Er 3+ ‐Yb 3+ ions doped fluoro‐aluminosilicate glass‐ceramics as a temperature‐sensing material	https://doi.org/10.1111/jace.17867
 Yuanzheng Yue	O	2023	article	Amorphous MXene Opens New Perspectives	https://doi.org/10.1002/adma.202300067
 Yuanzheng Yue	O	2021	article	Surface evolution of aluminosilicate glass fibers during dissolution: Influence of pH, solid-to-solution ratio and organic treatment	https://doi.org/10.1016/j.jcis.2021.09.148
 Yuanzheng Yue	O	2022	article	Broadband NIR-emitting Te cluster-doped glass for smart light source towards night-vision and NIR spectroscopy applications	https://doi.org/10.1364/prj.446416
@@ -511,34 +492,32 @@ Yuanzheng Yue	O	2023	article	Expansion and shrinkage of lightweight vermiculite 
 Yuanzheng Yue	O	2023	article	Realizing Superior Luminescence in Oxyfluoride Glass‐Ceramics by Enhancing Nano‐Micro Phase Separation	https://doi.org/10.1002/adom.202301999
 Yuanzheng Yue	O	2023	article	Quantification of high temperature stability of mineral wool for fire-safe insulation	https://doi.org/10.1016/j.jnoncrysol.2023.122680
 Yuanzheng Yue	O	2024	article	Focal volume optics for composite structuring in transparent solids	https://doi.org/10.1088/2631-7990/ad8712
-Yuanzheng Yue	O	2022	article	Numerical simulation of solid-liquid suspension in a slurry electrolysis stirred tank	https://doi.org/10.1016/j.cherd.2022.11.046
 Yuanzheng Yue	O	2024	article	Zeolite Imidazolate Frameworks-8@SiO2–ZrO2 Crystal–Amorphous Hybrid Core–Shell Structure as a Building Block for Water Purification Membranes	https://doi.org/10.1021/acsami.3c19559
 Yuanzheng Yue	O	2021	article	Structure, crystallization, and performances of alkaline‐earth boroaluminosilicate sealing glasses for SOFCs	https://doi.org/10.1111/jace.17718
 Yuanzheng Yue	O	2021	article	The hardest amorphous material	https://doi.org/10.1093/nsr/nwab203
 Yuanzheng Yue	O	2023	article	Unveiling the Growth Mechanism of the Interphase between Lithium Metal and Li2S‐P2S5‐B2S3 Solid‐State Electrolytes	https://doi.org/10.1002/aenm.202204386
 Yuanzheng Yue	O	2025	article	CO2-utilized synthetic marbles with enhanced radiative cooling	https://doi.org/10.1016/j.nanoen.2025.110985
-Yuanzheng Yue	O	2021	book-chapter	Structure Characterizations and Molecular Dynamics Simulations of Melt, Glass, and Glass Fibers	https://doi.org/10.1007/978-3-030-72200-5_2
 Yuanzheng Yue	O	2022	review	Entropy engineering in inorganic non-metallic glass	https://doi.org/10.1016/j.fmre.2022.01.030
 Yuanzheng Yue	O	2022	article	Percolative Channels for Superionic Conduction in an Amorphous Conductor	https://doi.org/10.1021/acs.jpclett.2c02776
 Yuanzheng Yue	O	2023	article	Amorphization of MXenes: Boosting Electrocatalytic Hydrogen Evolution	https://doi.org/10.1002/smll.202308528
 Yuanzheng Yue	O	2024	article	Water Promotes Melting of a Metal–Organic Framework	https://doi.org/10.1021/acs.chemmater.3c02873
 Yuanzheng Yue	O	2024	article	Structural Origin of the Deformation Propensity of Zeolitic Imidazolate Framework Glasses	https://doi.org/10.1021/acs.chemmater.4c00921
 Yuanzheng Yue	O	2024	article	Towards practical Li-ion full batteries with glass anodes	https://doi.org/10.1016/j.nanoen.2024.109950
+Yuanzheng Yue	O	2024	article	Tailoring Optical Properties of Rare‐Earth Doped Oxyfluoride Glass‐Ceramics by Tuning Crystal Structure	https://doi.org/10.1002/adom.202401648
 Yuanzheng Yue	O	2024	article	Order-to-Disorder Transition in a Zirconium-Based Metal–Organic Framework	https://doi.org/10.1021/acs.chemmater.4c01460
 Yuanzheng Yue	O	2024	article	Ultra‐stable metallic glass generated by modulation of melt state	https://doi.org/10.1007/s12598-024-03026-8
-Yuanzheng Yue	O	2024	article	Tailoring Optical Properties of Rare‐Earth Doped Oxyfluoride Glass‐Ceramics by Tuning Crystal Structure	https://doi.org/10.1002/adom.202401648
-Yuanzheng Yue	O	2024	article	Unveiling the time-temperature dependence of metastability of supercooled liquid using nano-calorimetry	https://doi.org/10.1007/s11433-023-2291-2
 Yuanzheng Yue	O	2024	article	Unraveling medium‐range order and melting mechanism of ZIF‐4 under high temperature	https://doi.org/10.1111/jace.19741
+Yuanzheng Yue	O	2024	article	Unveiling the time-temperature dependence of metastability of supercooled liquid using nano-calorimetry	https://doi.org/10.1007/s11433-023-2291-2
 Yuanzheng Yue	O	2024	article	Tantalum-lanthanum mixing effect on structural and mechanical properties of aluminate glasses	https://doi.org/10.1016/j.jnoncrysol.2024.123340
 Yuanzheng Yue	O	2023	article	Fabrication of Super‐Sized Metal Inorganic‐Organic Hybrid Glass with Supramolecular Network via Crystallization‐Suppressing Approach	https://doi.org/10.1002/ange.202218094
 Yuanzheng Yue	O	2025	article	Transparent glass-ceramics achieved by inward orientational growth of single crystals	https://doi.org/10.1016/j.jnoncrysol.2025.123505
 Yuanzheng Yue	O	2026	article	Glass formation of metal organic–inorganic complexes	https://doi.org/10.1093/nsr/nwag349
+Yuanzheng Yue	O	2026	article	White‐Light Emission in Zeolitic Imidazolate Framework Glasses	https://doi.org/10.1002/adma.72968
 Yuanzheng Yue	O	2024	article	Non-monotonic dependence of high-temperature stability of stone wool fibres on pre-oxidation time and temperature	https://doi.org/10.1016/j.jnoncrysol.2024.123131
 Yuanzheng Yue	O	2025	article	A connection between structure and reactivity in alkali-modified calcium aluminosilicate glasses for sustainable cements	https://doi.org/10.1016/j.jnoncrysol.2025.123606
 Yuanzheng Yue	O	2026	article	Perovskite nanocrystals-in-glass hierarchical structures enable stable continuous-wave random lasers	https://doi.org/10.1126/sciadv.adz8460
 Yuanzheng Yue	O	2026	article	A High‐Capacity and Ultrastable All‐Solid‐State Lithium Battery Made by Coupling Glass‐Ceramic Electrolyte With Glassy Electrode	https://doi.org/10.1002/idm2.70035
 Yuanzheng Yue	O	2025	article	Room‐Temperature Ferromagnetism in an Iron‐Based Zeolitic Imidazolate Framework Glass	https://doi.org/10.1002/advs.202516465
-Yuanzheng Yue	O	2026	article	White‐Light Emission in Zeolitic Imidazolate Framework Glasses	https://doi.org/10.1002/adma.72968
 Yuanzheng Yue	O	2021	article	Bond switching is responsible for nanoductility in zeolitic imidazolate framework glasses	https://doi.org/10.1039/d1dt00096a
 Yuanzheng Yue	O	2021	article	Multi‐Functional Black Bioactive Glasses Prepared via Containerless Melting Process for Tumor Therapy and Tissue Regeneration	https://doi.org/10.1002/adfm.202101505
 Yuanzheng Yue	O	2021	article	Deformation mechanism of a metal–organic framework glass under indentation	https://doi.org/10.1039/d1cp02213j
@@ -550,42 +529,38 @@ Yuanzheng Yue	O	2021	article	Spectroscopic properties of Er3+-doped oxyfluoro-ge
 Yuanzheng Yue	O	2023	article	Grid-like Fe3O4 nanocrystals enhance the performances of glass-ceramic anodes for lithium-ion batteries	https://doi.org/10.1016/j.jnoncrysol.2023.122157
 Yuanzheng Yue	O	2021	article	Topological control of negatively charged local environments for tuning bismuth NIR luminescence in glass materials	https://doi.org/10.1016/j.jallcom.2021.162884
 Yuanzheng Yue	O	2023	article	Role of Zn in aluminosilicate glasses used as supplementary cementitious materials	https://doi.org/10.1016/j.jnoncrysol.2023.122397
-Yuanzheng Yue	O	2023	article	The glass transition in the high-density amorphous Zn/Co-ZIF-4	https://doi.org/10.1039/d3cc02492j
 Yuanzheng Yue	O	2023	article	Entropy-driven atomic activation in supercooled liquids and its link to the fragile-to-strong transition	https://doi.org/10.1007/s11433-022-2061-2
+Yuanzheng Yue	O	2023	article	The glass transition in the high-density amorphous Zn/Co-ZIF-4	https://doi.org/10.1039/d3cc02492j
 Yuanzheng Yue	O	2023	article	Unveiling the amorphization of sodalite topology zeolitic imidazolate frameworks and zeolites by pressure and stress	https://doi.org/10.1111/jace.19228
 Yuanzheng Yue	O	2025	article	Predicting stiffness and toughness of aluminosilicate glasses using an interpretable machine learning model	https://doi.org/10.1016/j.engfracmech.2025.110961
-Yuanzheng Yue	O	2025	article	Uncovering the molecular mechanisms of Acer fabri in adjusting to low-temperature stress through integrated physiological and transcriptomic analysis	https://doi.org/10.1038/s41598-025-86328-w
 Yuanzheng Yue	O	2023	article	Short- and medium-range structure synergistically control fracture toughness of densified aluminoborate glasses	https://doi.org/10.1103/physrevmaterials.7.053607
 Yuanzheng Yue	O	2024	article	Impact of the aqueous corrosion induced alteration layer on mechanical properties of pharmaceutical glasses	https://doi.org/10.1038/s41529-024-00431-3
 Yuanzheng Yue	O	2024	article	Unveiling the key factor for enhancing capacity in iron-borate glass anodes for Li-ion batteries	https://doi.org/10.1016/j.jnoncrysol.2024.123040
 Yuanzheng Yue	O	2025	article	A unified thermodynamic picture for the glass transition and liquid fragility	https://doi.org/10.1007/s11433-025-2707-5
+Yuanzheng Yue	O	2026	article	Boosting luminescence in oxide phosphors by the vitrifying-devitrifying approach	https://doi.org/10.1038/s41467-026-71864-4
 Yuanzheng Yue	O	2025	article	Glass-derived Spinel ZnFe2O4 anode for half- and full Li-ion batteries	https://doi.org/10.1016/j.jnoncrysol.2025.123626
 Yuanzheng Yue	O	2025	article	Mixed alkali effect on chemical durability and mechanical properties of a borosilicate glass series	https://doi.org/10.1016/j.jnoncrysol.2025.123669
 Yuanzheng Yue	O	2025	article	Impact of hydrous species in surface alteration layer on mechanical properties of oxide glasses	https://doi.org/10.1038/s41529-025-00639-x
-Yuanzheng Yue	O	2026	article	Boosting luminescence in oxide phosphors by the vitrifying-devitrifying approach	https://doi.org/10.1038/s41467-026-71864-4
 Yuanzheng Yue	O	2022	article	Impact of silicon doping on the structure and crystallization of a vanadium-tellurite glass	https://doi.org/10.1016/j.jnoncrysol.2022.121651
 Yuanzheng Yue	O	2021	article	BaAl2Si2O8 polymorphs and a novel reversible transition of BaAlF5 in supercooled oxyfluoride aluminosilicate liquids	https://doi.org/10.1016/j.jeurceramsoc.2021.07.021
+Yuanzheng Yue	O	2022	article	Iron‐phosphate glass‐ceramic anodes for lithium‐ion batteries	https://doi.org/10.1111/ijag.16557
 Yuanzheng Yue	O	2023	article	Mixed alkaline earth effect on nanomechanical properties of glass	https://doi.org/10.1016/j.jnoncrysol.2023.122808
 Yuanzheng Yue	O	2021	article	Tunable broadband near-infrared luminescence in glass realized by defect-engineering	https://doi.org/10.1364/oe.430013
 Yuanzheng Yue	O	2021	article	Water enables a performance jump of glass anode for lithium-ion batteries	https://doi.org/10.1016/j.jnoncrysol.2021.121225
-Yuanzheng Yue	O	2022	article	Iron‐phosphate glass‐ceramic anodes for lithium‐ion batteries	https://doi.org/10.1111/ijag.16557
 Yuanzheng Yue	O	2022	article	V2O5-P2O5-TeO2 glass anodes for Li-ion batteries	https://doi.org/10.1016/j.jnoncrysol.2022.122014
 Yuanzheng Yue	O	2024	article	Impact of shadow glass transition on crystallization in metallic glass	https://doi.org/10.1360/nso/20230064
 Yuanzheng Yue	O	2024	article	Suppressing the thermal conduction in glass–ceramic foams by controlling crystallization	https://doi.org/10.1111/ijag.16694
 Yuanzheng Yue	O	2025	article	Vitrification of non-meltable zeolitic-imidazolate frameworks	https://doi.org/10.1039/d4qm00971a
-Yuanzheng Yue	O	2021	book-chapter	Fiber Forming and Its Impact on Mechanical Properties	https://doi.org/10.1007/978-3-030-72200-5_7
 Yuanzheng Yue	O	2024	article	High-strength and -toughness calcite through hybridization with amino acids by sp2 to sp3 transformation	https://doi.org/10.1016/j.xcrp.2024.102106
 Yuanzheng Yue	O	2025	article	Evolution of the crack initiation resistance and hardness of low silica aluminate glasses with varying the Al2O3/CaO ratio	https://doi.org/10.1016/j.jallcom.2025.182024
 Yuanzheng Yue	O	2025	article	Towards stable metal organic-inorganic complex glasses	https://doi.org/10.1016/j.jnoncrysol.2025.123923
 Yuanzheng Yue	O	2022	article	Thermal conduction in a densified oxide glass: Insights from lattice dynamics	https://doi.org/10.1016/j.mtcomm.2022.104160
 Yuanzheng Yue	O	2021	article	‘Shadow’ glass transition in glass	https://doi.org/10.1093/nsr/nwab160
-Yuanzheng Yue	O	2025	article	Experimental study on the long-term stability and thermal cycling endurance of micro-tubular solid oxide fuel cells and stacks using ammonia	https://doi.org/10.18573/jae.48
 Yuanzheng Yue	O	2025	article	Revisiting the indentation size effect in oxide glasses	https://doi.org/10.1016/j.jallcom.2025.181984
 Yuanzheng Yue	O	2024	article	Unveiling the glass‐forming ability of MOF: A high‐throughout simulation and data mining	https://doi.org/10.1111/jace.20294
 Yuanzheng Yue	O	2026	article	Visualizing and Quantifying Indentation‐Induced Densification and Cracking in Vitreous Silica	https://doi.org/10.1002/smll.76392
 Yuanzheng Yue	O	2024	article	Combining nano-silicon with oxide glass in anodes for Li-ion batteries	https://doi.org/10.1016/j.jnoncrysol.2024.122964
 Yuanzheng Yue	O	2024	article	Immiscibility in binary silicate liquids: Insight from ab initio molecular dynamics simulations	https://doi.org/10.1103/physrevb.109.174215
-Yuanzheng Yue	O	2021	article	Fracture Toughness of Zeolitic Imidazolate Framework Glasses:Invited Talk	https://openalex.org/W3203284106
 Yuanzheng Yue	O	2021	reference-entry	Borosilicate Glasses	https://doi.org/10.1016/b978-0-12-818542-1.00098-9
 Yuanzheng Yue	O	2021	reference-entry	Stone and Glass Wool	https://doi.org/10.1002/9781118801017.ch9.3
 Yuanzheng Yue	O	2021	reference-entry	Hyperquenched Glasses: Relaxation and Properties	https://openalex.org/W4412342114
@@ -596,10 +571,7 @@ Yuanzheng Yue	O	2024	preprint	The Critical Role of Entropy in Glass Transition K
 Yuanzheng Yue	O	2021	preprint	Water Boosts the Performances of Glass Anodes for Lithium-Ion Batteries	https://doi.org/10.33774/chemrxiv-2021-dhq0l
 Yuanzheng Yue	O	2023	preprint	Mof-Based Core-Shell Structures as Building Blocks for Water Purification Membranes	https://doi.org/10.2139/ssrn.4392384
 Yuanzheng Yue	O	2024	article	Non-monotonic lattice expansion in zeolitic imidazolate frameworks during heating	https://doi.org/10.1039/d4cc03841j
-Yuanzheng Yue	O	2024	peer-review	"Author response for ""Amorphous material based heterostructures with disordered heterointerfaces for advanced rechargeable batteries"""	https://doi.org/10.1039/d4ee04566a/v2/response1
-Yuanzheng Yue	O	2025	peer-review	"Author response for ""Vitrification of non-meltable zeolitic-imidazolate frameworks"""	https://doi.org/10.1039/d4qm00971a/v2/response1
 Yuanzheng Yue	O	2025	article	High-temperature stability of aluminosilicate glass particle pellets and its dependence on chemical composition	https://doi.org/10.1016/j.jnoncrysol.2025.123553
-Yuanzheng Yue	O	2025	article	Electronic structure, optical properties, and elastic properties of solar material CuInSe2 from theoretical simulation	https://doi.org/10.15251/cl.2025.226.529
 Yuanzheng Yue	O	2025	conference-paper	Recycled Wind Turbine Blades in Clay Bricks:A Sustainable Solution or a Structural Risk?	https://openalex.org/W4412209702
 Yuanzheng Yue	O	2025	conference-paper	Crystallization enables suppressing thermal conduction in oxide glasses	https://openalex.org/W4412209762
 Yuanzheng Yue	O	2024	article	Node Metal Mixing Effect on Glass Transition Temperature of Metal–Organic Framework Materials	https://doi.org/10.14062/j.issn.0454-5648.20240224
@@ -642,20 +614,13 @@ Yuanzheng Yue	O	2022	conference-paper	How much do we know about the fragility of
 Yuanzheng Yue	O	2025	preprint	Fabrication of hydrogen-bonded metal inorganic-organic complex glasses by ligand-tuning approach	https://doi.org/10.48550/arxiv.2509.24755
 Yuanzheng Yue	O	2025	preprint	Towards stable metal inorganic-organic complex glasses	https://doi.org/10.48550/arxiv.2509.26288
 Yuanzheng Yue	O	2025	preprint	Aqueous synthesis of Na3-2xSb1-xWxS4-xIx solid-state electrolytes with ultrahigh ionic conductivity	https://doi.org/10.21203/rs.3.rs-7998984/v1
-Yuanzheng Yue	O	2025	preprint	Zeolitic imidazolate framework glasses emit white light	https://doi.org/10.48550/arxiv.2508.09552
-Yuanzheng Yue	O	2025	preprint	In situ mapping of indentation-induced densification and cracking in vitreous silica by nanofocus X-ray scattering	https://doi.org/10.48550/arxiv.2512.05699
 Yuanzheng Yue	O	2026	article	Dynamic Heating-Induced Structural Disorder and Its Impact on Magnetism in a Fe-Based Zeolitic Imidazolate Framework	https://doi.org/10.1021/acs.chemmater.5c03023
-Yuanzheng Yue	O	2026	conference-paper	Fabrication of large-sized hybrid glasses:progress, challenges and opportunities	https://openalex.org/W7155266141
-Yuanzheng Yue	O	2026	conference-paper	Impact of melting conditions on viscous behavior and crystallization tendencies in iron-bearing aluminum silicate glasses	https://openalex.org/W7155297782
-Yuanzheng Yue	O	2026	conference-paper	Thermal conductivity of oxide glass-ceramics	https://openalex.org/W7155589217
 Yuanzheng Yue	O	2026	article	Coupling radiative cooling with thermoelectric effect in smart buildings for continuous energy output	https://doi.org/10.1016/j.mattod.2026.103420
 Yuanzheng Yue	O	2026	article	An in situ formed bionic cell wall interphase enables a reversible Zn anode for high-performance aqueous batteries	https://doi.org/10.1039/d6ee03332f
 Yuanzheng Yue	O	2026	article	Aqueous Synthesis of Na 3‐2x Sb 1‐x W x S 4‐x I x Chalcogenide Solid‐State Electrolytes With Ultrahigh Ionic Conductivity	https://doi.org/10.1002/aenm.71294
-Yuanzheng Yue	O	2026	article	White‐Light Emission in Zeolitic Imidazolate Framework Glasses	https://doi.org/10.3204/pubdb-2026-02039
 Yuanzheng Yue	O	2026	article	Compositional effects on the structure and properties of CaO-Al2O3-Ga2O3 glasses	https://doi.org/10.1016/j.jnoncrysol.2026.124279
 Yuanzheng Yue	O	2026	preprint	Local Structure Dictates Ionic Transport and Mechanical Properties in Glassy Solid Electrolytes for Lithium Batteries	https://doi.org/10.48550/arxiv.2608.06895
 Yuanzheng Yue	O	2026	preprint	Fast Isotropic Li-Ion Diffusion in Zeolitic Imidazolate Framework Glass Electrolytes for Batteries	https://doi.org/10.48550/arxiv.2608.06902
-Yuanzheng Yue	O	2026	article	Some challenges and opportunities in glass fiber science and technology:An invited talk	https://openalex.org/W7202322989
 Yuanzheng Yue	O	2026	preprint	Uncovering the deformation mechanism of glasses during indentation through high-resolution X-ray scattering	https://doi.org/10.48550/arxiv.2608.15675
 Yuanzheng Yue	O	2026	preprint	Vitrification-Devitrification Enables Tunable Photonic and Gas Sorption Properties of Zeolitic Imidazolate Frameworks	https://doi.org/10.48550/arxiv.2609.02287
 Yuanzheng Yue	O	2026	article	Smart Responsive Polymers Enable Summer Radiative Cooling and Winter Heat Retention	https://doi.org/10.1021/acsami.6c13793
