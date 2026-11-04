@@ -38,6 +38,19 @@ jobs:
             git push
           fi
       - run: python scripts/build_site.py
+      # Password protection: when the repository secret SITE_PASSWORD is set, every page is encrypted
+      # (StatiCrypt, AES-256) and asks for the password; the raw data file is left out of the published site.
+      - name: Password protection
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        if: env.SITE_PASSWORD != ''
+        run: |
+          rm -f site/data.json site/*artifact*.html
+          npx --yes staticrypt@3.5.4 site/*.html -d site -p "$SITE_PASSWORD" --short --remember 30 \
+            --template-title "Danish Quantum Academy" \
+            --template-instructions "This map is not public yet. Enter the password to open it." \
+            --template-button "Open" --template-placeholder "Password" \
+            --template-color-primary "#1f45c9" --template-color-secondary "#f6f7fa"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

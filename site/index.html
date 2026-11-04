@@ -186,6 +186,8 @@ details.dgroup>summary:hover h2{color:var(--accent)}
 .pk.pj{border-top:1px dashed var(--line);border-radius:0 0 7px 7px;margin-top:4px;padding-top:8px}
 .pk.pj svg{max-width:84px}
 .pk.nopj{cursor:default;align-content:center;min-height:60px}
+.pk.nopj svg{max-width:84px;opacity:.6}
+.pk.nopj .nm{font-size:12.5px}
 .pk.nopj:hover{background:transparent}
 .chip.clear{border-style:dashed;background:transparent;color:var(--muted)}
 #matrix tr.grp th{font:600 11px var(--mono);color:var(--muted);text-align:center;border-bottom:0;padding-bottom:0}
@@ -449,12 +451,13 @@ footer .site-foot a{color:var(--accent)}
         const rb=el('button',{class:'pk pj',type:'button','aria-pressed':String(on&&rm),title:`${k==='ALL'?'Denmark':ALLI[k].name}: research of ${rl.length} educators, each at their level in each proficiency area`},rs,el('span',{class:'ct'},`research of ${rl.length} educators`));
         rb.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;state.levels=new Set(['RES']);render()};
         card.append(rb);
-      } else card.append(el('div',{class:'pk pj nopj'},el('span',{class:'ct'},'no research projects')),el('div',{class:'pk pj nopj'},el('span',{class:'ct'},'no research')));
+      } else ['Workshops','Public outreach'].forEach(n=>{const es=sv('svg',{'aria-hidden':'true'}); drawTriangle(es,[],{W:200});
+        card.append(el('div',{class:'pk pj nopj',title:`${n}: not mapped yet`},es,el('span',{class:'nm'},n),el('span',{class:'ct'},'not mapped yet')))});
       picker.append(card);
     });
   }
   {const all=PJALL, on=all.filter(x=>x.prof).length;
-   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses.`;}
+   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. For STX/HTX the two lower triangles are reserved for workshops and public outreach, which are not mapped yet. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses.`;}
 
   // ---- study level filter ----
   const lf=document.getElementById('lvl-filters');
