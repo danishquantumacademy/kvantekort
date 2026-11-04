@@ -99,6 +99,20 @@ for inst in PUB_BASE:
             what = "latest research output" if kind == "O" else "ongoing PhD project, main supervisor"
             add("Educator output and PhD projects", inst, url, f"{names[int(idx)]}: {what}", f"data/people/harvest/{f.name}")
 
+# 5b. Research proficiency: OpenAlex author records (research output) and the portals' "Supervised work" tabs
+SITE = {"dtu": "https://orbit.dtu.dk", "ku": "https://researchprofiles.ku.dk", "au": "https://pure.au.dk",
+        "sdu": "https://portal.findresearcher.sdu.dk", "aau": "https://vbn.aau.dk"}
+for f in sorted((D / "people/research_outputs").glob("*.tsv")):
+    inst = f.stem.upper()
+    for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
+        if r["kind"] == "A":
+            for aid in r["path"].split():
+                add("Educator research output (OpenAlex)", inst, f"https://openalex.org/{aid}", f"{r['name']}: author record and works since 2021", f"data/people/research_outputs/{f.name}")
+        elif r["kind"] == "-" and r["path"].startswith("/"):
+            add("Educator supervised PhD theses", inst, SITE[f.stem] + r["path"] + "supervised/", f"{r['name']}: supervised work", f"data/people/research_outputs/{f.name}")
+        elif r["kind"] == "S" and r["path"]:
+            add("Educator supervised PhD theses", inst, r["path"] if r["path"].startswith("http") else SITE[f.stem] + r["path"], f"{r['name']}: PhD thesis {r['title'][:80]}", f"data/people/research_outputs/{f.name}")
+
 # 6. Organisational units: portal page and own website
 for line in (D / "people/units.txt").read_text(encoding="utf-8").splitlines():
     if not line.strip() or line.startswith("#"):

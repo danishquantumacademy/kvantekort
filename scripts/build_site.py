@@ -303,7 +303,47 @@ for x in proj_list:
     if x["subs"]:
         areas = [sub_area(t) for t in x["subs"]]
         x["prof"] = {a: ("C2" if a == areas[0] else "C1") for a in dict.fromkeys(areas)}
-pout = {"reference": ref, "people": plist, "units": units, "projects": proj_list}
+# Research proficiency of each educator: research profile, research output 2021 onwards and supervised PhD theses
+# (data/people/research_outputs/*.tsv, harvested by scripts/harvest_research.py), tagged with CFQT subdomains by
+# scripts/cfqt_classify.py. Ongoing PhD projects as main supervisor (DTU Orbit) count as supervision.
+import sys
+sys.path.insert(0, str(ROOT / "scripts"))
+from cfqt_classify import classify
+RP_FROM = 2021
+SKIP_TYPE = re.compile(r"^(editorial|erratum|retraction|paratext|peer-review|letter|other|dataset|libguides|supplementary-materials)$|editorial|preface|foreword|review of|book review|comment/debate|letter to the editor|erratum|corrigend|newspaper|blog|interview|anthology editing|editor", re.I)
+rp_rows = {}
+for f in sorted((ROOT / "data/people/research_outputs").glob("*.tsv")):
+    for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
+        rp_rows.setdefault((f.stem.upper(), r["name"]), []).append(r)
+RP_SITE = {"DTU": "https://orbit.dtu.dk", "KU": "https://researchprofiles.ku.dk", "AU": "https://pure.au.dk",
+           "SDU": "https://portal.findresearcher.sdu.dk", "AAU": "https://vbn.aau.dk"}
+n_rp = [0, 0, 0, 0]
+for pp in plist:
+    rows = rp_rows.get((pp["institution"], pp["name"]))
+    if not pp.get("found"): continue
+    items, seen, no, nm, ns = [], set(), 0, 0, 0
+    if pp.get("subs"):
+        items.append(["P", 0, ";".join(pp["subs"]), pp.get("focus") or "Research profile", ""])
+    for r in rows or []:
+        if r["kind"] not in ("O", "S") or not r["year"].isdigit() or int(r["year"]) < RP_FROM: continue
+        if r["kind"] == "O" and SKIP_TYPE.search(r["type"]): continue
+        k = (r["kind"], re.sub(r"\W", "", r["title"].lower()))
+        if k in seen: continue
+        seen.add(k)
+        subs = classify(r["title"])
+        url = r["path"] if r["path"].startswith("http") else (RP_SITE[pp["institution"]] + r["path"]) if r["path"].startswith("/") else ""
+        if r["kind"] == "O": no += 1; nm += bool(subs)
+        else: ns += 1
+        if subs: items.append([r["kind"], int(r["year"]), ";".join(subs), r["title"], url])
+    for j in pp.get("phd", []):
+        k = ("S", re.sub(r"\W", "", j["title"].lower()))
+        if k in seen: continue
+        seen.add(k); ns += 1
+        if j.get("subs"): items.append(["S", 0, ";".join(j["subs"]), j["title"], j["url"]])
+    pp["rp"] = {"no": no, "nm": nm, "ns": ns, "it": items}
+    n_rp[0] += 1; n_rp[1] += no; n_rp[2] += nm; n_rp[3] += ns
+print(f"research proficiency: {n_rp[0]} educators, {n_rp[1]} outputs since {RP_FROM} ({n_rp[2]} on the CFQT map), {n_rp[3]} supervised PhD theses/projects")
+pout = {"reference": ref, "people": plist, "units": units, "projects": proj_list, "rp_from": RP_FROM}
 pt = (ROOT / "site/people_template.html").read_text(encoding="utf-8")
 pbody2 = chrome(pt.replace("/*DATA*/", json.dumps(pout, ensure_ascii=False).replace("</", "<\\/")), "people")
 (ROOT / "site/people.html").write_text(page.split("<body>\n")[0] + "<body>\n" + pbody2 + "\n</body>\n</html>\n", encoding="utf-8")
