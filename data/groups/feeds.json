@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T20:06Z",
+ "generated": "2026-11-04T21:36Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     }
    ]
   },
@@ -196,14 +196,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": false,
      "error": "<urlopen error timed out>",
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     }
    ]
   },
@@ -362,14 +362,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     }
    ]
   },
@@ -535,14 +535,14 @@
      "kind": "news",
      "ok": true,
      "n": 109,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     }
    ]
   },
@@ -608,7 +608,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-04T20:06Z"
+     "checked": "2026-11-04T21:36Z"
     }
    ]
   }
