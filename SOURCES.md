@@ -95,6 +95,21 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | pure.au.dk | 72 |
 | vbn.aau.dk | 30 |
 
+### Educator supervised PhD theses
+
+| Site | Pages |
+|---|---:|
+| orbit.dtu.dk | 118 |
+| portal.findresearcher.sdu.dk | 108 |
+| researchprofiles.ku.dk | 88 |
+| vbn.aau.dk | 73 |
+
+### Educator research output (OpenAlex)
+
+| Site | Pages |
+|---|---:|
+| openalex.org | 266 |
+
 ### Unit page
 
 | Site | Pages |
@@ -192,4 +207,4 @@ The workflow "Check sources" opened 133 pages (up to three per site) from a GitH
 
 
 
-Total: 1835 pages from 73 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 2488 pages from 74 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
