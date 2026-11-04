@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Harvests the research output (2021 onwards) and the supervised PhD theses of every educator from the
-universities' public research portals (Pure). Runs in GitHub Actions (workflow "Harvest research output"),
-because the portals cannot be reached from everywhere. Uses a real browser (Playwright), since some portals
-show a bot check before the page.
+"""Harvests the research output (2021 onwards) and the supervised PhD theses of every educator.
+Research output comes from OpenAlex (openalex.org, open bibliographic data), matched on the educator's name and
+university, because the portals' publication lists sit behind a bot check. Supervised PhD theses come from the
+"Supervised work" tab of the universities' public research portals (Pure), read with a real browser (Playwright).
+Runs in GitHub Actions (workflow "Harvest research output").
 
 Usage:  python scripts/harvest_research.py INST [INST ...]     (DTU KU AU SDU AAU)
 Output: data/people/research_outputs/<inst>.tsv
         columns: name, kind (O = research output, S = supervised PhD thesis), year, type, title, path
         plus one line per educator with kind "-" giving the profile path that was used (or MISS)
 """
-import asyncio, csv, pathlib, re, sys, urllib.parse
+import asyncio, csv, json, pathlib, re, sys, time, unicodedata, urllib.parse, urllib.request
 from playwright.async_api import async_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -20,6 +21,49 @@ import os
 DEBUG = os.environ.get("DEBUG")
 LIMIT = int(os.environ.get("LIMIT", "0"))
 OUT = ROOT / "data/people/research_outputs"
+
+ROR = {"DTU": "04qtj9h94", "KU": "035b05819", "AU": "01aj84f44", "SDU": "03yrrjy16", "AAU": "04m5j1k67"}
+UA = {"User-Agent": "DQA-map/1.0 (+https://map.danishquantumacademy.dk)"}
+
+def oa(url):
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                return json.load(r)
+        except Exception as e:  # noqa: BLE001
+            print("  openalex retry", type(e).__name__, flush=True); time.sleep(3 * (attempt + 1))
+    return {}
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z ]", " ", s).split()
+
+def same_person(name, cand):
+    a, b = norm(name), norm(cand)
+    if not a or not b: return False
+    if a == b: return True
+    # same last name and same first name (or first initial when one side is abbreviated)
+    return a[-1] == b[-1] and (a[0] == b[0] or (len(b[0]) == 1 and a[0][0] == b[0]) or (len(a[0]) == 1 and b[0][0] == a[0]))
+
+def openalex_outputs(inst, name):
+    q = urllib.parse.quote(" ".join(norm(name)))
+    res = oa(f"https://api.openalex.org/authors?search={q}&filter=affiliations.institution.ror:https://ror.org/{ROR[inst]}&per-page=25&select=id,display_name,display_name_alternatives,works_count")
+    ids = [a["id"].rsplit("/", 1)[-1] for a in res.get("results", [])
+           if a.get("works_count") and any(same_person(name, n) for n in [a["display_name"], *(a.get("display_name_alternatives") or [])])][:4]
+    out, seen = [], set()
+    for aid in ids:
+        cursor = "*"
+        while cursor:
+            r = oa(f"https://api.openalex.org/works?filter=author.id:{aid},publication_year:>{FROM - 1}&per-page=200&cursor={cursor}&select=id,title,publication_year,type,doi")
+            for w in r.get("results", []):
+                t = (w.get("title") or "").strip()
+                if not t or w["id"] in seen: continue
+                seen.add(w["id"])
+                out.append({"title": re.sub(r"<[^>]+>", "", t), "year": str(w.get("publication_year") or ""), "type": w.get("type") or "",
+                            "url": w.get("doi") or w["id"]})
+            cursor = r.get("meta", {}).get("next_cursor") if r.get("results") else None
+            time.sleep(0.15)
+    return ids, out
 
 def educators(inst):
     rows = []
@@ -99,18 +143,20 @@ async def run(inst):
         ctx = await br.new_context(locale="en-GB", user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
         page = await ctx.new_page()
         for name, path in educators(inst)[:LIMIT or None]:
-            if inst == "AU" and not path:
-                path = await find_au(page, name)
-                if path and not path.endswith("/"): path += "/"
             if not path:
-                rows.append([name, "-", "", "", "", "MISS"]); print(inst, name, "MISS", flush=True); continue
+                rows.append([name, "-", "", "", "", "MISS"])
+                ids, outs = openalex_outputs(inst, name)
+                rows.append([name, "A", "", "", "", " ".join(ids)])
+                rows += [[name, "O", o["year"], o["type"], o["title"], o["url"]] for o in outs if o["year"] and int(o["year"]) >= FROM]
+                print(inst, name, "no portal path;", len(outs), "outputs from OpenAlex", flush=True); continue
             base = ("https://pure.au.dk" + (path if path.startswith("/portal") else "/portal" + path)) if inst == "AU" else BASE[inst] + path
             rows.append([name, "-", "", "", "", "AU portal search" if inst == "AU" else path])  # AU profile paths contain e-mail addresses
-            outs = await listing(page, base + "publications/")
+            ids, outs = openalex_outputs(inst, name)
+            rows.append([name, "A", "", "", "", " ".join(ids)])
             for o in outs:
                 if o["year"] and int(o["year"]) >= FROM:
-                    rows.append([name, "O", o["year"], o["type"], o["title"], urllib.parse.urlparse(o["href"]).path])
-            sup = await listing(page, base + "supervised/", stop_year=0)
+                    rows.append([name, "O", o["year"], o["type"], o["title"], o["url"]])
+            sup = await listing(page, base + "supervised/", stop_year=0) if inst != "AU" else []
             for o in sup:
                 if "dissertation" in o["type"].lower() or "thesis" in o["type"].lower() or "ph.d" in o["type"].lower() or "phd" in o["type"].lower():
                     rows.append([name, "S", o["year"], o["type"], o["title"], urllib.parse.urlparse(o["href"]).path])
