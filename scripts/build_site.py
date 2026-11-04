@@ -82,7 +82,8 @@ out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
 NAV = [("Education", [("index", "index.html", "Proficiency"), ("planner", "planner.html", "Study planner")]),
-       ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")])]
+       ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")]),
+       ("Industry", [("industry", "industry.html", "Industry")])]
 SHARED_CSS = """
 /* shared site chrome: navigation, how-to-read boxes, footer */
 nav.site{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line);font:500 13.5px var(--body)}
@@ -455,6 +456,64 @@ subprocess.run([sys.executable, str(ROOT / "scripts/list_sources.py")], check=Tr
 
 # Forsiden får ph.d.- og postdoc-projekterne med (små trekanter pr. universitet) og bygges derfor igen til sidst.
 out["projects"] = [{k: x[k] for k in ("kind", "inst", "prof", "basis", "title", "url", "subs", "who", "group") if k in x} for x in proj_list]
+# Quantum industry (industry.html): Danish Quantum Ecosystem Map, CVR, OpenAlex, job ads
+REGION_CITY = {"Aarhus": "Central Denmark", "Lystrup": "Central Denmark", "Odense": "Southern Denmark", "Fredericia": "Southern Denmark",
+               "Aalborg": "North Denmark", "Roskilde": "Zealand"}
+def region_of(city, postcode=""):
+    if city in REGION_CITY: return REGION_CITY[city]
+    pc = int(postcode) if postcode.isdigit() else 0
+    if pc:
+        if pc < 3700: return "Capital Region"
+        if pc < 5000: return "Zealand"
+        if pc < 7300: return "Southern Denmark"
+        if pc < 9000: return "Central Denmark"
+        return "North Denmark"
+    return "Capital Region"
+cvr = {}
+for ln in (ROOT / "data/industry/cvr.txt").read_text(encoding="utf-8").splitlines():
+    if ln.startswith("#") or not ln.strip(): continue
+    c, nm, start, place, code, status = ln.split("|")
+    cvr[c] = {"start": start, "postcode": place.split()[0], "code": code, "status": status}
+oa_ind = json.loads((ROOT / "data/industry/openalex.json").read_text(encoding="utf-8")) if (ROOT / "data/industry/openalex.json").exists() else {}
+jobsd = json.loads((ROOT / "data/industry/jobs.json").read_text(encoding="utf-8")) if (ROOT / "data/industry/jobs.json").exists() else {"items": [], "sources": {}}
+jobs = jobsd.get("items", [])
+UNI_RX = re.compile(r"University|Universit|Technical University of Denmark|Niels Bohr", re.I)
+orgs = []
+for ln in (ROOT / "data/industry/organisations.txt").read_text(encoding="utf-8").splitlines():
+    if ln.startswith("#") or not ln.strip(): continue
+    f = ln.split("|")
+    name, cat, apps, role, summ, city, c, subs, l1, l2, l3, spin = f
+    cv = cvr.get(c, {})
+    o = {"name": name, "category": cat, "apps": apps, "role": role, "summary": summ, "city": city, "cvr": c, "start": cv.get("start", ""),
+         "region": region_of(city, cv.get("postcode", "")), "subs": subs.split(";") if subs else [],
+         "prof": {a: l for a, l in zip(("I", "II", "III"), (l1, l2, l3)) if l}, "spinout": spin}
+    oa = oa_ind.get(name)
+    if oa and oa.get("works"):
+        o["oa"] = {"works": oa["works"], "unis": [x for x in oa.get("co", []) if UNI_RX.search(x["name"]) and re.search(r"Denmark|Copenhagen|Aarhus|Aalborg|Southern|DTU", x["name"])][:4]}
+    key = re.sub(r"\W", "", re.sub(r"\b(ApS|A/S|P/S|Inc)\b", "", name.split("(")[0]).lower())[:10]
+    o["jobs"] = sum(1 for j in jobs if j.get("technical") and key and key in re.sub(r"\W", "", (j.get("employer") or "").lower()))
+    orgs.append(o)
+coverage = {d: {"courses": 0, "research": 0, "orgs": 0, "jobs": 0} for d in ref["cfqt"]["domains"]}
+for c in courses:
+    for d in {s.split(".")[0] for s in c.get("subs", [])}: coverage[d]["courses"] += 1
+for pp in plist:
+    if pp.get("rp"):
+        for d in {s.split(".")[0] for x in pp["rp"]["it"] for s in x[2].split(";")}: coverage[d]["research"] += 1
+for o in orgs:
+    for d in {s.split(".")[0] for s in o["subs"]}: coverage[d]["orgs"] += 1
+for j in jobs:
+    if j.get("technical") and not j.get("academic"):
+        for d in {s.split(".")[0] for s in j.get("subs", [])}: coverage[d]["jobs"] += 1
+jobs_read = max((v.get("read", "") for v in jobsd.get("sources", {}).values()), default="")
+iout = {"reference": ref, "orgs": orgs, "jobs": [{k: j.get(k) for k in ("title", "employer", "place", "url", "first", "last", "academic", "subs", "level", "prof", "technical")} for j in jobs],
+        "coverage": coverage, "jobs_read": jobs_read}
+it_ = (ROOT / "site/industry_template.html").read_text(encoding="utf-8")
+ibody = chrome(it_.replace("/*DATA*/", json.dumps(iout, ensure_ascii=False).replace("</", "<\\/")), "industry")
+(ROOT / "site/industry.html").write_text(page.split("<body>\n")[0] + "<body>\n" + ibody + "\n</body>\n</html>\n", encoding="utf-8")
+(ROOT / "site/industry_artifact.html").write_text(ibody, encoding="utf-8")
+print(f"industry: {len(orgs)} organisations, {sum(1 for j in jobs if j.get('technical') and not j.get('academic'))} technical job ads")
+out["industry"] = [{"name": o["name"], "role": o["role"], "city": o["city"], "subs": o["subs"], "prof": o["prof"], "summary": o["summary"]} for o in orgs if o["prof"]]
+out["jobs"] = [{"title": j["title"], "employer": j.get("employer", ""), "url": j["url"], "subs": j.get("subs", []), "prof": j.get("prof", {}), "first": j.get("first", "")} for j in jobs if j.get("technical") and not j.get("academic")]
 # Research of the educators on the front page: one item per educator, at their level in each proficiency area
 def _area(x):
     d = x.split(".")[0]

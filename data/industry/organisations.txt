@@ -39,7 +39,7 @@ FORCE Technology|Test, Demonstration and Fabrication Facilities||test and fabric
 Frogne A/S|End Users||end user|Logistics and mobility technology; works with quantum-inspired mathematics.|Ishøj|73249414|5.6;5.5|B1||B2|
 GlobalConnect A/S|End Users||end user|Digital infrastructure provider investing in quantum-resilient technology.|Copenhagen|26759722|7.4;7.5||B1|B2|
 Heartcore Capital|Funding Agencies and Investors||investor|Early-stage venture firm with a quantum practice in computing, sensing and post-quantum security.|Copenhagen||||||
-IBM Danmark ApS|Quantum Hardware Suppliers|Quantum Cybersecurity Solutions; Quantum Computers or Simulators|hardware and components|Quantum computing hardware and software for academia and industry.|Copenhagen|65305216|5.1;4.1;5.3|C1|C2||
+IBM Danmark ApS|Quantum Hardware Suppliers|Quantum Cybersecurity Solutions; Quantum Computers or Simulators|hardware and components|Quantum computing hardware and software for academia and industry.|Copenhagen|65305216|4.1;5.1;5.3|C1|C2||
 Innovation Centre Denmark|Government||government|Connects Danish and international quantum innovation stakeholders from seven innovation hotspots.|Copenhagen||||||
 Innovation Fund Denmark|Funding Agencies and Investors||investor|Funds projects in quantum technologies.|Aarhus||||||
 Invest in Denmark|Government||government|Supports international quantum companies and investors in establishing in Denmark.|Copenhagen||||||
@@ -82,7 +82,7 @@ The Danish National Research Foundation|Funding Agencies and Investors||investor
 Topsil GlobalWafers|Enabling Technology Suppliers||enabling technology|Silicon wafers used for quantum electronic and sensor devices.|Frederikssund|37842222|3.2||C1||
 Type One Systems|Quantum Hardware Suppliers|Quantum Sensors|sensing|Scientific instrument for studying quantum systems in quantum physics, biology and materials science.|Kongens Lyngby|45044491|6.1;3.1||C2||
 UCPH Quantum Hub|University Hubs||university hub|Interdisciplinary quantum science across the University of Copenhagen.|Copenhagen||||||
-Universal Quantum|Quantum Hardware Suppliers|Quantum Computers or Simulators|hardware and components|Building quantum computers.|Copenhagen|45463761|5.1;4.3|C1|C2||
+Universal Quantum|Quantum Hardware Suppliers|Quantum Computers or Simulators|hardware and components|Building quantum computers.|Copenhagen|45463761|4.3;5.1|C1|C2||
 Villum Foundation|Funding Agencies and Investors||investor|Funds quantum technology research at Danish universities.|Søborg||||||
 Ørsted|End Users||end user|Energy company taking part in quantum initiatives with academia and startups.|Gentofte|36213728|5.6|||B2|
 AAU Quantum Hub|University Hubs||university hub|Quantum computing, algorithms and software, control, communication and modelling of noisy quantum systems at Aalborg University.|Aalborg||||||

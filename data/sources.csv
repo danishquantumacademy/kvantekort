@@ -2288,6 +2288,56 @@ Unit page,AU,https://pure.au.dk/portal/en/organisations/interdisciplinary-nanosc
 Unit page,AU,https://inano.au.dk,Unit website (link target): Interdisciplinary Nanoscience Center (iNANO),data/people/units.txt
 Unit page,KU,https://nbi.ku.dk/english/research/quantum-optics-and-photonics/quantop/,Unit website (link target): QUANTOP – Quantum Optics Center (leader),data/people/units.txt
 Unit page,AU,https://pure.au.dk/portal/en/organisations/department-of-electrical-and-computer-engineering-electrical-ener/,Research-portal organisation page: Electrical Energy and Electronics,data/people/units.txt
+Industry,,https://danishbusinessauthority.dk/danish-quantum-ecosystem-map,"The Danish Quantum Ecosystem Map (list view): organisations, categories, descriptions",data/industry/organisations.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/36998717,"CVR: Sparrow Quantum ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/43152483,"CVR: Alea Quantum Technologies ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44661632,"CVR: Atom Computing Denmark ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45992012,"CVR: AURORIC ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44776030,"CVR: Celare Quantum Communications ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44670909,"CVR: ConScience ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46091922,"CVR: Copenhagen Microsystems ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/42000507,"CVR: Copenhagen Quantum ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/43618563,"CVR: Quantum Foundry Copenhagen A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/17089005,"CVR: CRYPTOMATHIC A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/29217939,"CVR: DANSK FUNDAMENTAL METROLOGI A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/25698908,"CVR: DENCRYPT A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44618931,"CVR: DiaSense ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45969371,"CVR: FabCue ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/55117314,"CVR: FORCE Technology (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/73249414,"CVR: FINN FROGNE A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/26759722,"CVR: GLOBALCONNECT A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/65305216,"CVR: IBM DANMARK ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/42958093,"CVR: Kvantify ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/25578198,"CVR: KPMG P/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44346974,"CVR: Lizard Photonics ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45889092,"CVR: Magnolia Quantum Sensing ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44279304,"CVR: Maybell Quantum Industries ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/40982620,"CVR: Molecular Quantum Solutions ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46315782,"CVR: Monarch Quantum Europe ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/10048265,"CVR: HAMAMATSU PHOTONICS A/S (formerly NKT Photonics) (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44962675,"CVR: Partisia Group ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46057627,"CVR: Phantom Photonics ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45956385,"CVR: PsiQre ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44133482,"CVR: QFactory ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/37786268,"CVR: QM Technologies ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/42991449,"CVR: Qpurpose ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45874001,"CVR: QuantumSong ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/44262762,"CVR: QunaSys Denmark ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45705846,"CVR: QuNorth A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/39934639,"CVR: SiPhotonIC ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/40075267,"CVR: TDC NET A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/41881828,"CVR: TERMA A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/37842222,"CVR: Topsil GlobalWafers A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45044491,"CVR: Type one systems ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45463761,"CVR: Universal Quantum ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/36213728,"CVR: Ørsted A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=quantum,"Job ads, read every Monday",data/industry/jobs.json
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=kvante,"Job ads, read every Monday",data/industry/jobs.json
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=qubit,"Job ads, read every Monday",data/industry/jobs.json
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=kvanteteknologi,"Job ads, read every Monday",data/industry/jobs.json
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=quantum%20computing,"Job ads, read every Monday",data/industry/jobs.json
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=quantum%20sensing,"Job ads, read every Monday",data/industry/jobs.json
+Industry,,https://www.jobindex.dk/jobsoegning.rss?q=post-quantum,"Job ads, read every Monday",data/industry/jobs.json
 Workshops and public outreach,KU,https://nbi.ku.dk/english/research_infrastructure/qtl/,Workshop: Quantum Training Lab: class visits (photonic lab and cryostat lab),data/outreach/activities.txt
 Workshops and public outreach,KU,https://nbi.ku.dk/moed-os/gymnasielaerere_og_folkeskolelaerere/temadag2026/Jeppe_Willads_Petersen_slides.pdf,"Workshop: KVANT21: classroom game ""Search for the Stars"" (Grover's algorithm)",data/outreach/activities.txt
 Workshops and public outreach,KU,https://nqcp.ku.dk/our-work/education-team,"Workshop: NQCP: talent programmes with Astra, ScienceTalents and the Academy for Talented Youths",data/outreach/activities.txt

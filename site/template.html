@@ -293,24 +293,29 @@ footer a{color:var(--accent)}
   const SKEY0=Object.keys(R.schools||{})[0]||'GYM';
   (D.outreach||[]).forEach(x=>C.push({institution:SKEY0,level:x.kind==='W'?'WS':'OUT',code:x.provider+' · '+x.years,title:x.title,url:x.url,language:'',ects:null,
     dept_name:[x.provider,x.audience].filter(Boolean).join(' · '),subs:x.subs,primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',special:true,outreach:true}));
+  // industry: companies at the level of their work, and technical job ads at the level they ask for (industry.html)
+  (D.industry||[]).forEach(x=>C.push({institution:'IND',level:'COMP',code:x.role,title:x.name,url:'industry.html',language:'',ects:null,dept_name:[x.city,x.summary].filter(Boolean).join(' · '),
+    subs:x.subs,primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',special:true,industry:true}));
+  (D.jobs||[]).forEach(x=>C.push({institution:'IND',level:'JOB',code:'Job ad',title:x.title,url:x.url,language:'',ects:null,dept_name:[x.employer,x.first?`seen ${x.first}`:''].filter(Boolean).join(' · '),
+    subs:x.subs,primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',special:true,industry:true}));
   PJALL.filter(x=>x.subs&&x.subs.length&&x.prof).forEach(x=>C.push({institution:x.inst,level:x.kind==='postdoc'?'PDP':'PHDP',code:x.kind==='postdoc'?'Postdoc':'PhD',title:x.title,url:x.url||'people.html#pj-h',
     language:'',ects:null,dept_name:[x.group?`${x.group} group`:'',x.who?`supervisor ${x.who}`:'',x.basis==='output'?'mapped from latest output':''].filter(Boolean).join(' · '),
     subs:[...x.subs].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',project:true,special:true}));
   const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], DOMS=Object.keys(Q.domains);
   const INSTS=Object.keys(R.institutions);
   // upper secondary schools (stx/htx) have their own button and are also counted in "Denmark" (universities and schools together)
-  const SCH=R.schools||{}, SKEYS=Object.keys(SCH), ALLI={...R.institutions,...SCH};
+  const SCH=R.schools||{}, SKEYS=Object.keys(SCH), ALLI={...R.institutions,...SCH,IND:{name:'Danish quantum industry',short:'Industry'}};
   const isSchool=k=>SKEYS.includes(k);
   const IORDER=[...SKEYS,...INSTS]; // order everywhere: Denmark, STX/HTX, DTU, KU, AU, SDU, AAU
   const inGroup=(c,i)=>i==='ALL'||c.institution===i;
-  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master','PHDP','PDP','RES','WS','OUT'], LEVEL_LABEL={WS:'Workshops',OUT:'Public outreach',Diplom:'BEng',Master:'Prof. master',PHDP:'PhD projects',PDP:'Postdoc projects',RES:'Educators\' research'};
-  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx',PHDP:'PhD projects (research level)',PDP:'Postdoc projects (research level)',RES:'Research of the educators: each educator at their level in each area',WS:'Workshops for schools and teachers',OUT:'Public outreach: talks, events, media'};
+  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master','PHDP','PDP','RES','WS','OUT','COMP','JOB'], LEVEL_LABEL={COMP:'Companies',JOB:'Job ads',WS:'Workshops',OUT:'Public outreach',Diplom:'BEng',Master:'Prof. master',PHDP:'PhD projects',PDP:'Postdoc projects',RES:'Educators\' research'};
+  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx',PHDP:'PhD projects (research level)',PDP:'Postdoc projects (research level)',RES:'Research of the educators: each educator at their level in each area',WS:'Workshops for schools and teachers',COMP:'Industry: what the companies do',JOB:'Industry: what job ads ask for',OUT:'Public outreach: talks, events, media'};
   const PROJ_LEVELS=['PHDP','PDP'], isProj=L=>PROJ_LEVELS.includes(L), projMode=()=>state.levels.size>0&&[...state.levels].every(isProj);
-  const SPEC=['PHDP','PDP','RES','WS','OUT'], isSpec=L=>SPEC.includes(L), specMode=()=>state.levels.size>0&&[...state.levels].every(isSpec), resMode=()=>state.levels.size===1&&state.levels.has('RES');
+  const SPEC=['PHDP','PDP','RES','WS','OUT','COMP','JOB'], isSpec=L=>SPEC.includes(L), specMode=()=>state.levels.size>0&&[...state.levels].every(isSpec), resMode=()=>state.levels.size===1&&state.levels.has('RES');
   const SCHOOL_LEVELS=['STX','HTX','WS','OUT'];
   // levels that belong to the current selection: all in Denmark, school levels for STX/HTX, university levels for a university
   const visLevels=()=>LEVELS.filter(L=>state.inst==='ALL'||SCHOOL_LEVELS.includes(L)===isSchool(state.inst));
-  const noun=(n,list)=>{const p=list.length&&list.every(c=>c.project), r=list.length&&list.every(c=>c.research), o=list.length&&list.every(c=>c.outreach), m=list.some(c=>c.special)&&!p&&!r&&!o; return `${n} ${p?'project':r?'educator':o?'activit'+(n===1?'y':'ie'):m?'item':'course'}${n===1||o?(o&&n!==1?'s':''):'s'}`};
+  const noun=(n,list)=>{const p=list.length&&list.every(c=>c.project), r=list.length&&list.every(c=>c.research), o=list.length&&list.every(c=>c.outreach), ind=list.length&&list.every(c=>c.industry), m=list.some(c=>c.special)&&!p&&!r&&!o&&!ind; return `${n} ${p?'project':r?'educator':o?'activit'+(n===1?'y':'ie'):ind?'item':m?'item':'course'}${n===1||o?(o&&n!==1?'s':''):'s'}`};
   const courseLevels=()=>visLevels().filter(L=>!isSpec(L));
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
@@ -326,7 +331,7 @@ footer a{color:var(--accent)}
   // ---- links: the page state lives in the address, so links into the old coverage and triangle pages keep working ----
   function readURL(){
     const p=new URLSearchParams(location.search);
-    const i=p.get('inst'); if(i&&(INSTS.includes(i)||isSchool(i))) state.inst=i;
+    const i=p.get('inst'); if(i&&(INSTS.includes(i)||isSchool(i)||i==='IND')) state.inst=i;
     const s=p.get('sub'); if(s&&DOMS.includes(s.split('.')[0])&&Q.domains[s.split('.')[0]].subdomains[s]) state.sub=s;
     const d=p.get('dom'); if(d&&DOMS.includes(d)) state.dom=d;
     const b=p.get('band'); if(b&&/^(I|II|III)-(A1|A2|B1|B2|C1|C2)$/.test(b)){const [a,l]=b.split('-');state.cell={a,l}}
@@ -431,9 +436,14 @@ footer a{color:var(--accent)}
         card.append(b)});
       picker.append(card);
     });
+    {const k='IND', on=state.inst===k, card=el('div',{class:'pick'+(on?' on':'')},el('div',{class:'pk nopj',style:'min-height:0;padding-top:10px'},el('span',{class:'nm'},'Industry'),el('span',{class:'ct'},'companies and job ads')));
+     [['COMP','Companies',n=>`${n} organisations`],['JOB','Job ads',n=>`${n} job ads`]].forEach(([L,n,ct])=>{const ol=C.filter(c=>c.level===L), es=sv('svg',{'aria-hidden':'true'}); drawTriangle(es,ol,{W:200});
+       const b=el('button',{class:'pk pj',type:'button','aria-pressed':String(on&&state.levels.size===1&&state.levels.has(L)),title:`${n}: ${ol.length} on the CFQT content map`},es,el('span',{class:'nm'},n),el('span',{class:'ct'},ct(ol.length)));
+       b.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;state.levels=new Set([L]);render()};card.append(b)});
+     picker.append(card);}
   }
   {const all=PJALL, on=all.filter(x=>x.prof).length;
-   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. For STX/HTX the two lower triangles show workshops for schools and teachers and public outreach (talks, events, media) about quantum physics and technology, from the universities' pages and the NBI and AU event calendars. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses.`;}
+   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. For STX/HTX the two lower triangles show workshops for schools and teachers and public outreach (talks, events, media) about quantum physics and technology, from the universities' pages and the NBI and AU event calendars. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses. The Industry card shows what the quantum companies and facilities work on (from the Danish Quantum Ecosystem Map) and what quantum job ads ask for; more on the Industry page.`;}
 
   // ---- study level filter ----
   const lf=document.getElementById('lvl-filters');
@@ -510,16 +520,16 @@ footer a{color:var(--accent)}
   function renderMatrix(){
     const base=C.filter(c=>!c.special&&(specMode()||!state.levels.size||state.levels.has(c.level))), PJ=C.filter(c=>c.project);
     const t=document.getElementById('matrix'); t.innerHTML='';
-    const cols=['ALL',...SKEYS,...INSTS,'P:ALL',...INSTS.map(i=>'P:'+i)];
-    const isP=i=>i.startsWith('P:'), real=i=>isP(i)?i.slice(2):i, itemsOf=i=>isP(i)?PJ.filter(c=>inGroup(c,real(i))):base.filter(c=>inGroup(c,i));
-    const onCol=i=>state.inst===real(i)&&isP(i)===projMode(), cc=i=>(onCol(i)?' on':'')+(i==='P:ALL'?' pj0':'');
-    t.append(el('thead',{},el('tr',{class:'grp'},el('th',{}),el('th',{colspan:1+SKEYS.length+INSTS.length},'Courses (study levels as selected)'),el('th',{colspan:1+INSTS.length,class:'pj0'},'PhD and postdoc projects')),el('tr',{},el('th',{scope:'col'},'CFQT domain / subdomain'),...cols.map(i=>el('th',{scope:'col',title:i==='ALL'?'All universities and STX/HTX':i==='P:ALL'?'PhD and postdoc projects in Denmark':(isP(i)?'PhD and postdoc projects, ':'')+ALLI[real(i)].name,class:'n'+cc(i)+(isSchool(i)?' school':'')},real(i)==='ALL'?'Denmark':shortName(real(i)))))));
+    const cols=['ALL',...SKEYS,...INSTS,'P:ALL',...INSTS.map(i=>'P:'+i),'X:COMP','X:JOB'];
+    const isX=i=>i.startsWith('X:'), isP=i=>i.startsWith('P:'), real=i=>isX(i)?'IND':isP(i)?i.slice(2):i, itemsOf=i=>isX(i)?C.filter(c=>c.level===i.slice(2)):isP(i)?PJ.filter(c=>inGroup(c,real(i))):base.filter(c=>inGroup(c,i));
+    const onCol=i=>isX(i)?(state.inst==='IND'&&state.levels.size===1&&state.levels.has(i.slice(2))):(state.inst===real(i)&&isP(i)===projMode()), cc=i=>(onCol(i)?' on':'')+(i==='P:ALL'||i==='X:COMP'?' pj0':'');
+    t.append(el('thead',{},el('tr',{class:'grp'},el('th',{}),el('th',{colspan:1+SKEYS.length+INSTS.length},'Courses (study levels as selected)'),el('th',{colspan:1+INSTS.length,class:'pj0'},'PhD and postdoc projects'),el('th',{colspan:2,class:'pj0'},'Industry')),el('tr',{},el('th',{scope:'col'},'CFQT domain / subdomain'),...cols.map(i=>el('th',{scope:'col',title:i==='ALL'?'All universities and STX/HTX':isX(i)?(i==='X:COMP'?'Companies: what they do':'Job ads: what they ask for'):i==='P:ALL'?'PhD and postdoc projects in Denmark':(isP(i)?'PhD and postdoc projects, ':'')+ALLI[real(i)].name,class:'n'+cc(i)+(isSchool(i)?' school':'')},isX(i)?(i==='X:COMP'?'Companies':'Job ads'):real(i)==='ALL'?'Denmark':shortName(real(i)))))));
     const tb=el('tbody');
-    const cellBtn=(cs,i,s,label)=>{const b=el('button',{type:'button',class:cs.length?'':'zero',title:`${shortName(real(i))}${isP(i)?' projects':''} · ${label}: ${cs.length||'no'} ${isP(i)?'project(s)':'course(s)'}`},cs.length?String(cs.length):'–');
+    const cellBtn=(cs,i,s,label)=>{const b=el('button',{type:'button',class:cs.length?'':'zero',title:`${isX(i)?(i==='X:COMP'?'Companies':'Job ads'):shortName(real(i))+(isP(i)?' projects':'')} · ${label}: ${cs.length||'no'} ${isX(i)?(i==='X:COMP'?'companies':'job ads'):isP(i)?'project(s)':'course(s)'}`},cs.length?String(cs.length):'–');
       if(cs.length){b.style.background=`rgba(var(--heat),${heat(cs.length)})`; if(heat(cs.length)>.55) b.style.color='var(--bg)';
         if(s.includes('.')&&state.sub===s&&onCol(i)) b.classList.add('sel');
         if(!s.includes('.')&&!state.sub&&state.dom===s&&onCol(i)) b.classList.add('sel');
-        b.onclick=()=>{state.inst=real(i);state.cell=null; if(isP(i))state.levels=new Set(PROJ_LEVELS); else if(!state.levels.size||specMode()){SPEC.forEach(L=>state.levels.delete(L));courseLevels().forEach(L=>state.levels.add(L))} if(s.includes('.')){state.sub=s;state.dom=null}else{state.dom=s;state.sub=null} render(); toList()};}
+        b.onclick=()=>{state.inst=real(i);state.cell=null; if(isX(i))state.levels=new Set([i.slice(2)]); else if(isP(i))state.levels=new Set(PROJ_LEVELS); else if(!state.levels.size||specMode()){SPEC.forEach(L=>state.levels.delete(L));courseLevels().forEach(L=>state.levels.add(L))} if(s.includes('.')){state.sub=s;state.dom=null}else{state.dom=s;state.sub=null} render(); toList()};}
       else b.disabled=true; return b};
     DOMS.forEach(d=>{
       const dom=Q.domains[d], open=state.openDom.has(d);
@@ -566,7 +576,7 @@ footer a{color:var(--accent)}
     const pk=AREAS.filter(a=>c.prof[a]);
     if(pk.length) pk.forEach(a=>tags.append(el('span',{class:'pl',style:`color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${c.prof[a]} ${Q.levels[c.prof[a]]} – ${Q.level_by_area[a][c.prof[a]]}`},`${a} ${c.prof[a]}`)));
     else tags.append(el('span',{class:'none'},'no QT-specific proficiency'));
-    return el('div',{class:'row'},el('span',{class:'ic'},c.outreach?c.code.split(' · ')[0]:isSchool(c.institution)?c.level:c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
+    return el('div',{class:'row'},el('span',{class:'ic'},c.industry?(c.level==='JOB'?'JOB':'IND'):c.outreach?c.code.split(' · ')[0]:isSchool(c.institution)?c.level:c.institution),el('span',{class:'ttl'},el('a',{href:c.url,target:'_blank',rel:'noopener'},c.title)),
       el('span',{class:'b',title:LEVEL_NAME[c.level]},c.ects!=null?`${LEVEL_LABEL[c.level]||c.level} · ${c.ects} ECTS`:(LEVEL_LABEL[c.level]||c.level)),tags,
       el('div',{class:'meta'},el('span',{class:'mono'},c.code),el('span',{},c.dept_name),c.language?el('span',{},c.language):null,isSchool(c.institution)?null:kwbars(c)),
       isSchool(c.institution)&&c.note?el('p',{class:'snote'},c.note):null);

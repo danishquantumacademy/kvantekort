@@ -121,6 +121,16 @@ for line in (D / "people/units.txt").read_text(encoding="utf-8").splitlines():
     add("Unit page", inst, portal, f"Research-portal organisation page: {name}", "data/people/units.txt")
     add("Unit page", inst, site, f"Unit website (link target): {name}", "data/people/units.txt")
 
+# 6c. Industry
+add("Industry", "", "https://danishbusinessauthority.dk/danish-quantum-ecosystem-map", "The Danish Quantum Ecosystem Map (list view): organisations, categories, descriptions", "data/industry/organisations.txt")
+for line in (D / "industry/cvr.txt").read_text(encoding="utf-8").splitlines():
+    if line.startswith("#") or not line.strip():
+        continue
+    c, nm = line.split("|")[:2]
+    add("Industry", "", f"https://datacvr.virk.dk/enhed/virksomhed/{c}", f"CVR: {nm} (start date, place, industry code)", "data/industry/cvr.txt")
+for qy in ("quantum", "kvante", "qubit", "kvanteteknologi", "quantum%20computing", "quantum%20sensing", "post-quantum"):
+    add("Industry", "", f"https://www.jobindex.dk/jobsoegning.rss?q={qy}", "Job ads, read every Monday", "data/industry/jobs.json")
+
 # 6b. Workshops and public outreach
 for line in (D / "outreach/activities.txt").read_text(encoding="utf-8").splitlines():
     if not line.strip() or line.startswith("#"):
