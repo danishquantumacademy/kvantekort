@@ -422,6 +422,29 @@ subprocess.run([sys.executable, str(ROOT / "scripts/list_sources.py")], check=Tr
 
 # Forsiden får ph.d.- og postdoc-projekterne med (små trekanter pr. universitet) og bygges derfor igen til sidst.
 out["projects"] = [{k: x[k] for k in ("kind", "inst", "prof", "basis", "title", "url", "subs", "who", "group") if k in x} for x in proj_list]
+# Research of the educators on the front page: one item per educator, at their level in each proficiency area
+def _area(x):
+    d = x.split(".")[0]
+    return "I" if d in ("1", "2") or x in ("5.1", "5.4", "5.5") else ("III" if d == "8" or x in ("5.6", "6.7", "7.4", "7.6") else "II")
+res_list = []
+for pp in plist:
+    rp = pp.get("rp")
+    if not rp or not rp["it"]: continue
+    mains = [_area(x[2].split(";")[0]) for x in rp["it"]]
+    touch = [set(map(_area, x[2].split(";"))) for x in rp["it"]]
+    prof = {}
+    for a in ("I", "II", "III"):
+        m = mains.count(a); sec = sum(1 for mm, t in zip(mains, touch) if a in t and mm != a)
+        lv = "C2" if m >= 3 else "C1" if (m >= 1 or sec >= 2) else "B2" if sec == 1 else ""
+        if lv: prof[a] = lv
+    if not prof: continue
+    w = {}
+    for x in rp["it"]:
+        for i, sub in enumerate(x[2].split(";")): w[sub] = w.get(sub, 0) + (1 if i == 0 else 0.5)
+    subs = sorted(w, key=lambda k: -w[k])[:3]
+    res_list.append({"inst": pp["institution"], "name": pp["name"], "level": pp.get("level", ""), "unit": ([u for u in pp.get("units", [])] or [""])[-1],
+                     "prof": prof, "subs": subs, "n": len(rp["it"])})
+out["research"] = res_list
 body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "index")
 page = page.split("<body>\n")[0] + "<body>\n" + body + "\n</body>\n</html>\n"
 (ROOT / "site/index.html").write_text(page, encoding="utf-8")

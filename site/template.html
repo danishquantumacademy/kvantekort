@@ -207,6 +207,7 @@ footer a{color:var(--accent)}
     <p class="lede">How far do quantum courses at Danish universities take students, and which parts of the <strong>European Competence Framework for Quantum Technologies (CFQT)</strong> do they cover?</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
       <p><b>Choose a university or STX/HTX.</b> The small triangles show Denmark, STX/HTX and each university (DTU, KU, AU, SDU, AAU). STX/HTX shows physics A at upper secondary school: the content that applies to all 144 stx and 34 htx schools, including the Kvant21 material on quantum physics and quantum technology. It is also counted in Denmark, together with the universities. Select one to update everything below.</p>
+      <p><b>Research of the educators.</b> The third triangle in each card shows the research of the educators at that university: each educator counts once in each proficiency area, at their level there (C2 Innovation with at least three research outputs or supervised theses with their main topic in the area, C1 Specialisation with one or two, B2 Investigation with one that touches it). Select it to list the educators; each links to their row on the Educators page.</p>
       <p><b>PhD and postdoc projects.</b> Each university card has a second, smaller triangle below the courses: the PhD and postdoc projects on the CFQT content map, at research level (C2 in the area of the main topic, C1 in other areas it touches). Select it to see the projects in the big triangle and in the list, and a table of all positions under Selection. Supervised PhD projects are only available from DTU's research portal; for the other universities the projects of the five research groups are counted.</p>
       <p><b>The triangle.</b> The CFQT proficiency triangle has (I) Quantum concepts at the top, (II) QT hardware &amp; software engineering on the left and (III) QT applications &amp; strategies on the right. Levels grow from A1 in the centre to C2 at the corners. Each band shows the number of courses whose estimated level in that area is exactly that level; the shade tells how many, in five fixed steps, so the same shade means the same count for every university. Select a band to list its courses. The bars under the triangle show the same numbers per area, including courses without QT-specific proficiency ("none").</p>
       <p><b>Content map and coverage.</b> The tiles count courses covering each CFQT domain, as primary or secondary subdomain. Select a tile to list its courses, or unfold the coverage table to see each subdomain per university; empty cells point to gaps in the educational offer.</p>
@@ -283,9 +284,12 @@ footer a{color:var(--accent)}
   const R=D.reference, C=D.courses, Q=R.cfqt;
   // PhD and postdoc projects on the CFQT content map join the list as items with their own levels (research level: C2/C1)
   const PJALL=D.projects||[];
+  // the educators' research: one item per educator at their level in each proficiency area (from the Educators page)
+  (D.research||[]).forEach(x=>C.push({institution:x.inst,level:'RES',code:'Educator',title:x.name,url:'people.html#t-'+x.inst+'-'+x.name.normalize('NFD').replace(/[^\w]+/g,'-'),
+    language:'',ects:null,dept_name:[x.level,x.unit,`${x.n} pieces of evidence on the content map`].filter(Boolean).join(' · '),subs:[...x.subs].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',special:true,research:true}));
   PJALL.filter(x=>x.subs&&x.subs.length&&x.prof).forEach(x=>C.push({institution:x.inst,level:x.kind==='postdoc'?'PDP':'PHDP',code:x.kind==='postdoc'?'Postdoc':'PhD',title:x.title,url:x.url||'people.html#pj-h',
     language:'',ects:null,dept_name:[x.group?`${x.group} group`:'',x.who?`supervisor ${x.who}`:'',x.basis==='output'?'mapped from latest output':''].filter(Boolean).join(' · '),
-    subs:[...x.subs].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',project:true}));
+    subs:[...x.subs].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),primary:x.subs[0],domain:x.subs[0].split('.')[0],prof:x.prof,kw_strong:0,kw_medium:0,note:'',project:true,special:true}));
   const AREAS=['I','II','III'], LV=['A1','A2','B1','B2','C1','C2'], DOMS=Object.keys(Q.domains);
   const INSTS=Object.keys(R.institutions);
   // upper secondary schools (stx/htx) have their own button and are also counted in "Denmark" (universities and schools together)
@@ -293,18 +297,19 @@ footer a{color:var(--accent)}
   const isSchool=k=>SKEYS.includes(k);
   const IORDER=[...SKEYS,...INSTS]; // order everywhere: Denmark, STX/HTX, DTU, KU, AU, SDU, AAU
   const inGroup=(c,i)=>i==='ALL'||c.institution===i;
-  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master','PHDP','PDP'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master',PHDP:'PhD projects',PDP:'Postdoc projects'};
-  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx',PHDP:'PhD projects (research level)',PDP:'Postdoc projects (research level)'};
+  const LEVEL_ORDER=['STX','HTX','BSc','MSc','PhD','Diplom','Master','PHDP','PDP','RES'], LEVEL_LABEL={Diplom:'BEng',Master:'Prof. master',PHDP:'PhD projects',PDP:'Postdoc projects',RES:'Educators\' research'};
+  const LEVEL_NAME={BSc:'Bachelor',MSc:'Master (MSc)',PhD:'PhD',Diplom:'Bachelor of Engineering (diploma)',Master:'Professional master',STX:'Upper secondary school, stx',HTX:'Upper secondary school, htx',PHDP:'PhD projects (research level)',PDP:'Postdoc projects (research level)',RES:'Research of the educators: each educator at their level in each area'};
   const PROJ_LEVELS=['PHDP','PDP'], isProj=L=>PROJ_LEVELS.includes(L), projMode=()=>state.levels.size>0&&[...state.levels].every(isProj);
+  const SPEC=['PHDP','PDP','RES'], isSpec=L=>SPEC.includes(L), specMode=()=>state.levels.size>0&&[...state.levels].every(isSpec), resMode=()=>state.levels.size===1&&state.levels.has('RES');
   const SCHOOL_LEVELS=['STX','HTX'];
   // levels that belong to the current selection: all in Denmark, school levels for STX/HTX, university levels for a university
   const visLevels=()=>LEVELS.filter(L=>state.inst==='ALL'||SCHOOL_LEVELS.includes(L)===isSchool(state.inst));
-  const noun=(n,list)=>{const p=list.length&&list.every(c=>c.project), m=list.some(c=>c.project)&&!p; return `${n} ${p?'project':m?'item':'course'}${n===1?'':'s'}`};
-  const courseLevels=()=>visLevels().filter(L=>!isProj(L));
+  const noun=(n,list)=>{const p=list.length&&list.every(c=>c.project), r=list.length&&list.every(c=>c.research), m=list.some(c=>c.special)&&!p&&!r; return `${n} ${p?'project':r?'educator':m?'item':'course'}${n===1?'':'s'}`};
+  const courseLevels=()=>visLevels().filter(L=>!isSpec(L));
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
   const NS='http://www.w3.org/2000/svg';
-  const state={inst:'ALL',levels:new Set(LEVELS.filter(L=>!isProj(L))),cell:null,dom:null,sub:null,q:'',area:'',min:'',open:new Set(),openDom:new Set()};
+  const state={inst:'ALL',levels:new Set(LEVELS.filter(L=>!isSpec(L))),cell:null,dom:null,sub:null,q:'',area:'',min:'',open:new Set(),openDom:new Set()};
   const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
@@ -330,7 +335,7 @@ footer a{color:var(--accent)}
     if(state.dom) p.set('dom',state.dom);
     if(state.sub) p.set('sub',state.sub);
     if(state.q) p.set('q',state.q);
-    {const def=LEVELS.filter(L=>!isProj(L)); if(state.levels.size!==def.length||!def.every(L=>state.levels.has(L))) p.set('levels',[...state.levels].join(',')||'none');}
+    {const def=LEVELS.filter(L=>!isSpec(L)); if(state.levels.size!==def.length||!def.every(L=>state.levels.has(L))) p.set('levels',[...state.levels].join(',')||'none');}
     const qs=p.toString(); try{history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash)}catch(e){}
   }
 
@@ -393,14 +398,14 @@ footer a{color:var(--accent)}
   const picker=document.getElementById('picker');
   function renderPicker(){
     picker.innerHTML='';
-    const PJ=C.filter(c=>c.project), pm=projMode();
+    const PJ=C.filter(c=>c.project), RS=C.filter(c=>c.research), pm=projMode(), sm=specMode(), rm=resMode();
     ['ALL',...SKEYS,...INSTS].forEach(k=>{
-      const on=state.inst===k, svg=sv('svg',{'aria-hidden':'true'}), list=C.filter(c=>!c.project&&inGroup(c,k)&&(pm||state.levels.has(c.level)));
+      const on=state.inst===k, svg=sv('svg',{'aria-hidden':'true'}), list=C.filter(c=>!c.special&&inGroup(c,k)&&(sm||state.levels.has(c.level)));
       drawTriangle(svg,list,{W:200});
       const sc=isSchool(k)&&SCH[k].schools;
-      const top=el('button',{class:'pk',type:'button','aria-pressed':String(on&&!pm),title:(k==='ALL'?'All Danish universities and upper secondary schools (stx/htx)':ALLI[k].name)+': courses'},svg,el('span',{class:'nm'},shortName(k)),
+      const top=el('button',{class:'pk',type:'button','aria-pressed':String(on&&!sm),title:(k==='ALL'?'All Danish universities and upper secondary schools (stx/htx)':ALLI[k].name)+': courses'},svg,el('span',{class:'nm'},shortName(k)),
         el('span',{class:'ct'},sc?`${sc.STX} stx · ${sc.HTX} htx schools`:`${list.length} courses`));
-      top.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;PROJ_LEVELS.forEach(L=>state.levels.delete(L));
+      top.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;SPEC.forEach(L=>state.levels.delete(L));
         const cl=courseLevels(); if(!cl.some(L=>state.levels.has(L))) cl.forEach(L=>state.levels.add(L)); render()};
       const card=el('div',{class:'pick'+(on?' on':'')+(isSchool(k)?' school':'')},top);
       if(!isSchool(k)){
@@ -409,12 +414,16 @@ footer a{color:var(--accent)}
         const bot=el('button',{class:'pk pj',type:'button','aria-pressed':String(on&&pm),title:`${k==='ALL'?'Denmark':ALLI[k].name}: ${ph} PhD and ${pd} postdoc projects on the CFQT content map`},ps,el('span',{class:'ct'},`${ph} PhD · ${pd} postdoc projects`));
         bot.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;state.levels=new Set(PROJ_LEVELS);render()};
         card.append(bot);
-      } else card.append(el('div',{class:'pk pj nopj'},el('span',{class:'ct'},'no research projects')));
+        const rl=RS.filter(c=>k==='ALL'||c.institution===k), rs=sv('svg',{'aria-hidden':'true'}); drawTriangle(rs,rl,{W:200});
+        const rb=el('button',{class:'pk pj',type:'button','aria-pressed':String(on&&rm),title:`${k==='ALL'?'Denmark':ALLI[k].name}: research of ${rl.length} educators, each at their level in each proficiency area`},rs,el('span',{class:'ct'},`research of ${rl.length} educators`));
+        rb.onclick=()=>{state.inst=k;state.cell=null;state.dom=null;state.sub=null;state.levels=new Set(['RES']);render()};
+        card.append(rb);
+      } else card.append(el('div',{class:'pk pj nopj'},el('span',{class:'ct'},'no research projects')),el('div',{class:'pk pj nopj'},el('span',{class:'ct'},'no research')));
       picker.append(card);
     });
   }
   {const all=PJALL, on=all.filter(x=>x.prof).length;
-   document.getElementById('pj-sub').textContent=`Top of each card: courses. Bottom: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research.`;}
+   document.getElementById('pj-sub').textContent=`Each card has three triangles. Top: courses. Middle: PhD and postdoc projects, ${on} of ${all.length} positions with a main topic on the CFQT content map. A research project is placed at C2 (Innovation) in the area of its main topic and at C1 in other areas it touches. Supervised PhD projects are only available from DTU's research portal; the other universities are counted through the five research groups, so their project triangles show only part of their research. Bottom: the research of the educators (the Educators page), each educator counted once in each area at their level there, from research output since 2021 and supervised PhD theses.`;}
 
   // ---- study level filter ----
   const lf=document.getElementById('lvl-filters');
@@ -489,7 +498,7 @@ footer a{color:var(--accent)}
 
   // ---- coverage matrix: domains folded, subdomains on demand ----
   function renderMatrix(){
-    const base=C.filter(c=>!c.project&&(projMode()||!state.levels.size||state.levels.has(c.level))), PJ=C.filter(c=>c.project);
+    const base=C.filter(c=>!c.special&&(specMode()||!state.levels.size||state.levels.has(c.level))), PJ=C.filter(c=>c.project);
     const t=document.getElementById('matrix'); t.innerHTML='';
     const cols=['ALL',...SKEYS,...INSTS,'P:ALL',...INSTS.map(i=>'P:'+i)];
     const isP=i=>i.startsWith('P:'), real=i=>isP(i)?i.slice(2):i, itemsOf=i=>isP(i)?PJ.filter(c=>inGroup(c,real(i))):base.filter(c=>inGroup(c,i));
@@ -500,7 +509,7 @@ footer a{color:var(--accent)}
       if(cs.length){b.style.background=`rgba(var(--heat),${heat(cs.length)})`; if(heat(cs.length)>.55) b.style.color='var(--bg)';
         if(s.includes('.')&&state.sub===s&&onCol(i)) b.classList.add('sel');
         if(!s.includes('.')&&!state.sub&&state.dom===s&&onCol(i)) b.classList.add('sel');
-        b.onclick=()=>{state.inst=real(i);state.cell=null; if(isP(i))state.levels=new Set(PROJ_LEVELS); else if(!state.levels.size||projMode()){PROJ_LEVELS.forEach(L=>state.levels.delete(L));courseLevels().forEach(L=>state.levels.add(L))} if(s.includes('.')){state.sub=s;state.dom=null}else{state.dom=s;state.sub=null} render(); toList()};}
+        b.onclick=()=>{state.inst=real(i);state.cell=null; if(isP(i))state.levels=new Set(PROJ_LEVELS); else if(!state.levels.size||specMode()){SPEC.forEach(L=>state.levels.delete(L));courseLevels().forEach(L=>state.levels.add(L))} if(s.includes('.')){state.sub=s;state.dom=null}else{state.dom=s;state.sub=null} render(); toList()};}
       else b.disabled=true; return b};
     DOMS.forEach(d=>{
       const dom=Q.domains[d], open=state.openDom.has(d);
