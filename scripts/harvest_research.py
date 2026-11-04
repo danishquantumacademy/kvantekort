@@ -36,7 +36,7 @@ JS_LIST = r"""() => [...document.querySelectorAll('main h3')].map(h => {
   const a = h.querySelector('a'); const y = (t.match(/\b(19|20)\d\d\b/) || [''])[0];
   const typ = ((t.match(/Research output: ([^\n]*)/) || t.match(/Forskningsoutput: ([^\n]*)/) || ['', ''])[1] || '').replace(/\s*›\s*/g, ' > ');
   return {title: h.innerText.trim(), year: y, type: typ, href: a ? a.getAttribute('href') : ''};
-}).filter(x => x.title)"""
+}).filter(x => x.title && !/^\\d{4}$/.test(x.title))"""
 
 async def goto(page, url):
     for attempt in range(3):
@@ -74,6 +74,10 @@ async def listing(page, url, stop_year=FROM):
     items, seen = [], set()
     for p in range(0, 30):
         st = await goto(page, url + (f"?page={p}" if p else ""))
+        if DEBUG: print("   status", st, page.url, await page.title(), flush=True)
+        if st >= 400 and p == 0:
+            st = await goto(page, url.rstrip("/"))
+            if DEBUG: print("   status (no slash)", st, page.url, flush=True)
         if st >= 400: break
         got = await page.evaluate(JS_LIST)
         if DEBUG: print("   ", url, p, len(got), got[:2], flush=True)
