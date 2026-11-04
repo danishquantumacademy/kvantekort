@@ -47,8 +47,11 @@ jobs:
           SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
         if: env.SITE_PASSWORD != ''
         run: |
+          # A pasted secret often ends with a space or line break; strip it so the typed password matches.
+          PW="$(printf '%s' "$SITE_PASSWORD" | tr -d '\r\n' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+          echo "Password length after trimming: ${#PW} (before: ${#SITE_PASSWORD})"
           rm -f site/data.json site/*artifact*.html
-          npx --yes staticrypt@3 site/*.html -d site -p "$SITE_PASSWORD" --short --remember 30 \
+          npx --yes staticrypt@3 site/*.html -d site -p "$PW" --short --remember 30 \
             --template-title "Danish Quantum Academy" \
             --template-instructions "This map is not public yet. Enter the password to open it." \
             --template-button "Open" --template-placeholder "Password" \
