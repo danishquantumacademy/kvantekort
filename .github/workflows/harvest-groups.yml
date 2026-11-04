@@ -20,10 +20,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/harvest_research.py --groups
+      - run: python scripts/harvest_research.py --industry
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/groups/research_outputs
+          git add -A data/groups/research_outputs data/industry
           git diff --cached --quiet || git commit -m "Research group output harvest [skip ci]"
           git pull --rebase && git push

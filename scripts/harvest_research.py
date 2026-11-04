@@ -223,7 +223,46 @@ def harvest_groups():
         with f_out.open("w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh, delimiter="\t"); w.writerow(["name", "kind", "year", "type", "title", "path"]); w.writerows(rows)
 
+def harvest_industry():
+    """Research output since FROM of the companies in data/industry/organisations.txt (those with a CVR number), from OpenAlex:
+    the matching institution record, the number of works, the Danish universities they publish with, and work titles.
+    Output: data/industry/openalex.json (companies already found are kept; the rest is tried again on the next run)."""
+    outp = ROOT / "data/industry/openalex.json"
+    data = json.loads(outp.read_text(encoding="utf-8")) if outp.exists() else {}
+    for ln in (ROOT / "data/industry/organisations.txt").read_text(encoding="utf-8").splitlines():
+        if ln.startswith("#") or not ln.strip(): continue
+        f = ln.split("|")
+        name, cvr = f[0], f[6]
+        if not cvr or name in data: continue
+        base = re.sub(r"\s*\(.*?\)|\b(ApS|A/S|P/S|Inc)\b\.?", "", name).strip()
+        try:
+            res = oa(f"https://api.openalex.org/institutions?search={urllib.parse.quote(base)}&filter=country_code:DK&per-page=10&select=id,display_name,type,works_count")
+        except RuntimeError:
+            print("OpenAlex rate limit reached; the rest is left for the next run", flush=True); break
+        cand = [r for r in res.get("results", []) if norm(r["display_name"])[:2] == norm(base)[:2] or norm(base)[0] in norm(r["display_name"])]
+        cand = [r for r in cand if r.get("type") in ("company", "facility", "nonprofit", "other", None)] or cand
+        if not cand:
+            data[name] = {"id": "", "works": 0}; print("industry", name, "no OpenAlex record", flush=True); continue
+        inst = cand[0]["id"].rsplit("/", 1)[-1]
+        try:
+            g = oa(f"https://api.openalex.org/works?filter=institutions.id:{inst},publication_year:>{FROM - 1}&group_by=authorships.institutions.lineage")
+            w = oa(f"https://api.openalex.org/works?filter=institutions.id:{inst},publication_year:>{FROM - 1}&per-page=100&select=title,publication_year,doi,id&sort=publication_year:desc")
+        except RuntimeError:
+            print("OpenAlex rate limit reached; the rest is left for the next run", flush=True); break
+        co = {}
+        for grp in g.get("group_by", []):
+            key = grp.get("key", "").rsplit("/", 1)[-1]
+            co[key] = {"name": grp.get("key_display_name", ""), "count": grp.get("count", 0)}
+        data[name] = {"id": inst, "display": cand[0]["display_name"], "works": w.get("meta", {}).get("count", 0),
+                      "co": sorted(({"id": k, **v} for k, v in co.items() if k != inst), key=lambda x: -x["count"])[:25],
+                      "titles": [[x.get("publication_year"), re.sub(r"<[^>]+>", "", x.get("title") or ""), x.get("doi") or x["id"]] for x in w.get("results", []) if x.get("title")]}
+        print("industry", name, inst, data[name]["works"], "works", flush=True)
+        outp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    outp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+
 if __name__ == "__main__":
+    if "--industry" in sys.argv:
+        harvest_industry(); sys.exit()
     if "--groups" in sys.argv:
         harvest_groups(); sys.exit()
     if os.environ.get("ONLY_MISSING"):
