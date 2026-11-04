@@ -410,7 +410,7 @@ for g in gcfg["groups"]:
                 for x in pp["rp"]["it"]:
                     k = re.sub(r"\W", "", x[3].lower())
                     if k not in seen: seen.add(k); ev.append(x[2].split(";"))
-            harvested = any(r["kind"] == "A" for r in gres.get((g["key"], name), []))
+            harvested = any(r["kind"] == "A" and r["path"].strip() != "RATE-LIMITED" for r in gres.get((g["key"], name), []))
             members[-1].update({"rl": levels_of(ev), "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
         elif f[0] == "PUBS": pubs.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "cite": f[3] if len(f) > 3 else ""})
         elif f[0] == "PROJ": projects.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "people": f[3], "period": f[4], "funder": f[5], "type": f[6] if len(f) > 6 else ""})
