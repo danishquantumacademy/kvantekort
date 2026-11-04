@@ -1,0 +1,44 @@
+# CVR data for the companies on the Danish Quantum Ecosystem Map, read from datacvr.virk.dk on 2026-11-04.
+# cvr|registered name|start date|postcode and city|industry code (DB07)|status
+36998717|Sparrow Quantum ApS|2015-08-11|2000 Frederiksberg|262000 Fremstilling af computere og ydre enheder|Normal
+43152483|Alea Quantum Technologies ApS|2022-03-25|2000 Frederiksberg|262000 Fremstilling af computere og ydre enheder|Normal
+44661632|Atom Computing Denmark ApS|2024-02-26|1202 København K|621000 Computerprogrammering|Normal
+45992012|AURORIC ApS|2025-10-28|4000 Roskilde|279000 Fremstilling af andet elektrisk udstyr|Normal
+44776030|Celare Quantum Communications ApS|2024-04-19|2000 Frederiksberg|263000 Fremstilling af kommunikationsudstyr|Normal
+44670909|ConScience ApS|2024-03-01|2100 København Ø|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+46091922|Copenhagen Microsystems ApS|2025-12-08|4000 Roskilde|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+42000507|Copenhagen Quantum ApS|2021-01-07|1200 København K|711290 Anden teknisk rådgivning|Normal
+43618563|Quantum Foundry Copenhagen A/S|2022-11-03|2200 København N|621000 Computerprogrammering|Normal
+17089005|CRYPTOMATHIC A/S|1993-07-02|8000 Aarhus C|621000 Computerprogrammering|Normal
+29217939|DANSK FUNDAMENTAL METROLOGI A/S|2005-12-29|2970 Hørsholm|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+25698908|DENCRYPT A/S|2013-12-20|2605 Brøndby|582900 Anden udgivelse af software|Normal
+44618931|DiaSense ApS|2024-02-07|2100 København Ø|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+45969371|FabCue ApS|2025-10-12|2700 Brønshøj|261100 Fremstilling af elektroniske komponenter|Normal
+55117314|FORCE Technology|1941-01-01|2605 Brøndby|712020 Teknisk afprøvning og kontrol|Aktiv
+73249414|FINN FROGNE A/S|1983-06-30|2635 Ishøj|621000 Computerprogrammering|Normal
+26759722|GLOBALCONNECT A/S|2002-08-20|2450 København SV|611000 Levering af fastnetbaseret, trådløs og satellitbaseret telekommunikation|Normal
+65305216|IBM DANMARK ApS|1949-02-18|2100 København Ø||Normal
+42958093|Kvantify ApS|2022-01-07|2100 København Ø|622000 Computerkonsulentbistand og forvaltning af computerfaciliteter|Normal
+25578198|KPMG P/S|2013-12-11|2100 København Ø|692000 Bogføring og revision; skatterådgivning|Normal
+44346974|Lizard Photonics ApS|2023-10-05|2800 Kongens Lyngby|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+45889092|Magnolia Quantum Sensing ApS|2025-09-17|2100 København Ø|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+44279304|Maybell Quantum Industries ApS|2023-08-25|2100 København Ø|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+40982620|Molecular Quantum Solutions ApS|2019-12-02|2100 København Ø|474000 Detailhandel med informations- og kommunikationsudstyr|Normal
+46315782|Monarch Quantum Europe ApS|2026-03-09|2000 Frederiksberg|262000 Fremstilling af computere og ydre enheder|Normal
+10048265|HAMAMATSU PHOTONICS A/S (formerly NKT Photonics)|2000-11-09|3460 Birkerød|267000 Fremstilling af optiske instrumenter, magnetiske og optiske medier og fotografisk udstyr|Normal
+44962675|Partisia Group ApS|2024-07-01|8200 Aarhus N|622000 Computerkonsulentbistand og forvaltning af computerfaciliteter|Normal
+46057627|Phantom Photonics ApS|2025-11-25|2200 København N|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+45956385|PsiQre ApS|2025-10-14|2100 København Ø|621000 Computerprogrammering|Normal
+44133482|QFactory ApS|2023-06-16|2200 København N|289900 Fremstilling af andre maskiner til specielle formål i.a.n.|Normal
+37786268|QM Technologies ApS|2016-05-31|2750 Ballerup|721000 Forskning og eksperimentel udvikling inden for naturvidenskab og teknik|Normal
+42991449|Qpurpose ApS|2022-01-19|5230 Odense M|622000 Computerkonsulentbistand og forvaltning af computerfaciliteter|Normal
+45874001|QuantumSong ApS|2025-09-01|1260 København K|265100 Fremstilling af instrumenter og udstyr til måling, afprøvning og navigation|Normal
+44262762|QunaSys Denmark ApS|2023-08-21|2100 København Ø|622000 Computerkonsulentbistand og forvaltning af computerfaciliteter|Normal
+45705846|QuNorth A/S|2025-06-25|2100 København Ø||Normal
+39934639|SiPhotonIC ApS|2018-10-05|2830 Virum|261100 Fremstilling af elektroniske komponenter|Normal
+40075267|TDC NET A/S|2018-12-07|2450 København SV|611000 Levering af fastnetbaseret, trådløs og satellitbaseret telekommunikation|Normal
+41881828|TERMA A/S|1949-12-01|8520 Lystrup|265100 Fremstilling af instrumenter og udstyr til måling, afprøvning og navigation|Normal
+37842222|Topsil GlobalWafers A/S|2016-07-01|3600 Frederikssund|201300 Fremstilling af andre uorganiske basiskemikalier|Normal
+45044491|Type one systems ApS|2024-08-28|2800 Kongens Lyngby|741100 Industrielt design og modedesign|Normal
+45463761|Universal Quantum ApS|2025-03-13|2100 København Ø|262000 Fremstilling af computere og ydre enheder|Normal
+36213728|Ørsted A/S|1972-03-27|7000 Fredericia|352200 Distribution af gas|Normal

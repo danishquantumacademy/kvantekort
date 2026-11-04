@@ -1,0 +1,20 @@
+name: Probe page structure
+
+# Prints the beginning of a public page as seen from GitHub Actions (to write parsers). Started by hand.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL"
+        required: true
+      grep:
+        description: "Optional pattern to show matching lines"
+        default: ""
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -sSL -A "Mozilla/5.0 (compatible; DQA-map/1.0; +https://map.danishquantumacademy.dk)" -o page.html -w "status %{http_code} size %{size_download}\n" "${{ github.event.inputs.url }}" || true
+          if [ -n "${{ github.event.inputs.grep }}" ]; then grep -o -E "${{ github.event.inputs.grep }}" page.html | head -80; else head -c 6000 page.html; fi
