@@ -1,5 +1,16 @@
 name	kind	year	type	title	path
-Mahmoud Abouamer	A				RATE-LIMITED
+Mahmoud Abouamer	A				A5054950082
+Mahmoud Abouamer	O	2022	article	Joint Uplink-Downlink Resource Allocation for Multiuser IRS-Assisted Systems	https://doi.org/10.1109/twc.2022.3188240
+Mahmoud Abouamer	O	2025	article	Prediction of Wireless Channel Statistics With Ray Tracing and Uncalibrated Digital Twin	https://doi.org/10.1109/lwc.2025.3577135
+Mahmoud Abouamer	O	2024	article	Practical Configuration of a Discrete RIS With Phase-Dependent Amplitude Response	https://doi.org/10.1109/lcomm.2024.3468872
+Mahmoud Abouamer	O	2025	article	A Hypernetwork Framework for Learning Adaptive Beamforming Schemes in RIS Systems	https://doi.org/10.1109/tcomm.2025.3600529
+Mahmoud Abouamer	O	2023	conference-paper	Flexible Resource Allocation in IRS-assisted Systems using Hypernetworks	https://doi.org/10.1109/wcnc55385.2023.10119052
+Mahmoud Abouamer	O	2026	conference-paper	Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework	https://doi.org/10.1109/infocom59046.2026.11571262
+Mahmoud Abouamer	O	2026	conference-paper	Digital Twin-Assisted Measurement Design and Channel Statistics Prediction	https://doi.org/10.1109/iccworkshops63917.2026.11586702
+Mahmoud Abouamer	O	2026	preprint	Latency-Constrained Encoded Quantum Teleportation with Punctured Codes	https://doi.org/10.48550/arxiv.2607.19770
+Mahmoud Abouamer	O	2026	preprint	Digital Twin-Aided Prescreening for User Scheduling in MU-MIMO Downlink Systems	https://doi.org/10.48550/arxiv.2608.10364
+Mahmoud Abouamer	O	2026	article	Reliable Quantum Links: Entanglement, Error Correction, and Classical Communication	https://doi.org/10.1109/ojcoms.2026.3734045
+Mahmoud Abouamer	O	2026	preprint	Digital Twin-Guided Wireless Localization via Probabilistic Inverse Learning	https://doi.org/10.48550/arxiv.2610.36905
 Suhaib Al-Rousan	A				RATE-LIMITED
 Benjamin Clausen Bennetzen	A				RATE-LIMITED
 Christophe Biscio	A				RATE-LIMITED

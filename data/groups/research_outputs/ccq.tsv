@@ -1,19 +1,211 @@
 name	kind	year	type	title	path
-Michael Drewsen	A				RATE-LIMITED
-Jan Arlt	A				RATE-LIMITED
-Georg Bruun	A				RATE-LIMITED
-Andreas Madsen Morgen	A				RATE-LIMITED
-Rasmus Malthe F. Andersen	A				RATE-LIMITED
-Laurits Nikolaj Stokholm	A				RATE-LIMITED
-Frederik Skifter Tribler	A				RATE-LIMITED
-Victor Rueskov Christiansen	A				RATE-LIMITED
-Maximilian Baron	A				RATE-LIMITED
-Søren Skovgaard Balling	A				RATE-LIMITED
-Jens Havgaard Nyhegn	A				RATE-LIMITED
-Emil Lenler-Eriksen	A				RATE-LIMITED
+Michael Drewsen	A				A5064563887
+Michael Drewsen	O	2022	article	Mediated Interaction between Ions in Quantum Degenerate Gases	https://doi.org/10.1103/physrevlett.129.153401
+Michael Drewsen	O	2026	article	Ion Coulomb crystals: An exotic form of condensed matter	https://doi.org/10.1103/tn8k-r4w8
+Michael Drewsen	O	2022	article	Unresolved sideband photon recoil spectroscopy of molecular ions	https://doi.org/10.1103/physreva.105.063709
+Michael Drewsen	O	2026	article	Rotational state changes in collisions of diatomic molecular ions with atomic ions	https://doi.org/10.1103/y3zq-t7n8
+Michael Drewsen	O	2024	article	Testing continuous spontaneous localization model with charged macromolecules	https://doi.org/10.1088/1367-2630/ad904a
+Michael Drewsen	O	2026	article	Rotational excitation in sympathetic cooling of diatomic molecular ions by laser-cooled atomic ions	https://doi.org/10.1103/7kym-lfxl
+Michael Drewsen	O	2025	article	Effects of the delocalized charge distribution in trapped ion-atom collisions	https://doi.org/10.1038/s42005-025-02381-x
+Michael Drewsen	O	2021	erratum	Erratum: Improved Isotope-Shift-Based Bounds on Bosons beyond the Standard Model through Measurements of the D3/22−D25/2 Interval in Ca+ [Phys. Rev. Lett. 125 , 123003 (2020)]	https://doi.org/10.1103/physrevlett.127.029901
+Michael Drewsen	O	2023	conference-paper	Search for bosons beyond the standard model through precise isotope shift measurements in single positively charged calcium ions	https://doi.org/10.1117/12.2657388
+Michael Drewsen	O	2025	conference-abstract	Towards Doppler laser cooling of trapped Ba+ ions to near the ground state	https://doi.org/10.1117/12.3053454
+Michael Drewsen	O	2026	conference-paper	Optically double-dressed state generation with Ba+ ions	https://doi.org/10.1117/12.3089884
+Michael Drewsen	O	2026	article	Rotational excitation in sympathetic cooling of diatomic molecular ions by laser-cooled atomic ions	https://doi.org/10.17170/kobra-2026082512363
+Jan Arlt	A				A5031787392 A5134796011 A5160024957
+Jan Arlt	O	2021	article	Observation of a Lee-Huang-Yang Fluid	https://doi.org/10.1103/physrevlett.126.230404
+Jan Arlt	O	2022	review	Cold atoms in space: community workshop summary and proposed road-map	https://doi.org/10.1140/epjqt/s40507-022-00147-w
+Jan Arlt	O	2021	article	Observation of Microcanonical Atom Number Fluctuations in a Bose-Einstein Condensate	https://doi.org/10.1103/physrevlett.126.153601
+Jan Arlt	O	2022	article	Life and death of the Bose polaron	https://doi.org/10.1103/physrevresearch.4.043093
+Jan Arlt	O	2022	article	Mediated Interaction between Ions in Quantum Degenerate Gases	https://doi.org/10.1103/physrevlett.129.153401
+Jan Arlt	O	2026	article	Polarons in atomic gases and two-dimensional semiconductors	https://doi.org/10.1103/4nng-bb9z
+Jan Arlt	O	2021	article	Initial Dynamics of Quantum Impurities in a Bose–Einstein Condensate	https://doi.org/10.3390/atoms9020022
+Jan Arlt	O	2021	article	Remote multi-user control of the production of Bose–Einstein condensates	https://doi.org/10.1007/s00340-021-07671-0
+Jan Arlt	O	2025	article	Quantum beat spectroscopy of repulsive Bose polarons	https://doi.org/10.1103/physrevresearch.7.l022002
+Jan Arlt	O	2024	article	Spatial calibration of high-density absorption imaging	https://doi.org/10.1088/1361-6455/ad53ae
+Jan Arlt	O	2025	review	On the fluctuations of the number of atoms in the condensate	https://doi.org/10.1088/1361-6633/ae0e33
+Jan Arlt	O	2023	article	Microcanonical and canonical fluctuations in atomic Bose-Einstein condensates – Fock state sampling approach	https://doi.org/10.21468/scipostphys.14.3.036
+Jan Arlt	O	2022	article	Cold atoms in space: community workshop summary and proposed road-map	https://doi.org/10.1140/epjqt/s40507-022-00147-w
+Jan Arlt	O	2023	article	Fock State Sampling Method - Characteristic Temperature of Maximal Fluctuations for Interacting Bosons in Box Potentials	https://doi.org/10.12693/aphyspola.143.s171
+Jan Arlt	O	2026	preprint	Observation of low-lying impurity states in Bose-Einstein condensates	https://doi.org/10.48550/arxiv.2604.18033
+Jan Arlt	O	2026	article	Cloud parameter estimation for interacting BEC after time-of-flight	https://doi.org/10.1088/1361-6455/ae637b
+Jan Arlt	O	2026	article	Scissors modes in generalized Gross–Pitaevskii equations	https://doi.org/10.1063/10.0044824
+Jan Arlt	O	2026	preprint	Ensemble-dependent condensate statistics and correlations in an ideal Bose gas	https://doi.org/10.48550/arxiv.2610.36118
+Georg Bruun	A				A5046162654
+Georg Bruun	O	2023	article	Mediated interactions between Fermi polarons and the role of impurity quantum statistics	https://doi.org/10.1038/s41567-023-02248-4
+Georg Bruun	O	2021	article	Quantum Geometry and Flat Band Bose-Einstein Condensation	https://doi.org/10.1103/physrevlett.127.170404
+Georg Bruun	O	2024	article	Interactions mediated by atoms, photons, electrons, and excitons	https://doi.org/10.1103/physreva.110.030101
+Georg Bruun	O	2021	article	Mobile impurity in a Bose-Einstein condensate and the orthogonality catastrophe	https://doi.org/10.1103/physreva.103.013317
+Georg Bruun	O	2021	article	Stability and breakdown of Fermi polarons in a strongly interacting Fermi-Bose mixture	https://doi.org/10.1103/physreva.103.053314
+Georg Bruun	O	2021	article	Charged Polarons and Molecules in a Bose-Einstein Condensate	https://doi.org/10.1103/physrevlett.126.243001
+Georg Bruun	O	2021	article	Attractive and Repulsive Exciton-Polariton Interactions Mediated by an Electron Gas	https://doi.org/10.1103/physrevlett.126.127405
+Georg Bruun	O	2021	article	Mediated Interactions and Photon Bound States in an Exciton-Polariton Mixture	https://doi.org/10.1103/physrevlett.126.017401
+Georg Bruun	O	2021	article	Excitations of a Bose-Einstein condensate and the quantum geometry of a flat band	https://doi.org/10.1103/physrevb.104.144507
+Georg Bruun	O	2022	article	Life and death of the Bose polaron	https://doi.org/10.1103/physrevresearch.4.043093
+Georg Bruun	O	2023	article	Polarons and bipolarons in a two-dimensional square lattice	https://doi.org/10.21468/scipostphys.14.6.143
+Georg Bruun	O	2021	article	Spatial structure of magnetic polarons in strongly interacting antiferromagnets	https://doi.org/10.1103/physrevb.104.155136
+Georg Bruun	O	2022	article	Nonequilibrium Hole Dynamics in Antiferromagnets: Damped Strings and Polarons	https://doi.org/10.1103/physrevlett.129.246601
+Georg Bruun	O	2022	article	Mediated Interaction between Ions in Quantum Degenerate Gases	https://doi.org/10.1103/physrevlett.129.153401
+Georg Bruun	O	2021	article	Topological transport of mobile impurities	https://doi.org/10.1103/physrevb.103.245106
+Georg Bruun	O	2024	article	Strongly Interacting Bose-Fermi Mixtures: Mediated Interaction, Phase Diagram, and Sound Propagation	https://doi.org/10.1103/physrevlett.132.033401
+Georg Bruun	O	2022	article	Holes and magnetic polarons in a triangular lattice antiferromagnet	https://doi.org/10.1103/physrevb.106.235143
+Georg Bruun	O	2026	article	Polarons in atomic gases and two-dimensional semiconductors	https://doi.org/10.1103/4nng-bb9z
+Georg Bruun	O	2022	article	Light-induced topological superconductivity in transition metal dichalcogenide monolayers	https://doi.org/10.1103/physrevb.106.134510
+Georg Bruun	O	2024	article	Microscopic theory of polariton-polariton interactions	https://doi.org/10.1103/physrevb.110.195435
+Georg Bruun	O	2022	article	Mobile impurity probing a two-dimensional superfluid phase transition	https://doi.org/10.1103/physreva.105.063303
+Georg Bruun	O	2025	article	Chiral polaron formation on the edge of topological quantum matter	https://doi.org/10.1038/s41467-025-60166-w
+Georg Bruun	O	2022	article	Strong photon interactions from weakly interacting particles	https://doi.org/10.1103/physrevb.106.l081302
+Georg Bruun	O	2025	article	Quantum beat spectroscopy of repulsive Bose polarons	https://doi.org/10.1103/physrevresearch.7.l022002
+Georg Bruun	O	2024	article	Green's function approach to interacting lattice polaritons and optical nonlinearities in subwavelength arrays of quantum emitters	https://doi.org/10.1103/physrevresearch.6.043264
+Georg Bruun	O	2024	article	Exciton interacting with a moiré lattice: Polarons, strings, and optical probing of spin correlations	https://doi.org/10.1103/physrevresearch.6.033119
+Georg Bruun	O	2025	article	Lattice Bose polarons at strong coupling and quantum criticality	https://doi.org/10.21468/scipostphys.19.1.002
+Georg Bruun	O	2025	article	Dual Spectroscopy of Quantum Simulated Fermi-Hubbard Systems	https://doi.org/10.1103/yfqr-y9ks
+Georg Bruun	O	2025	article	Spin-Charge Bound States and Emerging Fermions in a Quantum Spin Liquid	https://doi.org/10.1103/w23h-dhrk
+Georg Bruun	O	2021	article	Nonlinear optical response of resonantly driven polaron-polaritons	https://doi.org/10.1103/physrevb.104.l161301
+Georg Bruun	O	2022	article	Mobile ion in a Fermi sea	https://doi.org/10.1103/physreva.105.023309
+Georg Bruun	O	2022	article	Equilibrium and nonequilibrium dynamics of a hole in a bilayer antiferromagnet	https://doi.org/10.1103/physrevb.106.155160
+Georg Bruun	O	2023	article	Wave function and spatial structure of polarons in an antiferromagnetic bilayer	https://doi.org/10.1103/physrevb.108.075141
+Georg Bruun	O	2025	article	Probing a quantum spin liquid with equilibrium and nonequilibrium hole dynamics	https://doi.org/10.1103/physrevb.111.035142
+Georg Bruun	O	2026	article	Exciton interacting with the phonons of an electronic Wigner crystal	https://doi.org/10.1103/f8k3-1vdl
+Georg Bruun	O	2021	preprint	Bose-Einstein condensation of exciton polaron-polaritons	https://openalex.org/W3147885078
+Georg Bruun	O	2021	dataset	"Data for ""Excitation Spectrum and Superfluid Gap of an Ultracold Fermi Gas"""	https://doi.org/10.5281/zenodo.5180344
+Georg Bruun	O	2023	dataset	Mediated interactions between Fermi polarons and the role of impurity quantum statistics	https://doi.org/10.6084/m9.figshare.23633919
+Georg Bruun	O	2021	article	Polaron-polariton interactions mediated by an electron gas	https://openalex.org/W3157434631
+Georg Bruun	O	2023	erratum	Erratum: Excitations of a Bose-Einstein condensate and the quantum geometry of a flat band [Phys. Rev. B 104 , 144507 (2021)]	https://doi.org/10.1103/physrevb.107.019901
+Georg Bruun	O	2024	article	Biss et al. Reply:	https://doi.org/10.1103/physrevlett.133.109302
+Georg Bruun	O	2026	article	Few is different: deciphering many-body dynamics in mesoscopic quantum gases	https://doi.org/10.1140/epja/s10050-026-01843-2
+Georg Bruun	O	2026	article	Phenomenological model of decaying Bose polarons	https://doi.org/10.1103/16dk-5dgx
+Georg Bruun	O	2026	article	Spatially resolved probing of spin density correlations with trapped excitons	https://doi.org/10.1103/g1yt-hhxl
+Georg Bruun	O	2026	preprint	Hole and spin dynamics in an anti-ferromagnet close to half filling	https://doi.org/10.48550/arxiv.2604.14039
+Georg Bruun	O	2026	preprint	Observation of low-lying impurity states in Bose-Einstein condensates	https://doi.org/10.48550/arxiv.2604.18033
+Georg Bruun	O	2026	preprint	Scale invariance of the polaron energy at the Mott-superfluid critical point	https://doi.org/10.48550/arxiv.2604.17824
+Georg Bruun	O	2026	dataset	The moving Fermi polaron	https://doi.org/10.48323/jxn3n-m8w76
+Georg Bruun	O	2026	preprint	The moving Fermi polaron	https://doi.org/10.48550/arxiv.2606.21567
+Georg Bruun	O	2026	preprint	Fermionic pairs, from the surface to the bulk	https://doi.org/10.48550/arxiv.2607.20412
+Georg Bruun	O	2026	preprint	Structure and Dynamics of Bose Polarons across the Mott-Insulator to Superfluid Transition	https://doi.org/10.48550/arxiv.2609.35696
+Andreas Madsen Morgen	A				A5000897248
+Andreas Madsen Morgen	O	2022	article	Life and death of the Bose polaron	https://doi.org/10.1103/physrevresearch.4.043093
+Andreas Madsen Morgen	O	2025	article	Quantum beat spectroscopy of repulsive Bose polarons	https://doi.org/10.1103/physrevresearch.7.l022002
+Andreas Madsen Morgen	O	2026	preprint	Observation of low-lying impurity states in Bose-Einstein condensates	https://doi.org/10.48550/arxiv.2604.18033
+Rasmus Malthe F. Andersen	A				A5104264727
+Rasmus Malthe F. Andersen	O	2024	article	Atom number fluctuations in Bose gases—statistical analysis of parameter estimation	https://doi.org/10.1088/1361-6455/ad7458
+Rasmus Malthe F. Andersen	O	2025	dissertation	Spectrally Probing Ultra-Cold Bosonic Clouds’	https://openalex.org/W7125574336
+Rasmus Malthe F. Andersen	O	2026	article	Cloud parameter estimation for interacting BEC after time-of-flight	https://doi.org/10.1088/1361-6455/ae637b
+Laurits Nikolaj Stokholm	A				A5093917406
+Laurits Nikolaj Stokholm	O	2024	article	Spatial calibration of high-density absorption imaging	https://doi.org/10.1088/1361-6455/ad53ae
+Laurits Nikolaj Stokholm	O	2024	article	Atom number fluctuations in Bose gases—statistical analysis of parameter estimation	https://doi.org/10.1088/1361-6455/ad7458
+Laurits Nikolaj Stokholm	O	2026	article	Cloud parameter estimation for interacting BEC after time-of-flight	https://doi.org/10.1088/1361-6455/ae637b
+Laurits Nikolaj Stokholm	O	2026	preprint	Quantum-enabled complete RF-polarimetry with an optically-wired atomic sensor	https://doi.org/10.48550/arxiv.2605.14529
+Laurits Nikolaj Stokholm	O	2026	dissertation	Real-Time Quantum Sensing in Rubidium’	https://openalex.org/W7163305319
+Laurits Nikolaj Stokholm	O	2026	article	Optical spectroscopy of Bose-Einstein condensates at finite temperature	https://doi.org/10.1103/t5zd-3qd4
+Frederik Skifter Tribler	A				
+Victor Rueskov Christiansen	A				A5040189317
+Victor Rueskov Christiansen	O	2024	article	Subtraction and Addition of Propagating Photons by Two-Level Emitters	https://doi.org/10.1103/physrevlett.133.103601
+Victor Rueskov Christiansen	O	2023	article	Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective	https://doi.org/10.1103/physreva.107.013706
+Victor Rueskov Christiansen	O	2024	article	Jaynes-Cummings interaction with a traveling light pulse	https://doi.org/10.1364/josab.523292
+Victor Rueskov Christiansen	O	2024	article	Parametric amplification of a quantum pulse	https://doi.org/10.1103/physreva.110.053712
+Victor Rueskov Christiansen	O	2025	article	Interactions in quantum networks with pulse propagation delays	https://doi.org/10.1103/3f3w-jmj8
+Victor Rueskov Christiansen	O	2026	article	High fidelity photon-photon gates by scattering off a two-level quantum emitter	https://doi.org/10.1103/szts-rbjy
+Victor Rueskov Christiansen	O	2023	conference-paper	Parametric amplification of a quantum pulse	https://doi.org/10.1364/fio.2023.jtu5a.82
+Victor Rueskov Christiansen	O	2026	article	Phase-space open-system dynamics of second-order nonlinear interactions with pulsed quantum light	https://doi.org/10.1103/hjxr-f4kz
+Victor Rueskov Christiansen	O	2026	dissertation	Composing Photons in Time:Multimode Nonlinear Interactions in Quantum Networks with Temporal Pulses of Light	https://openalex.org/W7172364761
+Victor Rueskov Christiansen	O	2026	article	Efficient description of parametric amplification of quantum pulses	https://doi.org/10.1103/lm14-kzlg
+Maximilian Baron	A				
+Søren Skovgaard Balling	A				
+Jens Havgaard Nyhegn	A				A5023054424
+Jens Havgaard Nyhegn	O	2021	article	ZN lattice gauge theory in a ladder geometry	https://doi.org/10.1103/physrevresearch.3.013133
+Jens Havgaard Nyhegn	O	2025	article	Spin-Charge Bound States and Emerging Fermions in a Quantum Spin Liquid	https://doi.org/10.1103/w23h-dhrk
+Jens Havgaard Nyhegn	O	2022	article	Equilibrium and nonequilibrium dynamics of a hole in a bilayer antiferromagnet	https://doi.org/10.1103/physrevb.106.155160
+Jens Havgaard Nyhegn	O	2023	article	Wave function and spatial structure of polarons in an antiferromagnetic bilayer	https://doi.org/10.1103/physrevb.108.075141
+Jens Havgaard Nyhegn	O	2025	article	Probing a quantum spin liquid with equilibrium and nonequilibrium hole dynamics	https://doi.org/10.1103/physrevb.111.035142
+Jens Havgaard Nyhegn	O	2026	article	Exciton interacting with the phonons of an electronic Wigner crystal	https://doi.org/10.1103/f8k3-1vdl
+Jens Havgaard Nyhegn	O	2026	preprint	Hole and spin dynamics in an anti-ferromagnet close to half filling	https://doi.org/10.48550/arxiv.2604.14039
+Emil Lenler-Eriksen	A				A5093356374
+Emil Lenler-Eriksen	O	2024	article	Testing continuous spontaneous localization model with charged macromolecules	https://doi.org/10.1088/1367-2630/ad904a
 Mai Korsbæk	-				skipped: Technical and administrative staff
 Adam Simon Chatterley	-				skipped: Technical and administrative staff
 Brigitte Christina Henderson	-				skipped: Technical and administrative staff
-Archak Purkayastha	A				RATE-LIMITED
-Juan Sánchez Baena	A				RATE-LIMITED
-Klaus Mølmer	A				RATE-LIMITED
+Archak Purkayastha	A				A5069398884
+Archak Purkayastha	O	2022	article	Fundamental limitations in Lindblad descriptions of systems weakly coupled to baths	https://doi.org/10.1103/physreva.105.032208
+Archak Purkayastha	O	2025	article	Non-Markovian Quantum Mpemba Effect	https://doi.org/10.1103/physrevlett.134.220403
+Archak Purkayastha	O	2021	article	Periodically refreshed baths to simulate open quantum many-body dynamics	https://doi.org/10.1103/physrevb.104.045417
+Archak Purkayastha	O	2022	article	Lyapunov equation in open quantum systems and non-Hermitian physics	https://doi.org/10.1103/physreva.105.062204
+Archak Purkayastha	O	2022	article	Taking the temperature of a pure quantum state	https://doi.org/10.1103/physreva.105.l030201
+Archak Purkayastha	O	2023	article	Quantum thermodynamics with fast driving and strong coupling via the mesoscopic leads approach	https://doi.org/10.1103/physrevb.107.195117
+Archak Purkayastha	O	2023	article	Searching for Lindbladians obeying local conservation laws and showing thermalization	https://doi.org/10.1103/physreva.107.062216
+Archak Purkayastha	O	2021	article	Quantum dynamics in the interacting Fibonacci chain	https://doi.org/10.1103/physrevb.103.184205
+Archak Purkayastha	O	2021	article	Subdiffusive Phases in Open Clean Long-Range Systems	https://doi.org/10.1103/physrevlett.127.240601
+Archak Purkayastha	O	2023	article	Universal Subdiffusive Behavior at Band Edges from Transfer Matrix Exceptional Points	https://doi.org/10.1103/physrevlett.130.187101
+Archak Purkayastha	O	2022	article	Dephasing-enhanced performance in quasiperiodic thermal machines	https://doi.org/10.1103/physrevb.105.134203
+Archak Purkayastha	O	2023	article	Particle current statistics in driven mesoscale conductors	https://doi.org/10.1103/physrevb.108.l081119
+Archak Purkayastha	O	2022	article	Time periodicity from randomness in quantum systems	https://doi.org/10.1103/physreva.106.022209
+Archak Purkayastha	O	2023	article	Accumulative reservoir construction: Bridging continuously relaxed and periodically refreshed extended reservoirs	https://doi.org/10.1103/physrevb.107.035150
+Archak Purkayastha	O	2024	article	Extracting dynamical maps of non-Markovian open quantum systems	https://doi.org/10.1063/5.0228428
+Archak Purkayastha	O	2022	article	Periodically refreshed quantum thermal machines	https://doi.org/10.22331/q-2022-09-08-801
+Archak Purkayastha	O	2023	article	Environment assisted superballistic scaling of conductance	https://doi.org/10.1103/physrevb.108.l161115
+Archak Purkayastha	O	2024	article	Interaction-induced transition in quantum many-body detection probability	https://doi.org/10.1103/physreva.109.l020202
+Archak Purkayastha	O	2025	article	Arbitrary order transfer matrix exceptional points and Van Hove singularities	https://doi.org/10.1103/physrevb.111.l041405
+Archak Purkayastha	O	2023	article	Quantum correlations in dissipative gain–loss systems across exceptional points	https://doi.org/10.1140/epjs/s11734-023-00835-3
+Archak Purkayastha	O	2025	article	Effect of order of transfer matrix exceptional points on transport at band edges	https://doi.org/10.1103/physrevb.111.125412
+Archak Purkayastha	O	2025	article	On the difference between thermalization in open and isolated quantum systems: A case study	https://doi.org/10.21468/scipostphys.19.5.136
+Archak Purkayastha	O	2026	article	Quantum Non-Markovian Hatano-Nelson Model	https://doi.org/10.1103/wsvz-mstf
+Archak Purkayastha	O	2023	article	Nonclassical radiation from a nonlinear oscillator driven solely by classical 1/f noise	https://doi.org/10.1103/physreva.108.053704
+Archak Purkayastha	O	2021	article	Tensor-Network Method to Simulate Strongly Interacting Quantum Thermal Machines	https://openalex.org/W3160015706
+Archak Purkayastha	O	2025	article	non-Markovian Quantum Mpemba in Jaynes Cummings Model	https://doi.org/10.13140/rg.2.2.10530.70082
+Archak Purkayastha	O	2026	article	Semidefinite programming for understanding the limitations of Lindblad equations	https://doi.org/10.1103/jyck-mvlg
+Juan Sánchez Baena	A				A5020164008
+Juan Sánchez Baena	O	2023	article	Heating a dipolar quantum fluid into a solid	https://doi.org/10.1038/s41467-023-37207-3
+Juan Sánchez Baena	O	2025	article	Dipolar Droplets of Strongly Interacting Molecules	https://doi.org/10.1103/physrevlett.134.053001
+Juan Sánchez Baena	O	2024	article	Superfluid-supersolid phase transition of elongated dipolar Bose-Einstein condensates at finite temperatures	https://doi.org/10.1103/physrevresearch.6.023183
+Juan Sánchez Baena	O	2024	article	Universal properties of dipolar Bose polarons in two dimensions	https://doi.org/10.1103/physreva.110.023317
+Juan Sánchez Baena	O	2025	article	Accessing elusive two-dimensional phases of dipolar Bose-Einstein condensates by finite temperature	https://doi.org/10.1103/physrevresearch.7.023019
+Juan Sánchez Baena	O	2024	article	Ring solids and supersolids in spherical shell-shaped dipolar Bose-Einstein condensates	https://doi.org/10.1103/physrevresearch.6.033116
+Juan Sánchez Baena	O	2025	article	Thermal behavior of Bose-Einstein condensates of polar molecules	https://doi.org/10.1103/9sbg-6qqw
+Juan Sánchez Baena	O	2025	article	Creating and Melting a Supersolid by Heating a Quantum Dipolar System	https://doi.org/10.1103/nkm3-1725
+Juan Sánchez Baena	O	2021	article	Finite-range effects in the two-dimensional repulsive Fermi polaron	https://doi.org/10.1103/physreva.103.l041302
+Juan Sánchez Baena	O	2022	article	Universal Properties of Anisotropic Dipolar Bosons in Two Dimensions	https://doi.org/10.21468/scipostphys.13.2.031
+Juan Sánchez Baena	O	2025	preprint	Observation of a supersolid stripe state in two-dimensional dipolar gases	https://doi.org/10.48550/arxiv.2512.13280
+Juan Sánchez Baena	O	2023	conference-paper	Driving the Superfluid-Supersolid Phase-Transition by Heating	https://doi.org/10.1109/cleo/europe-eqec57999.2023.10232258
+Juan Sánchez Baena	O	2026	article	Quasi-two-dimensional trapped tilted dipoles at zero and finite temperatures in the strongly dipolar regime	https://doi.org/10.1103/xbdg-r5g3
+Juan Sánchez Baena	O	2026	preprint	Quantum antidipolar systems in two-dimensional geometries	https://doi.org/10.48550/arxiv.2609.01137
+Juan Sánchez Baena	O	2026	preprint	Finite-temperature phase diagram of dipolar bosons in a cylindrical setup	https://doi.org/10.48550/arxiv.2610.23687
+Klaus Mølmer	A				A5113628834 A5121069202
+Klaus Mølmer	O	2022	article	Enhanced metrology at the critical point of a many-body Rydberg atomic system	https://doi.org/10.1038/s41567-022-01777-8
+Klaus Mølmer	O	2024	article	Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays	https://doi.org/10.1103/physrevx.14.011025
+Klaus Mølmer	O	2022	article	Cavity Quantum Electrodynamics Effects with Nitrogen Vacancy Center Spins Coupled to Room Temperature Microwave Resonators	https://doi.org/10.1103/physrevlett.128.253601
+Klaus Mølmer	O	2022	article	Photon-photon interactions in Rydberg-atom arrays	https://doi.org/10.22331/q-2022-03-30-674
+Klaus Mølmer	O	2021	article	Crowdsourcing human common sense for quantum control	https://doi.org/10.1103/physrevresearch.3.013057
+Klaus Mølmer	O	2022	article	Deterministic Photon Sorting in Waveguide QED Systems	https://doi.org/10.1103/physrevlett.128.213603
+Klaus Mølmer	O	2022	article	Manipulating synthetic gauge fluxes via multicolor dressing of Rydberg-atom arrays	https://doi.org/10.1103/physrevresearch.4.l032046
+Klaus Mølmer	O	2021	article	Ultranarrow Superradiant Lasing by Dark Atom-Photon Dressed States	https://doi.org/10.1103/physrevlett.126.123602
+Klaus Mølmer	O	2021	article	A superradiant maser with nitrogen-vacancy center spins	https://doi.org/10.1007/s11433-021-1780-6
+Klaus Mølmer	O	2022	article	Random-Access Quantum Memory Using Chirped Pulse Phase Encoding	https://doi.org/10.1103/physrevx.12.041014
+Klaus Mølmer	O	2025	article	Probing Hilbert space fragmentation with strongly interacting Rydberg atoms	https://doi.org/10.1103/physrevb.111.144313
+Klaus Mølmer	O	2022	article	Microwave mode cooling and cavity quantum electrodynamics effects at room temperature with optically cooled nitrogen-vacancy center spins	https://doi.org/10.1038/s41534-022-00642-z
+Klaus Mølmer	O	2024	article	Subtraction and Addition of Propagating Photons by Two-Level Emitters	https://doi.org/10.1103/physrevlett.133.103601
+Klaus Mølmer	O	2022	article	Measuring out-of-time-ordered correlation functions without reversing time evolution	https://doi.org/10.1103/physreva.106.042429
+Klaus Mølmer	O	2021	article	Time-dependent atomic magnetometry with a recurrent neural network	https://doi.org/10.1103/physreva.103.032406
+Klaus Mølmer	O	2021	article	Radiation eigenmodes of Dicke superradiance	https://doi.org/10.1103/physreva.103.033713
+Klaus Mølmer	O	2022	article	Active Frequency Measurement on Superradiant Strontium Clock Transitions	https://doi.org/10.1103/physrevlett.128.013604
+Klaus Mølmer	O	2023	article	Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective	https://doi.org/10.1103/physreva.107.013706
+Klaus Mølmer	O	2023	article	Multimode character of quantum states released from a superconducting cavity	https://doi.org/10.1103/physrevresearch.5.043071
+Klaus Mølmer	O	2021	article	Scattering of Matter Wave Solitons on Localized Potentials	https://doi.org/10.3390/app11052294
+Klaus Mølmer	O	2021	article	Guessing the outcome of separate and joint quantum measurements of noncommuting observables	https://doi.org/10.1103/physreva.104.022204
+Klaus Mølmer	O	2022	article	Free-Fermion Multiply Excited Eigenstates and Their Experimental Signatures in 1D Arrays of Two-Level Atoms	https://doi.org/10.1103/physrevlett.128.093602
+Klaus Mølmer	O	2021	article	Quantum estimation of a time-dependent perturbation	https://doi.org/10.1103/physreva.104.052621
+Klaus Mølmer	O	2023	article	Perfect splitting of a two-photon pulse	https://doi.org/10.1103/physreva.107.023715
+Klaus Mølmer	O	2021	article	Ancilla-mediated qubit readout and heralded entanglement between rare-earth dopant ions in crystals	https://doi.org/10.1103/physreva.103.043705
+Klaus Mølmer	O	2022	article	Quantum Nondemolition Measurements of Moving Target States	https://doi.org/10.1103/physrevlett.129.120402
+Klaus Mølmer	O	2024	article	Jaynes-Cummings interaction with a traveling light pulse	https://doi.org/10.1364/josab.523292
+Klaus Mølmer	O	2024	article	Parametric amplification of a quantum pulse	https://doi.org/10.1103/physreva.110.053712
+Klaus Mølmer	O	2021	article	Collective emission of photons from dense, dipole-dipole interacting atomic ensembles	https://doi.org/10.1103/physreva.103.023703
+Klaus Mølmer	O	2022	article	Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic preparation of spatially ordered states of Rydberg excitations	https://doi.org/10.1103/physreva.106.063302
+Klaus Mølmer	O	2022	article	Single-shot determination of quantum phases via continuous measurements	https://doi.org/10.1103/physreva.106.032215
+Klaus Mølmer	O	2022	article	Gaussian theory for estimating fluctuating perturbations with backaction-evading oscillator variables	https://doi.org/10.1103/physreva.106.022613
+Klaus Mølmer	O	2025	article	Interactions in quantum networks with pulse propagation delays	https://doi.org/10.1103/3f3w-jmj8
+Klaus Mølmer	O	2023	article	Nonclassical radiation from a nonlinear oscillator driven solely by classical 1/f noise	https://doi.org/10.1103/physreva.108.053704
+Klaus Mølmer	O	2021	conference-paper	Spin-squeezing by prediction and retrodiction measurements: beyond the Heisenberg uncertainty relation	https://doi.org/10.1117/12.2586729
+Klaus Mølmer	O	2021	other	More speed out of the quantum gate	https://doi.org/10.1038/s41567-021-01195-2
+Klaus Mølmer	O	2022	conference-paper	Rydberg atoms in the vicinity of an optical nanofiber	https://doi.org/10.1051/epjconf/202226611013
+Klaus Mølmer	O	2023	conference-paper	Parametric amplification of a quantum pulse	https://doi.org/10.1364/fio.2023.jtu5a.82
+Klaus Mølmer	O	2021	article	Kvantemekanikkens fortolkninger	https://doi.org/10.7146/kvant.168236

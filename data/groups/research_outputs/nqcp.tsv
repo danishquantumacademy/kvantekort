@@ -59,64 +59,256 @@ Josu Gomez Beldarrain	A
 Laura Gomez Fernandez	A				
 David Ahmad Rivas Góngora	A				
 Ben Graham	A				
-Kasper Grove-Rasmussen	A				RATE-LIMITED
-Emil Grovn	A				RATE-LIMITED
-Sebastiano Guaraldo	A				RATE-LIMITED
-Jacob Hastrup	A				RATE-LIMITED
-Philip Holm	A				RATE-LIMITED
-Wei-Che Hsu	A				RATE-LIMITED
-Mohammad Elsayed Khalifa Hussein	A				RATE-LIMITED
-Laurits Moestrup Høgel	A				RATE-LIMITED
-Victoria Bøje Inselmann	A				RATE-LIMITED
-Fabian Depenau Bjørnholt Jacobsen	A				RATE-LIMITED
-Peter Krogstrup Jeppesen	A				RATE-LIMITED
-Benjamin Joecker	A				RATE-LIMITED
-Maria Gabriela Jordão Oliveira	A				RATE-LIMITED
-Mikkel Weis Kallesøe	A				RATE-LIMITED
-Chen Klein	A				RATE-LIMITED
-Shingo Kono	A				RATE-LIMITED
+Kasper Grove-Rasmussen	A				A5066764266
+Kasper Grove-Rasmussen	O	2021	article	Epitaxial Pb on InAs nanowires for quantum devices	https://doi.org/10.1038/s41565-021-00900-9
+Kasper Grove-Rasmussen	O	2022	article	Twist-angle two-dimensional superlattices and their application in (opto)electronics	https://doi.org/10.1088/1674-4926/43/1/011001
+Kasper Grove-Rasmussen	O	2022	article	Excitations in a superconducting Coulombic energy gap	https://doi.org/10.1038/s41467-022-29634-5
+Kasper Grove-Rasmussen	O	2024	article	Correlation between two distant quasiparticles in separate superconducting islands mediated by a single spin	https://doi.org/10.1038/s41467-024-47694-7
+Kasper Grove-Rasmussen	O	2021	article	Asymmetric Little–Parks oscillations in full shell double nanowires	https://doi.org/10.1038/s41598-021-97780-9
+Kasper Grove-Rasmussen	O	2022	article	Direct transport between superconducting subgap states in a double quantum dot	https://doi.org/10.1103/physrevb.105.l161302
+Kasper Grove-Rasmussen	O	2024	article	Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires	https://doi.org/10.1021/acs.nanolett.4c02055
+Kasper Grove-Rasmussen	O	2022	article	Electronic Transport in Double-Nanowire Superconducting Islands with Multiple Terminals	https://doi.org/10.1021/acs.nanolett.2c01161
+Kasper Grove-Rasmussen	O	2022	article	Scalable Platform for Nanocrystal‐Based Quantum Electronics	https://doi.org/10.1002/adfm.202112941
+Kasper Grove-Rasmussen	O	2023	article	Richardson model with complex level structure and spin-orbit coupling for hybrid superconducting islands: Stepwise suppression of pairing and magnetic pinning	https://doi.org/10.1103/physrevb.108.224507
+Kasper Grove-Rasmussen	O	2021	article	Double Nanowires for Hybrid Quantum Devices	https://doi.org/10.1002/adfm.202107926
+Kasper Grove-Rasmussen	O	2022	article	Spatial control of the conductivity in SrTiO 3 -based heterointerfaces using inkjet printing	https://doi.org/10.1088/2515-7655/ac9084
+Kasper Grove-Rasmussen	O	2022	article	Scale-Dependent Optimized Homoepitaxy of InAs(111)A	https://doi.org/10.1021/acs.cgd.2c00582
+Kasper Grove-Rasmussen	O	2021	preprint	Bias asymmetric subgap states mimicking Majorana signatures	https://openalex.org/W3125304103
+Kasper Grove-Rasmussen	O	2021	preprint	Coulombic subgap states	https://openalex.org/W3171432372
+Kasper Grove-Rasmussen	O	2026	preprint	Magnetic texture modulated superconductivity in superconductor/ferromagnet shells of semiconductor nanowires	https://doi.org/10.48550/arxiv.2601.22051
+Emil Grovn	A				
+Sebastiano Guaraldo	A				
+Jacob Hastrup	A				A5001228377
+Jacob Hastrup	O	2025	article	Scaling and networking a modular photonic quantum computer	https://doi.org/10.1038/s41586-024-08406-9
+Jacob Hastrup	O	2025	article	Integrated photonic source of Gottesman–Kitaev–Preskill qubits	https://doi.org/10.1038/s41586-025-09044-5
+Jacob Hastrup	O	2022	article	Protocol for Generating Optical Gottesman-Kitaev-Preskill States with Cavity QED	https://doi.org/10.1103/physrevlett.128.170503
+Jacob Hastrup	O	2021	article	Measurement-free preparation of grid states	https://doi.org/10.1038/s41534-020-00353-3
+Jacob Hastrup	O	2022	article	All-optical cat-code quantum error correction	https://doi.org/10.1103/physrevresearch.4.043065
+Jacob Hastrup	O	2021	article	Unsuitability of cubic phase gates for non-Clifford operations on Gottesman-Kitaev-Preskill states	https://doi.org/10.1103/physreva.103.032409
+Jacob Hastrup	O	2026	article	Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits	https://doi.org/10.1103/gk1b-stl3
+Jacob Hastrup	O	2021	article	Unconditional Preparation of Squeezed Vacuum from Rabi Interactions	https://doi.org/10.1103/physrevlett.126.153602
+Jacob Hastrup	O	2021	article	Improved readout of qubit-coupled Gottesman–Kitaev–Preskill states	https://doi.org/10.1088/2058-9565/ac070d
+Jacob Hastrup	O	2023	article	Analysis of loss correction with the Gottesman-Kitaev-Preskill code	https://doi.org/10.1103/physreva.108.052413
+Jacob Hastrup	O	2022	article	Slowing quantum decoherence of oscillators by hybrid processing	https://doi.org/10.1038/s41534-022-00577-5
+Jacob Hastrup	O	2022	article	Universal Unitary Transfer of Continuous-Variable Quantum States into a Few Qubits	https://doi.org/10.1103/physrevlett.128.110503
+Jacob Hastrup	O	2025	article	Gatemon qubit revisited for improved reliability and stability	https://doi.org/10.1103/d68y-sqzm
+Jacob Hastrup	O	2026	article	Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit	https://doi.org/10.1103/fr7x-555s
+Jacob Hastrup	O	2026	preprint	Junction-Intrinsic Dissipation in Hybrid Superconductor-Semiconductor Gatemon Qubits	https://doi.org/10.48550/arxiv.2603.29498
+Jacob Hastrup	O	2023	conference-paper	Measurement Based CV Parametrized Quantum Circuits	https://doi.org/10.1109/cleo/europe-eqec57999.2023.10231543
+Jacob Hastrup	O	2026	article	Scalable architecture for measurement-induced squeezed light interferometers	https://doi.org/10.1126/sciadv.aee5135
+Jacob Hastrup	O	2026	preprint	Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits	https://doi.org/10.48550/arxiv.2602.11912
+Jacob Hastrup	O	2026	preprint	Demonstrating and Benchmarking Classical Shadows for Lindblad Tomography	https://doi.org/10.48550/arxiv.2602.14694
+Jacob Hastrup	O	2026	preprint	Learning Lindblad Dynamics of a Superconducting Quantum Processor	https://doi.org/10.48550/arxiv.2605.00626
+Jacob Hastrup	O	2026	article	Controlled parity of cooper pair tunneling in a hybrid superconducting qubit	https://doi.org/10.1038/s41467-026-76160-9
+Jacob Hastrup	O	2025	dataset	Dataset underlying the manuscript: Real-time adaptive tracking of fluctuating relaxation rates in superconducting qubits	https://doi.org/10.5281/zenodo.17345141
+Philip Holm	A				
+Wei-Che Hsu	A				
+Mohammad Elsayed Khalifa Hussein	A				
+Laurits Moestrup Høgel	A				
+Victoria Bøje Inselmann	A				
+Fabian Depenau Bjørnholt Jacobsen	A				
+Peter Krogstrup Jeppesen	A				A5124044086
+Peter Krogstrup Jeppesen	O	2026	article	Color Center Formation in Silicon‐On‐Insulator for On‐Chip Photonic Integration	https://doi.org/10.1002/adom.71387
+Benjamin Joecker	A				A5021775910
+Benjamin Joecker	O	2022	article	Precision tomography of a three-qubit donor quantum processor in silicon	https://doi.org/10.1038/s41586-021-04292-7
+Benjamin Joecker	O	2023	article	An electrically driven single-atom “flip-flop” qubit	https://doi.org/10.1126/sciadv.add9408
+Benjamin Joecker	O	2025	article	Scalable entanglement of nuclear spins mediated by electron exchange	https://doi.org/10.1126/science.ady3799
+Benjamin Joecker	O	2024	article	Error channels in quantum nondemolition measurements on spin systems	https://doi.org/10.1103/physrevb.109.085302
+Benjamin Joecker	O	2021	article	Full configuration interaction simulations of exchange-coupled donors in silicon using multi-valley effective mass theory	https://doi.org/10.1088/1367-2630/ac0abf
+Benjamin Joecker	O	2025	article	Superconducting proximity effect in two-dimensional hole gases	https://doi.org/10.1103/k4jh-pnxy
+Benjamin Joecker	O	2021	article	Engineering local strain for single-atom nuclear acoustic resonance in silicon	https://doi.org/10.1063/5.0069305
+Benjamin Joecker	O	2022	conference-paper	Engineering local strain for single-atom nuclear acoustic resonance in silicon.	https://doi.org/10.2172/2004503
+Benjamin Joecker	O	2021	dataset	Engineering local strain for single-atom nuclear acoustic resonance in silicon - Datasets	https://doi.org/10.6084/m9.figshare.16529208
+Benjamin Joecker	O	2021	dataset	Full configuration interaction simulations of exchange-coupled donors in silicon using multi-valley effective mass theory - Raw data sets and plot routines	https://doi.org/10.6084/m9.figshare.14184665
+Benjamin Joecker	O	2026	preprint	Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes	https://doi.org/10.48550/arxiv.2610.13589
+Maria Gabriela Jordão Oliveira	A				A5046942015
+Maria Gabriela Jordão Oliveira	O	2023	article	Fitting a collider in a quantum computer: tackling the challenges of quantum machine learning for big datasets	https://doi.org/10.3389/frai.2023.1268852
+Maria Gabriela Jordão Oliveira	O	2024	article	The two-site Heisenberg model studied using a quantum computer: A didactic introduction	https://doi.org/10.1590/1806-9126-rbef-2024-0129
+Maria Gabriela Jordão Oliveira	O	2025	article	Quantum block Krylov subspace projector algorithm for computing low-lying eigenenergies	https://doi.org/10.1103/p8wj-gplb
+Maria Gabriela Jordão Oliveira	O	2026	preprint	Tackling instabilities of quantum Krylov subspace methods: an analysis of the numerical and statistical errors	https://doi.org/10.48550/arxiv.2604.11532
+Maria Gabriela Jordão Oliveira	O	2024	dissertation	Quantum computing applications to quantum chromodynamics: jet evolution in a quantum computer	https://openalex.org/W7209041448
+Mikkel Weis Kallesøe	A				
+Chen Klein	A				
+Shingo Kono	A				
 Nils Kraschon	-				skipped: Teaching Assistant
-Svend Krøjer Krebs	A				RATE-LIMITED
-Henrik Høj Kristensen	A				RATE-LIMITED
-Rune Kutchinsky	A				RATE-LIMITED
-Nils Hugo Laurell	A				RATE-LIMITED
-Chulhyeong Lee	A				RATE-LIMITED
+Svend Krøjer Krebs	A				
+Henrik Høj Kristensen	A				
+Rune Kutchinsky	A				
+Nils Hugo Laurell	A				
+Chulhyeong Lee	A				
 Kristian Lindholmer	-				skipped: Teaching Assistant
-Yizhi Liu	A				RATE-LIMITED
-Sara Luise	A				RATE-LIMITED
-Magnus Linnet Madsen	A				RATE-LIMITED
-Albert Lars Sigurd Malmros	A				RATE-LIMITED
-Jakob Mannstadt	A				RATE-LIMITED
-Filip Manu-Marin	A				RATE-LIMITED
-Julius Monberg Marcussen	A				RATE-LIMITED
-Alexander Erik Meulengracht	A				RATE-LIMITED
-Vincent Philippe Michal	A				RATE-LIMITED
-Avan Mirkhan	A				RATE-LIMITED
-Alba Molina Sardina	A				RATE-LIMITED
-Frederik Norlén Nathan	A				RATE-LIMITED
+Yizhi Liu	A				
+Sara Luise	A				
+Magnus Linnet Madsen	A				
+Albert Lars Sigurd Malmros	A				
+Jakob Mannstadt	A				
+Filip Manu-Marin	A				
+Julius Monberg Marcussen	A				
+Alexander Erik Meulengracht	A				
+Vincent Philippe Michal	A				A5071425283
+Vincent Philippe Michal	O	2023	article	Strong coupling between a photon and a hole spin in silicon	https://doi.org/10.1038/s41565-023-01332-3
+Vincent Philippe Michal	O	2022	article	A single hole spin with enhanced coherence in natural silicon	https://doi.org/10.1038/s41565-022-01196-z
+Vincent Philippe Michal	O	2021	article	Longitudinal and transverse electric field manipulation of hole spin-orbit qubits in one-dimensional channels	https://doi.org/10.1103/physrevb.103.045305
+Vincent Philippe Michal	O	2023	article	Tunable hole spin-photon interaction based on g -matrix modulation	https://doi.org/10.1103/physrevb.107.l041303
+Vincent Philippe Michal	O	2021	article	Dispersively Probed Microwave Spectroscopy of a Silicon Hole Double Quantum Dot	https://doi.org/10.1103/physrevapplied.16.034031
+Vincent Philippe Michal	O	2023	article	Probing Low-Frequency Charge Noise in Few-Electron CMOS Quantum Dots	https://doi.org/10.1103/physrevapplied.19.044010
+Vincent Philippe Michal	O	2025	article	Identification of Soft Modes in Amorphous Al2O3${\rm Al}_{2}{\rm O}_{3}$ via First‐Principles	https://doi.org/10.1002/qute.202500170
+Vincent Philippe Michal	O	2025	article	Localized Josephson hot spots due to two-level systems	https://doi.org/10.1103/ncn4-m48z
+Vincent Philippe Michal	O	2026	preprint	Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes	https://doi.org/10.48550/arxiv.2610.13589
+Avan Mirkhan	A				
+Alba Molina Sardina	A				
+Frederik Norlén Nathan	A				
 Liva Danner Nielsen	-				skipped: Teaching Assistant
-Anders Filip Nilsson	A				RATE-LIMITED
-Stefano Paesani	A				RATE-LIMITED
-Mithilesh Kumar Parit	A				RATE-LIMITED
-Srushti Tukaram Patil	A				RATE-LIMITED
-Eike Laurits Piehorsch	A				RATE-LIMITED
-Beatriz Piniello Castillo	A				RATE-LIMITED
-Eoghan Michael Ryan	A				RATE-LIMITED
-Tobias Skov Særkjær	A				RATE-LIMITED
-Matilde Kammer Sandager	A				RATE-LIMITED
-Suresh Kumar Reddy Sangu	A				RATE-LIMITED
-Stefan Alaric Schäffer	A				RATE-LIMITED
-Arnulf Johannes Snedker-Nielsen	A				RATE-LIMITED
-Naia Soler Iturrioz	A				RATE-LIMITED
-Kim Splittorff	A				RATE-LIMITED
-Marcus Vestergaard Spørring	A				RATE-LIMITED
+Anders Filip Nilsson	A				
+Stefano Paesani	A				A5091372016
+Stefano Paesani	O	2021	article	An optical neural chip for implementing complex-valued neural network	https://doi.org/10.1038/s41467-020-20719-7
+Stefano Paesani	O	2023	article	Very-large-scale integrated quantum graph photonics	https://doi.org/10.1038/s41566-023-01187-z
+Stefano Paesani	O	2021	article	Error-protected qubits in a silicon photonic chip	https://doi.org/10.1038/s41567-021-01333-w
+Stefano Paesani	O	2023	article	High-speed thin-film lithium niobate quantum processor driven by a solid-state quantum emitter	https://doi.org/10.1126/sciadv.adg7268
+Stefano Paesani	O	2021	article	Scheme for Universal High-Dimensional Quantum Computation with Linear Optics	https://doi.org/10.1103/physrevlett.126.230504
+Stefano Paesani	O	2023	article	High-Threshold Quantum Computing by Fusing One-Dimensional Cluster States	https://doi.org/10.1103/physrevlett.131.120603
+Stefano Paesani	O	2022	article	Resource-efficient high-dimensional subspace teleportation with a quantum autoencoder	https://doi.org/10.1126/sciadv.abn9783
+Stefano Paesani	O	2025	article	Tailoring Fusion-Based Photonic Quantum Computing Schemes to Quantum Emitters	https://doi.org/10.1103/prxquantum.6.020304
+Stefano Paesani	O	2021	article	Learning models of quantum systems from experiments	https://doi.org/10.1038/s41567-021-01201-7
+Stefano Paesani	O	2023	article	Optimizing Graph Codes for Measurement-Based Loss Tolerance	https://doi.org/10.1103/prxquantum.4.020328
+Stefano Paesani	O	2023	article	Deterministic photon source interfaced with a programmable silicon-nitride integrated circuit	https://doi.org/10.1038/s41534-023-00761-1
+Stefano Paesani	O	2023	article	Encoding Error Correction in an Integrated Photonic Chip	https://doi.org/10.1103/prxquantum.4.030340
+Stefano Paesani	O	2021	article	Protocol for generation of high-dimensional entanglement from an array of non-interacting photon emitters	https://doi.org/10.1088/1367-2630/ac475d
+Stefano Paesani	O	2025	article	Temporal fusion of entangled resource states from a quantum emitter	https://doi.org/10.1038/s41467-025-62130-0
+Stefano Paesani	O	2024	article	On-Chip Quantum Information Processing with Distinguishable Photons	https://doi.org/10.1103/physrevlett.132.150602
+Stefano Paesani	O	2024	article	Purifying Photon Indistinguishability through Quantum Interference	https://doi.org/10.1103/physrevlett.133.033604
+Stefano Paesani	O	2025	article	Programmable nonlinear quantum photonic circuits	https://doi.org/10.1038/s41467-025-66205-w
+Stefano Paesani	O	2026	article	Practical blueprint for low-depth photonic quantum computing with quantum dots	https://doi.org/10.1038/s41534-026-01258-3
+Stefano Paesani	O	2022	article	Threshold detection statistics of bosonic states	https://doi.org/10.1103/physreva.106.043712
+Stefano Paesani	O	2024	article	Loss-tolerant architecture for quantum computing with quantum emitters	https://doi.org/10.22331/q-2024-03-28-1302
+Stefano Paesani	O	2025	article	Deterministic Generation of Concatenated Graph Codes from Quantum Emitters	https://doi.org/10.1103/prxquantum.6.010305
+Stefano Paesani	O	2024	article	Efficient percolation simulations for lossy photonic fusion networks	https://doi.org/10.1103/physrevresearch.6.033273
+Stefano Paesani	O	2025	article	Transforming graph states via Bell state measurements	https://doi.org/10.22331/q-2025-07-14-1795
+Stefano Paesani	O	2025	article	Generating graph states with a single quantum emitter and the minimum number of fusions	https://doi.org/10.1103/physreva.111.052604
+Stefano Paesani	O	2024	article	Hardware requirements for realizing a quantum advantage with deterministic single-photon sources	https://doi.org/10.1103/physreva.109.042613
+Stefano Paesani	O	2024	conference-paper	Programmable Photonic Nonlinearity for Quantum Simulation	https://doi.org/10.1109/acp/ipoc63121.2024.10809484
+Stefano Paesani	O	2026	article	Fusion-based implementation of qLDPC codes with quantum emitters	https://doi.org/10.1038/s41534-026-01233-y
+Stefano Paesani	O	2021	article	Proposal for practical multidimensional quantum networks	https://doi.org/10.1103/physreva.104.052618
+Stefano Paesani	O	2021	book-chapter	Quantum Processors in Silicon Photonics	https://doi.org/10.1007/978-3-030-68222-4_11
+Stefano Paesani	O	2026	preprint	High-Dimensional Quantum Photonics: Roadmap	https://doi.org/10.48550/arxiv.2604.06528
+Stefano Paesani	O	2025	other	Processing quantum randomness with light	https://doi.org/10.1038/s41566-024-01606-9
+Stefano Paesani	O	2025	preprint	High-dimensional Path-Encoded Entanglement Distribution Between Photonic Chips Enabled by Multimode Phase Stabilisation	https://doi.org/10.48550/arxiv.2510.15675
+Stefano Paesani	O	2026	preprint	Epitaxial single T centres in silicon-on-insulator	https://doi.org/10.48550/arxiv.2607.06272
+Stefano Paesani	O	2021	conference-paper	Generation of high-dimensional photonic entanglement	https://doi.org/10.1117/12.2598853
+Stefano Paesani	O	2021	conference-paper	Near-ideal heralded single photons in silicon	https://doi.org/10.1364/cleo_qels.2021.ftu2n.2
+Stefano Paesani	O	2022	conference-paper	On-chip multi-photon interference with distinguishable photons and time-resolved detection	https://doi.org/10.1364/quantum.2022.qtu3a.4
+Stefano Paesani	O	2022	conference-paper	High-dimensional photonic entanglement using linear optics	https://doi.org/10.1364/quantum.2022.qtu3a.2
+Stefano Paesani	O	2022	conference-paper	Reconfigurable Lithium Niobate nanophotonic circuits for quantum information processing with InAs/GaAs Quantum Dot single-photon sources	https://doi.org/10.1364/cleo_qels.2022.ff4j.2
+Stefano Paesani	O	2022	conference-paper	Design of Fast All-Optical Switches in Si3N4 Photonic Integrated Circuits for Single-Photon Routing	https://doi.org/10.1364/fio.2022.jtu4a.53
+Stefano Paesani	O	2023	conference-abstract	Photonic quantum computing with quantum emitters	https://doi.org/10.1117/12.2679844
+Stefano Paesani	O	2023	conference-paper	VLSI Quantum Graph Photonics	https://doi.org/10.1364/cleo_fs.2023.fth5b.4
+Stefano Paesani	O	2023	conference-paper	Quantum-Dot Single-Photon Sources Processed on Silicon-Nitride Integrated Circuits	https://doi.org/10.1364/cleo_fs.2023.fth4j.4
+Stefano Paesani	O	2023	conference-paper	Processing single-photons from a quantum dot using high-speed integrated photonic circuits on the thin film lithium-niobate-on-insulator platform	https://doi.org/10.1364/cleo_si.2023.sth1r.2
+Stefano Paesani	O	2024	conference-paper	Path-encoded multidimensional entanglement distribution between integrated photonic devices through multi-core fibre	https://doi.org/10.1117/12.3000037
+Stefano Paesani	O	2024	conference-paper	Multiphoton Multidimensional Entanglement Based on Graph Theory	https://doi.org/10.1364/cleo_at.2024.jtu2a.224
+Stefano Paesani	O	2024	preprint	Breadth-first graph traversal union-find decoder	https://doi.org/10.48550/arxiv.2407.15988
+Stefano Paesani	O	2025	conference-paper	Path-Transverse Electric Mode Hyperentanglement on an Integrated Photonic Chip	https://doi.org/10.1109/cleo/europe-eqec65582.2025.11110386
+Stefano Paesani	O	2026	article	Hybrid path-transverse electric mode qudit encoding on an integrated photonic chip	https://doi.org/10.1364/opticaq.597128
+Stefano Paesani	O	2026	article	Multiphoton Quantum Simulation of the Generalized Hopfield Memory Model	https://doi.org/10.1103/945c-11wt
+Stefano Paesani	O	2026	article	Photonic simulation of disordered spin systems on a silicon chip	https://doi.org/10.1117/1.apn.5.2.025001
+Stefano Paesani	O	2026	preprint	Photon Sorting with a Quantum Emitter	https://doi.org/10.48550/arxiv.2604.21758
+Stefano Paesani	O	2026	preprint	Observation of associative-memory retrieval and spin-glass phases on a photonic quantum simulator	https://doi.org/10.48550/arxiv.2605.22922
+Stefano Paesani	O	2026	article	Color Center Formation in Silicon‐On‐Insulator for On‐Chip Photonic Integration	https://doi.org/10.1002/adom.71387
+Stefano Paesani	O	2026	supplementary-materials	Supplementary document for Hybrid Path-Transverse Electric Mode Qudit Encoding on an Integrated Photonic Chip - 7957816.pdf	https://doi.org/10.6084/m9.figshare.32781651
+Stefano Paesani	O	2026	conference-paper	Photon Sorting with a Quantum Emitter	https://doi.org/10.1364/cleo_fs.2026.fw2c.1
+Stefano Paesani	O	2026	preprint	Fine structure of the M-center in Si	https://doi.org/10.48550/arxiv.2608.30790
+Stefano Paesani	O	2026	preprint	Purification of photonic graph states	https://doi.org/10.48550/arxiv.2609.01710
+Stefano Paesani	O	2026	preprint	A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation	https://doi.org/10.48550/arxiv.2609.08908
+Stefano Paesani	O	2026	preprint	Dealing with low-weight errors that lead BP OSD to fail	https://doi.org/10.48550/arxiv.2610.30305
+Stefano Paesani	O	2026	dataset	"Replication Data for: ""High-efficiency photonic GHZ measurements with linear optics"""	https://doi.org/10.17026/pt/plfnin
+Stefano Paesani	O	2026	preprint	High-efficiency photonic GHZ measurements with linear optics	https://doi.org/10.48550/arxiv.2610.41524
+Mithilesh Kumar Parit	A				
+Srushti Tukaram Patil	A				
+Eike Laurits Piehorsch	A				
+Beatriz Piniello Castillo	A				
+Eoghan Michael Ryan	A				
+Tobias Skov Særkjær	A				A5085889175
+Tobias Skov Særkjær	O	2021	article	Selective area growth rates of III-V nanowires	https://doi.org/10.1103/physrevmaterials.5.094601
+Tobias Skov Særkjær	O	2021	preprint	Collective formation of misfit dislocations at the critical thickness for equilibrium nanowire heterostructures	https://doi.org/10.48550/arxiv.2102.03587
+Tobias Skov Særkjær	O	2023	preprint	Collective Formation of Misfit Dislocations at the Critical Thickness for Equilibrium Nanowire Heterostructures	https://doi.org/10.2139/ssrn.4474925
+Tobias Skov Særkjær	O	2023	article	Collective formation of misfit dislocations at the critical thickness for equilibrium nanowire heterostructures	https://doi.org/10.1016/j.jcrysgro.2023.127400
+Matilde Kammer Sandager	A				
+Suresh Kumar Reddy Sangu	A				
+Stefan Alaric Schäffer	A				A5049767118
+Stefan Alaric Schäffer	O	2021	article	Frequency ratio measurements at 18-digit accuracy using an optical clock network	https://doi.org/10.1038/s41586-021-03253-4
+Stefan Alaric Schäffer	O	2022	review	Cold atoms in space: community workshop summary and proposed road-map	https://doi.org/10.1140/epjqt/s40507-022-00147-w
+Stefan Alaric Schäffer	O	2024	article	Collectively enhanced Ramsey readout by cavity sub- to superradiant transition	https://doi.org/10.1038/s41467-024-45420-x
+Stefan Alaric Schäffer	O	2025	article	Terrestrial Very-Long-Baseline Atom Interferometry: summary of the second workshop	https://doi.org/10.1140/epjqt/s40507-025-00344-3
+Stefan Alaric Schäffer	O	2024	article	Continuous cavity QED with an atomic beam	https://doi.org/10.1103/physreva.110.063721
+Stefan Alaric Schäffer	O	2025	article	Modeling of a continuous superradiant laser on the sub-mHz 1 S 0 → 3 P 0 transition in neutral strontium-88	https://doi.org/10.1103/physrevresearch.7.013292
+Stefan Alaric Schäffer	O	2022	article	Prospects of a superradiant laser based on a thermal or guided beam of Sr 88	https://doi.org/10.1103/physreva.106.063704
+Stefan Alaric Schäffer	O	2021	article	Cavity-immune spectral features in the pulsed superradiant crossover regime	https://doi.org/10.1103/physrevresearch.3.033258
+Stefan Alaric Schäffer	O	2022	article	Cold atoms in space: community workshop summary and proposed road-map	https://doi.org/10.1140/epjqt/s40507-022-00147-w
+Stefan Alaric Schäffer	O	2021	conference-paper	Towards an Active Optical Clock using an Optical Conveyor within a Ring Cavity	https://doi.org/10.1109/eftf/ifcs52194.2021.9604232
+Stefan Alaric Schäffer	O	2021	article	Continuous superradiant laser based on a simple hot atomic beam	https://openalex.org/W3176801606
+Stefan Alaric Schäffer	O	2022	other	Towards continuous superradiance with a thermal atomic beam	https://doi.org/10.26226/m.6275705a66d5dcf63a31149d
+Stefan Alaric Schäffer	O	2023	conference-paper	Optical Ramsey Spectroscopy with Superradiance Enhanced Readout	https://doi.org/10.1109/eftf/ifcs57587.2023.10272146
+Stefan Alaric Schäffer	O	2026	preprint	Collimation of dense atomic beams by Swept Velocity Shelving	https://doi.org/10.48550/arxiv.2607.28873
+Stefan Alaric Schäffer	O	2026	preprint	A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation	https://doi.org/10.48550/arxiv.2609.08908
+Arnulf Johannes Snedker-Nielsen	A				A5124041138
+Arnulf Johannes Snedker-Nielsen	O	2025	article	Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation	https://doi.org/10.1021/acs.nanolett.5c04044
+Arnulf Johannes Snedker-Nielsen	O	2026	preprint	Epitaxial single T centres in silicon-on-insulator	https://doi.org/10.48550/arxiv.2607.06272
+Arnulf Johannes Snedker-Nielsen	O	2024	conference-paper	Heterogeneous Integration of GaAs Waveguides with Silicon Nitride Photonic Integrated Circuits	https://doi.org/10.1364/quantum.2024.qw3a.33
+Arnulf Johannes Snedker-Nielsen	O	2025	conference-paper	Electrical control of quantum-dot single-photon source on SiO2/Si substrate	https://doi.org/10.1364/cleo_at.2025.aa126_1
+Arnulf Johannes Snedker-Nielsen	O	2026	article	Color Center Formation in Silicon‐On‐Insulator for On‐Chip Photonic Integration	https://doi.org/10.1002/adom.71387
+Arnulf Johannes Snedker-Nielsen	O	2026	preprint	Fine structure of the M-center in Si	https://doi.org/10.48550/arxiv.2608.30790
+Naia Soler Iturrioz	A				
+Kim Splittorff	A				A5057418168
+Kim Splittorff	O	2024	article	Quantum phase estimation and the Aharonov-Bohm effect	https://doi.org/10.1103/physreva.110.052426
+Kim Splittorff	O	2021	article	New term in effective field theory at fixed topology	https://doi.org/10.1103/physrevd.103.014501
+Kim Splittorff	O	2022	article	Kvanteteknologisk revolution – Den største udfordring er at uddanne nok	https://doi.org/10.7146/kvant.168184
+Kim Splittorff	O	2021	article	På tærsklen til en ny kvanteteknologisk revolution	https://doi.org/10.7146/kvant.168234
+Kim Splittorff	O	2023	article	Ambitiøst kvantecomputerprogram etableres på Niels Bohr Institutet	https://doi.org/10.7146/kvant.167878
+Kim Splittorff	O	2026	article	Building intuition for quantum algorithms using the Aharonov–Bohm effect	https://doi.org/10.1088/1361-6404/ae85e7
+Marcus Vestergaard Spørring	A				
 Vita Stefanija	-				skipped: Teaching Assistant
-Zhenhai Sun	A				RATE-LIMITED
-Mark Kamper Svendsen	A				RATE-LIMITED
-Hao Tang	A				RATE-LIMITED
-Asbjørn Frost Teilmann	A				RATE-LIMITED
-Jan Westenkær Thomsen	A				RATE-LIMITED
-Pranav Ticku	A				RATE-LIMITED
-Tommaso Vedana	A				RATE-LIMITED
-Rohit Yadav	A				RATE-LIMITED
-Alexandr Zaykov	A				RATE-LIMITED
+Zhenhai Sun	A				A5101302899 A5123313365 A5159099348
+Zhenhai Sun	O	2025	article	Andreev spin relaxation time in a shadow-evaporated InAs weak link	https://doi.org/10.1103/v3lq-t5z8
+Zhenhai Sun	O	2025	article	Gatemon qubit revisited for improved reliability and stability	https://doi.org/10.1103/d68y-sqzm
+Zhenhai Sun	O	2026	article	Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit	https://doi.org/10.1103/fr7x-555s
+Zhenhai Sun	O	2026	article	Controlled parity of cooper pair tunneling in a hybrid superconducting qubit	https://doi.org/10.1038/s41467-026-76160-9
+Zhenhai Sun	O	2026	preprint	Junction-Intrinsic Dissipation in Hybrid Superconductor-Semiconductor Gatemon Qubits	https://doi.org/10.48550/arxiv.2603.29498
+Zhenhai Sun	O	2026	preprint	Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits	https://doi.org/10.48550/arxiv.2602.11912
+Zhenhai Sun	O	2026	preprint	Sidewall Metrology Protocol for Superconducting Qubit Devices	https://doi.org/10.48550/arxiv.2610.26223
+Mark Kamper Svendsen	A				A5023226173
+Mark Kamper Svendsen	O	2021	article	Recent progress of the Computational 2D Materials Database (C2DB)	https://doi.org/10.1088/2053-1583/ac1059
+Mark Kamper Svendsen	O	2022	article	Indirect Band Gap Semiconductors for Thin-Film Photovoltaics: High-Throughput Calculation of Phonon-Assisted Absorption	https://doi.org/10.1021/jacs.2c07567
+Mark Kamper Svendsen	O	2024	article	Ab Initio Calculations of Quantum Light–Matter Interactions in General Electromagnetic Environments	https://doi.org/10.1021/acs.jctc.3c00967
+Mark Kamper Svendsen	O	2025	article	Cavity engineering of solid-state materials without external driving	https://doi.org/10.1364/aop.544138
+Mark Kamper Svendsen	O	2024	article	Cavity-enhanced superconductivity in MgB 2 from first-principles quantum electrodynamics (QEDFT)	https://doi.org/10.1073/pnas.2415061121
+Mark Kamper Svendsen	O	2021	article	Combining density functional theory with macroscopic QED for quantum light-matter interactions in 2D materials	https://doi.org/10.1038/s41467-021-23012-3
+Mark Kamper Svendsen	O	2023	article	Exploring and machine learning structural instabilities in 2D materials	https://doi.org/10.1038/s41524-023-00977-x
+Mark Kamper Svendsen	O	2023	article	Combining experiments on luminescent centres in hexagonal boron nitride with the polaron model and ab initio methods towards the identification of their microscopic origin	https://doi.org/10.1039/d3nr01511d
+Mark Kamper Svendsen	O	2025	article	Effective equilibrium theory of quantum light-matter interaction in cavities for extended systems and the long wavelength approximation	https://doi.org/10.1038/s42005-025-02365-x
+Mark Kamper Svendsen	O	2024	article	Improved Dielectric Response of Solids: Combining the Bethe-Salpeter Equation with the Random Phase Approximation	https://doi.org/10.1103/physrevlett.133.026403
+Mark Kamper Svendsen	O	2022	article	Momentum-Dependent Oscillator Strength Crossover of Excitons and Plasmons in Two-Dimensional PtSe2	https://doi.org/10.1021/acsnano.2c03322
+Mark Kamper Svendsen	O	2022	article	Computational Discovery and Experimental Demonstration of Boron Phosphide Ultraviolet Nanoresonators	https://doi.org/10.1002/adom.202200422
+Mark Kamper Svendsen	O	2025	article	Cavity Spectroscopy for Strongly Correlated Polaritonic Systems	https://doi.org/10.1103/1lpw-22np
+Mark Kamper Svendsen	O	2025	article	Computational discovery and experimental validation of high–refractive index HfS 2 nanoresonators	https://doi.org/10.1126/sciadv.adw9339
+Mark Kamper Svendsen	O	2025	article	Identification of Soft Modes in Amorphous Al2O3${\rm Al}_{2}{\rm O}_{3}$ via First‐Principles	https://doi.org/10.1002/qute.202500170
+Mark Kamper Svendsen	O	2025	article	Self-consistent layer-projected scissors operator for band structures of two-dimensional van der Waals materials with large unit cells	https://doi.org/10.1103/2y5s-qcw9
+Mark Kamper Svendsen	O	2023	article	Signatures of non-Markovianity in cavity QED with color centers in two-dimensional materials	https://doi.org/10.1103/physrevresearch.5.l032037
+Mark Kamper Svendsen	O	2022	article	WSe2 as Transparent Top Gate for Infrared Near-Field Microscopy	https://doi.org/10.1021/acs.nanolett.2c01658
+Mark Kamper Svendsen	O	2025	article	On-demand heralded MIR single-photon source using a cascaded quantum system	https://doi.org/10.1126/sciadv.adr9239
+Mark Kamper Svendsen	O	2026	article	Multiple photon field–induced topological states in bulk HgTe	https://doi.org/10.1126/sciadv.aea5823
+Mark Kamper Svendsen	O	2026	article	Bridging scales in polaritonic chemistry: ab initio frameworks with realistic spatially structured cavities [Invited]	https://doi.org/10.1364/ome.596511
+Mark Kamper Svendsen	O	2026	article	On intermolecular interactions in the Hamiltonian used in polaritonic chemistry	https://doi.org/10.1063/5.0350857
+Mark Kamper Svendsen	O	2025	conference-paper	Advancing Single-Photon Emitters in Silicon Nitride	https://doi.org/10.1364/quantum.2025.qm4c.2
+Mark Kamper Svendsen	O	2026	preprint	Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes	https://doi.org/10.48550/arxiv.2610.13589
+Hao Tang	A				
+Asbjørn Frost Teilmann	A				
+Jan Westenkær Thomsen	A				A5055826866
+Jan Westenkær Thomsen	O	2022	article	Petabit-per-second data transmission using a chip-scale microcomb ring resonator source	https://doi.org/10.1038/s41566-022-01082-z
+Jan Westenkær Thomsen	O	2023	article	Subnatural Linewidth Superradiant Lasing with Cold Sr 88 Atoms	https://doi.org/10.1103/physrevlett.130.223402
+Jan Westenkær Thomsen	O	2024	article	Collectively enhanced Ramsey readout by cavity sub- to superradiant transition	https://doi.org/10.1038/s41467-024-45420-x
+Jan Westenkær Thomsen	O	2021	article	Cavity-immune spectral features in the pulsed superradiant crossover regime	https://doi.org/10.1103/physrevresearch.3.033258
+Jan Westenkær Thomsen	O	2022	dataset	"Data accompanying ""Petabit per second data transmission using a chip-scale microcomb ring resonator source"""	https://doi.org/10.5281/zenodo.6856556
+Pranav Ticku	A				
+Tommaso Vedana	A				
+Rohit Yadav	A				
+Alexandr Zaykov	A				

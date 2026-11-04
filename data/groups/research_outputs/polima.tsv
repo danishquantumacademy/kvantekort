@@ -1,23 +1,368 @@
 name	kind	year	type	title	path
-Jorge Barcia Rodriguez	A				RATE-LIMITED
-Costanza Borghesi	A				RATE-LIMITED
-Ida Juliane Bundgaard	A				RATE-LIMITED
-Minoas Chairetis	A				RATE-LIMITED
-Emil Clausen	A				RATE-LIMITED
-Joel Cox	A				RATE-LIMITED
-Eduardo Dias	A				RATE-LIMITED
-Sven Lennart Ebel	A				RATE-LIMITED
-Catarina Ferreira	A				RATE-LIMITED
-Paulo André Dias Gonçalves	A				RATE-LIMITED
-Christian Nicolaisen Hansen	A				RATE-LIMITED
-Jacob Terndrup Heiden	A				RATE-LIMITED
-Huatian Hu	A				RATE-LIMITED
-Line Jelver	A				RATE-LIMITED
+Jorge Barcia Rodriguez	A				A5147091168
+Jorge Barcia Rodriguez	O	2026	preprint	Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.48550/arxiv.2608.12105
+Costanza Borghesi	A				
+Ida Juliane Bundgaard	A				A5134811576
+Ida Juliane Bundgaard	O	2024	article	Quantum-informed plasmonics for strong coupling: the role of electron spill-out	https://doi.org/10.1364/josab.512129
+Ida Juliane Bundgaard	O	2026	article	Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Structural Colors	https://doi.org/10.1021/acsanm.6c01961
+Ida Juliane Bundgaard	O	2026	preprint	Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality	https://doi.org/10.48550/arxiv.2609.38870
+Ida Juliane Bundgaard	O	2026	conference-paper	Structural colours using transition metal dichalcogenide nanostructures	https://openalex.org/W7215318860
+Minoas Chairetis	A				
+Emil Clausen	A				
+Joel Cox	A				A5008692445 A5152782249
+Joel Cox	O	2025	review	Roadmap for Photonics with 2D Materials	https://doi.org/10.1021/acsphotonics.5c00353
+Joel Cox	O	2021	article	Optical response of noble metal nanostructures: quantum surface effects in crystallographic facets	https://doi.org/10.1364/optica.412122
+Joel Cox	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+Joel Cox	O	2024	article	Nonlocal effects in plasmon‐emitter interactions	https://doi.org/10.1515/nanoph-2023-0575
+Joel Cox	O	2022	article	Image polaritons in van der Waals crystals	https://doi.org/10.1515/nanoph-2021-0693
+Joel Cox	O	2021	article	Quantum surface effects in strong coupling dynamics	https://doi.org/10.1103/physrevb.104.l201405
+Joel Cox	O	2023	article	Nonlocal and cascaded effects in nonlinear graphene nanoplasmonics	https://doi.org/10.1039/d2nr06286k
+Joel Cox	O	2024	article	Generation of entangled waveguided photon pairs by free electrons	https://doi.org/10.1126/sciadv.adn6312
+Joel Cox	O	2024	article	Quantum-mechanical effects in photoluminescence from thin crystalline gold films	https://doi.org/10.1038/s41377-024-01408-2
+Joel Cox	O	2021	article	Nonlinear plasmonic response in atomically thin metal films	https://doi.org/10.1515/nanoph-2021-0422
+Joel Cox	O	2024	article	Nonlinear Thermoplasmonics in Graphene Nanostructures	https://doi.org/10.1021/acs.nanolett.4c04048
+Joel Cox	O	2021	article	Anisotropic second-harmonic generation from monocrystalline gold flakes	https://doi.org/10.1364/ol.413003
+Joel Cox	O	2023	article	Nonlinear Photoluminescence in Gold Thin Films	https://doi.org/10.1021/acsphotonics.3c00644
+Joel Cox	O	2023	article	Nonlinear quantum logic with colliding graphene plasmons	https://doi.org/10.1103/physrevresearch.5.013188
+Joel Cox	O	2022	article	Optoelectronic Control of Atomic Bistability with Graphene	https://doi.org/10.1103/physrevlett.129.253602
+Joel Cox	O	2024	article	Chiral Light–Matter Interactions with Thermal Magnetoplasmons in Graphene Nanodisks	https://doi.org/10.1021/acs.nanolett.4c05056
+Joel Cox	O	2023	article	Nonlinear Plasmonics in Nanostructured Phosphorene	https://doi.org/10.1021/acsnano.3c05363
+Joel Cox	O	2025	article	Optical design of structural colored photovoltaics for building integration: From periodic configurations to optimization algorithms	https://doi.org/10.1016/j.nanoen.2025.111659
+Joel Cox	O	2022	article	Direct generation of entangled photon pairs in nonlinear optical waveguides	https://doi.org/10.1515/nanoph-2021-0736
+Joel Cox	O	2021	article	Ultracompact electro-optic waveguide modulator based on a graphene-covered λ/1000 plasmonic nanogap	https://doi.org/10.1364/oe.423691
+Joel Cox	O	2021	article	Polaritons in Two-Dimensional Parabolic Waveguides	https://doi.org/10.1021/acsphotonics.1c00481
+Joel Cox	O	2025	article	Chiral near-field control of quantum light generation using magneto-optical graphene	https://doi.org/10.1103/k5sp-pmcy
+Joel Cox	O	2025	article	Structural Colored Planar Multilayers with Minimal Angular Color Dependence for Building Integrated Photovoltaics	https://doi.org/10.1002/solr.202500674
+Joel Cox	O	2025	article	Nonlocal electrodynamics of two‐dimensional anisotropic magnetoplasmons	https://doi.org/10.1515/nanoph-2025-0233
+Joel Cox	O	2023	article	Electron-induced nonlinear dynamics in atomic chains	https://doi.org/10.1103/physrevresearch.5.l022015
+Joel Cox	O	2025	article	Plasmon polariton assisted second-harmonic generation in graphene	https://doi.org/10.1103/jxtp-18tx
+Joel Cox	O	2025	article	Nonreciprocal plasmons in one-dimensional carbon nanostructures	https://doi.org/10.1038/s41467-025-67872-5
+Joel Cox	O	2022	conference-paper	Nonlinear plasmonics in atomically-thin materials	https://doi.org/10.1117/12.2608776
+Joel Cox	O	2024	conference-paper	Numerical Optimization of Structural Colored Interlayers for Building-Integrated Photovoltaics	https://doi.org/10.29363/nanoge.matsusspring.2025.269
+Joel Cox	O	2024	article	Design and Optimization of Structural Colored Interlayers for Building-Integrated Photovoltaic Applications	https://doi.org/10.4229/eupvsec2024/4bv.4.6
+Joel Cox	O	2021	conference-paper	Towards plasmonic-enhanced optical nonlinearities in graphene metal-heterostructures	https://doi.org/10.1109/cleo/europe-eqec52157.2021.9542401
+Joel Cox	O	2021	conference-paper	Nonlocal and quantum finite-size effects in the use of guided graphene plasmons	https://doi.org/10.1117/12.2582456
+Joel Cox	O	2021	conference-paper	Enhanced nonlinear optical response in atomically thin films	https://doi.org/10.1117/12.2582455
+Joel Cox	O	2021	conference-paper	Enhancement of the intrinsic nonlinear response in few-atom-thick metallic films	https://doi.org/10.1117/12.2589115
+Joel Cox	O	2021	conference-paper	Quantum size- and nonlocal-effects in the plasmonic response of graphene nano-ribbons	https://doi.org/10.1117/12.2594916
+Joel Cox	O	2021	conference-paper	Advances in the optical response of crystalline atomically-thin films	https://doi.org/10.1117/12.2594892
+Joel Cox	O	2021	conference-paper	Probing nonlinear plasmonic near-fields in crystalline atomically-thin films	https://doi.org/10.1364/cleo_qels.2021.fm3i.7
+Joel Cox	O	2022	review	Image polaritons in van der Waals crystals	https://doi.org/10.1515/nanoph-2021-0693
+Joel Cox	O	2022	conference-paper	Progress in the optical response of crystalline atomically thin films	https://doi.org/10.1117/12.2609481
+Joel Cox	O	2022	conference-paper	Surface response functions of crystal-oriented noble metals in plasmonic and optoelectronic applications	https://doi.org/10.1117/12.2609457
+Joel Cox	O	2021	conference-paper	Quantum-size and nonlinear effects in the plasmonic response of graphene nanoribbons	https://doi.org/10.1117/12.2589114
+Joel Cox	O	2022	conference-paper	Active nonlinear nano-optics with atomically-thin materials	https://doi.org/10.1117/12.2633513
+Joel Cox	O	2022	conference-paper	Advances in the plasmonic response of crystalline atomically thin films	https://doi.org/10.1117/12.2633392
+Joel Cox	O	2022	conference-paper	Tailoring high-harmonic generation in atomically-thin materials (Conference Presentation)	https://doi.org/10.1117/12.2633283
+Joel Cox	O	2023	conference-paper	Nonlocal and cascaded effects in nonlinear graphene nanoplasmonics	https://doi.org/10.1117/12.2648795
+Joel Cox	O	2023	conference-paper	Nonlinear quantum logic with colliding graphene plasmons	https://doi.org/10.1364/cleo_fs.2023.fm2a.6
+Joel Cox	O	2023	conference-paper	Nonlinear and quantum nano-optics with atomically-thin materials	https://doi.org/10.1117/12.2675611
+Joel Cox	O	2024	article	Reliability Investigation of Structural Colour Interlayers for Coloured PV Modules	https://doi.org/10.4229/eupvsec2024/3av.2.21
+Joel Cox	O	2023	conference-paper	Photoluminescence from Ultrathin Monocrystalline Gold Flakes	https://openalex.org/W4412224711
+Joel Cox	O	2025	conference-paper	Nonlinear Thermoplasmonics in Photoexcited Graphene Nanoribbons	https://doi.org/10.1109/cleo/europe-eqec65582.2025.11110631
+Joel Cox	O	2025	conference-paper	Invited - Nonlinear plasmonics in 2D nanoribbons and heterostructures	https://doi.org/10.1051/epjconf/202533509001
+Joel Cox	O	2026	article	ZnO Electron Transport Layers for Scalable Nonfullerene Acceptor-Based Organic Photovoltaics: Assessing the Role of Processing Technique on Device Performance and Stability	https://doi.org/10.1021/acsami.6c00680
+Joel Cox	O	2026	article	Active steering of cathodoluminescence through a generalized Smith–Purcell effect	https://doi.org/10.1038/s41377-026-02280-y
+Joel Cox	O	2026	article	Nonlocal and Nonlinear Plasmonics in Atomically Thin Heterostructures	https://doi.org/10.1021/acsnano.5c20758
+Joel Cox	O	2026	article	Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS2 via Ferroelectricity-Controlled Photodoping	https://doi.org/10.1021/acsphotonics.6c01966
+Joel Cox	O	2026	preprint	Nonreciprocal plasmonic response of drift-biased two-dimensional metals	https://doi.org/10.48550/arxiv.2609.04954
+Joel Cox	O	2026	preprint	Drift-induced nonreciprocity in image-polariton-mediated dipole emission	https://doi.org/10.48550/arxiv.2610.38348
+Joel Cox	O	2026	preprint	Moiré-enabled chiral plasmons in twisted bilayer graphene nanoislands	https://doi.org/10.48550/arxiv.2610.39737
+Eduardo Dias	A				A5081438708 A5157685255
+Eduardo Dias	O	2025	review	Roadmap for Photonics with 2D Materials	https://doi.org/10.1021/acsphotonics.5c00353
+Eduardo Dias	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+Eduardo Dias	O	2026	article	Ultrafast Near-Field Dynamics in Silver Nanowires Driven by Few-Cycle Short-Wave Infrared Pulses	https://doi.org/10.1021/acsphotonics.6c00044
+Eduardo Dias	O	2025	article	Bypassing Nonlocal Phenomena in Metals Using Phonon-Polaritons	https://doi.org/10.1021/acsnano.5c07349
+Eduardo Dias	O	2025	article	Wave-mixing cathodoluminescence microscopy of low-frequency excitations	https://doi.org/10.1038/s41467-025-67288-1
+Eduardo Dias	O	2026	article	Active steering of cathodoluminescence through a generalized Smith–Purcell effect	https://doi.org/10.1038/s41377-026-02280-y
+Eduardo Dias	O	2026	preprint	Drift-induced nonreciprocity in image-polariton-mediated dipole emission	https://doi.org/10.48550/arxiv.2610.38348
+Eduardo Dias	O	2026	preprint	Moiré-enabled chiral plasmons in twisted bilayer graphene nanoislands	https://doi.org/10.48550/arxiv.2610.39737
+Sven Lennart Ebel	A				
+Catarina Ferreira	A				A5003662407
+Catarina Ferreira	O	2024	article	Understanding the Internal Conversion Efficiency of BiVO 4 /SnO 2 Photoanodes for Solar Water Splitting: An Experimental and Computational Analysis	https://doi.org/10.1021/acsaem.3c02775
+Catarina Ferreira	O	2023	article	Bias‐Free Solar‐to‐Hydrogen Conversion in a BiVO 4 /PM6:Y6 Compact Tandem with Optically Balanced Light Absorption	https://doi.org/10.1002/eem2.12679
+Catarina Ferreira	O	2025	article	Optical design of structural colored photovoltaics for building integration: From periodic configurations to optimization algorithms	https://doi.org/10.1016/j.nanoen.2025.111659
+Catarina Ferreira	O	2022	article	Wide Bandgap Perovskite Photovoltaic Cells for Stray Light Recycling in a System Emitting Broadband Polarized Light	https://doi.org/10.1002/aenm.202201473
+Catarina Ferreira	O	2021	article	Light Recycling Using Perovskite Solar Cells in a Half‐Cylinder Photonic Plate for an Energy Efficient Broadband Polarized Light Emission	https://doi.org/10.1002/adpr.202100077
+Catarina Ferreira	O	2025	article	Sub-Bandgap Photon-to-Current Conversion in Bismuth Vanadate Photoanodes and Its Impact on the Maximum Photocurrent Density Achievable for Water Splitting	https://doi.org/10.1021/acsenergylett.5c01894
+Catarina Ferreira	O	2025	article	Structural Colored Planar Multilayers with Minimal Angular Color Dependence for Building Integrated Photovoltaics	https://doi.org/10.1002/solr.202500674
+Catarina Ferreira	O	2024	conference-paper	Numerical Optimization of Structural Colored Interlayers for Building-Integrated Photovoltaics	https://doi.org/10.29363/nanoge.matsusspring.2025.269
+Catarina Ferreira	O	2024	article	Design and Optimization of Structural Colored Interlayers for Building-Integrated Photovoltaic Applications	https://doi.org/10.4229/eupvsec2024/4bv.4.6
+Catarina Ferreira	O	2023	dissertation	Light absorption and ergodicity in systems that transform light into other forms of energy	https://doi.org/10.5821/dissertation-2117-403952
+Catarina Ferreira	O	2021	conference-paper	Half Cylinder Photonic Plate with Broadband Polarized Light Emission incorporating Light Recycling to Electricity Using Perovskite Solar Cells	https://doi.org/10.1364/pvled.2021.pvf2d.4
+Catarina Ferreira	O	2022	conference-paper	Computational and Experimental Photonic Structures Light Management Optimization of BiVO4/OPV Tandem PEC/PV Structures Adapted for H2 and CO2R Solar Fuels.	https://doi.org/10.29363/nanoge.nfm.2022.093
+Catarina Ferreira	O	2022	conference-paper	A half-cylinder photonic plate for broadband light polarization and light recycling by integrated engineered perovskite photovoltaic cells	https://doi.org/10.1364/noma.2022.jtu4h.3
+Catarina Ferreira	O	2024	conference-abstract	Photonic management for open-circuit voltage enhancement in perovskite solar cells	https://doi.org/10.1117/12.3017476
+Catarina Ferreira	O	2024	article	Reliability Investigation of Structural Colour Interlayers for Coloured PV Modules	https://doi.org/10.4229/eupvsec2024/3av.2.21
+Catarina Ferreira	O	2026	article	ZnO Electron Transport Layers for Scalable Nonfullerene Acceptor-Based Organic Photovoltaics: Assessing the Role of Processing Technique on Device Performance and Stability	https://doi.org/10.1021/acsami.6c00680
+Catarina Ferreira	O	2026	article	Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Structural Colors	https://doi.org/10.1021/acsanm.6c01961
+Paulo André Dias Gonçalves	A				A5071537824
+Paulo André Dias Gonçalves	O	2021	article	Quantum Nanophotonics in Two-Dimensional Materials	https://doi.org/10.1021/acsphotonics.0c01224
+Paulo André Dias Gonçalves	O	2025	review	Roadmap for Photonics with 2D Materials	https://doi.org/10.1021/acsphotonics.5c00353
+Paulo André Dias Gonçalves	O	2022	article	Extremely confined gap plasmon modes: when nonlocality matters	https://doi.org/10.1038/s41467-022-30737-2
+Paulo André Dias Gonçalves	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+Paulo André Dias Gonçalves	O	2023	article	Interrogating Quantum Nonlocal Effects in Nanoplasmonics through Electron-Beam Spectroscopy	https://doi.org/10.1021/acs.nanolett.3c00298
+Paulo André Dias Gonçalves	O	2024	article	Probing plexciton emission from 2D materials on gold nanotrenches	https://doi.org/10.1038/s41467-024-53669-5
+Paulo André Dias Gonçalves	O	2021	article	Harnessing ultraconfined graphene plasmons to probe the electrodynamics of superconductors	https://doi.org/10.1073/pnas.2012847118
+Paulo André Dias Gonçalves	O	2024	article	Quantum effects in the interaction of low-energy electrons with light	https://doi.org/10.1126/sciadv.adp4096
+Paulo André Dias Gonçalves	O	2022	article	An image interaction approach to quantum-phase engineering of two-dimensional materials	https://doi.org/10.1038/s41467-022-32508-5
+Paulo André Dias Gonçalves	O	2023	article	Gain-compensated cavities for the dynamic control of light-matter interactions	https://doi.org/10.1103/physreva.107.043707
+Paulo André Dias Gonçalves	O	2023	article	Multi-plasmon effects and plasmon satellites in photoemission from nanostructures	https://doi.org/10.1039/d3nr01223a
+Paulo André Dias Gonçalves	O	2025	article	Rydberg-Atom Manipulation through Strong Interaction with Free Electrons	https://doi.org/10.1021/acsnano.4c14658
+Paulo André Dias Gonçalves	O	2021	dataset	Feibelman d-parameters for crystalline noble metals	https://doi.org/10.6084/m9.figshare.13772371
+Paulo André Dias Gonçalves	O	2021	conference-paper	Probing the quantum surface-response of materials using ultraconfined graphene plasmons	https://doi.org/10.1117/12.2594642
+Paulo André Dias Gonçalves	O	2021	conference-paper	Quantum Surface-Response of Metals Probed by Graphene Plasmons	https://doi.org/10.1109/cleo/europe-eqec52157.2021.9542016
+Paulo André Dias Gonçalves	O	2022	conference-paper	Quantum surface-response in nanoplasmonics probed by electron spectroscopies	https://doi.org/10.1117/12.2609060
+Paulo André Dias Gonçalves	O	2022	conference-paper	Surface response functions of crystal-oriented noble metals in plasmonic and optoelectronic applications	https://doi.org/10.1117/12.2609457
+Paulo André Dias Gonçalves	O	2022	conference-paper	Electron-beam Spectroscopies as Probes of Quantum Effects in Nanoplasmonics	https://doi.org/10.1364/cleo_qels.2022.ff3c.6
+Paulo André Dias Gonçalves	O	2022	conference-paper	Plasmon Satellites in Photoemission from Plasmonic Nanoparticles	https://doi.org/10.1117/12.2633582
+Paulo André Dias Gonçalves	O	2022	conference-paper	Plasmon Satellites in Photoemission: Application to Metal Nanoparticles	https://doi.org/10.1364/cleo_at.2022.jtu3b.43
+Paulo André Dias Gonçalves	O	2022	conference-paper	Quantifying quantum nonlocal effects in nanoplasmonics using electron-beam spectroscopies	https://doi.org/10.1117/12.2633608
+Paulo André Dias Gonçalves	O	2022	conference-paper	Quantum-phase two-dimensional materials (Conference Presentation)	https://doi.org/10.1117/12.2633361
+Paulo André Dias Gonçalves	O	2022	conference-paper	Quantum interactions enable a new generation of low-dimensional materials (Conference Presentation)	https://doi.org/10.1117/12.2633947
+Paulo André Dias Gonçalves	O	2024	article	Graphene plasmonics: manipulating light at the nanoscale with a one-atom-thick material	https://doi.org/10.1051/epn/2024406
+Paulo André Dias Gonçalves	O	2024	conference-paper	Ultrafast thermoelectric effects in plasmonic nanostructures	https://doi.org/10.1117/12.3028351
+Paulo André Dias Gonçalves	O	2024	conference-paper	Quantum effects in the interaction of low-energy electrons with optical fields	https://doi.org/10.1117/12.3027933
+Paulo André Dias Gonçalves	O	2025	conference-paper	Quantum Effects in Nanophotonic Light–Matter Interactions	https://openalex.org/W7126334589
+Paulo André Dias Gonçalves	O	2026	preprint	Probe- and Substrate-Dependent Visibility of Mie Resonances in Silicon Nanospheres	https://doi.org/10.48550/arxiv.2605.11661
+Paulo André Dias Gonçalves	O	2026	preprint	Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality	https://doi.org/10.48550/arxiv.2609.38870
+Paulo André Dias Gonçalves	O	2026	conference-paper	Quantum Plasmonics in Metals and Emerging Applications of Graphene Plasmons	https://openalex.org/W7215426858
+Christian Nicolaisen Hansen	A				A5113046091
+Christian Nicolaisen Hansen	O	2024	article	Quantum-informed plasmonics for strong coupling: the role of electron spill-out	https://doi.org/10.1364/josab.512129
+Christian Nicolaisen Hansen	O	2026	article	Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticles for tailored light-matter interactions	https://doi.org/10.1103/293c-zw7m
+Christian Nicolaisen Hansen	O	2026	article	Velocity‐Tunable Exciton‐Photon Hybridization in Cathodoluminescence	https://doi.org/10.1002/adfm.76737
+Christian Nicolaisen Hansen	O	2026	preprint	Drift-induced nonreciprocity in image-polariton-mediated dipole emission	https://doi.org/10.48550/arxiv.2610.38348
+Jacob Terndrup Heiden	A				A5032432325
+Jacob Terndrup Heiden	O	2022	article	Full 2π tunable phase modulation using avoided crossing of resonances	https://doi.org/10.1038/s41467-022-29721-7
+Jacob Terndrup Heiden	O	2021	article	Real-space imaging of acoustic plasmons in large-area graphene grown by chemical vapor deposition	https://doi.org/10.1038/s41467-021-21193-5
+Jacob Terndrup Heiden	O	2022	article	Near-field probing of image phonon-polaritons in hexagonal boron nitride on gold crystals	https://doi.org/10.1126/sciadv.abn0627
+Jacob Terndrup Heiden	O	2022	article	Image polaritons in van der Waals crystals	https://doi.org/10.1515/nanoph-2021-0693
+Jacob Terndrup Heiden	O	2022	article	Low‐Loss Anisotropic Image Polaritons in van der Waals Crystal α‐MoO 3	https://doi.org/10.1002/adom.202201492
+Jacob Terndrup Heiden	O	2022	article	Design framework for polarization‐insensitive multifunctional achromatic metalenses	https://doi.org/10.1515/nanoph-2021-0638
+Jacob Terndrup Heiden	O	2025	article	Polaritonic Fourier crystal	https://doi.org/10.1038/s41467-025-57748-z
+Jacob Terndrup Heiden	O	2024	article	Fourier analysis of near-field patterns generated by propagating polaritons	https://doi.org/10.1103/physrevapplied.22.014076
+Jacob Terndrup Heiden	O	2024	article	High‐Index and Low‐Loss Topological Insulators for Mid‐Infrared Nanophotonics: Bismuth and Antimony Chalcogenides	https://doi.org/10.1002/adom.202302797
+Jacob Terndrup Heiden	O	2025	article	Optical Charge Trap Memory Based on Graphene/ZnO Heterostructures for Long‐Term Retention and Adaptive Learning	https://doi.org/10.1002/aelm.202500361
+Jacob Terndrup Heiden	O	2025	article	Bypassing Nonlocal Phenomena in Metals Using Phonon-Polaritons	https://doi.org/10.1021/acsnano.5c07349
+Jacob Terndrup Heiden	O	2026	article	Quasi‐Single‐Mode Polaritonic Crystal for Hyperbolic Phonon‐Polaritons	https://doi.org/10.1002/adom.202502662
+Jacob Terndrup Heiden	O	2022	article	Low‐Loss Anisotropic Image Polaritons in van der Waals Crystal α‐MoO3 (Advanced Optical Materials 21/2022)	https://doi.org/10.1002/adom.202270082
+Jacob Terndrup Heiden	O	2024	article	High‐Index and Low‐Loss Topological Insulators for Mid‐Infrared Nanophotonics: Bismuth and Antimony Chalcogenides (Advanced Optical Materials 18/2024)	https://doi.org/10.1002/adom.202470056
+Jacob Terndrup Heiden	O	2022	review	Image polaritons in van der Waals crystals	https://doi.org/10.1515/nanoph-2021-0693
+Jacob Terndrup Heiden	O	2026	preprint	Local control and lateral nanofocusing of hyperbolic phonon polaritons	https://doi.org/10.48550/arxiv.2604.08996
+Jacob Terndrup Heiden	O	2026	preprint	Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.48550/arxiv.2608.12105
+Jacob Terndrup Heiden	O	2026	conference-paper	Prospects to bypass metal nonlocal phenomena using phonon-polaritons	https://openalex.org/W7215334923
+Huatian Hu	A				A5015171976 A5103482308 A5136008919
+Huatian Hu	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+Huatian Hu	O	2026	dataset	Dataset of: Seeing Beyond RGB Capabilities: Data-Driven and Physics-Guided Broadband Spectral Extrapolation of Plasmonic Nanostructures by Deep Learning	https://doi.org/10.5281/zenodo.19499233
+Huatian Hu	O	2026	preprint	Plasmonic-cavity Modulator for the Mid-IR with a Semi-transparent and Nonlinear Heavily-doped Semiconductor Mirror	https://doi.org/10.48550/arxiv.2606.31438
+Huatian Hu	O	2026	preprint	Probe- and Substrate-Dependent Visibility of Mie Resonances in Silicon Nanospheres	https://doi.org/10.48550/arxiv.2605.11661
+Line Jelver	A				A5008227607
+Line Jelver	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+Line Jelver	O	2024	article	Nonlinear Thermoplasmonics in Graphene Nanostructures	https://doi.org/10.1021/acs.nanolett.4c04048
+Line Jelver	O	2023	article	Nonlinear Plasmonics in Nanostructured Phosphorene	https://doi.org/10.1021/acsnano.3c05363
+Line Jelver	O	2025	article	Nonlocal electrodynamics of two‐dimensional anisotropic magnetoplasmons	https://doi.org/10.1515/nanoph-2025-0233
+Line Jelver	O	2023	article	Electron-induced nonlinear dynamics in atomic chains	https://doi.org/10.1103/physrevresearch.5.l022015
+Line Jelver	O	2021	article	Assessing the role of quantum effects in two-dimensional heterophase MoTe2 field effect transistors	https://doi.org/10.1103/physrevb.104.045313
+Line Jelver	O	2021	article	Atomic-scale modelling of interfaces in nanoscale electronics	https://openalex.org/W3207237894
+Line Jelver	O	2021	conference-paper	Atomic-scale Modeling of 2D Material Based Contacts and Transistors for Nanoscale Electronics	https://doi.org/10.1109/nmdc50713.2021.9677494
+Line Jelver	O	2022	conference-paper	Tailoring high-harmonic generation in atomically-thin materials (Conference Presentation)	https://doi.org/10.1117/12.2633283
+Line Jelver	O	2025	conference-paper	Nonlinear Thermoplasmonics in Photoexcited Graphene Nanoribbons	https://doi.org/10.1109/cleo/europe-eqec65582.2025.11110631
+Line Jelver	O	2025	conference-paper	Invited - Nonlinear plasmonics in 2D nanoribbons and heterostructures	https://doi.org/10.1051/epjconf/202533509001
+Line Jelver	O	2026	article	Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticles for tailored light-matter interactions	https://doi.org/10.1103/293c-zw7m
+Line Jelver	O	2025	article	Invited - Nonlinear plasmonics in 2D nanoribbons and heterostructures	https://doi.org/10.1051/epjconf/202533509001/pdf
+Line Jelver	O	2026	article	Nonlocal and Nonlinear Plasmonics in Atomically Thin Heterostructures	https://doi.org/10.1021/acsnano.5c20758
+Line Jelver	O	2026	article	Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS2 via Ferroelectricity-Controlled Photodoping	https://doi.org/10.1021/acsphotonics.6c01966
+Line Jelver	O	2026	preprint	Nonlocal-nonlinear phonon polaritons	https://doi.org/10.48550/arxiv.2608.24344
+Line Jelver	O	2026	conference-paper	Tunability of nonlinear plasmonics in nanostructured 2D materials	https://openalex.org/W7215150294
+Line Jelver	O	2026	dataset	Data supporting: Benchmarking database-grounded language-model agents for atomistic structure identification	https://doi.org/10.5281/zenodo.23299385
+Line Jelver	O	2026	preprint	Benchmarking database-grounded language-model agents for atomistic structure identification	https://doi.org/10.5281/zenodo.23312179
 Louise Skovborg Just	-				skipped: Centre Administrator
-Toke Marstrand Pontoppidan Lindhard	A				RATE-LIMITED
-Daniel de Abreu Miranda	A				RATE-LIMITED
-Sergii Morozov	A				RATE-LIMITED
-N. Asger Mortensen	A				RATE-LIMITED
-Christos Mystilidis	A				RATE-LIMITED
-Christos Tserkezis	A				RATE-LIMITED
-Nicolas Ubrig	A				RATE-LIMITED
+Toke Marstrand Pontoppidan Lindhard	A				
+Daniel de Abreu Miranda	A				
+Sergii Morozov	A				A5053363777
+Sergii Morozov	O	2023	article	Purifying single photon emission from giant shell CdSe/CdS quantum dots at room temperature	https://doi.org/10.1039/d2nr04744f
+Sergii Morozov	O	2023	article	Photon superbunching in cathodoluminescence of excitons in WS2monolayer	https://doi.org/10.1088/2053-1583/acbf66
+Sergii Morozov	O	2021	article	Room‐Temperature Low‐Voltage Control of Excitonic Emission in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.1002/adom.202101305
+Sergii Morozov	O	2023	article	Sub‐to‐super‐Poissonian photon statistics in cathodoluminescence of color center ensembles in isolated diamond crystals	https://doi.org/10.1515/nanoph-2023-0204
+Sergii Morozov	O	2024	article	Inducing room-temperature valley polarization of excitonic emission in transition metal dichalcogenide monolayers	https://doi.org/10.1038/s41699-024-00459-8
+Sergii Morozov	O	2025	article	An atlas of photonic and plasmonic materials for cathodoluminescence microscopy	https://doi.org/10.1515/nanoph-2025-0135
+Sergii Morozov	O	2021	article	Оптимизация диэлектрического волновода для лазерных структур дальнего инфракрасного диапазона на основе HgTe/CdHgTe	https://doi.org/10.21883/ftp.2021.05.50837.9581
+Sergii Morozov	O	2021	article	Влияние внутренних оптических потерь на генерацию стимулированного излучения в среднем ИК диапазоне в волноводных гетероструктурах с квантовыми ямами HgCdTe/CdHgTe	https://doi.org/10.21883/ftp.2021.10.51445.49
+Sergii Morozov	O	2021	article	ФОТОТЕРМИЧЕСКАЯ ИОНИЗАЦИОННАЯ СПЕКТРОСКОПИЯ ВАКАНСИЙ РТУТИ В ЭПИТАКСИАЛЬНЫХ ПЛЕНКАХ HGCDTE	https://doi.org/10.31857/s1234567821060100
+Sergii Morozov	O	2021	article	Стимулированное излучение в диапазоне 10-31 мкм в гетероструктурах с квантовыми ямами HgTe / CdHgTe с диэлектрическим и «фононным» волноводами	https://doi.org/10.34077/rcsp2021-29
+Sergii Morozov	O	2026	article	Substrate-assisted cathodoluminescence	https://doi.org/10.1038/s44310-026-00116-6
+Sergii Morozov	O	2026	preprint	Probe- and Substrate-Dependent Visibility of Mie Resonances in Silicon Nanospheres	https://doi.org/10.48550/arxiv.2605.11661
+Sergii Morozov	O	2026	article	Velocity‐Tunable Exciton‐Photon Hybridization in Cathodoluminescence	https://doi.org/10.1002/adfm.76737
+Sergii Morozov	O	2026	preprint	Controlling Electron-Beam-Induced Charging in Colloidal Quantum Dots	https://doi.org/10.48550/arxiv.2607.29387
+Sergii Morozov	O	2026	preprint	Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.48550/arxiv.2608.12105
+Sergii Morozov	O	2026	preprint	Spectral Anisotropy in Transition Radiation from Biaxial Media	https://doi.org/10.13140/rg.2.2.27156.05767
+N. Asger Mortensen	A				A5054073086 A5110559577
+N. Asger Mortensen	O	2021	article	Quantum Nanophotonics in Two-Dimensional Materials	https://doi.org/10.1021/acsphotonics.0c01224
+N. Asger Mortensen	O	2021	article	Mesoscopic electrodynamics at metal surfaces	https://doi.org/10.1515/nanoph-2021-0156
+N. Asger Mortensen	O	2025	review	Roadmap for Photonics with 2D Materials	https://doi.org/10.1021/acsphotonics.5c00353
+N. Asger Mortensen	O	2022	article	Extremely confined gap plasmon modes: when nonlocality matters	https://doi.org/10.1038/s41467-022-30737-2
+N. Asger Mortensen	O	2021	article	Near-infrared nanospectroscopy using a low-noise supercontinuum source	https://doi.org/10.1063/5.0050446
+N. Asger Mortensen	O	2022	article	Quantum surface effects in the electromagnetic coupling between a quantum emitter and a plasmonic nanoantenna: time-dependent density functional theory vs. semiclassical Feibelman approach	https://doi.org/10.1364/oe.456338
+N. Asger Mortensen	O	2024	review	Lithium niobate on insulator – fundamental opto‐electronic properties and photonic device prospects	https://doi.org/10.1515/nanoph-2024-0132
+N. Asger Mortensen	O	2024	article	Nonlocal effects in plasmon‐emitter interactions	https://doi.org/10.1515/nanoph-2023-0575
+N. Asger Mortensen	O	2024	article	Nanoscale precision brings experimental metalens efficiencies on par with theoretical promises	https://doi.org/10.1038/s42005-024-01598-6
+N. Asger Mortensen	O	2022	article	Near-field probing of image phonon-polaritons in hexagonal boron nitride on gold crystals	https://doi.org/10.1126/sciadv.abn0627
+N. Asger Mortensen	O	2021	article	Detection of the Faraday Chiral Anisotropy	https://doi.org/10.1103/physrevlett.126.177401
+N. Asger Mortensen	O	2022	article	Low‐Loss Anisotropic Image Polaritons in van der Waals Crystal α‐MoO 3	https://doi.org/10.1002/adom.202201492
+N. Asger Mortensen	O	2021	article	Quantum surface effects in strong coupling dynamics	https://doi.org/10.1103/physrevb.104.l201405
+N. Asger Mortensen	O	2024	article	Electron beams traversing spherical nanoparticles: Analytic and numerical treatment	https://doi.org/10.1103/physrevresearch.6.013239
+N. Asger Mortensen	O	2023	article	Purifying single photon emission from giant shell CdSe/CdS quantum dots at room temperature	https://doi.org/10.1039/d2nr04744f
+N. Asger Mortensen	O	2023	article	Photon superbunching in cathodoluminescence of excitons in WS2monolayer	https://doi.org/10.1088/2053-1583/acbf66
+N. Asger Mortensen	O	2021	article	Room‐Temperature Low‐Voltage Control of Excitonic Emission in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.1002/adom.202101305
+N. Asger Mortensen	O	2023	article	Sub‐to‐super‐Poissonian photon statistics in cathodoluminescence of color center ensembles in isolated diamond crystals	https://doi.org/10.1515/nanoph-2023-0204
+N. Asger Mortensen	O	2024	article	Modulation of surface response in a single plasmonic nanoresonator	https://doi.org/10.1126/sciadv.adn5227
+N. Asger Mortensen	O	2023	article	Halevi's extension of the Euler-Drude model for plasmonic systems	https://doi.org/10.1103/physrevb.107.115425
+N. Asger Mortensen	O	2025	article	Electrically Tunable and Modulated Perovskite Quantum Emitters via Surface‐Enhanced Landau Damping	https://doi.org/10.1002/adma.202419076
+N. Asger Mortensen	O	2025	article	Tunable Multiresonant Microcavity Exciton-Polaritons in Colloidal Quantum Wells	https://doi.org/10.1021/acs.nanolett.5c00015
+N. Asger Mortensen	O	2024	article	Fourier analysis of near-field patterns generated by propagating polaritons	https://doi.org/10.1103/physrevapplied.22.014076
+N. Asger Mortensen	O	2025	article	Self-Similar Plasmonic Nanolenses: Mesoscopic Ensemble Averaging and Chiral Light–Matter Interactions	https://doi.org/10.1021/acs.jpcc.4c07319
+N. Asger Mortensen	O	2021	article	Harnessing ultraconfined graphene plasmons to probe the electrodynamics of superconductors	https://doi.org/10.1073/pnas.2012847118
+N. Asger Mortensen	O	2022	article	Reconfigurable chirality with achiral excitonic materials in the strong-coupling regime	https://doi.org/10.1039/d2nr05063c
+N. Asger Mortensen	O	2021	article	Analytical description of the 1s exciton linewidth temperature dependence in transition metal dichalcogenides	https://doi.org/10.1103/physrevb.103.235402
+N. Asger Mortensen	O	2022	article	Disentangling Cathodoluminescence Spectra in Nanophotonics: Particle Eigenmodes vs Transition Radiation	https://doi.org/10.1021/acs.nanolett.1c04754
+N. Asger Mortensen	O	2023	article	Nonlinear Photoluminescence in Gold Thin Films	https://doi.org/10.1021/acsphotonics.3c00644
+N. Asger Mortensen	O	2024	article	Self‐hybridisation between interband transitions and Mie modes in dielectric nanoparticles	https://doi.org/10.1515/nanoph-2023-0781
+N. Asger Mortensen	O	2024	article	Inducing room-temperature valley polarization of excitonic emission in transition metal dichalcogenide monolayers	https://doi.org/10.1038/s41699-024-00459-8
+N. Asger Mortensen	O	2024	article	A Dedicated Modeling Scheme for Nonclassical Optical Response From the Nanosphere-on-Mirror Structure	https://doi.org/10.1109/tmtt.2024.3355983
+N. Asger Mortensen	O	2024	article	High‐Index and Low‐Loss Topological Insulators for Mid‐Infrared Nanophotonics: Bismuth and Antimony Chalcogenides	https://doi.org/10.1002/adom.202302797
+N. Asger Mortensen	O	2024	article	Dynamic Mechanical Modulation of WS2 Monolayer by Standing Surface Acoustic Waves	https://doi.org/10.1021/acsphotonics.4c00821
+N. Asger Mortensen	O	2025	article	Near‐field refractometry of van der Waals crystals	https://doi.org/10.1515/nanoph-2025-0117
+N. Asger Mortensen	O	2025	article	Application of Madelung hydrodynamics to plasmonics and nonlinear optics in two-dimensional materials	https://doi.org/10.1103/physreva.111.043508
+N. Asger Mortensen	O	2024	article	Tunable Exciton Polaritons in Band-Gap Engineered Hexagonal Boron Nitride	https://doi.org/10.1021/acsnano.4c07003
+N. Asger Mortensen	O	2024	article	Topology in a one-dimensional plasmonic crystal: the optical approach	https://doi.org/10.1088/2040-8986/ad8dee
+N. Asger Mortensen	O	2025	article	An atlas of photonic and plasmonic materials for cathodoluminescence microscopy	https://doi.org/10.1515/nanoph-2025-0135
+N. Asger Mortensen	O	2025	article	Quantum-Hydrodynamic Modal Perspective on Plasmonic Gap Structures	https://doi.org/10.1021/acs.jpcc.4c08232
+N. Asger Mortensen	O	2025	article	Structural Colored Planar Multilayers with Minimal Angular Color Dependence for Building Integrated Photovoltaics	https://doi.org/10.1002/solr.202500674
+N. Asger Mortensen	O	2023	article	Gain-compensated cavities for the dynamic control of light-matter interactions	https://doi.org/10.1103/physreva.107.043707
+N. Asger Mortensen	O	2022	conference-paper	Highly efficient metalenses for imaging applications at infrared wavelengths	https://doi.org/10.1117/12.2624414
+N. Asger Mortensen	O	2025	article	Nonlocal electrodynamics of two‐dimensional anisotropic magnetoplasmons	https://doi.org/10.1515/nanoph-2025-0233
+N. Asger Mortensen	O	2024	article	Scaling Behavior of the Degree of Circular Polarization of Surface Plasmon Polariton	https://doi.org/10.1021/acsphotonics.4c00297
+N. Asger Mortensen	O	2024	article	Quantum Depletion of Superconductivity in 3D Diamond Nanowires	https://doi.org/10.1002/qute.202400476
+N. Asger Mortensen	O	2022	article	Fundamental issues with light propagation through PT -symmetric systems	https://doi.org/10.1103/physreva.105.053527
+N. Asger Mortensen	O	2025	article	Tunable exciton polaritons in biased bilayer graphene	https://doi.org/10.1103/physrevb.111.075411
+N. Asger Mortensen	O	2024	article	Dirac Plasmon Polaritons and Magnetic Modes in Topological-Insulator Nanoparticles	https://doi.org/10.1021/acsphotonics.4c00265
+N. Asger Mortensen	O	2025	article	Bypassing Nonlocal Phenomena in Metals Using Phonon-Polaritons	https://doi.org/10.1021/acsnano.5c07349
+N. Asger Mortensen	O	2022	article	Low‐Loss Anisotropic Image Polaritons in van der Waals Crystal α‐MoO3 (Advanced Optical Materials 21/2022)	https://doi.org/10.1002/adom.202270082
+N. Asger Mortensen	O	2024	article	High‐Index and Low‐Loss Topological Insulators for Mid‐Infrared Nanophotonics: Bismuth and Antimony Chalcogenides (Advanced Optical Materials 18/2024)	https://doi.org/10.1002/adom.202470056
+N. Asger Mortensen	O	2021	conference-paper	Probing the quantum surface-response of materials using ultraconfined graphene plasmons	https://doi.org/10.1117/12.2594642
+N. Asger Mortensen	O	2021	conference-paper	Quantum Surface-Response of Metals Probed by Graphene Plasmons	https://doi.org/10.1109/cleo/europe-eqec52157.2021.9542016
+N. Asger Mortensen	O	2022	review	Image polaritons in van der Waals crystals	https://doi.org/10.1515/nanoph-2021-0693
+N. Asger Mortensen	O	2022	conference-paper	Surface response functions of crystal-oriented noble metals in plasmonic and optoelectronic applications	https://doi.org/10.1117/12.2609457
+N. Asger Mortensen	O	2023	conference-abstract	Exceptional-point photonics: the blessing and the curse of enhanced light-matter interactions	https://doi.org/10.1117/12.2657362
+N. Asger Mortensen	O	2023	conference-paper	Exploring Polaritons in Optically-Anisotropic Media	https://doi.org/10.1109/metamaterials58257.2023.10289291
+N. Asger Mortensen	O	2024	conference-abstract	Dirac plasmon polaritons and magnetic modes in topological-insulator nanoparticles	https://doi.org/10.1117/12.3016959
+N. Asger Mortensen	O	2024	conference-abstract	Tunable exciton-polaritons in band-gap engineered hexagonal boron nitride	https://doi.org/10.1117/12.3016546
+N. Asger Mortensen	O	2024	article	Graphene plasmonics: manipulating light at the nanoscale with a one-atom-thick material	https://doi.org/10.1051/epn/2024406
+N. Asger Mortensen	O	2024	conference-paper	Probing Mie-resonant nanoparticles with swift electron beams	https://doi.org/10.1109/metamaterials62190.2024.10703273
+N. Asger Mortensen	O	2025	conference-paper	Electrical Modulation of Plasmonic Nano Particle Surfaces	https://doi.org/10.1109/cleo/europe-eqec65582.2025.11110200
+N. Asger Mortensen	O	2026	article	Substrate-assisted cathodoluminescence	https://doi.org/10.1038/s44310-026-00116-6
+N. Asger Mortensen	O	2026	article	Nanoscopy of surface polarization with oblique dipole orientations	https://doi.org/10.1364/optica.599585
+N. Asger Mortensen	O	2026	article	Microscopic screening theory for excitons in two-dimensional materials: a bridge between effective models and ab initio descriptions	https://doi.org/10.1038/s41524-026-02283-8
+N. Asger Mortensen	O	2026	article	ZnO Electron Transport Layers for Scalable Nonfullerene Acceptor-Based Organic Photovoltaics: Assessing the Role of Processing Technique on Device Performance and Stability	https://doi.org/10.1021/acsami.6c00680
+N. Asger Mortensen	O	2026	preprint	Probe- and Substrate-Dependent Visibility of Mie Resonances in Silicon Nanospheres	https://doi.org/10.48550/arxiv.2605.11661
+N. Asger Mortensen	O	2026	article	Time- and Frequency-Domain Study for Electron Beams Penetrating Dielectric Nanospheres: Fingerprints of Cherenkov and Transition Radiation	https://doi.org/10.1021/acsphotonics.6c01605
+N. Asger Mortensen	O	2026	article	Overcoming Computational Bottlenecks in Quantum Hydrodynamics: A Volume‐Based Integral Formalism for Spherical Nanoparticles	https://doi.org/10.1002/nap2.70179
+N. Asger Mortensen	O	2026	article	Velocity‐Tunable Exciton‐Photon Hybridization in Cathodoluminescence	https://doi.org/10.1002/adfm.76737
+N. Asger Mortensen	O	2026	preprint	Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.48550/arxiv.2608.12105
+N. Asger Mortensen	O	2026	preprint	Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality	https://doi.org/10.48550/arxiv.2609.38870
+N. Asger Mortensen	O	2026	preprint	White-light driven photoluminescence from a few nanoplatelets in a plasmonic nanogap	https://doi.org/10.21203/rs.3.rs-11109062/v1
+N. Asger Mortensen	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+N. Asger Mortensen	O	2025	article	Analytic methods in electron energy-loss and cathodoluminescence spectroscopy of planar and spherical nanostructures: tutorial	https://doi.org/10.1364/josab.559215
+N. Asger Mortensen	O	2026	article	Plasmonic color nanoprinting: from trimer to quasi-freeform aluminum voids	https://doi.org/10.1364/optica.600142
+Christos Mystilidis	A				A5053903526
+Christos Mystilidis	O	2025	article	Quantum Mechanics in Plasmonic Nanocavities: from Theory to Applications	https://doi.org/10.1002/apxr.202400144
+Christos Mystilidis	O	2023	article	A Potential‐Based Boundary Element Implementation for Modeling Multiple Scattering from Local and Nonlocal Plasmonic Nanowires	https://doi.org/10.1002/adts.202200722
+Christos Mystilidis	O	2022	article	A Boundary Integral Equation Formalism for Modeling Multiple Scattering of Light from 3D Nanoparticles Incorporating Nonlocal Effects	https://doi.org/10.1002/adts.202200485
+Christos Mystilidis	O	2022	article	OpenSANS: A Semi-Analytical solver for Nonlocal plasmonicS	https://doi.org/10.1016/j.cpc.2022.108609
+Christos Mystilidis	O	2024	article	The Uniqueness Theorem for Nonlocal Hydrodynamic Media	https://doi.org/10.1109/tap.2024.3487016
+Christos Mystilidis	O	2021	article	On the Deviation of MAS Fields in the Far-Field Region of Elementary Sources Close to Infinite Boundaries	https://doi.org/10.1109/tap.2021.3098619
+Christos Mystilidis	O	2022	article	The Mellin Transform Method: Electromagnetics, Complex Analysis, and Educational Potential [Education Corner]	https://doi.org/10.1109/map.2022.3195465
+Christos Mystilidis	O	2024	conference-paper	Modelling the Quantum Hydrodynamic Response from an Arbitrarily Shaped Nanoantenna: A Volume Integral Equation Approach	https://doi.org/10.1109/iceaa61917.2024.10701934
+Christos Mystilidis	O	2025	book-chapter	Computational Plasmonics: Boundary Integral Equation Methods in Scattering Problems	https://doi.org/10.1007/978-3-031-83131-7_9
+Christos Mystilidis	O	2026	article	An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Sphere Aggregates	https://doi.org/10.1109/tap.2026.3698275
+Christos Mystilidis	O	2026	article	Overcoming Computational Bottlenecks in Quantum Hydrodynamics: A Volume‐Based Integral Formalism for Spherical Nanoparticles	https://doi.org/10.1002/nap2.70179
+Christos Mystilidis	O	2026	preprint	Gibbs Phenomenon and Friedel Oscilations: Similarities, Differences, and the Educational Potential of their Comparison	https://doi.org/10.48550/arxiv.2607.25469
+Christos Mystilidis	O	2026	preprint	OpenMUSTANC (MUltiple Scattering Theory At Nanoplasmonic Cavities): A MATLAB toolbox for the simulation of Plasmonic Sphere Aggregates	https://doi.org/10.48550/arxiv.2608.30565
+Christos Mystilidis	O	2026	preprint	Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality	https://doi.org/10.48550/arxiv.2609.38870
+Christos Mystilidis	O	2026	conference-paper	On An Integral-Equation Method in Quantum Hydrodynamics:Efficiency and Convergence Issues	https://openalex.org/W7215152900
+Christos Mystilidis	O	2026	preprint	An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Nanowires	https://doi.org/10.48550/arxiv.2610.01144
+Christos Tserkezis	A				A5080578706
+Christos Tserkezis	O	2022	article	Finite-size and quantum effects in plasmonics: manifestations and theoretical modelling [Invited]	https://doi.org/10.1364/ome.456407
+Christos Tserkezis	O	2025	article	Nonlocality in photonic materials and metamaterials: roadmap	https://doi.org/10.1364/ome.559374
+Christos Tserkezis	O	2022	article	Quantum surface effects in the electromagnetic coupling between a quantum emitter and a plasmonic nanoantenna: time-dependent density functional theory vs. semiclassical Feibelman approach	https://doi.org/10.1364/oe.456338
+Christos Tserkezis	O	2024	article	Nonlocal effects in plasmon‐emitter interactions	https://doi.org/10.1515/nanoph-2023-0575
+Christos Tserkezis	O	2021	article	Detection of the Faraday Chiral Anisotropy	https://doi.org/10.1103/physrevlett.126.177401
+Christos Tserkezis	O	2021	article	Quantum surface effects in strong coupling dynamics	https://doi.org/10.1103/physrevb.104.l201405
+Christos Tserkezis	O	2024	article	Electron beams traversing spherical nanoparticles: Analytic and numerical treatment	https://doi.org/10.1103/physrevresearch.6.013239
+Christos Tserkezis	O	2025	article	Quantum Mechanics in Plasmonic Nanocavities: from Theory to Applications	https://doi.org/10.1002/apxr.202400144
+Christos Tserkezis	O	2025	article	Self-Similar Plasmonic Nanolenses: Mesoscopic Ensemble Averaging and Chiral Light–Matter Interactions	https://doi.org/10.1021/acs.jpcc.4c07319
+Christos Tserkezis	O	2022	article	Reconfigurable chirality with achiral excitonic materials in the strong-coupling regime	https://doi.org/10.1039/d2nr05063c
+Christos Tserkezis	O	2021	article	Role of emitter position and orientation on silicon nanoparticle-enhanced fluorescence	https://doi.org/10.1364/osac.412032
+Christos Tserkezis	O	2022	article	Disentangling Cathodoluminescence Spectra in Nanophotonics: Particle Eigenmodes vs Transition Radiation	https://doi.org/10.1021/acs.nanolett.1c04754
+Christos Tserkezis	O	2024	article	Self‐hybridisation between interband transitions and Mie modes in dielectric nanoparticles	https://doi.org/10.1515/nanoph-2023-0781
+Christos Tserkezis	O	2024	article	Quantum-informed plasmonics for strong coupling: the role of electron spill-out	https://doi.org/10.1364/josab.512129
+Christos Tserkezis	O	2024	article	A Dedicated Modeling Scheme for Nonclassical Optical Response From the Nanosphere-on-Mirror Structure	https://doi.org/10.1109/tmtt.2024.3355983
+Christos Tserkezis	O	2024	article	Tunable Exciton Polaritons in Band-Gap Engineered Hexagonal Boron Nitride	https://doi.org/10.1021/acsnano.4c07003
+Christos Tserkezis	O	2025	article	Quantum-Hydrodynamic Modal Perspective on Plasmonic Gap Structures	https://doi.org/10.1021/acs.jpcc.4c08232
+Christos Tserkezis	O	2025	article	Analytic methods in electron energy-loss and cathodoluminescence spectroscopy of planar and spherical nanostructures: tutorial	https://doi.org/10.1364/josab.559215
+Christos Tserkezis	O	2025	article	Non-Markovian effects in long-range polariton-mediated energy transfer	https://doi.org/10.1063/5.0245977
+Christos Tserkezis	O	2023	article	Gain-compensated cavities for the dynamic control of light-matter interactions	https://doi.org/10.1103/physreva.107.043707
+Christos Tserkezis	O	2024	article	The Uniqueness Theorem for Nonlocal Hydrodynamic Media	https://doi.org/10.1109/tap.2024.3487016
+Christos Tserkezis	O	2022	article	Fundamental issues with light propagation through PT -symmetric systems	https://doi.org/10.1103/physreva.105.053527
+Christos Tserkezis	O	2025	article	Tunable exciton polaritons in biased bilayer graphene	https://doi.org/10.1103/physrevb.111.075411
+Christos Tserkezis	O	2024	article	Dirac Plasmon Polaritons and Magnetic Modes in Topological-Insulator Nanoparticles	https://doi.org/10.1021/acsphotonics.4c00265
+Christos Tserkezis	O	2026	article	Probing Strong Coupling in Core–Shell Nanoparticles With Fast Electron Beams	https://doi.org/10.1002/pssa.70468
+Christos Tserkezis	O	2021	preprint	Weak and strong-coupling dynamics of quantum emitters in the vicinity of metallic films: role of electron spill-out	https://openalex.org/W3130904228
+Christos Tserkezis	O	2021	dataset	Feibelman d-parameters for crystalline noble metals	https://doi.org/10.6084/m9.figshare.13772371
+Christos Tserkezis	O	2021	dissertation	Towards quantum nanophotonics: from quantum-informed plasmonics to strong coupling	https://doi.org/10.13140/rg.2.2.33494.37445/1
+Christos Tserkezis	O	2022	conference-paper	Surface response functions of crystal-oriented noble metals in plasmonic and optoelectronic applications	https://doi.org/10.1117/12.2609457
+Christos Tserkezis	O	2023	conference-paper	Exploring Polaritons in Optically-Anisotropic Media	https://doi.org/10.1109/metamaterials58257.2023.10289291
+Christos Tserkezis	O	2024	conference-abstract	Dirac plasmon polaritons and magnetic modes in topological-insulator nanoparticles	https://doi.org/10.1117/12.3016959
+Christos Tserkezis	O	2024	conference-abstract	Tunable exciton-polaritons in band-gap engineered hexagonal boron nitride	https://doi.org/10.1117/12.3016546
+Christos Tserkezis	O	2024	conference-paper	Surface-Response Formalism for Light–Matter Interactions in Mesoscopic Plasmonics	https://doi.org/10.1109/iccem60619.2024.10558955
+Christos Tserkezis	O	2024	conference-paper	Probing Mie-resonant nanoparticles with swift electron beams	https://doi.org/10.1109/metamaterials62190.2024.10703273
+Christos Tserkezis	O	2026	article	An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Sphere Aggregates	https://doi.org/10.1109/tap.2026.3698275
+Christos Tserkezis	O	2026	article	Screened topological plasmons in graphene plasmonic crystals	https://doi.org/10.1103/1y59-qr4q
+Christos Tserkezis	O	2026	article	Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticles for tailored light-matter interactions	https://doi.org/10.1103/293c-zw7m
+Christos Tserkezis	O	2025	article	Enhanced exciton-to-trion conversion in monolayer MoS2 via nanometrically localized strain at cryogenic temperature	https://doi.org/10.1016/j.jlumin.2025.121727
+Christos Tserkezis	O	2026	article	Microscopic screening theory for excitons in two-dimensional materials: a bridge between effective models and ab initio descriptions	https://doi.org/10.1038/s41524-026-02283-8
+Christos Tserkezis	O	2026	erratum	Erratum: Electron beams traversing spherical nanoparticles: Analytic and numerical treatment [Phys. Rev. Research 6 , 013239 (2024)]	https://doi.org/10.1103/vpwx-zp92
+Christos Tserkezis	O	2026	preprint	Probe- and Substrate-Dependent Visibility of Mie Resonances in Silicon Nanospheres	https://doi.org/10.48550/arxiv.2605.11661
+Christos Tserkezis	O	2026	article	Time- and Frequency-Domain Study for Electron Beams Penetrating Dielectric Nanospheres: Fingerprints of Cherenkov and Transition Radiation	https://doi.org/10.1021/acsphotonics.6c01605
+Christos Tserkezis	O	2025	dataset	Data Underpinning: Non-Markovian effects in long-range polariton-mediated energy transfer	https://doi.org/10.17630/34879235-3b2c-458b-ab29-121169dfb18d
+Christos Tserkezis	O	2026	article	Overcoming Computational Bottlenecks in Quantum Hydrodynamics: A Volume‐Based Integral Formalism for Spherical Nanoparticles	https://doi.org/10.1002/nap2.70179
+Christos Tserkezis	O	2026	preprint	Gibbs Phenomenon and Friedel Oscilations: Similarities, Differences, and the Educational Potential of their Comparison	https://doi.org/10.48550/arxiv.2607.25469
+Christos Tserkezis	O	2026	article	Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Structural Colors	https://doi.org/10.1021/acsanm.6c01961
+Christos Tserkezis	O	2026	preprint	OpenMUSTANC (MUltiple Scattering Theory At Nanoplasmonic Cavities): A MATLAB toolbox for the simulation of Plasmonic Sphere Aggregates	https://doi.org/10.48550/arxiv.2608.30565
+Christos Tserkezis	O	2026	preprint	Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality	https://doi.org/10.48550/arxiv.2609.38870
+Christos Tserkezis	O	2026	conference-paper	On An Integral-Equation Method in Quantum Hydrodynamics:Efficiency and Convergence Issues	https://openalex.org/W7215152900
+Christos Tserkezis	O	2026	conference-paper	Structural colours using transition metal dichalcogenide nanostructures	https://openalex.org/W7215318860
+Christos Tserkezis	O	2026	preprint	An S-matrix Formalism for the Nonclassical Optical Response of Plasmonic Nanowires	https://doi.org/10.48550/arxiv.2610.01144
+Christos Tserkezis	O	2026	preprint	Drift-induced nonreciprocity in image-polariton-mediated dipole emission	https://doi.org/10.48550/arxiv.2610.38348
+Nicolas Ubrig	A				A5036132743
+Nicolas Ubrig	O	2022	article	Quasi‐1D Electronic Transport in a 2D Magnetic Semiconductor	https://doi.org/10.1002/adma.202109759
+Nicolas Ubrig	O	2022	article	Quenching the bandgap of two-dimensional semiconductors with a perpendicular electric field	https://doi.org/10.1038/s41565-022-01183-4
+Nicolas Ubrig	O	2023	article	Gate‐Controlled Magnetotransport and Electrostatic Modulation of Magnetism in 2D Magnetic Semiconductor CrPS 4	https://doi.org/10.1002/adma.202211653
+Nicolas Ubrig	O	2023	article	Flat Γ Moiré Bands in Twisted Bilayer WSe 2	https://doi.org/10.1103/physrevlett.131.046401
+Nicolas Ubrig	O	2023	article	Multiple antiferromagnetic phases and magnetic anisotropy in exfoliated CrBr3 multilayers	https://doi.org/10.1038/s41467-023-40723-x
+Nicolas Ubrig	O	2021	review	Ionic gate spectroscopy of 2D semiconductors	https://doi.org/10.1038/s42254-021-00317-2
+Nicolas Ubrig	O	2021	article	Magnetization dependent tunneling conductance of ferromagnetic barriers	https://doi.org/10.1038/s41467-021-26973-7
+Nicolas Ubrig	O	2023	article	Magnetism-Induced Band-Edge Shift as the Mechanism for Magnetoconductance in CrPS4 Transistors	https://doi.org/10.1021/acs.nanolett.3c02274
+Nicolas Ubrig	O	2023	article	Full Control of Solid‐State Electrolytes for Electrostatic Gating	https://doi.org/10.1002/adma.202211993
+Nicolas Ubrig	O	2025	article	Brightened Optical Transition Hinting to Strong Spin‐Lattice Coupling in a Layered Antiferromagnet	https://doi.org/10.1002/advs.202408343
+Nicolas Ubrig	O	2022	article	Light sources with bias tunable spectrum based on van der Waals interface transistors	https://doi.org/10.1038/s41467-022-31605-9
+Nicolas Ubrig	O	2022	article	Probing Magnetism in Exfoliated VI3Layers with Magnetotransport	https://doi.org/10.1021/acs.nanolett.2c01361
+Nicolas Ubrig	O	2025	article	Positive Oscillating Magnetoresistance in a van der Waals Antiferromagnetic Semiconductor	https://doi.org/10.1103/physrevx.15.011017
+Nicolas Ubrig	O	2026	article	Collective photon emission and ferroelectric exciton ordering near Mott insulating state in WSe2/WS2 heterobilayers	https://doi.org/10.1038/s41563-025-02476-4
+Nicolas Ubrig	O	2021	article	Identifying atomically thin crystals with diffusively reflected light	https://doi.org/10.1088/2053-1583/ac171c
+Nicolas Ubrig	O	2023	conference-paper	Quenching of the band gap of two-dimensional semiconductors with a perpendicular electric field*	https://doi.org/10.1109/nmdc57951.2023.10343880
+Nicolas Ubrig	O	2021	article	Giant Anomalous Hall Effect in quasi-2D Layered Antiferromagnet Co 1/3 NbS 2	https://openalex.org/W3133164385
+Nicolas Ubrig	O	2022	dataset	Van der Waals Interface Transistors as Light Sources with Bias Tunable Spectrum	https://doi.org/10.26037/yareta:mze42hgmc5cqtdsqmeszkprfxm
+Nicolas Ubrig	O	2023	erratum	Author Correction: Multiple antiferromagnetic phases and magnetic anisotropy in exfoliated CrBr3 multilayers	https://doi.org/10.1038/s41467-023-41613-y
+Nicolas Ubrig	O	2026	preprint	Electron-phonon coupling across the TMD/hBN van der Waals interface	https://doi.org/10.48550/arxiv.2604.24139
+Nicolas Ubrig	O	2026	preprint	Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers	https://doi.org/10.48550/arxiv.2608.12105
