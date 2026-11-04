@@ -44,7 +44,14 @@ async def goto(page, url):
                 t = await page.title()
                 if not re.search(r"moment|øjeblik|attention", t, re.I): break
                 await page.wait_for_timeout(1500)
-            await page.wait_for_timeout(400)
+            # a bot check may reload the page; wait until the listing (or an empty-result text) is there
+            try:
+                await page.wait_for_selector("main h3, main .empty, main p", timeout=20000)
+            except Exception:  # noqa: BLE001
+                pass
+            await page.wait_for_timeout(600)
+            if re.search(r"moment|øjeblik|attention", await page.title(), re.I):
+                await page.wait_for_timeout(8000)
             return r.status if r else 0
         except Exception as e:  # noqa: BLE001
             print("  retry", url, type(e).__name__, flush=True)
@@ -66,6 +73,8 @@ async def listing(page, url, stop_year=FROM):
         st = await goto(page, url + (f"?page={p}" if p else ""))
         if st >= 400: break
         got = await page.evaluate(JS_LIST)
+        if not got and p == 0:  # second chance after a bot check
+            await page.wait_for_timeout(5000); await goto(page, url); got = await page.evaluate(JS_LIST)
         new = [g for g in got if (g["title"], g["year"]) not in seen]
         if not new: break
         for g in new: seen.add((g["title"], g["year"]))
@@ -88,7 +97,7 @@ async def run(inst):
             if not path:
                 rows.append([name, "-", "", "", "", "MISS"]); print(inst, name, "MISS", flush=True); continue
             base = ("https://pure.au.dk" + (path if path.startswith("/portal") else "/portal" + path)) if inst == "AU" else BASE[inst] + path
-            rows.append([name, "-", "", "", "", path])
+            rows.append([name, "-", "", "", "", "AU portal search" if inst == "AU" else path])  # AU profile paths contain e-mail addresses
             outs = await listing(page, base + "publications/")
             for o in outs:
                 if o["year"] and int(o["year"]) >= FROM:
