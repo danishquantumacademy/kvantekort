@@ -1,5 +1,5 @@
 # QMATH – Centre for the Mathematics of Quantum Theory, Department of Mathematical Sciences (KU). Members from qmath.ku.dk/staff (read 2026-11-05);
-# portal links and latest output from the KU research portal where a profile could be matched by name. Affiliated members at other units are left out.
+# portal links and latest output from the KU research portal where a profile could be matched by name. Affiliated members are listed with their home unit as given on the staff page.
 P||Jan Philip Solovej||Professor, centre leader||/en/persons/jan-philip-solovej/||||Ground State Energy of Dense Gases of Strongly Interacting Fermions (2025)
 P||Matthias Christandl||Professor, centre leader||/en/persons/matthias-christandl/||||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right (2026)
 P||Bergfinnur Durhuus||Professor emeritus, centre leader||/en/persons/bergfinnur-durhuus/||||Fundamental Limit on the Power of Entanglement Assistance in Quantum Communication (2025)
@@ -57,6 +57,17 @@ P||Vladyslav Visnevskyi||PhD Student||||||
 P||Jakob Miller||PhD Student||/en/persons/jakob-miller/||||
 P||Maximilian Matzler||PhD Student||/en/persons/maximilian-matzler/||||
 P||Wanqi Li||Research Assistant||/en/persons/wanqi-li/||||
+P||Charles Bennett||Affiliated member (IBM Research)||||||
+P||Tobias Colding||Affiliated member (MIT and KU Mathematics)||||||
+P||Ivan Damgård||Affiliated member (AU)||||||
+P||Karsten Flensberg||Affiliated member (KU NBI, QDev)||||||
+P||Peter Harremoës||Affiliated member (Niels Brock Copenhagen Business College)||||||
+P||Michael Kastoryano||Affiliated member (KU NBI)||||||
+P||Magdalena Musat||Affiliated member (KU Mathematics)||||||
+P||Niels Martin Møller||Affiliated member (KU Mathematics)||||||
+P||Klaus Mølmer||Affiliated member (listed as AU Physics)||||||
+P||Eugene Polzik||Affiliated member (KU NBI, Quantop)||||||
+P||Mark Rudner||Affiliated member (KU NBI, QDev)||||||
 PUBS||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right||/en/publications/adiabatic-preparation-of-many-body-quantum-states-getting-the-beg/||Pedersen, E. T., Witteveen, F., Mølmer, K. & Christandl, M., 2026, In: Physical Review Letters. 137, 13, 130602.
 PUBS||Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning||||Stilck França, D. et al., 2026.
 PUBS||Exponential Suppression of Transport in Electric Quantum Walks||||Werner, A. H. et al., 2026.

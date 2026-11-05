@@ -51,6 +51,9 @@ P||Matthias Oliver Wilhelm||Associate Professor||/en/persons/mwilhelm/||Leveragi
 P||Hao Xu||Postdoc||/en/persons/haoxu/||||
 P||Wennan Zhang||PhD Student||/en/persons/wennan/||||
 P||Zichun Zhou||PhD Research Fellow||/en/persons/zzc/||||
+P||Jeremy Alexander Ramirez Galotti||Student Assistant||/en/persons/jale/||||
+P||Martin Kuntz Jacobsen||Student Teacher||/en/persons/kuntz/||||
+P||Henrik Pedersen||VIP||/en/persons/henrik/||||
 PUBS||(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry||/en/publications/21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat/||Inamura, K., Huang, S. J., Tiwari, A. & Schäfer-Nameki, S., Feb 2026, In: SciPost Physics. 20, 2, 43.
 PUBS||A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT||/en/publications/a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm/||Andersen, J. E. & Malusà, A., Mar 2026, In: Research in Mathematical Sciences. 13, 1, 4.
 PUBS||A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum invariants||/en/publications/a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature/||Mistegård, W. E. & Murakami, Y., Jun 2026, In: Journal of Knot Theory and Its Ramifications. 35, 7, 2550097.

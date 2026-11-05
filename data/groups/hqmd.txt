@@ -5,4 +5,7 @@ P||Yong P. Chen||Professor, group leader||||||Direct Nanoscale Mapping of Band A
 P||Cristian Frydendahl||Postdoc||||||
 P||Ihsan Ahmed Kolasseri||PhD Student||||||Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions (2026)
 P||Richard Balog||Technical and administrative staff||||||
+P||Jinlei Zhang||Visiting researcher (Suzhou University of Science and Technology)||||||
+P||Hirofumi Oka||Visiting researcher (AIMR, Tohoku University)||||||
+P||Yaping Qi||Visiting postdoc (2022)||||||
 PUBS||Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions||||Chen, Y. P., Kolasseri, I. A. et al., 2026.

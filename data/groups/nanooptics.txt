@@ -1,4 +1,4 @@
-# SDU Nano Optics, Mads Clausen Institute (SDU). Harvested 2026-11-05 from SDU Find Researcher (organisation: sdu-nano-optics). Student teachers are left out.
+# SDU Nano Optics, Mads Clausen Institute (SDU). Harvested 2026-11-05 from SDU Find Researcher (organisation: sdu-nano-optics).
 P||Sergey I. Bozhevolnyi||Professor and Chair||/en/persons/seib/||||Chip-integrated metasurface-enabled single-photon skyrmion sources (2026)
 P||Jacob Holm Colding-Jørgensen||Research Assistant||/en/persons/jacol/||||
 P||Fei Ding||Associate Professor||/en/persons/feid/||Quantum metasurface: a novel platform for generating and manipulating single photons [01/01/2021 → 31/12/2025]||Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates (2026)
@@ -10,6 +10,19 @@ P||Chao Meng||Assistant Professor||/en/persons/chao/||Tunable vortex lasers trig
 P||Yi Ouyang||Postdoc||/en/persons/yiou/||||Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates (2026)
 P||Torgom Yezekyan||Assistant Professor||/en/persons/torgom-yezekyan/||||Electrically controlled nonlocal metasurfaces (2026)
 P||Vladimir Zenin||Specialist Consultant||/en/persons/Zenin/||Making a single photon capable of detecting a single molecule [01/11/2021 → 31/10/2023]||Prospects to bypass metal nonlocal phenomena using phonon-polaritons (2026)
+P||Espoir Elocho||Student Teacher||/en/persons/eselo/||||
+P||Gustav Engen||Student Teacher||/en/persons/gen/||||
+P||Lukas Taasti Fabian||Student Teacher||/en/persons/lunie/||||
+P||Thomas Frosted||Student Teacher||/en/persons/thfro/||||
+P||Iben Lindberg Husum||Student Teacher||/en/persons/ibhus/||||
+P||Lucas Darnell Jørgensen||Student Teacher||/en/persons/lujoe/||||
+P||Eskild Krongaard-Kruse||Student Teacher||/en/persons/eskro/||||
+P||Camille Mei Juul Lange||Student Teacher||/en/persons/calan/||||
+P||Philip Nielsen||Student Teacher||/en/persons/phnie/||||
+P||Isabella Røn Olsson||Student Teacher||/en/persons/iolsse/||||
+P||Julie Hjorth Pedersen||Student Teacher||/en/persons/julped/||||
+P||Laurids Nygaard Ulrichsen||Student Teacher||/en/persons/laulr/||||
+P||Mathias Holbech Warming||Student Teacher||/en/persons/mathias-holbech-warming/||||
 PUBS||Chip-integrated metasurface-enabled single-photon skyrmion sources||/en/publications/chip-integrated-metasurface-enabled-single-photon-skyrmion-source/||Liu, X., Kan, Y., Kumar, S., Kulikova, L. F., Davydov, V. A., Agafonov, V. N. & Bozhevolnyi, S. I., Aug 2026, In: Nature Communications. 17, 1, 8567.
 PUBS||Electrically controlled nonlocal metasurfaces||/en/publications/electrically-controlled-nonlocal-metasurfaces/||Yezekyan, T. & Bozhevolnyi, S. I., 7 Jul 2026, In: Nanoscale Horizons. 11, 7, p. 1752-1767
 PUBS||Electrooptic reflective metasurfaces for discrete beam deflection||/en/publications/electrooptic-reflective-metasurfaces-for-discrete-beam-deflection/||Arshakyan, A., Yezekyan, T. & Bozhevolnyi, S. I., 7 Oct 2026, In: ACS Photonics. 13, 19, p. 5734-5740

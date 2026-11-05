@@ -1,5 +1,5 @@
 # Condensed Matter Physics, Niels Bohr Institute (KU), including the Center for Quantum Devices (QDev) and condensed matter theory. Harvested 2026-11-05 from the KU research portal
-# (organisation: faststoffysik). External members and profiles without a name are left out. The KU portal lists no projects for this unit.
+# (organisation: faststoffysik). All listed profiles are included; three profiles show only a user id instead of a name. The KU portal lists no projects for this unit.
 P||Jens Als-Nielsen||Emeritus||/en/persons/jens-als-nielsen/||||
 P||Brian Møller Andersen||Professor||/en/persons/brian-m%C3%B8ller-andersen/||||
 P||Christine Wei Andersson||Instructor||/en/persons/christine-wei-andersson/||||
@@ -75,6 +75,17 @@ P||Casper Wied||PhD fellow||/en/persons/casper-wied/||||Controlled parity of coo
 P||Tim Fabian Wohlers-Reichel||PhD fellow||/en/persons/tim-fabian-wohlers-reichel/||||
 P||Steffen Zelzer||PhD Student||/en/persons/steffen-zelzer/||||Origin of surface and subband states at the InAs(111)A surface (2023)
 P||Sami Zweidler||PhD fellow||/en/persons/sami-zweidler/||||
+P||Benjamin Boateng||External||/en/persons/benjamin-boateng/||||
+P||Damon James Carrad||External||/en/persons/damon-james-carrad/||||
+P||Chia-Min Chung||External||/en/persons/chia-min-chung/||||
+P||Xiaoyu Hou||Visiting (no job title)||/en/persons/xiaoyu-hou/||||
+P||Fernando Gabriel Benitez Jara||Visiting PhD Student||/en/persons/fernando-gabriel-benitez-jara/||||
+P||Yiran Jin||Visiting Researcher||/en/persons/yiran-jin/||||
+P||Yu Liu||Academic employee||/en/persons/yu-liu-2/||||
+P||Yuyu Yao||Visiting (no job title)||/en/persons/yuyu-yao/||||
+P||dxp300 (name not shown in the portal)||PhD fellow||/en/persons/dxp300-dxp300/||||
+P||hwg706 (name not shown in the portal)||Postdoc||/en/persons/hwg706-hwg706/||||Crosses and Flowers: Investigating superstructures in the high-Tc superconductor La(2–x)Sr(x)CuO(4+y) (2026)
+P||jpd817 (name not shown in the portal)||Postdoc||/en/persons/jpd817-jpd817/||||
 PUBS||Adiabatic non-Abelian braiding of imperfect Majorana bound states||/en/publications/adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states/||Nitsch, M., Svensson, V., Samuelson, W., Nestmann, K., Danon, J., Flensberg, K., Souto, R. S. & Leijnse, M., 21 May 2026, In: Physical Review B. 113, 20, L201408.
 PUBS||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit||||Nielsen, M. A. M., Severin, J. B. et al., 2026.
 PUBS||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit||||Feldstein Bofill, D., Shagalov, K., Singh, S., Wied, C. et al., 2026.

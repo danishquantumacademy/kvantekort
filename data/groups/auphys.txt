@@ -9,6 +9,8 @@ P||Brian Julsgaard||Associate Professor||||||Two- and three-photon absorption in
 P||Hans Fogedby||Associate Professor emeritus||||||On the Redfield and Lindblad master equations
 P||Christian Saugbjerg Lange||Postdoc||||||High-order harmonic generation with beyond-semiclassical emitter dynamics
 P||Emre Aslan||Research Assistant||||||National Quantum Strategies: A Data-Driven Approach to Understanding the Quantum Ecosystem
+P||Anton Alnor Christensen||PhD Student||||||
+P||William Kjærgaard Jedig||PhD Student||||||
 PUBS||Fault-Tolerant Quantum Computations of Vibrational Wave Functions||||Jensen, R. B., Christiansen, O., Zinner, N. T. et al.
 PUBS||Experimental protocol for observing single quantum many-body scars with transmon qubits||||Nielsen, A. E. B. et al.
 PUBS||Cavity optomechanics with a suspended resonant mirror||||Dantan, A. et al.
