@@ -1,0 +1,15 @@
+# Department of Physics and Astronomy (AU), quantum researchers outside the groups on this map.
+# AU Pure (read 2026-11-05, after a manual browser verification of pure.au.dk): researchers whose profiles and recent output are on quantum topics
+# and who are not members of a research group on this map. AU Pure profile addresses contain e-mail addresses, so they are not linked here.
+P||Nikolaj Thomas Zinner||Professor||||||Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+P||Anne E. B. Nielsen||Associate Professor||||||Experimental protocol for observing single quantum many-body scars with transmon qubits
+P||David Petrosyan||Visiting Associate Professor||||||Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic preparation of spatially ordered states of Rydberg excitations
+P||Aurelien Romain Dantan||Associate Professor||||||Cavity optomechanics with a suspended resonant mirror
+P||Brian Julsgaard||Associate Professor||||||Two- and three-photon absorption in silicon for above-band-gap photon energies
+P||Hans Fogedby||Associate Professor emeritus||||||On the Redfield and Lindblad master equations
+P||Christian Saugbjerg Lange||Postdoc||||||High-order harmonic generation with beyond-semiclassical emitter dynamics
+P||Emre Aslan||Research Assistant||||||National Quantum Strategies: A Data-Driven Approach to Understanding the Quantum Ecosystem
+PUBS||Fault-Tolerant Quantum Computations of Vibrational Wave Functions||||Jensen, R. B., Christiansen, O., Zinner, N. T. et al.
+PUBS||Experimental protocol for observing single quantum many-body scars with transmon qubits||||Nielsen, A. E. B. et al.
+PUBS||Cavity optomechanics with a suspended resonant mirror||||Dantan, A. et al.
+PUBS||National Quantum Strategies: A Data-Driven Approach to Understanding the Quantum Ecosystem||||Aslan, E. et al.

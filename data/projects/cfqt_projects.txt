@@ -285,3 +285,12 @@ OUT|Aperture-layout-induced effects in polarization-resolved multifocal metalens
 # Added 2026-11-05 for Magnetic Resonance by Optics (DTU), HQMD and Quantum Materials Group (AU).
 DeltaQT (with Niels Bohr Institute and University of Oslo)|4.2;2.3;3.2
 OUT|Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions|2.3
+# Added 2026-11-05 for AU quantum researchers outside groups (Physics and Astronomy, Chemistry, Computer Science).
+OUT|High-order harmonic generation with beyond-semiclassical emitter dynamics|2.2
+OUT|Fault-Tolerant Quantum Computations of Vibrational Wave Functions|5.6;5.5
+OUT|Dynamic Basis Functions in Coupled Cluster Theory and Scalable Gaussian Process Regression|-
+OUT|Deniable Secret Sharing|-
+OUT|A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter|7.4
+OUT|Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method|7.4
+OUT|Efficient Simulation of High-Level Quantum Gates|5.3;5.4
+OUT|On Exact Sizes of Minimal CNOT Circuits|5.3

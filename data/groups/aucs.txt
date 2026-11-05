@@ -1,0 +1,16 @@
+# Department of Computer Science (AU), quantum and post-quantum researchers outside the groups on this map.
+# AU Pure (read 2026-11-05, after a manual browser verification of pure.au.dk): researchers whose profiles and recent output are on quantum topics
+# and who are not members of a research group on this map. AU Pure profile addresses contain e-mail addresses, so they are not linked here.
+P||Jaco van de Pol||Professor||||||Random Generation of Small Quantitative Automata for Algorithm Debugging
+P||Peter Scholl||Associate Professor||||||A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+P||Diego F. Aranha||Associate Professor||||||A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+P||Sebastian Kolby||Postdoc||||||Deniable Secret Sharing
+P||Adam Blatchley Hansen||PhD Student||||||A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+P||Marius Andre Årdal||PhD Student||||||Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method
+P||Adam Husted Kjelstrøm||PhD Student||||||Efficient Simulation of High-Level Quantum Gates
+P||Jens Emil Christensen||PhD Student||||||On Exact Sizes of Minimal CNOT Circuits
+P||Fréderic Dupont-Dupuis||External researcher||||||Chain rules for quantum Rényi entropies
+PUBS||A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter||||Blatchley Hansen, A., Aranha, D. F., Scholl, P. et al.
+PUBS||Efficient Simulation of High-Level Quantum Gates||||Kjelstrøm, A. H. et al.
+PUBS||On Exact Sizes of Minimal CNOT Circuits||||Christensen, J. E. et al.
+PUBS||Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method||||Årdal, M. A. et al.

@@ -225,7 +225,7 @@ footer p{margin:0;max-width:86ch}
       g.quote?el('blockquote',{},`“${g.quote}”`,el('span',{style:'font-style:normal'},' — from the group’s website')):null,
       el('p',{style:'margin:0;max-width:78ch'},g.summary),
       el('div',{class:'themes'},...g.themes.map(t=>el('span',{class:'theme'},t))),
-      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},'Group website ↗'),g.portal&&g.portal!==g.website?el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'):null,el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},`Vacancies at ${g.institution} ↗`))));
+      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},(/^Department/.test(g.kind)?'Department website ↗':'Group website ↗')),g.portal&&g.portal!==g.website?el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'):null,el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},`Vacancies at ${g.institution} ↗`))));
     // CFQT
     box.append(el('section',{},el('h3',{},'Research on the CFQT content map'),
       el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name)))))));

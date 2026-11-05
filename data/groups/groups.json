@@ -583,6 +583,116 @@
    ]
   },
   {
+   "key": "auphys",
+   "institution": "AU",
+   "name": "Department of Physics and Astronomy – other quantum researchers",
+   "short": "AU Physics",
+   "unit": "Department of Physics and Astronomy",
+   "kind": "Department – researchers outside groups",
+   "website": "https://phys.au.dk/en/",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [],
+   "quote": "",
+   "summary": "Quantum researchers at AU's Department of Physics and Astronomy who are not part of CCQ, HQMD, the Quantum Materials Group or the ultrafast group. They are listed under their department, not as a group. Topics include quantum computing theory and quantum algorithms for chemistry, quantum many-body physics with transmon qubits, Rydberg atoms, cavity optomechanics, spin ensembles, open quantum systems and national quantum strategies.",
+   "themes": [
+    "Quantum computing theory",
+    "Quantum many-body physics",
+    "Rydberg atoms",
+    "Cavity optomechanics",
+    "Open quantum systems"
+   ],
+   "cfqt": [
+    "5.5",
+    "2.4",
+    "5.6",
+    "2.1",
+    "2.2",
+    "8.1"
+   ],
+   "centres": [],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": []
+  },
+  {
+   "key": "auchem",
+   "institution": "AU",
+   "name": "Department of Chemistry – quantum researchers",
+   "short": "AU Chemistry",
+   "unit": "Department of Chemistry",
+   "kind": "Department – researchers outside groups",
+   "website": "https://chem.au.dk/en/",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [],
+   "quote": "",
+   "summary": "Quantum chemists at AU's Department of Chemistry working on quantum computing for chemistry, listed under their department. They develop vibrational coupled cluster methods and fault-tolerant quantum algorithms for molecular vibrational wave functions, together with the Department of Physics and Astronomy.",
+   "themes": [
+    "Quantum algorithms for vibrational structure",
+    "Coupled cluster theory",
+    "Fault-tolerant quantum chemistry"
+   ],
+   "cfqt": [
+    "5.6",
+    "5.5"
+   ],
+   "centres": [],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": []
+  },
+  {
+   "key": "aucs",
+   "institution": "AU",
+   "name": "Department of Computer Science – quantum and post-quantum researchers",
+   "short": "AU Computer Science",
+   "unit": "Department of Computer Science",
+   "kind": "Department – researchers outside groups",
+   "website": "https://cs.au.dk/",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [],
+   "quote": "",
+   "summary": "Researchers at AU's Department of Computer Science working on quantum and post-quantum topics, listed under their department. They include cryptographers designing post-quantum protocols and studying isogenies, researchers on simulation and minimal size of quantum circuits, and quantum information theory.",
+   "themes": [
+    "Post-quantum cryptography",
+    "Isogeny-based cryptography",
+    "Quantum circuit simulation and synthesis",
+    "Quantum information theory"
+   ],
+   "cfqt": [
+    "7.4",
+    "5.3",
+    "1.2"
+   ],
+   "centres": [],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": []
+  },
+  {
+   "key": "aumath",
+   "institution": "AU",
+   "name": "Department of Mathematics – quantum researchers",
+   "short": "AU Mathematics",
+   "unit": "Department of Mathematics",
+   "kind": "Department – researchers outside groups",
+   "website": "https://math.au.dk/en/",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [],
+   "quote": "",
+   "summary": "Mathematical physics of quantum systems at AU's Department of Mathematics, listed under the department.",
+   "themes": [
+    "Mathematical physics of quantum systems"
+   ],
+   "cfqt": [
+    "1.2",
+    "2.4"
+   ],
+   "centres": [],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": []
+  },
+  {
    "key": "polima",
    "institution": "SDU",
    "name": "Center for Polariton-driven Light-Matter Interactions (POLIMA)",

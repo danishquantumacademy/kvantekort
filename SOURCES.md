@@ -193,12 +193,15 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | orbit.dtu.dk | 192 |
 | portal.findresearcher.sdu.dk | 115 |
 | vbn.aau.dk | 52 |
+| phys.au.dk | 4 |
 | www.sdu.dk | 4 |
-| phys.au.dk | 3 |
 | nbi.ku.dk | 2 |
 | qmath.ku.dk | 2 |
+| chem.au.dk | 1 |
+| cs.au.dk | 1 |
 | employment.ku.dk | 1 |
 | international.au.dk | 1 |
+| math.au.dk | 1 |
 | nanophoton.dtu.dk | 1 |
 | nqcp.ku.dk | 1 |
 | physics.dtu.dk | 1 |
@@ -232,4 +235,4 @@ The workflow "Check sources" opened 148 pages (up to three per site) from a GitH
 
 
 
-Total: 3015 pages from 80 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 3019 pages from 82 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

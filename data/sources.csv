@@ -2835,6 +2835,10 @@ Research group,AU,https://www.quantummaterialsgroup.com/,"QMG: own website (shor
 Research group feed (weekly),AU,https://www.quantummaterialsgroup.com/highlights,"QMG: news, read automatically every Monday",data/groups/feeds.json
 Research group,AU,https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials,"Ultrafast QM: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group feed (weekly),AU,https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials,"Ultrafast QM: news, read automatically every Monday",data/groups/feeds.json
+Research group,AU,https://phys.au.dk/en/,"AU Physics: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group,AU,https://chem.au.dk/en/,"AU Chemistry: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group,AU,https://cs.au.dk/,"AU Computer Science: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group,AU,https://math.au.dk/en/,"AU Mathematics: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,SDU,https://www.sdu.dk/en/forskning/polima,"POLIMA: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/organisations/center-for-polariton-driven-light-matter-interactions-polima/,POLIMA: research-portal organisation page,data/groups/groups.json
 Research group,SDU,https://www.sdu.dk/en/service/ledige_stillinger,POLIMA: university vacancies page (link target),data/groups/groups.json

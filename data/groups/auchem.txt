@@ -1,0 +1,7 @@
+# Department of Chemistry (AU), quantum researchers outside the groups on this map.
+# AU Pure (read 2026-11-05, after a manual browser verification of pure.au.dk): researchers whose profiles and recent output are on quantum topics
+# and who are not members of a research group on this map. AU Pure profile addresses contain e-mail addresses, so they are not linked here.
+P||Ove Christiansen||Professor||||||Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+P||Rasmus Berg Jensen||Industrial Postdoc||||||Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+P||Mads Greisen Højlund||Postdoc||||||Dynamic Basis Functions in Coupled Cluster Theory and Scalable Gaussian Process Regression
+PUBS||Fault-Tolerant Quantum Computations of Vibrational Wave Functions||||Jensen, R. B., Christiansen, O., Zinner, N. T. et al.

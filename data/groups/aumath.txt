@@ -1,0 +1,4 @@
+# Department of Mathematics (AU), quantum researchers outside the groups on this map.
+# AU Pure (read 2026-11-05, after a manual browser verification of pure.au.dk): researchers whose profiles and recent output are on quantum topics
+# and who are not members of a research group on this map. AU Pure profile addresses contain e-mail addresses, so they are not linked here.
+P||Jacob Schach Møller||Professor||||||
