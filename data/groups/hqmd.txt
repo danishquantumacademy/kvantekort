@@ -1,0 +1,8 @@
+# Chen group and VILLUM Center for Hybrid Quantum Materials and Devices (HQMD), Department of Physics and Astronomy and iNANO (AU).
+# Members from the group's people page on phys.au.dk (revised 16.03.2025), positions and latest output from AU Pure, read 2026-11-05.
+# AU Pure profile addresses contain e-mail addresses, so they are not linked here.
+P||Yong P. Chen||Professor, group leader||||||Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions (2026)
+P||Cristian Frydendahl||Postdoc||||||
+P||Ihsan Ahmed Kolasseri||PhD Student||||||Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions (2026)
+P||Richard Balog||Technical and administrative staff||||||
+PUBS||Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions||||Chen, Y. P., Kolasseri, I. A. et al., 2026.

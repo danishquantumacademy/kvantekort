@@ -2540,6 +2540,16 @@ Research group,DTU,https://orbit.dtu.dk/en/persons/francesco-sirovich/,QCS: memb
 Research group,DTU,https://orbit.dtu.dk/en/persons/caterina-vigliar/,QCS: member profile (Caterina Vigliar),data/groups/qcs.txt
 Research group,DTU,https://orbit.dtu.dk/en/persons/mujtaba-zahidy/,QCS: member profile (Mujtaba Zahidy),data/groups/qcs.txt
 Research group,DTU,https://orbit.dtu.dk/en/publications/on-chip-semi-device-independent-quantum-random-number-generator-e/,QCS: publication: On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Conte,data/groups/qcs.txt
+Research group,DTU,https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/,"MRO: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),DTU,https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/,"MRO: outputs, read automatically every Monday",data/groups/feeds.json
+Research group,DTU,https://orbit.dtu.dk/en/persons/suyash-narayan-amzare/,MRO: member profile (Suyash Narayan Amzare),data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/ziba-arghiani-2/,MRO: member profile (Ziba Arghiani),data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/kirstine-berg-s%C3%B8rensen/,MRO: member profile (Kirstine Berg-Sørensen),data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/maciej-jerzy-glowacki/,MRO: member profile (Maciej Jerzy Glowacki),data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/ella-walsh/,MRO: member profile (Ella Walsh),data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/diamond-based-intracellular-nmr-and-cell-mechanics/,MRO: project: Diamond based Intracellular NMR and Cell Mechanics,data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/intracellular-quantum-sensing-using-diamond-with-nv-centers/,MRO: project: Intracellular Quantum Sensing using diamond with NV centers,data/groups/mro.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/highly-sensitive-quantum-magnetometry-using-nitrogen-vacancy-cent-3/,MRO: project: Highly sensitive quantum magnetometry using Nitrogen-Vacancy centers in diamond,data/groups/mro.txt
 Research group,KU,https://nqcp.ku.dk/,"NQCP: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,KU,https://researchprofiles.ku.dk/en/organisations/nqcp/,NQCP: research-portal organisation page,data/groups/groups.json
 Research group,KU,https://employment.ku.dk/all-vacancies/,NQCP: university vacancies page (link target),data/groups/groups.json
@@ -2819,6 +2829,10 @@ Research group,AU,https://pure.au.dk/portal/en/organisations/department-of-physi
 Research group,AU,https://international.au.dk/about/profile/vacant-positions,CCQ: university vacancies page (link target),data/groups/groups.json
 Research group feed (weekly),AU,https://phys.au.dk/ccq/news,"CCQ: news, read automatically every Monday",data/groups/feeds.json
 Research group feed (weekly),AU,https://phys.au.dk/ccq/events,"CCQ: events, read automatically every Monday",data/groups/feeds.json
+Research group,AU,https://phys.au.dk/forskning/forskningsomraader/faststof-og-materialefysik/yong-chen/villum-center-for-hqmd,"HQMD: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),AU,https://phys.au.dk/forskning/forskningsomraader/faststof-og-materialefysik/yong-chen,"HQMD: news, read automatically every Monday",data/groups/feeds.json
+Research group,AU,https://www.quantummaterialsgroup.com/,"QMG: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),AU,https://www.quantummaterialsgroup.com/highlights,"QMG: news, read automatically every Monday",data/groups/feeds.json
 Research group,AU,https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials,"Ultrafast QM: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group feed (weekly),AU,https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials,"Ultrafast QM: news, read automatically every Monday",data/groups/feeds.json
 Research group,SDU,https://www.sdu.dk/en/forskning/polima,"POLIMA: own website (short quote, description read for DQA's own summary)",data/groups/groups.json

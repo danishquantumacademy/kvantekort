@@ -1,0 +1,5 @@
+# Quantum Materials Group, Department of Physics and Astronomy (AU), at the ASTRID2 synchrotron. Members from quantummaterialsgroup.com/team, read 2026-11-05;
+# positions and latest output from AU Pure. Bachelor and master students are left out.
+P||Jill Miwa||Associate Professor, head of group||||||Anomalous Spin-Optical Helical Effect in Ti-Based Kagome Metal (2026)
+P||Rohit Yadav||Postdoc||||DeltaQT (with Niels Bohr Institute and University of Oslo)||
+PUBS||Anomalous Spin-Optical Helical Effect in Ti-Based Kagome Metal||||Mazzola, F., … Miwa, J. et al., 2026.

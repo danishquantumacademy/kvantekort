@@ -1,0 +1,14 @@
+# Magnetic Resonance by Optics, Department of Health Technology (DTU). Harvested 2026-11-05 from DTU Orbit (organisation: magnetic-resonance-by-optics).
+P||Suyash Narayan Amzare||Research Assistant||/en/persons/suyash-narayan-amzare/||||
+P||Ziba Arghiani||PhD Student||/en/persons/ziba-arghiani-2/||||
+P||Kirstine Berg-Sørensen||Group leader, Associate Professor||/en/persons/kirstine-berg-s%C3%B8rensen/||Intracellular Quantum Sensing using diamond with NV centers [01/11/2023 → 31/10/2026]||Bio-sensing with NV-centers in diamond
+P||Maciej Jerzy Glowacki||Postdoc||/en/persons/maciej-jerzy-glowacki/||||
+P||Ella Walsh||Postdoc||/en/persons/ella-walsh/||||
+PUBS||Bio-sensing with NV-centers in diamond||||Berg-Sørensen, K. et al.
+PUBS||Diamond-based quantum sensing of free radicals in migrating human breast cancer cells||||Magnetic Resonance by Optics, DTU Health Tech.
+PUBS||Quantum sensing of free radicals in macrophages reveals early autophagy-lysosome regulation in an atherosclerosis cell model||||Magnetic Resonance by Optics, DTU Health Tech.
+PUBS||Optically Trapped Nano-diamond Quantum Sensors to Explore Viscoelastic Properties and Redox Metabolism of Cells in Cardiac Fibrosis||||Magnetic Resonance by Optics, DTU Health Tech.
+PROJ||Diamond based Intracellular NMR and Cell Mechanics||/en/projects/diamond-based-intracellular-nmr-and-cell-mechanics/||||01/06/2024 → 31/05/2027||||PhD
+PROJ||Intracellular Quantum Sensing using diamond with NV centers||/en/projects/intracellular-quantum-sensing-using-diamond-with-nv-centers/||||01/11/2023 → 31/10/2026||||PhD
+PROJ||Biological sensing by optically trapped nanodiamonds with NV centers||/en/projects/6762acbe-e0d4-4eb4-8dcd-3cb7921ae2ef/||||01/10/2022 → 30/09/2025||||Research
+PROJ||Highly sensitive quantum magnetometry using Nitrogen-Vacancy centers in diamond||/en/projects/highly-sensitive-quantum-magnetometry-using-nitrogen-vacancy-cent-3/||||15/09/2018 → 07/03/2022||||PhD

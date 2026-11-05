@@ -206,6 +206,42 @@
    ]
   },
   {
+   "key": "mro",
+   "institution": "DTU",
+   "name": "Magnetic Resonance by Optics",
+   "short": "MRO",
+   "unit": "Department of Health Technology",
+   "kind": "Research group",
+   "website": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/",
+   "portal": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/",
+   "portal_base": "https://orbit.dtu.dk",
+   "teacher_units": [
+    "Magnetic Resonance by Optics"
+   ],
+   "quote": "",
+   "summary": "A DTU Health Tech group that uses nitrogen-vacancy centres in diamond as quantum sensors in biology. It traps fluorescent nanodiamonds with laser light inside living cells and reads out their spin to sense free radicals, magnetic fields and the mechanics of cells, for example in models of cardiac fibrosis, atherosclerosis and cancer.",
+   "themes": [
+    "NV-diamond quantum sensing in cells",
+    "Optically trapped nanodiamonds",
+    "Quantum sensing of free radicals",
+    "Intracellular NMR and cell mechanics"
+   ],
+   "cfqt": [
+    "6.7",
+    "6.2",
+    "4.2"
+   ],
+   "centres": [],
+   "jobs_url": "https://www.dtu.dk/english/about/job-and-career/vacant-positions",
+   "feeds": [
+    {
+     "kind": "outputs",
+     "type": "pure_overview",
+     "url": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/"
+    }
+   ]
+  },
+  {
    "key": "nqcp",
    "institution": "KU",
    "name": "Quantum Information Science & Technology (NQCP)",
@@ -431,6 +467,82 @@
      "kind": "events",
      "type": "generic_list",
      "url": "https://phys.au.dk/ccq/events"
+    }
+   ]
+  },
+  {
+   "key": "hqmd",
+   "institution": "AU",
+   "name": "Chen group – VILLUM Center for Hybrid Quantum Materials and Devices (HQMD)",
+   "short": "HQMD",
+   "unit": "Department of Physics and Astronomy and iNANO",
+   "kind": "VILLUM Investigator centre",
+   "website": "https://phys.au.dk/forskning/forskningsomraader/faststof-og-materialefysik/yong-chen/villum-center-for-hqmd",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [
+    "Villum Center for Hybrid Quantum Materials and Devices"
+   ],
+   "quote": "",
+   "summary": "Yong P. Chen's group at AU runs the VILLUM Center for Hybrid Quantum Materials and Devices. It combines different quantum electronic and photonic systems, such as 2D materials, topological materials and their heterostructures, to discover new quantum matter and to build devices and measurement methods for future quantum computing, communication and sensing.",
+   "themes": [
+    "Hybrid quantum materials",
+    "2D and topological materials",
+    "Quantum devices and measurements"
+   ],
+   "cfqt": [
+    "2.3",
+    "4.7",
+    "3.2",
+    "6.1"
+   ],
+   "centres": [
+    "VILLUM Investigator (VILLUM FONDEN)"
+   ],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": [
+    {
+     "kind": "news",
+     "type": "generic_list",
+     "url": "https://phys.au.dk/forskning/forskningsomraader/faststof-og-materialefysik/yong-chen"
+    }
+   ]
+  },
+  {
+   "key": "qmg",
+   "institution": "AU",
+   "name": "Quantum Materials Group",
+   "short": "QMG",
+   "unit": "Department of Physics and Astronomy",
+   "kind": "Research group",
+   "website": "https://www.quantummaterialsgroup.com/",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [
+    "Quantum Materials Group"
+   ],
+   "quote": "lay the foundations for next generation quantum technologies",
+   "summary": "An experimental condensed matter group at the ASTRID2 synchrotron in Aarhus led by Jill Miwa. It grows atomically thin quantum materials and maps their electronic and structural properties with scanning tunnelling microscopy and nanoARPES, including in working devices. Topics include transition metal dichalcogenides, van der Waals heterostructures and phosphorus delta-layers in silicon, a platform for silicon spin qubits (the DeltaQT project with the Niels Bohr Institute).",
+   "themes": [
+    "Quantum materials and 2D materials",
+    "NanoARPES and scanning tunnelling microscopy",
+    "Delta-layers in silicon for spin qubits",
+    "In operando device measurements"
+   ],
+   "cfqt": [
+    "2.3",
+    "3.2",
+    "4.2"
+   ],
+   "centres": [
+    "ASTRID2 synchrotron (ISA)"
+   ],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": [
+    {
+     "kind": "news",
+     "type": "generic_list",
+     "url": "https://www.quantummaterialsgroup.com/highlights"
     }
    ]
   },
