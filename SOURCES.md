@@ -189,18 +189,18 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 | Site | Pages |
 |---|---:|
-| researchprofiles.ku.dk | 184 |
-| orbit.dtu.dk | 140 |
-| portal.findresearcher.sdu.dk | 98 |
+| researchprofiles.ku.dk | 262 |
+| orbit.dtu.dk | 183 |
+| portal.findresearcher.sdu.dk | 115 |
 | vbn.aau.dk | 52 |
 | www.sdu.dk | 4 |
+| nbi.ku.dk | 2 |
+| phys.au.dk | 2 |
 | qmath.ku.dk | 2 |
 | employment.ku.dk | 1 |
 | international.au.dk | 1 |
 | nanophoton.dtu.dk | 1 |
-| nbi.ku.dk | 1 |
 | nqcp.ku.dk | 1 |
-| phys.au.dk | 1 |
 | physics.dtu.dk | 1 |
 | pure.au.dk | 1 |
 | www.classique.aau.dk | 1 |
@@ -211,15 +211,15 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 | Site | Pages |
 |---|---:|
-| orbit.dtu.dk | 2 |
-| phys.au.dk | 2 |
+| orbit.dtu.dk | 5 |
+| phys.au.dk | 3 |
+| researchprofiles.ku.dk | 3 |
+| portal.findresearcher.sdu.dk | 2 |
 | qmath.ku.dk | 2 |
-| researchprofiles.ku.dk | 2 |
 | vbn.aau.dk | 2 |
 | www.sdu.dk | 2 |
 | nqcp.ku.dk | 1 |
 | physics.dtu.dk | 1 |
-| portal.findresearcher.sdu.dk | 1 |
 
 ## Access check
 
@@ -230,4 +230,4 @@ The workflow "Check sources" opened 145 pages (up to three per site) from a GitH
 
 
 
-Total: 2855 pages from 79 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 3001 pages from 79 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

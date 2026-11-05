@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
-/* Layout: a row of group cards (ten groups, at least one per university), each with a CFQT colour banner;
+/* Layout: a row of group cards (the quantum research groups at the five universities), each with a CFQT colour banner;
    choosing a card opens the group profile below: summary and links, CFQT map, four live panels
    (news and grants, events, positions, publications), members by category with their projects,
    linked courses and portal projects. */
@@ -117,7 +117,7 @@ footer p{margin:0;max-width:86ch}
   <!--SITENAV-->
   <header style="display:grid;gap:10px">
     <h1>Quantum Research Groups</h1>
-    <p class="lede">The research groups behind the quantum courses: what they work on, who is in them, and what is happening now. Ten groups, at least one per university.</p>
+    <p class="lede">The research groups behind the quantum courses: what they work on, who is in them, and what is happening now. The quantum research groups at the five universities, found in their research portals and websites.</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
       <p><b>Cards and profile.</b> Select a group card to open its profile below: summary and CFQT tags, news, grants and prizes, events, open positions, latest publications, projects, all members, and the courses taught by members.</p>
       <p><b>Texts.</b> The summaries and CFQT tags are written by Danish Quantum Academy and are not the groups' own texts; follow the links for their own descriptions. A member's line shows their current project in the research portal, or else their most recent research output.</p>
@@ -225,7 +225,7 @@ footer p{margin:0;max-width:86ch}
       g.quote?el('blockquote',{},`“${g.quote}”`,el('span',{style:'font-style:normal'},' — from the group’s website')):null,
       el('p',{style:'margin:0;max-width:78ch'},g.summary),
       el('div',{class:'themes'},...g.themes.map(t=>el('span',{class:'theme'},t))),
-      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},'Group website ↗'),el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'),el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},`Vacancies at ${g.institution} ↗`))));
+      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},'Group website ↗'),g.portal&&g.portal!==g.website?el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'):null,el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},`Vacancies at ${g.institution} ↗`))));
     // CFQT
     box.append(el('section',{},el('h3',{},'Research on the CFQT content map'),
       el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name)))))));

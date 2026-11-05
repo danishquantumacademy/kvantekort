@@ -2494,6 +2494,52 @@ Research group,DTU,https://orbit.dtu.dk/en/publications/decoherence-in-waveguide
 Research group,DTU,https://orbit.dtu.dk/en/projects/leveraging-machine-learning-for-developing-on-chip-quantum-source/,NanoPhoton: project: MSuper: Leveraging Machine Learning for Developing On-Chip Quantum Sources with ,data/groups/nanophoton.txt
 Research group,DTU,https://orbit.dtu.dk/en/projects/information-processing-with-nano-opto-electro-mechanical-systems/,NanoPhoton: project: Information processing with nano-opto-electro-mechanical systems,data/groups/nanophoton.txt
 Research group,DTU,https://orbit.dtu.dk/en/projects/thiophosphate-thin-films-for-quantum-technology/,NanoPhoton: project: Thiophosphate Thin Films for Quantum Technology,data/groups/nanophoton.txt
+Research group,DTU,https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/,"QLS: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),DTU,https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/,"QLS: outputs, read automatically every Monday",data/groups/feeds.json
+Research group,DTU,https://orbit.dtu.dk/en/persons/sejr-sebastian-haahr-bergman/,QLS: member profile (Sejr Sebastian Haahr Bergman),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/niels-gregersen/,QLS: member profile (Niels Gregersen),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/christine-pepke-gunnarsson/,QLS: member profile (Christine Pepke Gunnarsson),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/martin-arentoft-jacobsen/,QLS: member profile (Martin Arentoft Jacobsen),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/mads-kirk-mailand/,QLS: member profile (Mads Kirk Mailand),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/pietro-metuh/,QLS: member profile (Pietro Metuh),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/battulga-munkhbat/,QLS: member profile (Battulga Munkhbat),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/athanasios-paralikis/,QLS: member profile (Athanasios Paralikis),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/aleksander-rodek/,QLS: member profile (Aleksander Rodek),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/javier-sanz-rodrigo/,QLS: member profile (Javier Sanz Rodrigo),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/damien-roux/,QLS: member profile (Damien Roux),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/andreas-rudfeld/,QLS: member profile (Andreas Rudfeld),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/luca-vannucci/,QLS: member profile (Luca Vannucci),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/natashia-emma-w%C3%B6hliche/,QLS: member profile (Natashia Emma Wöhliche),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/pawel-daniel-wyborski/,QLS: member profile (Pawel Daniel Wyborski),data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost/,QLS: publication: Indistinguishable single photons from a quantum dot in a nanopost cavity,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-/,QLS: publication: Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Li,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/single-photon-detection-in-few-layer-nbsesub2sub-superconducting-/,QLS: publication: Single-photon detection in few-layer NbSe2 superconducting nanowires,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/theory-of-single-photon-emission-from-neutral-and-charged-exciton/,QLS: publication: Theory of single-photon emission from neutral and charged excitons in a polariza,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/quantum-mechanical-theory-of-single-photon-emitters/,QLS: project: Quantum-Mechanical Theory of Single-Photon Emitters,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/quantum-dot-emitters-integrated-with-sin-devices-for-remote-quant/,QLS: project: Quantum Dot Emitters Integrated with SiN Devices for Remote Quantum Computing,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/nanoengineered-2d-tmds-based-quantum-light-sources-for-optical-qu/,QLS: project: Nanoengineered 2D TMDs-based Quantum Light Sources for Optical Quantum Informati,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/a-tunable-source-of-entangled-pairs-ofphotons-operating-in-the-te/,QLS: project: A tunable source of entangled pairs of photons operating in the telecom C-band,data/groups/qls.txt
+Research group,DTU,https://orbit.dtu.dk/en/organisations/quantum-networks/,"QNet: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),DTU,https://orbit.dtu.dk/en/organisations/quantum-networks/,"QNet: outputs, read automatically every Monday",data/groups/feeds.json
+Research group,DTU,https://orbit.dtu.dk/en/persons/nika-akopian/,QNet: member profile (Nika Akopian),data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/aditya-manoj-patel/,QNet: member profile (Aditya Manoj Patel),data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/mikaela-ppasiou/,QNet: member profile (Mikaela Ppasiou),data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/rohan-radhakrishnan/,QNet: member profile (Rohan Radhakrishnan),data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/akaash-srikanth/,QNet: member profile (Akaash Srikanth),data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/nanowire-quantum-dots-from-material-design-to-quantum-photonic-te/,QNet: publication: Nanowire quantum dots: from material design to quantum photonic technologies,data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/location-qubits-in-a-multiple-quantum-dot-system/,QNet: publication: Location Qubits in a Multiple-Quantum-Dot System,data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/direct-band-gap-algaas-wurtzite-nanowires/,QNet: publication: Direct Band Gap AlGaAs Wurtzite Nanowires,data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/experimental-proposal-to-probe-the-extended-pauli-principle/,QNet: publication: Experimental proposal to probe the extended Pauli principle,data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/multi-qubit-quantum-photonic-devices-3/,QNet: project: Multi-Qubit Quantum Photonic Devices,data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/projects/multi-qubit-quantum-photonic-devices-2/,QNet: project: Multi-Qubit Quantum Photonic Devices,data/groups/qnet.txt
+Research group,DTU,https://orbit.dtu.dk/en/organisations/quantum-communication-systems/,"QCS: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),DTU,https://orbit.dtu.dk/en/organisations/quantum-communication-systems/,"QCS: outputs, read automatically every Monday",data/groups/feeds.json
+Research group,DTU,https://orbit.dtu.dk/en/persons/i%C3%B1aki-beraza/,QCS: member profile (Iñaki Beraza),data/groups/qcs.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/michael-galili/,QCS: member profile (Michael Galili),data/groups/qcs.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/francesco-sirovich/,QCS: member profile (Francesco Sirovich),data/groups/qcs.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/caterina-vigliar/,QCS: member profile (Caterina Vigliar),data/groups/qcs.txt
+Research group,DTU,https://orbit.dtu.dk/en/persons/mujtaba-zahidy/,QCS: member profile (Mujtaba Zahidy),data/groups/qcs.txt
+Research group,DTU,https://orbit.dtu.dk/en/publications/on-chip-semi-device-independent-quantum-random-number-generator-e/,QCS: publication: On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Conte,data/groups/qcs.txt
 Research group,KU,https://nqcp.ku.dk/,"NQCP: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,KU,https://researchprofiles.ku.dk/en/organisations/nqcp/,NQCP: research-portal organisation page,data/groups/groups.json
 Research group,KU,https://employment.ku.dk/all-vacancies/,NQCP: university vacancies page (link target),data/groups/groups.json
@@ -2688,11 +2734,93 @@ Research group,KU,https://researchprofiles.ku.dk/en/publications/chip-integrated
 Research group,KU,https://researchprofiles.ku.dk/en/publications/continuous-wave-all-optical-single-photon-transistor-based-on-a-r/,Quantum Optics: publication: Continuous-wave all-optical single-photon transistor based on a Rydberg-atom ens,data/groups/qop.txt
 Research group,KU,https://researchprofiles.ku.dk/en/clippings/danske-forskere-viser-en-ny-vej-mod-kvantecomputere/,Quantum Optics: press clipping: Danske forskere viser en ny vej mod kvantecomputere,data/groups/qop.txt
 Research group,KU,https://researchprofiles.ku.dk/en/clippings/danmarks-f%C3%B8rste-atomur/,Quantum Optics: press clipping: Danmarks første atomur,data/groups/qop.txt
+Research group,KU,https://nbi.ku.dk/english/research/condensed-matter-physics/,"Condensed Matter: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group,KU,https://researchprofiles.ku.dk/en/organisations/faststoffysik/,Condensed Matter: research-portal organisation page,data/groups/groups.json
+Research group feed (weekly),KU,https://researchprofiles.ku.dk/en/organisations/faststoffysik/,"Condensed Matter: outputs, read automatically every Monday",data/groups/feeds.json
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jens-als-nielsen/,Condensed Matter: member profile (Jens Als-Nielsen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/brian-m%C3%B8ller-andersen/,Condensed Matter: member profile (Brian Møller Andersen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/christine-wei-andersson/,Condensed Matter: member profile (Christine Wei Andersson),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/bjarne-andresen/,Condensed Matter: member profile (Bjarne Andresen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/mats-ola-erik-barkman/,Condensed Matter: member profile (Mats Ola Erik Barkman),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/david-feldstein-bofill/,Condensed Matter: member profile (David Feldstein Bofill),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/heloisa-nunes-bordallo/,Condensed Matter: member profile (Heloisa Nunes Bordallo),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/fanny-florinda-e-m-j-vinas-bostr%C3%B6m/,Condensed Matter: member profile (Fanny Vinas Boström),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/bertram-seck-brovang/,Condensed Matter: member profile (Bertram Seck Brovang),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jose-manuel-chavez-garcia/,Condensed Matter: member profile (Jose Manuel Chavez-Garcia),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/daniel-lomholt-christensen/,Condensed Matter: member profile (Daniel Lomholt Christensen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/morten-holm-christensen/,Condensed Matter: member profile (Morten Holm Christensen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/hans-christiansen/,Condensed Matter: member profile (Hans Christiansen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/anders-erik-enevold-dahl/,Condensed Matter: member profile (Anders Erik Enevold Dahl),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/kamaldeep-dalal/,Condensed Matter: member profile (Kamaldeep Dalal),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/tobias-peter-edwinson/,Condensed Matter: member profile (Tobias Peter Edwinson),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/reuel-dsouza-ej-efternavn/,Condensed Matter: member profile (Reuel Dsouza),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/robert-krarup-feidenhansl/,Condensed Matter: member profile (Robert Feidenhans'l),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/karsten-flensberg/,Condensed Matter: member profile (Karsten Flensberg),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jannik-gondolf/,Condensed Matter: member profile (Jannik Gondolf),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/per-hedeg%C3%A5rd/,Condensed Matter: member profile (Per Hedegård),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jes-henningsen/,Condensed Matter: member profile (Jes Henningsen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jens-jensen/,Condensed Matter: member profile (Jens Jensen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/erik-johnson/,Condensed Matter: member profile (Erik Johnson),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/marton-kanasz-nagy/,Condensed Matter: member profile (Marton Kanasz-Nagy),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jacob-judas-kain-kirkensgaard/,Condensed Matter: member profile (Jacob Judas Kain Kirkensgaard),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/morten-kjaergaard/,Condensed Matter: member profile (Morten Kjaergaard),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/kristine-marie-l%C3%B8fgren-krighaar/,Condensed Matter: member profile (Kristine Marie Løfgren Krighaar),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/oopa-srija-kurapati/,Condensed Matter: member profile (Oopa Srija Kurapati),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/lazar-lakic/,Condensed Matter: member profile (Lazar Lakic),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/william-iain-leonard-lawrie/,Condensed Matter: member profile (William Iain Leonard Lawrie),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/kim-lefmann/,Condensed Matter: member profile (Kim Lefmann),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/emma-ynill-lenander/,Condensed Matter: member profile (Emma Ynill Lenander),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/poul-erik-lindelof/,Condensed Matter: member profile (Poul Erik Lindelof),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/nicolas-paul-maxime-loizeau/,Condensed Matter: member profile (Nicolas Loizeau),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/j%C3%BCrgen-luus/,Condensed Matter: member profile (Jürgen Luus),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/magnus-r%C3%B8nne-lykkegaard/,Condensed Matter: member profile (Magnus Rønne Lykkegaard),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/antonio-lucas-rigotti-manesco/,Condensed Matter: member profile (Antonio Lucas Rigotti Manesco),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/charles-m-marcus/,Condensed Matter: member profile (Charles M. Marcus),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/mathis-victor-moes/,Condensed Matter: member profile (Mathis Victor Moes),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/kristian-knakkergaard-nielsen/,Condensed Matter: member profile (Kristian Knakkergaard Nielsen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/malthe-asmus-marciniak-nielsen/,Condensed Matter: member profile (Malthe Asmus Marciniak Nielsen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jesper-nyg%C3%A5rd/,Condensed Matter: member profile (Jesper Nygård),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jens-havgaard-nyhegn/,Condensed Matter: member profile (Jens Havgaard Nyhegn),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/dags-olsteins/,Condensed Matter: member profile (Dags Olsteins),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/jens-paaske/,Condensed Matter: member profile (Jens Paaske),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/amalie-terese-jiao-paulsen/,Condensed Matter: member profile (Amalie Terese Jiao Paulsen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/frederik-alexander-stege-philipsen/,Condensed Matter: member profile (Frederik Alexander Stege Philipsen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/colin-piquard/,Condensed Matter: member profile (Colin Piquard),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/deepti-rana/,Condensed Matter: member profile (Deepti Rana),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/finn-berg-rasmussen/,Condensed Matter: member profile (Finn Berg Rasmussen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/torbj%C3%B8rn-raas%C3%B8-rasmussen/,Condensed Matter: member profile (Torbjørn Raasø Rasmussen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/christian-lukas-h-rasmussen/,Condensed Matter: member profile (Christian Lukas H Rasmussen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/daniel-steve-sanchez/,Condensed Matter: member profile (Daniel Steve Sanchez),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/rasmus-dalsgaard-schlosser/,Condensed Matter: member profile (Rasmus Dalsgaard Schlosser),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/martin-ulrich-seltmann/,Condensed Matter: member profile (Martin Ulrich Seltmann),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/joachim-elbeshausen-sestoft/,Condensed Matter: member profile (Joachim Elbeshausen Sestoft),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/johann-bock-severin/,Condensed Matter: member profile (Johann Bock Severin),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/ksenia-shagalov/,Condensed Matter: member profile (Ksenia Shagalov),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/pawel-tadeusz-sidorczak/,Condensed Matter: member profile (Pawel Tadeusz Sidorczak),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/shikhar-singh/,Condensed Matter: member profile (Shikhar Singh),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/stig-skelboe/,Condensed Matter: member profile (Stig Skelboe),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/henrik-smith/,Condensed Matter: member profile (Henrik Smith),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/oliver-ovs%C3%A9e-laub-solow/,Condensed Matter: member profile (Oliver Ovsée Laub Solow),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/gorm-ole-steffensen/,Condensed Matter: member profile (Gorm Ole Steffensen),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/yao-su/,Condensed Matter: member profile (Yao Su),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/athira-suresh/,Condensed Matter: member profile (Athira Suresh),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/saulius-vaitiekenas/,Condensed Matter: member profile (Saulius Vaitiekenas),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/n-manikanta-sai-r-n-vanjarapu/,Condensed Matter: member profile (N Manikanta Sai R N Vanjarapu),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/vasileios-vlachodimitropoulos/,Condensed Matter: member profile (Vasileios Vlachodimitropoulos),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/casper-wied/,Condensed Matter: member profile (Casper Wied),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/tim-fabian-wohlers-reichel/,Condensed Matter: member profile (Tim Fabian Wohlers-Reichel),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/steffen-zelzer/,Condensed Matter: member profile (Steffen Zelzer),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/persons/sami-zweidler/,Condensed Matter: member profile (Sami Zweidler),data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/publications/adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states/,Condensed Matter: publication: Adiabatic non-Abelian braiding of imperfect Majorana bound states,data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/clippings/elegant-use-of-noise-for-quantum-computing/,Condensed Matter: press clipping: Elegant use of noise for quantum computing,data/groups/cmp.txt
+Research group,KU,https://researchprofiles.ku.dk/en/clippings/feedback-driven-quantum-stabilization-real-time-two-axis-control-/,Condensed Matter: press clipping: Feedback-Driven Quantum Stabilization: Real-Time Two-Axis Control of Spin Qubits,data/groups/cmp.txt
 Research group,AU,https://phys.au.dk/ccq,"CCQ: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,AU,https://pure.au.dk/portal/en/organisations/department-of-physics-and-astronomy-center-for-complex-quantum-sy/,CCQ: research-portal organisation page,data/groups/groups.json
 Research group,AU,https://international.au.dk/about/profile/vacant-positions,CCQ: university vacancies page (link target),data/groups/groups.json
 Research group feed (weekly),AU,https://phys.au.dk/ccq/news,"CCQ: news, read automatically every Monday",data/groups/feeds.json
 Research group feed (weekly),AU,https://phys.au.dk/ccq/events,"CCQ: events, read automatically every Monday",data/groups/feeds.json
+Research group,AU,https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials,"Ultrafast QM: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),AU,https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials,"Ultrafast QM: news, read automatically every Monday",data/groups/feeds.json
 Research group,SDU,https://www.sdu.dk/en/forskning/polima,"POLIMA: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/organisations/center-for-polariton-driven-light-matter-interactions-polima/,POLIMA: research-portal organisation page,data/groups/groups.json
 Research group,SDU,https://www.sdu.dk/en/service/ledige_stillinger,POLIMA: university vacancies page (link target),data/groups/groups.json
@@ -2798,6 +2926,24 @@ Research group,SDU,https://portal.findresearcher.sdu.dk/en/projects/dynamiske-sy
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/projects/sapere-aude-uddannelses-og-forskningsministeriet-from-perturbativ/,QM: project: From perturbative to non-perturbative quantum field theory by cutting and gluing,data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/clippings/kapl%C3%B8bet-ingen-vil-tabe/,"QM: press clipping: Kapløbet, ingen vil tabe",data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/,QM: press clipping: SDU er i verdenselite med banebrydende forskning,data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/,"Nano Optics: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
+Research group feed (weekly),SDU,https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/,"Nano Optics: outputs, read automatically every Monday",data/groups/feeds.json
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/seib/,Nano Optics: member profile (Sergey I. Bozhevolnyi),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jacol/,Nano Optics: member profile (Jacob Holm Colding-Jørgensen),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/feid/,Nano Optics: member profile (Fei Ding),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/donha/,Nano Optics: member profile (Donghai Han),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jonas-beermann-kristiansen/,Nano Optics: member profile (Jonas Beermann Kristiansen),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/shku/,Nano Optics: member profile (Shailesh Kumar),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/yiwe/,Nano Optics: member profile (Yiwen Liu),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/chao/,Nano Optics: member profile (Chao Meng),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/yiou/,Nano Optics: member profile (Yi Ouyang),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/torgom-yezekyan/,Nano Optics: member profile (Torgom Yezekyan),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/Zenin/,Nano Optics: member profile (Vladimir Zenin),data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/publications/chip-integrated-metasurface-enabled-single-photon-skyrmion-source/,Nano Optics: publication: Chip-integrated metasurface-enabled single-photon skyrmion sources,data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/publications/electrically-controlled-nonlocal-metasurfaces/,Nano Optics: publication: Electrically controlled nonlocal metasurfaces,data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/publications/electrooptic-reflective-metasurfaces-for-discrete-beam-deflection/,Nano Optics: publication: Electrooptic reflective metasurfaces for discrete beam deflection,data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/projects/quantum-metasurface-a-novel-platform-for-generating-and-manipulat/,Nano Optics: project: Quantum metasurface: a novel platform for generating and manipulating single pho,data/groups/nanooptics.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/projects/room-temperature-generation-of-indistinguishable-single-photons/,Nano Optics: project: Room-Temperature Generation of Indistinguishable Single Photons,data/groups/nanooptics.txt
 Research group,AAU,https://www.classique.aau.dk,"Classique: own website (short quote, description read for DQA's own summary)",data/groups/groups.json
 Research group,AAU,https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/,Classique: research-portal organisation page,data/groups/groups.json
 Research group,AAU,https://www.vacancies.aau.dk/,Classique: university vacancies page (link target),data/groups/groups.json

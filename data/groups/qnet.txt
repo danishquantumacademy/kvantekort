@@ -1,0 +1,12 @@
+# Quantum Networks, Department of Electrical and Photonics Engineering (DTU). Harvested 2026-11-05 from DTU Orbit (organisation: quantum-networks).
+P||Nika Akopian||Group leader, Associate Professor||/en/persons/nika-akopian/||Multi-Qubit Quantum Photonic Devices [15/09/2024 → 14/09/2027]||Location Qubits in a Multiple-Quantum-Dot System (2024)
+P||Aditya Manoj Patel||PhD Student||/en/persons/aditya-manoj-patel/||||
+P||Mikaela Ppasiou||Research Assistant||/en/persons/mikaela-ppasiou/||||
+P||Rohan Radhakrishnan||Postdoc||/en/persons/rohan-radhakrishnan/||Multi-Qubit Quantum Photonic Devices [01/06/2021 → 17/04/2026]||Nanowire quantum dots: from material design to quantum photonic technologies (2025)
+P||Akaash Srikanth||PhD Student||/en/persons/akaash-srikanth/||Multi-Qubit Quantum Photonic Devices [15/09/2024 → 14/09/2027]||
+PUBS||Nanowire quantum dots: from material design to quantum photonic technologies||/en/publications/nanowire-quantum-dots-from-material-design-to-quantum-photonic-te/||Radhakrishnan, R., 2025, PhD thesis, Technical University of Denmark. 162 p.
+PUBS||Location Qubits in a Multiple-Quantum-Dot System||/en/publications/location-qubits-in-a-multiple-quantum-dot-system/||Li, D., Radhakrishnan, R. & Akopian, N., 8 May 2024, In: Nano Letters. 24, 18, p. 5656-5661
+PUBS||Direct Band Gap AlGaAs Wurtzite Nanowires||/en/publications/direct-band-gap-algaas-wurtzite-nanowires/||Barettin, D., Shtrom, I. V., Reznik, R. R., Mikushev, S. V., Cirlin, G. E., Auf der Maur, M. & Akopian, N., 8 Feb 2023, In: Nano Letters. 23, 3, p. 895-901
+PUBS||Experimental proposal to probe the extended Pauli principle||/en/publications/experimental-proposal-to-probe-the-extended-pauli-principle/||Hackl, L., Li, D., Akopian, N. & Christandl, M., Jul 2023, In: Physical Review A. 108, 1, 012208.
+PROJ||Multi-Qubit Quantum Photonic Devices||/en/projects/multi-qubit-quantum-photonic-devices-3/||Srikanth, A., Akopian, N., Heuck, M.||15/09/2024 → 14/09/2027||||PhD
+PROJ||Multi-Qubit Quantum Photonic Devices||/en/projects/multi-qubit-quantum-photonic-devices-2/||Radhakrishnan, R., Akopian, N., Markos, C.||01/06/2021 → 17/04/2026||||PhD

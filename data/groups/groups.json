@@ -1,5 +1,5 @@
 {
- "_note": "Research groups shown on groups.html (ten groups, at least one per university). Summaries are written by Danish Quantum Academy; quotes are short excerpts from the group's own page. Members, publications and projects come from data/groups/<key>.txt; news, events and positions from data/groups/feeds.json (refreshed weekly by scripts/fetch_group_feeds.py).",
+ "_note": "Research groups shown on groups.html (the quantum research groups at the five universities). Summaries are written by Danish Quantum Academy; quotes are short excerpts from the group's own page. Members, publications and projects come from data/groups/<key>.txt; news, events and positions from data/groups/feeds.json (refreshed weekly by scripts/fetch_group_feeds.py).",
  "groups": [
   {
    "key": "qpit",
@@ -92,6 +92,116 @@
      "kind": "outputs",
      "type": "pure_overview",
      "url": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
+    }
+   ]
+  },
+  {
+   "key": "qls",
+   "institution": "DTU",
+   "name": "Quantum Light Sources",
+   "short": "QLS",
+   "unit": "Department of Electrical and Photonics Engineering",
+   "kind": "Research group",
+   "website": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/",
+   "portal": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/",
+   "portal_base": "https://orbit.dtu.dk",
+   "teacher_units": [
+    "Quantum Light Sources"
+   ],
+   "quote": "",
+   "summary": "A DTU Electro group that designs, models and fabricates sources of single and entangled photons for quantum technology. It combines quantum-mechanical theory of single-photon emitters with semiconductor quantum dots in micropillars and nanoposts, telecom-band quantum dots, 2D-material quantum emitters and superconducting single-photon detectors, and integrates emitters with silicon nitride photonics for remote quantum computing.",
+   "themes": [
+    "Theory of single-photon emitters",
+    "Quantum-dot single-photon and entangled-photon sources",
+    "Telecom-band quantum light",
+    "2D-material quantum emitters and detectors"
+   ],
+   "cfqt": [
+    "4.4",
+    "2.2",
+    "3.3",
+    "3.2",
+    "7.5"
+   ],
+   "centres": [],
+   "jobs_url": "https://www.dtu.dk/english/about/job-and-career/vacant-positions",
+   "feeds": [
+    {
+     "kind": "outputs",
+     "type": "pure_overview",
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/"
+    }
+   ]
+  },
+  {
+   "key": "qnet",
+   "institution": "DTU",
+   "name": "Quantum Networks",
+   "short": "QNet",
+   "unit": "Department of Electrical and Photonics Engineering",
+   "kind": "Research group",
+   "website": "https://orbit.dtu.dk/en/organisations/quantum-networks/",
+   "portal": "https://orbit.dtu.dk/en/organisations/quantum-networks/",
+   "portal_base": "https://orbit.dtu.dk",
+   "teacher_units": [
+    "Quantum Networks"
+   ],
+   "quote": "",
+   "summary": "A small DTU Electro group working on quantum photonic devices for quantum networks. It grows and studies semiconductor nanowire quantum dots and multi-quantum-dot systems as sources of single photons and as location qubits, aiming at multi-qubit quantum photonic devices.",
+   "themes": [
+    "Nanowire quantum dots",
+    "Multi-qubit quantum photonic devices",
+    "Location qubits"
+   ],
+   "cfqt": [
+    "4.4",
+    "4.5",
+    "2.3",
+    "7.5"
+   ],
+   "centres": [],
+   "jobs_url": "https://www.dtu.dk/english/about/job-and-career/vacant-positions",
+   "feeds": [
+    {
+     "kind": "outputs",
+     "type": "pure_overview",
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-networks/"
+    }
+   ]
+  },
+  {
+   "key": "qcs",
+   "institution": "DTU",
+   "name": "Quantum Communication Systems",
+   "short": "QCS",
+   "unit": "Department of Electrical and Photonics Engineering",
+   "kind": "Research group",
+   "website": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/",
+   "portal": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/",
+   "portal_base": "https://orbit.dtu.dk",
+   "teacher_units": [
+    "Quantum Communication Systems"
+   ],
+   "quote": "",
+   "summary": "A DTU Electro group that builds quantum communication systems on optical fibre and photonic chips. Work covers quantum key distribution multiplexed over few-mode fibre, co-existence of quantum and classical signals in the same network, and on-chip quantum random number generators.",
+   "themes": [
+    "Quantum key distribution over multi-mode fibre",
+    "Co-existence of quantum and classical communication",
+    "On-chip quantum random number generation"
+   ],
+   "cfqt": [
+    "7.3",
+    "7.5",
+    "7.2",
+    "3.3"
+   ],
+   "centres": [],
+   "jobs_url": "https://www.dtu.dk/english/about/job-and-career/vacant-positions",
+   "feeds": [
+    {
+     "kind": "outputs",
+     "type": "pure_overview",
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/"
     }
    ]
   },
@@ -238,6 +348,48 @@
    ]
   },
   {
+   "key": "cmp",
+   "institution": "KU",
+   "name": "Condensed Matter Physics (incl. Center for Quantum Devices)",
+   "short": "Condensed Matter",
+   "unit": "Niels Bohr Institute",
+   "kind": "Section",
+   "website": "https://nbi.ku.dk/english/research/condensed-matter-physics/",
+   "portal": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/",
+   "portal_base": "https://researchprofiles.ku.dk",
+   "teacher_units": [
+    "Condensed Matter Physics"
+   ],
+   "quote": "",
+   "summary": "A Niels Bohr Institute section whose quantum work centres on the Center for Quantum Devices and condensed matter theory: hybrid semiconductor–superconductor qubits and Josephson junction arrays, spin qubits in quantum dots, Majorana and Andreev bound states, and unconventional superconductivity. The section also has groups in neutron and X-ray scattering and soft matter.",
+   "themes": [
+    "Hybrid superconducting qubits and transmons",
+    "Semiconductor quantum dots and spin qubits",
+    "Majorana and Andreev bound states",
+    "Unconventional and topological superconductivity",
+    "Neutron and X-ray scattering"
+   ],
+   "cfqt": [
+    "4.1",
+    "4.2",
+    "2.3",
+    "4.5",
+    "2.4"
+   ],
+   "centres": [
+    "Center for Quantum Devices (QDev)",
+    "Novo Nordisk Foundation Quantum Computing Programme"
+   ],
+   "jobs_url": "https://employment.ku.dk/all-vacancies/",
+   "feeds": [
+    {
+     "kind": "outputs",
+     "type": "pure_overview",
+     "url": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    }
+   ]
+  },
+  {
    "key": "ccq",
    "institution": "AU",
    "name": "Center for Complex Quantum Systems (CCQ)",
@@ -279,6 +431,42 @@
      "kind": "events",
      "type": "generic_list",
      "url": "https://phys.au.dk/ccq/events"
+    }
+   ]
+  },
+  {
+   "key": "udqm",
+   "institution": "AU",
+   "name": "Ultrafast Dynamics of Quantum Materials",
+   "short": "Ultrafast QM",
+   "unit": "Department of Physics and Astronomy",
+   "kind": "Research group",
+   "website": "https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials",
+   "portal": "",
+   "portal_base": "",
+   "teacher_units": [
+    "Ultrafast Dynamics of Quantum Materials"
+   ],
+   "quote": "to explore and control the properties of materials",
+   "summary": "An AU physics group that uses ultrashort laser pulses to follow and steer quantum materials on their natural time scales. It studies atomic, spin and electron dynamics, light-induced phase transitions, orbital order and coherent phonons, and nonlinear optics in materials such as high-temperature superconductors.",
+   "themes": [
+    "Ultrafast phase transitions",
+    "Coherent phonons and orbital order",
+    "High-temperature superconductors",
+    "Nonlinear optics"
+   ],
+   "cfqt": [
+    "2.3",
+    "3.3",
+    "2.4"
+   ],
+   "centres": [],
+   "jobs_url": "https://international.au.dk/about/profile/vacant-positions",
+   "feeds": [
+    {
+     "kind": "news",
+     "type": "generic_list",
+     "url": "https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials"
     }
    ]
   },
@@ -368,6 +556,42 @@
      "kind": "outputs",
      "type": "pure_overview",
      "url": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    }
+   ]
+  },
+  {
+   "key": "nanooptics",
+   "institution": "SDU",
+   "name": "SDU Nano Optics",
+   "short": "Nano Optics",
+   "unit": "Mads Clausen Institute",
+   "kind": "Research group",
+   "website": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/",
+   "portal": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/",
+   "portal_base": "https://portal.findresearcher.sdu.dk",
+   "teacher_units": [
+    "SDU Nano Optics"
+   ],
+   "quote": "",
+   "summary": "An SDU group in plasmonics and metasurfaces. Its quantum work concerns quantum metasurfaces that generate and shape single photons, chip-integrated single-photon sources from colour centres in nanodiamonds, and room-temperature indistinguishable single photons; it also develops electrically tunable and nonlocal metasurfaces for classical optics.",
+   "themes": [
+    "Quantum metasurfaces",
+    "Chip-integrated single-photon sources",
+    "Plasmonics and nano-optics",
+    "Tunable and nonlocal metasurfaces"
+   ],
+   "cfqt": [
+    "4.4",
+    "3.3",
+    "2.2"
+   ],
+   "centres": [],
+   "jobs_url": "https://www.sdu.dk/en/service/ledige_stillinger",
+   "feeds": [
+    {
+     "kind": "outputs",
+     "type": "pure_overview",
+     "url": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
     }
    ]
   },

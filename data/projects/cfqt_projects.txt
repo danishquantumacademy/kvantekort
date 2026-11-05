@@ -255,3 +255,30 @@ OUT|Kashiwara–Vergne solutions degree by degree|-
 OUT|Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal Protonated Schiff Base|-
 OUT|Cubic Dirac Operators and Dirac Cohomology for Basic Classical Lie Superalgebras|-
 OUT|The spectrum of Feynman-integral geometries at two loops|-
+# Added 2026-11-05 for Quantum Light Sources, Quantum Networks, Quantum Communication Systems (DTU), Condensed Matter Physics (KU),
+# Ultrafast Dynamics of Quantum Materials (AU) and SDU Nano Optics.
+A tunable source of entangled pairs of photons operating in the telecom C-band|4.4;7.5;3.3
+OUT|Manipulation of the electric state of the CdSe/ZnSe QD with a single Fe2+ dopant|2.3;4.2
+OUT|Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emitters|3.2;4.4
+OUT|Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors|2.3
+OUT|Spin-photon coupling using circular double quantum dots|4.2;2.2
+OUT|Andreev Interferometers based on Quantum Point Contacts|2.3;4.5
+OUT|Simulating Neutron Diffraction from Deformed Mosaic Crystals in McStas|-
+OUT|Nodal superconducting gap structure and topological surface states of UTe2|2.3
+OUT|Directional conductance of Andreev crystals in hybrid Josephson junction arrays|2.3;4.1
+OUT|Odd-parity magnetism in Fe-based superconductors with coplanar magnetic order|2.3
+OUT|Inherent momentum-dependent gap structure of altermagnetic superconductors|2.3
+OUT|Accurate simulations of magnetic excitations in the neutron simulation package McStas|-
+OUT|Opening Krylov Space to Access All-Time Dynamics via Dynamical Symmetries|2.4
+OUT|Magnetic Domains Stabilized by Symmetry-Protected Zero Modes|2.3;4.5
+OUT|Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit|4.1
+OUT|Exciton interacting with the phonons of an electronic Wigner crystal|2.3
+OUT|Cryogenic performance of field-effect transistors and amplifiers based on selective area grown InAs nanowires|3.4;3.2
+OUT|Quantum Phases and Dynamics of Hybrid Josephson Lattices|2.4;4.1
+OUT|InAs/InAsSb nanowires with crystal phase defined quantum dots and epitaxial superconducting thin films for integration with superconducting microwave resonators|4.7;3.2;4.2
+OUT|PbTe/SnTe heterostructures-candidate platform for studying spin-triplet superconductivity|2.3;4.5
+OUT|Non-Hermitian skin effect and electronic nonlocal transport|2.3
+OUT|Direct transport between superconducting subgap states in a double quantum dot|2.3;4.2
+OUT|A quantum dot in germanium proximitized by a superconductor|4.2;4.5
+OUT|Origin of surface and subband states at the InAs(111)A surface|2.3
+OUT|Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates|-

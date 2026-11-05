@@ -1,0 +1,6 @@
+# Ultrafast Dynamics of Quantum Materials, Department of Physics and Astronomy (AU). Members from phys.au.dk (people page revised 05.10.2026), read 2026-11-05.
+# AU Pure could not be read (it asks for a browser verification), so there are no portal links, projects or publications from the portal.
+P||Simon Elliot Wall||Group leader, Associate Professor||||||
+P||Maximilian Mattern||Postdoc||||||
+P||Nikolaj Klinkby||PhD Student||||||
+P||Noah Tettenborn||PhD Student||||||

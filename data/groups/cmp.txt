@@ -1,0 +1,83 @@
+# Condensed Matter Physics, Niels Bohr Institute (KU), including the Center for Quantum Devices (QDev) and condensed matter theory. Harvested 2026-11-05 from the KU research portal
+# (organisation: faststoffysik). External members and profiles without a name are left out. The KU portal lists no projects for this unit.
+P||Jens Als-Nielsen||Emeritus||/en/persons/jens-als-nielsen/||||
+P||Brian Møller Andersen||Professor||/en/persons/brian-m%C3%B8ller-andersen/||||
+P||Christine Wei Andersson||Instructor||/en/persons/christine-wei-andersson/||||
+P||Bjarne Andresen||Associate Professor emeritus||/en/persons/bjarne-andresen/||||
+P||Mats Ola Erik Barkman||Postdoc||/en/persons/mats-ola-erik-barkman/||||Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors (2026)
+P||David Feldstein Bofill||Postdoc||/en/persons/david-feldstein-bofill/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Heloisa Nunes Bordallo||Associate Professor||/en/persons/heloisa-nunes-bordallo/||||
+P||Fanny Vinas Boström||Postdoc||/en/persons/fanny-florinda-e-m-j-vinas-bostr%C3%B6m/||||Spin-photon coupling using circular double quantum dots (2026)
+P||Bertram Seck Brovang||Research Assistant||/en/persons/bertram-seck-brovang/||||
+P||Jose Manuel Chavez-Garcia||PhD Student||/en/persons/jose-manuel-chavez-garcia/||||Andreev Interferometers based on Quantum Point Contacts (2025)
+P||Daniel Lomholt Christensen||PhD Student||/en/persons/daniel-lomholt-christensen/||||Simulating Neutron Diffraction from Deformed Mosaic Crystals in McStas (2026)
+P||Morten Holm Christensen||Assistant Professor||/en/persons/morten-holm-christensen/||||
+P||Hans Christiansen||PhD fellow||/en/persons/hans-christiansen/||||Nodal superconducting gap structure and topological surface states of UTe2 (2025)
+P||Anders Erik Enevold Dahl||PhD fellow||/en/persons/anders-erik-enevold-dahl/||||Directional conductance of Andreev crystals in hybrid Josephson junction arrays (2026)
+P||Kamaldeep Dalal||PhD Student||/en/persons/kamaldeep-dalal/||||
+P||Tobias Peter Edwinson||Research Assistant||/en/persons/tobias-peter-edwinson/||||
+P||Reuel Dsouza||PhD Student||/en/persons/reuel-dsouza-ej-efternavn/||||Odd-parity magnetism in Fe-based superconductors with coplanar magnetic order (2026)
+P||Robert Feidenhans'l||Professor emeritus||/en/persons/robert-krarup-feidenhansl/||||
+P||Karsten Flensberg||Professor||/en/persons/karsten-flensberg/||||
+P||Jannik Gondolf||PhD fellow||/en/persons/jannik-gondolf/||||Inherent momentum-dependent gap structure of altermagnetic superconductors (2026)
+P||Per Hedegård||Professor||/en/persons/per-hedeg%C3%A5rd/||||
+P||Jes Henningsen||Associate Professor emeritus||/en/persons/jes-henningsen/||||
+P||Laurits Moestrup Høgel||Research Assistant||/en/persons/laurits-moestrup-h%C3%B8gel/||||
+P||Jens Jensen||Associate Professor emeritus||/en/persons/jens-jensen/||||
+P||Erik Johnson||Associate Professor emeritus||/en/persons/erik-johnson/||||
+P||Marton Kanasz-Nagy||Postdoc||/en/persons/marton-kanasz-nagy/||||
+P||Jacob Judas Kain Kirkensgaard||Associate Professor||/en/persons/jacob-judas-kain-kirkensgaard/||||
+P||Morten Kjaergaard||Associate Professor||/en/persons/morten-kjaergaard/||||
+P||Kristine Marie Løfgren Krighaar||PhD Student||/en/persons/kristine-marie-l%C3%B8fgren-krighaar/||||Accurate simulations of magnetic excitations in the neutron simulation package McStas (2026)
+P||Oopa Srija Kurapati||Research Assistant||/en/persons/oopa-srija-kurapati/||||
+P||Lazar Lakic||PhD Student||/en/persons/lazar-lakic/||||
+P||William Iain Leonard Lawrie||Assistant Professor||/en/persons/william-iain-leonard-lawrie/||||
+P||Kim Lefmann||Professor||/en/persons/kim-lefmann/||||
+P||Emma Ynill Lenander||Research Assistant||/en/persons/emma-ynill-lenander/||||
+P||Poul Erik Lindelof||Emeritus||/en/persons/poul-erik-lindelof/||||
+P||Nicolas Loizeau||Postdoc||/en/persons/nicolas-paul-maxime-loizeau/||||Opening Krylov Space to Access All-Time Dynamics via Dynamical Symmetries (2025)
+P||Jürgen Luus||PhD fellow||/en/persons/j%C3%BCrgen-luus/||||
+P||Magnus Rønne Lykkegaard||Research Assistant||/en/persons/magnus-r%C3%B8nne-lykkegaard/||||
+P||Antonio Lucas Rigotti Manesco||Postdoc||/en/persons/antonio-lucas-rigotti-manesco/||||
+P||Charles M. Marcus||Professor||/en/persons/charles-m-marcus/||||
+P||Mathis Victor Moes||Research Assistant||/en/persons/mathis-victor-moes/||||
+P||Kristian Knakkergaard Nielsen||Postdoc||/en/persons/kristian-knakkergaard-nielsen/||||Magnetic Domains Stabilized by Symmetry-Protected Zero Modes (2026)
+P||Malthe Asmus Marciniak Nielsen||PhD fellow||/en/persons/malthe-asmus-marciniak-nielsen/||||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit (2026)
+P||Jesper Nygård||Professor||/en/persons/jesper-nyg%C3%A5rd/||||
+P||Jens Havgaard Nyhegn||Postdoc||/en/persons/jens-havgaard-nyhegn/||||Exciton interacting with the phonons of an electronic Wigner crystal (2026)
+P||Dags Olsteins||PhD Student||/en/persons/dags-olsteins/||||Cryogenic performance of field-effect transistors and amplifiers based on selective area grown InAs nanowires (2025)
+P||Jens Paaske||Professor||/en/persons/jens-paaske/||||
+P||Amalie Terese Jiao Paulsen||Research Assistant||/en/persons/amalie-terese-jiao-paulsen/||||
+P||Frederik Alexander Stege Philipsen||PhD fellow||/en/persons/frederik-alexander-stege-philipsen/||||Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors (2026)
+P||Colin Piquard||Postdoc||/en/persons/colin-piquard/||||
+P||Deepti Rana||Postdoc||/en/persons/deepti-rana/||||
+P||Finn Berg Rasmussen||Associate Professor emeritus||/en/persons/finn-berg-rasmussen/||||
+P||Torbjørn Raasø Rasmussen||Research Assistant||/en/persons/torbj%C3%B8rn-raas%C3%B8-rasmussen/||||
+P||Christian Lukas H Rasmussen||PhD fellow||/en/persons/christian-lukas-h-rasmussen/||||Inherent momentum-dependent gap structure of altermagnetic superconductors (2026)
+P||Daniel Steve Sanchez||PhD Student||/en/persons/daniel-steve-sanchez/||||Quantum Phases and Dynamics of Hybrid Josephson Lattices
+P||Rasmus Dalsgaard Schlosser||Postdoc||/en/persons/rasmus-dalsgaard-schlosser/||||InAs/InAsSb nanowires with crystal phase defined quantum dots and epitaxial superconducting thin films for integration with superconducting microwave resonators
+P||Martin Ulrich Seltmann||Research Assistant||/en/persons/martin-ulrich-seltmann/||||
+P||Joachim Elbeshausen Sestoft||Assistant Professor||/en/persons/joachim-elbeshausen-sestoft/||||
+P||Johann Bock Severin||PhD fellow||/en/persons/johann-bock-severin/||||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit (2026)
+P||Ksenia Shagalov||PhD fellow||/en/persons/ksenia-shagalov/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Pawel Tadeusz Sidorczak||PhD fellow||/en/persons/pawel-tadeusz-sidorczak/||||PbTe/SnTe heterostructures-candidate platform for studying spin-triplet superconductivity (2026)
+P||Shikhar Singh||PhD fellow||/en/persons/shikhar-singh/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Stig Skelboe||Emeritus||/en/persons/stig-skelboe/||||
+P||Henrik Smith||Emeritus||/en/persons/henrik-smith/||||
+P||Oliver Ovsée Laub Solow||PhD fellow||/en/persons/oliver-ovs%C3%A9e-laub-solow/||||Non-Hermitian skin effect and electronic nonlocal transport (2026)
+P||Gorm Ole Steffensen||Postdoc||/en/persons/gorm-ole-steffensen/||||Direct transport between superconducting subgap states in a double quantum dot (2022)
+P||Yao Su||PhD fellow||/en/persons/yao-su/||||A quantum dot in germanium proximitized by a superconductor (2025)
+P||Athira Suresh||Postdoc||/en/persons/athira-suresh/||||
+P||Saulius Vaitiekenas||Associate Professor||/en/persons/saulius-vaitiekenas/||||
+P||N Manikanta Sai R N Vanjarapu||Research Assistant||/en/persons/n-manikanta-sai-r-n-vanjarapu/||||
+P||Vasileios Vlachodimitropoulos||Research Assistant||/en/persons/vasileios-vlachodimitropoulos/||||
+P||Casper Wied||PhD fellow||/en/persons/casper-wied/||||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit (2026)
+P||Tim Fabian Wohlers-Reichel||PhD fellow||/en/persons/tim-fabian-wohlers-reichel/||||
+P||Steffen Zelzer||PhD Student||/en/persons/steffen-zelzer/||||Origin of surface and subband states at the InAs(111)A surface (2023)
+P||Sami Zweidler||PhD fellow||/en/persons/sami-zweidler/||||
+PUBS||Adiabatic non-Abelian braiding of imperfect Majorana bound states||/en/publications/adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states/||Nitsch, M., Svensson, V., Samuelson, W., Nestmann, K., Danon, J., Flensberg, K., Souto, R. S. & Leijnse, M., 21 May 2026, In: Physical Review B. 113, 20, L201408.
+PUBS||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit||||Nielsen, M. A. M., Severin, J. B. et al., 2026.
+PUBS||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit||||Feldstein Bofill, D., Shagalov, K., Singh, S., Wied, C. et al., 2026.
+PUBS||Directional conductance of Andreev crystals in hybrid Josephson junction arrays||||Dahl, A. E. E. et al., 2026.
+PRESS||19/03/2024||Elegant use of noise for quantum computing||/en/clippings/elegant-use-of-noise-for-quantum-computing/
+PRESS||19/03/2024||Feedback-Driven Quantum Stabilization: Real-Time Two-Axis Control of Spin Qubits||/en/clippings/feedback-driven-quantum-stabilization-real-time-two-axis-control-/

@@ -1,0 +1,10 @@
+# Quantum Communication Systems, Department of Electrical and Photonics Engineering (DTU). Harvested 2026-11-05 from DTU Orbit (organisation: quantum-communication-systems).
+P||Iñaki Beraza||PhD Student||/en/persons/i%C3%B1aki-beraza/||Quantum communication using high-order modes [01/08/2023 → 31/07/2026]||Stabilized Multiplexed QKD System using Orthogonal LP Modes in a Few Mode Fiber (2025)
+P||Michael Galili||Professor||/en/persons/michael-galili/||Quantum Communication and Co-Existence with Classical Communication [01/02/2025 → 31/01/2028]||Flattening of Microring Resonator Based Soliton Comb Using Parametric Spectral Shaping (2026)
+P||Francesco Sirovich||PhD Student||/en/persons/francesco-sirovich/||Quantum Communication and Co-Existence with Classical Communication [01/02/2025 → 31/01/2028]||
+P||Caterina Vigliar||Assistant Professor||/en/persons/caterina-vigliar/||Quantum Dot Emitters Integrated with SiN Devices for Remote Quantum Computing [01/01/2025 → 31/12/2027]||On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Contextuality (2026)
+P||Mujtaba Zahidy||Researcher||/en/persons/mujtaba-zahidy/||Quantum Communication and Co-Existence with Classical Communication [01/02/2025 → 31/01/2028]||Broad band on-chip Ti-based RF terminator for high-speed photonic platforms (2026)
+PUBS||On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Contextuality||/en/publications/on-chip-semi-device-independent-quantum-random-number-generator-e/||Genzini, M., Vigliar, C., Zahidy, M., Tebyanian, H., Gajda, A., Petermann, K., Zimmermann, L., Bacco, D. & Ros, F. D., 2026, In: PRX Quantum. 7, 3, 033022.
+PUBS||Stabilized Multiplexed QKD System using Orthogonal LP Modes in a Few Mode Fiber||||Beraza, I. et al., 2025.
+PROJ||Quantum Communication and Co-Existence with Classical Communication||||Sirovich, F., Galili, M., Zahidy, M.||01/02/2025 → 31/01/2028||||PhD
+PROJ||Quantum communication using high-order modes||||Beraza, I.||01/08/2023 → 31/07/2026||||PhD

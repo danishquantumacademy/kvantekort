@@ -1,0 +1,18 @@
+# SDU Nano Optics, Mads Clausen Institute (SDU). Harvested 2026-11-05 from SDU Find Researcher (organisation: sdu-nano-optics). Student teachers are left out.
+P||Sergey I. Bozhevolnyi||Professor and Chair||/en/persons/seib/||||Chip-integrated metasurface-enabled single-photon skyrmion sources (2026)
+P||Jacob Holm Colding-Jørgensen||Research Assistant||/en/persons/jacol/||||
+P||Fei Ding||Associate Professor||/en/persons/feid/||Quantum metasurface: a novel platform for generating and manipulating single photons [01/01/2021 → 31/12/2025]||Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates (2026)
+P||Donghai Han||Postdoc||/en/persons/donha/||||
+P||Jonas Beermann Kristiansen||Associate Professor||/en/persons/jonas-beermann-kristiansen/||||Vis-SWIR hyperspectral microscopy imaging of plasmonic color printed arrays (2025)
+P||Shailesh Kumar||Associate Professor||/en/persons/shku/||Room-Temperature Generation of Indistinguishable Single Photons [02/09/2020 → 31/08/2023]||Chip-integrated metasurface-enabled single-photon skyrmion sources (2026)
+P||Yiwen Liu||Research Assistant||/en/persons/yiwe/||||
+P||Chao Meng||Assistant Professor||/en/persons/chao/||Tunable vortex lasers triggered by dynamic metasurfaces [01/03/2023 → 31/08/2025]||MEMS-tunable bilayer plasmonic metasurfaces for dynamic vortex wave plates (2026)
+P||Yi Ouyang||Postdoc||/en/persons/yiou/||||Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates (2026)
+P||Torgom Yezekyan||Assistant Professor||/en/persons/torgom-yezekyan/||||Electrically controlled nonlocal metasurfaces (2026)
+P||Vladimir Zenin||Specialist Consultant||/en/persons/Zenin/||Making a single photon capable of detecting a single molecule [01/11/2021 → 31/10/2023]||Prospects to bypass metal nonlocal phenomena using phonon-polaritons (2026)
+PUBS||Chip-integrated metasurface-enabled single-photon skyrmion sources||/en/publications/chip-integrated-metasurface-enabled-single-photon-skyrmion-source/||Liu, X., Kan, Y., Kumar, S., Kulikova, L. F., Davydov, V. A., Agafonov, V. N. & Bozhevolnyi, S. I., Aug 2026, In: Nature Communications. 17, 1, 8567.
+PUBS||Electrically controlled nonlocal metasurfaces||/en/publications/electrically-controlled-nonlocal-metasurfaces/||Yezekyan, T. & Bozhevolnyi, S. I., 7 Jul 2026, In: Nanoscale Horizons. 11, 7, p. 1752-1767
+PUBS||Electrooptic reflective metasurfaces for discrete beam deflection||/en/publications/electrooptic-reflective-metasurfaces-for-discrete-beam-deflection/||Arshakyan, A., Yezekyan, T. & Bozhevolnyi, S. I., 7 Oct 2026, In: ACS Photonics. 13, 19, p. 5734-5740
+PROJ||Quantum metasurface: a novel platform for generating and manipulating single photons||/en/projects/quantum-metasurface-a-novel-platform-for-generating-and-manipulat/||Ding, F.||01/01/2021 → 31/12/2025||||Research
+PROJ||Room-Temperature Generation of Indistinguishable Single Photons||/en/projects/room-temperature-generation-of-indistinguishable-single-photons/||Kumar, S.||02/09/2020 → 31/08/2023||Private foundation||Research
+PROJ||Making a single photon capable of detecting a single molecule||||Zenin, V.||01/11/2021 → 31/10/2023||||Research
