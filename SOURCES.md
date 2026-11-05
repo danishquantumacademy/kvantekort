@@ -189,13 +189,16 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 | Site | Pages |
 |---|---:|
-| researchprofiles.ku.dk | 98 |
-| orbit.dtu.dk | 85 |
-| vbn.aau.dk | 41 |
-| portal.findresearcher.sdu.dk | 34 |
-| www.sdu.dk | 2 |
+| researchprofiles.ku.dk | 184 |
+| orbit.dtu.dk | 140 |
+| portal.findresearcher.sdu.dk | 98 |
+| vbn.aau.dk | 52 |
+| www.sdu.dk | 4 |
+| qmath.ku.dk | 2 |
 | employment.ku.dk | 1 |
 | international.au.dk | 1 |
+| nanophoton.dtu.dk | 1 |
+| nbi.ku.dk | 1 |
 | nqcp.ku.dk | 1 |
 | phys.au.dk | 1 |
 | physics.dtu.dk | 1 |
@@ -208,21 +211,23 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 | Site | Pages |
 |---|---:|
+| orbit.dtu.dk | 2 |
 | phys.au.dk | 2 |
+| qmath.ku.dk | 2 |
+| researchprofiles.ku.dk | 2 |
+| vbn.aau.dk | 2 |
 | www.sdu.dk | 2 |
 | nqcp.ku.dk | 1 |
-| orbit.dtu.dk | 1 |
 | physics.dtu.dk | 1 |
-| researchprofiles.ku.dk | 1 |
-| vbn.aau.dk | 1 |
+| portal.findresearcher.sdu.dk | 1 |
 
 ## Access check
 
-The workflow "Check sources" opened 138 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **111 public, 0 behind a login**, 3 bot-protected and 24 not reachable.
+The workflow "Check sources" opened 145 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **114 public, 0 behind a login**, 7 bot-protected and 24 not reachable.
 
 - *Bot-protected* pages (the AU research portal) show a Cloudflare challenge to scripts but open normally in a browser without logging in.
 - *Not reachable* are mostly University of Copenhagen web servers (ku.dk), which do not answer requests from GitHub's servers; they open normally in a browser without logging in. The rest were outdated links to unit websites, which have been removed (the map links to the research-portal page instead).
 
 
 
-Total: 2627 pages from 78 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 2855 pages from 79 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

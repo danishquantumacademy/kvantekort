@@ -189,7 +189,7 @@ def fill_missing(inst):
         w = csv.writer(fh, delimiter="\t"); w.writerow(head); w.writerows(out)
 
 def harvest_groups():
-    """Research output since FROM for the members of the five research groups (data/groups/<key>.txt), from OpenAlex.
+    """Research output since FROM for the members of the research groups (data/groups/<key>.txt), from OpenAlex.
     Technical and administrative staff are left out. Output: data/groups/research_outputs/<key>.tsv"""
     cfg = json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]
     gout = ROOT / "data/groups/research_outputs"; gout.mkdir(parents=True, exist_ok=True)

@@ -289,7 +289,7 @@ for g in json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8
         else:
             proj_list.append({"kind": kind, "inst": g["institution"], "title": "", "subs": None, "basis": "none", "group": g["short"]})
 unmapped_p = [x["title"] for x in proj_list if x["title"] and x["subs"] is None]
-if unmapped_p: print("advarsel: projekter uden CFQT-vurdering:", len(unmapped_p), unmapped_p[:5])
+if unmapped_p: print("advarsel: projekter uden CFQT-vurdering:", len(unmapped_p), unmapped_p)
 print(f"projekter: {len(proj_list)} ph.d./postdoc, {sum(1 for x in proj_list if x['subs'])} på CFQT-kortet")
 # Niveau i CFQT-trekanten for et forskningsprojekt: hovedemnets område på C2 (forskningsniveau, "Innovation"),
 # andre områder, som underdomænerne berører, på C1. Område efter underdomæne:

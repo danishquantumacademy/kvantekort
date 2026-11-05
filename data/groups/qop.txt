@@ -1,0 +1,64 @@
+# Quantum Optics and Photonics, Niels Bohr Institute (KU). Harvested 2026-11-05 from the KU research portal (organisation: kvanteoptik-og-fotonik).
+# The KU portal lists no projects for this unit.
+P||Marcus Albrechtsen||Assistant Professor||/en/persons/marcus-albrechtsen/||||A quantum-coherent photon-emitter interface in the original telecom band (2026)
+P||Nils Overgaard Andersen||Emeritus||/en/persons/nils-overgaard-andersen/||||
+P||Nikolaos Andrianopoulos||PhD fellow||/en/persons/nikolaos-andrianopoulos/||||
+P||Jean-Baptiste Sylvain Béguin||Assistant Professor||/en/persons/jean-baptiste-sylvain-b%C3%A9guin/||||Steady-state multiparticle entanglement via dissipative engineering in waveguide QED (2026)
+P||Luuk Jan-Heimen van den Berg||PhD fellow||/en/persons/luuk-jan-heimen-van-den-berg/||||
+P||Tulio Brito Brasil||Assistant Professor||/en/persons/tulio-brito-brasil/||||Hybrid quantum network for sensing in the acoustic frequency range (2025)
+P||Simon Bräuer||Postdoc||/en/persons/simon-br%C3%A4uer/||||
+P||Giulia Campagna||PhD fellow||/en/persons/giulia-campagna/||||
+P||Victor Rueskov Christiansen||Postdoc||/en/persons/victor-rueskov-christiansen/||||
+P||Etienne Fabien Corminboeuf||PhD fellow||/en/persons/etienne-fabien-corminboeuf/||||Photon Sorting with a Quantum Emitter (2026)
+P||Jan Dragasevic||PhD fellow||/en/persons/jan-draga%C5%A1evi%C4%87/||||Viscous heat backflow and temperature resonances in extreme thermal conductors (2026)
+P||Ivan Galinskiy||Research Consultant||/en/persons/ivan-galinskiy/||||Resonant Acoustic Modes in DFB Fiber Lasers Characterized via Frequency Noise Measurements (2025)
+P||Francesco Gargiulo||PhD fellow||/en/persons/francesco-gargiulo/||||
+P||Simon Richard Goorney||PhD Student||/en/persons/simon-richard-goorney/||||The quantum technology job market: data driven analysis of 3641 job posts (2026)
+P||Christopher Charles A Gustin||Postdoc||/en/persons/christopher-charles-a-gustin/||||Dissipation in the broadband and ultrastrong coupling regimes of cavity quantum electrodynamics: an ab initio quantized quasinormal mode approach (2026)
+P||Marcus Gut||Instructor||/en/persons/marcus-gut/||||
+P||Emil Rye Hellebek||PhD fellow||/en/persons/emil-rye-hellebek/||||Hybrid single-ion atomic-ensemble node for high-rate remote entanglement generation (2026)
+P||Clara Edith Henke||PhD fellow||/en/persons/clara-henke/||||Quantum Non-Gaussianity Criterion Based on Photon Correlations g(2) and g(3) (2026)
+P||Yinhui Kan||Assistant Professor||/en/persons/yinhui-kan/||||Chip-integrated metasurface-enabled single-photon skyrmion sources (2026)
+P||Noah Oliver Kaufmann||PhD fellow||/en/persons/noah-oliver-kaufmann/||||Characterization of coherent errors in gate layers with robustness to Pauli noise (2025)
+P||Nikolaos Kiigmas||Research Assistant||/en/persons/nikolaos-kiigmas/||||
+P||Leopold Konzett||PhD fellow||/en/persons/leopold-konzett/||||
+P||Mathias Linde Holst Korsgaard||PhD fellow||/en/persons/mathias-linde-holst-korsgaard/||||Quantum state preserving frequency conversion using four-wave mixing in optical fibers: The impact of Raman scattering (2025)
+P||Nikolaj Aagaard Larsen||PhD fellow||/en/persons/nikolaj-aagaard-larsen/||||
+P||Yaohua Li||Postdoc||/en/persons/yaohua-li/||||
+P||Stanislav Linchakovskyy||PhD fellow||/en/persons/stanislav-linchakovskyy/||||
+P||Shikai Liu||Assistant Professor, Visiting Researcher||/en/persons/shikai-liu/||||Violation of Bell inequality by photon scattering on a two-level emitter (2024)
+P||Peter Lodahl||Professor||/en/persons/peter-lodahl/||||A quantum-coherent photon-emitter interface in the original telecom band (2026)
+P||Aida Mashaal||Research Assistant||/en/persons/aida-mashaal/||||Strong thermomechanical noise squeezing stabilized by feedback (2025)
+P||Leonardo Midolo||Associate Professor||/en/persons/leonardo-midolo/||||A quantum-coherent photon-emitter interface in the original telecom band (2026)
+P||Maiken Høgh Mikkelsen||Professor||/en/persons/maiken-h%C3%B8gh-mikkelsen/||||Molecular Control of Light-Matter Interactions in Plasmonic Nanogap Cavities (2026)
+P||Mikkel Thorbjørn Mikkelsen||Research Assistant||/en/persons/mikkel-thorbj%C3%B8rn-mikkelsen/||||Quantum key distribution using deterministic single-photon sources over a field-installed fibre link (2024)
+P||Laurits Møberg||Research Assistant||/en/persons/laurits-m%C3%B8berg/||||
+P||Christoffer Bo Møller||Postdoc||/en/persons/christoffer-bo-m%C3%B8ller/||||Entanglement between distant macroscopic mechanical and spin systems (2020)
+P||Klaus Mølmer||Professor||/en/persons/klaus-m%C3%B8lmer/||||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right (2026)
+P||Jörg Helge Müller||Associate Professor||/en/persons/j%C3%B6rg-helge-m%C3%BCller/||||Hybrid quantum network for sensing in the acoustic frequency range (2025)
+P||Rasmus Bo Nielsen||Research Assistant||/en/persons/rasmus-bo-nielsen/||||
+P||Joan Alba Pares||PhD fellow||/en/persons/joan-alba-pares/||||Quantifying entanglement in quantum thermodynamics via separability constraints (2026)
+P||Maria Ana de Matos Afonso Pereira||Postdoc||/en/persons/maria-ana-de-matos-afonso-pereira/||||
+P||Andrea Pertoldi||||/en/persons/andrea-pertoldi/||||Low-noise fiber laser systems at 689 nm and 698 nm for strontium (2025)
+P||Eugene Simon Polzik||Professor||/en/persons/eugene-simon-polzik/||||The future of quantum technology as seen from the EU, USA and Japan: experts' vision over the next two decades (2026)
+P||Clinton Alexander Potts||Visiting Researcher||/en/persons/clinton-alexander-potts/||||Flux-modulated tunable interaction regimes in two strongly nonlinear oscillators (2026)
+P||Hanna Krystyna Salamon||Research Assistant||/en/persons/hanna-krystyna-salamon/||||Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation (2025)
+P||Bálint Sárközi||PhD fellow||/en/persons/b%C3%A1lint-s%C3%A1rk%C3%B6zi/||||
+P||Albert Schliesser||Professor||/en/persons/albert-schliesser/||||Measuring high field gradients of cobalt nanomagnets in a spin-mechanical setup (2026)
+P||Levin Maria Albert Seidt||PhD fellow||/en/persons/levin-maria-albert-seidt/||||
+P||Jacob Friis Sherson||Professor||/en/persons/jacob-friis-sherson/||||The quantum technology job market: data driven analysis of 3641 job posts (2026)
+P||Sophia Carmen Simon||PhD fellow||/en/persons/sophia-carmen-simon/||||
+P||Anders Søndberg Sørensen||Professor||/en/persons/anders-s%C3%B8ndberg-s%C3%B8rensen/||||Continuous-wave all-optical single-photon transistor based on a Rydberg-atom ensemble (2026)
+P||Hans Stærkind||Postdoc||/en/persons/hans-st%C3%A6rkind/||||High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging (2024)
+P||Frederik Uldall||Special Consultant||/en/persons/frederik-uldall/||||
+P||Asger Weeth||PhD fellow||/en/persons/asger-weeth/||||Intense-laser nondipole-induced symmetry breaking in solids (2026)
+P||Yining You||PhD fellow||/en/persons/yining-you/||||
+P||Emil Zeuthen||Associate Professor||/en/persons/emil-zeuthen/||||Hybrid SU(1,1) Interferometry in Optomechanics (2026)
+P||Xinchao Zhou||Postdoc||/en/persons/xinchao-zhou/||||
+P||Alkiviadis Zoumis||PhD fellow||/en/persons/alkiviadis-zoumis/||||
+PUBS||A quantum-coherent photon-emitter interface in the original telecom band||/en/publications/a-quantum-coherent-photon-emitter-interface-in-the-original-telec/||Albrechtsen, M., Kruger, S., Loredo, J. C., Stefan, L., Liu, Z., Meng, Y., Niekamp, L. L., Seyschab, B. F., Spitzer, N., Warburton, R. J., Lodahl, P., Ludwig, A. & Midolo, L., 27 Apr 2026, In: Nature Nanotechnology. 21, p. 642-647.
+PUBS||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right||/en/publications/adiabatic-preparation-of-many-body-quantum-states-getting-the-beg/||Pedersen, E. T., Witteveen, F., Mølmer, K. & Christandl, M., 2026, In: Physical Review Letters. 137, 13, 130602.
+PUBS||Chip-integrated metasurface-enabled single-photon skyrmion sources||/en/publications/chip-integrated-metasurface-enabled-single-photon-skyrmion-source/||Liu, X., Kan, Y., Kumar, S., Kulikova, L. F., Davydov, V. A., Agafonov, V. N. & Bozhevolnyi, S. I., 11 Jul 2026, In: Nature Communications. 17, 1, 8567.
+PUBS||Continuous-wave all-optical single-photon transistor based on a Rydberg-atom ensemble||/en/publications/continuous-wave-all-optical-single-photon-transistor-based-on-a-r/||Tsiamis, I., Kyriienko, O. & Sørensen, A. S., 5 Jan 2026, In: Physical Review A. 113, 1, L011701.
+PRESS||28/11/2013||Danske forskere viser en ny vej mod kvantecomputere||/en/clippings/danske-forskere-viser-en-ny-vej-mod-kvantecomputere/
+PRESS||09/05/2012||Danmarks første atomur||/en/clippings/danmarks-f%C3%B8rste-atomur/

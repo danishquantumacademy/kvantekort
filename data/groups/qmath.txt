@@ -1,0 +1,63 @@
+# QMATH – Centre for the Mathematics of Quantum Theory, Department of Mathematical Sciences (KU). Members from qmath.ku.dk/staff (read 2026-11-05);
+# portal links and latest output from the KU research portal where a profile could be matched by name. Affiliated members at other units are left out.
+P||Jan Philip Solovej||Professor, centre leader||/en/persons/jan-philip-solovej/||||Ground State Energy of Dense Gases of Strongly Interacting Fermions (2025)
+P||Matthias Christandl||Professor, centre leader||/en/persons/matthias-christandl/||||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right (2026)
+P||Bergfinnur Durhuus||Professor emeritus, centre leader||/en/persons/bergfinnur-durhuus/||||Fundamental Limit on the Power of Entanglement Assistance in Quantum Communication (2025)
+P||Søren Fournais||Professor||/en/persons/s%C3%B8ren-fournais/||||Counting negative eigenvalues for the magnetic Pauli operator (2025)
+P||Laura Mančinska||Associate Professor||||||
+P||Albert Werner||Associate Professor||/en/persons/albert-h-werner/||||Exponential Suppression of Transport in Electric Quantum Walks (2026)
+P||David Roberson||Associate Professor (DTU Compute)||||||
+P||Daniel Malz||Assistant Professor||/en/persons/daniel-hendrik-malz/||||Estimating applied potentials in cold-atom lattice simulators (2026)
+P||Daniel Stilck França||Associate Professor||/en/persons/daniel-stilck-fran%C3%A7a/||||Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning (2026)
+P||Suzanne Andersen||Centre Administrator||||||
+P||Lise Steen Nielsen||Centre Administrator (Quantum for Life)||||||
+P||Johanne de Leon||Scientific Project Coordinator||||||
+P||Kasper Wibeck Olsen||Scientific Industry Officer||||||
+P||Anne Drewsen||PhD Coordinator (QIST-Grad)||||||
+P||Eric Culf||Postdoc||||||
+P||Arthur Morris||Postdoc||||||
+P||Marta Pavelka||Postdoc||/en/persons/marta-pavelka/||||
+P||Rebecca Tomann||Postdoc||||||
+P||Lubashan Pathirana||Postdoc||||||
+P||Oskar Leimkuhler||Postdoc||||||
+P||Martin Dam Larsen||Postdoc||/en/persons/rmq845-rmq845/||||Spectral estimates for Wiener-Hopf operators with applications to area laws
+P||Vjosa Blakaj||Postdoc||/en/persons/vjosa-blakaj/||||
+P||Marek Miller||Postdoc||||||
+P||Sascha Lill||Postdoc||/en/persons/sascha-lill/||||Momentum distribution of a Fermi gas in the random phase approximation (2025)
+P||Marvin Schulz||Postdoc||||||
+P||Marina Prokhorova||Postdoc||||||
+P||Siddharth Vadnerkar||Postdoc||/en/persons/siddharth-vadnerkar/||||
+P||Harold Nieuwboer||Postdoc||||||
+P||Boris Bolvig Kjær||Postdoc||/en/persons/boris-bolvig-kj%C3%A6r/||||Mathematics of Topological Order: Superselection Sector Theory of Levin-Wen Models
+P||Yuming Zhao||Postdoc||||||
+P||Vincent Louatron||Postdoc||||||
+P||Armando Angrisani||Postdoc||||||
+P||Thomas Theurer||Postdoc||||||
+P||Roberto Rubboli||Postdoc||/en/persons/roberto-rubboli/||||Quantum Conditional Entropies from Convex Trace Functionals (2026)
+P||Thomas Fraser||Postdoc||||||
+P||Aleksei Kulikov||Postdoc||/en/persons/aleksei-kulikov/||||Frames for compactly supported functions with irrational density (2026)
+P||Jeong-Hoon Ju||Postdoc||||||
+P||Zhongxia Shang||Postdoc||/en/persons/zhongxia-shang/||||
+P||Rafael Macedo||Postdoc||||||
+P||Sigurd Storgaard||PhD Student||||||
+P||Lasse Wolff||PhD Student||||||
+P||Garbiñe Cid Ruiz||PhD Student||/en/persons/garbi%C3%B1e-cid-ruiz/||||
+P||Emil Mærsk Pedersen||PhD Student||||||
+P||Elias Theil||PhD Student||||||
+P||Anne van Grinsven||PhD Student||||||
+P||Gabriele Ciccarello||PhD Student||/en/persons/gabriele-ciccarello/||||
+P||Yufei Wang||PhD Student||||||
+P||Enrique Escobar Fernandez-Marcote||PhD Student||||||
+P||Emil Clausen||PhD Student||||||
+P||Bhavik Kumar||PhD Student||||||
+P||Rune Thinggaard Hansen||PhD Student||/en/persons/rune-thinggaard-hansen-birke/||||
+P||David Scholz||PhD Student||/en/persons/david-scholz/||||
+P||Pietro Posta||PhD Student||||||
+P||Vladyslav Visnevskyi||PhD Student||||||
+P||Jakob Miller||PhD Student||/en/persons/jakob-miller/||||
+P||Maximilian Matzler||PhD Student||/en/persons/maximilian-matzler/||||
+P||Wanqi Li||Research Assistant||/en/persons/wanqi-li/||||
+PUBS||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right||/en/publications/adiabatic-preparation-of-many-body-quantum-states-getting-the-beg/||Pedersen, E. T., Witteveen, F., Mølmer, K. & Christandl, M., 2026, In: Physical Review Letters. 137, 13, 130602.
+PUBS||Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning||||Stilck França, D. et al., 2026.
+PUBS||Exponential Suppression of Transport in Electric Quantum Walks||||Werner, A. H. et al., 2026.
+PUBS||Quantum Conditional Entropies from Convex Trace Functionals||||Rubboli, R. et al., 2026.

@@ -1,0 +1,64 @@
+# QM – Centre for Quantum Mathematics, Department of Mathematics and Computer Science (SDU). Harvested 2026-11-05 from SDU Find Researcher (organisation: quantum-mathematics).
+P||Jørgen Ellegaard Andersen||Professor, centre leader||/en/persons/jea/||TopQC2X – Topological Photonic Quantum Computing and its Applications (Innovation Fund Denmark Grand Solutions) [03/06/2024 → 03/06/2029]||A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT (2026)
+P||Raphael David Simon Belliard||Postdoc||/en/persons/belliard/||||
+P||Jurek Bleischwitz||PhD Student||/en/persons/jurek/||||
+P||Giacomo Cappiello||Postdoc||/en/persons/giaccap/||||
+P||Remus Stefan Cernat||Software Engineer||/en/persons/strancernat/||||
+P||Fie Dømler||Communications Officer||/en/persons/doemler/||||
+P||Charalampos Evangelatos||PhD Student||/en/persons/cevan/||||
+P||Michele Fossati||Postdoc||/en/persons/fossati/||||
+P||Pallav Goyal||Postdoc||/en/persons/pallavg/||||
+P||Yuanhong Guo||Postdoc||/en/persons/guoyuanhong/||||
+P||Fabian Haiden||Associate Professor||/en/persons/fab/||The Quantum Geometry of Dynamical Systems [01/06/2026 → 31/08/2031]||Perverse schobers, stability conditions and quadratic differentials II: relative graded Brauer graph algebras (2026)
+P||Gard Olav Helle||Research Assistant||/en/persons/gardoh/||Towards improved weather and climate predictions via quantum computing [01/09/2024 → 31/08/2027]||
+P||Sam Hindson||Research Assistant||/en/persons/sam-hindson/||||
+P||David Hofmeier||PhD Student||/en/persons/hofmeier/||||
+P||Andreas Horst||Postdoc||/en/persons/ahor/||||
+P||Mingyuan Hu||Postdoc||/en/persons/hmy/||||
+P||Yang Huang||Specialist Consultant||/en/persons/yang-huang/||||
+P||Reinier Huese||IT Programmer||/en/persons/huese/||||
+P||Mette Elise Jørgensen||Administrative Officer||/en/persons/mejo/||||
+P||Henry Mikael Kirveslahti||Assistant Professor||/en/persons/hklahti/||||Digital tools for analyzing nondiffeomorphic shapes (2025)
+P||Guillaume Laplante-Anfossi||Postdoc||/en/persons/glaplanteanfossi/||||Kashiwara–Vergne solutions degree by degree (2025)
+P||Muyang Liu||Postdoc||/en/persons/liumuyang/||||
+P||William Elbæk Mistegård||Assistant Professor||/en/persons/william-elb%C3%A6k-misteg%C3%A5rd-2/||SDU's MSc programme in Quantum Computing (DFF, strengthening Denmark's quantum technology position) [01/01/2025 → 31/12/2027]||A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum invariants (2026)
+P||Nadia Ott||Assistant Professor||/en/persons/nmott/||||Supermoduli space with Ramond punctures is not projected (2026)
+P||Jamie Jonathan Pearson||Postdoc||/en/persons/jjpearson/||||
+P||Ole Egholm Pedersen||Software Engineer||/en/persons/oep/||||
+P||Du Pei||Associate Professor||/en/persons/dpei/||New invariants in low-dimensional topology via quantum field theory [25/12/2021 → 31/07/2027]||Generalized global symmetries of T[M] theories. Part II (2026)
+P||Adrian Petr||Assistant Professor||/en/persons/adri/||||Mapping tori of A∞-autoequivalences and Legendrian lifts of exact Lagrangians in circular contactizations (2025)
+P||Petros Petsinis||Programmer/Software Engineer||/en/persons/petsinis/||||
+P||Greyson Potter||Postdoc||/en/persons/gkp/||||
+P||Duccio Di Prima||Postdoc||/en/persons/duccio/||||Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal Protonated Schiff Base (2026)
+P||Lars Rasmussen||Specialist Consultant||/en/persons/larsras/||||
+P||Alexander Leguizamón Robayo||Programmer/Software Engineer||/en/persons/alexaleg/||||
+P||Josefine Bjørndal Robl||Postdoc||/en/persons/robl/||||
+P||Baltasar Fernández Rosado||Software Engineer||/en/persons/bfrosado/||||
+P||Frederik Rosendal Rytter||PhD Student||/en/persons/rytter/||||
+P||Steffen Schmidt||Postdoc||/en/persons/stschmidt/||||Cubic Dirac Operators and Dirac Cohomology for Basic Classical Lie Superalgebras (2026)
+P||Florian Raphaël Seefeld||PhD Student||/en/persons/fseefeld/||||The spectrum of Feynman-integral geometries at two loops (2026)
+P||Benjamin Edward Peter Shackleton||PhD Research Fellow||/en/persons/shackleton/||||
+P||Shan Shan||Associate Professor||/en/persons/shan-shan/||||
+P||Vivek Shende||Professor||/en/persons/vivek-shende/||Mathematics of the topological open string [01/08/2021 → 31/07/2027]||Adjoints, wrapping, and morphisms at infinity (2025)
+P||Olga Solodovnikova||Postdoc||/en/persons/olgasol/||||
+P||Benjamin Sung||Postdoc||/en/persons/bsung/||||
+P||Apoorv Tiwari||Assistant Professor (tenure track)||/en/persons/apoorvtiwari/||Global Categorical Symmetries and Phases of Quantum Matter [01/09/2024 → 31/08/2028]||(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry (2026)
+P||Edison Santiago Carrera Unaucho||Postdoc||/en/persons/ecarrera/||||
+P||Diana Uy-Tuazon||Administrative Officer||/en/persons/uytuazon/||||
+P||Marcus Nygaard Vuust||Programmer/Software Engineer||/en/persons/mavuu/||||
+P||Konstantin Wernli||Associate Professor||/en/persons/konstantin-wernli/||From perturbative to non-perturbative quantum field theory by cutting and gluing (Sapere Aude) [01/09/2024 → 31/08/2028]||Combinatorial QFT on graphs: First quantization formalism (2026)
+P||Matthias Oliver Wilhelm||Associate Professor||/en/persons/mwilhelm/||Leveraging Algebraic Geometry for High-Precision Fundamental Physics (Sapere Aude) [01/09/2024 → 31/08/2028]||The spectrum of Feynman-integral geometries at two loops (2026)
+P||Hao Xu||Postdoc||/en/persons/haoxu/||||
+P||Wennan Zhang||PhD Student||/en/persons/wennan/||||
+P||Zichun Zhou||PhD Research Fellow||/en/persons/zzc/||||
+PUBS||(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry||/en/publications/21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat/||Inamura, K., Huang, S. J., Tiwari, A. & Schäfer-Nameki, S., Feb 2026, In: SciPost Physics. 20, 2, 43.
+PUBS||A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT||/en/publications/a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm/||Andersen, J. E. & Malusà, A., Mar 2026, In: Research in Mathematical Sciences. 13, 1, 4.
+PUBS||A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum invariants||/en/publications/a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature/||Mistegård, W. E. & Murakami, Y., Jun 2026, In: Journal of Knot Theory and Its Ramifications. 35, 7, 2550097.
+PUBS||Combinatorial QFT on graphs: First quantization formalism||/en/publications/combinatorial-qft-on-graphs-first-quantization-formalism/||Contreras, I., Kandel, S., Mnev, P. & Wernli, K., 2026, In: Annales de l’Institut Henri Poincaré D. 13, 1, p. 81–163
+PROJ||TopQC2X – Topological Photonic Quantum Computing and its Applications||/en/projects/uddannelses-og-forskningsmininsteriet-innovationsfonden-grand-sol/||Andersen, J. E.||03/06/2024 → 03/06/2029||Innovation Fund Denmark (Grand Solutions)||Research
+PROJ||The Algorithms, Advantage and Applications of Gaussian Boson Sampling (PhD fellowship)||/en/projects/uddannelses-og-forskningsministeriet-phd-fellowship-the-algorithm/||Andersen, J. E.||31/08/2025 → 01/09/2028||Ministry of Higher Education and Science||PhD
+PROJ||Global Categorical Symmetries and Phases of Quantum Matter||/en/projects/global-categorical-symmetries-and-phases-of-quantum-matter/||Tiwari, A.||01/09/2024 → 31/08/2028||Private foundation||Research
+PROJ||The Quantum Geometry of Dynamical Systems||/en/projects/dynamiske-systemers-kvantegeometri/||Haiden, F.||01/06/2026 → 31/08/2031||Private foundation||Research
+PROJ||From perturbative to non-perturbative quantum field theory by cutting and gluing||/en/projects/sapere-aude-uddannelses-og-forskningsministeriet-from-perturbativ/||Wernli, K.||01/09/2024 → 31/08/2028||Independent Research Fund Denmark (Sapere Aude)||Research
+PRESS||08/09/2026||Kapløbet, ingen vil tabe||/en/clippings/kapl%C3%B8bet-ingen-vil-tabe/
+PRESS||02/09/2026||SDU er i verdenselite med banebrydende forskning||/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/

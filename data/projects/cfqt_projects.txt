@@ -1,5 +1,5 @@
 # CFQT subdomains of PhD and postdoc projects, by project title (primary first). Written by Danish Quantum Academy from the titles, 2026-11-03.
-# Sources: ongoing PhD projects of the educators (main supervisor), from DTU Orbit; current projects of PhD students and postdocs in the five research groups.
+# Sources: ongoing PhD projects of the educators (main supervisor), from DTU Orbit; current projects of PhD students and postdocs in the research groups.
 # For PhD students and postdocs in the groups without a registered project, the latest research output stands in for the project (lines starting with OUT).
 # Format: [OUT|]title|subdomains separated by ; ("-" = outside the CFQT content map)
 2D materials with electrically tunable phases for neuromorphic computing|3.2;2.3
@@ -228,3 +228,30 @@ OUT|Demonstration of a squeezed light source on thin-film lithium niobate with m
 OUT|High-speed magnetic-field imaging via N-V ensemble and laser raster scanning|6.2;6.5;4.2
 OUT|Non Gaussian States and Operations|4.4;4.6;1.2
 OUT|Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticles for tailored light-matter interactions|2.3;2.2
+# Added 2026-11-05 for NanoPhoton (DTU), QMATH and Quantum Optics and Photonics (KU), QM (SDU) and QSAS (AAU).
+Fabrication and characterization of silicon photonic cavities with atomic-scale confinement|3.2;3.3;2.2
+QMoire: Developing ultrahigh spatial and temporal resolution microscopy to probe quantum features in moiré superlattices|2.3;6.5
+Symmetry and topology in photonic systems|2.2;3.3
+Nanofabrication of Nanoelectromechanical Spectrometers|3.2;3.3
+OUT|C-band plug-and-play all-fiber single-photon source based on InAs/InP quantum dots integrated via microtransfer printing|4.4;3.3
+OUT|Spectral estimates for Wiener-Hopf operators with applications to area laws|1.2;2.4
+OUT|Momentum distribution of a Fermi gas in the random phase approximation|2.4
+OUT|Mathematics of Topological Order: Superselection Sector Theory of Levin-Wen Models|1.2;4.5
+OUT|Quantum Conditional Entropies from Convex Trace Functionals|1.2
+OUT|Frames for compactly supported functions with irrational density|-
+OUT|Photon Sorting with a Quantum Emitter|4.4;2.2
+OUT|Viscous heat backflow and temperature resonances in extreme thermal conductors|-
+OUT|The quantum technology job market: data driven analysis of 3641 job posts|8.1;8.4
+OUT|Dissipation in the broadband and ultrastrong coupling regimes of cavity quantum electrodynamics: an ab initio quantized quasinormal mode approach|2.2
+OUT|Hybrid single-ion atomic-ensemble node for high-rate remote entanglement generation|7.5;4.3
+OUT|Quantum Non-Gaussianity Criterion Based on Photon Correlations g(2) and g(3)|2.2;1.2
+OUT|Characterization of coherent errors in gate layers with robustness to Pauli noise|5.3
+OUT|Quantum state preserving frequency conversion using four-wave mixing in optical fibers: The impact of Raman scattering|7.5;3.3
+OUT|Entanglement between distant macroscopic mechanical and spin systems|2.2;6.2
+OUT|Quantifying entanglement in quantum thermodynamics via separability constraints|1.2;2.4
+OUT|High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging|6.2;6.7
+OUT|Intense-laser nondipole-induced symmetry breaking in solids|-
+OUT|Kashiwara–Vergne solutions degree by degree|-
+OUT|Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal Protonated Schiff Base|-
+OUT|Cubic Dirac Operators and Dirac Cohomology for Basic Classical Lie Superalgebras|-
+OUT|The spectrum of Feynman-integral geometries at two loops|-
