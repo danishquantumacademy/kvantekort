@@ -294,3 +294,4 @@ OUT|A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter|7.4
 OUT|Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method|7.4
 OUT|Efficient Simulation of High-Level Quantum Gates|5.3;5.4
 OUT|On Exact Sizes of Minimal CNOT Circuits|5.3
+OUT|Crosses and Flowers: Investigating superstructures in the high-Tc superconductor La(2–x)Sr(x)CuO(4+y)|2.3
