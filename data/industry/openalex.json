@@ -1,1 +1,2370 @@
-{}
+{
+ "Alea Quantum Technologies ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Atom Computing ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Auroric ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Celare Quantum Communications": {
+  "id": "",
+  "works": 0
+ },
+ "ConScience ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Copenhagen Microsystems": {
+  "id": "",
+  "works": 0
+ },
+ "Copenhagen Quantum": {
+  "id": "",
+  "works": 0
+ },
+ "Cryptomathic A/S": {
+  "id": "I4210145300",
+  "display": "Cryptomathic (Denmark)",
+  "works": 7,
+  "co": [
+   {
+    "id": "I52099693",
+    "name": "University of York",
+    "count": 2
+   },
+   {
+    "id": "I91136226",
+    "name": "University of Sheffield",
+    "count": 2
+   },
+   {
+    "id": "I96673099",
+    "name": "Technical University of Denmark",
+    "count": 2
+   },
+   {
+    "id": "I132118926",
+    "name": "AIT Austrian Institute of Technology GmbH",
+    "count": 1
+   },
+   {
+    "id": "I68618741",
+    "name": "Polytechnic University of Bari",
+    "count": 1
+   }
+  ],
+  "titles": [
+   [
+    2025,
+    "PEM, Privacy-Enhanced Mail",
+    "https://doi.org/10.1007/978-3-030-71522-9_297"
+   ],
+   [
+    2025,
+    "PKIX, Public Key Infrastructure (X.509)",
+    "https://doi.org/10.1007/978-3-030-71522-9_299"
+   ],
+   [
+    2025,
+    "HTTPS, HTTP Over TLS",
+    "https://doi.org/10.1007/978-3-030-71522-9_288"
+   ],
+   [
+    2025,
+    "Key Encryption Key",
+    "https://doi.org/10.1007/978-3-030-71522-9_291"
+   ],
+   [
+    2025,
+    "CPS, Certificate Practice Statement",
+    "https://doi.org/10.1007/978-3-030-71522-9_283"
+   ],
+   [
+    2022,
+    "Practical continuous-variable quantum key distribution with composable security",
+    "https://doi.org/10.1038/s41467-022-32161-y"
+   ],
+   [
+    2021,
+    "Homodyne-based quantum random number generator at 2.9 Gbps secure against quantum side-information",
+    "https://doi.org/10.1038/s41467-020-20813-w"
+   ]
+  ]
+ },
+ "Danish Fundamental Metrology A/S": {
+  "id": "I4387152445",
+  "display": "Danish National Metrology Institute",
+  "works": 152,
+  "co": [
+   {
+    "id": "I96673099",
+    "name": "Technical University of Denmark",
+    "count": 45
+   },
+   {
+    "id": "I1285933455",
+    "name": "Physikalisch-Technische Bundesanstalt",
+    "count": 31
+   },
+   {
+    "id": "I4210136623",
+    "name": "Bundesministerium für Wirtschaft und Energie",
+    "count": 31
+   },
+   {
+    "id": "I4210107682",
+    "name": "Laboratoire National de Métrologie et d'Essais",
+    "count": 25
+   },
+   {
+    "id": "I4210124866",
+    "name": "Český metrologický institut",
+    "count": 20
+   },
+   {
+    "id": "I124055696",
+    "name": "University of Copenhagen",
+    "count": 18
+   },
+   {
+    "id": "I1330165540",
+    "name": "Federal Institute For Materials Research and Testing",
+    "count": 11
+   },
+   {
+    "id": "I4210124062",
+    "name": "Tübitak National Metrology Institute",
+    "count": 11
+   },
+   {
+    "id": "I4210104593",
+    "name": "Governo Italiano",
+    "count": 10
+   },
+   {
+    "id": "I4210136559",
+    "name": "Istituto Nazionale di Ricerca Metrologica",
+    "count": 10
+   },
+   {
+    "id": "I4210164637",
+    "name": "VSL National Metrology Institute",
+    "count": 10
+   },
+   {
+    "id": "I4392021227",
+    "name": "Ministero dell'Istruzione e del Merito",
+    "count": 10
+   },
+   {
+    "id": "I134421475",
+    "name": "National Physical Laboratory",
+    "count": 9
+   },
+   {
+    "id": "I177969490",
+    "name": "University of Southern Denmark",
+    "count": 9
+   },
+   {
+    "id": "I2800664555",
+    "name": "RISE Research Institutes of Sweden",
+    "count": 9
+   },
+   {
+    "id": "I4210089493",
+    "name": "Ministry of Economic Affairs and Employment",
+    "count": 9
+   },
+   {
+    "id": "I87653560",
+    "name": "VTT Technical Research Centre of Finland",
+    "count": 9
+   },
+   {
+    "id": "I124158823",
+    "name": "Conservatoire National des Arts et Métiers",
+    "count": 8
+   },
+   {
+    "id": "I4210134562",
+    "name": "HESAM Université",
+    "count": 8
+   },
+   {
+    "id": "I66862912",
+    "name": "Chalmers University of Technology",
+    "count": 8
+   },
+   {
+    "id": "I1294671590",
+    "name": "Centre National de la Recherche Scientifique",
+    "count": 7
+   },
+   {
+    "id": "I198068145",
+    "name": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu",
+    "count": 7
+   },
+   {
+    "id": "I4210162136",
+    "name": "National Institute of Metrology",
+    "count": 7
+   },
+   {
+    "id": "I4405258865",
+    "name": "Laboratoire commun de métrologie",
+    "count": 7
+   },
+   {
+    "id": "I134820265",
+    "name": "Consejo Superior de Investigaciones Científicas",
+    "count": 6
+   }
+  ],
+  "titles": [
+   [
+    2026,
+    "Sidewall Metrology Protocol for Superconducting Qubit Devices",
+    "https://doi.org/10.48550/arxiv.2610.26223"
+   ],
+   [
+    2026,
+    "Game of Life on Archimedean Lattices: Glider Guns and Phase Dynamics",
+    "https://doi.org/10.48550/arxiv.2608.27622"
+   ],
+   [
+    2026,
+    "Interpretable Spectral Transformer for Raman-Based Bacterial Identification Across Species and Strains",
+    "https://doi.org/10.3390/chemosensors14080179"
+   ],
+   [
+    2026,
+    "Raw data for \"Towards Standardization of Conductive Atomic Force Microsopy\" manuscript",
+    "https://doi.org/10.5281/zenodo.21470369"
+   ],
+   [
+    2026,
+    "Microbiologically influenced corrosion in water utility systems: a cross-system review of knowledge gaps, standards, and mitigation challenges",
+    "https://doi.org/10.2166/aqua.2026.089"
+   ],
+   [
+    2026,
+    "Correlative confocal and atomic force microscopy imaging for particle metrology: theory and measurements",
+    "https://doi.org/10.1088/2515-7647/ae82a1"
+   ],
+   [
+    2026,
+    "Multi-channel calibration of microphone arrays based on the array related transfer function",
+    "https://doi.org/10.1016/j.apacoust.2026.111444"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D5",
+    "https://doi.org/10.5281/zenodo.20547252"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D2",
+    "https://doi.org/10.5281/zenodo.20543116"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D6",
+    "https://doi.org/10.5281/zenodo.20545483"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad - Deliverable D7",
+    "https://doi.org/10.5281/zenodo.20546738"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D3",
+    "https://doi.org/10.5281/zenodo.20541893"
+   ],
+   [
+    2026,
+    "Using a camera as a novel interpolating pyrometer for use in relative primary thermometry by DFM",
+    "https://doi.org/10.5281/zenodo.20445655"
+   ],
+   [
+    2026,
+    "Towards_Standardization_of_CAFM_Figures_data_v1",
+    "https://doi.org/10.5281/zenodo.19348198"
+   ],
+   [
+    2026,
+    "Optical and electrical signatures of charge trapping in hybrid perovskite MAPbBr3 single crystals",
+    "https://doi.org/10.1063/5.0314852"
+   ],
+   [
+    2026,
+    "CCM.M-K8.2024: Realization of the kilogram",
+    "https://doi.org/10.59161/qofv3225"
+   ],
+   [
+    2026,
+    "Magnetic texture modulated superconductivity in superconductor/ferromagnet shells of semiconductor nanowires",
+    "https://doi.org/10.48550/arxiv.2601.22051"
+   ],
+   [
+    2026,
+    "EURAMET.QM-K170: Measurement of electrolytic conductivity",
+    "https://doi.org/10.59161/puox8830"
+   ],
+   [
+    2026,
+    "Linking hydrothermal deactivation of Cu-CHA catalysts for NH 3 -SCR to dealumination and reduced [Cu 2 (NH 3 ) 4 O 2 ] 2+ formation",
+    "https://doi.org/10.1039/d5cy01491c"
+   ],
+   [
+    2026,
+    "The Isted Lion, Rehabilitation of a War Monument",
+    "https://doi.org/10.1007/978-3-030-61493-5_332-1"
+   ],
+   [
+    2026,
+    "6th International DCC-Conference",
+    "https://doi.org/10.7795/810.20260312"
+   ],
+   [
+    2026,
+    "Towards innovative optical gas standards for N2O – advancing metrological traceability for greenhouse gas quantification and control",
+    "https://doi.org/10.7795/810.20260601b"
+   ],
+   [
+    2026,
+    "Updates on the Performance and Ruggedization of MIRIDIAN1, an Integrated Optical Clock Based on Acetylene (C2H2) Overtone Transitions",
+    "https://doi.org/10.1364/cleo_at.2026.am3c.3"
+   ],
+   [
+    2026,
+    "Sensing Methane with Undetected Backscattered Mid-Infrared Light",
+    "https://doi.org/10.1364/cleo_at.2026.jtu.4"
+   ],
+   [
+    2026,
+    "Towards standardization of conductive atomic force microscopy",
+    "https://doi.org/10.1039/d6nr01323f"
+   ],
+   [
+    2026,
+    "Improving breast mass classification using control-driven data augmentation",
+    "https://doi.org/10.1016/j.rcro.2026.100581"
+   ],
+   [
+    2025,
+    "Hyper-spectral imaging with up-converted mid-infrared single-photons",
+    "https://doi.org/10.1038/s41598-025-32361-8"
+   ],
+   [
+    2025,
+    "Active fiber-loop method for improved performance assessment of Brillouin OTDR systems",
+    "https://doi.org/10.1364/ol.583530"
+   ],
+   [
+    2025,
+    "Good practice guide on metrologically traceable quality monitoring in the hydrogen supply chain, including offline measurements and onsite calibration, and recommendations for future improvements of ISO 19880-8 and ISO 21087",
+    "https://doi.org/10.5281/zenodo.18346567"
+   ],
+   [
+    2025,
+    "Fiber artefact for performance evaluation of time domain distributed fiber sensor interrogators",
+    "https://doi.org/10.1088/1361-6501/ae214e"
+   ],
+   [
+    2025,
+    "Summary report on: The development of pristine SI traceable reference materials for SMPs (0.1 μm - 10 μm) and NPs (< 0.1 μm), representative of partially degraded/naturally aged samples in complex food and environmental matrices, and for realistic polydisperse size distributions and irregular shapes",
+    "https://doi.org/10.5281/zenodo.17610267"
+   ],
+   [
+    2025,
+    "Corrigendum to “Comparison of rigorous scattering models to accurately replicate the behaviour of scattered electromagnetic waves in optical surface metrology” [Journal of Computational Physics, 521 (2025), 1-21/113519]",
+    "https://doi.org/10.1016/j.jcp.2025.114480"
+   ],
+   [
+    2025,
+    "Measurement of Lateral Resolution in Confocal Raman Spectroscopy Using Indium Arsenide Nanowires",
+    "https://doi.org/10.1002/jrs.70054"
+   ],
+   [
+    2025,
+    "Report on the validated reference techniques used for emittance and reflectance measurements of PRC materials in the spectral range 0.25 µm – 50 µm, with a target uncertainty below 3 % for emissivity and absorptivity",
+    "https://doi.org/10.5281/zenodo.17684599"
+   ],
+   [
+    2025,
+    "Super-resolution imaging with nanopipettes",
+    "https://doi.org/10.1038/s44303-025-00108-9"
+   ],
+   [
+    2025,
+    "Abstract A030: 2X-121, a novel, dual inhibitor of PARP and tankyrase, shows promising clinical benefit in a phase 2 trial in advanced, recurrent ovarian cancer patients (NCT#03878849)",
+    "https://doi.org/10.1158/1538-7445.ovarian25-a030"
+   ],
+   [
+    2025,
+    "Digital twin for 3D confocal microscopy, 3D through focus microscopy and confocal Fourier microscopy",
+    "https://doi.org/10.1117/12.3063846"
+   ],
+   [
+    2025,
+    "Accurate Identification of Bacteria Using a Spectral Transformer Machine Learning Model for Hyperspectral Raman Images",
+    "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11109654"
+   ],
+   [
+    2025,
+    "Characterization and Validation of CV-QKD Systems Traceable to the SI Units",
+    "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11111672"
+   ],
+   [
+    2025,
+    "Distributed Few-Mode Fiber Point Sensor",
+    "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11110467"
+   ],
+   [
+    2025,
+    "Remote methane sensing using single-photon PPLN-waveguide upconversion lidar",
+    "https://doi.org/10.1364/oe.562989"
+   ],
+   [
+    2025,
+    "Bayesian approach for in Situ Numerical Aperture calibration and pitch determination in optical microscopy",
+    "https://doi.org/10.1016/j.measurement.2025.117851"
+   ],
+   [
+    2025,
+    "Fiber-artefact methodology for distributed Brillouin sensing",
+    "https://doi.org/10.1117/12.3062152"
+   ],
+   [
+    2025,
+    "Surface effects in quasiatomic layer etching of silicon",
+    "https://doi.org/10.1116/6.0004257"
+   ],
+   [
+    2025,
+    "Non-Invasive Real-Time Monitoring of Bacterial Activity by Non-Contact Impedance Spectroscopy for Off-the-Shelf Labware",
+    "https://doi.org/10.3390/s25082427"
+   ],
+   [
+    2025,
+    "Digital Twins for 3D Confocal Microscopy: Near-Field, Far-Field, and Comparison with Experiments",
+    "https://doi.org/10.3390/s25072001"
+   ],
+   [
+    2025,
+    "Emissivity and Reflectivity Measurements for Passive Radiative Cooling Technologies",
+    "https://doi.org/10.1007/s10765-025-03532-6"
+   ],
+   [
+    2025,
+    "Instrumentation and uncertainty evaluation for absolute characterization of thin films and nanostructured surfaces in advanced optical metrology",
+    "https://doi.org/10.1088/1681-7575/adbbf3"
+   ],
+   [
+    2025,
+    "Resolution enhancement methods in optical microscopy for dimensional optical metrology",
+    "https://doi.org/10.1051/jeos/2025002"
+   ],
+   [
+    2025,
+    "Biological and soft matter matter",
+    "https://doi.org/10.1038/s41567-024-02734-3"
+   ],
+   [
+    2025,
+    "Atomic force microscopy as a multimetrological platform for energy devices",
+    "https://doi.org/10.1039/d4nr05107f"
+   ],
+   [
+    2025,
+    "Status and future of metrology for dynamic measurement in Nordic and Baltic countries",
+    "https://doi.org/10.1051/epjconf/202532306004"
+   ],
+   [
+    2025,
+    "Digital Calibration Certificates (DCC): Benefits and Challenges to overcome for implementation",
+    "https://doi.org/10.1051/epjconf/202532301001"
+   ],
+   [
+    2025,
+    "Repeaterless Brillouin OTDR Sensing",
+    "https://doi.org/10.1364/ofc.2025.m1c.3"
+   ],
+   [
+    2025,
+    "Subsequent key comparison of the pH of a borate buffer",
+    "https://doi.org/10.1088/0026-1394/62/1a/08024"
+   ],
+   [
+    2024,
+    "DCC2GO – Supporting the implementation of Digital Calibration Certificates in the European metrology community",
+    "https://doi.org/10.1016/j.measen.2024.101499"
+   ],
+   [
+    2024,
+    "Does charge trapping affect subcritical crack growth behavior of yttria‐stabilized zirconia?",
+    "https://doi.org/10.1111/jace.20295"
+   ],
+   [
+    2024,
+    "ELENA project – electrical nanoscale metrology in industry: key outcomes",
+    "https://openalex.org/W4403664344"
+   ],
+   [
+    2024,
+    "Comparison of rigorous scattering models to accurately replicate the behaviour of scattered electromagnetic waves in optical surface metrology",
+    "https://doi.org/10.1016/j.jcp.2024.113519"
+   ],
+   [
+    2024,
+    "RETRACTED: Large-Area Bilayer Organic Solar Cells: Manipulating Interface and Morphology with Solvent Drenched Slot-Die Coating",
+    "https://doi.org/10.26434/chemrxiv-2024-gtt6j-v2"
+   ],
+   [
+    2024,
+    "RETRACTED: Large-Area Bilayer Organic Solar Cells: Manipulating Interface and Morphology with Solvent Drenched Slot-Die Coating",
+    "https://doi.org/10.26434/chemrxiv-2024-gtt6j"
+   ],
+   [
+    2024,
+    "Digital twins for 3D confocal microscopy",
+    "https://doi.org/10.1117/12.3016808"
+   ],
+   [
+    2024,
+    "Far-field super-resolution imaging using scanning photonic nanojets",
+    "https://doi.org/10.1117/12.3017486"
+   ],
+   [
+    2024,
+    "Modeling the Brillouin Spectrum in Raman Amplifier-Assisted Brillouin OTDR",
+    "https://doi.org/10.1109/jlt.2024.3412407"
+   ],
+   [
+    2024,
+    "Artificial neural network assisted spectral scatterometry for grating quality control",
+    "https://doi.org/10.1088/1361-6501/ad4e52"
+   ],
+   [
+    2024,
+    "Field-induced electronic phase separation in the high-temperature superconductor La1.94Sr0.06CuO4+y",
+    "https://doi.org/10.1103/physrevb.109.174517"
+   ],
+   [
+    2024,
+    "Survey of bidirectional transmittance distribution function measurement facilities by multilateral scale comparisons",
+    "https://doi.org/10.1088/1681-7575/ad3fbd"
+   ],
+   [
+    2024,
+    "Deep-reactive ion etching of silicon nanowire arrays at cryogenic temperatures",
+    "https://doi.org/10.1063/5.0166284"
+   ],
+   [
+    2024,
+    "High-Temperature Reaction Mechanism of NH3-SCR over Cu-CHA: One or Two Copper Ions?",
+    "https://doi.org/10.1021/acs.jpcc.4c00554"
+   ],
+   [
+    2024,
+    "Optics miniaturization strategy for demanding Raman spectroscopy applications",
+    "https://doi.org/10.1038/s41467-024-47044-7"
+   ],
+   [
+    2024,
+    "A calculable pistonphone for the absolute calibration of hydrophones in the frequency range from 0.5 Hz to 250 Hz",
+    "https://doi.org/10.1088/1681-7575/ad2d5a"
+   ],
+   [
+    2024,
+    "Mechanism for Cu-enhanced hydrothermal stability of Cu–CHA for NH 3 -SCR",
+    "https://doi.org/10.1039/d4cy00373j"
+   ],
+   [
+    2024,
+    "The CCL-K11 ongoing key comparison. Final report for 2023",
+    "https://doi.org/10.1088/0026-1394/61/1a/04002"
+   ],
+   [
+    2024,
+    "Repeaterless Brillouin OTDR Sensing over 250 km using Erbium doped Fiber Amplifier",
+    "https://doi.org/10.1364/ofc.2024.m2k.6"
+   ],
+   [
+    2024,
+    "An Acetylene-based Optical Clock with < 3 × 10 − 13 / τ Fractional Frequency Instability",
+    "https://doi.org/10.1364/cleo_at.2024.af1f.2"
+   ],
+   [
+    2024,
+    "Comparison measurements for hybrid evaluation approaches in optical nanometrology",
+    "https://doi.org/10.1051/epjconf/202430902005"
+   ],
+   [
+    2024,
+    "Simple Few-Mode Sensor with Temperature Strain Discrimination",
+    "https://openalex.org/W4412216114"
+   ],
+   [
+    2023,
+    "The sensitisation of quartz extracted from andesite",
+    "https://doi.org/10.1016/j.radmeas.2023.107048"
+   ],
+   [
+    2023,
+    "Experiment with simultaneous measurements at two optical wavelengths in the FG5X absolute gravimeter",
+    "https://doi.org/10.1088/1361-6501/ad1311"
+   ],
+   [
+    2023,
+    "Determination of the numerical aperture for spectroscopic microscopy beyond the diffraction limit",
+    "https://doi.org/10.1117/12.2685124"
+   ],
+   [
+    2023,
+    "Rigorous pH measurement in non-aqueous solution: measurement method and reference values in ethanol",
+    "https://doi.org/10.1007/s00216-023-05043-5"
+   ],
+   [
+    2023,
+    "Quartz-Enhanced Photoacoustic Spectroscopy Assisted by Partial Least-Squares Regression for Multi-Gas Measurements",
+    "https://doi.org/10.3390/s23187984"
+   ],
+   [
+    2023,
+    "Gate-tunable superconductivity in hybrid InSb–Pb nanowires",
+    "https://doi.org/10.1063/5.0155663"
+   ],
+   [
+    2023,
+    "Non-normalized Mueller ellipsometry is better than normalized Mueller ellipsometry",
+    "https://doi.org/10.1117/12.2673252"
+   ],
+   [
+    2023,
+    "Near- and far-field simulations of 2D particles with photonic structure",
+    "https://doi.org/10.1117/12.2673298"
+   ],
+   [
+    2023,
+    "Lower-temperature fabrication of airbridges by grayscale lithography to increase yield of nanowire transmons in circuit QED quantum processors",
+    "https://doi.org/10.1063/5.0146814"
+   ],
+   [
+    2023,
+    "Hybrid metrology for nanometric energy harvesting devices",
+    "https://doi.org/10.1088/1361-6501/acdf08"
+   ],
+   [
+    2023,
+    "Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires",
+    "https://doi.org/10.1021/acsnano.3c02733"
+   ],
+   [
+    2023,
+    "Gradual emergence of superconductivity in underdoped La2−xSrxCuO4",
+    "https://doi.org/10.1103/physrevb.107.174514"
+   ],
+   [
+    2023,
+    "ELENA : a European project for electrical nanoscale metrology in industry",
+    "https://openalex.org/W4380589202"
+   ],
+   [
+    2023,
+    "Toward Photonic Nanojet Imaging for Microscopy",
+    "https://doi.org/10.23919/aces57841.2023.10114700"
+   ],
+   [
+    2023,
+    "Harvey–Shack theory for a converging–diverging Gaussian beam",
+    "https://doi.org/10.1364/josab.478801"
+   ],
+   [
+    2023,
+    "Accurate identification of bacteria in a minimally prepared environment using Raman spectroscopy assisted by machine learning",
+    "https://doi.org/10.1117/12.2646653"
+   ],
+   [
+    2023,
+    "Applications of pump modulated UV supercontinuum",
+    "https://doi.org/10.1117/12.2649984"
+   ],
+   [
+    2023,
+    "Towards quantum-enhanced Raman spectroscopy for bioimaging applications",
+    "https://doi.org/10.1117/12.2646648"
+   ],
+   [
+    2023,
+    "Quantum frequency conversion of vacuum squeezed light to bright tunable blue squeezed light",
+    "https://doi.org/10.1117/12.2646662"
+   ],
+   [
+    2023,
+    "Digital TILSAM systems – providing FAIR data and SI traceability to smart sensor networks for air quality monitoring",
+    "https://doi.org/10.7795/810.20260601a"
+   ],
+   [
+    2023,
+    "Mitigating probe pulse deformation in Raman amplification in OTDR fiber sensing systems",
+    "https://doi.org/10.1364/oe.482292"
+   ],
+   [
+    2023,
+    "Thickness measurements of graphene oxide flakes using atomic force microscopy: results of an international interlaboratory comparison",
+    "https://doi.org/10.1088/1361-6528/acbf58"
+   ],
+   [
+    2023,
+    "Rock surface luminescence dating of gravel determines the age of a glacial outburst megaflood, Glacial Lake Missoula, Montana, USA",
+    "https://doi.org/10.1130/g50721.1"
+   ]
+  ]
+ },
+ "Dencrypt": {
+  "id": "",
+  "works": 0
+ },
+ "DIASENSE ApS": {
+  "id": "",
+  "works": 0
+ },
+ "FabCue ApS": {
+  "id": "",
+  "works": 0
+ },
+ "FORCE Technology": {
+  "id": "I4210087957",
+  "display": "FORCE Technology (Denmark)",
+  "works": 164,
+  "co": [
+   {
+    "id": "I96673099",
+    "name": "Technical University of Denmark",
+    "count": 40
+   },
+   {
+    "id": "I71267560",
+    "name": "University of Naples Federico II",
+    "count": 18
+   },
+   {
+    "id": "I891191580",
+    "name": "Aalborg University",
+    "count": 15
+   },
+   {
+    "id": "I111112146",
+    "name": "Tallinn University of Technology",
+    "count": 11
+   },
+   {
+    "id": "I204337017",
+    "name": "Aarhus University",
+    "count": 11
+   },
+   {
+    "id": "I1285933455",
+    "name": "Physikalisch-Technische Bundesanstalt",
+    "count": 10
+   },
+   {
+    "id": "I3019169596",
+    "name": "Danish Technological Institute",
+    "count": 10
+   },
+   {
+    "id": "I4210136623",
+    "name": "Bundesministerium für Wirtschaft und Energie",
+    "count": 10
+   },
+   {
+    "id": "I187531555",
+    "name": "Lund University",
+    "count": 9
+   },
+   {
+    "id": "I4210089493",
+    "name": "Ministry of Economic Affairs and Employment",
+    "count": 9
+   },
+   {
+    "id": "I4210103407",
+    "name": "Swiss Federal Institute of Metrology",
+    "count": 9
+   },
+   {
+    "id": "I4210164637",
+    "name": "VSL National Metrology Institute",
+    "count": 9
+   },
+   {
+    "id": "I87653560",
+    "name": "VTT Technical Research Centre of Finland",
+    "count": 9
+   },
+   {
+    "id": "I133731052",
+    "name": "University of Helsinki",
+    "count": 8
+   },
+   {
+    "id": "I134421475",
+    "name": "National Physical Laboratory",
+    "count": 8
+   },
+   {
+    "id": "I177969490",
+    "name": "University of Southern Denmark",
+    "count": 8
+   },
+   {
+    "id": "I2802567020",
+    "name": "Copenhagen University Hospital",
+    "count": 8
+   },
+   {
+    "id": "I4210149801",
+    "name": "Government of Norway",
+    "count": 8
+   },
+   {
+    "id": "I165779595",
+    "name": "The University of Melbourne",
+    "count": 7
+   },
+   {
+    "id": "I4210124866",
+    "name": "Český metrologický institut",
+    "count": 7
+   },
+   {
+    "id": "I86987016",
+    "name": "KTH Royal Institute of Technology",
+    "count": 7
+   },
+   {
+    "id": "I124055696",
+    "name": "University of Copenhagen",
+    "count": 6
+   },
+   {
+    "id": "I2801389564",
+    "name": "Norwegian Metrology Service",
+    "count": 6
+   },
+   {
+    "id": "I4210116418",
+    "name": "Ministry of Trade, Industry and Fisheries",
+    "count": 6
+   },
+   {
+    "id": "I1305996414",
+    "name": "Helmholtz Association of German Research Centres",
+    "count": 5
+   }
+  ],
+  "titles": [
+   [
+    2026,
+    "Hybrid testing of wind turbine components using Kane’s method",
+    "https://doi.org/10.1016/j.ymssp.2026.115055"
+   ],
+   [
+    2026,
+    "Numerical investigation of transom and double interceptor systems on a high-speed planing craft in regular waves with experimental validation",
+    "https://doi.org/10.1016/j.oceaneng.2026.128197"
+   ],
+   [
+    2026,
+    "Wide-ranging distributed activation energy models for pyrolysis of woody and agricultural biomass",
+    "https://doi.org/10.1016/j.fuel.2026.141306"
+   ],
+   [
+    2026,
+    "EURAMET.M.FF-S16: Calibration of piston operated volumetric instruments",
+    "https://doi.org/10.59161/sbka6573"
+   ],
+   [
+    2026,
+    "Security and Privacy in Wi-Fi Networks: From Legacy Protocols to Next-Gen Defenses",
+    "https://doi.org/10.1007/978-3-032-26616-3_20"
+   ],
+   [
+    2026,
+    "Dataset for Sea-Trial Data Processing and Manoeuvring Analysis of a Rigid Inflatable Boat (RIB) MITO 31",
+    "https://doi.org/10.17632/pz37h8vtjt"
+   ],
+   [
+    2026,
+    "Choline prolinate-based ionic liquid solvent blend for carbon capture: development and mini-pilot evaluation",
+    "https://doi.org/10.1016/j.seppur.2026.139174"
+   ],
+   [
+    2026,
+    "Uncertainty-awareness in explainable artificial intelligence (xAI) for sensor network metrology",
+    "https://doi.org/10.1016/j.meadig.2026.100042"
+   ],
+   [
+    2026,
+    "A stochastic grey-box model of a solvent-based carbon capture pilot plant",
+    "https://doi.org/10.1016/j.compchemeng.2026.109767"
+   ],
+   [
+    2026,
+    "Anthropogenic Pollution Accounts for a Substantial Part of Cloud Condensation Nuclei in North African Dust Layer",
+    "https://doi.org/10.1029/2025gl120808"
+   ],
+   [
+    2026,
+    "Optimér hygiejnen i gulerodsvaskeriet",
+    "https://openalex.org/W7159922557"
+   ],
+   [
+    2026,
+    "Interlaboratory Comparison of SI-Traceable Flow Metering Calibration Facilities with Gaseous Carbon Dioxide",
+    "https://doi.org/10.3390/metrology6020022"
+   ],
+   [
+    2026,
+    "Hygiejnezoner og renere processer i gulerodsvaskeriet",
+    "https://openalex.org/W7159902419"
+   ],
+   [
+    2026,
+    "Full-scale assessment of vehicle wind loading on the Great Belt East Bridge",
+    "https://doi.org/10.1016/j.jweia.2026.106372"
+   ],
+   [
+    2026,
+    "Planing hull dynamics in water waves: Physical insights from nonlinear strip theory models and fully nonlinear computational fluid dynamics simulations",
+    "https://doi.org/10.1063/5.0311446"
+   ],
+   [
+    2026,
+    "Assessment of free-running model tests for KRISO Container Ship maneuvering in calm water and waves and comparison with CFD",
+    "https://doi.org/10.1007/s42241-026-0030-0"
+   ],
+   [
+    2026,
+    "Good practice guide for the machine-readable representation of information in sensor network metrology",
+    "https://doi.org/10.5281/zenodo.21905840"
+   ],
+   [
+    2026,
+    "Gas Flow Metering Using National Standards and Gas Mixtures Containing Hydrogen",
+    "https://doi.org/10.3390/hydrogen7010019"
+   ],
+   [
+    2026,
+    "Gas Flow Metering Using National Standards and Gas Mixtures Containing Hydrogen",
+    "https://doi.org/10.5281/zenodo.18427231"
+   ],
+   [
+    2026,
+    "A systematic study on the influence of scale, hull roughness, and draft on form factor estimation",
+    "https://doi.org/10.1016/j.ijnaoe.2025.100739"
+   ],
+   [
+    2026,
+    "Vehicle Wind Loading and Overturning on Bridges",
+    "https://doi.org/10.1007/978-3-032-15130-8_41"
+   ],
+   [
+    2026,
+    "The Importance of Integrating Personality as a Topic in Crew Resource Management Training",
+    "https://doi.org/10.54941/ahfe1008010"
+   ],
+   [
+    2025,
+    "An Adaptive Method for Target Curve Selection",
+    "https://doi.org/10.48550/arxiv.2512.08313"
+   ],
+   [
+    2025,
+    "21GRD06 MetCCUS - A2.1.6 - Deliverable D3 - Good Practice Guide for the Measurement of Nitrosamines in Post-Combustion Flue Gas",
+    "https://doi.org/10.5281/zenodo.17737079"
+   ],
+   [
+    2025,
+    "21GRD06 MetCCUS datasets from flow measurements in WP1 metrology infrastructure testing for transferbility and intercomparison testing",
+    "https://doi.org/10.5281/zenodo.17734593"
+   ],
+   [
+    2025,
+    "Technical report on the traceability chains for hydrogen flow metering with flow rates above 0.2 kg/min and three options for ensuring traceability from established primary standards for the 2030 European Industry and Hydrogen Community",
+    "https://doi.org/10.5281/zenodo.18347118"
+   ],
+   [
+    2025,
+    "Report A2.2.8 - REPLICATION OF CO2 EMISSIONS USING A CONTROLLED RELEASE FACILITY TO EVALUATE MEASUREMENT METHODS AT BOTH THE COMPONENT AND SITE SPATIAL SCALE",
+    "https://doi.org/10.5281/zenodo.17714876"
+   ],
+   [
+    2025,
+    "MetCCUS - A2.2.9 - Guidance documents for the detection and measurements of of leaks at the component spatial scale and site spatial scale",
+    "https://doi.org/10.5281/zenodo.17714190"
+   ],
+   [
+    2025,
+    "Best practices in the evaluation of the measurement uncertainty of quantities relevant to fiscal measurements along the hydrogen supply chain",
+    "https://doi.org/10.5281/zenodo.18346464"
+   ],
+   [
+    2025,
+    "Nonlinear motions and dynamic intermittency of planing hulls in random wave fields: A structure-function approach",
+    "https://doi.org/10.1016/j.oceaneng.2025.123467"
+   ],
+   [
+    2025,
+    "Closed Form Modelling and Identification of Banking Effects in Confined Waters",
+    "https://doi.org/10.48550/arxiv.2511.10158"
+   ],
+   [
+    2025,
+    "X2Power: A Framework for Industry’s Energy Needs in a Power2X World",
+    "https://doi.org/10.1109/icrera66237.2025.11284203"
+   ],
+   [
+    2025,
+    "Metering for custody transfer of hydrogen for transport, heat, and storage",
+    "https://doi.org/10.5281/zenodo.18346205"
+   ],
+   [
+    2025,
+    "Hybrid NDT strategies for wind turbine blades: Combining robotic ultrasonic inspection with aerial imaging to enhance resilience and reduce service costs",
+    "https://doi.org/10.1088/1757-899x/1338/1/012024"
+   ],
+   [
+    2025,
+    "Process configurations for emission control: CESAR1 emission behavior in biomass combustion gas treatment",
+    "https://doi.org/10.1016/j.cej.2025.168649"
+   ],
+   [
+    2025,
+    "Power Electronics Converters Impedance Characterization Device for Low Frequency EMI Analysis",
+    "https://doi.org/10.1109/emceurope61644.2025.11176235"
+   ],
+   [
+    2025,
+    "Guidelines for data quality, measurement uncertainty, and traceability in sensor networks",
+    "https://doi.org/10.5281/zenodo.17412253"
+   ],
+   [
+    2025,
+    "Performance Prediction of Planing Catamarans Using Mathematical and CFD Models",
+    "https://doi.org/10.3233/pmst250048"
+   ],
+   [
+    2025,
+    "A Comprehensive Study on the Influence of Scale and Draft Variations on Form Factor Using a Combined EFD/CFD Approach",
+    "https://doi.org/10.3233/pmst250043"
+   ],
+   [
+    2025,
+    "High speed planing craft dynamics in irregular waves: Safety improvement using interceptor systems",
+    "https://doi.org/10.1016/j.apor.2025.104692"
+   ],
+   [
+    2025,
+    "Pilot-Scale CO2 capture in a cement plant with CESAR1: Emission control with acid wash and absorber intercooling",
+    "https://doi.org/10.1016/j.seppur.2025.133693"
+   ],
+   [
+    2025,
+    "Vibro-acoustic prediction model for impact sound insulation of cross-laminated timber",
+    "https://doi.org/10.71568/dasdaga2025.464"
+   ],
+   [
+    2025,
+    "Post-Construction Subway Noise Measurements",
+    "https://doi.org/10.71568/dasdaga2025.474"
+   ],
+   [
+    2025,
+    "Noise Differences Between Electric and Conventional Cars at Low Speeds",
+    "https://doi.org/10.71568/dasdaga2025.595"
+   ],
+   [
+    2025,
+    "Development of laboratory sound insulation measurement methods of cross-laminated timber elements",
+    "https://doi.org/10.71568/dasdaga2025.504"
+   ],
+   [
+    2025,
+    "Verification and validation of hard-chine hull performance in calm water: Effects of numerical setups and hull configurations",
+    "https://doi.org/10.1016/j.oceaneng.2025.121056"
+   ],
+   [
+    2025,
+    "Enabling Green Cellular Networks: A Review and Proposal Leveraging Software-Defined Networking, Network Function Virtualization, and Cloud-Radio Access Network",
+    "https://doi.org/10.3390/fi17040161"
+   ],
+   [
+    2025,
+    "Morphological Insights From Benthic Foraminifera for Environmental Conditions in the Baltic Sea During the Last Interglacial",
+    "https://doi.org/10.1029/2024pa005063"
+   ],
+   [
+    2025,
+    "Material Feasibility & Survivability Testing for Carbon Capture and Storage Well Construction",
+    "https://doi.org/10.2118/223736-ms"
+   ],
+   [
+    2025,
+    "End-user case studies in sensor network metrology",
+    "https://doi.org/10.1016/j.measen.2025.101819"
+   ],
+   [
+    2025,
+    "Sensor network metrology: Current state and future directions",
+    "https://doi.org/10.1016/j.measen.2024.101798"
+   ],
+   [
+    2025,
+    "Experimental Investigation of the Hydrodynamic Behavior of a Flexible Line of Floating Modules to Contain Wood Logs Upstream of Hydroelectric Plants",
+    "https://doi.org/10.1061/jhend8.hyeng-14113"
+   ],
+   [
+    2025,
+    "Data Quality Characteristics for Improved Metrology in Sensor Networks",
+    "https://doi.org/10.21014/tc6-2025.060"
+   ],
+   [
+    2025,
+    "Thermal metrology challenges in Nordic and Baltic countries",
+    "https://doi.org/10.59161/sbok4865"
+   ],
+   [
+    2024,
+    "Influence of Variations in Imbalanced LISN Termination Impedances on Radiated Emissions",
+    "https://doi.org/10.1109/tim.2024.3500049"
+   ],
+   [
+    2024,
+    "Remote Inspection Techniques: A Review of Autonomous Robotic Inspection for Marine Vessels",
+    "https://doi.org/10.1109/tfr.2024.3499916"
+   ],
+   [
+    2024,
+    "A novel lifting-line method for hydrodynamic analysis and parametric design of marine propellers with complex geometries",
+    "https://doi.org/10.1016/j.oceaneng.2024.119609"
+   ],
+   [
+    2024,
+    "Flutter stability of twin-box bridge decks",
+    "https://doi.org/10.48550/arxiv.2410.17097"
+   ],
+   [
+    2024,
+    "Ten years of experience with road noise auralisations",
+    "https://doi.org/10.3397/in_2024_3236"
+   ],
+   [
+    2024,
+    "Noise propagation variations over long distances over water",
+    "https://doi.org/10.3397/in_2024_4006"
+   ],
+   [
+    2024,
+    "The ocean wave noise masking effect on wind turbine noise audibility",
+    "https://doi.org/10.3397/in_2024_3517"
+   ],
+   [
+    2024,
+    "Sound insulation of partially open windows - alternative laboratory measurement methods",
+    "https://doi.org/10.3397/in_2024_3516"
+   ],
+   [
+    2024,
+    "The SAM-Krom biomonitoring study shows occupational exposure to hexavalent chromium and increased genotoxicity in Denmark",
+    "https://doi.org/10.1016/j.ijheh.2024.114444"
+   ],
+   [
+    2024,
+    "Long-term exposure to green and blue space and incidence of cardiovascular disease: A Danish Nurse Cohort study",
+    "https://doi.org/10.1016/j.ijheh.2024.114465"
+   ],
+   [
+    2024,
+    "Verification and Validation Analysis on Marine Applications",
+    "https://doi.org/10.3390/jmse12091618"
+   ],
+   [
+    2024,
+    "Aggregated EMI Prediction in 2-150 kHz using Black Box Model of Power Converters",
+    "https://doi.org/10.1109/emceurope59828.2024.10722680"
+   ],
+   [
+    2024,
+    "P20-15 Risk assessment of Endocrine-Disrupting chemicals: threshold or not and what about mixtures?",
+    "https://doi.org/10.1016/j.toxlet.2024.07.718"
+   ],
+   [
+    2024,
+    "Hidden formaldehyde in cosmetic products",
+    "https://doi.org/10.1111/cod.14669"
+   ],
+   [
+    2024,
+    "Modelling the acoustic radiation of propeller tip vortex cavitation in potential flow simulations",
+    "https://doi.org/10.1016/j.oceaneng.2024.118732"
+   ],
+   [
+    2024,
+    "Visualization of Common Mode Current Coupling to Attached Cables of Power Converters",
+    "https://doi.org/10.1109/emcsipi49824.2024.10705637"
+   ],
+   [
+    2024,
+    "Benchmarking of Cellular IoT Technology Based on Coverage, Mobility, Latency & Message Repetition",
+    "https://doi.org/10.23919/splitech61897.2024.10612530"
+   ],
+   [
+    2024,
+    "Experimental and Numerical Investigation into the Effects of Air–Fluid Interaction on the Dynamic Responses of a Damaged Ship",
+    "https://doi.org/10.3390/jmse12060992"
+   ],
+   [
+    2024,
+    "Integrated-path multi-gas sensor using near-infrared diode lasers: An alternative to vehicle-driven point gas analyzer",
+    "https://doi.org/10.1016/j.snb.2024.135855"
+   ],
+   [
+    2024,
+    "Defining and testing the sound insulation of partially open windows",
+    "https://doi.org/10.61782/fa.2023.0647"
+   ],
+   [
+    2024,
+    "A revisited verification and validation analysis for URANS simulation of planing hulls in calm water",
+    "https://doi.org/10.1016/j.oceaneng.2023.116589"
+   ],
+   [
+    2024,
+    "Comparison in humidity (dew-point temperature high range) dew point temperature +30 °C to 95 °C",
+    "https://doi.org/10.1088/0026-1394/61/1a/03008"
+   ],
+   [
+    2024,
+    "Perceptual Evaluation of Room Acoustic Simulations and Measurements",
+    "https://openalex.org/W4412216067"
+   ],
+   [
+    2024,
+    "Field tests of low noise levels from MVHR ventilation systems – Overview obstacles and pilot test of test procedure improvement",
+    "https://openalex.org/W4412222511"
+   ],
+   [
+    2023,
+    "IoT Based Closed Loop Production Optimization using MQTT and Rule-based System",
+    "https://doi.org/10.1145/3603166.3632544"
+   ],
+   [
+    2023,
+    "Autonomous GPU-based UAS for inspection of confined spaces: Application to marine vessel classification",
+    "https://doi.org/10.1016/j.robot.2023.104590"
+   ],
+   [
+    2023,
+    "Performance Evaluation of Nord2000, RTN-96 and CNOSSOS-EU against Noise Measurements in Central Jutland, Denmark",
+    "https://doi.org/10.3390/acoustics5040062"
+   ],
+   [
+    2023,
+    "Solvent degradation and emissions from a CO2 capture pilot at a waste-to-energy plant",
+    "https://doi.org/10.1016/j.jece.2023.111411"
+   ],
+   [
+    2023,
+    "The human factor: results of a small-angle scattering data analysis round robin",
+    "https://doi.org/10.1107/s1600576723008324"
+   ],
+   [
+    2023,
+    "Preference ratings and 32 magnitude frequency response curves",
+    "https://doi.org/10.5281/zenodo.8388241"
+   ],
+   [
+    2023,
+    "Coupling Path to Attached Cables in an Arbitrary Flyback Converter",
+    "https://doi.org/10.1109/emceurope57790.2023.10274193"
+   ],
+   [
+    2023,
+    "Novel approach to reducing uncertainty of drift estimate in international comparisons of relative humidity scales",
+    "https://doi.org/10.1088/1681-7575/acf500"
+   ],
+   [
+    2023,
+    "The Nord2000 prediction method for road traffic noise–outline and validation, and application in environmental noise mapping",
+    "https://doi.org/10.1121/10.0020275"
+   ],
+   [
+    2023,
+    "Numerical analysis of the effect of oscillation and current on hydrodynamic coefficients of simple geometries",
+    "https://doi.org/10.1016/j.oceaneng.2023.115016"
+   ],
+   [
+    2023,
+    "Correction: Capasso et al. Regular Wave Seakeeping Analysis of a Planing Hull by Smoothed Particle Hydrodynamics: A Comprehensive Validation. J. Mar. Sci. Eng. 2023, 11, 700",
+    "https://doi.org/10.3390/jmse11061229"
+   ],
+   [
+    2023,
+    "Reducing Containership Greenhouse Gas Emission Through Speed Optimisation by Coupling a Fast Time Manoeuvring Solver to a One-Dimensional Propulsion Model and Under Keel Clearance Predicting System in Shallow Water Under Environmental Forcing",
+    "https://doi.org/10.1115/omae2023-103261"
+   ],
+   [
+    2023,
+    "Comparative study of experimental and CFD results for stepped planing hulls",
+    "https://doi.org/10.1016/j.oceaneng.2023.114887"
+   ],
+   [
+    2023,
+    "X-ray CT of subsea pipe",
+    "https://doi.org/10.5281/zenodo.6817689"
+   ],
+   [
+    2023,
+    "Measurement report: Atmospheric fluorescent bioaerosol concentrations measured during 18 months in a coniferous forest in the south of Sweden",
+    "https://doi.org/10.5194/acp-23-4977-2023"
+   ],
+   [
+    2023,
+    "Petersson Sjögren et al 2023 Biotrak Data Hyltemossa",
+    "https://doi.org/10.5281/zenodo.7801590"
+   ],
+   [
+    2023,
+    "3D morphological variability in foraminifera unravel environmental changes in the Baltic Sea entrance over the last 200 years",
+    "https://doi.org/10.3389/feart.2023.1120170"
+   ],
+   [
+    2023,
+    "Regular Wave Seakeeping Analysis of a Planing Hull by Smoothed Particle Hydrodynamics: A Comprehensive Validation",
+    "https://doi.org/10.3390/jmse11040700"
+   ],
+   [
+    2023,
+    "Changes in cloud activity of ship exhaust particles: Potential effects on Arctic mixed-phase clouds",
+    "https://doi.org/10.5194/egusphere-egu23-14906"
+   ],
+   [
+    2023,
+    "APPLICABILITY OF ISO 16283-3 FOR FIELD MEASUREMENT OF SOUND INSULATION OF PARTIALLY OPEN WINDOWS",
+    "https://doi.org/10.25144/14868"
+   ],
+   [
+    2023,
+    "NOISE INDICATORS AND LIMITS FOR INTERMITTENT INDOOR FREQUENCY NOISE",
+    "https://doi.org/10.25144/14771"
+   ],
+   [
+    2023,
+    "DecoWind: Development of low-noise and cost-effective wind farm control technology",
+    "https://doi.org/10.3397/in_2022_0894"
+   ]
+  ]
+ },
+ "Frogne A/S": {
+  "id": "",
+  "works": 0
+ },
+ "GlobalConnect A/S": {
+  "id": "",
+  "works": 0
+ },
+ "IBM Danmark ApS": {
+  "id": "",
+  "works": 0
+ },
+ "KPMG": {
+  "id": "",
+  "works": 0
+ },
+ "Kvantify ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Lizard Photonics": {
+  "id": "",
+  "works": 0
+ },
+ "Magnolia Quantum Sensing ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Maybell Quantum Industries ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Molecular Quantum Solutions": {
+  "id": "",
+  "works": 0
+ },
+ "Monarch Quantum": {
+  "id": "",
+  "works": 0
+ },
+ "NKT Photonics": {
+  "id": "",
+  "works": 0
+ },
+ "Partisia": {
+  "id": "",
+  "works": 0
+ },
+ "Phantom Photonics ApS": {
+  "id": "",
+  "works": 0
+ },
+ "PsiQre ApS": {
+  "id": "",
+  "works": 0
+ },
+ "QFactory ApS": {
+  "id": "",
+  "works": 0
+ },
+ "QM Technologies ApS (Quantum Machines)": {
+  "id": "",
+  "works": 0
+ },
+ "Qpurpose ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Quantum Foundry Copenhagen": {
+  "id": "",
+  "works": 0
+ },
+ "QuantumSong ApS": {
+  "id": "",
+  "works": 0
+ },
+ "QunaSys": {
+  "id": "",
+  "works": 0
+ },
+ "QuNorth": {
+  "id": "",
+  "works": 0
+ },
+ "SiPhotonIC": {
+  "id": "",
+  "works": 0
+ },
+ "Sparrow Quantum": {
+  "id": "",
+  "works": 0
+ },
+ "TDC NET A/S": {
+  "id": "",
+  "works": 0
+ },
+ "Terma A/S": {
+  "id": "I4210125004",
+  "display": "Terma (Denmark)",
+  "works": 23,
+  "co": [
+   {
+    "id": "I2801994115",
+    "name": "European Space Agency",
+    "count": 7
+   },
+   {
+    "id": "I204337017",
+    "name": "Aarhus University",
+    "count": 4
+   },
+   {
+    "id": "I96673099",
+    "name": "Technical University of Denmark",
+    "count": 4
+   },
+   {
+    "id": "I1321659569",
+    "name": "European Space Operations Centre",
+    "count": 3
+   },
+   {
+    "id": "I124055696",
+    "name": "University of Copenhagen",
+    "count": 2
+   },
+   {
+    "id": "I4092182",
+    "name": "Graz University of Technology",
+    "count": 2
+   },
+   {
+    "id": "I891191580",
+    "name": "Aalborg University",
+    "count": 2
+   },
+   {
+    "id": "I123044942",
+    "name": "Universitat Autònoma de Barcelona",
+    "count": 1
+   },
+   {
+    "id": "I1288882113",
+    "name": "Boston Children's Hospital",
+    "count": 1
+   },
+   {
+    "id": "I1321434546",
+    "name": "European Southern Observatory",
+    "count": 1
+   },
+   {
+    "id": "I136199984",
+    "name": "Harvard University",
+    "count": 1
+   },
+   {
+    "id": "I144648426",
+    "name": "Norwegian Computing Center",
+    "count": 1
+   },
+   {
+    "id": "I157773358",
+    "name": "Sun Yat-sen University",
+    "count": 1
+   },
+   {
+    "id": "I177969490",
+    "name": "University of Southern Denmark",
+    "count": 1
+   },
+   {
+    "id": "I187531555",
+    "name": "Lund University",
+    "count": 1
+   },
+   {
+    "id": "I189158943",
+    "name": "University of Milan",
+    "count": 1
+   },
+   {
+    "id": "I200332995",
+    "name": "TU Dortmund University",
+    "count": 1
+   },
+   {
+    "id": "I21370196",
+    "name": "Aristotle University of Thessaloniki",
+    "count": 1
+   },
+   {
+    "id": "I2802155305",
+    "name": "Brera Astronomical Observatory",
+    "count": 1
+   },
+   {
+    "id": "I2802335433",
+    "name": "Aarhus University Hospital",
+    "count": 1
+   },
+   {
+    "id": "I4210096927",
+    "name": "Ramboll (Denmark)",
+    "count": 1
+   },
+   {
+    "id": "I4210115306",
+    "name": "Region of Southern Denmark",
+    "count": 1
+   },
+   {
+    "id": "I4210128921",
+    "name": "The First Affiliated Hospital, Sun Yat-sen University",
+    "count": 1
+   },
+   {
+    "id": "I4210129531",
+    "name": "European Southern Observatory",
+    "count": 1
+   },
+   {
+    "id": "I4396570579",
+    "name": "DTU Space",
+    "count": 1
+   }
+  ],
+  "titles": [
+   [
+    2026,
+    "Overview and design optimization of a custom hybrid x-ray telescope for the International Axion Observatory (IAXO)",
+    "https://doi.org/10.1117/12.3105052"
+   ],
+   [
+    2026,
+    "An open source FORTRAN subroutine for calculation of TEM responses and derivatives from 1D models",
+    "https://doi.org/10.1016/j.cageo.2025.106102"
+   ],
+   [
+    2025,
+    "Mapping of Earth's Magnetic Field with the Ørsted Satellite",
+    "https://doi.org/10.26077/30vc-ay35"
+   ],
+   [
+    2025,
+    "Development of the Ørsted Satellite Project",
+    "https://doi.org/10.26077/0hne-p717"
+   ],
+   [
+    2025,
+    "A Geomagnetic Smallsat Observatory for Operation in a 200 km Altitude Low Earth Orbit",
+    "https://doi.org/10.26077/n81a-5p05"
+   ],
+   [
+    2025,
+    "OPS-SAT LEOP and Commissioning: Running a Nanosatellite Project in a Space Agency Context",
+    "https://doi.org/10.26077/daan-5146"
+   ],
+   [
+    2025,
+    "Implementing the New CCSDS Housekeeping Data Compression Standard 124.0-B-1 (Based on POCKET+) on OPS-SAT-1",
+    "https://doi.org/10.26077/cq4q-rk93"
+   ],
+   [
+    2025,
+    "OPS-SAT-1 Mission Planning, Scheduling and Automation Concepts of Operations",
+    "https://doi.org/10.52202/083086-0016"
+   ],
+   [
+    2024,
+    "Estimation of transmitter-receiver separation for mobile ground-based transient electromagnetic systems using on-time gates",
+    "https://openalex.org/W4412213155"
+   ],
+   [
+    2024,
+    "Model-based safety analysis of requirement specifications",
+    "https://doi.org/10.1016/j.jss.2024.112231"
+   ],
+   [
+    2024,
+    "Cyber Resilience in OT: Characteristics and Security Challenges",
+    "https://doi.org/10.1109/csr61664.2024.10679463"
+   ],
+   [
+    2024,
+    "Managing the remediation strategy of contaminated megasites using field-scale calibration of geo-electrical imaging with chemical monitoring",
+    "https://doi.org/10.1016/j.scitotenv.2024.171013"
+   ],
+   [
+    2024,
+    "An optimized and hybrid gating scheme for the suppression of very low-frequency radios in transient electromagnetic systems",
+    "https://doi.org/10.5194/gi-13-27-2024"
+   ],
+   [
+    2024,
+    "On-Orbit Diagnosis and Performance Improvement of the OPS-SAT-1 Star Tracker",
+    "https://doi.org/10.52202/078372-0070"
+   ],
+   [
+    2024,
+    "FPGA-Based Onboard Anomaly Detection for OPS-SAT Telemetry Utilizing Statistical Methods",
+    "https://doi.org/10.52202/078365-0075"
+   ],
+   [
+    2023,
+    "A Contextually Supported Abnormality Detector for Maritime Trajectories",
+    "https://doi.org/10.3390/jmse11112085"
+   ],
+   [
+    2023,
+    "The ESO Science Archive Facility: Status, Impact, and Prospects",
+    "https://doi.org/10.18727/0722-6691/5338"
+   ],
+   [
+    2022,
+    "Artificial Intelligence for Autonomous Planning and Scheduling of Image Acquisition with the SmartCam App On-Board the OPS-SAT Spacecraft",
+    "https://doi.org/10.2514/6.2022-2508"
+   ],
+   [
+    2022,
+    "Agile Development and Rapid Prototyping in a Flying Mission with Open Source Software Reuse On-Board the OPS-SAT Spacecraft",
+    "https://doi.org/10.2514/6.2022-0648"
+   ],
+   [
+    2022,
+    "Mutual Coupling and Channel Imbalance Calibration of Colocated MIMO Radars",
+    "https://doi.org/10.1109/ojap.2022.3170795"
+   ],
+   [
+    2021,
+    "Investigation of the Workbench Faraday Cage Method, IEC 61967-5",
+    "https://doi.org/10.1109/emc/si/pi/emceurope52599.2021.9559285"
+   ],
+   [
+    2021,
+    "Homocysteine and female fertility, pregnancy loss and offspring birthweight: a two-sample Mendelian randomization study",
+    "https://doi.org/10.1038/s41430-021-00898-2"
+   ],
+   [
+    2021,
+    "Angle-Dependent Mutual Coupling in Antenna Arrays by Electromagnetic Modelling of Sub-Volumes",
+    "https://doi.org/10.1109/eurad48048.2021.00017"
+   ]
+  ]
+ },
+ "Topsil GlobalWafers": {
+  "id": "",
+  "works": 0
+ },
+ "Type One Systems": {
+  "id": "",
+  "works": 0
+ },
+ "Universal Quantum": {
+  "id": "",
+  "works": 0
+ },
+ "Ørsted": {
+  "id": "I35570632",
+  "display": "Ørsted (Denmark)",
+  "works": 177,
+  "co": [
+   {
+    "id": "I96673099",
+    "name": "Technical University of Denmark",
+    "count": 57
+   },
+   {
+    "id": "I185261750",
+    "name": "University of Toronto",
+    "count": 26
+   },
+   {
+    "id": "I180242103",
+    "name": "Stockholm School of Economics",
+    "count": 25
+   },
+   {
+    "id": "I891191580",
+    "name": "Aalborg University",
+    "count": 20
+   },
+   {
+    "id": "I65143321",
+    "name": "Hitachi (Japan)",
+    "count": 9
+   },
+   {
+    "id": "I4210107938",
+    "name": "Hitachi (Sweden)",
+    "count": 8
+   },
+   {
+    "id": "I125968788",
+    "name": "Norwegian Geotechnical Institute",
+    "count": 7
+   },
+   {
+    "id": "I121934306",
+    "name": "Tufts University",
+    "count": 6
+   },
+   {
+    "id": "I133958730",
+    "name": "Energinet (Denmark)",
+    "count": 6
+   },
+   {
+    "id": "I204337017",
+    "name": "Aarhus University",
+    "count": 6
+   },
+   {
+    "id": "I4387154394",
+    "name": "National Kaohsiung University of Science and Technology",
+    "count": 5
+   },
+   {
+    "id": "I1297288678",
+    "name": "National Laboratory of the Rockies",
+    "count": 4
+   },
+   {
+    "id": "I1330989302",
+    "name": "United States Department of Energy",
+    "count": 4
+   },
+   {
+    "id": "I177969490",
+    "name": "University of Southern Denmark",
+    "count": 4
+   },
+   {
+    "id": "I193662353",
+    "name": "Utrecht University",
+    "count": 4
+   },
+   {
+    "id": "I27826396",
+    "name": "Vattenfall (Sweden)",
+    "count": 4
+   },
+   {
+    "id": "I2800842121",
+    "name": "Office of Critical Minerals and Energy Innovation",
+    "count": 4
+   },
+   {
+    "id": "I60053951",
+    "name": "Universitat Politècnica de València",
+    "count": 4
+   },
+   {
+    "id": "I116953780",
+    "name": "Tongji University",
+    "count": 3
+   },
+   {
+    "id": "I124055696",
+    "name": "University of Copenhagen",
+    "count": 3
+   },
+   {
+    "id": "I168719708",
+    "name": "City University of Hong Kong",
+    "count": 3
+   },
+   {
+    "id": "I190082696",
+    "name": "Durham University",
+    "count": 3
+   },
+   {
+    "id": "I205783295",
+    "name": "Cornell University",
+    "count": 3
+   },
+   {
+    "id": "I4210093774",
+    "name": "Tennet (Germany)",
+    "count": 3
+   },
+   {
+    "id": "I4210124058",
+    "name": "Wind Energy Institute of Canada",
+    "count": 3
+   }
+  ],
+  "titles": [
+   [
+    2026,
+    "Typhoon Haikui captured through Dual Doppler Radar measurements",
+    "https://doi.org/10.5194/ems2026-301"
+   ],
+   [
+    2026,
+    "CO2 capture 2-amino-2-methyl-1-propanol/piperazine degradation. Comparison of BECCS and cement production",
+    "https://doi.org/10.1016/j.jece.2026.123562"
+   ],
+   [
+    2026,
+    "Submarine geohazards and mitigation concept for offshore wind",
+    "https://doi.org/10.18814/epiiugs/2026/02602s02"
+   ],
+   [
+    2026,
+    "An accurate double ended fault locator for shunt compensated long export cables connected with offshore wind farms",
+    "https://doi.org/10.1049/icp.2026.1962"
+   ],
+   [
+    2026,
+    "Introduction to model-based line protection methodology",
+    "https://doi.org/10.1049/icp.2026.1971"
+   ],
+   [
+    2026,
+    "50-year wind speed maps for tropical-cyclone-affected regions using best track data",
+    "https://doi.org/10.5194/wes-11-1889-2026"
+   ],
+   [
+    2026,
+    "Machine Learning–Based Automatic Microseismic Event Detection During the 17 August 2015 Mw 4.6 Induced Earthquake Sequence in Northern Montney, British Columbia, Canada",
+    "https://doi.org/10.1785/0120250263"
+   ],
+   [
+    2026,
+    "Laying the foundations for context-aware and AI-ready fault diagnosis with the Operations Ontology",
+    "https://doi.org/10.1088/1742-6596/3232/1/012005"
+   ],
+   [
+    2026,
+    "Regression-based long-term correction of mesoscale wind time series for time series AEP calculations with integrated uncertainty quantification",
+    "https://doi.org/10.1088/1742-6596/3224/2/022025"
+   ],
+   [
+    2026,
+    "Data-driven online SOH estimation of a grid-connected BESS: Accuracy improvements and lifetime prediction",
+    "https://doi.org/10.1016/j.meaene.2026.100091"
+   ],
+   [
+    2025,
+    "OMARF: An Orchestrated Multi-Agent Resilience Framework for Autonomic Software-Defined Industrial Networks",
+    "https://doi.org/10.5281/zenodo.17931325"
+   ],
+   [
+    2025,
+    "A Threshold-Triggered Deep Q-Network-Based Framework for Self-Healing in Autonomic Software-Defined IIoT-Edge Networks",
+    "https://doi.org/10.5281/zenodo.17924989"
+   ],
+   [
+    2025,
+    "The hybrid renewable energy forecasting and trading competition 2024",
+    "https://doi.org/10.1016/j.ijforecast.2025.10.005"
+   ],
+   [
+    2025,
+    "Process configurations for emission control: CESAR1 emission behavior in biomass combustion gas treatment",
+    "https://doi.org/10.1016/j.cej.2025.168649"
+   ],
+   [
+    2025,
+    "Overview of electrical topologies of hybrid power plants with offshore wind",
+    "https://doi.org/10.1049/icp.2025.2375"
+   ],
+   [
+    2025,
+    "Real time sequential rule-based dispatch of multi-commodity hybrid power plants",
+    "https://doi.org/10.1016/j.renene.2025.124003"
+   ],
+   [
+    2025,
+    "Ageing-aware trading with Li-ion battery storage: Trade-off between short-term market profits and long-term degradation",
+    "https://doi.org/10.1016/j.fub.2025.100079"
+   ],
+   [
+    2025,
+    "Global economic impact of scuba dive tourism",
+    "https://doi.org/10.1016/j.crsus.2025.100435"
+   ],
+   [
+    2025,
+    "Boulder damage during monopile installation through strong clay: initiation and growth",
+    "https://doi.org/10.53243/isfog2025-226"
+   ],
+   [
+    2025,
+    "Application of a digital substation technology to offshore wind farms challenges and opportunities",
+    "https://doi.org/10.1049/icp.2025.0533"
+   ],
+   [
+    2025,
+    "Electrical modelling of a grid-connected battery energy storage system via EMS and BMS data",
+    "https://doi.org/10.1016/j.meaene.2025.100048"
+   ],
+   [
+    2025,
+    "Regression-Based Networked Virtual Buoy Model for Offshore Wave Height Prediction",
+    "https://doi.org/10.3390/jmse13040728"
+   ],
+   [
+    2025,
+    "Unit protection schemes for collector array cables in offshore wind farms",
+    "https://doi.org/10.1049/icp.2025.1085"
+   ],
+   [
+    2025,
+    "Cyber resilience in shipboard microgrids: adaptive hybrid artificial intelligent methods and systematic review",
+    "https://doi.org/10.1007/s00521-025-11090-z"
+   ],
+   [
+    2025,
+    "A decentralized control strategy for optimal operation of multi-sources in shipboard power systems",
+    "https://doi.org/10.1007/s00202-025-02990-3"
+   ],
+   [
+    2025,
+    "Assessing the Quality of Silty Sand Samples: A Case Study",
+    "https://doi.org/10.1007/978-981-96-3912-0_6"
+   ],
+   [
+    2025,
+    "Bounded Fuzzy Logic Control for Optimal Scheduling of Green Hydrogen Production and Revenue Maximisation",
+    "https://doi.org/10.2139/ssrn.5373188"
+   ],
+   [
+    2025,
+    "Enhanced Automated Condition Assessment of Induction Motor Bearings: A Novel Approach Using Matrix Pencil Mean Frequency Signal Processing and Multilayer Perceptron Neural Networks",
+    "https://doi.org/10.1049/elp2.70103"
+   ],
+   [
+    2024,
+    "Recursive Bayesian estimation of wind load on a monopile-supported offshore wind turbine using output-only measurements",
+    "https://doi.org/10.1016/j.ymssp.2024.112183"
+   ],
+   [
+    2024,
+    "A critical appraisal of 40 years of avian collision risk modelling: How have we got here and where do we go next?",
+    "https://doi.org/10.1016/j.eiar.2024.107717"
+   ],
+   [
+    2024,
+    "Enhancing wind turbine load response tool through geometric non-linearities correction: Case study on DEFlex and design load comparison",
+    "https://doi.org/10.1177/0309524x241280949"
+   ],
+   [
+    2024,
+    "OMARF: An Orchestrated Multi-Agent Resilience Framework for Autonomic Software-Defined Industrial Networks",
+    "https://doi.org/10.5281/zenodo.13732446"
+   ],
+   [
+    2024,
+    "Physics-informed neural networks for phase locked loop transient stability assessment",
+    "https://doi.org/10.1016/j.epsr.2024.110790"
+   ],
+   [
+    2024,
+    "Toward Next-Generation Smart Ports: A Case Study on Seaport Microgrids Customized for Islands",
+    "https://doi.org/10.1109/tia.2024.3425800"
+   ],
+   [
+    2024,
+    "Towards a Software-Defined Industrial IoT-Edge Network for Next-Generation Offshore Wind Farms: State of the Art, Resilience, and Self-X Network and Service Management",
+    "https://doi.org/10.3390/en17122897"
+   ],
+   [
+    2024,
+    "Review of grid code requirements for cost optimization of offshore energy hubs",
+    "https://doi.org/10.1049/icp.2024.1858"
+   ],
+   [
+    2024,
+    "Day-ahead trading of wind-battery hybrid power plants: wind forecast uncertainty and limited feed-in grid connection",
+    "https://doi.org/10.1049/icp.2024.1840"
+   ],
+   [
+    2024,
+    "Centralized frequency control of offshore hybrid power plant",
+    "https://doi.org/10.1049/icp.2024.1825"
+   ],
+   [
+    2024,
+    "Measurements and modelling of the wind speed profile in the induction zone of an offshore wind turbine",
+    "https://doi.org/10.1088/1742-6596/2767/9/092062"
+   ],
+   [
+    2024,
+    "Determination of annual energy production loss due to erosion on wind turbine blades",
+    "https://doi.org/10.1088/1742-6596/2767/2/022066"
+   ],
+   [
+    2024,
+    "Monopile installation in glauconitic sands",
+    "https://doi.org/10.3723/jbwl5180"
+   ],
+   [
+    2024,
+    "Offshore geotechnical site characterization of silty soils: a novel database",
+    "https://doi.org/10.3723/xegy3943"
+   ],
+   [
+    2024,
+    "Enhancement of the seafloor CPT - a solution to acquire improved in situ data earlier, faster and greener",
+    "https://doi.org/10.3723/mkcl3104"
+   ],
+   [
+    2024,
+    "Study of partial drainage effects in a natural silty deposit using variable rate CPTU testing",
+    "https://doi.org/10.3723/qowc6834"
+   ],
+   [
+    2024,
+    "The Piling in Glauconitic Sands (PIGS) JIP: Reducing Geotechnical Uncertainty for U.S. Offshore Wind Development",
+    "https://doi.org/10.4043/35483-ms"
+   ],
+   [
+    2024,
+    "Impact of grid connection requirements on protection systems in offshore wind farms",
+    "https://doi.org/10.1049/icp.2024.0988"
+   ],
+   [
+    2024,
+    "Impact of Synchronous Condensers’ Ratings on Mitigating Subsynchronous Oscillations in Wind Farms",
+    "https://doi.org/10.3390/en17071730"
+   ],
+   [
+    2024,
+    "A primer on predictive maintenance: Potential benefits and practical challenges",
+    "https://doi.org/10.1080/08982112.2024.2331140"
+   ],
+   [
+    2024,
+    "Enhanced complex wire fault diagnosis via integration of time domain reflectometry and particle swarm optimization with least square support vector machine",
+    "https://doi.org/10.1049/smt2.12187"
+   ],
+   [
+    2024,
+    "Condition monitoring of wind turbine faults: Modeling and savings",
+    "https://doi.org/10.1016/j.apm.2024.02.036"
+   ],
+   [
+    2024,
+    "Preserving non-negative porosity values in a bi-phase elasto-plastic material under Terzaghi’s effective stress principle",
+    "https://doi.org/10.1016/j.mechmat.2024.104958"
+   ],
+   [
+    2024,
+    "Foundations for the Future Power System: Inverter-Based Resource Interconnection Standards",
+    "https://doi.org/10.1109/mpe.2023.3341795"
+   ],
+   [
+    2024,
+    "Inverse modelling and classification of magnetic responses to improve marine unexploded ordnance rationalization",
+    "https://doi.org/10.1093/gji/ggad490"
+   ],
+   [
+    2024,
+    "Transient Stability Analysis of Grid-connected Converters in Wind Turbine Systems Based on Linear Lyapunov Function and Reverse-time Trajectory",
+    "https://doi.org/10.35833/mpce.2023.000190"
+   ],
+   [
+    2024,
+    "Experience of in situ geotechnical tests and their interpretation in organic soils and peat",
+    "https://doi.org/10.23967/isc.2024.182"
+   ],
+   [
+    2024,
+    "Relation Between Underwater Noise and Operating Offshore Wind Turbines",
+    "https://doi.org/10.1007/978-3-031-50256-9_66"
+   ],
+   [
+    2024,
+    "FWI of 2D UHR Seismic Data from an Offshore Wind Farm: Insights from a Feasibility Study",
+    "https://doi.org/10.3997/2214-4609.202421112"
+   ],
+   [
+    2024,
+    "3D Ground Model in Complex Back-Barrier Lagoon Setting for Offshore Wind Farm ECR Study",
+    "https://doi.org/10.3997/2214-4609.202421185"
+   ],
+   [
+    2024,
+    "Stability Analysis and Mitigation of Power Oscillations Between Parallel MMC-HVDC Connections Operating in Grid-Forming Mode in Offshore Energy Hubs",
+    "https://openalex.org/W4412217912"
+   ],
+   [
+    2024,
+    "WINDNA:eDNA based solutions for biodiversity monitoring at offshore wind farms",
+    "https://openalex.org/W4412223621"
+   ],
+   [
+    2024,
+    "Etablering af biogene rev, Hvorfor og hvordan gøres det?",
+    "https://openalex.org/W4412223655"
+   ],
+   [
+    2023,
+    "Wind Farm Blockage Revealed by Fog: The 2018 Horns Rev Photo Case",
+    "https://doi.org/10.3390/en16248014"
+   ],
+   [
+    2023,
+    "Nonlinear Stability Boundary Assessment of Multi-Converter Systems Based On Reverse Time Trajectory",
+    "https://doi.org/10.48550/arxiv.2311.15785"
+   ],
+   [
+    2023,
+    "Hybrid power plants with offshore wind, onshore PV, BESS and P2X technologies",
+    "https://doi.org/10.1049/icp.2023.2728"
+   ],
+   [
+    2023,
+    "Active filtering trial to reduce harmonic voltage distortion in an offshore wind power plant",
+    "https://doi.org/10.1049/icp.2023.2764"
+   ],
+   [
+    2023,
+    "Enhanced artificial intelligence technique for soft fault localization and identification in complex aircraft microgrids",
+    "https://doi.org/10.1016/j.engappai.2023.107289"
+   ],
+   [
+    2023,
+    "Benefits of Corrosion Monitoring for Offshore Wind Structures",
+    "https://doi.org/10.5006/mp2023_62_11-44"
+   ],
+   [
+    2023,
+    "One year monitoring of an offshore wind turbine: Variability of modal parameters to ambient and operational conditions",
+    "https://doi.org/10.1016/j.engstruct.2023.117022"
+   ],
+   [
+    2023,
+    "System identification and finite element model updating of a 6 MW offshore wind turbine using vibrational response measurements",
+    "https://doi.org/10.1016/j.renene.2023.119430"
+   ],
+   [
+    2023,
+    "Calibration of cone resistance in a sand with fines by means of model testing",
+    "https://doi.org/10.3723/gaiq1178"
+   ],
+   [
+    2023,
+    "A New Procedure for Measuring Shear Modulus Reduction in the Intermediate Strain Range",
+    "https://doi.org/10.3723/emhu1116"
+   ],
+   [
+    2023,
+    "Advanced Broadband Processing of UHRS Data to Enhance Seismic Interpretation - Insights From a Baltic Sea Offshore Windfarm",
+    "https://doi.org/10.3723/iqgg6293"
+   ],
+   [
+    2023,
+    "Statistical process control versus deep learning for power plant condition monitoring",
+    "https://doi.org/10.1016/j.compchemeng.2023.108391"
+   ],
+   [
+    2023,
+    "An Extended Nonlinear Stability Assessment Methodology For Type-4 Wind Turbines via Time Reversal Trajectory",
+    "https://doi.org/10.48550/arxiv.2307.11445"
+   ],
+   [
+    2023,
+    "Power System Restoration Services by Grid-Forming Offshore Wind Farms with Integrated Energy Storage",
+    "https://doi.org/10.1109/pesgm52003.2023.10253374"
+   ],
+   [
+    2023,
+    "Replacing silage with large amounts of concentrate and straw affects milk production, economics and climate differently in Holstein and Jersey Cows",
+    "https://doi.org/10.1016/j.livsci.2023.105293"
+   ],
+   [
+    2023,
+    "Testing and validation of travelling wave based fault detection and location method for offshore wind farm applications",
+    "https://doi.org/10.1016/j.egyr.2023.05.053"
+   ],
+   [
+    2023,
+    "Exercise Prescription for the Work–Life Population and Beyond",
+    "https://doi.org/10.3390/jfmk8020073"
+   ],
+   [
+    2023,
+    "Joint parameter-input estimation for digital twinning of the Block Island wind turbine using output-only measurements",
+    "https://doi.org/10.1016/j.ymssp.2023.110425"
+   ],
+   [
+    2023,
+    "Ash deposition and fine particle formation when utilizing biomass and coal fly ash in lab-, pilot- and full-scale",
+    "https://doi.org/10.1016/j.fuel.2023.128342"
+   ],
+   [
+    2023,
+    "A conservation law consistent updated Lagrangian material point method for dynamic analysis",
+    "https://doi.org/10.1016/j.jcp.2023.112075"
+   ],
+   [
+    2023,
+    "Energy losses during driving due to tapered section of monopile",
+    "https://doi.org/10.1016/j.oceaneng.2023.114184"
+   ],
+   [
+    2023,
+    "Experimental validation of reactive power capability of battery systems following the Danish Grid Code",
+    "https://doi.org/10.1049/icp.2023.1319"
+   ],
+   [
+    2023,
+    "Integrity Evaluation of Offshore Wind Structures Utilizing Complementary Monitoring Techniques",
+    "https://doi.org/10.5006/c2023-19292"
+   ],
+   [
+    2023,
+    "Benefits of Continuous Corrosion Monitoring for Offshore Wind Structures",
+    "https://doi.org/10.5006/c2023-19288"
+   ],
+   [
+    2023,
+    "META-DATA for IEA Wind Task 46. WP2: Atmospheric drivers of wind turbine blade leading edge erosion: Ancillary variables",
+    "https://doi.org/10.5281/zenodo.7734764"
+   ],
+   [
+    2023,
+    "Frequency and Voltage Compliance Capabilities of Grid-Forming Wind Turbines in Offshore Wind Farms in Weak AC Grids",
+    "https://doi.org/10.3390/electronics12051114"
+   ],
+   [
+    2023,
+    "Selective Harmonic Voltage Control for STATCOMs in Wind Power Plants",
+    "https://doi.org/10.1109/tpwrd.2023.3243137"
+   ],
+   [
+    2023,
+    "Passivity-based analysis and design for selective harmonic resonant control",
+    "https://doi.org/10.1049/icp.2022.2828"
+   ],
+   [
+    2023,
+    "Optimal sizing of battery energy storage to enable offshore wind farm black start operation",
+    "https://doi.org/10.1049/icp.2022.2759"
+   ],
+   [
+    2023,
+    "Non-linear stability boundary assessment of offshore wind power plants under large grid disturbances",
+    "https://doi.org/10.1049/icp.2022.2770"
+   ],
+   [
+    2023,
+    "Practical aspects of small-signal stability analysis and instability mitigation",
+    "https://doi.org/10.1049/icp.2022.2748"
+   ],
+   [
+    2023,
+    "Challenges and potential solutions of grid-forming converters applied to wind power generation system—An overview",
+    "https://doi.org/10.3389/fenrg.2023.1040781"
+   ],
+   [
+    2023,
+    "A correction method for large deflections of cantilever beams with a modal approach",
+    "https://doi.org/10.5194/wes-8-109-2023"
+   ],
+   [
+    2023,
+    "Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective",
+    "https://doi.org/10.1103/physreva.107.013706"
+   ],
+   [
+    2023,
+    "Integrating black start capabilities into offshore wind farms by grid‐forming batteries",
+    "https://doi.org/10.1049/rpg2.12667"
+   ],
+   [
+    2023,
+    "Relation Between Underwater Noise and Operating Offshore Wind Turbines",
+    "https://doi.org/10.1007/978-3-031-10417-6_66-1"
+   ],
+   [
+    2023,
+    "Wind Turbine and Battery Storage Interoperability to Provide Black Start by Offshore Wind",
+    "https://openalex.org/W4412342722"
+   ],
+   [
+    2022,
+    "Comment on wes-2022-58",
+    "https://doi.org/10.5194/wes-2022-58-ac1"
+   ],
+   [
+    2022,
+    "A Call for Standards in the CO2 Value Chain",
+    "https://doi.org/10.1021/acs.est.2c08119"
+   ]
+  ]
+ }
+}
