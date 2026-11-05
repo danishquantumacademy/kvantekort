@@ -89,7 +89,7 @@ studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6483,200,https://s
 studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6568,200,https://studieordninger.aau.dk/2026/56/6568,public
 studies.ku.dk,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,URLError,,error
 tidsskrift.dk,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,200,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,public
-uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=lmItQN0L1yWT%2BoZ7wU40FfPneDfa53Ey9vgqA%2BjoiqN6dinNMtk2j302PhLYpUCptttqJ6py6dJj4oJ3riIocJDaNvQilAgEBIP9VgSTjrTLCd1uFhNZxbie4S3KJBJlbUB0GRuTQ8o%2BCdrU75%2BpO785ltNGYK%2FhiPBL3NXRQW8A6jsTW5ELKH45oJGRIKVP9%2BlKI3W8XjZgfoPb6uGFGaNU834LfOxXo08GW5Yh%2FNon76MfDofQQoxrM2RqTVtNfW20R5WDYg9Lpk%2B1Hp3Xs4dzijPh5qst8NMvQtweL2APNpcjDi%2FqFhNhyt1bnDxwvleCqMfPeM2nXGWrolWRn0GWNwsycUdDEj9wU9zHZpkjph4AAAAB,public
+uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=0fdYBH8ZXLeAXzl7wU40FfPneDfa580CNscf4LOxH5Mylon2huvj%2FcdVrppwEJqPmUPDwPpS6OWLeSkRt4XM7j2Kjdqdr3W%2F0FoDmg6hAxb%2FXu6JVaE5LUkPMuabtAOHV8GdL%2F5oCg6QYFQWMijMJss8iUTULxZGRB8nCgtt8P46ZHvj7RYEBelQjJPN%2BuO7%2B%2BJNx6YE4Gwsaxx1zzqD050NxMZ%2F6x%2BN7bXNBtHV0tOSfytPQsWAtGPyZxC3Ql%2FZH%2BEAuhfC8PBJUBdvWFqFZy%2BBrlTQw0JbUN%2BzTOPMZpjldaKihMxQsF7fulvd5TrSIp0GOvKBfvNwv8AE9xXI3UIUoYVwYlPm%2B2V80H26bggzS1DLAAAAAQ%3D%3D,public
 uvm.dk,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,200,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,public
 uvm.dk,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,200,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,public
 uvm.dk,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,200,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,public
@@ -138,6 +138,8 @@ www.nanolab.dtu.dk,https://www.nanolab.dtu.dk/research/catalysis-and-operando-ch
 www.nanolab.dtu.dk,https://www.nanolab.dtu.dk/research/hyperdimensional-electron-nanoscopy,200,https://www.nanolab.dtu.dk/research/hyperdimensional-electron-nanoscopy,public
 www.nbi.ku.dk,http://www.nbi.ku.dk/,URLError,,error
 www.qmath.ku.dk,https://www.qmath.ku.dk/,URLError,,error
+www.quantummaterialsgroup.com,https://www.quantummaterialsgroup.com/,200,https://www.quantummaterialsgroup.com/,public
+www.quantummaterialsgroup.com,https://www.quantummaterialsgroup.com/highlights,200,https://www.quantummaterialsgroup.com/highlights,public
 www.sdu.dk,https://www.sdu.dk/en/forskning/polima/research/projects/polima-centre-for-polariton-driven-light-matter-interactions,200,https://www.sdu.dk/en/forskning/polima/research/projects/polima-centre-for-polariton-driven-light-matter-interactions,public
 www.sdu.dk,https://www.sdu.dk/form,200,https://www.sdu.dk/en/form,public
 www.sdu.dk,https://www.sdu.dk/en/cie,200,https://www.sdu.dk/en/cie,public
