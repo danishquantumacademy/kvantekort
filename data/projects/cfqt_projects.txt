@@ -282,3 +282,6 @@ OUT|Direct transport between superconducting subgap states in a double quantum d
 OUT|A quantum dot in germanium proximitized by a superconductor|4.2;4.5
 OUT|Origin of surface and subband states at the InAs(111)A surface|2.3
 OUT|Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates|-
+# Added 2026-11-05 for Magnetic Resonance by Optics (DTU), HQMD and Quantum Materials Group (AU).
+DeltaQT (with Niels Bohr Institute and University of Oslo)|4.2;2.3;3.2
+OUT|Direct Nanoscale Mapping of Band Alignment in Single-Layer Semiconducting Lateral Heterojunctions|2.3
