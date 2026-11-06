@@ -521,9 +521,259 @@ Bhavik Kumar	O	2024	preprint	Stabilizing Quantum Simulators Of Gauge Theories Ag
 Bhavik Kumar	O	2026	preprint	Solvable Quantum Circuits with non-Markovian Influence Matrices	https://doi.org/10.48550/arxiv.2607.25969
 Bhavik Kumar	O	2026	editorial	Scientific abstracts: Featured research at the 2026 Society of Family Planning Annual Meeting	https://doi.org/10.1016/j.contraception.2026.111596
 Rune Thinggaard Hansen	A				
-David Scholz	A				RATE-LIMITED
-Pietro Posta	A				RATE-LIMITED
-Vladyslav Visnevskyi	A				RATE-LIMITED
-Jakob Miller	A				RATE-LIMITED
-Maximilian Matzler	A				RATE-LIMITED
-Wanqi Li	A				RATE-LIMITED
+David Scholz	A				
+Pietro Posta	A				A5104431142
+Pietro Posta	O	2024	preprint	"Coordinating ""7 Billion Humans"" Is Hard"	https://doi.org/10.4230/lipics.fun.2024.26
+Pietro Posta	O	2026	preprint	Plethysm is in #BQP	https://doi.org/10.4230/lipics.ccc.2026.28
+Pietro Posta	O	2026	preprint	Quantum Fourier transform toolbox	https://doi.org/10.48550/arxiv.2608.28573
+Pietro Posta	O	2026	preprint	Optimal learning of covariant quantum states and channels	https://doi.org/10.48550/arxiv.2609.39280
+Pietro Posta	O	2026	preprint	The Compendium of Super-Quadratic Computational Quantum Advantages	https://doi.org/10.48550/arxiv.2610.32595
+Vladyslav Visnevskyi	A				A5128815682
+Vladyslav Visnevskyi	O	2026	preprint	Permutation-invariant codes: a numerical study and qudit constructions	https://doi.org/10.48550/arxiv.2603.10981
+Vladyslav Visnevskyi	O	2026	preprint	Permutation-invariant codes:a numerical study and qudit constructions	https://doi.org/10.48550/arxiv.2603.1098
+Vladyslav Visnevskyi	O	2026	preprint	Robustness of quantum spectrum estimation: weak Schur sampling under noisy inputs	https://doi.org/10.48550/arxiv.2610.03582
+Jakob Miller	A				A5128234808
+Jakob Miller	O	2026	preprint	Feedback-Induced Advantage in Quantum Clockworks	https://doi.org/10.48550/arxiv.2603.04556
+Maximilian Matzler	A				
+Wanqi Li	A				
+Charles Bennett	A				
+Tobias Colding	-				skipped: Affiliated member (MIT and KU Mathematics)
+Ivan Damgård	A				
+Karsten Flensberg	A				A5007831198
+Karsten Flensberg	O	2021	review	Engineered platforms for topological superconductivity and Majorana zero modes	https://doi.org/10.1038/s41578-021-00336-6
+Karsten Flensberg	O	2024	article	Majorana Qubits and Non-Abelian Physics in Quantum Dot–Based Minimal Kitaev Chains	https://doi.org/10.1103/prxquantum.5.010323
+Karsten Flensberg	O	2023	article	Phase Asymmetry of Andreev Spectra from Cooper-Pair Momentum	https://doi.org/10.1103/physrevlett.131.196301
+Karsten Flensberg	O	2021	article	Topological superconductivity in semiconductor–superconductor–magnetic-insulator heterostructures	https://doi.org/10.1103/physrevb.103.104508
+Karsten Flensberg	O	2023	article	Nonsinusoidal current-phase relations in semiconductor–superconductor– ferromagnetic insulator devices	https://doi.org/10.1103/physrevb.107.245415
+Karsten Flensberg	O	2022	article	Evidence for spin-polarized bound states in semiconductor–superconductor–ferromagnetic-insulator islands	https://doi.org/10.1103/physrevb.105.l041304
+Karsten Flensberg	O	2023	article	Control of Andreev Bound States Using Superconducting Phase Texture	https://doi.org/10.1103/physrevlett.130.116203
+Karsten Flensberg	O	2022	article	Semiconductor-ferromagnet-superconductor planar heterostructures for 1D topological superconductivity	https://doi.org/10.1038/s41535-022-00489-9
+Karsten Flensberg	O	2021	article	Three-phase Majorana zero modes at tiny magnetic fields	https://doi.org/10.1103/physrevb.103.l121116
+Karsten Flensberg	O	2024	article	Fermion-parity qubit in a proximitized double quantum dot	https://doi.org/10.1103/physrevresearch.6.023281
+Karsten Flensberg	O	2022	article	Readout of Parafermionic States by Transport Measurements	https://doi.org/10.1103/physrevlett.129.037703
+Karsten Flensberg	O	2022	article	Demonstrating Majorana non-Abelian properties using fast adiabatic charge transfer	https://doi.org/10.1103/physrevb.105.045425
+Karsten Flensberg	O	2025	article	Phase-controlled minimal Kitaev chain in multiterminal Josephson junctions	https://doi.org/10.1103/cr4b-4pvv
+Karsten Flensberg	O	2025	article	Signatures of exceptional points in multiterminal superconductor–normal metal junctions	https://doi.org/10.1103/dmfm-71l6
+Karsten Flensberg	O	2025	article	Superconducting proximity effect in two-dimensional hole gases	https://doi.org/10.1103/k4jh-pnxy
+Karsten Flensberg	O	2026	article	Non-Hermitian skin effect and electronic nonlocal transport	https://doi.org/10.1103/9jdy-b418
+Karsten Flensberg	O	2022	article	Multiterminal transport spectroscopy of subgap states in Coulomb-blockaded superconductors	https://doi.org/10.1103/physrevb.106.235425
+Karsten Flensberg	O	2023	article	Detecting Majorana modes by readout of poisoning-induced parity flips	https://doi.org/10.1103/physrevb.107.l121401
+Karsten Flensberg	O	2024	article	Fast universal control of a flux qubit via exponentially tunable wave-function overlap	https://doi.org/10.1103/physrevresearch.6.023064
+Karsten Flensberg	O	2025	article	Phase-Biased Andreev Diffraction Grating	https://doi.org/10.1103/d4kk-sgmh
+Karsten Flensberg	O	2025	article	From Kardar-Parisi-Zhang Scaling to Soliton Proliferation in Josephson Junction Arrays	https://doi.org/10.1103/y3j5-dknd
+Karsten Flensberg	O	2021	article	Multilevel effects in quantum dot based parity-to-charge conversion of Majorana box qubits	https://doi.org/10.1103/physrevb.103.245407
+Karsten Flensberg	O	2023	article	Resistivity Tensor of Vortex-Lattice States in Josephson Junction Arrays	https://doi.org/10.1103/physrevlett.131.206001
+Karsten Flensberg	O	2024	article	Non-Abelian Holonomy of Majorana Zero Modes Coupled to a Chaotic Quantum Dot	https://doi.org/10.1103/physrevlett.132.036604
+Karsten Flensberg	O	2026	article	Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit	https://doi.org/10.1103/fr7x-555s
+Karsten Flensberg	O	2026	article	Adiabatic non-Abelian braiding of imperfect Majorana bound states	https://doi.org/10.1103/3vcb-pxp6
+Karsten Flensberg	O	2023	article	Orbital-free approach for large-scale electrostatic simulations of quantum nanoelectronics devices	https://doi.org/10.1088/1361-6641/acbb9a
+Karsten Flensberg	O	2022	article	Conductance matrix symmetries of multiterminal semiconductor-superconductor devices	https://doi.org/10.1103/physrevb.106.104516
+Karsten Flensberg	O	2021	article	Charge-transfer based operations revealing non-abelian statistics of Majorana bound states	https://openalex.org/W3130443065
+Karsten Flensberg	O	2026	article	Directional conductance of Andreev crystals in hybrid Josephson junction arrays	https://doi.org/10.1103/zrt6-971d
+Karsten Flensberg	O	2026	preprint	Low-energy spectrum of double-junction superconducting circuits in the Born-Oppenheimer approximation	https://doi.org/10.48550/arxiv.2603.26374
+Karsten Flensberg	O	2026	dataset	Coherent control of spinmons	https://doi.org/10.5281/zenodo.20082243
+Karsten Flensberg	O	2026	preprint	Coherent control of spinmons	https://doi.org/10.48550/arxiv.2605.12588
+Karsten Flensberg	O	2026	preprint	Nonreciprocal conductance in uniformly dissipative devices	https://doi.org/10.48550/arxiv.2605.23725
+Karsten Flensberg	O	2026	article	Controlled parity of cooper pair tunneling in a hybrid superconducting qubit	https://doi.org/10.1038/s41467-026-76160-9
+Karsten Flensberg	O	2026	preprint	Fingerprints of unconventional pairing in superconductor-hole-gas heterostructures	https://doi.org/10.48550/arxiv.2609.40059
+Peter Harremoës	A				A5021606672
+Peter Harremoës	O	2024	article	Reverse Information Projections and Optimal E-Statistics	https://doi.org/10.1109/tit.2024.3444458
+Peter Harremoës	O	2021	article	Bounds on the information divergence for hypergeometric distributions	https://doi.org/10.14736/kyb-2020-6-1111
+Peter Harremoës	O	2023	article	Rate Distortion Theory for Descriptive Statistics	https://doi.org/10.3390/e25030456
+Peter Harremoës	O	2025	article	Probability via Expectation Measures	https://doi.org/10.3390/e27020102
+Peter Harremoës	O	2022	preprint	Unnormalized Measures in Information Theory	https://doi.org/10.48550/arxiv.2202.02668
+Peter Harremoës	O	2023	conference-paper	Universal Reverse Information Projections and Optimal E-statistics	https://doi.org/10.1109/isit54713.2023.10206494
+Peter Harremoës	O	2025	preprint	Three Improvements of Confidence Intervals	https://doi.org/10.20944/preprints202501.0330.v1
+Peter Harremoës	O	2025	preprint	Information Theory for Expectation Measures	https://doi.org/10.48550/arxiv.2501.17554
+Peter Harremoës	O	2025	article	Improper Priors via Expectation Measures	https://doi.org/10.3390/stats8040093
+Peter Harremoës	O	2026	conference-paper	An Information Theoretic Proof of the Radon-Nikodym Theorem	https://doi.org/10.1109/isit62367.2026.11653863
+Michael Kastoryano	A				A5111501271 A5132541664
+Michael Kastoryano	O	2025	book	Quantum Algorithms	https://doi.org/10.1017/9781009639651
+Michael Kastoryano	O	2025	article	Efficient quantum thermal simulation	https://doi.org/10.1038/s41586-025-09583-x
+Michael Kastoryano	O	2025	article	A little bit of self-correction	https://doi.org/10.22331/q-2025-08-04-1820
+Michael Kastoryano	O	2024	preprint	Quantum generalizations of Glauber and Metropolis dynamics	https://doi.org/10.48550/arxiv.2405.20322
+Michael Kastoryano	O	2025	preprint	Functional matrix product state simulation of continuous variable quantum circuits	https://doi.org/10.48550/arxiv.2504.05860
+Michael Kastoryano	O	2026	preprint	Subsystem self-correction of the GKP qubit	https://doi.org/10.48550/arxiv.2609.07702
+Michael Kastoryano	O	2026	article	Quantum-inspired workflow for processing distributed fiber-optic sensor data	https://doi.org/10.1038/s41598-026-42453-8
+Michael Kastoryano	O	2024	conference-paper	LoQT: Low-Rank Adapters for Quantized Pretraining	https://doi.org/10.52202/079017-3661
+Michael Kastoryano	O	2026	article	Fast and Flexible Quantum-Inspired Differential Equation Solvers with Data Integration	https://doi.org/10.3390/math14122069
+Michael Kastoryano	O	2025	preprint	Full grid solution for multi-asset options pricing with tensor networks	https://doi.org/10.48550/arxiv.2601.00009
+Michael Kastoryano	O	2026	preprint	A tensor-train multidimensional inverse Laplace transform	https://doi.org/10.48550/arxiv.2606.06093
+Michael Kastoryano	O	2026	preprint	COS-TT-CHF: A Tensor-Train Characteristic-Function COS Method for Multi-Asset Option Pricing	https://doi.org/10.48550/arxiv.2608.17636
+Michael Kastoryano	O	2026	preprint	Spectral Gap of the Hexagonal AKLT Model via Boundary-State Factorization	https://doi.org/10.48550/arxiv.2609.27993
+Michael Kastoryano	O	2026	preprint	Dealing with low-weight errors that lead BP OSD to fail	https://doi.org/10.48550/arxiv.2610.30305
+Magdalena Musat	A				A5000571938
+Magdalena Musat	O	2025	preprint	Entanglement in C$^*$-algebras: tensor products of state spaces	https://doi.org/10.48550/arxiv.2512.10410
+Magdalena Musat	O	2021	erratum	Correction to: Extreme Points and Factorizability for New Classes of Unital Quantum Channels	https://doi.org/10.1007/s00023-021-01083-8
+Magdalena Musat	O	2025	preprint	The Connes-Kirchberg Problem and infinite-dimensional phenomena in quantum information theory	https://doi.org/10.48550/arxiv.2512.00432
+Niels Martin Møller	A				A5027182758
+Niels Martin Møller	O	2022	article	Entropy bounds, compactness and finiteness theorems for embedded self-shrinkers with rotational symmetry	https://doi.org/10.1515/crelle-2022-0073
+Niels Martin Møller	O	2025	article	Rigidity and Non-existence Results for Collapsed Translators	https://doi.org/10.1093/imrn/rnaf076
+Niels Martin Møller	O	2022	preprint	Finite entropy translating solitons in slabs	https://doi.org/10.48550/arxiv.2209.01640
+Niels Martin Møller	O	2025	preprint	Uniqueness of tangent planes and (non-)removable singularities at infinity for collapsed translators	https://doi.org/10.48550/arxiv.2509.11473
+Niels Martin Møller	O	2021	article	Unge forskere: Der er behov for en bedre model til at støtte coronaforsinket forskning	https://openalex.org/W3180719688
+Niels Martin Møller	O	2021	other	17 forskere: Udflytning splitter selve universitetsuddannelsernes DNA	https://openalex.org/W3181108179
+Niels Martin Møller	O	2021	article	Forskningsfriheden i Danmark er under pres	https://openalex.org/W3208593184
+Niels Martin Møller	O	2021	article	Unge forskere: Fondsmidler trækker forskningen skæv	https://openalex.org/W3211422964
+Niels Martin Møller	O	2021	article	Unge forskere: Flere øremærkede forskningsmidler truer fri forskning	https://openalex.org/W3212344856
+Niels Martin Møller	O	2021	article	Unge forskere:Der er behov for en bedre model til at støtte coronaforsinket forskning	https://openalex.org/W7126738684
+Niels Martin Møller	O	2021	article	Flere øremærkede forskningsmidler truer fri forskning	https://openalex.org/W7126874862
+Niels Martin Møller	O	2021	other	17 forskere:Udflytning splitter selve universitetsuddannelsernes DNA	https://openalex.org/W7135547627
+Niels Martin Møller	O	2021	other	Unge forskere: Flere øremærkede forskningsmidler truer fri forskning	https://openalex.org/W7135966466
+Niels Martin Møller	O	2021	other	Unge forskere: Sæt forskningen fri fra BNP-målsætningen i 2021	https://openalex.org/W7139314602
+Niels Martin Møller	O	2026	preprint	Collapsed translating solitons with planar wings	https://doi.org/10.48550/arxiv.2610.31669
+Klaus Mølmer	A				A5113628834
+Klaus Mølmer	O	2022	article	Enhanced metrology at the critical point of a many-body Rydberg atomic system	https://doi.org/10.1038/s41567-022-01777-8
+Klaus Mølmer	O	2024	article	Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays	https://doi.org/10.1103/physrevx.14.011025
+Klaus Mølmer	O	2022	article	Cavity Quantum Electrodynamics Effects with Nitrogen Vacancy Center Spins Coupled to Room Temperature Microwave Resonators	https://doi.org/10.1103/physrevlett.128.253601
+Klaus Mølmer	O	2022	article	Photon-photon interactions in Rydberg-atom arrays	https://doi.org/10.22331/q-2022-03-30-674
+Klaus Mølmer	O	2021	article	Crowdsourcing human common sense for quantum control	https://doi.org/10.1103/physrevresearch.3.013057
+Klaus Mølmer	O	2022	article	Deterministic Photon Sorting in Waveguide QED Systems	https://doi.org/10.1103/physrevlett.128.213603
+Klaus Mølmer	O	2022	article	Manipulating synthetic gauge fluxes via multicolor dressing of Rydberg-atom arrays	https://doi.org/10.1103/physrevresearch.4.l032046
+Klaus Mølmer	O	2021	article	Ultranarrow Superradiant Lasing by Dark Atom-Photon Dressed States	https://doi.org/10.1103/physrevlett.126.123602
+Klaus Mølmer	O	2021	article	A superradiant maser with nitrogen-vacancy center spins	https://doi.org/10.1007/s11433-021-1780-6
+Klaus Mølmer	O	2021	article	Adiabatic theorem revisited: The unexpectedly good performance of adiabatic passage	https://doi.org/10.1103/physreva.103.062215
+Klaus Mølmer	O	2023	article	In situ amplification of spin echoes within a kinetic inductance parametric amplifier	https://doi.org/10.1126/sciadv.adg1593
+Klaus Mølmer	O	2022	article	Random-Access Quantum Memory Using Chirped Pulse Phase Encoding	https://doi.org/10.1103/physrevx.12.041014
+Klaus Mølmer	O	2024	article	Cavity-Mediated Collective Emission from Few Emitters in a Diamond Membrane	https://doi.org/10.1103/physrevx.14.041055
+Klaus Mølmer	O	2025	article	Concurrent spin squeezing and field tracking with machine learning	https://doi.org/10.1038/s41567-025-02855-3
+Klaus Mølmer	O	2025	article	Probing Hilbert space fragmentation with strongly interacting Rydberg atoms	https://doi.org/10.1103/physrevb.111.144313
+Klaus Mølmer	O	2022	article	Microwave mode cooling and cavity quantum electrodynamics effects at room temperature with optically cooled nitrogen-vacancy center spins	https://doi.org/10.1038/s41534-022-00642-z
+Klaus Mølmer	O	2024	article	Subtraction and Addition of Propagating Photons by Two-Level Emitters	https://doi.org/10.1103/physrevlett.133.103601
+Klaus Mølmer	O	2025	article	Boundary Time Crystals Induced by Local Dissipation and Long-Range Interactions	https://doi.org/10.1103/jhd4-1khw
+Klaus Mølmer	O	2024	article	Conditional Dynamics in Heterodyne Detection of Superradiant Lasing with Incoherently Pumped Atoms	https://doi.org/10.1103/physrevlett.133.073601
+Klaus Mølmer	O	2025	article	Generating Einstein-Podolsky-Rosen correlations for teleporting collective spin states in a two-dimensional trapped ion crystal	https://doi.org/10.1103/physrevresearch.7.l022019
+Klaus Mølmer	O	2022	article	Measuring out-of-time-ordered correlation functions without reversing time evolution	https://doi.org/10.1103/physreva.106.042429
+Klaus Mølmer	O	2021	article	Time-dependent atomic magnetometry with a recurrent neural network	https://doi.org/10.1103/physreva.103.032406
+Klaus Mølmer	O	2021	article	Radiation eigenmodes of Dicke superradiance	https://doi.org/10.1103/physreva.103.033713
+Klaus Mølmer	O	2022	article	Active Frequency Measurement on Superradiant Strontium Clock Transitions	https://doi.org/10.1103/physrevlett.128.013604
+Klaus Mølmer	O	2023	article	Creation of nonclassical states of light in a chiral waveguide	https://doi.org/10.1103/physreva.107.013717
+Klaus Mølmer	O	2023	article	Optical multiqubit gate operations on an excitation-blockaded atomic quantum register	https://doi.org/10.1103/physrevresearch.5.013205
+Klaus Mølmer	O	2023	article	Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective	https://doi.org/10.1103/physreva.107.013706
+Klaus Mølmer	O	2024	article	Censorship of quantum resources in quantum networks	https://doi.org/10.1103/physreva.110.062404
+Klaus Mølmer	O	2025	article	Efficient Preparation of Entangled States in Cavity QED with Grover’s Algorithm	https://doi.org/10.1103/3fzf-wsr2
+Klaus Mølmer	O	2023	article	Qubit readout and quantum sensing with pulses of quantum radiation	https://doi.org/10.1103/physreva.107.013705
+Klaus Mølmer	O	2023	article	Multimode character of quantum states released from a superconducting cavity	https://doi.org/10.1103/physrevresearch.5.043071
+Klaus Mølmer	O	2024	article	Theoretical study of superradiant masing with solid-state spins at room temperature	https://doi.org/10.1007/s11433-023-2347-0
+Klaus Mølmer	O	2025	article	Superradiance from nitrogen-vacancy centers coupled to an ultranarrow optical cavity	https://doi.org/10.1103/physreva.111.033711
+Klaus Mølmer	O	2024	article	Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conversion	https://doi.org/10.1103/physreva.110.023728
+Klaus Mølmer	O	2025	article	Unidirectional quantum-optical elements for waveguide-QED with subwavelength Rydberg-atom arrays in free space	https://doi.org/10.1364/opticaq.545710
+Klaus Mølmer	O	2021	article	Scattering of Matter Wave Solitons on Localized Potentials	https://doi.org/10.3390/app11052294
+Klaus Mølmer	O	2021	article	Guessing the outcome of separate and joint quantum measurements of noncommuting observables	https://doi.org/10.1103/physreva.104.022204
+Klaus Mølmer	O	2022	article	Free-Fermion Multiply Excited Eigenstates and Their Experimental Signatures in 1D Arrays of Two-Level Atoms	https://doi.org/10.1103/physrevlett.128.093602
+Klaus Mølmer	O	2021	article	Quantum estimation of a time-dependent perturbation	https://doi.org/10.1103/physreva.104.052621
+Klaus Mølmer	O	2023	article	Perfect splitting of a two-photon pulse	https://doi.org/10.1103/physreva.107.023715
+Klaus Mølmer	O	2021	article	Ancilla-mediated qubit readout and heralded entanglement between rare-earth dopant ions in crystals	https://doi.org/10.1103/physreva.103.043705
+Klaus Mølmer	O	2022	article	Quantum Nondemolition Measurements of Moving Target States	https://doi.org/10.1103/physrevlett.129.120402
+Klaus Mølmer	O	2024	article	Jaynes-Cummings interaction with a traveling light pulse	https://doi.org/10.1364/josab.523292
+Klaus Mølmer	O	2024	article	Parametric amplification of a quantum pulse	https://doi.org/10.1103/physreva.110.053712
+Klaus Mølmer	O	2025	article	Cooperative Squeezing of Internal and Collective Spins in an Atomic Ensemble	https://doi.org/10.1103/xkt1-y58b
+Klaus Mølmer	O	2025	article	Retrodiction of measurement outcomes on a single quantum system revealing entanglement with its environment	https://doi.org/10.1103/kfn4-1fx4
+Klaus Mølmer	O	2021	article	Collective emission of photons from dense, dipole-dipole interacting atomic ensembles	https://doi.org/10.1103/physreva.103.023703
+Klaus Mølmer	O	2023	article	Interaction of two Rydberg atoms in the vicinity of an optical nanofibre	https://doi.org/10.1088/1367-2630/acb83f
+Klaus Mølmer	O	2022	article	Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic preparation of spatially ordered states of Rydberg excitations	https://doi.org/10.1103/physreva.106.063302
+Klaus Mølmer	O	2025	article	Deterministic carving of quantum states with Grover's algorithm	https://doi.org/10.1103/s3vs-xz7w
+Klaus Mølmer	O	2024	article	Médaille d’or du CNRS Jean Dalibard : Avant-propos	https://doi.org/10.5802/crphys.175
+Klaus Mølmer	O	2025	article	Stochastic collective density-matrix approach for conditional spin squeezing	https://doi.org/10.1103/physreva.111.053715
+Klaus Mølmer	O	2022	article	Optical control of the complex phase of a quantum ground-state amplitude	https://doi.org/10.1103/physreva.105.062441
+Klaus Mølmer	O	2022	article	Single-shot determination of quantum phases via continuous measurements	https://doi.org/10.1103/physreva.106.032215
+Klaus Mølmer	O	2026	article	Complementary collective spin descriptions of superradiant Ramsey spectroscopy	https://doi.org/10.1103/nwhs-zwqn
+Klaus Mølmer	O	2022	article	Gaussian theory for estimating fluctuating perturbations with backaction-evading oscillator variables	https://doi.org/10.1103/physreva.106.022613
+Klaus Mølmer	O	2026	article	Censorship of quantum resources against quantum catalysis	https://doi.org/10.1103/w3rz-qtzv
+Klaus Mølmer	O	2025	article	Interactions in quantum networks with pulse propagation delays	https://doi.org/10.1103/3f3w-jmj8
+Klaus Mølmer	O	2026	article	Lieb-Mattis States for Robust Entangled Differential Phase Sensing	https://doi.org/10.1103/ksyh-mb4s
+Klaus Mølmer	O	2025	article	Enhanced Laser Cooling of a Mechanical Resonator via Zero-Photon Detection	https://doi.org/10.1103/physrevlett.134.073601
+Klaus Mølmer	O	2025	article	Theoretical framework for enhancing or enabling cooling of a mechanical resonator via the anti-Stokes or Stokes interaction and zero-photon detection	https://doi.org/10.1103/physreva.111.023516
+Klaus Mølmer	O	2023	article	Nonclassical radiation from a nonlinear oscillator driven solely by classical 1/f noise	https://doi.org/10.1103/physreva.108.053704
+Klaus Mølmer	O	2021	preprint	Roadmap for Rare-earth Quantum Computing	https://doi.org/10.48550/arxiv.2103.15743
+Klaus Mølmer	O	2024	editorial	Many-body entanglement via ‘which-path’ information	https://doi.org/10.1038/s41534-024-00899-6
+Klaus Mølmer	O	2023	preprint	Stochastic Mean-field Theory for Conditional Spin Squeezing by Homodyne Probing of Atom-Cavity Photon Dressed States	https://doi.org/10.48550/arxiv.2306.00868
+Klaus Mølmer	O	2023	dataset	Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays	https://doi.org/10.6084/m9.figshare.24903246
+Klaus Mølmer	O	2021	article	Random-access microwave quantum memory using chirped pulse phase encoding	https://openalex.org/W3131329191
+Klaus Mølmer	O	2021	conference-paper	Spin-squeezing by prediction and retrodiction measurements: beyond the Heisenberg uncertainty relation	https://doi.org/10.1117/12.2586729
+Klaus Mølmer	O	2021	other	More speed out of the quantum gate	https://doi.org/10.1038/s41567-021-01195-2
+Klaus Mølmer	O	2021	article	Work and heat in conventional and measurement powered quantum heat engines	https://openalex.org/W3190769305
+Klaus Mølmer	O	2022	other	Quasi-adiabatic preparation of antiferromagnetic-like state of Rydberg excitations of atoms in a lattice	https://doi.org/10.26226/m.6275706066d5dcf63a3117f8
+Klaus Mølmer	O	2022	preprint	Frequency Measurement with Superradiant Pulses of Incoherently Pumped Calcium Atoms: Role of Quantum Measurement Backaction	https://doi.org/10.48550/arxiv.2211.13068
+Klaus Mølmer	O	2022	conference-paper	Rydberg atoms in the vicinity of an optical nanofiber	https://doi.org/10.1051/epjconf/202226611013
+Klaus Mølmer	O	2023	conference-paper	Rydberg Atoms In the Vicinity of an Optical Nanofiber	https://doi.org/10.1364/oma.2023.aw1d.1
+Klaus Mølmer	O	2023	conference-paper	Rydberg Atoms In the Vicinity of an Optical Nanofiber	https://doi.org/10.1364/quantum.2023.qth2a.4
+Klaus Mølmer	O	2023	conference-paper	Parametric amplification of a quantum pulse	https://doi.org/10.1364/fio.2023.jtu5a.82
+Klaus Mølmer	O	2024	preprint	Exact Numerical Solution of Stochastic Master Equations for Conditional Spin Squeezing	https://doi.org/10.48550/arxiv.2402.02495
+Klaus Mølmer	O	2022	dataset	Dataset - In-situ amplification of spin echoes within a kinetic inductance parametric amplifier	https://doi.org/10.5281/zenodo.7596979
+Klaus Mølmer	O	2025	article	Stochastic Schrödinger equation for homodyne measurements of strongly correlated systems	https://doi.org/10.1088/1361-6455/ae0bd2
+Klaus Mølmer	O	2025	preprint	State-Based Quantum Simulation: Releasing the Powers of Quantum States and Copies	https://doi.org/10.48550/arxiv.2505.13901
+Klaus Mølmer	O	2025	preprint	Supercoherence: Harnessing Long-Range Interactions to Preserve Collective Coherence in Disordered Systems	https://doi.org/10.48550/arxiv.2508.06238
+Klaus Mølmer	O	2026	article	Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States	https://doi.org/10.1103/dtd2-4vpn
+Klaus Mølmer	O	2025	preprint	Blockade-induced exchange primitives for scalable neutral-atom QPU	https://doi.org/10.48550/arxiv.2511.22214
+Klaus Mølmer	O	2026	article	Proposal for room-temperature superradiant echoes induced by multiple re-phasing of frequency-grated NV spin sub-ensembles	https://doi.org/10.1007/s11433-025-2853-5
+Klaus Mølmer	O	2026	article	Entangling power of nonentangling channels	https://doi.org/10.1103/vy93-dnc8
+Klaus Mølmer	O	2026	article	Demonstrating optical control of complex phases in a trapped-ion qubit	https://doi.org/10.1038/s41534-026-01286-z
+Klaus Mølmer	O	2026	article	Optimal control for Rydberg multi-qubit operations	https://doi.org/10.1038/s41534-026-01288-x
+Klaus Mølmer	O	2021	article	Kvantemekanikkens fortolkninger	https://doi.org/10.7146/kvant.168236
+Klaus Mølmer	O	2026	preprint	Symmetry-resolved parent Hamiltonians for entangled bosonic cat resources	https://doi.org/10.48550/arxiv.2607.02997
+Klaus Mølmer	O	2026	preprint	Active Optical Frequency Measurements with Superradiance Prolonged by a Modulated Magnetic Field	https://doi.org/10.48550/arxiv.2607.17647
+Klaus Mølmer	O	2026	preprint	Input-Output Analysis of Quantum Dot SUPER Excitation	https://doi.org/10.48550/arxiv.2608.28470
+Klaus Mølmer	O	2026	dataset	Input-Output Analysis of Quantum Dot SUPER Excitation	https://doi.org/10.5281/zenodo.21932481
+Klaus Mølmer	O	2026	article	Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right	https://doi.org/10.1103/hnlr-hm29
+Klaus Mølmer	O	2026	preprint	Achieving the Quantum Limits with Twin-Field Sensors	https://doi.org/10.48550/arxiv.2609.07517
+Klaus Mølmer	O	2026	preprint	Measurement-induced dynamics and emergent symmetries of particles moving in a one-dimensional lattice	https://doi.org/10.48550/arxiv.2609.40026
+Klaus Mølmer	O	2026	article	Efficient description of parametric amplification of quantum pulses	https://doi.org/10.1103/lm14-kzlg
+Eugene Polzik	A				A5007480261
+Eugene Polzik	O	2024	review	Roadmap on nanoscale magnetic resonance imaging	https://doi.org/10.1088/1361-6528/ad4b23
+Eugene Polzik	O	2023	article	Entanglement-Enhanced Magnetic Induction Tomography	https://doi.org/10.1103/physrevlett.130.203602
+Eugene Polzik	O	2023	article	Phononically shielded photonic-crystal mirror membranes for cavity quantum optomechanics	https://doi.org/10.1364/oe.484369
+Eugene Polzik	O	2025	article	Hybrid quantum network for sensing in the acoustic frequency range	https://doi.org/10.1038/s41586-025-09224-3
+Eugene Polzik	O	2024	article	High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging	https://doi.org/10.1103/prxquantum.5.020320
+Eugene Polzik	O	2023	article	Acoustic frequency atomic spin oscillator in the quantum regime	https://doi.org/10.1038/s41467-023-42059-y
+Eugene Polzik	O	2023	article	Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line	https://doi.org/10.1103/physrevx.13.021036
+Eugene Polzik	O	2022	article	Two-colour high-purity Einstein-Podolsky-Rosen photonic state	https://doi.org/10.1038/s41467-022-32495-7
+Eugene Polzik	O	2024	article	Squeezed light from an oscillator measured at the rate of oscillation	https://doi.org/10.1038/s41467-024-47906-0
+Eugene Polzik	O	2024	article	Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator	https://doi.org/10.1103/physrevlett.133.173605
+Eugene Polzik	O	2021	article	Dissipative optomechanical coupling with a membrane outside of an optical cavity	https://doi.org/10.1103/physreva.103.063503
+Eugene Polzik	O	2024	article	Magnetic induction sensor based on a dual-frequency atomic magnetometer	https://doi.org/10.1103/physrevapplied.22.034030
+Eugene Polzik	O	2025	article	Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system	https://doi.org/10.1364/opticaq.551000
+Eugene Polzik	O	2022	article	Trajectories Without Quantum Uncertainties in Composite Systems with Disparate Energy Spectra	https://doi.org/10.1103/prxquantum.3.020362
+Eugene Polzik	O	2022	book-chapter	Small Animal Biomagnetism Applications	https://doi.org/10.1007/978-3-031-05363-4_3
+Eugene Polzik	O	2021	conference-paper	Single-Photon Source with Near-Millisecond Memory based on Room-Temperature Atomic Vapour	https://doi.org/10.1109/cleo/europe-eqec52157.2021.9542080
+Eugene Polzik	O	2021	preprint	Quantum-mechanics-free subspaces in composite systems with incompatible energy spectra.	https://openalex.org/W3208327518
+Eugene Polzik	O	2022	conference-paper	Two-color high-purity entanglement	https://doi.org/10.1364/cleo_at.2022.jw3b.131
+Eugene Polzik	O	2023	conference-paper	Quantum State Engineering of Macroscopic Oscillators	https://doi.org/10.1109/cleo/europe-eqec57999.2023.10232481
+Eugene Polzik	O	2024	article	Optimal optomechanical cavity setups with highly reflecting membranes	https://doi.org/10.1103/physreva.109.053514
+Eugene Polzik	O	2025	editorial	H. Jeffrey Kimble (1949–2024)	https://doi.org/10.1038/s41566-025-01628-x
+Eugene Polzik	O	2025	article	The future of quantum technology as seen from the EU, USA and Japan: experts’ vision over the next two decades	https://doi.org/10.1088/1361-6455/ae271a
+Eugene Polzik	O	2026	preprint	Entanglement-enhanced optical magnetometry beyond the standard quantum limit	https://doi.org/10.48550/arxiv.2608.06815
+Mark Rudner	A				A5055792056
+Mark Rudner	O	2021	article	Quasiperiodic Floquet-Thouless Energy Pump	https://doi.org/10.1103/physrevlett.127.166804
+Mark Rudner	O	2022	article	Quantum Plasmonic Nonreciprocity in Parity-Violating Magnets	https://doi.org/10.1021/acs.nanolett.2c03126
+Mark Rudner	O	2024	article	Programmable adiabatic demagnetization for systems with trivial and topological excitations	https://doi.org/10.22331/q-2024-10-23-1505
+Mark Rudner	O	2024	article	Light-Driven Spontaneous Phonon Chirality and Magnetization in Paramagnets	https://doi.org/10.1103/physrevlett.132.096702
+Mark Rudner	O	2022	article	Prethermalization and entanglement dynamics in interacting topological pumps	https://doi.org/10.1103/physrevb.105.195118
+Mark Rudner	O	2024	article	Conduction Band Replicas in a 2D Moiré Semiconductor Heterobilayer	https://doi.org/10.1021/acs.nanolett.3c04866
+Mark Rudner	O	2024	article	Inducing exceptional points, enhancing plasmon quality and creating correlated plasmon states with modulated Floquet parametric driving	https://doi.org/10.1038/s41467-024-53709-0
+Mark Rudner	O	2021	article	Hierarchy of many-body invariants and quantized magnetization in anomalous Floquet insulators	https://doi.org/10.21468/scipostphys.10.6.128
+Mark Rudner	O	2021	article	Spin-polarized superconductivity: Order parameter topology, current dissipation, and multiple-period Josephson effect	https://doi.org/10.1103/physrevresearch.3.013051
+Mark Rudner	O	2021	article	Electronic Floquet gyro-liquid crystal	https://doi.org/10.1038/s41467-021-25511-9
+Mark Rudner	O	2022	article	Anomalous random multipolar driven insulators	https://doi.org/10.1103/physrevb.105.245119
+Mark Rudner	O	2022	article	Vibronic Exciton–Phonon States in Stack-Engineered van der Waals Heterojunction Photodiodes	https://doi.org/10.1021/acs.nanolett.2c00944
+Mark Rudner	O	2024	article	Linear spectroscopy of collective modes and the gap structure in two-dimensional superconductors	https://doi.org/10.1103/physrevresearch.6.043170
+Mark Rudner	O	2025	article	Topological excitations at time vortices in periodically driven systems	https://doi.org/10.1038/s41535-025-00745-8
+Mark Rudner	O	2024	article	Universal transport in periodically driven systems without long-lived quasiparticles	https://doi.org/10.1103/physrevresearch.6.013094
+Mark Rudner	O	2024	article	Quantifying the accuracy of steady states obtained from the universal Lindblad equation	https://doi.org/10.1103/physrevb.109.205140
+Mark Rudner	O	2025	article	Gauged Cooling of Topological Excitations and Emergent Fermions on Quantum Simulators	https://doi.org/10.1103/physrevlett.134.086503
+Mark Rudner	O	2024	article	Achieving quantized transport in Floquet topological insulators via energy filters	https://doi.org/10.1103/physrevb.110.075428
+Mark Rudner	O	2024	article	Antiscreening and Nonequilibrium Layer Electric Phases in Graphene Multilayers	https://doi.org/10.1103/physrevlett.133.136901
+Mark Rudner	O	2026	article	Spin-deflection coupling in carbon nanotubes	https://doi.org/10.1103/gc6v-j95h
+Mark Rudner	O	2022	article	Proposal for realizing anomalous Floquet insulators via Chern band annihilation	https://doi.org/10.21468/scipostphys.12.4.124
+Mark Rudner	O	2022	article	Multistable excitonic Stark effect	https://doi.org/10.1103/physrevresearch.4.023168
+Mark Rudner	O	2022	article	Correlated insulating states in carbon nanotubes controlled by magnetic field	https://doi.org/10.1103/physrevb.106.235141
+Mark Rudner	O	2023	dataset	"Dataset underpinning: ""The Quantum Cartpole"""	https://doi.org/10.5281/zenodo.10036491
+Mark Rudner	O	2021	erratum	Erratum: Universal Lindblad equation for open quantum systems [Phys. Rev. B 102 , 115109 (2020)]	https://doi.org/10.1103/physrevb.104.119901
+Mark Rudner	O	2024	preprint	Light-cones in many-body open quantum systems with memory	https://doi.org/10.48550/arxiv.2410.15481
+Mark Rudner	O	2021	article	Multiple vibrational resonances and Franck-Condon palisades in the low temperature photocurrent spectrum of interlayer excitons	https://openalex.org/W3130679009
+Mark Rudner	O	2021	article	Revealing the strong coupling of atomic motion to interlayer excitons through photocurrent imaging at room temperature.	https://openalex.org/W3131372652
+Mark Rudner	O	2021	article	Contrasting lattice geometry dependent versus independent quantities and applications to cold atom experiments.	https://openalex.org/W3155670271
+Mark Rudner	O	2024	article	The quantum cartpole: A benchmark environment for non-linear reinforcement learning	https://doi.org/10.21468/scipostphyscore.7.2.026
+Mark Rudner	O	2025	article	Efficiently preparing chiral states via fermionic cooling on bosonic quantum hardware	https://doi.org/10.1038/s42005-025-02002-7
+Mark Rudner	O	2026	preprint	Self-organized Floquet band geometry in cavity-driven quantum materials	https://doi.org/10.48550/arxiv.2606.06579
+Mark Rudner	O	2026	preprint	Tunable Multiband Geometry and Fractional Phases in Higher Vortexable Systems	https://doi.org/10.48550/arxiv.2608.09911

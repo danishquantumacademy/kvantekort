@@ -1,52 +1,611 @@
 name	kind	year	type	title	path
-Marcus Albrechtsen	A				RATE-LIMITED
-Nils Overgaard Andersen	A				RATE-LIMITED
-Nikolaos Andrianopoulos	A				RATE-LIMITED
-Jean-Baptiste Sylvain Béguin	A				RATE-LIMITED
-Luuk Jan-Heimen van den Berg	A				RATE-LIMITED
-Tulio Brito Brasil	A				RATE-LIMITED
-Simon Bräuer	A				RATE-LIMITED
-Giulia Campagna	A				RATE-LIMITED
-Victor Rueskov Christiansen	A				RATE-LIMITED
-Etienne Fabien Corminboeuf	A				RATE-LIMITED
-Jan Dragasevic	A				RATE-LIMITED
-Ivan Galinskiy	A				RATE-LIMITED
-Francesco Gargiulo	A				RATE-LIMITED
-Simon Richard Goorney	A				RATE-LIMITED
-Christopher Charles A Gustin	A				RATE-LIMITED
-Marcus Gut	A				RATE-LIMITED
-Emil Rye Hellebek	A				RATE-LIMITED
-Clara Edith Henke	A				RATE-LIMITED
-Yinhui Kan	A				RATE-LIMITED
-Noah Oliver Kaufmann	A				RATE-LIMITED
-Nikolaos Kiigmas	A				RATE-LIMITED
-Leopold Konzett	A				RATE-LIMITED
-Mathias Linde Holst Korsgaard	A				RATE-LIMITED
-Nikolaj Aagaard Larsen	A				RATE-LIMITED
-Yaohua Li	A				RATE-LIMITED
-Stanislav Linchakovskyy	A				RATE-LIMITED
-Shikai Liu	A				RATE-LIMITED
-Peter Lodahl	A				RATE-LIMITED
-Aida Mashaal	A				RATE-LIMITED
-Leonardo Midolo	A				RATE-LIMITED
-Maiken Høgh Mikkelsen	A				RATE-LIMITED
-Mikkel Thorbjørn Mikkelsen	A				RATE-LIMITED
-Laurits Møberg	A				RATE-LIMITED
-Christoffer Bo Møller	A				RATE-LIMITED
-Klaus Mølmer	A				RATE-LIMITED
-Jörg Helge Müller	A				RATE-LIMITED
-Rasmus Bo Nielsen	A				RATE-LIMITED
-Joan Alba Pares	A				RATE-LIMITED
-Maria Ana de Matos Afonso Pereira	A				RATE-LIMITED
-Andrea Pertoldi	A				RATE-LIMITED
-Eugene Simon Polzik	A				RATE-LIMITED
-Clinton Alexander Potts	A				RATE-LIMITED
-Hanna Krystyna Salamon	A				RATE-LIMITED
-Bálint Sárközi	A				RATE-LIMITED
-Albert Schliesser	A				RATE-LIMITED
-Levin Maria Albert Seidt	A				RATE-LIMITED
-Jacob Friis Sherson	A				RATE-LIMITED
-Sophia Carmen Simon	A				RATE-LIMITED
+Marcus Albrechtsen	A				A5025562099
+Marcus Albrechtsen	O	2023	article	Observation of strong backscattering in valley-Hall photonic topological interface modes	https://doi.org/10.1038/s41566-023-01189-x
+Marcus Albrechtsen	O	2022	article	Nanometer-scale photon confinement in topology-optimized dielectric cavities	https://doi.org/10.1038/s41467-022-33874-w
+Marcus Albrechtsen	O	2022	article	Engineering nanoscale hypersonic phonon transport	https://doi.org/10.1038/s41565-022-01178-1
+Marcus Albrechtsen	O	2023	article	Cavity Optomechanics with Anderson-Localized Optical Modes	https://doi.org/10.1103/physrevlett.130.043802
+Marcus Albrechtsen	O	2022	article	Two regimes of confinement in photonic nanocavities: bulk confinement versus lightning rods	https://doi.org/10.1364/oe.448929
+Marcus Albrechtsen	O	2023	article	Optomechanical Generation of Coherent GHz Vibrations in a Phononic Waveguide	https://doi.org/10.1103/physrevlett.130.106903
+Marcus Albrechtsen	O	2023	article	Intermodulation of optical frequency combs in a multimode optomechanical system	https://doi.org/10.1103/physrevresearch.5.l032028
+Marcus Albrechtsen	O	2023	article	Multimode optomechanics with a two-dimensional optomechanical crystal	https://doi.org/10.1063/5.0170883
+Marcus Albrechtsen	O	2026	article	A quantum-coherent photon–emitter interface in the original telecom band	https://doi.org/10.1038/s41565-026-02156-7
+Marcus Albrechtsen	O	2023	article	Efficient low-reflection fully etched vertical free-space grating couplers for suspended silicon photonics	https://doi.org/10.1364/oe.485356
+Marcus Albrechtsen	O	2026	article	Electrostatic comb-drive actuators for nanoelectromechanical photonics: theory, design, fabrication, and characterization	https://doi.org/10.1088/1361-6528/ae3fa5
+Marcus Albrechtsen	O	2026	article	Electronic-photonic circuit crossings	https://doi.org/10.1364/oe.608644
+Marcus Albrechtsen	O	2025	article	Origins and Mitigation of Scattering-Related Propagation Losses in Suspended GaAs Waveguides for Quantum Photonic Integrated Circuits	https://doi.org/10.1109/jstqe.2025.3576388
+Marcus Albrechtsen	O	2025	article	Integration of a Ga As -based nanomechanical phase shifter with quantum-dot single-photon sources	https://doi.org/10.1103/y554-z6hg
+Marcus Albrechtsen	O	2023	conference-paper	Backscattering in Slow-Light Valley-Hall Photonic Topological Waveguides	https://doi.org/10.1109/cleo/europe-eqec57999.2023.10231356
+Marcus Albrechtsen	O	2025	preprint	Measurements, simulations, and models of the point-spread function of electron-beam lithography	https://doi.org/10.48550/arxiv.2506.21236
+Marcus Albrechtsen	O	2025	preprint	Controlling emitter-field coupling in waveguides with a nanomechanical phase shifter	https://doi.org/10.48550/arxiv.2503.01014
+Marcus Albrechtsen	O	2021	conference-paper	Brillouin Detection of a Complete GHz Mechanical Band Gap	https://doi.org/10.1364/cleo_si.2021.stu2h.6
+Marcus Albrechtsen	O	2021	conference-paper	Shot-filling effects in nanometer-scale electron-beam lithography	https://openalex.org/W3217788031
+Marcus Albrechtsen	O	2022	conference-paper	A cavity optomechanical platform for GHz phonon amplification via Anderson-localized optical modes	https://doi.org/10.1117/12.2632233
+Marcus Albrechtsen	O	2022	conference-paper	Direct Observation of Hypersonic Guided Modes	https://doi.org/10.1364/cleopr.2022.cthp12c_02
+Marcus Albrechtsen	O	2023	conference-paper	Measuring Propagation Loss in Slow-light Valley-Hall Photonic Topological Waveguides	https://doi.org/10.1364/cleo_at.2023.jtu2a.146
+Marcus Albrechtsen	O	2022	conference-paper	Direct Observation of Hypersonic Guided Modes	https://doi.org/10.1109/cleo-pr62338.2022.10432118
+Marcus Albrechtsen	O	2022	dataset	"Data files for the article ""Engineering nanoscale hypersonic phonon transport"""	https://doi.org/10.5281/zenodo.6610303
+Marcus Albrechtsen	O	2024	conference-paper	Nanomechanical Phase Shifting on a Gallium Arsenide Platform	https://doi.org/10.1007/978-3-031-63378-2_48
+Marcus Albrechtsen	O	2024	conference-paper	Efficient and deterministic InAs/GaAs quantum dot single-photon source emitting directly in the original telecommunications band (O-band)	https://doi.org/10.1364/fio.2024.fm5c.2
+Marcus Albrechtsen	O	2023	conference-paper	Interfacing free-space beams and suspended silicon photonic waveguides with a low back-reflection fully etched grating coupler	https://openalex.org/W4412230245
+Marcus Albrechtsen	O	2021	conference-paper	Measurements of attracting surface forces in nanoelectromechanical systems	https://openalex.org/W4412232063
+Marcus Albrechtsen	O	2022	conference-paper	Optical nonlinearities in photonic nanocavities with extreme sub-wavelength confinement	https://openalex.org/W4412286843
+Marcus Albrechtsen	O	2021	conference-paper	High-resolution etching of nanophotonic cavities using a chromium hard mask	https://openalex.org/W4412287497
+Marcus Albrechtsen	O	2022	conference-paper	Tailoring a nanometer-scale fabrication process for silicon photonics	https://openalex.org/W4412289086
+Marcus Albrechtsen	O	2022	conference-paper	Measuring propagation losses of edge modes in photonic topological insulators	https://openalex.org/W4412289882
+Marcus Albrechtsen	O	2026	dataset	A quantum-coherent photon-emitter interface in the original telecom band	https://doi.org/10.17894/ucph.bea2b48f-8c09-40f1-b867-aeb4a87958b8
+Marcus Albrechtsen	O	2026	conference-paper	Waveguide-integrated quantum-coherent single-photon source in the original telecom band	https://doi.org/10.1364/cleo_fs.2026.fw3a.3
+Marcus Albrechtsen	O	2026	conference-paper	Coherent forward intermodal scattering in ultra-low-loss multimode photonic waveguides	https://doi.org/10.1364/cleo_si.2026.sth4g.2
+Marcus Albrechtsen	O	2026	preprint	Real-Time Quantum Vacuum Control in a Photonic Integrated Circuit	https://doi.org/10.21203/rs.3.rs-10829906/v1
+Marcus Albrechtsen	O	2026	article	Quantum dots learn to speak telecom:40 million single photons per second at 1300 nm	https://openalex.org/W7220295174
+Nils Overgaard Andersen	A				A5013326040 A5042177353
+Nils Overgaard Andersen	O	2023	book-chapter	Orientation and Alignment in Atomic and Molecular Collisions	https://doi.org/10.1007/978-3-030-73893-8_48
+Nikolaos Andrianopoulos	A				
+Jean-Baptiste Sylvain Béguin	A				
+Luuk Jan-Heimen van den Berg	A				
+Tulio Brito Brasil	A				A5065585656
+Tulio Brito Brasil	O	2025	article	Hybrid quantum network for sensing in the acoustic frequency range	https://doi.org/10.1038/s41586-025-09224-3
+Tulio Brito Brasil	O	2023	article	Acoustic frequency atomic spin oscillator in the quantum regime	https://doi.org/10.1038/s41467-023-42059-y
+Tulio Brito Brasil	O	2022	article	Two-colour high-purity Einstein-Podolsky-Rosen photonic state	https://doi.org/10.1038/s41467-022-32495-7
+Tulio Brito Brasil	O	2021	dissertation	Emaranhamento multicor para conexão de sistemas quânticos	https://doi.org/10.11606/t.43.2021.tde-10062021-094717
+Tulio Brito Brasil	O	2022	conference-paper	Two-color high-purity entanglement	https://doi.org/10.1364/cleo_at.2022.jw3b.131
+Tulio Brito Brasil	O	2024	conference-paper	Multi-Color Continuous Variables Unconditional Quantum Teleportation: From Near-Infrared to Telecommunications’ L-Band	https://doi.org/10.1364/cleo_fs.2026.fth3d.7
+Tulio Brito Brasil	O	2025	conference-paper	Multi-Color Continuous Variables Unconditional Quantum Teleportation: From Near-Infrared to Telecommunications’ L-Band	https://doi.org/10.1364/cleo_fs.2025.ff116_1
+Tulio Brito Brasil	O	2026	preprint	Entanglement-enhanced optical magnetometry beyond the standard quantum limit	https://doi.org/10.48550/arxiv.2608.06815
+Simon Bräuer	A				A5153472755
+Simon Bräuer	O	2026	preprint	Witnesses of non-Gaussian features as lower bounds of stellar rank	https://doi.org/10.48550/arxiv.2603.03185
+Simon Bräuer	O	2026	preprint	Generalization of catability for parity-less cat states	https://doi.org/10.48550/arxiv.2606.22641
+Simon Bräuer	O	2026	preprint	Symmetry-resolved parent Hamiltonians for entangled bosonic cat resources	https://doi.org/10.48550/arxiv.2607.02997
+Giulia Campagna	A				
+Victor Rueskov Christiansen	A				
+Etienne Fabien Corminboeuf	A				
+Jan Dragasevic	A				A5014857574 A5122323246
+Jan Dragasevic	O	2026	preprint	The subthreshold issue of fusion-based quantum computing	https://doi.org/10.48550/arxiv.2606.28490
+Jan Dragasevic	O	2026	dataset	Viscous heat backflow and temperature resonances in extreme thermal conductors	https://doi.org/10.24435/materialscloud:qh-15
+Jan Dragasevic	O	2026	dataset	Viscous heat backflow and temperature resonances in extreme thermal conductors	https://doi.org/10.24435/materialscloud:n6-81
+Ivan Galinskiy	A				A5007129079
+Ivan Galinskiy	O	2024	article	Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator	https://doi.org/10.1103/physrevlett.133.173605
+Ivan Galinskiy	O	2024	conference-paper	Improving Frequency Noise of DFB Fiber Lasers by Acoustic Wave Suppression	https://doi.org/10.1364/cleo_si.2024.stu4d.5
+Ivan Galinskiy	O	2024	article	Resonant Acoustic Modes in DFB Fiber Lasers Characterized via Frequency Noise Measurements	https://doi.org/10.1109/jlt.2024.3509799
+Ivan Galinskiy	O	2024	conference-paper	Direct Measurement of Resonant Phonon Modes in Optical Fibers	https://openalex.org/W4412215393
+Francesco Gargiulo	A				
+Simon Richard Goorney	A				A5044750090
+Simon Richard Goorney	O	2024	article	The core of secondary level quantum education: a multi-stakeholder perspective	https://doi.org/10.1140/epjqt/s40507-024-00237-x
+Simon Richard Goorney	O	2023	article	Towards a quantum ready workforce: the updated European Competence Framework for Quantum Technologies	https://doi.org/10.3389/frqst.2023.1225733
+Simon Richard Goorney	O	2022	article	Culturo-Scientific Storytelling	https://doi.org/10.3390/educsci12070474
+Simon Richard Goorney	O	2024	article	The Quantum Technology Open Master: widening access to the quantum industry	https://doi.org/10.1140/epjqt/s40507-024-00217-1
+Simon Richard Goorney	O	2024	article	A framework for curriculum transformation in quantum information science and technology education	https://doi.org/10.1088/1361-6404/ad7e60
+Simon Richard Goorney	O	2024	article	Educating to the “Culture” of Quantum Technologies: A Survey Study on Concepts for Public Awareness	https://doi.org/10.20897/ejsteme/14193
+Simon Richard Goorney	O	2024	book-chapter	Contributions from Pilot Projects in Quantum Technology Education as Support Action to Quantum Flagship	https://doi.org/10.1007/978-3-031-72541-8_15
+Simon Richard Goorney	O	2025	article	Extending the European Competence Framework for Quantum Technologies: new proficiency triangle and qualification profiles	https://doi.org/10.1140/epjqt/s40507-024-00302-5
+Simon Richard Goorney	O	2025	article	Building Europe’s quantum technology education community	https://doi.org/10.1140/epjqt/s40507-025-00362-1
+Simon Richard Goorney	O	2023	article	The open master: A new model of transnational higher education	https://doi.org/10.1080/01587919.2023.2280064
+Simon Richard Goorney	O	2025	article	Expert perspectives on the future of quantum physics education at the secondary level	https://doi.org/10.1103/d1yx-kfsz
+Simon Richard Goorney	O	2024	book	The Ecosystem of Science Communication in the Post-Truth Era: Perspectives, Contexts, Dynamics	https://doi.org/10.51746/9789612972417
+Simon Richard Goorney	O	2026	article	The quantum technology job market: data driven analysis of 3641 job posts	https://doi.org/10.1140/epjqt/s40507-026-00477-z
+Simon Richard Goorney	O	2025	article	Quantum technology master’s: a shortcut to the quantum industry?	https://doi.org/10.1140/epjqt/s40507-024-00299-x
+Simon Richard Goorney	O	2026	article	Modelling quantum curriculum innovation: a pilot study	https://doi.org/10.1140/epjqt/s40507-026-00476-0
+Simon Richard Goorney	O	2026	conference-paper	National Quantum Strategies: a Data-Driven Approach to Understanding the Quantum Ecosystem	https://doi.org/10.1109/qcnc69040.2026.00157
+Simon Richard Goorney	O	2023	article	Modelling assisted tunneling on the Bloch sphere using the Quantum Composer	https://doi.org/10.1088/1361-6404/ad139a
+Simon Richard Goorney	O	2022	conference-paper	Cultural Storytellings in Quantum Science and Technology Education:Symposium: Contributions from Pilot Projects in Quantum Technology Education as Support Action to Quantum Flagship	https://openalex.org/W4412302654
+Simon Richard Goorney	O	2026	article	What makes a good quantum outreach video? An evaluation framework for a quantum video playlist	https://doi.org/10.1140/epjqt/s40507-025-00461-z
+Simon Richard Goorney	O	2025	other	Quantum Curriculum Innovation - Considerations and Examples	https://doi.org/10.5281/zenodo.17449587
+Simon Richard Goorney	O	2026	supplementary-materials	Modelling quantum curriculum innovation: a pilot study	https://doi.org/10.6084/m9.figshare.c.8307762
+Simon Richard Goorney	O	2026	article	Additional file 1 of Modelling quantum curriculum innovation: a pilot study	https://doi.org/10.6084/m9.figshare.31330137
+Simon Richard Goorney	O	2026	conference-paper	Art and Science with the Quantum Jungle for Secondary-School Education	https://doi.org/10.1088/1742-6596/3203/1/012030
+Simon Richard Goorney	O	2026	article	Resource Letter QIE-1: Research in quantum information education	https://doi.org/10.1119/5.0306510
+Christopher Charles A Gustin	A				
+Marcus Gut	A				
+Emil Rye Hellebek	A				A5095767165
+Emil Rye Hellebek	O	2024	article	Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conversion	https://doi.org/10.1103/physreva.110.023728
+Emil Rye Hellebek	O	2026	article	Hybrid single-ion atomic-ensemble node for high-rate remote entanglement generation	https://doi.org/10.1103/47zq-2h7t
+Emil Rye Hellebek	O	2026	article	Single- and double-click high-rate entanglement generation between distant ions using multiplexed atomic ensembles	https://doi.org/10.1103/27kc-fxpw
+Emil Rye Hellebek	O	2026	software	IonSPDCMultiplexing.jl	https://doi.org/10.17894/ucph.9b2ea2e6-f025-473c-9ef3-aae62d21cdd9
+Emil Rye Hellebek	O	2026	article	Quantum strategies to overcome classical multiplexing limits	https://doi.org/10.1103/dp67-q1xt
+Emil Rye Hellebek	O	2026	article	Single-click protocols for remote state preparation using weak coherent pulses	https://doi.org/10.1103/x1nr-qbz7
+Emil Rye Hellebek	O	2026	article	Impact of multimode sources on ensemble-based quantum repeaters	https://doi.org/10.1103/2pp6-tzx1
+Emil Rye Hellebek	O	2026	software	The impact of multimode sources on ensemble based quantum repeaters	https://doi.org/10.17894/ucph.dacabe2d-f80c-406f-9ce5-0a8acf873aa1
+Clara Edith Henke	A				
+Yinhui Kan	A				A5051738318
+Yinhui Kan	O	2022	article	Room-temperature on-chip orbital angular momentum single-photon sources	https://doi.org/10.1126/sciadv.abk3075
+Yinhui Kan	O	2023	article	Multiple channelling single-photon emission with scattering holography designed metasurfaces	https://doi.org/10.1038/s41467-023-42046-3
+Yinhui Kan	O	2023	article	On-chip generation of single-photon circularly polarized single-mode vortex beams	https://doi.org/10.1126/sciadv.adh0725
+Yinhui Kan	O	2023	article	Advances in Metaphotonics Empowered Single Photon Emission	https://doi.org/10.1002/adom.202202759
+Yinhui Kan	O	2023	article	Large Spontaneous Emission Enhancement with Silver Nanocube Dimers on Silver Substrates	https://doi.org/10.1002/qute.202300196
+Yinhui Kan	O	2025	article	On-Chip Emitter-Coupled Meta-Optics for Versatile Photon Sources	https://doi.org/10.1103/klq1-wjjg
+Yinhui Kan	O	2021	article	Generation of Radially Polarized Single Photons with Plasmonic Bullseye Antennas	https://doi.org/10.1021/acsphotonics.1c00459
+Yinhui Kan	O	2021	article	Fluorescence enhancement of a single germanium vacancy center in a nanodiamond by a plasmonic Bragg cavity	https://doi.org/10.1063/5.0033507
+Yinhui Kan	O	2023	article	Ultracompact Single‐Photon Sources of Linearly Polarized Vortex Beams	https://doi.org/10.1002/adma.202304495
+Yinhui Kan	O	2022	article	Molding Photon Emission with Hybrid Plasmon‐Emitter Coupled Metasurfaces	https://doi.org/10.1002/adom.202102697
+Yinhui Kan	O	2023	article	Multichannel Quantum Emission with On-Chip Emitter-Coupled Holographic Metasurfaces	https://doi.org/10.1021/acsnano.3c06309
+Yinhui Kan	O	2024	article	High-dimensional spin-orbital single-photon sources	https://doi.org/10.1126/sciadv.adq6298
+Yinhui Kan	O	2024	article	Off-Normal Polarized Single-Photon Emission with Anisotropic Holography Metasurfaces	https://doi.org/10.1021/acs.nanolett.4c03258
+Yinhui Kan	O	2025	article	Ångström-tunable polarization-resolved solid-state photon sources	https://doi.org/10.1038/s41566-025-01709-x
+Yinhui Kan	O	2026	article	Chip-integrated metasurface-enabled single-photon skyrmion sources	https://doi.org/10.1038/s41467-026-75516-5
+Yinhui Kan	O	2021	article	Near field radiative heat transfer in asymmetric three-grating systems	https://doi.org/10.1016/j.ijheatmasstransfer.2021.121124
+Yinhui Kan	O	2024	article	Tempering Multichannel Photon Emission from Emitter-Coupled Holographic Metasurfaces	https://doi.org/10.1021/acsphotonics.3c01745
+Yinhui Kan	O	2022	book	Metamaterials for Manipulation of Thermal Radiation and Photoluminescence in Near and Far Fields	https://doi.org/10.1007/978-981-19-6128-1
+Yinhui Kan	O	2025	article	Single‐Photon Emission into Arbitrary Polarization States with Emitter Integrated Anisotropic Metasurfaces	https://doi.org/10.1002/lpor.202401887
+Yinhui Kan	O	2025	article	Arbitrarily Structured Photoluminescence from Individual Nanodiamonds	https://doi.org/10.1021/acsnano.5c11875
+Yinhui Kan	O	2022	book-chapter	Design of Broadband Metamaterial Absorbers in Visible and Infrared Frequencies	https://doi.org/10.1007/978-981-19-6128-1_3
+Yinhui Kan	O	2022	book-chapter	Enhancement and Modulation of Near-Field Thermal Radiation	https://doi.org/10.1007/978-981-19-6128-1_4
+Yinhui Kan	O	2022	book-chapter	Introduction	https://doi.org/10.1007/978-981-19-6128-1_1
+Yinhui Kan	O	2022	book-chapter	On-Chip Control Excitations of Quantum Emitters in Hybrid Nanocircuits	https://doi.org/10.1007/978-981-19-6128-1_6
+Yinhui Kan	O	2022	book-chapter	Metasurfaces-Enabled Manipulation of Spontaneous Photon Emission	https://doi.org/10.1007/978-981-19-6128-1_5
+Yinhui Kan	O	2022	book-chapter	Theoretical and Experimental Methods	https://doi.org/10.1007/978-981-19-6128-1_2
+Yinhui Kan	O	2022	book-chapter	Summary and Outlook	https://doi.org/10.1007/978-981-19-6128-1_7
+Yinhui Kan	O	2022	conference-paper	On chip manipulation of surface plasmon polaritons excited by a deterministic quantum emitter	https://doi.org/10.1117/12.2621472
+Yinhui Kan	O	2024	article	Ultracompact Single‐Photon Sources of Linearly Polarized Vortex Beams (Adv. Mater. 4/2024)	https://doi.org/10.1002/adma.202470030
+Yinhui Kan	O	2024	conference-abstract	Ultracompact single-photon sources of highly polarized vortex beams based on emitter coupled metasurface	https://doi.org/10.1117/12.3016868
+Yinhui Kan	O	2024	conference-paper	Manipulation of photon emission with on-chip emitter-coupled holography metasurfaces	https://doi.org/10.1117/12.3016885
+Yinhui Kan	O	2024	conference-paper	Metasurface Mediated Single Photon Emission into Highly Entangled States	https://doi.org/10.1364/quantum.2024.qw3a.34
+Yinhui Kan	O	2025	erratum	Author Correction: Ångström-tunable polarization-resolved solid-state photon sources	https://doi.org/10.1038/s41566-025-01738-6
+Yinhui Kan	O	2025	conference-paper	High Dimensional Spin-Orbital Entangled states of Single Photons	https://doi.org/10.1364/quantum.2025.qth4b.6
+Yinhui Kan	O	2026	preprint	Integrated nanophotonic platform for on-chip quantum emitter interactions and entanglement	https://doi.org/10.48550/arxiv.2602.24090
+Yinhui Kan	O	2026	software	Chip-integrated metasurface-enabled single-photon skyrmion sources	https://doi.org/10.24433/co.2422745.v1
+Noah Oliver Kaufmann	A				
+Nikolaos Kiigmas	A				
+Leopold Konzett	A				
+Mathias Linde Holst Korsgaard	A				A5099055057
+Mathias Linde Holst Korsgaard	O	2021	article	First results from the NORTH tokamak	https://doi.org/10.1016/j.fusengdes.2021.112288
+Mathias Linde Holst Korsgaard	O	2024	article	Raman effects in quantum frequency conversion using Bragg scattering	https://doi.org/10.1103/physreva.110.033508
+Mathias Linde Holst Korsgaard	O	2025	conference-paper	Quantum state preserving frequency conversion using four-wave mixing in optical fibers: The impact of Raman scattering	https://doi.org/10.1109/icton67126.2025.11125181
+Nikolaj Aagaard Larsen	A				
+Yaohua Li	A				A5046725900 A5127043962
+Yaohua Li	O	2026	preprint	Achieving the Quantum Limits with Twin-Field Sensors	https://doi.org/10.48550/arxiv.2609.07517
+Yaohua Li	O	2026	preprint	Metastable confinement in Rydberg lattice gauge theories	https://doi.org/10.48550/arxiv.2602.22890
+Stanislav Linchakovskyy	A				
+Shikai Liu	A				A5037743706
+Shikai Liu	O	2023	article	A Metal‐Free Mesoporous Carbon Dots/Silica Hybrid Type I Photosensitizer with Enzyme‐Activity for Synergistic Treatment of Hypoxic Tumor	https://doi.org/10.1002/adfm.202300818
+Shikai Liu	O	2021	article	Europium Doped Silicon Quantum Dot As a Novel FRET Based Dual Detection Probe: Sensitive Detection of Tetracycline, Zinc, and Cadmium	https://doi.org/10.1002/smtd.202100812
+Shikai Liu	O	2024	article	Violation of Bell inequality by photon scattering on a two-level emitter	https://doi.org/10.1038/s41567-024-02543-8
+Shikai Liu	O	2022	article	Up-conversion detection of mid-infrared light carrying orbital angular momentum	https://doi.org/10.1088/1674-1056/ac6eda
+Shikai Liu	O	2021	article	Angular-spectrum-dependent interference	https://doi.org/10.1038/s41377-021-00661-z
+Shikai Liu	O	2021	article	Cavity-enhanced frequency doubling with a third-order quasi-phase-matched PPKTP crystal	https://doi.org/10.1364/josab.431219
+Shikai Liu	O	2021	article	Interference fringes in a nonlinear Michelson interferometer based on spontaneous parametric down-conversion	https://doi.org/10.1364/oe.437624
+Shikai Liu	O	2023	preprint	Generating single longitudinal mode entangled photons in telecom band via a submillimeter monolithic cavity	https://doi.org/10.48550/arxiv.1906.05104
+Shikai Liu	O	2026	preprint	A tunable chiral light–matter interface with on-chip spin control	https://doi.org/10.21203/rs.3.rs-10959137/v1
+Peter Lodahl	A				A5076820512
+Peter Lodahl	O	2021	review	Quantum-dot-based deterministic photon–emitter interfaces for scalable photonic quantum technology	https://doi.org/10.1038/s41565-021-00965-6
+Peter Lodahl	O	2023	article	Collective super- and subradiant dynamics between distant optical quantum emitters	https://doi.org/10.1126/science.ade9324
+Peter Lodahl	O	2022	article	Dynamical photon–photon interaction mediated by a quantum emitter	https://doi.org/10.1038/s41567-022-01720-x
+Peter Lodahl	O	2024	article	Quantum key distribution using deterministic single-photon sources over a field-installed fibre link	https://doi.org/10.1038/s41534-023-00800-x
+Peter Lodahl	O	2023	article	High-speed thin-film lithium niobate quantum processor driven by a solid-state quantum emitter	https://doi.org/10.1126/sciadv.adg7268
+Peter Lodahl	O	2022	article	Entangling a Hole Spin with a Time-Bin Photon: A Waveguide Approach for Quantum Dot Sources of Multiphoton Entanglement	https://doi.org/10.1103/physrevlett.128.233602
+Peter Lodahl	O	2022	article	A Pure and Indistinguishable Single‐Photon Source at Telecommunication Wavelength	https://doi.org/10.1002/qute.202200006
+Peter Lodahl	O	2022	article	Chiral quantum optics in broken-symmetry and topological photonic crystal waveguides	https://doi.org/10.1103/physrevresearch.4.023082
+Peter Lodahl	O	2024	article	Deterministic photon source of genuine three-qubit entanglement	https://doi.org/10.1038/s41467-024-52086-y
+Peter Lodahl	O	2021	article	Experimental Reconstruction of the Few-Photon Nonlinear Scattering Matrix from a Single Quantum Dot in a Nanophotonic Waveguide	https://doi.org/10.1103/physrevlett.126.023603
+Peter Lodahl	O	2022	article	High-fidelity multiphoton-entangled cluster state with solid-state quantum emitters in photonic nanostructures	https://doi.org/10.1103/physreva.105.l030601
+Peter Lodahl	O	2021	article	Coherent Spin-Photon Interface with Waveguide Induced Cycling Transitions	https://doi.org/10.1103/physrevlett.126.013602
+Peter Lodahl	O	2022	article	Deterministic Photon Sorting in Waveguide QED Systems	https://doi.org/10.1103/physrevlett.128.213603
+Peter Lodahl	O	2021	article	Fidelity of time-bin-entangled multiphoton states from a quantum emitter	https://doi.org/10.1103/physreva.104.052604
+Peter Lodahl	O	2022	article	A deterministic source of single photons	https://doi.org/10.1063/pt.3.4962
+Peter Lodahl	O	2022	article	Wafer-scale epitaxial modulation of quantum dot density	https://doi.org/10.1038/s41467-022-29116-8
+Peter Lodahl	O	2023	article	Independent Operation of Two Waveguide-Integrated Quantum Emitters	https://doi.org/10.1103/physrevapplied.19.l061003
+Peter Lodahl	O	2023	article	Deterministic photon source interfaced with a programmable silicon-nitride integrated circuit	https://doi.org/10.1038/s41534-023-00761-1
+Peter Lodahl	O	2022	article	On-Demand Source of Dual-Rail Photon Pairs Based on Chiral Interaction in a Nanophotonic Waveguide	https://doi.org/10.1103/prxquantum.3.020363
+Peter Lodahl	O	2023	article	On-chip spin-photon entanglement based on photon-scattering of a quantum dot	https://doi.org/10.1038/s41534-023-00717-5
+Peter Lodahl	O	2024	article	Violation of Bell inequality by photon scattering on a two-level emitter	https://doi.org/10.1038/s41567-024-02543-8
+Peter Lodahl	O	2023	article	Independent Electrical Control of Two Quantum Dots Coupled through a Photonic-Crystal Waveguide	https://doi.org/10.1103/physrevlett.131.033606
+Peter Lodahl	O	2022	article	Integration of GaAs waveguides on a silicon substrate for quantum photonic circuits	https://doi.org/10.1364/oe.467920
+Peter Lodahl	O	2024	article	Waveguide Quantum Electrodynamics	https://doi.org/10.1364/opn.35.1.000034
+Peter Lodahl	O	2025	article	Temporal fusion of entangled resource states from a quantum emitter	https://doi.org/10.1038/s41467-025-62130-0
+Peter Lodahl	O	2022	article	Violation of Bell's inequality with quantum-dot single-photon sources	https://doi.org/10.1103/physreva.106.012222
+Peter Lodahl	O	2024	article	Direct observation of a few-photon phase shift induced by a single quantum emitter in a waveguide	https://doi.org/10.1038/s41467-024-51805-9
+Peter Lodahl	O	2024	article	A single-photon emitter coupled to a phononic-crystal resonator in the resolved-sideband regime	https://doi.org/10.1038/s41467-024-53882-2
+Peter Lodahl	O	2024	article	Purifying Photon Indistinguishability through Quantum Interference	https://doi.org/10.1103/physrevlett.133.033604
+Peter Lodahl	O	2025	article	Programmable nonlinear quantum photonic circuits	https://doi.org/10.1038/s41467-025-66205-w
+Peter Lodahl	O	2026	article	Practical blueprint for low-depth photonic quantum computing with quantum dots	https://doi.org/10.1038/s41534-026-01258-3
+Peter Lodahl	O	2026	article	A quantum-coherent photon–emitter interface in the original telecom band	https://doi.org/10.1038/s41565-026-02156-7
+Peter Lodahl	O	2026	article	Deterministic quantum dot single-photon sources: Operational principles and state-of-the-art specifications	https://doi.org/10.1063/5.0316046
+Peter Lodahl	O	2025	article	Resonant energy transfer and collectively driven emitters in waveguide QED	https://doi.org/10.1103/mrll-mbwd
+Peter Lodahl	O	2021	article	Integrated Whispering-Gallery-Mode Resonator for Solid-State Coherent Quantum Photonics	https://doi.org/10.1021/acs.nanolett.1c02818
+Peter Lodahl	O	2022	article	Subradiant states for two imperfect quantum emitters coupled by a nanophotonic waveguide	https://doi.org/10.1103/physreva.106.053702
+Peter Lodahl	O	2022	article	Quantum state transfer between a frequency-encoded photonic qubit and a quantum-dot spin in a nanophotonic waveguide	https://doi.org/10.1103/physreva.105.062445
+Peter Lodahl	O	2024	article	Quantum dot coupled to a suspended-beam mechanical resonator: From the unresolved- to the resolved-sideband regime	https://doi.org/10.1103/physrevapplied.21.034046
+Peter Lodahl	O	2021	article	Electroabsorption in gated GaAs nanophotonic waveguides	https://doi.org/10.1063/5.0039373
+Peter Lodahl	O	2022	article	In-plane resonant excitation of quantum dots in a dual-mode photonic-crystal waveguide with high β-factor	https://doi.org/10.1088/2058-9565/ac5918
+Peter Lodahl	O	2024	article	Hardware requirements for realizing a quantum advantage with deterministic single-photon sources	https://doi.org/10.1103/physreva.109.042613
+Peter Lodahl	O	2023	article	Entanglement properties of a quantum-dot biexciton cascade in a chiral nanophotonic waveguide	https://doi.org/10.1103/physreva.108.013507
+Peter Lodahl	O	2025	article	Tunable quantum frequency conversion enabled by intermodal nonlinearity in optical fiber	https://doi.org/10.1364/opticaq.573689
+Peter Lodahl	O	2024	conference-paper	Programmable Photonic Nonlinearity for Quantum Simulation	https://doi.org/10.1109/acp/ipoc63121.2024.10809484
+Peter Lodahl	O	2026	article	Quantum Non-Gaussianity Criterion Based on Photon Correlations g ( 2 ) and g ( 3 )	https://doi.org/10.1103/1t2q-qm97
+Peter Lodahl	O	2026	article	Directional and correlated optical emission from a waveguide-engineered molecule with local control	https://doi.org/10.1103/v1r7-lr89
+Peter Lodahl	O	2023	conference-paper	Super- and subradiant quantum dynamics between pairs of solid-state optical emitters	https://doi.org/10.1364/cleo_fs.2023.fm2a.5
+Peter Lodahl	O	2021	conference-paper	Single-Photon Radiative Auger Emission from a Quantum Dot	https://doi.org/10.1364/cleo_qels.2021.fw2q.7
+Peter Lodahl	O	2021	erratum	Erratum: One-Way Quantum Repeater Based on Near-Deterministic Photon-Emitter Interfaces [Phys. Rev. X 10 , 021071 (2020)]	https://doi.org/10.1103/physrevx.11.029903
+Peter Lodahl	O	2025	preprint	Contextuality-based quantum key distribution with deterministic single-photon sources	https://doi.org/10.48550/arxiv.2510.12761
+Peter Lodahl	O	2022	conference-paper	Quantum Interference between Integrated and Independently Controlled Quantum Dots	https://doi.org/10.1364/cleo_qels.2022.fw5f.1
+Peter Lodahl	O	2022	conference-paper	Reconfigurable Lithium Niobate nanophotonic circuits for quantum information processing with InAs/GaAs Quantum Dot single-photon sources	https://doi.org/10.1364/cleo_qels.2022.ff4j.2
+Peter Lodahl	O	2022	conference-paper	Integration of GaAs waveguides with quantum dots on Silicon substrates for quantum photonic circuits	https://doi.org/10.1364/cleo_qels.2022.ff4j.6
+Peter Lodahl	O	2022	erratum	Publisher Correction: Dynamical photon–photon interaction mediated by a quantum emitter	https://doi.org/10.1038/s41567-022-01823-5
+Peter Lodahl	O	2022	conference-paper	Quantum Key Distribution using True On-demand Single Photons over a Field-Installed Fiber Link	https://doi.org/10.1109/ipc53466.2022.9975619
+Peter Lodahl	O	2022	conference-paper	Scalable Quantum Dot Single-photon Sources Based on Dual-mode Waveguides	https://doi.org/10.1364/cleopr.2022.ctua7a_02
+Peter Lodahl	O	2022	conference-paper	Novel dual-mode photonic crystal waveguide for stable resonant excitation of quantum dots with high β-factor	https://doi.org/10.1364/cleopr.2022.cfp8i_06
+Peter Lodahl	O	2023	conference-paper	Quantum-Dot Single-Photon Sources Processed on Silicon-Nitride Integrated Circuits	https://doi.org/10.1364/cleo_fs.2023.fth4j.4
+Peter Lodahl	O	2023	conference-paper	Processing single-photons from a quantum dot using high-speed integrated photonic circuits on the thin film lithium-niobate-on-insulator platform	https://doi.org/10.1364/cleo_si.2023.sth1r.2
+Peter Lodahl	O	2022	conference-paper	Novel Dual-Mode Photonic Crystal Waveguide for Stable Resonant Excitation of Quantum Dots with High $\beta-\text{factor}$	https://doi.org/10.1109/cleo-pr62338.2022.10431992
+Peter Lodahl	O	2022	conference-paper	Scalable Quantum Dot Single-Photon Sources Based on Dual-Mode Waveguides	https://doi.org/10.1109/cleo-pr62338.2022.10432401
+Peter Lodahl	O	2024	conference-paper	Efficient and deterministic InAs/GaAs quantum dot single-photon source emitting directly in the original telecommunications band (O-band)	https://doi.org/10.1364/fio.2024.fm5c.2
+Peter Lodahl	O	2025	erratum	Author Correction: A single-photon emitter coupled to a phononic-crystal resonator in the resolved-sideband regime	https://doi.org/10.1038/s41467-025-57869-5
+Peter Lodahl	O	2026	preprint	Photon Sorting with a Quantum Emitter	https://doi.org/10.48550/arxiv.2604.21758
+Peter Lodahl	O	2026	preprint	Testing a continuous-variable noncontextuality inequality with a hybrid-encoded system	https://doi.org/10.48550/arxiv.2604.25901
+Peter Lodahl	O	2026	preprint	Realization of waveguide many-body quantum optics	https://doi.org/10.48550/arxiv.2605.18525
+Peter Lodahl	O	2023	article	En kvantecomputer baseret på lys	https://doi.org/10.7146/kvant.167880
+Peter Lodahl	O	2021	article	På tærsklen til en ny kvanteteknologisk revolution	https://doi.org/10.7146/kvant.168234
+Peter Lodahl	O	2026	preprint	Hybrid quantum-classical de novo design of MHC-binding peptides	https://doi.org/10.64898/2026.07.09.736951
+Peter Lodahl	O	2026	conference-paper	Strong Three-Photon Correlations from Coupled Quantum Emitters	https://doi.org/10.1364/cleo_fs.2026.fth4a.5
+Peter Lodahl	O	2026	conference-paper	Photon Sorting with a Quantum Emitter	https://doi.org/10.1364/cleo_fs.2026.fw2c.1
+Peter Lodahl	O	2026	conference-paper	Waveguide-integrated quantum-coherent single-photon source in the original telecom band	https://doi.org/10.1364/cleo_fs.2026.fw3a.3
+Peter Lodahl	O	2026	preprint	Purification of photonic graph states	https://doi.org/10.48550/arxiv.2609.01710
+Peter Lodahl	O	2026	preprint	A photonic source with half-a-GHz single-photon flux	https://doi.org/10.48550/arxiv.2609.05387
+Peter Lodahl	O	2026	preprint	A tunable chiral light–matter interface with on-chip spin control	https://doi.org/10.21203/rs.3.rs-10959137/v1
+Peter Lodahl	O	2026	preprint	A programmable quantum photonic platform integrating coherent emitters	https://doi.org/10.48550/arxiv.2610.06451
+Peter Lodahl	O	2026	other	Forskningsledere: Danmark skal investere i grundforskning, der skaber fremtidens gennembrud	https://openalex.org/W7225132611
+Aida Mashaal	A				A5094087303
+Aida Mashaal	O	2025	article	Strong thermomechanical noise squeezing stabilized by feedback	https://doi.org/10.1103/physrevresearch.7.l012071
+Leonardo Midolo	A				A5077766235
+Leonardo Midolo	O	2021	review	Quantum-dot-based deterministic photon–emitter interfaces for scalable photonic quantum technology	https://doi.org/10.1038/s41565-021-00965-6
+Leonardo Midolo	O	2023	article	Collective super- and subradiant dynamics between distant optical quantum emitters	https://doi.org/10.1126/science.ade9324
+Leonardo Midolo	O	2022	article	Dynamical photon–photon interaction mediated by a quantum emitter	https://doi.org/10.1038/s41567-022-01720-x
+Leonardo Midolo	O	2024	article	Quantum key distribution using deterministic single-photon sources over a field-installed fibre link	https://doi.org/10.1038/s41534-023-00800-x
+Leonardo Midolo	O	2023	article	High-speed thin-film lithium niobate quantum processor driven by a solid-state quantum emitter	https://doi.org/10.1126/sciadv.adg7268
+Leonardo Midolo	O	2022	article	Entangling a Hole Spin with a Time-Bin Photon: A Waveguide Approach for Quantum Dot Sources of Multiphoton Entanglement	https://doi.org/10.1103/physrevlett.128.233602
+Leonardo Midolo	O	2022	article	A Pure and Indistinguishable Single‐Photon Source at Telecommunication Wavelength	https://doi.org/10.1002/qute.202200006
+Leonardo Midolo	O	2024	article	Deterministic photon source of genuine three-qubit entanglement	https://doi.org/10.1038/s41467-024-52086-y
+Leonardo Midolo	O	2024	article	Noise Performance of On‐Chip Nano‐Mechanical Switches for Quantum Photonics Applications	https://doi.org/10.1002/qute.202400012
+Leonardo Midolo	O	2022	article	Wafer-scale epitaxial modulation of quantum dot density	https://doi.org/10.1038/s41467-022-29116-8
+Leonardo Midolo	O	2023	article	Independent Operation of Two Waveguide-Integrated Quantum Emitters	https://doi.org/10.1103/physrevapplied.19.l061003
+Leonardo Midolo	O	2023	article	Deterministic photon source interfaced with a programmable silicon-nitride integrated circuit	https://doi.org/10.1038/s41534-023-00761-1
+Leonardo Midolo	O	2022	article	On-Demand Source of Dual-Rail Photon Pairs Based on Chiral Interaction in a Nanophotonic Waveguide	https://doi.org/10.1103/prxquantum.3.020363
+Leonardo Midolo	O	2023	article	On-chip spin-photon entanglement based on photon-scattering of a quantum dot	https://doi.org/10.1038/s41534-023-00717-5
+Leonardo Midolo	O	2024	article	Violation of Bell inequality by photon scattering on a two-level emitter	https://doi.org/10.1038/s41567-024-02543-8
+Leonardo Midolo	O	2023	article	Independent Electrical Control of Two Quantum Dots Coupled through a Photonic-Crystal Waveguide	https://doi.org/10.1103/physrevlett.131.033606
+Leonardo Midolo	O	2022	article	Integration of GaAs waveguides on a silicon substrate for quantum photonic circuits	https://doi.org/10.1364/oe.467920
+Leonardo Midolo	O	2025	article	Temporal fusion of entangled resource states from a quantum emitter	https://doi.org/10.1038/s41467-025-62130-0
+Leonardo Midolo	O	2024	article	Direct observation of a few-photon phase shift induced by a single quantum emitter in a waveguide	https://doi.org/10.1038/s41467-024-51805-9
+Leonardo Midolo	O	2024	article	A single-photon emitter coupled to a phononic-crystal resonator in the resolved-sideband regime	https://doi.org/10.1038/s41467-024-53882-2
+Leonardo Midolo	O	2025	article	Programmable nonlinear quantum photonic circuits	https://doi.org/10.1038/s41467-025-66205-w
+Leonardo Midolo	O	2026	article	A quantum-coherent photon–emitter interface in the original telecom band	https://doi.org/10.1038/s41565-026-02156-7
+Leonardo Midolo	O	2021	article	Integrated Whispering-Gallery-Mode Resonator for Solid-State Coherent Quantum Photonics	https://doi.org/10.1021/acs.nanolett.1c02818
+Leonardo Midolo	O	2024	article	Quantum dot coupled to a suspended-beam mechanical resonator: From the unresolved- to the resolved-sideband regime	https://doi.org/10.1103/physrevapplied.21.034046
+Leonardo Midolo	O	2023	article	Curved GaAs cantilever waveguides for the vertical coupling to photonic integrated circuits	https://doi.org/10.1364/oe.510799
+Leonardo Midolo	O	2025	article	Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation	https://doi.org/10.1021/acs.nanolett.5c04044
+Leonardo Midolo	O	2021	article	Electroabsorption in gated GaAs nanophotonic waveguides	https://doi.org/10.1063/5.0039373
+Leonardo Midolo	O	2022	article	In-plane resonant excitation of quantum dots in a dual-mode photonic-crystal waveguide with high β-factor	https://doi.org/10.1088/2058-9565/ac5918
+Leonardo Midolo	O	2024	conference-paper	Programmable Photonic Nonlinearity for Quantum Simulation	https://doi.org/10.1109/acp/ipoc63121.2024.10809484
+Leonardo Midolo	O	2025	article	Origins and Mitigation of Scattering-Related Propagation Losses in Suspended GaAs Waveguides for Quantum Photonic Integrated Circuits	https://doi.org/10.1109/jstqe.2025.3576388
+Leonardo Midolo	O	2026	article	Directional and correlated optical emission from a waveguide-engineered molecule with local control	https://doi.org/10.1103/v1r7-lr89
+Leonardo Midolo	O	2023	conference-paper	Super- and subradiant quantum dynamics between pairs of solid-state optical emitters	https://doi.org/10.1364/cleo_fs.2023.fm2a.5
+Leonardo Midolo	O	2025	article	Integration of a Ga As -based nanomechanical phase shifter with quantum-dot single-photon sources	https://doi.org/10.1103/y554-z6hg
+Leonardo Midolo	O	2021	conference-paper	Single-Photon Radiative Auger Emission from a Quantum Dot	https://doi.org/10.1364/cleo_qels.2021.fw2q.7
+Leonardo Midolo	O	2023	other	Nano‐Opto‐Electro‐Mechanical Systems for Integrated Quantum Photonics	https://doi.org/10.1002/9783527837427.ch21
+Leonardo Midolo	O	2025	preprint	Controlling emitter-field coupling in waveguides with a nanomechanical phase shifter	https://doi.org/10.48550/arxiv.2503.01014
+Leonardo Midolo	O	2025	preprint	Contextuality-based quantum key distribution with deterministic single-photon sources	https://doi.org/10.48550/arxiv.2510.12761
+Leonardo Midolo	O	2022	conference-paper	Quantum Interference between Integrated and Independently Controlled Quantum Dots	https://doi.org/10.1364/cleo_qels.2022.fw5f.1
+Leonardo Midolo	O	2022	article	Widely Tunable Single-Photon Frequency Conversion in a Nanomechanically Reconfigurable Si-Rich Nitride Waveguide	https://doi.org/10.1109/jlt.2022.3196938
+Leonardo Midolo	O	2022	conference-paper	Integration of GaAs waveguides with quantum dots on Silicon substrates for quantum photonic circuits	https://doi.org/10.1364/cleo_qels.2022.ff4j.6
+Leonardo Midolo	O	2022	erratum	Publisher Correction: Dynamical photon–photon interaction mediated by a quantum emitter	https://doi.org/10.1038/s41567-022-01823-5
+Leonardo Midolo	O	2022	conference-paper	Quantum Key Distribution using True On-demand Single Photons over a Field-Installed Fiber Link	https://doi.org/10.1109/ipc53466.2022.9975619
+Leonardo Midolo	O	2022	conference-paper	Design of Fast All-Optical Switches in Si3N4 Photonic Integrated Circuits for Single-Photon Routing	https://doi.org/10.1364/fio.2022.jtu4a.53
+Leonardo Midolo	O	2023	conference-paper	Programmable unitary gates for photonic quantum information processing	https://doi.org/10.1117/12.2665476
+Leonardo Midolo	O	2022	conference-paper	Scalable Quantum Dot Single-photon Sources Based on Dual-mode Waveguides	https://doi.org/10.1364/cleopr.2022.ctua7a_02
+Leonardo Midolo	O	2022	conference-paper	Novel dual-mode photonic crystal waveguide for stable resonant excitation of quantum dots with high β-factor	https://doi.org/10.1364/cleopr.2022.cfp8i_06
+Leonardo Midolo	O	2023	conference-paper	Quantum-Dot Single-Photon Sources Processed on Silicon-Nitride Integrated Circuits	https://doi.org/10.1364/cleo_fs.2023.fth4j.4
+Leonardo Midolo	O	2023	conference-paper	Processing single-photons from a quantum dot using high-speed integrated photonic circuits on the thin film lithium-niobate-on-insulator platform	https://doi.org/10.1364/cleo_si.2023.sth1r.2
+Leonardo Midolo	O	2023	conference-paper	Heterogenous Photonic Integration for Quantum Optical Communication	https://doi.org/10.1109/foan59927.2023.10328119
+Leonardo Midolo	O	2022	conference-paper	Novel Dual-Mode Photonic Crystal Waveguide for Stable Resonant Excitation of Quantum Dots with High $\beta-\text{factor}$	https://doi.org/10.1109/cleo-pr62338.2022.10431992
+Leonardo Midolo	O	2022	conference-paper	Scalable Quantum Dot Single-Photon Sources Based on Dual-Mode Waveguides	https://doi.org/10.1109/cleo-pr62338.2022.10432401
+Leonardo Midolo	O	2024	conference-paper	Nanomechanical Phase Shifting on a Gallium Arsenide Platform	https://doi.org/10.1007/978-3-031-63378-2_48
+Leonardo Midolo	O	2024	conference-paper	Analysis of optical losses of GaAs waveguides for single-photon sources considering realistic waveguide roughness	https://doi.org/10.1117/12.3017672
+Leonardo Midolo	O	2024	conference-paper	SiN/ GaAs quantum photonic platform with eﬃcient fiber-coupling	https://doi.org/10.1364/quantum.2024.qw3a.15
+Leonardo Midolo	O	2024	conference-paper	Heterogeneous Integration of GaAs Waveguides with Silicon Nitride Photonic Integrated Circuits	https://doi.org/10.1364/quantum.2024.qw3a.33
+Leonardo Midolo	O	2024	conference-paper	Coupling and Splitting Structures for SiN Interposer in Quantum Photonic Integrated Circuits	https://doi.org/10.1364/cleo_at.2024.jth2a.77
+Leonardo Midolo	O	2024	conference-paper	Efficient and deterministic InAs/GaAs quantum dot single-photon source emitting directly in the original telecommunications band (O-band)	https://doi.org/10.1364/fio.2024.fm5c.2
+Leonardo Midolo	O	2024	conference-paper	Nano-Mechanical Photonic Integrated Circuits with Quantum Dots	https://doi.org/10.1364/fio.2024.ftu1c.1
+Leonardo Midolo	O	2025	erratum	Author Correction: A single-photon emitter coupled to a phononic-crystal resonator in the resolved-sideband regime	https://doi.org/10.1038/s41467-025-57869-5
+Leonardo Midolo	O	2025	conference-paper	Reliable Fabrication of Electrically Tunable Quantum Dot Emitters on SiN via Micro-Transfer Printing	https://doi.org/10.1109/cleo/europe-eqec65582.2025.11109120
+Leonardo Midolo	O	2025	conference-paper	Electrical control of quantum-dot single-photon source on SiO2/Si substrate	https://doi.org/10.1364/cleo_at.2025.aa126_1
+Leonardo Midolo	O	2026	preprint	Photon Sorting with a Quantum Emitter	https://doi.org/10.48550/arxiv.2604.21758
+Leonardo Midolo	O	2026	preprint	Testing a continuous-variable noncontextuality inequality with a hybrid-encoded system	https://doi.org/10.48550/arxiv.2604.25901
+Leonardo Midolo	O	2026	preprint	Realization of waveguide many-body quantum optics	https://doi.org/10.48550/arxiv.2605.18525
+Leonardo Midolo	O	2026	conference-paper	Waveguide-integrated quantum-coherent single-photon source in the original telecom band	https://doi.org/10.1364/cleo_fs.2026.fw3a.3
+Leonardo Midolo	O	2026	conference-paper	Reconfigurable photon‑emitter interfaces enabled by nanomechanics	https://doi.org/10.1117/12.3114366
+Leonardo Midolo	O	2026	article	Fabrication‐Tolerant GaAs/SiN Coupling Above the Loss Threshold for Quantum Photonic Applications	https://doi.org/10.1002/lpor.71798
+Leonardo Midolo	O	2026	preprint	Real-Time Quantum Vacuum Control in a Photonic Integrated Circuit	https://doi.org/10.21203/rs.3.rs-10829906/v1
+Leonardo Midolo	O	2026	article	Quantum dots learn to speak telecom:40 million single photons per second at 1300 nm	https://openalex.org/W7220295174
+Leonardo Midolo	O	2026	preprint	A programmable quantum photonic platform integrating coherent emitters	https://doi.org/10.48550/arxiv.2610.06451
+Leonardo Midolo	O	2026	conference-paper	Robust coupler design for efficient heterogeneous integration of quantum photonic devices	https://openalex.org/W7222776916
+Maiken Høgh Mikkelsen	A				
+Mikkel Thorbjørn Mikkelsen	A				A5074037088
+Mikkel Thorbjørn Mikkelsen	O	2024	article	Quantum key distribution using deterministic single-photon sources over a field-installed fibre link	https://doi.org/10.1038/s41534-023-00800-x
+Mikkel Thorbjørn Mikkelsen	O	2025	preprint	Contextuality-based quantum key distribution with deterministic single-photon sources	https://doi.org/10.48550/arxiv.2510.12761
+Mikkel Thorbjørn Mikkelsen	O	2022	conference-paper	Quantum Key Distribution using True On-demand Single Photons over a Field-Installed Fiber Link	https://doi.org/10.1109/ipc53466.2022.9975619
+Mikkel Thorbjørn Mikkelsen	O	2024	conference-paper	Efficient and deterministic InAs/GaAs quantum dot single-photon source emitting directly in the original telecommunications band (O-band)	https://doi.org/10.1364/fio.2024.fm5c.2
+Mikkel Thorbjørn Mikkelsen	O	2026	preprint	A programmable quantum photonic platform integrating coherent emitters	https://doi.org/10.48550/arxiv.2610.06451
+Laurits Møberg	A				A5146392539
+Laurits Møberg	O	2026	preprint	Entanglement-enhanced optical magnetometry beyond the standard quantum limit	https://doi.org/10.48550/arxiv.2608.06815
+Christoffer Bo Møller	A				A5075446098
+Christoffer Bo Møller	O	2023	article	Nonlinear nanomechanical resonators approaching the quantum ground state	https://doi.org/10.1038/s41567-023-02065-9
+Christoffer Bo Møller	O	2022	article	Novel Nanotube Multiquantum Dot Devices	https://doi.org/10.1021/acs.nanolett.2c03034
+Christoffer Bo Møller	O	2021	article	Interrelation of Elasticity and Thermal Bath in Nanotube Cantilevers	https://doi.org/10.1103/physrevlett.126.175502
+Christoffer Bo Møller	O	2023	article	Nanomechanical vibrational response from electrical mixing measurements	https://doi.org/10.1063/5.0184931
+Klaus Mølmer	A				A5113628834
+Klaus Mølmer	O	2022	article	Enhanced metrology at the critical point of a many-body Rydberg atomic system	https://doi.org/10.1038/s41567-022-01777-8
+Klaus Mølmer	O	2024	article	Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays	https://doi.org/10.1103/physrevx.14.011025
+Klaus Mølmer	O	2022	article	Cavity Quantum Electrodynamics Effects with Nitrogen Vacancy Center Spins Coupled to Room Temperature Microwave Resonators	https://doi.org/10.1103/physrevlett.128.253601
+Klaus Mølmer	O	2022	article	Photon-photon interactions in Rydberg-atom arrays	https://doi.org/10.22331/q-2022-03-30-674
+Klaus Mølmer	O	2021	article	Crowdsourcing human common sense for quantum control	https://doi.org/10.1103/physrevresearch.3.013057
+Klaus Mølmer	O	2022	article	Deterministic Photon Sorting in Waveguide QED Systems	https://doi.org/10.1103/physrevlett.128.213603
+Klaus Mølmer	O	2022	article	Manipulating synthetic gauge fluxes via multicolor dressing of Rydberg-atom arrays	https://doi.org/10.1103/physrevresearch.4.l032046
+Klaus Mølmer	O	2021	article	Ultranarrow Superradiant Lasing by Dark Atom-Photon Dressed States	https://doi.org/10.1103/physrevlett.126.123602
+Klaus Mølmer	O	2021	article	A superradiant maser with nitrogen-vacancy center spins	https://doi.org/10.1007/s11433-021-1780-6
+Klaus Mølmer	O	2021	article	Adiabatic theorem revisited: The unexpectedly good performance of adiabatic passage	https://doi.org/10.1103/physreva.103.062215
+Klaus Mølmer	O	2023	article	In situ amplification of spin echoes within a kinetic inductance parametric amplifier	https://doi.org/10.1126/sciadv.adg1593
+Klaus Mølmer	O	2022	article	Random-Access Quantum Memory Using Chirped Pulse Phase Encoding	https://doi.org/10.1103/physrevx.12.041014
+Klaus Mølmer	O	2024	article	Cavity-Mediated Collective Emission from Few Emitters in a Diamond Membrane	https://doi.org/10.1103/physrevx.14.041055
+Klaus Mølmer	O	2025	article	Concurrent spin squeezing and field tracking with machine learning	https://doi.org/10.1038/s41567-025-02855-3
+Klaus Mølmer	O	2025	article	Probing Hilbert space fragmentation with strongly interacting Rydberg atoms	https://doi.org/10.1103/physrevb.111.144313
+Klaus Mølmer	O	2022	article	Microwave mode cooling and cavity quantum electrodynamics effects at room temperature with optically cooled nitrogen-vacancy center spins	https://doi.org/10.1038/s41534-022-00642-z
+Klaus Mølmer	O	2024	article	Subtraction and Addition of Propagating Photons by Two-Level Emitters	https://doi.org/10.1103/physrevlett.133.103601
+Klaus Mølmer	O	2025	article	Boundary Time Crystals Induced by Local Dissipation and Long-Range Interactions	https://doi.org/10.1103/jhd4-1khw
+Klaus Mølmer	O	2024	article	Conditional Dynamics in Heterodyne Detection of Superradiant Lasing with Incoherently Pumped Atoms	https://doi.org/10.1103/physrevlett.133.073601
+Klaus Mølmer	O	2025	article	Generating Einstein-Podolsky-Rosen correlations for teleporting collective spin states in a two-dimensional trapped ion crystal	https://doi.org/10.1103/physrevresearch.7.l022019
+Klaus Mølmer	O	2022	article	Measuring out-of-time-ordered correlation functions without reversing time evolution	https://doi.org/10.1103/physreva.106.042429
+Klaus Mølmer	O	2021	article	Time-dependent atomic magnetometry with a recurrent neural network	https://doi.org/10.1103/physreva.103.032406
+Klaus Mølmer	O	2021	article	Radiation eigenmodes of Dicke superradiance	https://doi.org/10.1103/physreva.103.033713
+Klaus Mølmer	O	2022	article	Active Frequency Measurement on Superradiant Strontium Clock Transitions	https://doi.org/10.1103/physrevlett.128.013604
+Klaus Mølmer	O	2023	article	Creation of nonclassical states of light in a chiral waveguide	https://doi.org/10.1103/physreva.107.013717
+Klaus Mølmer	O	2023	article	Optical multiqubit gate operations on an excitation-blockaded atomic quantum register	https://doi.org/10.1103/physrevresearch.5.013205
+Klaus Mølmer	O	2023	article	Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective	https://doi.org/10.1103/physreva.107.013706
+Klaus Mølmer	O	2024	article	Censorship of quantum resources in quantum networks	https://doi.org/10.1103/physreva.110.062404
+Klaus Mølmer	O	2025	article	Efficient Preparation of Entangled States in Cavity QED with Grover’s Algorithm	https://doi.org/10.1103/3fzf-wsr2
+Klaus Mølmer	O	2023	article	Qubit readout and quantum sensing with pulses of quantum radiation	https://doi.org/10.1103/physreva.107.013705
+Klaus Mølmer	O	2023	article	Multimode character of quantum states released from a superconducting cavity	https://doi.org/10.1103/physrevresearch.5.043071
+Klaus Mølmer	O	2024	article	Theoretical study of superradiant masing with solid-state spins at room temperature	https://doi.org/10.1007/s11433-023-2347-0
+Klaus Mølmer	O	2025	article	Superradiance from nitrogen-vacancy centers coupled to an ultranarrow optical cavity	https://doi.org/10.1103/physreva.111.033711
+Klaus Mølmer	O	2024	article	Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conversion	https://doi.org/10.1103/physreva.110.023728
+Klaus Mølmer	O	2025	article	Unidirectional quantum-optical elements for waveguide-QED with subwavelength Rydberg-atom arrays in free space	https://doi.org/10.1364/opticaq.545710
+Klaus Mølmer	O	2021	article	Scattering of Matter Wave Solitons on Localized Potentials	https://doi.org/10.3390/app11052294
+Klaus Mølmer	O	2021	article	Guessing the outcome of separate and joint quantum measurements of noncommuting observables	https://doi.org/10.1103/physreva.104.022204
+Klaus Mølmer	O	2022	article	Free-Fermion Multiply Excited Eigenstates and Their Experimental Signatures in 1D Arrays of Two-Level Atoms	https://doi.org/10.1103/physrevlett.128.093602
+Klaus Mølmer	O	2021	article	Quantum estimation of a time-dependent perturbation	https://doi.org/10.1103/physreva.104.052621
+Klaus Mølmer	O	2023	article	Perfect splitting of a two-photon pulse	https://doi.org/10.1103/physreva.107.023715
+Klaus Mølmer	O	2021	article	Ancilla-mediated qubit readout and heralded entanglement between rare-earth dopant ions in crystals	https://doi.org/10.1103/physreva.103.043705
+Klaus Mølmer	O	2022	article	Quantum Nondemolition Measurements of Moving Target States	https://doi.org/10.1103/physrevlett.129.120402
+Klaus Mølmer	O	2024	article	Jaynes-Cummings interaction with a traveling light pulse	https://doi.org/10.1364/josab.523292
+Klaus Mølmer	O	2024	article	Parametric amplification of a quantum pulse	https://doi.org/10.1103/physreva.110.053712
+Klaus Mølmer	O	2025	article	Cooperative Squeezing of Internal and Collective Spins in an Atomic Ensemble	https://doi.org/10.1103/xkt1-y58b
+Klaus Mølmer	O	2025	article	Retrodiction of measurement outcomes on a single quantum system revealing entanglement with its environment	https://doi.org/10.1103/kfn4-1fx4
+Klaus Mølmer	O	2021	article	Collective emission of photons from dense, dipole-dipole interacting atomic ensembles	https://doi.org/10.1103/physreva.103.023703
+Klaus Mølmer	O	2023	article	Interaction of two Rydberg atoms in the vicinity of an optical nanofibre	https://doi.org/10.1088/1367-2630/acb83f
+Klaus Mølmer	O	2022	article	Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic preparation of spatially ordered states of Rydberg excitations	https://doi.org/10.1103/physreva.106.063302
+Klaus Mølmer	O	2025	article	Deterministic carving of quantum states with Grover's algorithm	https://doi.org/10.1103/s3vs-xz7w
+Klaus Mølmer	O	2024	article	Médaille d’or du CNRS Jean Dalibard : Avant-propos	https://doi.org/10.5802/crphys.175
+Klaus Mølmer	O	2025	article	Stochastic collective density-matrix approach for conditional spin squeezing	https://doi.org/10.1103/physreva.111.053715
+Klaus Mølmer	O	2022	article	Optical control of the complex phase of a quantum ground-state amplitude	https://doi.org/10.1103/physreva.105.062441
+Klaus Mølmer	O	2022	article	Single-shot determination of quantum phases via continuous measurements	https://doi.org/10.1103/physreva.106.032215
+Klaus Mølmer	O	2026	article	Complementary collective spin descriptions of superradiant Ramsey spectroscopy	https://doi.org/10.1103/nwhs-zwqn
+Klaus Mølmer	O	2022	article	Gaussian theory for estimating fluctuating perturbations with backaction-evading oscillator variables	https://doi.org/10.1103/physreva.106.022613
+Klaus Mølmer	O	2026	article	Censorship of quantum resources against quantum catalysis	https://doi.org/10.1103/w3rz-qtzv
+Klaus Mølmer	O	2025	article	Interactions in quantum networks with pulse propagation delays	https://doi.org/10.1103/3f3w-jmj8
+Klaus Mølmer	O	2026	article	Lieb-Mattis States for Robust Entangled Differential Phase Sensing	https://doi.org/10.1103/ksyh-mb4s
+Klaus Mølmer	O	2025	article	Enhanced Laser Cooling of a Mechanical Resonator via Zero-Photon Detection	https://doi.org/10.1103/physrevlett.134.073601
+Klaus Mølmer	O	2025	article	Theoretical framework for enhancing or enabling cooling of a mechanical resonator via the anti-Stokes or Stokes interaction and zero-photon detection	https://doi.org/10.1103/physreva.111.023516
+Klaus Mølmer	O	2023	article	Nonclassical radiation from a nonlinear oscillator driven solely by classical 1/f noise	https://doi.org/10.1103/physreva.108.053704
+Klaus Mølmer	O	2021	preprint	Roadmap for Rare-earth Quantum Computing	https://doi.org/10.48550/arxiv.2103.15743
+Klaus Mølmer	O	2024	editorial	Many-body entanglement via ‘which-path’ information	https://doi.org/10.1038/s41534-024-00899-6
+Klaus Mølmer	O	2023	preprint	Stochastic Mean-field Theory for Conditional Spin Squeezing by Homodyne Probing of Atom-Cavity Photon Dressed States	https://doi.org/10.48550/arxiv.2306.00868
+Klaus Mølmer	O	2023	dataset	Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays	https://doi.org/10.6084/m9.figshare.24903246
+Klaus Mølmer	O	2021	article	Random-access microwave quantum memory using chirped pulse phase encoding	https://openalex.org/W3131329191
+Klaus Mølmer	O	2021	conference-paper	Spin-squeezing by prediction and retrodiction measurements: beyond the Heisenberg uncertainty relation	https://doi.org/10.1117/12.2586729
+Klaus Mølmer	O	2021	other	More speed out of the quantum gate	https://doi.org/10.1038/s41567-021-01195-2
+Klaus Mølmer	O	2021	article	Work and heat in conventional and measurement powered quantum heat engines	https://openalex.org/W3190769305
+Klaus Mølmer	O	2022	other	Quasi-adiabatic preparation of antiferromagnetic-like state of Rydberg excitations of atoms in a lattice	https://doi.org/10.26226/m.6275706066d5dcf63a3117f8
+Klaus Mølmer	O	2022	preprint	Frequency Measurement with Superradiant Pulses of Incoherently Pumped Calcium Atoms: Role of Quantum Measurement Backaction	https://doi.org/10.48550/arxiv.2211.13068
+Klaus Mølmer	O	2022	conference-paper	Rydberg atoms in the vicinity of an optical nanofiber	https://doi.org/10.1051/epjconf/202226611013
+Klaus Mølmer	O	2023	conference-paper	Rydberg Atoms In the Vicinity of an Optical Nanofiber	https://doi.org/10.1364/oma.2023.aw1d.1
+Klaus Mølmer	O	2023	conference-paper	Rydberg Atoms In the Vicinity of an Optical Nanofiber	https://doi.org/10.1364/quantum.2023.qth2a.4
+Klaus Mølmer	O	2023	conference-paper	Parametric amplification of a quantum pulse	https://doi.org/10.1364/fio.2023.jtu5a.82
+Klaus Mølmer	O	2024	preprint	Exact Numerical Solution of Stochastic Master Equations for Conditional Spin Squeezing	https://doi.org/10.48550/arxiv.2402.02495
+Klaus Mølmer	O	2022	dataset	Dataset - In-situ amplification of spin echoes within a kinetic inductance parametric amplifier	https://doi.org/10.5281/zenodo.7596979
+Klaus Mølmer	O	2025	article	Stochastic Schrödinger equation for homodyne measurements of strongly correlated systems	https://doi.org/10.1088/1361-6455/ae0bd2
+Klaus Mølmer	O	2025	preprint	State-Based Quantum Simulation: Releasing the Powers of Quantum States and Copies	https://doi.org/10.48550/arxiv.2505.13901
+Klaus Mølmer	O	2025	preprint	Supercoherence: Harnessing Long-Range Interactions to Preserve Collective Coherence in Disordered Systems	https://doi.org/10.48550/arxiv.2508.06238
+Klaus Mølmer	O	2026	article	Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States	https://doi.org/10.1103/dtd2-4vpn
+Klaus Mølmer	O	2025	preprint	Blockade-induced exchange primitives for scalable neutral-atom QPU	https://doi.org/10.48550/arxiv.2511.22214
+Klaus Mølmer	O	2026	article	Proposal for room-temperature superradiant echoes induced by multiple re-phasing of frequency-grated NV spin sub-ensembles	https://doi.org/10.1007/s11433-025-2853-5
+Klaus Mølmer	O	2026	article	Entangling power of nonentangling channels	https://doi.org/10.1103/vy93-dnc8
+Klaus Mølmer	O	2026	article	Demonstrating optical control of complex phases in a trapped-ion qubit	https://doi.org/10.1038/s41534-026-01286-z
+Klaus Mølmer	O	2026	article	Optimal control for Rydberg multi-qubit operations	https://doi.org/10.1038/s41534-026-01288-x
+Klaus Mølmer	O	2021	article	Kvantemekanikkens fortolkninger	https://doi.org/10.7146/kvant.168236
+Klaus Mølmer	O	2026	preprint	Symmetry-resolved parent Hamiltonians for entangled bosonic cat resources	https://doi.org/10.48550/arxiv.2607.02997
+Klaus Mølmer	O	2026	preprint	Active Optical Frequency Measurements with Superradiance Prolonged by a Modulated Magnetic Field	https://doi.org/10.48550/arxiv.2607.17647
+Klaus Mølmer	O	2026	preprint	Input-Output Analysis of Quantum Dot SUPER Excitation	https://doi.org/10.48550/arxiv.2608.28470
+Klaus Mølmer	O	2026	dataset	Input-Output Analysis of Quantum Dot SUPER Excitation	https://doi.org/10.5281/zenodo.21932481
+Klaus Mølmer	O	2026	article	Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right	https://doi.org/10.1103/hnlr-hm29
+Klaus Mølmer	O	2026	preprint	Achieving the Quantum Limits with Twin-Field Sensors	https://doi.org/10.48550/arxiv.2609.07517
+Klaus Mølmer	O	2026	preprint	Measurement-induced dynamics and emergent symmetries of particles moving in a one-dimensional lattice	https://doi.org/10.48550/arxiv.2609.40026
+Klaus Mølmer	O	2026	article	Efficient description of parametric amplification of quantum pulses	https://doi.org/10.1103/lm14-kzlg
+Jörg Helge Müller	A				A5078729622
+Jörg Helge Müller	O	2023	article	Subnatural Linewidth Superradiant Lasing with Cold Sr 88 Atoms	https://doi.org/10.1103/physrevlett.130.223402
+Jörg Helge Müller	O	2024	article	Collectively enhanced Ramsey readout by cavity sub- to superradiant transition	https://doi.org/10.1038/s41467-024-45420-x
+Jörg Helge Müller	O	2025	article	Hybrid quantum network for sensing in the acoustic frequency range	https://doi.org/10.1038/s41586-025-09224-3
+Jörg Helge Müller	O	2024	article	High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging	https://doi.org/10.1103/prxquantum.5.020320
+Jörg Helge Müller	O	2023	article	Acoustic frequency atomic spin oscillator in the quantum regime	https://doi.org/10.1038/s41467-023-42059-y
+Jörg Helge Müller	O	2023	article	Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line	https://doi.org/10.1103/physrevx.13.021036
+Jörg Helge Müller	O	2022	article	Prospects of a superradiant laser based on a thermal or guided beam of Sr 88	https://doi.org/10.1103/physreva.106.063704
+Jörg Helge Müller	O	2021	article	Cavity-immune spectral features in the pulsed superradiant crossover regime	https://doi.org/10.1103/physrevresearch.3.033258
+Jörg Helge Müller	O	2023	conference-paper	Optical Ramsey Spectroscopy with Superradiance Enhanced Readout	https://doi.org/10.1109/eftf/ifcs57587.2023.10272146
+Jörg Helge Müller	O	2026	preprint	Entanglement-enhanced optical magnetometry beyond the standard quantum limit	https://doi.org/10.48550/arxiv.2608.06815
+Rasmus Bo Nielsen	A				
+Joan Alba Pares	A				
+Maria Ana de Matos Afonso Pereira	A				
+Andrea Pertoldi	A				A5049604162
+Andrea Pertoldi	O	2025	conference-paper	Synchronous Clock and RF Carrier Transmission for Radio Access Network Fronthaul	https://doi.org/10.1109/ecoc66593.2025.11262995
+Andrea Pertoldi	O	2024	article	Coherent instabilities in thulium-based fiber amplifiers induced by laser frequency modulation	https://doi.org/10.1364/ol.539160
+Andrea Pertoldi	O	2024	conference-paper	Improving Frequency Noise of DFB Fiber Lasers by Acoustic Wave Suppression	https://doi.org/10.1364/cleo_si.2024.stu4d.5
+Andrea Pertoldi	O	2024	article	Resonant Acoustic Modes in DFB Fiber Lasers Characterized via Frequency Noise Measurements	https://doi.org/10.1109/jlt.2024.3509799
+Andrea Pertoldi	O	2025	article	Low-noise fiber laser systems at 689 nm and 698 nm for strontium	https://doi.org/10.1364/oe.555332
+Andrea Pertoldi	O	2023	conference-paper	Thulium Fibre Lasers for Quantum Applications	https://doi.org/10.1109/cleo/europe-eqec57999.2023.10232187
+Andrea Pertoldi	O	2024	conference-paper	Investigation of Stability in 2 µm Optical Fiber Amplifiers for Narrow-Linewidth Laser Sources	https://doi.org/10.1364/cleo_si.2024.stu3d.3
+Andrea Pertoldi	O	2024	conference-paper	Modular Fiber Laser Platform for Strontium Atomic Clocks	https://doi.org/10.1364/cleo_si.2024.sm2g.7
+Andrea Pertoldi	O	2024	conference-paper	Direct Measurement of Resonant Phonon Modes in Optical Fibers	https://openalex.org/W4412215393
+Andrea Pertoldi	O	2025	conference-paper	Line-by-Line Comb Noise Measurements Using an Electro-Optic Comb Local Oscillator	https://doi.org/10.23919/oecc/psc62146.2025.11110379
+Andrea Pertoldi	O	2026	preprint	Octave-spanning 10-GHz Er-doped solid-state optical frequency comb	https://doi.org/10.48550/arxiv.2601.11346
+Andrea Pertoldi	O	2026	preprint	Noise transfer in cascaded nonlinear frequency conversion of single-frequency lasers	https://doi.org/10.1364/opticaopen.31150015
+Andrea Pertoldi	O	2026	preprint	Noise transfer in cascaded nonlinear frequency conversion of single-frequency lasers	https://doi.org/10.1364/opticaopen.31150015.v1
+Andrea Pertoldi	O	2026	dataset	"Data & data analysis for ""Noise transfer in cascaded nonlinear frequency conversion of single-frequency lasers"""	https://doi.org/10.5281/zenodo.17579238
+Andrea Pertoldi	O	2026	conference-abstract	Low-noise 10Ghz mode-locked frequency comb with complete stabilization for precision spectral calibration	https://doi.org/10.1117/12.3099471
+Andrea Pertoldi	O	2026	conference-paper	Ultra-stable Radio Access Network Synchronization by Cesium-Locked Comb Delivery and Clock Phase Caching	https://doi.org/10.1364/ofc.2026.w2a.37
+Andrea Pertoldi	O	2026	conference-paper	Fully Stabilized, Octave-Spanning 10 GHz Mode-Locked Laser for Astrocomb Applications	https://doi.org/10.1364/cleo_si.2026.sth1h.3
+Andrea Pertoldi	O	2026	conference-abstract	A broadband 10 GHz astrocomb for high-resolution spectrograph calibration	https://doi.org/10.1117/12.3105132
+Eugene Simon Polzik	A				A5007480261
+Eugene Simon Polzik	O	2024	review	Roadmap on nanoscale magnetic resonance imaging	https://doi.org/10.1088/1361-6528/ad4b23
+Eugene Simon Polzik	O	2023	article	Entanglement-Enhanced Magnetic Induction Tomography	https://doi.org/10.1103/physrevlett.130.203602
+Eugene Simon Polzik	O	2023	article	Phononically shielded photonic-crystal mirror membranes for cavity quantum optomechanics	https://doi.org/10.1364/oe.484369
+Eugene Simon Polzik	O	2025	article	Hybrid quantum network for sensing in the acoustic frequency range	https://doi.org/10.1038/s41586-025-09224-3
+Eugene Simon Polzik	O	2024	article	High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging	https://doi.org/10.1103/prxquantum.5.020320
+Eugene Simon Polzik	O	2023	article	Acoustic frequency atomic spin oscillator in the quantum regime	https://doi.org/10.1038/s41467-023-42059-y
+Eugene Simon Polzik	O	2023	article	Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line	https://doi.org/10.1103/physrevx.13.021036
+Eugene Simon Polzik	O	2022	article	Two-colour high-purity Einstein-Podolsky-Rosen photonic state	https://doi.org/10.1038/s41467-022-32495-7
+Eugene Simon Polzik	O	2024	article	Squeezed light from an oscillator measured at the rate of oscillation	https://doi.org/10.1038/s41467-024-47906-0
+Eugene Simon Polzik	O	2024	article	Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator	https://doi.org/10.1103/physrevlett.133.173605
+Eugene Simon Polzik	O	2021	article	Dissipative optomechanical coupling with a membrane outside of an optical cavity	https://doi.org/10.1103/physreva.103.063503
+Eugene Simon Polzik	O	2024	article	Magnetic induction sensor based on a dual-frequency atomic magnetometer	https://doi.org/10.1103/physrevapplied.22.034030
+Eugene Simon Polzik	O	2025	article	Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system	https://doi.org/10.1364/opticaq.551000
+Eugene Simon Polzik	O	2022	article	Trajectories Without Quantum Uncertainties in Composite Systems with Disparate Energy Spectra	https://doi.org/10.1103/prxquantum.3.020362
+Eugene Simon Polzik	O	2022	book-chapter	Small Animal Biomagnetism Applications	https://doi.org/10.1007/978-3-031-05363-4_3
+Eugene Simon Polzik	O	2021	conference-paper	Single-Photon Source with Near-Millisecond Memory based on Room-Temperature Atomic Vapour	https://doi.org/10.1109/cleo/europe-eqec52157.2021.9542080
+Eugene Simon Polzik	O	2021	preprint	Quantum-mechanics-free subspaces in composite systems with incompatible energy spectra.	https://openalex.org/W3208327518
+Eugene Simon Polzik	O	2022	conference-paper	Two-color high-purity entanglement	https://doi.org/10.1364/cleo_at.2022.jw3b.131
+Eugene Simon Polzik	O	2023	conference-paper	Quantum State Engineering of Macroscopic Oscillators	https://doi.org/10.1109/cleo/europe-eqec57999.2023.10232481
+Eugene Simon Polzik	O	2024	article	Optimal optomechanical cavity setups with highly reflecting membranes	https://doi.org/10.1103/physreva.109.053514
+Eugene Simon Polzik	O	2025	editorial	H. Jeffrey Kimble (1949–2024)	https://doi.org/10.1038/s41566-025-01628-x
+Eugene Simon Polzik	O	2025	article	The future of quantum technology as seen from the EU, USA and Japan: experts’ vision over the next two decades	https://doi.org/10.1088/1361-6455/ae271a
+Eugene Simon Polzik	O	2026	preprint	Entanglement-enhanced optical magnetometry beyond the standard quantum limit	https://doi.org/10.48550/arxiv.2608.06815
+Clinton Alexander Potts	A				
+Hanna Krystyna Salamon	A				
+Bálint Sárközi	A				A5094197692
+Bálint Sárközi	O	2024	article	Loading atoms from a large magnetic trap to a small intra-cavity optical lattice	https://doi.org/10.1016/j.physleta.2024.129444
+Bálint Sárközi	O	2025	article	Demonstration of strong coupling of a subradiant atom array to a cavity vacuum	https://doi.org/10.1140/epjqt/s40507-025-00401-x
+Bálint Sárközi	O	2026	preprint	Wigner Time: from experimental intent to real-time laboratory control	https://doi.org/10.48550/arxiv.2609.06230
+Bálint Sárközi	O	2026	preprint	A tunable chiral light–matter interface with on-chip spin control	https://doi.org/10.21203/rs.3.rs-10959137/v1
+Albert Schliesser	A				A5082293397
+Albert Schliesser	O	2021	article	Membrane-Based Scanning Force Microscopy	https://doi.org/10.1103/physrevapplied.15.l021001
+Albert Schliesser	O	2022	article	Ground state cooling of an ultracoherent electromechanical system	https://doi.org/10.1038/s41467-022-29115-9
+Albert Schliesser	O	2025	article	A soft-clamped topological waveguide for phonons	https://doi.org/10.1038/s41586-025-09092-x
+Albert Schliesser	O	2021	article	Gravitational wave detectors with broadband high frequency sensitivity	https://doi.org/10.1038/s42005-021-00526-2
+Albert Schliesser	O	2024	article	Long-lived and Efficient Optomechanical Memory for Light	https://doi.org/10.1103/physrevlett.132.100802
+Albert Schliesser	O	2021	article	Modeling and Observation of Nonlinear Damping in Dissipation-Diluted Nanomechanical Resonators	https://doi.org/10.1103/physrevlett.126.174101
+Albert Schliesser	O	2023	article	Laser cooling a membrane-in-the-middle system close to the quantum ground state from room temperature	https://doi.org/10.1364/optica.468590
+Albert Schliesser	O	2024	article	Quadrature Squeezing Enhances Wigner Negativity in a Mechanical Duffing Oscillator	https://doi.org/10.1103/prxquantum.5.030312
+Albert Schliesser	O	2023	article	Phononically shielded photonic-crystal mirror membranes for cavity quantum optomechanics	https://doi.org/10.1364/oe.484369
+Albert Schliesser	O	2024	article	Enhancing membrane-based scanning force microscopy through an optical cavity	https://doi.org/10.1103/physrevapplied.22.044001
+Albert Schliesser	O	2023	article	Membrane-in-the-middle optomechanics with a soft-clamped membrane at milliKelvin temperatures	https://doi.org/10.1364/oe.502359
+Albert Schliesser	O	2025	article	Strong thermomechanical noise squeezing stabilized by feedback	https://doi.org/10.1103/physrevresearch.7.l012071
+Albert Schliesser	O	2025	article	Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system	https://doi.org/10.1364/opticaq.551000
+Albert Schliesser	O	2026	article	Measuring high field gradients of cobalt nanomagnets in a spin-mechanical setup	https://doi.org/10.1063/5.0301921
+Albert Schliesser	O	2022	conference-paper	Towards quantum electro-optic transduction with an embedded 100 ms coherence time quantum memory	https://doi.org/10.1364/quantum.2022.qm4b.7
+Albert Schliesser	O	2023	dataset	Laser cooling a membrane-in-the-middle system close to the quantum ground state from room temperature	https://doi.org/10.5281/zenodo.7647319
+Albert Schliesser	O	2021	article	Shining a HOT light on optomechanics	https://openalex.org/W3126780761
+Albert Schliesser	O	2021	conference-paper	Towards Quantum Measurement and Control of a Nanomechanical Resonator at Room Temperature	https://doi.org/10.1364/cleo_qels.2021.fth2p.3
+Albert Schliesser	O	2021	article	Quanten‐mechanisch im Wortsinne	https://doi.org/10.1002/piuz.202101608
+Albert Schliesser	O	2021	conference-paper	Assembly of opto-mechanical devices	https://doi.org/10.23919/empc53418.2021.9585001
+Albert Schliesser	O	2021	conference-paper	Cooling a nanomechanical membrane resonator from room temperature close to the quantum ground state	https://doi.org/10.1364/qim.2021.f1b.4
+Albert Schliesser	O	2022	conference-paper	Optically cooling a room-temperature nanomechanical membrane resonator close to its quantum ground state	https://doi.org/10.23919/mipro55190.2022.9803352
+Albert Schliesser	O	2023	conference-paper	Storage and Retrieval of Light Using an Ultra-Coherent Membrane Resonator	https://doi.org/10.1364/quantum.2023.qw4b.2
+Albert Schliesser	O	2022	dataset	Ground State Cooling of an Ultracoherent Electromechanical System	https://doi.org/10.5281/zenodo.5996594
+Albert Schliesser	O	2024	article	Two-dimensional gallium phosphide optomechanical crystal in the resolved-sideband regime	https://doi.org/10.1364/oe.540244
+Albert Schliesser	O	2026	other	Measuring high field gradients of cobalt nanomagnets in a spin-mechanical setup	https://doi.org/10.60893/figshare.apl.c.8211074
+Albert Schliesser	O	2026	other	"""Revised v2 ""Supplementary S1-S5"""""	https://doi.org/10.60893/figshare.apl.30940865
+Albert Schliesser	O	2026	article	Wide-field stroboscopic imaging of topologically protected phononic modes	https://doi.org/10.1103/5p1k-6vxp
+Levin Maria Albert Seidt	A				
+Jacob Friis Sherson	A				A5080346697
+Jacob Friis Sherson	O	2023	article	Creativity in the age of generative AI	https://doi.org/10.1038/s41562-023-01751-1
+Jacob Friis Sherson	O	2024	review	Using games to understand the mind	https://doi.org/10.1038/s41562-024-01878-9
+Jacob Friis Sherson	O	2022	article	Quantum games and interactive tools for quantum technologies outreach and education	https://doi.org/10.1117/1.oe.61.8.081809
+Jacob Friis Sherson	O	2021	article	Deskilling, Upskilling, and Reskilling: a Case for Hybrid Intelligence	https://doi.org/10.5771/2747-5174-2021-2-24
+Jacob Friis Sherson	O	2021	article	Digital Games for Creativity Assessment: Strengths, Weaknesses and Opportunities	https://doi.org/10.1080/10400419.2021.1971447
+Jacob Friis Sherson	O	2025	article	Agency in Human-AI Collaboration for Image Generation and Creative Writing: Preliminary Insights from Think-Aloud Protocols	https://doi.org/10.1080/10400419.2025.2587803
+Jacob Friis Sherson	O	2022	article	Mapping Citizen Science through the Lens of Human-Centered AI	https://doi.org/10.15346/hc.v9i1.133
+Jacob Friis Sherson	O	2023	book-chapter	A Hybrid Intelligence Approach to Training Generative Design Assistants: Partnership Between Human Experts and AI Enhanced Co-Creative Tools	https://doi.org/10.3233/faia230078
+Jacob Friis Sherson	O	2024	article	HI-TAM, a hybrid intelligence framework for training and adoption of generative design assistants	https://doi.org/10.3389/fcomp.2024.1460381
+Jacob Friis Sherson	O	2025	conference-paper	The Co-Creative Design Framework for Hybrid Intelligence	https://doi.org/10.1145/3698061.3726934
+Jacob Friis Sherson	O	2021	article	Crowdsourcing human common sense for quantum control	https://doi.org/10.1103/physrevresearch.3.013057
+Jacob Friis Sherson	O	2022	article	Predicting quantum dynamical cost landscapes with deep learning	https://doi.org/10.1103/physreva.105.012402
+Jacob Friis Sherson	O	2023	article	Measuring Cognitive Abilities in the Wild: Validating a Population‐Scale Game‐Based Cognitive Assessment	https://doi.org/10.1111/cogs.13308
+Jacob Friis Sherson	O	2023	article	Towards a quantum ready workforce: the updated European Competence Framework for Quantum Technologies	https://doi.org/10.3389/frqst.2023.1225733
+Jacob Friis Sherson	O	2021	article	Quantum composer: A programmable quantum visualization and simulation tool for education and research	https://doi.org/10.1119/10.0003396
+Jacob Friis Sherson	O	2022	article	Culturo-Scientific Storytelling	https://doi.org/10.3390/educsci12070474
+Jacob Friis Sherson	O	2024	article	The Quantum Technology Open Master: widening access to the quantum industry	https://doi.org/10.1140/epjqt/s40507-024-00217-1
+Jacob Friis Sherson	O	2024	article	A framework for curriculum transformation in quantum information science and technology education	https://doi.org/10.1088/1361-6404/ad7e60
+Jacob Friis Sherson	O	2023	conference-paper	Picture This: AI-Assisted Image Generation as a Resource for Problem Construction in Creative Problem-Solving	https://doi.org/10.1145/3591196.3596823
+Jacob Friis Sherson	O	2023	book-chapter	A Multi-Dimensional Development and Deployment Framework for Hybrid Intelligence	https://doi.org/10.3233/faia230119
+Jacob Friis Sherson	O	2024	book-chapter	Contributions from Pilot Projects in Quantum Technology Education as Support Action to Quantum Flagship	https://doi.org/10.1007/978-3-031-72541-8_15
+Jacob Friis Sherson	O	2025	article	Building Europe’s quantum technology education community	https://doi.org/10.1140/epjqt/s40507-025-00362-1
+Jacob Friis Sherson	O	2022	article	Anyon braiding on a fractal lattice with a local Hamiltonian	https://doi.org/10.1103/physreva.105.l021302
+Jacob Friis Sherson	O	2021	article	Approximate dynamics leading to more optimal control: Efficient exact derivatives	https://doi.org/10.1103/physreva.103.062612
+Jacob Friis Sherson	O	2021	conference-paper	Utopian or Dystopian?: using a ML-assisted image generation game to empower the general public to envision the future	https://doi.org/10.1145/3450741.3466815
+Jacob Friis Sherson	O	2021	article	Achieving fast high-fidelity optimal control of many-body quantum dynamics	https://doi.org/10.1103/physreva.104.052210
+Jacob Friis Sherson	O	2022	article	Student use of a quantum simulation and visualization tool	https://doi.org/10.1088/1361-6404/ac93c7
+Jacob Friis Sherson	O	2023	article	Towards Game-Based Assessment of Creative Thinking	https://doi.org/10.1080/10400419.2023.2198845
+Jacob Friis Sherson	O	2024	conference-paper	Games for Quantum Physics Education	https://doi.org/10.1088/1742-6596/2727/1/012010
+Jacob Friis Sherson	O	2021	article	Remote multi-user control of the production of Bose–Einstein condensates	https://doi.org/10.1007/s00340-021-07671-0
+Jacob Friis Sherson	O	2023	article	The open master: A new model of transnational higher education	https://doi.org/10.1080/01587919.2023.2280064
+Jacob Friis Sherson	O	2023	article	Making an IMPRESSion: mapping out future directions in modern physics education	https://doi.org/10.1088/1361-6552/ad11e8
+Jacob Friis Sherson	O	2024	book-chapter	Operational Criteria of Hybrid Intelligence for Generative AI Virtual Assistants	https://doi.org/10.3233/faia240229
+Jacob Friis Sherson	O	2024	book-chapter	A Hybrid Intelligent Change Management Approach to Generative AI Adoption	https://doi.org/10.3233/faia240228
+Jacob Friis Sherson	O	2022	book-chapter	Towards Hybrid Intelligence Workflows: Integrating Interface Design and Scalable Deployment	https://doi.org/10.3233/faia220227
+Jacob Friis Sherson	O	2021	article	Geometry of turbulent dissipation and the Navier–Stokes regularity problem	https://doi.org/10.1038/s41598-021-87774-y
+Jacob Friis Sherson	O	2024	book	The Ecosystem of Science Communication in the Post-Truth Era: Perspectives, Contexts, Dynamics	https://doi.org/10.51746/9789612972417
+Jacob Friis Sherson	O	2022	conference-paper	Dynamical modelling of player engagement and skill in the Quantum Moves 2 citizen science game	https://doi.org/10.22323/1.418.0074
+Jacob Friis Sherson	O	2025	book-chapter	The Next-GenAI-Rtists: A New Generation of Artists with Generative Tools	https://doi.org/10.1007/978-3-031-86551-0_11
+Jacob Friis Sherson	O	2025	book-chapter	A 4P Hybrid Intelligent Development and Organisational Change Framework	https://doi.org/10.3233/faia250687
+Jacob Friis Sherson	O	2026	article	The quantum technology job market: data driven analysis of 3641 job posts	https://doi.org/10.1140/epjqt/s40507-026-00477-z
+Jacob Friis Sherson	O	2023	article	Harnessing collective intelligence for the future of learning – a co-constructed research and development agenda	https://doi.org/10.15346/hc.v10i1.141
+Jacob Friis Sherson	O	2022	article	Inequality and fairness with heterogeneous endowments	https://doi.org/10.1371/journal.pone.0276864
+Jacob Friis Sherson	O	2025	article	Quantum technology master’s: a shortcut to the quantum industry?	https://doi.org/10.1140/epjqt/s40507-024-00299-x
+Jacob Friis Sherson	O	2024	article	Engaging young people in science communication about mental health during COVID-19	https://doi.org/10.22323/2.23010801
+Jacob Friis Sherson	O	2026	book-chapter	Designing for Long-Term Impact: A Hybrid Intelligence Case Study in AI-Assisted Mentalizing-Based Therapy	https://doi.org/10.3233/faia260552
+Jacob Friis Sherson	O	2024	book-chapter	Facilitating Human Feedback for GenAI Prompt Optimization	https://doi.org/10.3233/faia240230
+Jacob Friis Sherson	O	2022	article	Single-shot determination of quantum phases via continuous measurements	https://doi.org/10.1103/physreva.106.032215
+Jacob Friis Sherson	O	2026	article	Modelling quantum curriculum innovation: a pilot study	https://doi.org/10.1140/epjqt/s40507-026-00476-0
+Jacob Friis Sherson	O	2026	conference-paper	National Quantum Strategies: a Data-Driven Approach to Understanding the Quantum Ecosystem	https://doi.org/10.1109/qcnc69040.2026.00157
+Jacob Friis Sherson	O	2026	book-chapter	Operationalizing Human Authorship in AI Systems: A Design Science Study of the FERC Framework	https://doi.org/10.3233/faia260554
+Jacob Friis Sherson	O	2021	conference-paper	CREA.blender:a GAN based casual creator for creativity assessment	https://openalex.org/W4412337421
+Jacob Friis Sherson	O	2022	conference-paper	Exploring CrowdBots: a new evolutionary pathway for citizen science projects	https://doi.org/10.22323/1.418.0122
+Jacob Friis Sherson	O	2023	conference-paper	Crea.visions: A Platform for Casual Co-Creation with a Purpose Envisioning the Future through Human-AI Collaboration with Multiple Stakeholders	https://openalex.org/W4412231519
+Jacob Friis Sherson	O	2021	preprint	Revisiting Citizen Science Through the Lens of Hybrid Intelligence	https://doi.org/10.48550/arxiv.2104.14961
+Jacob Friis Sherson	O	2023	preprint	The impact of an interactive visualization and simulation tool on learning quantum physics: Results of an eye-tracking study	https://doi.org/10.48550/arxiv.2302.06286
+Jacob Friis Sherson	O	2021	preprint	A training programme for early-stage researchers that focuses on developing personal science outreach portfolios	https://doi.org/10.48550/arxiv.2103.03109
+Jacob Friis Sherson	O	2021	preprint	Student engagement and learning with Quantum Composer	https://openalex.org/W3157260863
+Jacob Friis Sherson	O	2025	preprint	From Interaction to Collaboration: How Hybrid Intelligence Enhances Chatbot Feedback	https://doi.org/10.31219/osf.io/jhefx_v1
+Jacob Friis Sherson	O	2022	other	Knowledge for Change: A Decade of Citizen Science (2020–2030) in Support of the SDGs	https://doi.org/10.5281/zenodo.5972212
+Jacob Friis Sherson	O	2021	preprint	SciNote: Collaborative Problem Solving and Argumentation Tool	https://doi.org/10.48550/arxiv.2105.06269
+Jacob Friis Sherson	O	2023	conference-abstract	Help – I need somebody? Comparing Groups’ and Individuals’ Search Behavior Across Problem Complexity	https://doi.org/10.5465/amproc.2023.191bp
+Jacob Friis Sherson	O	2022	dataset	"Data and software for ""Inequality and fairness with heterogeneous endowments"""	https://doi.org/10.6084/m9.figshare.21103021
+Jacob Friis Sherson	O	2023	erratum	Erratum: Anyon braiding on a fractal lattice with a local Hamiltonian [Phys. Rev. A 105 , L021302 (2022)]	https://doi.org/10.1103/physreva.107.069901
+Jacob Friis Sherson	O	2023	article	Modelling assisted tunneling on the Bloch sphere using the Quantum Composer	https://doi.org/10.1088/1361-6404/ad139a
+Jacob Friis Sherson	O	2023	dataset	Skill Lab	https://doi.org/10.1037/t92500-000
+Jacob Friis Sherson	O	2021	conference-paper	OptimizerSpace:A CSCL Tool for Search and Optimization	https://openalex.org/W4412223866
+Jacob Friis Sherson	O	2021	conference-paper	ArguNotes:Collaborative Problem Solving and Argumentation Tool	https://openalex.org/W4412223936
+Jacob Friis Sherson	O	2022	other	Knowledge for Change: A Decade of Citizen Science (2020-2030) in Support of the SDGs	https://openalex.org/W4412231523
+Jacob Friis Sherson	O	2022	conference-paper	Cultural Storytellings in Quantum Science and Technology Education:Symposium: Contributions from Pilot Projects in Quantum Technology Education as Support Action to Quantum Flagship	https://openalex.org/W4412302654
+Jacob Friis Sherson	O	2025	book-chapter	Framing the Future of Work: How Narrative Influences Perceptions of AI	https://doi.org/10.3233/faia250683
+Jacob Friis Sherson	O	2026	article	What makes a good quantum outreach video? An evaluation framework for a quantum video playlist	https://doi.org/10.1140/epjqt/s40507-025-00461-z
+Jacob Friis Sherson	O	2026	supplementary-materials	Modelling quantum curriculum innovation: a pilot study	https://doi.org/10.6084/m9.figshare.c.8307762
+Jacob Friis Sherson	O	2026	article	Additional file 1 of Modelling quantum curriculum innovation: a pilot study	https://doi.org/10.6084/m9.figshare.31330137
+Jacob Friis Sherson	O	2026	conference-paper	The Martian Game: Exploring Open-Ended Question-Asking via an Online Gaming Environment	https://doi.org/10.1145/3786304.3787878
+Jacob Friis Sherson	O	2026	article	Ensuring Human Authorship in the Age of Generative AI: The FERC Framework for Governed Human-AI Collaboration Ensuring Human Authorship in the Age of Generative AI: The FERC Framework for Governed Human-AI Collaboration	https://doi.org/10.13140/rg.2.2.26276.03208
+Jacob Friis Sherson	O	2026	conference-paper	Ensuring Human Authorship in the Age of Generative AI: The FERC Framework for Governed Human–AI Collaboration	https://doi.org/10.1145/3821402.3830141
+Jacob Friis Sherson	O	2026	book-chapter	Unifying Terminologies Toward a Shared HHAI Vocabulary	https://doi.org/10.3233/faia260544
+Jacob Friis Sherson	O	2026	book-chapter	A Preliminary Study of Hybrid Intelligence, Social Listening, and Chatbot Feedback	https://doi.org/10.3233/faia260556
+Jacob Friis Sherson	O	2026	book-chapter	Designing Hybrid Intelligence for ESG Tracking: Early Findings from Interviews and Prototype-Based Co-Design	https://doi.org/10.3233/faia260553
+Jacob Friis Sherson	O	2026	preprint	The Hybrid Intelligence Manifesto:A Multi-Level Socio-Technical Framework for Keeping Human Judgement Economically Valuable	https://openalex.org/W7202007207
+Jacob Friis Sherson	O	2026	article	From Framework to Interface: FERC-Bot as a Metacognitive Training System for Governed Human-AI Collaboration	https://doi.org/10.13140/rg.2.2.29786.09924
+Jacob Friis Sherson	O	2026	article	The power of framing AI: preliminary evidence on hybrid intelligence and future work perceptions	https://doi.org/10.1080/0144929x.2026.2736077
+Sophia Carmen Simon	A				
 Anders Søndberg Sørensen	A				RATE-LIMITED
 Hans Stærkind	A				RATE-LIMITED
 Frederik Uldall	A				RATE-LIMITED
