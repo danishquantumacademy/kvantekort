@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:46Z",
+ "generated": "2026-11-09T06:24Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,219 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-04T21:46Z"
+     "checked": "2026-11-09T06:24Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-04T21:46Z"
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "nanophoton": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-01-01",
+     "title": "Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary phase plates",
+     "url": "https://orbit.dtu.dk/en/publications/broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Broadband Parametric Amplification in AlGaAs-on-Insulator Nanowaveguides",
+     "url": "https://orbit.dtu.dk/en/publications/broadband-parametric-amplification-in-algaas-on-insulator-nanowav/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers",
+     "url": "https://orbit.dtu.dk/en/publications/carrier-transport-in-electrically-driven-photonic-crystal-membran/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 3,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qls": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-01-01",
+     "title": "Coherent dynamics of individual excitons in a quantum dot embedded in a nanopost",
+     "url": "https://orbit.dtu.dk/en/publications/coherent-dynamics-of-individual-excitons-in-a-quantum-dot-embedde/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Indistinguishable single photons from a quantum dot in a nanopost cavity",
+     "url": "https://orbit.dtu.dk/en/publications/indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emitters",
+     "url": "https://orbit.dtu.dk/en/publications/local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 3,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qnet": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2025-01-01",
+     "title": "Nanowire quantum dots: from material design to quantum photonic technologies",
+     "url": "https://orbit.dtu.dk/en/publications/nanowire-quantum-dots-from-material-design-to-quantum-photonic-te/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-networks/"
+    },
+    {
+     "date": "2024-05-08",
+     "title": "Location Qubits in a Multiple-Quantum-Dot System",
+     "url": "https://orbit.dtu.dk/en/publications/location-qubits-in-a-multiple-quantum-dot-system/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-networks/"
+    },
+    {
+     "date": "2024-01-01",
+     "title": "MBE growth and properties of III-V hybrid nanostrucres on silicon for quantum applications",
+     "url": "https://orbit.dtu.dk/en/publications/mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-networks/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-networks/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 3,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qcs": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-01-01",
+     "title": "200-Gbaud Single-Wavelength Direct-Detection Transmission over 75 km C-band SSMF Using a PIC-based Recurrent Spectrum Slicer",
+     "url": "https://orbit.dtu.dk/en/publications/200-gbaud-single-wavelength-direct-detection-transmission-over-75/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Broad band on-chip Ti-based RF terminator for high-speed photonic platforms",
+     "url": "https://orbit.dtu.dk/en/publications/broad-band-on-chip-ti-based-rf-terminator-for-high-speed-photonic/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Flattening of Microring Resonator Based Soliton Comb Using Parametric Spectral Shaping",
+     "url": "https://orbit.dtu.dk/en/publications/flattening-of-microring-resonator-based-soliton-comb-using-parame/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://orbit.dtu.dk/en/organisations/quantum-communication-systems/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 3,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "mro": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-01-01",
+     "title": "Assessment of the Severity of Atopic Dermatitis Using Atomic Force Microscopy Analysis of Skin Tape Strips",
+     "url": "https://orbit.dtu.dk/en/publications/assessment-of-the-severity-of-atopic-dermatitis-using-atomic-forc/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Bio-sensing with NV-centers in diamond",
+     "url": "https://orbit.dtu.dk/en/publications/bio-sensing-with-nv-centers-in-diamond/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Nanodiamond-Based Quantum Sensing Reveals Changes in Endo-Lysosomal Activity of Stimulated Cardiac Fibroblasts in a Cellular Fibrosis Model",
+     "url": "https://orbit.dtu.dk/en/publications/nanodiamond-based-quantum-sensing-reveals-changes-in-endo-lysosom/",
+     "text": "",
+     "kind": "output",
+     "source": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://orbit.dtu.dk/en/organisations/magnetic-resonance-by-optics/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 3,
+     "checked": "2026-11-09T06:24Z"
     }
    ]
   },
@@ -196,14 +401,339 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-04T21:46Z"
+     "checked": "2026-11-09T06:24Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": false,
-     "error": "<urlopen error timed out>",
-     "checked": "2026-11-04T21:46Z"
+     "error": "no items found",
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qmath": {
+   "news": [
+    {
+     "date": "2026-03-01",
+     "title": "Jeong-Hoon Ju, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/jeong-hoon-ju-postdoc/",
+     "text": "2026.03.03 Jeong-Hoon was employed as a postdoc on 1 March 2026 in the Analysis & Quantum Section, associated…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-02-01",
+     "title": "Zhongxia Shang, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/zhongxia-shang-postdoc/",
+     "text": "2026.02.18 Zhongxia Shang was employed on 1 February 2026 as a postdoc in the department’s Section for Analysi…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Wanqi Li, research assistant",
+     "url": "https://www.math.ku.dk/english/news/new-names/wanqi-li-research-assistant/",
+     "text": "2026.02.18 Wanqi Li was 1. January 2026, employed as a research assistant in the Centre for the Mathematics of…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Emil Aagaard Clausen, PhD student",
+     "url": "https://www.math.ku.dk/english/news/new-names/emil-aagaard-clausen-phd-student/",
+     "text": "2026.01.16 Emil was hired on 1 January 2026 as a PhD student in the Analysis & Quantum section.",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-12-01",
+     "title": "Yufei Wang, PhD student",
+     "url": "https://www.math.ku.dk/english/news/new-names/yufei-wang-phd-student/",
+     "text": "2025.12.01 Yufei Wang was employed as a PhD student on 1 December 2025 in the Analysis & Quantum Section,…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "Vjosa Blakaj, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/vjosa-blakaj-postdoc/",
+     "text": "2025.11.11 Vjosa Blakaj was employed on 1 October 2025 as a postdoc in the department’s Analysis & Quantum…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "Arthur Samuel Morris, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/arthur-samuel-morris-postdoc/",
+     "text": "2025.11.03 Arthur was employed on 1 October 2025 at the department’s section for Analysis & Quantum, affiliate…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "Vincent Louatron, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/vincent-louatron-postdoc/",
+     "text": "2025.10.09 Vincent Louatron started as a postdoc on 1 October 2025 in the department’s section of Analysis &…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "Vladyslav Visnevskyi, PhD student",
+     "url": "https://www.math.ku.dk/english/news/new-names/vladyslav-visnevskyi-phd-student/",
+     "text": "2025.10.01 Vladyslav Visnevskyi was employed on 1 October 2025 at the department’s Analysis & Quantum Section…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "Marvin Raimund Schulz, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/marvin-raimund-schulz-postdoc/",
+     "text": "2025.09.29 Marvin is employed as a postdoctoral researcher from 1 October 2025 in the QA Section, affiliated…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-09-01",
+     "title": "Anne van Grinsven, PhD student",
+     "url": "https://www.math.ku.dk/english/news/new-names/anne-van-grinsven-phd-student/",
+     "text": "2025.09.02 The department has employed Anne van Grinsven as a PhD student from 1 September 2025. She will be…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-08-01",
+     "title": "Marta Pavelka, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/marta-pavelka-postdoc/",
+     "text": "2025.08.18 Marta Pavelka was employed on 1 August 2025 as a postdoc in the Analysis & Quantum Section.",
+     "source": "https://qmath.ku.dk/about/news/"
+    }
+   ],
+   "events": [
+    {
+     "date": "2027-01-13",
+     "title": "Kursus: Kvantecomputerens Matematik",
+     "url": "https://qmath.ku.dk/events/efteruddannelse-for-gymnasielaerere/",
+     "text": "13 Jan. 2027 Efteruddannelse for gymnasielærere, 21. og 22. september 2026 samt 13. januar 2027.",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2027-01-13",
+     "title": "Kursus: Kvantecomputerens matematik (III)",
+     "url": "https://qmath.ku.dk/events/kursus-kvantecomputerens-matematik-iii/",
+     "text": "13 Jan. 2027 Efteruddannelse for gymnasielærere, september 2026 og januar 2027. Dag 3 ud af 3.",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-12-09",
+     "title": "QLunch: Johannes Agerskov",
+     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qlunch-johannes-agerskov/",
+     "text": "9 Dec. 2026, 12:00-13:00 Speaker: Johannes Agerskov",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-12-08",
+     "title": "MCS-MP Seminar: Simon Larson",
+     "url": "https://qmath.ku.dk/events/mcs-mp-seminar/mcs-mp-seminar-simon-larsson/",
+     "text": "8 Dec. 2026, 15:15-16:00 Speaker: Simon Larson (Gothenburg)",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-12-02",
+     "title": "QLunch: TBA",
+     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qlunch-tba/",
+     "text": "2 Dec. 2026, 12:00-13:00 Speaker: NN",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-25",
+     "title": "QLunch: Kenta Higuchi",
+     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qlunch-kenta-higuchi/",
+     "text": "25 Nov. 2026, 12:00-13:00 Speaker: Kenta Higuchi",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-24",
+     "title": "MCS-MP Seminar: Katie Gittins",
+     "url": "https://qmath.ku.dk/events/mcs-mp-seminar/mcs-mp-seminar-katie-gittiins/",
+     "text": "24 Nov. 2026, 15:15-16:00 Speaker: Katie Gittins (Durham)",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-23",
+     "title": "Q-Access Roadshow",
+     "url": "https://www.math.ku.dk/english/calendar/events/2026/q-access-roadshow/",
+     "text": "23 Nov. 2026, 13:30-16:00 This is for researchers and students wanting to know more about getting access to quantum computers or getting inspiration on the applications of quantum computing.",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-18",
+     "title": "QLunch: Charlotte Fløe Kristjansen",
+     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qlunch-charlotte/",
+     "text": "18 Nov. 2026, 12:00-13:00 Speaker: Charlotte Fløe Kristjansen",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-18",
+     "title": "QSeminar: Joseph Carolan",
+     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qseminar-joseph-carolan/",
+     "text": "18 Nov. 2026, 14:00-15:00 Speaker: Joseph Carolan",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-17",
+     "title": "Ph.D Defence Elias David Michael Theil",
+     "url": "https://www.math.ku.dk/english/calendar/events/ph.d-defence-elias-david-michael-theil/",
+     "text": "17 Nov. 2026, 13:00 Title: Unitary-equivariant and permutation-invariant quantum channels",
+     "source": "https://qmath.ku.dk/events/"
+    },
+    {
+     "date": "2026-11-13",
+     "title": "Ph.D. Defense Bhavik Kumar",
+     "url": "https://www.math.ku.dk/english/calendar/events/ph.d.-defense-bhavik-kumar/",
+     "text": "13 Nov. 2026, 9:30 Title: Learning from dynamics in analogue quantum simulators",
+     "source": "https://qmath.ku.dk/events/"
+    }
+   ],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": [
+    {
+     "url": "https://qmath.ku.dk/about/news/",
+     "kind": "news",
+     "ok": true,
+     "n": 48,
+     "checked": "2026-11-09T06:24Z"
+    },
+    {
+     "url": "https://qmath.ku.dk/events/",
+     "kind": "events",
+     "ok": true,
+     "n": 15,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qop": {
+   "news": [
+    {
+     "date": "2013-12-27",
+     "title": "Kvanteinformation",
+     "url": "https://researchprofiles.ku.dk/en/clippings/kvanteinformation/",
+     "text": "",
+     "kind": "press",
+     "source": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/"
+    },
+    {
+     "date": "2013-11-28",
+     "title": "Danske forskere viser en ny vej mod kvantecomputere",
+     "url": "https://researchprofiles.ku.dk/en/clippings/danske-forskere-viser-en-ny-vej-mod-kvantecomputere/",
+     "text": "",
+     "kind": "press",
+     "source": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/"
+    },
+    {
+     "date": "2012-06-10",
+     "title": "Kvanteinformation",
+     "url": "https://researchprofiles.ku.dk/en/clippings/kvanteinformation-2/",
+     "text": "",
+     "kind": "press",
+     "source": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/"
+    }
+   ],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-04-27",
+     "title": "A quantum-coherent photon-emitter interface in the original telecom band",
+     "url": "https://researchprofiles.ku.dk/en/publications/a-quantum-coherent-photon-emitter-interface-in-the-original-telec/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/"
+    },
+    {
+     "date": "2026-02-19",
+     "title": "Censorship of quantum resources against quantum catalysis",
+     "url": "https://researchprofiles.ku.dk/en/publications/censorship-of-quantum-resources-against-quantum-catalysis/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right",
+     "url": "https://researchprofiles.ku.dk/en/publications/adiabatic-preparation-of-many-body-quantum-states-getting-the-beg/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://researchprofiles.ku.dk/en/organisations/kvanteoptik-og-fotonik/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 6,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "cmp": {
+   "news": [
+    {
+     "date": "2024-06-21",
+     "title": "DPG-Technologietransferpreis 2024",
+     "url": "https://researchprofiles.ku.dk/en/clippings/dpg-technologietransferpreis-2024/",
+     "text": "",
+     "kind": "press",
+     "source": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    },
+    {
+     "date": "2024-03-19",
+     "title": "Elegant use of noise for quantum computing",
+     "url": "https://researchprofiles.ku.dk/en/clippings/elegant-use-of-noise-for-quantum-computing/",
+     "text": "",
+     "kind": "press",
+     "source": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    },
+    {
+     "date": "2024-03-19",
+     "title": "Feedback-Driven Quantum Stabilization: Real-Time Two-Axis Control of Spin Qubits",
+     "url": "https://researchprofiles.ku.dk/en/clippings/feedback-driven-quantum-stabilization-real-time-two-axis-control-/",
+     "text": "",
+     "kind": "press",
+     "source": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    }
+   ],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-06-15",
+     "title": "A Flexible Implementation of Strong Segregation Theory for Two-Dimensional ABC Star Terpolymer Morphologies",
+     "url": "https://researchprofiles.ku.dk/en/publications/a-flexible-implementation-of-strong-segregation-theory-for-two-di/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    },
+    {
+     "date": "2026-06-01",
+     "title": "Accurate simulations of magnetic excitations in the neutron simulation package McStas",
+     "url": "https://researchprofiles.ku.dk/en/publications/accurate-simulations-of-magnetic-excitations-in-the-neutron-simul/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "Adiabatic non-Abelian braiding of imperfect Majorana bound states",
+     "url": "https://researchprofiles.ku.dk/en/publications/adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states/",
+     "text": "",
+     "kind": "output",
+     "source": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://researchprofiles.ku.dk/en/organisations/faststoffysik/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 6,
+     "checked": "2026-11-09T06:24Z"
     }
    ]
   },
@@ -278,7 +808,7 @@
      "date": "2024-01-16",
      "title": "Quantum Science Colloquium: Nikolaos Proukakis",
      "url": "https://phys.au.dk/ccq/show/artikel/quantum-science-colloquium-nikolaos-proukakis",
-     "text": "16 jan. 1024 dage, Tirsdag 16. januar 2024, kl. 11:00 - . 1525-626 Join us when Nikolaos Proukakis visits us. He will give a talk titled: Dissipation in ultracold quantum gases",
+     "text": "16 jan. Tirsdag 16. januar 2024, kl. 11:00 1525-626 Join us when Nikolaos Proukakis visits us. He will give a talk titled: Dissipation in ultracold quantum gases",
      "source": "https://phys.au.dk/ccq/events"
     },
     {
@@ -362,19 +892,106 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-04T21:46Z"
+     "checked": "2026-11-09T06:24Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-04T21:46Z"
+     "checked": "2026-11-09T06:24Z"
     }
    ]
   },
+  "hqmd": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": [
+    {
+     "url": "https://phys.au.dk/forskning/forskningsomraader/faststof-og-materialefysik/yong-chen",
+     "kind": "news",
+     "ok": false,
+     "error": "no items found",
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qmg": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": [
+    {
+     "url": "https://www.quantummaterialsgroup.com/highlights",
+     "kind": "news",
+     "ok": false,
+     "error": "no items found",
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "udqm": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": [
+    {
+     "url": "https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials",
+     "kind": "news",
+     "ok": false,
+     "error": "no items found",
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "auphys": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": []
+  },
+  "auchem": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": []
+  },
+  "aucs": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": []
+  },
+  "aumath": {
+   "news": [],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [],
+   "sources": []
+  },
   "polima": {
    "news": [
+    {
+     "date": "2026-11-05",
+     "title": "Regular guest from University of Minho",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/regular-guest-from-university-of-minho",
+     "text": "05.11.2026 PhD student André Octávio Soares will spend three months every year at POLIMA during his PhD study",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
     {
      "date": "2026-11-04",
      "title": "Visit from Université Paris-Saclay",
@@ -450,13 +1067,6 @@
      "title": "PhD Defense and visit from Birmingham",
      "url": "https://www.sdu.dk/en/forskning/polima/news/phd-defense-and-visit-from-birmingham",
      "text": "30.06.2026 29 June Nikolaos Kyvelos successfully defended his PhD thesis.",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
-     "date": "2026-06-18",
-     "title": "Visit from Brazil",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/visit-from-brazil",
-     "text": "18.06.2026 PhD student Victor Duarte spends the week at POLIMA",
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     }
    ],
@@ -534,15 +1144,211 @@
      "url": "https://www.sdu.dk/en/forskning/polima/news",
      "kind": "news",
      "ok": true,
-     "n": 109,
-     "checked": "2026-11-04T21:46Z"
+     "n": 110,
+     "checked": "2026-11-09T06:24Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
+     "ok": false,
+     "error": "no items found",
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qm": {
+   "news": [
+    {
+     "date": "2026-09-08",
+     "title": "Kapløbet, ingen vil tabe",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/kapl%C3%B8bet-ingen-vil-tabe/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-09-02",
+     "title": "SDU er i verdenselite med banebrydende forskning",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-2/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-09-02",
+     "title": "SDU er i verdenselite med banebrydende forskning",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-09-02",
+     "title": "SDU er i verdenselite med banebrydende forskning",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-08-29",
+     "title": "Med millioner i ryggen og verdens klogeste på holdet: Det her kan ende med at ændre hele verden",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/med-millioner-i-ryggen-og-verdens-klogeste-p%C3%A5-holdet-det-her-kan-/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    }
+   ],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-10-06",
+     "title": "A Study of Moduli Spaces of Parabolic Connections and Geometric Langlands Correspondence",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/a-study-of-moduli-spaces-of-parabolic-connections-and-geometric-l/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-03-13",
+     "title": "A remark on continuous K-theory and Fourier-Sato transformation",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/a-remark-on-continuous-k-theory-and-fourier-sato-transformation/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum invariants",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/",
+     "kind": "outputs",
      "ok": true,
-     "n": 2,
-     "checked": "2026-11-04T21:46Z"
+     "n": 10,
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "nanooptics": {
+   "news": [
+    {
+     "date": "2025-05-02",
+     "title": "Lys kan afsløre kræft på sekunder – danske forskere bag ny teknologi",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/lys-kan-afsl%C3%B8re-kr%C3%A6ft-p%C3%A5-sekunder-danske-forskere-bag-ny-teknolog/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2025-04-25",
+     "title": "Professor om sin opfindelse: – Kan være forskellen på liv og død",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/professor-om-sin-opfindelse-kan-v%C3%A6re-forskellen-p%C3%A5-liv-og-d%C3%B8d-2/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2025-04-25",
+     "title": "Professor om sin opfindelse: – Kan være forskellen på liv og død",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/professor-om-sin-opfindelse-kan-v%C3%A6re-forskellen-p%C3%A5-liv-og-d%C3%B8d/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2025-03-31",
+     "title": "EU i dagens aviser mandag den 31. marts 2025",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/eu-i-dagens-aviser-mandag-den-31-marts-2025/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2025-03-31",
+     "title": "Lysstråler skal opdage kræft",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/lysstr%C3%A5ler-skal-opdage-kr%C3%A6ft/",
+     "text": "",
+     "kind": "press",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    }
+   ],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-10-07",
+     "title": "Electrooptic reflective metasurfaces for discrete beam deflection",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/electrooptic-reflective-metasurfaces-for-discrete-beam-deflection/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2026-07-07",
+     "title": "Electrically controlled nonlocal metasurfaces",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/electrically-controlled-nonlocal-metasurfaces/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2026-06-15",
+     "title": "Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on plasmonic quarter-wave plates",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/aperture-layout-induced-effects-in-polarization-resolved-multifoc/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2026-02-19",
+     "title": "Integrated multifunctional computational imaging platform using cascaded electrically tunable liquid crystal elements",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/integrated-multifunctional-computational-imaging-platform-using-c/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Chip-integrated metasurface-enabled single-photon skyrmion sources",
+     "url": "https://portal.findresearcher.sdu.dk/en/publications/chip-integrated-metasurface-enabled-single-photon-skyrmion-source/",
+     "text": "",
+     "kind": "output",
+     "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 10,
+     "checked": "2026-11-09T06:24Z"
     }
    ]
   },
@@ -608,7 +1414,73 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-04T21:46Z"
+     "checked": "2026-11-09T06:24Z"
+    }
+   ]
+  },
+  "qsas": {
+   "news": [
+    {
+     "date": "2026-09-15",
+     "title": "Kvantify workshop explores tools for efficient quantum programming",
+     "url": "https://vbn.aau.dk/en/clippings/kvantify-workshop-explores-tools-for-efficient-quantum-programmin/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/"
+    },
+    {
+     "date": "2026-05-05",
+     "title": "Eksterne midler går ofte hånd i hånd med høje forskerlønninger",
+     "url": "https://vbn.aau.dk/en/clippings/eksterne-midler-g%C3%A5r-ofte-h%C3%A5nd-i-h%C3%A5nd-med-h%C3%B8je-forskerl%C3%B8nninger/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/"
+    },
+    {
+     "date": "2026-03-06",
+     "title": "Kvantify joins DKK 17.4 million project to advance quantum computing for drug discovery",
+     "url": "https://vbn.aau.dk/en/clippings/kvantify-joins-dkk-174-million-project-to-advance-quantum-computi/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/"
+    }
+   ],
+   "events": [],
+   "grants": [],
+   "jobs": [],
+   "outputs": [
+    {
+     "date": "2026-07-24",
+     "title": "Analysis and Verification of Quantum Communication Protocols in UPPAAL",
+     "url": "https://vbn.aau.dk/en/publications/analysis-and-verification-of-quantum-communication-protocols-in-u/",
+     "text": "",
+     "kind": "output",
+     "source": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/"
+    },
+    {
+     "date": "2026-06-24",
+     "title": "Are Large Language Models Ready for Quantum Software Engineering? A Multivocal Literature Review",
+     "url": "https://vbn.aau.dk/en/publications/are-large-language-models-ready-for-quantum-software-engineering-/",
+     "text": "",
+     "kind": "output",
+     "source": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/"
+    },
+    {
+     "date": "2026-01-01",
+     "title": "Data-Selective Online Battery Identification Using Extended Time Regular Expressions",
+     "url": "https://vbn.aau.dk/en/publications/data-selective-online-battery-identification-using-extended-time-/",
+     "text": "",
+     "kind": "output",
+     "source": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://vbn.aau.dk/en/organisations/quantum-systems-analysis-and-synthesis/",
+     "kind": "outputs",
+     "ok": true,
+     "n": 6,
+     "checked": "2026-11-09T06:24Z"
     }
    ]
   }

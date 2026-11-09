@@ -2,43 +2,43 @@
  "sources": {
   "https://www.jobindex.dk/jobsoegning.rss?q=quantum": {
    "status": "read",
-   "read": "2026-11-04",
+   "read": "2026-11-09",
    "ads": 20,
-   "kept": 18
+   "kept": 19
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=kvante": {
    "status": "read",
-   "read": "2026-11-04",
-   "ads": 4,
+   "read": "2026-11-09",
+   "ads": 3,
    "kept": 0
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=qubit": {
    "status": "read",
-   "read": "2026-11-04",
+   "read": "2026-11-09",
    "ads": 3,
    "kept": 3
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=kvanteteknologi": {
    "status": "read",
-   "read": "2026-11-04",
+   "read": "2026-11-09",
    "ads": 2,
    "kept": 0
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=quantum%20computing": {
    "status": "read",
-   "read": "2026-11-04",
+   "read": "2026-11-09",
    "ads": 20,
-   "kept": 11
+   "kept": 10
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=quantum%20sensing": {
    "status": "read",
-   "read": "2026-11-04",
+   "read": "2026-11-09",
    "ads": 20,
-   "kept": 14
+   "kept": 16
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=post-quantum": {
    "status": "read",
-   "read": "2026-11-04",
+   "read": "2026-11-09",
    "ads": 0,
    "kept": 0
   }
@@ -50,7 +50,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1713510",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -64,7 +64,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1713503",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -78,7 +78,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1697184",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [
     "7.5",
@@ -99,7 +99,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1697179",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [
     "3.3",
@@ -119,7 +119,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1696153",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -133,7 +133,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1710607",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -147,7 +147,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1710604",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -161,7 +161,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1694057",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -175,7 +175,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1701381",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [
     "1.1"
@@ -193,7 +193,7 @@
    "employer": "Danmarks Tekniske Universitet",
    "place": "Kgs. Lyngby",
    "url": "https://www.jobindex.dk/vis-job/h1699858",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": true,
    "subs": [
     "4.4",
@@ -214,7 +214,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1699626",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -228,7 +228,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1707874",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -242,7 +242,7 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1706564",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
@@ -256,12 +256,176 @@
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
    "url": "https://www.jobindex.dk/vis-job/h1697918",
-   "last": "2026-11-04",
+   "last": "2026-11-09",
    "academic": false,
    "subs": [],
    "level": "",
    "prof": {},
    "technical": false,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-04",
+   "title": "Senior Production Technician",
+   "employer": "Hamamatsu Photonics",
+   "place": "Birkerød",
+   "url": "https://www.jobindex.dk/vis-job/h1705578",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [],
+   "level": "",
+   "prof": {},
+   "technical": false,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-04",
+   "title": "Production Technician",
+   "employer": "Hamamatsu Photonics",
+   "place": "Birkerød",
+   "url": "https://www.jobindex.dk/vis-job/h1697649",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [],
+   "level": "",
+   "prof": {},
+   "technical": false,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-04",
+   "title": "Junior Nanofabrication Engineer",
+   "employer": "Temp-Team A/S",
+   "place": "Junior Nanofabrication Engineer We are looking for a Junior ",
+   "url": "https://www.jobindex.dk/vis-job/h1710821",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [
+    "3.2"
+   ],
+   "level": "B2",
+   "prof": {
+    "II": "B2"
+   },
+   "technical": true,
+   "query": "qubit"
+  },
+  {
+   "first": "2026-11-04",
+   "title": "Expert in qubit control and readout for cryostat-based experiments",
+   "employer": "",
+   "place": "København Ø",
+   "url": "https://www.jobindex.dk/vis-job/r14084515",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [
+    "4.6"
+   ],
+   "level": "C1",
+   "prof": {
+    "II": "C1"
+   },
+   "technical": true,
+   "query": "qubit"
+  },
+  {
+   "first": "2026-11-04",
+   "title": "Senior Quantum Measurement Engineer",
+   "employer": "Microsoft Danmark ApS",
+   "place": "Kgs. Lyngby, København",
+   "url": "https://www.jobindex.dk/vis-job/r14075074",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [
+    "1.1"
+   ],
+   "level": "C1",
+   "prof": {
+    "I": "C1"
+   },
+   "technical": true,
+   "query": "qubit"
+  },
+  {
+   "first": "2026-11-04",
+   "title": "Part-time academic staff for Development and Testing of FPGA-based Electronic - DTU Electro, DTU",
+   "employer": "Danmarks Tekniske Universitet",
+   "place": "Kgs. Lyngby",
+   "url": "https://www.jobindex.dk/vis-job/h1713239",
+   "last": "2026-11-09",
+   "academic": true,
+   "subs": [
+    "3.4",
+    "2.2"
+   ],
+   "level": "C1",
+   "prof": {
+    "II": "C1",
+    "I": "B2"
+   },
+   "technical": true,
+   "query": "quantum computing"
+  },
+  {
+   "first": "2026-11-09",
+   "title": "Postdoc position in Quantum Software and Quantum Communication (DEIS)",
+   "employer": "Aalborg Universitet",
+   "place": "Aalborg",
+   "url": "https://www.jobindex.dk/vis-job/r14090572",
+   "last": "2026-11-09",
+   "academic": true,
+   "subs": [
+    "5.3",
+    "7.1",
+    "3.5"
+   ],
+   "level": "C2",
+   "prof": {
+    "II": "C2"
+   },
+   "technical": true,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-09",
+   "title": "PhD Project in Photonic Quantum Error Correction",
+   "employer": "",
+   "place": "København Ø",
+   "url": "https://www.jobindex.dk/vis-job/r14089287",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [
+    "5.3",
+    "4.4",
+    "2.2"
+   ],
+   "level": "C2",
+   "prof": {
+    "II": "C2",
+    "I": "C1"
+   },
+   "technical": true,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-09",
+   "title": "Senior Postdoc of SNSPDs",
+   "employer": "",
+   "place": "København Ø",
+   "url": "https://www.jobindex.dk/vis-job/r14087117",
+   "last": "2026-11-09",
+   "academic": false,
+   "subs": [
+    "6.3",
+    "5.1",
+    "1.1"
+   ],
+   "level": "C2",
+   "prof": {
+    "II": "C2",
+    "I": "C1"
+   },
+   "technical": true,
    "query": "quantum"
   },
   {
@@ -284,34 +448,6 @@
   },
   {
    "first": "2026-11-04",
-   "title": "Senior Production Technician",
-   "employer": "Hamamatsu Photonics",
-   "place": "Birkerød",
-   "url": "https://www.jobindex.dk/vis-job/h1705578",
-   "last": "2026-11-04",
-   "academic": false,
-   "subs": [],
-   "level": "",
-   "prof": {},
-   "technical": false,
-   "query": "quantum"
-  },
-  {
-   "first": "2026-11-04",
-   "title": "Production Technician",
-   "employer": "Hamamatsu Photonics",
-   "place": "Birkerød",
-   "url": "https://www.jobindex.dk/vis-job/h1697649",
-   "last": "2026-11-04",
-   "academic": false,
-   "subs": [],
-   "level": "",
-   "prof": {},
-   "technical": false,
-   "query": "quantum"
-  },
-  {
-   "first": "2026-11-04",
    "title": "Quantum Laser Systems Specialist",
    "employer": "Hamamatsu Photonics",
    "place": "Birkerød",
@@ -327,80 +463,6 @@
    },
    "technical": true,
    "query": "quantum"
-  },
-  {
-   "first": "2026-11-04",
-   "title": "Junior Nanofabrication Engineer",
-   "employer": "Temp-Team A/S",
-   "place": "Junior Nanofabrication Engineer We are looking for a Junior ",
-   "url": "https://www.jobindex.dk/vis-job/h1710821",
-   "last": "2026-11-04",
-   "academic": false,
-   "subs": [
-    "3.2"
-   ],
-   "level": "B2",
-   "prof": {
-    "II": "B2"
-   },
-   "technical": true,
-   "query": "qubit"
-  },
-  {
-   "first": "2026-11-04",
-   "title": "Expert in qubit control and readout for cryostat-based experiments",
-   "employer": "",
-   "place": "København Ø",
-   "url": "https://www.jobindex.dk/vis-job/r14084515",
-   "last": "2026-11-04",
-   "academic": false,
-   "subs": [
-    "4.6"
-   ],
-   "level": "C1",
-   "prof": {
-    "II": "C1"
-   },
-   "technical": true,
-   "query": "qubit"
-  },
-  {
-   "first": "2026-11-04",
-   "title": "Senior Quantum Measurement Engineer",
-   "employer": "Microsoft Danmark ApS",
-   "place": "Kgs. Lyngby, København",
-   "url": "https://www.jobindex.dk/vis-job/r14075074",
-   "last": "2026-11-04",
-   "academic": false,
-   "subs": [
-    "1.1"
-   ],
-   "level": "C1",
-   "prof": {
-    "I": "C1"
-   },
-   "technical": true,
-   "query": "qubit"
-  },
-  {
-   "first": "2026-11-04",
-   "title": "Part-time academic staff for Development and Testing of FPGA-based Electronic - DTU Electro, DTU",
-   "employer": "Danmarks Tekniske Universitet",
-   "place": "Kgs. Lyngby",
-   "url": "https://www.jobindex.dk/vis-job/h1713239",
-   "last": "2026-11-04",
-   "academic": true,
-   "subs": [
-    "3.4",
-    "2.2"
-   ],
-   "level": "C1",
-   "prof": {
-    "II": "C1",
-    "I": "B2"
-   },
-   "technical": true,
-   "query": "quantum computing"
   }
  ]
 }
