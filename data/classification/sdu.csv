@@ -1,53 +1,53 @@
 institution,level,code,ref,url,title,language,ects,dept,cfqt_primary,cfqt_secondary,prof_I,prof_II,prof_III,cfqt_status,kw_strong,kw_medium,note
-SDU,BSc,FY544,,,Quantum mechanics I,Danish or English,5,FKF,1.1,1.2,B1,,,estimated,24,6,
-SDU,BSc,FY547,,,Quantum mechanics II,Danish or English,5,FKF,1.1,2.1,B1,,,estimated,6,2,
-SDU,BSc,FY560,,,Physics of Quantum Matter,English,5,FKF,2.3,2.4,B2,,,estimated,6,9,Same content as FY845
-SDU,BSc,KE522,,,Quantum Chemistry and Theoretical Spectroscopy,Danish,10,FKF,2.4,1.1,B1,,,estimated,15,23,
-SDU,BSc,KE554,,,Quantum chemistry for medicinal chemistry,Danish,5,FKF,2.4,1.1,B1,,,estimated,12,18,
-SDU,BSc,KE540,,,Quantum Chemistry and Modelling,Danish or English,5,FKF,2.4,,A2,,,estimated,7,1,
-SDU,MSc,QC801,,,Introduction to Quantum Computing,English,10,QC,5.1,1.1;1.2,B1,A2,,estimated,25,0,MSc in Quantum Computing
-SDU,MSc,QC802,,,Quantum Information Theory,English,10,QC,1.2,7.1,C1,,,estimated,20,1,MSc in Quantum Computing
-SDU,MSc,QC803,,,Quantum Platforms and Programming,English,10,QC,4.8,5.3;4.6,B1,B1,,estimated,22,1,MSc in Quantum Computing
-SDU,MSc,QC804,,,Quantum Algorithms,English,10,QC,5.5,5.4,B2,B1,,estimated,16,0,MSc in Quantum Computing
-SDU,MSc,QC805,,,Quantum Cryptography and Quantum Key Distribution,English,10,QC,7.3,7.1;7.4,B1,B1,A2,estimated,13,10,MSc in Quantum Computing
-SDU,MSc,QC806,,,Fault-tolerant Quantum Computing,English,10,QC,5.3,5.1,B2,B1,,estimated,14,2,MSc in Quantum Computing
-SDU,MSc,QC807,,,Quantum Continuous Variables Formalism,English,10,QC,2.2,1.2,C1,,,estimated,17,4,MSc in Quantum Computing
-SDU,MSc,QC808,,,Topological Quantum Computing,English,10,QC,4.5,5.3;2.3,C1,A2,,estimated,12,1,MSc in Quantum Computing
-SDU,MSc,QC809,,,Quantum Computation and Phases of Quantum Matter,English,10,QC,2.4,4.5;5.2,C1,,,estimated,20,0,MSc in Quantum Computing
-SDU,MSc,QC810,,,Quantum Machine Learning,English,10,QC,5.5,4.7,B1,B1,,estimated,6,0,MSc in Quantum Computing
-SDU,MSc,DM893,,,Quantum Computing,Danish or English,5,IMADA,5.1,5.5,B1,A2,,estimated,15,0,
-SDU,MSc,MM866,,,Introduction to HPC and Quantum Computing,English,5,IMADA,4.7,5.3,,A2,,estimated,4,0,
-SDU,MSc,FY803,,,Quantum physics,Danish or English,10,FKF,1.2,1.1,B2,,,estimated,3,0,Approved as PhD course
-SDU,MSc,FY845,,,Physics of Quantum Matter,English,5,FKF,2.3,2.4,B2,,,estimated,6,9,
-SDU,MSc,T470021101,186488,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en,Quantum Engineering,English,5,TEK,4.8,4.1;4.2,B1,B1,,estimated,22,9,MSc in Engineering Physics
-SDU,BSc,FY548,,,Solid state physics,Danish or English,5,FKF,2.3,,B1,,,estimated,3,12,
-SDU,BSc,FY550,,,Statistical Physics,Danish or English,5,FKF,2.4,,A2,,,estimated,2,0,
-SDU,BSc,KE533,,,Computational Quantum Chemistry,Danish or English,5,FKF,2.4,3.5,B1,,,estimated,2,10,
-SDU,MSc,FY837,,,Solid state physics,Danish or English,5,FKF,2.3,,B1,,,estimated,3,12,
-SDU,MSc,FY809,,,Quantum Field Theory,Danish or English,10,FKF,2.2,,C1,,,estimated,4,0,
-SDU,MSc,KE820,,,Computational Quantum Chemistry,Danish or English,5,FKF,2.4,3.5,B1,,,estimated,2,10,Approved as PhD course
-SDU,MSc,KE829,,,"Computational Quantum Chemistry II: Optical, electrical and magnetic properties",Danish or English,5,FKF,2.4,,B2,,,estimated,2,12,
-SDU,MSc,T470038101,188652,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en,Atomic Physics,English,5,TEK,2.1,2.2,B1,,,estimated,5,16,
-SDU,MSc,T470005101,186481,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en,Laser Physics and Technology,English,5,TEK,3.3,3.4,A2,A2,,estimated,2,27,
-SDU,MSc,T470008101,204228,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en,Nano-optics,English,5,TEK,2.2,3.3,B1,,,estimated,1,41,
-SDU,BSc,FY542,,,Experimental physics and semiconductors,Danish or English,5,FKF,2.3,3.1,A2,,,estimated,1,6,
+SDU,BSc,FY544,,,Quantum mechanics I,Danish or English,5,FKF,1.1,1.2,B1,,,checked,24,6,
+SDU,BSc,FY547,,,Quantum mechanics II,Danish or English,5,FKF,1.1,1.2;2.1,B1,,,checked,6,2,
+SDU,BSc,FY560,,,Physics of Quantum Matter,English,5,FKF,2.3,2.4,B2,,,checked,6,9,Same content as FY845
+SDU,BSc,KE522,,,Quantum Chemistry and Theoretical Spectroscopy,Danish,10,FKF,2.4,1.1,B1,,,checked,15,23,
+SDU,BSc,KE554,,,Quantum chemistry for medicinal chemistry,Danish,5,FKF,2.4,1.1,B1,,,checked,12,18,
+SDU,BSc,KE540,,,Quantum Chemistry and Modelling,Danish or English,5,FKF,2.4,1.1,A2,,,checked,7,1,
+SDU,MSc,QC801,,,Introduction to Quantum Computing,English,10,QC,5.1,1.1;1.2,B1,A2,,checked,25,0,MSc in Quantum Computing
+SDU,MSc,QC802,,,Quantum Information Theory,English,10,QC,1.2,7.1,C1,,,checked,20,1,MSc in Quantum Computing
+SDU,MSc,QC803,,,Quantum Platforms and Programming,English,10,QC,5.1,5.2;4.8,B1,B1,,checked,22,1,MSc in Quantum Computing
+SDU,MSc,QC804,,,Quantum Algorithms,English,10,QC,5.5,5.4,B2,B1,,checked,16,0,MSc in Quantum Computing
+SDU,MSc,QC805,,,Quantum Cryptography and Quantum Key Distribution,English,10,QC,7.3,7.1;7.4,B1,B1,A2,checked,13,10,MSc in Quantum Computing
+SDU,MSc,QC806,,,Fault-tolerant Quantum Computing,English,10,QC,5.3,5.1,B2,B1,,checked,14,2,MSc in Quantum Computing
+SDU,MSc,QC807,,,Quantum Continuous Variables Formalism,English,10,QC,2.2,1.2,C1,,,checked,17,4,MSc in Quantum Computing
+SDU,MSc,QC808,,,Topological Quantum Computing,English,10,QC,4.5,5.3;2.3,C1,A2,,checked,12,1,MSc in Quantum Computing
+SDU,MSc,QC809,,,Quantum Computation and Phases of Quantum Matter,English,10,QC,2.3,5.3;4.5,,,,checked,20,0,MSc in Quantum Computing
+SDU,MSc,QC810,,,Quantum Machine Learning,English,10,QC,5.5,4.7,B1,B1,,checked,6,0,MSc in Quantum Computing
+SDU,MSc,DM893,,,Quantum Computing,Danish or English,5,IMADA,5.1,5.5;1.2,B1,,,checked,15,0,
+SDU,MSc,MM866,,,Introduction to HPC and Quantum Computing,English,5,IMADA,4.7,5.1,A2,A2,,checked,4,0,
+SDU,MSc,FY803,,,Quantum physics,Danish or English,10,FKF,1.2,1.1,B2,,,checked,3,0,Approved as PhD course
+SDU,MSc,FY845,,,Physics of Quantum Matter,English,5,FKF,2.3,2.4,B2,,,checked,6,9,
+SDU,MSc,T470021101,186488,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186488&lang=en,Quantum Engineering,English,5,TEK,2.3,4.1;4.2,,B1,,checked,22,9,MSc in Engineering Physics
+SDU,BSc,FY548,,,Solid state physics,Danish or English,5,FKF,2.3,,B1,,,checked,3,12,
+SDU,BSc,FY550,,,Statistical Physics,Danish or English,5,FKF,2.4,,A2,,,checked,2,0,
+SDU,BSc,KE533,,,Computational Quantum Chemistry,Danish or English,5,FKF,2.4,1.2,B1,,,checked,2,10,
+SDU,MSc,FY837,,,Solid state physics,Danish or English,5,FKF,2.3,,B1,,,checked,3,12,
+SDU,MSc,FY809,,,Quantum Field Theory,Danish or English,10,FKF,2.2,,C1,,,checked,4,0,
+SDU,MSc,KE820,,,Computational Quantum Chemistry,Danish or English,5,FKF,2.4,1.2,B1,,,checked,2,10,Approved as PhD course
+SDU,MSc,KE829,,,"Computational Quantum Chemistry II: Optical, electrical and magnetic properties",Danish or English,5,FKF,2.4,,B2,,,checked,2,12,
+SDU,MSc,T470038101,188652,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=188652&lang=en,Atomic Physics,English,5,TEK,2.1,2.2;4.3,,,,checked,5,16,
+SDU,MSc,T470005101,186481,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186481&lang=en,Laser Physics and Technology,English,5,TEK,3.3,3.4,A2,A2,,checked,2,27,
+SDU,MSc,T470008101,204228,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=204228&lang=en,Nano-optics,English,5,TEK,2.2,3.3,B1,,,checked,1,41,
+SDU,BSc,FY542,,,Experimental physics and semiconductors,Danish or English,5,FKF,2.3,3.1,A2,,,checked,1,6,
 SDU,BSc,FY545,,,Particle physics,Danish or English,5,FKF,,,,,,estimated,1,0,
-SDU,BSc,FY549,,,Electrodynamics,English,5,FKF,2.2,,,,,estimated,1,1,
-SDU,BSc,FT504,,,Electromagnetism and Optics,Danish or English,10,FKF,2.2,3.3,,,,estimated,0,10,
-SDU,BSc,MM553,,,Computational Physics,Danish or English,10,IMADA,3.5,1.2,,,,estimated,1,2,
-SDU,BSc,KE525,,,Inorganic chemistry A,Danish or English,5,FKF,2.1,,A1,,,estimated,0,4,
-SDU,BSc,DM572,,,Networks and Cybersecurity,Danish or English,10,IMADA,7.1,,,,,estimated,0,2,
-SDU,BSc,DM586,,,Networks and Cybersecurity,Danish or English,7.5,IMADA,7.1,,,,,estimated,0,2,
+SDU,BSc,FY549,,,Electrodynamics,English,5,FKF,,,,,,checked,1,1,
+SDU,BSc,FT504,,,Electromagnetism and Optics,Danish or English,10,FKF,2.2,3.3,,,,checked,0,10,
+SDU,BSc,MM553,,,Computational Physics,Danish or English,10,IMADA,3.5,1.2,,,,checked,1,2,
+SDU,BSc,KE525,,,Inorganic chemistry A,Danish or English,5,FKF,,,,,,checked,0,4,
+SDU,BSc,DM572,,,Networks and Cybersecurity,Danish or English,10,IMADA,7.1,,,,,checked,0,2,
+SDU,BSc,DM586,,,Networks and Cybersecurity,Danish or English,7.5,IMADA,7.1,,,,,checked,0,2,
 SDU,MSc,FY831,,,Introduction to quantum gravity,Danish or English,5,FKF,,,,,,estimated,10,0,
 SDU,MSc,FY824,,,Quantum field theory in curved space,Danish or English,5,FKF,,,,,,estimated,5,0,Approved as PhD course
 SDU,MSc,FY841,,,Particle physics,Danish or English,5,FKF,,,,,,estimated,1,0,
-SDU,MSc,MM837,,,Computational Physics,Danish or English,10,IMADA,3.5,,,,,estimated,1,2,
-SDU,MSc,MM868,,,Compact quantum metric spaces,Danish or English,5,IMADA,1.2,,B1,,,estimated,4,0,Pure mathematics
-SDU,MSc,DM886,,,Cryptographic Engineering,Danish or English,5,IMADA,7.1,,,,,estimated,0,7,
-SDU,MSc,T470017101,186485,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en,Advanced Physical Optics,English,10,TEK,3.3,2.2,,,,estimated,0,41,
-SDU,MSc,T470042101,199298,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en,Optical System Design and Spectroscopy,English,5,TEK,3.3,,,,,estimated,0,19,
-SDU,MSc,T470040101,186494,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en,Journal Club and Industrial Case Studies,English,5,TEK,3.3,8.2,,,A1,estimated,1,2,
-SDU,MSc,T380014401,211138,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en,Material Science in Electrical Engineering,English,5,TEK,2.3,3.2,A1,,,estimated,1,13,
-SDU,MSc,T470030X01,186490,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en,Microtechnology and Device Fabrication,English,5,TEK,3.2,,,,,estimated,0,1,
-SDU,PhD,PC-108871,,https://phdcourses.dk/Course/108871,Theoretical Nano- and Quantum Optics II,,5,TEK,2.2,4.4,C1,,,estimated,9,7,"phdcourses.dk; PhD School, Faculty of Engineering; no date given"
-SDU,PhD,PC-105100,,https://phdcourses.dk/Course/105100,Theoretical Nano- and Quantum Optics I,,5,TEK,2.2,,C1,,,estimated,3,8,"phdcourses.dk; PhD School, Faculty of Engineering; no date given"
+SDU,MSc,MM837,,,Computational Physics,Danish or English,10,IMADA,3.5,1.2,B1,,,checked,1,2,
+SDU,MSc,MM868,,,Compact quantum metric spaces,Danish or English,5,IMADA,1.2,,B1,,,checked,4,0,Pure mathematics
+SDU,MSc,DM886,,,Cryptographic Engineering,Danish or English,5,IMADA,7.1,,,,,checked,0,7,
+SDU,MSc,T470017101,186485,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186485&lang=en,Advanced Physical Optics,English,10,TEK,3.3,2.2,,,,checked,0,41,
+SDU,MSc,T470042101,199298,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=199298&lang=en,Optical System Design and Spectroscopy,English,5,TEK,3.3,,,,,checked,0,19,
+SDU,MSc,T470040101,186494,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186494&lang=en,Journal Club and Industrial Case Studies,English,5,TEK,3.3,8.1,,,A1,checked,1,2,
+SDU,MSc,T380014401,211138,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=211138&lang=en,Material Science in Electrical Engineering,English,5,TEK,2.3,3.2,A1,,,checked,1,13,
+SDU,MSc,T470030X01,186490,https://odin.sdu.dk/sitecore/index.php?a=fagbesk&id=186490&lang=en,Microtechnology and Device Fabrication,English,5,TEK,3.2,,,,,checked,0,1,
+SDU,PhD,PC-108871,,https://phdcourses.dk/Course/108871,Theoretical Nano- and Quantum Optics II,,5,TEK,2.2,4.4,C1,,,checked,9,7,"phdcourses.dk; PhD School, Faculty of Engineering; no date given"
+SDU,PhD,PC-105100,,https://phdcourses.dk/Course/105100,Theoretical Nano- and Quantum Optics I,,5,TEK,2.2,,C1,,,checked,3,8,"phdcourses.dk; PhD School, Faculty of Engineering; no date given"

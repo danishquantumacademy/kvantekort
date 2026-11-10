@@ -49,6 +49,8 @@ window.CFQT={
 '8.2':{bus:'business|forretning|entrepreneur|iværksæt|innovation|intellectual property|patent|technology readiness|project management|projektledelse|marketing|management'},
 '8.3':{imp:'ethic|\\betik|societ|samfund|sustainab|bæredygtig|responsib|funding'},
 '8.4':{edu:'outreach|formidling|public communication|didakti|teaching|hype|awareness|science communication'}};
+// Danish terms added during the check of the AU, AAU and KU course pages
+(()=>{const add={'1.1':{stat2:'brøndpotential|kassepotential|harmonisk oscillator|egentilstand|stationære tilstande',bloch2:'bloch-sfære|tæthedsoperator',schr2:'bølgefunktion'},'1.2':{dirac2:'dirac-notation|hilbert ?rum',pert2:'perturbationsregning|variationsregning|variationsprincip'},'2.1':{lev2:'atomar struktur|hydrogenatom|simple atomer|atomers|elektroniske tilstande|optiske overgange'},'2.2':{lm2:'vekselvirkningen mellem lys og atomer|lys og stof|laser'},'2.4':{pauli2:'identiske partikler|flerpartikel|slater',mol2:'hartree-fock|tæthedsfunktional|density functional|\\bdft\\b|lcao'},'4.3':{ion2:'ionfælde|laserkøl'},'4.8':{fab2:'fabrication|fremstilling|platform'}};for(const s in add)Object.assign(CFQT[s],add[s])})();
 window.CFQTRE={};for(const s in CFQT){CFQTRE[s]={};for(const t in CFQT[s])CFQTRE[s][t]=new RegExp(CFQT[s][t],'i')}
 window.cfqtEval=(text,assigned)=>{const hits={};for(const s in CFQTRE){const h=Object.keys(CFQTRE[s]).filter(t=>CFQTRE[s][t].test(text));if(h.length)hits[s]=h}
 const v=assigned.map(s=>{const n=(hits[s]||[]).length;return s+'='+(n>=2?'Ja':n==1?'Delvist':'Nej')+'('+(hits[s]||[]).join(',')+')'});

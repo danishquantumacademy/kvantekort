@@ -1,38 +1,38 @@
 institution,level,code,title,language,ects,dept,cfqt_primary,cfqt_secondary,prof_I,prof_II,prof_III,cfqt_status,kw_strong,kw_medium,note
-AAU,BSc,M-NT-B4-3,Grundlæggende kvantemekanik,Danish,5,MP,1.1,1.2,B1,,,estimated,17,3,also M-NT-B4-3A and F-FYS-B4-2
-AAU,BSc,F-FYS-B4-6,Kvantemekanik II: metoder (miniprojekt; fysik sidefag),Danish or English,5,MP,1.2,1.1,B1,,,estimated,6,3,
-AAU,BSc,F-NAN-B6-5,Kvante-elektronik,Danish or English,5,MP,2.3,3.2,B1,A2,,estimated,8,4,
-AAU,MSc,K-KEM-B6-48,Kvantekemi,Danish,5,KB,2.4,1.1,B1,,,estimated,5,2,Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).
-AAU,MSc,DSNDATK215,Quantum Information and Computing,English,5,CS,5.1,5.5;1.2,B1,A2,,estimated,45,0,also DSNCSITK229 and ESNESNK1K1
-AAU,MSc,ESNCEKK3K2,Quantum Technologies,English,5,ES,5.1,5.5,B1,A2,,estimated,33,0,
-AAU,MSc,F-NFM-K2-3,Quantum materials and optical nanostructures,English,5,MP,2.3,3.2;2.2,B2,,,estimated,6,12,also F-NFM-K2-3A
-AAU,MSc,F-FYS-K2-3,Kvantemekanik II: metoder,Danish,5,MP,1.2,,B2,,,estimated,6,3,also F-FYS-K2-3A
-AAU,BSc,M-NT-B5-4,Statistisk mekanik,Danish or English,5,MP,2.4,,A2,,,estimated,5,0,also M-NT-B5-4A
-AAU,BSc,K-KEM-B3-57,Kemisk binding,Danish,5,KB,2.4,,A2,,,estimated,1,0,
-AAU,BSc,M-NT-B6-3,Solid State Physics 2,Danish or English,5,MP,2.3,,B1,,,estimated,0,6,
-AAU,MSc,F-FYS-K1-3,Statistisk mekanik,Danish or English,5,MP,2.4,,B1,,,estimated,1,1,also F-FYS-K1-3A
-AAU,MSc,F-FYS-K1-4,Solid State Physics II: Electronic Structure,English,5,MP,2.3,,B1,,,estimated,0,6,
-AAU,MSc,F-FYS-K3-9,"Halvledere: fysik, komponenter og teknologi",English,5,MP,2.3,3.2,B1,A2,,estimated,1,16,
-AAU,MSc,F-FYS-K1-5,Moderne fysik,Danish,5,MP,1.1,2.1,A2,,,estimated,2,1,
-AAU,BSc,F-FYS-B2-1A,Gassers termodynamiske og optiske egenskaber (P2),Danish,15,MP,2.1,,A1,,,estimated,1,3,project; also F-FYS-B2-1 and M-FYS-B2-1
-AAU,BSc,M-NT-B5-3,Energifysik,English,5,MP,2.3,,A1,,,estimated,1,2,
-AAU,BSc,M-NT-B3-4,Faststoffysik I,Danish,5,MP,2.3,,,,,estimated,0,1,also F-FYS-B3-3
-AAU,BSc,F-FYS-B4-3,Optik og spektroskopi,Danish,5,MP,3.3,2.2,,,,estimated,0,7,
-AAU,BSc,M-NT-B4-2,Optik - workshop,Danish,5,MP,3.3,,,,,estimated,0,11,also F-FYS-B4-5
-AAU,BSc,M-NT-B4-4,Anvendt optik,Danish,5,MP,3.3,,,,,estimated,0,11,
-AAU,BSc,M-NT-B6-2,Fotonik og optoelektronik,Danish,5,MP,3.3,,,,,estimated,0,4,
-AAU,BSc,F-NAN-B6-6,Optoelektronik,Danish,5,MP,3.3,3.2,,,,estimated,0,5,
-AAU,BSc,M-NT-B5-2,Nano- og mikrofabrikation,English,5,MP,3.2,,,,,estimated,0,1,
-AAU,BSc,F-NAN-B5-2,Nanofabrication,English,5,MP,3.2,,,,,estimated,0,0,
-AAU,BSc,F-NAN-B2-1,Kunstige nanostrukturer (P2),Danish or English,15,MP,3.2,,,,,estimated,1,0,project; also M-NT-B2-1
-AAU,MSc,K-BT-B6-14,NMR og MS,Danish,5,KB,2.1,,,,,estimated,1,8,Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).
-AAU,BSc,ESNITCOB5K1,Network and Application Security,English,5,ES,7.1,,,,,estimated,0,3,
-AAU,MSc,F-FYS-K2-1A,Nanofysik: (A) Optik,Danish,15,MP,2.2,3.3,B1,,,estimated,2,5,project
-AAU,MSc,F-FYS-K1-1A,Fysikkens anvendelser: (A) Teoretisk faststoffysik,Danish,10,MP,2.3,,B1,,,estimated,1,0,project
-AAU,MSc,F-FYS-K1-2A,Fysikkens anvendelser: (B) Eksperimentel faststoffysik,Danish,10,MP,2.3,3.1,A2,,,estimated,1,0,project
-AAU,MSc,F-FYS-K3-1A,Avanceret faststoffysik og optik,Danish,20,MP,2.3,2.2,B2,,,estimated,0,2,project; also F-FYS-K3-3A
-AAU,MSc,K-KEM-K1-20,Materials Chemistry,English,5,KB,3.2,,,,,estimated,0,2,
-AAU,MSc,ESNCYSK1K1,Fundamentals of Security and Cryptography,English,5,ES,7.1,,,,,estimated,0,4,also ESNCYSK1K5
-AAU,MSc,24KMAT2KRYPT,Cryptography,Danish or English,5,MATH,7.1,,,,,estimated,0,0,
-AAU,Master,ESNITV1213,Modern Security Solutions: Safeguarding the Digital Landscape,English,5,ES,7.1,,,A1,A1,estimated,8,3,Includes post-quantum cryptography
-AAU,Master,ESNITV1212,Applied Cryptography,English,5,ES,7.1,,,,,estimated,0,2,
+AAU,BSc,M-NT-B4-3,Grundlæggende kvantemekanik,Danish,5,MP,1.1,1.2,B1,,,checked,17,3,also M-NT-B4-3A and F-FYS-B4-2
+AAU,BSc,F-FYS-B4-6,Kvantemekanik II: metoder (miniprojekt; fysik sidefag),Danish or English,5,MP,2.4,2.1;1.2,B1,B1,,checked,6,3,
+AAU,BSc,F-NAN-B6-5,Kvante-elektronik,Danish or English,5,MP,2.3,3.2,B1,A2,,checked,8,4,
+AAU,MSc,K-KEM-B6-48,Kvantekemi,Danish,5,KB,2.4,1.1,B1,,,checked,5,2,Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).
+AAU,MSc,DSNDATK215,Quantum Information and Computing,English,5,CS,5.1,5.5;1.2,B1,A2,,checked,45,0,also DSNCSITK229 and ESNESNK1K1
+AAU,MSc,ESNCEKK3K2,Quantum Technologies,English,5,ES,5.1,5.5,B1,A2,,checked,33,0,
+AAU,MSc,F-NFM-K2-3,Quantum materials and optical nanostructures,English,5,MP,2.3,3.2,,,,checked,6,12,also F-NFM-K2-3A
+AAU,MSc,F-FYS-K2-3,Kvantemekanik II: metoder,Danish,5,MP,2.4,2.1;1.2,B2,B2,,checked,6,3,also F-FYS-K2-3A
+AAU,BSc,M-NT-B5-4,Statistisk mekanik,Danish or English,5,MP,2.4,,A2,,,checked,5,0,also M-NT-B5-4A
+AAU,BSc,K-KEM-B3-57,Kemisk binding,Danish,5,KB,2.4,,A2,,,checked,1,0,
+AAU,BSc,M-NT-B6-3,Solid State Physics 2,Danish or English,5,MP,2.3,,B1,,,checked,0,6,
+AAU,MSc,F-FYS-K1-3,Statistisk mekanik,Danish or English,5,MP,2.4,,B1,,,checked,1,1,also F-FYS-K1-3A
+AAU,MSc,F-FYS-K1-4,Solid State Physics II: Electronic Structure,English,5,MP,2.3,,B1,,,checked,0,6,
+AAU,MSc,F-FYS-K3-9,"Halvledere: fysik, komponenter og teknologi",English,5,MP,2.3,3.2,B1,A2,,checked,1,16,
+AAU,MSc,F-FYS-K1-5,Moderne fysik,Danish,5,MP,,,,,,checked,2,1,
+AAU,BSc,F-FYS-B2-1A,Gassers termodynamiske og optiske egenskaber (P2),Danish,15,MP,1.1,,A1,,,checked,1,3,project; also F-FYS-B2-1 and M-FYS-B2-1
+AAU,BSc,M-NT-B5-3,Energifysik,English,5,MP,,,,,,checked,1,2,
+AAU,BSc,M-NT-B3-4,Faststoffysik I,Danish,5,MP,2.3,,,,,checked,0,1,also F-FYS-B3-3
+AAU,BSc,F-FYS-B4-3,Optik og spektroskopi,Danish,5,MP,3.3,2.2,,,,checked,0,7,
+AAU,BSc,M-NT-B4-2,Optik - workshop,Danish,5,MP,3.3,,,,,checked,0,11,also F-FYS-B4-5
+AAU,BSc,M-NT-B4-4,Anvendt optik,Danish,5,MP,3.3,,,,,checked,0,11,
+AAU,BSc,M-NT-B6-2,Fotonik og optoelektronik,Danish,5,MP,3.3,,,,,checked,0,4,
+AAU,BSc,F-NAN-B6-6,Optoelektronik,Danish,5,MP,3.3,3.2,,,,checked,0,5,
+AAU,BSc,M-NT-B5-2,Nano- og mikrofabrikation,English,5,MP,3.2,,,,,checked,0,1,
+AAU,BSc,F-NAN-B5-2,Nanofabrication,English,5,MP,3.2,,,,,checked,0,0,
+AAU,BSc,F-NAN-B2-1,Kunstige nanostrukturer (P2),Danish or English,15,MP,3.2,,,,,checked,1,0,project; also M-NT-B2-1
+AAU,MSc,K-BT-B6-14,NMR og MS,Danish,5,KB,1.1,2.4,B1,,,checked,1,8,Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).
+AAU,BSc,ESNITCOB5K1,Network and Application Security,English,5,ES,7.1,,,,,checked,0,3,
+AAU,MSc,F-FYS-K2-1A,Nanofysik: (A) Optik,Danish,15,MP,3.3,3.2,,,,checked,2,5,project
+AAU,MSc,F-FYS-K1-1A,Fysikkens anvendelser: (A) Teoretisk faststoffysik,Danish,10,MP,2.3,,B1,,,checked,1,0,project
+AAU,MSc,F-FYS-K1-2A,Fysikkens anvendelser: (B) Eksperimentel faststoffysik,Danish,10,MP,2.3,3.2,,,,checked,1,0,project
+AAU,MSc,F-FYS-K3-1A,Avanceret faststoffysik og optik,Danish,20,MP,2.3,3.3,,,,checked,0,2,project; also F-FYS-K3-3A
+AAU,MSc,K-KEM-K1-20,Materials Chemistry,English,5,KB,3.2,,,,,checked,0,2,
+AAU,MSc,ESNCYSK1K1,Fundamentals of Security and Cryptography,English,5,ES,7.1,,,,,checked,0,4,also ESNCYSK1K5
+AAU,MSc,24KMAT2KRYPT,Cryptography,Danish or English,5,MATH,7.1,,,,,checked,0,0,
+AAU,Master,ESNITV1213,Modern Security Solutions: Safeguarding the Digital Landscape,English,5,ES,7.1,,,A1,A1,checked,8,3,Includes post-quantum cryptography
+AAU,Master,ESNITV1212,Applied Cryptography,English,5,ES,7.1,,,,,checked,0,2,

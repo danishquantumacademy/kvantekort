@@ -1,0 +1,295 @@
+course	verdicts	new_codes	note
+AAU:24KMAT2KRYPT	7.1=Delvist		Classical cryptography (algebraic problems, cryptanalysis)
+AAU:DSNDATK215	5.1=Ja 5.5=Ja 1.2=Ja		
+AAU:ESNCEKK3K2	5.1=Ja 5.5=Ja		
+AAU:ESNCYSK1K1	7.1=Delvist		Classical cryptography and network security
+AAU:ESNITCOB5K1	7.1=Delvist		Classical cryptography and network security
+AAU:ESNITV1212	7.1=Delvist		Applied classical cryptography
+AAU:ESNITV1213	7.1=Delvist		Classical security solutions
+AAU:F-FYS-B2-1A	2.1=Nej	1.1	P2 project; learning goals name only basic knowledge of quantum-mechanical principles
+AAU:F-FYS-B4-3	3.3=Delvist 2.2=Delvist		Classical optics and optical spectroscopy
+AAU:F-FYS-B4-6	1.2=Delvist 1.1=Nej	2.4;2.1;1.2	Simple atoms, diatomic molecules, variational method, LCAO, Slater determinants, Hartree-Fock, DFT
+AAU:F-FYS-K1-1A	2.3=Delvist		Theoretical solid-state physics project (Danish text)
+AAU:F-FYS-K1-2A	2.3=Delvist 3.1=Nej	2.3;3.2	Experimental solid-state project: synthesis and characterisation of materials; no cryogenics or vacuum named
+AAU:F-FYS-K1-3	2.4=Ja		
+AAU:F-FYS-K1-4	2.3=Ja		
+AAU:F-FYS-K1-5	1.1=Nej 2.1=Nej	-	Modern physics = nuclear physics, particle physics and special relativity; no quantum-technology content
+AAU:F-FYS-K2-1A	2.2=Nej 3.3=Delvist	3.3;3.2	Nano-optics project: optical properties, fabrication and characterisation of nanostructures
+AAU:F-FYS-K2-3	1.2=Delvist	2.4;2.1;1.2	Simple atoms, diatomic molecules, variational method, LCAO, Slater determinants, Hartree-Fock, DFT
+AAU:F-FYS-K3-1A	2.3=Delvist 2.2=Nej	2.3;3.3	Project in solid-state physics or classical optics
+AAU:F-FYS-K3-9	2.3=Ja 3.2=Delvist		
+AAU:F-NAN-B2-1	3.2=Delvist		Artificial nanostructures incl. quantum dots and nanowires; fabrication and characterisation
+AAU:F-NAN-B5-2	3.2=Delvist		Micro- and nanofabrication
+AAU:F-NAN-B6-5	2.3=Delvist 3.2=Delvist		Simple atoms and molecules, quantum wells and wires, nanostructures in electronics and optics
+AAU:F-NAN-B6-6	3.3=Ja 3.2=Delvist		
+AAU:F-NFM-K2-3	2.3=Ja 3.2=Ja 2.2=Nej	2.3;3.2	Quantum materials, quantised conductance, tunnelling microscopy; optics part is plasmonics and photonic crystals, not quantum optics
+AAU:K-BT-B6-14	2.1=Nej	1.1;2.4	NMR: nuclear spin in a magnetic field, RF pulses, couplings in molecules; no atomic physics
+AAU:K-KEM-B3-57	2.4=Delvist		Molecular modelling with quantum-mechanical and classical methods
+AAU:K-KEM-B6-48	2.4=Ja 1.1=Delvist		
+AAU:K-KEM-K1-20	3.2=Delvist		Materials and nanomaterials chemistry
+AAU:M-NT-B3-4	2.3=Delvist		Crystal structure of solids
+AAU:M-NT-B4-2	3.3=Ja		
+AAU:M-NT-B4-3	1.1=Ja 1.2=Ja		Introductory QM: quantum wells, harmonic oscillator, barriers, central potential, spin (Danish text)
+AAU:M-NT-B4-4	3.3=Delvist		Classical optics and optical design
+AAU:M-NT-B5-2	3.2=Delvist		Micro- and nanofabrication
+AAU:M-NT-B5-3	2.3=Nej	-	Energy physics (thermodynamics, solar, wind, nuclear, storage); no quantum content
+AAU:M-NT-B5-4	2.4=Ja		
+AAU:M-NT-B6-2	3.3=Ja		
+AAU:M-NT-B6-3	2.3=Ja		
+AU:285191U029	1.1=Ja 2.1=Delvist	1.1;2.1;3.3	Light quantisation, particle in a box, Bohr model and atomic structure; most of the course is optics (lenses, interference, Gaussian beams, waveguides)
+AU:285201U034	3.2=Delvist 2.3=Ja		Semiconductor devices: band structure, pn junctions, MOS transistors
+AU:285222U008	6.4=Delvist 3.2=Ja		MEMS and sensor fabrication; MEMS is the only 6.4 topic
+AU:285222U010	3.3=Ja		Terahertz optics: generation, detection and spectroscopy
+AU:28523PU002	1.1=Delvist		Modern physics for engineers with differential equations
+AU:285251U002	3.3=Ja		Photonics: lasers, waveguides, photodetectors, modulation
+AU:285252U001	3.3=Ja 4.8=Ja		Photonic integrated circuits incl. quantum photonic integration
+AU:285252U005	3.2=Delvist 2.3=Ja		Spintronics: spin transport, magnetoresistance, spin-orbit coupling
+AU:290252U013	3.2=Delvist		Micro- and nanofabrication and microscopy
+AU:520171U016	7.1=Delvist		Distributed systems and security; classical cryptography only as a tool
+AU:520172U006	7.1=Ja		Cryptology incl. public-key schemes based on LWE (post-quantum)
+AU:520172U007	7.1=Delvist		Cryptographic protocol theory and security proofs
+AU:520172U008	7.1=Delvist		Secure multiparty computation and homomorphic encryption
+AU:520212U009	7.1=Delvist		Systems security with classical cryptography and side-channel (microarchitectural) attacks
+AU:520222U003	5.5=Ja 1.2=Delvist 7.3=Delvist		Quantum information, algorithms and their use in quantum cryptography
+AU:520241U006	7.1=Delvist		Distributed systems and security; classical cryptography only as a tool
+AU:525142U005	1.2=Ja		Differential equations, Green's functions in quantum mechanics, integral transforms
+AU:525171U002	3.3=Ja 3.1=Nej	3.3;2.2	Optics lab: polarisation, Brewster angle, spectra; no cryogenic or vacuum topics
+AU:525171U008	3.3=Ja 2.2=Ja		Lasers, light-atom interaction (classical and quantum), nonlinear optics
+AU:525171U011	2.3=Ja 2.4=Ja		Statistical physics (fermions, bosons, BEC) and solid-state physics
+AU:525171U024	2.3=Ja 2.4=Ja		Statistical physics (Bose-Einstein and Fermi-Dirac) and solid-state physics
+AU:525172U004	2.2=Ja 3.3=Delvist 3.4=Nej	2.2;3.3;4.3	Quantum states of light, Jaynes-Cummings, trapping and cooling of atoms and ions; no electronics
+AU:525172U009	2.3=Ja 3.2=Ja		Surface and semiconductor physics, nanostructures and devices
+AU:525172U013	2.2=Delvist 3.3=Ja		Ultrafast femto- and attosecond laser science
+AU:525192U001	6.3=Delvist		Particle penetration in matter and dosimetry; particle detection
+AU:525202U003	6.3=Delvist 3.4=Delvist		Particle accelerators and detectors
+AU:525222U001	8.4=Ja 1.1=Delvist		Experiments for upper-secondary physics teaching
+AU:525232U001	4.8=Delvist 4.1=Nej 4.3=Ja	4.3;4.8;2.4	Quantum technology realised with trapped ions and cold quantum gases; no superconducting qubits
+AU:525241U005	2.2=Delvist 3.3=Delvist		Electromagnetism, classical optics and relativity
+AU:525241U007	1.2=Nej 2.2=Delvist	2.2	Electromagnetic fields in materials, partly quantum-mechanical; no formalism or information theory
+AU:525242U001	1.2=Delvist 1.1=Delvist		Advanced quantum mechanics
+AU:525242U004	2.1=Ja 2.2=Delvist 3.4=Nej	2.1;2.2;2.4	Atomic and molecular structure, group theory, laser spectroscopy, coherent processes; no electronics
+AU:525242U005	2.3=Ja		Advanced solid-state physics incl. quantum confinement and quantum Hall effect
+AU:525242U013	2.2=Nej	-	Particle physics and the standard model; outside the CFQT content map
+AU:525242U015	4.6=Delvist 5.1=Delvist 7.3=Nej	2.2;3.4;6.1	Quantum engineering: matter-light interaction, quantum states of light and mechanical oscillators, atomic clocks and precision measurement; no QKD or quantum computing basics named
+AU:525242U019	6.7=Delvist 2.1=Nej	6.7;1.1	MRI physics: nuclear-spin dynamics in static and RF fields, relaxation (1.1); no atomic physics
+AU:525251U001	1.1=Ja 2.1=Ja 1.2=Ja		Wave mechanics, Hilbert space, hydrogen atom, perturbation theory, fine and hyperfine structure, Bloch sphere
+AU:525252U008	3.4=Ja 3.3=Ja 4.4=Nej	3.4;3.3;4.3	Advanced quantum experiments with lasers, electromagnetic traps and single-photon detectors
+AU:525261U001	2.2=Delvist 3.3=Delvist		Electromagnetism, classical optics and Python
+AU:525262U003	2.2=Ja 3.3=Delvist 3.4=Nej	2.2;3.3;4.3	Quantum states of light, Jaynes-Cummings, trapping and cooling of atoms and ions; no electronics
+AU:545171U002	2.4=Ja		Thermodynamics and statistical mechanics with quantum models of molecules
+AU:545171U003	2.4=Ja		Molecular reaction dynamics: potential surfaces, wave packets, tunnelling
+AU:545171U012	2.4=Ja 1.1=Nej	2.4;1.2	Quantum chemistry of molecules with group theory (1.2)
+AU:545171U015	2.4=Ja 3.5=Delvist		Computational chemistry: Hartree-Fock, DFT, MP2, molecular dynamics
+AU:545171U024	2.1=Delvist		General chemistry; atomic electronic structure (orbitals, quantum numbers) is one topic
+AU:545171U025	1.1=Delvist		Classical mechanics and quantum mechanics for chemists
+AU:545172U003	2.3=Nej 2.1=Delvist	1.1;2.4	Solid-state NMR: spin-1/2 dynamics and multipulse experiments on molecules; not solid-state physics
+AU:545222U001	2.3=Ja		Band structure theory of solids, superconductors, topological and spintronic materials
+AU:545242U001	2.4=Ja 1.1=Delvist		Theoretical chemistry, time-dependent quantum mechanics and wave packets
+AU:545242U010	2.4=Ja 5.6=Delvist		Second quantisation, many-body methods, superconductivity and quantum chemistry on quantum computers
+AU:560121U001	3.2=Delvist		Nanocharacterisation methods
+AU:560132U002	3.2=Ja 3.1=Nej	3.2	Cleanroom micro- and nanofabrication; no cryogenics or vacuum technology named
+AU:560191U002	3.2=Delvist		Nanosynthesis and nanomaterials incl. quantum dots
+AU:560201U002	1.1=Ja	1.1;1.2;2.1	Schrödinger equation, uncertainty principle, linear algebra in QM, perturbation theory, hydrogen atom, angular momentum, spin
+AU:560241U002	2.2=Delvist 3.3=Delvist		Electromagnetism, classical optics and Python
+AU:PC-147858	2.3=Nej 2.1=Nej	1.1;2.3	Solid-state NMR of inorganic materials: nuclear spin interactions, multiple-pulse experiments
+DTU:01325	1.2=Ja		
+DTU:01425	7.1=Delvist		Conventional cryptography and security analysis only; no quantum or post-quantum element
+DTU:01426	7.1=Delvist		Research-level conventional cryptography (MPC, secret sharing); no quantum element
+DTU:02195	5.5=Ja 5.4=Nej 5.1=Ja	5.5;5.1;5.3	No subroutines (QFT, phase estimation, amplitude amplification) named; quantum computing frameworks and state preparation point to 5.3
+DTU:02196	5.3=Ja 5.1=Ja 3.5=Ja		
+DTU:02197	1.1=Ja 1.2=Ja	1.1;1.2;7.3	Bell inequalities and nonlocality are the core (1.1); quantum groups and graph isomorphisms (1.2); self-testing and device-independent protocols (7.3)
+DTU:02231	7.1=Ja		Classical and public-key cryptography, the quantum threat, Learning With Errors and Regev's scheme
+DTU:02232	7.1=Delvist		Practical implementation of conventional cryptography
+DTU:02234	7.1=Delvist		Literature course on advanced cybersecurity; cryptography only implicit
+DTU:02278	7.1=Ja	7.1;5.5	Post-quantum cryptography; Grover's and Shor's algorithms and their impact are learning objectives
+DTU:10031	2.3=Delvist		Engineering Physics project course; semiconductor nanostructures and graphene among several topics
+DTU:10080	2.3=Ja 1.1=Ja		
+DTU:10081	2.3=Ja 1.1=Ja		
+DTU:10102	1.1=Ja 1.2=Ja 2.1=Delvist		
+DTU:10104	1.1=Ja 1.2=Ja		
+DTU:10112	1.2=Ja 2.4=Ja 1.1=Ja		
+DTU:10122	2.4=Ja		
+DTU:10200	2.3=Ja		Crystal and magnetic structure, phonons and magnons by X-ray and neutron scattering
+DTU:10208	2.2=Nej 3.3=Delvist	2.3;3.3	Crystal structures, lattice vibrations and electron structures (2.3); X-ray spectroscopy is not quantum optics
+DTU:10209	2.3=Delvist 3.1=Nej	2.3	Crystal structure determination at synchrotrons; no cryogenic, vacuum or noise topics
+DTU:10260	2.3=Ja		
+DTU:10302	2.3=Delvist 2.4=Ja 3.5=Ja		DFT for molecules and solids; calculations with ASE and GPAW
+DTU:10304	2.3=Delvist 3.1=Delvist		Surface physics experiments
+DTU:10306	2.3=Delvist 2.2=Ja		
+DTU:10314	2.3=Ja 2.1=Delvist		Magnetism; atomic origin of magnetic moments only
+DTU:10315	2.3=Ja 2.1=Delvist		Magnetism; atomic origin of magnetic moments only
+DTU:10317	2.3=Ja		
+DTU:10319	2.3=Ja		
+DTU:10321	3.2=Ja 3.3=Delvist		
+DTU:10325	2.3=Ja 3.2=Ja 1.2=Delvist		Quantum transport in nanostructures, band structure, Green's functions
+DTU:10333	2.3=Nej	-	Sustainable energy technologies; no solid-state or quantum topics named
+DTU:10350	3.5=Ja 1.2=Ja		Finite-element modelling in Comsol; PDEs incl. the Schrödinger equation
+DTU:10380	2.2=Ja 3.3=Ja 4.4=Delvist		Quantum optics: field quantisation and light-matter interaction
+DTU:10384	1.2=Delvist 5.1=Ja 7.3=Ja	1.1;5.1;7.3	Mixed states and formalism covered, entropies/channels not; superposition, measurement, qubits, entanglement (1.1) are the base of the course; also teleportation, Shor/Grover, QRNG
+DTU:10385	5.1=Ja 6.1=Delvist 7.1=Ja		
+DTU:10386	3.4=Ja 3.3=Delvist 4.6=Nej	3.4;3.3;2.2	Generation, detection and characterisation of quantum states of light and technical noise; quantum optics (2.2) rather than qubit state control
+DTU:10387	3.5=Ja 5.3=Delvist 5.2=Nej	3.5;5.3;5.1	Scientific computing in Python with quantum optics and quantum information libraries; no quantum simulators
+DTU:10507	2.3=Delvist		Surface physics and proposal writing
+DTU:10508	2.3=Delvist 2.4=Ja		Electronic structure theory of interacting electrons
+DTU:10512	2.2=Ja 4.4=Nej 5.1=Delvist	2.2;5.1	PhD journal club in quantum optics and quantum information; no photonic hardware topics
+DTU:10519	2.2=Delvist 3.1=Nej	2.2	Electron microscopy, electron optics and partial coherence; no cryogenic, vacuum or noise topics
+DTU:10521	2.3=Ja 3.2=Ja		Electronic and photonic properties of 2D materials
+DTU:10540	2.3=Delvist 3.5=Ja		DFT summer school with ASE and GPAW
+DTU:10550	4.8=Nej 5.1=Delvist 6.1=Delvist	5.1;6.1	PhD school on selected quantum technology topics: quantum information processing, computing and sensing; no technology realisation named
+DTU:10850	3.2=Ja 4.8=Ja 3.1=Delvist		Process flows for fabricating quantum devices and integrated quantum systems
+DTU:10855	3.2=Ja 3.1=Delvist		Micro- and nanofabrication in DTU's cleanroom
+DTU:10871	2.3=Delvist		Solar cell design: band gaps and doping
+DTU:22600	3.2=Ja		Silicon micro- and nanofabrication, lithography
+DTU:22602	3.2=Delvist 3.1=Nej	3.2	Visualisation of micro- and nanostructures; no lab-infrastructure topics
+DTU:22610	6.7=Delvist		Physics in health technology incl. magnetic resonance; classical sensing
+DTU:22681	3.2=Delvist		Literature course in advanced micro- and nanofabrication
+DTU:26001	2.1=Delvist		Electron configurations and the periodic table
+DTU:26124	2.4=Delvist		Coordination chemistry, ligand field theory
+DTU:26200	1.1=Ja 2.4=Delvist		
+DTU:26231	2.4=Delvist 1.1=Delvist		Molecular energy states and spectroscopy
+DTU:26236	2.4=Ja		
+DTU:26245	2.4=Delvist 3.5=Ja		Computational chemistry with molecular modelling software
+DTU:26261	1.1=Ja 2.4=Ja 1.2=Ja		
+DTU:26263	2.4=Ja 1.2=Ja		
+DTU:26428	2.1=Nej 2.4=Ja	2.4	Molecular spectroscopy (NMR, IR, UV, MS); no atomic physics
+DTU:30564	6.4=Delvist		Satellite gravimetry; classical gravity measurements
+DTU:30784	6.3=Delvist 3.2=Nej	6.3;2.3	X-ray and gamma detectors built on solid-state physics; no nanofabrication
+DTU:34020	3.3=Ja 2.2=Ja		
+DTU:34021	3.3=Ja		
+DTU:34023	4.4=Delvist 3.3=Ja 2.2=Ja		Research project in quantum and nanophotonics
+DTU:34024	2.3=Ja 2.2=Delvist 3.3=Ja		Optics and photonics basics; CFQT 2.2 includes classical optics and polarisation
+DTU:34032	2.3=Ja 2.2=Ja 3.3=Ja		
+DTU:34034	3.3=Ja 2.2=Ja		Lasers and detectors; coherent light and light-matter interaction
+DTU:34038	3.3=Ja		
+DTU:34042	7.3=Ja 4.4=Delvist 3.3=Ja	7.3;7.5;3.3	Quantum photonics for the quantum internet and quantum communication protocols; network infrastructure (7.5) fits better than photonic computing hardware
+DTU:34043	3.3=Delvist		Project course in photonics
+DTU:34046	3.3=Ja 3.4=Nej	3.3;2.2	Optics lab: diffraction, interference, polarisation, fibres, laser diodes; no control technology
+DTU:34051	2.2=Ja 3.3=Ja 4.4=Nej	2.2;3.3;2.3	Light-matter interaction in nanostructures, quantum wells and quantum dots (2.3); no photonic qubits
+DTU:34052	3.3=Ja 2.2=Ja		
+DTU:34053	3.3=Delvist 3.5=Ja		Numerical modelling of photonic components
+DTU:34060	3.3=Ja		Ultrafast lasers
+DTU:34062	3.3=Ja 4.8=Delvist	3.3;4.4;4.8	Photonic integrated circuits and foundry processes; integration on a chip is a 4.4 topic
+DTU:34063	3.2=Ja 2.3=Ja		
+DTU:34064	3.3=Ja		
+DTU:34091	3.3=Delvist		Journal club in optoelectronics and photonic integrated circuits
+DTU:34092	2.2=Ja 3.3=Ja		
+DTU:34094	5.1=Delvist 7.1=Nej 4.4=Nej	5.1;4.2	Journal club on quantum information technology implemented in semiconductor structures; no communication or photonic topics named
+DTU:34121	3.3=Ja		
+DTU:34126	3.3=Ja		
+DTU:34127	3.3=Ja 3.4=Nej	3.3;2.2	Optics lab: diffraction, interference, polarisation; no control technology
+DTU:34129	3.3=Ja		
+DTU:34130	3.3=Ja		
+DTU:34153	3.3=Ja		
+DTU:34156	3.3=Ja 3.4=Ja		
+DTU:34251	3.4=Ja		Error-correcting codes and signal processing, also for QKD systems
+DTU:34451	1.2=Ja		
+DTU:34492	3.3=Ja 2.2=Ja		
+DTU:34540	3.3=Ja 2.3=Delvist		Photovoltaics and LEDs: absorption and charge transport in photonic materials
+DTU:34556	2.3=Delvist		Photovoltaics
+DTU:47319	3.2=Nej	2.3	Functional materials for energy devices: crystal structure and solid-state physics, no nanofabrication
+DTU:47333	3.2=Delvist 3.1=Nej	3.2;2.3	Electron microscopy of materials; no lab-infrastructure topics
+DTU:47335	2.3=Delvist 3.5=Ja		DFT for energy materials
+DTU:56868	3.2=Ja		Silicon microfabrication in the cleanroom
+DTU:63860	7.1=Delvist		System and network security, classes of cryptographic algorithms
+GYM:HTX-FYS-A-KERNE	1.1=Delvist 2.1=Ja		Photon energy and the hydrogen spectrum with Bohr's quantised energy levels
+GYM:HTX-FYS-A-KVANT21	1.1=Ja 2.2=Ja 7.3=Delvist		Same Kvant21 material, optional on htx
+GYM:STX-FYS-A-KERNE	1.1=Delvist 2.1=Ja		Atomic structure, photon energy and momentum, emission and absorption spectra
+GYM:STX-FYS-A-KVANT21	1.1=Ja 2.2=Ja 7.3=Delvist		Two-state systems with polarised light, Mach-Zehnder interferometer, single photons; quantum cryptography only as an introduction
+KU:NBIK16001U	2.1=Nej	1.1;2.4	Density-operator theory of NMR, nuclear spin dynamics and relaxation; no atomic level structure
+KU:NDAA09025U	7.1=Delvist		Introduction to IT security incl. cryptography; no quantum element
+KU:NDAK24010U	5.3=Ja 5.1=Ja		Quantum error correction: Shor, toric and colour codes, threshold theorem, fault tolerance
+KU:NDAK26003U	5.3=Ja 4.7=Ja 5.5=Delvist		Hybrid quantum-classical programming with HPC
+KU:NFYA04021U	2.3=Ja		
+KU:NFYA04070U	1.2=Ja		
+KU:NFYA05020U	2.2=Ja 3.3=Ja 2.1=Delvist		
+KU:NFYA05060U	3.3=Ja 2.2=Ja		
+KU:NFYA06015U	1.1=Ja 2.3=Nej	1.1;2.1	Quantum mechanics for nanoscience: atomic structure and the step from atoms to molecules; no solid-state topics
+KU:NFYB10010U	1.1=Delvist 1.2=Ja 2.1=Ja		
+KU:NFYB10021U	2.3=Ja		
+KU:NFYB10026U	2.4=Ja		
+KU:NFYB13007U	2.1=Ja 2.2=Ja		
+KU:NFYB16006U	1.2=Delvist		
+KU:NFYB22000U	2.3=Ja 3.2=Ja		
+KU:NFYB24001U	1.1=Ja		
+KU:NFYK10003U	2.3=Delvist 2.4=Ja		
+KU:NFYK10017U	2.3=Ja 2.4=Ja		
+KU:NFYK13004U	2.2=Delvist	2.2;1.2	Quantum field theory: path integrals, perturbation theory and Feynman diagrams (1.2); QED as an example
+KU:NFYK13006U	2.2=Ja 1.1=Ja		
+KU:NFYK13021U	2.3=Delvist		
+KU:NFYK15003U	1.2=Ja 2.4=Delvist		
+KU:NFYK18004U	2.2=Ja 4.4=Delvist 3.3=Ja		
+KU:NFYK23002U	1.2=Ja 5.1=Ja 7.3=Nej	1.2;5.1;1.1	Formalism, qubits, measurements, damping and noise; QKD not named in the description
+KU:NFYK23005U	4.8=Ja 4.1=Delvist 4.3=Delvist		Leading qubit platforms, their imperfections and challenges
+KU:NFYK24003U	4.2=Ja 2.3=Ja 3.2=Ja		
+KU:NFYK26000U	4.1=Ja 4.6=Delvist 3.1=Delvist		Hands-on experiments with semiconducting and superconducting qubits
+KU:NFYK26002U	5.2=Delvist 3.5=Ja 4.7=Ja		Large-scale classical and quantum simulation of quantum system dynamics
+KU:NKEA04034U	2.4=Delvist		
+KU:NKEA04057U	2.4=Delvist 2.2=Delvist		
+KU:NKEA05037U	2.4=Ja 1.2=Ja		
+KU:NKEA05042U	2.4=Delvist 1.1=Delvist		
+KU:NKEA07016U	2.4=Ja 3.5=Ja		Computational chemistry methods with computer exercises
+KU:NKEB10006U	2.1=Delvist		General chemistry incl. atomic structure and orbitals
+KU:NKEB11004U	2.1=Delvist	2.1;2.4	Electron configurations with Hund's rule and the Pauli principle
+KU:NKEB13003U	2.1=Delvist		
+KU:NKEB23002U	3.2=Nej	2.3	Solid-state chemistry: crystal structures, defects, bonding in solids
+KU:NKEB23003U	3.2=Delvist 2.4=Delvist		Fundamental nanochemistry: atomic and molecular orbitals, functional nanoparticles
+KU:NKEK12008U	3.2=Nej	2.3	Structural characterisation tools (scattering, electron microscopy, STM, AFM); no fabrication
+KU:NKEK22001U	2.4=Delvist		
+KU:NKEK25005U	2.4=Delvist 2.1=Ja		Spectroscopy and magnetism of inorganic compounds, spin Hamiltonians
+KU:NMAA05012U	1.2=Ja 1.1=Delvist		
+KU:NMAK14020U	1.2=Ja 7.1=Ja		
+KU:NMAK15003U	1.2=Ja 2.4=Ja		
+KU:NMAK22000U	1.2=Ja		
+KU:NMAK23007U	5.1=Ja 5.5=Ja 7.3=Delvist		
+KU:NMAK23014U	1.2=Ja		
+KU:NNDB19003U	8.3=Delvist		Philosophy of science and ethics for physicists
+KU:PC-148446	4.3=Ja 3.4=Delvist 2.1=Delvist	4.3;4.6;6.6	State preparation, control and measurement of cold neutral atoms for clocks and quantum computers
+KU:PC-150049	2.4=Ja 1.2=Ja		Quantum theory of molecular electromagnetic properties; perturbation theory and response functions
+SDU:DM572	7.1=Delvist		Network security with classical cryptography (symmetric and public key); no quantum content
+SDU:DM586	7.1=Delvist		Network security with classical cryptography (symmetric and public key); no quantum content
+SDU:DM886	7.1=Delvist		Applied (classical) cryptography and timing attacks; side-channel attacks are named in 7.1
+SDU:DM893	5.1=Ja 5.5=Delvist	5.1;5.5;1.2	Hilbert space, postulates, the circuit model, universal QC, quantum algorithms, QEC
+SDU:FT504	2.2=Delvist 3.3=Delvist		Electromagnetism and classical optics
+SDU:FY542	2.3=Ja 3.1=Delvist		
+SDU:FY544	1.1=Ja 1.2=Ja		
+SDU:FY547	1.1=Ja 2.1=Delvist	1.1;1.2;2.1	Ladder operators, formalism of QM, angular momentum, perturbation theory, variational method
+SDU:FY548	2.3=Ja		
+SDU:FY549	2.2=Nej	-	Classical electrodynamics (Maxwell, EM waves, relativistic formulation); no quantum or optics content
+SDU:FY550	2.4=Ja		
+SDU:FY560	2.3=Ja 2.4=Delvist		
+SDU:FY803	1.2=Ja 1.1=Ja		
+SDU:FY809	2.2=Delvist		Quantum field theory: Klein-Gordon and Dirac fields, QED, Feynman diagrams; only QED touches 2.2
+SDU:FY837	2.3=Ja		
+SDU:FY845	2.3=Ja 2.4=Delvist		
+SDU:KE522	2.4=Ja 1.1=Ja		
+SDU:KE525	2.1=Nej	-	Coordination chemistry (ligands, spin states, synthesis); no atomic physics
+SDU:KE533	2.4=Delvist 3.5=Nej	2.4;1.2	Ab initio electronic structure (HF, CI, MP2, CC, DFT) and perturbation theory
+SDU:KE540	2.4=Delvist	2.4;1.1	Schrödinger equation, molecular orbitals and electronic states, molecular modelling
+SDU:KE554	2.4=Ja 1.1=Ja		
+SDU:KE820	2.4=Delvist 3.5=Nej	2.4;1.2	Ab initio electronic structure (HF, CI, MP2, CC, DFT) and perturbation theory
+SDU:KE829	2.4=Delvist		Molecular response properties by electronic structure calculations
+SDU:MM553	3.5=Delvist 1.2=Ja		
+SDU:MM837	3.5=Delvist	3.5;1.2	Numerical methods incl. Schrödinger equation in 1D; linear algebra and ODEs
+SDU:MM866	4.7=Delvist 5.3=Nej	4.7;5.1	Small HPC systems and quantum computers; logic gates and linear algebra as preconditions
+SDU:MM868	1.2=Ja		Topics in mathematical physics / operator theory
+SDU:PC-105100	2.2=Delvist		Classical nano-optics and plasmonics, with the basics of nonlinear optics
+SDU:PC-108871	2.2=Ja 4.4=Delvist		Field quantisation, spontaneous emission, coherence, beam splitters and entanglement
+SDU:QC801	5.1=Ja 1.1=Ja 1.2=Ja		
+SDU:QC802	1.2=Ja 7.1=Delvist		
+SDU:QC803	4.8=Nej 5.3=Nej 4.6=Nej	5.1;5.2;4.8	Programming in the circuit model, MBQC, adiabatic QC and annealing, DiVincenzo criteria, photonic/ion-trap/topological hardware
+SDU:QC804	5.5=Ja 5.4=Ja		
+SDU:QC805	7.3=Ja 7.1=Ja 7.4=Delvist		QKD protocols, security proofs, device-independent and CV QKD, post-quantum cryptography
+SDU:QC806	5.3=Ja 5.1=Ja		
+SDU:QC807	2.2=Ja 1.2=Ja		
+SDU:QC808	4.5=Ja 5.3=Ja 2.3=Delvist		Non-abelian anyons, TQFT, topological quantum error correction
+SDU:QC809	2.4=Nej 4.5=Nej 5.2=Nej	2.3;5.3;4.5	Topological phases of matter, lattice models, stabilizer codes (toric code), MBQC on SPT phases
+SDU:QC810	5.5=Ja 4.7=Delvist		Quantum machine learning
+SDU:T380014401	2.3=Ja 3.2=Delvist		
+SDU:T470005101	3.3=Ja 3.4=Delvist		
+SDU:T470008101	2.2=Delvist 3.3=Ja		Nano-optics and plasmonics; light emission and weak/strong coupling
+SDU:T470017101	3.3=Ja 2.2=Delvist		
+SDU:T470021101	4.8=Nej 4.1=Nej 4.2=Delvist	2.3;4.1;4.2	Quantum circuits, weak superconductivity, quantum transport, 2DEG, quantum wells, wires and dots, noise and decoherence
+SDU:T470030X01	3.2=Delvist		Microfabrication and microsystems
+SDU:T470038101	2.1=Ja 2.2=Delvist	2.1;2.2;4.3	Atomic structure, multi-electron atoms, atom-light interaction, ultracold atoms and ions
+SDU:T470040101	3.3=Ja 8.2=Nej	3.3;8.1	Journal club in optics and nanophotonics plus industry case studies presented by companies
+SDU:T470042101	3.3=Ja		

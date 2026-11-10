@@ -318,7 +318,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 17,
    "kw_medium": 3,
    "note": "also M-NT-B4-3A and F-FYS-B4-2",
@@ -333,15 +333,17 @@
    "ects": 5.0,
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
-    "1.1",
-    "1.2"
+    "1.2",
+    "2.1",
+    "2.4"
    ],
-   "primary": "1.2",
-   "domain": "1",
+   "primary": "2.4",
+   "domain": "2",
    "prof": {
-    "I": "B1"
+    "I": "B1",
+    "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "",
@@ -365,7 +367,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 8,
    "kw_medium": 4,
    "note": "",
@@ -388,7 +390,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 2,
    "note": "Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).",
@@ -413,7 +415,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 45,
    "kw_medium": 0,
    "note": "also DSNCSITK229 and ESNESNK1K1",
@@ -443,7 +445,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 33,
    "kw_medium": 0,
    "note": "",
@@ -464,16 +466,13 @@
    "ects": 5.0,
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
-    "2.2",
     "2.3",
     "3.2"
    ],
    "primary": "2.3",
    "domain": "2",
-   "prof": {
-    "I": "B2"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 12,
    "note": "also F-NFM-K2-3A",
@@ -494,14 +493,17 @@
    "ects": 5.0,
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
-    "1.2"
+    "1.2",
+    "2.1",
+    "2.4"
    ],
-   "primary": "1.2",
-   "domain": "1",
+   "primary": "2.4",
+   "domain": "2",
    "prof": {
-    "I": "B2"
+    "I": "B2",
+    "II": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "also F-FYS-K2-3A",
@@ -529,7 +531,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 0,
    "note": "also M-NT-B5-4A",
@@ -551,7 +553,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
@@ -573,7 +575,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
@@ -595,7 +597,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "also F-FYS-K1-3A",
@@ -623,7 +625,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
@@ -653,42 +655,13 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 16,
    "note": "",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K3-9",
    "sched": {
     "sem": "E",
-    "per": "S",
-    "slot": "",
-    "pre": []
-   }
-  },
-  {
-   "institution": "AAU",
-   "level": "MSc",
-   "code": "F-FYS-K1-5",
-   "title": "Moderne fysik",
-   "language": "Danish",
-   "ects": 5.0,
-   "dept_name": "Materials and Production (physics and nanotechnology)",
-   "subs": [
-    "1.1",
-    "2.1"
-   ],
-   "primary": "1.1",
-   "domain": "1",
-   "prof": {
-    "I": "A2"
-   },
-   "status": "estimated",
-   "kw_strong": 2,
-   "kw_medium": 1,
-   "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-K1-5",
-   "sched": {
-    "sem": "F",
     "per": "S",
     "slot": "",
     "pre": []
@@ -703,40 +676,18 @@
    "ects": 15.0,
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
-    "2.1"
+    "1.1"
    ],
-   "primary": "2.1",
-   "domain": "2",
+   "primary": "1.1",
+   "domain": "1",
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 3,
    "note": "project; also F-FYS-B2-1 and M-FYS-B2-1",
    "url": "https://moduler.aau.dk/course/2026-2027/F-FYS-B2-1A"
-  },
-  {
-   "institution": "AAU",
-   "level": "BSc",
-   "code": "M-NT-B5-3",
-   "title": "Energifysik",
-   "language": "English",
-   "ects": 5.0,
-   "dept_name": "Materials and Production (physics and nanotechnology)",
-   "subs": [
-    "2.3"
-   ],
-   "primary": "2.3",
-   "domain": "2",
-   "prof": {
-    "I": "A1"
-   },
-   "status": "estimated",
-   "kw_strong": 1,
-   "kw_medium": 2,
-   "note": "",
-   "url": "https://moduler.aau.dk/course/2026-2027/M-NT-B5-3"
   },
   {
    "institution": "AAU",
@@ -752,7 +703,7 @@
    "primary": "2.3",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "also F-FYS-B3-3",
@@ -773,7 +724,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -793,7 +744,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "also F-FYS-B4-5",
@@ -813,7 +764,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
@@ -833,7 +784,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
@@ -854,7 +805,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
@@ -874,7 +825,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
@@ -894,7 +845,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "",
@@ -914,7 +865,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "project; also M-NT-B2-1",
@@ -929,12 +880,15 @@
    "ects": 5.0,
    "dept_name": "Chemistry and Bioscience",
    "subs": [
-    "2.1"
+    "1.1",
+    "2.4"
    ],
-   "primary": "2.1",
-   "domain": "2",
-   "prof": {},
-   "status": "estimated",
+   "primary": "1.1",
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 8,
    "note": "Module belongs to the MSc in Chemistry curriculum (checked 2026-11-03).",
@@ -954,7 +908,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -969,15 +923,13 @@
    "ects": 15.0,
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
-    "2.2",
+    "3.2",
     "3.3"
    ],
-   "primary": "2.2",
-   "domain": "2",
-   "prof": {
-    "I": "B1"
-   },
-   "status": "estimated",
+   "primary": "3.3",
+   "domain": "3",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 5,
    "note": "project",
@@ -1005,7 +957,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "project",
@@ -1027,14 +979,12 @@
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
     "2.3",
-    "3.1"
+    "3.2"
    ],
    "primary": "2.3",
    "domain": "2",
-   "prof": {
-    "I": "A2"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "project",
@@ -1055,15 +1005,13 @@
    "ects": 20.0,
    "dept_name": "Materials and Production (physics and nanotechnology)",
    "subs": [
-    "2.2",
-    "2.3"
+    "2.3",
+    "3.3"
    ],
    "primary": "2.3",
    "domain": "2",
-   "prof": {
-    "I": "B2"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "project; also F-FYS-K3-3A",
@@ -1089,7 +1037,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -1115,7 +1063,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "also ESNCYSK1K5",
@@ -1141,7 +1089,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "",
@@ -1170,7 +1118,7 @@
     "II": "A1",
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 8,
    "kw_medium": 3,
    "note": "Includes post-quantum cryptography",
@@ -1190,7 +1138,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -1214,7 +1162,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 11,
    "kw_medium": 16,
    "note": "",
@@ -1229,14 +1177,17 @@
    "ects": 5.0,
    "dept_name": "Physics and Astronomy",
    "subs": [
-    "1.1"
+    "1.1",
+    "1.2",
+    "2.1"
    ],
    "primary": "1.1",
    "domain": "1",
    "prof": {
-    "I": "A2"
+    "I": "A2",
+    "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 9,
    "kw_medium": 2,
    "note": "",
@@ -1251,15 +1202,12 @@
    "ects": 5.0,
    "dept_name": "Physics and Astronomy",
    "subs": [
-    "1.2",
     "2.2"
    ],
-   "primary": "1.2",
-   "domain": "1",
-   "prof": {
-    "I": "B1"
-   },
-   "status": "estimated",
+   "primary": "2.2",
+   "domain": "2",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
@@ -1274,18 +1222,16 @@
    "ects": 10.0,
    "dept_name": "Physics and Astronomy",
    "subs": [
-    "4.6",
-    "5.1",
-    "7.3"
+    "2.2",
+    "3.4",
+    "6.1"
    ],
-   "primary": "4.6",
-   "domain": "4",
+   "primary": "2.2",
+   "domain": "2",
    "prof": {
-    "I": "B1",
-    "II": "B1",
-    "III": "A1"
+    "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 31,
    "kw_medium": 12,
    "note": "",
@@ -1316,7 +1262,7 @@
     "I": "B2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 29,
    "kw_medium": 2,
    "note": "",
@@ -1337,17 +1283,16 @@
    "ects": 5.0,
    "dept_name": "Physics and Astronomy",
    "subs": [
-    "4.1",
+    "2.4",
     "4.3",
     "4.8"
    ],
-   "primary": "4.8",
+   "primary": "4.3",
    "domain": "4",
    "prof": {
-    "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 22,
    "kw_medium": 8,
    "note": "",
@@ -1376,7 +1321,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "",
@@ -1406,7 +1351,7 @@
     "I": "B2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 10,
    "kw_medium": 4,
    "note": "",
@@ -1429,15 +1374,14 @@
    "subs": [
     "2.2",
     "3.3",
-    "3.4"
+    "4.3"
    ],
    "primary": "2.2",
    "domain": "2",
    "prof": {
-    "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 9,
    "kw_medium": 11,
    "note": "",
@@ -1460,15 +1404,14 @@
    "subs": [
     "2.2",
     "3.3",
-    "3.4"
+    "4.3"
    ],
    "primary": "2.2",
    "domain": "2",
    "prof": {
-    "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 9,
    "kw_medium": 11,
    "note": "Same syllabus as Experimental Quantum Optics 1",
@@ -1491,15 +1434,14 @@
    "subs": [
     "3.3",
     "3.4",
-    "4.4"
+    "4.3"
    ],
    "primary": "3.4",
    "domain": "3",
    "prof": {
-    "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 12,
    "note": "",
@@ -1528,7 +1470,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "",
@@ -1556,7 +1498,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 10,
    "kw_medium": 5,
    "note": "",
@@ -1579,7 +1521,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 4,
    "note": "",
@@ -1602,7 +1544,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 8,
    "note": "",
@@ -1617,7 +1559,7 @@
    "ects": 10.0,
    "dept_name": "Chemistry",
    "subs": [
-    "1.1",
+    "1.2",
     "2.4"
    ],
    "primary": "2.4",
@@ -1625,7 +1567,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 6,
    "note": "",
@@ -1648,7 +1590,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -1672,7 +1614,7 @@
     "I": "A2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 37,
    "note": "",
@@ -1688,46 +1630,19 @@
    "dept_name": "Electrical and Computer Engineering",
    "subs": [
     "1.1",
-    "2.1"
+    "2.1",
+    "3.3"
    ],
    "primary": "1.1",
    "domain": "1",
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 6,
    "note": "",
    "url": "https://kursuskatalog.au.dk/da/course/137988"
-  },
-  {
-   "institution": "AU",
-   "level": "MSc",
-   "code": "525242U013",
-   "title": "Advanced Particle Physics",
-   "language": "English",
-   "ects": 10.0,
-   "dept_name": "Physics and Astronomy",
-   "subs": [
-    "2.2"
-   ],
-   "primary": "2.2",
-   "domain": "2",
-   "prof": {
-    "I": "B2"
-   },
-   "status": "estimated",
-   "kw_strong": 5,
-   "kw_medium": 0,
-   "note": "",
-   "url": "https://kursuskatalog.au.dk/da/course/138468",
-   "sched": {
-    "sem": "E",
-    "per": "S",
-    "slot": "",
-    "pre": []
-   }
   },
   {
    "institution": "AU",
@@ -1745,7 +1660,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 17,
    "note": "",
@@ -1768,14 +1683,12 @@
    "subs": [
     "2.1",
     "2.2",
-    "3.4"
+    "2.4"
    ],
    "primary": "2.1",
    "domain": "2",
-   "prof": {
-    "I": "B2"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
@@ -1803,7 +1716,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
@@ -1832,7 +1745,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
@@ -1861,7 +1774,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
@@ -1891,7 +1804,7 @@
     "I": "A2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 46,
    "note": "",
@@ -1919,7 +1832,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "",
@@ -1941,7 +1854,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
@@ -1963,7 +1876,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
@@ -1983,7 +1896,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
@@ -2003,7 +1916,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
@@ -2023,7 +1936,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2043,7 +1956,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -2058,13 +1971,13 @@
    "ects": 5.0,
    "dept_name": "Physics and Astronomy",
    "subs": [
-    "3.1",
+    "2.2",
     "3.3"
    ],
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2085,7 +1998,7 @@
    "primary": "2.2",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2106,7 +2019,7 @@
    "primary": "2.2",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2127,7 +2040,7 @@
    "primary": "2.2",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2147,7 +2060,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 12,
    "note": "",
@@ -2168,7 +2081,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
@@ -2188,7 +2101,7 @@
    "primary": "1.2",
    "domain": "1",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -2218,7 +2131,7 @@
     "I": "A2",
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "Aimed at upper-secondary teaching; includes quantum experiments",
@@ -2244,7 +2157,7 @@
    "primary": "6.3",
    "domain": "6",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
@@ -2265,7 +2178,7 @@
    "ects": 5.0,
    "dept_name": "Physics and Astronomy",
    "subs": [
-    "2.1",
+    "1.1",
     "6.7"
    ],
    "primary": "6.7",
@@ -2273,7 +2186,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 4,
    "note": "",
@@ -2300,7 +2213,7 @@
    "primary": "6.3",
    "domain": "6",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
@@ -2321,15 +2234,15 @@
    "ects": 10.0,
    "dept_name": "Chemistry",
    "subs": [
-    "2.1",
-    "2.3"
+    "1.1",
+    "2.4"
    ],
-   "primary": "2.3",
-   "domain": "2",
+   "primary": "1.1",
+   "domain": "1",
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2350,13 +2263,12 @@
    "ects": 5.0,
    "dept_name": "iNANO",
    "subs": [
-    "3.1",
     "3.2"
    ],
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
@@ -2382,7 +2294,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2408,7 +2320,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
@@ -2436,7 +2348,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -2464,7 +2376,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
@@ -2493,7 +2405,7 @@
    "prof": {
     "II": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 17,
    "note": "",
@@ -2519,7 +2431,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 9,
    "note": "",
@@ -2546,7 +2458,7 @@
    "primary": "6.4",
    "domain": "6",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -2572,7 +2484,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
@@ -2600,7 +2512,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
@@ -2615,15 +2527,15 @@
    "ects": 5.0,
    "dept_name": "Graduate School of Technical Sciences",
    "subs": [
-    "2.1",
+    "1.1",
     "2.3"
    ],
-   "primary": "2.3",
-   "domain": "2",
+   "primary": "1.1",
+   "domain": "1",
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "phdcourses.dk; September 2026",
@@ -2647,7 +2559,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 8,
    "kw_medium": 1,
    "note": "",
@@ -2670,7 +2582,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 7,
    "kw_medium": 1,
    "note": "",
@@ -2694,7 +2606,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 13,
    "kw_medium": 8,
    "note": "",
@@ -2719,7 +2631,7 @@
     "I": "A2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 14,
    "note": "",
@@ -2735,7 +2647,7 @@
    "dept_name": "DTU Compute",
    "subs": [
     "5.1",
-    "5.4",
+    "5.3",
     "5.5"
    ],
    "primary": "5.5",
@@ -2744,7 +2656,7 @@
     "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 29,
    "kw_medium": 0,
    "note": "",
@@ -2775,7 +2687,7 @@
     "I": "A2",
     "II": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 20,
    "kw_medium": 0,
    "note": "",
@@ -2797,14 +2709,16 @@
    "dept_name": "DTU Compute",
    "subs": [
     "1.1",
-    "1.2"
+    "1.2",
+    "7.3"
    ],
    "primary": "1.1",
    "domain": "1",
    "prof": {
-    "I": "C1"
+    "I": "C1",
+    "II": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 16,
    "kw_medium": 2,
    "note": "",
@@ -2829,14 +2743,16 @@
    "ects": 5.0,
    "dept_name": "DTU Compute",
    "subs": [
+    "5.5",
     "7.1"
    ],
    "primary": "7.1",
    "domain": "7",
    "prof": {
+    "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 4,
    "note": "",
@@ -2871,7 +2787,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 16,
    "kw_medium": 6,
    "note": "",
@@ -2905,7 +2821,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 4,
    "note": "",
@@ -2940,7 +2856,7 @@
     "I": "C1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 26,
    "kw_medium": 25,
    "note": "",
@@ -2964,17 +2880,17 @@
    "ects": 5.0,
    "dept_name": "DTU Physics",
    "subs": [
-    "1.2",
+    "1.1",
     "5.1",
     "7.3"
    ],
-   "primary": "1.2",
+   "primary": "1.1",
    "domain": "1",
    "prof": {
     "I": "B2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 30,
    "kw_medium": 1,
    "note": "",
@@ -3008,7 +2924,7 @@
     "II": "A2",
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 28,
    "kw_medium": 7,
    "note": "",
@@ -3031,17 +2947,16 @@
    "ects": 5.0,
    "dept_name": "DTU Physics",
    "subs": [
+    "2.2",
     "3.3",
-    "3.4",
-    "4.6"
+    "3.4"
    ],
    "primary": "3.4",
    "domain": "3",
    "prof": {
-    "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 19,
    "kw_medium": 7,
    "note": "",
@@ -3068,7 +2983,7 @@
    "dept_name": "DTU Physics",
    "subs": [
     "3.5",
-    "5.2",
+    "5.1",
     "5.3"
    ],
    "primary": "3.5",
@@ -3077,7 +2992,7 @@
     "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 5,
    "note": "",
@@ -3113,7 +3028,7 @@
    "prof": {
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 5,
    "note": "",
@@ -3137,17 +3052,15 @@
    "dept_name": "DTU Electro",
    "subs": [
     "3.3",
-    "4.4",
-    "7.3"
+    "7.3",
+    "7.5"
    ],
    "primary": "7.3",
    "domain": "7",
    "prof": {
-    "I": "B1",
-    "II": "B1",
-    "III": "A2"
+    "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 24,
    "kw_medium": 16,
    "note": "",
@@ -3171,7 +3084,6 @@
    "dept_name": "DTU Physics",
    "subs": [
     "2.2",
-    "4.4",
     "5.1"
    ],
    "primary": "2.2",
@@ -3180,7 +3092,7 @@
     "I": "C2",
     "II": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 3,
    "note": "",
@@ -3195,18 +3107,16 @@
    "ects": 2.5,
    "dept_name": "DTU Physics",
    "subs": [
-    "4.8",
     "5.1",
     "6.1"
    ],
-   "primary": "4.8",
-   "domain": "4",
+   "primary": "5.1",
+   "domain": "5",
    "prof": {
     "I": "C1",
-    "II": "B1",
-    "III": "A2"
+    "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 0,
    "note": "",
@@ -3221,9 +3131,8 @@
    "ects": 5.0,
    "dept_name": "DTU Electro",
    "subs": [
-    "4.4",
-    "5.1",
-    "7.1"
+    "4.2",
+    "5.1"
    ],
    "primary": "5.1",
    "domain": "5",
@@ -3231,7 +3140,7 @@
     "I": "C1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "",
@@ -3254,7 +3163,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 5,
    "note": "",
@@ -3277,7 +3186,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 5,
    "note": "",
@@ -3299,7 +3208,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
@@ -3322,7 +3231,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 2,
    "note": "",
@@ -3345,7 +3254,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -3369,7 +3278,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
@@ -3391,7 +3300,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
@@ -3421,7 +3330,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "",
@@ -3454,7 +3363,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 7,
    "note": "",
@@ -3489,7 +3398,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -3523,7 +3432,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -3555,7 +3464,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 7,
    "note": "",
@@ -3587,7 +3496,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
@@ -3621,7 +3530,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 5,
    "note": "",
@@ -3656,7 +3565,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 4,
    "note": "",
@@ -3690,7 +3599,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 9,
    "kw_medium": 26,
    "note": "",
@@ -3725,7 +3634,7 @@
     "I": "A2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 32,
    "note": "",
@@ -3753,16 +3662,15 @@
    "dept_name": "DTU Electro",
    "subs": [
     "2.2",
-    "3.3",
-    "4.4"
+    "2.3",
+    "3.3"
    ],
    "primary": "2.2",
    "domain": "2",
    "prof": {
-    "I": "B2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 10,
    "kw_medium": 20,
    "note": "",
@@ -3794,7 +3702,7 @@
    "prof": {
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
@@ -3823,7 +3731,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
@@ -3852,7 +3760,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
@@ -3875,7 +3783,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 13,
    "note": "",
@@ -3898,7 +3806,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 10,
    "note": "",
@@ -3920,7 +3828,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -3935,15 +3843,13 @@
    "ects": 5.0,
    "dept_name": "DTU Physics",
    "subs": [
-    "2.2",
+    "2.3",
     "3.3"
    ],
-   "primary": "2.2",
+   "primary": "2.3",
    "domain": "2",
-   "prof": {
-    "I": "A2"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
@@ -3958,13 +3864,12 @@
    "ects": 5.0,
    "dept_name": "DTU Physics",
    "subs": [
-    "2.3",
-    "3.1"
+    "2.3"
    ],
    "primary": "2.3",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -3986,7 +3891,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
@@ -4006,7 +3911,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -4021,13 +3926,12 @@
    "ects": 5.0,
    "dept_name": "DTU Health Tech",
    "subs": [
-    "3.1",
     "3.2"
    ],
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 6,
    "note": "",
@@ -4049,7 +3953,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
@@ -4071,7 +3975,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -4086,15 +3990,12 @@
    "ects": 5.0,
    "dept_name": "DTU Chemistry",
    "subs": [
-    "2.1",
     "2.4"
    ],
-   "primary": "2.1",
+   "primary": "2.4",
    "domain": "2",
-   "prof": {
-    "I": "A1"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -4117,7 +4018,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 17,
    "note": "",
@@ -4137,7 +4038,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 20,
    "note": "",
@@ -4157,7 +4058,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 9,
    "note": "",
@@ -4177,7 +4078,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 17,
    "note": "",
@@ -4197,7 +4098,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 22,
    "note": "",
@@ -4212,13 +4113,13 @@
    "ects": 5.0,
    "dept_name": "DTU Electro",
    "subs": [
-    "3.3",
-    "3.4"
+    "2.2",
+    "3.3"
    ],
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 27,
    "note": "",
@@ -4238,7 +4139,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 22,
    "note": "",
@@ -4258,7 +4159,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
@@ -4278,7 +4179,7 @@
    "primary": "1.2",
    "domain": "1",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
@@ -4313,7 +4214,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
@@ -4342,7 +4243,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 10,
    "note": "",
@@ -4373,7 +4274,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
@@ -4402,7 +4303,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
@@ -4431,7 +4332,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
@@ -4463,7 +4364,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
@@ -4501,7 +4402,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
@@ -4532,7 +4433,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -4551,38 +4452,6 @@
   {
    "institution": "DTU",
    "level": "MSc",
-   "code": "10333",
-   "title": "Physics of Sustainable Energy",
-   "language": "English",
-   "ects": 5.0,
-   "dept_name": "DTU Physics",
-   "subs": [
-    "2.3"
-   ],
-   "primary": "2.3",
-   "domain": "2",
-   "prof": {
-    "I": "A1"
-   },
-   "status": "estimated",
-   "kw_strong": 1,
-   "kw_medium": 0,
-   "note": "",
-   "url": "https://kurser.dtu.dk/course/10333",
-   "sched": {
-    "sem": "E",
-    "per": "S",
-    "slot": "E5B",
-    "pre": [
-     "10331",
-     "10260",
-     "10034"
-    ]
-   }
-  },
-  {
-   "institution": "DTU",
-   "level": "MSc",
    "code": "10350",
    "title": "Numerical studies in physics",
    "language": "English",
@@ -4595,7 +4464,7 @@
    "primary": "3.5",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 2,
    "note": "",
@@ -4631,7 +4500,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -4661,7 +4530,7 @@
    "primary": "2.3",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
@@ -4692,7 +4561,7 @@
    "primary": "6.7",
    "domain": "6",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 9,
    "note": "",
@@ -4730,7 +4599,7 @@
    "prof": {
     "II": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -4755,13 +4624,13 @@
    "ects": 5.0,
    "dept_name": "DTU Space",
    "subs": [
-    "3.2",
+    "2.3",
     "6.3"
    ],
    "primary": "6.3",
    "domain": "6",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
@@ -4791,7 +4660,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -4812,13 +4681,13 @@
    "ects": 5.0,
    "dept_name": "DTU Electro",
    "subs": [
-    "3.3",
-    "3.4"
+    "2.2",
+    "3.3"
    ],
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 26,
    "note": "",
@@ -4848,7 +4717,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 12,
    "note": "",
@@ -4880,7 +4749,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 11,
    "note": "",
@@ -4911,7 +4780,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
@@ -4936,12 +4805,13 @@
    "dept_name": "DTU Electro",
    "subs": [
     "3.3",
+    "4.4",
     "4.8"
    ],
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 14,
    "note": "",
@@ -4969,7 +4839,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 12,
    "note": "",
@@ -5000,7 +4870,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 27,
    "note": "",
@@ -5033,7 +4903,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 16,
    "note": "",
@@ -5066,7 +4936,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 25,
    "note": "",
@@ -5096,7 +4966,7 @@
    "primary": "3.4",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "",
@@ -5127,7 +4997,7 @@
    "primary": "1.2",
    "domain": "1",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 3,
    "note": "",
@@ -5156,7 +5026,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 8,
    "note": "",
@@ -5185,7 +5055,7 @@
    "primary": "2.3",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 1,
    "note": "",
@@ -5208,12 +5078,12 @@
    "ects": 5.0,
    "dept_name": "DTU Energy",
    "subs": [
-    "3.2"
+    "2.3"
    ],
-   "primary": "3.2",
-   "domain": "3",
+   "primary": "2.3",
+   "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -5234,13 +5104,13 @@
    "ects": 5.0,
    "dept_name": "DTU Energy",
    "subs": [
-    "3.1",
+    "2.3",
     "3.2"
    ],
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 5,
    "note": "",
@@ -5268,7 +5138,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
@@ -5283,15 +5153,12 @@
    "ects": 5.0,
    "dept_name": "DTU Physics",
    "subs": [
-    "2.2",
-    "3.1"
+    "2.2"
    ],
    "primary": "2.2",
    "domain": "2",
-   "prof": {
-    "I": "B1"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 8,
    "note": "",
@@ -5314,7 +5181,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
@@ -5334,7 +5201,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 3,
    "note": "",
@@ -5354,7 +5221,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 5,
    "note": "",
@@ -5375,7 +5242,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 15,
    "note": "",
@@ -5395,7 +5262,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -5420,7 +5287,7 @@
     "I": "A2",
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "Required on stx Fysik A at all 144 stx schools (Danish Quantum Academy). Kvant21 develops the material for the 3.g topic 'Fysik i det 21. århundrede' (about 15 lessons): two-state systems such as polarised light, the Mach-Zehnder interferometer, single-photon experiments and simulations, and an introduction to quantum cryptography, quantum sensors and quantum computers. Material under development 2025–2027; first teacher courses spring 2027.",
@@ -5445,7 +5312,7 @@
     "I": "A2",
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "Optional at the 34 htx schools: Kvant21 material can be used as supplementary reading or a project in Fysik A. Quantum technology is not on the central list of chosen topics for htx Fysik A in 2026/27.",
@@ -5468,7 +5335,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "Core content of stx Fysik A at all 144 stx schools and the basis of the written exam: atomic and nuclear structure, photon energy and momentum, emission and absorption spectra.",
@@ -5491,7 +5358,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 0,
    "note": "Core content of htx Fysik A at all 34 htx schools: photon energy and the hydrogen spectrum explained with Bohr's model of quantised energy levels.",
@@ -5514,7 +5381,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 14,
    "kw_medium": 3,
    "note": "phdcourses.dk; February 2027",
@@ -5529,17 +5396,16 @@
    "ects": 2.0,
    "dept_name": "Faculty of SCIENCE",
    "subs": [
-    "2.1",
-    "3.4",
-    "4.3"
+    "4.3",
+    "4.6",
+    "6.6"
    ],
    "primary": "4.3",
    "domain": "4",
    "prof": {
-    "I": "C1",
     "II": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 19,
    "note": "phdcourses.dk; December 2026",
@@ -5564,7 +5430,7 @@
     "I": "B1",
     "II": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 31,
    "kw_medium": 0,
    "note": "",
@@ -5585,17 +5451,16 @@
    "ects": 7.5,
    "dept_name": "Niels Bohr Institute",
    "subs": [
+    "1.1",
     "1.2",
-    "5.1",
-    "7.3"
+    "5.1"
    ],
    "primary": "1.2",
    "domain": "1",
    "prof": {
-    "I": "B2",
-    "II": "A2"
+    "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 23,
    "kw_medium": 3,
    "note": "",
@@ -5626,7 +5491,7 @@
     "I": "C1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 22,
    "kw_medium": 20,
    "note": "",
@@ -5659,7 +5524,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 21,
    "kw_medium": 3,
    "note": "",
@@ -5688,7 +5553,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 20,
    "kw_medium": 23,
    "note": "",
@@ -5719,7 +5584,7 @@
     "I": "B1",
     "II": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 20,
    "kw_medium": 3,
    "note": "",
@@ -5741,14 +5606,14 @@
    "dept_name": "Niels Bohr Institute",
    "subs": [
     "1.1",
-    "2.3"
+    "2.1"
    ],
    "primary": "1.1",
    "domain": "1",
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 18,
    "kw_medium": 11,
    "note": "",
@@ -5773,7 +5638,7 @@
     "I": "B2",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 18,
    "kw_medium": 2,
    "note": "",
@@ -5802,7 +5667,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 17,
    "kw_medium": 1,
    "note": "",
@@ -5833,7 +5698,7 @@
     "I": "B2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 15,
    "kw_medium": 8,
    "note": "",
@@ -5862,7 +5727,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 14,
    "kw_medium": 10,
    "note": "",
@@ -5884,7 +5749,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 14,
    "kw_medium": 3,
    "note": "",
@@ -5907,7 +5772,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 14,
    "kw_medium": 1,
    "note": "",
@@ -5938,7 +5803,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 13,
    "kw_medium": 48,
    "note": "",
@@ -5953,6 +5818,7 @@
    "ects": 7.5,
    "dept_name": "Niels Bohr Institute",
    "subs": [
+    "1.2",
     "2.2"
    ],
    "primary": "2.2",
@@ -5960,7 +5826,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "",
@@ -5995,7 +5861,7 @@
     "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 11,
    "kw_medium": 0,
    "note": "",
@@ -6025,7 +5891,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 10,
    "kw_medium": 4,
    "note": "",
@@ -6049,7 +5915,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 7,
    "kw_medium": 5,
    "note": "",
@@ -6072,7 +5938,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "",
@@ -6096,7 +5962,7 @@
     "I": "B2",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 1,
    "note": "",
@@ -6127,7 +5993,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "",
@@ -6156,7 +6022,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 17,
    "note": "",
@@ -6179,7 +6045,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 5,
    "note": "",
@@ -6210,7 +6076,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 0,
    "note": "",
@@ -6239,7 +6105,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 12,
    "note": "",
@@ -6261,7 +6127,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 4,
    "note": "",
@@ -6283,7 +6149,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 7,
    "note": "",
@@ -6306,7 +6172,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 20,
    "note": "",
@@ -6328,7 +6194,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 7,
    "note": "",
@@ -6350,7 +6216,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
@@ -6379,7 +6245,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
@@ -6402,7 +6268,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 4,
    "note": "",
@@ -6432,7 +6298,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
@@ -6455,7 +6321,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
@@ -6481,7 +6347,7 @@
    "primary": "1.2",
    "domain": "1",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -6504,7 +6370,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -6526,7 +6392,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -6552,7 +6418,7 @@
    "primary": "1.2",
    "domain": "1",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
@@ -6574,7 +6440,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
@@ -6602,7 +6468,7 @@
    "prof": {
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
@@ -6625,7 +6491,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
@@ -6655,7 +6521,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -6683,7 +6549,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
@@ -6698,12 +6564,15 @@
    "ects": 7.5,
    "dept_name": "Biology",
    "subs": [
-    "2.1"
+    "1.1",
+    "2.4"
    ],
-   "primary": "2.1",
-   "domain": "2",
-   "prof": {},
-   "status": "estimated",
+   "primary": "1.1",
+   "domain": "1",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -6729,7 +6598,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -6744,14 +6613,13 @@
    "ects": 7.5,
    "dept_name": "Chemistry",
    "subs": [
-    "2.1"
+    "2.1",
+    "2.4"
    ],
    "primary": "2.1",
    "domain": "2",
-   "prof": {
-    "I": "A1"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -6766,12 +6634,12 @@
    "ects": 7.5,
    "dept_name": "Chemistry",
    "subs": [
-    "3.2"
+    "2.3"
    ],
-   "primary": "3.2",
-   "domain": "3",
+   "primary": "2.3",
+   "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -6786,12 +6654,12 @@
    "ects": 7.5,
    "dept_name": "Chemistry",
    "subs": [
-    "3.2"
+    "2.3"
    ],
-   "primary": "3.2",
-   "domain": "3",
+   "primary": "2.3",
+   "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -6820,7 +6688,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 24,
    "kw_medium": 6,
    "note": "",
@@ -6836,6 +6704,7 @@
    "dept_name": "Physics, Chemistry and Pharmacy",
    "subs": [
     "1.1",
+    "1.2",
     "2.1"
    ],
    "primary": "1.1",
@@ -6843,7 +6712,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 2,
    "note": "",
@@ -6866,7 +6735,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 9,
    "note": "Same content as FY845",
@@ -6889,7 +6758,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 15,
    "kw_medium": 23,
    "note": "",
@@ -6912,7 +6781,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 18,
    "note": "",
@@ -6927,6 +6796,7 @@
    "ects": 5.0,
    "dept_name": "Physics, Chemistry and Pharmacy",
    "subs": [
+    "1.1",
     "2.4"
    ],
    "primary": "2.4",
@@ -6934,7 +6804,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 7,
    "kw_medium": 1,
    "note": "",
@@ -6959,7 +6829,7 @@
     "I": "B1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 25,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
@@ -6991,7 +6861,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 20,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
@@ -7012,17 +6882,17 @@
    "ects": 10.0,
    "dept_name": "MSc in Quantum Computing",
    "subs": [
-    "4.6",
     "4.8",
-    "5.3"
+    "5.1",
+    "5.2"
    ],
-   "primary": "4.8",
-   "domain": "4",
+   "primary": "5.1",
+   "domain": "5",
    "prof": {
     "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 22,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
@@ -7054,7 +6924,7 @@
     "I": "B2",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 16,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
@@ -7088,7 +6958,7 @@
     "II": "B1",
     "III": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 13,
    "kw_medium": 10,
    "note": "MSc in Quantum Computing",
@@ -7121,7 +6991,7 @@
     "I": "B2",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 14,
    "kw_medium": 2,
    "note": "MSc in Quantum Computing",
@@ -7154,7 +7024,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 17,
    "kw_medium": 4,
    "note": "MSc in Quantum Computing",
@@ -7190,7 +7060,7 @@
     "I": "C1",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "MSc in Quantum Computing",
@@ -7215,16 +7085,14 @@
    "ects": 10.0,
    "dept_name": "MSc in Quantum Computing",
    "subs": [
-    "2.4",
+    "2.3",
     "4.5",
-    "5.2"
+    "5.3"
    ],
-   "primary": "2.4",
+   "primary": "2.3",
    "domain": "2",
-   "prof": {
-    "I": "C1"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 20,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
@@ -7257,7 +7125,7 @@
     "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "MSc in Quantum Computing",
@@ -7280,16 +7148,16 @@
    "ects": 5.0,
    "dept_name": "Mathematics and Computer Science",
    "subs": [
+    "1.2",
     "5.1",
     "5.5"
    ],
    "primary": "5.1",
    "domain": "5",
    "prof": {
-    "I": "B1",
-    "II": "A2"
+    "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 15,
    "kw_medium": 0,
    "note": "",
@@ -7314,14 +7182,15 @@
    "dept_name": "Mathematics and Computer Science",
    "subs": [
     "4.7",
-    "5.3"
+    "5.1"
    ],
    "primary": "4.7",
    "domain": "4",
    "prof": {
+    "I": "A2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "",
@@ -7353,7 +7222,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 0,
    "note": "Approved as PhD course",
@@ -7382,7 +7251,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 6,
    "kw_medium": 9,
    "note": "",
@@ -7410,17 +7279,16 @@
    "ects": 5.0,
    "dept_name": "Faculty of Engineering",
    "subs": [
+    "2.3",
     "4.1",
-    "4.2",
-    "4.8"
+    "4.2"
    ],
-   "primary": "4.8",
-   "domain": "4",
+   "primary": "2.3",
+   "domain": "2",
    "prof": {
-    "I": "B1",
     "II": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 22,
    "kw_medium": 9,
    "note": "MSc in Engineering Physics",
@@ -7448,7 +7316,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 12,
    "note": "",
@@ -7470,7 +7338,7 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
@@ -7485,15 +7353,15 @@
    "ects": 5.0,
    "dept_name": "Physics, Chemistry and Pharmacy",
    "subs": [
-    "2.4",
-    "3.5"
+    "1.2",
+    "2.4"
    ],
    "primary": "2.4",
    "domain": "2",
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "",
@@ -7515,7 +7383,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 12,
    "note": "",
@@ -7550,7 +7418,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "",
@@ -7573,15 +7441,15 @@
    "ects": 5.0,
    "dept_name": "Physics, Chemistry and Pharmacy",
    "subs": [
-    "2.4",
-    "3.5"
+    "1.2",
+    "2.4"
    ],
    "primary": "2.4",
    "domain": "2",
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 10,
    "note": "Approved as PhD course",
@@ -7613,7 +7481,7 @@
    "prof": {
     "I": "B2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 12,
    "note": "",
@@ -7638,14 +7506,13 @@
    "dept_name": "Faculty of Engineering",
    "subs": [
     "2.1",
-    "2.2"
+    "2.2",
+    "4.3"
    ],
    "primary": "2.1",
    "domain": "2",
-   "prof": {
-    "I": "B1"
-   },
-   "status": "estimated",
+   "prof": {},
+   "status": "checked",
    "kw_strong": 5,
    "kw_medium": 16,
    "note": "",
@@ -7675,7 +7542,7 @@
     "I": "A2",
     "II": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 2,
    "kw_medium": 27,
    "note": "",
@@ -7704,7 +7571,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 41,
    "note": "",
@@ -7733,31 +7600,11 @@
    "prof": {
     "I": "A2"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 6,
    "note": "",
    "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY542/en"
-  },
-  {
-   "institution": "SDU",
-   "level": "BSc",
-   "code": "FY549",
-   "title": "Electrodynamics",
-   "language": "English",
-   "ects": 5.0,
-   "dept_name": "Physics, Chemistry and Pharmacy",
-   "subs": [
-    "2.2"
-   ],
-   "primary": "2.2",
-   "domain": "2",
-   "prof": {},
-   "status": "estimated",
-   "kw_strong": 1,
-   "kw_medium": 1,
-   "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/FY549/en"
   },
   {
    "institution": "SDU",
@@ -7774,7 +7621,7 @@
    "primary": "2.2",
    "domain": "2",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 10,
    "note": "",
@@ -7795,33 +7642,11 @@
    "primary": "3.5",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
    "url": "https://odinlister.sdu.dk/fagbesk/internkode/MM553/en"
-  },
-  {
-   "institution": "SDU",
-   "level": "BSc",
-   "code": "KE525",
-   "title": "Inorganic chemistry A",
-   "language": "Danish or English",
-   "ects": 5.0,
-   "dept_name": "Physics, Chemistry and Pharmacy",
-   "subs": [
-    "2.1"
-   ],
-   "primary": "2.1",
-   "domain": "2",
-   "prof": {
-    "I": "A1"
-   },
-   "status": "estimated",
-   "kw_strong": 0,
-   "kw_medium": 4,
-   "note": "",
-   "url": "https://odinlister.sdu.dk/fagbesk/internkode/KE525/en"
   },
   {
    "institution": "SDU",
@@ -7837,7 +7662,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -7857,7 +7682,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
@@ -7872,12 +7697,15 @@
    "ects": 10.0,
    "dept_name": "Mathematics and Computer Science",
    "subs": [
+    "1.2",
     "3.5"
    ],
    "primary": "3.5",
    "domain": "3",
-   "prof": {},
-   "status": "estimated",
+   "prof": {
+    "I": "B1"
+   },
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
@@ -7910,7 +7738,7 @@
    "prof": {
     "I": "B1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 4,
    "kw_medium": 0,
    "note": "Pure mathematics",
@@ -7942,7 +7770,7 @@
    "primary": "7.1",
    "domain": "7",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
@@ -7969,7 +7797,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 41,
    "note": "",
@@ -7995,7 +7823,7 @@
    "primary": "3.3",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 19,
    "note": "",
@@ -8017,14 +7845,14 @@
    "dept_name": "Faculty of Engineering",
    "subs": [
     "3.3",
-    "8.2"
+    "8.1"
    ],
    "primary": "3.3",
    "domain": "3",
    "prof": {
     "III": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 2,
    "note": "",
@@ -8053,7 +7881,7 @@
    "prof": {
     "I": "A1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 1,
    "kw_medium": 13,
    "note": "",
@@ -8079,7 +7907,7 @@
    "primary": "3.2",
    "domain": "3",
    "prof": {},
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 0,
    "kw_medium": 1,
    "note": "",
@@ -8108,7 +7936,7 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 9,
    "kw_medium": 7,
    "note": "phdcourses.dk; PhD School, Faculty of Engineering; no date given",
@@ -8130,12 +7958,12 @@
    "prof": {
     "I": "C1"
    },
-   "status": "estimated",
+   "status": "checked",
    "kw_strong": 3,
    "kw_medium": 8,
    "note": "phdcourses.dk; PhD School, Faculty of Engineering; no date given",
    "url": "https://phdcourses.dk/Course/105100"
   }
  ],
- "unmapped": 14
+ "unmapped": 20
 }

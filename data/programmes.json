@@ -1075,11 +1075,6 @@
         },
         {
           "inst": "SDU",
-          "code": "FY549",
-          "role": "compulsory"
-        },
-        {
-          "inst": "SDU",
           "code": "FY542",
           "role": "compulsory"
         },
@@ -1457,11 +1452,6 @@
         "note": "Bachelor project in a quantum topic"
       },
       "courses": [
-        {
-          "inst": "SDU",
-          "code": "KE525",
-          "role": "compulsory"
-        },
         {
           "inst": "SDU",
           "code": "KE522",
