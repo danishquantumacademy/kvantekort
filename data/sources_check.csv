@@ -13,7 +13,7 @@ datacvr.virk.dk,https://datacvr.virk.dk/enhed/virksomhed/44661632,403,https://da
 di.ku.dk,http://di.ku.dk/english/research/machine-learning/,200,https://di.ku.dk/english/research/machine-learning/,public
 di.ku.dk,http://di.ku.dk/english/research/pltc/,200,https://di.ku.dk/english/research/pltc/,public
 diku.dk,http://diku.dk/,200,https://di.ku.dk/,public
-doi.org,https://doi.org/10.2759/8917117,429,https://op.europa.eu/en/publication-detail/-/publication/bbf03156-1684-11f0-b1a3-01aa75ed71a1/language-en,error
+doi.org,https://doi.org/10.2759/8917117,200,https://op.europa.eu/en/publication-detail/-/publication/bbf03156-1684-11f0-b1a3-01aa75ed71a1/language-en,public
 ece.au.dk,https://ece.au.dk/en,200,https://ece.au.dk/en,public
 electro.dtu.dk,https://electro.dtu.dk/,200,https://electro.dtu.dk/,public
 electro.dtu.dk,https://electro.dtu.dk/research/research-areas/communication-and-cyber-technology/coding-og-visual-communication,200,https://electro.dtu.dk/research/research-areas/communication-and-cyber-technology/coding-og-visual-communication,public
@@ -92,7 +92,7 @@ studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6483,200,https://s
 studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6568,200,https://studieordninger.aau.dk/2026/56/6568,public
 studies.ku.dk,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,200,https://www.ku.dk/studies/masters/quantum-information-science,public
 tidsskrift.dk,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,200,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,public
-uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=Csr4R9ndRz6Kbel7wU40FfPneDfa56GXRxvw4KuliJ7uhaE1AI9GKaxDPBN15BIgI6JqzJ%2B5vwRvYp4WgQj4rXKIpGN3PBmYAuH7u%2BNmh5wy4p1Iv6PrFvryyK8T0o4LhNPMhzFyYEx3nHZgEZsKjHxvsy1bNVGvqvZ9r8idOsHJPA3%2BZ3n%2FjI%2FhXDID2Q53%2F%2F%2Bas%2BXiJqbmnYLgjF6VvkjbnOPgdbGNhdr20aG3AncSDcbuwi6AwkWRrAersGIFswY1169jdnR9aYkM2UfaUgwO8X0ATypJN4eeZV1IIZjh%2FpdzTIRISaAAmMtlqsmopVKbSYVk%2FEIThnAGdyZsPH5RsXufGwDl81Whizp5Y9PqlZoAAAAB,public
+uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=3Et9rmPmHoht%2F4R7wU40FfPneDfa5wbXDX4H7XvfCrcj%2BCgEYk5ySTedCT5%2FOztnJai64Vu83dkS7N5QNdMbe0v%2BNLtScIhlmKwhUunTsFym4%2FQurdKhcVlwfIKJerePICZV%2F%2BToNmh4AsyIMvnQ%2FZo6ij6qhkcNZCWsQTMRXjEHmbGxo%2FMGhEk76d%2BP9pXL0blPmocb3g7fRHz67sX2nNr3Z94Dmtau8yFEHePuF7Sg8xHOyFutbuFcTMnTn82tdOTFBwC6Hv0XT07fjcDCzU%2FSB%2FUm8E%2BbxwPIi2pYK4LMDUw1aeTR%2BRXYVzN6lSOgZmWp1giZbHrnmBD2WkHvsUVylpvSqyrDb5%2BPmCPRzY%2F8KaszaQAAAAE%3D,public
 uvm.dk,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,200,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,public
 uvm.dk,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,200,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,public
 uvm.dk,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,200,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,public
@@ -100,7 +100,7 @@ vbn.aau.dk,https://vbn.aau.dk/en/persons/css/,200,https://vbn.aau.dk/en/persons/
 vbn.aau.dk,https://vbn.aau.dk/en/persons/esben-pilgaard-skovsen/,200,https://vbn.aau.dk/en/persons/esben-pilgaard-skovsen/,public
 vbn.aau.dk,https://vbn.aau.dk/en/persons/jens-pedersen/,200,https://vbn.aau.dk/en/persons/jens-pedersen/,public
 www.bigq.fysik.dtu.dk,https://www.bigq.fysik.dtu.dk/,200,https://www.bigq.fysik.dtu.dk/,public
-www.bio.aau.dk,http://www.bio.aau.dk/,200,https://www.bio.aau.dk/,public
+www.bio.aau.dk,http://www.bio.aau.dk/,ConnectionResetError,,error
 www.bio.ku.dk,http://www.bio.ku.dk,200,https://www1.bio.ku.dk/,public
 www.bioengineering.dtu.dk,https://www.bioengineering.dtu.dk/,200,https://www.bioengineering.dtu.dk/,public
 www.bioengineering.dtu.dk,https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis,200,https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis,public
