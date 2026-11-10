@@ -13,7 +13,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 ## Notes on particular sources
 
-- **University of Copenhagen courses** come from [kucourses.dk](https://kucourses.dk), a public, student-run mirror of KU's course catalogue, because kurser.ku.dk could not be reached on 2 November 2026. The data should be checked against kurser.ku.dk.
+- **University of Copenhagen courses** come from KU's course catalogue [kurser.ku.dk](https://kurser.ku.dk), volume 2026/2027. The first round (2 November 2026) used the student-run mirror kucourses.dk while kurser.ku.dk was down; on 10 November 2026 every mapped course was checked against kurser.ku.dk and all 969 SCIENCE course pages were searched again for quantum content: no changes were needed.
 - **SDU study plans** were opened from the public MitSDU programme pages ("Uddannelsens forløb"), which link to the public study regulations on odin.sdu.dk.
 - **Search engines** were used only to find the official pages; no information is taken from search results.
 - **Survey contacts.** For the European Quantum Academy survey, the names and work e-mail addresses of course responsibles were taken from the same public course pages and are kept in a separate private repository. They are not published.
@@ -33,7 +33,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 |---|---:|
 | kurser.dtu.dk | 100 |
 | kursuskatalog.au.dk | 56 |
-| kucourses.dk | 49 |
+| kurser.ku.dk | 49 |
 | moduler.aau.dk | 38 |
 | odinlister.sdu.dk | 38 |
 | odin.sdu.dk | 9 |
@@ -69,7 +69,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 | mitsdu.dk | 2 |
 | studieordninger.aau.dk | 2 |
 | www.dtu.dk | 2 |
-| kucourses.dk | 1 |
+| kurser.ku.dk | 1 |
 | kursuskatalog.au.dk | 1 |
 | moduler.aau.dk | 1 |
 | studerende.au.dk | 1 |
@@ -228,11 +228,11 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 ## Access check
 
-The workflow "Check sources" opened 150 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **116 public, 0 behind a login**, 7 bot-protected and 27 not reachable.
+The workflow "Check sources" opened 152 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **112 public, 0 behind a login**, 7 bot-protected and 33 not reachable.
 
 - *Bot-protected* pages (the AU research portal) show a Cloudflare challenge to scripts but open normally in a browser without logging in.
 - *Not reachable* are mostly University of Copenhagen web servers (ku.dk), which do not answer requests from GitHub's servers; they open normally in a browser without logging in. The rest were outdated links to unit websites, which have been removed (the map links to the research-portal page instead).
 
 
 
-Total: 3046 pages from 82 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 3046 pages from 83 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

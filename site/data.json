@@ -167,14 +167,14 @@
    },
    "KU": {
     "name": "University of Copenhagen",
-    "course_base": "https://kucourses.dk",
-    "course_url": "https://kucourses.dk/course/{code}",
-    "harvested": "2026-11-02",
+    "course_base": "https://kurser.ku.dk",
+    "course_url": "https://kurser.ku.dk/course/{code}",
+    "harvested": "2026-11-10",
     "academic_year": "2026/2027",
-    "scope": "Faculty of SCIENCE. Bachelor and master courses from kucourses.dk, a student-run mirror of KU's course catalogue, because kurser.ku.dk was unavailable on 2 November 2026. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.",
+    "scope": "Faculty of SCIENCE. Bachelor and master courses from KU's course catalogue kurser.ku.dk (volume 2026/2027, 969 courses: 401 bachelor, 499 master, 66 professional bachelor and 3 continuing-education master courses). The first round on 2 November 2026 used kucourses.dk, a student-run mirror, while kurser.ku.dk was unavailable; on 10 November 2026 every mapped course was checked against kurser.ku.dk (title, ECTS, language, level and course coordinators all matched) and all 969 course pages were searched again for quantum content. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.",
     "totals": {
-     "BSc": 446,
-     "MSc": 416,
+     "BSc": 401,
+     "MSc": 499,
      "PhD": 60
     },
     "departments": {
@@ -5568,7 +5568,7 @@
    "kw_strong": 31,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NDAK26003U",
+   "url": "https://kurser.ku.dk/course/NDAK26003U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -5599,7 +5599,7 @@
    "kw_strong": 23,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK23002U",
+   "url": "https://kurser.ku.dk/course/NFYK23002U",
    "sched": {
     "sem": "E",
     "per": "H1",
@@ -5630,7 +5630,7 @@
    "kw_strong": 22,
    "kw_medium": 20,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK18004U",
+   "url": "https://kurser.ku.dk/course/NFYK18004U",
    "sched": {
     "sem": "F",
     "per": "H2",
@@ -5663,7 +5663,7 @@
    "kw_strong": 21,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK23007U",
+   "url": "https://kurser.ku.dk/course/NMAK23007U",
    "sched": {
     "sem": "E",
     "per": "H1",
@@ -5692,7 +5692,7 @@
    "kw_strong": 20,
    "kw_medium": 23,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK13006U",
+   "url": "https://kurser.ku.dk/course/NFYK13006U",
    "sched": {
     "sem": "F",
     "per": "H1",
@@ -5723,7 +5723,7 @@
    "kw_strong": 20,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK26000U",
+   "url": "https://kurser.ku.dk/course/NFYK26000U",
    "sched": {
     "sem": "F",
     "per": "H1",
@@ -5752,7 +5752,7 @@
    "kw_strong": 18,
    "kw_medium": 11,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYA06015U"
+   "url": "https://kurser.ku.dk/course/NFYA06015U"
   },
   {
    "institution": "KU",
@@ -5777,7 +5777,7 @@
    "kw_strong": 18,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK23005U",
+   "url": "https://kurser.ku.dk/course/NFYK23005U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -5806,7 +5806,7 @@
    "kw_strong": 17,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK14020U",
+   "url": "https://kurser.ku.dk/course/NMAK14020U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -5837,7 +5837,7 @@
    "kw_strong": 15,
    "kw_medium": 8,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK24003U",
+   "url": "https://kurser.ku.dk/course/NFYK24003U",
    "sched": {
     "sem": "F",
     "per": "H1",
@@ -5866,7 +5866,7 @@
    "kw_strong": 14,
    "kw_medium": 10,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEA05042U"
+   "url": "https://kurser.ku.dk/course/NKEA05042U"
   },
   {
    "institution": "KU",
@@ -5888,7 +5888,7 @@
    "kw_strong": 14,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB24001U"
+   "url": "https://kurser.ku.dk/course/NFYB24001U"
   },
   {
    "institution": "KU",
@@ -5911,7 +5911,7 @@
    "kw_strong": 14,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK15003U",
+   "url": "https://kurser.ku.dk/course/NFYK15003U",
    "sched": {
     "sem": "E",
     "per": "H1",
@@ -5942,7 +5942,7 @@
    "kw_strong": 13,
    "kw_medium": 48,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYA05020U"
+   "url": "https://kurser.ku.dk/course/NFYA05020U"
   },
   {
    "institution": "KU",
@@ -5964,7 +5964,7 @@
    "kw_strong": 12,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK13004U",
+   "url": "https://kurser.ku.dk/course/NFYK13004U",
    "sched": {
     "sem": "F",
     "per": "H1",
@@ -5999,7 +5999,7 @@
    "kw_strong": 11,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK26002U",
+   "url": "https://kurser.ku.dk/course/NFYK26002U",
    "sched": {
     "sem": "F",
     "per": "H2",
@@ -6029,7 +6029,7 @@
    "kw_strong": 10,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB10010U"
+   "url": "https://kurser.ku.dk/course/NFYB10010U"
   },
   {
    "institution": "KU",
@@ -6053,7 +6053,7 @@
    "kw_strong": 7,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB22000U"
+   "url": "https://kurser.ku.dk/course/NFYB22000U"
   },
   {
    "institution": "KU",
@@ -6076,7 +6076,7 @@
    "kw_strong": 6,
    "kw_medium": 3,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAA05012U"
+   "url": "https://kurser.ku.dk/course/NMAA05012U"
   },
   {
    "institution": "KU",
@@ -6100,7 +6100,7 @@
    "kw_strong": 6,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NDAK24010U",
+   "url": "https://kurser.ku.dk/course/NDAK24010U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -6131,7 +6131,7 @@
    "kw_strong": 6,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK22000U",
+   "url": "https://kurser.ku.dk/course/NMAK22000U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -6160,7 +6160,7 @@
    "kw_strong": 5,
    "kw_medium": 17,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB13007U"
+   "url": "https://kurser.ku.dk/course/NFYB13007U"
   },
   {
    "institution": "KU",
@@ -6183,7 +6183,7 @@
    "kw_strong": 5,
    "kw_medium": 5,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK10017U",
+   "url": "https://kurser.ku.dk/course/NFYK10017U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -6214,7 +6214,7 @@
    "kw_strong": 5,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK15003U",
+   "url": "https://kurser.ku.dk/course/NMAK15003U",
    "sched": {
     "sem": "F",
     "per": "H2",
@@ -6243,7 +6243,7 @@
    "kw_strong": 4,
    "kw_medium": 12,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEA05037U"
+   "url": "https://kurser.ku.dk/course/NKEA05037U"
   },
   {
    "institution": "KU",
@@ -6265,7 +6265,7 @@
    "kw_strong": 4,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEB13003U"
+   "url": "https://kurser.ku.dk/course/NKEB13003U"
   },
   {
    "institution": "KU",
@@ -6287,7 +6287,7 @@
    "kw_strong": 3,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYA04021U"
+   "url": "https://kurser.ku.dk/course/NFYA04021U"
   },
   {
    "institution": "KU",
@@ -6310,7 +6310,7 @@
    "kw_strong": 2,
    "kw_medium": 20,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYA05060U"
+   "url": "https://kurser.ku.dk/course/NFYA05060U"
   },
   {
    "institution": "KU",
@@ -6332,7 +6332,7 @@
    "kw_strong": 2,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEA04034U"
+   "url": "https://kurser.ku.dk/course/NKEA04034U"
   },
   {
    "institution": "KU",
@@ -6354,7 +6354,7 @@
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB10021U",
+   "url": "https://kurser.ku.dk/course/NFYB10021U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -6383,7 +6383,7 @@
    "kw_strong": 2,
    "kw_medium": 6,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEB23003U"
+   "url": "https://kurser.ku.dk/course/NKEB23003U"
   },
   {
    "institution": "KU",
@@ -6406,7 +6406,7 @@
    "kw_strong": 2,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK10003U",
+   "url": "https://kurser.ku.dk/course/NFYK10003U",
    "sched": {
     "sem": "F",
     "per": "H1",
@@ -6436,7 +6436,7 @@
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB10026U"
+   "url": "https://kurser.ku.dk/course/NFYB10026U"
   },
   {
    "institution": "KU",
@@ -6459,7 +6459,7 @@
    "kw_strong": 2,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEA07016U",
+   "url": "https://kurser.ku.dk/course/NKEA07016U",
    "sched": {
     "sem": "E",
     "per": "S",
@@ -6485,7 +6485,7 @@
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYA04070U"
+   "url": "https://kurser.ku.dk/course/NFYA04070U"
   },
   {
    "institution": "KU",
@@ -6508,7 +6508,7 @@
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEA04057U"
+   "url": "https://kurser.ku.dk/course/NKEA04057U"
   },
   {
    "institution": "KU",
@@ -6530,7 +6530,7 @@
    "kw_strong": 2,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEK22001U",
+   "url": "https://kurser.ku.dk/course/NKEK22001U",
    "sched": {
     "sem": "F",
     "per": "H1",
@@ -6556,7 +6556,7 @@
    "kw_strong": 1,
    "kw_medium": 1,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYB16006U"
+   "url": "https://kurser.ku.dk/course/NFYB16006U"
   },
   {
    "institution": "KU",
@@ -6578,7 +6578,7 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NMAK23014U",
+   "url": "https://kurser.ku.dk/course/NMAK23014U",
    "sched": {
     "sem": "E",
     "per": "H1",
@@ -6606,7 +6606,7 @@
    "kw_strong": 1,
    "kw_medium": 0,
    "note": "",
-   "url": "https://kucourses.dk/course/NNDB19003U"
+   "url": "https://kurser.ku.dk/course/NNDB19003U"
   },
   {
    "institution": "KU",
@@ -6629,7 +6629,7 @@
    "kw_strong": 0,
    "kw_medium": 11,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEK25005U",
+   "url": "https://kurser.ku.dk/course/NKEK25005U",
    "sched": {
     "sem": "E",
     "per": "S",
@@ -6659,7 +6659,7 @@
    "kw_strong": 0,
    "kw_medium": 7,
    "note": "",
-   "url": "https://kucourses.dk/course/NFYK13021U",
+   "url": "https://kurser.ku.dk/course/NFYK13021U",
    "sched": {
     "sem": "F",
     "per": "H2",
@@ -6687,7 +6687,7 @@
    "kw_strong": 0,
    "kw_medium": 4,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEB10006U"
+   "url": "https://kurser.ku.dk/course/NKEB10006U"
   },
   {
    "institution": "KU",
@@ -6707,7 +6707,7 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NBIK16001U",
+   "url": "https://kurser.ku.dk/course/NBIK16001U",
    "sched": {
     "sem": "E",
     "per": "H2",
@@ -6733,7 +6733,7 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NDAA09025U"
+   "url": "https://kurser.ku.dk/course/NDAA09025U"
   },
   {
    "institution": "KU",
@@ -6755,7 +6755,7 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEB11004U"
+   "url": "https://kurser.ku.dk/course/NKEB11004U"
   },
   {
    "institution": "KU",
@@ -6775,7 +6775,7 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEB23002U"
+   "url": "https://kurser.ku.dk/course/NKEB23002U"
   },
   {
    "institution": "KU",
@@ -6795,7 +6795,7 @@
    "kw_strong": 0,
    "kw_medium": 2,
    "note": "",
-   "url": "https://kucourses.dk/course/NKEK12008U",
+   "url": "https://kurser.ku.dk/course/NKEK12008U",
    "sched": {
     "sem": "E",
     "per": "H1",

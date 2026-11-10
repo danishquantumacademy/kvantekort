@@ -194,7 +194,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 ## Notes on particular sources
 
-- **University of Copenhagen courses** come from [kucourses.dk](https://kucourses.dk), a public, student-run mirror of KU's course catalogue, because kurser.ku.dk could not be reached on 2 November 2026. The data should be checked against kurser.ku.dk.
+- **University of Copenhagen courses** come from KU's course catalogue [kurser.ku.dk](https://kurser.ku.dk), volume 2026/2027. The first round (2 November 2026) used the student-run mirror kucourses.dk while kurser.ku.dk was down; on 10 November 2026 every mapped course was checked against kurser.ku.dk and all 969 SCIENCE course pages were searched again for quantum content: no changes were needed.
 - **SDU study plans** were opened from the public MitSDU programme pages ("Uddannelsens forløb"), which link to the public study regulations on odin.sdu.dk.
 - **Search engines** were used only to find the official pages; no information is taken from search results.
 - **Survey contacts.** For the European Quantum Academy survey, the names and work e-mail addresses of course responsibles were taken from the same public course pages and are kept in a separate private repository. They are not published.

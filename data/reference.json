@@ -166,14 +166,14 @@
     },
     "KU": {
       "name": "University of Copenhagen",
-      "course_base": "https://kucourses.dk",
-      "course_url": "https://kucourses.dk/course/{code}",
-      "harvested": "2026-11-02",
+      "course_base": "https://kurser.ku.dk",
+      "course_url": "https://kurser.ku.dk/course/{code}",
+      "harvested": "2026-11-10",
       "academic_year": "2026/2027",
-      "scope": "Faculty of SCIENCE. Bachelor and master courses from kucourses.dk, a student-run mirror of KU's course catalogue, because kurser.ku.dk was unavailable on 2 November 2026. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.",
+      "scope": "Faculty of SCIENCE. Bachelor and master courses from KU's course catalogue kurser.ku.dk (volume 2026/2027, 969 courses: 401 bachelor, 499 master, 66 professional bachelor and 3 continuing-education master courses). The first round on 2 November 2026 used kucourses.dk, a student-run mirror, while kurser.ku.dk was unavailable; on 10 November 2026 every mapped course was checked against kurser.ku.dk (title, ECTS, language, level and course coordinators all matched) and all 969 course pages were searched again for quantum content. PhD courses from the PhD School at the Faculty of SCIENCE via phdcourses.dk.",
       "totals": {
-        "BSc": 446,
-        "MSc": 416,
+        "BSc": 401,
+        "MSc": 499,
         "PhD": 60
       },
       "departments": {

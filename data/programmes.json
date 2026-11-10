@@ -320,7 +320,7 @@
       "institutions": [
         "KU"
       ],
-      "source": "https://kucourses.dk",
+      "source": "https://kurser.ku.dk",
       "summary": "Example route through UCPH's MSc in Physics using Niels Bohr Institute quantum courses.",
       "thesis": {
         "ects": 60,
@@ -611,7 +611,7 @@
       "institutions": [
         "KU"
       ],
-      "source": "https://kucourses.dk",
+      "source": "https://kurser.ku.dk",
       "summary": "Example route through UCPH's MSc in Mathematics with the QMATH quantum information and mathematical physics courses.",
       "thesis": {
         "ects": 30,
@@ -739,7 +739,7 @@
       "institutions": [
         "KU"
       ],
-      "source": "https://kucourses.dk",
+      "source": "https://kurser.ku.dk",
       "summary": "Example route through UCPH's MSc in Chemistry with computational and theoretical chemistry courses.",
       "thesis": {
         "ects": 60,
