@@ -28,13 +28,13 @@
    "status": "read",
    "read": "2026-11-11",
    "ads": 20,
-   "kept": 13
+   "kept": 14
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=quantum%20sensing": {
    "status": "read",
    "read": "2026-11-11",
    "ads": 20,
-   "kept": 17
+   "kept": 16
   },
   "https://www.jobindex.dk/jobsoegning.rss?q=post-quantum": {
    "status": "read",
@@ -412,6 +412,42 @@
    "employer": "Temp-Team A/S",
    "place": "Kgs. Lyngby",
    "url": "https://www.jobindex.dk/vis-job/r14095457",
+   "last": "2026-11-11",
+   "academic": false,
+   "subs": [
+    "1.1"
+   ],
+   "level": "B2",
+   "prof": {
+    "I": "B2"
+   },
+   "technical": true,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-11",
+   "title": "Outreach coordinator - DTU Nanolab, DTU",
+   "employer": "Danmarks Tekniske Universitet",
+   "place": "Kongens Lyngby",
+   "url": "https://www.jobindex.dk/vis-job/h1715728",
+   "last": "2026-11-11",
+   "academic": true,
+   "subs": [
+    "8.4"
+   ],
+   "level": "A2",
+   "prof": {
+    "III": "A2"
+   },
+   "technical": false,
+   "query": "quantum"
+  },
+  {
+   "first": "2026-11-11",
+   "title": "Junior Electrical Test Engineer (Quantum)",
+   "employer": "Temp-Team A/S",
+   "place": "Junior Electrical Test Engineer (Quantum) We are looking for",
+   "url": "https://www.jobindex.dk/vis-job/h1715583",
    "last": "2026-11-11",
    "academic": false,
    "subs": [

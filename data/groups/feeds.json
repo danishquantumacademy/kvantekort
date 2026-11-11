@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T08:52Z",
+ "generated": "2026-11-11T20:56Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -196,7 +196,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -216,16 +216,16 @@
     },
     {
      "date": "2026-01-01",
-     "title": "Indistinguishable single photons from a quantum dot in a nanopost cavity",
-     "url": "https://orbit.dtu.dk/en/publications/indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost/",
+     "title": "Exciton and biexciton preparation via coherent swing-up excitation in a GaAs quantum dot embedded in a micropillar cavity",
+     "url": "https://orbit.dtu.dk/en/publications/exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio/",
      "text": "",
      "kind": "output",
      "source": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/"
     },
     {
      "date": "2026-01-01",
-     "title": "Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emitters",
-     "url": "https://orbit.dtu.dk/en/publications/local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-/",
+     "title": "Indistinguishable single photons from a quantum dot in a nanopost cavity",
+     "url": "https://orbit.dtu.dk/en/publications/indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost/",
      "text": "",
      "kind": "output",
      "source": "https://orbit.dtu.dk/en/organisations/quantum-light-sources-2/"
@@ -237,7 +237,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -319,7 +319,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -360,7 +360,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -508,14 +508,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": true,
      "n": 35,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -803,21 +803,21 @@
      "kind": "news",
      "ok": true,
      "n": 120,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     },
     {
      "url": "https://qmath.ku.dk/events/",
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     },
     {
      "url": "https://qmath.ku.dk/vacant-positions/",
      "kind": "jobs",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -883,7 +883,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -949,7 +949,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1108,14 +1108,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1131,7 +1131,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1147,7 +1147,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1163,7 +1163,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1382,14 +1382,14 @@
      "kind": "news",
      "ok": true,
      "n": 110,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1487,7 +1487,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1585,7 +1585,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1651,7 +1651,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   },
@@ -1717,7 +1717,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T08:52Z"
+     "checked": "2026-11-11T20:56Z"
     }
    ]
   }
