@@ -1,0 +1,276 @@
+# nqcp members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Thiziri Aissaoui|thiziri-aissaoui||
+#Malte Wettergren Andreasen|malte-wettergren-andreasen||
+#Martin Hayhurst Appel|martin-hayhurst-appel|0000-0001-7318-0098|5067255772
+p 1xorjhu 2024-09-05 =
+p 1g84qw9 2023-05-19 on-chip-spin-photon-entanglement-based-on-photon-scattering-of-a-
+p 1habmi1 2022-09-10 dynamical-photon-photon-interaction-mediated-by-a-quantum-emitter
+p 19bq3fn 2022-06-08 entangling-a-hole-spin-with-a-time-bin-photon-a-waveguide-approac
+p 9morpf 2022-03-02 high-fidelity-multiphoton-entangled-cluster-state-with-solid-stat
+p 1atpz2z 2022-11 publisher-correction-dynamical-photonphoton-interaction-mediated-
+p cl4tqx 2021 =
+p 9y3kja 2021-01-08 coherent-spin-photon-interface-with-waveguide-induced-cycling-tra
+p x7uglm 2021-11-10 fidelity-of-time-bin-entangled-multiphoton-states-from-a-quantum-
+#Camila Beli Silva|camila-beli-silva||
+#Kokeb Belete Benti|kokeb-belete-benti||
+#Søren Kristoffer Roed Bentsen|s%C3%B8ren-kristoffer-roed-bentsen||
+#Emma Boeri|emma-boeri||
+#Francesco Borsoi|francesco-borsoi||
+p 16yzx3b 2025-04-30 modular-autonomous-virtualization-system-for-two-dimensional-semi
+#Anna Liv Bjerregaard Bruun|anna-liv-bjerregaard-bruun||
+p 13460bi 2026-07-21 building-intuition-for-quantum-algorithms-using-the-aharonov-bohm
+#Julius Rye Bønnelykke|julius-rye-b%C3%B8nnelykke|0009-0006-7580-6713|5157998859
+#Bjarke Takashi Røjle Christensen|bjarke-takashi-r%C3%B8jle-christensen||
+p 1igw7mw 2021-09-17 cavity-immune-spectral-features-in-the-pulsed-superradiant-crosso
+#Hans Michael Christensen|hans-michael-christensen||
+p mye0dy 2026-10-13 ancilla-train-quantum-algorithm-for-simulating-non-markovian-open
+#Christian Hjort Christiansen|christian-hjort-christiansen||
+p b80j2y 2026-07-17 color-center-formation-in-silicon-on-insulator-for-on-chip-photon
+#Marta Colombo|marta-colombo||
+#Tyra Cortinez Samenius|tyra-cortinez-samenius||
+#Jack Sutton Dienhart|jack-sutton-dienhart||
+#Birk Nøhr Dissing|birk-n%C3%B8hr-dissing|0009-0000-2722-6657|
+#Asbjørn Cennet Cliff Drachmann|asbj%C3%B8rn-cennet-cliff-drachmann|0000-0003-3789-3327|5047608022
+p 1twzck3 2026 long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson
+p kjqc08 2025-05-08 percolative-supercurrent-in-superconductorferromagnetic-insulator
+p 1gw9ovy 2024-01-22 charge-4e-supercurrent-in-a-two-dimensional-inas-al-superconducto
+p 1tzb5sk 2023-08-25 gate-tunable-josephson-diode-in-proximitized-inas-supercurrent-in
+p 905jao 2023-06-22 signatures-of-a-topological-phase-transition-in-a-planar-josephso
+p qo6t2w 2021-01-25 anodic-oxidation-of-epitaxial-superconductor-semiconductor-hybrid
+p 1o047nh 2021-06-23 =
+#Maria Efthymiou Tsironi|maria-efthymiou-tsironi||5034845513
+p 1y29kvd 2025-10-08 voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep
+#Jonathan Guldberg Elsborg|jonathan-guldberg-elsborg||
+#Andrea Sommer Eriksen|andrea-sommer-eriksen||
+#Marcel David Fabian|marcel-david-fabian||5134917141
+p 1iqbyj6 2026-01-15 the-ppp-model-a-minimum-viable-parametrisation-of-conjugated-chem
+#Yousra Farhani|yousra-farhani||5106247498
+#Roberto Florez Ablan|roberto-florez-ablan||
+#Selene Colette Forget|selene-colette-forget||
+#Bernadette Varsha Francis Jaihar|bernadette-varsha-francis-jaihar||
+#Josu Gomez Beldarrain|josu-gomez-beldarrain||
+#Laura Gomez Fernandez|laura-gomez-fernandez||
+#David Ahmad Rivas Góngora|david-ahmad-rivas-g%C3%B3ngora||
+#Ben Graham|ben-graham|0009-0009-3517-4936|
+#Kasper Grove-Rasmussen|kasper-grove-rasmussen|0000-0003-2340-2048|5066764266
+p mo1p0f 2024-04-24 correlation-between-two-distant-quasiparticles-in-separate-superc
+p c10dlx 2024-06-12 shadowed-versus-etched-superconductorsemiconductor-junctions-in-a
+p i6uooq 2023-12-08 richardson-model-with-complex-level-structure-and-spin-orbit-coup
+p 1pgag3d 2022-04-15 direct-transport-between-superconducting-subgap-states-in-a-doubl
+p o81zs4 2022-07-27 electronic-transport-in-double-nanowire-superconducting-islands-w
+p 1ois5su 2022-04-26 =
+p 19m58ki 2022-04-21 =
+p 5a8ucq 2022-08-30 scale-dependent-optimized-homoepitaxy-of-inas111a
+p 1muodfi 2022-10-01 spatial-control-of-the-conductivity-in-srtiosub3sub-based-heteroi
+p 10wkpg5 2022 twist-angle-two-dimensional-superlattices-and-their-application-i
+p 5nvw55 2021 asymmetric-littleparks-oscillations-in-full-shell-double-nanowire
+p 1hmxbph 2021-11-21 =
+p 1okt3zp 2021-05-10 =
+p w1cmaz 2021-09-10 josephson-junctions-in-double-nanowires-bridged-by-in-situ-deposi
+#Emil Grovn|emil-grovn||
+#Sebastiano Guaraldo|sebastiano-guaraldo||
+#Jacob Hastrup|jacob-hastrup||5001228377
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 1kki35o 2026 real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su
+p 2ovats 2025-10-30 =
+#Philip Holm|philip-holm||
+#Wei-Che Hsu|wei-che-hsu||
+#Mohammad Elsayed Khalifa Hussein|mohammad-elsayed-khalifa-hussein||
+#Laurits Moestrup Høgel|laurits-moestrup-h%C3%B8gel||
+#Victoria Bøje Inselmann|victoria-b%C3%B8je-inselmann||
+#Fabian Depenau Bjørnholt Jacobsen|fabian-depenau-bj%C3%B8rnholt-jacobsen||
+#Peter Krogstrup Jeppesen|peter-krogstrup-jeppesen|0000-0002-1930-8553|5023675235
+p 1i9dil6 2026-09-11 artificial-intelligence-assisted-workflow-for-transmission-electr
+p b80j2y 2026-07-17 color-center-formation-in-silicon-on-insulator-for-on-chip-photon
+p 1mdwvws 2026-01-09 =
+p 1hofkki 2026-02-27 spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir
+p 4fn7lq 2026-05-26 =
+p 1r63062 2025-09-23 band-offsets-from-angle-resolved-valence-band-photoemission-spect
+p 1uwkqh0 2025-07-01 identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f
+p 1beqy0w 2025-04-08 subgap-transport-in-superconductor-semiconductor-hybrid-islands-w
+p 3nz8zp 2024-04-05 ground-state-phase-diagram-and-parity-flipping-microwave-transiti
+p 1wjfja9 2024-01-03 =
+p fxyh7i 2024-01-19 supercurrent-transport-through-1e-periodic-full-shell-coulomb-isl
+p 1fw0n1p 2023-11-15 collective-formation-of-misfit-dislocations-at-the-critical-thick
+p a0gvll 2023-09-17 dynamical-polarization-of-the-fermion-parity-in-a-nanowire-joseph
+p afwhev 2023-09-22 electrostatic-control-of-quasiparticle-poisoning-in-a-hybrid-semi
+p 17dgkw1 2023-06-27 epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano
+p 1nlbq5l 2023-03-03 extreme-enhancement-of-superconductivity-in-epitaxial-aluminum-ne
+p 1u11q31 2023-07-17 =
+p 1fo39vr 2023-08-21 gate-tunable-superconductivity-in-hybrid-insbpb-nanowires
+p tebkvz 2023-07-10 lower-temperature-fabrication-of-airbridges-by-grayscale-lithogra
+p 1v7kn2a 2023-02-06 mitigation-of-quasiparticle-loss-in-superconducting-qubits-by-pho
+p e4vgf0 2023-06-20 origin-of-surface-and-subband-states-at-the-inas111a-surface
+p 1a8kbt4 2023-09-11 parity-switching-in-a-full-shell-superconductor-semiconductor-nan
+p 878es3 2023-08 polarizer-stencil-mask-the-present-disclosure-relates-to-a-stenci
+p 1ra71d1 2023-02-13 supercurrent-reversal-in-ferromagnetic-hybrid-nanowire-josephson-
+p vrr4pm 2022-03-17 andreev-interference-in-the-surface-accumulation-layer-of-half-sh
+p 3xk43s 2022-10-12 atomic-scale-characterization-of-planar-selective-area-grown-inas
+p 1pgag3d 2022-04-15 direct-transport-between-superconducting-subgap-states-in-a-doubl
+p sa0zjq 2022-03-16 doubling-the-mobility-of-inasingaas-selective-area-grown-nanowire
+p 11zdvl8 2022-03-08 electronic-structure-of-inas-and-insb-surfaces-density-functional
+p 1u9q5jb 2022-01-31 evidence-for-spin-polarized-bound-states-in-semiconductor-superco
+p 1ois5su 2022-04-26 =
+p 14g12oh 2022-11-04 inasmore-hybrid-semiconductorsuperconductor-nanowire-devices
+p 1gv00hc 2022-11-21 microwave-susceptibility-observation-of-interacting-many-body-and
+p wob24b 2022-07-21 photon-assisted-tunneling-of-high-order-multiple-andreev-reflecti
+p jb9tqe 2022-08-11 =
+p 5a8ucq 2022-08-30 scale-dependent-optimized-homoepitaxy-of-inas111a
+p zljt7j 2022-01-28 signatures-of-andreev-blockade-in-a-double-quantum-dot-coupled-to
+p 8anmpn 2022-05-12 signatures-of-interactions-in-the-andreev-spectrum-of-nanowire-jo
+p n3kmip 2022-08-01 tuning-lower-dimensional-superconductivity-with-hybridization-at-
+p 58240m 2021-01-29 andreev-modes-from-phase-winding-in-a-full-shell-nanowire-based-t
+p tk0lqk 2021 band-structure-extraction-at-hybrid-narrow-gap-semiconductor-meta
+p xlk4bs 2021-07-23 =
+p ckrhxg 2021-07-22 electronic-properties-of-inaseusal-hybrid-nanowires
+p 9rfbks 2021-11-10 enhancing-the-nir-photocurrent-in-single-gaas-nanowires-with-radi
+p 1sezgck 2021 integrated-bioelectronic-proton-gated-logic-elements-utilizing-na
+p 9iuedl 2021-05-03 =
+p 5ieb4r 2021-06-02 =
+p xp7n7u 2021-07-02 rapid-microwave-only-characterization-and-readout-of-quantum-dots
+p tgiciy 2021-09-01 =
+#Benjamin Joecker|benjamin-joecker||5021775910
+p 1og1xcn 2025-09-18 scalable-entanglement-of-nuclear-spins-mediated-by-electron-excha
+p cel71e 2025-06-18 =
+#Maria Gabriela Jordão Oliveira|maria-gabriela-jord%C3%A3o-oliveira|0000-0002-3450-4923|5046942015
+p dyhszo 2025-11-18 =
+p u262av 2025-11-20 quantum-block-krylov-subspace-projector-algorithm-for-computing-l
+#Mikkel Weis Kallesøe|mikkel-weis-kalles%C3%B8e||
+#Chen Klein|chen-klein||
+#Shingo Kono|shingo-kono||
+p pq2mpz 2026-07-28 strongly-driven-cavity-quantum-electrodynamical-optomechanical-hy
+#Nils Kraschon|nils-kraschon||
+#Svend Krøjer Krebs|svend-kr%C3%B8jer-krebs||
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 1kki35o 2026 real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su
+p 2ovats 2025-10-30 =
+p iztjqb 2024 =
+p 190n0q6 2024-04-18 fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-
+p 72vzuz 2024-01-19 non-abelian-holonomy-of-majorana-zero-modes-coupled-to-a-chaotic-
+p inlmu9 2022-01-28 demonstrating-majorana-non-abelian-properties-using-fast-adiabati
+#Henrik Høj Kristensen|henrik-h%C3%B8j-kristensen||
+#Rune Kutchinsky|rune-kutchinsky||
+#Nils Hugo Laurell|nils-hugo-laurell||
+#Chulhyeong Lee|kpm737-kpm737||
+#Kristian Lindholmer|kristian-lindholmer||
+#Yizhi Liu|yizhi-liu|0009-0000-4276-7881|
+#Sara Luise|sara-luise||
+#Magnus Linnet Madsen|magnus-linnet-madsen||
+p b80j2y 2026-07-17 color-center-formation-in-silicon-on-insulator-for-on-chip-photon
+#Albert Lars Sigurd Malmros|albert-lars-sigurd-malmros||
+#Jakob Mannstadt|jakob-mannstadt|0009-0008-3781-0214|
+#Filip Manu-Marin|filip-manu-marin||
+#Julius Monberg Marcussen|julius-monberg-marcussen||
+#Alexander Erik Meulengracht|alexander-erik-meulengracht||
+#Vincent Philippe Michal|vincent-philippe-michal||5071425283
+p 1mdwvws 2026-01-09 =
+p 1uwkqh0 2025-07-01 identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f
+#Avan Mirkhan|avan-mirkhan||
+#Alba Molina Sardina|alba-molina-sardina||
+#Frederik Norlén Nathan|frederik-norl%C3%A9n-nathan||
+p mye0dy 2026-10-13 ancilla-train-quantum-algorithm-for-simulating-non-markovian-open
+p p9y2yn 2025-04-11 quantum-geometry-and-bounds-on-dissipation-in-slowly-driven-quant
+p 1y663t7 2025-09-17 self-correcting-gottesman-kitaev-preskill-qubit-and-gates-in-a-dr
+#Liva Danner Nielsen|liva-danner-nielsen||
+#Anders Filip Nilsson|anders-filip-nilsson||
+#Stefano Paesani|hxb885-hxb885||5091372016
+p b80j2y 2026-07-17 color-center-formation-in-silicon-on-insulator-for-on-chip-photon
+p 1klvqgq 2026-04-13 =
+p 1gws5fk 2026-08-25 hybrid-path-transverse-electric-mode-qudit-encoding-on-an-integra
+p 1haqukd 2026-02-20 multiphoton-quantum-simulation-of-the-generalized-hopfield-memory
+p rg9hk3 2026-03-03 =
+p 8ef9a1 2026-04-23 =
+p 1szh2y2 2026-05-14 practical-blueprint-for-low-depth-photonic-quantum-computing-with
+p xtut2s 2025-01-08 deterministic-generation-of-concatenated-graph-codes-from-quantum
+p xfgiu6 2025-05-07 generating-graph-states-with-a-single-quantum-emitter-and-the-min
+p 1l5evrs 2025-06-23 path-transverse-electric-mode-hyperentanglement-on-an-integrated-
+p f7g6ft 2025-01-07 =
+p ujkwzz 2025-12-11 =
+p 1s5acuw 2025 quantum-simulation-of-spin-disorder-system-on-the-silicon-photoni
+p 10hfkbx 2025-04-04 tailoring-fusion-based-photonic-quantum-computing-schemes-to-quan
+p jtjdeh 2025-08-15 temporal-fusion-of-entangled-resource-states-from-a-quantum-emitt
+p xixz3q 2025-07-14 =
+p g4ub7p 2024-09-10 efficient-percolation-simulations-for-lossy-photonic-fusion-netwo
+p 108vczz 2024-03-28 loss-tolerant-architecture-for-quantum-computing-with-quantum-emi
+p s0zjf6 2023 deterministic-photon-source-interfaced-with-a-programmable-silico
+p 1nsdjsv 2023-09-27 =
+p 1woae33 2023-05-12 high-speed-thin-film-lithium-niobate-quantum-processor-driven-by-
+p cvy6x5 2023-09-21 high-threshold-quantum-computing-by-fusing-one-dimensional-cluste
+p 1ionlo9 2023-05-17 =
+p 18dt45b 2023-04-06 =
+p 13rltzo 2022-01-28 protocol-for-generation-of-high-dimensional-entanglement-from-an-
+p amexfr 2022-10-07 resource-efficient-high-dimensional-subspace-teleportation-with-a
+p 1k57dv8 2022-10-17 threshold-detection-statistics-of-bosonic-states-br
+p beevp5 2021 =
+p 1ex6xsi 2021-11-23 =
+p mmoi7n 2021-06-11 scheme-for-universal-high-dimensional-quantum-computation-with-li
+#Mithilesh Kumar Parit|mithilesh-kumar-parit||
+#Srushti Tukaram Patil|srushti-tukaram-patil||
+#Eike Laurits Piehorsch|eike-laurits-piehorsch||
+#Beatriz Piniello Castillo|beatriz-piniello-castillo||
+p 1kku70x 2026-12-01 new-mechanistic-frontiers-in-carbohydrate-active-enzymes-revealed
+#Eoghan Michael Ryan|eoghan-michael-ryan||
+#Tobias Skov Særkjær|tobias-skov-s%C3%A6rkj%C3%A6r|0000-0001-8535-0998|5052129043
+p 1syfwjt 2024 =
+p 1fw0n1p 2023-11-15 collective-formation-of-misfit-dislocations-at-the-critical-thick
+p 878es3 2023-08 polarizer-stencil-mask-the-present-disclosure-relates-to-a-stenci
+p tgiciy 2021-09-01 =
+#Matilde Kammer Sandager|matilde-kammer-sandager||
+#Suresh Kumar Reddy Sangu|suresh-kumar-reddy-sangu||
+#Stefan Alaric Schäffer|stefan-alaric-sch%C3%A4ffer|0000-0002-5296-0332|5049767118
+p 1nsghfw 2025-03-19 modeling-of-a-continuous-superradiant-laser-on-the-sub-mhz-sup1su
+p xwm6ty 2025-04-03 terrestrial-very-long-baseline-atom-interferometry-summary-of-the
+p 1ftuvwi 2024-02-05 collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian
+p 1wuninz 2024-12-26 =
+p lo6jr3 2022-12 cold-atoms-in-space-community-workshop-summary-and-proposed-road-
+p khghxd 2022-12-09 prospects-of-a-superradiant-laser-based-on-a-thermal-or-guided-be
+p sn1skq 2021-03-25 frequency-ratio-measurements-at-18-digit-accuracy-using-an-optica
+p qon8sp 2021-07-07 towards-an-active-optical-clock-using-an-optical-conveyor-within-
+#Arnulf Johannes Snedker-Nielsen|arnulf-johannes-snedker-nielsen|0009-0002-2602-3828|5124041138
+p b80j2y 2026-07-17 color-center-formation-in-silicon-on-insulator-for-on-chip-photon
+p 1y6n8sl 2025-11-06 electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide
+p 1vy8768 2025 electrical-control-of-quantum-dot-single-photon-source-on-siosub2
+p 1dv9v6q 2024 heterogeneous-integration-of-gaas-waveguides-with-silicon-nitride
+#Naia Soler Iturrioz|naia-soler-iturrioz||
+#Kim Splittorff|kim-splittorff||5057418168
+p 13460bi 2026-07-21 building-intuition-for-quantum-algorithms-using-the-aharonov-bohm
+p kjbzqu 2025-07-07 =
+p ez0ze1 2024-11-19 =
+p cl438y 2021-01-04 =
+#Marcus Vestergaard Spørring|marcus-vestergaard-sp%C3%B8rring||
+#Vita Stefanija|vita-stefanija||
+#Zhenhai Sun|zhenhai-sun||5101302899
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 84qi7c 2025-08-19 andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin
+p 2ovats 2025-10-30 =
+p ychh6e 2025 =
+#Mark Kamper Svendsen|mark-kamper-svendsen||5023226173
+p 1drymgu 2026-06-29 bridging-scales-in-polaritonic-chemistry-ab-initio-frameworks-wit
+p b80j2y 2026-07-17 color-center-formation-in-silicon-on-insulator-for-on-chip-photon
+p 1mdwvws 2026-01-09 =
+p s3bew9 2026-05-29 multiple-photon-fieldinduced-topological-states-in-bulk-hgte
+p dntzoh 2026-08-07 on-intermolecular-interactions-in-the-hamiltonian-used-in-polarit
+p o5kq8z 2025-06-30 cavity-engineering-of-solid-state-materials-without-external-driv
+p 1o9mhp1 2025-06-18 =
+p 1ec16ee 2025-11-05 computational-discovery-and-experimental-validation-of-high-refra
+p 1uwkqh0 2025-07-01 identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f
+p 1hjvqjm 2025-03-12 on-demand-heralded-mir-single-photon-source-using-a-cascaded-quan
+p 17p7o83 2025-09-12 self-consistent-layer-projected-scissors-operator-for-band-struct
+p c58n8l 2024-12-10 cavity-enhanced-superconductivity-in-mgbsub2sub-from-first-princi
+#Hao Tang|hao-tang||
+#Asbjørn Frost Teilmann|asbj%C3%B8rn-frost-teilmann||
+#Jan Westenkær Thomsen|jan-westenk%C3%A6r-thomsen||5055826866
+p 1ftuvwi 2024-02-05 collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian
+p ggfpkk 2023-06-02 subnatural-linewidth-superradiant-lasing-with-cold-sup88supsr-ato
+p dvdu9b 2022-10-20 petabit-per-second-data-transmission-using-a-chip-scale-microcomb
+p 1igw7mw 2021-09-17 cavity-immune-spectral-features-in-the-pulsed-superradiant-crosso
+#Pranav Ticku|pranav-ticku||
+#Tommaso Vedana|tommaso-vedana||
+#Rohit Yadav|rohit-yadav||
+p 15qdhfi 2026-09-28 giant-rashba-splitting-in-inbisbbi-chains-on-insb110-surface-reco
+#Alexandr Zaykov|alexandr-zaykov||

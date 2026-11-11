@@ -1,0 +1,354 @@
+W
+Deterministic photon source of genuine three-qubit entanglement 2024 J 4402270402 0
+On-chip spin-photon entanglement based on photon-scattering of a quantum dot 2023 J 4377096695 0
+Dynamical photon-photon interaction mediated by a quantum emitter 2022 J 4294051999 0
+Entangling a Hole Spin with a Time-Bin Photon: A Waveguide Approach for Quantum Dot Sources of Multiphoton Entanglement 2022 J 4283453452 0
+High-fidelity multiphoton-entangled cluster state with solid-state quantum emitters in photonic nanostructures 2022 L 3042786472 0
+Publisher Correction: Dynamical photon–photon interaction mediated by a quantum emitter 2022 D 4306405724 1
+A Quantum Dot Source of Time-Bin Multi-Photon Entanglement 2021 T 0
+Coherent Spin-Photon Interface with Waveguide Induced Cycling Transitions 2021 L 3037876326 0
+Fidelity of time-bin-entangled multiphoton states from a quantum emitter 2021 J 3043682546 0
+Ideal refocusing of an optically active spin qubit under strong hyperfine interactions 2023 J 4318071611 0
+Photonic Indistinguishability of the Tin-Vacancy Center in Nanostructured Diamond 2022 J 4307169433 0
+A diamond nanophotonic interface with an optically accessible deterministic electronuclear spin register 2023 J 4388627139 0
+Microwave-Based Quantum Control and Coherence Protection of Tin-Vacancy Spin Qubits in a Strain-Tuned Diamond-Membrane Heterostructure 2023 J 4389133713 0
+A many-body quantum register for a spin qubit 2025 J 4406805337 0
+Hyperfine Spectroscopy of Isotopically Engineered Group-IV Color Centers in Diamond 2023 J 4387253080 0
+Optical and Magnetic Response by Design in Ga As Quantum Dots 2025 J 4415166362 0
+Tuning the Coherent Interaction of an Electron Qubit and a Nuclear Magnon 2025 J 4409254752 0
+Many-Body Singlet Prepared by a Central-Spin Qubit 2023 J 4389728408 0
+On-chip spin-photon entanglement based on single-photon scattering 2022 P 0
+Modular Autonomous Virtualization System for Two-Dimensional Semiconductor Quantum Dot Arrays 2025 J 0
+Building intuition for quantum algorithms using the Aharonov-Bohm effect 2026 J 0
+Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes 2026 P 7221181214 0
+Cavity-immune spectral features in the pulsed superradiant crossover regime 2021 J 0
+Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems 2026 J 0
+Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration 2026 J 0
+Long-range phase coherence and phase patterns in hybrid Josephson junction arrays 2026 P 7127424940 0
+Percolative supercurrent in superconductor–ferromagnetic insulator bilayers 2025 J 4410208208 0
+Charge-4e supercurrent in a two-dimensional InAs-Al superconductor-semiconductor heterostructure 2024 J 4391100133 0
+Gate-tunable Josephson diode in proximitized InAs supercurrent interferometers 2023 J 4386168825 0
+Signatures of a topological phase transition in a planar Josephson junction 2023 J 4381853965 0
+Anodic oxidation of epitaxial superconductor-semiconductor hybrids 2021 J 3085426568 0
+Zeeman-driven parity transitions in an Andreev quantum dot 2021 J 3124737947 0
+Reopening of the superconducting gap in a planar Josephson junction 2021 J 3155032236 0
+Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays 2025 J 4414958518 0
+Polariton Bose–Einstein condensate from a bound state in the continuum 2022 J 3161558623 0
+Reconfigurable quantum fluid molecules of bound states in the continuum 2024 J 4390582023 0
+Collective excitations of a bound-in-the-continuum condensate 2023 J 4380371594 0
+Condensation dynamics in a two-dimensional square photonic crystal waveguide 2025 J 4415306738 0
+The PPP model – a minimum viable parametrisation of conjugated chemistry for modern computing applications 2026 J 7124271372 0
+Quantum simulation of nanographenes and Trotter error cancellation 2026 P 7160155020 0
+Correlation between two distant quasiparticles in separate superconducting islands mediated by a single spin 2024 J 4395073159 0
+Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires 2024 J 4399576715 0
+Richardson model with complex level structure and spin-orbit coupling for hybrid superconducting islands: Stepwise suppression of pairing and magnetic pinning 2023 J 4389489251 0
+Direct transport between superconducting subgap states in a double quantum dot 2022 J 3161979283 0
+Electronic Transport in Double-Nanowire Superconducting Islands with Multiple Terminals 2022 L 4221147306 0
+Excitations in a superconducting Coulombic energy gap 2022 J 4224993354 0
+Scalable Platform for Nanocrystal-Based Quantum Electronics 2022 J 3213542378 0
+Scale-Dependent Optimized Homoepitaxy of InAs(111)A 2022 J 4293572207 0
+Spatial control of the conductivity in SrTiO3-based heterointerfaces using inkjet printing 2022 J 4297173584 0
+Twist-angle two-dimensional superlattices and their application in (opto)electronics 2022 J 3208716257 0
+Asymmetric Little–Parks oscillations in full shell double nanowires 2021 J 3169420104 0
+Double Nanowires for Hybrid Quantum Devices 2021 J 3137682247 0
+Epitaxial Pb on InAs nanowires for quantum devices 2021 J 3008341774 0
+Josephson junctions in double nanowires bridged by in-situ deposited superconductors 2021 J 0
+Bias asymmetric subgap states mimicking Majorana signatures 2021 P 3125304103 0
+Coulombic subgap states 2021 P 3171432372 0
+Magnetic texture modulated superconductivity in superconductor/ferromagnet shells of semiconductor nanowires 2026 P 7126184511 0
+Controlled parity of cooper pair tunneling in a hybrid superconducting qubit 2026 J 7171834117 0
+Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit 2026 J 4417295846 0
+Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits 2026 J 4417308485 0
+Gatemon qubit revisited for improved reliability and stability 2025 J 4415718928 0
+Scaling and networking a modular photonic quantum computer 2025 J 4406693713 0
+Integrated photonic source of Gottesman–Kitaev–Preskill qubits 2025 J 4411025748 0
+Measurement-free preparation of grid states 2021 J 2996923237 0
+Protocol for Generating Optical Gottesman-Kitaev-Preskill States with Cavity QED 2022 J 4280649427 0
+All-optical cat-code quantum error correction 2022 J 3196370019 0
+Unsuitability of cubic phase gates for non-Clifford operations on Gottesman-Kitaev-Preskill states 2021 J 3086505807 0
+Analysis of loss correction with the Gottesman-Kitaev-Preskill code 2023 J 3216368869 0
+Unconditional Preparation of Squeezed Vacuum from Rabi Interactions 2021 J 3155530234 0
+Improved readout of qubit-coupled Gottesman–Kitaev–Preskill states 2021 J 3080114133 0
+Universal Unitary Transfer of Continuous-Variable Quantum States into a Few Qubits 2022 J 3174783498 0
+Slowing quantum decoherence of oscillators by hybrid processing 2022 J 3171875004 0
+Junction-intrinsic dissipation in hybrid superconductor-semiconductor gatemon qubits 2026 J 7147115221 0
+Demonstrating and Benchmarking Classical Shadows for Lindblad Tomography 2026 P 7129213247 0
+Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits 2026 P 7128800266 0
+Learning Lindblad Dynamics of a Superconducting Quantum Processor 2026 P 7160189519 0
+Scalable architecture for measurement-induced squeezed light interferometers 2026 J 4416544562 0
+Artificial Intelligence-Assisted Workflow for Transmission Electron Microscopy: From Data Analysis Automation to Materials Knowledge Unveiling 2026 J 4415468990 0
+Localized Josephson hot spots due to two-level systems 2026 J 0
+Spin-Split Superconductivity in Spin-Orbit Coupled Hybrid Nanowires with Ferromagnetic Barriers 2026 J 4417255561 0
+Tailoring Superconductivity with Two-Level Systems 2026 J 0
+Band Offsets from Angle-Resolved Valence Band Photoemission Spectroscopy 2025 J 4414420183 0
+Identification of Soft Modes in Amorphous Al2O3 via First-Principles 2025 J 0
+Subgap transport in superconductor-semiconductor hybrid islands: Weak and strong coupling regimes 2025 J 4409244915 0
+Ground-state phase diagram and parity-flipping microwave transitions in a gate-tunable Josephson junction 2024 J 4390073193 0
+Microwave spectroscopy of interacting Andreev spins 2024 J 4390571283 0
+Supercurrent transport through 1e-periodic full-shell Coulomb islands 2024 J 4391023994 0
+Collective formation of misfit dislocations at the critical thickness for equilibrium nanowire heterostructures 2023 J 4376122263 0
+Dynamical Polarization of the Fermion Parity in a Nanowire Josephson Junction 2023 L 4226192837 0
+Electrostatic control of quasiparticle poisoning in a hybrid semiconductor-superconductor island 2023 L 4384698012 0
+Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires 2023 J 4380730197 0
+Extreme enhancement of superconductivity in epitaxial aluminum near the monolayer limit 2023 J 4322726664 0
+Few-mode to mesoscopic junctions in gatemon qubits 2023 L 4384561080 0
+Gate-tunable superconductivity in hybrid InSb–Pb nanowires 2023 J 4386032088 0
+Lower-temperature fabrication of airbridges by grayscale lithography to increase yield of nanowire transmons in circuit QED quantum processors 2023 J 4384070578 0
+Mitigation of Quasiparticle Loss in Superconducting Qubits by Phonon Scattering 2023 J 4319311774 0
+Origin of surface and subband states at the InAs(111)A surface 2023 J 4381248292 0
+Parity switching in a full-shell superconductor-semiconductor nanowire qubit 2023 L 4386621058 0
+Polarizer stencil mask (patent) 2023 D 1
+Supercurrent reversal in ferromagnetic hybrid nanowire Josephson junctions 2023 J 4320485200 0
+Andreev Interference in the Surface Accumulation Layer of Half-Shell InAsSb/Al Hybrid Nanowires 2022 J 3150783348 0
+Atomic-Scale Characterization of Planar Selective-Area-Grown InAs/ InGaAs Nanowires 2022 J 4304693808 0
+Doubling the mobility of InAs/InGaAs selective area grown nanowires 2022 J 4221040593 0
+Electronic Structure of InAs and InSb Surfaces: Density Functional Theory and Angle‐Resolved Photoemission Spectroscopy 2022 J 4205923034 0
+Evidence for spin-polarized bound states in semiconductor-superconductor-ferromagnetic-insulator islands 2022 J 4210744767 0
+InAs/MoRe Hybrid Semiconductor/Superconductor Nanowire Devices 2022 J 4308169960 0
+Microwave Susceptibility Observation of Interacting Many-Body Andreev States 2022 L 4226108637 0
+Photon-Assisted Tunneling of High-Order Multiple Andreev Reflections in Epitaxial Nanowire Josephson Junctions 2022 J 4229448785 0
+Radio-Frequency C-V Measurements with Subattofarad Sensitivity 2022 J 3203743969 0
+Signatures of Andreev Blockade in a Double Quantum Dot Coupled to a Superconductor 2022 L 4207009908 0
+Signatures of Interactions in the Andreev Spectrum of Nanowire Josephson Junctions 2022 J 4280549743 0
+Tuning lower dimensional superconductivity with hybridization at a superconducting-semiconducting interface 2022 J 4289316433 0
+Andreev Modes from Phase Winding in a Full-Shell Nanowire-Based Transmon 2021 L 3080533861 0
+Band Structure Extraction at Hybrid Narrow-Gap Semiconductor-Metal Interfaces 2021 J 0
+Coherent manipulation of an Andreev spin qubit 2021 J 3122332406 0
+Electronic properties of InAs/EuS/Al hybrid nanowires 2021 J 3100999591 0
+Enhancing the NIR Photocurrent in Single GaAs Nanowires with Radial p-i-n Junctions by Uniaxial Strain 2021 L 3210156725 0
+Integrated bioelectronic proton-gated logic elements utilizing nanoscale patterned Nafion 2021 J 0
+Magnetic-Field-Compatible Superconducting Transmon Qubit 2021 J 3120826912 0
+Multiterminal Quantized Conductance in InSb Nanocrosses 2021 J 3119524465 0
+Rapid Microwave-Only Characterization and Readout of Quantum Dots Using Multiplexed Gigahertz-Frequency Resonators 2021 J 3133778685 0
+Selective area growth rates of III-V nanowires 2021 J 3196520117 0
+InAs-Al hybrid devices passing the topological gap protocol 2023 J 4381549427 0
+Nontopological zero-bias peaks in full-shell nanowires induced by flux-tunable Andreev states 2021 J 3092252743 0
+Quasiparticle trapping by orbital effect in a hybrid superconducting-semiconducting circuit 2021 P 3164898221 0
+Quantum capacitance of a superconducting subgap state in an electrostatically floating dot-island 2022 P 4303448466 0
+Comparing tunneling spectroscopy and charge sensing of Andreev bound states in a semiconductor-superconductor hybrid nanowire structure 2021 P 3162041840 0
+Epitaxial single T centres in silicon-on-insulator 2026 P 7167722708 0
+A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation 2026 P 7212000859 0
+Transport and spectroscopy of junction Andreev bound states in half-shell nanowire transmon devices 2021 J 3130627139 0
+Realization of an Andreev spin qubit 2021 J 3131631136 0
+Electrodynamic Response of a Solitary Andreev Level – Experimental Measurements 2021 J 3137148752 0
+Scanning SQUID Imaging of Epitaxial Semiconductor-Magnetic Insulator Heterostructures 2021 J 3137473760 0
+Fast RF-only tuneup of quantum dot systems using multiplexed GHz CPW resonators 2021 J 3138393590 0
+Microwave Andreev bound state spectroscopy of a nanowire Josephson junction in magnetic fields 2021 J 3138649620 0
+Time-resolved measurement of quaiparticle tunneling between two Andreev levels in quantum dots 2021 J 3139486698 0
+Measurement of microwave impedance of proximitized nanowires using resonators 2021 J 3141344772 0
+The role of growth temperature on the electron mobility of InAs/InGaAs selective area grown nanowires 2021 P 3143796507 0
+Electronic properties of InAs/Al/EuS hybrid nanowires: Effective Zeeman spin splitting and topological phase diagram 2021 J 3159213927 0
+Electronic Structure of InAs and InSb Surfaces 2022 J 0
+Scalable entanglement of nuclear spins mediated by electron exchange 2025 J 4414321822 0
+Superconducting proximity effect in two-dimensional hole gases 2025 J 4410597976 0
+Precision tomography of a three-qubit donor quantum processor in silicon 2022 J 4206498467 0
+An electrically driven single-atom “flip-flop” qubit 2023 J 4320032908 0
+Full configuration interaction simulations of exchange-coupled donors in silicon using multi-valley effective mass theory 2021 J 3111388286 0
+Error channels in quantum nondemolition measurements on spin systems 2024 J 4391616269 0
+Engineering local strain for single-atom nuclear acoustic resonance in silicon 2021 J 3209258781 0
+Jet evolution in a quantum computer: quark and gluon dynamics 2025 J 0
+Quantum block Krylov subspace projector algorithm for computing low-lying eigenenergies 2025 J 4414942302 0
+Fitting a collider in a quantum computer: tackling the challenges of quantum machine learning for big datasets 2023 J 4389815861 0
+The two-site Heisenberg model studied using a quantum computer: A didactic introduction 2024 J 4403546118 0
+Tackling instabilities of quantum Krylov subspace methods: an analysis of the numerical and statistical errors 2026 P 7154212504 0
+Quantum computing applications to quantum chromodynamics: jet evolution in a quantum computer 2024 T 7209041448 0
+Strongly driven cavity-quantum-electrodynamical-optomechanical hybrid system 2026 J 0
+Controlling and Protecting Coherent Quantum States 2024 T 0
+Fast universal control of a flux qubit via exponentially tunable wave-function overlap 2024 J 0
+Non-Abelian Holonomy of Majorana Zero Modes Coupled to a Chaotic Quantum Dot 2024 L 0
+Demonstrating Majorana non-Abelian properties using fast adiabatic charge transfer 2022 J 0
+Strong coupling between a photon and a hole spin in silicon 2023 J 4289645700 0
+A single hole spin with enhanced coherence in natural silicon 2022 J 4296690338 0
+Longitudinal and transverse electric field manipulation of hole spin-orbit qubits in one-dimensional channels 2021 J 3093015858 0
+Tunable hole spin-photon interaction based on g -matrix modulation 2023 J 4317941120 0
+Probing Low-Frequency Charge Noise in Few-Electron CMOS Quantum Dots 2023 J 4362550031 0
+Dispersively Probed Microwave Spectroscopy of a Silicon Hole Double Quantum Dot 2021 J 3115655067 0
+Quantum Geometry and Bounds on Dissipation in Slowly Driven Quantum Systems 2025 J 0
+Self-Correcting Gottesman-Kitaev-Preskill Qubit and Gates in a Driven-Dissipative Circuit 2025 J 0
+Fusion-based implementation of qLDPC codes with quantum emitters 2026 J 4414747477 0
+Hybrid path-transverse electric mode qudit encoding on an integrated photonic chip 2026 J 4415885368 0
+Multiphoton Quantum Simulation of the Generalized Hopfield Memory Model 2026 J 4417223366 0
+Photonic simulation of disordered spin systems on a silicon chip 2026 J 7133333205 0
+Photon Sorting with a Quantum Emitter 2026 P 7155517597 0
+Practical blueprint for low-depth photonic quantum computing with quantum dots 2026 J 4414406803 0
+Deterministic Generation of Concatenated Graph Codes from Quantum Emitters 2025 J 4406155344 0
+Generating graph states with a single quantum emitter and the minimum number of fusions 2025 J 4410157186 0
+Path-Transverse Electric Mode Hyperentanglement on an Integrated Photonic Chip 2025 R 4413457120 0
+Processing quantum randomness with light 2025 J 4406142023 0
+Programmable nonlinear quantum photonic circuits 2025 J 4417228723 0
+Quantum Simulation of Spin Disorder System on the Silicon Photonics Platform 2025 R 0
+Tailoring Fusion-Based Photonic Quantum Computing Schemes to Quantum Emitters 2025 J 4409197325 0
+Temporal fusion of entangled resource states from a quantum emitter 2025 J 4413257628 0
+Transforming graph states via Bell state measurements 2025 J 4412408010 0
+Efficient percolation simulations for lossy photonic fusion networks 2024 J 4402407512 0
+Loss-tolerant architecture for quantum computing with quantum emitters 2024 J 4393260622 0
+Deterministic photon source interfaced with a programmable silicon-nitride integrated circuit 2023 J 4387018572 0
+Encoding Error Correction in an Integrated Photonic Chip 2023 J 4387097154 0
+High-speed thin-film lithium niobate quantum processor driven by a solid-state quantum emitter 2023 J 4376507140 0
+High-Threshold Quantum Computing by Fusing One-Dimensional Cluster States 2023 L 4386926945 0
+Optimizing Graph Codes for Measurement-Based Loss Tolerance 2023 J 4376959346 0
+Very-large-scale integrated quantum graph photonics 2023 J 4362673628 0
+Protocol for generation of high-dimensional entanglement from an array of non-interacting photon emitters 2022 J 4205234589 0
+Resource-efficient high-dimensional subspace teleportation with a quantum autoencoder 2022 J 4303449041 0
+Threshold detection statistics of bosonic states 2022 J 0
+Generation of high-dimensional photonic entanglement 2021 R 3191700352 0
+Proposal for practical multidimensional quantum networks 2021 J 3137592479 0
+Scheme for Universal High-Dimensional Quantum Computation with Linear Optics 2021 L 3157872481 0
+An optical neural chip for implementing complex-valued neural network 2021 J 3121141908 0
+Error-protected qubits in a silicon photonic chip 2021 J 3086329240 0
+Learning models of quantum systems from experiments 2021 J 3006357116 0
+On-Chip Quantum Information Processing with Distinguishable Photons 2024 J 4394581531 0
+Purifying Photon Indistinguishability through Quantum Interference 2024 J 4400776307 0
+Hardware requirements for realizing a quantum advantage with deterministic single-photon sources 2024 J 4394568368 0
+Quantum Processors in Silicon Photonics 2021 C 3166695383 0
+High-Dimensional Quantum Photonics: Roadmap 2026 P 7152394488 0
+Breadth-first graph traversal union-find decoder 2024 P 4406073493 0
+High-dimensional Path-Encoded Entanglement Distribution Between Photonic Chips Enabled by Multimode Phase Stabilisation 2025 P 4415882993 0
+Purification of photonic graph states 2026 P 7207561723 0
+Dealing with low-weight errors that lead BP OSD to fail 2026 P 7223296366 0
+Observation of associative-memory retrieval and spin-glass phases on a photonic quantum simulator 2026 P 7162339551 0
+Fine structure of the M-center in Si 2026 P 7204946867 0
+High-efficiency photonic GHZ measurements with linear optics 2026 P 7225129435 0
+Loss-tolerant quantum correlations between atomic and photonic qubits 2026 J 7225726143 0
+New mechanistic frontiers in carbohydrate-active enzymes revealed by QM/MM simulations 2026 J 0
+Bottom-up nanoscale synthesis of quantum circuits 2024 T 0
+Modeling of a continuous superradiant laser on the sub-mHz 1S0 → 3P0 transition in neutral strontium-88 2025 J 4408613508 0
+Terrestrial Very-Long-Baseline Atom Interferometry: summary of the second workshop 2025 J 4405625270 0
+Collectively enhanced Ramsey readout by cavity sub- to superradiant transition 2024 J 4391529922 0
+Continuous cavity QED with an atomic beam 2024 J 4405799514 0
+Cold atoms in space: community workshop summary and proposed road-map 2022 J 4309550194 0
+Prospects of a superradiant laser based on a thermal or guided beam of 88Sr 2022 J 4311137306 0
+Frequency ratio measurements at 18-digit accuracy using an optical clock network 2021 J 4230217355 0
+Towards an Active Optical Clock using an Optical Conveyor within a Ring Cavity 2021 R 3215333251 0
+Continuous superradiant laser based on a simple hot atomic beam 2021 J 3176801606 0
+Collimation of dense atomic beams by Swept Velocity Shelving 2026 P 7172348262 0
+Terrestrial Very-Long-Baseline Atom Interferometry 2025 J 0
+Cold atoms in space 2022 J 0
+Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation 2025 J 4415960507 0
+Electrical Control of Quantum-Dot Single-Photon Source on SiO2/Si Substrate 2025 R 4414324748 0
+Heterogeneous Integration of GaAs Waveguides with Silicon Nitride Photonic Integrated Circuits 2024 R 4402207604 0
+Quantum determinant estimation 2025 J 0
+Quantum phase estimation and the Aharonov-Bohm effect 2024 J 4404527081 0
+New term in effective field theory at fixed topology 2021 J 3019537800 0
+Kvanteteknologisk revolution – Den største udfordring er at uddanne nok 2022 D 7164322742 1
+På tærsklen til en ny kvanteteknologisk revolution 2021 D 7164830131 1
+Ambitiøst kvantecomputerprogram etableres på Niels Bohr Institutet 2023 D 7165109950 1
+Andreev spin relaxation time in a shadow-evaporated InAs weak link 2025 J 4413091371 0
+SNS Josephson Junction-Based Superconducting Qubits Revisited 2025 T 0
+Bridging scales in polaritonic chemistry: ab initio frameworks with realistic spatially structured cavities [Invited] 2026 J 7163870476 0
+Multiple photon field–induced topological states in bulk HgTe 2026 J 7162507096 0
+On intermolecular interactions in the Hamiltonian used in polaritonic chemistry 2026 J 4414741353 0
+Cavity engineering of solid-state materials without external driving 2025 J 4409155330 0
+Cavity Spectroscopy for Strongly Correlated Polaritonic Systems 2025 J 4410424596 0
+Computational discovery and experimental validation of high-refractive index HfS2 nanoresonators 2025 J 4415992092 0
+On-demand heralded MIR single-photon source using a cascaded quantum system 2025 J 4408345684 0
+Self-consistent layer-projected scissors operator for band structures of two-dimensional van der Waals materials with large unit cells 2025 J 4414596665 0
+Cavity-enhanced superconductivity in MgB2 from first-principles quantum electrodynamics (QEDFT) 2024 J 4405092197 0
+Recent progress of the Computational 2D Materials Database (C2DB) 2021 J 3129006275 0
+Indirect Band Gap Semiconductors for Thin-Film Photovoltaics: High-Throughput Calculation of Phonon-Assisted Absorption 2022 J 4307027218 0
+Effective equilibrium theory of quantum light-matter interaction in cavities for extended systems and the long wavelength approximation 2025 J 4415991692 0
+Ab Initio Calculations of Quantum Light–Matter Interactions in General Electromagnetic Environments 2024 J 4390672648 0
+Combining density functional theory with macroscopic QED for quantum light-matter interactions in 2D materials 2021 J 3160577197 0
+Exploring and machine learning structural instabilities in 2D materials 2023 J 4386613955 0
+Combining experiments on luminescent centres in hexagonal boron nitride with the polaron model and ab initio methods towards the identification of their microscopic origin 2023 J 4385883800 0
+Computational Discovery and Experimental Demonstration of Boron Phosphide Ultraviolet Nanoresonators 2022 J 4281769113 0
+Momentum-Dependent Oscillator Strength Crossover of Excitons and Plasmons in Two-Dimensional PtSe2 2022 J 4226029035 0
+Improved Dielectric Response of Solids: Combining the Bethe-Salpeter Equation with the Random Phase Approximation 2024 J 4400538455 0
+WSe2 as Transparent Top Gate for Infrared Near-Field Microscopy 2022 J 4287146764 0
+Signatures of non-Markovianity in cavity QED with color centers in two-dimensional materials 2023 J 4386769915 0
+Subnatural Linewidth Superradiant Lasing with Cold 88Sr Atoms 2023 L 0
+Petabit-per-second data transmission using a chip-scale microcomb ring resonator source 2022 J 4306949818 0
+Subnatural Linewidth Superradiant Lasing with Cold Sr 88 Atoms 2023 J 4378807543 0
+Giant Rashba splitting in InBi/SbBi chains on InSb(110): Surface reconstruction as a route to spin-split one-dimensional states 2026 J 0
+P
+Thiziri Aissaoui|thiziri-aissaoui||||0|0|
+Malte Wettergren Andreasen|malte-wettergren-andreasen||||0|0|
+Martin Hayhurst Appel|martin-hayhurst-appel|0000-0001-7318-0098|p|5067255772|0|0|0poa,1poa,2poa,3poa,4poa,5pa,6p,7poa,8poa,9oa,10oa,11oa,12a,13oa,14a,15oa,16oa,17oa,18o
+Camila Beli Silva|camila-beli-silva||||0|0|
+Kokeb Belete Benti|kokeb-belete-benti||||0|0|
+Søren Kristoffer Roed Bentsen|s%C3%B8ren-kristoffer-roed-bentsen||||0|0|
+Emma Boeri|emma-boeri||||0|0|
+Francesco Borsoi|francesco-borsoi||||0|0|19p
+Anna Liv Bjerregaard Bruun|anna-liv-bjerregaard-bruun||||0|0|20p
+Julius Rye Bønnelykke|julius-rye-b%C3%B8nnelykke|0009-0006-7580-6713|p|5157998859|0|0|21oa
+Bjarke Takashi Røjle Christensen|bjarke-takashi-r%C3%B8jle-christensen||||0|0|22p
+Hans Michael Christensen|hans-michael-christensen||||0|0|23p
+Christian Hjort Christiansen|christian-hjort-christiansen||||0|0|24p
+Marta Colombo|marta-colombo||||0|0|
+Tyra Cortinez Samenius|tyra-cortinez-samenius||||0|0|
+Jack Sutton Dienhart|jack-sutton-dienhart||||0|0|
+Birk Nøhr Dissing|birk-n%C3%B8hr-dissing|0009-0000-2722-6657|p||0|0|
+Asbjørn Cennet Cliff Drachmann|asbj%C3%B8rn-cennet-cliff-drachmann|0000-0003-3789-3327|p|5047608022|0|0|25poa,26poa,27poa,28poa,29poa,30poa,31poa,32a
+Maria Efthymiou Tsironi|maria-efthymiou-tsironi|||5034845513|0|0|33pa,34a,35a,36a,37a
+Jonathan Guldberg Elsborg|jonathan-guldberg-elsborg||||0|0|
+Andrea Sommer Eriksen|andrea-sommer-eriksen||||0|0|
+Marcel David Fabian|marcel-david-fabian|||5134917141|0|0|38pa,39a
+Yousra Farhani|yousra-farhani|||5106247498|0|0|
+Roberto Florez Ablan|roberto-florez-ablan||||0|0|
+Selene Colette Forget|selene-colette-forget||||0|0|
+Bernadette Varsha Francis Jaihar|bernadette-varsha-francis-jaihar||||0|0|
+Josu Gomez Beldarrain|josu-gomez-beldarrain||||0|0|
+Laura Gomez Fernandez|laura-gomez-fernandez||||0|0|
+David Ahmad Rivas Góngora|david-ahmad-rivas-g%C3%B3ngora||||0|0|
+Ben Graham|ben-graham|0009-0009-3517-4936|p||0|0|
+Kasper Grove-Rasmussen|kasper-grove-rasmussen|0000-0003-2340-2048|p|5066764266|0|0|40pa,41pa,42pa,43poa,44poa,45poa,46pa,47pa,48pa,49pa,50poa,51poa,52poa,53p,54oa,55a,56a
+Emil Grovn|emil-grovn||||0|0|
+Sebastiano Guaraldo|sebastiano-guaraldo||||0|0|
+Jacob Hastrup|jacob-hastrup|||5001228377|0|0|57pa,58pa,59pa,60pa,61a,62a,63a,64a,65a,66a,67a,68a,69a,70a,71a,72a,73a,74a,75a,76a
+Philip Holm|philip-holm||||0|0|
+Wei-Che Hsu|wei-che-hsu||||0|0|
+Mohammad Elsayed Khalifa Hussein|mohammad-elsayed-khalifa-hussein||||0|0|
+Laurits Moestrup Høgel|laurits-moestrup-h%C3%B8gel||||0|0|
+Victoria Bøje Inselmann|victoria-b%C3%B8je-inselmann||||0|0|
+Fabian Depenau Bjørnholt Jacobsen|fabian-depenau-bj%C3%B8rnholt-jacobsen||||0|0|
+Peter Krogstrup Jeppesen|peter-krogstrup-jeppesen|0000-0002-1930-8553|p|5023675235|0|0|77poa,24po,78po,79poa,80po,81poa,82po,83poa,84poa,85poa,86poa,87poa,88poa,89poa,90poa,91poa,92poa,93poa,94poa,95poa,96poa,97poa,98p,99poa,100poa,101poa,43poa,102poa,103pa,104poa,45poa,105poa,106poa,107poa,108poa,47poa,109poa,110poa,111poa,112poa,113po,114poa,115poa,116poa,117po,118poa,119poa,120poa,121poa,122a,123a,124a,125a,54a,126a,55a,127a,128a,129a,130a,131a,132a,133a,134a,135a,136a,137a,138a,56a,21a,139o
+Benjamin Joecker|benjamin-joecker|||5021775910|0|0|140pa,141pa,142a,143a,144a,145a,146a,21a
+Maria Gabriela Jordão Oliveira|maria-gabriela-jord%C3%A3o-oliveira|0000-0002-3450-4923|p|5046942015|0|0|147po,148poa,149oa,150oa,151a,152a
+Mikkel Weis Kallesøe|mikkel-weis-kalles%C3%B8e||||0|0|
+Chen Klein|chen-klein||||0|0|
+Shingo Kono|shingo-kono||||0|0|153p
+Nils Kraschon|nils-kraschon||||0|0|
+Svend Krøjer Krebs|svend-kr%C3%B8jer-krebs||||0|0|57p,58p,59p,60p,154p,155p,156p,157p
+Henrik Høj Kristensen|henrik-h%C3%B8j-kristensen||||0|0|
+Rune Kutchinsky|rune-kutchinsky||||0|0|
+Nils Hugo Laurell|nils-hugo-laurell||||0|0|
+Chulhyeong Lee|kpm737-kpm737||||0|0|
+Kristian Lindholmer|kristian-lindholmer||||0|0|
+Yizhi Liu|yizhi-liu|0009-0000-4276-7881|p||0|0|
+Sara Luise|sara-luise||||0|0|
+Magnus Linnet Madsen|magnus-linnet-madsen||||0|0|24p
+Albert Lars Sigurd Malmros|albert-lars-sigurd-malmros||||0|0|
+Jakob Mannstadt|jakob-mannstadt|0009-0008-3781-0214|p||0|0|
+Filip Manu-Marin|filip-manu-marin||||0|0|
+Julius Monberg Marcussen|julius-monberg-marcussen||||0|0|
+Alexander Erik Meulengracht|alexander-erik-meulengracht||||0|0|
+Vincent Philippe Michal|vincent-philippe-michal|||5071425283|0|0|78pa,82p,158a,159a,160a,161a,162a,163a,21a
+Avan Mirkhan|avan-mirkhan||||0|0|
+Alba Molina Sardina|alba-molina-sardina||||0|0|
+Frederik Norlén Nathan|frederik-norl%C3%A9n-nathan||||0|0|23p,164p,165p
+Liva Danner Nielsen|liva-danner-nielsen||||0|0|
+Anders Filip Nilsson|anders-filip-nilsson||||0|0|
+Stefano Paesani|hxb885-hxb885|||5091372016|0|0|24pa,166pa,167pa,168pa,169pa,170pa,171pa,172pa,173pa,174pa,175pa,176pa,177p,178pa,179pa,180pa,181pa,182pa,183pa,184pa,185pa,186pa,187pa,188pa,189pa,190pa,191p,192pa,193pa,194pa,195a,196a,197a,198a,199a,200a,201a,202a,203a,204a,127a,205a,128a,206a,207a,208a,209a,210a
+Mithilesh Kumar Parit|mithilesh-kumar-parit||||0|0|
+Srushti Tukaram Patil|srushti-tukaram-patil||||0|0|
+Eike Laurits Piehorsch|eike-laurits-piehorsch||||0|0|
+Beatriz Piniello Castillo|beatriz-piniello-castillo||||0|0|211p
+Eoghan Michael Ryan|eoghan-michael-ryan||||0|0|
+Tobias Skov Særkjær|tobias-skov-s%C3%A6rkj%C3%A6r|0000-0001-8535-0998|p|5052129043|0|0|212po,87poa,98p,121po
+Matilde Kammer Sandager|matilde-kammer-sandager||||0|0|
+Suresh Kumar Reddy Sangu|suresh-kumar-reddy-sangu||||0|0|
+Stefan Alaric Schäffer|stefan-alaric-sch%C3%A4ffer|0000-0002-5296-0332|p|5049767118|0|0|213poa,214pa,215poa,216poa,217pa,218poa,219poa,220poa,22oa,128a,221a,222a,223o,224o
+Arnulf Johannes Snedker-Nielsen|arnulf-johannes-snedker-nielsen|0009-0002-2602-3828|p|5124041138|0|0|24poa,225poa,226poa,227poa,127a,208a
+Naia Soler Iturrioz|naia-soler-iturrioz||||0|0|
+Kim Splittorff|kim-splittorff|||5057418168|0|0|20pa,228p,229pa,230pa,231a,232a,233a
+Marcus Vestergaard Spørring|marcus-vestergaard-sp%C3%B8rring||||0|0|
+Vita Stefanija|vita-stefanija||||0|0|
+Zhenhai Sun|zhenhai-sun|||5101302899|1|0|57pa,58pa,234pa,60pa,235p
+Mark Kamper Svendsen|mark-kamper-svendsen|||5023226173|0|0|236pa,24p,78p,237pa,238pa,239pa,240pa,241pa,82p,242pa,243pa,244pa,245a,246a,247a,248a,249a,250a,251a,252a,253a,254a,255a,256a,21a
+Hao Tang|hao-tang||||0|0|
+Asbjørn Frost Teilmann|asbj%C3%B8rn-frost-teilmann||||0|0|
+Jan Westenkær Thomsen|jan-westenk%C3%A6r-thomsen|||5055826866|0|0|215pa,257p,258pa,22pa,259a
+Pranav Ticku|pranav-ticku||||0|0|
+Tommaso Vedana|tommaso-vedana||||0|0|
+Rohit Yadav|rohit-yadav||||0|0|260p
+Alexandr Zaykov|alexandr-zaykov||||0|0|

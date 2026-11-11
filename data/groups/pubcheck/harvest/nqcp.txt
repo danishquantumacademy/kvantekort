@@ -1,0 +1,391 @@
+#M|Thiziri Aissaoui|/en/persons/thiziri-aissaoui/|||0
+#M|Malte Wettergren Andreasen|/en/persons/malte-wettergren-andreasen/|||0
+#M|Martin Hayhurst Appel|/en/persons/martin-hayhurst-appel/|0000-0001-7318-0098|5067255772|0
+p|1xorjhu|2024-09-05|J 0|deterministic-photon-source-of-genuine-three-qubit-entanglement|4402270402|oa|Deterministic photon source of genuine three-qubit entanglement
+p|1g84qw9|2023-05-19|J 0|on-chip-spin-photon-entanglement-based-on-photon-scattering-of-a-|4377096695|oa|On-chip spin-photon entanglement based on photon-scattering of a quantum dot
+p|1habmi1|2022-09-10|J 0|dynamical-photon-photon-interaction-mediated-by-a-quantum-emitter|4294051999|oa|Dynamical photon-photon interaction mediated by a quantum emitter
+p|19bq3fn|2022-06-08|J 0|entangling-a-hole-spin-with-a-time-bin-photon-a-waveguide-approac|4283453452|oa|Entangling a Hole Spin with a Time-Bin Photon: A Waveguide Approach for Quantum Dot Sources of Multiphoton Entanglement
+p|9morpf|2022-03-02|L 0|high-fidelity-multiphoton-entangled-cluster-state-with-solid-stat|3042786472|oa|High-fidelity multiphoton-entangled cluster state with solid-state quantum emitters in photonic nanostructures
+p|1atpz2z|2022-11|D 1|publisher-correction-dynamical-photonphoton-interaction-mediated-|4306405724|a|Publisher Correction: Dynamical photon–photon interaction mediated by a quantum emitter
+p|cl4tqx|2021|T 0|a-quantum-dot-source-of-time-bin-multi-photon-entanglement|||A Quantum Dot Source of Time-Bin Multi-Photon Entanglement
+p|9y3kja|2021-01-08|L 0|coherent-spin-photon-interface-with-waveguide-induced-cycling-tra|3037876326|oa|Coherent Spin-Photon Interface with Waveguide Induced Cycling Transitions
+p|x7uglm|2021-11-10|J 0|fidelity-of-time-bin-entangled-multiphoton-states-from-a-quantum-|3043682546|oa|Fidelity of time-bin-entangled multiphoton states from a quantum emitter
+e|9a07a0|2023-01-26|J 0||4318071611|oa|Ideal refocusing of an optically active spin qubit under strong hyperfine interactions
+e|ft6hg9|2022-10-21|J 0||4307169433|oa|Photonic Indistinguishability of the Tin-Vacancy Center in Nanostructured Diamond
+e|1a7itzl|2023-11-13|J 0||4388627139|oa|A diamond nanophotonic interface with an optically accessible deterministic electronuclear spin register
+e|1hvbokh|2023-11-29|J 0||4389133713|a|Microwave-Based Quantum Control and Coherence Protection of Tin-Vacancy Spin Qubits in a Strain-Tuned Diamond-Membrane Heterostructure
+e|nex1gc|2025-01-24|J 0||4406805337|oa|A many-body quantum register for a spin qubit
+e|m78cdf|2023-10-02|J 0||4387253080|a|Hyperfine Spectroscopy of Isotopically Engineered Group-IV Color Centers in Diamond
+e|11qrdoh|2025-09-02|J 0||4415166362|oa|Optical and Magnetic Response by Design in Ga As Quantum Dots
+e|1etjir6|2025-04-04|J 0||4409254752|oa|Tuning the Coherent Interaction of an Electron Qubit and a Nuclear Magnon
+e|1m7pgtb|2023-12-14|J 0||4389728408|oa|Many-Body Singlet Prepared by a Central-Spin Qubit
+e|a1bua5|2022|P 0|||o|On-chip spin-photon entanglement based on single-photon scattering
+#M|Camila Beli Silva|/en/persons/camila-beli-silva/|||0
+#M|Kokeb Belete Benti|/en/persons/kokeb-belete-benti/|||0
+#M|Søren Kristoffer Roed Bentsen|/en/persons/s%C3%B8ren-kristoffer-roed-bentsen/|||0
+#M|Emma Boeri|/en/persons/emma-boeri/|||0
+#M|Francesco Borsoi|/en/persons/francesco-borsoi/|||0
+p|16yzx3b|2025-04-30|J 0|modular-autonomous-virtualization-system-for-two-dimensional-semi|||Modular Autonomous Virtualization System for Two-Dimensional Semiconductor Quantum Dot Arrays
+#M|Anna Liv Bjerregaard Bruun|/en/persons/anna-liv-bjerregaard-bruun/|||0
+p|13460bi|2026-07-21|J 0|building-intuition-for-quantum-algorithms-using-the-aharonov-bohm|||Building intuition for quantum algorithms using the Aharonov-Bohm effect
+#M|Julius Rye Bønnelykke|/en/persons/julius-rye-b%C3%B8nnelykke/|0009-0006-7580-6713|5157998859|0
+e|1wph3ud|2026-10-09|P 0||7221181214|oa|Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes
+#M|Bjarke Takashi Røjle Christensen|/en/persons/bjarke-takashi-r%C3%B8jle-christensen/|||0
+p|1igw7mw|2021-09-17|J 0|cavity-immune-spectral-features-in-the-pulsed-superradiant-crosso|||Cavity-immune spectral features in the pulsed superradiant crossover regime
+#M|Hans Michael Christensen|/en/persons/hans-michael-christensen/|||0
+p|mye0dy|2026-10-13|J 0|ancilla-train-quantum-algorithm-for-simulating-non-markovian-open|||Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems
+#M|Christian Hjort Christiansen|/en/persons/christian-hjort-christiansen/|||0
+p|b80j2y|2026-07-17|J 0|color-center-formation-in-silicon-on-insulator-for-on-chip-photon|||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+#M|Marta Colombo|/en/persons/marta-colombo/|||0
+#M|Tyra Cortinez Samenius|/en/persons/tyra-cortinez-samenius/|||0
+#M|Jack Sutton Dienhart|/en/persons/jack-sutton-dienhart/|||0
+#M|Birk Nøhr Dissing|/en/persons/birk-n%C3%B8hr-dissing/|0009-0000-2722-6657||0
+#M|Asbjørn Cennet Cliff Drachmann|/en/persons/asbj%C3%B8rn-cennet-cliff-drachmann/|0000-0003-3789-3327|5047608022|0
+p|1twzck3|2026|P 0|long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson|7127424940|oa|Long-range phase coherence and phase patterns in hybrid Josephson junction arrays
+p|kjqc08|2025-05-08|J 0|percolative-supercurrent-in-superconductorferromagnetic-insulator|4410208208|oa|Percolative supercurrent in superconductor–ferromagnetic insulator bilayers
+p|1gw9ovy|2024-01-22|J 0|charge-4e-supercurrent-in-a-two-dimensional-inas-al-superconducto|4391100133|oa|Charge-4e supercurrent in a two-dimensional InAs-Al superconductor-semiconductor heterostructure
+p|1tzb5sk|2023-08-25|J 0|gate-tunable-josephson-diode-in-proximitized-inas-supercurrent-in|4386168825|oa|Gate-tunable Josephson diode in proximitized InAs supercurrent interferometers
+p|905jao|2023-06-22|J 0|signatures-of-a-topological-phase-transition-in-a-planar-josephso|4381853965|oa|Signatures of a topological phase transition in a planar Josephson junction
+p|qo6t2w|2021-01-25|J 0|anodic-oxidation-of-epitaxial-superconductor-semiconductor-hybrid|3085426568|oa|Anodic oxidation of epitaxial superconductor-semiconductor hybrids
+p|1o047nh|2021-06-23|J 0|zeeman-driven-parity-transitions-in-an-andreev-quantum-dot|3124737947|oa|Zeeman-driven parity transitions in an Andreev quantum dot
+e|1c7u9pe|2021-03-15|J 0||3155032236|a|Reopening of the superconducting gap in a planar Josephson junction
+#M|Maria Efthymiou Tsironi|/en/persons/maria-efthymiou-tsironi/||5034845513|0
+p|1y29kvd|2025-10-08|J 0|voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep|4414958518|a|Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays
+e|3ryzm|2022-05-18|J 0||3161558623|a|Polariton Bose–Einstein condensate from a bound state in the continuum
+e|meg7e7|2024-01-01|J 0||4390582023|a|Reconfigurable quantum fluid molecules of bound states in the continuum
+e|1gb5b8w|2023-06-12|J 0||4380371594|a|Collective excitations of a bound-in-the-continuum condensate
+e|1vz4k4d|2025-10-01|J 0||4415306738|a|Condensation dynamics in a two-dimensional square photonic crystal waveguide
+#M|Jonathan Guldberg Elsborg|/en/persons/jonathan-guldberg-elsborg/|||0
+#M|Andrea Sommer Eriksen|/en/persons/andrea-sommer-eriksen/|||0
+#M|Marcel David Fabian|/en/persons/marcel-david-fabian/||5134917141|0
+p|1iqbyj6|2026-01-15|J 0|the-ppp-model-a-minimum-viable-parametrisation-of-conjugated-chem|7124271372|a|The PPP model – a minimum viable parametrisation of conjugated chemistry for modern computing applications
+e|171bjru|2026-05-01|P 0||7160155020|a|Quantum simulation of nanographenes and Trotter error cancellation
+#M|Yousra Farhani|/en/persons/yousra-farhani/||5106247498|0
+#M|Roberto Florez Ablan|/en/persons/roberto-florez-ablan/|||0
+#M|Selene Colette Forget|/en/persons/selene-colette-forget/|||0
+#M|Bernadette Varsha Francis Jaihar|/en/persons/bernadette-varsha-francis-jaihar/|||0
+#M|Josu Gomez Beldarrain|/en/persons/josu-gomez-beldarrain/|||0
+#M|Laura Gomez Fernandez|/en/persons/laura-gomez-fernandez/|||0
+#M|David Ahmad Rivas Góngora|/en/persons/david-ahmad-rivas-g%C3%B3ngora/|||0
+#M|Ben Graham|/en/persons/ben-graham/|0009-0009-3517-4936||0
+#M|Kasper Grove-Rasmussen|/en/persons/kasper-grove-rasmussen/|0000-0003-2340-2048|5066764266|0
+p|mo1p0f|2024-04-24|J 0|correlation-between-two-distant-quasiparticles-in-separate-superc|4395073159|a|Correlation between two distant quasiparticles in separate superconducting islands mediated by a single spin
+p|c10dlx|2024-06-12|J 0|shadowed-versus-etched-superconductorsemiconductor-junctions-in-a|4399576715|a|Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires
+p|i6uooq|2023-12-08|J 0|richardson-model-with-complex-level-structure-and-spin-orbit-coup|4389489251|a|Richardson model with complex level structure and spin-orbit coupling for hybrid superconducting islands: Stepwise suppression of pairing and magnetic pinning
+p|1pgag3d|2022-04-15|J 0|direct-transport-between-superconducting-subgap-states-in-a-doubl|3161979283|oa|Direct transport between superconducting subgap states in a double quantum dot
+p|o81zs4|2022-07-27|L 0|electronic-transport-in-double-nanowire-superconducting-islands-w|4221147306|oa|Electronic Transport in Double-Nanowire Superconducting Islands with Multiple Terminals
+p|1ois5su|2022-04-26|J 0|excitations-in-a-superconducting-coulombic-energy-gap|4224993354|oa|Excitations in a superconducting Coulombic energy gap
+p|19m58ki|2022-04-21|J 0|scalable-platform-for-nanocrystal-based-quantum-electronics|3213542378|a|Scalable Platform for Nanocrystal-Based Quantum Electronics
+p|5a8ucq|2022-08-30|J 0|scale-dependent-optimized-homoepitaxy-of-inas111a|4293572207|a|Scale-Dependent Optimized Homoepitaxy of InAs(111)A
+p|1muodfi|2022-10-01|J 0|spatial-control-of-the-conductivity-in-srtiosub3sub-based-heteroi|4297173584|a|Spatial control of the conductivity in SrTiO3-based heterointerfaces using inkjet printing
+p|10wkpg5|2022|J 0|twist-angle-two-dimensional-superlattices-and-their-application-i|3208716257|a|Twist-angle two-dimensional superlattices and their application in (opto)electronics
+p|5nvw55|2021|J 0|asymmetric-littleparks-oscillations-in-full-shell-double-nanowire|3169420104|oa|Asymmetric Little–Parks oscillations in full shell double nanowires
+p|1hmxbph|2021-11-21|J 0|double-nanowires-for-hybrid-quantum-devices|3137682247|oa|Double Nanowires for Hybrid Quantum Devices
+p|1okt3zp|2021-05-10|J 0|epitaxial-pb-on-inas-nanowires-for-quantum-devices|3008341774|oa|Epitaxial Pb on InAs nanowires for quantum devices
+p|w1cmaz|2021-09-10|J 0|josephson-junctions-in-double-nanowires-bridged-by-in-situ-deposi|||Josephson junctions in double nanowires bridged by in-situ deposited superconductors
+e|d8utho|2021-01-26|P 0||3125304103|oa|Bias asymmetric subgap states mimicking Majorana signatures
+e|qptzts|2021-01-26|P 0||3171432372|a|Coulombic subgap states
+e|7vbied|2026-01-29|P 0||7126184511|a|Magnetic texture modulated superconductivity in superconductor/ferromagnet shells of semiconductor nanowires
+#M|Emil Grovn|/en/persons/emil-grovn/|||0
+#M|Sebastiano Guaraldo|/en/persons/sebastiano-guaraldo/|||0
+#M|Jacob Hastrup|/en/persons/jacob-hastrup/||5001228377|0
+p|oi0kt4|2026-07-30|J 0|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|7171834117|a|Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J 0|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|4417295846|a|Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|1kki35o|2026|J 0|real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su|4417308485|a|Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits
+p|2ovats|2025-10-30|J 0|gatemon-qubit-revisited-for-improved-reliability-and-stability|4415718928|a|Gatemon qubit revisited for improved reliability and stability
+e|10r51ei|2025-01-22|J 0||4406693713|a|Scaling and networking a modular photonic quantum computer
+e|10eqlcl|2025-06-04|J 0||4411025748|a|Integrated photonic source of Gottesman–Kitaev–Preskill qubits
+e|bpd7fh|2021-01-29|J 0||2996923237|a|Measurement-free preparation of grid states
+e|1jfed5s|2022-04-27|J 0||4280649427|a|Protocol for Generating Optical Gottesman-Kitaev-Preskill States with Cavity QED
+e|dtf3yg|2022-10-31|J 0||3196370019|a|All-optical cat-code quantum error correction
+e|1sdsbrr|2021-03-10|J 0||3086505807|a|Unsuitability of cubic phase gates for non-Clifford operations on Gottesman-Kitaev-Preskill states
+e|186m92o|2023-11-15|J 0||3216368869|a|Analysis of loss correction with the Gottesman-Kitaev-Preskill code
+e|10c0ukq|2021-04-13|J 0||3155530234|a|Unconditional Preparation of Squeezed Vacuum from Rabi Interactions
+e|1s8ivd3|2021-06-01|J 0||3080114133|a|Improved readout of qubit-coupled Gottesman–Kitaev–Preskill states
+e|1r6zka5|2022-03-15|J 0||3174783498|a|Universal Unitary Transfer of Continuous-Variable Quantum States into a Few Qubits
+e|1tqj57n|2022-06-15|J 0||3171875004|a|Slowing quantum decoherence of oscillators by hybrid processing
+e|1wecq4g|2026-11-09|J 0||7147115221|a|Junction-intrinsic dissipation in hybrid superconductor-semiconductor gatemon qubits
+e|rq27ze|2026-02-16|P 0||7129213247|a|Demonstrating and Benchmarking Classical Shadows for Lindblad Tomography
+e|10hp37x|2026-02-12|P 0||7128800266|a|Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits
+e|1qee2m7|2026-05-01|P 0||7160189519|a|Learning Lindblad Dynamics of a Superconducting Quantum Processor
+e|njcin8|2026-10-23|J 0||4416544562|a|Scalable architecture for measurement-induced squeezed light interferometers
+#M|Philip Holm|/en/persons/philip-holm/|||0
+#M|Wei-Che Hsu|/en/persons/wei-che-hsu/|||0
+#M|Mohammad Elsayed Khalifa Hussein|/en/persons/mohammad-elsayed-khalifa-hussein/|||0
+#M|Laurits Moestrup Høgel|/en/persons/laurits-moestrup-h%C3%B8gel/|||0
+#M|Victoria Bøje Inselmann|/en/persons/victoria-b%C3%B8je-inselmann/|||0
+#M|Fabian Depenau Bjørnholt Jacobsen|/en/persons/fabian-depenau-bj%C3%B8rnholt-jacobsen/|||0
+#M|Peter Krogstrup Jeppesen|/en/persons/peter-krogstrup-jeppesen/|0000-0002-1930-8553|5023675235|0
+p|1i9dil6|2026-09-11|J 0|artificial-intelligence-assisted-workflow-for-transmission-electr|4415468990|oa|Artificial Intelligence-Assisted Workflow for Transmission Electron Microscopy: From Data Analysis Automation to Materials Knowledge Unveiling
+p|b80j2y|2026-07-17|J 0|color-center-formation-in-silicon-on-insulator-for-on-chip-photon||o|Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+p|1mdwvws|2026-01-09|J 0|localized-josephson-hot-spots-due-to-two-level-systems||o|Localized Josephson hot spots due to two-level systems
+p|1hofkki|2026-02-27|J 0|spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir|4417255561|oa|Spin-Split Superconductivity in Spin-Orbit Coupled Hybrid Nanowires with Ferromagnetic Barriers
+p|4fn7lq|2026-05-26|J 0|tailoring-superconductivity-with-two-level-systems||o|Tailoring Superconductivity with Two-Level Systems
+p|1r63062|2025-09-23|J 0|band-offsets-from-angle-resolved-valence-band-photoemission-spect|4414420183|oa|Band Offsets from Angle-Resolved Valence Band Photoemission Spectroscopy
+p|1uwkqh0|2025-07-01|J 0|identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f||o|Identification of Soft Modes in Amorphous Al2O3 via First-Principles
+p|1beqy0w|2025-04-08|J 0|subgap-transport-in-superconductor-semiconductor-hybrid-islands-w|4409244915|oa|Subgap transport in superconductor-semiconductor hybrid islands: Weak and strong coupling regimes
+p|3nz8zp|2024-04-05|J 0|ground-state-phase-diagram-and-parity-flipping-microwave-transiti|4390073193|oa|Ground-state phase diagram and parity-flipping microwave transitions in a gate-tunable Josephson junction
+p|1wjfja9|2024-01-03|J 0|microwave-spectroscopy-of-interacting-andreev-spins|4390571283|oa|Microwave spectroscopy of interacting Andreev spins
+p|fxyh7i|2024-01-19|J 0|supercurrent-transport-through-1e-periodic-full-shell-coulomb-isl|4391023994|oa|Supercurrent transport through 1e-periodic full-shell Coulomb islands
+p|1fw0n1p|2023-11-15|J 0|collective-formation-of-misfit-dislocations-at-the-critical-thick|4376122263|oa|Collective formation of misfit dislocations at the critical thickness for equilibrium nanowire heterostructures
+p|a0gvll|2023-09-17|L 0|dynamical-polarization-of-the-fermion-parity-in-a-nanowire-joseph|4226192837|oa|Dynamical Polarization of the Fermion Parity in a Nanowire Josephson Junction
+p|afwhev|2023-09-22|L 0|electrostatic-control-of-quasiparticle-poisoning-in-a-hybrid-semi|4384698012|oa|Electrostatic control of quasiparticle poisoning in a hybrid semiconductor-superconductor island
+p|17dgkw1|2023-06-27|J 0|epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano|4380730197|oa|Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires
+p|1nlbq5l|2023-03-03|J 0|extreme-enhancement-of-superconductivity-in-epitaxial-aluminum-ne|4322726664|oa|Extreme enhancement of superconductivity in epitaxial aluminum near the monolayer limit
+p|1u11q31|2023-07-17|L 0|few-mode-to-mesoscopic-junctions-in-gatemon-qubits|4384561080|oa|Few-mode to mesoscopic junctions in gatemon qubits
+p|1fo39vr|2023-08-21|J 0|gate-tunable-superconductivity-in-hybrid-insbpb-nanowires|4386032088|oa|Gate-tunable superconductivity in hybrid InSb–Pb nanowires
+p|tebkvz|2023-07-10|J 0|lower-temperature-fabrication-of-airbridges-by-grayscale-lithogra|4384070578|oa|Lower-temperature fabrication of airbridges by grayscale lithography to increase yield of nanowire transmons in circuit QED quantum processors
+p|1v7kn2a|2023-02-06|J 0|mitigation-of-quasiparticle-loss-in-superconducting-qubits-by-pho|4319311774|oa|Mitigation of Quasiparticle Loss in Superconducting Qubits by Phonon Scattering
+p|e4vgf0|2023-06-20|J 0|origin-of-surface-and-subband-states-at-the-inas111a-surface|4381248292|oa|Origin of surface and subband states at the InAs(111)A surface
+p|1a8kbt4|2023-09-11|L 0|parity-switching-in-a-full-shell-superconductor-semiconductor-nan|4386621058|oa|Parity switching in a full-shell superconductor-semiconductor nanowire qubit
+p|1r7lzmo|2023-08|D 1|polarizer-stencil-mask-the-present-disclosure-relates-to-a-stenci|||Polarizer stencil mask (patent)
+p|1ra71d1|2023-02-13|J 0|supercurrent-reversal-in-ferromagnetic-hybrid-nanowire-josephson-|4320485200|oa|Supercurrent reversal in ferromagnetic hybrid nanowire Josephson junctions
+p|vrr4pm|2022-03-17|J 0|andreev-interference-in-the-surface-accumulation-layer-of-half-sh|3150783348|oa|Andreev Interference in the Surface Accumulation Layer of Half-Shell InAsSb/Al Hybrid Nanowires
+p|3xk43s|2022-10-12|J 0|atomic-scale-characterization-of-planar-selective-area-grown-inas|4304693808|oa|Atomic-Scale Characterization of Planar Selective-Area-Grown InAs/ InGaAs Nanowires
+p|1pgag3d|2022-04-15|J 0|direct-transport-between-superconducting-subgap-states-in-a-doubl|3161979283|oa|Direct transport between superconducting subgap states in a double quantum dot
+p|sa0zjq|2022-03-16|J 0|doubling-the-mobility-of-inasingaas-selective-area-grown-nanowire|4221040593|oa|Doubling the mobility of InAs/InGaAs selective area grown nanowires
+p|11zdvl8|2022-03-08|J 0|electronic-structure-of-inas-and-insb-surfaces-density-functional|4205923034|a|Electronic Structure of InAs and InSb Surfaces: Density Functional Theory and Angle‐Resolved Photoemission Spectroscopy
+p|1u9q5jb|2022-01-31|J 0|evidence-for-spin-polarized-bound-states-in-semiconductor-superco|4210744767|oa|Evidence for spin-polarized bound states in semiconductor-superconductor-ferromagnetic-insulator islands
+p|1ois5su|2022-04-26|J 0|excitations-in-a-superconducting-coulombic-energy-gap|4224993354|oa|Excitations in a superconducting Coulombic energy gap
+p|14g12oh|2022-11-04|J 0|inasmore-hybrid-semiconductorsuperconductor-nanowire-devices|4308169960|oa|InAs/MoRe Hybrid Semiconductor/Superconductor Nanowire Devices
+p|1gv00hc|2022-11-21|L 0|microwave-susceptibility-observation-of-interacting-many-body-and|4226108637|oa|Microwave Susceptibility Observation of Interacting Many-Body Andreev States
+p|wob24b|2022-07-21|J 0|photon-assisted-tunneling-of-high-order-multiple-andreev-reflecti|4229448785|oa|Photon-Assisted Tunneling of High-Order Multiple Andreev Reflections in Epitaxial Nanowire Josephson Junctions
+p|jb9tqe|2022-08-11|J 0|radio-frequency-c-v-measurements-with-subattofarad-sensitivity|3203743969|oa|Radio-Frequency C-V Measurements with Subattofarad Sensitivity
+p|5a8ucq|2022-08-30|J 0|scale-dependent-optimized-homoepitaxy-of-inas111a|4293572207|oa|Scale-Dependent Optimized Homoepitaxy of InAs(111)A
+p|zljt7j|2022-01-28|L 0|signatures-of-andreev-blockade-in-a-double-quantum-dot-coupled-to|4207009908|oa|Signatures of Andreev Blockade in a Double Quantum Dot Coupled to a Superconductor
+p|8anmpn|2022-05-12|J 0|signatures-of-interactions-in-the-andreev-spectrum-of-nanowire-jo|4280549743|oa|Signatures of Interactions in the Andreev Spectrum of Nanowire Josephson Junctions
+p|n3kmip|2022-08-01|J 0|tuning-lower-dimensional-superconductivity-with-hybridization-at-|4289316433|oa|Tuning lower dimensional superconductivity with hybridization at a superconducting-semiconducting interface
+p|58240m|2021-01-29|L 0|andreev-modes-from-phase-winding-in-a-full-shell-nanowire-based-t|3080533861|oa|Andreev Modes from Phase Winding in a Full-Shell Nanowire-Based Transmon
+p|tk0lqk|2021|J 0|band-structure-extraction-at-hybrid-narrow-gap-semiconductor-meta||o|Band Structure Extraction at Hybrid Narrow-Gap Semiconductor-Metal Interfaces
+p|xlk4bs|2021-07-23|J 0|coherent-manipulation-of-an-andreev-spin-qubit|3122332406|oa|Coherent manipulation of an Andreev spin qubit
+p|ckrhxg|2021-07-22|J 0|electronic-properties-of-inaseusal-hybrid-nanowires|3100999591|oa|Electronic properties of InAs/EuS/Al hybrid nanowires
+p|9rfbks|2021-11-10|L 0|enhancing-the-nir-photocurrent-in-single-gaas-nanowires-with-radi|3210156725|oa|Enhancing the NIR Photocurrent in Single GaAs Nanowires with Radial p-i-n Junctions by Uniaxial Strain
+p|1sezgck|2021|J 0|integrated-bioelectronic-proton-gated-logic-elements-utilizing-na||o|Integrated bioelectronic proton-gated logic elements utilizing nanoscale patterned Nafion
+p|9iuedl|2021-05-03|J 0|magnetic-field-compatible-superconducting-transmon-qubit|3120826912|oa|Magnetic-Field-Compatible Superconducting Transmon Qubit
+p|5ieb4r|2021-06-02|J 0|multiterminal-quantized-conductance-in-insb-nanocrosses|3119524465|oa|Multiterminal Quantized Conductance in InSb Nanocrosses
+p|xp7n7u|2021-07-02|J 0|rapid-microwave-only-characterization-and-readout-of-quantum-dots|3133778685|oa|Rapid Microwave-Only Characterization and Readout of Quantum Dots Using Multiplexed Gigahertz-Frequency Resonators
+p|tgiciy|2021-09-01|J 0|selective-area-growth-rates-of-iii-v-nanowires|3196520117|oa|Selective area growth rates of III-V nanowires
+e|19lazex|2023-06-21|J 0||4381549427|a|InAs-Al hybrid devices passing the topological gap protocol
+e|7ob91d|2021-07-01|J 0||3092252743|a|Nontopological zero-bias peaks in full-shell nanowires induced by flux-tunable Andreev states
+e|1i0gt31|2021-05-23|P 0||3164898221|a|Quasiparticle trapping by orbital effect in a hybrid superconducting-semiconducting circuit
+e|zmu96c|2022-10-04|P 0||4303448466|a|Quantum capacitance of a superconducting subgap state in an electrostatically floating dot-island
+e|d8utho|2021-01-26|P 0||3125304103|a|Bias asymmetric subgap states mimicking Majorana signatures
+e|1vdbatl|2021-05-19|P 0||3162041840|a|Comparing tunneling spectroscopy and charge sensing of Andreev bound states in a semiconductor-superconductor hybrid nanowire structure
+e|qptzts|2021-01-26|P 0||3171432372|a|Coulombic subgap states
+e|mpv4j8|2026-07-07|P 0||7167722708|a|Epitaxial single T centres in silicon-on-insulator
+e|1m6mnfq|2026-09-08|P 0||7212000859|a|A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation
+e|ozaefv|2021-03-15|J 0||3130627139|a|Transport and spectroscopy of junction Andreev bound states in half-shell nanowire transmon devices
+e|1q6a4hx|2021-03-17|J 0||3131631136|a|Realization of an Andreev spin qubit
+e|ojx1a3|2021-03-15|J 0||3137148752|a|Electrodynamic Response of a Solitary Andreev Level – Experimental Measurements
+e|k244w9|2021-03-19|J 0||3137473760|a|Scanning SQUID Imaging of Epitaxial Semiconductor-Magnetic Insulator Heterostructures
+e|65v8ru|2021-03-19|J 0||3138393590|a|Fast RF-only tuneup of quantum dot systems using multiplexed GHz CPW resonators
+e|a0mcy9|2021-03-16|J 0||3138649620|a|Microwave Andreev bound state spectroscopy of a nanowire Josephson junction in magnetic fields
+e|1l1rcdj|2021-03-15|J 0||3139486698|a|Time-resolved measurement of quaiparticle tunneling between two Andreev levels in quantum dots
+e|aph8lv|2021-03-16|J 0||3141344772|a|Measurement of microwave impedance of proximitized nanowires using resonators
+e|83623t|2021-03-29|P 0||3143796507|a|The role of growth temperature on the electron mobility of InAs/InGaAs selective area grown nanowires
+e|hagw74|2021-03-15|J 0||3159213927|a|Electronic properties of InAs/Al/EuS hybrid nanowires: Effective Zeeman spin splitting and topological phase diagram
+e|7vbied|2026-01-29|P 0||7126184511|a|Magnetic texture modulated superconductivity in superconductor/ferromagnet shells of semiconductor nanowires
+e|1wph3ud|2026-10-09|P 0||7221181214|a|Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes
+e|penn0h|2022|J 0|||o|Electronic Structure of InAs and InSb Surfaces
+#M|Benjamin Joecker|/en/persons/benjamin-joecker/||5021775910|0
+p|1og1xcn|2025-09-18|J 0|scalable-entanglement-of-nuclear-spins-mediated-by-electron-excha|4414321822|a|Scalable entanglement of nuclear spins mediated by electron exchange
+p|cel71e|2025-06-18|J 0|superconducting-proximity-effect-in-two-dimensional-hole-gases|4410597976|a|Superconducting proximity effect in two-dimensional hole gases
+e|q41exz|2022-01-19|J 0||4206498467|a|Precision tomography of a three-qubit donor quantum processor in silicon
+e|i4rd47|2023-02-10|J 0||4320032908|a|An electrically driven single-atom “flip-flop” qubit
+e|f2ztz|2021-06-11|J 0||3111388286|a|Full configuration interaction simulations of exchange-coupled donors in silicon using multi-valley effective mass theory
+e|1yhgyal|2024-02-07|J 0||4391616269|a|Error channels in quantum nondemolition measurements on spin systems
+e|16j6cjx|2021-10-25|J 0||3209258781|a|Engineering local strain for single-atom nuclear acoustic resonance in silicon
+e|1wph3ud|2026-10-09|P 0||7221181214|a|Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes
+#M|Maria Gabriela Jordão Oliveira|/en/persons/maria-gabriela-jord%C3%A3o-oliveira/|0000-0002-3450-4923|5046942015|0
+p|dyhszo|2025-11-18|J 0|jet-evolution-in-a-quantum-computer-quark-and-gluon-dynamics||o|Jet evolution in a quantum computer: quark and gluon dynamics
+p|u262av|2025-11-20|J 0|quantum-block-krylov-subspace-projector-algorithm-for-computing-l|4414942302|oa|Quantum block Krylov subspace projector algorithm for computing low-lying eigenenergies
+e|14w0xub|2023-12-15|J 0||4389815861|oa|Fitting a collider in a quantum computer: tackling the challenges of quantum machine learning for big datasets
+e|4mzpqa|2024-01-01|J 0||4403546118|oa|The two-site Heisenberg model studied using a quantum computer: A didactic introduction
+e|hs2x0c|2026-04-13|P 0||7154212504|a|Tackling instabilities of quantum Krylov subspace methods: an analysis of the numerical and statistical errors
+e|1azqjm8|2024-07-26|T 0||7209041448|a|Quantum computing applications to quantum chromodynamics: jet evolution in a quantum computer
+#M|Mikkel Weis Kallesøe|/en/persons/mikkel-weis-kalles%C3%B8e/|||0
+#M|Chen Klein|/en/persons/chen-klein/|||0
+#M|Shingo Kono|/en/persons/shingo-kono/|||0
+p|pq2mpz|2026-07-28|J 0|strongly-driven-cavity-quantum-electrodynamical-optomechanical-hy|||Strongly driven cavity-quantum-electrodynamical-optomechanical hybrid system
+#M|Nils Kraschon|/en/persons/nils-kraschon/|||0
+#M|Svend Krøjer Krebs|/en/persons/svend-kr%C3%B8jer-krebs/|||0
+p|oi0kt4|2026-07-30|J 0|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J 0|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|1kki35o|2026|J 0|real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su|||Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits
+p|2ovats|2025-10-30|J 0|gatemon-qubit-revisited-for-improved-reliability-and-stability|||Gatemon qubit revisited for improved reliability and stability
+p|iztjqb|2024|T 0|controlling-and-protecting-coherent-quantum-states|||Controlling and Protecting Coherent Quantum States
+p|190n0q6|2024-04-18|J 0|fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-|||Fast universal control of a flux qubit via exponentially tunable wave-function overlap
+p|72vzuz|2024-01-19|L 0|non-abelian-holonomy-of-majorana-zero-modes-coupled-to-a-chaotic-|||Non-Abelian Holonomy of Majorana Zero Modes Coupled to a Chaotic Quantum Dot
+p|inlmu9|2022-01-28|J 0|demonstrating-majorana-non-abelian-properties-using-fast-adiabati|||Demonstrating Majorana non-Abelian properties using fast adiabatic charge transfer
+#M|Henrik Høj Kristensen|/en/persons/henrik-h%C3%B8j-kristensen/|||0
+#M|Rune Kutchinsky|/en/persons/rune-kutchinsky/|||0
+#M|Nils Hugo Laurell|/en/persons/nils-hugo-laurell/|||0
+#M|Chulhyeong Lee|/en/persons/kpm737-kpm737/|||0
+#M|Kristian Lindholmer|/en/persons/kristian-lindholmer/|||0
+#M|Yizhi Liu|/en/persons/yizhi-liu/|0009-0000-4276-7881||0
+#M|Sara Luise|/en/persons/sara-luise/|||0
+#M|Magnus Linnet Madsen|/en/persons/magnus-linnet-madsen/|||0
+p|b80j2y|2026-07-17|J 0|color-center-formation-in-silicon-on-insulator-for-on-chip-photon|||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+#M|Albert Lars Sigurd Malmros|/en/persons/albert-lars-sigurd-malmros/|||0
+#M|Jakob Mannstadt|/en/persons/jakob-mannstadt/|0009-0008-3781-0214||0
+#M|Filip Manu-Marin|/en/persons/filip-manu-marin/|||0
+#M|Julius Monberg Marcussen|/en/persons/julius-monberg-marcussen/|||0
+#M|Alexander Erik Meulengracht|/en/persons/alexander-erik-meulengracht/|||0
+#M|Vincent Philippe Michal|/en/persons/vincent-philippe-michal/||5071425283|0
+p|1mdwvws|2026-01-09|J 0|localized-josephson-hot-spots-due-to-two-level-systems|4417267597|a|Localized Josephson hot spots due to two-level systems
+p|1uwkqh0|2025-07-01|J 0|identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f|||Identification of Soft Modes in Amorphous Al2O3 via First-Principles
+e|djnjg6|2023-03-06|J 0||4289645700|a|Strong coupling between a photon and a hole spin in silicon
+e|zjxyfa|2022-09-22|J 0||4296690338|a|A single hole spin with enhanced coherence in natural silicon
+e|rnf2mz|2021-01-19|J 0||3093015858|a|Longitudinal and transverse electric field manipulation of hole spin-orbit qubits in one-dimensional channels
+e|l92kpx|2023-01-25|J 0||4317941120|a|Tunable hole spin-photon interaction based on g -matrix modulation
+e|1brsbms|2023-04-04|J 0||4362550031|a|Probing Low-Frequency Charge Noise in Few-Electron CMOS Quantum Dots
+e|isfj9c|2021-09-17|J 0||3115655067|a|Dispersively Probed Microwave Spectroscopy of a Silicon Hole Double Quantum Dot
+e|1wph3ud|2026-10-09|P 0||7221181214|a|Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes
+#M|Avan Mirkhan|/en/persons/avan-mirkhan/|||0
+#M|Alba Molina Sardina|/en/persons/alba-molina-sardina/|||0
+#M|Frederik Norlén Nathan|/en/persons/frederik-norl%C3%A9n-nathan/|||0
+p|mye0dy|2026-10-13|J 0|ancilla-train-quantum-algorithm-for-simulating-non-markovian-open|||Ancilla-train quantum algorithm for simulating non-Markovian open quantum systems
+p|p9y2yn|2025-04-11|J 0|quantum-geometry-and-bounds-on-dissipation-in-slowly-driven-quant|||Quantum Geometry and Bounds on Dissipation in Slowly Driven Quantum Systems
+p|1y663t7|2025-09-17|J 0|self-correcting-gottesman-kitaev-preskill-qubit-and-gates-in-a-dr|||Self-Correcting Gottesman-Kitaev-Preskill Qubit and Gates in a Driven-Dissipative Circuit
+#M|Liva Danner Nielsen|/en/persons/liva-danner-nielsen/|||0
+#M|Anders Filip Nilsson|/en/persons/anders-filip-nilsson/|||0
+#M|Stefano Paesani|/en/persons/hxb885-hxb885/||5091372016|0
+p|b80j2y|2026-07-17|J 0|color-center-formation-in-silicon-on-insulator-for-on-chip-photon|7167232518|a|Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+p|1klvqgq|2026-04-13|J 0|fusion-based-implementation-of-qldpc-codes-with-quantum-emitters|4414747477|a|Fusion-based implementation of qLDPC codes with quantum emitters
+p|1gws5fk|2026-08-25|J 0|hybrid-path-transverse-electric-mode-qudit-encoding-on-an-integra|4415885368|a|Hybrid path-transverse electric mode qudit encoding on an integrated photonic chip
+p|1haqukd|2026-02-20|J 0|multiphoton-quantum-simulation-of-the-generalized-hopfield-memory|4417223366|a|Multiphoton Quantum Simulation of the Generalized Hopfield Memory Model
+p|rg9hk3|2026-03-03|J 0|photonic-simulation-of-disordered-spin-systems-on-a-silicon-chip|7133333205|a|Photonic simulation of disordered spin systems on a silicon chip
+p|8ef9a1|2026-04-23|P 0|photon-sorting-with-a-quantum-emitter|7155517597|a|Photon Sorting with a Quantum Emitter
+p|1szh2y2|2026-05-14|J 0|practical-blueprint-for-low-depth-photonic-quantum-computing-with|4414406803|a|Practical blueprint for low-depth photonic quantum computing with quantum dots
+p|xtut2s|2025-01-08|J 0|deterministic-generation-of-concatenated-graph-codes-from-quantum|4406155344|a|Deterministic Generation of Concatenated Graph Codes from Quantum Emitters
+p|xfgiu6|2025-05-07|J 0|generating-graph-states-with-a-single-quantum-emitter-and-the-min|4410157186|a|Generating graph states with a single quantum emitter and the minimum number of fusions
+p|1l5evrs|2025-06-23|R 0|path-transverse-electric-mode-hyperentanglement-on-an-integrated-|4413457120|a|Path-Transverse Electric Mode Hyperentanglement on an Integrated Photonic Chip
+p|f7g6ft|2025-01-07|J 0|processing-quantum-randomness-with-light|4406142023|a|Processing quantum randomness with light
+p|ujkwzz|2025-12-11|J 0|programmable-nonlinear-quantum-photonic-circuits|4417228723|a|Programmable nonlinear quantum photonic circuits
+p|1s5acuw|2025|R 0|quantum-simulation-of-spin-disorder-system-on-the-silicon-photoni|||Quantum Simulation of Spin Disorder System on the Silicon Photonics Platform
+p|10hfkbx|2025-04-04|J 0|tailoring-fusion-based-photonic-quantum-computing-schemes-to-quan|4409197325|a|Tailoring Fusion-Based Photonic Quantum Computing Schemes to Quantum Emitters
+p|jtjdeh|2025-08-15|J 0|temporal-fusion-of-entangled-resource-states-from-a-quantum-emitt|4413257628|a|Temporal fusion of entangled resource states from a quantum emitter
+p|xixz3q|2025-07-14|J 0|transforming-graph-states-via-bell-state-measurements|4412408010|a|Transforming graph states via Bell state measurements
+p|g4ub7p|2024-09-10|J 0|efficient-percolation-simulations-for-lossy-photonic-fusion-netwo|4402407512|a|Efficient percolation simulations for lossy photonic fusion networks
+p|108vczz|2024-03-28|J 0|loss-tolerant-architecture-for-quantum-computing-with-quantum-emi|4393260622|a|Loss-tolerant architecture for quantum computing with quantum emitters
+p|s0zjf6|2023|J 0|deterministic-photon-source-interfaced-with-a-programmable-silico|4387018572|a|Deterministic photon source interfaced with a programmable silicon-nitride integrated circuit
+p|1nsdjsv|2023-09-27|J 0|encoding-error-correction-in-an-integrated-photonic-chip|4387097154|a|Encoding Error Correction in an Integrated Photonic Chip
+p|1woae33|2023-05-12|J 0|high-speed-thin-film-lithium-niobate-quantum-processor-driven-by-|4376507140|a|High-speed thin-film lithium niobate quantum processor driven by a solid-state quantum emitter
+p|cvy6x5|2023-09-21|L 0|high-threshold-quantum-computing-by-fusing-one-dimensional-cluste|4386926945|a|High-Threshold Quantum Computing by Fusing One-Dimensional Cluster States
+p|1ionlo9|2023-05-17|J 0|optimizing-graph-codes-for-measurement-based-loss-tolerance|4376959346|a|Optimizing Graph Codes for Measurement-Based Loss Tolerance
+p|18dt45b|2023-04-06|J 0|very-large-scale-integrated-quantum-graph-photonics|4362673628|a|Very-large-scale integrated quantum graph photonics
+p|13rltzo|2022-01-28|J 0|protocol-for-generation-of-high-dimensional-entanglement-from-an-|4205234589|a|Protocol for generation of high-dimensional entanglement from an array of non-interacting photon emitters
+p|amexfr|2022-10-07|J 0|resource-efficient-high-dimensional-subspace-teleportation-with-a|4303449041|a|Resource-efficient high-dimensional subspace teleportation with a quantum autoencoder
+p|124qho0|2022-10-17|J 0|threshold-detection-statistics-of-bosonic-states-br|||Threshold detection statistics of bosonic states
+p|beevp5|2021|R 0|generation-of-high-dimensional-photonic-entanglement|3191700352|a|Generation of high-dimensional photonic entanglement
+p|1ex6xsi|2021-11-23|J 0|proposal-for-practical-multidimensional-quantum-networks|3137592479|a|Proposal for practical multidimensional quantum networks
+p|mmoi7n|2021-06-11|L 0|scheme-for-universal-high-dimensional-quantum-computation-with-li|3157872481|a|Scheme for Universal High-Dimensional Quantum Computation with Linear Optics
+e|17c0w4s|2021-01-19|J 0||3121141908|a|An optical neural chip for implementing complex-valued neural network
+e|hb6fs0|2021-09-27|J 0||3086329240|a|Error-protected qubits in a silicon photonic chip
+e|9u4bd3|2021-04-29|J 0||3006357116|a|Learning models of quantum systems from experiments
+e|1n5jmhs|2024-04-08|J 0||4394581531|a|On-Chip Quantum Information Processing with Distinguishable Photons
+e|1ep7lhr|2024-07-18|J 0||4400776307|a|Purifying Photon Indistinguishability through Quantum Interference
+e|1qvkgof|2024-04-08|J 0||4394568368|a|Hardware requirements for realizing a quantum advantage with deterministic single-photon sources
+e|14e8ies|2021-01-01|C 0||3166695383|a|Quantum Processors in Silicon Photonics
+e|1yfr0xm|2026-04-07|P 0||7152394488|a|High-Dimensional Quantum Photonics: Roadmap
+e|58alj7|2024-07-22|P 0||4406073493|a|Breadth-first graph traversal union-find decoder
+e|60b3a3|2025-10-17|P 0||4415882993|a|High-dimensional Path-Encoded Entanglement Distribution Between Photonic Chips Enabled by Multimode Phase Stabilisation
+e|mpv4j8|2026-07-07|P 0||7167722708|a|Epitaxial single T centres in silicon-on-insulator
+e|1nqvztv|2026-09-01|P 0||7207561723|a|Purification of photonic graph states
+e|1m6mnfq|2026-09-08|P 0||7212000859|a|A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation
+e|1u3vz4e|2026-10-21|P 0||7223296366|a|Dealing with low-weight errors that lead BP OSD to fail
+e|1yrvamm|2026-05-21|P 0||7162339551|a|Observation of associative-memory retrieval and spin-glass phases on a photonic quantum simulator
+e|1rl9dw3|2026-08-31|P 0||7204946867|a|Fine structure of the M-center in Si
+e|14csg1i|2026-10-30|P 0||7225129435|a|High-efficiency photonic GHZ measurements with linear optics
+e|1317sk4|2026-11-10|J 0||7225726143|a|Loss-tolerant quantum correlations between atomic and photonic qubits
+#M|Mithilesh Kumar Parit|/en/persons/mithilesh-kumar-parit/|||0
+#M|Srushti Tukaram Patil|/en/persons/srushti-tukaram-patil/|||0
+#M|Eike Laurits Piehorsch|/en/persons/eike-laurits-piehorsch/|||0
+#M|Beatriz Piniello Castillo|/en/persons/beatriz-piniello-castillo/|||0
+p|1kku70x|2026-12-01|J 0|new-mechanistic-frontiers-in-carbohydrate-active-enzymes-revealed|||New mechanistic frontiers in carbohydrate-active enzymes revealed by QM/MM simulations
+#M|Eoghan Michael Ryan|/en/persons/eoghan-michael-ryan/|||0
+#M|Tobias Skov Særkjær|/en/persons/tobias-skov-s%C3%A6rkj%C3%A6r/|0000-0001-8535-0998|5052129043|0
+p|1syfwjt|2024|T 0|bottom-up-nanoscale-synthesis-of-quantum-circuits||o|Bottom-up nanoscale synthesis of quantum circuits
+p|1fw0n1p|2023-11-15|J 0|collective-formation-of-misfit-dislocations-at-the-critical-thick|4376122263|oa|Collective formation of misfit dislocations at the critical thickness for equilibrium nanowire heterostructures
+p|1r7lzmo|2023-08|D 1|polarizer-stencil-mask-the-present-disclosure-relates-to-a-stenci|||Polarizer stencil mask (patent)
+p|tgiciy|2021-09-01|J 0|selective-area-growth-rates-of-iii-v-nanowires||o|Selective area growth rates of III-V nanowires
+#M|Matilde Kammer Sandager|/en/persons/matilde-kammer-sandager/|||0
+#M|Suresh Kumar Reddy Sangu|/en/persons/suresh-kumar-reddy-sangu/|||0
+#M|Stefan Alaric Schäffer|/en/persons/stefan-alaric-sch%C3%A4ffer/|0000-0002-5296-0332|5049767118|0
+p|1nsghfw|2025-03-19|J 0|modeling-of-a-continuous-superradiant-laser-on-the-sub-mhz-sup1su|4408613508|oa|Modeling of a continuous superradiant laser on the sub-mHz 1S0 → 3P0 transition in neutral strontium-88
+p|xwm6ty|2025-04-03|J 0|terrestrial-very-long-baseline-atom-interferometry-summary-of-the|4405625270|a|Terrestrial Very-Long-Baseline Atom Interferometry: summary of the second workshop
+p|1ftuvwi|2024-02-05|J 0|collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian|4391529922|oa|Collectively enhanced Ramsey readout by cavity sub- to superradiant transition
+p|1wuninz|2024-12-26|J 0|continuous-cavity-qed-with-an-atomic-beam|4405799514|oa|Continuous cavity QED with an atomic beam
+p|lo6jr3|2022-12|J 0|cold-atoms-in-space-community-workshop-summary-and-proposed-road-|4309550194|a|Cold atoms in space: community workshop summary and proposed road-map
+p|khghxd|2022-12-09|J 0|prospects-of-a-superradiant-laser-based-on-a-thermal-or-guided-be|4311137306|oa|Prospects of a superradiant laser based on a thermal or guided beam of 88Sr
+p|sn1skq|2021-03-25|J 0|frequency-ratio-measurements-at-18-digit-accuracy-using-an-optica|4230217355|oa|Frequency ratio measurements at 18-digit accuracy using an optical clock network
+p|qon8sp|2021-07-07|R 0|towards-an-active-optical-clock-using-an-optical-conveyor-within-|3215333251|oa|Towards an Active Optical Clock using an Optical Conveyor within a Ring Cavity
+e|1igw7mw|2021-09-17|J 0||3158484974|oa|Cavity-immune spectral features in the pulsed superradiant crossover regime
+e|1m6mnfq|2026-09-08|P 0||7212000859|a|A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation
+e|1r08iw6|2021-06-03|J 0||3176801606|a|Continuous superradiant laser based on a simple hot atomic beam
+e|1maev4d|2026-07-30|P 0||7172348262|a|Collimation of dense atomic beams by Swept Velocity Shelving
+e|17uepv5|2025|J 0|||o|Terrestrial Very-Long-Baseline Atom Interferometry
+e|1595ryi|2022|J 0|||o|Cold atoms in space
+#M|Arnulf Johannes Snedker-Nielsen|/en/persons/arnulf-johannes-snedker-nielsen/|0009-0002-2602-3828|5124041138|0
+p|b80j2y|2026-07-17|J 0|color-center-formation-in-silicon-on-insulator-for-on-chip-photon|7167232518|oa|Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+p|1y6n8sl|2025-11-06|J 0|electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide|4415960507|oa|Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation
+p|1vy8768|2025|R 0|electrical-control-of-quantum-dot-single-photon-source-on-siosub2|4414324748|oa|Electrical Control of Quantum-Dot Single-Photon Source on SiO2/Si Substrate
+p|1dv9v6q|2024|R 0|heterogeneous-integration-of-gaas-waveguides-with-silicon-nitride|4402207604|oa|Heterogeneous Integration of GaAs Waveguides with Silicon Nitride Photonic Integrated Circuits
+e|mpv4j8|2026-07-07|P 0||7167722708|a|Epitaxial single T centres in silicon-on-insulator
+e|1rl9dw3|2026-08-31|P 0||7204946867|a|Fine structure of the M-center in Si
+#M|Naia Soler Iturrioz|/en/persons/naia-soler-iturrioz/|||0
+#M|Kim Splittorff|/en/persons/kim-splittorff/||5057418168|0
+p|13460bi|2026-07-21|J 0|building-intuition-for-quantum-algorithms-using-the-aharonov-bohm|7167089296|a|Building intuition for quantum algorithms using the Aharonov-Bohm effect
+p|kjbzqu|2025-07-07|J 0|quantum-determinant-estimation|||Quantum determinant estimation
+p|ez0ze1|2024-11-19|J 0|quantum-phase-estimation-and-the-aharonov-bohm-effect|4404527081|a|Quantum phase estimation and the Aharonov-Bohm effect
+p|cl438y|2021-01-04|J 0|new-term-in-effective-field-theory-at-fixed-topology|3019537800|a|New term in effective field theory at fixed topology
+e|12pyt05|2022-10-01|D 1||7164322742|a|Kvanteteknologisk revolution – Den største udfordring er at uddanne nok
+e|1gdyf00|2021-06-01|D 1||7164830131|a|På tærsklen til en ny kvanteteknologisk revolution
+e|75yqk7|2023-12-01|D 1||7165109950|a|Ambitiøst kvantecomputerprogram etableres på Niels Bohr Institutet
+#M|Marcus Vestergaard Spørring|/en/persons/marcus-vestergaard-sp%C3%B8rring/|||0
+#M|Vita Stefanija|/en/persons/vita-stefanija/|||0
+#M|Zhenhai Sun|/en/persons/zhenhai-sun/||5101302899|1
+p|oi0kt4|2026-07-30|J 0|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|7171834117|a|Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J 0|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|4417295846|a|Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|84qi7c|2025-08-19|J 0|andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin|4413091371|a|Andreev spin relaxation time in a shadow-evaporated InAs weak link
+p|2ovats|2025-10-30|J 0|gatemon-qubit-revisited-for-improved-reliability-and-stability|4415718928|a|Gatemon qubit revisited for improved reliability and stability
+p|ychh6e|2025|T 0|sns-josephson-junction-based-superconducting-qubits-revisited|||SNS Josephson Junction-Based Superconducting Qubits Revisited
+#M|Mark Kamper Svendsen|/en/persons/mark-kamper-svendsen/||5023226173|0
+p|1drymgu|2026-06-29|J 0|bridging-scales-in-polaritonic-chemistry-ab-initio-frameworks-wit|7163870476|a|Bridging scales in polaritonic chemistry: ab initio frameworks with realistic spatially structured cavities [Invited]
+p|b80j2y|2026-07-17|J 0|color-center-formation-in-silicon-on-insulator-for-on-chip-photon|||Color Center Formation in Silicon-On-Insulator for On-Chip Photonic Integration
+p|1mdwvws|2026-01-09|J 0|localized-josephson-hot-spots-due-to-two-level-systems|||Localized Josephson hot spots due to two-level systems
+p|s3bew9|2026-05-29|J 0|multiple-photon-fieldinduced-topological-states-in-bulk-hgte|7162507096|a|Multiple photon field–induced topological states in bulk HgTe
+p|dntzoh|2026-08-07|J 0|on-intermolecular-interactions-in-the-hamiltonian-used-in-polarit|4414741353|a|On intermolecular interactions in the Hamiltonian used in polaritonic chemistry
+p|o5kq8z|2025-06-30|J 0|cavity-engineering-of-solid-state-materials-without-external-driv|4409155330|a|Cavity engineering of solid-state materials without external driving
+p|1o9mhp1|2025-06-18|J 0|cavity-spectroscopy-for-strongly-correlated-polaritonic-systems|4410424596|a|Cavity Spectroscopy for Strongly Correlated Polaritonic Systems
+p|1ec16ee|2025-11-05|J 0|computational-discovery-and-experimental-validation-of-high-refra|4415992092|a|Computational discovery and experimental validation of high-refractive index HfS2 nanoresonators
+p|1uwkqh0|2025-07-01|J 0|identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f|||Identification of Soft Modes in Amorphous Al2O3 via First-Principles
+p|1hjvqjm|2025-03-12|J 0|on-demand-heralded-mir-single-photon-source-using-a-cascaded-quan|4408345684|a|On-demand heralded MIR single-photon source using a cascaded quantum system
+p|17p7o83|2025-09-12|J 0|self-consistent-layer-projected-scissors-operator-for-band-struct|4414596665|a|Self-consistent layer-projected scissors operator for band structures of two-dimensional van der Waals materials with large unit cells
+p|c58n8l|2024-12-10|J 0|cavity-enhanced-superconductivity-in-mgbsub2sub-from-first-princi|4405092197|a|Cavity-enhanced superconductivity in MgB2 from first-principles quantum electrodynamics (QEDFT)
+e|1hi8ehl|2021-06-30|J 0||3129006275|a|Recent progress of the Computational 2D Materials Database (C2DB)
+e|zv5v4c|2022-10-21|J 0||4307027218|a|Indirect Band Gap Semiconductors for Thin-Film Photovoltaics: High-Throughput Calculation of Phonon-Assisted Absorption
+e|1u7c8rg|2025-11-07|J 0||4415991692|a|Effective equilibrium theory of quantum light-matter interaction in cavities for extended systems and the long wavelength approximation
+e|bpdy3n|2024-01-08|J 0||4390672648|a|Ab Initio Calculations of Quantum Light–Matter Interactions in General Electromagnetic Environments
+e|80gog6|2021-05-13|J 0||3160577197|a|Combining density functional theory with macroscopic QED for quantum light-matter interactions in 2D materials
+e|xwqp12|2023-03-04|J 0||4386613955|a|Exploring and machine learning structural instabilities in 2D materials
+e|1fjsoqj|2023-01-01|J 0||4385883800|a|Combining experiments on luminescent centres in hexagonal boron nitride with the polaron model and ab initio methods towards the identification of their microscopic origin
+e|1v8keqf|2022-05-29|J 0||4281769113|a|Computational Discovery and Experimental Demonstration of Boron Phosphide Ultraviolet Nanoresonators
+e|1rn1kg5|2022-08-01|J 0||4226029035|a|Momentum-Dependent Oscillator Strength Crossover of Excitons and Plasmons in Two-Dimensional PtSe2
+e|1hj603z|2024-07-11|J 0||4400538455|a|Improved Dielectric Response of Solids: Combining the Bethe-Salpeter Equation with the Random Phase Approximation
+e|b5cft3|2022-07-25|J 0||4287146764|a|WSe2 as Transparent Top Gate for Infrared Near-Field Microscopy
+e|13pa2us|2023-09-15|J 0||4386769915|a|Signatures of non-Markovianity in cavity QED with color centers in two-dimensional materials
+e|1wph3ud|2026-10-09|P 0||7221181214|a|Decoder- and Noise-Aware Optimization Framework for Clifford-Deformed Quantum Error-Correcting Codes
+#M|Hao Tang|/en/persons/hao-tang/|||0
+#M|Asbjørn Frost Teilmann|/en/persons/asbj%C3%B8rn-frost-teilmann/|||0
+#M|Jan Westenkær Thomsen|/en/persons/jan-westenk%C3%A6r-thomsen/||5055826866|0
+p|1ftuvwi|2024-02-05|J 0|collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian|4391529922|a|Collectively enhanced Ramsey readout by cavity sub- to superradiant transition
+p|ggfpkk|2023-06-02|L 0|subnatural-linewidth-superradiant-lasing-with-cold-sup88supsr-ato|||Subnatural Linewidth Superradiant Lasing with Cold 88Sr Atoms
+p|dvdu9b|2022-10-20|J 0|petabit-per-second-data-transmission-using-a-chip-scale-microcomb|4306949818|a|Petabit-per-second data transmission using a chip-scale microcomb ring resonator source
+p|1igw7mw|2021-09-17|J 0|cavity-immune-spectral-features-in-the-pulsed-superradiant-crosso|3158484974|a|Cavity-immune spectral features in the pulsed superradiant crossover regime
+e|n2pqfg|2023-05-31|J 0||4378807543|a|Subnatural Linewidth Superradiant Lasing with Cold Sr 88 Atoms
+#M|Pranav Ticku|/en/persons/pranav-ticku/|||0
+#M|Tommaso Vedana|/en/persons/tommaso-vedana/|||0
+#M|Rohit Yadav|/en/persons/rohit-yadav/|||0
+p|15qdhfi|2026-09-28|J 0|giant-rashba-splitting-in-inbisbbi-chains-on-insb110-surface-reco|||Giant Rashba splitting in InBi/SbBi chains on InSb(110): Surface reconstruction as a route to spin-split one-dimensional states
+#M|Alexandr Zaykov|/en/persons/alexandr-zaykov/|||0

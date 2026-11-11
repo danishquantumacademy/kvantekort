@@ -1,0 +1,88 @@
+# The five newest research outputs on each NQCP member's KU research profile, classified on the CFQT content map
+# from the title, abstract and keywords in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Martin Hayhurst Appel	deterministic-photon-source-of-genuine-three-qubit-entanglement	4.4;4.2;1.2	deterministic quantum-dot source of three-qubit photonic entanglement (title only)
+Martin Hayhurst Appel	on-chip-spin-photon-entanglement-based-on-photon-scattering-of-a-	4.4;4.2;7.5	on-chip spin-photon entanglement with a quantum dot for distributed quantum computing
+Martin Hayhurst Appel	dynamical-photon-photon-interaction-mediated-by-a-quantum-emitter	2.2;4.4	photon-photon interaction through a quantum emitter
+Martin Hayhurst Appel	entangling-a-hole-spin-with-a-time-bin-photon-a-waveguide-approac	4.2;4.4;7.5	hole spin-photon entanglement in a waveguide (title only)
+Martin Hayhurst Appel	high-fidelity-multiphoton-entangled-cluster-state-with-solid-stat	4.4;4.2;5.1	photonic cluster states from quantum emitters (title only)
+Francesco Borsoi	modular-autonomous-virtualization-system-for-two-dimensional-semi	4.2;4.6;3.4	automated tuning of gate-defined quantum-dot spin-qubit arrays
+Anna Liv Bjerregaard Bruun	building-intuition-for-quantum-algorithms-using-the-aharonov-bohm	5.5;8.4;1.1	quantum algorithms explained through the Aharonov-Bohm effect, for teaching
+Bjarke Takashi Røjle Christensen	cavity-immune-spectral-features-in-the-pulsed-superradiant-crosso	2.1;6.6;2.2	superradiant lasing in strontium for precision metrology
+Hans Michael Christensen	ancilla-train-quantum-algorithm-for-simulating-non-markovian-open	5.5;2.4;5.6	quantum algorithm for simulating non-Markovian open quantum systems
+Christian Hjort Christiansen	color-center-formation-in-silicon-on-insulator-for-on-chip-photon	4.4;3.2;4.2	colour centres in silicon-on-insulator as on-chip single-photon sources
+Asbjørn Cennet Cliff Drachmann	long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson	2.3;2.4	phase coherence in hybrid Josephson-junction arrays imaged with scanning SQUID
+Asbjørn Cennet Cliff Drachmann	percolative-supercurrent-in-superconductorferromagnetic-insulator	2.3	supercurrent in superconductor-ferromagnetic insulator bilayers (title only)
+Asbjørn Cennet Cliff Drachmann	charge-4e-supercurrent-in-a-two-dimensional-inas-al-superconducto	2.3;3.2	charge-4e supercurrent in InAs-Al heterostructures (title only)
+Asbjørn Cennet Cliff Drachmann	gate-tunable-josephson-diode-in-proximitized-inas-supercurrent-in	2.3;3.2;4.1	gate-tunable Josephson diode in InAs-Al interferometers
+Asbjørn Cennet Cliff Drachmann	signatures-of-a-topological-phase-transition-in-a-planar-josephso	2.3;4.5	topological phase transition in a planar Josephson junction (title only)
+Maria Efthymiou Tsironi	voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep	2.3;2.4	superconductor-metal-insulator transitions in hybrid Josephson-junction arrays
+Marcel David Fabian	the-ppp-model-a-minimum-viable-parametrisation-of-conjugated-chem	5.6;3.5	minimal model of conjugated chemistry for quantum and classical computing (title only)
+Kasper Grove-Rasmussen	shadowed-versus-etched-superconductorsemiconductor-junctions-in-a	3.2;2.3;4.5	fabrication of Al/InAs nanowire junctions (title only)
+Kasper Grove-Rasmussen	correlation-between-two-distant-quasiparticles-in-separate-superc	2.3;4.5	non-local correlations between superconducting islands via a quantum-dot spin
+Kasper Grove-Rasmussen	richardson-model-with-complex-level-structure-and-spin-orbit-coup	2.3	pairing in hybrid superconducting islands (title only)
+Kasper Grove-Rasmussen	spatial-control-of-the-conductivity-in-srtiosub3sub-based-heteroi	3.2	inkjet patterning of conducting oxide interfaces
+Kasper Grove-Rasmussen	scale-dependent-optimized-homoepitaxy-of-inas111a	3.2	molecular-beam epitaxy of InAs surfaces
+Jacob Hastrup	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Jacob Hastrup	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Jacob Hastrup	real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su	4.1;3.4;6.1	adaptive real-time tracking of decoherence in superconducting qubits
+Jacob Hastrup	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+Peter Krogstrup Jeppesen	artificial-intelligence-assisted-workflow-for-transmission-electr	3.2;3.5	AI-assisted electron microscopy of quantum materials and devices
+Peter Krogstrup Jeppesen	color-center-formation-in-silicon-on-insulator-for-on-chip-photon	4.4;3.2;4.2	colour centres in silicon-on-insulator as on-chip single-photon sources
+Peter Krogstrup Jeppesen	tailoring-superconductivity-with-two-level-systems	2.3;4.1	two-level systems and superconductivity in aluminium films
+Peter Krogstrup Jeppesen	spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir	2.3;4.5	spin-split superconductivity in hybrid InAs/EuS/Al nanowires
+Peter Krogstrup Jeppesen	localized-josephson-hot-spots-due-to-two-level-systems	2.3;4.1;3.1	two-level-system defects in Josephson junctions of superconducting qubits
+Benjamin Joecker	scalable-entanglement-of-nuclear-spins-mediated-by-electron-excha	4.2;5.1	two-qubit gate between nuclear spins of phosphorus donors in silicon
+Benjamin Joecker	superconducting-proximity-effect-in-two-dimensional-hole-gases	2.3;4.5	superconducting proximity effect in hole gases (title only)
+Maria Gabriela Jordão Oliveira	quantum-block-krylov-subspace-projector-algorithm-for-computing-l	5.5;5.6	quantum algorithm for low-lying eigenenergies (title only)
+Maria Gabriela Jordão Oliveira	jet-evolution-in-a-quantum-computer-quark-and-gluon-dynamics	5.6;5.2	quantum simulation of quark and gluon jets in a quark-gluon plasma
+Shingo Kono	strongly-driven-cavity-quantum-electrodynamical-optomechanical-hy	2.2;4.1;3.3	non-Gaussian mechanical states in a hybrid circuit-QED optomechanical system
+Svend Krøjer Krebs	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Svend Krøjer Krebs	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Svend Krøjer Krebs	real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su	4.1;3.4;6.1	adaptive real-time tracking of decoherence in superconducting qubits
+Svend Krøjer Krebs	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+Svend Krøjer Krebs	fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-	4.1;4.6	fast control of a flux qubit (title only)
+Magnus Linnet Madsen	color-center-formation-in-silicon-on-insulator-for-on-chip-photon	4.4;3.2;4.2	colour centres in silicon-on-insulator as on-chip single-photon sources
+Vincent Philippe Michal	localized-josephson-hot-spots-due-to-two-level-systems	2.3;4.1;3.1	two-level-system defects in Josephson junctions of superconducting qubits
+Vincent Philippe Michal	identification-of-soft-modes-in-amorphous-alsub2subosub3sub-via-f	2.3;3.1;4.1	first-principles study of defect modes in amorphous Al2O3 (title only)
+Frederik Norlén Nathan	ancilla-train-quantum-algorithm-for-simulating-non-markovian-open	5.5;2.4;5.6	quantum algorithm for simulating non-Markovian open quantum systems
+Frederik Norlén Nathan	self-correcting-gottesman-kitaev-preskill-qubit-and-gates-in-a-dr	5.3;4.1;2.4	dissipatively self-correcting GKP qubit in a superconducting circuit
+Frederik Norlén Nathan	quantum-geometry-and-bounds-on-dissipation-in-slowly-driven-quant	2.4;1.2	quantum geometry and dissipation in slowly driven quantum systems
+Stefano Paesani	hybrid-path-transverse-electric-mode-qudit-encoding-on-an-integra	4.4;1.2	qudit encoding on a reprogrammable integrated photonic chip
+Stefano Paesani	color-center-formation-in-silicon-on-insulator-for-on-chip-photon	4.4;3.2;4.2	colour centres in silicon-on-insulator as on-chip single-photon sources
+Stefano Paesani	practical-blueprint-for-low-depth-photonic-quantum-computing-with	4.4;5.3;5.1	fusion-based fault-tolerant photonic quantum computing with quantum dots
+Stefano Paesani	photon-sorting-with-a-quantum-emitter	4.4;2.2;7.5	deterministic Bell-state measurement by photon sorting with a quantum emitter
+Stefano Paesani	fusion-based-implementation-of-qldpc-codes-with-quantum-emitters	5.3;4.4	qLDPC error-correcting codes on a fusion-based photonic architecture
+Beatriz Piniello Castillo	new-mechanistic-frontiers-in-carbohydrate-active-enzymes-revealed	-	QM/MM simulations of enzymes (computational chemistry, no quantum-technology content)
+Tobias Skov Særkjær	bottom-up-nanoscale-synthesis-of-quantum-circuits	3.2;4.5	PhD thesis: nanoscale materials growth for quantum circuits
+Tobias Skov Særkjær	collective-formation-of-misfit-dislocations-at-the-critical-thick	3.2	nanowire heterostructure growth (title only)
+Tobias Skov Særkjær	selective-area-growth-rates-of-iii-v-nanowires	3.2	selective-area growth of III-V nanowires for gate-controlled quantum platforms
+Stefan Alaric Schäffer	terrestrial-very-long-baseline-atom-interferometry-summary-of-the	6.4;2.1;6.7	workshop summary on long-baseline atom interferometry (title only)
+Stefan Alaric Schäffer	modeling-of-a-continuous-superradiant-laser-on-the-sub-mhz-sup1su	6.6;2.1;2.2	continuous superradiant laser on the strontium clock transition (title only)
+Stefan Alaric Schäffer	continuous-cavity-qed-with-an-atomic-beam	2.2;2.1;6.6	cavity QED with an atomic beam (title only)
+Stefan Alaric Schäffer	collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian	6.6;2.1;2.2	collectively enhanced Ramsey readout for atomic clocks (title only)
+Stefan Alaric Schäffer	prospects-of-a-superradiant-laser-based-on-a-thermal-or-guided-be	6.6;2.1	simulations of a superradiant strontium laser
+Arnulf Johannes Snedker-Nielsen	color-center-formation-in-silicon-on-insulator-for-on-chip-photon	4.4;3.2;4.2	colour centres in silicon-on-insulator as on-chip single-photon sources
+Arnulf Johannes Snedker-Nielsen	electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide	4.4;3.2;3.3	electrically controlled quantum-dot single-photon sources on silicon photonics
+Arnulf Johannes Snedker-Nielsen	electrical-control-of-quantum-dot-single-photon-source-on-siosub2	4.4;3.2	quantum-dot single-photon source bonded onto silicon
+Arnulf Johannes Snedker-Nielsen	heterogeneous-integration-of-gaas-waveguides-with-silicon-nitride	3.3;4.4;3.2	integration of quantum-dot waveguides with silicon-nitride circuits
+Kim Splittorff	building-intuition-for-quantum-algorithms-using-the-aharonov-bohm	5.5;8.4;1.1	quantum algorithms explained through the Aharonov-Bohm effect, for teaching
+Kim Splittorff	quantum-determinant-estimation	5.5;5.4	quantum algorithm for determinant estimation (title only)
+Kim Splittorff	quantum-phase-estimation-and-the-aharonov-bohm-effect	5.4;1.1;8.4	quantum phase estimation through the Aharonov-Bohm effect (title only)
+Kim Splittorff	new-term-in-effective-field-theory-at-fixed-topology	-	effective field theory in particle physics (title only)
+Zhenhai Sun	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Zhenhai Sun	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Zhenhai Sun	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+Zhenhai Sun	andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin	4.5;4.1;2.3	relaxation of Andreev spin qubits in InAs weak links
+Zhenhai Sun	sns-josephson-junction-based-superconducting-qubits-revisited	4.1;4.5	superconductor-semiconductor (gatemon) qubits
+Mark Kamper Svendsen	on-intermolecular-interactions-in-the-hamiltonian-used-in-polarit	2.2;2.4	light-matter Hamiltonians for polaritonic chemistry in cavities
+Mark Kamper Svendsen	color-center-formation-in-silicon-on-insulator-for-on-chip-photon	4.4;3.2;4.2	colour centres in silicon-on-insulator as on-chip single-photon sources
+Mark Kamper Svendsen	bridging-scales-in-polaritonic-chemistry-ab-initio-frameworks-wit	2.2;3.5	review of ab initio methods for polaritonic chemistry in nanophotonic cavities
+Mark Kamper Svendsen	multiple-photon-fieldinduced-topological-states-in-bulk-hgte	2.3;2.2	light-induced topological states in HgTe (title only)
+Mark Kamper Svendsen	localized-josephson-hot-spots-due-to-two-level-systems	2.3;4.1;3.1	two-level-system defects in Josephson junctions of superconducting qubits
+Jan Westenkær Thomsen	collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian	6.6;2.1;2.2	collectively enhanced Ramsey readout for atomic clocks (title only)
+Jan Westenkær Thomsen	subnatural-linewidth-superradiant-lasing-with-cold-sup88supsr-ato	6.6;2.1;2.2	superradiant lasing with ultracold strontium atoms
+Jan Westenkær Thomsen	petabit-per-second-data-transmission-using-a-chip-scale-microcomb	3.3	classical optical-fibre communication with a microcomb source
+Jan Westenkær Thomsen	cavity-immune-spectral-features-in-the-pulsed-superradiant-crosso	2.1;6.6;2.2	superradiant lasing in strontium for precision metrology
+Rohit Yadav	giant-rashba-splitting-in-inbisbbi-chains-on-insb110-surface-reco	2.3;3.2	spin-split one-dimensional surface states in InSb

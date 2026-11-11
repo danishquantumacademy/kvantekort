@@ -17,7 +17,7 @@ import difflib, json, pathlib, re, sys, unicodedata
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIR = ROOT / "data/groups/pubcheck"
 RX = re.compile(r"^(.*) (\d{4}|0) ([A-Z])(?: (\d+))? ([01])$")
-READ = {"qmath": "2026-11-11"}  # date of the last portal run
+READ = {}  # date of the last portal run, from the first header line of <key>_portal.txt
 
 
 def thash(t):
@@ -148,7 +148,10 @@ def build(key):
         p["rows"] = [[remap[r[0]]] + r[1:] for r in p["rows"]]
         for s in ("profile", "elsewhere"):
             p["n_" + s] = sum(1 for r in p["rows"] if r[2] == s)
-    out = {"read": READ.get(key, ""), "w": [[W[k]["t"], W[k]["y"], W[k]["ty"], W[k]["oa"], W[k]["d"], W[k]["ax"]] for k in used], "p": people}
+    m = re.search(r"read (\d{1,2} \w+ \d{4}|\d{4}-\d{2}-\d{2})", pf.read_text(encoding="utf-8").split("\n", 1)[0]) if pf.exists() else None
+    import datetime
+    rd = (datetime.datetime.strptime(m[1], "%d %B %Y").strftime("%Y-%m-%d") if m and not m[1][:4].isdigit() else m[1] if m else "")
+    out = {"read": READ.get(key, rd), "w": [[W[k]["t"], W[k]["y"], W[k]["ty"], W[k]["oa"], W[k]["d"], W[k]["ax"]] for k in used], "p": people}
     (DIR / f"{key}.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(key, len(people), "members,", len(used), "works")
 
