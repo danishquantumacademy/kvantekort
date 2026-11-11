@@ -354,7 +354,7 @@ footer .site-foot a{color:var(--accent)}
   const LEVELS=LEVEL_ORDER.filter(L=>C.some(c=>c.level===L));
   const acol=a=>`var(--a${a})`, dcol=d=>`var(--d${d})`;
   const NS='http://www.w3.org/2000/svg';
-  const state={inst:'ALL',levels:new Set(LEVELS.filter(L=>!isSpec(L))),cell:null,dom:null,sub:null,q:'',area:'',min:'',open:new Set(),openDom:new Set()};
+  const state={inst:'ALL',levels:new Set(LEVELS),cell:null,dom:null,sub:null,q:'',area:'',min:'',open:new Set(),openDom:new Set()};
   const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
   const subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
@@ -380,7 +380,7 @@ footer .site-foot a{color:var(--accent)}
     if(state.dom) p.set('dom',state.dom);
     if(state.sub) p.set('sub',state.sub);
     if(state.q) p.set('q',state.q);
-    {const def=LEVELS.filter(L=>!isSpec(L)); if(state.levels.size!==def.length||!def.every(L=>state.levels.has(L))) p.set('levels',[...state.levels].join(',')||'none');}
+    {const def=LEVELS; if(state.levels.size!==def.length||!def.every(L=>state.levels.has(L))) p.set('levels',[...state.levels].join(',')||'none');}
     const qs=p.toString(); try{history.replaceState(null,'',location.pathname+(qs?'?'+qs:'')+location.hash)}catch(e){}
   }
 
@@ -483,7 +483,9 @@ footer .site-foot a{color:var(--accent)}
   const lf=document.getElementById('lvl-filters');
   LEVELS.forEach(L=>{const b=el('button',{class:'chip',type:'button','aria-pressed':String(state.levels.has(L)),title:LEVEL_NAME[L],'data-l':L},LEVEL_LABEL[L]||L);b.onclick=()=>{if(state.levels.has(L))state.levels.delete(L);else state.levels.add(L);state.cell=null;render()};lf.append(b)});
 
-  {const clr=el('button',{class:'chip clear',type:'button',title:'Switch all study levels off, then pick the ones you want'},'Clear all');
+  {const all=el('button',{class:'chip clear',type:'button',title:'Show everything together: all study levels, PhD and postdoc projects, educators\' research, workshops, outreach and industry'},'Show all');
+   all.onclick=()=>{state.inst='ALL';state.levels=new Set(LEVELS);state.cell=null;state.dom=null;state.sub=null;render()}; lf.append(all);
+   const clr=el('button',{class:'chip clear',type:'button',title:'Switch all study levels off, then pick the ones you want'},'Clear all');
    clr.onclick=()=>{state.levels.clear();state.cell=null;render()}; lf.append(clr);}
 
   // ---- keys ----
