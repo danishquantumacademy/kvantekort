@@ -93,6 +93,11 @@ blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);col
 .rtab th,.rtab td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left}
 .rtab th{font:600 11.5px var(--mono);color:var(--muted)}
 .rtab .n{text-align:right;font-family:var(--mono)}
+.rcell{cursor:pointer;transition:opacity .15s}.rcell:hover,.rcell:focus-visible{opacity:.8;outline:none}.rcell.sel{stroke:var(--fg);stroke-width:3}
+.rtab button.lvb{font:inherit;background:none;border:0;padding:2px 6px;border-radius:6px;color:var(--fg);cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
+.rtab button.lvb:hover,.rtab button.lvb.sel{background:var(--line)}
+.lvfilter{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:9px 12px;border:1px solid var(--line);border-left:4px solid var(--fg);border-radius:10px;background:var(--surface);font-size:14px}
+.lvfilter button{font:600 13px var(--body);padding:5px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
 .rtab .dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
 .rlv{font:600 10.5px/1 var(--mono);padding:2px 4px;border:1.5px solid;border-radius:4px;margin-left:5px;white-space:nowrap;vertical-align:1px}
 .mem{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 12px;display:grid;gap:3px;min-width:0;align-content:start}
@@ -144,6 +149,7 @@ footer p{margin:0;max-width:86ch}
   const D=JSON.parse(document.getElementById('qdk-data').textContent);
   const Q=D.reference.cfqt, G=D.groups, INST=D.reference.institutions;
   const dcol=d=>`var(--d${d})`, subName=s=>Q.domains[s.split('.')[0]].subdomains[s];
+  const btn=(b,f)=>{b.type='button';b.addEventListener('click',f);return b};
   const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&c!==false&&c!==''&&e.append(c));return e};
   const link=(href,text)=>href?el('a',{href,target:'_blank',rel:'noopener'},text):el('b',{},text);
   const CATS=['Faculty','Researchers and postdocs','PhD students','Technical and administrative staff','Affiliates and external','Other members'];
@@ -240,13 +246,20 @@ footer p{margin:0;max-width:86ch}
       el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name+(g.cfqt_n?` · ${g.cfqt_n[s]} outputs`:'')))))),
       g.cfqt_n?el('p',{class:'note'},`Main topics of the members' five newest research outputs on their university profiles (${g.cfqt_total} outputs on the content map); subdomains that are the main topic of at least two outputs.`):null));
     // research proficiency of the members
-    {const m=memberCounts(g), svg=sv('svg',{role:'img','aria-label':`Research proficiency of the ${g.short} members`});drawTri(svg,m,{W:600,labels:true,unit:'members'});
+    let lvSel=null, drawM=()=>{}, ms=null;
+    {const m=memberCounts(g), svg=sv('svg',{role:'img','aria-label':`Research proficiency of the ${g.short} members`});
+     // clicking a cell (or a number in the table) shows the members at that level in the member list below
+     const pick=(a,l)=>{lvSel=lvSel&&lvSel.a===a&&lvSel.l===l?null:{a,l};redraw();drawM();if(lvSel&&ms)ms.scrollIntoView({behavior:'smooth',block:'start'})};
+     const redraw=()=>{drawTri(svg,m,{W:600,labels:true,unit:'members',onCell:pick,sel:lvSel?lvSel.a+lvSel.l:null});
+       tb.querySelectorAll('button.lvb').forEach(b=>b.classList.toggle('sel',!!lvSel&&b.dataset.k===lvSel.a+lvSel.l))};
+     g._lvpick=pick;
      const withLv=g.members.filter(x=>x.rl&&Object.keys(x.rl).length), nout=g.members.reduce((n,x)=>n+(x.nout||0),0), harv=g.members.filter(x=>x.harv).length;
      const tb=el('table',{class:'rtab'},el('thead',{},el('tr',{},el('th',{},'Area'),...['C2','C1','B2'].map(l=>el('th',{class:'n',title:Q.levels[l]},l)))),
-       el('tbody',{},...AREAS.map(a=>el('tr',{},el('td',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),...['C2','C1','B2'].map(l=>el('td',{class:'n'},String(m[a+l]||0)))))));
+       el('tbody',{},...AREAS.map(a=>el('tr',{},el('td',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),...['C2','C1','B2'].map(l=>el('td',{class:'n'},m[a+l]?btn(el('button',{class:'lvb','data-k':a+l,title:`Show the members at (${a}) ${l}`},String(m[a+l])),()=>pick(a,l)):'0'))))));
+     redraw();
      box.append(el('section',{},el('h3',{},'Research proficiency of the members'),
        el('div',{class:'rpgrid'},el('div',{class:'rpbox'},svg),el('div',{style:'display:grid;gap:10px;align-content:start'},tb,
-         el('p',{class:'note'},`${withLv.length} of ${g.members.length} members have research on the CFQT content map, counted once in each area at their level there. Evidence: `+(g.pubcheck&&g.pubcheck.latest5?`each member's five newest research outputs on their university research profile, classified from title, abstract and keywords (checked ${fmt(g.pubcheck.read)}; outputs found only in ORCID, OpenAlex or arXiv do not count until they are added to the profile; open a member's card to see the five)`:g.pubcheck?`the ${g.pubcheck.profile.toLocaleString('en')} research outputs since 2021 registered on the members' university research profiles (checked ${fmt(g.pubcheck.read)}; ${g.pubcheck.only_elsewhere.toLocaleString('en')} more found only in ORCID, OpenAlex or arXiv do not count until they are added to a profile)`:`${nout.toLocaleString('en')} research outputs since 2021 found for ${harv} members (OpenAlex${harv<g.members.length?'; the rest are read in nightly runs within OpenAlex\'s daily limit':''})`)+(g.pubcheck&&g.pubcheck.latest5?'.':`, their current project and, for educators, the evidence on the Educators page.`)+` C2 Innovation: at least three pieces of evidence with their main topic in the area; C1 Specialisation: one or two, or at least two that touch it; B2 Investigation: one that touches it. Technical and administrative staff are not counted.`)))))}
+         el('p',{class:'note'},`${withLv.length} of ${g.members.length} members have research on the CFQT content map, counted once in each area at their level there. Click a cell or a number to list its members. Evidence: `+(g.pubcheck&&g.pubcheck.latest5?`each member's five newest research outputs on their university research profile, classified from title, abstract and keywords (checked ${fmt(g.pubcheck.read)}; outputs found only in ORCID, OpenAlex or arXiv do not count until they are added to the profile; open a member's card to see the five)`:g.pubcheck?`the ${g.pubcheck.profile.toLocaleString('en')} research outputs since 2021 registered on the members' university research profiles (checked ${fmt(g.pubcheck.read)}; ${g.pubcheck.only_elsewhere.toLocaleString('en')} more found only in ORCID, OpenAlex or arXiv do not count until they are added to a profile)`:`${nout.toLocaleString('en')} research outputs since 2021 found for ${harv} members (OpenAlex${harv<g.members.length?'; the rest are read in nightly runs within OpenAlex\'s daily limit':''})`)+(g.pubcheck&&g.pubcheck.latest5?'.':`, their current project and, for educators, the evidence on the Educators page.`)+` C2 Innovation: at least three pieces of evidence with their main topic in the area; C1 Specialisation: one or two, or at least two that touch it; B2 Investigation: one that touches it. Technical and administrative staff are not counted.`)))))}
     // live panels
     const news=[...(F.news||[]),...g.press.map(p=>({date:p.date.split('/').reverse().join('-'),title:p.title,url:p.url,text:'Press / media'}))].sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,8);
     const grants=[...(F.grants||[]),...g.prizes.map(p=>({date:'',title:p.title,url:p.url,text:'Prize · '+p.date}))];
@@ -265,12 +278,18 @@ footer p{margin:0;max-width:86ch}
       panel('Latest publications',[...g.pubs,...(F.outputs||[]).filter(o=>!g.pubs.some(p=>p.title===o.title)).slice(0,4).map(o=>({title:o.title,url:o.url,cite:fmt(o.date)}))].slice(0,8),x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'t'},x.cite)),'No publications listed.'),
       panel('Projects in the research portal',g.projects,x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'d'},[x.type,x.period,x.funder].filter(Boolean).join(' · ')),el('span',{class:'t'},x.people)),'The research portal lists no projects for this unit.')));
     // members
-    const ms=el('section',{},el('h3',{},`Members (${g.members.length})`));
+    ms=el('section',{},el('h3',{},`Members (${g.members.length})`));
     const q=el('input',{type:'search',placeholder:'Search members, projects or topics','aria-label':'Search members'});
     ms.append(el('div',{class:'mtools'},q,el('span',{class:'note'},'Current project from the portal, or else the most recent research output.')));
+    const lvbar=el('div',{});ms.append(lvbar);
     const mbox=el('div',{style:'display:grid;gap:16px'});ms.append(mbox);
-    const drawM=()=>{mbox.innerHTML='';const t=q.value.trim().toLowerCase();
-      CATS.forEach(c=>{const list=g.members.filter(m=>m.cat===c&&(!t||[m.name,m.role,m.project,m.output].join(' ').toLowerCase().includes(t)));if(!list.length)return;
+    drawM=()=>{mbox.innerHTML='';lvbar.innerHTML='';const t=q.value.trim().toLowerCase();
+      const inLv=m=>!lvSel||(m.rl||{})[lvSel.a]===lvSel.l;
+      if(lvSel){const n=g.members.filter(inLv).length;
+        lvbar.append(el('div',{class:'lvfilter'},el('span',{class:'dot',style:`display:inline-block;width:10px;height:10px;border-radius:2px;background:${acol(lvSel.a)}`}),
+          el('span',{},el('b',{},`(${lvSel.a}) ${Q.areas[lvSel.a]} – ${lvSel.l} ${Q.levels[lvSel.l]}`),`: ${n} member${n===1?'':'s'}`),
+          btn(el('button',{},'Show all members'),()=>g._lvpick(lvSel.a,lvSel.l))))}
+      CATS.forEach(c=>{const list=g.members.filter(m=>m.cat===c&&inLv(m)&&(!t||[m.name,m.role,m.project,m.output].join(' ').toLowerCase().includes(t)));if(!list.length)return;
         const grid=el('div',{class:'mgrid'});
         list.forEach(m=>{const res=!/staff|administrat|assistant$|officer|manager|engineer$/i.test(c+' '+m.role)||m.project||m.output;
           grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'educator'):null,...lvBadges(m)),
