@@ -1,0 +1,635 @@
+# arXiv as a control source for the QMATH publication check, searched 11 November 2026 by each member's full name
+# (export.arxiv.org API, submitted from 2021, physics/mathematics/computer-science categories).
+# Only works not found in the portal, ORCID or OpenAlex by title are listed: "X|title|date|arXiv id|category".
+# build_pubcheck.py matches near-identical titles (other spelling, preprint title) to the known work.
+# "=|arXiv title|known title" marks an arXiv title that was renamed on publication (checked by hand).
+=|Estimating gate-set properties from random sequences|Shadow estimation of gate-set properties from random sequences
+=|Roadmap towards Majorana qubits and nonabelian physics in quantum dot-based minimal Kitaev chains|Majorana Qubits and Non-Abelian Physics in Quantum Dot–Based Minimal Kitaev Chains
+=|Adiabatic nonabelian braiding of imperfect Majoranas|Adiabatic non-Abelian braiding of imperfect Majorana bound states
+# Left out by hand as clearly another person with the same name: 12 hits for Yufei Wang (robotics, language models,
+# security, nanocrystals), 4 for Yuming Zhao (language models, power systems, job scheduling), 2 for David Scholz
+# (finance, graph theory), and one each for Charles Bennett, Zhongxia Shang (2), Jakob Miller (graphene),
+# Lasse Wolff (medical imaging) and Marvin Schulz (gas permeation).
+#Jan Philip Solovej
+x 19kapqm 2610.08313
+x 16t3m9i 2510.22576
+x e8py93 2509.00536
+x g5xedd 2506.14227
+x xiq9w4 2504.03314
+x uux73x 2406.19839
+x 14613l4 2404.04133
+x 11iclhi 2403.12640
+x 19uxx3f 2402.08490
+x cd8u85 2303.04504
+x h7wogl 2203.17183
+x 16av0bh 2108.12022
+X|Optimal Remainder Estimates in the Quantization of Complex Projective Spaces|2025-08-27|2508.19968|math-ph
+#Matthias Christandl
+x dk6f13 2611.00751
+x 6a71rz 2610.32595
+x x0jkxh 2605.11285
+x 1ab6oot 2604.18283
+x hffv9f 2602.16948
+x 1ht5xaf 2602.08441
+x 1e2eqrp 2512.17780
+x 1nm6nlq 2512.02760
+x ftcwvh 2510.08336
+x fqyezd 2510.04877
+x ps3mua 2506.20587
+x hcybxa 2504.17881
+x u158z0 2503.22650
+x h3ch2s 2503.22633
+x 10nm89i 2503.05647
+x 1g0ip88 2411.15789
+x 3plqxv 2408.17290
+x 1pfgi3k 2408.05260
+x 1wgoc4m 2408.01940
+x 148ara5 2408.00723
+x 12q8he7 2312.12614
+x d0s5el 2311.02190
+x 1uh4cwb 2309.16655
+x 1pj4uy0 2308.16873
+x 7xprw2 2307.07394
+x oxu2ur 2306.13739
+x 11k4lsn 2306.01718
+x 9il9ij 2306.00199
+x 2e48ig 2212.14095
+x tcc8ti 2212.12220
+x tchic7 2212.01668
+x 1cz976 2210.02939
+x 1srv78m 2111.08262
+x zwop3v 2108.06254
+x 1boo4ks 2107.05961
+x 1mpzeo8 2105.02338
+x 1po5rks 2104.06301
+x 19sa7v1 2104.01130
+#Bergfinnur Durhuus
+x 3plqxv 2408.17290
+x 4dk6gt 2312.09833
+x 9il9ij 2306.00199
+x pxrgov 2211.15247
+x 1ljjy6t 2206.10947
+x 1ewy88m 2112.07739
+x 1w54t11 2112.06570
+x euwvbl 2104.14176
+#Søren Fournais
+x mq7bvl 2608.09570
+x g5xedd 2506.14227
+x g7c8z4 2502.17290
+x 1vn5dl3 2411.12384
+x 19uxx3f 2402.08490
+x 53ab74 2307.16079
+x csqf3p 2305.00797
+x 1qf6ak0 2208.13646
+x 9rzewv 2207.13391
+x c3275a 2201.13423
+x 16av0bh 2108.12022
+X|Counting eigenvalues below the lowest Landau level|2024-06-10|2406.06411|math.SP
+X|Purely magnetic tunnelling between radial magnetic wells|2023-08-08|2308.04315|math.SP
+#Laura Mančinska
+x 8dfq2g 2610.06512
+x 1vdmzm1 2610.03582
+x ccy5ru 2609.31223
+x unvk3k 2510.08154
+x 1bp1z7u 2505.05253
+x n7fb2p 2502.05136
+x evt8t6 2411.04931
+x axqkqr 2410.16220
+x xz83fl 2410.15793
+x 1uu96bs 2409.18916
+x bcw18s 2310.12662
+x 1imei20 2309.11947
+x ftbjg 2302.00974
+x 1ym06br 2212.11572
+x 132lz15 2211.11729
+x 5scq8c 2109.12039
+x zwop3v 2108.06254
+x 1plk6bz 2106.00155
+x 1251j6o 2105.10658
+x vz9isu 2103.01729
+X|Beyond real: Investigating the role of complex numbers in self-testing|2025-12-08|2512.07160|quant-ph
+#Albert Werner
+x 1q1kfx4 2511.15664
+x 1rrd3i0 2510.08500
+x 1rktzzs 2510.07561
+x nlrxmk 2506.00606
+x 1c27zpb 2408.02108
+x 1ugy9gm 2403.04751
+x 6jt56r 2307.15026
+x 7xprw2 2307.07394
+x oxu2ur 2306.13739
+x 1nh7r4y 2205.09567
+x 9l3dwj 2101.08603
+X|Quantum Algorithms for the Minimum Steiner Tree problem with application to Binary Near-Perfect Phylogenies|2025-10-10|2510.09911|quant-ph
+X|Estimating gate-set properties from random sequences|2021-10-25|2110.13178|quant-ph
+#David Roberson
+x gpwq3z 2610.07927
+x qn1i5 2504.13826
+x n7fb2p 2502.05136
+x nst7lj 2501.00196
+x c5d7zn 2407.10635
+x 1f5t5z7 2312.12040
+x 1md3nam 2311.04891
+x 17inhmx 2311.04889
+x 33pubm 2302.10538
+x m6iqpz 2206.10321
+X|Quantum Sabidussi's Theorem|2024-02-19|2402.12344|math.QA
+#Daniel Malz
+x 137rzwh 2609.36203
+x 1jo13o2 2609.35973
+x h9uspc 2606.06621
+x 18l0kd0 2604.21919
+x vmtorw 2602.16067
+x 1qu1epu 2601.21062
+x 1d2meqn 2512.13451
+x fyky5n 2510.23591
+x 1x5ysql 2510.23302
+x 1292qb5 2510.13671
+x 5bftnt 2510.12743
+x 1ohb7qc 2509.19963
+x 18emnby 2508.10890
+x 1r0ummc 2505.13401
+x 1j279yj 2504.05111
+x vj4cmf 2503.14645
+x dprbtj 2410.23248
+x 18gbyx0 2409.06623
+x 18928tz 2408.03390
+x bdzbq3 2407.11960
+x 50a7o4 2407.10140
+x z2nnuk 2402.07975
+x 1v42ci 2307.01696
+x 1kw7lxi 2212.07789
+x dizpcz 2211.16439
+x 1cn6mu5 2209.01230
+x 1ahrom9 2205.05490
+x xybhbb 2205.05479
+x yrxtol 2204.03016
+x 1msfcjz 2112.07527
+x xhhpna 2109.06781
+x 14yc1rg 2107.10813
+x 1jvy28c 2107.07196
+x 1gajkuj 2107.05873
+X|Constraints on phantom codes from automorphism group bounds|2026-04-16|2604.15111|quant-ph
+X|Noise-induced suppression of MPO truncation errors in noisy random circuits and Lindbladian dynamics|2026-03-20|2603.20400|quant-ph
+X|Renormalization-group-based preparation of matrix product states on up to 80 qubits|2025-10-28|2510.24681|quant-ph
+X|Few-body analogue quantum simulation with Rydberg-dressed atoms in optical lattices|2022-11-28|2211.15708|quant-ph
+X|Large-N limit of spontaneous superradiance|2022-02-10|2202.05197|quant-ph
+#Daniel Stilck França
+x hhjact 2610.06769
+x 1hn6udz 2610.06667
+x 16niqa9 2610.06197
+x p8oj10 2610.03578
+x 1a57drd 2610.00448
+x qo96vr 2609.35101
+x 6o0h0h 2606.23652
+x 1vffnpc 2605.26953
+x 2zsxck 2604.18533
+x rq27ze 2602.14694
+x 1bps4n8 2601.16154
+x 10nwx7u 2511.23392
+x 1j62b4j 2511.14389
+x 1rrd3i0 2510.08500
+x 1ppnjcy 2510.08292
+x moiu6m 2508.20174
+x 1jr6idc 2508.08214
+x drkanr 2507.21883
+x wfh698 2501.13050
+x ghq2w5 2411.04885
+x 1g74f4a 2411.03163
+x 1u46ndx 2403.12691
+x 1hcbkaw 2402.16477
+x lswa62 2311.07506
+x 1gkwo1h 2311.05529
+x 112xuvy 2307.06370
+x tegy9c 2307.02959
+x oxu2ur 2306.13739
+x ilsuwr 2304.09827
+x 9qw4v8 2301.09192
+x 9rlu5w 2210.11505
+x 9fhe1u 2209.06811
+x 1nh7r4y 2205.09567
+x 4y4c1h 2204.03455
+x 10q678f 2202.10717
+x 54d5gh 2107.03333
+X|Noise-induced shallow circuits and absence of barren plateaus|2024-03-20|2403.13927|quant-ph
+X|Efficient learning of ground & thermal states within phases of matter|2023-01-30|2301.12946|quant-ph
+#Eric Culf
+X|The complexity of entangled graph colouring via polymorphisms|2026-10-01|2610.02565|quant-ph
+X|Replication Descent and J-Finality of Replicable Functions|2026-09-08|2609.08243|math.NT
+X|Statistically secure uncloneable encryption of arbitrary messages|2026-07-30|2607.28561|quant-ph
+X|XOR Games at Full Tilt: The Hardness of Binary Nonlocal Games|2026-07-08|2607.06876|quant-ph
+X|Quantum polymorphism characterisation of commutativity gadgets in all quantum models|2026-04-01|2604.01408|quant-ph
+X|Almost perfect strategies for projection games are approximately tracial|2026-03-16|2603.14746|quant-ph
+X|The uncloneable bit exists|2026-03-09|2603.08916|quant-ph
+X|The quantum smooth label cover problem is undecidable|2025-10-03|2510.03477|quant-ph
+X|Optimal Untelegraphable Encryption and Implications for Uncloneable Encryption|2025-10-01|2510.00903|quant-ph
+X|Existence and nonexistence of commutativity gadgets for entangled CSPs|2025-09-09|2509.07835|quant-ph
+X|Uncloneable Encryption from Decoupling|2025-03-24|2503.19125|quant-ph
+X|Quantum expanders and property (T) discrete quantum groups|2025-02-04|2502.01974|math.OA
+X|Towards Unconditional Uncloneable Encryption|2024-10-30|2410.23064|quant-ph
+X|RE-completeness of entangled constraint satisfaction problems|2024-10-28|2410.21223|quant-ph
+X|Linear gate bounds against natural functions for position-verification|2024-02-28|2402.18648|quant-ph
+X|Rank lower bounds on non-local quantum computation|2024-02-28|2402.18647|quant-ph
+X|Approximation algorithms for noncommutative CSPs|2023-12-28|2312.16765|quant-ph
+X|New Approaches to Complexity via Quantum Graphs|2023-09-22|2309.12887|quant-ph
+X|Uncloneable Cryptographic Primitives with Interaction|2023-02-28|2303.00048|quant-ph
+X|Group coset monogamy games and an application to device-independent continuous-variable QKD|2022-12-07|2212.03935|quant-ph
+X|Rigidity for Monogamy-of-Entanglement Games|2021-11-15|2111.08081|quant-ph
+X|A monogamy-of-entanglement game for subspace coset states|2021-07-28|2107.13324|cs.CR
+#Arthur Morris
+X|Constraints on phantom codes from automorphism group bounds|2026-04-16|2604.15111|quant-ph
+X|Euler topology in classical spin liquids|2025-05-14|2505.09683|cond-mat.str-el
+X|Non-Abelian Hopf-Euler insulators|2024-05-27|2405.17305|cond-mat.mes-hall
+X|Optical manifestations and bounds of topological Euler class|2023-11-13|2311.07545|cond-mat.mes-hall
+X|Andreev reflection in Euler materials|2023-02-14|2302.07094|cond-mat.mes-hall
+#Marta Pavelka
+x 10xvt2j 2607.21166
+x 5wkmpw 2606.28610
+x 1umrmcz 2411.08245
+x dz48kn 2403.05364
+x 89t0p 2207.06891
+x zh7b8a 2106.12136
+#Rebecca Tomann
+x dk6f13 2611.00751
+x 12mrgae 2505.10963
+x sfpoe9 2405.05761
+X|An Error Mitigated Non-Orthogonal Quantum Eigensolver via Shadow Tomography|2025-04-22|2504.16008|quant-ph
+#Lubashan Pathirana
+x 1hjycdb 2609.40096
+x r4qddi 2609.35451
+x 1b4ua26 2607.23353
+x 1arsifz 2605.00157
+x hdbx82 2603.28893
+x 1rktzzs 2510.07561
+x cdfd5i 2509.08924
+x 1kk58yq 2501.18014
+x yeiqb7 2404.03168
+x 1kdhrmj 2303.08992
+#Oskar Leimkuhler
+x dk6f13 2611.00751
+x xa7qdp 2503.21041
+x 1w1vs6r 2407.00249
+x hi6tsd 2404.10223
+x c578ww 2205.09039
+#Martin Dam Larsen
+x 1gvep9h 2603.23832
+x e6790t 2209.03291
+#Vjosa Blakaj
+x 10si4bi 2606.16712
+x 1d2meqn 2512.13451
+X|On the set of reduced states of translation invariant, infinite quantum systems|2023-08-28|2308.14585|quant-ph
+X|Transcendental properties of entropy-constrained sets: Part II|2023-02-19|2302.09645|math-ph
+X|Transcendental properties of entropy-constrained sets|2021-11-19|2111.10363|math-ph
+#Marek Miller
+x dk6f13 2611.00751
+x ps3mua 2506.20587
+x hcybxa 2504.17881
+x 10nm89i 2503.05647
+X|How many degrees of freedom describe a quantum N-particle state?|2026-07-18|2607.16988|quant-ph
+X|Quantum reference frames, revisited|2023-12-06|2312.03811|gr-qc
+X|Generalised Uncertainty Relations from Finite-Accuracy Measurements|2023-02-16|2302.08120|gr-qc
+X|The power of noisy quantum states and the advantage of resource dilution|2022-10-25|2210.14192|quant-ph
+X|Catalysis of entanglement and other quantum resources|2022-07-12|2207.05694|quant-ph
+X|Entanglement catalysis for quantum states and noisy channels|2022-02-10|2202.05228|quant-ph
+X|Hierarchy of correlation quantifiers comparable to negativity|2021-11-23|2111.11887|quant-ph
+X|Preserving quantum correlations and coherence with non-Markovianity|2021-06-25|2106.13573|quant-ph
+#Sascha Lill
+x 1bgpffp 2610.25262
+x 1y3esz6 2603.28664
+x qftgrb 2602.12067
+x 1oyrrcv 2601.00750
+x 1gvnkev 2508.00803
+x cmuupr 2311.11945
+x 100lxy 2310.02706
+x 1kyc5nf 2307.14727
+x uoir56 2303.13925
+x jlnxd3 2208.03487
+x i9sg7s 2204.13407
+x cofizb 2104.13861
+X|Momentum Distribution of a Fermi Gas with Coulomb Interaction in the Random Phase Approximation|2025-11-05|2511.03654|math-ph
+#Marvin Schulz
+x bl0tbp 2609.10478
+x 153bw67 2608.09000
+x 1fid63x 2602.05942
+X|On the Excess Charge Problem of Atoms|2025-04-25|2504.18487|math-ph
+X|Why a System of Three Bosons on Separate Lines Can Not Exhibit the Confinement Induced Efimov Effect|2024-11-28|2411.19263|math-ph
+#Marina Prokhorova
+X|Spectral flow and Robin domains on metric graphs|2025-05-04|2505.02039|math.SP
+X|The unitary group in the strong topology and a construction of Dixmier-Douady|2025-04-15|2504.11646|math.FA
+X|Family index for Fredholm extensions of semi-Fredholm operators|2024-01-29|2401.16060|math.DG
+X|From graph to Riesz continuity|2022-02-07|2202.03337|math.DG
+X|The continuity properties of discrete-spectrum families of Fredholm operators|2022-01-24|2201.09869|math.FA
+X|Spaces of unbounded Fredholm operators: I. Homotopy equivalences|2021-10-27|2110.14359|math.KT
+#Siddharth Vadnerkar
+X|An Operator-Algebraic Framework for Anyons and Defects in Quantum Spin Systems|2026-01-09|2601.05515|math-ph
+X|The category of anyon sectors for non-abelian quantum double models|2025-03-19|2503.15611|math-ph
+X|An operator algebraic approach to symmetry defects and fractionalization|2024-10-30|2410.23380|math-ph
+X|Classification of the anyon sectors of Kitaev's quantum double model|2023-10-30|2310.19661|math-ph
+X|Superselection sectors in the 3d Toric Code|2023-08-14|2308.06883|math-ph
+X|Dynamical abelian anyons with bound states and scattering states|2023-03-13|2303.07379|math-ph
+#Harold Nieuwboer
+x r4qddi 2609.35451
+x 1hkflza 2609.14519
+x 1ab6oot 2604.18283
+x 1nb3oxm 2604.07319
+x ftcwvh 2510.08336
+x qin9su 2510.06115
+x u158z0 2503.22650
+x h3ch2s 2503.22633
+x 1g0ip88 2411.15789
+x 181l839 2303.04771
+x 1y20b9y 2302.10244
+x 9jkgeo 2209.14358
+x y851z2 2109.15282
+#Boris Bolvig Kjær
+x 17ccdsc 2603.01936
+x o8mwke 2511.21521
+x 1odikfy 2306.13762
+x 1d8cdwt 2306.05130
+X|Higher tensor network states in two spatial dimensions: fundamental theorem for open boundary conditions|2026-11-09|2611.12658|cond-mat.str-el
+#Yuming Zhao
+x ccy5ru 2609.31223
+x pt9oeb 2510.08484
+X|A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions|2026-09-30|2609.40106|quant-ph
+X|A non-robust quantum correlation self-test|2026-09-20|2609.25117|quant-ph
+X|On the undecidability of quantum channel capacities|2026-01-30|2601.22471|quant-ph
+X|The NPA hierarchy does not always attain the commuting operator value|2025-10-06|2510.04943|quant-ph
+X|A Complete and Natural Rule Set for Multi-Qutrit Clifford Circuits|2025-08-20|2508.14670|cs.LO
+X|Quantitative Quantum Soundness for Bipartite Compiled Bell Games via the Sequential NPA Hierarchy|2025-07-22|2507.17006|quant-ph
+X|Lifting the maximally-entangledness assumption in robust self-testing for synchronous games|2025-05-09|2505.05994|quant-ph
+X|Robust self-testing for nonlocal games with robust game algebras|2024-11-05|2411.03259|quant-ph
+X|Postselection technique for optical Quantum Key Distribution with improved de Finetti reductions|2024-03-18|2403.11851|quant-ph
+X|Positivity is undecidable in tensor products of free algebras|2023-12-09|2312.05617|math.OA
+X|Quantum delegation with an off-the-shelf device|2023-04-07|2304.03448|quant-ph
+X|An operator-algebraic formulation of self-testing|2023-01-26|2301.11291|quant-ph
+#Vincent Louatron
+x fvlow4 2504.13693
+x 1id2pih 2306.02350
+#Armando Angrisani
+x wfh698 2501.13050
+X|Polynomial-time classical simulation of boson and fermion sampling under thermal loss|2026-11-05|2611.08444|quant-ph
+X|Universal Bounds for Out-of-Distribution Unitary Learning|2026-10-02|2610.03690|quant-ph
+X|Dissipation accelerates quantum and classical simulation of open-system dynamics|2026-09-30|2609.40174|quant-ph
+X|The Complexity of Dynamical Correlators: Operator Shadows and Exponential Learning Separations|2026-07-16|2607.15493|quant-ph
+X|Coherent-State Propagation: A Computational Framework for Simulating Bosonic Quantum Systems|2026-04-21|2604.19625|quant-ph
+X|Quantum simulation in the Heisenberg picture via vectorization|2026-02-23|2602.20154|quant-ph
+X|Thermal State Simulation with Pauli and Majorana Propagation|2026-02-04|2602.04878|quant-ph
+X|When quantum resources backfire: Non-gaussianity and symplectic coherence in noisy bosonic circuits|2025-10-08|2510.07264|quant-ph
+X|On the Complexity of Quantum States and Circuits from the Orthogonal and Symplectic Groups|2025-09-09|2509.07573|quant-ph
+X|Pauli Propagation: A Computational Framework for Simulating Quantum Systems|2025-05-27|2505.21606|quant-ph
+X|Role of scrambling and noise in temporal information processing with quantum systems|2025-05-15|2505.10080|quant-ph
+X|Simulating quantum circuits with arbitrary local noise using Pauli Propagation|2025-01-22|2501.13101|quant-ph
+X|Efficient quantum-enhanced classical simulation for patches of quantum landscapes|2024-11-29|2411.19896|quant-ph
+X|Classically estimating observables of noiseless quantum circuits|2024-09-03|2409.01706|quant-ph
+X|Noise-induced shallow circuits and absence of barren plateaus|2024-03-20|2403.13927|quant-ph
+X|Learning unitaries with quantum statistical queries|2023-10-03|2310.02254|quant-ph
+X|A unifying framework for differentially private quantum algorithms|2023-07-10|2307.04733|quant-ph
+X|Differential Privacy Amplification in Quantum and Quantum-inspired Algorithms|2022-03-07|2203.03604|quant-ph
+X|Quantum Local Differential Privacy and Quantum Statistical Query Model|2022-03-07|2203.03591|quant-ph
+X|Information-Theoretic Limits of Quantum Learning via Data Compression|2021-12-13|2112.06841|quant-ph
+#Thomas Theurer
+x yiu5s7 2609.40186
+x 10dcquh 2505.18544
+x lcfkyq 2312.17088
+x rl4k0u 2303.17749
+x 1ray1dm 2301.06048
+x r56jag 2102.04863
+X|On the Role of Coherence in Shor's Algorithm|2022-03-20|2203.10632|quant-ph
+#Roberto Rubboli
+x 7bhbci 2611.08254
+x 1y0agjc 2609.34699
+x 1mhn3ze 2608.27202
+x 16fbgjt 2608.01124
+x 10si4bi 2606.16712
+x sdv9dv 2601.23213
+x 1qymw4g 2601.19182
+x lj5du2 2507.05696
+x 18v6bnt 2410.21976
+x 15uvjks 2312.14615
+x 2npfgq 2307.08258
+x xbfgx3 2211.12804
+x 1p20llg 2111.13356
+X|A protocol for global multiphase estimation|2023-01-18|2301.07380|quant-ph
+#Thomas Fraser
+x bgr00c 2607.24309
+x 10si4bi 2606.16712
+x 1ab6oot 2604.18283
+x fqyezd 2510.04877
+x mejwny 2402.10902
+x 2vwcz2 2211.00685
+#Aleksei Kulikov
+x 1ne1l1k 2605.06025
+x 1lk3aee 2604.06136
+x 1gvep9h 2603.23832
+x 1gvep9h 2603.07407
+x at9jby 2512.04594
+x 1vl4q1j 2505.14207
+x 1yfcfj3 2411.17380
+x 1ld38fg 2306.14013
+x 9zyacl 2306.12430
+x 1xs9p1z 2212.14008
+x 1szeq4 2210.00504
+x 7hnvk 2207.09278
+x 6gzl2o 2203.12349
+x 1ay67l1 2202.11193
+x 14ux3k9 2104.01121
+x 1fw1vtk 2103.08959
+X|Contractive Hardy--Littlewood inequalities in the Dirichlet range|2025-10-16|2510.14333|math.CV
+X|Openness of the frame set on the hyperbolas|2024-03-31|2404.00585|math.FA
+X|Gabor frame operator for the Cauchy kernel|2022-12-17|2212.08915|math.CV
+#Jeong-Hoon Ju
+x yxrr1i 2610.18394
+x 1cti8h4 2606.07407
+x 1rw5l9v 2506.18713
+x xdxo0b 2404.00255
+x 12isul6 2305.13964
+x xra1n4 2303.07845
+X|The border rank of the 4 × 4 determinant tensor is twelve|2025-10-13|2510.11051|math.AG
+X|Recursive Koszul flattenings of determinant and permanent tensors|2025-03-15|2503.12032|math.AC
+X|A new formula for the determinant of 4 × 4 matrices|2023-03-14|2303.07842|math.AC
+#Zhongxia Shang
+#Rafael Macedo
+x 12q6oa4 2610.08727
+x 1i1upov 2609.38319
+x 19cs1mi 2604.08663
+x zk2omo 2602.18939
+x podw2z 2505.02683
+x 1mjar0d 2504.12518
+x 1stghd8 2405.02248
+x o4kp6q 2202.09192
+X|Trading athermality for nonstabiliserness|2025-11-17|2511.13839|quant-ph
+X|Prepare-and-Magic: Semi-Device Independent Magic Certification in the Prepare-and-Measure Scenario|2025-06-02|2506.02226|quant-ph
+X|Witnessing Magic with Bell inequalities|2025-03-24|2503.18734|quant-ph
+#Sigurd Storgaard
+x pt9oeb 2510.08484
+x 1uu96bs 2409.18916
+x 1plk6bz 2106.00155
+#Lasse Wolff
+x vmtorw 2602.16067
+x 138nzbx 2509.18977
+x wqmvfk 2501.15277
+x 3plqxv 2408.17290
+x 9il9ij 2306.00199
+#Garbiñe Cid Ruiz
+#Emil Mærsk Pedersen
+x 1e2eqrp 2512.17780
+X|Mutual information scrambling in Ising spin chain|2024-02-21|2402.13558|cond-mat.stat-mech
+#Elias Theil
+x unvk3k 2510.08154
+x axqkqr 2410.16220
+x xz83fl 2410.15793
+X|An Exponential Sample-Complexity Advantage for Coherent Quantum Inference|2026-05-20|2605.21457|quant-ph
+X|Quantum Purity Amplification for Arbitrary Eigenstates and Multiple Outputs|2026-05-20|2605.21570|quant-ph
+#Anne van Grinsven
+#Gabriele Ciccarello
+#Yufei Wang
+x 1hn6udz 2610.06667
+x 16niqa9 2610.06197
+#Enrique Escobar Fernandez-Marcote
+#Emil Clausen
+#Bhavik Kumar
+x 41vd1g 2607.25969
+x 1x5ysql 2510.23302
+x q1jwcl 2403.14656
+x 1mazbi1 2210.06489
+#Rune Thinggaard Hansen
+#David Scholz
+#Pietro Posta
+x 6a71rz 2610.32595
+x 1y4zh9 2609.39280
+x 5girn9 2608.28573
+x 1ht5xaf 2602.08441
+x 9ie0q9 2407.07246
+#Vladyslav Visnevskyi
+x 1vdmzm1 2610.03582
+x 1874ovp 2603.10981
+X|High-dimensional quantum Schur transforms|2025-09-26|2509.22640|quant-ph
+#Jakob Miller
+x 132kqjh 2603.04556
+X|Improved Two-source Extractors against Quantum Side Information|2025-03-07|2503.05528|quant-ph
+#Maximilian Matzler
+X|Noise Effects on Diabatic Quantum Annealing Protocols|2025-02-11|2502.07588|quant-ph
+#Wanqi Li
+#Charles Bennett
+#Tobias Colding
+X|Height of minimal surfaces: sharp thresholds|2026-10-16|2610.23629|math.DG
+X|A dichotomy for minimal submanifolds|2026-07-31|2607.29502|math.DG
+X|Minimal surfaces with rapid area growth|2026-05-27|2605.28504|math.DG
+X|Liouville theorem for immersed minimal surfaces in any codimension|2026-05-14|2605.15038|math.DG
+X|Minimal submanifolds confined in space|2026-05-14|2605.15031|math.DG
+X|Distance between minimal surfaces and flows|2026-05-11|2605.10589|math.DG
+X|Deficit functions and the log Sobolev inequality|2025-09-26|2509.22941|math.DG
+X|Quantitative uniqueness for mean curvature flow|2025-02-05|2502.03634|math.DG
+X|Gradient estimates for scalar curvature|2025-01-29|2501.17947|math.DG
+X|A strong Frankel Theorem for shrinkers|2023-06-13|2306.08078|math.DG
+X|Propagation of symmetries for Ricci shrinkers|2023-05-04|2305.03135|math.DG
+X|Eigenvalue lower bounds and splitting for modified Ricci flow|2023-05-03|2305.02416|math.DG
+X|Singularities and diffeomorphisms|2022-02-20|2202.09839|math.DG
+X|Singularities of Ricci flow and diffeomorphisms|2021-09-13|2109.06240|math.DG
+X|Optimal growth bounds for eigenfunctions|2021-09-10|2109.04998|math.DG
+#Karsten Flensberg
+x 1n8ri2j 2609.40059
+x ydmhve 2605.23725
+x 35rwsa 2605.12588
+x 1rg8khd 2603.26374
+x oi0kt4 2601.11303
+x 1dhl6r7 2512.08470
+x 1ob1nwh 2510.00921
+x 1uwe0po 2509.08479
+x 1bs1694 2508.11768
+x 9dltja 2504.00524
+x 1lruar9 2501.14597
+x cel71e 2412.04084
+x 1mz0msc 2411.13355
+x fn2xbs 2307.05678
+x 1r0rwxu 2306.09500
+x 72vzuz 2304.06754
+x 190n0q6 2303.01102
+x 57txwr 2302.04267
+x 1r65qyn 2301.01881
+x 1nv6lm7 2209.08082
+x 19gvsg3 2209.00910
+x 1dx6t06 2205.15690
+x 1evj9qs 2205.14980
+x 1oqxqsx 2205.11193
+x 15l93ez 2203.06644
+x xsv7zq 2109.02300
+x inlmu9 2107.11833
+x 1eoagf2 2103.16958
+x 1nytjbl 2103.05548
+X|Adiabatic nonabelian braiding of imperfect Majoranas|2025-07-15|2507.11039|cond-mat.mes-hall
+X|Roadmap towards Majorana qubits and nonabelian physics in quantum dot-based minimal Kitaev chains|2023-06-28|2306.16289|cond-mat.mes-hall
+X|Photon-assisted resonant Andreev reflections: Yu-Shiba-Rusinov and Majorana states|2021-02-09|2102.04726|cond-mat.mes-hall
+#Michael Kastoryano
+x kpisjl 2505.17046
+x mqk40f 2410.18740
+x p3vee0 2408.14970
+x nyfmmk 2406.04332
+x c2w4s2 2405.16528
+x 8xt6fq 2310.03011
+X|Dealing with low-weight errors that lead BP OSD to fail|2026-10-21|2610.30305|quant-ph
+X|Spectral Gap of the Hexagonal AKLT Model via Boundary-State Factorization|2026-09-23|2609.27993|quant-ph
+X|Subsystem self-correction of the GKP qubit|2026-09-07|2609.07702|quant-ph
+X|COS-TT-CHF: A Tensor-Train Characteristic-Function COS Method for Multi-Asset Option Pricing|2026-08-18|2608.17636|q-fin.CP
+X|(MPO)^2: Multivariate Polynomial Optimization based on Matrix Product Operators|2026-07-17|2607.15916|cs.LG
+X|A tensor-train multidimensional inverse Laplace transform|2026-06-04|2606.06093|math.NA
+X|Full grid solution for multi-asset options pricing with tensor networks|2025-12-20|2601.00009|q-fin.CP
+X|Functional matrix product state simulation of continuous variable quantum circuits|2025-04-08|2504.05860|quant-ph
+X|Quantum generalizations of Glauber and Metropolis dynamics|2024-05-30|2405.20322|quant-ph
+X|An efficient and exact noncommutative quantum Gibbs sampler|2023-11-15|2311.09207|quant-ph
+X|Quantum Thermal State Preparation|2023-03-31|2303.18224|quant-ph
+X|Is there evidence for exponential quantum advantage in quantum chemistry?|2022-08-03|2208.02199|physics.chem-ph
+X|Complexity phase transitions in instantaneous quantum polynomial-time circuits|2022-04-19|2204.08898|quant-ph
+X|A highly efficient tensor network algorithm for multi-asset Fourier options pricing|2022-03-05|2203.02804|quant-ph
+X|Learning Neural Network Quantum States with the Linear Method|2021-04-22|2104.11011|quant-ph
+#Magdalena Musat
+x gxkbdw 2512.10410
+x 1a50tl9 2512.00432
+#Niels Martin Møller
+x 11gqh8c 2610.31669
+x zjrgcv 2509.11473
+x h9y8xl 2304.11953
+x ip0ydl 2209.01640
+x ojnu9m 2202.08641
+#Eugene Polzik
+x tmwbig 2608.06815
+x 11e1jc7 2412.11824
+x 1uqn4zf 2412.03303
+x 1ovsssy 2312.08841
+x 1yl7f68 2312.05641
+x qsa120 2311.13499
+x 6igr2f 2309.12006
+x zqajxi 2303.11029
+x 1pg8alv 2302.13633
+x 1yea5qw 2212.12148
+x f4eqcg 2212.03101
+x 1gwm3ra 2209.01920
+x 1kzeekh 2208.00077
+x 72aaez 2111.02697
+x 1c90qke 2110.00066
+x ihvaxb 2103.11729
+X|Coherent phase control of two-color continuous variable entangled light|2025-08-05|2508.03303|quant-ph
+#Mark Rudner
+x b50p96 2608.09911
+x o6kpwb 2606.06579
+x dk9i7w 2410.17314
+x e4zmtj 2410.15481
+x sjcuu2 2409.02177
+x kzrqsq 2406.08706
+x oaf763 2402.18776
+x 1ww0188 2402.14918
+x 12g4aej 2311.00756
+x 3mloux 2310.16082
+x 1yk3dhu 2308.00933
+x 1de3x12 2303.02148
+x ez7bwc 2210.17256
+x oairc4 2210.07254
+x kzs2wh 2206.02917
+x ya2nuu 2203.01313
+x 1v8ncqk 2202.08284
+x 1utugwo 2201.05406
+x 10k03jl 2108.01708
+x ejce3f 2103.15831
+X|Vari-Cool: a non-unitary quantum variational protocol for simulated cooling|2025-10-10|2510.09749|quant-ph
+X|Exciting terahertz magnons with amplitude modulated light: spin pumping, squeezed states, symmetry breaking and pattern formation|2025-07-10|2507.08147|cond-mat.mes-hall
+X|Revealing the conduction band and pseudovector potential in 2D moiré semiconductors|2023-09-19|2309.10964|cond-mat.mes-hall
