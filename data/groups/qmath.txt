@@ -65,7 +65,7 @@ P||Peter Harremoës||Affiliated member (Niels Brock Copenhagen Business College)
 P||Michael Kastoryano||Affiliated member (KU NBI)||||||
 P||Magdalena Musat||Affiliated member (KU Mathematics)||||||
 P||Niels Martin Møller||Affiliated member (KU Mathematics)||||||
-P||Klaus Mølmer||Affiliated member (listed as AU Physics)||||||
+P||Klaus Mølmer||Affiliated member (KU NBI)||||||
 P||Eugene Polzik||Affiliated member (KU NBI, Quantop)||||||
 P||Mark Rudner||Affiliated member (KU NBI, QDev)||||||
 PUBS||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right||/en/publications/adiabatic-preparation-of-many-body-quantum-states-getting-the-beg/||Pedersen, E. T., Witteveen, F., Mølmer, K. & Christandl, M., 2026, In: Physical Review Letters. 137, 13, 130602.

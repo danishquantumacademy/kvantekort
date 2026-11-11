@@ -567,6 +567,99 @@ Multiple vibrational resonances and Franck-Condon palisades in the low temperatu
 Revealing the strong coupling of atomic motion to interlayer excitons through photocurrent imaging at room temperature. 2021 J 3131372652 0
 Contrasting lattice geometry dependent versus independent quantities and applications to cold atom experiments. 2021 J 3155670271 0
 Self-organized Floquet band geometry in cavity-driven quantum materials 2026 P 7163867956 0
+Censorship of quantum resources against quantum catalysis 2026 J 4415273642 0
+Complementary collective spin descriptions of superradiant Ramsey spectroscopy 2026 J 7125716088 0
+Entangling power of nonentangling channels 2026 J 7151241966 0
+Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States 2026 J 4416117115 0
+Interactions in quantum networks with pulse propagation delays 2026 J 4417257653 0
+Lieb-Mattis States for Robust Entangled Differential Phase Sensing 2026 J 7154565108 0
+Optimal control for Rydberg multi-qubit operations 2026 J 7165892082 0
+Proposal for room-temperature superradiant echoes induced by multiple re-phasing of frequency-grated NV spin sub-ensembles 2026 J 7124421764 0
+Boundary Time Crystals Induced by Local Dissipation and Long-Range Interactions 2025 J 4416869202 0
+Concurrent spin squeezing and field tracking with machine learning 2025 J 4409268313 0
+Cooperative Squeezing of Internal and Collective Spins in an Atomic Ensemble 2025 J 4416413655 0
+Deterministic carving of quantum states with Grover's algorithm 2025 J 4411803818 0
+Efficient Preparation of Entangled States in Cavity QED with Grover’s Algorithm 2025 J 4411814406 0
+Enhanced Laser Cooling of a Mechanical Resonator via Zero-Photon Detection 2025 J 4407698911 0
+Generating Einstein-Podolsky-Rosen correlations for teleporting collective spin states in a two-dimensional trapped ion crystal 2025 J 4409539423 0
+Probing Hilbert space fragmentation with strongly interacting Rydberg atoms 2025 J 4409737124 0
+Retrodiction of measurement outcomes on a single quantum system revealing entanglement with its environment 2025 J 4414048687 0
+Stochastic collective density-matrix approach for conditional spin squeezing 2025 J 4410359567 0
+Stochastic Schrödinger equation for homodyne measurements of strongly correlated systems 2025 J 4414495838 0
+Superradiance from nitrogen-vacancy centers coupled to an ultranarrow optical cavity 2025 J 4408574864 0
+Theoretical framework for enhancing or enabling cooling of a mechanical resonator via the anti-Stokes or Stokes interaction and zero-photon detection 2025 J 4407699999 0
+Unidirectional quantum-optical elements for waveguide-QED with subwavelength Rydberg-atom arrays in free space 2025 J 4409653042 0
+Cavity-Mediated Collective Emission from Few Emitters in a Diamond Membrane 2024 J 4404994531 0
+Censorship of quantum resources in quantum networks 2024 J 4404920531 0
+Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conversion 2024 J 4394906510 0
+Conditional Dynamics in Heterodyne Detection of Superradiant Lasing with Incoherently Pumped Atoms 2024 L 4401515329 0
+Jaynes-Cummings interaction with a traveling light pulse 2024 J 4399103161 0
+Many-body entanglement via ‘which-path’ information 2024 J 4404604077 0
+Médaille d’or du CNRS Jean Dalibard: Avant-propos 2024 D 4391472612 1
+Parametric amplification of a quantum pulse 2024 J 4404566359 0
+Realization of an Extremely Anisotropic Heisenberg Magnet in Rydberg Atom Arrays 2024 J 4392004830 0
+Subtraction and Addition of Propagating Photons by Two-Level Emitters 2024 L 4402216026 0
+Theoretical study of superradiant masing with solid-state spins at room temperature 2024 J 4397011745 0
+Creation of nonclassical states of light in a chiral waveguide 2023 J 4317805696 0
+In situ amplification of spin echoes within a kinetic inductance parametric amplifier 2023 J 4323920694 0
+Interaction of two Rydberg atoms in the vicinity of an optical nanofibre 2023 J 4318957918 0
+Interactions of quantum systems with pulses of quantized radiation: From a cascaded master equation to a traveling mode perspective 2023 J 4313557983 0
+Multimode character of quantum states released from a superconducting cavity 2023 J 4387880197 0
+Nonclassical radiation from a nonlinear oscillator driven solely by classical 1/ƒ noise 2023 J 4388464893 0
+Optical multiqubit gate operations on an excitation-blockaded atomic quantum register 2023 J 4361001367 0
+Perfect splitting of a two-photon pulse 2023 J 4320914869 0
+Qubit readout and quantum sensing with pulses of quantum radiation 2023 J 4313560678 0
+Active Frequency Measurement on Superradiant Strontium Clock Transitions 2022 J 3163980583 0
+A superradiant maser with nitrogen-vacancy center spins 2022 J 3210946271 0
+Cavity Quantum Electrodynamics Effects with Nitrogen Vacancy Center Spins Coupled to Room Temperature Microwave Resonators 2022 J 4283383906 0
+Deterministic Photon Sorting in Waveguide QED Systems 2022 L 4225820480 0
+Enhanced metrology at the critical point of a many-body Rydberg atomic system 2022 J 4306412220 0
+Free-Fermion Multiply Excited Eigenstates and Their Experimental Signatures in 1D Arrays of Two-Level Atoms 2022 L 4214949362 0
+Gaussian theory for estimating fluctuating perturbations with backaction-evading oscillator variables 2022 J 4293048764 0
+Manipulating synthetic gauge fluxes via multicolor dressing of Rydberg-atom arrays 2022 J 4297538539 0
+Measuring out-of-time-ordered correlation functions without reversing time evolution 2022 J 3009083991 0
+Microwave mode cooling and cavity quantum electrodynamics effects at room temperature with optically cooled nitrogen-vacancy center spins 2022 J 4308148894 0
+Optical control of the complex phase of a quantum ground-state amplitude 2022 J 4283321197 0
+Photon-photon interactions in Rydberg-atom arrays 2022 J 3121185476 0
+Quantum Nondemolition Measurements of Moving Target States 2022 J 4221159823 0
+Random-Access Quantum Memory Using Chirped Pulse Phase Encoding 2022 J 3138857931 0
+Single-shot determination of quantum phases via continuous measurements 2022 J 4296485240 0
+Adiabatic theorem revisited: The unexpectedly good performance of adiabatic passage 2021 J 3165991798 0
+Ancilla-mediated qubit readout and heralded entanglement between rare-earth dopant ions in crystals 2021 J 3039348895 0
+Collective emission of photons from dense, dipole-dipole interacting atomic ensembles 2021 J 3087650729 0
+Crowdsourcing human common sense for quantum control 2021 J 3015274958 0
+Guessing the outcome of separate and joint quantum measurements of noncommuting observables 2021 J 3140541249 0
+Kvantemekanikkens Fortolkninger 2021 J 7166698212 0
+Quantum estimation of a time-dependent perturbation 2021 J 3170923605 0
+Radiation eigenmodes of Dicke superradiance 2021 J 3089108135 0
+Scattering of Matter Wave Solitons on Localized Potentials 2021 J 2174732835 0
+SQUEEZED VIBRATIONS More speed out of the quantum gate 2021 D 1
+Time-dependent atomic magnetometry with a recurrent neural network 2021 J 3044567336 0
+Ultranarrow Superradiant Lasing by Dark Atom-Photon Dressed States 2021 J 3136994259 0
+Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic preparation of spatially ordered states of Rydberg excitations 2022 J 4311403663 0
+Roadmap for Rare-earth Quantum Computing 2021 P 3146809100 0
+Stochastic Mean-field Theory for Conditional Spin Squeezing by Homodyne Probing of Atom-Cavity Photon Dressed States 2023 P 4379258994 0
+State-Based Quantum Simulation: Releasing the Powers of Quantum States and Copies 2025 P 4415020700 0
+Supercoherence: Harnessing Long-Range Interactions to Preserve Collective Coherence in Disordered Systems 2025 P 4415193716 0
+Blockade-induced exchange primitives for scalable neutral-atom QPU 2025 P 4416943843 0
+Frequency Measurement with Superradiant Pulses of Incoherently Pumped Calcium Atoms: Role of Quantum Measurement Backaction 2022 P 4309956717 0
+Symmetry-resolved parent Hamiltonians for entangled bosonic cat resources 2026 P 7167585609 0
+Random-access microwave quantum memory using chirped pulse phase encoding 2021 J 3131329191 0
+Spin-squeezing by prediction and retrodiction measurements: beyond the Heisenberg uncertainty relation 2021 R 3134924561 0
+Work and heat in conventional and measurement powered quantum heat engines 2021 J 3190769305 0
+Quasi-adiabatic preparation of antiferromagnetic-like state of Rydberg excitations of atoms in a lattice 2022 P 4281482583 0
+Rydberg atoms in the vicinity of an optical nanofiber 2022 R 4312882549 0
+Exact Numerical Solution of Stochastic Master Equations for Conditional Spin Squeezing 2024 P 4391591121 0
+Dataset - In-situ amplification of spin echoes within a kinetic inductance parametric amplifier 2022 D 4393838894 1
+Demonstrating optical control of complex phases in a trapped-ion qubit 2026 J 7163931734 0
+Active Optical Frequency Measurements with Superradiance Prolonged by a Modulated Magnetic Field 2026 P 7169858001 0
+Input-Output Analysis of Quantum Dot SUPER Excitation 2026 P 7204544100 0
+Achieving the Quantum Limits with Twin-Field Sensors 2026 P 7212052674 0
+Measurement-induced dynamics and emergent symmetries of particles moving in a one-dimensional lattice 2026 P 7215068479 0
+Efficient description of parametric amplification of quantum pulses 2026 J 7220831315 0
+Quantum trajectory of a spin oscillator, continuous retrodiction beyond the Heisenberg uncertainty relation 2026 P 7225401004 0
+Médaille d’or du CNRS Jean Dalibard 2024 D 1
+Adiabatic theorem revisited 2021 J 0
 P
 Jan Philip Solovej|jan-philip-solovej|0000-0002-0244-1497|p|5065934491|0|0|0poa,1pa,2pa,3poa,4poa,5poa,6pa,7p,8poa,9pa,10pa,11pa,12poa,13o,14o,15o,16oa,17o,18oa,19o,20o,21o,22o,23o,24o,25oa,26o,27o,28o,29a,30a,31a,32a,33a,34a,35a,36a,37a,38a,39a,40a,41a,42a,43a,44a,45a,46a,47a
 Matthias Christandl|matthias-christandl|0000-0003-2281-3355|p|5006329724|0|0|48pa,49pa,50pa,51pa,52pa,53pa,54pa,55pa,56pa,57pa,58pa,59pa,60pa,61pa,62pa,63pa,64pa,65pa,66pa,67pa,68pa,69pa,70pa,71pa,72pa,73pa,74pa,75pa,76pa,77pa,78pa,79pa,80pa,81pa,82p,83pa,84pa,85pa,86pa,87pa,88p,89pa,90pa,91p,92pa,93pa,94pa,95pa,96a,97a,98a,99a,100a,101a,102a,103a,104a,105a
@@ -628,3 +721,4 @@ Magdalena Musat|magdalena-elena-musat|0000-0001-8250-8585|p|5000571938|0|0|485p,
 Niels Martin Møller|niels-martin-m%C3%B8ller|0000-0002-7701-0536|p|5027182758|0|0|490poa,491poa,492poa,493poa,494pa,495p,496po,497poa,498pa,499pa,500pa,501p,502o,503o,504o,505a,506a,507a
 Eugene Polzik|eugene-simon-polzik|0000-0001-9859-6591|p|5007480261|0|0|508pa,509poa,510poa,511poa,512poa,513poa,514pa,515pa,516pa,517poa,518poa,519poa,520pa,521poa,522pa,523pa,524poa,525p,526pa,527p,528po,529pa,530oa,531o,532a,533a,534a
 Mark Rudner||0000-0002-5150-6234|o|5055792056|0|1|535oa,536oa,537oa,538oa,539oa,540oa,541oa,542oa,543oa,544oa,545oa,546oa,547oa,548oa,549oa,550oa,551a,552a,553a,554a,555a,556a,557a,558a,559a,560a,561a,562a,563a,564a,565a,566a,567a
+Klaus Mølmer|klaus-m%C3%B8lmer|0000-0002-2372-869X|p|5113628834|0|0|48poa,568poa,569poa,570poa,571poa,572poa,573poa,574poa,575poa,576poa,577poa,578poa,579poa,580poa,581poa,582poa,583poa,584poa,585poa,586poa,587poa,588poa,589poa,590poa,591poa,592poa,593poa,594poa,595poa,596pa,597poa,598poa,599poa,600poa,601poa,602poa,603poa,604poa,605poa,606poa,607poa,608poa,609poa,610poa,611poa,612poa,613poa,614poa,615poa,616poa,617poa,618poa,619poa,620poa,621poa,622poa,623poa,624poa,625pa,626poa,627poa,628poa,629poa,630poa,631poa,632poa,633poa,634po,635poa,636poa,637a,638a,639a,640a,641a,642a,643a,644a,645a,646a,647a,648a,649a,650a,651a,652a,653a,654a,655a,656a,657a,658a,659o,660o
