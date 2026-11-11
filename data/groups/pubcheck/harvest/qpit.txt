@@ -1,0 +1,233 @@
+# QPIT, compact harvest 11 November 2026 (DTU Orbit + ORCID; OpenAlex not read: daily limit reached).
+#M|Zohran Ali|~zohran-ali/|||0
+#N|0|0
+#M|Ulrik Lund Andersen|~ulrik-lund-andersen/|0000-0002-1990-7687||0
+#N|78|5
+p|1d63vkr|2026|J|continuous-variable-measurement-device-independent-quantum-certif|||Continuous Variable Measurement-Device-Independent Quantum Certification
+p|1scvrid|2026|J|=|||Continuous-variable quantum communication
+p|1aqanxz|2026|J|high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast|||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning
+p|12jadtg|2026|J|=|||No-Broadcasting of Non-Gaussian States
+p|dquda1|2026|J|topology-optimization-of-high-performance-optomechanical-resonato-2|||Topology Optimization of High-Performance Optomechanical Resonator
+p|1isj9jv|2025|J|8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa|||8 GBit/s real-time quantum random number generator with non-iid samples
+#M|Vasiliki Angelopoulou|~vasiliki-angelopoulou/|||0
+#N|0|0
+#M|Evangelia Aspropotamiti|~evangelia-aspropotamiti/|||0
+#N|0|0
+#M|Zsuzsanna Bagotai|~zsuzsanna-bagotai/|||0
+#N|0|0
+#M|Samuel John Padraig Bensted|~samuel-john-padraig-bensted/|||0
+#N|0|0
+#M|Vikas S Bhat|~vikas-s-bhat/|0009-0003-2067-0474||0
+#N|0|10
+#M|Yiming Bian|~yiming-bian/|||0
+#N|0|0
+#M|Jonatan Bohr Brask|~jonatan-bohr-brask/|0000-0003-3859-0272||0
+#N|24|5
+p|p8wyij|2025|J|a-friendly-guide-to-exorcising-maxwells-demon|||A Friendly Guide to Exorcising Maxwell's Demon
+p|160qfpl|2025|J|=|||Benchmarks for quantum communication via gravity
+p|1753zhk|2025|J|=|||Heat as a Witness of Quantum Properties
+p|1tqj7bu|2025|J|improving-semi-device-independent-randomness-certification-by-ent|||Improving semi-device-independent randomness certification by entropy accumulation
+p|mwyuxp|2025|J|=|||Long-distance device-independent conference key agreement
+p|1y7rgbj|2024|J|=|||Contextuality witness inspired by optimal state discrimination
+#M|Ilia Breev|~ilia-breev/|||0
+#N|1|0
+p|i9jk8i|2025|J|quantifying-the-creation-of-negatively-charged-boron-vacancies-in|||Quantifying the creation of negatively charged boron vacancies in He-ion irradiated hexagonal boron nitride
+#M|Axel Bogdan Bregnsbo|~axel-bogdan-bregnsbo/|||0
+#N|1|0
+p|gumtau|2025|J|=|||Quantum learning advantage on a scalable photonic platform
+#M|Romain Jeremie Baptiste Brunel|~romain-jeremie-baptiste-brunel/|||0
+#N|1|0
+p|gumtau|2025|J|=|||Quantum learning advantage on a scalable photonic platform
+#M|Kaustav Chatterjee|~kaustav-chatterjee/|||0
+#N|1|0
+p|12jadtg|2026|J|=|||No-Broadcasting of Non-Gaussian States
+#M|Yingxuan Chen|~yingxuan-chen/|||0
+#N|0|0
+#M|Óscar Cordero Boronat|~%C3%B3scar-cordero-boronat/|||0
+#N|1|0
+p|gumtau|2025|J|=|||Quantum learning advantage on a scalable photonic platform
+#M|Alexssandre de Oliveira Junior|~alexssandre-de-oliveira-junior/|||0
+#N|6|0
+p|zk2omo|2026|J|=|||Predicting Magic from Very Few Measurements
+p|p8wyij|2025|J|a-friendly-guide-to-exorcising-maxwells-demon|||A Friendly Guide to Exorcising Maxwell's Demon
+p|1753zhk|2025|J|=|||Heat as a Witness of Quantum Properties
+p|15vp4tp|2025|J|=|||Relative volume of comparable pairs under semigroup majorization
+p|1dzc1sb|2024|J|=|||Catalytic transformations for thermal operations
+p|cpi4nr|2024|J|=|||Entanglement generation from athermality
+#M|Adaleta Dozo|~adaleta-dozo/|||0
+#N|0|0
+#M|Riya Dutta|~riya-dutta/|||0
+#N|1|0
+p|78ch90|2026|J|resolving-circumgalactic-gas-flows-around-a-izi-36-quasar-using-m|||Resolving circumgalactic gas flows around a z ≈ 3.6 quasar using MUSE and ALMA
+#M|Tobias Egebjerg|~tobias-egebjerg/|||0
+#N|0|0
+#M|Anne Birgitte Tramm Ejdrup|~anne-birgitte-tramm-ejdrup/|||0
+#N|0|0
+#M|Tobias Gehring|~tobias-gehring/|0000-0002-4311-2593||0
+#N|29|0
+p|1d63vkr|2026|J|continuous-variable-measurement-device-independent-quantum-certif|||Continuous Variable Measurement-Device-Independent Quantum Certification
+p|1scvrid|2026|J|=|||Continuous-variable quantum communication
+p|1isj9jv|2025|J|8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa|||8 GBit/s real-time quantum random number generator with non-iid samples
+p|pmahjx|2025|J|=|||An overview of CV-MDI-QKD
+p|1ezd3md|2025|J|coexistence-of-continuous-variable-quantum-key-distribution-and-c|||Coexistence of Continuous-Variable Quantum Key Distribution and Classical Data over 120 km Fiber
+p|spf9yh|2025|J|demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2|||Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching
+#M|Felix Hahne|~felix-hahne/|||0
+#N|0|0
+#M|Adnan Adil Ebrahim Hajomer|~adnan-adil-ebrahim-hajomer/|||0
+#N|13|0
+p|1d63vkr|2026|J|continuous-variable-measurement-device-independent-quantum-certif|||Continuous Variable Measurement-Device-Independent Quantum Certification
+p|1scvrid|2026|J|=|||Continuous-variable quantum communication
+p|pmahjx|2025|J|=|||An overview of CV-MDI-QKD
+p|1ezd3md|2025|J|coexistence-of-continuous-variable-quantum-key-distribution-and-c|||Coexistence of Continuous-Variable Quantum Key Distribution and Classical Data over 120 km Fiber
+p|17rl642|2025|J|digital-reconstruction-of-squeezed-light-for-quantum-information-|||Digital reconstruction of squeezed light for quantum information processing
+p|1m45evp|2025|J|high-rate-continuous-variable-measurement-device-independent-quan-2|||High-rate continuous-variable measurement device-independent quantum key distribution with finite-size secu...
+#M|Saeed Hakimi|~saeed-hakimi/|||0
+#N|0|0
+#M|Ze-Yan Hao|~ze-yan-hao/|||0
+#N|0|0
+#M|Nicholas Alan Hill|~nicholas-alan-hill/|||0
+#N|0|0
+#M|Luis Carlos González Hofmann|~luis-carlos-gonz%C3%A1lez-hofmann/|||0
+#N|0|0
+#M|Alexander Huck|~alexander-huck/|0000-0002-2354-5922||0
+#N|25|4
+p|laragf|2026|J|general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon|||General method of wavelength-tuning of Dirac-like cones in photonic crystals
+p|1aqanxz|2026|J|high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast|||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning
+p|qxvfto|2026|J|sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds|||Sensing with near-infrared laser trapped fluorescent nanodiamonds
+p|xyh6ts|2025|J|creation-and-microscopic-origins-of-single-photon-emitters-in-tra|||Creation and microscopic origins of single-photon emitters in transition-metal dichalcogenides and hexagona...
+p|i9jk8i|2025|J|quantifying-the-creation-of-negatively-charged-boron-vacancies-in|||Quantifying the creation of negatively charged boron vacancies in He-ion irradiated hexagonal boron nitride
+p|1r2md0h|2025|J|solid-state-single-photon-sources-operating-in-the-telecom-wavele|||Solid-state single-photon sources operating in the telecom wavelength range
+#M|Nitin Jain|~nitin-jain/|0000-0001-8555-1773||0
+#N|13|0
+p|1isj9jv|2025|J|8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa|||8 GBit/s real-time quantum random number generator with non-iid samples
+p|1s7cslk|2025|J|effect-of-filter-shape-on-excess-noise-performance-in-continuous-|||Effect of filter shape on excess noise performance in continuous variable quantum key distribution with Gau...
+p|1qf2dac|2024|J|continuous-variable-quantum-key-distribution-at-10-gbaud-using-an|||Continuous-variable quantum key distribution at 10 GBaud using an integrated photonic-electronic receiver
+p|qphx1w|2024|J|future-proofing-network-encryption-technology-with-continuous-var|||Future proofing network encryption technology with continuous-variable quantum key distribution
+p|8ggd8g|2024|J|long-distance-continuous-variable-quantum-key-distribution-over-1|||Long-distance continuous-variable quantum key distribution over 100-km fiber with local local oscillator
+p|1q137ks|2023|J|evolutionary-history-of-transformation-from-chronic-lymphocytic-l-2|||Evolutionary history of transformation from chronic lymphocytic leukemia to Richter syndrome
+#M|Mateusz Jakub Kicinski|~mateusz-jakub-kicinski/|||0
+#N|1|0
+p|e5h7mo|2025|J|variational-quantum-algorithm-for-enhanced-continuous-variable-op|||Variational quantum algorithm for enhanced continuous variable optical phase sensing
+#M|David Palm Borup Johansen|~david-palm-borup-johansen/|||0
+#N|0|0
+#M|Tobias Junicke|~tobias-junicke/|||0
+#N|0|0
+#M|Dhiren Kara|~dhiren-kara/|0000-0003-1052-5495||0
+#N|2|8
+p|1aqanxz|2026|J|high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast|||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning
+p|14lj36y|2024|J|evidencing-dissipation-dilution-in-large-scale-arrays-of-single-l|||Evidencing Dissipation Dilution in Large-Scale Arrays of Single-Layer WSe2 Mechanical Resonators
+#M|Louise Kindt|~louise-kindt/|0009-0005-1486-2212||0
+#N|0|2
+#M|Yuta Kochi|~yuta-kochi/|||0
+#N|0|0
+#M|Vojtech Kuchar|~vojtech-kuchar/|0009-0000-6243-4865||0
+#N|0|1
+#M|Benjamin Lundgren Larsen|~benjamin-lundgren-larsen/|0000-0002-4243-0143||0
+#N|0|1
+#M|Kian Latifi Yaghin|~kian-latifi-yaghin/|0009-0008-2645-9406||0
+#N|0|0
+#M|Donghwa Lee|~donghwa-lee/|||0
+#N|0|0
+#M|Gergely János Lendvay|~gergely-j%C3%A1nos-lendvay/|||0
+#N|0|0
+#M|Qizhong Li|~qizhong-li/|||0
+#N|0|0
+#M|Zhenghao Liu|~zhenghao-liu/|0000-0001-8067-1477||0
+#N|3|32
+p|1tqj7bu|2025|J|improving-semi-device-independent-randomness-certification-by-ent|||Improving semi-device-independent randomness certification by entropy accumulation
+p|gumtau|2025|J|=|||Quantum learning advantage on a scalable photonic platform
+p|qo53y5|2024|J|entanglement-enabled-advantage-for-learning-a-bosonic-random-disp|||Entanglement-Enabled Advantage for Learning a Bosonic Random Displacement Channel
+#M|Jacob Christian Loft|~jacob-christian-loft/|0009-0002-5337-771X||0
+#N|0|2
+#M|Timour Korsak Javar Magnier|~timour-korsak-javar-magnier/|||0
+#N|0|0
+#M|Ian Bendix McKenzie|~ian-bendix-mckenzie/|||0
+#N|0|0
+#M|Yu Meng|~yu-meng/|||0
+#N|0|0
+#M|Monika Maria Mikulicz|~monika-maria-mikulicz/|||0
+#N|1|0
+p|te3vgh|2026|J|high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs|||High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL
+#M|Marta Isabel Moreno Babuglia|~marta-isabel-moreno-babuglia/|||0
+#N|0|0
+#M|Alif Laila Muthali|~alif-laila-muthali/|0000-0002-5761-042X||0
+#N|9|0
+p|rg9hk3|2026|J|=|||Photonic simulation of disordered spin systems on a silicon chip
+p|1u373ss|2025|J|high-resolution-single-photon-level-storage-of-telecom-light-base|||High-Resolution Single Photon Level Storage of Telecom Light Based on Thin Film Lithium Niobate Photonics
+p|2ssny6|2025|J|scalable-temporal-multiplexing-of-telecom-photons-via-thin-film-l|||Scalable temporal multiplexing of telecom photons via thin-film lithium niobate photonics
+p|196vtks|2025|J|thin-film-lithium-niobate-quantum-photonics-review-and-perspectiv|||Thin-film lithium niobate quantum photonics: Review and perspectives
+p|1lt754t|2024|R|a-polarization-insensitive-a-si-grating-coupler-on-the-lithium-ni|||A Polarization-Insensitive a-Si Grating Coupler on the Lithium Niobate-on-Insulator Platform
+p|1sz8a3g|2024|R|=|||Multiphoton Multidimensional Entanglement Based on Graph Theory
+#M|Jonas Schou Neergaard-Nielsen|~jonas-schou-neergaard-nielsen/|0000-0002-8585-0068||0
+#N|20|0
+p|1d63vkr|2026|J|continuous-variable-measurement-device-independent-quantum-certif|||Continuous Variable Measurement-Device-Independent Quantum Certification
+p|spf9yh|2025|J|demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2|||Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching
+p|1tqj7bu|2025|J|improving-semi-device-independent-randomness-certification-by-ent|||Improving semi-device-independent randomness certification by entropy accumulation
+p|gumtau|2025|J|=|||Quantum learning advantage on a scalable photonic platform
+p|e5h7mo|2025|J|variational-quantum-algorithm-for-enhanced-continuous-variable-op|||Variational quantum algorithm for enhanced continuous variable optical phase sensing
+p|xxj8c7|2024|J|a-peer-instruction-based-board-game-to-teach-quantum-technologies|||A peer instruction based board game to teach quantum technologies to engineers
+#M|Huy Quang Nguyen|~huy-quang-nguyen/|||0
+#N|4|0
+p|spf9yh|2025|J|demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2|||Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching
+p|17rl642|2025|J|digital-reconstruction-of-squeezed-light-for-quantum-information-|||Digital reconstruction of squeezed light for quantum information processing
+p|9bq1df|2024|R|squeezing-recovery-after-detection-with-a-completely-free-running|||Squeezing recovery after detection with a completely free-running local oscillator
+p|1ok1cgh|2024|R|towards-practical-squeezed-light-distribution-with-digital-signal|||Towards practical squeezed light distribution with digital signal processing
+#M|Jens Arnbak Holbøll Nielsen|~jens-arnbak-holb%C3%B8ll-nielsen/|||0
+#N|6|0
+p|spf9yh|2025|J|demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2|||Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching
+p|gumtau|2025|J|=|||Quantum learning advantage on a scalable photonic platform
+p|e5h7mo|2025|J|variational-quantum-algorithm-for-enhanced-continuous-variable-op|||Variational quantum algorithm for enhanced continuous variable optical phase sensing
+p|qo53y5|2024|J|entanglement-enabled-advantage-for-learning-a-bosonic-random-disp|||Entanglement-Enabled Advantage for Learning a Bosonic Random Displacement Channel
+p|22ug1i|2023|J|=|||Deterministic Quantum Phase Estimation beyond N00N States
+p|1vx8e7v|2022|J|40-km-fiber-transmission-of-squeezed-light-measured-with-a-real-l|||40 km fiber transmission of squeezed light measured with a real local oscillator
+#M|Sarah Nyeki|~sarah-nyeki/|||0
+#N|0|0
+#M|Naja Lautrup Nysom|~naja-lautrup-nysom/|||0
+#N|1|0
+p|qphx1w|2024|J|future-proofing-network-encryption-technology-with-continuous-var|||Future proofing network encryption technology with continuous-variable quantum key distribution
+#M|Alessandro Perino|~alessandro-perino/|||0
+#N|0|0
+#M|Dot Pio|~dot-pio/|0009-0007-2340-5923||0
+#N|0|2
+#M|Annika Pörner|~annika-p%C3%B6rner/|||0
+#N|1|0
+p|1aqanxz|2026|J|high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast|||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning
+#M|Chu-Dan Qiu|~chu-dan-qiu/|||0
+#N|0|0
+#M|Mervan Ramadan|~mervan-ramadan/|||0
+#N|0|0
+#M|Thomas Borup Ravnborg|~thomas-borup-ravnborg/|||0
+#N|0|0
+#M|Chan Roh|~chan-roh/|||0
+#N|0|0
+#M|Clémentine Rouvière|~cl%C3%A9mentine-rouvi%C3%A8re/|||0
+#N|0|0
+#M|Aniket Sengupta|~aniket-sengupta/|||0
+#N|0|0
+#M|Sandeep Singh|~sandeep-singh/|||0
+#N|0|0
+#M|Björn Sinz|~bj%C3%B6rn-sinz/|||0
+#N|0|0
+#M|Santiago Tarrago Velez|~santiago-tarrago-velez/|0000-0002-0290-2396||0
+#N|2|0
+p|12zriof|2025|J|strong-optomechanical-coupling-at-room-temperature-with-a-centime|||Strong optomechanical coupling at room temperature with a centimeter-scale quartz crystal
+p|ijl93e|2022|J|assessment-of-the-bundle-snspd-plus-fpga-based-tdc-for-high-perfo|||Assessment of the Bundle SNSPD Plus FPGA-Based TDC for High-Performance Time Measurements
+#M|Aleksander Tchernavskij|~aleksander-tchernavskij/|0000-0003-4964-9313||0
+#N|0|0
+#M|Davide Tomasella|~davide-tomasella/|0000-0002-7139-0654||0
+#N|1|1
+p|12zriof|2025|J|strong-optomechanical-coupling-at-room-temperature-with-a-centime|||Strong optomechanical coupling at room temperature with a centimeter-scale quartz crystal
+#M|Luca Troise|~luca-troise/|0000-0002-9471-0999||0
+#N|7|0
+p|1aqanxz|2026|J|high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast|||High-speed magnetic-field imaging via N-V ensemble and laser raster scanning
+p|qxvfto|2026|J|sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds|||Sensing with near-infrared laser trapped fluorescent nanodiamonds
+p|gbbpwv|2023|J|microscopic-scale-magnetic-recording-of-brain-neuronal-electrical|||Microscopic-scale magnetic recording of brain neuronal electrical activity using a diamond quantum sensor
+p|i6nyyh|2022|J|high-speed-wide-field-imaging-of-microcircuitry-using-nitrogen-va|||High-Speed Wide-Field Imaging of Microcircuitry Using Nitrogen Vacancies in Diamond
+p|1wntydj|2022|J|in-vitro-recording-of-muscle-activity-induced-by-high-intensity-l|||In vitro recording of muscle activity induced by high intensity laser optogenetic stimulation using a diamo...
+p|hxz93s|2022|J|optimal-control-of-a-nitrogen-vacancy-spin-ensemble-in-diamond-fo|||Optimal control of a nitrogen-vacancy spin ensemble in diamond for sensing in the pulsed domain
+#M|Abhinav Verma|~abhinav-verma/|||0
+#N|0|0
+#M|Xiaotian Yang|~xiaotian-yang/|||0
+#N|0|0
+#M|Feiyang Yue|~feiyang-yue/|||0
+#N|0|0

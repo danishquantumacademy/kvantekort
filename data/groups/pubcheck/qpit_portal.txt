@@ -1,0 +1,163 @@
+# qpit members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Zohran Ali|zohran-ali||
+#Ulrik Lund Andersen|ulrik-lund-andersen|0000-0002-1990-7687|
+p 1d63vkr 2026 continuous-variable-measurement-device-independent-quantum-certif
+p 1scvrid 2026 =
+p 1aqanxz 2026 high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast
+p 12jadtg 2026 =
+p dquda1 2026 topology-optimization-of-high-performance-optomechanical-resonato-2
+p 1isj9jv 2025 8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa
+#Vasiliki Angelopoulou|vasiliki-angelopoulou||
+#Evangelia Aspropotamiti|evangelia-aspropotamiti||
+#Zsuzsanna Bagotai|zsuzsanna-bagotai||
+#Samuel John Padraig Bensted|samuel-john-padraig-bensted||
+#Vikas S Bhat|vikas-s-bhat|0009-0003-2067-0474|
+#Yiming Bian|yiming-bian||
+#Jonatan Bohr Brask|jonatan-bohr-brask|0000-0003-3859-0272|
+p p8wyij 2025 a-friendly-guide-to-exorcising-maxwells-demon
+p 160qfpl 2025 =
+p 1753zhk 2025 =
+p 1tqj7bu 2025 improving-semi-device-independent-randomness-certification-by-ent
+p mwyuxp 2025 =
+p 1y7rgbj 2024 =
+#Ilia Breev|ilia-breev||
+p i9jk8i 2025 quantifying-the-creation-of-negatively-charged-boron-vacancies-in
+#Axel Bogdan Bregnsbo|axel-bogdan-bregnsbo||
+p gumtau 2025 =
+#Romain Jeremie Baptiste Brunel|romain-jeremie-baptiste-brunel||
+p gumtau 2025 =
+#Kaustav Chatterjee|kaustav-chatterjee||
+p 12jadtg 2026 =
+#Yingxuan Chen|yingxuan-chen||
+#Óscar Cordero Boronat|%C3%B3scar-cordero-boronat||
+p gumtau 2025 =
+#Alexssandre de Oliveira Junior|alexssandre-de-oliveira-junior||
+p zk2omo 2026 =
+p p8wyij 2025 a-friendly-guide-to-exorcising-maxwells-demon
+p 1753zhk 2025 =
+p 15vp4tp 2025 =
+p 1dzc1sb 2024 =
+p cpi4nr 2024 =
+#Adaleta Dozo|adaleta-dozo||
+#Riya Dutta|riya-dutta||
+p 78ch90 2026 resolving-circumgalactic-gas-flows-around-a-izi-36-quasar-using-m
+#Tobias Egebjerg|tobias-egebjerg||
+#Anne Birgitte Tramm Ejdrup|anne-birgitte-tramm-ejdrup||
+#Tobias Gehring|tobias-gehring|0000-0002-4311-2593|
+p 1d63vkr 2026 continuous-variable-measurement-device-independent-quantum-certif
+p 1scvrid 2026 =
+p 1isj9jv 2025 8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa
+p pmahjx 2025 =
+p 1ezd3md 2025 coexistence-of-continuous-variable-quantum-key-distribution-and-c
+p spf9yh 2025 demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2
+#Felix Hahne|felix-hahne||
+#Adnan Adil Ebrahim Hajomer|adnan-adil-ebrahim-hajomer||
+p 1d63vkr 2026 continuous-variable-measurement-device-independent-quantum-certif
+p 1scvrid 2026 =
+p pmahjx 2025 =
+p 1ezd3md 2025 coexistence-of-continuous-variable-quantum-key-distribution-and-c
+p 17rl642 2025 digital-reconstruction-of-squeezed-light-for-quantum-information-
+p 1m45evp 2025 high-rate-continuous-variable-measurement-device-independent-quan-2
+#Saeed Hakimi|saeed-hakimi||
+#Ze-Yan Hao|ze-yan-hao||
+#Nicholas Alan Hill|nicholas-alan-hill||
+#Luis Carlos González Hofmann|luis-carlos-gonz%C3%A1lez-hofmann||
+#Alexander Huck|alexander-huck|0000-0002-2354-5922|
+p laragf 2026 general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon
+p 1aqanxz 2026 high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast
+p qxvfto 2026 sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds
+p xyh6ts 2025 creation-and-microscopic-origins-of-single-photon-emitters-in-tra
+p i9jk8i 2025 quantifying-the-creation-of-negatively-charged-boron-vacancies-in
+p 1r2md0h 2025 solid-state-single-photon-sources-operating-in-the-telecom-wavele
+#Nitin Jain|nitin-jain|0000-0001-8555-1773|
+p 1isj9jv 2025 8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa
+p 1s7cslk 2025 effect-of-filter-shape-on-excess-noise-performance-in-continuous-
+p 1qf2dac 2024 continuous-variable-quantum-key-distribution-at-10-gbaud-using-an
+p qphx1w 2024 future-proofing-network-encryption-technology-with-continuous-var
+p 8ggd8g 2024 long-distance-continuous-variable-quantum-key-distribution-over-1
+p 1q137ks 2023 evolutionary-history-of-transformation-from-chronic-lymphocytic-l-2
+#Mateusz Jakub Kicinski|mateusz-jakub-kicinski||
+p e5h7mo 2025 variational-quantum-algorithm-for-enhanced-continuous-variable-op
+#David Palm Borup Johansen|david-palm-borup-johansen||
+#Tobias Junicke|tobias-junicke||
+#Dhiren Kara|dhiren-kara|0000-0003-1052-5495|
+p 1aqanxz 2026 high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast
+p 14lj36y 2024 evidencing-dissipation-dilution-in-large-scale-arrays-of-single-l
+#Louise Kindt|louise-kindt|0009-0005-1486-2212|
+#Yuta Kochi|yuta-kochi||
+#Vojtech Kuchar|vojtech-kuchar|0009-0000-6243-4865|
+#Benjamin Lundgren Larsen|benjamin-lundgren-larsen|0000-0002-4243-0143|
+#Kian Latifi Yaghin|kian-latifi-yaghin|0009-0008-2645-9406|
+#Donghwa Lee|donghwa-lee||
+#Gergely János Lendvay|gergely-j%C3%A1nos-lendvay||
+#Qizhong Li|qizhong-li||
+#Zhenghao Liu|zhenghao-liu|0000-0001-8067-1477|
+p 1tqj7bu 2025 improving-semi-device-independent-randomness-certification-by-ent
+p gumtau 2025 =
+p qo53y5 2024 entanglement-enabled-advantage-for-learning-a-bosonic-random-disp
+#Jacob Christian Loft|jacob-christian-loft|0009-0002-5337-771X|
+#Timour Korsak Javar Magnier|timour-korsak-javar-magnier||
+#Ian Bendix McKenzie|ian-bendix-mckenzie||
+#Yu Meng|yu-meng||
+#Monika Maria Mikulicz|monika-maria-mikulicz||
+p te3vgh 2026 high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs
+#Marta Isabel Moreno Babuglia|marta-isabel-moreno-babuglia||
+#Alif Laila Muthali|alif-laila-muthali|0000-0002-5761-042X|
+p rg9hk3 2026 =
+p 1u373ss 2025 high-resolution-single-photon-level-storage-of-telecom-light-base
+p 2ssny6 2025 scalable-temporal-multiplexing-of-telecom-photons-via-thin-film-l
+p 196vtks 2025 thin-film-lithium-niobate-quantum-photonics-review-and-perspectiv
+p 1lt754t 2024 a-polarization-insensitive-a-si-grating-coupler-on-the-lithium-ni
+p 1sz8a3g 2024 =
+#Jonas Schou Neergaard-Nielsen|jonas-schou-neergaard-nielsen|0000-0002-8585-0068|
+p 1d63vkr 2026 continuous-variable-measurement-device-independent-quantum-certif
+p spf9yh 2025 demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2
+p 1tqj7bu 2025 improving-semi-device-independent-randomness-certification-by-ent
+p gumtau 2025 =
+p e5h7mo 2025 variational-quantum-algorithm-for-enhanced-continuous-variable-op
+p xxj8c7 2024 a-peer-instruction-based-board-game-to-teach-quantum-technologies
+#Huy Quang Nguyen|huy-quang-nguyen||
+p spf9yh 2025 demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2
+p 17rl642 2025 digital-reconstruction-of-squeezed-light-for-quantum-information-
+p 9bq1df 2024 squeezing-recovery-after-detection-with-a-completely-free-running
+p 1ok1cgh 2024 towards-practical-squeezed-light-distribution-with-digital-signal
+#Jens Arnbak Holbøll Nielsen|jens-arnbak-holb%C3%B8ll-nielsen||
+p spf9yh 2025 demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2
+p gumtau 2025 =
+p e5h7mo 2025 variational-quantum-algorithm-for-enhanced-continuous-variable-op
+p qo53y5 2024 entanglement-enabled-advantage-for-learning-a-bosonic-random-disp
+p 22ug1i 2023 =
+p 1vx8e7v 2022 40-km-fiber-transmission-of-squeezed-light-measured-with-a-real-l
+#Sarah Nyeki|sarah-nyeki||
+#Naja Lautrup Nysom|naja-lautrup-nysom||
+p qphx1w 2024 future-proofing-network-encryption-technology-with-continuous-var
+#Alessandro Perino|alessandro-perino||
+#Dot Pio|dot-pio|0009-0007-2340-5923|
+#Annika Pörner|annika-p%C3%B6rner||
+p 1aqanxz 2026 high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast
+#Chu-Dan Qiu|chu-dan-qiu||
+#Mervan Ramadan|mervan-ramadan||
+#Thomas Borup Ravnborg|thomas-borup-ravnborg||
+#Chan Roh|chan-roh||
+#Clémentine Rouvière|cl%C3%A9mentine-rouvi%C3%A8re||
+#Aniket Sengupta|aniket-sengupta||
+#Sandeep Singh|sandeep-singh||
+#Björn Sinz|bj%C3%B6rn-sinz||
+#Santiago Tarrago Velez|santiago-tarrago-velez|0000-0002-0290-2396|
+p 12zriof 2025 strong-optomechanical-coupling-at-room-temperature-with-a-centime
+p ijl93e 2022 assessment-of-the-bundle-snspd-plus-fpga-based-tdc-for-high-perfo
+#Aleksander Tchernavskij|aleksander-tchernavskij|0000-0003-4964-9313|
+#Davide Tomasella|davide-tomasella|0000-0002-7139-0654|
+p 12zriof 2025 strong-optomechanical-coupling-at-room-temperature-with-a-centime
+#Luca Troise|luca-troise|0000-0002-9471-0999|
+p 1aqanxz 2026 high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast
+p qxvfto 2026 sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds
+p gbbpwv 2023 microscopic-scale-magnetic-recording-of-brain-neuronal-electrical
+p i6nyyh 2022 high-speed-wide-field-imaging-of-microcircuitry-using-nitrogen-va
+p 1wntydj 2022 in-vitro-recording-of-muscle-activity-induced-by-high-intensity-l
+p hxz93s 2022 optimal-control-of-a-nitrogen-vacancy-spin-ensemble-in-diamond-fo
+#Abhinav Verma|abhinav-verma||
+#Xiaotian Yang|xiaotian-yang||
+#Feiyang Yue|feiyang-yue||

@@ -1,0 +1,128 @@
+W
+Continuous Variable Measurement-Device-Independent Quantum Certification 2026 J 0
+Continuous-variable quantum communication 2026 J 0
+High-speed magnetic-field imaging via N-V ensemble and laser raster scanning 2026 J 0
+No-Broadcasting of Non-Gaussian States 2026 J 0
+Topology Optimization of High-Performance Optomechanical Resonator 2026 J 0
+8 GBit/s real-time quantum random number generator with non-iid samples 2025 J 0
+A Friendly Guide to Exorcising Maxwell's Demon 2025 J 0
+Benchmarks for quantum communication via gravity 2025 J 0
+Heat as a Witness of Quantum Properties 2025 J 0
+Improving semi-device-independent randomness certification by entropy accumulation 2025 J 0
+Long-distance device-independent conference key agreement 2025 J 0
+Contextuality witness inspired by optimal state discrimination 2024 J 0
+Quantifying the creation of negatively charged boron vacancies in He-ion irradiated hexagonal boron nitride 2025 J 0
+Quantum learning advantage on a scalable photonic platform 2025 J 0
+Predicting Magic from Very Few Measurements 2026 J 0
+Relative volume of comparable pairs under semigroup majorization 2025 J 0
+Catalytic transformations for thermal operations 2024 J 0
+Entanglement generation from athermality 2024 J 0
+Resolving circumgalactic gas flows around a z ≈ 3.6 quasar using MUSE and ALMA 2026 J 0
+An overview of CV-MDI-QKD 2025 J 0
+Coexistence of Continuous-Variable Quantum Key Distribution and Classical Data over 120 km Fiber 2025 J 0
+Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching 2025 J 0
+Digital reconstruction of squeezed light for quantum information processing 2025 J 0
+High-rate continuous-variable measurement device-independent quantum key distribution with finite-size secu... 2025 J 0
+General method of wavelength-tuning of Dirac-like cones in photonic crystals 2026 J 0
+Sensing with near-infrared laser trapped fluorescent nanodiamonds 2026 J 0
+Creation and microscopic origins of single-photon emitters in transition-metal dichalcogenides and hexagona... 2025 J 0
+Solid-state single-photon sources operating in the telecom wavelength range 2025 J 0
+Effect of filter shape on excess noise performance in continuous variable quantum key distribution with Gau... 2025 J 0
+Continuous-variable quantum key distribution at 10 GBaud using an integrated photonic-electronic receiver 2024 J 0
+Future proofing network encryption technology with continuous-variable quantum key distribution 2024 J 0
+Long-distance continuous-variable quantum key distribution over 100-km fiber with local local oscillator 2024 J 0
+Evolutionary history of transformation from chronic lymphocytic leukemia to Richter syndrome 2023 J 0
+Variational quantum algorithm for enhanced continuous variable optical phase sensing 2025 J 0
+Evidencing Dissipation Dilution in Large-Scale Arrays of Single-Layer WSe2 Mechanical Resonators 2024 J 0
+Entanglement-Enabled Advantage for Learning a Bosonic Random Displacement Channel 2024 J 0
+High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL 2026 J 0
+Photonic simulation of disordered spin systems on a silicon chip 2026 J 0
+High-Resolution Single Photon Level Storage of Telecom Light Based on Thin Film Lithium Niobate Photonics 2025 J 0
+Scalable temporal multiplexing of telecom photons via thin-film lithium niobate photonics 2025 J 0
+Thin-film lithium niobate quantum photonics: Review and perspectives 2025 J 0
+A Polarization-Insensitive a-Si Grating Coupler on the Lithium Niobate-on-Insulator Platform 2024 R 0
+Multiphoton Multidimensional Entanglement Based on Graph Theory 2024 R 0
+A peer instruction based board game to teach quantum technologies to engineers 2024 J 0
+Squeezing recovery after detection with a completely free-running local oscillator 2024 R 0
+Towards practical squeezed light distribution with digital signal processing 2024 R 0
+Deterministic Quantum Phase Estimation beyond N00N States 2023 J 0
+40 km fiber transmission of squeezed light measured with a real local oscillator 2022 J 0
+Strong optomechanical coupling at room temperature with a centimeter-scale quartz crystal 2025 J 0
+Assessment of the Bundle SNSPD Plus FPGA-Based TDC for High-Performance Time Measurements 2022 J 0
+Microscopic-scale magnetic recording of brain neuronal electrical activity using a diamond quantum sensor 2023 J 0
+High-Speed Wide-Field Imaging of Microcircuitry Using Nitrogen Vacancies in Diamond 2022 J 0
+In vitro recording of muscle activity induced by high intensity laser optogenetic stimulation using a diamo... 2022 J 0
+Optimal control of a nitrogen-vacancy spin ensemble in diamond for sensing in the pulsed domain 2022 J 0
+P
+Zohran Ali|zohran-ali||||0|0||0/0
+Ulrik Lund Andersen|ulrik-lund-andersen|0000-0002-1990-7687|p||0|0|0p,1p,2p,3p,4p,5p|78/5
+Vasiliki Angelopoulou|vasiliki-angelopoulou||||0|0||0/0
+Evangelia Aspropotamiti|evangelia-aspropotamiti||||0|0||0/0
+Zsuzsanna Bagotai|zsuzsanna-bagotai||||0|0||0/0
+Samuel John Padraig Bensted|samuel-john-padraig-bensted||||0|0||0/0
+Vikas S Bhat|vikas-s-bhat|0009-0003-2067-0474|p||0|0||0/10
+Yiming Bian|yiming-bian||||0|0||0/0
+Jonatan Bohr Brask|jonatan-bohr-brask|0000-0003-3859-0272|p||0|0|6p,7p,8p,9p,10p,11p|24/5
+Ilia Breev|ilia-breev||||0|0|12p|1/0
+Axel Bogdan Bregnsbo|axel-bogdan-bregnsbo||||0|0|13p|1/0
+Romain Jeremie Baptiste Brunel|romain-jeremie-baptiste-brunel||||0|0|13p|1/0
+Kaustav Chatterjee|kaustav-chatterjee||||0|0|3p|1/0
+Yingxuan Chen|yingxuan-chen||||0|0||0/0
+Óscar Cordero Boronat|%C3%B3scar-cordero-boronat||||0|0|13p|1/0
+Alexssandre de Oliveira Junior|alexssandre-de-oliveira-junior||||0|0|14p,6p,8p,15p,16p,17p|6/0
+Adaleta Dozo|adaleta-dozo||||0|0||0/0
+Riya Dutta|riya-dutta||||0|0|18p|1/0
+Tobias Egebjerg|tobias-egebjerg||||0|0||0/0
+Anne Birgitte Tramm Ejdrup|anne-birgitte-tramm-ejdrup||||0|0||0/0
+Tobias Gehring|tobias-gehring|0000-0002-4311-2593|p||0|0|0p,1p,5p,19p,20p,21p|29/0
+Felix Hahne|felix-hahne||||0|0||0/0
+Adnan Adil Ebrahim Hajomer|adnan-adil-ebrahim-hajomer||||0|0|0p,1p,19p,20p,22p,23p|13/0
+Saeed Hakimi|saeed-hakimi||||0|0||0/0
+Ze-Yan Hao|ze-yan-hao||||0|0||0/0
+Nicholas Alan Hill|nicholas-alan-hill||||0|0||0/0
+Luis Carlos González Hofmann|luis-carlos-gonz%C3%A1lez-hofmann||||0|0||0/0
+Alexander Huck|alexander-huck|0000-0002-2354-5922|p||0|0|24p,2p,25p,26p,12p,27p|25/4
+Nitin Jain|nitin-jain|0000-0001-8555-1773|p||0|0|5p,28p,29p,30p,31p,32p|13/0
+Mateusz Jakub Kicinski|mateusz-jakub-kicinski||||0|0|33p|1/0
+David Palm Borup Johansen|david-palm-borup-johansen||||0|0||0/0
+Tobias Junicke|tobias-junicke||||0|0||0/0
+Dhiren Kara|dhiren-kara|0000-0003-1052-5495|p||0|0|2p,34p|2/8
+Louise Kindt|louise-kindt|0009-0005-1486-2212|p||0|0||0/2
+Yuta Kochi|yuta-kochi||||0|0||0/0
+Vojtech Kuchar|vojtech-kuchar|0009-0000-6243-4865|p||0|0||0/1
+Benjamin Lundgren Larsen|benjamin-lundgren-larsen|0000-0002-4243-0143|p||0|0||0/1
+Kian Latifi Yaghin|kian-latifi-yaghin|0009-0008-2645-9406|p||0|0||0/0
+Donghwa Lee|donghwa-lee||||0|0||0/0
+Gergely János Lendvay|gergely-j%C3%A1nos-lendvay||||0|0||0/0
+Qizhong Li|qizhong-li||||0|0||0/0
+Zhenghao Liu|zhenghao-liu|0000-0001-8067-1477|p||0|0|9p,13p,35p|3/32
+Jacob Christian Loft|jacob-christian-loft|0009-0002-5337-771X|p||0|0||0/2
+Timour Korsak Javar Magnier|timour-korsak-javar-magnier||||0|0||0/0
+Ian Bendix McKenzie|ian-bendix-mckenzie||||0|0||0/0
+Yu Meng|yu-meng||||0|0||0/0
+Monika Maria Mikulicz|monika-maria-mikulicz||||0|0|36p|1/0
+Marta Isabel Moreno Babuglia|marta-isabel-moreno-babuglia||||0|0||0/0
+Alif Laila Muthali|alif-laila-muthali|0000-0002-5761-042X|p||0|0|37p,38p,39p,40p,41p,42p|9/0
+Jonas Schou Neergaard-Nielsen|jonas-schou-neergaard-nielsen|0000-0002-8585-0068|p||0|0|0p,21p,9p,13p,33p,43p|20/0
+Huy Quang Nguyen|huy-quang-nguyen||||0|0|21p,22p,44p,45p|4/0
+Jens Arnbak Holbøll Nielsen|jens-arnbak-holb%C3%B8ll-nielsen||||0|0|21p,13p,33p,35p,46p,47p|6/0
+Sarah Nyeki|sarah-nyeki||||0|0||0/0
+Naja Lautrup Nysom|naja-lautrup-nysom||||0|0|30p|1/0
+Alessandro Perino|alessandro-perino||||0|0||0/0
+Dot Pio|dot-pio|0009-0007-2340-5923|p||0|0||0/2
+Annika Pörner|annika-p%C3%B6rner||||0|0|2p|1/0
+Chu-Dan Qiu|chu-dan-qiu||||0|0||0/0
+Mervan Ramadan|mervan-ramadan||||0|0||0/0
+Thomas Borup Ravnborg|thomas-borup-ravnborg||||0|0||0/0
+Chan Roh|chan-roh||||0|0||0/0
+Clémentine Rouvière|cl%C3%A9mentine-rouvi%C3%A8re||||0|0||0/0
+Aniket Sengupta|aniket-sengupta||||0|0||0/0
+Sandeep Singh|sandeep-singh||||0|0||0/0
+Björn Sinz|bj%C3%B6rn-sinz||||0|0||0/0
+Santiago Tarrago Velez|santiago-tarrago-velez|0000-0002-0290-2396|p||0|0|48p,49p|2/0
+Aleksander Tchernavskij|aleksander-tchernavskij|0000-0003-4964-9313|p||0|0||0/0
+Davide Tomasella|davide-tomasella|0000-0002-7139-0654|p||0|0|48p|1/1
+Luca Troise|luca-troise|0000-0002-9471-0999|p||0|0|2p,25p,50p,51p,52p,53p|7/0
+Abhinav Verma|abhinav-verma||||0|0||0/0
+Xiaotian Yang|xiaotian-yang||||0|0||0/0
+Feiyang Yue|feiyang-yue||||0|0||0/0

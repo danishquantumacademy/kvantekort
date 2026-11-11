@@ -1,0 +1,81 @@
+# The five newest research outputs on each QPIT member's DTU Orbit profile, classified on the CFQT content map
+# from the title, abstract and keywords in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Ulrik Lund Andersen	continuous-variable-measurement-device-independent-quantum-certif	7.3;7.1;1.2	CV measurement-device-independent certification of quantum resources
+Ulrik Lund Andersen	continuous-variable-quantum-communication	7.1;7.3;2.2	review of continuous-variable quantum communication
+Ulrik Lund Andersen	high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast	6.2;6.5;4.2	fast magnetic-field imaging with NV ensembles in diamond
+Ulrik Lund Andersen	no-broadcasting-of-non-gaussian-states	1.2;2.2	no-broadcasting theorem for non-Gaussian resource states
+Ulrik Lund Andersen	topology-optimization-of-high-performance-optomechanical-resonato-2	3.3;3.2	topology-optimised mechanical resonators for quantum optomechanics
+Jonatan Bohr Brask	a-friendly-guide-to-exorcising-maxwells-demon	1.1;1.2	Maxwell's demon, thermodynamics and information
+Jonatan Bohr Brask	benchmarks-for-quantum-communication-via-gravity	1.1;7.1	tests of quantum features of gravity via mechanical oscillators
+Jonatan Bohr Brask	heat-as-a-witness-of-quantum-properties	1.2;6.1	witnessing entanglement and coherence via heat exchange
+Jonatan Bohr Brask	improving-semi-device-independent-randomness-certification-by-ent	7.2;1.2	semi-device-independent quantum randomness certification
+Jonatan Bohr Brask	long-distance-device-independent-conference-key-agreement	7.3;7.6;1.2	device-independent conference key agreement
+Ilia Breev	quantifying-the-creation-of-negatively-charged-boron-vacancies-in	4.2;6.1;3.2	spin defects in hBN for quantum sensing
+Axel Bogdan Bregnsbo	quantum-learning-advantage-on-a-scalable-photonic-platform	4.4;5.5;1.2	quantum learning advantage on a continuous-variable photonic platform
+Romain Jeremie Baptiste Brunel	quantum-learning-advantage-on-a-scalable-photonic-platform	4.4;5.5;1.2	quantum learning advantage on a continuous-variable photonic platform
+Kaustav Chatterjee	no-broadcasting-of-non-gaussian-states	1.2;2.2	no-broadcasting theorem for non-Gaussian resource states
+Óscar Cordero Boronat	quantum-learning-advantage-on-a-scalable-photonic-platform	4.4;5.5;1.2	quantum learning advantage on a continuous-variable photonic platform
+Alexssandre de Oliveira Junior	predicting-magic-from-very-few-measurements	1.2;5.1	efficient estimation of nonstabilizerness (magic)
+Alexssandre de Oliveira Junior	a-friendly-guide-to-exorcising-maxwells-demon	1.1;1.2	Maxwell's demon, thermodynamics and information
+Alexssandre de Oliveira Junior	heat-as-a-witness-of-quantum-properties	1.2;6.1	witnessing entanglement and coherence via heat exchange
+Alexssandre de Oliveira Junior	relative-volume-of-comparable-pairs-under-semigroup-majorization	1.2	majorisation in resource theories
+Alexssandre de Oliveira Junior	catalytic-transformations-for-thermal-operations	1.2;1.1	catalysis in quantum thermodynamics
+Riya Dutta	resolving-circumgalactic-gas-flows-around-a-izi-36-quasar-using-m	-	astrophysics
+Tobias Gehring	continuous-variable-measurement-device-independent-quantum-certif	7.3;7.1;1.2	CV measurement-device-independent certification of quantum resources
+Tobias Gehring	continuous-variable-quantum-communication	7.1;7.3;2.2	review of continuous-variable quantum communication
+Tobias Gehring	8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa	7.2;3.4	8 Gbit/s real-time quantum random number generator
+Tobias Gehring	an-overview-of-cv-mdi-qkd	7.3;7.1	review of CV measurement-device-independent QKD
+Tobias Gehring	coexistence-of-continuous-variable-quantum-key-distribution-and-c	7.3;7.5	CV-QKD coexisting with classical data over 120 km fibre
+Adnan Adil Ebrahim Hajomer	continuous-variable-measurement-device-independent-quantum-certif	7.3;7.1;1.2	CV measurement-device-independent certification of quantum resources
+Adnan Adil Ebrahim Hajomer	continuous-variable-quantum-communication	7.1;7.3;2.2	review of continuous-variable quantum communication
+Adnan Adil Ebrahim Hajomer	an-overview-of-cv-mdi-qkd	7.3;7.1	review of CV measurement-device-independent QKD
+Adnan Adil Ebrahim Hajomer	coexistence-of-continuous-variable-quantum-key-distribution-and-c	7.3;7.5	CV-QKD coexisting with classical data over 120 km fibre
+Adnan Adil Ebrahim Hajomer	digital-reconstruction-of-squeezed-light-for-quantum-information-	2.2;3.4;7.5	digital reconstruction of squeezed light
+Alexander Huck	general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon	3.3	near-zero-index photonic crystals
+Alexander Huck	high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast	6.2;6.5;4.2	fast magnetic-field imaging with NV ensembles in diamond
+Alexander Huck	sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds	6.3;6.7;4.2	temperature sensing with trapped NV nanodiamonds for biology
+Alexander Huck	creation-and-microscopic-origins-of-single-photon-emitters-in-tra	4.4;3.2;2.3	single-photon emitters in van der Waals materials
+Alexander Huck	quantifying-the-creation-of-negatively-charged-boron-vacancies-in	4.2;6.1;3.2	spin defects in hBN for quantum sensing
+Nitin Jain	8-gbits-real-time-quantum-random-number-generator-with-non-iid-sa	7.2;3.4	8 Gbit/s real-time quantum random number generator
+Nitin Jain	effect-of-filter-shape-on-excess-noise-performance-in-continuous-	7.3;3.3	excess noise in Gaussian-modulated CV-QKD
+Nitin Jain	continuous-variable-quantum-key-distribution-at-10-gbaud-using-an	7.3;3.3;3.4	10 GBaud CV-QKD with an integrated receiver
+Nitin Jain	future-proofing-network-encryption-technology-with-continuous-var	7.4;7.3	field trials of CV-QKD in Danish networks
+Nitin Jain	long-distance-continuous-variable-quantum-key-distribution-over-1	7.3;7.5	100 km CV-QKD with a local local oscillator
+Mateusz Jakub Kicinski	variational-quantum-algorithm-for-enhanced-continuous-variable-op	6.1;5.5;4.7	variational quantum algorithm for optical phase sensing
+Dhiren Kara	high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast	6.2;6.5;4.2	fast magnetic-field imaging with NV ensembles in diamond
+Dhiren Kara	evidencing-dissipation-dilution-in-large-scale-arrays-of-single-l	3.3;3.2	WSe2 mechanical resonators for sensing
+Zhenghao Liu	improving-semi-device-independent-randomness-certification-by-ent	7.2;1.2	semi-device-independent quantum randomness certification
+Zhenghao Liu	quantum-learning-advantage-on-a-scalable-photonic-platform	4.4;5.5;1.2	quantum learning advantage on a continuous-variable photonic platform
+Zhenghao Liu	entanglement-enabled-advantage-for-learning-a-bosonic-random-disp	1.2;6.1;2.2	entanglement advantage for learning bosonic channels
+Monika Maria Mikulicz	high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs	-	tunable MEMS laser design
+Alif Laila Muthali	photonic-simulation-of-disordered-spin-systems-on-a-silicon-chip	5.2;4.4	photonic simulation of disordered spin systems on silicon
+Alif Laila Muthali	high-resolution-single-photon-level-storage-of-telecom-light-base	4.4;7.5;3.3	single-photon storage in thin-film lithium niobate
+Alif Laila Muthali	scalable-temporal-multiplexing-of-telecom-photons-via-thin-film-l	4.4;3.3	temporal multiplexing of telecom photons in TFLN
+Alif Laila Muthali	thin-film-lithium-niobate-quantum-photonics-review-and-perspectiv	4.4;3.3	review of thin-film lithium niobate quantum photonics
+Alif Laila Muthali	a-polarization-insensitive-a-si-grating-coupler-on-the-lithium-ni	3.3	grating coupler for lithium niobate photonics
+Jonas Schou Neergaard-Nielsen	continuous-variable-measurement-device-independent-quantum-certif	7.3;7.1;1.2	CV measurement-device-independent certification of quantum resources
+Jonas Schou Neergaard-Nielsen	demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2	4.4;2.2;3.3	integrated squeezed-light source on TFLN
+Jonas Schou Neergaard-Nielsen	improving-semi-device-independent-randomness-certification-by-ent	7.2;1.2	semi-device-independent quantum randomness certification
+Jonas Schou Neergaard-Nielsen	quantum-learning-advantage-on-a-scalable-photonic-platform	4.4;5.5;1.2	quantum learning advantage on a continuous-variable photonic platform
+Jonas Schou Neergaard-Nielsen	variational-quantum-algorithm-for-enhanced-continuous-variable-op	6.1;5.5;4.7	variational quantum algorithm for optical phase sensing
+Huy Quang Nguyen	demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2	4.4;2.2;3.3	integrated squeezed-light source on TFLN
+Huy Quang Nguyen	digital-reconstruction-of-squeezed-light-for-quantum-information-	2.2;3.4;7.5	digital reconstruction of squeezed light
+Huy Quang Nguyen	squeezing-recovery-after-detection-with-a-completely-free-running	2.2;3.4;7.5	squeezing recovery with a free-running local oscillator
+Huy Quang Nguyen	towards-practical-squeezed-light-distribution-with-digital-signal	7.5;2.2;3.4	squeezed light distribution with digital signal processing
+Jens Arnbak Holbøll Nielsen	demonstration-of-a-squeezed-light-source-on-thin-film-lithium-nio-2	4.4;2.2;3.3	integrated squeezed-light source on TFLN
+Jens Arnbak Holbøll Nielsen	quantum-learning-advantage-on-a-scalable-photonic-platform	4.4;5.5;1.2	quantum learning advantage on a continuous-variable photonic platform
+Jens Arnbak Holbøll Nielsen	variational-quantum-algorithm-for-enhanced-continuous-variable-op	6.1;5.5;4.7	variational quantum algorithm for optical phase sensing
+Jens Arnbak Holbøll Nielsen	entanglement-enabled-advantage-for-learning-a-bosonic-random-disp	1.2;6.1;2.2	entanglement advantage for learning bosonic channels
+Jens Arnbak Holbøll Nielsen	deterministic-quantum-phase-estimation-beyond-n00n-states	6.1;2.2	deterministic quantum phase estimation beyond N00N states
+Naja Lautrup Nysom	future-proofing-network-encryption-technology-with-continuous-var	7.4;7.3	field trials of CV-QKD in Danish networks
+Annika Pörner	high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast	6.2;6.5;4.2	fast magnetic-field imaging with NV ensembles in diamond
+Santiago Tarrago Velez	strong-optomechanical-coupling-at-room-temperature-with-a-centime	3.3;2.2	strong Brillouin optomechanical coupling in quartz
+Santiago Tarrago Velez	assessment-of-the-bundle-snspd-plus-fpga-based-tdc-for-high-perfo	3.3;3.4	SNSPD timing electronics for single-photon counting
+Davide Tomasella	strong-optomechanical-coupling-at-room-temperature-with-a-centime	3.3;2.2	strong Brillouin optomechanical coupling in quartz
+Luca Troise	high-speed-magnetic-field-imaging-via-n-v-ensemble-and-laser-rast	6.2;6.5;4.2	fast magnetic-field imaging with NV ensembles in diamond
+Luca Troise	sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds	6.3;6.7;4.2	temperature sensing with trapped NV nanodiamonds for biology
+Luca Troise	microscopic-scale-magnetic-recording-of-brain-neuronal-electrical	6.2;6.7;4.2	NV diamond sensing of neuronal activity
+Luca Troise	high-speed-wide-field-imaging-of-microcircuitry-using-nitrogen-va	6.5;6.2;4.2	wide-field NV imaging of microcircuits
+Luca Troise	in-vitro-recording-of-muscle-activity-induced-by-high-intensity-l	6.7;6.2;4.2	NV diamond biosensing of muscle activity
