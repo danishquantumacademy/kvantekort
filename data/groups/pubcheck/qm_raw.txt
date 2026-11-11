@@ -49,11 +49,11 @@ Classification of Feynman integral geometries for black-hole scattering at 5PM o
 Refining Integration-by-Parts Reduction of Feynman Integrals with Machine Learning 2025 J 0
 Recurrent features of amplitudes in planar N = 4 super Yang-Mills theory 2025 J 0
 Calabi-Yau Feynman integrals in gravity: ε-factorized form for apparent singularities 2025 J 0
-Determining the Optimal Number of Pistons for Offshore Digital Winch Drives 2023 J 0
-Improving Energy Efficiency and Response Time of an Offshore Winch Drive with Digital D... 2023 J 0
-Temperature-Independent Fault Detection of Solenoid-Actuated Proportional Valve 2022 J 0
-A Backstepping based Controller utilizing a Sliding Mode Disturbance Observer Applied t... 0 J 0
-Concept Evaluation for the Establishment of a Firm End-Stop Feeling in an Asymmetric Hy... 0 J 0
+Shadowy Institutions 2027 R 0
+One Rig to Control Them All 2026 R 0
+Free quantum computing 2026 J 0
+Hadamard-Pi: Equational Quantum Programming 2026 J 0
+How to Bake a Quantum Π 2024 J 0
 P
 Jørgen Ellegaard Andersen|jea|0000-0001-9721-0722|p||0|0|0p,1p,2p,3p,4p|12/1
 Raphael David Simon Belliard|belliard||||0|0||0/0
@@ -93,7 +93,6 @@ Baltasar Fernández Rosado|bfrosado||||0|0||0/0
 Frederik Rosendal Rytter|rytter||||0|0||0/0
 Steffen Schmidt|stschmidt||||0|0|29p|1/0
 Florian Raphaël Seefeld|fseefeld|0009-0003-5798-7635|p||0|0|30p|1/0
-Benjamin Edward Peter Shackleton|shackleton||||0|0||0/0
 Shan Shan|shan-shan|0000-0002-2880-0566|p||0|0|31p,4p,32p|3/5
 Vivek Shende|vivek-shende|0000-0002-6728-7494|p||0|0|33p,34p,35p,36p,37p|13/3
 Olga Solodovnikova|olgasol||||0|0||0/0
@@ -106,7 +105,6 @@ Konstantin Wernli|konstantin-wernli|0000-0002-6300-8152|p||0|0|41p,42p,43p,44p,4
 Matthias Oliver Wilhelm|mwilhelm|0000-0002-0032-0181|p||0|0|30p,46p,47p,48p,49p|27/2
 Hao Xu|haoxu||||0|0||0/0
 Wennan Zhang|wennan||||0|0||0/0
-Zichun Zhou|zzc||||0|0||0/0
 Jeremy Alexander Ramirez Galotti|jale||||0|0||0/0
 Martin Kuntz Jacobsen|kuntz||||0|0||0/0
-Henrik Pedersen|henrik|0000-0002-1034-3280|p||0|0|50p,51p,52p,53p,54p|10/14
+Robin Kaarsgaard Sales|kaarsgaard|0000-0002-7672-799X|p||0|0|50p,51p,52p,53p,54p|19/0

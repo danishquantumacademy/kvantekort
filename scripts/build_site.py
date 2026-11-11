@@ -368,6 +368,7 @@ feeds = json.loads((ROOT / "data/groups/feeds.json").read_text(encoding="utf-8")
 def member_cat(role):
     r = role.lower()
     if re.search(r"affiliate|external", r): return "Affiliates and external"
+    if "support staff" in r: return "Technical and administrative staff"
     if re.search(r"phd", r): return "PhD students"
     if re.search(r"professor|group leader|centre leader|executive director", r): return "Faculty"
     if re.search(r"postdoc|researcher|research consultant|senior consultant|special consultant|research assistant|scientist|specialist|academic staff", r): return "Researchers and postdocs"

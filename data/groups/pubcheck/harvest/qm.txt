@@ -107,8 +107,6 @@ p|1y213l0|2026-03|J|cubic-dirac-operators-and-dirac-cohomology-for-basic-classic
 #M|Florian Raphaël Seefeld|~fseefeld/|0009-0003-5798-7635||0
 #N|1|0
 p|s1yob0|2026-05|J|=|||The spectrum of Feynman-integral geometries at two loops
-#M|Benjamin Edward Peter Shackleton|~shackleton/|||0
-#N|0|0
 #M|Shan Shan|~shan-shan/|0000-0002-2880-0566||0
 #N|3|5
 p|29dj6l|2026-12|J|quantification-of-molar-sub-regions-suggests-increasing-herbivory|||Quantification of molar sub-regions suggests increasing herbivory during primate origins
@@ -154,16 +152,14 @@ p|4xz93e|2025-02|J|calabi-yau-feynman-integrals-in-gravity-%CE%B5-factorized-for
 #N|0|0
 #M|Wennan Zhang|~wennan/|||0
 #N|0|0
-#M|Zichun Zhou|~zzc/|||0
-#N|0|0
 #M|Jeremy Alexander Ramirez Galotti|~jale/|||0
 #N|0|0
 #M|Martin Kuntz Jacobsen|~kuntz/|||0
 #N|0|0
-#M|Henrik Pedersen|~henrik/|0000-0002-1034-3280||0
-#N|10|14
-p|av685r|2023-11|J|determining-the-optimal-number-of-pistons-for-offshore-digital-wi|||Determining the Optimal Number of Pistons for Offshore Digital Winch Drives
-p|126wky5|2023|J|improving-energy-efficiency-and-response-time-of-an-offshore-winc|||Improving Energy Efficiency and Response Time of an Offshore Winch Drive with Digital D...
-p|fx5x63|2022-12|J|temperature-independent-fault-detection-of-solenoid-actuated-prop|||Temperature-Independent Fault Detection of Solenoid-Actuated Proportional Valve
-p|1xjfw9v||J|a-backstepping-based-controller-utilizing-a-sliding-mode-disturba|||A Backstepping based Controller utilizing a Sliding Mode Disturbance Observer Applied t...
-p|19neddf||J|concept-evaluation-for-the-establishment-of-a-firm-end-stop-feeli|||Concept Evaluation for the Establishment of a Firm End-Stop Feeling in an Asymmetric Hy...
+#M|Robin Kaarsgaard Sales|~kaarsgaard/|0000-0002-7672-799X||0
+#N|19|0
+p|18y2c0r|2027|R|=|||Shadowy Institutions
+p|1fqbp8c|2026-07-29|R|=|||One Rig to Control Them All
+p|1noev5m|2026-02-24|J|=|||Free quantum computing
+p|14d0x7j|2026-01-08|J|=|||Hadamard-Pi: Equational Quantum Programming
+p|1k19nql|2024-08-15|J|how-to-bake-a-quantum-%CF%80|||How to Bake a Quantum Π

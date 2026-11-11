@@ -2888,60 +2888,61 @@ Research group,SDU,https://portal.findresearcher.sdu.dk/en/organisations/quantum
 Research group,SDU,https://www.sdu.dk/en/forskning/qm/about-qm/vacancies,QM: university vacancies page (link target),data/groups/groups.json
 Research group feed (weekly),SDU,https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/,"QM: outputs, read automatically every Monday",data/groups/feeds.json
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jea/,QM: member profile (Jørgen Ellegaard Andersen),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/belliard/,QM: member profile (Raphael David Simon Belliard),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jurek/,QM: member profile (Jurek Bleischwitz),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/giaccap/,QM: member profile (Giacomo Cappiello),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/strancernat/,QM: member profile (Remus Stefan Cernat),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/doemler/,QM: member profile (Fie Dømler),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/cevan/,QM: member profile (Charalampos Evangelatos),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/fossati/,QM: member profile (Michele Fossati),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/pallavg/,QM: member profile (Pallav Goyal),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/guoyuanhong/,QM: member profile (Yuanhong Guo),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/fab/,QM: member profile (Fabian Haiden),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/gardoh/,QM: member profile (Gard Olav Helle),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/sam-hindson/,QM: member profile (Sam Hindson),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/hofmeier/,QM: member profile (David Hofmeier),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/ahor/,QM: member profile (Andreas Horst),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/hmy/,QM: member profile (Mingyuan Hu),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/yang-huang/,QM: member profile (Yang Huang),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/huese/,QM: member profile (Reinier Huese),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/mejo/,QM: member profile (Mette Elise Jørgensen),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/hklahti/,QM: member profile (Henry Mikael Kirveslahti),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/glaplanteanfossi/,QM: member profile (Guillaume Laplante-Anfossi),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/liumuyang/,QM: member profile (Muyang Liu),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/william-elb%C3%A6k-misteg%C3%A5rd-2/,QM: member profile (William Elbæk Mistegård),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/nmott/,QM: member profile (Nadia Ott),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jjpearson/,QM: member profile (Jamie Jonathan Pearson),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/oep/,QM: member profile (Ole Egholm Pedersen),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/dpei/,QM: member profile (Du Pei),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/adri/,QM: member profile (Adrian Petr),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/petsinis/,QM: member profile (Petros Petsinis),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/gkp/,QM: member profile (Greyson Potter),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/duccio/,QM: member profile (Duccio Di Prima),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/larsras/,QM: member profile (Lars Rasmussen),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/alexaleg/,QM: member profile (Alexander Leguizamón Robayo),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/robl/,QM: member profile (Josefine Bjørndal Robl),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/bfrosado/,QM: member profile (Baltasar Fernández Rosado),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/rytter/,QM: member profile (Frederik Rosendal Rytter),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/stschmidt/,QM: member profile (Steffen Schmidt),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/fseefeld/,QM: member profile (Florian Raphaël Seefeld),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/shackleton/,QM: member profile (Benjamin Edward Peter Shackleton),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/kaarsgaard/,QM: member profile (Robin Kaarsgaard Sales),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/shan-shan/,QM: member profile (Shan Shan),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/vivek-shende/,QM: member profile (Vivek Shende),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/olgasol/,QM: member profile (Olga Solodovnikova),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/bsung/,QM: member profile (Benjamin Sung),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/apoorvtiwari/,QM: member profile (Apoorv Tiwari),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/ecarrera/,QM: member profile (Edison Santiago Carrera Unaucho),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/uytuazon/,QM: member profile (Diana Uy-Tuazon),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/mavuu/,QM: member profile (Marcus Nygaard Vuust),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/konstantin-wernli/,QM: member profile (Konstantin Wernli),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/mwilhelm/,QM: member profile (Matthias Oliver Wilhelm),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/belliard/,QM: member profile (Raphael David Simon Belliard),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/robl/,QM: member profile (Josefine Bjørndal Robl),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/giaccap/,QM: member profile (Giacomo Cappiello),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/guoyuanhong/,QM: member profile (Yuanhong Guo),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/ahor/,QM: member profile (Andreas Horst),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/gardoh/,QM: member profile (Gard Olav Helle),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/hmy/,QM: member profile (Mingyuan Hu),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/yang-huang/,QM: member profile (Yang Huang),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/glaplanteanfossi/,QM: member profile (Guillaume Laplante-Anfossi),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/liumuyang/,QM: member profile (Muyang Liu),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jjpearson/,QM: member profile (Jamie Jonathan Pearson),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/adri/,QM: member profile (Adrian Petr),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/duccio/,QM: member profile (Duccio Di Prima),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/ecarrera/,QM: member profile (Edison Santiago Carrera Unaucho),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/gkp/,QM: member profile (Greyson Potter),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/stschmidt/,QM: member profile (Steffen Schmidt),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/olgasol/,QM: member profile (Olga Solodovnikova),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/bsung/,QM: member profile (Benjamin Sung),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/haoxu/,QM: member profile (Hao Xu),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/fossati/,QM: member profile (Michele Fossati),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/pallavg/,QM: member profile (Pallav Goyal),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jurek/,QM: member profile (Jurek Bleischwitz),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/cevan/,QM: member profile (Charalampos Evangelatos),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/sam-hindson/,QM: member profile (Sam Hindson),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/hofmeier/,QM: member profile (David Hofmeier),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/rytter/,QM: member profile (Frederik Rosendal Rytter),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/fseefeld/,QM: member profile (Florian Raphaël Seefeld),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/markwalker/,QM: member profile (Mark Damon Walker),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/wennan/,QM: member profile (Wennan Zhang),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/zzc/,QM: member profile (Zichun Zhou),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jale/,QM: member profile (Jeremy Alexander Ramirez Galotti),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/alexaleg/,QM: member profile (Alexander Leguizamón Robayo),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/strancernat/,QM: member profile (Remus Stefan Cernat),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jane-jamshidi/,QM: member profile (Jane Jamshidi),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/mejo/,QM: member profile (Mette Elise Jørgensen),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/kuntz/,QM: member profile (Martin Kuntz Jacobsen),data/groups/qm.txt
-Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/henrik/,QM: member profile (Henrik Pedersen),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/oep/,QM: member profile (Ole Egholm Pedersen),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/petsinis/,QM: member profile (Petros Petsinis),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/bfrosado/,QM: member profile (Baltasar Fernández Rosado),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/larsras/,QM: member profile (Lars Rasmussen),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/uytuazon/,QM: member profile (Diana Uy-Tuazon),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/doemler/,QM: member profile (Fie Dømler),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/rohweddertahir/,QM: member profile (Faiza Rohwedder-Tahir),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/jale/,QM: member profile (Jeremy Alexander Ramirez Galotti),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/huese/,QM: member profile (Reinier Huese),data/groups/qm.txt
+Research group,SDU,https://portal.findresearcher.sdu.dk/en/persons/mavuu/,QM: member profile (Marcus Nygaard Vuust),data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/publications/21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat/,QM: publication: (2+1)d lattice models and tensor networks for gapped phases with categorical sym,data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/publications/a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm/,QM: publication: A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT,data/groups/qm.txt
 Research group,SDU,https://portal.findresearcher.sdu.dk/en/publications/a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature/,QM: publication: A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quant,data/groups/qm.txt

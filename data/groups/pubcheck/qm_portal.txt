@@ -71,7 +71,6 @@ p 1v84v6q - assessment-of-excited-state-methods-for-one-and-two-photon-absorp
 p 1y213l0 2026-03 cubic-dirac-operators-and-dirac-cohomology-for-basic-classical-li
 #Florian Raphaël Seefeld|fseefeld|0009-0003-5798-7635|
 p s1yob0 2026-05 =
-#Benjamin Edward Peter Shackleton|shackleton||
 #Shan Shan|shan-shan|0000-0002-2880-0566|
 p 29dj6l 2026-12 quantification-of-molar-sub-regions-suggests-increasing-herbivory
 p 1p33dyg 2023-08 using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p
@@ -105,12 +104,11 @@ p 1ct1im4 2025-04 recurrent-features-of-amplitudes-in-planar-n-4-super-yang-mill
 p 4xz93e 2025-02 calabi-yau-feynman-integrals-in-gravity-%CE%B5-factorized-form-for-app
 #Hao Xu|haoxu||
 #Wennan Zhang|wennan||
-#Zichun Zhou|zzc||
 #Jeremy Alexander Ramirez Galotti|jale||
 #Martin Kuntz Jacobsen|kuntz||
-#Henrik Pedersen|henrik|0000-0002-1034-3280|
-p av685r 2023-11 determining-the-optimal-number-of-pistons-for-offshore-digital-wi
-p 126wky5 2023 improving-energy-efficiency-and-response-time-of-an-offshore-winc
-p fx5x63 2022-12 temperature-independent-fault-detection-of-solenoid-actuated-prop
-p 1xjfw9v - a-backstepping-based-controller-utilizing-a-sliding-mode-disturba
-p 19neddf - concept-evaluation-for-the-establishment-of-a-firm-end-stop-feeli
+#Robin Kaarsgaard Sales|kaarsgaard|0000-0002-7672-799X|
+p 18y2c0r 2027 =
+p 1fqbp8c 2026-07-29 =
+p 1noev5m 2026-02-24 =
+p 14d0x7j 2026-01-08 =
+p 1k19nql 2024-08-15 how-to-bake-a-quantum-%CF%80
