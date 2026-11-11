@@ -1,0 +1,355 @@
+# QMATH members' research output since 2021 on the KU research portal, read 11 November 2026 (second run).
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash: FNV-1a (32 bit, base 36) of the first 50 letters/digits of the lower-cased title without accents, as in
+# scripts/build_pubcheck.py. Date: the portal's date, or the more precise publication date in OpenAlex/ORCID for the same work.
+# "=" means the portal path is the title lower-cased with other characters replaced by "-" (cut at 64 characters).
+#Jan Philip Solovej|jan-philip-solovej|0000-0002-0244-1497|5065934491
+p 19uxx3f 2025-08 ground-state-energy-of-dense-gases-of-strongly-interacting-fermio
+p h7wogl 2025-01-11 ground-state-energy-of-dilute-bose-gases-in-1d-2
+p e8py93 2025-08-30 =
+p xiq9w4 2025-04-08 =
+p uux73x 2025-10-03 periodicity-of-atomic-structure-in-a-thomas-fermi-mean-field-mode
+p 11iclhi 2024-06-13 =
+p 1q27skv 2024-02-01 =
+p sqd21o 2024 stability-of-matter-2
+p 14613l4 2024-11-23 su2-equivariant-quantum-channels-semiclassical-analysis
+p cd8u85 2023-08-18 a-simple-approach-to-liebthirring-type-inequalities
+p 16av0bh 2023 =
+p h7wogl 2022 =
+p 1m43rlv 2022-01-01 upper-bound-on-the-ground-state-energy-of-the-two-component-charg
+p qkcyfc 2021-06-15 wehrl-type-coherent-state-entropy-inequalities-for-isui11-and-its
+#Matthias Christandl|matthias-christandl|0000-0003-2281-3355|5006329724
+p 1e2eqrp 2026-09-02 adiabatic-preparation-of-many-body-quantum-states-getting-the-beg
+p 1pfgi3k 2026-03-10 fault-tolerant-quantum-inputoutput
+p ps3mua 2026-04-19 =
+p 1uh4cwb 2026 =
+p 148ara5 2026 =
+p hcybxa 2026-07-14 phase2-full-state-vector-simulation-of-quantum-time-evolution-at-
+p 10nm89i 2026-03-31 =
+p 1ht5xaf 2026-01-01 =
+p 9fvaew 2025-11-18 =
+p 1g0ip88 2025-06-15 =
+p 1kzg71j 2025-02-26 =
+p 1yv2idz 2025-06-15 computing-moment-polytopes-of-tensors-with-applications-in-algebr
+p ftcwvh 2025-10-09 computing-moment-polytopes-with-a-focus-on-tensors-entanglement-a
+p 11k4lsn 2025 discreteness-of-asymptotic-tensor-ranks-2
+p u158z0 2025-03-28 =
+p 1nm6nlq 2025-11-13 fault-tolerant-quantum-computation-with-constant-overhead-for-gen
+p 3plqxv 2025-01-17 fundamental-limit-on-the-power-of-entanglement-assistance-in-quan
+p 1wgoc4m 2025-01-14 =
+p 12q8he7 2025-11-13 making-existing-quantum-position-verification-protocols-secure-ag
+p 1yge0mt 2025-01-04 =
+p h3ch2s 2025-03-28 =
+p fqyezd 2025-10-06 the-tetrahedral-horn-problem-and-asymptotics-of-iun-i6ij-isymbols
+p 11k4lsn 2024-01-01 =
+p 1cz976 2024 fault-tolerant-coding-for-entanglement-assisted-communication-2
+p jsq6uc 2024 =
+p oxu2ur 2024-08-02 going-beyond-gadgets-the-importance-of-scalability-for-analogue-q-2
+p 1pj4uy0 2024-10-07 =
+p 2e48ig 2024-03-11 partial-degeneration-of-tensors-2
+p 7xprw2 2024-12-11 =
+p d0s5el 2024-06-28 =
+p tchic7 2023-11-20 =
+p 1boo4ks 2023-07-19 =
+p 1cz976 2023-06-25 =
+p oxu2ur 2023 going-beyond-gadgets-the-importance-of-scalability-for-analogue-q
+p 1cmpsl6 2023-06-25 on-the-relation-between-quantum-data-hiding-and-quantum-key-distr
+p 2e48ig 2023 =
+p tcc8ti 2023-05-08 =
+p 9il9ij 2023-12-13 =
+p 8zp010 2023 universal-points-in-the-asymptotic-spectrum-of-tensors-2
+p 1skbrkc 2023-02-27 weighted-slice-rank-and-a-minimax-correspondence-to-strassens-spe
+p zwop3v 2022-04-27 =
+p 1po5rks 2022-04-28 a-single-qubit-position-verification-protocol-that-is-secure-agai
+p 1srv78m 2022 =
+p 1mpzeo8 2022-12-19 =
+p ii3dmd 2021 =
+p qjekk1 2021-01-01 barriers-for-fast-matrix-multiplication-from-irreversibility-2
+p wii6cr 2021-01-01 =
+p 7quqq 2021 =
+p 134rzy5 2021-01-01 =
+p 14tmv8h 2021-03-02 noise-robust-exploration-of-many-body-quantum-states-on-near-term
+p kuzy9t 2021-05-18 =
+p 17s7kbm 2021-04-21 =
+#Bergfinnur Durhuus|bergfinnur-durhuus|0000-0002-0450-6792|5012912627
+p 3plqxv 2025-01-17 fundamental-limit-on-the-power-of-entanglement-assistance-in-quan
+p 1ljjy6t 2024 =
+p 4dk6gt 2024-05-02 =
+p pxrgov 2023 =
+p 9il9ij 2023-12-13 =
+p 1w54t11 2023-02-03 =
+p 1j1qlbw 2022 recursion-relations-for-chromatic-coefficients-for-graphs-and-hyp
+p 1ewy88m 2022-01-01 =
+p euwvbl 2021-11-01 =
+#Søren Fournais|s%C3%B8ren-fournais|0000-0002-6130-5073|5071749987
+p 53ab74 2025-02-01 =
+p 19uxx3f 2025 ground-state-energy-of-dense-gases-of-strongly-interacting-fermio
+p 1vn5dl3 2025-04-21 =
+p lrm216 2025-03-05 =
+p 1qf6ak0 2024 discrete-spectrum-of-the-magnetic-laplacian-on-perturbed-half-pla
+p 1v36m2d 2024-02-23 =
+p 9rzewv 2023-05-09 =
+p csqf3p 2023-07-20 =
+p 16av0bh 2023 =
+p 1qpgp44 2021-06-01 estimates-on-derivatives-of-coulombic-wave-functions-and-their-el
+#Laura Mančinska|laura-mancinska|0000-0001-9727-4961|5020559291
+p bcw18s 2026 a-mathematical-foundation-for-self-testing-lifting-common-assumpt
+p 1uu96bs 2026-01-13 =
+p n7fb2p 2026 =
+p axqkqr 2026-05-01 =
+p 1bp1z7u 2025-05-08 gap-preserving-reductions-and-re-completeness-of-independent-set-
+p ftbjg 2024-08-01 =
+p vz9isu 2024-08-31 constant-sized-robust-self-tests-for-states-and-measurements-of-u
+p otfdkl 2024 graph-isomorphism-physical-resources-optimization-models-and-alge
+p 1ym06br 2023-07-11 =
+p 1ym06br 2023-07-11 counterexamples-in-self-testing-2
+p 5scq8c 2023-01-01 =
+p 132lz15 2023 =
+p zwop3v 2022-04-27 =
+p 1plk6bz 2022-04-01 the-geometry-of-bloch-space-in-the-context-of-quantum-random-acce
+#Albert Werner|albert-h-werner|0000-0003-0134-5257|5087398366
+p 1q1kfx4 2026 =
+p 1c27zpb 2026 =
+p 1nh7r4y 2024-01-08 =
+p oxu2ur 2024-08-02 going-beyond-gadgets-the-importance-of-scalability-for-analogue-q-2
+p 7xprw2 2024-12-11 =
+p oxu2ur 2023 going-beyond-gadgets-the-importance-of-scalability-for-analogue-q
+p 2zf74f 2023-08-19 =
+p q7jcp4 2022-06-16 =
+p 121plrc 2022-03-02 =
+p 1d2syi 2022 quantum-walks-schur-functions-meet-symmetry-protected-topological
+p 1ur4gqt 2022-01-01 the-semiring-of-dichotomies-and-asymptotic-relative-submajorizati
+p 9l3dwj 2021-08-16 absolutely-continuous-edge-spectrum-of-hall-insulators-on-the-lat
+p 8r9oiq 2021-09-17 anderson-localization-for-electric-quantum-walks-and-skew-shift-c
+p icffz 2021 =
+p kuzy9t 2021-05-18 =
+#David Roberson||0000-0002-4463-8095|5023984902
+#Daniel Malz|daniel-hendrik-malz|0000-0002-8832-0927|5064695066
+p 1x5ysql 2026-03-25 =
+p fyky5n 2026-07-13 =
+p 5bftnt 2026-06-17 =
+p 18emnby 2026-03-11 =
+p 1292qb5 2026-07-10 robust-superradiance-and-spontaneous-spin-ordering-in-disordered-
+p vj4cmf 2026-04-21 =
+p 1j279yj 2026-08-31 theory-of-quantum-enhanced-interferometry-with-general-markovian-
+p z2nnuk 2025-04-14 computational-complexity-of-isometric-tensor-network-states-2
+p pdu0ls 2025-07-01 deterministic-generation-of-two-dimensional-multi-photon-cluster-
+p 18928tz 2025-04-29 effects-of-retardation-on-many-body-superradiance-in-chiral-waveg-2
+p 50a7o4 2025-07-07 efficient-tensor-network-simulation-of-multiemitter-non-markovian
+p dprbtj 2025-05-19 measurement-induced-entanglement-and-complexity-in-random-constan-2
+p bdzbq3 2025-01-28 =
+p 1r0ummc 2025-06-26 unraveling-superradiance-entanglement-and-mutual-information-in-c
+p dizpcz 2024-02-22 =
+p 18gbyx0 2024 deterministic-generation-of-a-20-qubit-two-dimensional-photonic-c
+p 18928tz 2024 effects-of-retardation-on-many-body-superradiance-in-chiral-waveg
+p 50a7o4 2024 efficient-tensor-network-simulation-of-multi-emitter-non-markovia
+p dprbtj 2024 measurement-induced-entanglement-and-complexity-in-random-constan
+p 1v42ci 2024-01-24 preparation-of-matrix-product-states-with-log-depth-quantum-circu
+p 1kw7lxi 2023-06-30 =
+p 1cn6mu5 2023-05-22 =
+p 1ipike5 2023-04-03 few-body-analog-quantum-simulation-with-rydberg-dressed-atoms-in-
+p xybhbb 2022-11-23 =
+p 1ahrom9 2022-11-23 =
+p yrxtol 2022-12-01 bridging-the-gap-between-classical-and-quantum-many-body-informat
+p xhhpna 2022-02-17 =
+p h13jom 2022-07-22 =
+p 1gajkuj 2022-01-07 =
+p 1msfcjz 2022-02-15 supersymmetric-free-fermions-and-bosons-locality-symmetry-and-top
+p 14yc1rg 2021-12-13 =
+p 1jvy28c 2021-12-17 convergence-guarantees-for-discrete-mode-approximations-to-non-ma
+p l5jr8r 2021-04-07 generation-of-photonic-matrix-product-states-with-rydberg-atomic-
+p nmos3q 2021-07-07 optimal-two-photon-excitation-of-bound-states-in-non-markovian-wa
+p 1ruhi8l 2021-07-01 quantum-simulation-with-fully-coherent-dipole-dipole-interactions
+p plpklx 2021-02-09 seasonal-epidemic-spreading-on-small-world-networks-biennial-outb
+p 1brug83 2021-04-23 topological-two-dimensional-floquet-lattice-on-a-single-supercond
+p 1e5dusj 2021-04-28 weakly-invasive-metrology-quantum-advantage-and-physical-implemen
+#Daniel Stilck França|daniel-stilck-fran%C3%A7a|0000-0001-9699-5994|5090586058
+p 10nwx7u 2026-07-01 bounded-error-quantum-simulation-via-hamiltonian-and-lindbladian-
+p 1g74f4a 2026-09-16 efficient-hamiltonian-structure-and-trace-distance-learning-of-ga
+p 1u46ndx 2026 efficient-thermalization-and-universal-quantum-computing-with-qua-2
+p 1ghwq7z 2026-04-02 noise-induced-shallow-circuits-and-the-absence-of-barren-plateaus
+p ghq2w5 2026-01-14 =
+p 1hcbkaw 2026 order-ipi-quantum-wasserstein-distances-from-couplings
+p drkanr 2026-04-15 =
+p wfh698 2025-05-28 efficient-simulation-of-parametrized-quantum-circuits-under-nonun
+p 1u46ndx 2025-06-15 efficient-thermalization-and-universal-quantum-computing-with-qua
+p 9qw4v8 2025-01-09 lower-bounds-on-learning-pauli-channels-with-individual-measureme
+p 112xuvy 2025-07-08 =
+p 1nh7r4y 2024-01-08 =
+p 9rlu5w 2024-07-25 exponentially-tighter-bounds-on-limitations-of-quantum-error-miti
+p oxu2ur 2024-08-02 going-beyond-gadgets-the-importance-of-scalability-for-analogue-q-2
+p 54d5gh 2024-04-30 =
+p oxu2ur 2023 going-beyond-gadgets-the-importance-of-scalability-for-analogue-q
+p 4y4c1h 2023-01-23 limitations-of-variational-quantum-algorithms-a-quantum-optimal-t
+p 10q678f 2023-05-04 =
+p 18k2tel 2022-06-30 =
+p myjhzy 2022-01-20 faster-quantum-and-classical-sdp-approximations-for-quadratic-bin
+p 1ome4i8 2022-11-28 on-contraction-coefficients-partial-orders-and-approximation-of-c
+p zkuw2e 2021-05-24 efficient-classical-simulation-and-benchmarking-of-quantum-proces
+p 1vh58ta 2021 fast-and-robust-quantum-state-tomography-from-few-basis-measureme
+p 1r7nmjx 2021-03-12 group-transference-techniques-for-the-estimation-of-the-decoheren
+p xl2qny 2021-10-21 =
+p 14tmv8h 2021-03-02 noise-robust-exploration-of-many-body-quantum-states-on-near-term
+p kuzy9t 2021-05-18 =
+#Eric Culf|||
+#Arthur Morris|arthur-samuel-morris||
+#Marta Pavelka|marta-pavelka|0009-0007-0827-4291|5045684303
+#Rebecca Tomann||0009-0006-7021-7872|5097476702
+#Lubashan Pathirana|lubashan-l-pathirana-karunarathna|0009-0000-2130-700X|5072511161
+p 11shyfl 2026-10 asymptotic-purification-of-quantum-trajectories-under-disordered-
+p 1kk58yq 2026-05-21 ergodic-theorems-for-quantum-trajectories-under-disordered-genera
+p 1kdhrmj 2023-08-01 law-of-large-numbers-and-central-limit-theorem-for-ergodic-quantu
+#Oskar Leimkuhler|||5024541251
+#Martin Dam Larsen|rmq845-rmq845||5055221781
+p m2nqez 2026-01-01 spectral-estimates-for-wiener-hopf-operators-with-applications-to
+p e6790t 2024-05-27 limiting-absorption-principle-and-radiation-conditions-for-schr%C3%B6d
+#Vjosa Blakaj|vjosa-blakaj||
+#Marek Miller|||
+#Sascha Lill|sascha-lill|0000-0002-9474-9914|5005010949
+p 100lxy 2025-08-01 momentum-distribution-of-a-fermi-gas-in-the-random-phase-approxim
+#Marvin Schulz|marvin-raimund-schulz|0009-0009-7565-9460|5079222008
+#Marina Prokhorova|||
+#Siddharth Vadnerkar|siddharth-vadnerkar||
+#Harold Nieuwboer|harold-adriaan-nieuwboer|0000-0003-3627-3636|5011111072
+p 181l839 2026-07-07 =
+p 1g0ip88 2025-06-15 =
+p 1yv2idz 2025-06-15 computing-moment-polytopes-of-tensors-with-applications-in-algebr
+p ftcwvh 2025-10-09 computing-moment-polytopes-with-a-focus-on-tensors-entanglement-a
+p u158z0 2025-03-28 =
+p qin9su 2025-10-07 self-concordant-schr%C3%B6dinger-operators-spectral-gaps-and-optimizat
+p h3ch2s 2025-03-28 =
+p 1y20b9y 2024-03-14 basic-quantum-subroutines-finding-multiple-marked-elements-and-su
+#Boris Bolvig Kjær|boris-bolvig-kj%C3%A6r||5099851171
+p 8arhak 2026-01-01 mathematics-of-topological-order-superselection-sector-theory-of-
+p 1odikfy 2025 =
+p 1d8cdwt 2025-05-07 the-uniform-even-subgraph-and-its-connection-to-phase-transitions
+#Yuming Zhao|||
+#Vincent Louatron|vincent-enzo-paul-louatron|0009-0000-0870-8722|5092108062
+p fvlow4 2026-05-13 a-microlocal-cauchy-problem-through-a-crossing-point-of-hamiltoni
+p 1id2pih 2025-10 semiclassical-resonances-for-matrix-schr%C3%B6dinger-operators-with-va
+#Armando Angrisani|||
+#Thomas Theurer|thomas-alexander-theurer|0000-0002-3888-4628|5000779865
+p 10dcquh 2026-03-31 =
+p lcfkyq 2025-05-27 single-shot-entanglement-manipulation-of-states-and-channels-revi
+#Roberto Rubboli|roberto-rubboli|0000-0002-7914-671X|5008260498
+p 18v6bnt 2026-08-01 =
+p 1qymw4g 2026-01-01 the-strong-converse-exponent-of-composable-randomness-extraction-
+#Thomas Fraser|thomas-coolican-fraser|0000-0002-1351-0005|5014382888
+p fqyezd 2025-10-06 the-tetrahedral-horn-problem-and-asymptotics-of-iun-i6ij-isymbols
+#Aleksei Kulikov|aleksei-kulikov|0000-0002-8985-1455|5014502314
+p at9jby 2026-05-27 =
+p 1vl4q1j 2026-05-16 =
+p 1lk3aee 2026-09-16 when-a-meromorphic-function-that-omits-three-values-is-of-bounded
+p 1xs9p1z 2025-07-07 =
+#Jeong-Hoon Ju||0000-0002-5321-8586|5053094561
+#Zhongxia Shang|zhongxia-shang||
+#Rafael Macedo|rafael-%C3%A1vila-mac%C3%AAdo|0000-0001-5494-7732|5032266757
+p zk2omo 2026-07-31 =
+#Sigurd Storgaard|sigurd-anker-laursen-storgaard|0000-0003-1405-3931|5014109259
+p 1uu96bs 2026-01-13 =
+p pt9oeb 2025-10-09 guess-your-neighbors-input-quantum-advantage-in-feiges-game
+#Lasse Wolff|lasse-harboe-wolff|0000-0002-2562-2629|5024440658
+p 3plqxv 2025-01-17 fundamental-limit-on-the-power-of-entanglement-assistance-in-quan
+p 9il9ij 2023-12-13 =
+#Garbiñe Cid Ruiz|garbi%C3%B1e-cid-ruiz||
+#Emil Mærsk Pedersen|emil-tore-m%C3%A6rsk-pedersen|0009-0005-4150-8825|5102620917
+p 1e2eqrp 2026-09-22 adiabatic-preparation-of-many-body-quantum-states-getting-the-beg
+p 81s4vc 2025-01-27 =
+#Elias Theil|||
+#Anne van Grinsven|anne-inge-maria-van-grinsven||
+#Gabriele Ciccarello|gabriele-ciccarello||
+#Yufei Wang|||
+#Enrique Escobar Fernandez-Marcote|||
+#Emil Clausen|emil-aagaard-clausen||
+#Bhavik Kumar||0000-0002-3755-0300|5014892859
+#Rune Thinggaard Hansen|rune-thinggaard-hansen-birke||
+#David Scholz|david-scholz||
+#Pietro Posta|pietro-maria-posta|0009-0004-2997-5538|5104431142
+p 1ht5xaf 2026-01-01 =
+#Vladyslav Visnevskyi|||5128815682
+#Jakob Miller|jakob-miller||5128234808
+#Maximilian Matzler|maximilian-matzler||
+#Wanqi Li|wanqi-li||
+#Charles Bennett|||
+#Tobias Colding|||
+#Karsten Flensberg|karsten-flensberg|0000-0002-8311-0103|5007831198
+p c3wpm5 2026-05-21 adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1bs1694 2026-05-11 directional-conductance-of-andreev-crystals-in-hybrid-josephson-j
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 1ob1nwh 2026-04-10 =
+p 1uwe0po 2025-12-08 from-kardar-parisi-zhang-scaling-to-soliton-proliferation-in-jose
+p 1mz0msc 2025-08-06 =
+p 1lruar9 2025-05-30 phase-controlled-minimal-kitaev-chain-in-multiterminal-josephson-
+p 9dltja 2025-10-03 signatures-of-exceptional-points-in-multiterminal-superconductorn
+p cel71e 2025-06-18 =
+p 190n0q6 2024-04-18 fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-
+p fn2xbs 2024-06-17 =
+p 7pgds3 2024-02-08 majorana-qubits-and-non-abelian-physics-in-quantum-dotbased-minim
+p 72vzuz 2024-01-19 non-abelian-holonomy-of-majorana-zero-modes-coupled-to-a-chaotic-
+p 1dx6t06 2023-03-15 control-of-andreev-bound-states-using-superconducting-phase-textu
+p 1nv6lm7 2023-03-03 detecting-majorana-modes-by-readout-of-poisoning-induced-parity-f
+p 57txwr 2023-06-13 nonsinusoidal-current-phase-relations-in-semiconductorsuperconduc
+p 1evj9qs 2023-04-01 orbital-free-approach-for-large-scale-electrostatic-simulations-o
+p 1r65qyn 2023-11-09 =
+p 1r0rwxu 2023-11-14 resistivity-tensor-of-vortex-lattice-states-in-josephson-junction
+p 1oqxqsx 2022-09-28 conductance-matrix-symmetries-of-multiterminal-semiconductor-supe
+p inlmu9 2022-01-28 demonstrating-majorana-non-abelian-properties-using-fast-adiabati
+p 1u9q5jb 2022-01-31 evidence-for-spin-polarized-bound-states-in-semiconductor-superco
+p 19gvsg3 2022-12-22 multiterminal-transport-spectroscopy-of-subgap-states-in-coulomb-
+p xsv7zq 2022-07-13 =
+p 15l93ez 2022-08-18 semiconductor-ferromagnet-superconductor-planar-heterostructures-
+p 1nytjbl 2021-07-06 engineered-platforms-for-topological-superconductivity-and-majora
+p 1eoagf2 2021-06-03 multilevel-effects-in-quantum-dot-based-parity-to-charge-conversi
+p 1qb8r1f 2021-03-26 =
+p 79p3jp 2021-03-12 topological-superconductivity-in-semiconductor-superconductor-mag
+#Michael Kastoryano|michael-james-kastoryano||
+p kpisjl 2026 fast-and-flexible-quantum-inspired-differential-equation-solvers-
+p 1hgalbd 2026 quantum-inspired-workflow-for-processing-distributed-fiber-optic-
+p p3vee0 2025 =
+p hgycpf 2025 =
+p 8xt6fq 2025 quantum-algorithms-a-survey-of-applications-and-end-to-end-comple
+p mqk40f 2025-08-06 variational-tensor-network-simulation-of-gaussian-boson-sampling-
+p nyfmmk 2024 =
+p c2w4s2 2024 =
+#Magdalena Musat|magdalena-elena-musat|0000-0001-8250-8585|5000571938
+p nf37ux 2021 extreme-points-and-factorizability-for-new-classes-of-unital-quan
+p 16twjwh 2021 factorizable-maps-and-traces-on-the-universal-free-product-of-mat
+#Niels Martin Møller|niels-martin-m%C3%B8ller|0000-0002-7701-0536|5027182758
+p h9y8xl 2025-03-12 rigidity-and-non-existence-results-for-collapsed-translators-2
+p zjrgcv 2025-09-14 uniqueness-of-tangent-planes-and-non-removable-singularities-at-i
+p h9y8xl 2023 =
+p ojnu9m 2022-11-11 entropy-bounds-compactness-and-finiteness-theorems-for-embedded-s
+p ip0ydl 2022-09-04 =
+p qqid4z 2021-06-15 17-forskere-udflytning-splitter-selve-universitetsuddannelsernes-
+p vwez8v 2021-01-01 %C3%A5rsskrift-2021-det-unge-akademi-jubil%C3%A6umsskrift
+p 1blbaiu 2021 =
+p 1llu6im 2021-10-30 =
+p 1syi8xp 2021-03-23 unge-forskere-fondsmidler-tr%C3%A6kker-forskningen-sk%C3%A6v
+p r8nrdu 2021-03-16 unge-forskere-der-er-behov-for-en-bedre-model-til-at-st%C3%B8tte-coron
+p 4pdur6 2021-02-11 unge-forskere-flere-%C3%B8rem%C3%A6rkede-forskningsmidler-truer-fri-forskni
+p 1rutzix - unge-forskere-gen%C3%A5bn-universiteterne-nu
+#Eugene Polzik|eugene-simon-polzik|0000-0001-9859-6591|5007480261
+p 15epbsn 2026-04-14 the-future-of-quantum-technology-as-seen-from-the-eu-usa-and-japa
+p 1y2djdb 2025-02-05 h-jeffrey-kimble-19492024
+p 11e1jc7 2025-07-02 hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang
+p 1uqn4zf 2025-10-25 simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m
+p 6igr2f 2024-04-24 high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima
+p 1tfbmtq 2024-09-12 magnetic-induction-sensor-based-on-a-dual-frequency-atomic-magnet
+p 1yl7f68 2024-10-24 nonclassical-correlations-between-photons-and-phonons-of-center-o
+p qsa120 2024-05-10 optimal-optomechanical-cavity-setups-with-highly-reflecting-membr
+p 1ovsssy 2024-07-24 =
+p 1pg8alv 2024-05-16 squeezed-light-from-an-oscillator-measured-at-the-rate-of-oscilla
+p zqajxi 2023-10-12 =
+p 1gwm3ra 2023-05-19 =
+p 1yea5qw 2023-04-05 phononically-shielded-photonic-crystal-mirror-membranes-for-cavit
+p 1kzeekh 2023-06-20 precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia
+p 1sbnmpr 2023-06-26 =
+p 72aaez 2022-06-24 trajectories-without-quantum-uncertainties-in-composite-systems-w
+p 1c90qke 2022-08-16 =
+p ihvaxb 2021-07-19 calibration-of-spin-light-coupling-by-coherently-induced-faraday-
+p ar1irr 2021-06-01 dissipative-optomechanical-coupling-with-a-membrane-outside-of-an
+p 780kuq 2021-03-01 high-frequency-broadband-laser-phase-noise-cancellation-using-a-d
+p ifz9l8 2021-06-17 room-temperature-single-photon-source-with-near-millisecond-built
+p 8cyum8 2021-06-21 single-photon-source-with-near-millisecond-memory-based-on-room-t
+#Mark Rudner||0000-0002-5150-6234|5055792056

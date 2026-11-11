@@ -422,7 +422,8 @@ for g in gcfg["groups"]:
             if pcm is not None:
                 # publication check: only research output on the member's university profile counts
                 pw = pcheck[g["key"]]["w"]
-                for wi, src, st in pcm["rows"]:
+                for row in pcm["rows"]:
+                    wi, st = row[0], row[2]
                     if st != "profile": continue
                     k = re.sub(r"\W", "", pw[wi][0].lower())
                     if k in seen: continue
@@ -468,11 +469,18 @@ for g in gcfg["groups"]:
         pc = pcheck[g["key"]]; TYN = {"J": "Journal article", "C": "Book chapter", "P": "Preprint", "R": "Proceedings", "B": "Book", "T": "Thesis", "L": "Letter", "V": "Review"}
         byw = {}
         for mname, pm in pc["m"].items():
-            for wi, src, st in pm["rows"]:
-                if st == "profile": byw.setdefault(wi, []).append(pm)
-        top = sorted(byw, key=lambda wi: (-pc["w"][wi][1], -len(byw[wi]), pc["w"][wi][0]))[:8]
-        pubs = [{"title": pc["w"][wi][0], "url": f"https://researchprofiles.ku.dk/en/persons/{byw[wi][0]['slug']}/publications/",
-                 "cite": f"{pc['w'][wi][1]} · {TYN.get(pc['w'][wi][2], 'Research output')} · on the profile of " + ", ".join(m["n"] for m in byw[wi])} for wi in top]
+            for row in pm["rows"]:
+                if row[2] == "profile": byw.setdefault(row[0], []).append((pm, row[3] if len(row) > 3 else ""))
+        top = sorted(byw, key=lambda wi: (pc["w"][wi][4] if len(pc["w"][wi]) > 4 and pc["w"][wi][4] else str(pc["w"][wi][1]), len(byw[wi])), reverse=True)[:8]
+        def _fmt(d):
+            mo = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            q = d.split("-")
+            return " ".join(([str(int(q[2]))] if len(q) > 2 else []) + ([mo[int(q[1])]] if len(q) > 1 else []) + [q[0]])
+        pubs = []
+        for wi in top:
+            w = pc["w"][wi]; slug = next((sl for _, sl in byw[wi] if sl), "")
+            url = f"https://researchprofiles.ku.dk/en/publications/{slug}/" if slug else f"https://researchprofiles.ku.dk/en/persons/{byw[wi][0][0]['slug']}/publications/"
+            pubs.append({"title": w[0], "url": url, "cite": f"{_fmt(w[4] if len(w) > 4 and w[4] else str(w[1]))} · {TYN.get(w[2], 'Research output')} · on the profile of " + ", ".join(m["n"] for m, _ in byw[wi])})
     groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": sort_subs(g["cfqt"]), "members": members, "pubs": pubs, "projects": projects,
                        "press": press, "acts": acts, "prizes": prizes, "static_events": events,
                        "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),

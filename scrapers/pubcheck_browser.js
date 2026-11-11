@@ -42,6 +42,8 @@ async function portal(M) {
   window.name = 'DQA' + JSON.stringify(out); // survives the move to api.openalex.org in the same tab
   return out.length;
 }
+// The portal run can also be saved on its own as data/groups/pubcheck/<key>_portal.txt (title hash, date, portal path),
+// which build_pubcheck.py uses for the profile status, dates and direct links.
 // Step 2 – navigate the same tab to https://api.openalex.org/ (the portal's security policy blocks other hosts).
 //   For each member: the OpenAlex author from the ORCID iD, or from the name when it gives one author;
 //   works from 2021 on (/works?filter=author.id:A…,from_publication_date:2021-01-01), and the ORCID record

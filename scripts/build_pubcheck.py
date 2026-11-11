@@ -13,11 +13,28 @@ o=ORCID, a=OpenAlex. Status per member and work: profile (on the university prof
 ORCID/OpenAlex), excluded (editorials, letters, data, code) or mismatch (another person).
 The check is run once a semester, or when a researcher asks, since profiles change only when people update them.
 """
-import json, pathlib, re, sys
+import json, pathlib, re, sys, unicodedata
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIR = ROOT / "data/groups/pubcheck"
 RX = re.compile(r"^(.*) (\d{4}|0) ([A-Z])(?: (\d+))? ([01])$")
-READ = {"qmath": "2026-11-11"}
+READ = {"qmath": "2026-11-11"}  # date of the last portal run
+
+
+def thash(t):
+    """Short title key shared with the browser script: FNV-1a of the first 50 letters/digits, base 36."""
+    t = re.sub("[\u0300-\u036f]", "", unicodedata.normalize("NFD", t)).lower()
+    t = re.sub(r"[^a-z0-9]", "", re.sub(r"<[^>]+>", "", t))[:50]
+    x = 0x811C9DC5
+    for c in t.encode():
+        x = ((x ^ c) * 0x01000193) & 0xFFFFFFFF
+    d, out = "0123456789abcdefghijklmnopqrstuvwxyz", ""
+    while True:
+        x, r = divmod(x, 36); out = d[r] + out
+        if not x: return out
+
+
+def slugify(t):
+    return re.sub(r"^-|-$", "", re.sub(r"[^a-z0-9]+", "-", t.lower()))[:64].rstrip("-")
 
 
 def norm(t):
@@ -31,6 +48,22 @@ def build(key):
     for w in lines[1:i]:
         t, y, ty, oa, nr = RX.match(w).groups()
         W.append({"t": t, "y": int(y), "ty": ty, "oa": oa or "", "nr": int(nr)})
+    # second-run portal file (dates and portal paths); replaces the portal flags of the raw file when present
+    portal = {}
+    pf = DIR / f"{key}_portal.txt"
+    if pf.exists():
+        cur = None
+        for line in pf.read_text(encoding="utf-8").splitlines():
+            if line.startswith("#") and "|" in line:
+                cur = line[1:].split("|")[0]; portal[cur] = []
+            elif line.startswith("p ") and cur:
+                _, h, d, sl = (line.split(" ") + ["", "", "", ""])[:4]
+                portal[cur].append((h, "" if d == "-" else d, sl))
+    byhash = {}
+    for k, w in enumerate(W):
+        byhash.setdefault(thash(w["t"]), []).append(k)
+    for w in W:
+        w["d"] = str(w["y"]) if w["y"] else ""
     mm = DIR / f"{key}_mismatch.txt"
     mismatch = {int(x) for x in mm.read_text().split() if x.isdigit()} if mm.exists() else set()
     people = []
@@ -50,19 +83,31 @@ def build(key):
                         and (W[a]["y"] == 0 or abs(W[a]["y"] - W[b]["y"]) <= 1):
                     its[b] |= its.pop(a)
                     break
+        slugs = {}
+        if n in portal:
+            for k in its: its[k].discard("p")
+            for h, d, sl in portal[n]:
+                ks = byhash.get(h)
+                if not ks:
+                    print("  new portal output not in the raw file:", n, h); continue
+                # the work with this title the member already has, else the first one with it
+                k = next((k for k in ks if k in its), ks[0])
+                its.setdefault(k, set()).add("p")
+                if d and len(d) >= len(W[k]["d"]) and d[:4] == (W[k]["d"] or d)[:4]: W[k]["d"] = d
+                slugs[k] = slugify(W[k]["t"]) if sl == "=" else sl
         rows = []
         for k, f in its.items():
             st = "mismatch" if k in mismatch else "excluded" if W[k]["nr"] else "profile" if "p" in f else "elsewhere"
-            rows.append([k, "".join(s for s in "poa" if s in f), st])
-        rows.sort(key=lambda r: (-W[r[0]]["y"], W[r[0]]["t"]))
+            rows.append([k, "".join(s for s in "poa" if s in f), st] + ([slugs[k]] if k in slugs else []))
+        rows.sort(key=lambda r: (W[r[0]]["d"] or "0"), reverse=True)
         people.append({"n": n, "slug": slug, "orcid": orc, "osrc": osrc, "oa": oaid, "amb": int(amb), "noportal": int(nop), "rows": rows})
     used = sorted({r[0] for p in people for r in p["rows"]})
     remap = {k: j for j, k in enumerate(used)}
     for p in people:
-        p["rows"] = [[remap[k], f, s] for k, f, s in p["rows"]]
+        p["rows"] = [[remap[r[0]]] + r[1:] for r in p["rows"]]
         for s in ("profile", "elsewhere"):
             p["n_" + s] = sum(1 for r in p["rows"] if r[2] == s)
-    out = {"read": READ.get(key, ""), "w": [[W[k]["t"], W[k]["y"], W[k]["ty"], W[k]["oa"]] for k in used], "p": people}
+    out = {"read": READ.get(key, ""), "w": [[W[k]["t"], W[k]["y"], W[k]["ty"], W[k]["oa"], W[k]["d"]] for k in used], "p": people}
     (DIR / f"{key}.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(key, len(people), "members,", len(used), "works")
 
