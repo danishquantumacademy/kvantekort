@@ -95,6 +95,9 @@ nav.site .ng{display:flex;flex-wrap:wrap;align-items:center;gap:2px}
 nav.site .nl{font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
 nav.site a.p{color:var(--fg);text-decoration:none;padding:5px 9px;border-radius:7px;white-space:nowrap}
 nav.site a.p:hover{background:var(--chip)}
+nav.site .nr{display:flex;align-items:center;gap:6px}
+nav.site button.theme{font:500 12.5px var(--body);color:var(--fg);background:none;border:1px solid var(--line);border-radius:7px;padding:4px 9px;cursor:pointer;white-space:nowrap}
+nav.site button.theme:hover{background:var(--chip)}
 nav.site a.p[aria-current=page]{background:var(--accent);color:var(--surface)}
 nav.site a:focus-visible,details.howto>summary:focus-visible,details.fold>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 details.howto{border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:100%}
@@ -111,13 +114,22 @@ footer .site-foot a{color:var(--accent)}
 """
 
 
+# Light background by default; a button in the navigation switches to dark and remembers the choice in this browser.
+THEME_JS = ("<script>(function(){var d=document.documentElement,t='light';try{t=localStorage.getItem('dqa-theme')||'light'}catch(e){}"
+            "d.setAttribute('data-theme',t);var b=document.getElementById('themeBtn');if(!b)return;"
+            "b.textContent=t==='dark'?'\u2600 Light':'\u263E Dark';"
+            "b.onclick=function(){var n=d.getAttribute('data-theme')==='dark'?'light':'dark';try{localStorage.setItem('dqa-theme',n)}catch(e){}location.reload()}})()</script>")
+
+
 def chrome(html, key):
     links = "".join(
         f'<div class="ng"><span class="nl">{grp}</span>' + "".join(
             f'<a class="p" href="{href}"' + (' aria-current="page"' if k == key else "") + f">{label}</a>" for k, href, label in items) + "</div>"
         for grp, items in NAV)
     nav = ('<nav class="site" aria-label="Site"><div class="nt"><a class="brand" href="index.html">Danish Quantum Academy<span class="bx"> · Quantum education and research map</span></a>'
-           '<a class="p" href="about.html"' + (' aria-current="page"' if key == "about" else "") + f'>About the data</a></div><div class="nb">{links}</div></nav>')
+           '<span class="nr"><a class="p" href="about.html"' + (' aria-current="page"' if key == "about" else "") + '>About the data</a>'
+           '<button type="button" class="theme" id="themeBtn" aria-label="Switch between light and dark background"></button></span>'
+           f'</div><div class="nb">{links}</div></nav>' + THEME_JS)
     foot = ('<p class="site-foot"><span>Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> for the European Quantum Academy (Northern European Regional Quantum Academy).</span>'
             '<a href="about.html">About the data and methods</a><a href="https://github.com/danishquantumacademy/kvantekort">Data and code on GitHub</a></p>')
     assert "<!--SITENAV-->" in html and "<!--SITEFOOT-->" in html, key
