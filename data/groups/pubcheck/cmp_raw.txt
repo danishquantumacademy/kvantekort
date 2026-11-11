@@ -1,0 +1,247 @@
+W
+Malaria Pigment Crystals: The Achilles ' Heel of the Malaria Parasite 2021 J 0
+2021 Wolf Prize and Synchrotron X-Ray Radiation – How it Started 2021 J 0
+Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors 2026 J 0
+Robust Spin Splitting and Fermiology in the Layered Altermagnet 2026 J 0
+Protection of Unconventional Superconductivity from Disorder 2026 J 0
+Zero-field superconducting vortices and Majorana zero modes pinned by magnetic islands in correlated Rashba... 2026 J 0
+Nonreciprocal equilibrium Josephson effect of arbitrary periodicity from poor man's Majorana zero modes 2026 J 0
+Inherent momentum-dependent gap structure of altermagnetic superconductors 2026 J 0
+Hybrid Josephson Rhombus: A Superconducting Element with Tailored Current-Phase Relation 2025 J 0
+Voltage-Controlled Synthesis of Higher Harmonics in Hybrid Josephson Junction Circuits 2024 L 0
+The First Half Century of Finite-Time Thermodynamics 2026 R 0
+Lyapunov Thermodynamic Stability of the Evolution of Conservatively Perturbed Chemical Equilibrium 2026 J 0
+Stepwise approximation of functions and intermediate equilibria in thermodynamics 2026 J 0
+Diffusion and Kinetic Theory on Very Long Time and Large Space Scales 2024 J 0
+Thermodynamic Stability Theories of Irreversible Processes and the Fourth Law of Thermodynamics 2024 J 0
+Scaling the barrier 2024 J 0
+Controlled parity of cooper pair tunneling in a hybrid superconducting qubit 2026 J 0
+Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit 2026 J 0
+Gatemon qubit revisited for improved reliability and stability 2025 J 0
+Andreev spin relaxation time in a shadow-evaporated InAs weak link 2025 J 0
+Engineering Tunable Josephson Harmonics in a Superconducting Qubit 0 T 0
+Neutron reflection properties of Si(111) single crystals for application in a backscattering spectrometer: ... 2026 J 0
+Probing crystallization of cocoa butter via thermal and X-ray techniques: solving polymorphic transitions u... 2026 J 0
+Disentangling interlayer confinement and pore surface adsorption in functionalized smectites for tunable et... 2026 J 0
+Collective Intermolecular Motions of Water in Sodium Montmorillonite 2026 J 0
+Hierarchical porosity and electrolyte compatibility in carbon-based supercapacitors: Structure-performance ... 2026 J 0
+Methyl group dynamics and conformational flexibility in methacetin revealed by neutron spectroscopy 2026 J 0
+Spin-photon coupling using circular double quantum dots 2026 J 0
+Automated in Situ Optimization and Disorder Mitigation in a Quantum Device 2025 J 0
+Gate reflectometry in dense quantum dot arrays 2023 J 0
+Autonomous Estimation of High-Dimensional Coulomb Diamonds from Sparse Measurements 2022 J 0
+Estimation of Convex Polytopes for Automatic Discovery of Charge State Transitions in Quantum Dot Arrays 2022 J 0
+Andreev Interferometers based on Quantum Point Contacts 2025 T 0
+Weakly Flux-Tunable Superconducting Qubit 2022 J 0
+Gate-Tunable Transmon Using Selective-Area-Grown Superconductor-Semiconductor Hybrid Structures on Silicon 2022 J 0
+Integration of Topological Insulator Josephson Junctions in Superconducting Qubit Circuits 2022 J 0
+Simulating Neutron Diffraction from Deformed Mosaic Crystals in McStas 2026 J 0
+Piecewise Linear Approximation of Elliptical Neutron Guides—A Case Study for BIFROST at ESS 2025 J 0
+Odd-parity magnetism in Fe-based superconductors with coplanar magnetic order 2026 J 0
+Electronic and structural properties of Rh- and Pd-based kagome layered shandites from first principles 2026 J 0
+Microscopic origin of the nematoelastic coupling and dynamics of hybridized collective nematic-phonon excit... 2025 J 0
+Evidence for time-reversal symmetry-breaking kagome superconductivity 2024 J 0
+Competing magnetic fluctuations and orders in a multiorbital model of doped SrCo2As2 2023 J 0
+Highly deformed rotational structure in the near-spherical nucleus 123Te at high spin 2026 J 0
+Reduced Basis Method for Driven-Dissipative Quantum Systems 2025 J 0
+Quasiparticle Interference of Spin-Triplet Superconductors: Application to UTe2 2025 J 0
+Nodal superconducting gap structure and topological surface states of UTe2 2025 J 0
+Cosmological Test of an Ultraviolet Origin of Dark Energy 2024 J 0
+Directional conductance of Andreev crystals in hybrid Josephson junction arrays 2026 J 0
+Phase-Biased Andreev Diffraction Grating 2025 J 0
+Phase-controlled minimal Kitaev chain in multiterminal Josephson junctions 2025 J 0
+Fast universal control of a flux qubit via exponentially tunable wave-function overlap 2024 J 0
+Phase Control in Superconductor-Semiconductor Hybrids: Andreev Crystals and Topological Superconductivity 0 T 0
+Towards scanning nanostructure X-ray microscopy 2023 J 0
+3D synchrotron imaging of muscle tissues at different atrophic stages in stroke and spinal cord injury: a p... 2022 J 0
+Adiabatic non-Abelian braiding of imperfect Majorana bound states 2026 J 0
+Non-Hermitian skin effect and electronic nonlocal transport 2026 J 0
+From Kardar-Parisi-Zhang Scaling to Soliton Proliferation in Josephson Junction Arrays 2025 J 0
+Local signatures of altermagnetism 2025 J 0
+Atomic-Scale Engineering of d-π-d Spin Interaction in Metal-Organic Architectures 2025 J 0
+Ferrimagnetic state of the metal-organic framework CrCl2(pyz)2 2025 J 0
+Proteolytic Performance Is Dependent on Binding Efficiency, Processivity, and Turnover: Single Protease Ins... 2024 J 0
+Spin dynamics and chirality induced spin selectivity 2023 J 0
+Observation of Biradical Spin Coupling through Hydrogen Bonds 2022 L 0
+Theory of Chirality Induced Spin Selectivity: Progress and Challenges 2022 J 0
+Inducing Ferroquadrupolar Order with Applied Magnetic Field in TbPO4 2026 J 0
+Magnetic Bloch oscillations and domain wall dynamics in a near-Ising ferromagnetic chain 2022 J 0
+Dynamics of thermal motion of liquid lead nanoinclusions attached to fixed dislocations coupled in a disloc... 2022 J 0
+Superconductivity and Parity Preservation in As-Grown In Islands on InAs Nanowires 2021 J 0
+Epitaxial Pb on InAs nanowires for quantum devices 2021 J 0
+A stage-dependent mechanism of high-amylose starch gelation: amylose-associated early differentiation and b... 2026 J 0
+Hyperbolic confinement: self-assembly of asymmetric diblock co-polymers on triply periodic minimal surfaces 2026 J 0
+Multiscale Characterizationof Thermoresponsive Poly(N-vinylcaprolactam) Across Hydration States for DrugDel... 2026 J 0
+Solvent-DrivenMicrodomain Ordering in PI-PS-PMMAMiktoarm Star Polymers 2026 J 0
+Investigating the crystalline structure and structural heterogeneity of starch granules using polarization-... 2026 J 0
+Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits 2026 J 0
+Accurate simulations of magnetic excitations in the neutron simulation package McStas 2026 J 0
+Ground state magnetic structure of Mn3Sn 2026 J 0
+Emergence of low-energy spin waves in superconducting electron-doped cuprates 2026 J 0
+Refined spin Hamiltonian on the Cairo pentagonal lattice of Bi2 Fe4 O9 2026 J 0
+Probing Low Energy Magnetic Dynamics in Cuprates, Neutron Spectroscopy and Instrumentation 2026 T 0
+BIFROST—An indirect geometry cold neutron spectrometer at the European Spallation Source 2025 J 0
+A quantum dot in germanium proximitized by a superconductor 2025 J 0
+Exciton Transport in a Germanium Quantum Dot Ladder 2024 J 0
+Simultaneous single-qubit driving of semiconductor spin qubits at the fault-tolerant threshold 2021 J 0
+Low percolation density and charge noise with holes in germanium 2021 J 0
+Direct Detection of Hydrogen Reveals a New Macroscopic Crustal Water Reservoir on Early Mars 2026 J 0
+Solvothermal vapor annealing and environmental control setup with adjustable magnetic field module for graz... 2026 J 0
+Approximate resolution convolution function for fitting a dispersion gap measured on a triple-axis spectrom... 2026 J 0
+Complex Magnetic Interactions in Geometrically Frustrated TbOF 2026 J 0
+Characterizing the diffuse continuum excitations in the classical spin liquid h−YMnO3 2024 J 0
+Opening Krylov Space to Access All-Time Dynamics via Dynamical Symmetries 2025 J 0
+Quantum Mereology and Subsystems from the Spectrum 2025 J 0
+From two dimensions to wire networks in hybrid Josephson arrays 2026 J 0
+Long-range phase coherence and phase patterns in hybrid Josephson junction arrays 2026 P 0
+Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays 2025 J 0
+Cooper-Pair Splitters as Circuit Elements for Realizing Topological Superconductors 2025 J 0
+Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires 2025 J 0
+Magnetic Domains Stabilized by Symmetry-Protected Zero Modes 2026 J 0
+Spin-Charge Bound States and Emerging Fermions in a Quantum Spin Liquid 2025 J 0
+Beyond fragmented dopant dynamics in quantum spin lattices: Robust localization and non-Gaussian diffusion 2025 J 0
+Dual Spectroscopy of Quantum Simulated Fermi-Hubbard Systems 2025 J 0
+Nanoscale photonic artificial neuron with biological signal processing 2026 J 0
+Heteroatomic Andreev Molecule in a Superconducting Island–Double Quantum Dot Hybrid 2026 J 0
+Approaching the ultrastrong-coupling regime between an Andreev level and a microwave resonator 2025 J 0
+Multimode Operation of a Superconducting Nanowire Switch in the Nanosecond Regime 2025 J 0
+On-Chip Optical Communication to Small Footprint Nanowire Neurons 2025 R 0
+Optoelectronic Nanowire Neuron 2025 R 0
+Exciton interacting with the phonons of an electronic Wigner crystal 2026 J 0
+Cryogenic performance of field-effect transistors and amplifiers based on selective area grown InAs nanowires 2025 J 0
+Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires 2024 J 0
+Statistical Reproducibility of Selective Area Grown InAs Nanowire Devices 2024 J 0
+Cryogenic multiplexing using selective area grown nanowires 2023 J 0
+Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires 2023 J 0
+Electronic Transport in Double-Nanowire Superconducting Islands with Multiple Terminals 2022 L 0
+Terahertz response of confined electron-hole pair: Crossover between strong and weak confinement 2026 J 0
+Nematostriction in frustrated two-dimensional classical Heisenberg models 2026 J 0
+Synchronizing microwave circuit quantum electrodynamics limit cycle oscillators 2026 J 0
+Yu-Shiba-Rusinov states in color-superconducting quark matter 2025 J 0
+Poor Man's Majorana Tetron 2025 J 0
+Autonomous bootstrapping of quantum dot devices 2025 J 0
+Data needs and challenges for quantum dot devices automation 2024 J 0
+Real-time two-axis control of a spin qubit 2024 J 0
+Control of Andreev Bound States Using Superconducting Phase Texture 2023 L 0
+Tunable topologically driven Fermi arc van Hove singularities 2023 J 0
+Quantum Phases and Dynamics of Hybrid Josephson Lattices 0 T 0
+Scalable Platform for Nanocrystal-Based Quantum Electronics 2022 J 0
+A Neural Network Approach for Property Determination of Molecular Solar Cell Candidates 2022 J 0
+UniqueNESS: graph theory approach to the uniqueness of non-equilibrium stationary states of the Lindblad ma... 2026 J 0
+Flexible fabrication of aligned multi-nanowire circuits for on-chip prototyping 2025 J 0
+Direct on-Chip Optical Communication between Nano Optoelectronic Devices 2025 J 0
+PbTe/SnTe heterostructures-candidate platform for studying spin-triplet superconductivity 2026 J 0
+Search for new phenomena in three- or four-lepton events in pp collisions at √s=13 TeV with the ATLAS detector 2022 J 0
+Signatures of exceptional points in multiterminal superconductor–normal metal junctions 2025 J 0
+Direct transport between superconducting subgap states in a double quantum dot 2022 J 0
+Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45 2021 J 0
+YSR States in Double Quantum Dots: Transport and Bound State Dynamics 2021 T 0
+Spin-Split Superconductivity in Spin-Orbit Coupled Hybrid Nanowires with Ferromagnetic Barriers 2026 J 0
+Toward Single-Photon Detection with Superconducting Niobium Diselenide Nanowires 2025 J 0
+Spin spectroscopy of a hybrid superconducting nanowire using side-coupled quantum dots 2023 J 0
+Towards Parity Lifetime Measurements of Quantum Dots Coupled to Superconductors 0 T 0
+Origin of surface and subband states at the InAs(111)A surface 2023 J 0
+Scale-Dependent Optimized Homoepitaxy of InAs(111)A 2022 J 0
+Scanning Tunnelling Microscopy of Molecular Beam Epitaxy Grown Intrinsic and Buried InAs Quantum Well Struc... 2022 T 0
+μ2T(n): a method for extracting the density dependent mobility in two-terminal nanodevices 2026 J 0
+Direct device integration of single 1D nanoparticle assemblies; a magnetization reversal and magnetotranspo... 2025 J 0
+Scale-Dependent Growth Modes of Selective Area Grown III–V Nanowires 2024 L 0
+Simulations of the dynamics of quantum impurity problems with matrix product states 2024 J 0
+Topological Kondo model out of equilibrium 2023 L 0
+Matrix product state simulations of quantum quenches and transport in Coulomb blockaded superconducting dev... 2022 J 0
+Z(N) lattice gauge theory in a ladder geometry 2021 J 0
+Quasielastic Neutron Scattering Reveals Anisotropic Water Transport in Smectite Thin Film 2025 J 0
+Percolative supercurrent in superconductor–ferromagnetic insulator bilayers 2025 J 0
+A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies 2025 J 0
+A highly sensitive sensor for carcinoembryonic antigen based on AlGaN/GaN high-electron-mobility transistors 2023 J 0
+Gate-Tunable Kinetic Inductance in Proximitized Nanowires 2022 J 0
+Singlet-Doublet Transitions of a Quantum Dot Josephson Junction Detected in a Transmon Circuit 2022 J 0
+Crosses and Flowers: Investigating superstructures in the high-Tc superconductor La(2–x)Sr(x)CuO(4+y) 2026 T 0
+Network analyses of student engagement with on-line textbook problems 2025 J 0
+P
+Jens Als-Nielsen|jens-als-nielsen||||0|0|0p,1p|2/0
+Brian Møller Andersen|brian-m%C3%B8ller-andersen|0000-0002-9786-7553|p||0|0|2p,3p,4p,5p,6p,7p|51/3
+Christine Wei Andersson|christine-wei-andersson||||0|0|8p,9p|2/0
+Bjarne Andresen|bjarne-andresen|0000-0003-2657-3424|p||0|0|10p,11p,12p,13p,14p,15p|15/0
+Mats Ola Erik Barkman|mats-ola-erik-barkman||||0|0|2p,7p|2/0
+David Feldstein Bofill|david-feldstein-bofill||||0|0|16p,17p,18p,19p,20p|5/0
+Heloisa Nunes Bordallo|heloisa-nunes-bordallo|0000-0003-0750-0553|p||0|0|21p,22p,23p,24p,25p,26p|55/5
+Fanny Vinas Boström|fanny-florinda-e-m-j-vinas-bostr%C3%B6m||||0|0|27p|1/0
+Bertram Seck Brovang|bertram-seck-brovang||||0|0|28p,29p,30p,31p|4/0
+Jose Manuel Chavez-Garcia|jose-manuel-chavez-garcia||||0|0|32p,33p,34p,35p|4/0
+Daniel Lomholt Christensen|daniel-lomholt-christensen||||0|0|36p,37p|2/0
+Morten Holm Christensen|morten-holm-christensen|0000-0002-3185-6552|p||0|0|4p,38p,39p,40p,41p,42p|20/0
+Hans Christiansen|hans-christiansen||||0|0|43p,44p,45p,46p,47p|5/0
+Anders Erik Enevold Dahl|anders-erik-enevold-dahl||||0|0|48p,49p,50p,51p,52p|5/0
+Kamaldeep Dalal|kamaldeep-dalal||||0|0||0/0
+Tobias Peter Edwinson|tobias-peter-edwinson||||0|0||0/0
+Reuel Dsouza|reuel-dsouza-ej-efternavn||||0|0|38p|1/0
+Robert Feidenhans'l|robert-krarup-feidenhansl|0000-0002-7963-3649|p||0|0|53p,54p|2/0
+Karsten Flensberg|karsten-flensberg|0000-0002-8311-0103|p||0|0|16p,17p,55p,48p,56p,57p|30/0
+Jannik Gondolf|jannik-gondolf|0009-0008-1391-6356|p||0|0|7p,58p|2/3
+Per Hedegård|per-hedeg%C3%A5rd|0000-0002-6328-7462|p||0|0|59p,60p,61p,62p,63p,64p|9/1
+Jes Henningsen|jes-henningsen||||0|0||0/0
+Laurits Moestrup Høgel|laurits-moestrup-h%C3%B8gel||||0|0||0/0
+Jens Jensen|jens-jensen|0000-0002-7954-8073|p||0|0|65p,66p|2/0
+Erik Johnson|erik-johnson||||0|0|67p,68p,69p|3/0
+Marton Kanasz-Nagy|marton-kanasz-nagy|0000-0001-8558-8920|p||0|0||0/0
+Jacob Judas Kain Kirkensgaard|jacob-judas-kain-kirkensgaard|0000-0001-6265-0314|p||0|0|70p,71p,72p,73p,22p,74p|83/3
+Morten Kjaergaard|morten-kjaergaard||||0|0|16p,17p,75p,18p,19p,51p|14/0
+Kristine Marie Løfgren Krighaar|kristine-marie-l%C3%B8fgren-krighaar||||0|0|76p,77p,78p,79p,80p,81p|11/0
+Oopa Srija Kurapati|oopa-srija-kurapati||||0|0||0/0
+Lazar Lakic|lazar-lakic||||0|0||0/0
+William Iain Leonard Lawrie|william-iain-leonard-lawrie|0000-0002-9946-4117|p||0|0|82p,83p,84p,85p|4/0
+Kim Lefmann|kim-lefmann|0000-0003-4282-756X|p||0|0|86p,87p,76p,88p,89p,78p|35/3
+Emma Ynill Lenander|emma-ynill-lenander|0000-0002-1274-3579|p||0|0|76p,88p,79p,90p|4/0
+Poul Erik Lindelof|poul-erik-lindelof|0000-0001-6149-281X|p||0|0||0/0
+Nicolas Loizeau|nicolas-paul-maxime-loizeau||||0|0|91p,92p|2/0
+Jürgen Luus|j%C3%BCrgen-luus||||0|0||0/0
+Magnus Rønne Lykkegaard|magnus-r%C3%B8nne-lykkegaard||||0|0|49p|1/0
+Antonio Lucas Rigotti Manesco|antonio-lucas-rigotti-manesco||||0|0||0/0
+Charles M. Marcus|charles-m-marcus|0000-0003-2420-4692|p||0|0|93p,94p,95p,49p,96p,97p|35/1
+Mathis Victor Moes|mathis-victor-moes||||0|0||0/0
+Kristian Knakkergaard Nielsen|kristian-knakkergaard-nielsen||||0|0|98p,99p,100p,101p|4/0
+Malthe Asmus Marciniak Nielsen|malthe-asmus-marciniak-nielsen||||0|0|17p,75p|2/0
+Jesper Nygård|jesper-nyg%C3%A5rd|0000-0002-4639-5314|p||0|0|102p,103p,104p,105p,106p,107p|40/5
+Jens Havgaard Nyhegn|jens-havgaard-nyhegn||||0|0|108p|1/0
+Dags Olsteins|dags-olsteins||||0|0|109p,110p,111p,112p,113p,114p|13/0
+Jens Paaske|jens-paaske|0000-0002-8087-591X|p||0|0|115p,116p,117p,44p,118p,119p|16/0
+Amalie Terese Jiao Paulsen|amalie-terese-jiao-paulsen||||0|0|17p|1/0
+Frederik Alexander Stege Philipsen|frederik-alexander-stege-philipsen||||0|0|2p|1/0
+Colin Piquard|colin-piquard||||0|0||0/0
+Deepti Rana|deepti-rana||||0|0||0/0
+Finn Berg Rasmussen|finn-berg-rasmussen||||0|0||0/0
+Torbjørn Raasø Rasmussen|torbj%C3%B8rn-raas%C3%B8-rasmussen||||0|0|120p,28p,121p,122p,29p,30p|8/0
+Christian Lukas H Rasmussen|christian-lukas-h-rasmussen||||0|0|7p|1/0
+Daniel Steve Sanchez|daniel-steve-sanchez|0000-0003-3161-5318|p||0|0|123p,124p,125p|3/1
+Rasmus Dalsgaard Schlosser|rasmus-dalsgaard-schlosser|0009-0000-4883-6550|p||0|0|102p,106p,107p,110p,126p,127p|8/0
+Martin Ulrich Seltmann|martin-ulrich-seltmann||||0|0|128p|1/0
+Joachim Elbeshausen Sestoft|joachim-elbeshausen-sestoft|0000-0002-1623-3373|p||0|0|102p,106p,107p,129p,130p,110p|9/0
+Johann Bock Severin|johann-bock-severin||||0|0|17p|1/0
+Ksenia Shagalov|ksenia-shagalov||||0|0|16p,17p|2/0
+Pawel Tadeusz Sidorczak|pawel-tadeusz-sidorczak||||0|0|131p|1/0
+Shikhar Singh|shikhar-singh||||0|0|16p,18p|2/0
+Stig Skelboe|stig-skelboe|0000-0001-7300-7957|p||0|0||0/0
+Henrik Smith|henrik-smith||||0|0|132p|1/0
+Oliver Ovsée Laub Solow|oliver-ovs%C3%A9e-laub-solow|0009-0004-0137-8838|p||0|0|56p,133p|2/0
+Gorm Ole Steffensen|gorm-ole-steffensen||||0|0|134p,135p,136p|3/0
+Yao Su|yao-su|0009-0000-4459-8786|p||0|0|82p|1/0
+Athira Suresh|athira-suresh||||0|0||0/0
+Saulius Vaitiekenas|saulius-vaitiekenas|0000-0002-5007-461X|p||0|0|93p,137p,94p,95p,138p,96p|15/5
+N Manikanta Sai R N Vanjarapu|n-manikanta-sai-r-n-vanjarapu||||0|0||0/0
+Vasileios Vlachodimitropoulos|vasileios-vlachodimitropoulos||||0|0|139p,140p|2/0
+Casper Wied|casper-wied||||0|0|16p,17p,18p|3/0
+Tim Fabian Wohlers-Reichel|tim-fabian-wohlers-reichel||||0|0||0/0
+Steffen Zelzer|steffen-zelzer||||0|0|141p,142p,143p|3/0
+Sami Zweidler|sami-zweidler||||0|0||0/0
+Benjamin Boateng|benjamin-boateng||||0|0||0/0
+Damon James Carrad|damon-james-carrad|0000-0003-0372-8593|p||0|0|144p,109p,145p,146p,111p,113p|12/1
+Chia-Min Chung|chia-min-chung||||0|0|147p,148p,149p,150p|4/0
+Xiaoyu Hou|xiaoyu-hou||||0|0||0/0
+Fernando Gabriel Benitez Jara|fernando-gabriel-benitez-jara||||0|0|25p|1/0
+Yiran Jin|yiran-jin||||0|0|151p|1/0
+Yu Liu|yu-liu-2||||0|0|137p,152p,153p,154p,155p,156p|12/0
+Yuyu Yao|yuyu-yao||||0|0||0/0
+dxp300 (name not shown in the portal)|dxp300-dxp300||||0|0||0/0
+hwg706 (name not shown in the portal)|hwg706-hwg706|0000-0002-6409-0469|p||0|0|157p,158p|2/3
+jpd817 (name not shown in the portal)|jpd817-jpd817||||0|0||0/0

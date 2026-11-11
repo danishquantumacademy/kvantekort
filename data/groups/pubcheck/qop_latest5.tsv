@@ -1,0 +1,107 @@
+# The five newest research outputs on each QOP member's KU research profile, classified on the CFQT content map
+# from the title, abstract and keywords in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Marcus Albrechtsen	a-quantum-coherent-photon-emitter-interface-in-the-original-telec	4.4;7.5;4.2	telecom-band quantum-dot photon source
+Marcus Albrechtsen	integration-of-a-gaas-based-nanomechanical-phase-shifter-with-qua	3.3;4.4	nanomechanical phase shifter integrated with quantum-dot sources
+Marcus Albrechtsen	origins-and-mitigation-of-scattering-related-propagation-losses-i	3.3;4.4;3.2	losses in GaAs waveguides for quantum photonic circuits
+Marcus Albrechtsen	nanomechanical-phase-shifting-onagallium-arsenide-platform	3.3;4.4	nanomechanical phase shifting on GaAs (title only)
+Nils Overgaard Andersen	et-reformeret-uddannelses-danmark-udfordringer-for-institutionsst	-	report on the Danish education system
+Nils Overgaard Andersen	orientation-and-alignment-in-atomic-and-molecular-collisions	2.1	orientation and alignment in atomic collisions
+Jean-Baptiste Sylvain Béguin	steady-state-multiparticle-entanglement-via-dissipative-engineeri	2.2;2.4;1.2	dissipative generation of multi-emitter entanglement in waveguide QED
+Tulio Brito Brasil	hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang	6.1;7.5;2.2	hybrid quantum network for entanglement-enhanced sensing (title only)
+Tulio Brito Brasil	multi-color-continuous-variables-unconditional-quantum-teleportat-2	7.1;2.2;7.5	continuous-variable teleportation between atomic and telecom wavelengths
+Tulio Brito Brasil	multi-color-continuous-variables-unconditional-quantum-teleportat	7.1;2.2;7.5	continuous-variable teleportation between near-infrared and telecom L-band
+Tulio Brito Brasil	acoustic-frequency-atomic-spin-oscillator-in-the-quantum-regime	6.1;2.1;6.2	quantum-limited atomic spin oscillator for acoustic-band sensing
+Tulio Brito Brasil	two-colour-high-purity-einstein-podolsky-rosen-photonic-state	2.2;7.1	two-colour EPR-entangled light
+Etienne Fabien Corminboeuf	photon-sorting-with-a-quantum-emitter	4.4;2.2;7.5	deterministic Bell-state measurement by photon sorting with a quantum emitter
+Jan Dragasevic	viscous-heat-backflow-and-temperature-resonances-in-extreme-therm	-	heat transport in graphite
+Jan Dragasevic	weighing-the-curvature-invariants	-	general relativity
+Jan Dragasevic	tunnelling-of-a-composite-particle-in-presence-of-a-magnetic-fiel	1.1	tunnelling of a composite particle
+Ivan Galinskiy	resonant-acoustic-modes-in-dfb-fiber-lasers-characterized-via-fre	3.3	acoustic modes and frequency noise in fibre lasers
+Ivan Galinskiy	nonclassical-correlations-between-photons-and-phonons-of-center-o	2.2;3.3	photon-phonon quantum correlations of a mechanical oscillator (title only)
+Ivan Galinskiy	direct-measurement-of-resonant-phonon-modes-in-optical-fibers	3.3	phonon modes in optical fibres (title only)
+Ivan Galinskiy	improving-frequency-noise-of-dfb-fiber-lasers-by-acoustic-wave-su	3.3	low-noise fibre lasers
+Ivan Galinskiy	counting-the-uncountable-non-gaussian-quantum-optomechanics	2.2;3.3	non-Gaussian quantum optomechanics (title only)
+Simon Richard Goorney	the-quantum-technology-job-market-data-driven-analysis-of-3641-jo	8.1;8.4	analysis of 3641 quantum-technology job posts
+Simon Richard Goorney	building-europes-quantum-technology-education-community	8.4	European quantum-technology education community (title only)
+Simon Richard Goorney	extending-the-european-competence-framework-for-quantum-technolog	8.4;8.1	extending the CFQT with a proficiency triangle and qualification profiles
+Simon Richard Goorney	a-framework-for-curriculum-transformation-in-quantum-information-	8.4	curriculum transformation in quantum education (title only)
+Simon Richard Goorney	modelling-assisted-tunneling-on-the-bloch-sphere-using-the-quantu	8.4;1.1	teaching tunnelling with the Quantum Composer (title only)
+Christopher Charles A Gustin	dissipation-in-the-broadband-and-ultrastrong-coupling-regimes-of-	2.2;2.4	ab initio master equation for ultrastrong cavity QED
+Emil Rye Hellebek	hybrid-single-ion-atomic-ensemble-node-for-high-rate-remote-entan	7.5;4.3;2.1	hybrid ion-ensemble quantum-network node
+Emil Rye Hellebek	single-and-double-click-high-rate-entanglement-generation-between	7.5;4.3	remote entanglement of trapped ions with multiplexed ensembles
+Emil Rye Hellebek	impact-of-multimode-sources-on-ensemble-based-quantum-repeaters	7.5;2.2	multimode sources in quantum repeaters
+Emil Rye Hellebek	quantum-strategies-to-overcome-classical-multiplexing-limits	7.5;7.1	quantum-network rate limits
+Emil Rye Hellebek	characterization-of-the-multimode-nature-of-single-photon-sources	4.4;2.2	multimode character of SPDC single-photon sources (title only)
+Clara Edith Henke	quantum-non-gaussianity-criterion-based-on-photon-correlations-gs	2.2;4.4	non-Gaussianity criterion for quantum light sources
+Yinhui Kan	chip-integrated-metasurface-enabled-single-photon-skyrmion-source	4.4;3.3	on-chip single-photon skyrmion sources
+Noah Oliver Kaufmann	estimating-bell-diagonal-states-with-separable-measurements	7.1;1.2	characterising shared entanglement in quantum networks
+Noah Oliver Kaufmann	characterization-of-coherent-errors-in-gate-layers-with-robustnes	5.3;4.6	characterising coherent gate errors in quantum devices
+Mathias Linde Holst Korsgaard	quantum-state-preserving-frequency-conversion-using-four-wave-mix	3.3;7.5;2.2	quantum frequency conversion in optical fibres
+Shikai Liu	violation-of-bell-inequality-by-photon-scattering-on-a-two-level-	2.2;4.4;1.1	Bell violation by photon scattering on a quantum emitter (title only)
+Peter Lodahl	quantum-non-gaussianity-criterion-based-on-photon-correlations-gs	2.2;4.4	non-Gaussianity criterion for quantum light sources
+Peter Lodahl	practical-blueprint-for-low-depth-photonic-quantum-computing-with	4.4;5.3;5.1	fusion-based fault-tolerant photonic quantum computing with quantum dots
+Peter Lodahl	a-quantum-coherent-photon-emitter-interface-in-the-original-telec	4.4;7.5;4.2	telecom-band quantum-dot photon source
+Peter Lodahl	photon-sorting-with-a-quantum-emitter	4.4;2.2;7.5	deterministic Bell-state measurement by photon sorting with a quantum emitter
+Peter Lodahl	programmable-nonlinear-quantum-photonic-circuits	4.4;2.2;5.1	programmable nonlinear photonic circuits with a quantum emitter
+Aida Mashaal	strong-thermomechanical-noise-squeezing-stabilized-by-feedback	3.4;2.2	thermomechanical noise squeezing with feedback (title only)
+Leonardo Midolo	fabrication-tolerant-gaassin-coupling-above-the-loss-threshold-fo	3.3;4.4;3.2	low-loss GaAs/SiN coupling for quantum photonic circuits
+Leonardo Midolo	reconfigurable-photon-emitter-interfaces-enabled-by-nanomechanics	4.4;3.3	nanomechanically reconfigurable quantum-dot photonic circuits
+Leonardo Midolo	a-quantum-coherent-photon-emitter-interface-in-the-original-telec	4.4;7.5;4.2	telecom-band quantum-dot photon source
+Leonardo Midolo	photon-sorting-with-a-quantum-emitter	4.4;2.2;7.5	deterministic Bell-state measurement by photon sorting with a quantum emitter
+Leonardo Midolo	programmable-nonlinear-quantum-photonic-circuits	4.4;2.2;5.1	programmable nonlinear photonic circuits with a quantum emitter
+Maiken Høgh Mikkelsen	molecular-control-of-light-matter-interactions-in-plasmonic-nanog	2.2;3.3	light-matter coupling in plasmonic nanogap cavities
+Jörg Helge Müller	hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang	6.1;7.5;2.2	hybrid quantum network for entanglement-enhanced sensing (title only)
+Jörg Helge Müller	high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima	6.2;6.7;2.1	optical caesium magnetometer for MRI
+Jörg Helge Müller	collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian	6.6;2.1;2.2	collectively enhanced Ramsey readout for atomic clocks (title only)
+Jörg Helge Müller	acoustic-frequency-atomic-spin-oscillator-in-the-quantum-regime	6.1;2.1;6.2	quantum-limited atomic spin oscillator for acoustic-band sensing
+Jörg Helge Müller	precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia	2.1;6.2	precision spectroscopy of caesium (title only)
+Joan Alba Pares	steady-state-multiparticle-entanglement-via-dissipative-engineeri	2.2;2.4;1.2	dissipative generation of multi-emitter entanglement in waveguide QED
+Joan Alba Pares	quantifying-entanglement-in-quantum-thermodynamics-via-separabili	1.2;2.4	entanglement in quantum thermodynamics
+Andrea Pertoldi	low-noise-fiber-laser-systems-at-689-nm-and-698-nm-for-strontium	3.3;6.6	fibre lasers for strontium atomic clocks
+Andrea Pertoldi	resonant-acoustic-modes-in-dfb-fiber-lasers-characterized-via-fre	3.3	acoustic modes and frequency noise in fibre lasers
+Andrea Pertoldi	coherent-instabilities-in-thulium-based-fiber-amplifiers-induced-	3.3	fibre amplifier instabilities (title only)
+Andrea Pertoldi	direct-measurement-of-resonant-phonon-modes-in-optical-fibers	3.3	phonon modes in optical fibres (title only)
+Andrea Pertoldi	improving-frequency-noise-of-dfb-fiber-lasers-by-acoustic-wave-su	3.3	low-noise fibre lasers
+Eugene Simon Polzik	the-future-of-quantum-technology-as-seen-from-the-eu-usa-and-japa	8.1;8.3	expert survey on the future of quantum technology
+Eugene Simon Polzik	simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m	2.2;3.3;6.1	squeezed light from an optomechanical membrane
+Eugene Simon Polzik	hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang	6.1;7.5;2.2	hybrid quantum network for entanglement-enhanced sensing (title only)
+Eugene Simon Polzik	h-jeffrey-kimble-19492024	-	obituary
+Eugene Simon Polzik	nonclassical-correlations-between-photons-and-phonons-of-center-o	2.2;3.3	photon-phonon quantum correlations of a mechanical oscillator (title only)
+Clinton Alexander Potts	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Clinton Alexander Potts	flux-modulated-tunable-interaction-regimes-in-two-strongly-nonlin	4.1;5.2	tunable interactions between superconducting oscillators for analogue simulation
+Clinton Alexander Potts	magnon-magnon-interaction-induced-by-nonlinear-spin-wave-dynamics	2.3	nonlinear magnon interactions in YIG
+Clinton Alexander Potts	magnon-microwave-backaction-noise-evasion-in-cavity-magnomechanic	4.7;2.3;6.1	backaction evasion in cavity magnomechanics
+Clinton Alexander Potts	strong-intrinsic-longitudinal-coupling-in-circuit-quantum-electro	4.1;2.2	longitudinal coupling in circuit QED (title only)
+Hanna Krystyna Salamon	electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide	4.4;3.2;3.3	electrically controlled quantum-dot single-photon sources on silicon photonics
+Hanna Krystyna Salamon	electrical-control-of-quantum-dot-single-photon-source-on-siosub2	4.4;3.2	quantum-dot single-photon source bonded onto silicon
+Albert Schliesser	wide-field-stroboscopic-imaging-of-topologically-protected-phonon	3.3;3.1	imaging of topological phononic modes
+Albert Schliesser	measuring-high-field-gradients-of-cobalt-nanomagnets-in-a-spin-me	4.2;6.2;4.7	NV spin coupled to a mechanical resonator
+Albert Schliesser	simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m	2.2;3.3;6.1	squeezed light from an optomechanical membrane
+Albert Schliesser	a-soft-clamped-topological-waveguide-for-phonons	3.3;2.3	topological phonon waveguide
+Albert Schliesser	strong-thermomechanical-noise-squeezing-stabilized-by-feedback	3.4;2.2	thermomechanical noise squeezing with feedback (title only)
+Jacob Friis Sherson	the-quantum-technology-job-market-data-driven-analysis-of-3641-jo	8.1;8.4	analysis of 3641 quantum-technology job posts
+Jacob Friis Sherson	building-europes-quantum-technology-education-community	8.4	European quantum-technology education community (title only)
+Jacob Friis Sherson	a-framework-for-curriculum-transformation-in-quantum-information-	8.4	curriculum transformation in quantum education (title only)
+Jacob Friis Sherson	modelling-assisted-tunneling-on-the-bloch-sphere-using-the-quantu	8.4;1.1	teaching tunnelling with the Quantum Composer (title only)
+Jacob Friis Sherson	the-quantum-technology-open-master-widening-access-to-the-quantum	8.4	open master programme in quantum technology (title only)
+Anders Søndberg Sørensen	steady-state-multiparticle-entanglement-via-dissipative-engineeri	2.2;2.4;1.2	dissipative generation of multi-emitter entanglement in waveguide QED
+Anders Søndberg Sørensen	hybrid-single-ion-atomic-ensemble-node-for-high-rate-remote-entan	7.5;4.3;2.1	hybrid ion-ensemble quantum-network node
+Anders Søndberg Sørensen	single-and-double-click-high-rate-entanglement-generation-between	7.5;4.3	remote entanglement of trapped ions with multiplexed ensembles
+Anders Søndberg Sørensen	impact-of-multimode-sources-on-ensemble-based-quantum-repeaters	7.5;2.2	multimode sources in quantum repeaters
+Anders Søndberg Sørensen	quantum-strategies-to-overcome-classical-multiplexing-limits	7.5;7.1	quantum-network rate limits
+Hans Stærkind	high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima	6.2;6.7;2.1	optical caesium magnetometer for MRI
+Hans Stærkind	precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia	2.1;6.2	precision spectroscopy of caesium (title only)
+Hans Stærkind	optical-magnetometry-for-magnetic-resonance-imaging	6.2;6.7	PhD thesis on optical magnetometry for MRI
+Asger Weeth	intense-laser-nondipole-induced-symmetry-breaking-in-solids	-	high-harmonic generation in solids
+Emil Zeuthen	hybrid-su11-interferometry-in-optomechanics	6.1;2.2;3.3	SU(1,1) interferometry in optomechanics
+Emil Zeuthen	simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m	2.2;3.3;6.1	squeezed light from an optomechanical membrane
+Emil Zeuthen	hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang	6.1;7.5;2.2	hybrid quantum network for entanglement-enhanced sensing (title only)
+Emil Zeuthen	squeezed-light-from-an-oscillator-measured-at-the-rate-of-oscilla	6.1;2.1;2.2	squeezed light from a room-temperature atomic spin oscillator
+Emil Zeuthen	acoustic-frequency-atomic-spin-oscillator-in-the-quantum-regime	6.1;2.1;6.2	quantum-limited atomic spin oscillator for acoustic-band sensing
+Klaus Mølmer	adiabatic-preparation-of-many-body-quantum-states-getting-the-beg	5.2;4.3;2.4	adiabatic state preparation on a Rydberg-atom quantum simulator
+Klaus Mølmer	environment-assisted-generation-of-non-gaussian-wave-packet-quant	2.2;4.1;2.4	non-Gaussian travelling wave packets from engineered dissipation in a superconducting circuit
+Klaus Mølmer	optimal-control-for-rydberg-multi-qubit-operations	4.6;4.3;5.1	optimal control of multi-qubit gates with Rydberg atoms
+Klaus Mølmer	lieb-mattis-states-for-robust-entangled-differential-phase-sensin	6.1;1.2	entanglement-enhanced two-node sensor network for differential phase sensing
+Klaus Mølmer	entangling-power-of-nonentangling-channels	1.2	entanglement theory: when nonentangling operations increase the Schmidt number

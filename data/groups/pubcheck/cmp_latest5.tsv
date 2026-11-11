@@ -1,0 +1,200 @@
+# The five newest research outputs on each CMP member's KU research profile, classified on the CFQT content map
+# from the title, abstract and keywords in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Jens Als-Nielsen	malaria-pigment-crystals-the-achilles-heel-of-the-malaria-parasit	-	X-ray imaging of malaria pigment crystals
+Jens Als-Nielsen	2021-wolf-prize-and-synchrotron-x-ray-radiation-how-it-started	-	history of synchrotron X-ray radiation
+Brian Møller Andersen	fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco	2.3	vortices in chiral kagome superconductors
+Brian Møller Andersen	robust-spin-splitting-and-fermiology-in-the-layered-altermagnet	2.3	spin splitting in a layered altermagnet
+Brian Møller Andersen	protection-of-unconventional-superconductivity-from-disorder	2.3	disorder and unconventional superconductivity
+Brian Møller Andersen	zero-field-superconducting-vortices-and-majorana-zero-modes-pinne	2.3;4.5	Majorana zero modes pinned by magnetic islands
+Brian Møller Andersen	nonreciprocal-equilibrium-josephson-effect-of-arbitrary-periodici	2.3;4.5	Josephson diode from poor man's Majorana modes
+Christine Wei Andersson	hybrid-josephson-rhombus-a-superconducting-element-with-tailored-	4.1;2.3	superconducting circuit element with tailored current-phase relation (title only)
+Christine Wei Andersson	voltage-controlled-synthesis-of-higher-harmonics-in-hybrid-joseph	4.1;2.3	higher Josephson harmonics in hybrid circuits (title only)
+Bjarne Andresen	the-first-half-century-of-finite-time-thermodynamics	-	finite-time thermodynamics (title only)
+Bjarne Andresen	lyapunov-thermodynamic-stability-of-the-evolution-of-conservative	-	thermodynamic stability of chemical equilibrium (title only)
+Bjarne Andresen	stepwise-approximation-of-functions-and-intermediate-equilibria-i	-	thermodynamics (title only)
+Bjarne Andresen	diffusion-and-kinetic-theory-on-very-long-time-and-large-space-sc	-	diffusion and kinetic theory (title only)
+Bjarne Andresen	thermodynamic-stability-theories-of-irreversible-processes-and-th	-	irreversible thermodynamics (title only)
+Mats Ola Erik Barkman	fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco	2.3	vortices in chiral kagome superconductors
+Mats Ola Erik Barkman	inherent-momentum-dependent-gap-structure-of-altermagnetic-superc	2.3	superconductivity in altermagnets
+David Feldstein Bofill	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+David Feldstein Bofill	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+David Feldstein Bofill	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+David Feldstein Bofill	andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin	4.5;4.1;2.3	relaxation of Andreev spin qubits in InAs weak links
+David Feldstein Bofill	engineering-tunable-josephson-harmonics-in-a-superconducting-qubi	4.1;4.6	PhD thesis on tunable Josephson harmonics in a qubit (title only)
+Heloisa Nunes Bordallo	neutron-reflection-properties-of-si111-single-crystals-for-applic	-	neutron spectrometer crystals
+Heloisa Nunes Bordallo	probing-crystallization-of-cocoa-butter-via-thermal-and-x-ray-tec	-	crystallisation of cocoa butter
+Heloisa Nunes Bordallo	disentangling-interlayer-confinement-and-pore-surface-adsorption-	-	ethylene capture in clays
+Heloisa Nunes Bordallo	collective-intermolecular-motions-of-water-in-sodium-montmorillon	-	water dynamics in clay gels
+Heloisa Nunes Bordallo	hierarchical-porosity-and-electrolyte-compatibility-in-carbon-bas	-	carbon supercapacitors
+Fanny Vinas Boström	spin-photon-coupling-using-circular-double-quantum-dots	4.2;2.2;4.1	microwave spin-photon interface with a double quantum dot
+Bertram Seck Brovang	automated-iin-situi-optimization-and-disorder-mitigation-in-a-qua	3.4;4.2;3.5	automated tuning of a quantum point-contact device
+Bertram Seck Brovang	gate-reflectometry-in-dense-quantum-dot-arrays	4.2;3.4	gate reflectometry readout of silicon spin-qubit arrays
+Bertram Seck Brovang	autonomous-estimation-of-high-dimensional-coulomb-diamonds-from-s	3.4;4.2;3.5	automated characterisation of quantum-dot arrays
+Bertram Seck Brovang	estimation-of-convex-polytopes-for-automatic-discovery-of-charge-	3.4;4.2;3.5	machine learning for charge-state tuning of quantum-dot arrays
+Jose Manuel Chavez-Garcia	andreev-interferometers-based-on-quantum-point-contacts	2.3;4.5	PhD thesis on Andreev interferometers in hybrid circuits
+Jose Manuel Chavez-Garcia	weakly-flux-tunable-superconducting-qubit	4.1;4.6	weakly flux-tunable superconducting qubit
+Jose Manuel Chavez-Garcia	gate-tunable-transmon-using-selective-area-grown-superconductor-s	4.1;4.5;3.2	gatemon qubit from selective-area-grown nanowires on silicon
+Jose Manuel Chavez-Garcia	integration-of-topological-insulator-josephson-junctions-in-super	4.1;4.5;3.2	topological-insulator Josephson junctions in qubit circuits
+Daniel Lomholt Christensen	simulating-neutron-diffraction-from-deformed-mosaic-crystals-in-m	-	neutron instrument simulation
+Daniel Lomholt Christensen	piecewise-linear-approximation-of-elliptical-neutron-guidesa-case	-	neutron guide design
+Morten Holm Christensen	protection-of-unconventional-superconductivity-from-disorder	2.3	disorder and unconventional superconductivity
+Morten Holm Christensen	odd-parity-magnetism-in-fe-based-superconductors-with-coplanar-ma	2.3	odd-parity magnetism in iron-based superconductors
+Morten Holm Christensen	electronic-and-structural-properties-of-rh-and-pd-based-kagome-la	2.3	electronic structure of kagome shandites
+Morten Holm Christensen	microscopic-origin-of-the-nematoelastic-coupling-and-dynamics-of-	2.3;2.4	nematic order coupled to phonons
+Morten Holm Christensen	evidence-for-time-reversal-symmetry-breaking-kagome-superconducti	2.3	kagome superconductivity (title only)
+Hans Christiansen	highly-deformed-rotational-structure-in-the-near-spherical-nucleu	-	nuclear structure
+Hans Christiansen	reduced-basis-method-for-driven-dissipative-quantum-systems	2.4;3.5	numerical method for driven-dissipative many-body quantum systems
+Hans Christiansen	quasiparticle-interference-of-spin-triplet-superconductors-applic	2.3	quasiparticle interference in spin-triplet superconductors
+Hans Christiansen	nodal-superconducting-gap-structure-and-topological-surface-state	2.3	gap structure of UTe2 (title only)
+Hans Christiansen	cosmological-test-of-an-ultraviolet-origin-of-dark-energy	-	cosmology
+Anders Erik Enevold Dahl	directional-conductance-of-andreev-crystals-in-hybrid-josephson-j	2.3;4.5	Andreev crystals in hybrid Josephson arrays
+Anders Erik Enevold Dahl	phase-biased-andreev-diffraction-grating	2.3;4.5	phase-biased Andreev states (title only)
+Anders Erik Enevold Dahl	phase-controlled-minimal-kitaev-chain-in-multiterminal-josephson-	4.5;2.3	minimal Kitaev chain for Majorana modes (title only)
+Anders Erik Enevold Dahl	fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-	4.1;4.6	fast control of a flux qubit (title only)
+Anders Erik Enevold Dahl	phase-control-in-superconductor-semiconductor-hybrids-andreev-cry	2.3;4.5	PhD thesis on phase control in hybrids (title only)
+Reuel Dsouza	odd-parity-magnetism-in-fe-based-superconductors-with-coplanar-ma	2.3	odd-parity magnetism in iron-based superconductors
+Robert Feidenhans'l	towards-scanning-nanostructure-x-ray-microscopy	-	X-ray microscopy (title only)
+Robert Feidenhans'l	3d-synchrotron-imaging-of-muscle-tissues-at-different-atrophic-st	-	synchrotron imaging of muscle tissue
+Karsten Flensberg	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Karsten Flensberg	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Karsten Flensberg	adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states	4.5;2.3;5.1	braiding of imperfect Majorana bound states
+Karsten Flensberg	directional-conductance-of-andreev-crystals-in-hybrid-josephson-j	2.3;4.5	Andreev crystals in hybrid Josephson arrays
+Karsten Flensberg	non-hermitian-skin-effect-and-electronic-nonlocal-transport	2.4;2.3	non-Hermitian skin effect in nanowire transport
+Jannik Gondolf	inherent-momentum-dependent-gap-structure-of-altermagnetic-superc	2.3	superconductivity in altermagnets
+Jannik Gondolf	local-signatures-of-altermagnetism	2.3	altermagnetism (title only)
+Per Hedegård	atomic-scale-engineering-of-d-%CF%80-d-spin-interaction-in-metal-organ	2.3	spin interactions in metal-organic structures
+Per Hedegård	ferrimagnetic-state-of-the-metal-organic-framework-crclsub2subpyz	2.3	magnetism of a metal-organic framework (title only)
+Per Hedegård	proteolytic-performance-is-dependent-on-binding-efficiency-proces	-	single-protease biophysics
+Per Hedegård	spin-dynamics-and-chirality-induced-spin-selectivity	2.3	chirality-induced spin selectivity (title only)
+Per Hedegård	observation-of-biradical-spin-coupling-through-hydrogen-bonds	2.3	spin coupling of molecular radicals measured by STM
+Jens Jensen	inducing-ferroquadrupolar-order-with-applied-magnetic-field-in-tb	2.3	field-induced quadrupolar order in a magnet
+Jens Jensen	magnetic-bloch-oscillations-and-domain-wall-dynamics-in-a-near-is	2.3;2.4	magnetic Bloch oscillations in an Ising chain (title only)
+Erik Johnson	dynamics-of-thermal-motion-of-liquid-lead-nanoinclusions-attached	-	electron microscopy of alloy inclusions
+Erik Johnson	superconductivity-and-parity-preservation-in-as-grown-in-islands-	3.2;2.3;4.5	indium islands on InAs nanowires for hybrid devices
+Erik Johnson	epitaxial-pb-on-inas-nanowires-for-quantum-devices	3.2;4.5	lead-InAs hybrid nanowires (title only)
+Jacob Judas Kain Kirkensgaard	a-stage-dependent-mechanism-of-high-amylose-starch-gelation-amylo	-	starch gelation
+Jacob Judas Kain Kirkensgaard	hyperbolic-confinement-self-assembly-of-asymmetric-diblock-co-pol	-	polymer self-assembly
+Jacob Judas Kain Kirkensgaard	multiscale-characterizationof-thermoresponsive-polyn-vinylcaprola	-	polymers for drug delivery
+Jacob Judas Kain Kirkensgaard	solvent-drivenmicrodomain-ordering-in-pi-ps-pmmamiktoarm-star-pol	-	star polymer morphology
+Jacob Judas Kain Kirkensgaard	probing-crystallization-of-cocoa-butter-via-thermal-and-x-ray-tec	-	crystallisation of cocoa butter
+Morten Kjaergaard	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Morten Kjaergaard	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Morten Kjaergaard	real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su	4.1;3.4;6.1	adaptive real-time tracking of decoherence in superconducting qubits
+Morten Kjaergaard	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+Morten Kjaergaard	andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin	4.5;4.1;2.3	relaxation of Andreev spin qubits in InAs weak links
+Kristine Marie Løfgren Krighaar	accurate-simulations-of-magnetic-excitations-in-the-neutron-simul	-	neutron instrument simulation (title only)
+Kristine Marie Løfgren Krighaar	ground-state-magnetic-structure-of-mnsub3subsn	2.3	magnetic structure of Mn3Sn by neutron polarimetry
+Kristine Marie Løfgren Krighaar	emergence-of-low-energy-spin-waves-in-superconducting-electron-do	2.3	spin waves in superconducting cuprates
+Kristine Marie Løfgren Krighaar	refined-spin-hamiltonian-on-the-cairo-pentagonal-lattice-of-bisub	2.3	spin dynamics of a frustrated magnet
+Kristine Marie Løfgren Krighaar	probing-low-energy-magnetic-dynamics-in-cuprates-neutron-spectros	2.3	PhD thesis on neutron spectroscopy of cuprates (title only)
+William Iain Leonard Lawrie	a-quantum-dot-in-germanium-proximitized-by-a-superconductor	4.2;4.5;2.3	superconductor-proximitised germanium quantum dot
+William Iain Leonard Lawrie	exciton-transport-in-a-germanium-quantum-dot-ladder	4.2;5.2	exciton transport in a germanium quantum-dot array (title only)
+William Iain Leonard Lawrie	simultaneous-single-qubit-driving-of-semiconductor-spin-qubits-at	4.2;4.6;5.3	high-fidelity simultaneous control of semiconductor spin qubits
+William Iain Leonard Lawrie	low-percolation-density-and-charge-noise-with-holes-in-germanium	3.2;4.2	low-noise germanium heterostructures for hole spin qubits
+Kim Lefmann	direct-detection-of-hydrogen-reveals-a-new-macroscopic-crustal-wa	-	planetary science (title only)
+Kim Lefmann	solvothermal-vapor-annealing-and-environmental-control-setup-with	-	X-ray scattering sample environment
+Kim Lefmann	accurate-simulations-of-magnetic-excitations-in-the-neutron-simul	-	neutron instrument simulation (title only)
+Kim Lefmann	approximate-resolution-convolution-function-for-fitting-a-dispers	-	neutron spectrometer resolution (title only)
+Kim Lefmann	complex-magnetic-interactions-in-geometrically-frustrated-tbof	2.3	frustrated magnetism in TbOF
+Emma Ynill Lenander	accurate-simulations-of-magnetic-excitations-in-the-neutron-simul	-	neutron instrument simulation (title only)
+Emma Ynill Lenander	approximate-resolution-convolution-function-for-fitting-a-dispers	-	neutron spectrometer resolution (title only)
+Emma Ynill Lenander	refined-spin-hamiltonian-on-the-cairo-pentagonal-lattice-of-bisub	2.3	spin dynamics of a frustrated magnet
+Emma Ynill Lenander	characterizing-the-diffuse-continuum-excitations-in-the-classical	2.3	excitations in a classical spin liquid
+Nicolas Loizeau	opening-krylov-space-to-access-all-time-dynamics-via-dynamical-sy	2.4;1.2	dynamics of closed quantum many-body systems
+Nicolas Loizeau	quantum-mereology-and-subsystems-from-the-spectrum	1.1;1.2;2.4	how subsystems emerge from the spectrum of a quantum system
+Magnus Rønne Lykkegaard	phase-biased-andreev-diffraction-grating	2.3;4.5	phase-biased Andreev states (title only)
+Charles M. Marcus	from-two-dimensions-to-wire-networks-in-hybrid-josephson-arrays	2.3;2.4	hybrid superconductor-semiconductor Josephson arrays
+Charles M. Marcus	long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson	2.3;2.4	phase coherence in hybrid Josephson-junction arrays imaged with scanning SQUID
+Charles M. Marcus	voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep	2.3;2.4	superconductor-metal-insulator transitions in hybrid Josephson-junction arrays
+Charles M. Marcus	phase-biased-andreev-diffraction-grating	2.3;4.5	phase-biased Andreev states (title only)
+Charles M. Marcus	cooper-pair-splitters-as-circuit-elements-for-realizing-topologic	4.5;2.3	Cooper-pair splitters for topological superconductors (title only)
+Kristian Knakkergaard Nielsen	magnetic-domains-stabilized-by-symmetry-protected-zero-modes	2.4	non-ergodic dynamics in quantum spin chains
+Kristian Knakkergaard Nielsen	spin-charge-bound-states-and-emerging-fermions-in-a-quantum-spin-	2.4;2.3	holes in a quantum spin liquid
+Kristian Knakkergaard Nielsen	beyond-fragmented-dopant-dynamics-in-quantum-spin-lattices-robust	2.4;2.3	dopant dynamics in quantum spin lattices
+Kristian Knakkergaard Nielsen	dual-spectroscopy-of-quantum-simulated-fermi-hubbard-systems	5.2;2.4;2.1	spectroscopy of quantum-simulated Fermi-Hubbard systems (title only)
+Malthe Asmus Marciniak Nielsen	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Malthe Asmus Marciniak Nielsen	real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su	4.1;3.4;6.1	adaptive real-time tracking of decoherence in superconducting qubits
+Jesper Nygård	nanoscale-photonic-artificial-neuron-with-biological-signal-proce	-	nanowire photonic neuron (title only, not quantum)
+Jesper Nygård	heteroatomic-andreev-molecule-in-a-superconducting-islanddouble-q	2.3;4.5	Andreev molecule in a hybrid quantum-dot device (title only)
+Jesper Nygård	approaching-the-ultrastrong-coupling-regime-between-an-andreev-le	4.5;4.1;2.2	Andreev level ultrastrongly coupled to a microwave resonator
+Jesper Nygård	multimode-operation-of-a-superconducting-nanowire-switch-in-the-n	3.4;4.1	superconducting nanowire switch (title only)
+Jesper Nygård	on-chip-optical-communication-to-small-footprint-nanowire-neurons	-	optical link to nanowire neurons (title only, not quantum)
+Jens Havgaard Nyhegn	exciton-interacting-with-the-phonons-of-an-electronic-wigner-crys	2.3;2.4	excitons and Wigner-crystal phonons in 2D materials
+Dags Olsteins	cryogenic-performance-of-field-effect-transistors-and-amplifiers-	3.4;3.2	cryogenic nanowire transistors for qubit control electronics
+Dags Olsteins	shadowed-versus-etched-superconductorsemiconductor-junctions-in-a	3.2;2.3;4.5	fabrication of Al/InAs nanowire junctions (title only)
+Dags Olsteins	statistical-reproducibility-of-selective-area-grown-inas-nanowire	3.2	reproducibility of selective-area-grown nanowire devices (title only)
+Dags Olsteins	cryogenic-multiplexing-using-selective-area-grown-nanowires	3.4;3.2	cryogenic multiplexers from nanowires (title only)
+Dags Olsteins	epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano	3.2;4.5;2.3	tin-based hybrid nanowires for quantum devices
+Jens Paaske	terahertz-response-of-confined-electron-hole-pair-crossover-betwe	2.3	THz response of excitons in nanocrystals
+Jens Paaske	nematostriction-in-frustrated-two-dimensional-classical-heisenber	-	classical frustrated magnets
+Jens Paaske	synchronizing-microwave-circuit-quantum-electrodynamics-limit-cyc	2.4;4.1;2.2	synchronisation of driven-dissipative circuit-QED oscillators
+Jens Paaske	reduced-basis-method-for-driven-dissipative-quantum-systems	2.4;3.5	numerical method for driven-dissipative many-body quantum systems
+Jens Paaske	yu-shiba-rusinov-states-in-color-superconducting-quark-matter	-	nuclear and particle physics (title only)
+Amalie Terese Jiao Paulsen	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Frederik Alexander Stege Philipsen	fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco	2.3	vortices in chiral kagome superconductors
+Torbjørn Raasø Rasmussen	autonomous-bootstrapping-of-quantum-dot-devices	3.4;4.2;3.5	automated start-up of quantum-dot devices (title only)
+Torbjørn Raasø Rasmussen	automated-iin-situi-optimization-and-disorder-mitigation-in-a-qua	3.4;4.2;3.5	automated tuning of a quantum point-contact device
+Torbjørn Raasø Rasmussen	data-needs-and-challenges-for-quantum-dot-devices-automation	3.5;3.4;4.2	data for automating quantum-dot devices (title only)
+Torbjørn Raasø Rasmussen	real-time-two-axis-control-of-a-spin-qubit	4.2;4.6;3.4	real-time feedback control of a spin qubit (title only)
+Torbjørn Raasø Rasmussen	gate-reflectometry-in-dense-quantum-dot-arrays	4.2;3.4	gate reflectometry readout of silicon spin-qubit arrays
+Christian Lukas H Rasmussen	inherent-momentum-dependent-gap-structure-of-altermagnetic-superc	2.3	superconductivity in altermagnets
+Daniel Steve Sanchez	control-of-andreev-bound-states-using-superconducting-phase-textu	2.3;4.5	Andreev bound states in planar Josephson junctions
+Daniel Steve Sanchez	tunable-topologically-driven-fermi-arc-van-hove-singularities	2.3	topological electronic structure
+Daniel Steve Sanchez	quantum-phases-and-dynamics-of-hybrid-josephson-lattices	2.3;2.4	hybrid Josephson lattices (title only)
+Rasmus Dalsgaard Schlosser	nanoscale-photonic-artificial-neuron-with-biological-signal-proce	-	nanowire photonic neuron (title only, not quantum)
+Rasmus Dalsgaard Schlosser	on-chip-optical-communication-to-small-footprint-nanowire-neurons	-	optical link to nanowire neurons (title only, not quantum)
+Rasmus Dalsgaard Schlosser	optoelectronic-nanowire-neuron	-	optoelectronic nanowire neuron (title only, not quantum)
+Rasmus Dalsgaard Schlosser	shadowed-versus-etched-superconductorsemiconductor-junctions-in-a	3.2;2.3;4.5	fabrication of Al/InAs nanowire junctions (title only)
+Rasmus Dalsgaard Schlosser	scalable-platform-for-nanocrystal-based-quantum-electronics	3.2	scalable manufacturing of nanocrystal quantum electronics
+Martin Ulrich Seltmann	uniqueness-graph-theory-approach-to-the-uniqueness-of-non-equilib	2.4;1.2	stationary states of the Lindblad master equation
+Joachim Elbeshausen Sestoft	nanoscale-photonic-artificial-neuron-with-biological-signal-proce	-	nanowire photonic neuron (title only, not quantum)
+Joachim Elbeshausen Sestoft	on-chip-optical-communication-to-small-footprint-nanowire-neurons	-	optical link to nanowire neurons (title only, not quantum)
+Joachim Elbeshausen Sestoft	optoelectronic-nanowire-neuron	-	optoelectronic nanowire neuron (title only, not quantum)
+Joachim Elbeshausen Sestoft	flexible-fabrication-of-aligned-multi-nanowire-circuits-for-on-ch	3.2	multi-nanowire circuit fabrication (title only)
+Joachim Elbeshausen Sestoft	direct-on-chip-optical-communication-between-nano-optoelectronic-	3.3;3.2	on-chip optical links between nanowire devices (title only)
+Johann Bock Severin	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Ksenia Shagalov	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Ksenia Shagalov	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Pawel Tadeusz Sidorczak	pbtesnte-heterostructures-candidate-platform-for-studying-spin-tr	2.3;3.2	spin-triplet superconductivity in PbTe/SnTe heterostructures
+Shikhar Singh	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Shikhar Singh	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+Henrik Smith	search-for-new-phenomena-in-three-or-four-lepton-events-in-pp-col	-	particle physics at the LHC (likely another person of the same name)
+Oliver Ovsée Laub Solow	non-hermitian-skin-effect-and-electronic-nonlocal-transport	2.4;2.3	non-Hermitian skin effect in nanowire transport
+Oliver Ovsée Laub Solow	signatures-of-exceptional-points-in-multiterminal-superconductorn	2.4;2.3	exceptional points in superconductor junctions (title only)
+Gorm Ole Steffensen	direct-transport-between-superconducting-subgap-states-in-a-doubl	2.3;4.5	transport between Yu-Shiba-Rusinov states in a double quantum dot
+Gorm Ole Steffensen	spatially-dispersing-yu-shiba-rusinov-states-in-the-unconventiona	2.3;4.5	in-gap states in an iron-based superconductor by STM
+Gorm Ole Steffensen	ysr-states-in-double-quantum-dots-transport-and-bound-state-dynam	2.3;4.5	PhD thesis on Yu-Shiba-Rusinov states in double quantum dots
+Yao Su	a-quantum-dot-in-germanium-proximitized-by-a-superconductor	4.2;4.5;2.3	superconductor-proximitised germanium quantum dot
+Saulius Vaitiekenas	from-two-dimensions-to-wire-networks-in-hybrid-josephson-arrays	2.3;2.4	hybrid superconductor-semiconductor Josephson arrays
+Saulius Vaitiekenas	spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir	2.3;4.5	spin-split superconductivity in hybrid InAs/EuS/Al nanowires
+Saulius Vaitiekenas	long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson	2.3;2.4	phase coherence in hybrid Josephson-junction arrays imaged with scanning SQUID
+Saulius Vaitiekenas	voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep	2.3;2.4	superconductor-metal-insulator transitions in hybrid Josephson-junction arrays
+Saulius Vaitiekenas	toward-single-photon-detection-with-superconducting-niobium-disel	3.3;6.5;3.2	superconducting nanowire single-photon detectors from NbSe2
+Vasileios Vlachodimitropoulos	spin-spectroscopy-of-a-hybrid-superconducting-nanowire-using-side	2.3;4.5	spin spectroscopy of hybrid nanowires with quantum dots (title only)
+Vasileios Vlachodimitropoulos	towards-parity-lifetime-measurements-of-quantum-dots-coupled-to-s	4.5;2.3	parity lifetimes of quantum dots coupled to superconductors (title only)
+Casper Wied	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;4.5;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Casper Wied	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;4.6	tunable Josephson harmonics in a transmon qubit
+Casper Wied	gatemon-qubit-revisited-for-improved-reliability-and-stability	4.1;4.5;3.2	more stable gate-tunable transmon (gatemon) qubits
+Steffen Zelzer	origin-of-surface-and-subband-states-at-the-inas111a-surface	3.2;2.3	surface states of InAs for quantum devices
+Steffen Zelzer	scale-dependent-optimized-homoepitaxy-of-inas111a	3.2	molecular-beam epitaxy of InAs surfaces
+Steffen Zelzer	scanning-tunnelling-microscopy-of-molecular-beam-epitaxy-grown-in	3.2;2.3	STM of InAs quantum wells (title only)
+Damon James Carrad	%CE%BC2tn-a-method-for-extracting-the-density-dependent-mobility-in-tw	3.2	mobility extraction in nanodevices (title only)
+Damon James Carrad	cryogenic-performance-of-field-effect-transistors-and-amplifiers-	3.4;3.2	cryogenic nanowire transistors for qubit control electronics
+Damon James Carrad	direct-device-integration-of-single-1d-nanoparticle-assemblies-a-	-	magnetic nanoparticle chains
+Damon James Carrad	scale-dependent-growth-modes-of-selective-area-grown-iiiv-nanowir	3.2	selective-area nanowire growth (title only)
+Damon James Carrad	statistical-reproducibility-of-selective-area-grown-inas-nanowire	3.2	reproducibility of selective-area-grown nanowire devices (title only)
+Chia-Min Chung	simulations-of-the-dynamics-of-quantum-impurity-problems-with-mat	2.4;3.5	matrix-product-state simulation of quantum-dot impurity dynamics
+Chia-Min Chung	topological-kondo-model-out-of-equilibrium	2.4;4.5	topological Kondo model (title only)
+Chia-Min Chung	matrix-product-state-simulations-of-quantum-quenches-and-transpor	2.4;2.3	simulations of superconducting devices (title only)
+Chia-Min Chung	zn-lattice-gauge-theory-in-a-ladder-geometry	5.2;2.4	lattice gauge theories for analogue quantum simulation
+Fernando Gabriel Benitez Jara	hierarchical-porosity-and-electrolyte-compatibility-in-carbon-bas	-	carbon supercapacitors
+Yiran Jin	quasielastic-neutron-scattering-reveals-anisotropic-water-transpo	-	water transport in clay films
+Yu Liu	spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir	2.3;4.5	spin-split superconductivity in hybrid InAs/EuS/Al nanowires
+Yu Liu	percolative-supercurrent-in-superconductorferromagnetic-insulator	2.3	supercurrent in superconductor-ferromagnetic insulator bilayers (title only)
+Yu Liu	a-statistical-framework-for-multi-trait-rare-variant-analysis-in-	-	genetics (likely another person of the same name)
+Yu Liu	a-highly-sensitive-sensor-for-carcinoembryonic-antigen-based-on-a	-	biosensor (likely another person of the same name)
+Yu Liu	gate-tunable-kinetic-inductance-in-proximitized-nanowires	4.5;4.1;2.3	gate-tunable kinetic inductance of hybrid nanowires
+hwg706 (name not shown in the portal)	crosses-and-flowers-investigating-superstructures-in-the-high-tc-	2.3	superstructures in a cuprate superconductor (title only)
+hwg706 (name not shown in the portal)	network-analyses-of-student-engagement-with-on-line-textbook-prob	-	physics education research

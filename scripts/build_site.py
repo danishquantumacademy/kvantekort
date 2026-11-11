@@ -467,7 +467,7 @@ for g in gcfg["groups"]:
                 if l5:
                     pw = {r[3]: pcheck[g["key"]]["w"][r[0]] for r in pcm["rows"] if len(r) > 3}
                     members[-1]["l5"] = [{"t": pw[x["slug"]][0] if x["slug"] in pw else x["slug"], "d": (pw[x["slug"]][4] if x["slug"] in pw else ""),
-                                          "u": f"https://researchprofiles.ku.dk/en/publications/{x['slug']}/", "s": x["subs"], "b": x["basis"]} for x in l5]
+                                          "u": f"{g['portal_base']}/en/publications/{x['slug']}/", "s": x["subs"], "b": x["basis"]} for x in l5]
                     members[-1]["ev"] = [[x["s"], x["t"][:160], "l"] for x in members[-1]["l5"] if x["s"]]
                     cnt = {}
                     for x in l5:
@@ -512,7 +512,7 @@ for g in gcfg["groups"]:
         pubs = []
         for wi in top:
             w = pc["w"][wi]; slug = next((sl for _, sl in byw[wi] if sl), "")
-            url = f"https://researchprofiles.ku.dk/en/publications/{slug}/" if slug else f"https://researchprofiles.ku.dk/en/persons/{byw[wi][0][0]['slug']}/publications/"
+            url = f"{g['portal_base']}/en/publications/{slug}/" if slug else f"{g['portal_base']}/en/persons/{byw[wi][0][0]['slug']}/publications/"
             pubs.append({"title": w[0], "url": url, "cite": f"{_fmt(w[4] if len(w) > 4 and w[4] else str(w[1]))} · {TYN.get(w[2], 'Research output')} · on the profile of " + ", ".join(m["n"] for m, _ in byw[wi])})
     gcfqt, gcfqt_n = sort_subs(g["cfqt"]), None
     l5g = {}

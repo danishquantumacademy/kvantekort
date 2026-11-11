@@ -90,9 +90,9 @@ def build(key):
                 arxiv[cur].append((thash(t), d, aid, t))
     mm = DIR / f"{key}_mismatch.txt"
     mismatch = {int(x) for x in mm.read_text().split() if x.isdigit()} if mm.exists() else set()
-    people = []
+    people, line_cnt = [], {}
     for line in filter(str.strip, lines[i + 1:]):
-        n, slug, orc, osrc, oaid, amb, nop, items = line.split("|")
+        n, slug, orc, osrc, oaid, amb, nop, items, *cnt = line.split("|")  # cnt: "profile/elsewhere" from a compact harvest
         its = {}
         for it in filter(None, items.split(",")):
             m = re.match(r"(\d+)([poax]+)", it)
@@ -141,13 +141,16 @@ def build(key):
             st = "mismatch" if k in mismatch else "excluded" if W[k]["nr"] else "profile" if "p" in f else "elsewhere"
             rows.append([k, "".join(s for s in "poax" if s in f), st] + ([slugs[k]] if k in slugs else []))
         rows.sort(key=lambda r: (W[r[0]]["d"] or "0"), reverse=True)
-        people.append({"n": n, "slug": slug, "orcid": orc, "osrc": osrc, "oa": oaid, "amb": int(amb), "noportal": int(nop), "rows": rows})
+        people.append({"n": n, "slug": slug, "orcid": orc, "osrc": osrc, "oa": oaid, "amb": int(amb), "noportal": int(nop), "rows": rows, "cnt": cnt[0] if cnt else ""})
+        if cnt: line_cnt[n] = cnt[0]
     used = sorted({r[0] for p in people for r in p["rows"]})
     remap = {k: j for j, k in enumerate(used)}
     for p in people:
         p["rows"] = [[remap[r[0]]] + r[1:] for r in p["rows"]]
         for s in ("profile", "elsewhere"):
             p["n_" + s] = sum(1 for r in p["rows"] if r[2] == s)
+        if p.pop("cnt"):  # compact harvest: only the newest outputs are listed, the counts come from the harvest
+            p["n_profile"], p["n_elsewhere"] = map(int, line_cnt[p["n"]].split("/"))
     m = re.search(r"read (\d{1,2} \w+ \d{4}|\d{4}-\d{2}-\d{2})", pf.read_text(encoding="utf-8").split("\n", 1)[0]) if pf.exists() else None
     import datetime
     rd = (datetime.datetime.strptime(m[1], "%d %B %Y").strftime("%Y-%m-%d") if m and not m[1][:4].isdigit() else m[1] if m else "")

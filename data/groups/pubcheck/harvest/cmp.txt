@@ -1,0 +1,389 @@
+# CMP, compact harvest 11 November 2026 (KU research portal + ORCID; OpenAlex for 61 members, the rest after the daily limit).
+#M|Jens Als-Nielsen|~jens-als-nielsen/|||0
+#N|2|0
+p|19qqylk|2021-03-19|J|malaria-pigment-crystals-the-achilles-heel-of-the-malaria-parasit|||Malaria Pigment Crystals: The Achilles ' Heel of the Malaria Parasite
+p|5uqmce|2021|J|=|||2021 Wolf Prize and Synchrotron X-Ray Radiation – How it Started
+#M|Brian Møller Andersen|~brian-m%C3%B8ller-andersen/|0000-0002-9786-7553||0
+#N|51|3
+p|584avt|2026-10-19|J|fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco|||Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors
+p|66dq5t|2026-10-18|J|=|||Robust Spin Splitting and Fermiology in the Layered Altermagnet
+p|1g3760s|2026-09-25|J|=|||Protection of Unconventional Superconductivity from Disorder
+p|2afptb|2026-08-12|J|zero-field-superconducting-vortices-and-majorana-zero-modes-pinne|||Zero-field superconducting vortices and Majorana zero modes pinned by magnetic islands in correlated Rashba...
+p|13mowwl|2026-06-12|J|nonreciprocal-equilibrium-josephson-effect-of-arbitrary-periodici|||Nonreciprocal equilibrium Josephson effect of arbitrary periodicity from poor man's Majorana zero modes
+p|1gyfgqj|2026-05-14|J|inherent-momentum-dependent-gap-structure-of-altermagnetic-superc|||Inherent momentum-dependent gap structure of altermagnetic superconductors
+#M|Christine Wei Andersson|~christine-wei-andersson/|||0
+#N|2|0
+p|14lri5i|2025-02-04|J|hybrid-josephson-rhombus-a-superconducting-element-with-tailored-|||Hybrid Josephson Rhombus: A Superconducting Element with Tailored Current-Phase Relation
+p|1dfgdx2|2024-10-31|L|voltage-controlled-synthesis-of-higher-harmonics-in-hybrid-joseph|||Voltage-Controlled Synthesis of Higher Harmonics in Hybrid Josephson Junction Circuits
+#M|Bjarne Andresen|~bjarne-andresen/|0000-0003-2657-3424||0
+#N|15|0
+p|1l3acib|2026-04-17|R|=|||The First Half Century of Finite-Time Thermodynamics
+p|19470of|2026-02-11|J|lyapunov-thermodynamic-stability-of-the-evolution-of-conservative|||Lyapunov Thermodynamic Stability of the Evolution of Conservatively Perturbed Chemical Equilibrium
+p|1ovwprt|2026|J|stepwise-approximation-of-functions-and-intermediate-equilibria-i|||Stepwise approximation of functions and intermediate equilibria in thermodynamics
+p|11606sz|2024-11-30|J|diffusion-and-kinetic-theory-on-very-long-time-and-large-space-sc|||Diffusion and Kinetic Theory on Very Long Time and Large Space Scales
+p|sej83u|2024-05-24|J|thermodynamic-stability-theories-of-irreversible-processes-and-th|||Thermodynamic Stability Theories of Irreversible Processes and the Fourth Law of Thermodynamics
+p|x9ui7w|2024-05-10|J|=|||Scaling the barrier
+#M|Mats Ola Erik Barkman|~mats-ola-erik-barkman/|||0
+#N|2|0
+p|584avt|2026-10-19|J|fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco|||Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors
+p|1gyfgqj|2026-05-14|J|inherent-momentum-dependent-gap-structure-of-altermagnetic-superc|||Inherent momentum-dependent gap structure of altermagnetic superconductors
+#M|David Feldstein Bofill|~david-feldstein-bofill/|||0
+#N|5|0
+p|oi0kt4|2026-07-30|J|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|2ovats|2025-10-30|J|=|||Gatemon qubit revisited for improved reliability and stability
+p|84qi7c|2025-08-19|J|andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin|||Andreev spin relaxation time in a shadow-evaporated InAs weak link
+p|4ww1v9||T|engineering-tunable-josephson-harmonics-in-a-superconducting-qubi|||Engineering Tunable Josephson Harmonics in a Superconducting Qubit
+#M|Heloisa Nunes Bordallo|~heloisa-nunes-bordallo/|0000-0003-0750-0553||0
+#N|55|5
+p|25kx66|2026-07-24|J|neutron-reflection-properties-of-si111-single-crystals-for-applic|||Neutron reflection properties of Si(111) single crystals for application in a backscattering spectrometer: ...
+p|48fwoo|2026-07-02|J|probing-crystallization-of-cocoa-butter-via-thermal-and-x-ray-tec|||Probing crystallization of cocoa butter via thermal and X-ray techniques: solving polymorphic transitions u...
+p|1jxcoyw|2026-05-29|J|disentangling-interlayer-confinement-and-pore-surface-adsorption-|||Disentangling interlayer confinement and pore surface adsorption in functionalized smectites for tunable et...
+p|3fo3aq|2026-03-19|J|collective-intermolecular-motions-of-water-in-sodium-montmorillon|||Collective Intermolecular Motions of Water in Sodium Montmorillonite
+p|se48mm|2026-02-15|J|hierarchical-porosity-and-electrolyte-compatibility-in-carbon-bas|||Hierarchical porosity and electrolyte compatibility in carbon-based supercapacitors: Structure-performance ...
+p|feg1zx|2026-02-15|J|methyl-group-dynamics-and-conformational-flexibility-in-methaceti|||Methyl group dynamics and conformational flexibility in methacetin revealed by neutron spectroscopy
+#M|Fanny Vinas Boström|~fanny-florinda-e-m-j-vinas-bostr%C3%B6m/|||0
+#N|1|0
+p|718w5t|2026-03-10|J|=|||Spin-photon coupling using circular double quantum dots
+#M|Bertram Seck Brovang|~bertram-seck-brovang/|||0
+#N|4|0
+p|6bz41l|2025|J|automated-iin-situi-optimization-and-disorder-mitigation-in-a-qua|||Automated in Situ Optimization and Disorder Mitigation in a Quantum Device
+p|1c2urzl|2023-03-01|J|=|||Gate reflectometry in dense quantum dot arrays
+p|jmqr23|2022-12-14|J|autonomous-estimation-of-high-dimensional-coulomb-diamonds-from-s|||Autonomous Estimation of High-Dimensional Coulomb Diamonds from Sparse Measurements
+p|z65wmm|2022-07-27|J|estimation-of-convex-polytopes-for-automatic-discovery-of-charge-|||Estimation of Convex Polytopes for Automatic Discovery of Charge State Transitions in Quantum Dot Arrays
+#M|Jose Manuel Chavez-Garcia|~jose-manuel-chavez-garcia/|||0
+#N|4|0
+p|1s4s3nw|2025|T|=|||Andreev Interferometers based on Quantum Point Contacts
+p|1u57cmc|2022-09-22|J|=|||Weakly Flux-Tunable Superconducting Qubit
+p|1t29msc|2022-09-16|J|gate-tunable-transmon-using-selective-area-grown-superconductor-s|||Gate-Tunable Transmon Using Selective-Area-Grown Superconductor-Semiconductor Hybrid Structures on Silicon
+p|ypij6l|2022|J|integration-of-topological-insulator-josephson-junctions-in-super|||Integration of Topological Insulator Josephson Junctions in Superconducting Qubit Circuits
+#M|Daniel Lomholt Christensen|~daniel-lomholt-christensen/|||0
+#N|2|0
+p|19rx9hx|2026-02-04|J|simulating-neutron-diffraction-from-deformed-mosaic-crystals-in-m|||Simulating Neutron Diffraction from Deformed Mosaic Crystals in McStas
+p|1qja6gr|2025-02-11|J|piecewise-linear-approximation-of-elliptical-neutron-guidesa-case|||Piecewise Linear Approximation of Elliptical Neutron Guides—A Case Study for BIFROST at ESS
+#M|Morten Holm Christensen|~morten-holm-christensen/|0000-0002-3185-6552||0
+#N|20|0
+p|1g3760s|2026-09-25|J|=|||Protection of Unconventional Superconductivity from Disorder
+p|1vrfa9k|2026-04-17|J|odd-parity-magnetism-in-fe-based-superconductors-with-coplanar-ma|||Odd-parity magnetism in Fe-based superconductors with coplanar magnetic order
+p|xgoi5a|2026-02-17|J|electronic-and-structural-properties-of-rh-and-pd-based-kagome-la|||Electronic and structural properties of Rh- and Pd-based kagome layered shandites from first principles
+p|1g9yp6l|2025-09-29|J|microscopic-origin-of-the-nematoelastic-coupling-and-dynamics-of-|||Microscopic origin of the nematoelastic coupling and dynamics of hybridized collective nematic-phonon excit...
+p|1o3n5vq|2024-08-28|J|evidence-for-time-reversal-symmetry-breaking-kagome-superconducti|||Evidence for time-reversal symmetry-breaking kagome superconductivity
+p|14ajk5v|2023-12-21|J|competing-magnetic-fluctuations-and-orders-in-a-multiorbital-mode|||Competing magnetic fluctuations and orders in a multiorbital model of doped SrCo2As2
+#M|Hans Christiansen|~hans-christiansen/|||0
+#N|5|0
+p|1ob0r37|2026-10-16|J|highly-deformed-rotational-structure-in-the-near-spherical-nucleu|||Highly deformed rotational structure in the near-spherical nucleus 123Te at high spin
+p|15an4ln|2025-12-05|J|=|||Reduced Basis Method for Driven-Dissipative Quantum Systems
+p|1a0e5nq|2025-11-17|J|quasiparticle-interference-of-spin-triplet-superconductors-applic|||Quasiparticle Interference of Spin-Triplet Superconductors: Application to UTe2
+p|9bxlnz|2025-08-08|J|nodal-superconducting-gap-structure-and-topological-surface-state|||Nodal superconducting gap structure and topological surface states of UTe2
+p|a6j5rt|2024|J|=|||Cosmological Test of an Ultraviolet Origin of Dark Energy
+#M|Anders Erik Enevold Dahl|~anders-erik-enevold-dahl/|||0
+#N|5|0
+p|1bs1694|2026-05-11|J|directional-conductance-of-andreev-crystals-in-hybrid-josephson-j|||Directional conductance of Andreev crystals in hybrid Josephson junction arrays
+p|1mz0msc|2025-08-06|J|=|||Phase-Biased Andreev Diffraction Grating
+p|1lruar9|2025-05-30|J|phase-controlled-minimal-kitaev-chain-in-multiterminal-josephson-|||Phase-controlled minimal Kitaev chain in multiterminal Josephson junctions
+p|190n0q6|2024-04-18|J|fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-|||Fast universal control of a flux qubit via exponentially tunable wave-function overlap
+p|10ba14n||T|phase-control-in-superconductor-semiconductor-hybrids-andreev-cry|||Phase Control in Superconductor-Semiconductor Hybrids: Andreev Crystals and Topological Superconductivity
+#M|Kamaldeep Dalal|~kamaldeep-dalal/|||0
+#N|0|0
+#M|Tobias Peter Edwinson|~tobias-peter-edwinson/|||0
+#N|0|0
+#M|Reuel Dsouza|~reuel-dsouza-ej-efternavn/|||0
+#N|1|0
+p|1vrfa9k|2026-04-17|J|odd-parity-magnetism-in-fe-based-superconductors-with-coplanar-ma|||Odd-parity magnetism in Fe-based superconductors with coplanar magnetic order
+#M|Robert Feidenhans'l|~robert-krarup-feidenhansl/|0000-0002-7963-3649||0
+#N|2|0
+p|1flhxsn|2023-08-01|J|=|||Towards scanning nanostructure X-ray microscopy
+p|tzdn5p|2022|J|3d-synchrotron-imaging-of-muscle-tissues-at-different-atrophic-st|||3D synchrotron imaging of muscle tissues at different atrophic stages in stroke and spinal cord injury: a p...
+#M|Karsten Flensberg|~karsten-flensberg/|0000-0002-8311-0103||0
+#N|30|0
+p|oi0kt4|2026-07-30|J|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|c3wpm5|2026-05-21|J|adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states|||Adiabatic non-Abelian braiding of imperfect Majorana bound states
+p|1bs1694|2026-05-11|J|directional-conductance-of-andreev-crystals-in-hybrid-josephson-j|||Directional conductance of Andreev crystals in hybrid Josephson junction arrays
+p|1ob1nwh|2026-04-10|J|=|||Non-Hermitian skin effect and electronic nonlocal transport
+p|1uwe0po|2025-12-08|J|from-kardar-parisi-zhang-scaling-to-soliton-proliferation-in-jose|||From Kardar-Parisi-Zhang Scaling to Soliton Proliferation in Josephson Junction Arrays
+#M|Jannik Gondolf|~jannik-gondolf/|0009-0008-1391-6356||0
+#N|2|3
+p|1gyfgqj|2026-05-14|J|inherent-momentum-dependent-gap-structure-of-altermagnetic-superc|||Inherent momentum-dependent gap structure of altermagnetic superconductors
+p|1qj7hdr|2025-05-21|J|=|||Local signatures of altermagnetism
+#M|Per Hedegård|~per-hedeg%C3%A5rd/|0000-0002-6328-7462||0
+#N|9|1
+p|1cb2mar|2025-12-24|J|atomic-scale-engineering-of-d-%CF%80-d-spin-interaction-in-metal-organ|||Atomic-Scale Engineering of d-π-d Spin Interaction in Metal-Organic Architectures
+p|133ch4a|2025-08-04|J|ferrimagnetic-state-of-the-metal-organic-framework-crclsub2subpyz|||Ferrimagnetic state of the metal-organic framework CrCl2(pyz)2
+p|198g8vn|2024|J|proteolytic-performance-is-dependent-on-binding-efficiency-proces|||Proteolytic Performance Is Dependent on Binding Efficiency, Processivity, and Turnover: Single Protease Ins...
+p|1vwwyo6|2023-09-14|J|=|||Spin dynamics and chirality induced spin selectivity
+p|c1tkx7|2022-06-06|L|=|||Observation of Biradical Spin Coupling through Hydrogen Bonds
+p|21cs4v|2022-04-01|J|theory-of-chirality-induced-spin-selectivity-progress-and-challen|||Theory of Chirality Induced Spin Selectivity: Progress and Challenges
+#M|Jes Henningsen|~jes-henningsen/|||0
+#N|0|0
+#M|Laurits Moestrup Høgel|~laurits-moestrup-h%C3%B8gel/|||0
+#N|0|0
+#M|Jens Jensen|~jens-jensen/|0000-0002-7954-8073||0
+#N|2|0
+p|1ydc5ak|2026-02-06|J|inducing-ferroquadrupolar-order-with-applied-magnetic-field-in-tb|||Inducing Ferroquadrupolar Order with Applied Magnetic Field in TbPO4
+p|jh4feo|2022-05-10|J|magnetic-bloch-oscillations-and-domain-wall-dynamics-in-a-near-is|||Magnetic Bloch oscillations and domain wall dynamics in a near-Ising ferromagnetic chain
+#M|Erik Johnson|~erik-johnson/|||0
+#N|3|0
+p|yjpqh8|2022-09-06|J|dynamics-of-thermal-motion-of-liquid-lead-nanoinclusions-attached|||Dynamics of thermal motion of liquid lead nanoinclusions attached to fixed dislocations coupled in a disloc...
+p|1s0zsr9|2021-12-08|J|superconductivity-and-parity-preservation-in-as-grown-in-islands-|||Superconductivity and Parity Preservation in As-Grown In Islands on InAs Nanowires
+p|1okt3zp|2021-05-10|J|=|||Epitaxial Pb on InAs nanowires for quantum devices
+#M|Marton Kanasz-Nagy|~marton-kanasz-nagy/|0000-0001-8558-8920||0
+#N|0|0
+#M|Jacob Judas Kain Kirkensgaard|~jacob-judas-kain-kirkensgaard/|0000-0001-6265-0314||0
+#N|83|3
+p|pgfv0r|2026-12-15|J|a-stage-dependent-mechanism-of-high-amylose-starch-gelation-amylo|||A stage-dependent mechanism of high-amylose starch gelation: amylose-associated early differentiation and b...
+p|1nvg0bj|2026-08-14|J|hyperbolic-confinement-self-assembly-of-asymmetric-diblock-co-pol|||Hyperbolic confinement: self-assembly of asymmetric diblock co-polymers on triply periodic minimal surfaces
+p|64g6g7|2026-08-10|J|multiscale-characterizationof-thermoresponsive-polyn-vinylcaprola|||Multiscale Characterizationof Thermoresponsive Poly(N-vinylcaprolactam) Across Hydration States for DrugDel...
+p|vstko8|2026-07-06|J|solvent-drivenmicrodomain-ordering-in-pi-ps-pmmamiktoarm-star-pol|||Solvent-DrivenMicrodomain Ordering in PI-PS-PMMAMiktoarm Star Polymers
+p|48fwoo|2026-07-02|J|probing-crystallization-of-cocoa-butter-via-thermal-and-x-ray-tec|||Probing crystallization of cocoa butter via thermal and X-ray techniques: solving polymorphic transitions u...
+p|8n12o5|2026-03-27|J|investigating-the-crystalline-structure-and-structural-heterogene|||Investigating the crystalline structure and structural heterogeneity of starch granules using polarization-...
+#M|Morten Kjaergaard|~morten-kjaergaard/|||0
+#N|14|0
+p|oi0kt4|2026-07-30|J|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|1kki35o|2026|J|real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su|||Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits
+p|2ovats|2025-10-30|J|=|||Gatemon qubit revisited for improved reliability and stability
+p|84qi7c|2025-08-19|J|andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin|||Andreev spin relaxation time in a shadow-evaporated InAs weak link
+p|190n0q6|2024-04-18|J|fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-|||Fast universal control of a flux qubit via exponentially tunable wave-function overlap
+#M|Kristine Marie Løfgren Krighaar|~kristine-marie-l%C3%B8fgren-krighaar/|||0
+#N|11|0
+p|1h8dp4r|2026-06-01|J|accurate-simulations-of-magnetic-excitations-in-the-neutron-simul|||Accurate simulations of magnetic excitations in the neutron simulation package McStas
+p|12qm2jk|2026-05-26|J|ground-state-magnetic-structure-of-mnsub3subsn|||Ground state magnetic structure of Mn3Sn
+p|hr4cq|2026-05-01|J|emergence-of-low-energy-spin-waves-in-superconducting-electron-do|||Emergence of low-energy spin waves in superconducting electron-doped cuprates
+p|ym5p9q|2026-01-16|J|refined-spin-hamiltonian-on-the-cairo-pentagonal-lattice-of-bisub|||Refined spin Hamiltonian on the Cairo pentagonal lattice of Bi2 Fe4 O9
+p|rmc60c|2026|T|probing-low-energy-magnetic-dynamics-in-cuprates-neutron-spectros|||Probing Low Energy Magnetic Dynamics in Cuprates, Neutron Spectroscopy and Instrumentation
+p|f3bx82|2025-04-30|J|bifrostan-indirect-geometry-cold-neutron-spectrometer-at-the-euro|||BIFROST—An indirect geometry cold neutron spectrometer at the European Spallation Source
+#M|Oopa Srija Kurapati|~oopa-srija-kurapati/|||0
+#N|0|0
+#M|Lazar Lakic|~lazar-lakic/|||0
+#N|0|0
+#M|William Iain Leonard Lawrie|~william-iain-leonard-lawrie/|0000-0002-9946-4117||0
+#N|4|0
+p|1auoqfw|2025-02-10|J|=|||A quantum dot in germanium proximitized by a superconductor
+p|1t0jq8z|2024-03-14|J|=|||Exciton Transport in a Germanium Quantum Dot Ladder
+p|mjtwfz|2021-09-16|J|simultaneous-single-qubit-driving-of-semiconductor-spin-qubits-at|||Simultaneous single-qubit driving of semiconductor spin qubits at the fault-tolerant threshold
+p|1v1jsm9|2021-01-28|J|=|||Low percolation density and charge noise with holes in germanium
+#M|Kim Lefmann|~kim-lefmann/|0000-0003-4282-756X||0
+#N|35|3
+p|izokuc|2026-08-28|J|direct-detection-of-hydrogen-reveals-a-new-macroscopic-crustal-wa|||Direct Detection of Hydrogen Reveals a New Macroscopic Crustal Water Reservoir on Early Mars
+p|txls8n|2026-07-10|J|solvothermal-vapor-annealing-and-environmental-control-setup-with|||Solvothermal vapor annealing and environmental control setup with adjustable magnetic field module for graz...
+p|1h8dp4r|2026-06-01|J|accurate-simulations-of-magnetic-excitations-in-the-neutron-simul|||Accurate simulations of magnetic excitations in the neutron simulation package McStas
+p|q0ii85|2026-06-01|J|approximate-resolution-convolution-function-for-fitting-a-dispers|||Approximate resolution convolution function for fitting a dispersion gap measured on a triple-axis spectrom...
+p|srn7ah|2026-05-27|J|=|||Complex Magnetic Interactions in Geometrically Frustrated TbOF
+p|hr4cq|2026-05-01|J|emergence-of-low-energy-spin-waves-in-superconducting-electron-do|||Emergence of low-energy spin waves in superconducting electron-doped cuprates
+#M|Emma Ynill Lenander|~emma-ynill-lenander/|0000-0002-1274-3579||0
+#N|4|0
+p|1h8dp4r|2026-06-01|J|accurate-simulations-of-magnetic-excitations-in-the-neutron-simul|||Accurate simulations of magnetic excitations in the neutron simulation package McStas
+p|q0ii85|2026-06-01|J|approximate-resolution-convolution-function-for-fitting-a-dispers|||Approximate resolution convolution function for fitting a dispersion gap measured on a triple-axis spectrom...
+p|ym5p9q|2026-01-16|J|refined-spin-hamiltonian-on-the-cairo-pentagonal-lattice-of-bisub|||Refined spin Hamiltonian on the Cairo pentagonal lattice of Bi2 Fe4 O9
+p|1de7bns|2024-10-18|J|characterizing-the-diffuse-continuum-excitations-in-the-classical|||Characterizing the diffuse continuum excitations in the classical spin liquid h−YMnO3
+#M|Poul Erik Lindelof|~poul-erik-lindelof/|0000-0001-6149-281X||0
+#N|0|0
+#M|Nicolas Loizeau|~nicolas-paul-maxime-loizeau/|||0
+#N|2|0
+p|13l2hor|2025-11-12|J|opening-krylov-space-to-access-all-time-dynamics-via-dynamical-sy|||Opening Krylov Space to Access All-Time Dynamics via Dynamical Symmetries
+p|1amk5ig|2025-02-01|J|=|||Quantum Mereology and Subsystems from the Spectrum
+#M|Jürgen Luus|~j%C3%BCrgen-luus/|||0
+#N|0|0
+#M|Magnus Rønne Lykkegaard|~magnus-r%C3%B8nne-lykkegaard/|||0
+#N|1|0
+p|1mz0msc|2025-08-06|J|=|||Phase-Biased Andreev Diffraction Grating
+#M|Antonio Lucas Rigotti Manesco|~antonio-lucas-rigotti-manesco/|||0
+#N|0|0
+#M|Charles M. Marcus|~charles-m-marcus/|0000-0003-2420-4692||0
+#N|35|1
+p|1oknbak|2026-09-14|J|=|||From two dimensions to wire networks in hybrid Josephson arrays
+p|1twzck3|2026|P|long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson|||Long-range phase coherence and phase patterns in hybrid Josephson junction arrays
+p|1y29kvd|2025-10-08|J|voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep|||Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays
+p|1mz0msc|2025-08-06|J|=|||Phase-Biased Andreev Diffraction Grating
+p|toexxg|2025-07-31|J|cooper-pair-splitters-as-circuit-elements-for-realizing-topologic|||Cooper-Pair Splitters as Circuit Elements for Realizing Topological Superconductors
+p|1exs0u0|2025-05-22|J|=|||Caroli-de Gennes-Matricon Analogs in Full-Shell Hybrid Nanowires
+#M|Mathis Victor Moes|~mathis-victor-moes/|||0
+#N|0|0
+#M|Kristian Knakkergaard Nielsen|~kristian-knakkergaard-nielsen/|||0
+#N|4|0
+p|25q0s8|2026-10-14|J|=|||Magnetic Domains Stabilized by Symmetry-Protected Zero Modes
+p|1lgvzjk|2025-11-26|J|spin-charge-bound-states-and-emerging-fermions-in-a-quantum-spin-|||Spin-Charge Bound States and Emerging Fermions in a Quantum Spin Liquid
+p|gu5b0n|2025-10-20|J|beyond-fragmented-dopant-dynamics-in-quantum-spin-lattices-robust|||Beyond fragmented dopant dynamics in quantum spin lattices: Robust localization and non-Gaussian diffusion
+p|a4s5bb|2025-07-23|J|=|||Dual Spectroscopy of Quantum Simulated Fermi-Hubbard Systems
+#M|Malthe Asmus Marciniak Nielsen|~malthe-asmus-marciniak-nielsen/|||0
+#N|2|0
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|1kki35o|2026|J|real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su|||Real-Time Adaptive Tracking of Fluctuating Relaxation Rates in Superconducting Qubits
+#M|Jesper Nygård|~jesper-nyg%C3%A5rd/|0000-0002-4639-5314||0
+#N|40|5
+p|h38xkc|2026-04-03|J|nanoscale-photonic-artificial-neuron-with-biological-signal-proce|||Nanoscale photonic artificial neuron with biological signal processing
+p|10tl9xa|2026-02-16|J|heteroatomic-andreev-molecule-in-a-superconducting-islanddouble-q|||Heteroatomic Andreev Molecule in a Superconducting Island–Double Quantum Dot Hybrid
+p|1ho33ul|2025-10-06|J|approaching-the-ultrastrong-coupling-regime-between-an-andreev-le|||Approaching the ultrastrong-coupling regime between an Andreev level and a microwave resonator
+p|1s8xnwm|2025-08-04|J|multimode-operation-of-a-superconducting-nanowire-switch-in-the-n|||Multimode Operation of a Superconducting Nanowire Switch in the Nanosecond Regime
+p|1gesm9a|2025-06-23|R|on-chip-optical-communication-to-small-footprint-nanowire-neurons|||On-Chip Optical Communication to Small Footprint Nanowire Neurons
+p|1r9jjl|2025-06-23|R|=|||Optoelectronic Nanowire Neuron
+#M|Jens Havgaard Nyhegn|~jens-havgaard-nyhegn/|||0
+#N|1|0
+p|1dwsc9g|2026-07-17|J|exciton-interacting-with-the-phonons-of-an-electronic-wigner-crys|||Exciton interacting with the phonons of an electronic Wigner crystal
+#M|Dags Olsteins|~dags-olsteins/|||0
+#N|13|0
+p|w6ygdv|2025-11-10|J|cryogenic-performance-of-field-effect-transistors-and-amplifiers-|||Cryogenic performance of field-effect transistors and amplifiers based on selective area grown InAs nanowires
+p|c10dlx|2024-06-12|J|shadowed-versus-etched-superconductorsemiconductor-junctions-in-a|||Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires
+p|1xxzthi|2024-05-22|J|statistical-reproducibility-of-selective-area-grown-inas-nanowire|||Statistical Reproducibility of Selective Area Grown InAs Nanowire Devices
+p|6jxri6|2023-11-25|J|=|||Cryogenic multiplexing using selective area grown nanowires
+p|17dgkw1|2023-06-27|J|epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano|||Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires
+p|o81zs4|2022-07-27|L|electronic-transport-in-double-nanowire-superconducting-islands-w|||Electronic Transport in Double-Nanowire Superconducting Islands with Multiple Terminals
+#M|Jens Paaske|~jens-paaske/|0000-0002-8087-591X||0
+#N|16|0
+p|1et0h73|2026-09-10|J|terahertz-response-of-confined-electron-hole-pair-crossover-betwe|||Terahertz response of confined electron-hole pair: Crossover between strong and weak confinement
+p|1kosc13|2026-06-23|J|nematostriction-in-frustrated-two-dimensional-classical-heisenber|||Nematostriction in frustrated two-dimensional classical Heisenberg models
+p|1s2w98a|2026-02-25|J|synchronizing-microwave-circuit-quantum-electrodynamics-limit-cyc|||Synchronizing microwave circuit quantum electrodynamics limit cycle oscillators
+p|15an4ln|2025-12-05|J|=|||Reduced Basis Method for Driven-Dissipative Quantum Systems
+p|1111h2d|2025-11-18|J|=|||Yu-Shiba-Rusinov states in color-superconducting quark matter
+p|1qnkbtx|2025-09-29|J|poor-mans-majorana-tetron|||Poor Man's Majorana Tetron
+#M|Amalie Terese Jiao Paulsen|~amalie-terese-jiao-paulsen/|||0
+#N|1|0
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+#M|Frederik Alexander Stege Philipsen|~frederik-alexander-stege-philipsen/|||0
+#N|1|0
+p|584avt|2026-10-19|J|fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco|||Fractional 1/3 quantum vortices in chiral d plus id kagome superconductors
+#M|Colin Piquard|~colin-piquard/|||0
+#N|0|0
+#M|Deepti Rana|~deepti-rana/|||0
+#N|0|0
+#M|Finn Berg Rasmussen|~finn-berg-rasmussen/|||0
+#N|0|0
+#M|Torbjørn Raasø Rasmussen|~torbj%C3%B8rn-raas%C3%B8-rasmussen/|||0
+#N|8|0
+p|bpjbon|2025-01-28|J|=|||Autonomous bootstrapping of quantum dot devices
+p|6bz41l|2025|J|automated-iin-situi-optimization-and-disorder-mitigation-in-a-qua|||Automated in Situ Optimization and Disorder Mitigation in a Quantum Device
+p|1ns8dbt|2024-10-31|J|=|||Data needs and challenges for quantum dot devices automation
+p|ohqxpl|2024-02-23|J|=|||Real-time two-axis control of a spin qubit
+p|1c2urzl|2023-03-01|J|=|||Gate reflectometry in dense quantum dot arrays
+p|jmqr23|2022-12-14|J|autonomous-estimation-of-high-dimensional-coulomb-diamonds-from-s|||Autonomous Estimation of High-Dimensional Coulomb Diamonds from Sparse Measurements
+#M|Christian Lukas H Rasmussen|~christian-lukas-h-rasmussen/|||0
+#N|1|0
+p|1gyfgqj|2026-05-14|J|inherent-momentum-dependent-gap-structure-of-altermagnetic-superc|||Inherent momentum-dependent gap structure of altermagnetic superconductors
+#M|Daniel Steve Sanchez|~daniel-steve-sanchez/|0000-0003-3161-5318||0
+#N|3|1
+p|1dx6t06|2023-03-15|L|control-of-andreev-bound-states-using-superconducting-phase-textu|||Control of Andreev Bound States Using Superconducting Phase Texture
+p|wldp0c|2023|J|=|||Tunable topologically driven Fermi arc van Hove singularities
+p|k2d5oc||T|=|||Quantum Phases and Dynamics of Hybrid Josephson Lattices
+#M|Rasmus Dalsgaard Schlosser|~rasmus-dalsgaard-schlosser/|0009-0000-4883-6550||0
+#N|8|0
+p|h38xkc|2026-04-03|J|nanoscale-photonic-artificial-neuron-with-biological-signal-proce|||Nanoscale photonic artificial neuron with biological signal processing
+p|1gesm9a|2025-06-23|R|on-chip-optical-communication-to-small-footprint-nanowire-neurons|||On-Chip Optical Communication to Small Footprint Nanowire Neurons
+p|1r9jjl|2025-06-23|R|=|||Optoelectronic Nanowire Neuron
+p|c10dlx|2024-06-12|J|shadowed-versus-etched-superconductorsemiconductor-junctions-in-a|||Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires
+p|19m58ki|2022-04-21|J|=|||Scalable Platform for Nanocrystal-Based Quantum Electronics
+p|cc7593|2022|J|a-neural-network-approach-for-property-determination-of-molecular|||A Neural Network Approach for Property Determination of Molecular Solar Cell Candidates
+#M|Martin Ulrich Seltmann|~martin-ulrich-seltmann/|||0
+#N|1|0
+p|1mch62l|2026-04-22|J|uniqueness-graph-theory-approach-to-the-uniqueness-of-non-equilib|||UniqueNESS: graph theory approach to the uniqueness of non-equilibrium stationary states of the Lindblad ma...
+#M|Joachim Elbeshausen Sestoft|~joachim-elbeshausen-sestoft/|0000-0002-1623-3373||0
+#N|9|0
+p|h38xkc|2026-04-03|J|nanoscale-photonic-artificial-neuron-with-biological-signal-proce|||Nanoscale photonic artificial neuron with biological signal processing
+p|1gesm9a|2025-06-23|R|on-chip-optical-communication-to-small-footprint-nanowire-neurons|||On-Chip Optical Communication to Small Footprint Nanowire Neurons
+p|1r9jjl|2025-06-23|R|=|||Optoelectronic Nanowire Neuron
+p|1wh6xin|2025-05-24|J|flexible-fabrication-of-aligned-multi-nanowire-circuits-for-on-ch|||Flexible fabrication of aligned multi-nanowire circuits for on-chip prototyping
+p|1ome283|2025-01-21|J|direct-on-chip-optical-communication-between-nano-optoelectronic-|||Direct on-Chip Optical Communication between Nano Optoelectronic Devices
+p|c10dlx|2024-06-12|J|shadowed-versus-etched-superconductorsemiconductor-junctions-in-a|||Shadowed versus Etched Superconductor–Semiconductor Junctions in Al/InAs Nanowires
+#M|Johann Bock Severin|~johann-bock-severin/|||0
+#N|1|0
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+#M|Ksenia Shagalov|~ksenia-shagalov/|||0
+#N|2|0
+p|oi0kt4|2026-07-30|J|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+#M|Pawel Tadeusz Sidorczak|~pawel-tadeusz-sidorczak/|||0
+#N|1|0
+p|vaauzy|2026-06-15|J|pbtesnte-heterostructures-candidate-platform-for-studying-spin-tr|||PbTe/SnTe heterostructures-candidate platform for studying spin-triplet superconductivity
+#M|Shikhar Singh|~shikhar-singh/|||0
+#N|2|0
+p|oi0kt4|2026-07-30|J|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|2ovats|2025-10-30|J|=|||Gatemon qubit revisited for improved reliability and stability
+#M|Stig Skelboe|~stig-skelboe/|0000-0001-7300-7957||0
+#N|0|0
+#M|Henrik Smith|~henrik-smith/|||0
+#N|1|0
+p|102fwv7|2022|J|search-for-new-phenomena-in-three-or-four-lepton-events-in-pp-col|||Search for new phenomena in three- or four-lepton events in pp collisions at √s=13 TeV with the ATLAS detector
+#M|Oliver Ovsée Laub Solow|~oliver-ovs%C3%A9e-laub-solow/|0009-0004-0137-8838||0
+#N|2|0
+p|1ob1nwh|2026-04-10|J|=|||Non-Hermitian skin effect and electronic nonlocal transport
+p|9dltja|2025-10-03|J|signatures-of-exceptional-points-in-multiterminal-superconductorn|||Signatures of exceptional points in multiterminal superconductor–normal metal junctions
+#M|Gorm Ole Steffensen|~gorm-ole-steffensen/|||0
+#N|3|0
+p|1pgag3d|2022-04-15|J|direct-transport-between-superconducting-subgap-states-in-a-doubl|||Direct transport between superconducting subgap states in a double quantum dot
+p|nnjhak|2021-01-12|J|spatially-dispersing-yu-shiba-rusinov-states-in-the-unconventiona|||Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45
+p|xvv3ol|2021|T|ysr-states-in-double-quantum-dots-transport-and-bound-state-dynam|||YSR States in Double Quantum Dots: Transport and Bound State Dynamics
+#M|Yao Su|~yao-su/|0009-0000-4459-8786||0
+#N|1|0
+p|1auoqfw|2025-02-10|J|=|||A quantum dot in germanium proximitized by a superconductor
+#M|Athira Suresh|~athira-suresh/|||0
+#N|0|0
+#M|Saulius Vaitiekenas|~saulius-vaitiekenas/|0000-0002-5007-461X||0
+#N|15|5
+p|1oknbak|2026-09-14|J|=|||From two dimensions to wire networks in hybrid Josephson arrays
+p|1hofkki|2026-02-27|J|spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir|||Spin-Split Superconductivity in Spin-Orbit Coupled Hybrid Nanowires with Ferromagnetic Barriers
+p|1twzck3|2026|P|long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson|||Long-range phase coherence and phase patterns in hybrid Josephson junction arrays
+p|1y29kvd|2025-10-08|J|voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep|||Voltage-Tuned Anomalous-Metal to Metal Transition in Hybrid Josephson Junction Arrays
+p|4w3dii|2025-09-02|J|toward-single-photon-detection-with-superconducting-niobium-disel|||Toward Single-Photon Detection with Superconducting Niobium Diselenide Nanowires
+p|toexxg|2025-07-31|J|cooper-pair-splitters-as-circuit-elements-for-realizing-topologic|||Cooper-Pair Splitters as Circuit Elements for Realizing Topological Superconductors
+#M|N Manikanta Sai R N Vanjarapu|~n-manikanta-sai-r-n-vanjarapu/|||0
+#N|0|0
+#M|Vasileios Vlachodimitropoulos|~vasileios-vlachodimitropoulos/|||0
+#N|2|0
+p|hiimx9|2023-08-16|J|spin-spectroscopy-of-a-hybrid-superconducting-nanowire-using-side|||Spin spectroscopy of a hybrid superconducting nanowire using side-coupled quantum dots
+p|wvfmnp||T|towards-parity-lifetime-measurements-of-quantum-dots-coupled-to-s|||Towards Parity Lifetime Measurements of Quantum Dots Coupled to Superconductors
+#M|Casper Wied|~casper-wied/|||0
+#N|3|0
+p|oi0kt4|2026-07-30|J|controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu|||Controlled parity of cooper pair tunneling in a hybrid superconducting qubit
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|2ovats|2025-10-30|J|=|||Gatemon qubit revisited for improved reliability and stability
+#M|Tim Fabian Wohlers-Reichel|~tim-fabian-wohlers-reichel/|||0
+#N|0|0
+#M|Steffen Zelzer|~steffen-zelzer/|||0
+#N|3|0
+p|e4vgf0|2023-06-20|J|origin-of-surface-and-subband-states-at-the-inas111a-surface|||Origin of surface and subband states at the InAs(111)A surface
+p|5a8ucq|2022-08-30|J|scale-dependent-optimized-homoepitaxy-of-inas111a|||Scale-Dependent Optimized Homoepitaxy of InAs(111)A
+p|122kl86|2022|T|scanning-tunnelling-microscopy-of-molecular-beam-epitaxy-grown-in|||Scanning Tunnelling Microscopy of Molecular Beam Epitaxy Grown Intrinsic and Buried InAs Quantum Well Struc...
+#M|Sami Zweidler|~sami-zweidler/|||0
+#N|0|0
+#M|Benjamin Boateng|~benjamin-boateng/|||0
+#N|0|0
+#M|Damon James Carrad|~damon-james-carrad/|0000-0003-0372-8593||0
+#N|12|1
+p|1p3jmyy|2026-03-28|J|%CE%BC2tn-a-method-for-extracting-the-density-dependent-mobility-in-tw|||μ2T(n): a method for extracting the density dependent mobility in two-terminal nanodevices
+p|w6ygdv|2025-11-10|J|cryogenic-performance-of-field-effect-transistors-and-amplifiers-|||Cryogenic performance of field-effect transistors and amplifiers based on selective area grown InAs nanowires
+p|1iy1tlv|2025-04-03|J|direct-device-integration-of-single-1d-nanoparticle-assemblies-a-|||Direct device integration of single 1D nanoparticle assemblies; a magnetization reversal and magnetotranspo...
+p|190gpbf|2024-11-01|L|scale-dependent-growth-modes-of-selective-area-grown-iiiv-nanowir|||Scale-Dependent Growth Modes of Selective Area Grown III–V Nanowires
+p|1xxzthi|2024-05-22|J|statistical-reproducibility-of-selective-area-grown-inas-nanowire|||Statistical Reproducibility of Selective Area Grown InAs Nanowire Devices
+p|17dgkw1|2023-06-27|J|epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano|||Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires
+#M|Chia-Min Chung|~chia-min-chung/|||0
+#N|4|0
+p|148t6lx|2024-03-01|J|simulations-of-the-dynamics-of-quantum-impurity-problems-with-mat|||Simulations of the dynamics of quantum impurity problems with matrix product states
+p|1q210j1|2023-12-18|L|=|||Topological Kondo model out of equilibrium
+p|bt36bn|2022-09-21|J|matrix-product-state-simulations-of-quantum-quenches-and-transpor|||Matrix product state simulations of quantum quenches and transport in Coulomb blockaded superconducting dev...
+p|1347w4d|2021-02-10|J|zn-lattice-gauge-theory-in-a-ladder-geometry|||Z(N) lattice gauge theory in a ladder geometry
+#M|Xiaoyu Hou|~xiaoyu-hou/|||0
+#N|0|0
+#M|Fernando Gabriel Benitez Jara|~fernando-gabriel-benitez-jara/|||0
+#N|1|0
+p|se48mm|2026-02-15|J|hierarchical-porosity-and-electrolyte-compatibility-in-carbon-bas|||Hierarchical porosity and electrolyte compatibility in carbon-based supercapacitors: Structure-performance ...
+#M|Yiran Jin|~yiran-jin/|||0
+#N|1|0
+p|1cweqh3|2025-12-22|J|quasielastic-neutron-scattering-reveals-anisotropic-water-transpo|||Quasielastic Neutron Scattering Reveals Anisotropic Water Transport in Smectite Thin Film
+#M|Yu Liu|~yu-liu-2/|||0
+#N|12|0
+p|1hofkki|2026-02-27|J|spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir|||Spin-Split Superconductivity in Spin-Orbit Coupled Hybrid Nanowires with Ferromagnetic Barriers
+p|kjqc08|2025-05-08|J|percolative-supercurrent-in-superconductorferromagnetic-insulator|||Percolative supercurrent in superconductor–ferromagnetic insulator bilayers
+p|11x6q7h|2025|J|a-statistical-framework-for-multi-trait-rare-variant-analysis-in-|||A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies
+p|yo80i0|2023-07-30|J|a-highly-sensitive-sensor-for-carcinoembryonic-antigen-based-on-a|||A highly sensitive sensor for carcinoembryonic antigen based on AlGaN/GaN high-electron-mobility transistors
+p|te192k|2022-08-29|J|=|||Gate-Tunable Kinetic Inductance in Proximitized Nanowires
+p|11sd5o|2022-07-21|J|singlet-doublet-transitions-of-a-quantum-dot-josephson-junction-d|||Singlet-Doublet Transitions of a Quantum Dot Josephson Junction Detected in a Transmon Circuit
+#M|Yuyu Yao|~yuyu-yao/|||0
+#N|0|0
+#M|dxp300 (name not shown in the portal)|~dxp300-dxp300/|||0
+#N|0|0
+#M|hwg706 (name not shown in the portal)|~hwg706-hwg706/|0000-0002-6409-0469||0
+#N|2|3
+p|m07jqd|2026|T|crosses-and-flowers-investigating-superstructures-in-the-high-tc-|||Crosses and Flowers: Investigating superstructures in the high-Tc superconductor La(2–x)Sr(x)CuO(4+y)
+p|439lo9|2025-02-24|J|network-analyses-of-student-engagement-with-on-line-textbook-prob|||Network analyses of student engagement with on-line textbook problems
+#M|jpd817 (name not shown in the portal)|~jpd817-jpd817/|||0
+#N|0|0

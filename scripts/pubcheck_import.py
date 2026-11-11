@@ -8,6 +8,9 @@ Harvest format, one block per member:
   #M|name|portal path|orcid|openalex author id|name shared in OpenAlex (0/1)
   p|hash|date|type nr|portal slug|openalex id|sources|title     research output on the university profile
   e|hash|date|type nr||openalex id|sources|title                 found only in ORCID (o) and/or OpenAlex (a)
+  #N|on profile|found only elsewhere                              (compact harvest) counts of research outputs since 2021;
+                                                                 the p lines are then only the newest outputs on the profile
+In a compact harvest the path may be written "~slug", the type without nr, and the portal slug as "=" when it is the slugified title.
 type: J journal article, L letter, R proceedings, P preprint, C book chapter, B book, T thesis, D other;
 nr = 1 for editorials, comments, news pieces, data sets and other non-research items.
 """
@@ -33,9 +36,12 @@ def main(key, src, read_date):
     for line in pathlib.Path(src).read_text(encoding="utf-8").splitlines():
         if line.startswith("#M|"):
             _, n, path, orc, oaid, amb = (line.split("|") + [""] * 6)[:6]
+            path = "/en/persons/" + path[1:] + "/" if path.startswith("~") else path  # compact harvest: "~slug"
             slug = path.rstrip("/").split("/persons/")[-1] if path else ""
-            cur = {"n": n, "slug": slug, "orc": orc, "oa": oaid, "amb": amb or "0", "items": [], "p": []}
+            cur = {"n": n, "slug": slug, "orc": orc, "oa": oaid, "amb": amb or "0", "items": [], "p": [], "cnt": ""}
             people.append(cur)
+        elif cur and line.startswith("#N|"):
+            cur["cnt"] = "/".join(line.split("|")[1:3])
         elif cur and line[:2] in ("p|", "e|"):
             kind, h, d, tn, sl, oa, src_, t = line.split("|", 7)
             ty, nr = (tn.split() + ["0"])[:2]
@@ -49,7 +55,7 @@ def main(key, src, read_date):
     raw = ["W", *W, "P"]
     for p in people:
         osrc = "p" if p["orc"] else ""
-        raw.append("|".join([p["n"], p["slug"], p["orc"], osrc, p["oa"], p["amb"], "0" if p["slug"] else "1", ",".join(p["items"])]))
+        raw.append("|".join([p["n"], p["slug"], p["orc"], osrc, p["oa"], p["amb"], "0" if p["slug"] else "1", ",".join(p["items"])] + ([p["cnt"]] if p["cnt"] else [])))
     (DIR / f"{key}_raw.txt").write_text("\n".join(raw) + "\n", encoding="utf-8")
     head = [f"# {key} members' research output since 2021 on their university research profiles, read {read_date}.",
             "# \"#name|portal slug|orcid|openalex author\" then one line per output: \"p <title hash> <date> <portal path or = >\".",

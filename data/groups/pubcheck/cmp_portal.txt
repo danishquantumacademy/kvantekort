@@ -1,0 +1,305 @@
+# cmp members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Jens Als-Nielsen|jens-als-nielsen||
+p 19qqylk 2021-03-19 malaria-pigment-crystals-the-achilles-heel-of-the-malaria-parasit
+p 5uqmce 2021 =
+#Brian Møller Andersen|brian-m%C3%B8ller-andersen|0000-0002-9786-7553|
+p 584avt 2026-10-19 fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco
+p 66dq5t 2026-10-18 =
+p 1g3760s 2026-09-25 =
+p 2afptb 2026-08-12 zero-field-superconducting-vortices-and-majorana-zero-modes-pinne
+p 13mowwl 2026-06-12 nonreciprocal-equilibrium-josephson-effect-of-arbitrary-periodici
+p 1gyfgqj 2026-05-14 inherent-momentum-dependent-gap-structure-of-altermagnetic-superc
+#Christine Wei Andersson|christine-wei-andersson||
+p 14lri5i 2025-02-04 hybrid-josephson-rhombus-a-superconducting-element-with-tailored-
+p 1dfgdx2 2024-10-31 voltage-controlled-synthesis-of-higher-harmonics-in-hybrid-joseph
+#Bjarne Andresen|bjarne-andresen|0000-0003-2657-3424|
+p 1l3acib 2026-04-17 =
+p 19470of 2026-02-11 lyapunov-thermodynamic-stability-of-the-evolution-of-conservative
+p 1ovwprt 2026 stepwise-approximation-of-functions-and-intermediate-equilibria-i
+p 11606sz 2024-11-30 diffusion-and-kinetic-theory-on-very-long-time-and-large-space-sc
+p sej83u 2024-05-24 thermodynamic-stability-theories-of-irreversible-processes-and-th
+p x9ui7w 2024-05-10 =
+#Mats Ola Erik Barkman|mats-ola-erik-barkman||
+p 584avt 2026-10-19 fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco
+p 1gyfgqj 2026-05-14 inherent-momentum-dependent-gap-structure-of-altermagnetic-superc
+#David Feldstein Bofill|david-feldstein-bofill||
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 2ovats 2025-10-30 =
+p 84qi7c 2025-08-19 andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin
+p 4ww1v9 - engineering-tunable-josephson-harmonics-in-a-superconducting-qubi
+#Heloisa Nunes Bordallo|heloisa-nunes-bordallo|0000-0003-0750-0553|
+p 25kx66 2026-07-24 neutron-reflection-properties-of-si111-single-crystals-for-applic
+p 48fwoo 2026-07-02 probing-crystallization-of-cocoa-butter-via-thermal-and-x-ray-tec
+p 1jxcoyw 2026-05-29 disentangling-interlayer-confinement-and-pore-surface-adsorption-
+p 3fo3aq 2026-03-19 collective-intermolecular-motions-of-water-in-sodium-montmorillon
+p se48mm 2026-02-15 hierarchical-porosity-and-electrolyte-compatibility-in-carbon-bas
+p feg1zx 2026-02-15 methyl-group-dynamics-and-conformational-flexibility-in-methaceti
+#Fanny Vinas Boström|fanny-florinda-e-m-j-vinas-bostr%C3%B6m||
+p 718w5t 2026-03-10 =
+#Bertram Seck Brovang|bertram-seck-brovang||
+p 6bz41l 2025 automated-iin-situi-optimization-and-disorder-mitigation-in-a-qua
+p 1c2urzl 2023-03-01 =
+p jmqr23 2022-12-14 autonomous-estimation-of-high-dimensional-coulomb-diamonds-from-s
+p z65wmm 2022-07-27 estimation-of-convex-polytopes-for-automatic-discovery-of-charge-
+#Jose Manuel Chavez-Garcia|jose-manuel-chavez-garcia||
+p 1s4s3nw 2025 =
+p 1u57cmc 2022-09-22 =
+p 1t29msc 2022-09-16 gate-tunable-transmon-using-selective-area-grown-superconductor-s
+p ypij6l 2022 integration-of-topological-insulator-josephson-junctions-in-super
+#Daniel Lomholt Christensen|daniel-lomholt-christensen||
+p 19rx9hx 2026-02-04 simulating-neutron-diffraction-from-deformed-mosaic-crystals-in-m
+p 1qja6gr 2025-02-11 piecewise-linear-approximation-of-elliptical-neutron-guidesa-case
+#Morten Holm Christensen|morten-holm-christensen|0000-0002-3185-6552|
+p 1g3760s 2026-09-25 =
+p 1vrfa9k 2026-04-17 odd-parity-magnetism-in-fe-based-superconductors-with-coplanar-ma
+p xgoi5a 2026-02-17 electronic-and-structural-properties-of-rh-and-pd-based-kagome-la
+p 1g9yp6l 2025-09-29 microscopic-origin-of-the-nematoelastic-coupling-and-dynamics-of-
+p 1o3n5vq 2024-08-28 evidence-for-time-reversal-symmetry-breaking-kagome-superconducti
+p 14ajk5v 2023-12-21 competing-magnetic-fluctuations-and-orders-in-a-multiorbital-mode
+#Hans Christiansen|hans-christiansen||
+p 1ob0r37 2026-10-16 highly-deformed-rotational-structure-in-the-near-spherical-nucleu
+p 15an4ln 2025-12-05 =
+p 1a0e5nq 2025-11-17 quasiparticle-interference-of-spin-triplet-superconductors-applic
+p 9bxlnz 2025-08-08 nodal-superconducting-gap-structure-and-topological-surface-state
+p a6j5rt 2024 =
+#Anders Erik Enevold Dahl|anders-erik-enevold-dahl||
+p 1bs1694 2026-05-11 directional-conductance-of-andreev-crystals-in-hybrid-josephson-j
+p 1mz0msc 2025-08-06 =
+p 1lruar9 2025-05-30 phase-controlled-minimal-kitaev-chain-in-multiterminal-josephson-
+p 190n0q6 2024-04-18 fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-
+p 10ba14n - phase-control-in-superconductor-semiconductor-hybrids-andreev-cry
+#Kamaldeep Dalal|kamaldeep-dalal||
+#Tobias Peter Edwinson|tobias-peter-edwinson||
+#Reuel Dsouza|reuel-dsouza-ej-efternavn||
+p 1vrfa9k 2026-04-17 odd-parity-magnetism-in-fe-based-superconductors-with-coplanar-ma
+#Robert Feidenhans'l|robert-krarup-feidenhansl|0000-0002-7963-3649|
+p 1flhxsn 2023-08-01 =
+p tzdn5p 2022 3d-synchrotron-imaging-of-muscle-tissues-at-different-atrophic-st
+#Karsten Flensberg|karsten-flensberg|0000-0002-8311-0103|
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p c3wpm5 2026-05-21 adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states
+p 1bs1694 2026-05-11 directional-conductance-of-andreev-crystals-in-hybrid-josephson-j
+p 1ob1nwh 2026-04-10 =
+p 1uwe0po 2025-12-08 from-kardar-parisi-zhang-scaling-to-soliton-proliferation-in-jose
+#Jannik Gondolf|jannik-gondolf|0009-0008-1391-6356|
+p 1gyfgqj 2026-05-14 inherent-momentum-dependent-gap-structure-of-altermagnetic-superc
+p 1qj7hdr 2025-05-21 =
+#Per Hedegård|per-hedeg%C3%A5rd|0000-0002-6328-7462|
+p 1cb2mar 2025-12-24 atomic-scale-engineering-of-d-%CF%80-d-spin-interaction-in-metal-organ
+p 133ch4a 2025-08-04 ferrimagnetic-state-of-the-metal-organic-framework-crclsub2subpyz
+p 198g8vn 2024 proteolytic-performance-is-dependent-on-binding-efficiency-proces
+p 1vwwyo6 2023-09-14 =
+p c1tkx7 2022-06-06 =
+p 21cs4v 2022-04-01 theory-of-chirality-induced-spin-selectivity-progress-and-challen
+#Jes Henningsen|jes-henningsen||
+#Laurits Moestrup Høgel|laurits-moestrup-h%C3%B8gel||
+#Jens Jensen|jens-jensen|0000-0002-7954-8073|
+p 1ydc5ak 2026-02-06 inducing-ferroquadrupolar-order-with-applied-magnetic-field-in-tb
+p jh4feo 2022-05-10 magnetic-bloch-oscillations-and-domain-wall-dynamics-in-a-near-is
+#Erik Johnson|erik-johnson||
+p yjpqh8 2022-09-06 dynamics-of-thermal-motion-of-liquid-lead-nanoinclusions-attached
+p 1s0zsr9 2021-12-08 superconductivity-and-parity-preservation-in-as-grown-in-islands-
+p 1okt3zp 2021-05-10 =
+#Marton Kanasz-Nagy|marton-kanasz-nagy|0000-0001-8558-8920|
+#Jacob Judas Kain Kirkensgaard|jacob-judas-kain-kirkensgaard|0000-0001-6265-0314|
+p pgfv0r 2026-12-15 a-stage-dependent-mechanism-of-high-amylose-starch-gelation-amylo
+p 1nvg0bj 2026-08-14 hyperbolic-confinement-self-assembly-of-asymmetric-diblock-co-pol
+p 64g6g7 2026-08-10 multiscale-characterizationof-thermoresponsive-polyn-vinylcaprola
+p vstko8 2026-07-06 solvent-drivenmicrodomain-ordering-in-pi-ps-pmmamiktoarm-star-pol
+p 48fwoo 2026-07-02 probing-crystallization-of-cocoa-butter-via-thermal-and-x-ray-tec
+p 8n12o5 2026-03-27 investigating-the-crystalline-structure-and-structural-heterogene
+#Morten Kjaergaard|morten-kjaergaard||
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 1kki35o 2026 real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su
+p 2ovats 2025-10-30 =
+p 84qi7c 2025-08-19 andreev-spin-relaxation-time-in-a-shadow-evaporated-inas-weak-lin
+p 190n0q6 2024-04-18 fast-universal-control-of-a-flux-qubit-via-exponentially-tunable-
+#Kristine Marie Løfgren Krighaar|kristine-marie-l%C3%B8fgren-krighaar||
+p 1h8dp4r 2026-06-01 accurate-simulations-of-magnetic-excitations-in-the-neutron-simul
+p 12qm2jk 2026-05-26 ground-state-magnetic-structure-of-mnsub3subsn
+p hr4cq 2026-05-01 emergence-of-low-energy-spin-waves-in-superconducting-electron-do
+p ym5p9q 2026-01-16 refined-spin-hamiltonian-on-the-cairo-pentagonal-lattice-of-bisub
+p rmc60c 2026 probing-low-energy-magnetic-dynamics-in-cuprates-neutron-spectros
+p f3bx82 2025-04-30 bifrostan-indirect-geometry-cold-neutron-spectrometer-at-the-euro
+#Oopa Srija Kurapati|oopa-srija-kurapati||
+#Lazar Lakic|lazar-lakic||
+#William Iain Leonard Lawrie|william-iain-leonard-lawrie|0000-0002-9946-4117|
+p 1auoqfw 2025-02-10 =
+p 1t0jq8z 2024-03-14 =
+p mjtwfz 2021-09-16 simultaneous-single-qubit-driving-of-semiconductor-spin-qubits-at
+p 1v1jsm9 2021-01-28 =
+#Kim Lefmann|kim-lefmann|0000-0003-4282-756X|
+p izokuc 2026-08-28 direct-detection-of-hydrogen-reveals-a-new-macroscopic-crustal-wa
+p txls8n 2026-07-10 solvothermal-vapor-annealing-and-environmental-control-setup-with
+p 1h8dp4r 2026-06-01 accurate-simulations-of-magnetic-excitations-in-the-neutron-simul
+p q0ii85 2026-06-01 approximate-resolution-convolution-function-for-fitting-a-dispers
+p srn7ah 2026-05-27 =
+p hr4cq 2026-05-01 emergence-of-low-energy-spin-waves-in-superconducting-electron-do
+#Emma Ynill Lenander|emma-ynill-lenander|0000-0002-1274-3579|
+p 1h8dp4r 2026-06-01 accurate-simulations-of-magnetic-excitations-in-the-neutron-simul
+p q0ii85 2026-06-01 approximate-resolution-convolution-function-for-fitting-a-dispers
+p ym5p9q 2026-01-16 refined-spin-hamiltonian-on-the-cairo-pentagonal-lattice-of-bisub
+p 1de7bns 2024-10-18 characterizing-the-diffuse-continuum-excitations-in-the-classical
+#Poul Erik Lindelof|poul-erik-lindelof|0000-0001-6149-281X|
+#Nicolas Loizeau|nicolas-paul-maxime-loizeau||
+p 13l2hor 2025-11-12 opening-krylov-space-to-access-all-time-dynamics-via-dynamical-sy
+p 1amk5ig 2025-02-01 =
+#Jürgen Luus|j%C3%BCrgen-luus||
+#Magnus Rønne Lykkegaard|magnus-r%C3%B8nne-lykkegaard||
+p 1mz0msc 2025-08-06 =
+#Antonio Lucas Rigotti Manesco|antonio-lucas-rigotti-manesco||
+#Charles M. Marcus|charles-m-marcus|0000-0003-2420-4692|
+p 1oknbak 2026-09-14 =
+p 1twzck3 2026 long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson
+p 1y29kvd 2025-10-08 voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep
+p 1mz0msc 2025-08-06 =
+p toexxg 2025-07-31 cooper-pair-splitters-as-circuit-elements-for-realizing-topologic
+p 1exs0u0 2025-05-22 =
+#Mathis Victor Moes|mathis-victor-moes||
+#Kristian Knakkergaard Nielsen|kristian-knakkergaard-nielsen||
+p 25q0s8 2026-10-14 =
+p 1lgvzjk 2025-11-26 spin-charge-bound-states-and-emerging-fermions-in-a-quantum-spin-
+p gu5b0n 2025-10-20 beyond-fragmented-dopant-dynamics-in-quantum-spin-lattices-robust
+p a4s5bb 2025-07-23 =
+#Malthe Asmus Marciniak Nielsen|malthe-asmus-marciniak-nielsen||
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 1kki35o 2026 real-time-adaptive-tracking-of-fluctuating-relaxation-rates-in-su
+#Jesper Nygård|jesper-nyg%C3%A5rd|0000-0002-4639-5314|
+p h38xkc 2026-04-03 nanoscale-photonic-artificial-neuron-with-biological-signal-proce
+p 10tl9xa 2026-02-16 heteroatomic-andreev-molecule-in-a-superconducting-islanddouble-q
+p 1ho33ul 2025-10-06 approaching-the-ultrastrong-coupling-regime-between-an-andreev-le
+p 1s8xnwm 2025-08-04 multimode-operation-of-a-superconducting-nanowire-switch-in-the-n
+p 1gesm9a 2025-06-23 on-chip-optical-communication-to-small-footprint-nanowire-neurons
+p 1r9jjl 2025-06-23 =
+#Jens Havgaard Nyhegn|jens-havgaard-nyhegn||
+p 1dwsc9g 2026-07-17 exciton-interacting-with-the-phonons-of-an-electronic-wigner-crys
+#Dags Olsteins|dags-olsteins||
+p w6ygdv 2025-11-10 cryogenic-performance-of-field-effect-transistors-and-amplifiers-
+p c10dlx 2024-06-12 shadowed-versus-etched-superconductorsemiconductor-junctions-in-a
+p 1xxzthi 2024-05-22 statistical-reproducibility-of-selective-area-grown-inas-nanowire
+p 6jxri6 2023-11-25 =
+p 17dgkw1 2023-06-27 epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano
+p o81zs4 2022-07-27 electronic-transport-in-double-nanowire-superconducting-islands-w
+#Jens Paaske|jens-paaske|0000-0002-8087-591X|
+p 1et0h73 2026-09-10 terahertz-response-of-confined-electron-hole-pair-crossover-betwe
+p 1kosc13 2026-06-23 nematostriction-in-frustrated-two-dimensional-classical-heisenber
+p 1s2w98a 2026-02-25 synchronizing-microwave-circuit-quantum-electrodynamics-limit-cyc
+p 15an4ln 2025-12-05 =
+p 1111h2d 2025-11-18 =
+p 1qnkbtx 2025-09-29 poor-mans-majorana-tetron
+#Amalie Terese Jiao Paulsen|amalie-terese-jiao-paulsen||
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+#Frederik Alexander Stege Philipsen|frederik-alexander-stege-philipsen||
+p 584avt 2026-10-19 fractional-13-quantum-vortices-in-chiral-d-plus-id-kagome-superco
+#Colin Piquard|colin-piquard||
+#Deepti Rana|deepti-rana||
+#Finn Berg Rasmussen|finn-berg-rasmussen||
+#Torbjørn Raasø Rasmussen|torbj%C3%B8rn-raas%C3%B8-rasmussen||
+p bpjbon 2025-01-28 =
+p 6bz41l 2025 automated-iin-situi-optimization-and-disorder-mitigation-in-a-qua
+p 1ns8dbt 2024-10-31 =
+p ohqxpl 2024-02-23 =
+p 1c2urzl 2023-03-01 =
+p jmqr23 2022-12-14 autonomous-estimation-of-high-dimensional-coulomb-diamonds-from-s
+#Christian Lukas H Rasmussen|christian-lukas-h-rasmussen||
+p 1gyfgqj 2026-05-14 inherent-momentum-dependent-gap-structure-of-altermagnetic-superc
+#Daniel Steve Sanchez|daniel-steve-sanchez|0000-0003-3161-5318|
+p 1dx6t06 2023-03-15 control-of-andreev-bound-states-using-superconducting-phase-textu
+p wldp0c 2023 =
+p k2d5oc - =
+#Rasmus Dalsgaard Schlosser|rasmus-dalsgaard-schlosser|0009-0000-4883-6550|
+p h38xkc 2026-04-03 nanoscale-photonic-artificial-neuron-with-biological-signal-proce
+p 1gesm9a 2025-06-23 on-chip-optical-communication-to-small-footprint-nanowire-neurons
+p 1r9jjl 2025-06-23 =
+p c10dlx 2024-06-12 shadowed-versus-etched-superconductorsemiconductor-junctions-in-a
+p 19m58ki 2022-04-21 =
+p cc7593 2022 a-neural-network-approach-for-property-determination-of-molecular
+#Martin Ulrich Seltmann|martin-ulrich-seltmann||
+p 1mch62l 2026-04-22 uniqueness-graph-theory-approach-to-the-uniqueness-of-non-equilib
+#Joachim Elbeshausen Sestoft|joachim-elbeshausen-sestoft|0000-0002-1623-3373|
+p h38xkc 2026-04-03 nanoscale-photonic-artificial-neuron-with-biological-signal-proce
+p 1gesm9a 2025-06-23 on-chip-optical-communication-to-small-footprint-nanowire-neurons
+p 1r9jjl 2025-06-23 =
+p 1wh6xin 2025-05-24 flexible-fabrication-of-aligned-multi-nanowire-circuits-for-on-ch
+p 1ome283 2025-01-21 direct-on-chip-optical-communication-between-nano-optoelectronic-
+p c10dlx 2024-06-12 shadowed-versus-etched-superconductorsemiconductor-junctions-in-a
+#Johann Bock Severin|johann-bock-severin||
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+#Ksenia Shagalov|ksenia-shagalov||
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+#Pawel Tadeusz Sidorczak|pawel-tadeusz-sidorczak||
+p vaauzy 2026-06-15 pbtesnte-heterostructures-candidate-platform-for-studying-spin-tr
+#Shikhar Singh|shikhar-singh||
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 2ovats 2025-10-30 =
+#Stig Skelboe|stig-skelboe|0000-0001-7300-7957|
+#Henrik Smith|henrik-smith||
+p 102fwv7 2022 search-for-new-phenomena-in-three-or-four-lepton-events-in-pp-col
+#Oliver Ovsée Laub Solow|oliver-ovs%C3%A9e-laub-solow|0009-0004-0137-8838|
+p 1ob1nwh 2026-04-10 =
+p 9dltja 2025-10-03 signatures-of-exceptional-points-in-multiterminal-superconductorn
+#Gorm Ole Steffensen|gorm-ole-steffensen||
+p 1pgag3d 2022-04-15 direct-transport-between-superconducting-subgap-states-in-a-doubl
+p nnjhak 2021-01-12 spatially-dispersing-yu-shiba-rusinov-states-in-the-unconventiona
+p xvv3ol 2021 ysr-states-in-double-quantum-dots-transport-and-bound-state-dynam
+#Yao Su|yao-su|0009-0000-4459-8786|
+p 1auoqfw 2025-02-10 =
+#Athira Suresh|athira-suresh||
+#Saulius Vaitiekenas|saulius-vaitiekenas|0000-0002-5007-461X|
+p 1oknbak 2026-09-14 =
+p 1hofkki 2026-02-27 spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir
+p 1twzck3 2026 long-range-phase-coherence-and-phase-patterns-in-hybrid-josephson
+p 1y29kvd 2025-10-08 voltage-tuned-anomalous-metal-to-metal-transition-in-hybrid-josep
+p 4w3dii 2025-09-02 toward-single-photon-detection-with-superconducting-niobium-disel
+p toexxg 2025-07-31 cooper-pair-splitters-as-circuit-elements-for-realizing-topologic
+#N Manikanta Sai R N Vanjarapu|n-manikanta-sai-r-n-vanjarapu||
+#Vasileios Vlachodimitropoulos|vasileios-vlachodimitropoulos||
+p hiimx9 2023-08-16 spin-spectroscopy-of-a-hybrid-superconducting-nanowire-using-side
+p wvfmnp - towards-parity-lifetime-measurements-of-quantum-dots-coupled-to-s
+#Casper Wied|casper-wied||
+p oi0kt4 2026-07-30 controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 2ovats 2025-10-30 =
+#Tim Fabian Wohlers-Reichel|tim-fabian-wohlers-reichel||
+#Steffen Zelzer|steffen-zelzer||
+p e4vgf0 2023-06-20 origin-of-surface-and-subband-states-at-the-inas111a-surface
+p 5a8ucq 2022-08-30 scale-dependent-optimized-homoepitaxy-of-inas111a
+p 122kl86 2022 scanning-tunnelling-microscopy-of-molecular-beam-epitaxy-grown-in
+#Sami Zweidler|sami-zweidler||
+#Benjamin Boateng|benjamin-boateng||
+#Damon James Carrad|damon-james-carrad|0000-0003-0372-8593|
+p 1p3jmyy 2026-03-28 %CE%BC2tn-a-method-for-extracting-the-density-dependent-mobility-in-tw
+p w6ygdv 2025-11-10 cryogenic-performance-of-field-effect-transistors-and-amplifiers-
+p 1iy1tlv 2025-04-03 direct-device-integration-of-single-1d-nanoparticle-assemblies-a-
+p 190gpbf 2024-11-01 scale-dependent-growth-modes-of-selective-area-grown-iiiv-nanowir
+p 1xxzthi 2024-05-22 statistical-reproducibility-of-selective-area-grown-inas-nanowire
+p 17dgkw1 2023-06-27 epitaxially-driven-phase-selectivity-of-sn-in-hybrid-quantum-nano
+#Chia-Min Chung|chia-min-chung||
+p 148t6lx 2024-03-01 simulations-of-the-dynamics-of-quantum-impurity-problems-with-mat
+p 1q210j1 2023-12-18 =
+p bt36bn 2022-09-21 matrix-product-state-simulations-of-quantum-quenches-and-transpor
+p 1347w4d 2021-02-10 zn-lattice-gauge-theory-in-a-ladder-geometry
+#Xiaoyu Hou|xiaoyu-hou||
+#Fernando Gabriel Benitez Jara|fernando-gabriel-benitez-jara||
+p se48mm 2026-02-15 hierarchical-porosity-and-electrolyte-compatibility-in-carbon-bas
+#Yiran Jin|yiran-jin||
+p 1cweqh3 2025-12-22 quasielastic-neutron-scattering-reveals-anisotropic-water-transpo
+#Yu Liu|yu-liu-2||
+p 1hofkki 2026-02-27 spin-split-superconductivity-in-spin-orbit-coupled-hybrid-nanowir
+p kjqc08 2025-05-08 percolative-supercurrent-in-superconductorferromagnetic-insulator
+p 11x6q7h 2025 a-statistical-framework-for-multi-trait-rare-variant-analysis-in-
+p yo80i0 2023-07-30 a-highly-sensitive-sensor-for-carcinoembryonic-antigen-based-on-a
+p te192k 2022-08-29 =
+p 11sd5o 2022-07-21 singlet-doublet-transitions-of-a-quantum-dot-josephson-junction-d
+#Yuyu Yao|yuyu-yao||
+#dxp300 (name not shown in the portal)|dxp300-dxp300||
+#hwg706 (name not shown in the portal)|hwg706-hwg706|0000-0002-6409-0469|
+p m07jqd 2026 crosses-and-flowers-investigating-superstructures-in-the-high-tc-
+p 439lo9 2025-02-24 network-analyses-of-student-engagement-with-on-line-textbook-prob
+#jpd817 (name not shown in the portal)|jpd817-jpd817||
