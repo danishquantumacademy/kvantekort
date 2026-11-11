@@ -1,0 +1,58 @@
+# qls members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Sejr Sebastian Haahr Bergman|sejr-sebastian-haahr-bergman|0009-0002-9291-8224|
+#Niels Gregersen|niels-gregersen|0000-0002-8252-8989|
+p 1qxgr08 2026 exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio
+p bqkig4 2026 indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost
+p l2pv3z 2026 theory-of-single-photon-emission-from-neutral-and-charged-exciton
+p 1rb5jiq 2025 deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-
+p 1ebfa0w 2025 high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s
+#Christine Pepke Gunnarsson|christine-pepke-gunnarsson|0000-0002-8483-8024|
+#Martin Arentoft Jacobsen|martin-arentoft-jacobsen|0000-0001-7534-6135|
+p 1qxgr08 2026 exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio
+p 1rb5jiq 2025 deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-
+p 98j311 2025 high-purity-single-photon-emission-in-the-telecom-o-band-from-dro
+p vrt25e 2024-03-20 assessing-the-alignment-accuracy-of-state-of-the-art-deterministi
+p m0vbzr 2023 performance-of-the-nanopost-single-photon-source-beyond-the-singl
+#Mads Kirk Mailand|mads-kirk-mailand||
+#Pietro Metuh|pietro-metuh|0009-0003-1108-2494|
+p 7vgmoq 2026 single-photon-detection-in-few-layer-nbsesub2sub-superconducting-
+p 4w3dii 2025 toward-single-photon-detection-with-superconducting-niobium-disel
+p 1g0ei4f 2025 tunable-and-low-noise-wsesub2sub-quantum-emitters-for-quantum-pho
+p x298j9 2024-12 tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det
+p 12e000t 2024 =
+#Battulga Munkhbat|battulga-munkhbat|0000-0002-1923-0960|
+p 1qxgr08 2026 exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio
+p 15yj4di 2026 local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-
+p 7vgmoq 2026 single-photon-detection-in-few-layer-nbsesub2sub-superconducting-
+p 1rb5jiq 2025 deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-
+p dylacx 2025 high-purcell-enhancement-in-all-tmdc-nanobeam-resonator-designs-w
+#Athanasios Paralikis|athanasios-paralikis||
+p 7vgmoq 2026 single-photon-detection-in-few-layer-nbsesub2sub-superconducting-
+p 1ebfa0w 2025 high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s
+p 4w3dii 2025 toward-single-photon-detection-with-superconducting-niobium-disel
+p 1g0ei4f 2025 tunable-and-low-noise-wsesub2sub-quantum-emitters-for-quantum-pho
+p x298j9 2024-12 tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det
+#Lotte Lykke Pedersen|lotte-lykke-pedersen||
+#Aleksander Rodek|aleksander-rodek|0000-0002-0263-3122|
+p 1qxgr08 2026 exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio
+p jzrz19 2026 manipulation-of-the-electric-state-of-the-cdseznse-qd-with-a-sing
+#Javier Sanz Rodrigo|javier-sanz-rodrigo|0009-0000-8556-3723|
+p s1ve3e 2026 machine-learning-assisted-discovery-and-accelerated-synthesis-of-
+p 67ix9p 2025 large-area-thin-film-synthesis-of-photoactive-cusub3subpssub4sub-
+#Damien Roux|damien-roux||
+#Andreas Rudfeld|andreas-rudfeld||
+#Luca Vannucci|luca-vannucci|0000-0001-6653-1494|
+p 1qxgr08 2026 exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio
+p l2pv3z 2026 theory-of-single-photon-emission-from-neutral-and-charged-exciton
+p 1ebfa0w 2025 high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s
+p 1uiqwb2 2025 photonic-hourglass-design-beyond-the-standard-bulk-model-of-phono
+p x298j9 2024-12 tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det
+#Natashia Emma Wöhliche|natashia-emma-w%C3%B6hliche||
+#Pawel Daniel Wyborski|pawel-daniel-wyborski|0000-0003-4078-5343|
+p 15yj4di 2026 local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-
+p 9u7c0 2025 a-fiber-pigtailed-quantum-dot-device-generating-indistinguishable
+p 1rb5jiq 2025 deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-
+p 1ebfa0w 2025 high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s
+p 98j311 2025 high-purity-single-photon-emission-in-the-telecom-o-band-from-dro

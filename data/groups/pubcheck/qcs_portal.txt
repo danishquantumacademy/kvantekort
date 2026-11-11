@@ -1,0 +1,22 @@
+# qcs members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Iñaki Beraza|i%C3%B1aki-beraza||
+#Michael Galili|michael-galili|0000-0002-3514-8510|
+p du7wbn 2025 all-optical-switch-exploiting-fano-resonance-and-subwavelength-li
+p 6vhguu 2025 enhancing-four-wave-mixing-efficiency-in-optical-fibers-the-role-
+p 1rcyxwe 2025 spatial-distribution-of-data-capacity-for-the-reduction-of-number
+p 1sihgl7 2025 towards-linearizing-fiber-links-with-tailored-nonlinearity-and-op
+p 1w2fail 2025 tunable-quantum-frequency-conversion-enabled-by-intermodal-nonlin
+#Francesco Sirovich|francesco-sirovich|0009-0005-9049-3543|
+#Caterina Vigliar|caterina-vigliar|0000-0002-0710-5986|
+p u2o7lp 2026 200-gbaud-single-wavelength-direct-detection-transmission-over-75
+p 1jdy6k6 2026 on-chip-semi-device-independent-quantum-random-number-generator-e
+p 1sz8a3g 2024 =
+p 18dt45b 2023 =
+#Mujtaba Zahidy|mujtaba-zahidy|0000-0003-0025-3983|
+p pyre8v 2026 broad-band-on-chip-ti-based-rf-terminator-for-high-speed-photonic
+p 1jdy6k6 2026 on-chip-semi-device-independent-quantum-random-number-generator-e
+p cfj4pb 2025 =
+p 1lrtd3l 2025 radiation-hardness-properties-and-dcr-reduction-via-laser-anneali
+p 2ssny6 2025 scalable-temporal-multiplexing-of-telecom-photons-via-thin-film-l

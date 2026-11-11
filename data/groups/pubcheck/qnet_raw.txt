@@ -1,0 +1,12 @@
+W
+Location Qubits in a Multiple-Quantum-Dot System 2024 J 0
+MBE growth and properties of III-V hybrid nanostrucres on silicon for quantum applications 2024 R 0
+Experimental proposal to probe the extended Pauli principle 2023 J 0
+Direct Band Gap AlGaAs Wurtzite Nanowires 2023 J 0
+MBE growth and properties of AlGaAs nanowires with InGaAs quantum dots on silicon 2022 R 0
+P
+Nika Akopian|nika-akopian|0000-0002-0588-7646|p||0|0|0p,1p,2p,3p,4p|9/0
+Aditya Manoj Patel|aditya-manoj-patel||||0|0||0/0
+Mikaela Ppasiou|mikaela-ppasiou||||0|0||0/0
+Rohan Radhakrishnan|rohan-radhakrishnan||||0|0|0p,1p|2/0
+Akaash Srikanth|akaash-srikanth||||0|0||0/0

@@ -1,0 +1,188 @@
+# nanophoton members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Natalia Armaou|natalia-armaou||
+#Ali Nawaz Babar|ali-nawaz-babar|0000-0002-5708-9726|
+p gukay4 2026 enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano
+p 707y7s 2025 3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w
+p 1gr7xxm 2024 inverse-design-and-characterization-of-compact-broadband-and-low-
+p bfgv4s 2024 self-assembled-silicon-photonic-cavities-with-atomic-scale-confin
+p 2bzlcg 2023 efficient-low-reflection-fully-etched-vertical-free-space-grating
+#Himanshu Bhatt|himanshu-bhatt||
+#Valdemar Christian Bille-Lauridsen|valdemar-christian-bille-lauridsen|0009-0002-7029-4406|
+p 130681k 2026 deterministic-approach-for-integrating-an-emitter-in-a-nanocavity
+p hs47k6 2026 lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n
+#Simon Klinck Borregaard|simon-klinck-borregaard||
+p 1nmymdp 2025 =
+p dcgqy0 2024 =
+#Matias Bundgaard-Nielsen|matias-bundgaard-nielsen|0000-0003-2941-6643|
+p 1y75otg 2026 beyond-the-quantum-regression-theorem-in-variational-polaron-mast
+p zjc94s 2026 decoherence-in-waveguide-quantum-electrodynamics-using-matrix-pro
+p 1fhpej4 2026 =
+p n5mccs 2025 simple-yet-accurate-stochastic-approach-to-the-quantum-phase-nois
+p xg1a1n 2025 waveguideqedjl-an-efficient-framework-for-simulating-non-markovia
+#Thomas Christensen|thomas-christensen|0000-0002-9131-2717|
+p 1ot4194 2026 =
+p juxfsd 2025-06-10 broadband-measurement-of-feibelmans-quantum-surface-response-func
+p 1won6jn 2025 multimodal-foundation-models-for-material-property-prediction-and
+p nespv 2025 nanoscale-3d-printing-of-glass-photonic-crystals-with-near-unity-
+p 91unpa 2025 =
+#Rasmus Ellebæk Christiansen|rasmus-elleb%C3%A6k-christiansen|0000-0003-4969-9062|
+p 130681k 2026 deterministic-approach-for-integrating-an-emitter-in-a-nanocavity
+p 1uu8wtk 2026 =
+p gukay4 2026 enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano
+p 1r1gvou 2026 monolithic-silicon-micromechanical-metastructures-for-compliant-m
+p 1r2bjiu 2026 orders-of-magnitude-reduction-in-photonic-mode-volume-by-nanoscul
+#Oliver Julius Naidu Dylander|oliver-julius-naidu-dylander-2||
+#Hanlin Fang|hanlin-fang|0000-0001-9743-9295|
+p 17tro62 2026 controllable-superconductivity-in-suspended-nbsesub2sub
+p 1bei3o2 2026 observation-of-tunable-chiral-spin-textures-with-nonlinear-optics
+p htuzvm 2026 on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub
+p ftxp53 2024 moir%C3%A9-engineered-light-matter-interactions-in-mossub2subwsesub2su
+#Ole Hansen|ole-hansen-2|0000-0002-6090-8323|
+p 18ves4r 2026 charges-on-a-suspended-silicon-nitride-membrane-under-a-high-ener
+p 1pc1lz7 2026 complete-characterization-of-local-thermoelectric-properties-usin
+p 1pjrsyn 2026 optimal-electrolyte-ph-for-efficient-quinone-based-aqueous-redox-
+p 12mdf7w 2026 reversible-and-quantified-electromigration-of-gold-from-nanoscale
+p 1ay4u6b 2026 ultrafast-photocatalytic-wettability-switching-in-substrate-inter
+#Mikkel Heuck|mikkel-heuck|0000-0001-9769-6005|
+p 85a4k2 2026 nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi
+p xg1a1n 2025 waveguideqedjl-an-efficient-framework-for-simulating-non-markovia
+p d3xyjv 2024-11-20 strain-concentration-for-fast-compact-photonic-modulation-and-non
+p 4z4r0k 2024 all-photonic-artificial-neural-network-processor-via-nonlinear-op-2
+p 1uv322h 2024 heterogeneous-integration-of-lithium-niobate-and-silicon-photonic
+#Pawel Holewa|pawel-holewa|0000-0002-2154-896X|
+p 22vmol 2025 c-band-plug-and-play-all-fiber-single-photon-source-based-on-inas
+p 1pj6rlj 2025 monolithic-integration-of-sub-50-nm-iii-v-nano-heterostructures-o
+p 1r2md0h 2025 solid-state-single-photon-sources-operating-in-the-telecom-wavele
+p 13ymkre 2024 heterogeneous-integration-of-single-inasinp-quantum-dots-with-the
+p 1um007d 2024 high-throughput-quantum-photonic-devices-emitting-indistinguishab
+#Nikolaj Balslev Hougs|nikolaj-balslev-hougs|0009-0000-2625-1201|
+#Jørn Marcher Hvam|j%C3%B8rn-marcher-hvam|0000-0002-2429-1012|
+#Shima Kadkhodazadeh|shima-kadkhodazadeh|0000-0003-3606-8851|
+p 1npp88u 2026 direct-observation-of-tantalum-nitride-photoelectrode-degradation
+p 15yj4di 2026 local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-
+p htuzvm 2026 on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub
+p 1etrpwa 2026 phosphate-recovery-from-arsenic-laden-groundwater-treatment-sludg
+p 707y7s 2025 3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w
+#Odysseas Kosmatos|odysseas-kosmatos||
+#Philip Trøst Kristensen|philip-tr%C3%B8st-kristensen|0000-0001-5804-1989|
+p 707y7s 2025 3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w
+p g346g4 2025 =
+p 6aek7i 2025 fabrication-and-characterization-of-shape-and-topology-optimized-
+p 1gzs48h 2025 strong-coupling-between-a-dielectric-nanocavity-and-a-monolayer-t
+p a0d70k 2024 =
+#Babak Vosoughi Lahijani|babak-vosoughi-lahijani|0000-0001-7056-6542|
+p oq7abp 2026 electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot
+p 85a4k2 2026 nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi
+p 707y7s 2025 3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w
+p bfgv4s 2024 self-assembled-silicon-photonic-cavities-with-atomic-scale-confin
+p 1mrrtmf 2024 waveguide-and-cavity-quantum-electrodynamics-with-topological-bow
+#Andrei Laurynenka|andrei-laurynenka|0000-0001-8853-2033|
+p 5cmcfh 2026 broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams
+p 1947k4e 2026 enhanced-effective-nonlinearities-in-silicon-nitride-free-standin
+p i8oa3a 2026 fabrication-and-characterization-of-an-adaptive-thin-film-electro
+p laragf 2026 general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon
+p be7gyn 2026 hybrid-trapezoidal-grating-metasurface-supporting-guided-mode-res
+#Baptiste Lefaucher|baptiste-lefaucher||
+#Sergei Lepeshov|sergei-lepeshov||
+p 1nhh4zi 2026 cavity-driven-arbitrary-in-plane-focusing-of-phonon-polaritons-in
+p 5fpbov 2026 coupled-flexural-optomechanical-cavities-with-engineered-nanomech
+p 85a4k2 2026 nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi
+p 734dhx 2025 =
+p 1mrrtmf 2024 waveguide-and-cavity-quantum-electrodynamics-with-topological-bow
+#Dayang Li|dayang-li|0000-0002-6931-7677|
+p f9ft33 2024-05-08 =
+p 1boo4ks 2023-07 =
+#Xujing Liu|xujing-liu||
+#Bingrui Lu|bingrui-lu||
+p 5fpbov 2026 coupled-flexural-optomechanical-cavities-with-engineered-nanomech
+p 85a4k2 2026 nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi
+#Mathias Marchal|mathias-marchal||
+p 40yngs 2026 carrier-transport-in-electrically-driven-photonic-crystal-membran
+p 136w89j 2026 nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o
+p 10h74n7 2024 =
+#Marek Grzegorz Mikulicz|marek-grzegorz-mikulicz|0000-0002-0264-960X|
+p 22vmol 2025 c-band-plug-and-play-all-fiber-single-photon-source-based-on-inas
+p tt5shk 2024 xenon-plasma-focused-ion-beam-milling-for-fabrication-of-high-pur
+#Jesper Mork|jesper-mork|0000-0001-8498-661X|
+p 40yngs 2026 carrier-transport-in-electrically-driven-photonic-crystal-membran
+p 130681k 2026 deterministic-approach-for-integrating-an-emitter-in-a-nanocavity
+p 1uu8wtk 2026 =
+p gukay4 2026 enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano
+p hs47k6 2026 lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n
+#Devashish Pandey|devashish-pandey|0000-0003-0349-6913|
+p 1265glj 2025 collective-single-photon-emission-and-energy-transfer-in-thin-lay
+p jgctsb 2024 collective-photon-emission-in-solid-state-environments-concatenat
+p 6cwdtk 2022 graphene-multilayers-for-coherent-perfect-absorption-effects-of-i
+p 7737oa 2021-05 identifying-weak-values-with-intrinsic-dynamical-properties-in-mo
+#Lotte Lykke Pedersen|lotte-lykke-pedersen||
+#Emil Mathias Krogstrup Rødbro|emil-mathias-krogstrup-r%C3%B8dbro||
+#Christian Ruiz|christian-ruiz||
+#Elizaveta Semenova|elizaveta-semenova|0000-0002-5856-4461|
+p laragf 2026 general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon
+p te3vgh 2026 high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs
+p hs47k6 2026 lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n
+p 15yj4di 2026 local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-
+p 707y7s 2025 3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w
+#Ole Sigmund|ole-sigmund|0000-0003-0344-7249|
+p 1vwfjr9 2026 a-140-line-matlab-code-for-topology-optimization-problems-with-pr
+p mfh0l2 2026 a-matlab-code-for-analysis-and-topology-optimization-with-third-m
+p 1w299fo 2026 designing-2d-cellular-materials-for-brittle-fracture-initiation-r
+p 1uu8wtk 2026 =
+p aiz41r 2026 =
+#Kasper Roed Spiegelhauer|kasper-roed-spiegelhauer||
+#Nicolas Stenger|nicolas-stenger|0000-0002-6808-9211|
+p 1oz078y 2026 deterministic-exfoliation-of-the-uppermost-layers-of-van-der-waal
+p 1cmhuvf 2026 ultrafast-control-of-coherent-acoustic-lattice-dynamics-in-the-tr
+p 1xt23mp 2025-06-25 two-dimensional-materials-as-ideal-substrates-for-molecular-quant
+p 1265glj 2025 collective-single-photon-emission-and-energy-transfer-in-thin-lay
+p g346g4 2025 =
+#Søren Stobbe|s%C3%B8ren-stobbe|0000-0002-0991-041X|
+p 5fpbov 2026 coupled-flexural-optomechanical-cavities-with-engineered-nanomech
+p oq7abp 2026 electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot
+p gukay4 2026 enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano
+p 85a4k2 2026 nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi
+p 707y7s 2025 3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w
+#Yiyang Su|yiyang-su||
+#Enrico Vallar|enrico-vallar||
+p laragf 2026 general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon
+#Jacob Andersen Wæver|jacob-andersen-w%C3%A6ver||
+#Michelle Wang|michelle-wang||
+p 1u9qq4x 2026 automated-three-dimensional-piezoresponse-force-microscopy-for-po
+p 11tjq9o 2025 mic-hackathon-2024-hackathon-on-machine-learning-for-electron-and
+#Thor August Schimmell Weis|thor-august-schimmell-weis|0000-0001-8244-5238|
+p oq7abp 2026 electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot
+p 85a4k2 2026 nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi
+p bfgv4s 2024 self-assembled-silicon-photonic-cavities-with-atomic-scale-confin
+p z4h467 2023 =
+#Martijn Wubs|martijn-wubs|0000-0002-8286-7825|
+p 148vbir 2026 modified-light-emission-from-a-dipole-in-lossy-and-graded-index-s
+p htuzvm 2026 on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub
+p 1265glj 2025 collective-single-photon-emission-and-energy-transfer-in-thin-lay
+p g346g4 2025 =
+p xyh6ts 2025 creation-and-microscopic-origins-of-single-photon-emitters-in-tra
+#Sanshui Xiao|sanshui-xiao|0000-0001-6529-5047|
+p 17tro62 2026 controllable-superconductivity-in-suspended-nbsesub2sub
+p 1bei3o2 2026 observation-of-tunable-chiral-spin-textures-with-nonlinear-optics
+p htuzvm 2026 on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub
+p 16pyf10 2025 assembling-magneto-optical-heterostructures-for-all-optical-multi
+p 1265glj 2025 collective-single-photon-emission-and-energy-transfer-in-thin-lay
+#Meng Xiong|meng-xiong|0000-0001-9723-3019|
+p hs47k6 2026 lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n
+p 136w89j 2026 nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o
+p du7wbn 2025 all-optical-switch-exploiting-fano-resonance-and-subwavelength-li
+p 1nmymdp 2025 =
+p g346g4 2025 =
+#Yi Yu|yi-yu|0000-0002-7631-7069|
+p 40yngs 2026 carrier-transport-in-electrically-driven-photonic-crystal-membran
+p 130681k 2026 deterministic-approach-for-integrating-an-emitter-in-a-nanocavity
+p gukay4 2026 enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano
+p 136w89j 2026 nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o
+p 1nmymdp 2025 =
+#Kresten Yvind|kresten-yvind|0000-0001-8013-1606|
+p 18hk8ku 2026 broadband-parametric-amplification-in-algaas-on-insulator-nanowav
+p 40yngs 2026 carrier-transport-in-electrically-driven-photonic-crystal-membran
+p qv5w3o 2026 engineered-mode-coupling-in-high-q-microresonators-enables-determ
+p te3vgh 2026 high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs
+p hs47k6 2026 lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n

@@ -1,0 +1,25 @@
+# qcs, compact harvest 11 November 2026 (DTU Orbit + ORCID; OpenAlex not read: daily limit reached)
+#M|Iñaki Beraza|~i%C3%B1aki-beraza/|||0
+#N|0|0
+#M|Michael Galili|~michael-galili/|0000-0002-3514-8510||0
+#N|32|4
+p|du7wbn|2025|J|all-optical-switch-exploiting-fano-resonance-and-subwavelength-li|||All-optical switch exploiting Fano resonance and subwavelength light confinement
+p|6vhguu|2025|J|enhancing-four-wave-mixing-efficiency-in-optical-fibers-the-role-|||Enhancing four-wave mixing efficiency in optical fibers: the role of core radius fluctu...
+p|1rcyxwe|2025|J|spatial-distribution-of-data-capacity-for-the-reduction-of-number|||Spatial Distribution of Data Capacity for the Reduction of Number of Repeaters in Ultra...
+p|1sihgl7|2025|J|towards-linearizing-fiber-links-with-tailored-nonlinearity-and-op|||Towards Linearizing Fiber Links with Tailored Nonlinearity and Optical Phase Conjugation
+p|1w2fail|2025|J|tunable-quantum-frequency-conversion-enabled-by-intermodal-nonlin|||Tunable quantum frequency conversion enabled by intermodal nonlinearity in optical fiber
+#M|Francesco Sirovich|~francesco-sirovich/|0009-0005-9049-3543||0
+#N|0|1
+#M|Caterina Vigliar|~caterina-vigliar/|0000-0002-0710-5986||0
+#N|4|2
+p|u2o7lp|2026|R|200-gbaud-single-wavelength-direct-detection-transmission-over-75|||200-Gbaud Single-Wavelength Direct-Detection Transmission over 75 km C-band SSMF Using ...
+p|1jdy6k6|2026|J|on-chip-semi-device-independent-quantum-random-number-generator-e|||On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Contextuality
+p|1sz8a3g|2024|R|=|||Multiphoton Multidimensional Entanglement Based on Graph Theory
+p|18dt45b|2023|J|=|||Very-large-scale integrated quantum graph photonics
+#M|Mujtaba Zahidy|~mujtaba-zahidy/|0000-0003-0025-3983||0
+#N|17|0
+p|pyre8v|2026|J|broad-band-on-chip-ti-based-rf-terminator-for-high-speed-photonic|||Broad band on-chip Ti-based RF terminator for high-speed photonic platforms
+p|1jdy6k6|2026|J|on-chip-semi-device-independent-quantum-random-number-generator-e|||On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Contextuality
+p|cfj4pb|2025|J|=|||On High-Dimensional Twin-Field Quantum Key Distribution
+p|1lrtd3l|2025|J|radiation-hardness-properties-and-dcr-reduction-via-laser-anneali|||Radiation hardness properties and DCR reduction via laser annealing of InGaAs/InP SPADs...
+p|2ssny6|2025|J|scalable-temporal-multiplexing-of-telecom-photons-via-thin-film-l|||Scalable temporal multiplexing of telecom photons via thin-film lithium niobate photonics

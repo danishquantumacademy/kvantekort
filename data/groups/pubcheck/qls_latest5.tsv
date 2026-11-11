@@ -1,0 +1,43 @@
+# The five newest research outputs on each qls member's DTU Orbit profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Niels Gregersen	exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio	4.4;4.6;2.2	coherent swing-up excitation of a quantum dot
+Niels Gregersen	indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost	4.4	indistinguishable photons from a nanopost source
+Niels Gregersen	theory-of-single-photon-emission-from-neutral-and-charged-exciton	4.4;2.2	theory of quantum-dot single-photon emission
+Niels Gregersen	deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-	4.4;3.2	deterministic fabrication of micropillar single-photon sources
+Niels Gregersen	high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s	4.4;2.3	single-photon emission from WSe2
+Martin Arentoft Jacobsen	exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio	4.4;4.6;2.2	coherent swing-up excitation of a quantum dot
+Martin Arentoft Jacobsen	deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-	4.4;3.2	deterministic fabrication of micropillar single-photon sources
+Martin Arentoft Jacobsen	high-purity-single-photon-emission-in-the-telecom-o-band-from-dro	4.4;7.5	telecom O-band single-photon emitters
+Martin Arentoft Jacobsen	assessing-the-alignment-accuracy-of-state-of-the-art-deterministi	4.4;3.2	alignment accuracy of quantum-dot device fabrication
+Martin Arentoft Jacobsen	performance-of-the-nanopost-single-photon-source-beyond-the-singl	4.4;3.3	modelling the nanopost single-photon source
+Pietro Metuh	single-photon-detection-in-few-layer-nbsesub2sub-superconducting-	3.3;4.4	NbSe2 superconducting nanowire single-photon detectors
+Pietro Metuh	toward-single-photon-detection-with-superconducting-niobium-disel	3.3;6.5;3.2	NbSe2 nanowire single-photon detectors
+Pietro Metuh	tunable-and-low-noise-wsesub2sub-quantum-emitters-for-quantum-pho	4.4;2.3	tunable WSe2 quantum emitters
+Pietro Metuh	tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det	4.4;3.2	strain-engineered WSe2 quantum emitters
+Pietro Metuh	recent-advances-in-wireless-optoelectronic-biomedical-implants	-	biomedical implants
+Battulga Munkhbat	exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio	4.4;4.6;2.2	coherent swing-up excitation of a quantum dot
+Battulga Munkhbat	local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-	3.2;4.4	epitaxy of telecom quantum-dot emitters
+Battulga Munkhbat	single-photon-detection-in-few-layer-nbsesub2sub-superconducting-	3.3;4.4	NbSe2 superconducting nanowire single-photon detectors
+Battulga Munkhbat	deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-	4.4;3.2	deterministic fabrication of micropillar single-photon sources
+Battulga Munkhbat	high-purcell-enhancement-in-all-tmdc-nanobeam-resonator-designs-w	3.3;2.3	TMD nanobeam resonators for nanolasers
+Athanasios Paralikis	single-photon-detection-in-few-layer-nbsesub2sub-superconducting-	3.3;4.4	NbSe2 superconducting nanowire single-photon detectors
+Athanasios Paralikis	high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s	4.4;2.3	single-photon emission from WSe2
+Athanasios Paralikis	toward-single-photon-detection-with-superconducting-niobium-disel	3.3;6.5;3.2	NbSe2 nanowire single-photon detectors
+Athanasios Paralikis	tunable-and-low-noise-wsesub2sub-quantum-emitters-for-quantum-pho	4.4;2.3	tunable WSe2 quantum emitters
+Athanasios Paralikis	tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det	4.4;3.2	strain-engineered WSe2 quantum emitters
+Aleksander Rodek	exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio	4.4;4.6;2.2	coherent swing-up excitation of a quantum dot
+Aleksander Rodek	manipulation-of-the-electric-state-of-the-cdseznse-qd-with-a-sing	4.2;2.3	single magnetic dopant in a quantum dot
+Javier Sanz Rodrigo	machine-learning-assisted-discovery-and-accelerated-synthesis-of-	-	materials synthesis
+Javier Sanz Rodrigo	large-area-thin-film-synthesis-of-photoactive-cusub3subpssub4sub-	-	thin-film semiconductor synthesis
+Luca Vannucci	exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio	4.4;4.6;2.2	coherent swing-up excitation of a quantum dot
+Luca Vannucci	theory-of-single-photon-emission-from-neutral-and-charged-exciton	4.4;2.2	theory of quantum-dot single-photon emission
+Luca Vannucci	high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s	4.4;2.3	single-photon emission from WSe2
+Luca Vannucci	photonic-hourglass-design-beyond-the-standard-bulk-model-of-phono	4.4;2.4	phonon decoherence in a photonic single-photon source
+Luca Vannucci	tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det	4.4;3.2	strain-engineered WSe2 quantum emitters
+Pawel Daniel Wyborski	local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-	3.2;4.4	epitaxy of telecom quantum-dot emitters
+Pawel Daniel Wyborski	a-fiber-pigtailed-quantum-dot-device-generating-indistinguishable	4.4;7.5	fibre-pigtailed GHz quantum-dot photon source
+Pawel Daniel Wyborski	deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-	4.4;3.2	deterministic fabrication of micropillar single-photon sources
+Pawel Daniel Wyborski	high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s	4.4;2.3	single-photon emission from WSe2
+Pawel Daniel Wyborski	high-purity-single-photon-emission-in-the-telecom-o-band-from-dro	4.4;7.5	telecom O-band single-photon emitters

@@ -1,0 +1,9 @@
+# The five newest research outputs on each mro member's DTU Orbit profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Kirstine Berg-Sørensen	bio-sensing-with-nv-centers-in-diamond	6.7;4.2;6.2	review of biosensing with NV centres
+Kirstine Berg-Sørensen	nanodiamond-based-quantum-sensing-reveals-changes-in-endo-lysosom	6.7;4.2	nanodiamond quantum sensing in cells
+Kirstine Berg-Sørensen	sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds	6.3;6.7;4.2	temperature sensing with trapped NV nanodiamonds
+Kirstine Berg-Sørensen	quantum-sensing-of-free-radicals-in-macrophages-reveals-early-aut	6.7;4.2	quantum sensing of free radicals in cells
+Kirstine Berg-Sørensen	quantum-sensing-to-monitor-changes-in-free-radical-generation-by-	6.7;4.2	quantum sensing of free radicals in macrophages

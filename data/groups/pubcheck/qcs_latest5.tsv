@@ -1,0 +1,18 @@
+# The five newest research outputs on each qcs member's DTU Orbit profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Michael Galili	all-optical-switch-exploiting-fano-resonance-and-subwavelength-li	3.3	all-optical switch with a bowtie cavity
+Michael Galili	enhancing-four-wave-mixing-efficiency-in-optical-fibers-the-role-	3.3	four-wave mixing in fibres
+Michael Galili	spatial-distribution-of-data-capacity-for-the-reduction-of-number	-	classical long-haul fibre links
+Michael Galili	towards-linearizing-fiber-links-with-tailored-nonlinearity-and-op	-	classical fibre-link nonlinearity
+Michael Galili	tunable-quantum-frequency-conversion-enabled-by-intermodal-nonlin	7.5;3.3	quantum frequency conversion in fibre
+Caterina Vigliar	200-gbaud-single-wavelength-direct-detection-transmission-over-75	-	classical optical communication
+Caterina Vigliar	on-chip-semi-device-independent-quantum-random-number-generator-e	7.2;4.4	on-chip semi-device-independent QRNG
+Caterina Vigliar	multiphoton-multidimensional-entanglement-based-on-graph-theory	4.4;1.2	multiphoton high-dimensional entanglement on chip
+Caterina Vigliar	very-large-scale-integrated-quantum-graph-photonics	4.4;1.2	large-scale integrated quantum graph photonics
+Mujtaba Zahidy	broad-band-on-chip-ti-based-rf-terminator-for-high-speed-photonic	3.3	RF termination for photonic chips
+Mujtaba Zahidy	on-chip-semi-device-independent-quantum-random-number-generator-e	7.2;4.4	on-chip semi-device-independent QRNG
+Mujtaba Zahidy	on-high-dimensional-twin-field-quantum-key-distribution	7.3	high-dimensional twin-field QKD
+Mujtaba Zahidy	radiation-hardness-properties-and-dcr-reduction-via-laser-anneali	3.3;7.5	radiation hardness of single-photon detectors for space
+Mujtaba Zahidy	scalable-temporal-multiplexing-of-telecom-photons-via-thin-film-l	4.4;3.3	temporal multiplexing of telecom photons in TFLN

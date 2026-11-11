@@ -1,0 +1,18 @@
+# qnet, compact harvest 11 November 2026 (DTU Orbit + ORCID; OpenAlex not read: daily limit reached)
+#M|Nika Akopian|~nika-akopian/|0000-0002-0588-7646||0
+#N|9|0
+p|f9ft33|2024-05-08|J|=|||Location Qubits in a Multiple-Quantum-Dot System
+p|6o2ni0|2024|R|mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon|||MBE growth and properties of III-V hybrid nanostrucres on silicon for quantum applications
+p|1boo4ks|2023-07|J|=|||Experimental proposal to probe the extended Pauli principle
+p|ba4guo|2023-02-08|J|=|||Direct Band Gap AlGaAs Wurtzite Nanowires
+p|1suenv8|2022-06-24|R|mbe-growth-and-properties-of-algaas-nanowires-with-ingaas-quantum|||MBE growth and properties of AlGaAs nanowires with InGaAs quantum dots on silicon
+#M|Aditya Manoj Patel|~aditya-manoj-patel/|||0
+#N|0|0
+#M|Mikaela Ppasiou|~mikaela-ppasiou/|||0
+#N|0|0
+#M|Rohan Radhakrishnan|~rohan-radhakrishnan/|||0
+#N|2|0
+p|f9ft33|2024-05-08|J|=|||Location Qubits in a Multiple-Quantum-Dot System
+p|6o2ni0|2024|R|mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon|||MBE growth and properties of III-V hybrid nanostrucres on silicon for quantum applications
+#M|Akaash Srikanth|~akaash-srikanth/|||0
+#N|0|0

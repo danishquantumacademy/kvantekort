@@ -1,0 +1,15 @@
+# qnet members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Nika Akopian|nika-akopian|0000-0002-0588-7646|
+p f9ft33 2024-05-08 =
+p 6o2ni0 2024 mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon
+p 1boo4ks 2023-07 =
+p ba4guo 2023-02-08 =
+p 1suenv8 2022-06-24 mbe-growth-and-properties-of-algaas-nanowires-with-ingaas-quantum
+#Aditya Manoj Patel|aditya-manoj-patel||
+#Mikaela Ppasiou|mikaela-ppasiou||
+#Rohan Radhakrishnan|rohan-radhakrishnan||
+p f9ft33 2024-05-08 =
+p 6o2ni0 2024 mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon
+#Akaash Srikanth|akaash-srikanth||

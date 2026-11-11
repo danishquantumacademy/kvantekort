@@ -32,7 +32,7 @@ def main(key, src, read_date):
             byh[h] = len(W) - 1
         return byh[h]
 
-    cur = None
+    cur, seen_t = None, {}
     for line in pathlib.Path(src).read_text(encoding="utf-8").splitlines():
         if line.startswith("#M|"):
             _, n, path, orc, oaid, amb = (line.split("|") + [""] * 6)[:6]
@@ -44,10 +44,13 @@ def main(key, src, read_date):
             cur["cnt"] = "/".join(line.split("|")[1:3])
         elif cur and line[:2] in ("p|", "e|"):
             kind, h, d, tn, sl, oa, src_, t = line.split("|", 7)
+            t = t or seen_t.get(h, "")  # compact harvest: a repeated work may leave the title out
+            seen_t.setdefault(h, t)
             ty, nr = (tn.split() + ["0"])[:2]
             y = d[:4] if d[:4].isdigit() else 0
             k = idx(t, y, ty, oa, nr)
             if kind == "p":
+                if sl == "=" and h != thash(t): sl = slugify(t)
                 cur["items"].append(f"{k}p{''.join(c for c in 'oa' if c in src_)}")
                 cur["p"].append(f"p {thash(t)} {d or '-'} {'=' if sl == slugify(t) else sl}")
             else:

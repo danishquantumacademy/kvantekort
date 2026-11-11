@@ -1,0 +1,20 @@
+W
+All-optical switch exploiting Fano resonance and subwavelength light confinement 2025 J 0
+Enhancing four-wave mixing efficiency in optical fibers: the role of core radius fluctu... 2025 J 0
+Spatial Distribution of Data Capacity for the Reduction of Number of Repeaters in Ultra... 2025 J 0
+Towards Linearizing Fiber Links with Tailored Nonlinearity and Optical Phase Conjugation 2025 J 0
+Tunable quantum frequency conversion enabled by intermodal nonlinearity in optical fiber 2025 J 0
+200-Gbaud Single-Wavelength Direct-Detection Transmission over 75 km C-band SSMF Using ... 2026 R 0
+On-Chip Semi-Device-Independent Quantum Random Number Generator Exploiting Contextuality 2026 J 0
+Multiphoton Multidimensional Entanglement Based on Graph Theory 2024 R 0
+Very-large-scale integrated quantum graph photonics 2023 J 0
+Broad band on-chip Ti-based RF terminator for high-speed photonic platforms 2026 J 0
+On High-Dimensional Twin-Field Quantum Key Distribution 2025 J 0
+Radiation hardness properties and DCR reduction via laser annealing of InGaAs/InP SPADs... 2025 J 0
+Scalable temporal multiplexing of telecom photons via thin-film lithium niobate photonics 2025 J 0
+P
+Iñaki Beraza|i%C3%B1aki-beraza||||0|0||0/0
+Michael Galili|michael-galili|0000-0002-3514-8510|p||0|0|0p,1p,2p,3p,4p|32/4
+Francesco Sirovich|francesco-sirovich|0009-0005-9049-3543|p||0|0||0/1
+Caterina Vigliar|caterina-vigliar|0000-0002-0710-5986|p||0|0|5p,6p,7p,8p|4/2
+Mujtaba Zahidy|mujtaba-zahidy|0000-0003-0025-3983|p||0|0|9p,6p,10p,11p,12p|17/0

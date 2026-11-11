@@ -1,0 +1,16 @@
+# mro, compact harvest 11 November 2026 (DTU Orbit + ORCID; OpenAlex not read: daily limit reached)
+#M|Suyash Narayan Amzare|~suyash-narayan-amzare/|0009-0001-7400-4675||0
+#N|0|1
+#M|Ziba Arghiani|~ziba-arghiani-2/|0000-0003-3111-357X||0
+#N|0|0
+#M|Kirstine Berg-Sørensen|~kirstine-berg-s%C3%B8rensen/|0000-0002-9977-3980||0
+#N|23|1
+p|1g76el9|2026|J|=|||Bio-sensing with NV-centers in diamond
+p|spz5mg|2026|J|nanodiamond-based-quantum-sensing-reveals-changes-in-endo-lysosom|||Nanodiamond-Based Quantum Sensing Reveals Changes in Endo-Lysosomal Activity of Stimula...
+p|qxvfto|2026|J|sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds|||Sensing with near-infrared laser trapped fluorescent nanodiamonds
+p|ohuwkk|2025|J|quantum-sensing-of-free-radicals-in-macrophages-reveals-early-aut|||Quantum sensing of free radicals in macrophages reveals early autophagy-lysosome regula...
+p|vaihpm|2025|J|quantum-sensing-to-monitor-changes-in-free-radical-generation-by-|||Quantum sensing to monitor changes in free radical generation by intracellular vesicles...
+#M|Maciej Jerzy Glowacki|~maciej-jerzy-glowacki/|0000-0003-1731-982X||0
+#N|0|16
+#M|Ella Walsh|~ella-walsh/|0000-0002-1532-1566||0
+#N|0|5

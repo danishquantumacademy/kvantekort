@@ -1,0 +1,11 @@
+# The five newest research outputs on each qnet member's DTU Orbit profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Nika Akopian	location-qubits-in-a-multiple-quantum-dot-system	4.2;7.5;5.1	location qubits in quantum-dot systems for quantum networks
+Nika Akopian	mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon	3.2;4.4	quantum dots in nanowires on silicon
+Nika Akopian	experimental-proposal-to-probe-the-extended-pauli-principle	1.1;4.2	test of the extended Pauli principle with quantum dots
+Nika Akopian	direct-band-gap-algaas-wurtzite-nanowires	3.2;2.3	wurtzite AlGaAs nanowires
+Nika Akopian	mbe-growth-and-properties-of-algaas-nanowires-with-ingaas-quantum	3.2;4.4	quantum dots in AlGaAs nanowires
+Rohan Radhakrishnan	location-qubits-in-a-multiple-quantum-dot-system	4.2;7.5;5.1	location qubits in quantum-dot systems for quantum networks
+Rohan Radhakrishnan	mbe-growth-and-properties-of-iii-v-hybrid-nanostrucres-on-silicon	3.2;4.4	quantum dots in nanowires on silicon

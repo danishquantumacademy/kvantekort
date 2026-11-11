@@ -1,0 +1,133 @@
+W
+Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-W... 2026 J 0
+3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie... 2025 J 0
+Inverse design and characterization of compact, broadband, and low-loss chip-scale phot... 2024 J 0
+Self-assembled silicon photonic cavities with atomic-scale confinement 2024 R 0
+Efficient low-reflection fully etched vertical free-space grating couplers for suspende... 2023 J 0
+Deterministic approach for integrating an emitter in a nanocavity with subwavelength li... 2026 J 0
+Lasing from a quantum-dot-like buried heterostructure in an InP nanobeam cavity 2026 J 0
+A nanolaser with extreme dielectric confinement 2025 J 0
+Mode Characterization of an InP Subwavelength Resonator 2024 R 0
+Beyond the quantum regression theorem in variational polaron master equations: From Ohm... 2026 J 0
+Decoherence in waveguide quantum electrodynamics using matrix product states 2026 J 0
+Modeling quantum noise in nanolasers using Markov chains 2026 J 0
+Simple yet Accurate Stochastic Approach to the Quantum Phase Noise of Nanolasers 2025 J 0
+WaveguideQED.jl: An Efficient Framework for Simulating Non-Markovian Waveguide Quantum ... 2025 J 0
+Symbolic Learning of Topological Bands in Photonic Crystals 2026 J 0
+Broadband measurement of Feibelman’s quantum surface response functions 2025 J 0
+Multimodal foundation models for material property prediction and discovery 2025 J 0
+Nanoscale 3D printing of glass photonic crystals with near-unity reflectance in the vis... 2025 J 0
+Nonlocality in photonic materials and metamaterials: roadmap 2025 J 0
+Efficient First-Principles Inverse Design of Nanolasers 2026 J 0
+Monolithic silicon micromechanical metastructures for compliant MEMS devices 2026 J 0
+Orders of Magnitude Reduction in Photonic Mode Volume by Nanosculpting 2026 J 0
+Controllable Superconductivity in Suspended NbSe2 2026 J 0
+Observation of tunable chiral spin textures with nonlinear optics 2026 J 0
+On-chip waveguide-integrated light sources using MoS2/WSe2 moiré superlattices on a sil... 2026 J 0
+Moiré-engineered light-matter interactions in MoS2/WSe2 heterobilayers at room temperature 2024 J 0
+Charges on a suspended silicon nitride membrane under a high-energy electron beam 2026 J 0
+Complete characterization of local thermoelectric properties using a micro four-point p... 2026 J 0
+Optimal electrolyte pH for efficient quinone-based aqueous redox flow battery and solar... 2026 J 0
+Reversible and Quantified Electromigration of Gold From Nanoscale Liquid Gold-Silicon E... 2026 J 0
+Ultrafast Photocatalytic Wettability Switching in Substrate-Interface Tailored Titanium... 2026 J 0
+Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light... 2026 J 0
+Strain-concentration for fast, compact photonic modulation and non-volatile memory 2024 J 0
+All-photonic artificial-neural-network processor via nonlinear optics 2024 J 0
+Heterogeneous Integration of Lithium Niobate and Silicon Photonics for Nonlinear Optics 2024 R 0
+C-band plug-and-play all-fiber single-photon source based on InAs/InP quantum dots inte... 2025 J 0
+Monolithic Integration of Sub-50 nm III-V Nano-Heterostructures on Si (001) for Telecom... 2025 J 0
+Solid-state single-photon sources operating in the telecom wavelength range 2025 J 0
+Heterogeneous integration of single InAs/InP quantum dots with the SOI chip using direc... 2024 J 0
+High-throughput quantum photonic devices emitting indistinguishable photons in the tele... 2024 J 0
+Direct Observation of Tantalum Nitride Photoelectrode Degradation by Environmental Tran... 2026 J 0
+Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emi... 2026 J 0
+Phosphate Recovery from Arsenic-Laden Groundwater Treatment Sludge 2026 J 0
+Confocal polarization tomography of dielectric nanocavities 2025 J 0
+Fabrication and characterization of shape- and topology-optimized optical cavities with... 2025 J 0
+Strong coupling between a dielectric nanocavity and a monolayer transition metal dichal... 2025 J 0
+Carrier diffusion in semiconductor nanoscale resonators 2024 J 0
+Electrostatic comb-drive actuators for nanoelectromechanical photonics: theory, design,... 2026 J 0
+Waveguide and cavity quantum electrodynamics with topological bowtie modes 2024 J 0
+Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary ... 2026 J 0
+Enhanced effective nonlinearities in silicon nitride free-standing nanopatterned membranes 2026 J 0
+Fabrication and characterization of an adaptive thin-film electrostatic phase plate 2026 J 0
+General method of wavelength-tuning of Dirac-like cones in photonic crystals 2026 J 0
+Hybrid trapezoidal grating metasurface supporting guided-mode resonances for biosensing 2026 J 0
+Cavity-driven arbitrary in-plane focusing of phonon polaritons in hBN with deep-subwave... 2026 J 0
+Coupled flexural optomechanical cavities with engineered nanomechanical interconnects 2026 J 0
+Manipulating Fano Coupling in an Opto-Thermoelectric Field 2025 J 0
+Location Qubits in a Multiple-Quantum-Dot System 2024 J 0
+Experimental proposal to probe the extended Pauli principle 2023 J 0
+Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers 2026 J 0
+Nanobeam laser cavities with high quality-factor and near-unity outcoupling efficiency 2026 J 0
+Nanostructured Semiconductor Lasers 2024 J 0
+Xenon plasma-focused ion beam milling for fabrication of high-purity, bright single-pho... 2024 J 0
+Collective single-photon emission and energy transfer in thin-layer dielectric and plas... 2025 J 0
+Collective photon emission in solid state environments: Concatenating non-Markovian and... 2024 J 0
+Graphene multilayers for coherent perfect absorption: effects of interlayer separation 2022 J 0
+Identifying weak values with intrinsic dynamical properties in modal theories 2021 J 0
+High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL 2026 J 0
+A 140 line MATLAB code for topology optimization problems with probabilistic parameters... 2026 J 0
+A Matlab code for analysis and topology optimization with Third Medium Contact 2026 J 0
+Designing 2D cellular materials for brittle fracture initiation resistance via topology... 2026 J 0
+Free-form thermal cloaks in three dimensions 2026 J 0
+Deterministic exfoliation of the uppermost layers of van der Waals crystals 2026 J 0
+Ultrafast Control of Coherent Acoustic Lattice Dynamics in the Transition Metal Dichalc... 2026 J 0
+Two-Dimensional Materials as Ideal Substrates for Molecular Quantum Emitters 2025 J 0
+Automated Three-Dimensional Piezoresponse Force Microscopy for Polarization-Vector Mapp... 2026 L 0
+Mic-hackathon 2024: hackathon on machine learning for electron and scanning probe micro... 2025 J 0
+Self-assembled photonic cavities with atomic-scale confinement 2023 J 0
+Modified light emission from a dipole in lossy and graded-index spherical structures 2026 J 0
+Creation and microscopic origins of single-photon emitters in transition-metal dichalco... 2025 J 0
+Assembling magneto-optical heterostructures for all-optical multi-functional devices 2025 J 0
+All-optical switch exploiting Fano resonance and subwavelength light confinement 2025 J 0
+Broadband Parametric Amplification in AlGaAs-on-Insulator Nanowaveguides 2026 J 0
+Engineered Mode Coupling in High-Q Microresonators Enables Deterministic Low-Repetition... 2026 J 0
+P
+Natalia Armaou|natalia-armaou||||0|0||0/0
+Ali Nawaz Babar|ali-nawaz-babar|0000-0002-5708-9726|p||0|0|0p,1p,2p,3p,4p|6/3
+Himanshu Bhatt|himanshu-bhatt||||0|0||0/0
+Valdemar Christian Bille-Lauridsen|valdemar-christian-bille-lauridsen|0009-0002-7029-4406|p||0|0|5p,6p|2/0
+Simon Klinck Borregaard|simon-klinck-borregaard||||0|0|7p,8p|2/0
+Matias Bundgaard-Nielsen|matias-bundgaard-nielsen|0000-0003-2941-6643|p||0|0|9p,10p,11p,12p,13p|6/3
+Thomas Christensen|thomas-christensen|0000-0002-9131-2717|p||0|0|14p,15p,16p,17p,18p|14/4
+Rasmus Ellebæk Christiansen|rasmus-elleb%C3%A6k-christiansen|0000-0003-4969-9062|p||0|0|5p,19p,0p,20p,21p|32/0
+Oliver Julius Naidu Dylander|oliver-julius-naidu-dylander-2||||0|0||0/0
+Hanlin Fang|hanlin-fang|0000-0001-9743-9295|p||0|0|22p,23p,24p,25p|4/2
+Ole Hansen|ole-hansen-2|0000-0002-6090-8323|p||0|0|26p,27p,28p,29p,30p|41/1
+Mikkel Heuck|mikkel-heuck|0000-0001-9769-6005|p||0|0|31p,13p,32p,33p,34p|11/4
+Pawel Holewa|pawel-holewa|0000-0002-2154-896X|p||0|0|35p,36p,37p,38p,39p|10/6
+Nikolaj Balslev Hougs|nikolaj-balslev-hougs|0009-0000-2625-1201|p||0|0||0/0
+Jørn Marcher Hvam|j%C3%B8rn-marcher-hvam|0000-0002-2429-1012|p||0|0||0/0
+Shima Kadkhodazadeh|shima-kadkhodazadeh|0000-0003-3606-8851|p||0|0|40p,41p,24p,42p,1p|24/1
+Odysseas Kosmatos|odysseas-kosmatos||||0|0||0/0
+Philip Trøst Kristensen|philip-tr%C3%B8st-kristensen|0000-0001-5804-1989|p||0|0|1p,43p,44p,45p,46p|18/0
+Babak Vosoughi Lahijani|babak-vosoughi-lahijani|0000-0001-7056-6542|p||0|0|47p,31p,1p,3p,48p|11/0
+Andrei Laurynenka|andrei-laurynenka|0000-0001-8853-2033|p||0|0|49p,50p,51p,52p,53p|37/2
+Baptiste Lefaucher|baptiste-lefaucher||||0|0||0/0
+Sergei Lepeshov|sergei-lepeshov||||0|0|54p,55p,31p,56p,48p|6/0
+Dayang Li|dayang-li|0000-0002-6931-7677|p||0|0|57p,58p|2/1
+Xujing Liu|xujing-liu||||0|0||0/0
+Bingrui Lu|bingrui-lu||||0|0|55p,31p|2/0
+Mathias Marchal|mathias-marchal||||0|0|59p,60p,61p|3/0
+Marek Grzegorz Mikulicz|marek-grzegorz-mikulicz|0000-0002-0264-960X|p||0|0|35p,62p|2/7
+Jesper Mork|jesper-mork|0000-0001-8498-661X|p||0|0|59p,5p,19p,0p,6p|45/6
+Devashish Pandey|devashish-pandey|0000-0003-0349-6913|p||0|0|63p,64p,65p,66p|4/0
+Lotte Lykke Pedersen|lotte-lykke-pedersen||||0|0||0/0
+Emil Mathias Krogstrup Rødbro|emil-mathias-krogstrup-r%C3%B8dbro||||0|0||0/0
+Christian Ruiz|christian-ruiz||||0|0||0/0
+Elizaveta Semenova|elizaveta-semenova|0000-0002-5856-4461|p||0|0|52p,67p,6p,41p,1p|34/1
+Ole Sigmund|ole-sigmund|0000-0003-0344-7249|p||0|0|68p,69p,70p,19p,71p|94/6
+Kasper Roed Spiegelhauer|kasper-roed-spiegelhauer||||0|0||0/0
+Nicolas Stenger|nicolas-stenger|0000-0002-6808-9211|p||0|0|72p,73p,74p,63p,43p|22/0
+Søren Stobbe|s%C3%B8ren-stobbe|0000-0002-0991-041X|p||0|0|55p,47p,0p,31p,1p|20/0
+Yiyang Su|yiyang-su||||0|0||0/0
+Enrico Vallar|enrico-vallar||||0|0|52p|1/0
+Jacob Andersen Wæver|jacob-andersen-w%C3%A6ver||||0|0||0/0
+Michelle Wang|michelle-wang||||0|0|75p,76p|2/0
+Thor August Schimmell Weis|thor-august-schimmell-weis|0000-0001-8244-5238|p||0|0|47p,31p,3p,77p|4/2
+Martijn Wubs|martijn-wubs|0000-0002-8286-7825|p||0|0|78p,24p,63p,43p,79p|27/1
+Sanshui Xiao|sanshui-xiao|0000-0001-6529-5047|p||0|0|22p,23p,24p,80p,63p|32/2
+Meng Xiong|meng-xiong|0000-0001-9723-3019|p||0|0|6p,60p,81p,7p,43p|16/1
+Yi Yu|yi-yu|0000-0002-7631-7069|p||0|0|59p,5p,0p,60p,7p|22/3
+Kresten Yvind|kresten-yvind|0000-0001-8013-1606|p||0|0|82p,59p,83p,67p,6p|60/4

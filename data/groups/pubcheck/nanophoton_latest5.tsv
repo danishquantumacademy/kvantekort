@@ -1,0 +1,142 @@
+# The five newest research outputs on each nanophoton member's DTU Orbit profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Ali Nawaz Babar	enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano	3.3;2.3	carrier dynamics in a dielectric nanocavity with extreme confinement
+Ali Nawaz Babar	3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w	3.3	3D imaging of optical modes in dielectric nanocavities
+Ali Nawaz Babar	inverse-design-and-characterization-of-compact-broadband-and-low-	3.3	inverse-designed low-loss photonic power splitters
+Ali Nawaz Babar	self-assembled-silicon-photonic-cavities-with-atomic-scale-confin	3.3;3.2	self-assembled silicon cavities with atomic-scale confinement
+Ali Nawaz Babar	efficient-low-reflection-fully-etched-vertical-free-space-grating	3.3	grating couplers for suspended silicon photonics
+Valdemar Christian Bille-Lauridsen	deterministic-approach-for-integrating-an-emitter-in-a-nanocavity	3.3;2.2;4.4	emitter integrated in a nanocavity with subwavelength confinement
+Valdemar Christian Bille-Lauridsen	lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n	3.3;3.2	nanolaser from a quantum-dot-like buried heterostructure
+Simon Klinck Borregaard	a-nanolaser-with-extreme-dielectric-confinement	3.3;2.2	nanolaser with extreme dielectric confinement
+Simon Klinck Borregaard	mode-characterization-of-an-inp-subwavelength-resonator	3.3	InP subwavelength resonator with a bound state in the continuum
+Matias Bundgaard-Nielsen	beyond-the-quantum-regression-theorem-in-variational-polaron-mast	2.4;2.2	open-system correlation functions beyond the quantum regression theorem
+Matias Bundgaard-Nielsen	decoherence-in-waveguide-quantum-electrodynamics-using-matrix-pro	2.2;2.4;3.5	matrix-product-state simulation of decoherence in waveguide QED
+Matias Bundgaard-Nielsen	modeling-quantum-noise-in-nanolasers-using-markov-chains	2.2;3.3	quantum noise in nanolasers
+Matias Bundgaard-Nielsen	simple-yet-accurate-stochastic-approach-to-the-quantum-phase-nois	2.2;3.3	quantum phase noise of nanolasers
+Matias Bundgaard-Nielsen	waveguideqedjl-an-efficient-framework-for-simulating-non-markovia	2.2;3.5;2.4	software for simulating non-Markovian waveguide QED
+Thomas Christensen	symbolic-learning-of-topological-bands-in-photonic-crystals	3.3;3.5	machine learning of topological photonic bands
+Thomas Christensen	broadband-measurement-of-feibelmans-quantum-surface-response-func	2.2;2.3	quantum surface response of plasmonic metals
+Thomas Christensen	multimodal-foundation-models-for-material-property-prediction-and	-	AI for materials discovery
+Thomas Christensen	nanoscale-3d-printing-of-glass-photonic-crystals-with-near-unity-	3.3;3.2	3D-printed glass photonic crystals
+Thomas Christensen	nonlocality-in-photonic-materials-and-metamaterials-roadmap	3.3;2.2	roadmap on nonlocal photonic materials
+Rasmus Ellebæk Christiansen	deterministic-approach-for-integrating-an-emitter-in-a-nanocavity	3.3;2.2;4.4	emitter integrated in a nanocavity with subwavelength confinement
+Rasmus Ellebæk Christiansen	efficient-first-principles-inverse-design-of-nanolasers	3.3	inverse design of nanolasers
+Rasmus Ellebæk Christiansen	enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano	3.3;2.3	carrier dynamics in a dielectric nanocavity with extreme confinement
+Rasmus Ellebæk Christiansen	monolithic-silicon-micromechanical-metastructures-for-compliant-m	-	silicon MEMS metastructures
+Rasmus Ellebæk Christiansen	orders-of-magnitude-reduction-in-photonic-mode-volume-by-nanoscul	3.3;2.2	nanosculpting to shrink photonic mode volume
+Hanlin Fang	controllable-superconductivity-in-suspended-nbsesub2sub	2.3;3.2	strain-controlled superconductivity in NbSe2
+Hanlin Fang	observation-of-tunable-chiral-spin-textures-with-nonlinear-optics	2.3;3.3	chiral spin textures probed with nonlinear optics
+Hanlin Fang	on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub	3.3;3.2	moiré-superlattice light sources on silicon photonics
+Hanlin Fang	moir%C3%A9-engineered-light-matter-interactions-in-mossub2subwsesub2su	2.3;2.2	moiré excitons in 2D heterobilayers
+Ole Hansen	charges-on-a-suspended-silicon-nitride-membrane-under-a-high-ener	-	electron-beam charging of SiN membranes
+Ole Hansen	complete-characterization-of-local-thermoelectric-properties-usin	-	thermoelectric microprobe measurements
+Ole Hansen	optimal-electrolyte-ph-for-efficient-quinone-based-aqueous-redox-	-	redox flow batteries
+Ole Hansen	reversible-and-quantified-electromigration-of-gold-from-nanoscale	-	electromigration of gold
+Ole Hansen	ultrafast-photocatalytic-wettability-switching-in-substrate-inter	-	photocatalytic TiO2 films
+Mikkel Heuck	nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi	4.4;3.3	tunable silicon bowtie cavities for quantum light sources
+Mikkel Heuck	waveguideqedjl-an-efficient-framework-for-simulating-non-markovia	2.2;3.5;2.4	software for simulating non-Markovian waveguide QED
+Mikkel Heuck	strain-concentration-for-fast-compact-photonic-modulation-and-non	3.3	strain-based photonic modulators
+Mikkel Heuck	all-photonic-artificial-neural-network-processor-via-nonlinear-op-2	-	optical neural-network processor
+Mikkel Heuck	heterogeneous-integration-of-lithium-niobate-and-silicon-photonic	3.3;3.2	lithium niobate on silicon nitride for nonlinear optics
+Pawel Holewa	c-band-plug-and-play-all-fiber-single-photon-source-based-on-inas	4.4;7.5	fibre-coupled telecom quantum-dot single-photon source
+Pawel Holewa	monolithic-integration-of-sub-50-nm-iii-v-nano-heterostructures-o	3.2;3.3	III-V nanostructures on silicon for telecom photonics
+Pawel Holewa	solid-state-single-photon-sources-operating-in-the-telecom-wavele	4.4;7.5	review of telecom solid-state single-photon sources
+Pawel Holewa	heterogeneous-integration-of-single-inasinp-quantum-dots-with-the	4.4;3.2	quantum dots bonded onto silicon chips
+Pawel Holewa	high-throughput-quantum-photonic-devices-emitting-indistinguishab	4.4;7.5	telecom C-band indistinguishable photon sources
+Shima Kadkhodazadeh	direct-observation-of-tantalum-nitride-photoelectrode-degradation	-	electron microscopy of photoelectrodes
+Shima Kadkhodazadeh	local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-	3.2;4.4	epitaxy of telecom quantum-dot emitters
+Shima Kadkhodazadeh	on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub	3.3;3.2	moiré-superlattice light sources on silicon photonics
+Shima Kadkhodazadeh	phosphate-recovery-from-arsenic-laden-groundwater-treatment-sludg	-	water treatment
+Shima Kadkhodazadeh	3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w	3.3	3D imaging of optical modes in dielectric nanocavities
+Philip Trøst Kristensen	3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w	3.3	3D imaging of optical modes in dielectric nanocavities
+Philip Trøst Kristensen	confocal-polarization-tomography-of-dielectric-nanocavities	3.3	polarisation tomography of nanocavities
+Philip Trøst Kristensen	fabrication-and-characterization-of-shape-and-topology-optimized-	3.3;4.4	optimised cavities for colloidal quantum dots
+Philip Trøst Kristensen	strong-coupling-between-a-dielectric-nanocavity-and-a-monolayer-t	2.2;2.3	strong coupling of a nanocavity and 2D excitons
+Philip Trøst Kristensen	carrier-diffusion-in-semiconductor-nanoscale-resonators	3.3;2.3	carrier diffusion in nanoresonators
+Babak Vosoughi Lahijani	electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot	3.3;3.4	comb-drive actuators for nanoelectromechanical photonics
+Babak Vosoughi Lahijani	nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi	4.4;3.3	tunable silicon bowtie cavities for quantum light sources
+Babak Vosoughi Lahijani	3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w	3.3	3D imaging of optical modes in dielectric nanocavities
+Babak Vosoughi Lahijani	self-assembled-silicon-photonic-cavities-with-atomic-scale-confin	3.3;3.2	self-assembled silicon cavities with atomic-scale confinement
+Babak Vosoughi Lahijani	waveguide-and-cavity-quantum-electrodynamics-with-topological-bow	2.2;3.3	waveguide QED with topological bowtie modes
+Andrei Laurynenka	broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams	3.3	fibre mode conversion
+Andrei Laurynenka	enhanced-effective-nonlinearities-in-silicon-nitride-free-standin	3.3	nonlinear SiN membranes
+Andrei Laurynenka	fabrication-and-characterization-of-an-adaptive-thin-film-electro	-	electron-microscope phase plates
+Andrei Laurynenka	general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon	3.3	near-zero-index photonic crystals
+Andrei Laurynenka	hybrid-trapezoidal-grating-metasurface-supporting-guided-mode-res	-	metasurface biosensor
+Sergei Lepeshov	cavity-driven-arbitrary-in-plane-focusing-of-phonon-polaritons-in	3.3	phonon-polariton focusing in hBN
+Sergei Lepeshov	coupled-flexural-optomechanical-cavities-with-engineered-nanomech	3.3;3.4	coupled optomechanical cavities
+Sergei Lepeshov	nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi	4.4;3.3	tunable silicon bowtie cavities for quantum light sources
+Sergei Lepeshov	manipulating-fano-coupling-in-an-opto-thermoelectric-field	3.3	Fano resonances in photonics
+Sergei Lepeshov	waveguide-and-cavity-quantum-electrodynamics-with-topological-bow	2.2;3.3	waveguide QED with topological bowtie modes
+Dayang Li	location-qubits-in-a-multiple-quantum-dot-system	4.2;7.5;5.1	location qubits in quantum-dot systems for quantum networks
+Dayang Li	experimental-proposal-to-probe-the-extended-pauli-principle	1.1;4.2	test of the extended Pauli principle with quantum dots
+Bingrui Lu	coupled-flexural-optomechanical-cavities-with-engineered-nanomech	3.3;3.4	coupled optomechanical cavities
+Bingrui Lu	nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi	4.4;3.3	tunable silicon bowtie cavities for quantum light sources
+Mathias Marchal	carrier-transport-in-electrically-driven-photonic-crystal-membran	3.3	carrier transport in photonic-crystal lasers
+Mathias Marchal	nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o	3.3	high-Q nanobeam laser cavities
+Mathias Marchal	nanostructured-semiconductor-lasers	3.3	nanostructured semiconductor lasers
+Marek Grzegorz Mikulicz	c-band-plug-and-play-all-fiber-single-photon-source-based-on-inas	4.4;7.5	fibre-coupled telecom quantum-dot single-photon source
+Marek Grzegorz Mikulicz	xenon-plasma-focused-ion-beam-milling-for-fabrication-of-high-pur	4.4;3.2	ion-beam fabrication of telecom single-photon sources
+Jesper Mork	carrier-transport-in-electrically-driven-photonic-crystal-membran	3.3	carrier transport in photonic-crystal lasers
+Jesper Mork	deterministic-approach-for-integrating-an-emitter-in-a-nanocavity	3.3;2.2;4.4	emitter integrated in a nanocavity with subwavelength confinement
+Jesper Mork	efficient-first-principles-inverse-design-of-nanolasers	3.3	inverse design of nanolasers
+Jesper Mork	enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano	3.3;2.3	carrier dynamics in a dielectric nanocavity with extreme confinement
+Jesper Mork	lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n	3.3;3.2	nanolaser from a quantum-dot-like buried heterostructure
+Devashish Pandey	collective-single-photon-emission-and-energy-transfer-in-thin-lay	2.2;4.4	collective emission of quantum emitters in thin layers
+Devashish Pandey	collective-photon-emission-in-solid-state-environments-concatenat	2.2;2.4	collective emission with non-Markovian dynamics
+Devashish Pandey	graphene-multilayers-for-coherent-perfect-absorption-effects-of-i	3.3	coherent perfect absorption in graphene
+Devashish Pandey	identifying-weak-values-with-intrinsic-dynamical-properties-in-mo	1.1	weak values in quantum foundations
+Elizaveta Semenova	general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon	3.3	near-zero-index photonic crystals
+Elizaveta Semenova	high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs	-	tunable MEMS laser design
+Elizaveta Semenova	lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n	3.3;3.2	nanolaser from a quantum-dot-like buried heterostructure
+Elizaveta Semenova	local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-	3.2;4.4	epitaxy of telecom quantum-dot emitters
+Elizaveta Semenova	3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w	3.3	3D imaging of optical modes in dielectric nanocavities
+Ole Sigmund	a-140-line-matlab-code-for-topology-optimization-problems-with-pr	-	topology optimisation code
+Ole Sigmund	a-matlab-code-for-analysis-and-topology-optimization-with-third-m	-	topology optimisation code
+Ole Sigmund	designing-2d-cellular-materials-for-brittle-fracture-initiation-r	-	fracture-resistant materials design
+Ole Sigmund	efficient-first-principles-inverse-design-of-nanolasers	3.3	inverse design of nanolasers
+Ole Sigmund	free-form-thermal-cloaks-in-three-dimensions	-	thermal cloaks
+Nicolas Stenger	deterministic-exfoliation-of-the-uppermost-layers-of-van-der-waal	3.2	exfoliation of van der Waals crystals
+Nicolas Stenger	ultrafast-control-of-coherent-acoustic-lattice-dynamics-in-the-tr	2.3	coherent phonons in a TMD alloy
+Nicolas Stenger	two-dimensional-materials-as-ideal-substrates-for-molecular-quant	4.4;3.2	2D substrates for molecular quantum emitters
+Nicolas Stenger	collective-single-photon-emission-and-energy-transfer-in-thin-lay	2.2;4.4	collective emission of quantum emitters in thin layers
+Nicolas Stenger	confocal-polarization-tomography-of-dielectric-nanocavities	3.3	polarisation tomography of nanocavities
+Søren Stobbe	coupled-flexural-optomechanical-cavities-with-engineered-nanomech	3.3;3.4	coupled optomechanical cavities
+Søren Stobbe	electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot	3.3;3.4	comb-drive actuators for nanoelectromechanical photonics
+Søren Stobbe	enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano	3.3;2.3	carrier dynamics in a dielectric nanocavity with extreme confinement
+Søren Stobbe	nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi	4.4;3.3	tunable silicon bowtie cavities for quantum light sources
+Søren Stobbe	3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w	3.3	3D imaging of optical modes in dielectric nanocavities
+Enrico Vallar	general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon	3.3	near-zero-index photonic crystals
+Michelle Wang	automated-three-dimensional-piezoresponse-force-microscopy-for-po	-	piezoresponse microscopy
+Michelle Wang	mic-hackathon-2024-hackathon-on-machine-learning-for-electron-and	-	machine learning for microscopy
+Thor August Schimmell Weis	electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot	3.3;3.4	comb-drive actuators for nanoelectromechanical photonics
+Thor August Schimmell Weis	nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi	4.4;3.3	tunable silicon bowtie cavities for quantum light sources
+Thor August Schimmell Weis	self-assembled-silicon-photonic-cavities-with-atomic-scale-confin	3.3;3.2	self-assembled silicon cavities with atomic-scale confinement
+Thor August Schimmell Weis	self-assembled-photonic-cavities-with-atomic-scale-confinement	3.3;3.2	self-assembled cavities with atomic-scale confinement
+Martijn Wubs	modified-light-emission-from-a-dipole-in-lossy-and-graded-index-s	2.2;3.3	emitter near graded-index structures
+Martijn Wubs	on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub	3.3;3.2	moiré-superlattice light sources on silicon photonics
+Martijn Wubs	collective-single-photon-emission-and-energy-transfer-in-thin-lay	2.2;4.4	collective emission of quantum emitters in thin layers
+Martijn Wubs	confocal-polarization-tomography-of-dielectric-nanocavities	3.3	polarisation tomography of nanocavities
+Martijn Wubs	creation-and-microscopic-origins-of-single-photon-emitters-in-tra	4.4;3.2;2.3	single-photon emitters in van der Waals materials
+Sanshui Xiao	controllable-superconductivity-in-suspended-nbsesub2sub	2.3;3.2	strain-controlled superconductivity in NbSe2
+Sanshui Xiao	observation-of-tunable-chiral-spin-textures-with-nonlinear-optics	2.3;3.3	chiral spin textures probed with nonlinear optics
+Sanshui Xiao	on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub	3.3;3.2	moiré-superlattice light sources on silicon photonics
+Sanshui Xiao	assembling-magneto-optical-heterostructures-for-all-optical-multi	3.3	magneto-optical heterostructures
+Sanshui Xiao	collective-single-photon-emission-and-energy-transfer-in-thin-lay	2.2;4.4	collective emission of quantum emitters in thin layers
+Meng Xiong	lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n	3.3;3.2	nanolaser from a quantum-dot-like buried heterostructure
+Meng Xiong	nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o	3.3	high-Q nanobeam laser cavities
+Meng Xiong	all-optical-switch-exploiting-fano-resonance-and-subwavelength-li	3.3	all-optical switch with a bowtie cavity
+Meng Xiong	a-nanolaser-with-extreme-dielectric-confinement	3.3;2.2	nanolaser with extreme dielectric confinement
+Meng Xiong	confocal-polarization-tomography-of-dielectric-nanocavities	3.3	polarisation tomography of nanocavities
+Yi Yu	carrier-transport-in-electrically-driven-photonic-crystal-membran	3.3	carrier transport in photonic-crystal lasers
+Yi Yu	deterministic-approach-for-integrating-an-emitter-in-a-nanocavity	3.3;2.2;4.4	emitter integrated in a nanocavity with subwavelength confinement
+Yi Yu	enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano	3.3;2.3	carrier dynamics in a dielectric nanocavity with extreme confinement
+Yi Yu	nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o	3.3	high-Q nanobeam laser cavities
+Yi Yu	a-nanolaser-with-extreme-dielectric-confinement	3.3;2.2	nanolaser with extreme dielectric confinement
+Kresten Yvind	broadband-parametric-amplification-in-algaas-on-insulator-nanowav	3.3	parametric amplification in AlGaAs waveguides
+Kresten Yvind	carrier-transport-in-electrically-driven-photonic-crystal-membran	3.3	carrier transport in photonic-crystal lasers
+Kresten Yvind	engineered-mode-coupling-in-high-q-microresonators-enables-determ	3.3	soliton microcombs
+Kresten Yvind	high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs	-	tunable MEMS laser design
+Kresten Yvind	lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n	3.3;3.2	nanolaser from a quantum-dot-like buried heterostructure

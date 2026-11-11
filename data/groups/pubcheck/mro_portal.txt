@@ -1,0 +1,13 @@
+# mro members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Suyash Narayan Amzare|suyash-narayan-amzare|0009-0001-7400-4675|
+#Ziba Arghiani|ziba-arghiani-2|0000-0003-3111-357X|
+#Kirstine Berg-Sørensen|kirstine-berg-s%C3%B8rensen|0000-0002-9977-3980|
+p 1g76el9 2026 =
+p spz5mg 2026 nanodiamond-based-quantum-sensing-reveals-changes-in-endo-lysosom
+p qxvfto 2026 sensing-with-near-infrared-laser-trapped-fluorescent-nanodiamonds
+p ohuwkk 2025 quantum-sensing-of-free-radicals-in-macrophages-reveals-early-aut
+p vaihpm 2025 quantum-sensing-to-monitor-changes-in-free-radical-generation-by-
+#Maciej Jerzy Glowacki|maciej-jerzy-glowacki|0000-0003-1731-982X|
+#Ella Walsh|ella-walsh|0000-0002-1532-1566|

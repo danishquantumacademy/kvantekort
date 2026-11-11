@@ -1,0 +1,72 @@
+# qls, compact harvest 11 November 2026 (DTU Orbit + ORCID; OpenAlex not read: daily limit reached)
+#M|Sejr Sebastian Haahr Bergman|~sejr-sebastian-haahr-bergman/|0009-0002-9291-8224||0
+#N|0|0
+#M|Niels Gregersen|~niels-gregersen/|0000-0002-8252-8989||0
+#N|35|2
+p|1qxgr08|2026|J|exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio|||Exciton and biexciton preparation via coherent swing-up excitation in a GaAs quantum do...
+p|bqkig4|2026|J|indistinguishable-single-photons-from-a-quantum-dot-in-a-nanopost|||Indistinguishable single photons from a quantum dot in a nanopost cavity
+p|l2pv3z|2026|J|theory-of-single-photon-emission-from-neutral-and-charged-exciton|||Theory of single-photon emission from neutral and charged excitons in a polarization-se...
+p|1rb5jiq|2025|J|deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-|||Deterministic Fabrication of GaAs-Quantum-Dot Micropillar Single-Photon Sources
+p|1ebfa0w|2025|J|high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s|||High-purity and stable single-photon emission in bilayer WSe2 via phonon-assisted excit...
+#M|Christine Pepke Gunnarsson|~christine-pepke-gunnarsson/|0000-0002-8483-8024||0
+#N|0|5
+#M|Martin Arentoft Jacobsen|~martin-arentoft-jacobsen/|0000-0001-7534-6135||0
+#N|8|4
+p|1qxgr08|2026|J|exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio|||Exciton and biexciton preparation via coherent swing-up excitation in a GaAs quantum do...
+p|1rb5jiq|2025|J|deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-|||Deterministic Fabrication of GaAs-Quantum-Dot Micropillar Single-Photon Sources
+p|98j311|2025|J|high-purity-single-photon-emission-in-the-telecom-o-band-from-dro|||High-Purity Single-Photon Emission in the Telecom O-Band from Droplet-Epitaxy InAs Quan...
+p|vrt25e|2024-03-20|J|assessing-the-alignment-accuracy-of-state-of-the-art-deterministi|||Assessing the Alignment Accuracy of State-of-the-Art Deterministic Fabrication Methods ...
+p|m0vbzr|2023|J|performance-of-the-nanopost-single-photon-source-beyond-the-singl|||Performance of the nanopost single-photon source: beyond the single-mode model
+#M|Mads Kirk Mailand|~mads-kirk-mailand/|||0
+#N|0|0
+#M|Pietro Metuh|~pietro-metuh/|0009-0003-1108-2494||0
+#N|6|2
+p|7vgmoq|2026|J|single-photon-detection-in-few-layer-nbsesub2sub-superconducting-|||Single-photon detection in few-layer NbSe2 superconducting nanowires
+p|4w3dii|2025|J|toward-single-photon-detection-with-superconducting-niobium-disel|||Toward Single-Photon Detection with Superconducting Niobium Diselenide Nanowires
+p|1g0ei4f|2025|J|tunable-and-low-noise-wsesub2sub-quantum-emitters-for-quantum-pho|||Tunable and Low-Noise WSe2 Quantum Emitters for Quantum Photonics
+p|x298j9|2024-12|J|tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det|||Tailoring polarization in WSe2 quantum emitters through deterministic strain engineering
+p|12e000t|2024|J|=|||Recent Advances in Wireless Optoelectronic Biomedical Implants
+#M|Battulga Munkhbat|~battulga-munkhbat/|0000-0002-1923-0960||0
+#N|21|5
+p|1qxgr08|2026|J|exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio|||Exciton and biexciton preparation via coherent swing-up excitation in a GaAs quantum do...
+p|15yj4di|2026|J|local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-|||Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emi...
+p|7vgmoq|2026|J|single-photon-detection-in-few-layer-nbsesub2sub-superconducting-|||Single-photon detection in few-layer NbSe2 superconducting nanowires
+p|1rb5jiq|2025|J|deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-|||Deterministic Fabrication of GaAs-Quantum-Dot Micropillar Single-Photon Sources
+p|dylacx|2025|J|high-purcell-enhancement-in-all-tmdc-nanobeam-resonator-designs-w|||High Purcell enhancement in all-TMDC nanobeam resonator designs with optically active m...
+#M|Athanasios Paralikis|~athanasios-paralikis/|||0
+#N|6|0
+p|7vgmoq|2026|J|single-photon-detection-in-few-layer-nbsesub2sub-superconducting-|||Single-photon detection in few-layer NbSe2 superconducting nanowires
+p|1ebfa0w|2025|J|high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s|||High-purity and stable single-photon emission in bilayer WSe2 via phonon-assisted excit...
+p|4w3dii|2025|J|toward-single-photon-detection-with-superconducting-niobium-disel|||Toward Single-Photon Detection with Superconducting Niobium Diselenide Nanowires
+p|1g0ei4f|2025|J|tunable-and-low-noise-wsesub2sub-quantum-emitters-for-quantum-pho|||Tunable and Low-Noise WSe2 Quantum Emitters for Quantum Photonics
+p|x298j9|2024-12|J|tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det|||Tailoring polarization in WSe2 quantum emitters through deterministic strain engineering
+#M|Lotte Lykke Pedersen|~lotte-lykke-pedersen/|||0
+#N|0|0
+#M|Aleksander Rodek|~aleksander-rodek/|0000-0002-0263-3122||0
+#N|2|10
+p|1qxgr08|2026|J|exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio|||Exciton and biexciton preparation via coherent swing-up excitation in a GaAs quantum do...
+p|jzrz19|2026|J|manipulation-of-the-electric-state-of-the-cdseznse-qd-with-a-sing|||Manipulation of the electric state of the CdSe/ZnSe QD with a single Fe2+ dopant
+#M|Javier Sanz Rodrigo|~javier-sanz-rodrigo/|0009-0000-8556-3723||0
+#N|2|0
+p|s1ve3e|2026|J|machine-learning-assisted-discovery-and-accelerated-synthesis-of-|||Machine-Learning-Assisted Discovery and Accelerated Synthesis of Metal Phosphosulfides
+p|67ix9p|2025|J|large-area-thin-film-synthesis-of-photoactive-cusub3subpssub4sub-|||Large-area thin-film synthesis of photoactive Cu3PS4 thiophosphate semiconductor with 0...
+#M|Damien Roux|~damien-roux/|||0
+#N|0|0
+#M|Andreas Rudfeld|~andreas-rudfeld/|||0
+#N|0|0
+#M|Luca Vannucci|~luca-vannucci/|0000-0001-6653-1494||0
+#N|14|2
+p|1qxgr08|2026|J|exciton-and-biexciton-preparation-via-coherent-swing-up-excitatio|||Exciton and biexciton preparation via coherent swing-up excitation in a GaAs quantum do...
+p|l2pv3z|2026|J|theory-of-single-photon-emission-from-neutral-and-charged-exciton|||Theory of single-photon emission from neutral and charged excitons in a polarization-se...
+p|1ebfa0w|2025|J|high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s|||High-purity and stable single-photon emission in bilayer WSe2 via phonon-assisted excit...
+p|1uiqwb2|2025|J|photonic-hourglass-design-beyond-the-standard-bulk-model-of-phono|||Photonic "hourglass" design beyond the standard bulk model of phonon decoherence
+p|x298j9|2024-12|J|tailoring-polarization-in-wsesub2sub-quantum-emitters-through-det|||Tailoring polarization in WSe2 quantum emitters through deterministic strain engineering
+#M|Natashia Emma Wöhliche|~natashia-emma-w%C3%B6hliche/|||0
+#N|0|0
+#M|Pawel Daniel Wyborski|~pawel-daniel-wyborski/|0000-0003-4078-5343||0
+#N|11|8
+p|15yj4di|2026|J|local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-|||Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emi...
+p|9u7c0|2025|J|a-fiber-pigtailed-quantum-dot-device-generating-indistinguishable|||A fiber-pigtailed quantum dot device generating indistinguishable photons at GHz clock-...
+p|1rb5jiq|2025|J|deterministic-fabrication-of-gaas-quantum-dot-micropillar-single-|||Deterministic Fabrication of GaAs-Quantum-Dot Micropillar Single-Photon Sources
+p|1ebfa0w|2025|J|high-purity-and-stable-single-photon-emission-in-bilayer-wsesub2s|||High-purity and stable single-photon emission in bilayer WSe2 via phonon-assisted excit...
+p|98j311|2025|J|high-purity-single-photon-emission-in-the-telecom-o-band-from-dro|||High-Purity Single-Photon Emission in the Telecom O-Band from Droplet-Epitaxy InAs Quan...

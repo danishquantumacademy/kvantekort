@@ -1,0 +1,233 @@
+# nanophoton, compact harvest 11 November 2026 (DTU Orbit + ORCID; OpenAlex not read: daily limit reached)
+#M|Natalia Armaou|~natalia-armaou/|||0
+#N|0|0
+#M|Ali Nawaz Babar|~ali-nawaz-babar/|0000-0002-5708-9726||0
+#N|6|3
+p|gukay4|2026|J|enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano|||Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-W...
+p|707y7s|2025|J|3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w|||3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie...
+p|1gr7xxm|2024|J|inverse-design-and-characterization-of-compact-broadband-and-low-|||Inverse design and characterization of compact, broadband, and low-loss chip-scale phot...
+p|bfgv4s|2024|R|self-assembled-silicon-photonic-cavities-with-atomic-scale-confin|||Self-assembled silicon photonic cavities with atomic-scale confinement
+p|2bzlcg|2023|J|efficient-low-reflection-fully-etched-vertical-free-space-grating|||Efficient low-reflection fully etched vertical free-space grating couplers for suspende...
+#M|Himanshu Bhatt|~himanshu-bhatt/|||0
+#N|0|0
+#M|Valdemar Christian Bille-Lauridsen|~valdemar-christian-bille-lauridsen/|0009-0002-7029-4406||0
+#N|2|0
+p|130681k|2026|J|deterministic-approach-for-integrating-an-emitter-in-a-nanocavity|||Deterministic approach for integrating an emitter in a nanocavity with subwavelength li...
+p|hs47k6|2026|J|lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n|||Lasing from a quantum-dot-like buried heterostructure in an InP nanobeam cavity
+#M|Simon Klinck Borregaard|~simon-klinck-borregaard/|||0
+#N|2|0
+p|1nmymdp|2025|J|=|||A nanolaser with extreme dielectric confinement
+p|dcgqy0|2024|R|=|||Mode Characterization of an InP Subwavelength Resonator
+#M|Matias Bundgaard-Nielsen|~matias-bundgaard-nielsen/|0000-0003-2941-6643||0
+#N|6|3
+p|1y75otg|2026|J|beyond-the-quantum-regression-theorem-in-variational-polaron-mast|||Beyond the quantum regression theorem in variational polaron master equations: From Ohm...
+p|zjc94s|2026|J|decoherence-in-waveguide-quantum-electrodynamics-using-matrix-pro|||Decoherence in waveguide quantum electrodynamics using matrix product states
+p|1fhpej4|2026|J|=|||Modeling quantum noise in nanolasers using Markov chains
+p|n5mccs|2025|J|simple-yet-accurate-stochastic-approach-to-the-quantum-phase-nois|||Simple yet Accurate Stochastic Approach to the Quantum Phase Noise of Nanolasers
+p|xg1a1n|2025|J|waveguideqedjl-an-efficient-framework-for-simulating-non-markovia|||WaveguideQED.jl: An Efficient Framework for Simulating Non-Markovian Waveguide Quantum ...
+#M|Thomas Christensen|~thomas-christensen/|0000-0002-9131-2717||0
+#N|14|4
+p|1ot4194|2026|J|=|||Symbolic Learning of Topological Bands in Photonic Crystals
+p|juxfsd|2025-06-10|J|broadband-measurement-of-feibelmans-quantum-surface-response-func|||Broadband measurement of Feibelman’s quantum surface response functions
+p|1won6jn|2025|J|multimodal-foundation-models-for-material-property-prediction-and|||Multimodal foundation models for material property prediction and discovery
+p|nespv|2025|J|nanoscale-3d-printing-of-glass-photonic-crystals-with-near-unity-|||Nanoscale 3D printing of glass photonic crystals with near-unity reflectance in the vis...
+p|91unpa|2025|J|=|||Nonlocality in photonic materials and metamaterials: roadmap
+#M|Rasmus Ellebæk Christiansen|~rasmus-elleb%C3%A6k-christiansen/|0000-0003-4969-9062||0
+#N|32|0
+p|130681k|2026|J|deterministic-approach-for-integrating-an-emitter-in-a-nanocavity|||Deterministic approach for integrating an emitter in a nanocavity with subwavelength li...
+p|1uu8wtk|2026|J|=|||Efficient First-Principles Inverse Design of Nanolasers
+p|gukay4|2026|J|enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano|||Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-W...
+p|1r1gvou|2026|J|monolithic-silicon-micromechanical-metastructures-for-compliant-m|||Monolithic silicon micromechanical metastructures for compliant MEMS devices
+p|1r2bjiu|2026|J|orders-of-magnitude-reduction-in-photonic-mode-volume-by-nanoscul|||Orders of Magnitude Reduction in Photonic Mode Volume by Nanosculpting
+#M|Oliver Julius Naidu Dylander|~oliver-julius-naidu-dylander-2/|||0
+#N|0|0
+#M|Hanlin Fang|~hanlin-fang/|0000-0001-9743-9295||0
+#N|4|2
+p|17tro62|2026|J|controllable-superconductivity-in-suspended-nbsesub2sub|||Controllable Superconductivity in Suspended NbSe2
+p|1bei3o2|2026|J|observation-of-tunable-chiral-spin-textures-with-nonlinear-optics|||Observation of tunable chiral spin textures with nonlinear optics
+p|htuzvm|2026|J|on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub|||On-chip waveguide-integrated light sources using MoS2/WSe2 moiré superlattices on a sil...
+p|ftxp53|2024|J|moir%C3%A9-engineered-light-matter-interactions-in-mossub2subwsesub2su|||Moiré-engineered light-matter interactions in MoS2/WSe2 heterobilayers at room temperature
+#M|Ole Hansen|~ole-hansen-2/|0000-0002-6090-8323||0
+#N|41|1
+p|18ves4r|2026|J|charges-on-a-suspended-silicon-nitride-membrane-under-a-high-ener|||Charges on a suspended silicon nitride membrane under a high-energy electron beam
+p|1pc1lz7|2026|J|complete-characterization-of-local-thermoelectric-properties-usin|||Complete characterization of local thermoelectric properties using a micro four-point p...
+p|1pjrsyn|2026|J|optimal-electrolyte-ph-for-efficient-quinone-based-aqueous-redox-|||Optimal electrolyte pH for efficient quinone-based aqueous redox flow battery and solar...
+p|12mdf7w|2026|J|reversible-and-quantified-electromigration-of-gold-from-nanoscale|||Reversible and Quantified Electromigration of Gold From Nanoscale Liquid Gold-Silicon E...
+p|1ay4u6b|2026|J|ultrafast-photocatalytic-wettability-switching-in-substrate-inter|||Ultrafast Photocatalytic Wettability Switching in Substrate-Interface Tailored Titanium...
+#M|Mikkel Heuck|~mikkel-heuck/|0000-0001-9769-6005||0
+#N|11|4
+p|85a4k2|2026|J|nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi|||Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light...
+p|xg1a1n|2025|J|waveguideqedjl-an-efficient-framework-for-simulating-non-markovia|||WaveguideQED.jl: An Efficient Framework for Simulating Non-Markovian Waveguide Quantum ...
+p|d3xyjv|2024-11-20|J|strain-concentration-for-fast-compact-photonic-modulation-and-non|||Strain-concentration for fast, compact photonic modulation and non-volatile memory
+p|4z4r0k|2024|J|all-photonic-artificial-neural-network-processor-via-nonlinear-op-2|||All-photonic artificial-neural-network processor via nonlinear optics
+p|1uv322h|2024|R|heterogeneous-integration-of-lithium-niobate-and-silicon-photonic|||Heterogeneous Integration of Lithium Niobate and Silicon Photonics for Nonlinear Optics
+#M|Pawel Holewa|~pawel-holewa/|0000-0002-2154-896X||0
+#N|10|6
+p|22vmol|2025|J|c-band-plug-and-play-all-fiber-single-photon-source-based-on-inas|||C-band plug-and-play all-fiber single-photon source based on InAs/InP quantum dots inte...
+p|1pj6rlj|2025|J|monolithic-integration-of-sub-50-nm-iii-v-nano-heterostructures-o|||Monolithic Integration of Sub-50 nm III-V Nano-Heterostructures on Si (001) for Telecom...
+p|1r2md0h|2025|J|solid-state-single-photon-sources-operating-in-the-telecom-wavele|||Solid-state single-photon sources operating in the telecom wavelength range
+p|13ymkre|2024|J|heterogeneous-integration-of-single-inasinp-quantum-dots-with-the|||Heterogeneous integration of single InAs/InP quantum dots with the SOI chip using direc...
+p|1um007d|2024|J|high-throughput-quantum-photonic-devices-emitting-indistinguishab|||High-throughput quantum photonic devices emitting indistinguishable photons in the tele...
+#M|Nikolaj Balslev Hougs|~nikolaj-balslev-hougs/|0009-0000-2625-1201||0
+#N|0|0
+#M|Jørn Marcher Hvam|~j%C3%B8rn-marcher-hvam/|0000-0002-2429-1012||0
+#N|0|0
+#M|Shima Kadkhodazadeh|~shima-kadkhodazadeh/|0000-0003-3606-8851||0
+#N|24|1
+p|1npp88u|2026|J|direct-observation-of-tantalum-nitride-photoelectrode-degradation|||Direct Observation of Tantalum Nitride Photoelectrode Degradation by Environmental Tran...
+p|15yj4di|2026|J|local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-|||Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emi...
+p|htuzvm|2026|J|on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub|||On-chip waveguide-integrated light sources using MoS2/WSe2 moiré superlattices on a sil...
+p|1etrpwa|2026|J|phosphate-recovery-from-arsenic-laden-groundwater-treatment-sludg|||Phosphate Recovery from Arsenic-Laden Groundwater Treatment Sludge
+p|707y7s|2025|J|3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w|||3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie...
+#M|Odysseas Kosmatos|~odysseas-kosmatos/|||0
+#N|0|0
+#M|Philip Trøst Kristensen|~philip-tr%C3%B8st-kristensen/|0000-0001-5804-1989||0
+#N|18|0
+p|707y7s|2025|J|3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w|||3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie...
+p|g346g4|2025|J|=|||Confocal polarization tomography of dielectric nanocavities
+p|6aek7i|2025|J|fabrication-and-characterization-of-shape-and-topology-optimized-|||Fabrication and characterization of shape- and topology-optimized optical cavities with...
+p|1gzs48h|2025|J|strong-coupling-between-a-dielectric-nanocavity-and-a-monolayer-t|||Strong coupling between a dielectric nanocavity and a monolayer transition metal dichal...
+p|a0d70k|2024|J|=|||Carrier diffusion in semiconductor nanoscale resonators
+#M|Babak Vosoughi Lahijani|~babak-vosoughi-lahijani/|0000-0001-7056-6542||0
+#N|11|0
+p|oq7abp|2026|J|electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot|||Electrostatic comb-drive actuators for nanoelectromechanical photonics: theory, design,...
+p|85a4k2|2026|J|nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi|||Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light...
+p|707y7s|2025|J|3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w|||3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie...
+p|bfgv4s|2024|R|self-assembled-silicon-photonic-cavities-with-atomic-scale-confin|||Self-assembled silicon photonic cavities with atomic-scale confinement
+p|1mrrtmf|2024|J|waveguide-and-cavity-quantum-electrodynamics-with-topological-bow|||Waveguide and cavity quantum electrodynamics with topological bowtie modes
+#M|Andrei Laurynenka|~andrei-laurynenka/|0000-0001-8853-2033||0
+#N|37|2
+p|5cmcfh|2026|J|broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams|||Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary ...
+p|1947k4e|2026|J|enhanced-effective-nonlinearities-in-silicon-nitride-free-standin|||Enhanced effective nonlinearities in silicon nitride free-standing nanopatterned membranes
+p|i8oa3a|2026|J|fabrication-and-characterization-of-an-adaptive-thin-film-electro|||Fabrication and characterization of an adaptive thin-film electrostatic phase plate
+p|laragf|2026|J|general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon|||General method of wavelength-tuning of Dirac-like cones in photonic crystals
+p|be7gyn|2026|J|hybrid-trapezoidal-grating-metasurface-supporting-guided-mode-res|||Hybrid trapezoidal grating metasurface supporting guided-mode resonances for biosensing
+#M|Baptiste Lefaucher|~baptiste-lefaucher/|||0
+#N|0|0
+#M|Sergei Lepeshov|~sergei-lepeshov/|||0
+#N|6|0
+p|1nhh4zi|2026|J|cavity-driven-arbitrary-in-plane-focusing-of-phonon-polaritons-in|||Cavity-driven arbitrary in-plane focusing of phonon polaritons in hBN with deep-subwave...
+p|5fpbov|2026|J|coupled-flexural-optomechanical-cavities-with-engineered-nanomech|||Coupled flexural optomechanical cavities with engineered nanomechanical interconnects
+p|85a4k2|2026|J|nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi|||Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light...
+p|734dhx|2025|J|=|||Manipulating Fano Coupling in an Opto-Thermoelectric Field
+p|1mrrtmf|2024|J|waveguide-and-cavity-quantum-electrodynamics-with-topological-bow|||Waveguide and cavity quantum electrodynamics with topological bowtie modes
+#M|Dayang Li|~dayang-li/|0000-0002-6931-7677||0
+#N|2|1
+p|f9ft33|2024-05-08|J|=|||Location Qubits in a Multiple-Quantum-Dot System
+p|1boo4ks|2023-07|J|=|||Experimental proposal to probe the extended Pauli principle
+#M|Xujing Liu|~xujing-liu/|||0
+#N|0|0
+#M|Bingrui Lu|~bingrui-lu/|||0
+#N|2|0
+p|5fpbov|2026|J|coupled-flexural-optomechanical-cavities-with-engineered-nanomech|||Coupled flexural optomechanical cavities with engineered nanomechanical interconnects
+p|85a4k2|2026|J|nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi|||Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light...
+#M|Mathias Marchal|~mathias-marchal/|||0
+#N|3|0
+p|40yngs|2026|J|carrier-transport-in-electrically-driven-photonic-crystal-membran|||Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+p|136w89j|2026|J|nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o|||Nanobeam laser cavities with high quality-factor and near-unity outcoupling efficiency
+p|10h74n7|2024|J|=|||Nanostructured Semiconductor Lasers
+#M|Marek Grzegorz Mikulicz|~marek-grzegorz-mikulicz/|0000-0002-0264-960X||0
+#N|2|7
+p|22vmol|2025|J|c-band-plug-and-play-all-fiber-single-photon-source-based-on-inas|||C-band plug-and-play all-fiber single-photon source based on InAs/InP quantum dots inte...
+p|tt5shk|2024|J|xenon-plasma-focused-ion-beam-milling-for-fabrication-of-high-pur|||Xenon plasma-focused ion beam milling for fabrication of high-purity, bright single-pho...
+#M|Jesper Mork|~jesper-mork/|0000-0001-8498-661X||0
+#N|45|6
+p|40yngs|2026|J|carrier-transport-in-electrically-driven-photonic-crystal-membran|||Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+p|130681k|2026|J|deterministic-approach-for-integrating-an-emitter-in-a-nanocavity|||Deterministic approach for integrating an emitter in a nanocavity with subwavelength li...
+p|1uu8wtk|2026|J|=|||Efficient First-Principles Inverse Design of Nanolasers
+p|gukay4|2026|J|enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano|||Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-W...
+p|hs47k6|2026|J|lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n|||Lasing from a quantum-dot-like buried heterostructure in an InP nanobeam cavity
+#M|Devashish Pandey|~devashish-pandey/|0000-0003-0349-6913||0
+#N|4|0
+p|1265glj|2025|J|collective-single-photon-emission-and-energy-transfer-in-thin-lay|||Collective single-photon emission and energy transfer in thin-layer dielectric and plas...
+p|jgctsb|2024|J|collective-photon-emission-in-solid-state-environments-concatenat|||Collective photon emission in solid state environments: Concatenating non-Markovian and...
+p|6cwdtk|2022|J|graphene-multilayers-for-coherent-perfect-absorption-effects-of-i|||Graphene multilayers for coherent perfect absorption: effects of interlayer separation
+p|7737oa|2021-05|J|identifying-weak-values-with-intrinsic-dynamical-properties-in-mo|||Identifying weak values with intrinsic dynamical properties in modal theories
+#M|Lotte Lykke Pedersen|~lotte-lykke-pedersen/|||0
+#N|0|0
+#M|Emil Mathias Krogstrup Rødbro|~emil-mathias-krogstrup-r%C3%B8dbro/|||0
+#N|0|0
+#M|Christian Ruiz|~christian-ruiz/|||0
+#N|0|0
+#M|Elizaveta Semenova|~elizaveta-semenova/|0000-0002-5856-4461||0
+#N|34|1
+p|laragf|2026|J|general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon|||General method of wavelength-tuning of Dirac-like cones in photonic crystals
+p|te3vgh|2026|J|high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs|||High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL
+p|hs47k6|2026|J|lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n|||Lasing from a quantum-dot-like buried heterostructure in an InP nanobeam cavity
+p|15yj4di|2026|J|local-droplet-etching-assisted-quantum-dot-epitaxy-for-telecom-c-|||Local Droplet Etching-Assisted Quantum Dot Epitaxy for Telecom C-Band Quantum Light Emi...
+p|707y7s|2025|J|3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w|||3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie...
+#M|Ole Sigmund|~ole-sigmund/|0000-0003-0344-7249||0
+#N|94|6
+p|1vwfjr9|2026|J|a-140-line-matlab-code-for-topology-optimization-problems-with-pr|||A 140 line MATLAB code for topology optimization problems with probabilistic parameters...
+p|mfh0l2|2026|J|a-matlab-code-for-analysis-and-topology-optimization-with-third-m|||A Matlab code for analysis and topology optimization with Third Medium Contact
+p|1w299fo|2026|J|designing-2d-cellular-materials-for-brittle-fracture-initiation-r|||Designing 2D cellular materials for brittle fracture initiation resistance via topology...
+p|1uu8wtk|2026|J|=|||Efficient First-Principles Inverse Design of Nanolasers
+p|aiz41r|2026|J|=|||Free-form thermal cloaks in three dimensions
+#M|Kasper Roed Spiegelhauer|~kasper-roed-spiegelhauer/|||0
+#N|0|0
+#M|Nicolas Stenger|~nicolas-stenger/|0000-0002-6808-9211||0
+#N|22|0
+p|1oz078y|2026|J|deterministic-exfoliation-of-the-uppermost-layers-of-van-der-waal|||Deterministic exfoliation of the uppermost layers of van der Waals crystals
+p|1cmhuvf|2026|J|ultrafast-control-of-coherent-acoustic-lattice-dynamics-in-the-tr|||Ultrafast Control of Coherent Acoustic Lattice Dynamics in the Transition Metal Dichalc...
+p|1xt23mp|2025-06-25|J|two-dimensional-materials-as-ideal-substrates-for-molecular-quant|||Two-Dimensional Materials as Ideal Substrates for Molecular Quantum Emitters
+p|1265glj|2025|J|collective-single-photon-emission-and-energy-transfer-in-thin-lay|||Collective single-photon emission and energy transfer in thin-layer dielectric and plas...
+p|g346g4|2025|J|=|||Confocal polarization tomography of dielectric nanocavities
+#M|Søren Stobbe|~s%C3%B8ren-stobbe/|0000-0002-0991-041X||0
+#N|20|0
+p|5fpbov|2026|J|coupled-flexural-optomechanical-cavities-with-engineered-nanomech|||Coupled flexural optomechanical cavities with engineered nanomechanical interconnects
+p|oq7abp|2026|J|electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot|||Electrostatic comb-drive actuators for nanoelectromechanical photonics: theory, design,...
+p|gukay4|2026|J|enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano|||Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-W...
+p|85a4k2|2026|J|nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi|||Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light...
+p|707y7s|2025|J|3d-imaging-of-optical-modes-in-dielectric-photonic-nanocavities-w|||3D Imaging of Optical Modes in Dielectric Photonic Nanocavities with Sub-wavelength Fie...
+#M|Yiyang Su|~yiyang-su/|||0
+#N|0|0
+#M|Enrico Vallar|~enrico-vallar/|||0
+#N|1|0
+p|laragf|2026|J|general-method-of-wavelength-tuning-of-dirac-like-cones-in-photon|||General method of wavelength-tuning of Dirac-like cones in photonic crystals
+#M|Jacob Andersen Wæver|~jacob-andersen-w%C3%A6ver/|||0
+#N|0|0
+#M|Michelle Wang|~michelle-wang/|||0
+#N|2|0
+p|1u9qq4x|2026|L|automated-three-dimensional-piezoresponse-force-microscopy-for-po|||Automated Three-Dimensional Piezoresponse Force Microscopy for Polarization-Vector Mapp...
+p|11tjq9o|2025|J|mic-hackathon-2024-hackathon-on-machine-learning-for-electron-and|||Mic-hackathon 2024: hackathon on machine learning for electron and scanning probe micro...
+#M|Thor August Schimmell Weis|~thor-august-schimmell-weis/|0000-0001-8244-5238||0
+#N|4|2
+p|oq7abp|2026|J|electrostatic-comb-drive-actuators-for-nanoelectromechanical-phot|||Electrostatic comb-drive actuators for nanoelectromechanical photonics: theory, design,...
+p|85a4k2|2026|J|nanoelectromechanical-spectral-control-of-silicon-bowtie-nanocavi|||Nanoelectromechanical Spectral Control of Silicon Bowtie Nanocavities for Quantum Light...
+p|bfgv4s|2024|R|self-assembled-silicon-photonic-cavities-with-atomic-scale-confin|||Self-assembled silicon photonic cavities with atomic-scale confinement
+p|z4h467|2023|J|=|||Self-assembled photonic cavities with atomic-scale confinement
+#M|Martijn Wubs|~martijn-wubs/|0000-0002-8286-7825||0
+#N|27|1
+p|148vbir|2026|J|modified-light-emission-from-a-dipole-in-lossy-and-graded-index-s|||Modified light emission from a dipole in lossy and graded-index spherical structures
+p|htuzvm|2026|J|on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub|||On-chip waveguide-integrated light sources using MoS2/WSe2 moiré superlattices on a sil...
+p|1265glj|2025|J|collective-single-photon-emission-and-energy-transfer-in-thin-lay|||Collective single-photon emission and energy transfer in thin-layer dielectric and plas...
+p|g346g4|2025|J|=|||Confocal polarization tomography of dielectric nanocavities
+p|xyh6ts|2025|J|creation-and-microscopic-origins-of-single-photon-emitters-in-tra|||Creation and microscopic origins of single-photon emitters in transition-metal dichalco...
+#M|Sanshui Xiao|~sanshui-xiao/|0000-0001-6529-5047||0
+#N|32|2
+p|17tro62|2026|J|controllable-superconductivity-in-suspended-nbsesub2sub|||Controllable Superconductivity in Suspended NbSe2
+p|1bei3o2|2026|J|observation-of-tunable-chiral-spin-textures-with-nonlinear-optics|||Observation of tunable chiral spin textures with nonlinear optics
+p|htuzvm|2026|J|on-chip-waveguide-integrated-light-sources-using-mossub2subwsesub|||On-chip waveguide-integrated light sources using MoS2/WSe2 moiré superlattices on a sil...
+p|16pyf10|2025|J|assembling-magneto-optical-heterostructures-for-all-optical-multi|||Assembling magneto-optical heterostructures for all-optical multi-functional devices
+p|1265glj|2025|J|collective-single-photon-emission-and-energy-transfer-in-thin-lay|||Collective single-photon emission and energy transfer in thin-layer dielectric and plas...
+#M|Meng Xiong|~meng-xiong/|0000-0001-9723-3019||0
+#N|16|1
+p|hs47k6|2026|J|lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n|||Lasing from a quantum-dot-like buried heterostructure in an InP nanobeam cavity
+p|136w89j|2026|J|nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o|||Nanobeam laser cavities with high quality-factor and near-unity outcoupling efficiency
+p|du7wbn|2025|J|all-optical-switch-exploiting-fano-resonance-and-subwavelength-li|||All-optical switch exploiting Fano resonance and subwavelength light confinement
+p|1nmymdp|2025|J|=|||A nanolaser with extreme dielectric confinement
+p|g346g4|2025|J|=|||Confocal polarization tomography of dielectric nanocavities
+#M|Yi Yu|~yi-yu/|0000-0002-7631-7069||0
+#N|22|3
+p|40yngs|2026|J|carrier-transport-in-electrically-driven-photonic-crystal-membran|||Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+p|130681k|2026|J|deterministic-approach-for-integrating-an-emitter-in-a-nanocavity|||Deterministic approach for integrating an emitter in a nanocavity with subwavelength li...
+p|gukay4|2026|J|enhancement-and-speed-up-of-carrier-dynamics-in-a-dielectric-nano|||Enhancement and Speed-Up of Carrier Dynamics in A Dielectric Nanocavity with Deep Sub-W...
+p|136w89j|2026|J|nanobeam-laser-cavities-with-high-quality-factor-and-near-unity-o|||Nanobeam laser cavities with high quality-factor and near-unity outcoupling efficiency
+p|1nmymdp|2025|J|=|||A nanolaser with extreme dielectric confinement
+#M|Kresten Yvind|~kresten-yvind/|0000-0001-8013-1606||0
+#N|60|4
+p|18hk8ku|2026|J|broadband-parametric-amplification-in-algaas-on-insulator-nanowav|||Broadband Parametric Amplification in AlGaAs-on-Insulator Nanowaveguides
+p|40yngs|2026|J|carrier-transport-in-electrically-driven-photonic-crystal-membran|||Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers
+p|qv5w3o|2026|J|engineered-mode-coupling-in-high-q-microresonators-enables-determ|||Engineered Mode Coupling in High-Q Microresonators Enables Deterministic Low-Repetition...
+p|te3vgh|2026|J|high-contrast-grating-optimization-for-a-tunable-1060-nm-mems-vcs|||High Contrast Grating Optimization for a Tunable 1060 nm MEMS-VCSEL
+p|hs47k6|2026|J|lasing-from-a-quantum-dot-like-buried-heterostructure-in-an-inp-n|||Lasing from a quantum-dot-like buried heterostructure in an InP nanobeam cavity
