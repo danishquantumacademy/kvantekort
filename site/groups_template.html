@@ -57,7 +57,8 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .phead .meta{font-size:13.5px;color:var(--muted)}
 .links{display:flex;gap:8px;flex-wrap:wrap}
 .sponsors{margin:0;font-size:13px;max-width:78ch}
-.pc{font:500 11.5px var(--mono);color:var(--muted)}.pc .pe{color:var(--warn,#b06a00)}
+.pc{font:500 11.5px var(--mono);color:var(--muted)}
+.l5{font-size:12.5px;margin-top:4px}.l5>summary{cursor:pointer;color:var(--muted)}.l5i{display:grid;gap:1px;margin:6px 0 0 2px}.l5m{color:var(--muted);font-size:12px}.pc .pe{color:var(--warn,#b06a00)}
 .btn{font:600 13px/1 var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--line);text-decoration:none;color:var(--fg);background:var(--bg)}
 .btn:hover{border-color:var(--accent);color:var(--accent)}
 blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);color:var(--muted);font-style:italic;max-width:70ch}
@@ -239,7 +240,7 @@ footer p{margin:0;max-width:86ch}
        el('tbody',{},...AREAS.map(a=>el('tr',{},el('td',{},el('span',{class:'dot',style:`background:${acol(a)}`}),`(${a}) ${Q.areas[a]}`),...['C2','C1','B2'].map(l=>el('td',{class:'n'},String(m[a+l]||0)))))));
      box.append(el('section',{},el('h3',{},'Research proficiency of the members'),
        el('div',{class:'rpgrid'},el('div',{class:'rpbox'},svg),el('div',{style:'display:grid;gap:10px;align-content:start'},tb,
-         el('p',{class:'note'},`${withLv.length} of ${g.members.length} members have research on the CFQT content map, counted once in each area at their level there. Evidence: `+(g.pubcheck?`the ${g.pubcheck.profile.toLocaleString('en')} research outputs since 2021 registered on the members' university research profiles (checked ${fmt(g.pubcheck.read)}; ${g.pubcheck.only_elsewhere.toLocaleString('en')} more found only in ORCID or OpenAlex do not count until they are added to a profile)`:`${nout.toLocaleString('en')} research outputs since 2021 found for ${harv} members (OpenAlex${harv<g.members.length?'; the rest are read in nightly runs within OpenAlex\'s daily limit':''})`)+`, their current project and, for educators, the evidence on the Educators page. C2 Innovation: at least three pieces of evidence with their main topic in the area; C1 Specialisation: one or two, or at least two that touch it; B2 Investigation: one that touches it. Technical and administrative staff are not counted.`)))))}
+         el('p',{class:'note'},`${withLv.length} of ${g.members.length} members have research on the CFQT content map, counted once in each area at their level there. Evidence: `+(g.pubcheck&&g.pubcheck.latest5?`each member's five newest research outputs on their university research profile, classified from title, abstract and keywords (checked ${fmt(g.pubcheck.read)}; outputs found only in ORCID or OpenAlex do not count until they are added to the profile; open a member's card to see the five)`:g.pubcheck?`the ${g.pubcheck.profile.toLocaleString('en')} research outputs since 2021 registered on the members' university research profiles (checked ${fmt(g.pubcheck.read)}; ${g.pubcheck.only_elsewhere.toLocaleString('en')} more found only in ORCID or OpenAlex do not count until they are added to a profile)`:`${nout.toLocaleString('en')} research outputs since 2021 found for ${harv} members (OpenAlex${harv<g.members.length?'; the rest are read in nightly runs within OpenAlex\'s daily limit':''})`)+(g.pubcheck&&g.pubcheck.latest5?'.':`, their current project and, for educators, the evidence on the Educators page.`)+` C2 Innovation: at least three pieces of evidence with their main topic in the area; C1 Specialisation: one or two, or at least two that touch it; B2 Investigation: one that touches it. Technical and administrative staff are not counted.`)))))}
     // live panels
     const news=[...(F.news||[]),...g.press.map(p=>({date:p.date.split('/').reverse().join('-'),title:p.title,url:p.url,text:'Press / media'}))].sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,8);
     const grants=[...(F.grants||[]),...g.prizes.map(p=>({date:'',title:p.title,url:p.url,text:'Prize · '+p.date}))];
@@ -270,7 +271,8 @@ footer p{margin:0;max-width:86ch}
             el('span',{class:'r'},m.role||'Position not stated'),
             m.pc&&res?el('span',{class:'pc',title:'Research output since 2021: on the university research profile / found only in ORCID or OpenAlex'},m.pc[2]?`${m.pc[0]} on university profile`:'No university profile found',m.pc[1]?el('span',{class:'pe'},` · ${m.pc[1]} not on profile`):null):null,
             m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
-            m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null))});
+            m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null,
+            m.l5&&m.l5.length?el('details',{class:'l5'},el('summary',{},`${m.l5.length} newest outputs behind the levels`),...m.l5.map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[(x.d&&x.d.length===7?fmt(x.d+'-01').replace(/^1 /,''):fmt(x.d))||'',x.s.length?x.s.join(' · '):'outside the content map'].filter(Boolean).join(' — '),' · ',el('em',{},x.b))))):null))});
         mbox.append(el('div',{class:'mcat'},el('h3',{},c,el('small',{},String(list.length))),grid))})};
     q.addEventListener('input',drawM);drawM();box.append(ms);
     // courses

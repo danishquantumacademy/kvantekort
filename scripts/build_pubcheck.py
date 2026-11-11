@@ -83,7 +83,7 @@ def build(key):
                         and (W[a]["y"] == 0 or abs(W[a]["y"] - W[b]["y"]) <= 1):
                     its[b] |= its.pop(a)
                     break
-        slugs = {}
+        slugs, sdate = {}, {}
         if n in portal:
             for k in its: its[k].discard("p")
             for h, d, sl in portal[n]:
@@ -93,8 +93,9 @@ def build(key):
                 # the work with this title the member already has, else the first one with it
                 k = next((k for k in ks if k in its), ks[0])
                 its.setdefault(k, set()).add("p")
-                if d and len(d) >= len(W[k]["d"]) and d[:4] == (W[k]["d"] or d)[:4]: W[k]["d"] = d
-                slugs[k] = slugify(W[k]["t"]) if sl == "=" else sl
+                if d and d > W[k]["d"]: W[k]["d"] = d  # newest version (a preprint and its article share one entry)
+                if k not in slugs or d >= sdate.get(k, ""):  # link to the newest version
+                    slugs[k] = slugify(W[k]["t"]) if sl == "=" else sl; sdate[k] = d
         rows = []
         for k, f in its.items():
             st = "mismatch" if k in mismatch else "excluded" if W[k]["nr"] else "profile" if "p" in f else "elsewhere"

@@ -398,6 +398,11 @@ for f in sorted((ROOT / "data/groups/pubcheck").glob("*.json")) if (ROOT / "data
     pcheck[f.stem] = {"w": d["w"], "read": d.get("read", ""), "m": {p["n"]: p for p in d["p"]},
                       "sum": {"profile": len({r[0] for p in d["p"] for r in p["rows"] if r[2] == "profile"}),
                               "only_elsewhere": len({r[0] for p in d["p"] for r in p["rows"] if r[2] == "elsewhere"} - {r[0] for p in d["p"] for r in p["rows"] if r[2] == "profile"})}}
+# five newest outputs on the university profile, classified from title + abstract (data/groups/pubcheck/<key>_latest5.tsv)
+latest5 = {}
+for f in sorted((ROOT / "data/groups/pubcheck").glob("*_latest5.tsv")) if (ROOT / "data/groups/pubcheck").exists() else []:
+    for r in csv.DictReader((l for l in f.open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
+        latest5.setdefault((f.name[:-12], r["member"]), []).append({"slug": r["portal path"], "subs": [] if r["cfqt"] == "-" else r["cfqt"].split(";"), "basis": r["basis"]})
 gres = {}
 for f in sorted((ROOT / "data/groups/research_outputs").glob("*.tsv")) if (ROOT / "data/groups/research_outputs").exists() else []:
     for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
@@ -419,7 +424,12 @@ for g in gcfg["groups"]:
                             "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
             ev, seen = [], set()
             pcm = pcheck.get(g["key"], {}).get("m", {}).get(name)
-            if pcm is not None:
+            l5 = latest5.get((g["key"], name)) if g["key"] in pcheck else None
+            if pcm is not None and l5 is not None:
+                # the five newest outputs on the university profile, classified from title, abstract and keywords
+                ev = [x["subs"] for x in l5 if x["subs"]]
+                seen = {"__l5__"}
+            elif pcm is not None:
                 # publication check: only research output on the member's university profile counts
                 pw = pcheck[g["key"]]["w"]
                 for row in pcm["rows"]:
@@ -437,8 +447,8 @@ for g in gcfg["groups"]:
                 seen.add(k); sb = _cls(r["title"])
                 if sb: ev.append(sb)
             ptitle = members[-1]["project"]
-            if ptitle and _cls(ptitle): ev.append(_cls(ptitle))
-            if pp and pp.get("rp"):
+            if ptitle and _cls(ptitle) and "__l5__" not in seen: ev.append(_cls(ptitle))
+            if pp and pp.get("rp") and pcm is None:
                 for x in pp["rp"]["it"]:
                     k = re.sub(r"\W", "", x[3].lower())
                     if k not in seen: seen.add(k); ev.append(x[2].split(";"))
@@ -446,6 +456,16 @@ for g in gcfg["groups"]:
             members[-1].update({"rl": levels_of(ev), "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
             if pcm is not None:
                 members[-1].update({"nout": pcm["n_profile"], "harv": True, "pc": [pcm["n_profile"], pcm["n_elsewhere"], bool(pcm["slug"])]})
+                if l5:
+                    pw = {r[3]: pcheck[g["key"]]["w"][r[0]] for r in pcm["rows"] if len(r) > 3}
+                    members[-1]["l5"] = [{"t": pw[x["slug"]][0] if x["slug"] in pw else x["slug"], "d": (pw[x["slug"]][4] if x["slug"] in pw else ""),
+                                          "u": f"https://researchprofiles.ku.dk/en/publications/{x['slug']}/", "s": x["subs"], "b": x["basis"]} for x in l5]
+                    cnt = {}
+                    for x in l5:
+                        for k, sb in enumerate(x["subs"]): cnt[sb] = cnt.get(sb, 0) + (2 if k == 0 else 1)
+                    members[-1]["subs"] = sorted(sorted(cnt, key=lambda sb: -cnt[sb])[:4], key=lambda x: [int(v) for v in x.split(".")])
+                elif pcm["slug"] or True:
+                    members[-1]["subs"] = []
         elif f[0] == "PUBS": pubs.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "cite": f[3] if len(f) > 3 else ""})
         elif f[0] == "PROJ": projects.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "people": f[3], "period": f[4], "funder": f[5], "type": f[6] if len(f) > 6 else ""})
         elif f[0] == "PRESS": press.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
@@ -484,7 +504,7 @@ for g in gcfg["groups"]:
     groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": sort_subs(g["cfqt"]), "members": members, "pubs": pubs, "projects": projects,
                        "press": press, "acts": acts, "prizes": prizes, "static_events": events,
                        "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),
-                       "pubcheck": {"read": pcheck[g["key"]]["read"], **pcheck[g["key"]]["sum"]} if g["key"] in pcheck else None,
+                       "pubcheck": {"read": pcheck[g["key"]]["read"], "latest5": any(k[0] == g["key"] for k in latest5), **pcheck[g["key"]]["sum"]} if g["key"] in pcheck else None,
                        "feed": feeds.get("groups", {}).get(g["key"], {})})
 gout = {"reference": ref, "groups": groups_out, "feeds_generated": feeds.get("generated", ""), "harvested": "2026-11-02"}
 gt = (ROOT / "site/groups_template.html").read_text(encoding="utf-8")

@@ -1,0 +1,99 @@
+# The five newest research outputs on each QMATH member's KU research profile, classified on the CFQT content map
+# from the title, abstract and keywords in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map (mathematics without quantum content). First subdomain = main topic.
+member	portal path	cfqt	basis
+Jan Philip Solovej	periodicity-of-atomic-structure-in-a-thomas-fermi-mean-field-mode	2.1;1.2	Schrödinger operators for large atoms, periodicity of atomic structure
+Jan Philip Solovej	ground-state-energy-of-dilute-fermi-gases-in-1d	2.4;1.2	spin-J Fermi gas, ground-state energy, Heisenberg antiferromagnet
+Jan Philip Solovej	ground-state-energy-of-dense-gases-of-strongly-interacting-fermio	2.4;1.2	N interacting fermions, bosonization
+Jan Philip Solovej	mathematical-physics-of-dilute-bose-gases	2.4;1.2	Bose-Einstein condensation, cold atomic gases, Bogoliubov theory
+Jan Philip Solovej	ground-state-energy-of-dilute-bose-gases-in-1d-2	2.4;1.2	1D bosons, Lieb-Liniger model, anyonic symmetries
+Matthias Christandl	adiabatic-preparation-of-many-body-quantum-states-getting-the-beg	5.2;4.3;2.4	adiabatic state preparation on a Rydberg-atom quantum simulator
+Matthias Christandl	phase2-full-state-vector-simulation-of-quantum-time-evolution-at-	5.3;5.6;4.7	full-state-vector simulator of quantum circuits on GPU clusters; chemistry
+Matthias Christandl	how-to-use-quantum-computers-for-biomolecular-free-energies	5.6;5.5	quantum computers for biomolecular free energies (title only, no abstract)
+Matthias Christandl	phase-estimation-with-partially-randomized-time-evolution	5.4;5.5;5.6	quantum phase estimation with randomized Hamiltonian simulation
+Matthias Christandl	fault-tolerant-quantum-inputoutput	5.3;7.5;5.1	fault-tolerant quantum input/output over noisy quantum channels
+Bergfinnur Durhuus	fundamental-limit-on-the-power-of-entanglement-assistance-in-quan	1.2;7.5	entanglement-assisted capacity of quantum channels
+Bergfinnur Durhuus	the-spectrum-of-asymptotic-cayley-trees	1.2	spectra of graphs; continuous-time quantum walks
+Bergfinnur Durhuus	local-limits-of-one-sided-trees	-	random trees (probability theory)
+Bergfinnur Durhuus	tip-of-the-quantum-entropy-cone	1.2;1.1	von Neumann entropy inequalities of multipartite states
+Bergfinnur Durhuus	trees-with-exponential-height-dependent-weight	-	random trees (probability theory)
+Søren Fournais	ground-state-energy-of-dense-gases-of-strongly-interacting-fermio	2.4;1.2	N interacting fermions, bosonization
+Søren Fournais	magnetic-tunneling-between-disc-shaped-obstacles	1.2;1.1	magnetic Laplacian, semiclassical tunnelling
+Søren Fournais	purely-magnetic-tunneling-between-radial-magnetic-wells	1.2;1.1	magnetic Schrödinger operators, tunnelling
+Søren Fournais	counting-negative-eigenvalues-for-the-magnetic-pauli-operator	1.2	Pauli and Dirac operators, index theory
+Søren Fournais	the-ground-state-energy-of-a-two-dimensional-bose-gas	2.4;1.2	ground-state energy of the 2D dilute Bose gas
+Laura Mančinska	sample-optimal-and-memory-efficient-quantum-state-tomography	1.2;1.1;5.5	sample- and memory-efficient quantum state tomography
+Laura Mančinska	maximal-device-independent-randomness-in-every-dimension	7.2;7.1;1.1	device-independent quantum random number generation
+Laura Mančinska	a-mathematical-foundation-for-self-testing-lifting-common-assumpt	1.1;1.2;7.3	self-testing of untrusted quantum devices (device-independent)
+Laura Mančinska	quantum-perfect-matchings	1.1;1.2	nonlocal games, quantum strategies
+Laura Mančinska	gap-preserving-reductions-and-re-completeness-of-independent-set-	5.1;1.1	complexity of nonlocal games with entangled provers (MIP*)
+Albert Werner	exponential-suppression-of-transport-in-electric-quantum-walks	1.2	quantum walks in electric fields, spectral theory
+Albert Werner	exponential-tail-estimates-for-quantum-lattice-dynamics	1.2;1.1	quantum dynamics of a particle on a lattice
+Albert Werner	the-resource-theory-of-tensor-networks	1.2;2.4	tensor networks and entanglement structure of many-body states
+Albert Werner	going-beyond-gadgets-the-importance-of-scalability-for-analogue-q-2	4.8;1.2	estimation of Hamiltonian and noise of multi-qubit devices
+Albert Werner	efficient-and-robust-estimation-of-many-qubit-hamiltonians	5.2;5.1	scalability of analogue quantum simulation
+Daniel Malz	theory-of-quantum-enhanced-interferometry-with-general-markovian-	6.1;2.2	quantum-enhanced interferometry, quantum Fisher information, quantum light
+Daniel Malz	gaussian-tomography-for-cold-atom-simulators	5.2;4.3	read-out schemes for cold-atom quantum simulators
+Daniel Malz	robust-superradiance-and-spontaneous-spin-ordering-in-disordered-	2.2;2.4	superradiance of atoms in waveguide QED
+Daniel Malz	measurement-induced-entanglement-in-noisy-2d-random-circuits	5.1;4.8	entanglement and complexity of noisy random circuits
+Daniel Malz	state-preparation-with-parallel-sequential-circuits	5.1;2.4;5.3	circuit layouts for many-body state preparation on noisy devices
+Daniel Stilck França	efficient-hamiltonian-structure-and-trace-distance-learning-of-ga	1.2;2.2	Hamiltonian learning for bosonic Gaussian states
+Daniel Stilck França	bounded-error-quantum-simulation-via-hamiltonian-and-lindbladian-	5.2;4.8;2.4	bounded-error analogue quantum simulation via Hamiltonian/Lindbladian learning
+Daniel Stilck França	sampling-noisy-quantum-circuits-through-randomized-rounding	5.5;5.1	sampling noisy circuits for combinatorial optimisation
+Daniel Stilck França	noise-induced-shallow-circuits-and-the-absence-of-barren-plateaus	5.1;4.8;5.5	effect of noise on quantum circuits, barren plateaus
+Daniel Stilck França	optimal-quantum-algorithm-for-gibbs-state-preparation	5.5;2.4	quantum algorithm for Gibbs state preparation
+Lubashan Pathirana	asymptotic-purification-of-quantum-trajectories-under-disordered-	1.1;2.4;1.2	quantum trajectories under repeated measurements
+Lubashan Pathirana	ergodic-theorems-for-quantum-trajectories-under-disordered-genera	1.1;2.4;1.2	quantum trajectories, disordered open quantum systems
+Lubashan Pathirana	law-of-large-numbers-and-central-limit-theorem-for-ergodic-quantu	1.2;2.4	ergodic quantum processes, completely positive maps
+Martin Dam Larsen	spectral-estimates-for-wiener-hopf-operators-with-applications-to	1.2;2.4	Wiener-Hopf operators, area laws (title only)
+Martin Dam Larsen	limiting-absorption-principle-and-radiation-conditions-for-schr%C3%B6d	1.2;1.1	scattering theory for Schrödinger operators
+Sascha Lill	momentum-distribution-of-a-fermi-gas-in-the-random-phase-approxim	2.4;1.2	interacting fermions, random phase approximation, Fermi surface
+Harold Nieuwboer	interior-point-methods-on-manifolds-theory-and-applications	-	optimisation on manifolds (no quantum content in the abstract)
+Harold Nieuwboer	computing-moment-polytopes-with-a-focus-on-tensors-entanglement-a	1.2;1.1	moment polytopes, entanglement and tensors
+Harold Nieuwboer	self-concordant-schr%C3%B6dinger-operators-spectral-gaps-and-optimizat	1.2;5.5	spectral gaps of Schrödinger operators, adiabatic algorithm
+Harold Nieuwboer	asymptotic-tensor-rank-is-characterized-by-polynomials	1.2	asymptotic tensor rank, quantum information
+Harold Nieuwboer	computing-moment-polytopes-of-tensors-with-applications-in-algebr	1.2;1.1	moment polytopes of tensors, entanglement
+Boris Bolvig Kjær	mathematics-of-topological-order-superselection-sector-theory-of-	2.3;4.5	topological order, anyons in Levin-Wen models (thesis, title only)
+Boris Bolvig Kjær	the-uniform-even-subgraph-and-its-connection-to-phase-transitions	-	percolation in the classical Ising model
+Boris Bolvig Kjær	the-double-semion-state-in-infinite-volume	2.3;4.5;1.2	anyons and superselection sectors of 2D quantum spin systems
+Vincent Louatron	a-microlocal-cauchy-problem-through-a-crossing-point-of-hamiltoni	-	matrix pseudodifferential equations (no quantum content in the abstract)
+Vincent Louatron	semiclassical-resonances-for-matrix-schr%C3%B6dinger-operators-with-va	1.2	semiclassical resonances of matrix Schrödinger operators
+Thomas Theurer	coherence-as-a-resource-for-phase-estimation	6.1;1.1;5.4	coherence as a resource for quantum phase estimation
+Thomas Theurer	single-shot-entanglement-manipulation-of-states-and-channels-revi	1.2;1.1	single-shot entanglement distillation and dilution
+Roberto Rubboli	quantum-conditional-entropies-from-convex-trace-functionals	1.2	quantum conditional entropies
+Roberto Rubboli	the-strong-converse-exponent-of-composable-randomness-extraction-	1.2;7.1	randomness extraction against quantum side information (privacy amplification)
+Thomas Fraser	the-tetrahedral-horn-problem-and-asymptotics-of-iun-i6ij-isymbols	1.2	Horn problem and U(n) 6j symbols
+Aleksei Kulikov	when-a-meromorphic-function-that-omits-three-values-is-of-bounded	-	meromorphic functions (complex analysis)
+Aleksei Kulikov	frames-for-compactly-supported-functions-with-irrational-density	-	Gabor frames (harmonic analysis)
+Aleksei Kulikov	gabor-frames-for-functions-supported-on-a-semi-axis	-	Gabor frames (harmonic analysis)
+Aleksei Kulikov	a-monotonicity-theorem-for-subharmonic-functions-on-manifolds	1.2	uncertainty principle, Wehrl entropy conjecture
+Rafael Macedo	predicting-magic-from-very-few-measurements	5.1;1.2	nonstabilizerness (magic) as a resource for quantum computation
+Sigurd Storgaard	maximal-device-independent-randomness-in-every-dimension	7.2;7.1;1.1	device-independent quantum random number generation
+Sigurd Storgaard	guess-your-neighbors-input-quantum-advantage-in-feiges-game	1.1;1.2	nonlocal game, self-test of a maximally entangled state
+Lasse Wolff	fundamental-limit-on-the-power-of-entanglement-assistance-in-quan	1.2;7.5	entanglement-assisted capacity of quantum channels
+Lasse Wolff	tip-of-the-quantum-entropy-cone	1.2;1.1	von Neumann entropy inequalities of multipartite states
+Emil Mærsk Pedersen	adiabatic-preparation-of-many-body-quantum-states-getting-the-beg	5.2;4.3;2.4	adiabatic state preparation on a Rydberg-atom quantum simulator
+Emil Mærsk Pedersen	mutual-information-scrambling-in-an-ising-spin-chain	2.4;1.1	scrambling of quantum information in an Ising spin chain
+Pietro Posta	plethysm-is-in-bqp	5.5;5.1	quantum algorithm for representation-theoretic multiplicities (#BQP)
+Karsten Flensberg	controlled-parity-of-cooper-pair-tunneling-in-a-hybrid-supercondu	4.1;2.3	Cooper-pair tunnelling parity in a hybrid superconducting qubit
+Karsten Flensberg	higher-josephson-harmonics-in-a-tunable-double-junction-transmon-	4.1;2.3	Josephson harmonics in a transmon qubit
+Karsten Flensberg	adiabatic-non-abelian-braiding-of-imperfect-majorana-bound-states	4.5;2.3	braiding of Majorana bound states
+Karsten Flensberg	directional-conductance-of-andreev-crystals-in-hybrid-josephson-j	2.3	Andreev bound states in Josephson junction arrays
+Karsten Flensberg	non-hermitian-skin-effect-and-electronic-nonlocal-transport	2.3;2.4	non-Hermitian skin effect in a nanowire, nonlocal transport
+Michael Kastoryano	fast-and-flexible-quantum-inspired-differential-equation-solvers-	5.6	quantum-inspired tensor-train solvers for PDEs
+Michael Kastoryano	quantum-inspired-workflow-for-processing-distributed-fiber-optic-	5.6	quantum-inspired processing of fibre-optic sensor data
+Michael Kastoryano	variational-tensor-network-simulation-of-gaussian-boson-sampling-	5.3;4.4;5.1	classical simulation of Gaussian boson sampling
+Michael Kastoryano	a-little-bit-of-self-correction	2.4;5.3	decoherence-free subspaces and self-correction in spin chains
+Michael Kastoryano	efficient-quantum-thermal-simulation	5.5;2.4	quantum algorithm for thermal simulation
+Magdalena Musat	extreme-points-and-factorizability-for-new-classes-of-unital-quan	1.2	unital quantum channels, completely positive maps
+Magdalena Musat	factorizable-maps-and-traces-on-the-universal-free-product-of-mat	1.2	factorizable maps on matrix algebras (title only)
+Niels Martin Møller	uniqueness-of-tangent-planes-and-non-removable-singularities-at-i	-	mean curvature flow (geometric analysis)
+Niels Martin Møller	rigidity-and-non-existence-results-for-collapsed-translators-2	-	mean curvature flow (geometric analysis)
+Niels Martin Møller	entropy-bounds-compactness-and-finiteness-theorems-for-embedded-s	-	mean curvature flow (geometric analysis)
+Niels Martin Møller	finite-entropy-translating-solitons-in-slabs	-	mean curvature flow (geometric analysis)
+Niels Martin Møller	bi-halfspace-and-convex-hull-theorems-for-translating-solitons	-	mean curvature flow (geometric analysis)
+Eugene Polzik	the-future-of-quantum-technology-as-seen-from-the-eu-usa-and-japa	8.1	experts' view of quantum technology in the EU, USA and Japan
+Eugene Polzik	simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m	2.2;6.3	ponderomotive squeezing of light in an optomechanical system
+Eugene Polzik	hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang	6.1;7.5	hybrid quantum network for sensing (title only)
+Eugene Polzik	nonclassical-correlations-between-photons-and-phonons-of-center-o	2.2;6.3	nonclassical photon-phonon correlations of a mechanical oscillator (title only)
+Eugene Polzik	magnetic-induction-sensor-based-on-a-dual-frequency-atomic-magnet	6.2;6.7	magnetic induction sensor with an atomic magnetometer (title only)
