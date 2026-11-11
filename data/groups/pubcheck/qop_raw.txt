@@ -1,0 +1,140 @@
+W
+A quantum-coherent photon-emitter interface in the original telecom band 2026 J 0
+Integration of a GaAs-based nanomechanical phase shifter with quantum-dot single-photon sources 2025 J 0
+Origins and Mitigation of Scattering-Related Propagation Losses in Suspended GaAs Waveguides for Quantum Ph... 2025 J 0
+Nanomechanical Phase Shifting on a Gallium Arsenide Platform 2024 R 0
+Et reformeret uddannelses-Danmark: Udfordringer for Institutionsstruktur og Uddannelseslandskab i 2020erne 2025 J 0
+Orientation and Alignment in Atomic and Molecular Collisions 2023 R 0
+Steady-state multiparticle entanglement via dissipative engineering in waveguide QED 2026 J 0
+Hybrid quantum network for sensing in the acoustic frequency range 2025 J 0
+Multi-Color Continuous Variables Unconditional Quantum Teleportation: From Near-Infrared to Telecommunicati... 2025 R 0
+Acoustic frequency atomic spin oscillator in the quantum regime 2023 J 0
+Two-colour high-purity Einstein-Podolsky-Rosen photonic state 2022 J 0
+Photon Sorting with a Quantum Emitter 2026 P 0
+Viscous heat backflow and temperature resonances in extreme thermal conductors 2026 J 0
+Weighing the curvature invariants 2025 J 0
+Tunnelling of a composite particle in presence of a magnetic field 2024 J 0
+Resonant Acoustic Modes in DFB Fiber Lasers Characterized via Frequency Noise Measurements 2025 J 0
+Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator 2024 L 0
+Direct Measurement of Resonant Phonon Modes in Optical Fibers 2024 R 0
+Improving Frequency Noise of DFB Fiber Lasers by Acoustic Wave Suppression 2024 R 0
+Counting the uncountable: Non-Gaussian quantum optomechanics 2023 T 0
+High-frequency broadband laser phase noise cancellation using a delay line 2021 J 0
+The quantum technology job market: data driven analysis of 3641 job posts 2026 J 0
+Building Europe’s quantum technology education community 2025 J 0
+Extending the European Competence Framework for Quantum Technologies: new proficiency triangle and qualific... 2025 J 0
+A framework for curriculum transformation in quantum information science and technology education 2024 J 0
+Modelling assisted tunneling on the Bloch sphere using the Quantum Composer 2024 J 0
+Educating to the “Culture” of Quantum Technologies: A Survey Study on Concepts for Public Awareness 2024 J 0
+Dissipation in the broadband and ultrastrong coupling regimes of cavity quantum electrodynamics: an ab init... 2026 J 0
+Hybrid single-ion atomic-ensemble node for high-rate remote entanglement generation 2026 J 0
+Single-and double-click high-rate entanglement generation between distant ions using multiplexed atomic ens... 2026 J 0
+Impact of multimode sources on ensemble-based quantum repeaters 2026 J 0
+Quantum strategies to overcome classical multiplexing limits 2026 J 0
+Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conv... 2024 J 0
+Quantum Non-Gaussianity Criterion Based on Photon Correlations g(2) and g(3) 2026 J 0
+Chip-integrated metasurface-enabled single-photon skyrmion sources 2026 J 0
+Estimating Bell diagonal states with separable measurements 2025 J 0
+Characterization of coherent errors in gate layers with robustness to Pauli noise 2025 J 0
+Quantum state preserving frequency conversion using four-wave mixing in optical fibers: The impact of Raman... 2025 R 0
+Violation of Bell inequality by photon scattering on a two-level emitter 2024 J 0
+Practical blueprint for low-depth photonic quantum computing with quantum dots 2026 J 0
+Programmable nonlinear quantum photonic circuits 2025 J 0
+Tunable quantum frequency conversion enabled by intermodal nonlinearity in optical fiber 2025 J 0
+Strong thermomechanical noise squeezing stabilized by feedback 2025 L 0
+Fabrication-Tolerant GaAs/SiN Coupling Above the Loss Threshold for Quantum Photonic Applications 2026 J 0
+Reconfigurable photon-emitter interfaces enabled by nanomechanics 2026 R 0
+Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation 2025 J 0
+Molecular Control of Light-Matter Interactions in Plasmonic Nanogap Cavities 2026 J 0
+Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right 2026 J 0
+Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States 2026 J 0
+Optimal control for Rydberg multi-qubit operations 2026 J 0
+Lieb-Mattis States for Robust Entangled Differential Phase Sensing 2026 J 0
+Entangling power of nonentangling channels 2026 J 0
+Censorship of quantum resources against quantum catalysis 2026 J 0
+High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging 2024 J 0
+Collectively enhanced Ramsey readout by cavity sub- to superradiant transition 2024 J 0
+Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line 2023 J 0
+Subnatural Linewidth Superradiant Lasing with Cold 88Sr Atoms 2023 L 0
+Quantifying entanglement in quantum thermodynamics via separability constraints 2026 J 0
+Low-noise fiber laser systems at 689 nm and 698 nm for strontium 2025 J 0
+Coherent instabilities in thulium-based fiber amplifiers induced by laser frequency modulation 2024 J 0
+Investigation of Stability in 2 µm Optical Fiber Amplifiers for Narrow-Linewidth Laser Sources 2024 R 0
+The future of quantum technology as seen from the EU, USA and Japan: experts' vision over the next two decades 2026 J 0
+Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system 2025 J 0
+H. Jeffrey Kimble (1949–2024) 2025 J 0
+Magnetic induction sensor based on a dual-frequency atomic magnetometer 2024 J 0
+Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit 2026 J 0
+Flux-modulated tunable interaction regimes in two strongly nonlinear oscillators 2026 J 0
+Magnon-Magnon Interaction Induced by Nonlinear Spin-Wave Dynamics 2025 J 0
+Magnon-microwave backaction noise evasion in cavity magnomechanics 2025 J 0
+Strong Intrinsic Longitudinal Coupling in Circuit Quantum Electrodynamics 2025 J 0
+Electrical Control of Quantum-Dot Single-Photon Source on SiO2/Si Substrate 2025 R 0
+Wide-field stroboscopic imaging of topologically protected phononic modes 2026 J 0
+Measuring high field gradients of cobalt nanomagnets in a spin-mechanical setup 2026 J 0
+A soft-clamped topological waveguide for phonons 2025 J 0
+Two-dimensional gallium phosphide optomechanical crystal in the resolved-sideband regime 2024 J 0
+The Quantum Technology Open Master: widening access to the quantum industry 2024 J 0
+Contributions from Pilot Projects in Quantum Technology Education as Support Action to Quantum Flagship 2024 J 0
+Optical Magnetometry for Magnetic Resonance Imaging 2023 T 0
+Intense-laser nondipole-induced symmetry breaking in solids 2026 J 0
+Hybrid SU(1,1) Interferometry in Optomechanics 2026 J 0
+Squeezed light from an oscillator measured at the rate of oscillation 2024 J 0
+Prediction-Retrodiction Measurements for Teleportation and Conditional State Transfer 2023 L 0
+P
+Marcus Albrechtsen|marcus-albrechtsen||||0|0|0p,1p,2p,3p|4/0
+Nils Overgaard Andersen|nils-overgaard-andersen||||0|0|4p,5p|2/0
+Nikolaos Andrianopoulos|nikolaos-andrianopoulos||||0|0||0/0
+Jean-Baptiste Sylvain Béguin|jean-baptiste-sylvain-b%C3%A9guin||||0|0|6p|1/0
+Luuk Jan-Heimen van den Berg|luuk-jan-heimen-van-den-berg||||0|0||0/0
+Tulio Brito Brasil|tulio-brito-brasil|0000-0001-8103-0698|p||0|0|7p,8p,9p,10p|4/0
+Simon Bräuer|simon-br%C3%A4uer||||0|0||0/0
+Giulia Campagna|giulia-campagna||||0|0||0/0
+Victor Rueskov Christiansen|victor-rueskov-christiansen||||0|0||0/0
+Etienne Fabien Corminboeuf|etienne-fabien-corminboeuf||||0|0|11p|1/0
+Jan Dragasevic|jan-draga%C5%A1evi%C4%87|0000-0001-8890-9195|p||0|0|12p,13p,14p|3/0
+Ivan Galinskiy|ivan-galinskiy|0000-0001-6372-790X|p||0|0|15p,16p,17p,18p,19p,20p|6/0
+Francesco Gargiulo|francesco-gargiulo||||0|0||0/0
+Simon Richard Goorney|simon-richard-goorney||||0|0|21p,22p,23p,24p,25p,26p|9/0
+Christopher Charles A Gustin|christopher-charles-a-gustin||||0|0|27p|1/0
+Marcus Gut|marcus-gut||||0|0||0/0
+Emil Rye Hellebek|emil-rye-hellebek||||0|0|28p,29p,30p,31p,32p|5/0
+Clara Edith Henke|clara-henke|0009-0004-5255-5689|p||0|0|33p|1/1
+Yinhui Kan|yinhui-kan||||0|0|34p|1/0
+Noah Oliver Kaufmann|noah-oliver-kaufmann||||0|0|35p,36p|2/0
+Nikolaos Kiigmas|nikolaos-kiigmas||||0|0||0/0
+Leopold Konzett|leopold-konzett||||0|0||0/0
+Mathias Linde Holst Korsgaard|mathias-linde-holst-korsgaard||||0|0|37p|1/0
+Nikolaj Aagaard Larsen|nikolaj-aagaard-larsen|0009-0000-1609-9779|p||0|0||0/0
+Yaohua Li|yaohua-li||||0|0||0/0
+Stanislav Linchakovskyy|stanislav-linchakovskyy||||0|0||0/0
+Shikai Liu|shikai-liu||||0|0|38p|1/0
+Peter Lodahl|peter-lodahl|0000-0002-9348-9591|p||0|0|33p,39p,0p,11p,40p,41p|47/1
+Aida Mashaal|aida-mashaal||||0|0|42p|1/0
+Leonardo Midolo|leonardo-midolo|0000-0003-0237-587X|p||0|0|43p,44p,0p,11p,40p,45p|45/1
+Maiken Høgh Mikkelsen|maiken-h%C3%B8gh-mikkelsen|0000-0002-0487-7585|p||0|0|46p|1/13
+Mikkel Thorbjørn Mikkelsen|mikkel-thorbj%C3%B8rn-mikkelsen||||0|0||0/0
+Laurits Møberg|laurits-m%C3%B8berg||||0|0||0/0
+Christoffer Bo Møller|christoffer-bo-m%C3%B8ller||||0|0||0/0
+Klaus Mølmer|klaus-m%C3%B8lmer|0000-0002-2372-869X|p||0|0|47p,48p,49p,50p,51p,52p|68/1
+Jörg Helge Müller|j%C3%B6rg-helge-m%C3%BCller|0000-0001-6984-0487|p||0|0|7p,53p,54p,9p,55p,56p|8/0
+Rasmus Bo Nielsen|rasmus-bo-nielsen||||0|0||0/0
+Joan Alba Pares|joan-alba-pares||||0|0|6p,57p|2/0
+Maria Ana de Matos Afonso Pereira|maria-ana-de-matos-afonso-pereira||||0|0||0/0
+Andrea Pertoldi|andrea-pertoldi||||0|0|58p,15p,59p,17p,18p,60p|8/0
+Eugene Simon Polzik|eugene-simon-polzik|0000-0001-9859-6591|p||0|0|61p,62p,7p,63p,16p,64p|22/2
+Clinton Alexander Potts|clinton-alexander-potts||||0|0|65p,66p,67p,68p,69p|5/0
+Hanna Krystyna Salamon|hanna-krystyna-salamon||||0|0|45p,70p|2/0
+Bálint Sárközi|b%C3%A1lint-s%C3%A1rk%C3%B6zi||||0|0||0/0
+Albert Schliesser|albert-schliesser|0000-0003-4317-5030|p||0|0|71p,72p,62p,73p,42p,74p|19/0
+Levin Maria Albert Seidt|levin-maria-albert-seidt||||0|0||0/0
+Jacob Friis Sherson|jacob-friis-sherson||||0|0|21p,22p,24p,25p,75p,76p|13/0
+Sophia Carmen Simon|sophia-carmen-simon||||0|0||0/0
+Anders Søndberg Sørensen|anders-s%C3%B8ndberg-s%C3%B8rensen|0000-0003-1337-9163|p||0|0|6p,28p,29p,30p,31p,33p|55/5
+Hans Stærkind|hans-st%C3%A6rkind|0000-0002-6844-3305|p||0|0|53p,55p,77p|3/0
+Frederik Uldall|frederik-uldall|0000-0002-4072-7648|p||0|0||0/0
+Asger Weeth|asger-weeth|0009-0004-1830-7331|p||0|0|78p|1/0
+Yining You|yining-you|0009-0004-9985-7190|p||0|0||0/0
+Emil Zeuthen|emil-zeuthen|0000-0002-1206-6862|p||0|0|79p,62p,7p,80p,9p,81p|8/1
+Xinchao Zhou|xinchao-zhou|0009-0007-4146-939X|p||0|0||0/7
+Alkiviadis Zoumis|alkiviadis-zoumis||||0|0||0/0

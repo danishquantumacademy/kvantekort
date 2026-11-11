@@ -1,0 +1,173 @@
+# qop members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Marcus Albrechtsen|marcus-albrechtsen||
+p 1i5o79j 2026-04-27 a-quantum-coherent-photon-emitter-interface-in-the-original-telec
+p 15xjgau 2025-11-06 integration-of-a-gaas-based-nanomechanical-phase-shifter-with-qua
+p 1qox1s2 2025-06-04 origins-and-mitigation-of-scattering-related-propagation-losses-i
+p 2ymsxs 2024-06-16 nanomechanical-phase-shifting-onagallium-arsenide-platform
+#Nils Overgaard Andersen|nils-overgaard-andersen||
+p 1c2uc8o 2025 et-reformeret-uddannelses-danmark-udfordringer-for-institutionsst
+p 13yyvep 2023 =
+#Nikolaos Andrianopoulos|nikolaos-andrianopoulos||
+#Jean-Baptiste Sylvain Béguin|jean-baptiste-sylvain-b%C3%A9guin||
+p esub2 2026-09-24 steady-state-multiparticle-entanglement-via-dissipative-engineeri
+#Luuk Jan-Heimen van den Berg|luuk-jan-heimen-van-den-berg||
+#Tulio Brito Brasil|tulio-brito-brasil|0000-0001-8103-0698|
+p 11e1jc7 2025-07-02 hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang
+p gpns7f 2025 multi-color-continuous-variables-unconditional-quantum-teleportat-2
+p zqajxi 2023-10-12 =
+p 1c90qke 2022-08-16 =
+#Simon Bräuer|simon-br%C3%A4uer||
+#Giulia Campagna|giulia-campagna||
+#Victor Rueskov Christiansen|victor-rueskov-christiansen||
+#Etienne Fabien Corminboeuf|etienne-fabien-corminboeuf||
+p 8ef9a1 2026-04-23 =
+#Jan Dragasevic|jan-draga%C5%A1evi%C4%87|0000-0001-8890-9195|
+p 1moy5n9 2026-05-08 viscous-heat-backflow-and-temperature-resonances-in-extreme-therm
+p 14uj5h0 2025-07-30 =
+p 12199l1 2024-10-19 tunnelling-of-a-composite-particle-in-presence-of-a-magnetic-fiel
+#Ivan Galinskiy|ivan-galinskiy|0000-0001-6372-790X|
+p 15qkivk 2025-03-15 resonant-acoustic-modes-in-dfb-fiber-lasers-characterized-via-fre
+p 1yl7f68 2024-10-24 nonclassical-correlations-between-photons-and-phonons-of-center-o
+p 15giyfp 2024-03-24 =
+p 1p4xa 2024 improving-frequency-noise-of-dfb-fiber-lasers-by-acoustic-wave-su
+p tgnuf2 2023-03-16 =
+p 780kuq 2021-03-01 high-frequency-broadband-laser-phase-noise-cancellation-using-a-d
+#Francesco Gargiulo|francesco-gargiulo||
+#Simon Richard Goorney|simon-richard-goorney||
+p 17a4nls 2026-03-02 the-quantum-technology-job-market-data-driven-analysis-of-3641-jo
+p 1mklvi4 2025-05-30 building-europes-quantum-technology-education-community
+p 1ud7hke 2025-01-07 extending-the-european-competence-framework-for-quantum-technolog
+p dsxyf7 2024-10-28 a-framework-for-curriculum-transformation-in-quantum-information-
+p 1tb72fs 2024-03-01 modelling-assisted-tunneling-on-the-bloch-sphere-using-the-quantu
+p 1cwme5l 2024-02-10 educating-to-the-culture-of-quantum-technologies-a-survey-study-o
+#Christopher Charles A Gustin|christopher-charles-a-gustin||
+p 46ph4o 2026-08-26 dissipation-in-the-broadband-and-ultrastrong-coupling-regimes-of-
+#Marcus Gut|marcus-gut||
+#Emil Rye Hellebek|emil-rye-hellebek||
+p 116ij3g 2026-07-16 hybrid-single-ion-atomic-ensemble-node-for-high-rate-remote-entan
+p l8pgi5 2026-07-16 single-and-double-click-high-rate-entanglement-generation-between
+p 1hp7b6 2026-07-06 =
+p 1lggtdu 2026-07-06 =
+p t0nvwy 2024-08-27 characterization-of-the-multimode-nature-of-single-photon-sources
+#Clara Edith Henke|clara-henke|0009-0004-5255-5689|
+p g4ni3v 2026-06-16 quantum-non-gaussianity-criterion-based-on-photon-correlations-gs
+#Yinhui Kan|yinhui-kan||
+p 1pk04h2 2026-07-11 chip-integrated-metasurface-enabled-single-photon-skyrmion-source
+#Noah Oliver Kaufmann|noah-oliver-kaufmann||
+p l9zfg3 2025-10-24 =
+p 1ylziul 2025-03-07 characterization-of-coherent-errors-in-gate-layers-with-robustnes
+#Nikolaos Kiigmas|nikolaos-kiigmas||
+#Leopold Konzett|leopold-konzett||
+#Mathias Linde Holst Korsgaard|mathias-linde-holst-korsgaard||
+p n2ttq 2025 quantum-state-preserving-frequency-conversion-using-four-wave-mix
+#Nikolaj Aagaard Larsen|nikolaj-aagaard-larsen|0009-0000-1609-9779|
+#Yaohua Li|yaohua-li||
+#Stanislav Linchakovskyy|stanislav-linchakovskyy||
+#Shikai Liu|shikai-liu||
+p 12po7fw 2024-06-19 violation-of-bell-inequality-by-photon-scattering-on-a-two-level-
+#Peter Lodahl|peter-lodahl|0000-0002-9348-9591|
+p g4ni3v 2026-06-16 quantum-non-gaussianity-criterion-based-on-photon-correlations-gs
+p 1szh2y2 2026-05-14 practical-blueprint-for-low-depth-photonic-quantum-computing-with
+p 1i5o79j 2026-04-27 a-quantum-coherent-photon-emitter-interface-in-the-original-telec
+p 8ef9a1 2026-04-23 =
+p ujkwzz 2025-12-11 =
+p 1w2fail 2025-11-05 tunable-quantum-frequency-conversion-enabled-by-intermodal-nonlin
+#Aida Mashaal|aida-mashaal||
+p 71k5so 2025-03-17 =
+#Leonardo Midolo|leonardo-midolo|0000-0003-0237-587X|
+p 1bkcis3 2026-08-26 fabrication-tolerant-gaassin-coupling-above-the-loss-threshold-fo
+p 14wdcc7 2026-07-22 reconfigurable-photon-emitter-interfaces-enabled-by-nanomechanics
+p 1i5o79j 2026-04-27 a-quantum-coherent-photon-emitter-interface-in-the-original-telec
+p 8ef9a1 2026-04-23 =
+p ujkwzz 2025-12-11 =
+p 1y6n8sl 2025-11-06 electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide
+#Maiken Høgh Mikkelsen|maiken-h%C3%B8gh-mikkelsen|0000-0002-0487-7585|
+p eih3lk 2026-10-13 molecular-control-of-light-matter-interactions-in-plasmonic-nanog
+#Mikkel Thorbjørn Mikkelsen|mikkel-thorbj%C3%B8rn-mikkelsen||
+#Laurits Møberg|laurits-m%C3%B8berg||
+#Christoffer Bo Møller|christoffer-bo-m%C3%B8ller||
+#Klaus Mølmer|klaus-m%C3%B8lmer|0000-0002-2372-869X|
+p 1e2eqrp 2026-09-22 adiabatic-preparation-of-many-body-quantum-states-getting-the-beg
+p pn0xn5 2026-07-10 environment-assisted-generation-of-non-gaussian-wave-packet-quant
+p p7oseu 2026-06-25 =
+p 96qwgq 2026-06-09 lieb-mattis-states-for-robust-entangled-differential-phase-sensin
+p p76o7i 2026-05-06 =
+p ctxwbq 2026-02-19 =
+#Jörg Helge Müller|j%C3%B6rg-helge-m%C3%BCller|0000-0001-6984-0487|
+p 11e1jc7 2025-07-02 hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang
+p 6igr2f 2024-04 high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima
+p 1ftuvwi 2024-02-05 collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian
+p zqajxi 2023-10-12 =
+p 1kzeekh 2023-06-20 precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia
+p ggfpkk 2023-06-02 subnatural-linewidth-superradiant-lasing-with-cold-sup88supsr-ato
+#Rasmus Bo Nielsen|rasmus-bo-nielsen||
+#Joan Alba Pares|joan-alba-pares||
+p esub2 2026-09-24 steady-state-multiparticle-entanglement-via-dissipative-engineeri
+p t71yl6 2026-08-27 quantifying-entanglement-in-quantum-thermodynamics-via-separabili
+#Maria Ana de Matos Afonso Pereira|maria-ana-de-matos-afonso-pereira||
+#Andrea Pertoldi|andrea-pertoldi||
+p 190pttw 2025-04-21 =
+p 15qkivk 2025-03-15 resonant-acoustic-modes-in-dfb-fiber-lasers-characterized-via-fre
+p 179d73h 2024-11-15 coherent-instabilities-in-thulium-based-fiber-amplifiers-induced-
+p 15giyfp 2024-03-24 =
+p 1p4xa 2024 improving-frequency-noise-of-dfb-fiber-lasers-by-acoustic-wave-su
+p cq618j 2024 investigation-of-stability-in-2-%C2%B5m-optical-fiber-amplifiers-for-n
+#Eugene Simon Polzik|eugene-simon-polzik|0000-0001-9859-6591|
+p 15epbsn 2026-04-14 the-future-of-quantum-technology-as-seen-from-the-eu-usa-and-japa
+p 1uqn4zf 2025-10-25 simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m
+p 11e1jc7 2025-07-02 hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang
+p 1y2djdb 2025-02-05 h-jeffrey-kimble-19492024
+p 1yl7f68 2024-10-24 nonclassical-correlations-between-photons-and-phonons-of-center-o
+p 1tfbmtq 2024-09-12 magnetic-induction-sensor-based-on-a-dual-frequency-atomic-magnet
+#Clinton Alexander Potts|clinton-alexander-potts||
+p 1dhl6r7 2026-07-28 higher-josephson-harmonics-in-a-tunable-double-junction-transmon-
+p 1jwwar6 2026-02-19 flux-modulated-tunable-interaction-regimes-in-two-strongly-nonlin
+p h7gdbh 2025-10-15 magnon-magnon-interaction-induced-by-nonlinear-spin-wave-dynamics
+p q71npz 2025-06-12 magnon-microwave-backaction-noise-evasion-in-cavity-magnomechanic
+p zhb1cy 2025-04-18 strong-intrinsic-longitudinal-coupling-in-circuit-quantum-electro
+#Hanna Krystyna Salamon|hanna-krystyna-salamon||
+p 1y6n8sl 2025-11-06 electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide
+p 1vy8768 2025 electrical-control-of-quantum-dot-single-photon-source-on-siosub2
+#Bálint Sárközi|b%C3%A1lint-s%C3%A1rk%C3%B6zi||
+#Albert Schliesser|albert-schliesser|0000-0003-4317-5030|
+p 39sa90 2026-06-01 wide-field-stroboscopic-imaging-of-topologically-protected-phonon
+p f6s2q7 2026-02-03 measuring-high-field-gradients-of-cobalt-nanomagnets-in-a-spin-me
+p 1uqn4zf 2025-10-25 simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m
+p 5buw80 2025-06-04 =
+p 71k5so 2025-03-17 =
+p 1inecek 2024-12-30 two-dimensional-gallium-phosphide-optomechanical-crystal-in-the-r
+#Levin Maria Albert Seidt|levin-maria-albert-seidt||
+#Jacob Friis Sherson|jacob-friis-sherson||
+p 17a4nls 2026-03-02 the-quantum-technology-job-market-data-driven-analysis-of-3641-jo
+p 1mklvi4 2025-05-30 building-europes-quantum-technology-education-community
+p dsxyf7 2024-10-28 a-framework-for-curriculum-transformation-in-quantum-information-
+p 1tb72fs 2024-03-01 modelling-assisted-tunneling-on-the-bloch-sphere-using-the-quantu
+p 1vkgamt 2024-01-24 the-quantum-technology-open-master-widening-access-to-the-quantum
+p 1ept6kp 2024 contributions-from-pilot-projects-in-quantum-technology-education
+#Sophia Carmen Simon|sophia-carmen-simon||
+#Anders Søndberg Sørensen|anders-s%C3%B8ndberg-s%C3%B8rensen|0000-0003-1337-9163|
+p esub2 2026-09-24 steady-state-multiparticle-entanglement-via-dissipative-engineeri
+p 116ij3g 2026-07-16 hybrid-single-ion-atomic-ensemble-node-for-high-rate-remote-entan
+p l8pgi5 2026-07-16 single-and-double-click-high-rate-entanglement-generation-between
+p 1hp7b6 2026-07-06 =
+p 1lggtdu 2026-07-06 =
+p g4ni3v 2026-06-16 quantum-non-gaussianity-criterion-based-on-photon-correlations-gs
+#Hans Stærkind|hans-st%C3%A6rkind|0000-0002-6844-3305|
+p 6igr2f 2024-04 high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima
+p 1kzeekh 2023-06-20 precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia
+p pse7g0 2023 =
+#Frederik Uldall|frederik-uldall|0000-0002-4072-7648|
+#Asger Weeth|asger-weeth|0009-0004-1830-7331|
+p g3kve7 2026-10-21 =
+#Yining You|yining-you|0009-0004-9985-7190|
+#Emil Zeuthen|emil-zeuthen|0000-0002-1206-6862|
+p 1nqrd6a 2026-06-11 hybrid-su11-interferometry-in-optomechanics
+p 1uqn4zf 2025-10-25 simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m
+p 11e1jc7 2025-07-02 hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang
+p 1pg8alv 2024-05 squeezed-light-from-an-oscillator-measured-at-the-rate-of-oscilla
+p zqajxi 2023-10-12 =
+p 1jirv4u 2023-08-07 prediction-retrodiction-measurements-for-teleportation-and-condit
+#Xinchao Zhou|xinchao-zhou|0009-0007-4146-939X|
+#Alkiviadis Zoumis|alkiviadis-zoumis||

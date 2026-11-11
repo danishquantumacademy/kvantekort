@@ -1,0 +1,227 @@
+# QOP, compact harvest 11 November 2026 (KU research portal + ORCID; OpenAlex partly, before its daily limit).
+#M|Marcus Albrechtsen|~marcus-albrechtsen/|||0
+#N|4|0
+p|1i5o79j|2026-04-27|J|a-quantum-coherent-photon-emitter-interface-in-the-original-telec|||A quantum-coherent photon-emitter interface in the original telecom band
+p|15xjgau|2025-11-06|J|integration-of-a-gaas-based-nanomechanical-phase-shifter-with-qua|||Integration of a GaAs-based nanomechanical phase shifter with quantum-dot single-photon sources
+p|1qox1s2|2025-06-04|J|origins-and-mitigation-of-scattering-related-propagation-losses-i|||Origins and Mitigation of Scattering-Related Propagation Losses in Suspended GaAs Waveguides for Quantum Ph...
+p|2ymsxs|2024-06-16|R|nanomechanical-phase-shifting-onagallium-arsenide-platform|||Nanomechanical Phase Shifting on a Gallium Arsenide Platform
+#M|Nils Overgaard Andersen|~nils-overgaard-andersen/|||0
+#N|2|0
+p|1c2uc8o|2025|J|et-reformeret-uddannelses-danmark-udfordringer-for-institutionsst|||Et reformeret uddannelses-Danmark: Udfordringer for Institutionsstruktur og Uddannelseslandskab i 2020erne
+p|13yyvep|2023|R|=|||Orientation and Alignment in Atomic and Molecular Collisions
+#M|Nikolaos Andrianopoulos|~nikolaos-andrianopoulos/|||0
+#N|0|0
+#M|Jean-Baptiste Sylvain Béguin|~jean-baptiste-sylvain-b%C3%A9guin/|||0
+#N|1|0
+p|esub2|2026-09-24|J|steady-state-multiparticle-entanglement-via-dissipative-engineeri|||Steady-state multiparticle entanglement via dissipative engineering in waveguide QED
+#M|Luuk Jan-Heimen van den Berg|~luuk-jan-heimen-van-den-berg/|||0
+#N|0|0
+#M|Tulio Brito Brasil|~tulio-brito-brasil/|0000-0001-8103-0698||0
+#N|4|0
+p|11e1jc7|2025-07-02|J|hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang|||Hybrid quantum network for sensing in the acoustic frequency range
+p|gpns7f|2025|R|multi-color-continuous-variables-unconditional-quantum-teleportat-2|||Multi-Color Continuous Variables Unconditional Quantum Teleportation: From Near-Infrared to Telecommunicati...
+p|zqajxi|2023-10-12|J|=|||Acoustic frequency atomic spin oscillator in the quantum regime
+p|1c90qke|2022-08-16|J|=|||Two-colour high-purity Einstein-Podolsky-Rosen photonic state
+#M|Simon Bräuer|~simon-br%C3%A4uer/|||0
+#N|0|0
+#M|Giulia Campagna|~giulia-campagna/|||0
+#N|0|0
+#M|Victor Rueskov Christiansen|~victor-rueskov-christiansen/|||0
+#N|0|0
+#M|Etienne Fabien Corminboeuf|~etienne-fabien-corminboeuf/|||0
+#N|1|0
+p|8ef9a1|2026-04-23|P|=|||Photon Sorting with a Quantum Emitter
+#M|Jan Dragasevic|~jan-draga%C5%A1evi%C4%87/|0000-0001-8890-9195||0
+#N|3|0
+p|1moy5n9|2026-05-08|J|viscous-heat-backflow-and-temperature-resonances-in-extreme-therm|||Viscous heat backflow and temperature resonances in extreme thermal conductors
+p|14uj5h0|2025-07-30|J|=|||Weighing the curvature invariants
+p|12199l1|2024-10-19|J|tunnelling-of-a-composite-particle-in-presence-of-a-magnetic-fiel|||Tunnelling of a composite particle in presence of a magnetic field
+#M|Ivan Galinskiy|~ivan-galinskiy/|0000-0001-6372-790X||0
+#N|6|0
+p|15qkivk|2025-03-15|J|resonant-acoustic-modes-in-dfb-fiber-lasers-characterized-via-fre|||Resonant Acoustic Modes in DFB Fiber Lasers Characterized via Frequency Noise Measurements
+p|1yl7f68|2024-10-24|L|nonclassical-correlations-between-photons-and-phonons-of-center-o|||Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator
+p|15giyfp|2024-03-24|R|=|||Direct Measurement of Resonant Phonon Modes in Optical Fibers
+p|1p4xa|2024|R|improving-frequency-noise-of-dfb-fiber-lasers-by-acoustic-wave-su|||Improving Frequency Noise of DFB Fiber Lasers by Acoustic Wave Suppression
+p|tgnuf2|2023-03-16|T|=|||Counting the uncountable: Non-Gaussian quantum optomechanics
+p|780kuq|2021-03-01|J|high-frequency-broadband-laser-phase-noise-cancellation-using-a-d|||High-frequency broadband laser phase noise cancellation using a delay line
+#M|Francesco Gargiulo|~francesco-gargiulo/|||0
+#N|0|0
+#M|Simon Richard Goorney|~simon-richard-goorney/|||0
+#N|9|0
+p|17a4nls|2026-03-02|J|the-quantum-technology-job-market-data-driven-analysis-of-3641-jo|||The quantum technology job market: data driven analysis of 3641 job posts
+p|1mklvi4|2025-05-30|J|building-europes-quantum-technology-education-community|||Building Europe’s quantum technology education community
+p|1ud7hke|2025-01-07|J|extending-the-european-competence-framework-for-quantum-technolog|||Extending the European Competence Framework for Quantum Technologies: new proficiency triangle and qualific...
+p|dsxyf7|2024-10-28|J|a-framework-for-curriculum-transformation-in-quantum-information-|||A framework for curriculum transformation in quantum information science and technology education
+p|1tb72fs|2024-03-01|J|modelling-assisted-tunneling-on-the-bloch-sphere-using-the-quantu|||Modelling assisted tunneling on the Bloch sphere using the Quantum Composer
+p|1cwme5l|2024-02-10|J|educating-to-the-culture-of-quantum-technologies-a-survey-study-o|||Educating to the “Culture” of Quantum Technologies: A Survey Study on Concepts for Public Awareness
+#M|Christopher Charles A Gustin|~christopher-charles-a-gustin/|||0
+#N|1|0
+p|46ph4o|2026-08-26|J|dissipation-in-the-broadband-and-ultrastrong-coupling-regimes-of-|||Dissipation in the broadband and ultrastrong coupling regimes of cavity quantum electrodynamics: an ab init...
+#M|Marcus Gut|~marcus-gut/|||0
+#N|0|0
+#M|Emil Rye Hellebek|~emil-rye-hellebek/|||0
+#N|5|0
+p|116ij3g|2026-07-16|J|hybrid-single-ion-atomic-ensemble-node-for-high-rate-remote-entan|||Hybrid single-ion atomic-ensemble node for high-rate remote entanglement generation
+p|l8pgi5|2026-07-16|J|single-and-double-click-high-rate-entanglement-generation-between|||Single-and double-click high-rate entanglement generation between distant ions using multiplexed atomic ens...
+p|1hp7b6|2026-07-06|J|=|||Impact of multimode sources on ensemble-based quantum repeaters
+p|1lggtdu|2026-07-06|J|=|||Quantum strategies to overcome classical multiplexing limits
+p|t0nvwy|2024-08-27|J|characterization-of-the-multimode-nature-of-single-photon-sources|||Characterization of the multimode nature of single-photon sources based on spontaneous parametric down-conv...
+#M|Clara Edith Henke|~clara-henke/|0009-0004-5255-5689||0
+#N|1|1
+p|g4ni3v|2026-06-16|J|quantum-non-gaussianity-criterion-based-on-photon-correlations-gs|||Quantum Non-Gaussianity Criterion Based on Photon Correlations g(2) and g(3)
+#M|Yinhui Kan|~yinhui-kan/|||0
+#N|1|0
+p|1pk04h2|2026-07-11|J|chip-integrated-metasurface-enabled-single-photon-skyrmion-source|||Chip-integrated metasurface-enabled single-photon skyrmion sources
+#M|Noah Oliver Kaufmann|~noah-oliver-kaufmann/|||0
+#N|2|0
+p|l9zfg3|2025-10-24|J|=|||Estimating Bell diagonal states with separable measurements
+p|1ylziul|2025-03-07|J|characterization-of-coherent-errors-in-gate-layers-with-robustnes|||Characterization of coherent errors in gate layers with robustness to Pauli noise
+#M|Nikolaos Kiigmas|~nikolaos-kiigmas/|||0
+#N|0|0
+#M|Leopold Konzett|~leopold-konzett/|||0
+#N|0|0
+#M|Mathias Linde Holst Korsgaard|~mathias-linde-holst-korsgaard/|||0
+#N|1|0
+p|n2ttq|2025|R|quantum-state-preserving-frequency-conversion-using-four-wave-mix|||Quantum state preserving frequency conversion using four-wave mixing in optical fibers: The impact of Raman...
+#M|Nikolaj Aagaard Larsen|~nikolaj-aagaard-larsen/|0009-0000-1609-9779||0
+#N|0|0
+#M|Yaohua Li|~yaohua-li/|||0
+#N|0|0
+#M|Stanislav Linchakovskyy|~stanislav-linchakovskyy/|||0
+#N|0|0
+#M|Shikai Liu|~shikai-liu/|||0
+#N|1|0
+p|12po7fw|2024-06-19|J|violation-of-bell-inequality-by-photon-scattering-on-a-two-level-|||Violation of Bell inequality by photon scattering on a two-level emitter
+#M|Peter Lodahl|~peter-lodahl/|0000-0002-9348-9591||0
+#N|47|1
+p|g4ni3v|2026-06-16|J|quantum-non-gaussianity-criterion-based-on-photon-correlations-gs|||Quantum Non-Gaussianity Criterion Based on Photon Correlations g(2) and g(3)
+p|1szh2y2|2026-05-14|J|practical-blueprint-for-low-depth-photonic-quantum-computing-with|||Practical blueprint for low-depth photonic quantum computing with quantum dots
+p|1i5o79j|2026-04-27|J|a-quantum-coherent-photon-emitter-interface-in-the-original-telec|||A quantum-coherent photon-emitter interface in the original telecom band
+p|8ef9a1|2026-04-23|P|=|||Photon Sorting with a Quantum Emitter
+p|ujkwzz|2025-12-11|J|=|||Programmable nonlinear quantum photonic circuits
+p|1w2fail|2025-11-05|J|tunable-quantum-frequency-conversion-enabled-by-intermodal-nonlin|||Tunable quantum frequency conversion enabled by intermodal nonlinearity in optical fiber
+#M|Aida Mashaal|~aida-mashaal/|||0
+#N|1|0
+p|71k5so|2025-03-17|L|=|||Strong thermomechanical noise squeezing stabilized by feedback
+#M|Leonardo Midolo|~leonardo-midolo/|0000-0003-0237-587X||0
+#N|45|1
+p|1bkcis3|2026-08-26|J|fabrication-tolerant-gaassin-coupling-above-the-loss-threshold-fo|||Fabrication-Tolerant GaAs/SiN Coupling Above the Loss Threshold for Quantum Photonic Applications
+p|14wdcc7|2026-07-22|R|reconfigurable-photon-emitter-interfaces-enabled-by-nanomechanics|||Reconfigurable photon-emitter interfaces enabled by nanomechanics
+p|1i5o79j|2026-04-27|J|a-quantum-coherent-photon-emitter-interface-in-the-original-telec|||A quantum-coherent photon-emitter interface in the original telecom band
+p|8ef9a1|2026-04-23|P|=|||Photon Sorting with a Quantum Emitter
+p|ujkwzz|2025-12-11|J|=|||Programmable nonlinear quantum photonic circuits
+p|1y6n8sl|2025-11-06|J|electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide|||Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation
+#M|Maiken Høgh Mikkelsen|~maiken-h%C3%B8gh-mikkelsen/|0000-0002-0487-7585||0
+#N|1|13
+p|eih3lk|2026-10-13|J|molecular-control-of-light-matter-interactions-in-plasmonic-nanog|||Molecular Control of Light-Matter Interactions in Plasmonic Nanogap Cavities
+#M|Mikkel Thorbjørn Mikkelsen|~mikkel-thorbj%C3%B8rn-mikkelsen/|||0
+#N|0|0
+#M|Laurits Møberg|~laurits-m%C3%B8berg/|||0
+#N|0|0
+#M|Christoffer Bo Møller|~christoffer-bo-m%C3%B8ller/|||0
+#N|0|0
+#M|Klaus Mølmer|~klaus-m%C3%B8lmer/|0000-0002-2372-869X||0
+#N|68|1
+p|1e2eqrp|2026-09-22|J|adiabatic-preparation-of-many-body-quantum-states-getting-the-beg|||Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right
+p|pn0xn5|2026-07-10|J|environment-assisted-generation-of-non-gaussian-wave-packet-quant|||Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States
+p|p7oseu|2026-06-25|J|=|||Optimal control for Rydberg multi-qubit operations
+p|96qwgq|2026-06-09|J|lieb-mattis-states-for-robust-entangled-differential-phase-sensin|||Lieb-Mattis States for Robust Entangled Differential Phase Sensing
+p|p76o7i|2026-05-06|J|=|||Entangling power of nonentangling channels
+p|ctxwbq|2026-02-19|J|=|||Censorship of quantum resources against quantum catalysis
+#M|Jörg Helge Müller|~j%C3%B6rg-helge-m%C3%BCller/|0000-0001-6984-0487||0
+#N|8|0
+p|11e1jc7|2025-07-02|J|hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang|||Hybrid quantum network for sensing in the acoustic frequency range
+p|6igr2f|2024-04|J|high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima|||High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging
+p|1ftuvwi|2024-02-05|J|collectively-enhanced-ramsey-readout-by-cavity-sub-to-superradian|||Collectively enhanced Ramsey readout by cavity sub- to superradiant transition
+p|zqajxi|2023-10-12|J|=|||Acoustic frequency atomic spin oscillator in the quantum regime
+p|1kzeekh|2023-06-20|J|precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia|||Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line
+p|ggfpkk|2023-06-02|L|subnatural-linewidth-superradiant-lasing-with-cold-sup88supsr-ato|||Subnatural Linewidth Superradiant Lasing with Cold 88Sr Atoms
+#M|Rasmus Bo Nielsen|~rasmus-bo-nielsen/|||0
+#N|0|0
+#M|Joan Alba Pares|~joan-alba-pares/|||0
+#N|2|0
+p|esub2|2026-09-24|J|steady-state-multiparticle-entanglement-via-dissipative-engineeri|||Steady-state multiparticle entanglement via dissipative engineering in waveguide QED
+p|t71yl6|2026-08-27|J|quantifying-entanglement-in-quantum-thermodynamics-via-separabili|||Quantifying entanglement in quantum thermodynamics via separability constraints
+#M|Maria Ana de Matos Afonso Pereira|~maria-ana-de-matos-afonso-pereira/|||0
+#N|0|0
+#M|Andrea Pertoldi|~andrea-pertoldi/|||0
+#N|8|0
+p|190pttw|2025-04-21|J|=|||Low-noise fiber laser systems at 689 nm and 698 nm for strontium
+p|15qkivk|2025-03-15|J|resonant-acoustic-modes-in-dfb-fiber-lasers-characterized-via-fre|||Resonant Acoustic Modes in DFB Fiber Lasers Characterized via Frequency Noise Measurements
+p|179d73h|2024-11-15|J|coherent-instabilities-in-thulium-based-fiber-amplifiers-induced-|||Coherent instabilities in thulium-based fiber amplifiers induced by laser frequency modulation
+p|15giyfp|2024-03-24|R|=|||Direct Measurement of Resonant Phonon Modes in Optical Fibers
+p|1p4xa|2024|R|improving-frequency-noise-of-dfb-fiber-lasers-by-acoustic-wave-su|||Improving Frequency Noise of DFB Fiber Lasers by Acoustic Wave Suppression
+p|cq618j|2024|R|investigation-of-stability-in-2-%C2%B5m-optical-fiber-amplifiers-for-n|||Investigation of Stability in 2 µm Optical Fiber Amplifiers for Narrow-Linewidth Laser Sources
+#M|Eugene Simon Polzik|~eugene-simon-polzik/|0000-0001-9859-6591||0
+#N|22|2
+p|15epbsn|2026-04-14|J|the-future-of-quantum-technology-as-seen-from-the-eu-usa-and-japa|||The future of quantum technology as seen from the EU, USA and Japan: experts' vision over the next two decades
+p|1uqn4zf|2025-10-25|J|simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m|||Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system
+p|11e1jc7|2025-07-02|J|hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang|||Hybrid quantum network for sensing in the acoustic frequency range
+p|1y2djdb|2025-02-05|J|h-jeffrey-kimble-19492024|||H. Jeffrey Kimble (1949–2024)
+p|1yl7f68|2024-10-24|L|nonclassical-correlations-between-photons-and-phonons-of-center-o|||Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator
+p|1tfbmtq|2024-09-12|J|magnetic-induction-sensor-based-on-a-dual-frequency-atomic-magnet|||Magnetic induction sensor based on a dual-frequency atomic magnetometer
+#M|Clinton Alexander Potts|~clinton-alexander-potts/|||0
+#N|5|0
+p|1dhl6r7|2026-07-28|J|higher-josephson-harmonics-in-a-tunable-double-junction-transmon-|||Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit
+p|1jwwar6|2026-02-19|J|flux-modulated-tunable-interaction-regimes-in-two-strongly-nonlin|||Flux-modulated tunable interaction regimes in two strongly nonlinear oscillators
+p|h7gdbh|2025-10-15|J|magnon-magnon-interaction-induced-by-nonlinear-spin-wave-dynamics|||Magnon-Magnon Interaction Induced by Nonlinear Spin-Wave Dynamics
+p|q71npz|2025-06-12|J|magnon-microwave-backaction-noise-evasion-in-cavity-magnomechanic|||Magnon-microwave backaction noise evasion in cavity magnomechanics
+p|zhb1cy|2025-04-18|J|strong-intrinsic-longitudinal-coupling-in-circuit-quantum-electro|||Strong Intrinsic Longitudinal Coupling in Circuit Quantum Electrodynamics
+#M|Hanna Krystyna Salamon|~hanna-krystyna-salamon/|||0
+#N|2|0
+p|1y6n8sl|2025-11-06|J|electrical-control-of-quantum-dots-in-gaas-on-insulator-waveguide|||Electrical Control of Quantum Dots in GaAs-on-Insulator Waveguides for Coherent Single-Photon Generation
+p|1vy8768|2025|R|electrical-control-of-quantum-dot-single-photon-source-on-siosub2|||Electrical Control of Quantum-Dot Single-Photon Source on SiO2/Si Substrate
+#M|Bálint Sárközi|~b%C3%A1lint-s%C3%A1rk%C3%B6zi/|||0
+#N|0|0
+#M|Albert Schliesser|~albert-schliesser/|0000-0003-4317-5030||0
+#N|19|0
+p|39sa90|2026-06-01|J|wide-field-stroboscopic-imaging-of-topologically-protected-phonon|||Wide-field stroboscopic imaging of topologically protected phononic modes
+p|f6s2q7|2026-02-03|J|measuring-high-field-gradients-of-cobalt-nanomagnets-in-a-spin-me|||Measuring high field gradients of cobalt nanomagnets in a spin-mechanical setup
+p|1uqn4zf|2025-10-25|J|simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m|||Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system
+p|5buw80|2025-06-04|J|=|||A soft-clamped topological waveguide for phonons
+p|71k5so|2025-03-17|L|=|||Strong thermomechanical noise squeezing stabilized by feedback
+p|1inecek|2024-12-30|J|two-dimensional-gallium-phosphide-optomechanical-crystal-in-the-r|||Two-dimensional gallium phosphide optomechanical crystal in the resolved-sideband regime
+#M|Levin Maria Albert Seidt|~levin-maria-albert-seidt/|||0
+#N|0|0
+#M|Jacob Friis Sherson|~jacob-friis-sherson/|||0
+#N|13|0
+p|17a4nls|2026-03-02|J|the-quantum-technology-job-market-data-driven-analysis-of-3641-jo|||The quantum technology job market: data driven analysis of 3641 job posts
+p|1mklvi4|2025-05-30|J|building-europes-quantum-technology-education-community|||Building Europe’s quantum technology education community
+p|dsxyf7|2024-10-28|J|a-framework-for-curriculum-transformation-in-quantum-information-|||A framework for curriculum transformation in quantum information science and technology education
+p|1tb72fs|2024-03-01|J|modelling-assisted-tunneling-on-the-bloch-sphere-using-the-quantu|||Modelling assisted tunneling on the Bloch sphere using the Quantum Composer
+p|1vkgamt|2024-01-24|J|the-quantum-technology-open-master-widening-access-to-the-quantum|||The Quantum Technology Open Master: widening access to the quantum industry
+p|1ept6kp|2024|J|contributions-from-pilot-projects-in-quantum-technology-education|||Contributions from Pilot Projects in Quantum Technology Education as Support Action to Quantum Flagship
+#M|Sophia Carmen Simon|~sophia-carmen-simon/|||0
+#N|0|0
+#M|Anders Søndberg Sørensen|~anders-s%C3%B8ndberg-s%C3%B8rensen/|0000-0003-1337-9163||0
+#N|55|5
+p|esub2|2026-09-24|J|steady-state-multiparticle-entanglement-via-dissipative-engineeri|||Steady-state multiparticle entanglement via dissipative engineering in waveguide QED
+p|116ij3g|2026-07-16|J|hybrid-single-ion-atomic-ensemble-node-for-high-rate-remote-entan|||Hybrid single-ion atomic-ensemble node for high-rate remote entanglement generation
+p|l8pgi5|2026-07-16|J|single-and-double-click-high-rate-entanglement-generation-between|||Single-and double-click high-rate entanglement generation between distant ions using multiplexed atomic ens...
+p|1hp7b6|2026-07-06|J|=|||Impact of multimode sources on ensemble-based quantum repeaters
+p|1lggtdu|2026-07-06|J|=|||Quantum strategies to overcome classical multiplexing limits
+p|g4ni3v|2026-06-16|J|quantum-non-gaussianity-criterion-based-on-photon-correlations-gs|||Quantum Non-Gaussianity Criterion Based on Photon Correlations g(2) and g(3)
+#M|Hans Stærkind|~hans-st%C3%A6rkind/|0000-0002-6844-3305||0
+#N|3|0
+p|6igr2f|2024-04|J|high-field-optical-cesium-magnetometer-for-magnetic-resonance-ima|||High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging
+p|1kzeekh|2023-06-20|J|precision-measurement-of-the-excited-state-land%C3%A9-g-factor-and-dia|||Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line
+p|pse7g0|2023|T|=|||Optical Magnetometry for Magnetic Resonance Imaging
+#M|Frederik Uldall|~frederik-uldall/|0000-0002-4072-7648||0
+#N|0|0
+#M|Asger Weeth|~asger-weeth/|0009-0004-1830-7331||0
+#N|1|0
+p|g3kve7|2026-10-21|J|=|||Intense-laser nondipole-induced symmetry breaking in solids
+#M|Yining You|~yining-you/|0009-0004-9985-7190||0
+#N|0|0
+#M|Emil Zeuthen|~emil-zeuthen/|0000-0002-1206-6862||0
+#N|8|1
+p|1nqrd6a|2026-06-11|J|hybrid-su11-interferometry-in-optomechanics|||Hybrid SU(1,1) Interferometry in Optomechanics
+p|1uqn4zf|2025-10-25|J|simultaneous-ponderomotive-squeezing-of-light-by-two-mechanical-m|||Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system
+p|11e1jc7|2025-07-02|J|hybrid-quantum-network-for-sensing-in-the-acoustic-frequency-rang|||Hybrid quantum network for sensing in the acoustic frequency range
+p|1pg8alv|2024-05|J|squeezed-light-from-an-oscillator-measured-at-the-rate-of-oscilla|||Squeezed light from an oscillator measured at the rate of oscillation
+p|zqajxi|2023-10-12|J|=|||Acoustic frequency atomic spin oscillator in the quantum regime
+p|1jirv4u|2023-08-07|L|prediction-retrodiction-measurements-for-teleportation-and-condit|||Prediction-Retrodiction Measurements for Teleportation and Conditional State Transfer
+#M|Xinchao Zhou|~xinchao-zhou/|0009-0007-4146-939X||0
+#N|0|7
+#M|Alkiviadis Zoumis|~alkiviadis-zoumis/|||0
+#N|0|0
