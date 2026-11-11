@@ -83,7 +83,7 @@ blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);col
 .mtools input{flex:1 1 240px;min-width:0;font:15px var(--body);padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
 .mcat{display:grid;gap:8px}
 .mcat h3 small{font:500 12px var(--mono);color:var(--muted);margin-left:6px}
-.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:8px}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:8px;align-items:start}
 .gtri{width:100%;max-width:110px;height:auto;margin-top:6px}
 .rpgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
 @media (max-width:760px){.rpgrid{grid-template-columns:1fr}}
@@ -95,7 +95,9 @@ blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);col
 .rtab .n{text-align:right;font-family:var(--mono)}
 .rtab .dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
 .rlv{font:600 10.5px/1 var(--mono);padding:2px 4px;border:1.5px solid;border-radius:4px;margin-left:5px;white-space:nowrap;vertical-align:1px}
-.mem{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 12px;display:grid;gap:3px;min-width:0}
+.mem{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 12px;display:grid;gap:3px;min-width:0;align-content:start}
+.more{font:500 12.5px var(--body);color:var(--accent);background:none;border:0;padding:6px 0 0;cursor:pointer;text-align:left}
+.more:hover{text-decoration:underline}
 .mem .n{font-weight:600;font-size:14px}
 .mem .n a{color:var(--fg);text-decoration:none}
 .mem .n a:hover{color:var(--accent);text-decoration:underline}
@@ -212,9 +214,12 @@ footer p{margin:0;max-width:86ch}
     cards.append(b)})}
 
   // ---- profile ----
-  function panel(title,items,render,emptyText,extra){
+  function panel(title,items,render,emptyText,extra,limit){
     const p=el('div',{class:'panel'},el('h3',{},title,items.length?el('small',{},String(items.length)):null));
-    if(items.length) items.forEach(x=>p.append(render(x))); else p.append(el('span',{class:'empty'},emptyText));
+    if(items.length){const lim=limit||items.length;items.slice(0,lim).forEach(x=>p.append(render(x)));
+      if(items.length>lim){const rest=el('div',{hidden:''},...items.slice(lim).map(render));const b=el('button',{type:'button',class:'more'},`Show ${items.length-lim} more`);
+        b.addEventListener('click',()=>{rest.hidden=!rest.hidden;b.textContent=rest.hidden?`Show ${items.length-lim} more`:'Show fewer'});p.append(rest,b)}}
+    else p.append(el('span',{class:'empty'},emptyText));
     if(extra)p.append(extra);return p}
   function drawProfile(){
     const box=document.getElementById('profile');box.innerHTML='';
@@ -246,13 +251,13 @@ footer p{margin:0;max-width:86ch}
     const grants=[...(F.grants||[]),...g.prizes.map(p=>({date:'',title:p.title,url:p.url,text:'Prize · '+p.date}))];
     const evs=[...(F.events||[]),...g.static_events.filter(e=>!(F.events||[]).some(f=>f.title.startsWith(e.title.slice(0,12)))).map(e=>({date:'',title:e.title,url:g.website,text:e.date})),...g.acts.map(a=>({date:'',title:a.title,url:a.url,text:'Activity · '+a.date}))];
     evs.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
-    const up=evs.filter(e=>e.date&&e.date>=today), past=evs.filter(e=>!(e.date&&e.date>=today)).slice(0,6);
+    const up=evs.filter(e=>e.date&&e.date>=today).sort((a,b)=>a.date.localeCompare(b.date)), past=evs.filter(e=>!(e.date&&e.date>=today)).slice(0,6);
     const item=x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'d'},[fmt(x.date),x.text&&x.text.length<60?x.text:''].filter(Boolean).join(' · ')),x.text&&x.text.length>=60?el('span',{class:'t'},x.text.replace(/^\d{1,2}[./]\d{1,2}[./]\d{4}\s*/,'').slice(0,150)):null);
     const srcNote=k=>{const s=src.filter(x=>x.kind===k);if(!s.length)return el('span',{class:'empty'},'No automatic source for this group yet.');const bad=s.filter(x=>!x.ok);return bad.length?el('span',{class:'empty'},'Last automatic check could not read: '+bad.map(x=>new URL(x.url).host).join(', ')):null};
     box.append(el('div',{class:'panels'},
-      panel('News',news,item,'No news found on the group’s website or in the portal.',srcNote('news')),
-      panel('Grants and prizes',[...grants,...g.projects.filter(p=>p.funder&&p.type!=='PhD').map(p=>({date:'',title:p.title,url:p.url,text:`${p.funder} · ${p.period}`}))],item,'No grant announcements found in the sources.'),
-      panel('Events',[...up.map(e=>({...e,up:1})),...past],x=>{const n=item(x);if(x.up)n.querySelector('.d').append(el('span',{class:'tag up'},'upcoming'));return n},'No events found.',srcNote('events')),
+      panel('News',news,item,'No news found on the group’s website or in the portal.',srcNote('news'),5),
+      panel('Grants and prizes',[...grants,...g.projects.filter(p=>p.funder&&p.type!=='PhD').map(p=>({date:'',title:p.title,url:p.url,text:`${p.funder} · ${p.period}`}))],item,'No grant announcements found in the sources.',null,5),
+      panel('Events',[...up.map(e=>({...e,up:1})),...past],x=>{const n=item(x);if(x.up)n.querySelector('.d').append(el('span',{class:'tag up'},'upcoming'));return n},'No events found.',srcNote('events'),5),
       panel('Open positions',(F.jobs||[]).filter(j=>!j.deadline||j.deadline>=today),item,'No open positions announced on the group’s pages right now.',el('a',{href:g.jobs_all||g.jobs_url,target:'_blank',rel:'noopener',style:'font-size:13px'},`All vacancies at ${g.institution} ↗`))));
     // publications + projects
     box.append(el('div',{class:'panels'},
@@ -270,7 +275,7 @@ footer p{margin:0;max-width:86ch}
           grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'educator'):null,...lvBadges(m)),
             el('span',{class:'r'},m.role||'Position not stated'),
             m.pc&&res?el('span',{class:'pc',title:'Research output since 2021: on the university research profile / found only in ORCID or OpenAlex'},m.pc[2]?`${m.pc[0]} on university profile`:'No university profile found',m.pc[1]?el('span',{class:'pe'},` · ${m.pc[1]} not on profile`):null):null,
-            m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
+            m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.l5&&m.l5.length?el('span',{class:'p'},el('em',{},'Latest: '),link(m.l5[0].u,m.l5[0].t),` (${(m.l5[0].d||'').slice(0,4)})`):m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
             m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null,
             m.l5&&m.l5.length?el('details',{class:'l5'},el('summary',{},`${m.l5.length} newest outputs behind the levels`),...m.l5.map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[(x.d&&x.d.length===7?fmt(x.d+'-01').replace(/^1 /,''):fmt(x.d))||'',x.s.length?x.s.join(' · '):'outside the content map'].filter(Boolean).join(' — '),' · ',el('em',{},x.b))))):null))});
         mbox.append(el('div',{class:'mcat'},el('h3',{},c,el('small',{},String(list.length))),grid))})};
