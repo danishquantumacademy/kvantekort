@@ -100,7 +100,14 @@ blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);col
 .lvfilter{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:9px 12px;border:1px solid var(--line);border-left:4px solid var(--fg);border-radius:10px;background:var(--surface);font-size:14px}
 .lvfilter button{font:600 13px var(--body);padding:5px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
 .rtab .dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
-.rlv{font:600 10.5px/1 var(--mono);padding:2px 4px;border:1.5px solid;border-radius:4px;margin-left:5px;white-space:nowrap;vertical-align:1px}
+.rlv{font:600 10.5px/1 var(--mono);padding:2px 4px;border:1.5px solid;border-radius:4px;margin-left:5px;white-space:nowrap;vertical-align:1px;background:none;cursor:pointer}
+button.rlv:hover,button.rlv[aria-expanded=true]{background:var(--line)}
+.why{font-size:12.5px;line-height:1.45;border-left:3px solid;padding:6px 0 6px 10px;margin:2px 0;display:grid;gap:5px}
+.why b{font-weight:600}.why .wr{color:var(--muted)}
+.why ul{margin:0;padding-left:16px;display:grid;gap:3px}.why .wk{font:600 10.5px var(--mono);margin-right:4px}.why .ws{color:var(--muted);font-size:11.5px}
+.why button.more{font:600 12px var(--body);margin:4px 0 0 16px;padding:3px 8px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
+.edu{display:flex;flex-wrap:wrap;gap:5px;align-items:center;border-top:1px solid var(--line);padding-top:7px;margin-top:2px}
+.edu .tb{margin-left:0}.edu a.cc{font:600 11px var(--mono);padding:2px 5px;border-radius:4px;background:var(--line);color:var(--fg);text-decoration:none}.edu a.cc:hover{text-decoration:underline}
 .mem{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 12px;display:grid;gap:3px;min-width:0;align-content:start}
 .more{font:500 12.5px var(--body);color:var(--accent);background:none;border:0;padding:6px 0 0;cursor:pointer;text-align:left}
 .more:hover{text-decoration:underline}
@@ -205,6 +212,25 @@ footer p{margin:0;max-width:86ch}
   // members at their level in each proficiency area (same rule as on the Educators page)
   const memberCounts=g=>{const m={};g.members.forEach(x=>AREAS.forEach(a=>{const l=(x.rl||{})[a];if(l)m[a+l]=(m[a+l]||0)+1}));return m};
   const lvBadges=x=>AREAS.filter(a=>(x.rl||{})[a]).map(a=>el('span',{class:'rlv',style:`border-color:${acol(a)};color:${acol(a)}`,title:`(${a}) ${Q.areas[a]}: ${x.rl[a]} ${Q.levels[x.rl[a]]}`},`${a} ${x.rl[a]}`));
+  // why a member has a level: the evidence with its main topic in the area, and the evidence that only touches it
+  const EVK={l:'newest output on the university profile',o:'research output',a:'research output (OpenAlex)',j:'current project',r:'research profile',s:'supervised PhD thesis'};
+  function why(x,a){const lv=x.rl[a], ev=x.ev||[], main=ev.filter(e=>areaOf(e[0][0])===a), touch=ev.filter(e=>areaOf(e[0][0])!==a&&e[0].some(s=>areaOf(s)===a));
+    const n=main.length, t=touch.length;
+    const reason=lv==='C2'?`${n} piece${n===1?'':'s'} of evidence ha${n===1?'s':'ve'} the main topic in this area; C2 Innovation needs at least three.`
+      :lv==='C1'&&n?`${n} piece${n===1?'':'s'} of evidence ha${n===1?'s':'ve'} the main topic in this area; one or two give C1 Specialisation, three would give C2.`
+      :lv==='C1'?`No evidence has its main topic here, but ${t} pieces touch the area; two or more give C1 Specialisation.`
+      :`One piece of evidence touches the area without having its main topic there; that gives B2 Investigation.`;
+    const basis=ev.length&&ev[0][2]==='l'?`Based on the ${ev.length} newest research outputs on the CFQT content map registered on the university profile.`:`Based on ${ev.length} piece${ev.length===1?'':'s'} of evidence on the CFQT content map.`;
+    const li=(e,lab)=>el('li',{},el('span',{class:'wk',style:`color:${acol(a)}`},lab),e[1],el('span',{class:'ws'},` — ${EVK[e[2]]||'evidence'} · ${e[0].join(', ')}`));
+    return el('div',{class:'why',style:`border-color:${acol(a)}`},el('span',{},el('b',{},`(${a}) ${Q.areas[a]} – ${lv} ${Q.levels[lv]}. `),reason),el('span',{class:'wr'},basis),
+      lst(main,e=>li(e,'main topic '+e[0][0])),
+      lst(touch,e=>li(e,'touches '+e[0].find(s=>areaOf(s)===a))))}
+  function lst(items,f){if(!items.length)return null;const ul=el('ul',{},...items.slice(0,5).map(f));
+    if(items.length>5){const more=btn(el('button',{class:'more'},`Show ${items.length-5} more`),()=>{items.slice(5).forEach(e=>ul.append(f(e)));more.remove()});return el('div',{},ul,more)}
+    return ul}
+  function lvButtons(x,box){return AREAS.filter(a=>(x.rl||{})[a]).map(a=>{const b=el('button',{class:'rlv',type:'button','aria-expanded':'false',style:`border-color:${acol(a)};color:${acol(a)}`,title:`Why ${x.rl[a]} in (${a}) ${Q.areas[a]}?`},`${a} ${x.rl[a]}`);
+    b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')==='true';b.parentElement.querySelectorAll('button.rlv').forEach(o=>o.setAttribute('aria-expanded','false'));box.innerHTML='';
+      if(!open){b.setAttribute('aria-expanded','true');box.append(why(x,a))}});return b})}
   let cur=null;
   try{const h=location.hash.slice(1);if(G.some(g=>g.key===h))cur=h}catch(e){}
 
@@ -293,13 +319,15 @@ footer p{margin:0;max-width:86ch}
       CATS.forEach(c=>{const list=g.members.filter(m=>m.cat===c&&inLv(m)&&(!t||[m.name,m.role,m.project,m.output].join(' ').toLowerCase().includes(t)));if(!list.length)return;
         const grid=el('div',{class:'mgrid'});
         list.forEach(m=>{const res=!/staff|administrat|assistant$|officer|manager|engineer$/i.test(c+' '+m.role)||m.project||m.output;
-          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,m.teacher?el('span',{class:'tb',title:'Teaches a course on this map'},'educator'):null,...lvBadges(m)),
+          const whyBox=el('div',{});
+          grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,...lvButtons(m,whyBox)),whyBox,
             el('span',{class:'r'},m.role||'Position not stated'),
             m.about?el('span',{class:'ab',title:'Summary of the research description on the member’s university profile'},m.about):null,
             m.pc&&res?el('span',{class:'pc',title:'Research output since 2021: on the university research profile / found only in ORCID, OpenAlex or arXiv'},m.pc[2]?`${m.pc[0]} on university profile`:'No university profile found',m.pc[1]?el('span',{class:'pe'},` · ${m.pc[1]} not on profile`):null):null,
             m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.l5&&m.l5.length?el('span',{class:'p'},el('em',{},'Latest: '),link(m.l5[0].u,m.l5[0].t),` (${(m.l5[0].d||'').slice(0,4)})`):m.output&&res?el('span',{class:'p'},el('em',{},'Latest: '),m.output):null),
             m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null,
-            m.l5&&m.l5.length?el('details',{class:'l5'},el('summary',{},`${m.l5.length} newest outputs behind the levels`),...m.l5.map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[(x.d&&x.d.length===7?fmt(x.d+'-01').replace(/^1 /,''):fmt(x.d))||'',x.s.length?x.s.join(' · '):'outside the content map'].filter(Boolean).join(' — '),' · ',el('em',{},x.b))))):null))});
+            m.l5&&m.l5.length?el('details',{class:'l5'},el('summary',{},`${m.l5.length} newest outputs behind the levels`),...m.l5.map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[(x.d&&x.d.length===7?fmt(x.d+'-01').replace(/^1 /,''):fmt(x.d))||'',x.s.length?x.s.join(' · '):'outside the content map'].filter(Boolean).join(' — '),' · ',el('em',{},x.b))))):null,
+            m.teacher?el('div',{class:'edu'},el('span',{class:'tb',title:'Teaches a course on this map'},'educator'),...(m.courses||[]).map(c=>el('a',{class:'cc',href:c.u||'#',target:'_blank',rel:'noopener',title:`${c.t} (${c.i}) – ${c.r.toLowerCase()}`},c.c))):null))});
         mbox.append(el('div',{class:'mcat'},el('h3',{},c,el('small',{},String(list.length))),grid))})};
     q.addEventListener('input',drawM);drawM();box.append(ms);
     // courses

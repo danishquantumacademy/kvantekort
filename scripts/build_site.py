@@ -429,13 +429,14 @@ for g in gcfg["groups"]:
             members.append({"name": name, "role": role, "cat": member_cat(role), "url": (g["portal_base"] + path) if path else "", "about": gp.get("text", ""),
                             "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]),
                             "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
-            ev, seen = [], set()
+            ev, seen, evd = [], set(), []
+            add = lambda sb, t, k: (ev.append(sb), evd.append([sb, t[:160], k]))  # evd: evidence shown when a level badge is clicked
             pcm = pcheck.get(g["key"], {}).get("m", {}).get(name)
             l5 = latest5.get((g["key"], name)) if g["key"] in pcheck else None
             if pcm is not None and l5 is not None:
                 # the five newest outputs on the university profile, classified from title, abstract and keywords
                 ev = [x["subs"] for x in l5 if x["subs"]]
-                seen = {"__l5__"}
+                seen = {"__l5__"}  # titles are added below, once the profile works are known
             elif pcm is not None:
                 # publication check: only research output on the member's university profile counts
                 pw = pcheck[g["key"]]["w"]
@@ -445,28 +446,29 @@ for g in gcfg["groups"]:
                     k = re.sub(r"\W", "", pw[wi][0].lower())
                     if k in seen: continue
                     seen.add(k); sb = _cls(pw[wi][0])
-                    if sb: ev.append(sb)
+                    if sb: add(sb, pw[wi][0], "o")
             else:
               for r in gres.get((g["key"], name), []):
                 if r["kind"] != "O" or not r["year"].isdigit() or int(r["year"]) < 2021 or SKIP_TYPE.search(r["type"]): continue
                 k = re.sub(r"\W", "", r["title"].lower())
                 if k in seen: continue
                 seen.add(k); sb = _cls(r["title"])
-                if sb: ev.append(sb)
+                if sb: add(sb, r["title"], "a")
             ptitle = members[-1]["project"]
-            if ptitle and _cls(ptitle) and "__l5__" not in seen: ev.append(_cls(ptitle))
+            if ptitle and _cls(ptitle) and "__l5__" not in seen: add(_cls(ptitle), ptitle, "j")
             if pp and pp.get("rp") and pcm is None:
                 for x in pp["rp"]["it"]:
                     k = re.sub(r"\W", "", x[3].lower())
-                    if k not in seen: seen.add(k); ev.append(x[2].split(";"))
+                    if k not in seen: seen.add(k); add(x[2].split(";"), x[3], {"P": "r", "O": "o", "S": "s"}.get(x[0], "o"))
             harvested = any(r["kind"] == "A" and r["path"].strip() != "RATE-LIMITED" for r in gres.get((g["key"], name), []))
-            members[-1].update({"rl": levels_of(ev), "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
+            members[-1].update({"rl": levels_of(ev), "ev": evd, "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
             if pcm is not None:
                 members[-1].update({"nout": pcm["n_profile"], "harv": True, "pc": [pcm["n_profile"], pcm["n_elsewhere"], bool(pcm["slug"])]})
                 if l5:
                     pw = {r[3]: pcheck[g["key"]]["w"][r[0]] for r in pcm["rows"] if len(r) > 3}
                     members[-1]["l5"] = [{"t": pw[x["slug"]][0] if x["slug"] in pw else x["slug"], "d": (pw[x["slug"]][4] if x["slug"] in pw else ""),
                                           "u": f"https://researchprofiles.ku.dk/en/publications/{x['slug']}/", "s": x["subs"], "b": x["basis"]} for x in l5]
+                    members[-1]["ev"] = [[x["s"], x["t"][:160], "l"] for x in members[-1]["l5"] if x["s"]]
                     cnt = {}
                     for x in l5:
                         for k, sb in enumerate(x["subs"]): cnt[sb] = cnt.get(sb, 0) + (2 if k == 0 else 1)
@@ -479,6 +481,10 @@ for g in gcfg["groups"]:
         elif f[0] == "ACT": acts.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
         elif f[0] == "PRIZE": prizes.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
         elif f[0] == "EVENT": events.append({"date": f[1], "title": f[2]})
+    for m in members:
+        pp = pmap.get((g["institution"], nkey(m["name"])))
+        m["courses"] = sorted({(c["institution"], c["code"]): {"i": c["institution"], "c": c["code"], "t": c["title"], "u": c.get("url", ""), "r": c["role"]}
+                               for c in (pp or {}).get("courses", []) if c.get("subs") or c.get("mapped")}.values(), key=lambda c: c["c"])
     bad = [s for s in g["cfqt"] if s not in valid_subs]
     if bad: raise SystemExit(f"Ugyldig CFQT i gruppe {g['key']}: {bad}")
     # tilknyttede kurser: undervisere, der er medlem af gruppen eller hører til gruppens enhed
