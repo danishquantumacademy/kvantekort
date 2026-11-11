@@ -408,6 +408,11 @@ gprof = {}
 for f in sorted((ROOT / "data/groups/profiles").glob("*.tsv")) if (ROOT / "data/groups/profiles").exists() else []:
     for r in csv.DictReader((l for l in f.open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
         gprof[(f.stem, r["member"])] = r
+# DTU PhD projects from DTU Orbit (data/groups/phd/dtu.tsv): shown on the cards of the main supervisor and the PhD student
+phd_dtu = {}
+if (ROOT / "data/groups/phd/dtu.tsv").exists():
+    for r in csv.DictReader((l for l in (ROOT / "data/groups/phd/dtu.tsv").open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
+        phd_dtu.setdefault(r["member"], []).append({"t": r["title"], "u": "https://orbit.dtu.dk/en/projects/" + r["slug"] + "/", "p": r["period"], "r": r["role"], "s": r["student"]})
 gres = {}
 for f in sorted((ROOT / "data/groups/research_outputs").glob("*.tsv")) if (ROOT / "data/groups/research_outputs").exists() else []:
     for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
@@ -427,7 +432,7 @@ for g in gcfg["groups"]:
             gp = gprof.get((g["key"], name), {})
             path = path or gp.get("path", "")
             members.append({"name": name, "role": role, "cat": member_cat(role), "url": (g["portal_base"] + path) if path else "", "about": gp.get("text", ""),
-                            "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]),
+                            "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]), "project_period": per[1] if per else "",
                             "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
             ev, seen, evd = [], set(), []
             add = lambda sb, t, k: (ev.append(sb), evd.append([sb, t[:160], k]))  # evd: evidence shown when a level badge is clicked
@@ -469,6 +474,14 @@ for g in gcfg["groups"]:
                     members[-1]["l5"] = [{"t": pw[x["slug"]][0] if x["slug"] in pw else x["slug"], "d": (pw[x["slug"]][4] if x["slug"] in pw else ""),
                                           "u": f"{g['portal_base']}/en/publications/{x['slug']}/", "s": x["subs"], "b": x["basis"]} for x in l5]
                     members[-1]["ev"] = [[x["s"], x["t"][:160], "l"] for x in members[-1]["l5"] if x["s"]]
+                    if not members[-1]["about"]:
+                        # no research description on the profile: a short line from the classification notes of the five newest outputs
+                        bs = []
+                        for x in l5:
+                            b0 = re.sub(r"\s*\((title only|thesis, title only|tutorial|review|roadmap)\)", "", x["basis"]).strip()
+                            if re.search(r"cover page|^preface|news piece|conference proceedings|questionnaire|cyber security challenge", b0): continue
+                            if b0 and b0.lower() not in [v.lower() for v in bs]: bs.append(b0)
+                        if bs: members[-1].update({"about": "Recent work: " + "; ".join(bs[:3]) + ".", "about_src": "outputs"})
                     cnt = {}
                     for x in l5:
                         for k, sb in enumerate(x["subs"]): cnt[sb] = cnt.get(sb, 0) + (2 if k == 0 else 1)
@@ -481,7 +494,26 @@ for g in gcfg["groups"]:
         elif f[0] == "ACT": acts.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
         elif f[0] == "PRIZE": prizes.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
         elif f[0] == "EVENT": events.append({"date": f[1], "title": f[2]})
+    # SDU: the members' portal projects are grants (the member is PI) -> listed under Grants and prizes, not on the card
+    grants_m = []
+    if g["institution"] == "SDU":
+        seen_g = set()
+        for m in members:
+            if not m["project"]: continue
+            pj = next((x for x in projects if x["title"].lower()[:40] == m["project"].lower()[:40]), None)
+            grants_m.append({"title": m["project"], "url": pj["url"] if pj else "", "text": f"{m['name']} (PI) · {m['project_period']}" + (f" · {pj['funder']}" if pj and pj["funder"] else "")})
+            seen_g.add(m["project"].lower()[:40]); m["project"] = m["project_years"] = ""
+        for x in projects:
+            if x["title"].lower()[:40] not in seen_g and x.get("type", "") != "PhD":
+                grants_m.append({"title": x["title"], "url": x["url"], "text": " · ".join(v for v in ((x["people"] if "(PI)" in x["people"] else f"{x['people']} (PI)") if x["people"] else "", x["period"], x["funder"]) if v)})
+        projects = []
+    # DTU: the members' portal projects are PhD projects -> fold-out list on the card of the main supervisor and the PhD student
+    if g["institution"] == "DTU":
+        for m in members:
+            m["project"] = m["project_years"] = ""
+            m["phd"] = phd_dtu.get(m["name"], [])
     for m in members:
+        m.pop("project_period", None)
         pp = pmap.get((g["institution"], nkey(m["name"])))
         m["courses"] = sorted({(c["institution"], c["code"]): {"i": c["institution"], "c": c["code"], "t": c["title"], "u": c.get("url", ""), "r": c["role"]}
                                for c in (pp or {}).get("courses", []) if c.get("subs") or c.get("mapped")}.values(), key=lambda c: c["c"])
@@ -525,7 +557,7 @@ for g in gcfg["groups"]:
         mc = {}
         for subs in l5g.values(): mc[subs[0]] = mc.get(subs[0], 0) + 1
         gcfqt = sort_subs([sb for sb, n in mc.items() if n >= 2]); gcfqt_n = {sb: mc[sb] for sb in gcfqt}
-    groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": gcfqt, "cfqt_n": gcfqt_n, "cfqt_total": len(l5g) if l5g else None, "members": members, "pubs": pubs, "projects": projects,
+    groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": gcfqt, "cfqt_n": gcfqt_n, "cfqt_total": len(l5g) if l5g else None, "members": members, "pubs": pubs, "projects": projects, "grants_m": grants_m,
                        "press": press, "acts": acts, "prizes": prizes, "static_events": events,
                        "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),
                        "pubcheck": {"read": pcheck[g["key"]]["read"], "latest5": any(k[0] == g["key"] for k in latest5), **pcheck[g["key"]]["sum"]} if g["key"] in pcheck else None,

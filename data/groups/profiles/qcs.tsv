@@ -1,0 +1,5 @@
+# QCS members' university research profiles (https://orbit.dtu.dk), read 11 November 2026.
+# text: a short summary written by Danish Quantum Academy from the research description on the profile (profile text,
+# research interests, keywords); CV and biography sections are not used. Empty when the profile has no description.
+member	path	text
+Michael Galili	/en/persons/michael-galili/	Optical communication and photonic signal processing, now focused on quantum communication: QKD, quantum networks and hybrid quantum-classical communication infrastructure; leads the Quantum Communication Systems group.

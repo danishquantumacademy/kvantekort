@@ -1,0 +1,7 @@
+# QPIT members' university research profiles (https://orbit.dtu.dk), read 11 November 2026.
+# text: a short summary written by Danish Quantum Academy from the research description on the profile (profile text,
+# research interests, keywords); CV and biography sections are not used. Empty when the profile has no description.
+member	path	text
+Ulrik Lund Andersen	/en/persons/ulrik-lund-andersen/	Quantum information technologies and quantum optics: entangled optical states for quantum computing, communication and sensing; heads the quantum information group at DTU Physics.
+Vojtech Kuchar	/en/persons/vojtech-kuchar/	GKP codes and fault-tolerant photonic quantum computing (PhD, QISTgrad).
+Dot Pio	/en/persons/dot-pio/	Non-Gaussian states of light: cavity-QED protocols for travelling Schrödinger-cat and approximate GKP states for continuous-variable quantum error correction.

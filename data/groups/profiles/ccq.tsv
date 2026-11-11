@@ -1,10 +1,10 @@
 # CCQ members' Aarhus University research profiles (pure.au.dk/portal), read 11 November 2026; name-based profile paths only.
-# text: empty (no profile summaries written for this group).
+# text: a short summary written by Danish Quantum Academy from the research description on the profile; CV sections are not used. Empty when the profile has no description.
 member	path	text
-Michael Drewsen	/en/persons/michael-drewsen/	
-Jan Arlt	/en/persons/jan-joachim-arlt/	
+Michael Drewsen	/en/persons/michael-drewsen/	Keywords: ion traps, quantum computers, quantum optics, molecular physics, spectroscopy.
+Jan Arlt	/en/persons/jan-joachim-arlt/	Ultracold atomic gases: fundamental quantum behaviour in few- and many-particle systems.
 Georg Bruun	/en/persons/georg-bruun/	
 Frederik Skifter Tribler	/en/persons/frederik-skifter-langsig-tribler/	
-Victor Rueskov Christiansen	/en/persons/victor-rueskov-christiansen/	
+Victor Rueskov Christiansen	/en/persons/victor-rueskov-christiansen/	Theory of quantum light pulses propagating through networks of quantum components (PhD).
 Maximilian Baron	/en/persons/maximilian-baron/	
 Søren Skovgaard Balling	/en/persons/s%C3%B8ren-skovgaard-balling/	

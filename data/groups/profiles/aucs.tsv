@@ -1,9 +1,9 @@
 # AUCS members' Aarhus University research profiles (pure.au.dk/portal), read 11 November 2026; name-based profile paths only.
-# text: empty (no profile summaries written for this group).
+# text: a short summary written by Danish Quantum Academy from the research description on the profile; CV sections are not used. Empty when the profile has no description.
 member	path	text
-Jaco van de Pol	/en/persons/jaco-van-de-pol/	
+Jaco van de Pol	/en/persons/jaco-van-de-pol/	Keywords: formal methods and verification, algorithms and data structures.
 Peter Scholl	/en/persons/peter-scholl/	
-Diego F. Aranha	/en/persons/diego-f-aranha/	
+Diego F. Aranha	/en/persons/diego-f-aranha/	Cryptography and computer security, especially efficient implementation of cryptographic algorithms and security analysis of real-world systems.
 Sebastian Kolby	/en/persons/sebastian-kolby/	
 Adam Blatchley Hansen	/en/persons/adam-blatchley-hansen/	
 Marius Andre Årdal	/en/persons/marius-andre-%C3%A5rdal/	

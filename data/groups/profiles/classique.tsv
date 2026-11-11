@@ -1,0 +1,12 @@
+# Classique members' university research profiles (https://vbn.aau.dk), read 11 November 2026.
+# text: a short summary written by Danish Quantum Academy from the research description on the profile (profile text,
+# research interests, keywords); CV and biography sections are not used. Empty when the profile has no description.
+member	path	text
+René Bødker Christensen	/en/persons/rene/	Keywords: coding theory, quantum codes, secret sharing.
+Horia Cornean	/en/persons/cornean/	Keywords: mathematical analysis, mathematical physics, applied mathematics.
+Nikolaj Rossander Kristensen	/en/persons/nrk/	Semantics of quantum languages, quantum process algebra, and modelling and verification of quantum circuits and communication (PhD, Classique).
+Marius Mikučionis	/en/persons/marius-miku%C4%8Dionis/	Keywords: formal methods, real-time and embedded systems, timed automata, statistical model checking, UPPAAL.
+Shashi Raj Pandey	/en/persons/srp/	Network economics, game theory, wireless networks, decentralized machine learning, semantic and goal-oriented communication.
+Thomas Garm Pedersen	/en/persons/tgp/	Theoretical solid-state physics: quantum-mechanical models of material properties; works in the Classique centre.
+Jakob Kaltoft Søndergaard	/en/persons/jakobks/	Keywords: quantum communication, quantum networks.
+Rafal Wisniewski	/en/persons/raf/	Keywords: hybrid systems, control theory, geometric models of concurrency.

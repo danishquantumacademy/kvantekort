@@ -1,7 +1,7 @@
 # UDQM members' Aarhus University research profiles (pure.au.dk/portal), read 11 November 2026; name-based profile paths only.
-# text: empty (no profile summaries written for this group).
+# text: a short summary written by Danish Quantum Academy from the research description on the profile; CV sections are not used. Empty when the profile has no description.
 member	path	text
-Simon Elliot Wall	/en/persons/simon-elliot-wall/	
-Maximilian Mattern	/en/persons/maximilian-mattern/	
+Simon Elliot Wall	/en/persons/simon-elliot-wall/	Femtosecond light from THz to hard X-rays, including X-ray lasers, to control and measure quantum materials on their elementary timescales.
+Maximilian Mattern	/en/persons/maximilian-mattern/	Laser-induced phase transitions and ultrafast X-ray diffraction.
 Nikolaj Klinkby	/en/persons/nikolaj-klinkby/	
 Noah Tettenborn	/en/persons/noah-tettenborn/	

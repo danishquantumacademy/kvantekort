@@ -1,0 +1,10 @@
+# QSAS members' university research profiles (https://vbn.aau.dk), read 11 November 2026.
+# text: a short summary written by Danish Quantum Academy from the research description on the profile (profile text,
+# research interests, keywords); CV and biography sections are not used. Empty when the profile has no description.
+member	path	text
+Giorgio Bacci	/en/persons/grbacci/	Keywords: category theory, probabilistic systems, behavioural metrics, process algebra.
+Lukas Holik	/en/persons/lukas-holik/	Formal methods, logic and automata for analysis and verification of computing systems.
+Nikolaj Rossander Kristensen	/en/persons/nrk/	Semantics of quantum languages, quantum process algebra, and modelling and verification of quantum circuits and communication (PhD, Classique).
+Stefano Lambiase	/en/persons/stefano-lambiase/	Empirical software engineering: generative AI in software development, quantum software engineering and video-game software engineering.
+Marius Mikučionis	/en/persons/marius-miku%C4%8Dionis/	Keywords: formal methods, real-time and embedded systems, timed automata, statistical model checking, UPPAAL.
+Marco Antonio Muniz Rodriguez	/en/persons/muniz/	Formal verification and strategy synthesis for stochastic hybrid games, turned into industrial tools; core contributor to UPPAAL and TAPAAL.

@@ -1,13 +1,13 @@
 # AUPHYS members' Aarhus University research profiles (pure.au.dk/portal), read 11 November 2026; name-based profile paths only.
-# text: empty (no profile summaries written for this group).
+# text: a short summary written by Danish Quantum Academy from the research description on the profile; CV sections are not used. Empty when the profile has no description.
 member	path	text
 Nikolaj Thomas Zinner	/en/persons/nikolaj-thomas-zinner/	
-Anne E. B. Nielsen	/en/persons/anne-e-b-nielsen/	
+Anne E. B. Nielsen	/en/persons/anne-e-b-nielsen/	Quantum many-body systems: topological effects such as anyons and chiral edge states, quantum many-body scars, and models on quasicrystals and fractals.
 David Petrosyan	/en/persons/david-petrosyan/	
-Aurelien Romain Dantan	/en/persons/aurelien-romain-dantan/	
-Brian Julsgaard	/en/persons/brian-julsgaard/	
+Aurelien Romain Dantan	/en/persons/aurelien-romain-dantan/	Optomechanics: light interacting with high-quality mechanical nanoresonators for photonics, sensing and quantum technology.
+Brian Julsgaard	/en/persons/brian-julsgaard/	Light-matter interaction, now mainly in semiconductors and materials for radiation detection.
 Hans Fogedby	/en/persons/hans-fogedby/	
 Christian Saugbjerg Lange	/en/persons/christian-saugbjerg-lange/	
 Emre Aslan	/en/persons/emre-aslan/	
-Anton Alnor Christensen	/en/persons/anton-alnor-christensen/	
-William Kjærgaard Jedig	/en/persons/william-kj%C3%A6rgaard-jedig/	
+Anton Alnor Christensen	/en/persons/anton-alnor-christensen/	Quantum computing, quantum machine learning, quantum optics.
+William Kjærgaard Jedig	/en/persons/william-kj%C3%A6rgaard-jedig/	Quantum physics, lasers and ultrafast spectroscopy.

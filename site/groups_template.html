@@ -84,6 +84,7 @@ blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);col
 .mcat{display:grid;gap:8px}
 .mcat h3 small{font:500 12px var(--mono);color:var(--muted);margin-left:6px}
 .mem .ab{font-size:13.5px;line-height:1.45;color:var(--fg)}
+.mem .ab.abo{color:var(--muted,#666);font-size:13px}
 .mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:8px;align-items:start}
 .gtri{width:100%;max-width:110px;height:auto;margin-top:6px}
 .rpgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
@@ -297,17 +298,17 @@ footer p{margin:0;max-width:86ch}
     const srcNote=k=>{const s=src.filter(x=>x.kind===k);if(!s.length)return el('span',{class:'empty'},'No automatic source for this group yet.');const bad=s.filter(x=>!x.ok);return bad.length?el('span',{class:'empty'},'Last automatic check could not read: '+bad.map(x=>new URL(x.url).host).join(', ')):null};
     box.append(el('div',{class:'panels'},
       panel('News',news,item,'No news found on the group’s website or in the portal.',srcNote('news'),5),
-      panel('Grants and prizes',[...grants,...g.projects.filter(p=>p.funder&&p.type!=='PhD').map(p=>({date:'',title:p.title,url:p.url,text:`${p.funder} · ${p.period}`}))],item,'No grant announcements found in the sources.',null,5),
+      panel('Grants and prizes',[...grants,...(g.grants_m||[]),...g.projects.filter(p=>p.funder&&p.type!=='PhD').map(p=>({date:'',title:p.title,url:p.url,text:`${p.funder} · ${p.period}`}))],item,'No grant announcements found in the sources.',null,5),
       panel('Events',[...up.map(e=>({...e,up:1})),...past],x=>{const n=item(x);if(x.up)n.querySelector('.d').append(el('span',{class:'tag up'},'upcoming'));return n},'No events found.',srcNote('events'),5),
       panel('Open positions',(F.jobs||[]).filter(j=>!j.deadline||j.deadline>=today),item,'No open positions announced on the group’s pages right now.',el('a',{href:g.jobs_all||g.jobs_url,target:'_blank',rel:'noopener',style:'font-size:13px'},`All vacancies at ${g.institution} ↗`))));
     // publications + projects
     box.append(el('div',{class:'panels'},
       panel('Latest publications',[...g.pubs,...(F.outputs||[]).filter(o=>!g.pubs.some(p=>p.title===o.title)).slice(0,4).map(o=>({title:o.title,url:o.url,cite:fmt(o.date)}))].slice(0,8),x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'t'},x.cite)),'No publications listed.'),
-      panel('Projects in the research portal',g.projects,x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'d'},[x.type,x.period,x.funder].filter(Boolean).join(' · ')),el('span',{class:'t'},x.people)),'The research portal lists no projects for this unit.')));
+      g.institution==='SDU'?null:panel('Projects in the research portal',g.projects,x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'d'},[x.type,x.period,x.funder].filter(Boolean).join(' · ')),el('span',{class:'t'},x.people)),'The research portal lists no projects for this unit.')));
     // members
     ms=el('section',{},el('h3',{},`Members (${g.members.length})`));
     const q=el('input',{type:'search',placeholder:'Search members, projects or topics','aria-label':'Search members'});
-    ms.append(el('div',{class:'mtools'},q,el('span',{class:'note'},'Current project from the portal, or else the most recent research output.')));
+    ms.append(el('div',{class:'mtools'},q,el('span',{class:'note'},'Latest research output on the university profile, current project and, at DTU, PhD projects as main supervisor or PhD student.')));
     const lvbar=el('div',{});ms.append(lvbar);
     const mbox=el('div',{style:'display:grid;gap:16px'});ms.append(mbox);
     drawM=()=>{mbox.innerHTML='';lvbar.innerHTML='';const t=q.value.trim().toLowerCase();
@@ -322,11 +323,13 @@ footer p{margin:0;max-width:86ch}
           const whyBox=el('div',{});
           grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,...lvButtons(m,whyBox)),whyBox,
             el('span',{class:'r'},m.role||'Position not stated'),
-            m.about?el('span',{class:'ab',title:'Summary of the research description on the member’s university profile'},m.about):null,
-            m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):(m.l5&&m.l5.length?el('span',{class:'p'},el('em',{},'Latest publication: '),link(m.l5[0].u,m.l5[0].t),` (${(m.l5[0].d||'').slice(0,4)})`):m.output&&res?el('span',{class:'p'},el('em',{},'Latest publication: '),m.output):null),
+            m.about?el('span',{class:'ab'+(m.about_src==='outputs'?' abo':''),title:m.about_src==='outputs'?'The profile has no research description; this line sums up the member’s five newest research outputs on the profile':'Summary of the research description on the member’s university profile'},m.about):null,
+            m.l5&&m.l5.length?el('span',{class:'p'},el('em',{},'Latest publication: '),link(m.l5[0].u,m.l5[0].t),` (${(m.l5[0].d||'').slice(0,4)})`):m.output&&res?el('span',{class:'p'},el('em',{},'Latest publication: '),m.output):null,
+            m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):null,
             m.pc&&res?el('span',{class:'pc',title:'Research output since 2021: on the university research profile / found only in ORCID, OpenAlex or arXiv'},m.pc[2]?`${m.pc[0]} on university profile`:'No university profile found',m.pc[1]?el('span',{class:'pe'},` · ${m.pc[1]} not on profile`):null):null,
             m.subs.length?el('div',{class:'chips'},...m.subs.map(s=>el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`,title:subName(s)},s))):null,
-            m.l5&&m.l5.length>(m.project?0:1)?el('details',{class:'l5'},el('summary',{},m.project?`${m.l5.length} newest outputs behind the levels`:`The other ${m.l5.length-1} of the ${m.l5.length} newest outputs behind the levels`),...m.l5.slice(m.project?0:1).map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[(x.d&&x.d.length===7?fmt(x.d+'-01').replace(/^1 /,''):fmt(x.d))||'',x.s.length?x.s.join(' · '):'outside the content map'].filter(Boolean).join(' — '),' · ',el('em',{},x.b))))):null,
+            m.l5&&m.l5.length>1?el('details',{class:'l5'},el('summary',{},`The other ${m.l5.length-1} of the ${m.l5.length} newest outputs behind the levels`),...m.l5.slice(1).map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[(x.d&&x.d.length===7?fmt(x.d+'-01').replace(/^1 /,''):fmt(x.d))||'',x.s.length?x.s.join(' · '):'outside the content map'].filter(Boolean).join(' — '),' · ',el('em',{},x.b))))):null,
+            m.phd&&m.phd.length?el('details',{class:'l5 phd'},el('summary',{},(()=>{const sv=m.phd.filter(x=>x.r!=='PhD Student').length,own=m.phd.length-sv;return [own?'PhD project':'',sv?`${sv} PhD project${sv===1?'':'s'} as main supervisor`:''].filter(Boolean).join(' · ')})()),...m.phd.map(x=>el('div',{class:'l5i'},link(x.u,x.t),el('span',{class:'l5m'},[x.r==='PhD Student'?'Own PhD project':`PhD student: ${x.s}`,x.p].filter(Boolean).join(' · '))))):null,
             m.teacher?el('div',{class:'edu'},el('span',{class:'tb',title:'Teaches a course on this map'},'educator'),...(m.courses||[]).map(c=>el('a',{class:'cc',href:c.u||'#',target:'_blank',rel:'noopener',title:`${c.t} (${c.i}) – ${c.r.toLowerCase()}`},c.c))):null))});
         mbox.append(el('div',{class:'mcat'},el('h3',{},c,el('small',{},String(list.length))),grid))})};
     q.addEventListener('input',drawM);drawM();box.append(ms);
