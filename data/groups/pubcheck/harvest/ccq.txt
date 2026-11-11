@@ -1,0 +1,38 @@
+# ccq, compact harvest 11 November 2026 (AU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Michael Drewsen|~michael-drewsen/|0000-0002-0420-9923||0
+#N|6|1
+p|wk68tf|2026-08-05|J|=|||Ion Coulomb crystals: An exotic form of condensed matter
+p|15hwmpi|2026|J|rotational-state-changes-in-collisions-of-diatomic-molecular-ions|||Rotational state changes in collisions of diatomic molecular ions with atomic ions
+p|1bv3hq4|2025-12|J|effects-of-the-delocalized-charge-distribution-in-trapped-ion-ato|||Effects of the delocalized charge distribution in trapped ion-atom collisions
+p|1nx6gau|2023-11-23|P|testing-continuous-spontaneous-localization-model-with-charged-ma|||Testing Continuous Spontaneous Localization model with charged macro-molecules
+p|3aphfs|2022-10-07|J|=|||Mediated interactions between ions in quantum degenerate gases
+#M|Jan Arlt|~jan-joachim-arlt/|0000-0002-5782-3927||0
+#N|21|2
+p|13rxf0b|2026-09-02|J|polarons-in-atomic-gases-and-two-dimensional-semiconductors-2|||Polarons in atomic gases and two-dimensional semiconductors
+p|1r186ec|2026-05-14|J|cloud-parameter-estimation-for-interacting-bec-after-time-of-flig|||Cloud parameter estimation for interacting BEC after time-of-flight
+p|17i4iac|2026|P|observation-of-low-lying-impurity-states-in-bose-einstein-condens|||Observation of low-lying impurity states in Bose-Einstein condensates
+p|h36ql2|2026|P|optical-spectroscopy-of-bose-einstein-condensates-at-finite-tempe|||Optical spectroscopy of Bose-Einstein condensates at finite temperature
+p|m78os7|2026|P|=|||Scissors modes in generalized Gross-Pitaevskii equations
+#M|Georg Bruun|~georg-bruun/|||0
+#N|43|0
+p|13rxf0b|2026-09-02|J|polarons-in-atomic-gases-and-two-dimensional-semiconductors-2|||Polarons in atomic gases and two-dimensional semiconductors
+p|1gfmzdr|2026-06|J|few-is-different-deciphering-many-body-dynamics-in-mesoscopic-qua|||Few is different: deciphering many-body dynamics in mesoscopic quantum gases
+p|1mol5k8|2026-01|L|=|||Phenomenological model of decaying Bose polarons
+p|1dwsc9g|2026|J|exciton-interacting-with-the-phonons-of-an-electronic-wigner-crys|||Exciton interacting with the phonons of an electronic Wigner crystal
+p|17i4iac|2026|P|observation-of-low-lying-impurity-states-in-bose-einstein-condens|||Observation of low-lying impurity states in Bose-Einstein condensates
+#M|Frederik Skifter Tribler|~frederik-skifter-langsig-tribler/|||0
+#N|0|0
+#M|Victor Rueskov Christiansen|~victor-rueskov-christiansen/|0000-0003-1370-4341||0
+#N|7|0
+p|e6qotr|2026-07-31|J|composing-photons-in-time-multimode-nonlinear-interactions-in-qua|||Composing Photons in Time: Multimode Nonlinear Interactions in Quantum Networks with Te...
+p|1lku7pe|2026-06-25|J|phase-space-open-system-dynamics-of-second-order-nonlinear-intera|||Phase-space open-system dynamics of second-order nonlinear interactions with pulsed qua...
+p|1mcod76|2026-01-20|J|=|||Interactions in quantum networks with pulse propagation delays
+p|1c25e6f|2024-11|J|parametric-amplification-of-a-quantum-pulse-2|||Parametric amplification of a quantum pulse
+p|r4zi84|2024-09|J|subtraction-and-addition-of-propagating-photons-by-two-level-emit-2|||Subtraction and Addition of Propagating Photons by Two-Level Emitters
+#M|Maximilian Baron|~maximilian-baron/|0000-0002-0155-4158||0
+#N|0|1
+#M|Søren Skovgaard Balling|~s%C3%B8ren-skovgaard-balling/|||0
+#N|3|0
+p|17i4iac|2026|P|observation-of-low-lying-impurity-states-in-bose-einstein-condens|||Observation of low-lying impurity states in Bose-Einstein condensates
+p|1abxdoe|2025-06-24|J|three-body-physics-in-the-impurity-limit-of-39k-bose-einstein-con|||Three-body Physics in the Impurity Limit of 39K Bose-Einstein Condensates
+p|10ca3g5|2025-04|J|quantum-beat-spectroscopy-of-repulsive-bose-polarons-3|||Quantum beat spectroscopy of repulsive Bose polarons

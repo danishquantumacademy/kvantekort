@@ -1,0 +1,9 @@
+# qmg members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Jill Miwa|jill-miwa||
+p 1qk04xh 2026-12 discovery-of-magnetic-field-tunable-density-modulations-and-spin-
+p teg4tm 2026-11-04 termination-dependent-surface-fermiology-in-the-intercalated-alte
+p 6n8mt0 2026-09-01 micro-and-nanoscale-focusing-across-the-extreme-ultraviolet-range
+p skb93q 2026-04-13 =
+p 1fb4922 2026-03-27 uncovering-surface-states-of-the-dirac-semimetal-bamgsub2subbisub

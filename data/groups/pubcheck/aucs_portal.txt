@@ -1,0 +1,45 @@
+# aucs members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Jaco van de Pol|jaco-van-de-pol|0000-0003-4305-0625|
+p 1vhtc1z 2027-07-02 random-generation-ofsmall-quantitative-automata-foralgorithm-debu
+p 733j04 2026-06-02 =
+p 1xcwy8v 2026 =
+p a9jis0 2025-10-02 controller-synthesis-forparametric-timed-games
+p nptdi 2025-08-18 =
+#Peter Scholl|peter-scholl|0000-0002-7937-8422|
+p wm5yo5 2026 =
+p 1t74dva 2026 =
+p 1mybgm1 2026 =
+p 1t7i8ki 2026 privately-constrained-prfs-fromdcr-puncturing-andbounded-waring-r
+p pvfgzw 2025-11 post-quantum-threshold-ring-signature-applications-from-vole-in-t
+#Diego F. Aranha|diego-f-aranha|0000-0002-2457-0783|
+p 8akh8d 2026-10 filtrumvote-scalable-verifiable-and-coercion-resistant-internet-v-2
+p 1wro099 2026-09 sqisign-30-algorithm-specifications-and-supporting-documentation
+p 1jlj699 2026-06-04 line-break-cryptanalysis-and-reverse-engineering-of-letter-sealin
+p ymr1xk 2026-04-27 =
+p 1ga7g4p 2026-01 better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths
+#Sebastian Kolby|sebastian-kolby|0009-0005-3228-7194|
+p xulfpp 2026 =
+p 14w49gq 2026 modulus-operandi-round-optimal-modulus-conversion-for-mpc-and-thr
+p pvfgzw 2025-11 post-quantum-threshold-ring-signature-applications-from-vole-in-t
+p rg71k8 2025-09-08 =
+p es8vmi 2024-08 =
+#Adam Blatchley Hansen|adam-blatchley-hansen||
+p 1jlj699 2026-06-04 line-break-cryptanalysis-and-reverse-engineering-of-letter-sealin
+p wm5yo5 2026 =
+p 1ty8vjy 2025 =
+p 12uk7o4 2023 winning-the-european-cyber-security-challenge-2022-what-did-we-le
+#Marius Andre Årdal|marius-andre-%C3%A5rdal|0009-0003-0674-6460|
+p 1wro099 2026-09 sqisign-30-algorithm-specifications-and-supporting-documentation
+p 1fxl8hw 2026-05-26 the-algebraic-isogeny-model-a-general-model-with-applications-to-
+p 1ga7g4p 2026-01 better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths
+p oypltu 2025-12-09 optimized-one-dimensional-sqisign-verification-on-intel-and-corte
+p 1u1od82 2025-09-11 =
+#Adam Husted Kjelstrøm|adam-husted-kjelstr%C3%B8m||
+p 1xcwy8v 2026 =
+p 1hse70d 2025-01 =
+p ybkxtx 2022-01 the-decidability-and-complexity-of-interleaved-bidirected-dyck-re
+p y8q004 2021-10 tight-bounds-for-reachability-problems-on-one-counter-and-pushdow
+#Jens Emil Christensen|jens-emil-christensen||
+p 1fu7a6j 2025-06-22 on-exact-sizes-ofminimal-cnot-circuits

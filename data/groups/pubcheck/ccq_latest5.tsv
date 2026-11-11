@@ -1,0 +1,27 @@
+# The five newest research outputs on each ccq member's Aarhus University research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Michael Drewsen	ion-coulomb-crystals-an-exotic-form-of-condensed-matter	4.3;2.1	ion Coulomb crystals of laser-cooled trapped ions
+Michael Drewsen	rotational-state-changes-in-collisions-of-diatomic-molecular-ions	2.1	rotational state changes in molecular ion-atom collisions
+Michael Drewsen	effects-of-the-delocalized-charge-distribution-in-trapped-ion-ato	2.1;4.3	trapped ion-atom collisions
+Michael Drewsen	testing-continuous-spontaneous-localization-model-with-charged-ma	1.1;6.7	testing collapse models of quantum mechanics with charged macromolecules
+Michael Drewsen	mediated-interactions-between-ions-in-quantum-degenerate-gases	2.4;2.1	ion interactions mediated by quantum degenerate gases
+Jan Arlt	polarons-in-atomic-gases-and-two-dimensional-semiconductors-2	2.4	polarons in atomic gases and 2D semiconductors (review)
+Jan Arlt	cloud-parameter-estimation-for-interacting-bec-after-time-of-flig	2.1;2.4	parameter estimation for interacting Bose-Einstein condensates
+Jan Arlt	observation-of-low-lying-impurity-states-in-bose-einstein-condens	2.4;2.1	impurity states in Bose-Einstein condensates (title only)
+Jan Arlt	optical-spectroscopy-of-bose-einstein-condensates-at-finite-tempe	2.1;2.4	optical spectroscopy of finite-temperature Bose-Einstein condensates (title only)
+Jan Arlt	scissors-modes-in-generalized-gross-pitaevskii-equations	2.4;2.1	scissors modes in generalized Gross-Pitaevskii equations (title only)
+Georg Bruun	polarons-in-atomic-gases-and-two-dimensional-semiconductors-2	2.4	polarons in atomic gases and 2D semiconductors (review)
+Georg Bruun	few-is-different-deciphering-many-body-dynamics-in-mesoscopic-qua	2.4;2.1	many-body dynamics in mesoscopic quantum gases
+Georg Bruun	phenomenological-model-of-decaying-bose-polarons	2.4	decaying Bose polarons
+Georg Bruun	exciton-interacting-with-the-phonons-of-an-electronic-wigner-crys	2.4;2.3	excitons interacting with phonons of a Wigner crystal
+Georg Bruun	observation-of-low-lying-impurity-states-in-bose-einstein-condens	2.4;2.1	impurity states in Bose-Einstein condensates (title only)
+Victor Rueskov Christiansen	composing-photons-in-time-multimode-nonlinear-interactions-in-qua	2.2;7.5	multimode nonlinear interactions of quantum light pulses in networks (title only)
+Victor Rueskov Christiansen	phase-space-open-system-dynamics-of-second-order-nonlinear-intera	2.2;2.4	open-system dynamics of pulsed quantum light in nonlinear interactions
+Victor Rueskov Christiansen	interactions-in-quantum-networks-with-pulse-propagation-delays	7.5;2.2	quantum networks with pulse propagation delays
+Victor Rueskov Christiansen	parametric-amplification-of-a-quantum-pulse-2	2.2	parametric amplification of a quantum pulse
+Victor Rueskov Christiansen	subtraction-and-addition-of-propagating-photons-by-two-level-emit-2	2.2;4.4	photon subtraction and addition with two-level emitters
+Søren Skovgaard Balling	observation-of-low-lying-impurity-states-in-bose-einstein-condens	2.4;2.1	impurity states in Bose-Einstein condensates (title only)
+Søren Skovgaard Balling	three-body-physics-in-the-impurity-limit-of-39k-bose-einstein-con	2.1;2.4	three-body physics with impurities in Bose-Einstein condensates
+Søren Skovgaard Balling	quantum-beat-spectroscopy-of-repulsive-bose-polarons-3	2.4;2.1	quantum beat spectroscopy of Bose polarons

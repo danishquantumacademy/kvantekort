@@ -1,0 +1,53 @@
+# auphys, compact harvest 11 November 2026 (AU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Nikolaj Thomas Zinner|~nikolaj-thomas-zinner/|0000-0002-5972-9790||0
+#N|30|1
+p|3j0fse|2026-01-13|J|fault-tolerant-quantum-computations-of-vibrational-wave-functions|||Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+p|1luxai9|2025-12|J|digital-simulation-of-zero-temperature-spontaneous-symmetry-break|||Digital simulation of zero-temperature spontaneous symmetry breaking in a superconducti...
+p|3xkurt|2025-10-31|J|taming-quantum-systems-a-tutorial-for-using-shortcuts-to-adiabati|||Taming Quantum Systems: A Tutorial for Using Shortcuts-To-Adiabaticity, Quantum Optimal...
+p|xkbcrl|2025-08-02|J|=|||In-situ training in programmable photonic frequency circuits
+p|18ff9bo|2025-04-08|J|calculating-the-energy-profile-of-an-enzymatic-reaction-on-a-quan|||Calculating the Energy Profile of an Enzymatic Reaction on a Quantum Computer
+#M|Anne E. B. Nielsen|~anne-e-b-nielsen/|||0
+#N|26|0
+p|1ddj069|2026-02|J|experimental-protocol-for-observing-single-quantum-many-body-scar-2|||Experimental protocol for observing single quantum many-body scars with transmon qubits
+p|b9qp76|2026-01|J|identification-and-properties-of-topological-states-in-the-bulk-o|||Identification and properties of topological states in the bulk of quasicrystals
+p|dtmdc6|2025-04-01|J|probing-hilbert-space-fragmentation-with-strongly-interacting-ryd-2|||Probing Hilbert space fragmentation with strongly interacting Rydberg atoms
+p|1uadfkf|2024-10-01|L|=|||Phase transitions in quantum many-body scars
+p|we64ls|2024-08|J|=|||Hilbert space fragmentation from lattice geometry
+#M|David Petrosyan|~david-petrosyan/|0000-0002-9256-1096||0
+#N|2|22
+p|1jbhn2n|2022-12|J|microscopic-dynamics-and-an-effective-landau-zener-transition-in-|||Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic pre...
+p|1xnufyu|2021-02|J|collective-emission-of-photons-from-dense-dipole-dipole-interacti|||Collective emission of photons from dense, dipole-dipole interacting atomic ensembles
+#M|Aurelien Romain Dantan|~aurelien-romain-dantan/|||0
+#N|18|0
+p|lho8un|2026-11|J|=|||Cavity optomechanics with a suspended resonant mirror
+p|q78xfa|2026-03-01|J|dynamical-measurement-of-saturation-vapor-pressures-below-and-abo-2|||Dynamical measurement of saturation vapor pressures below and above room temperature
+p|48ra38|2026|P|single-run-determination-of-the-saturation-vapor-pressure-and-ent|||Single-run determination of the saturation vapor pressure and enthalpy of sublimation/v...
+p|1t693dy|2025-11-15|J|=|||Optical microcavity with a pair of suspended resonant mirrors
+p|1jw9s8g|2025-02-25|J|absolute-saturation-vapor-pressures-of-three-fatty-acid-methyl-es|||Absolute Saturation Vapor Pressures of Three Fatty Acid Methyl Esters around Room Tempe...
+#M|Brian Julsgaard|~brian-julsgaard/|0000-0003-3082-1910||0
+#N|24|2
+p|1s3gyw0|2026-04-09|J|two-and-three-photon-absorption-in-silicon-for-above-band-gap-pho|||Two- and three-photon absorption in silicon for above-band-gap photon energies
+p|1u7b1hh|2025-12|J|nonlinear-quenching-of-excitonic-emission-from-nanoplatelet-films|||Nonlinear quenching of excitonic emission from nanoplatelet films at high excitation de...
+p|1nmk506|2025-09-14|J|luminescence-properties-of-gesn-laser-materials-influence-of-buff|||Luminescence properties of GeSn laser materials: Influence of buffered substrates
+p|3ly9o7|2025-03-04|J|a-tissue-equivalent-reusable-dosimeter-for-3d-verification-of-rad|||A Tissue-Equivalent, Reusable Dosimeter for 3D Verification of Radiotherapy
+p|1xesg4s|2024-04|L|carrier-transport-after-ultrashort-pulse-laser-excitation-in-diel-2|||Carrier transport after ultrashort-pulse laser excitation in dielectric materials leads...
+#M|Hans Fogedby|~hans-fogedby/|||0
+#N|4|0
+p|f35utm|2026-10|J|=|||On the Redfield and Lindblad master equations
+p|u4lblv|2024-07|J|=|||Heat currents in qubit systems
+p|610ao3|2022-08|J|field-theoretical-approach-to-open-quantum-systems-and-the-lindbl|||Field-theoretical approach to open quantum systems and the Lindblad equation
+p|53q71t|2021-04|J|=|||Aspects of the disordered harmonic chain
+#M|Christian Saugbjerg Lange|~christian-saugbjerg-lange/|0009-0007-8698-8919||0
+#N|8|1
+p|6rb095|2026-06-09|J|limitations-of-an-approximative-phase-space-description-in-strong|||Limitations of an approximative phase-space description in strong-field quantum optics
+p|kcnwls|2026-05-22|J|high-order-harmonic-generation-with-beyond-semiclassical-emitter-|||High-order harmonic generation with beyond-semiclassical emitter dynamics: A strong-fie...
+p|1ailpzp|2025-10-05|J|echoes-of-correlations-quantum-optical-high-order-harmonic-genera|||Echoes of correlations: Quantum-Optical High-Order Harmonic Generation From Strongly Co...
+p|noy8f8|2025-07-25|L|excitonic-enhancement-of-squeezed-light-in-quantum-optical-high-h|||Excitonic Enhancement of Squeezed Light in Quantum-Optical High-Harmonic Generation fro...
+p|1654jb0|2025-06|J|high-order-harmonic-generation-in-a-crystal-driven-by-quantum-lig|||High-order harmonic generation in a crystal driven by quantum light
+#M|Emre Aslan|~emre-aslan/|||0
+#N|1|0
+p|a9dskn|2026|R|national-quantum-strategies-a-data-driven-approach-to-understandi|||National Quantum Strategies: A Data-Driven Approach to Understanding the Quantum Ecosystem
+#M|Anton Alnor Christensen|~anton-alnor-christensen/|0000-0003-1444-756X||0
+#N|0|1
+#M|William Kjærgaard Jedig|~william-kj%C3%A6rgaard-jedig/|||0
+#N|0|0

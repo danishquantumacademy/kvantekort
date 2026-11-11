@@ -1,0 +1,29 @@
+W
+Ion Coulomb crystals: An exotic form of condensed matter 2026 J 0
+Rotational state changes in collisions of diatomic molecular ions with atomic ions 2026 J 0
+Effects of the delocalized charge distribution in trapped ion-atom collisions 2025 J 0
+Testing Continuous Spontaneous Localization model with charged macro-molecules 2023 P 0
+Mediated interactions between ions in quantum degenerate gases 2022 J 0
+Polarons in atomic gases and two-dimensional semiconductors 2026 J 0
+Cloud parameter estimation for interacting BEC after time-of-flight 2026 J 0
+Observation of low-lying impurity states in Bose-Einstein condensates 2026 P 0
+Optical spectroscopy of Bose-Einstein condensates at finite temperature 2026 P 0
+Scissors modes in generalized Gross-Pitaevskii equations 2026 P 0
+Few is different: deciphering many-body dynamics in mesoscopic quantum gases 2026 J 0
+Phenomenological model of decaying Bose polarons 2026 L 0
+Exciton interacting with the phonons of an electronic Wigner crystal 2026 J 0
+Composing Photons in Time: Multimode Nonlinear Interactions in Quantum Networks with Te... 2026 J 0
+Phase-space open-system dynamics of second-order nonlinear interactions with pulsed qua... 2026 J 0
+Interactions in quantum networks with pulse propagation delays 2026 J 0
+Parametric amplification of a quantum pulse 2024 J 0
+Subtraction and Addition of Propagating Photons by Two-Level Emitters 2024 J 0
+Three-body Physics in the Impurity Limit of 39K Bose-Einstein Condensates 2025 J 0
+Quantum beat spectroscopy of repulsive Bose polarons 2025 J 0
+P
+Michael Drewsen|michael-drewsen|0000-0002-0420-9923|p||0|0|0p,1p,2p,3p,4p|6/1
+Jan Arlt|jan-joachim-arlt|0000-0002-5782-3927|p||0|0|5p,6p,7p,8p,9p|21/2
+Georg Bruun|georg-bruun||||0|0|5p,10p,11p,12p,7p|43/0
+Frederik Skifter Tribler|frederik-skifter-langsig-tribler||||0|0||0/0
+Victor Rueskov Christiansen|victor-rueskov-christiansen|0000-0003-1370-4341|p||0|0|13p,14p,15p,16p,17p|7/0
+Maximilian Baron|maximilian-baron|0000-0002-0155-4158|p||0|0||0/1
+Søren Skovgaard Balling|s%C3%B8ren-skovgaard-balling||||0|0|7p,18p,19p|3/0

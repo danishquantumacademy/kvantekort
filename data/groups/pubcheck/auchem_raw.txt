@@ -1,0 +1,16 @@
+W
+Forty Years of Response Function Theory 2026 J 0
+Fault-Tolerant Quantum Computations of Vibrational Wave Functions 2026 J 0
+Recursive Linear Tensor Expansion with Natural Occupation Analysis 2025 J 0
+A Subsystem Perspective on Vibrational Coupled Cluster Response Theory 2025 J 0
+Local Bond-Stretch Coordinates for Anharmonic Vibrational Computations 2025 J 0
+Unitary vibrational coupled cluster: General theory and implementation 2025 J 0
+Optimizing the number of measurements for vibrational structure on quantum computers: c... 2023 J 0
+Dynamical quantum phase transitions in a noisy lattice gauge theory 2022 J 0
+Time-dependent Bivariational Principle: Theoretical Foundation for Real-Time Propagatio... 2025 J 0
+Time-Dependent Vibrational Coupled Cluster Theory With Static and Dynamic Basis Functions 2025 J 0
+A bivariational, stable, and convergent hierarchy for time-dependent coupled cluster wi... 2024 J 0
+P
+Ove Christiansen|ove-christiansen|0000-0001-9215-571X|p||0|0|0p,1p,2p,3p,4p|26/0
+Rasmus Berg Jensen|rasmus-berg-jensen|0000-0002-6607-9001|p||0|0|1p,5p,6p,7p|4/1
+Mads Greisen Højlund|mads-greisen-h%C3%B8jlund|0000-0001-8919-3918|p||0|0|2p,4p,8p,9p,10p|11/1

@@ -509,7 +509,7 @@
    "kind": "VILLUM Investigator centre",
    "website": "https://phys.au.dk/forskning/forskningsomraader/faststof-og-materialefysik/yong-chen/villum-center-for-hqmd",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [
     "Villum Center for Hybrid Quantum Materials and Devices"
    ],
@@ -547,7 +547,7 @@
    "kind": "Research group",
    "website": "https://www.quantummaterialsgroup.com/",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [
     "Quantum Materials Group"
    ],
@@ -585,7 +585,7 @@
    "kind": "Research group",
    "website": "https://phys.au.dk/forskning/forskningscentre-og-grupper/ultrafast-dynamics-of-quantum-materials",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [
     "Ultrafast Dynamics of Quantum Materials"
    ],
@@ -621,7 +621,7 @@
    "kind": "Department – researchers outside groups",
    "website": "https://phys.au.dk/en/",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [],
    "quote": "",
    "summary": "Quantum researchers at AU's Department of Physics and Astronomy who are not part of CCQ, HQMD, the Quantum Materials Group or the ultrafast group. They are listed under their department, not as a group. Topics include quantum computing theory and quantum algorithms for chemistry, quantum many-body physics with transmon qubits, Rydberg atoms, cavity optomechanics, spin ensembles, open quantum systems and national quantum strategies.",
@@ -653,7 +653,7 @@
    "kind": "Department – researchers outside groups",
    "website": "https://chem.au.dk/en/",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [],
    "quote": "",
    "summary": "Quantum chemists at AU's Department of Chemistry working on quantum computing for chemistry, listed under their department. They develop vibrational coupled cluster methods and fault-tolerant quantum algorithms for molecular vibrational wave functions, together with the Department of Physics and Astronomy.",
@@ -679,7 +679,7 @@
    "kind": "Department – researchers outside groups",
    "website": "https://cs.au.dk/",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [],
    "quote": "",
    "summary": "Researchers at AU's Department of Computer Science working on quantum and post-quantum topics, listed under their department. They include cryptographers designing post-quantum protocols and studying isogenies, researchers on simulation and minimal size of quantum circuits, and quantum information theory.",
@@ -707,7 +707,7 @@
    "kind": "Department – researchers outside groups",
    "website": "https://math.au.dk/en/",
    "portal": "",
-   "portal_base": "",
+   "portal_base": "https://pure.au.dk/portal",
    "teacher_units": [],
    "quote": "",
    "summary": "Mathematical physics of quantum systems at AU's Department of Mathematics, listed under the department.",

@@ -1,0 +1,45 @@
+# auphys members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Nikolaj Thomas Zinner|nikolaj-thomas-zinner|0000-0002-5972-9790|
+p 3j0fse 2026-01-13 fault-tolerant-quantum-computations-of-vibrational-wave-functions
+p 1luxai9 2025-12 digital-simulation-of-zero-temperature-spontaneous-symmetry-break
+p 3xkurt 2025-10-31 taming-quantum-systems-a-tutorial-for-using-shortcuts-to-adiabati
+p xkbcrl 2025-08-02 =
+p 18ff9bo 2025-04-08 calculating-the-energy-profile-of-an-enzymatic-reaction-on-a-quan
+#Anne E. B. Nielsen|anne-e-b-nielsen||
+p 1ddj069 2026-02 experimental-protocol-for-observing-single-quantum-many-body-scar-2
+p b9qp76 2026-01 identification-and-properties-of-topological-states-in-the-bulk-o
+p dtmdc6 2025-04-01 probing-hilbert-space-fragmentation-with-strongly-interacting-ryd-2
+p 1uadfkf 2024-10-01 =
+p we64ls 2024-08 =
+#David Petrosyan|david-petrosyan|0000-0002-9256-1096|
+p 1jbhn2n 2022-12 microscopic-dynamics-and-an-effective-landau-zener-transition-in-
+p 1xnufyu 2021-02 collective-emission-of-photons-from-dense-dipole-dipole-interacti
+#Aurelien Romain Dantan|aurelien-romain-dantan||
+p lho8un 2026-11 =
+p q78xfa 2026-03-01 dynamical-measurement-of-saturation-vapor-pressures-below-and-abo-2
+p 48ra38 2026 single-run-determination-of-the-saturation-vapor-pressure-and-ent
+p 1t693dy 2025-11-15 =
+p 1jw9s8g 2025-02-25 absolute-saturation-vapor-pressures-of-three-fatty-acid-methyl-es
+#Brian Julsgaard|brian-julsgaard|0000-0003-3082-1910|
+p 1s3gyw0 2026-04-09 two-and-three-photon-absorption-in-silicon-for-above-band-gap-pho
+p 1u7b1hh 2025-12 nonlinear-quenching-of-excitonic-emission-from-nanoplatelet-films
+p 1nmk506 2025-09-14 luminescence-properties-of-gesn-laser-materials-influence-of-buff
+p 3ly9o7 2025-03-04 a-tissue-equivalent-reusable-dosimeter-for-3d-verification-of-rad
+p 1xesg4s 2024-04 carrier-transport-after-ultrashort-pulse-laser-excitation-in-diel-2
+#Hans Fogedby|hans-fogedby||
+p f35utm 2026-10 =
+p u4lblv 2024-07 =
+p 610ao3 2022-08 field-theoretical-approach-to-open-quantum-systems-and-the-lindbl
+p 53q71t 2021-04 =
+#Christian Saugbjerg Lange|christian-saugbjerg-lange|0009-0007-8698-8919|
+p 6rb095 2026-06-09 limitations-of-an-approximative-phase-space-description-in-strong
+p kcnwls 2026-05-22 high-order-harmonic-generation-with-beyond-semiclassical-emitter-
+p 1ailpzp 2025-10-05 echoes-of-correlations-quantum-optical-high-order-harmonic-genera
+p noy8f8 2025-07-25 excitonic-enhancement-of-squeezed-light-in-quantum-optical-high-h
+p 1654jb0 2025-06 high-order-harmonic-generation-in-a-crystal-driven-by-quantum-lig
+#Emre Aslan|emre-aslan||
+p a9dskn 2026 national-quantum-strategies-a-data-driven-approach-to-understandi
+#Anton Alnor Christensen|anton-alnor-christensen|0000-0003-1444-756X|
+#William Kjærgaard Jedig|william-kj%C3%A6rgaard-jedig||

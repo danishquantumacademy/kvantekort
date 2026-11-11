@@ -1,0 +1,18 @@
+# The five newest research outputs on each auchem member's Aarhus University research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Ove Christiansen	forty-years-of-response-function-theory	-	response function theory (quantum chemistry, title only)
+Ove Christiansen	fault-tolerant-quantum-computations-of-vibrational-wave-functions	5.6;5.5	fault-tolerant quantum computation of vibrational wave functions
+Ove Christiansen	recursive-linear-tensor-expansion-with-natural-occupation-analysi	-	tensor decomposition inspired by quantum chemistry
+Ove Christiansen	a-subsystem-perspective-on-vibrational-coupled-cluster-response-t	-	vibrational coupled cluster response theory (quantum chemistry)
+Ove Christiansen	local-bond-stretch-coordinates-for-anharmonic-vibrational-computa	-	vibrational coordinates for anharmonic computations (quantum chemistry)
+Rasmus Berg Jensen	fault-tolerant-quantum-computations-of-vibrational-wave-functions	5.6;5.5	fault-tolerant quantum computation of vibrational wave functions
+Rasmus Berg Jensen	unitary-vibrational-coupled-cluster-general-theory-and-implementa	5.6;5.4	unitary vibrational coupled cluster for quantum computing
+Rasmus Berg Jensen	optimizing-the-number-of-measurements-for-vibrational-structure-o	5.6;5.3	measurement optimisation for vibrational structure on quantum computers
+Rasmus Berg Jensen	dynamical-quantum-phase-transitions-in-a-noisy-lattice-gauge-theo	5.2;2.4	dynamical quantum phase transitions in a noisy lattice gauge theory
+Mads Greisen Højlund	recursive-linear-tensor-expansion-with-natural-occupation-analysi	-	tensor decomposition inspired by quantum chemistry
+Mads Greisen Højlund	local-bond-stretch-coordinates-for-anharmonic-vibrational-computa	-	vibrational coordinates for anharmonic computations (quantum chemistry)
+Mads Greisen Højlund	time-dependent-bivariational-principle-theoretical-foundation-for	-	time-dependent coupled cluster theory (quantum chemistry)
+Mads Greisen Højlund	time-dependent-vibrational-coupled-cluster-theory-with-static-and	-	time-dependent vibrational coupled cluster theory (quantum chemistry)
+Mads Greisen Højlund	a-bivariational-stable-and-convergent-hierarchy-for-time-dependen	-	time-dependent coupled cluster with adaptive basis sets (quantum chemistry)

@@ -1,0 +1,51 @@
+# aucs, compact harvest 11 November 2026 (AU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Jaco van de Pol|~jaco-van-de-pol/|0000-0003-4305-0625||0
+#N|46|6
+p|1vhtc1z|2027-07-02|R|random-generation-ofsmall-quantitative-automata-foralgorithm-debu|||Random Generation of Small Quantitative Automata for Algorithm Debugging
+p|733j04|2026-06-02|R|=|||Practical Subarchitectures for Optimal Quantum Layout Synthesis
+p|1xcwy8v|2026|J|=|||Efficient Simulation of High-Level Quantum Gates
+p|a9jis0|2025-10-02|R|controller-synthesis-forparametric-timed-games|||Controller Synthesis for Parametric Timed Games
+p|nptdi|2025-08-18|C|=|||36th International Conference on Concurrency Theory, CONCUR 2025
+#M|Peter Scholl|~peter-scholl/|0000-0002-7937-8422||0
+#N|39|16
+p|wm5yo5|2026|R|=|||A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+p|1t74dva|2026|J|=|||Distributed Point Functions and Function Secret Sharing
+p|1mybgm1|2026|R|=|||On the Impossibility of Actively Secure Distributed Samplers
+p|1t7i8ki|2026|R|privately-constrained-prfs-fromdcr-puncturing-andbounded-waring-r|||Privately Constrained PRFs from DCR: Puncturing and Bounded Waring Rank
+p|pvfgzw|2025-11|R|post-quantum-threshold-ring-signature-applications-from-vole-in-t|||Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head
+#M|Diego F. Aranha|~diego-f-aranha/|0000-0002-2457-0783||0
+#N|49|8
+p|8akh8d|2026-10|R|filtrumvote-scalable-verifiable-and-coercion-resistant-internet-v-2|||FiltrumVote: Scalable, Verifiable, and Coercion-Resistant Internet Voting
+p|1wro099|2026-09|P|sqisign-30-algorithm-specifications-and-supporting-documentation|||SQIsign 3.0: Algorithm specifications and supporting documentation
+p|1jlj699|2026-06-04|R|line-break-cryptanalysis-and-reverse-engineering-of-letter-sealin|||LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing
+p|ymr1xk|2026-04-27|P|=|||Notes and Proofs for Divisor Techniques
+p|1ga7g4p|2026-01|R|better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths|||Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method
+#M|Sebastian Kolby|~sebastian-kolby/|0009-0005-3228-7194||0
+#N|10|4
+p|xulfpp|2026|R|=|||Deniable Secret Sharing
+p|14w49gq|2026|P|modulus-operandi-round-optimal-modulus-conversion-for-mpc-and-thr|||Modulus Operandi: Round-Optimal Modulus Conversion for MPC and Threshold FHE
+p|pvfgzw|2025-11|R|post-quantum-threshold-ring-signature-applications-from-vole-in-t|||Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head
+p|rg71k8|2025-09-08|R|=|||Information-Theoretic Random-Index PIR
+p|es8vmi|2024-08|R|=|||Aggregating Falcon Signatures with LaBRADOR
+#M|Adam Blatchley Hansen|~adam-blatchley-hansen/|||0
+#N|4|0
+p|1jlj699|2026-06-04|R|line-break-cryptanalysis-and-reverse-engineering-of-letter-sealin|||LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing
+p|wm5yo5|2026|R|=|||A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+p|1ty8vjy|2025|R|=|||OCash: Fully Anonymous Payments Between Blockchain Light Clients
+p|12uk7o4|2023|R|winning-the-european-cyber-security-challenge-2022-what-did-we-le|||Winning the European Cyber Security Challenge 2022: What did We Learn?
+#M|Marius Andre Årdal|~marius-andre-%C3%A5rdal/|0009-0003-0674-6460||0
+#N|8|3
+p|1wro099|2026-09|P|sqisign-30-algorithm-specifications-and-supporting-documentation|||SQIsign 3.0: Algorithm specifications and supporting documentation
+p|1fxl8hw|2026-05-26|R|the-algebraic-isogeny-model-a-general-model-with-applications-to-|||The Algebraic Isogeny Model: A General Model with Applications to SQIsign and Key Excha...
+p|1ga7g4p|2026-01|R|better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths|||Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method
+p|oypltu|2025-12-09|J|optimized-one-dimensional-sqisign-verification-on-intel-and-corte|||Optimized One-Dimensional SQIsign Verification on Intel and Cortex-M4
+p|1u1od82|2025-09-11|R|=|||A Complete Security Proof of SQIsign
+#M|Adam Husted Kjelstrøm|~adam-husted-kjelstr%C3%B8m/|||0
+#N|4|0
+p|1xcwy8v|2026|J|=|||Efficient Simulation of High-Level Quantum Gates
+p|1hse70d|2025-01|J|=|||Program Analysis via Multiple Context Free Language Reachability
+p|ybkxtx|2022-01|J|the-decidability-and-complexity-of-interleaved-bidirected-dyck-re|||The Decidability and Complexity of Interleaved Bidirected Dyck Reachability
+p|y8q004|2021-10|J|tight-bounds-for-reachability-problems-on-one-counter-and-pushdow|||Tight bounds for reachability problems on one-counter and pushdown systems
+#M|Jens Emil Christensen|~jens-emil-christensen/|||0
+#N|1|0
+p|1fu7a6j|2025-06-22|R|on-exact-sizes-ofminimal-cnot-circuits|||On Exact Sizes of Minimal CNOT Circuits

@@ -1,0 +1,21 @@
+# auchem, compact harvest 11 November 2026 (AU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Ove Christiansen|~ove-christiansen/|0000-0001-9215-571X||0
+#N|26|0
+p|t6ry08|2026-03-26|J|=|||Forty Years of Response Function Theory
+p|3j0fse|2026-01-13|J|fault-tolerant-quantum-computations-of-vibrational-wave-functions|||Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+p|xp4jo8|2025-10-14|J|recursive-linear-tensor-expansion-with-natural-occupation-analysi|||Recursive Linear Tensor Expansion with Natural Occupation Analysis
+p|14yqgb6|2025-09-18|J|a-subsystem-perspective-on-vibrational-coupled-cluster-response-t|||A Subsystem Perspective on Vibrational Coupled Cluster Response Theory
+p|ckr1e5|2025-04-17|J|local-bond-stretch-coordinates-for-anharmonic-vibrational-computa|||Local Bond-Stretch Coordinates for Anharmonic Vibrational Computations
+#M|Rasmus Berg Jensen|~rasmus-berg-jensen/|0000-0002-6607-9001||0
+#N|4|1
+p|3j0fse|2026-01-13|J|fault-tolerant-quantum-computations-of-vibrational-wave-functions|||Fault-Tolerant Quantum Computations of Vibrational Wave Functions
+p|1pkniv8|2025-02-28|J|unitary-vibrational-coupled-cluster-general-theory-and-implementa|||Unitary vibrational coupled cluster: General theory and implementation
+p|b736cy|2023-06|J|optimizing-the-number-of-measurements-for-vibrational-structure-o|||Optimizing the number of measurements for vibrational structure on quantum computers: c...
+p|w657x0|2022-06|J|dynamical-quantum-phase-transitions-in-a-noisy-lattice-gauge-theo|||Dynamical quantum phase transitions in a noisy lattice gauge theory
+#M|Mads Greisen Højlund|~mads-greisen-h%C3%B8jlund/|0000-0001-8919-3918||0
+#N|11|1
+p|xp4jo8|2025-10-14|J|recursive-linear-tensor-expansion-with-natural-occupation-analysi|||Recursive Linear Tensor Expansion with Natural Occupation Analysis
+p|ckr1e5|2025-04-17|J|local-bond-stretch-coordinates-for-anharmonic-vibrational-computa|||Local Bond-Stretch Coordinates for Anharmonic Vibrational Computations
+p|r2eqrw|2025-04-17|J|time-dependent-bivariational-principle-theoretical-foundation-for|||Time-dependent Bivariational Principle: Theoretical Foundation for Real-Time Propagatio...
+p|dlhxla|2025-01|J|time-dependent-vibrational-coupled-cluster-theory-with-static-and|||Time-Dependent Vibrational Coupled Cluster Theory With Static and Dynamic Basis Functions
+p|gdafen|2024-05|J|a-bivariational-stable-and-convergent-hierarchy-for-time-dependen|||A bivariational, stable, and convergent hierarchy for time-dependent coupled cluster wi...

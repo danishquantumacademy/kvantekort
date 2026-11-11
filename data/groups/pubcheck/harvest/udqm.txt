@@ -1,0 +1,19 @@
+# udqm, compact harvest 11 November 2026 (AU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Simon Elliot Wall|~simon-elliot-wall/|0000-0002-6136-0224||0
+#N|18|0
+p|94fuxa|2026-01|J|ultrafast-surface-melting-of-orbital-order-in-lasub05subsrsub15su|||Ultrafast surface melting of orbital order in La0.5Sr1.5MnO4
+p|bizjeq|2025-10-01|J|a-versatile-setup-for-symmetry-resolved-ultrafast-dynamics-of-qua|||A versatile setup for symmetry-resolved ultrafast dynamics of quantum materials
+p|1djda76|2025-09|L|time-domain-raman-spectroscopy-an-emerging-technique-in-space-exp|||Time-Domain Raman Spectroscopy: An Emerging Technique in Space Exploration?
+p|1ifjj9t|2024-06|J|all-optical-seeding-of-a-light-induced-phase-transition-with-corr|||All-optical seeding of a light-induced phase transition with correlated disorder
+p|1uh84bz|2024-01|J|determination-and-correction-of-spectral-phase-from-principal-com|||Determination and correction of spectral phase from principal component analysis of coh...
+#M|Maximilian Mattern|~maximilian-mattern/|0000-0003-0619-3117||0
+#N|0|19
+#M|Nikolaj Klinkby|~nikolaj-klinkby/|0009-0008-0317-116X||0
+#N|10|2
+p|1310bhg|2026-04-01|J|spectroscopy-of-cryogenic-protonated-schiff-base-retinal-derivati|||Spectroscopy of cryogenic protonated Schiff-base retinal derivatives
+p|14ajvse|2026-02-04|J|dipole-bound-states-in-the-meta-form-of-the-green-fluorescent-pro|||Dipole-bound states in the meta form of the green fluorescent protein chromophore obser...
+p|bizjeq|2025-10-01|J|a-versatile-setup-for-symmetry-resolved-ultrafast-dynamics-of-qua|||A versatile setup for symmetry-resolved ultrafast dynamics of quantum materials
+p|14petjw|2025-08-28|J|conformer-specific-photophysical-properties-of-an-analog-of-the-g|||Conformer specific photophysical properties of an analog of the green fluorescent prote...
+p|513uau|2025-08-27|J|valence-s1-and-nonvalence-dipole-bound-spectroscopy-of-chromophor|||Valence ($S_1$) and nonvalence (dipole-bound) spectroscopy of chromophore models of the...
+#M|Noah Tettenborn|~noah-tettenborn/|0009-0005-7202-3329||0
+#N|0|1

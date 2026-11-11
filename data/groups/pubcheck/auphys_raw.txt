@@ -1,0 +1,44 @@
+W
+Fault-Tolerant Quantum Computations of Vibrational Wave Functions 2026 J 0
+Digital simulation of zero-temperature spontaneous symmetry breaking in a superconducti... 2025 J 0
+Taming Quantum Systems: A Tutorial for Using Shortcuts-To-Adiabaticity, Quantum Optimal... 2025 J 0
+In-situ training in programmable photonic frequency circuits 2025 J 0
+Calculating the Energy Profile of an Enzymatic Reaction on a Quantum Computer 2025 J 0
+Experimental protocol for observing single quantum many-body scars with transmon qubits 2026 J 0
+Identification and properties of topological states in the bulk of quasicrystals 2026 J 0
+Probing Hilbert space fragmentation with strongly interacting Rydberg atoms 2025 J 0
+Phase transitions in quantum many-body scars 2024 L 0
+Hilbert space fragmentation from lattice geometry 2024 J 0
+Microscopic dynamics and an effective Landau-Zener transition in the quasiadiabatic pre... 2022 J 0
+Collective emission of photons from dense, dipole-dipole interacting atomic ensembles 2021 J 0
+Cavity optomechanics with a suspended resonant mirror 2026 J 0
+Dynamical measurement of saturation vapor pressures below and above room temperature 2026 J 0
+Single-run determination of the saturation vapor pressure and enthalpy of sublimation/v... 2026 P 0
+Optical microcavity with a pair of suspended resonant mirrors 2025 J 0
+Absolute Saturation Vapor Pressures of Three Fatty Acid Methyl Esters around Room Tempe... 2025 J 0
+Two- and three-photon absorption in silicon for above-band-gap photon energies 2026 J 0
+Nonlinear quenching of excitonic emission from nanoplatelet films at high excitation de... 2025 J 0
+Luminescence properties of GeSn laser materials: Influence of buffered substrates 2025 J 0
+A Tissue-Equivalent, Reusable Dosimeter for 3D Verification of Radiotherapy 2025 J 0
+Carrier transport after ultrashort-pulse laser excitation in dielectric materials leads... 2024 L 0
+On the Redfield and Lindblad master equations 2026 J 0
+Heat currents in qubit systems 2024 J 0
+Field-theoretical approach to open quantum systems and the Lindblad equation 2022 J 0
+Aspects of the disordered harmonic chain 2021 J 0
+Limitations of an approximative phase-space description in strong-field quantum optics 2026 J 0
+High-order harmonic generation with beyond-semiclassical emitter dynamics: A strong-fie... 2026 J 0
+Echoes of correlations: Quantum-Optical High-Order Harmonic Generation From Strongly Co... 2025 J 0
+Excitonic Enhancement of Squeezed Light in Quantum-Optical High-Harmonic Generation fro... 2025 L 0
+High-order harmonic generation in a crystal driven by quantum light 2025 J 0
+National Quantum Strategies: A Data-Driven Approach to Understanding the Quantum Ecosystem 2026 R 0
+P
+Nikolaj Thomas Zinner|nikolaj-thomas-zinner|0000-0002-5972-9790|p||0|0|0p,1p,2p,3p,4p|30/1
+Anne E. B. Nielsen|anne-e-b-nielsen||||0|0|5p,6p,7p,8p,9p|26/0
+David Petrosyan|david-petrosyan|0000-0002-9256-1096|p||0|0|10p,11p|2/22
+Aurelien Romain Dantan|aurelien-romain-dantan||||0|0|12p,13p,14p,15p,16p|18/0
+Brian Julsgaard|brian-julsgaard|0000-0003-3082-1910|p||0|0|17p,18p,19p,20p,21p|24/2
+Hans Fogedby|hans-fogedby||||0|0|22p,23p,24p,25p|4/0
+Christian Saugbjerg Lange|christian-saugbjerg-lange|0009-0007-8698-8919|p||0|0|26p,27p,28p,29p,30p|8/1
+Emre Aslan|emre-aslan||||0|0|31p|1/0
+Anton Alnor Christensen|anton-alnor-christensen|0000-0003-1444-756X|p||0|0||0/1
+William Kjærgaard Jedig|william-kj%C3%A6rgaard-jedig||||0|0||0/0

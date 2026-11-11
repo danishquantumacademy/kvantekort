@@ -1,0 +1,6 @@
+# aumath members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Jacob Schach Møller|jacob-schach-m%C3%B8ller|0000-0002-5952-2116|
+p o7mmmw 2021-04 schr%C3%B6dinger-operators-periodic-in-octants
+p xan6a7 2021-02 preface-15

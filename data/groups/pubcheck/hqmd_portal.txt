@@ -1,0 +1,12 @@
+# hqmd members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Yong P. Chen|yong-chen||
+p mhq4b7 2026-09-24 evidence-for-vacuum-enhanced-superconductivity-in-nbsesub2sub
+p 1xrbqvv 2026-09-21 electric-field-induced-hole-and-electron-type-flat-bands-in-twist
+p 6owrrh 2026-07-06 unveiling-field-transverse-spin-anisotropy-in-the-spin-liquid-can
+p 1ph78cu 2026-07-03 lessons-fromformula-presented-formula-presented-ruclsub3sub-for-p
+p 10tg8tg 2026-06-30 landauzener-transition-enhanced-quantum-sensing-in-spin-defects-o
+#Ihsan Ahmed Kolasseri|ihsan-ahmed-kolasseri||
+p 17d72zv 2026-04-22 direct-nanoscale-mapping-of-band-alignment-in-single-layer-semico
+p lj5rav 2026-01-28 formation-and-oxygen-intercalation-of-vitreous-2d-silica-bilayer-

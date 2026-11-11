@@ -1,0 +1,15 @@
+W
+Ultrafast surface melting of orbital order in La0.5Sr1.5MnO4 2026 J 0
+A versatile setup for symmetry-resolved ultrafast dynamics of quantum materials 2025 J 0
+Time-Domain Raman Spectroscopy: An Emerging Technique in Space Exploration? 2025 L 0
+All-optical seeding of a light-induced phase transition with correlated disorder 2024 J 0
+Determination and correction of spectral phase from principal component analysis of coh... 2024 J 0
+Spectroscopy of cryogenic protonated Schiff-base retinal derivatives 2026 J 0
+Dipole-bound states in the meta form of the green fluorescent protein chromophore obser... 2026 J 0
+Conformer specific photophysical properties of an analog of the green fluorescent prote... 2025 J 0
+Valence ($S_1$) and nonvalence (dipole-bound) spectroscopy of chromophore models of the... 2025 J 0
+P
+Simon Elliot Wall|simon-elliot-wall|0000-0002-6136-0224|p||0|0|0p,1p,2p,3p,4p|18/0
+Maximilian Mattern|maximilian-mattern|0000-0003-0619-3117|p||0|0||0/19
+Nikolaj Klinkby|nikolaj-klinkby|0009-0008-0317-116X|p||0|0|5p,6p,1p,7p,8p|10/2
+Noah Tettenborn|noah-tettenborn|0009-0005-7202-3329|p||0|0||0/1

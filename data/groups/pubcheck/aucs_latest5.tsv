@@ -1,0 +1,38 @@
+# The five newest research outputs on each aucs member's Aarhus University research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Jaco van de Pol	random-generation-ofsmall-quantitative-automata-foralgorithm-debu	-	random generation of quantitative automata
+Jaco van de Pol	practical-subarchitectures-for-optimal-quantum-layout-synthesis	5.3	optimal quantum layout synthesis
+Jaco van de Pol	efficient-simulation-of-high-level-quantum-gates	5.3;3.5	simulation of high-level quantum gates
+Jaco van de Pol	controller-synthesis-forparametric-timed-games	-	controller synthesis for parametric timed games
+Jaco van de Pol	36th-international-conference-on-concurrency-theory-concur-2025	-	conference proceedings (concurrency theory)
+Peter Scholl	a-maliciously-secure-post-quantum-oprf-from-crypto-dark-matter	7.4	post-quantum oblivious pseudorandom functions
+Peter Scholl	distributed-point-functions-and-function-secret-sharing	-	distributed point functions (cryptography)
+Peter Scholl	on-the-impossibility-of-actively-secure-distributed-samplers	-	secure distributed samplers (cryptography)
+Peter Scholl	privately-constrained-prfs-fromdcr-puncturing-andbounded-waring-r	-	constrained pseudorandom functions (cryptography)
+Peter Scholl	post-quantum-threshold-ring-signature-applications-from-vole-in-t	7.4	post-quantum threshold ring signatures
+Diego F. Aranha	filtrumvote-scalable-verifiable-and-coercion-resistant-internet-v-2	-	internet voting (cryptography)
+Diego F. Aranha	sqisign-30-algorithm-specifications-and-supporting-documentation	7.4	SQIsign post-quantum signature specification (title only)
+Diego F. Aranha	line-break-cryptanalysis-and-reverse-engineering-of-letter-sealin	-	cryptanalysis of a messaging service
+Diego F. Aranha	notes-and-proofs-for-divisor-techniques	-	divisor techniques (cryptography, title only)
+Diego F. Aranha	better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths	7.4	isogeny-based post-quantum cryptography
+Sebastian Kolby	deniable-secret-sharing	-	deniable secret sharing (cryptography)
+Sebastian Kolby	modulus-operandi-round-optimal-modulus-conversion-for-mpc-and-thr	-	modulus conversion for multiparty computation
+Sebastian Kolby	post-quantum-threshold-ring-signature-applications-from-vole-in-t	7.4	post-quantum threshold ring signatures
+Sebastian Kolby	information-theoretic-random-index-pir	-	private information retrieval
+Sebastian Kolby	aggregating-falcon-signatures-with-labrador	7.4	aggregating post-quantum Falcon signatures
+Adam Blatchley Hansen	line-break-cryptanalysis-and-reverse-engineering-of-letter-sealin	-	cryptanalysis of a messaging service
+Adam Blatchley Hansen	a-maliciously-secure-post-quantum-oprf-from-crypto-dark-matter	7.4	post-quantum oblivious pseudorandom functions
+Adam Blatchley Hansen	ocash-fully-anonymous-payments-between-blockchain-light-clients	-	anonymous blockchain payments
+Adam Blatchley Hansen	winning-the-european-cyber-security-challenge-2022-what-did-we-le	-	cyber security challenge
+Marius Andre Årdal	sqisign-30-algorithm-specifications-and-supporting-documentation	7.4	SQIsign post-quantum signature specification (title only)
+Marius Andre Årdal	the-algebraic-isogeny-model-a-general-model-with-applications-to-	7.4	algebraic isogeny model for post-quantum cryptography
+Marius Andre Årdal	better-bounds-for-finding-fixed-degree-isogenies-via-coppersmiths	7.4	isogeny-based post-quantum cryptography
+Marius Andre Årdal	optimized-one-dimensional-sqisign-verification-on-intel-and-corte	7.4	optimised SQIsign post-quantum signature verification
+Marius Andre Årdal	a-complete-security-proof-of-sqisign	7.4	security proof of the SQIsign post-quantum signature
+Adam Husted Kjelstrøm	efficient-simulation-of-high-level-quantum-gates	5.3;3.5	simulation of high-level quantum gates
+Adam Husted Kjelstrøm	program-analysis-via-multiple-context-free-language-reachability	-	static program analysis
+Adam Husted Kjelstrøm	the-decidability-and-complexity-of-interleaved-bidirected-dyck-re	-	Dyck reachability (program analysis)
+Adam Husted Kjelstrøm	tight-bounds-for-reachability-problems-on-one-counter-and-pushdow	-	reachability in pushdown systems
+Jens Emil Christensen	on-exact-sizes-ofminimal-cnot-circuits	5.3	minimal CNOT circuits

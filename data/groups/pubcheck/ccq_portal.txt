@@ -1,0 +1,33 @@
+# ccq members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Michael Drewsen|michael-drewsen|0000-0002-0420-9923|
+p wk68tf 2026-08-05 =
+p 15hwmpi 2026 rotational-state-changes-in-collisions-of-diatomic-molecular-ions
+p 1bv3hq4 2025-12 effects-of-the-delocalized-charge-distribution-in-trapped-ion-ato
+p 1nx6gau 2023-11-23 testing-continuous-spontaneous-localization-model-with-charged-ma
+p 3aphfs 2022-10-07 =
+#Jan Arlt|jan-joachim-arlt|0000-0002-5782-3927|
+p 13rxf0b 2026-09-02 polarons-in-atomic-gases-and-two-dimensional-semiconductors-2
+p 1r186ec 2026-05-14 cloud-parameter-estimation-for-interacting-bec-after-time-of-flig
+p 17i4iac 2026 observation-of-low-lying-impurity-states-in-bose-einstein-condens
+p h36ql2 2026 optical-spectroscopy-of-bose-einstein-condensates-at-finite-tempe
+p m78os7 2026 =
+#Georg Bruun|georg-bruun||
+p 13rxf0b 2026-09-02 polarons-in-atomic-gases-and-two-dimensional-semiconductors-2
+p 1gfmzdr 2026-06 few-is-different-deciphering-many-body-dynamics-in-mesoscopic-qua
+p 1mol5k8 2026-01 =
+p 1dwsc9g 2026 exciton-interacting-with-the-phonons-of-an-electronic-wigner-crys
+p 17i4iac 2026 observation-of-low-lying-impurity-states-in-bose-einstein-condens
+#Frederik Skifter Tribler|frederik-skifter-langsig-tribler||
+#Victor Rueskov Christiansen|victor-rueskov-christiansen|0000-0003-1370-4341|
+p e6qotr 2026-07-31 composing-photons-in-time-multimode-nonlinear-interactions-in-qua
+p 1lku7pe 2026-06-25 phase-space-open-system-dynamics-of-second-order-nonlinear-intera
+p 1mcod76 2026-01-20 =
+p 1c25e6f 2024-11 parametric-amplification-of-a-quantum-pulse-2
+p r4zi84 2024-09 subtraction-and-addition-of-propagating-photons-by-two-level-emit-2
+#Maximilian Baron|maximilian-baron|0000-0002-0155-4158|
+#Søren Skovgaard Balling|s%C3%B8ren-skovgaard-balling||
+p 17i4iac 2026 observation-of-low-lying-impurity-states-in-bose-einstein-condens
+p 1abxdoe 2025-06-24 three-body-physics-in-the-impurity-limit-of-39k-bose-einstein-con
+p 10ca3g5 2025-04 quantum-beat-spectroscopy-of-repulsive-bose-polarons-3

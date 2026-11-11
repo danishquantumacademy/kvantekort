@@ -1,0 +1,38 @@
+W
+Random Generation of Small Quantitative Automata for Algorithm Debugging 2027 R 0
+Practical Subarchitectures for Optimal Quantum Layout Synthesis 2026 R 0
+Efficient Simulation of High-Level Quantum Gates 2026 J 0
+Controller Synthesis for Parametric Timed Games 2025 R 0
+36th International Conference on Concurrency Theory, CONCUR 2025 2025 C 0
+A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter 2026 R 0
+Distributed Point Functions and Function Secret Sharing 2026 J 0
+On the Impossibility of Actively Secure Distributed Samplers 2026 R 0
+Privately Constrained PRFs from DCR: Puncturing and Bounded Waring Rank 2026 R 0
+Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head 2025 R 0
+FiltrumVote: Scalable, Verifiable, and Coercion-Resistant Internet Voting 2026 R 0
+SQIsign 3.0: Algorithm specifications and supporting documentation 2026 P 0
+LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing 2026 R 0
+Notes and Proofs for Divisor Techniques 2026 P 0
+Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method 2026 R 0
+Deniable Secret Sharing 2026 R 0
+Modulus Operandi: Round-Optimal Modulus Conversion for MPC and Threshold FHE 2026 P 0
+Information-Theoretic Random-Index PIR 2025 R 0
+Aggregating Falcon Signatures with LaBRADOR 2024 R 0
+OCash: Fully Anonymous Payments Between Blockchain Light Clients 2025 R 0
+Winning the European Cyber Security Challenge 2022: What did We Learn? 2023 R 0
+The Algebraic Isogeny Model: A General Model with Applications to SQIsign and Key Excha... 2026 R 0
+Optimized One-Dimensional SQIsign Verification on Intel and Cortex-M4 2025 J 0
+A Complete Security Proof of SQIsign 2025 R 0
+Program Analysis via Multiple Context Free Language Reachability 2025 J 0
+The Decidability and Complexity of Interleaved Bidirected Dyck Reachability 2022 J 0
+Tight bounds for reachability problems on one-counter and pushdown systems 2021 J 0
+On Exact Sizes of Minimal CNOT Circuits 2025 R 0
+P
+Jaco van de Pol|jaco-van-de-pol|0000-0003-4305-0625|p||0|0|0p,1p,2p,3p,4p|46/6
+Peter Scholl|peter-scholl|0000-0002-7937-8422|p||0|0|5p,6p,7p,8p,9p|39/16
+Diego F. Aranha|diego-f-aranha|0000-0002-2457-0783|p||0|0|10p,11p,12p,13p,14p|49/8
+Sebastian Kolby|sebastian-kolby|0009-0005-3228-7194|p||0|0|15p,16p,9p,17p,18p|10/4
+Adam Blatchley Hansen|adam-blatchley-hansen||||0|0|12p,5p,19p,20p|4/0
+Marius Andre Årdal|marius-andre-%C3%A5rdal|0009-0003-0674-6460|p||0|0|11p,21p,14p,22p,23p|8/3
+Adam Husted Kjelstrøm|adam-husted-kjelstr%C3%B8m||||0|0|2p,24p,25p,26p|4/0
+Jens Emil Christensen|jens-emil-christensen||||0|0|27p|1/0

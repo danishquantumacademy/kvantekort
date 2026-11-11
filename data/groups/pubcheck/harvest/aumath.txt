@@ -1,0 +1,5 @@
+# aumath, compact harvest 11 November 2026 (AU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Jacob Schach Møller|~jacob-schach-m%C3%B8ller/|0000-0002-5952-2116||0
+#N|2|0
+p|o7mmmw|2021-04|J|schr%C3%B6dinger-operators-periodic-in-octants|||Schrödinger operators periodic in octants
+p|xan6a7|2021-02|J|preface-15|||Preface

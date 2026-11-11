@@ -1,0 +1,20 @@
+# auchem members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Ove Christiansen|ove-christiansen|0000-0001-9215-571X|
+p t6ry08 2026-03-26 =
+p 3j0fse 2026-01-13 fault-tolerant-quantum-computations-of-vibrational-wave-functions
+p xp4jo8 2025-10-14 recursive-linear-tensor-expansion-with-natural-occupation-analysi
+p 14yqgb6 2025-09-18 a-subsystem-perspective-on-vibrational-coupled-cluster-response-t
+p ckr1e5 2025-04-17 local-bond-stretch-coordinates-for-anharmonic-vibrational-computa
+#Rasmus Berg Jensen|rasmus-berg-jensen|0000-0002-6607-9001|
+p 3j0fse 2026-01-13 fault-tolerant-quantum-computations-of-vibrational-wave-functions
+p 1pkniv8 2025-02-28 unitary-vibrational-coupled-cluster-general-theory-and-implementa
+p b736cy 2023-06 optimizing-the-number-of-measurements-for-vibrational-structure-o
+p w657x0 2022-06 dynamical-quantum-phase-transitions-in-a-noisy-lattice-gauge-theo
+#Mads Greisen Højlund|mads-greisen-h%C3%B8jlund|0000-0001-8919-3918|
+p xp4jo8 2025-10-14 recursive-linear-tensor-expansion-with-natural-occupation-analysi
+p ckr1e5 2025-04-17 local-bond-stretch-coordinates-for-anharmonic-vibrational-computa
+p r2eqrw 2025-04-17 time-dependent-bivariational-principle-theoretical-foundation-for
+p dlhxla 2025-01 time-dependent-vibrational-coupled-cluster-theory-with-static-and
+p gdafen 2024-05 a-bivariational-stable-and-convergent-hierarchy-for-time-dependen

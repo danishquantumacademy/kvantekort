@@ -1,0 +1,36 @@
+# The five newest research outputs on each auphys member's Aarhus University research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Nikolaj Thomas Zinner	fault-tolerant-quantum-computations-of-vibrational-wave-functions	5.6;5.5	fault-tolerant quantum computation of vibrational wave functions
+Nikolaj Thomas Zinner	digital-simulation-of-zero-temperature-spontaneous-symmetry-break	5.2;4.1	digital quantum simulation on a superconducting processor
+Nikolaj Thomas Zinner	taming-quantum-systems-a-tutorial-for-using-shortcuts-to-adiabati	4.6;5.1	shortcuts to adiabaticity, optimal control and reinforcement learning for quantum systems (tutorial)
+Nikolaj Thomas Zinner	in-situ-training-in-programmable-photonic-frequency-circuits	3.3	in-situ training of photonic neural networks
+Nikolaj Thomas Zinner	calculating-the-energy-profile-of-an-enzymatic-reaction-on-a-quan	5.6	enzymatic reaction energies on a quantum computer
+Anne E. B. Nielsen	experimental-protocol-for-observing-single-quantum-many-body-scar-2	5.2;4.1	quantum many-body scars with transmon qubits
+Anne E. B. Nielsen	identification-and-properties-of-topological-states-in-the-bulk-o	2.4	topological states in quasicrystals
+Anne E. B. Nielsen	probing-hilbert-space-fragmentation-with-strongly-interacting-ryd-2	2.4;5.2	Hilbert space fragmentation with Rydberg atoms
+Anne E. B. Nielsen	phase-transitions-in-quantum-many-body-scars	2.4	phase transitions in quantum many-body scars
+Anne E. B. Nielsen	hilbert-space-fragmentation-from-lattice-geometry	2.4	Hilbert space fragmentation from lattice geometry
+David Petrosyan	microscopic-dynamics-and-an-effective-landau-zener-transition-in-	2.1;5.2	adiabatic preparation of ordered Rydberg excitations
+David Petrosyan	collective-emission-of-photons-from-dense-dipole-dipole-interacti	2.2;2.1	collective photon emission from dense atomic ensembles
+Aurelien Romain Dantan	cavity-optomechanics-with-a-suspended-resonant-mirror	3.3;2.2	cavity optomechanics with a suspended resonant mirror (title only)
+Aurelien Romain Dantan	dynamical-measurement-of-saturation-vapor-pressures-below-and-abo-2	-	saturation vapour pressure measurements
+Aurelien Romain Dantan	single-run-determination-of-the-saturation-vapor-pressure-and-ent	-	saturation vapour pressure measurements
+Aurelien Romain Dantan	optical-microcavity-with-a-pair-of-suspended-resonant-mirrors	3.3	optical microcavity with suspended resonant mirrors
+Aurelien Romain Dantan	absolute-saturation-vapor-pressures-of-three-fatty-acid-methyl-es	-	saturation vapour pressure measurements
+Brian Julsgaard	two-and-three-photon-absorption-in-silicon-for-above-band-gap-pho	2.3	multiphoton absorption in silicon
+Brian Julsgaard	nonlinear-quenching-of-excitonic-emission-from-nanoplatelet-films	2.3	excitonic emission from nanoplatelet scintillators
+Brian Julsgaard	luminescence-properties-of-gesn-laser-materials-influence-of-buff	2.3;3.2	luminescence of GeSn laser materials
+Brian Julsgaard	a-tissue-equivalent-reusable-dosimeter-for-3d-verification-of-rad	-	radiotherapy dosimeter
+Brian Julsgaard	carrier-transport-after-ultrashort-pulse-laser-excitation-in-diel-2	2.3	carrier transport after ultrashort laser excitation
+Hans Fogedby	on-the-redfield-and-lindblad-master-equations	2.4	Redfield and Lindblad master equations
+Hans Fogedby	heat-currents-in-qubit-systems	2.4;1.1	heat currents in qubit systems (quantum thermodynamics)
+Hans Fogedby	field-theoretical-approach-to-open-quantum-systems-and-the-lindbl	2.4	field-theoretical approach to open quantum systems
+Hans Fogedby	aspects-of-the-disordered-harmonic-chain	-	disordered harmonic chain (classical statistical physics)
+Christian Saugbjerg Lange	limitations-of-an-approximative-phase-space-description-in-strong	2.2	strong-field quantum optics
+Christian Saugbjerg Lange	high-order-harmonic-generation-with-beyond-semiclassical-emitter-	2.2	high-harmonic generation in strong-field quantum optics
+Christian Saugbjerg Lange	echoes-of-correlations-quantum-optical-high-order-harmonic-genera	2.2;2.4	quantum-optical high-harmonic generation from correlated systems (title only)
+Christian Saugbjerg Lange	excitonic-enhancement-of-squeezed-light-in-quantum-optical-high-h	2.2;2.3	squeezed light from high-harmonic generation in a Mott insulator
+Christian Saugbjerg Lange	high-order-harmonic-generation-in-a-crystal-driven-by-quantum-lig	2.2;2.3	high-harmonic generation driven by quantum light
+Emre Aslan	national-quantum-strategies-a-data-driven-approach-to-understandi	8.1;8.3	national quantum strategies and the quantum ecosystem
