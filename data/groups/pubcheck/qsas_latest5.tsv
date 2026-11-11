@@ -1,0 +1,40 @@
+# The five newest research outputs on each qsas member's AAU research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Giorgio Bacci	quantitative-equational-logic	-	quantitative equational logic
+Giorgio Bacci	induction-and-recursion-principles-in-a-higher-order-quantitative	-	quantitative logic for probability
+Giorgio Bacci	rational-lawvere-logic	-	Lawvere logic
+Giorgio Bacci	sum-and-tensor-of-quantitative-effects	-	quantitative computational effects
+Giorgio Bacci	propositional-logics-for-the-lawvere-quantale	-	logics for the Lawvere quantale
+Lukas Holik	parameterized-verification-of-quantum-circuits	5.3;3.5	verification of parameterized quantum programs
+Lukas Holik	a-uniform-framework-for-handling-position-constraints-in-string-s	-	string constraint solving
+Lukas Holik	word-equations-in-synergy-with-regular-constraints-extended-versi	-	string constraint solving
+Lukas Holik	verifying-quantum-circuits-with-level-synchronized-tree-automata	5.3;3.5	verification of quantum circuits with tree automata
+Stefano Lambiase	from-challenge-to-change-design-principles-for-ai-transformations-2	-	AI in software engineering
+Stefano Lambiase	exploring-individual-factors-in-the-adoption-of-llms-for-specific-2	-	LLM adoption in software engineering
+Stefano Lambiase	from-values-to-adoption-on-the-role-of-individual-cultural-values	-	fairness toolkits in software development
+Stefano Lambiase	engineering-requirements-for-generative-ai-agents-the-bard-proces	-	requirements engineering for AI agents
+Stefano Lambiase	towards-ai-powered-automatic-3d-scene-generation-for-the-metavers	-	3D scene generation
+Kim Guldstrand Larsen	minimizing-combined-sewer-overflows-with-online-model-predictive-	-	control of sewer overflows
+Kim Guldstrand Larsen	efficient-monitoring-of-timed-properties	-	runtime monitoring of timed automata
+Kim Guldstrand Larsen	efficient-runtime-verification-of-real-time-systems-under-paramet	-	runtime verification of real-time systems
+Kim Guldstrand Larsen	robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p	-	control of autonomous vehicles
+Kim Guldstrand Larsen	safe-and-infinite-resource-scheduling-using-energy-timed-automata	-	scheduling with energy timed automata
+Marius Mikučionis	data-selective-online-battery-identification-using-extended-time-	-	battery identification
+Marius Mikučionis	scalable-computation-of-inter-core-bounds-through-exact-abstracti-2	-	real-time systems analysis
+Marius Mikučionis	an-investigation-of-safe-and-near-optimal-strategies-for-preventi	-	stochastic hybrid models for epidemic control
+Marco Antonio Muniz Rodriguez	data-selective-online-battery-identification-using-extended-time-	-	battery identification
+Marco Antonio Muniz Rodriguez	an-investigation-of-safe-and-near-optimal-strategies-for-preventi	-	stochastic hybrid models for epidemic control
+Marco Antonio Muniz Rodriguez	online-and-proactive-vehicle-rerouting-with-uppaal-stratego	-	vehicle rerouting with UPPAAL
+Marco Antonio Muniz Rodriguez	stubborn-set-reduction-for-two-player-reachability-games	-	partial-order reduction for games
+Christian Schilling	robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p	-	control of autonomous vehicles
+Christian Schilling	compositional-shielding-and-reinforcement-learning-for-multi-agen-3	-	safe reinforcement learning
+Christian Schilling	contraction-heuristics-for-tensor-decision-diagrams	5.3	equivalence checking of quantum circuits with tensor decision diagrams
+Christian Schilling	rangeenclosuresjl-a-framework-to-bound-function-ranges	-	bounding function ranges (numerics)
+Christian Schilling	verified-propagation-of-imprecise-probabilities-in-non-linear-ode	-	reachability analysis for ODEs
+Jiri Srba	gtm-an-enhanced-genetic-algorithm-for-process-discovery	-	process discovery
+Jiri Srba	towards-model-driven-heat-pump-control-in-a-multi-story-building	-	heat pump control
+Jiri Srba	measurement-noise-filtering-for-automatic-discovery-of-flow-split	-	network telemetry
+Jiri Srba	optimal-control-strategies-for-stormwater-detention-ponds	-	stormwater control
+Jiri Srba	methods-for-efficient-unfolding-of-colored-petri-nets	-	coloured Petri nets

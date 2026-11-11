@@ -1,0 +1,49 @@
+W
+Quantitative Equational Logic 2026 J 0
+Induction and Recursion Principles in a Higher-Order Quantitative Logic for Probability 2026 R 0
+Rational Lawvere Logic 2026 R 0
+Sum and Tensor of Quantitative Effects 2024 J 0
+Propositional Logics for the Lawvere Quantale 2023 R 0
+Parameterized Verification of Quantum Circuits 2026 J 0
+A Uniform Framework for Handling Position Constraints in String Solving 2025 R 0
+Word equations in synergy with regular constraints (extended version) 2025 J 0
+Verifying Quantum Circuits with Level-Synchronized Tree Automata 2025 R 0
+From challenge to change: Design principles for AI transformations 2027 J 0
+Exploring individual factors in the adoption of LLMs for specific software engineering ... 2026 J 0
+From values to adoption: on the role of individual cultural values on fairness toolkit ... 2026 J 0
+Engineering Requirements for Generative AI Agents: The BARD Process Theory 2026 P 0
+Towards AI-powered automatic 3D scene generation for the metaverse: a comparative analy... 2026 J 0
+Minimizing Combined Sewer Overflows with Online Model-Predictive Reinforcement Learning 2026 J 0
+Efficient monitoring of timed properties 2026 J 0
+Efficient Runtime Verification of Real-Time Systems under Parametric Communication Delays 2026 J 0
+Robust lateral control for scaled autonomous vehicles using LPV polytopic approach 2026 J 0
+Safe and infinite resource scheduling using energy timed automata 2026 J 0
+Data-Selective Online Battery Identification Using Extended Time Regular Expressions 2026 P 0
+Scalable Computation of Inter-Core Bounds Through Exact Abstractions 2024 P 0
+An investigation of safe and near-optimal strategies for prevention of Covid-19 exposur... 2022 J 0
+Online and Proactive Vehicle Rerouting with Uppaal Stratego 2021 R 0
+Stubborn Set Reduction for Two-Player Reachability Games 2021 J 0
+Contraction Heuristics for Tensor Decision Diagrams 2024 J 0
+RangeEnclosures.jl: A framework to bound function ranges 2024 J 0
+Verified propagation of imprecise probabilities in non-linear ODEs 2024 J 0
+Into the unknown: active monitoring of neural networks (extended version) 2023 J 0
+GTM: An Enhanced Genetic Algorithm for Process Discovery 2026 R 0
+Towards model-driven heat pump control in a multi-story building 2025 J 0
+Measurement-Noise Filtering for Automatic Discovery of Flow Splitting Ratios in ISP Net... 2024 J 0
+Optimal control strategies for stormwater detention ponds 2024 J 0
+Methods for Efficient Unfolding of Colored Petri Nets 2023 J 0
+P
+Suhaib Al-Rousan|suhaibar|0009-0001-4770-553X|p||0|0||0/0
+Giorgio Bacci|grbacci|0000-0003-4004-6049|p||0|0|0p,1p,2p,3p,4p|7/1
+Benjamin Clausen Bennetzen|benjamin-clausen-bennetzen|0009-0007-1751-6862|p||0|0||0/0
+Lukas Holik|lukas-holik|0000-0001-6957-1651|p||0|0|5p,6p,7p,8p|4/2
+Nicolaj Østerby Jensen|noje|0009-0005-2359-204X|p||0|0||0/1
+Nikolaj Rossander Kristensen|nrk|0009-0005-2339-8247|p||0|0||0/0
+Stefano Lambiase|stefano-lambiase|0000-0002-9933-6203|p||0|0|9p,10p,11p,12p,13p|25/13
+Kim Guldstrand Larsen|kgl|0000-0002-5953-3384|p||0|0|14p,15p,16p,17p,18p|39/16
+Marius Mikučionis|marius-miku%C4%8Dionis|0000-0001-8157-5428|p||0|0|19p,20p,21p|3/2
+Marco Antonio Muniz Rodriguez|muniz|0000-0003-2357-0375|p||0|0|19p,21p,22p,23p|4/0
+Christian Schilling|christianms|0000-0003-3658-1065|p||0|0|17p,24p,25p,26p,27p|7/9
+Jiri Srba|srba|0000-0001-5551-6547|p||0|0|28p,29p,30p,31p,32p|14/12
+Jonas Vester|jonves||||0|0||0/0
+Loke Walsted|lokew||||0|0||0/0

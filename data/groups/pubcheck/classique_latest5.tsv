@@ -1,0 +1,113 @@
+# The five newest research outputs on each classique member's AAU research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Mahmoud Abouamer	digital-twin-guided-wireless-localization-via-probabilistic-inver	-	digital twins for wireless localization
+Mahmoud Abouamer	digital-twin-aided-prescreening-for-user-scheduling-in-mu-mimo-do	-	user scheduling in MU-MIMO (classical wireless)
+Mahmoud Abouamer	latency-constrained-encoded-quantum-teleportation-with-punctured-	7.5;5.3	encoded quantum teleportation with punctured codes
+Mahmoud Abouamer	digital-twin-assisted-measurement-design-and-channel-statistics-p	-	wireless channel prediction
+Mahmoud Abouamer	resource-adaptive-teleportation-under-imperfect-entanglement-a-co	7.5;5.3	teleportation under imperfect entanglement
+Christophe Biscio	predicting-ionic-conductivity-of-sulfide-glass-solid-state-electr	-	ionic conductivity of glass electrolytes
+Christophe Biscio	conformal-data-contamination-tests-for-in-distribution-data-acqui	-	conformal tests for data acquisition (machine learning)
+Christophe Biscio	multi-agent-conformal-prediction-with-personalized-statistical-va	-	conformal prediction (machine learning)
+Christophe Biscio	quantum-compression-for-distributed-entanglement	7.5;1.2	compression for multipartite entanglement distribution
+Christophe Biscio	ring-structure-analysis-in-calcium-aluminophosphate-glasses	-	structure of phosphate glasses
+René Bødker Christensen	puncturing-for-adaptive-entanglement-assisted-stabilizer-codes	5.3;7.5	entanglement-assisted quantum error-correcting codes
+René Bødker Christensen	classical-communication-protocol-based-on-joint-classical-quantum	7.5;1.2	classical-quantum coding with superdense coding
+René Bødker Christensen	task-concurrency-and-compatibility-in-measurement-based-quantum-n	7.5	measurement-based quantum networks
+René Bødker Christensen	temporal-framework-for-causality-preserving-scheduling-of-measure	7.5	scheduling measurements in quantum networks
+René Bødker Christensen	1q-first-generation-wireless-systems-integrating-classical-and-qu-2	7.6;7.5	wireless systems integrating classical and quantum communication
+Horia Cornean	the-fibre-operators-in-the-bloch-floquet-decomposition-of-periodi	-	magnetic pseudo-differential operators (spectral theory)
+Horia Cornean	on-directional-growth-of-the-resolvent-norm	-	resolvent norm growth (operator theory)
+Horia Cornean	sharp-iteration-asymptotics-for-transfer-operators-induced-by-gre	-	transfer operators for β-expansions (dynamical systems)
+Horia Cornean	greens-functions-for-magnetic-dirac-operators-and-bulk-edge-corre	2.3	Green's functions and bulk-edge correspondence for magnetic Dirac operators
+Horia Cornean	spectral-and-dynamical-results-related-to-certain-non-integer-bas	-	transfer operators for β-expansions (dynamical systems)
+Jaron Skovsted Gundersen	puncturing-for-adaptive-entanglement-assisted-stabilizer-codes	5.3;7.5	entanglement-assisted quantum error-correcting codes
+Jaron Skovsted Gundersen	resource-adaptive-teleportation-under-imperfect-entanglement-a-co	7.5;5.3	teleportation under imperfect entanglement
+Jaron Skovsted Gundersen	when-is-distributed-nonlinear-aggregation-private-optimality-and-	-	privacy of distributed aggregation (information theory)
+Jaron Skovsted Gundersen	reliable-quantum-links-entanglement-error-correction-and-classica	7.5;5.3	reliable quantum links (tutorial)
+Jaron Skovsted Gundersen	deflating-quantum-error-correcting-codes	5.3	deflation of quantum stabilizer codes
+Jaemin Kim	entanglement-swapping-measurements-for-deterministic-entanglement	7.5	entanglement swapping for entanglement distribution
+Jaemin Kim	scaling-laws-of-quantum-networks-an-entanglement-transport-framew	7.5	scaling laws of quantum networks
+Jaemin Kim	protocol-for-purifying-noisy-preparation-and-measurements-of-qubi-2	4.6;1.2	purifying noisy qubit preparation and measurement
+Jaemin Kim	carrier-assisted-entanglement-purification-2	7.5;1.2	entanglement purification
+Jaemin Kim	detecting-entanglement-by-state-preparation-and-local-measurement-2	1.2	entanglement witnesses from local measurements
+Kim Guldstrand Larsen	minimizing-combined-sewer-overflows-with-online-model-predictive-	-	control of sewer overflows
+Kim Guldstrand Larsen	efficient-monitoring-of-timed-properties	-	runtime monitoring of timed automata
+Kim Guldstrand Larsen	efficient-runtime-verification-of-real-time-systems-under-paramet	-	runtime verification of real-time systems
+Kim Guldstrand Larsen	robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p	-	control of autonomous vehicles
+Kim Guldstrand Larsen	safe-and-infinite-resource-scheduling-using-energy-timed-automata	-	scheduling with energy timed automata
+Israel Leyva Mayorga	dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2	-	wireless pull/push communication
+Israel Leyva Mayorga	tunable-gaussian-pulse-for-delay-doppler-isac-2	-	integrated sensing and communication (classical)
+Israel Leyva Mayorga	routing-and-downlink-resource-allocation-for-multicast-traffic-in	-	LEO satellite routing
+Israel Leyva Mayorga	sensing-assisted-satellite-backhaul-with-fbl-ul-and-broadcast-dl--2	-	satellite backhaul for IoT
+Israel Leyva Mayorga	edge-intelligence-for-satellite-based-earth-observation-schedulin-2	-	satellite Earth observation scheduling
+Marius Mikučionis	data-selective-online-battery-identification-using-extended-time-	-	battery identification
+Marius Mikučionis	scalable-computation-of-inter-core-bounds-through-exact-abstracti-2	-	real-time systems analysis
+Marius Mikučionis	an-investigation-of-safe-and-near-optimal-strategies-for-preventi	-	stochastic hybrid models for epidemic control
+Shashi Raj Pandey	digital-twin-guided-wireless-localization-via-probabilistic-inver	-	digital twins for wireless localization
+Shashi Raj Pandey	dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2	-	wireless pull/push communication
+Shashi Raj Pandey	mcir-a-feature-dependence-aware-explainability-method-with-reliab	-	explainable machine learning
+Shashi Raj Pandey	conformal-data-contamination-tests-for-in-distribution-data-acqui	-	conformal tests for data acquisition (machine learning)
+Shashi Raj Pandey	mcir-a-feature-dependence-aware-explainability-method-with-reliab-2	-	explainable machine learning
+Nicolai Peder Bülow Pedersen	puncturing-for-adaptive-entanglement-assisted-stabilizer-codes	5.3;7.5	entanglement-assisted quantum error-correcting codes
+Thomas Garm Pedersen	electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su	2.3	electrical control of excitons in MoSe2 heterostructures
+Thomas Garm Pedersen	1q-first-generation-wireless-systems-integrating-classical-and-qu-2	7.6;7.5	wireless systems integrating classical and quantum communication
+Thomas Garm Pedersen	1q-first-generation-wireless-systems-integrating-classical-and-qu	7.6;7.5	wireless systems integrating classical and quantum communication
+Thomas Garm Pedersen	linear-and-nonlinear-polarizabilities-of-anharmonic-oscillators-f	-	polarizabilities of anharmonic oscillators (title only)
+Thomas Garm Pedersen	optimal-reset-of-zeeman-disk-qubits	4.6;4.2	optimal reset of quantum-disk qubits
+Petar Popovski	digital-twin-guided-wireless-localization-via-probabilistic-inver	-	digital twins for wireless localization
+Petar Popovski	dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2	-	wireless pull/push communication
+Petar Popovski	in-context-learning-for-mimo-turbo-receivers	-	MIMO receivers (classical wireless)
+Petar Popovski	tunable-gaussian-pulse-for-delay-doppler-isac-2	-	integrated sensing and communication (classical)
+Petar Popovski	energy-efficient-timely-relevant-iot-data-retrieval-with-wireless	-	IoT data retrieval
+Søren Pilegaard Rasmussen	resource-adaptive-teleportation-under-imperfect-entanglement-a-co	7.5;5.3	teleportation under imperfect entanglement
+Søren Pilegaard Rasmussen	reliable-quantum-links-entanglement-error-correction-and-classica	7.5;5.3	reliable quantum links (tutorial)
+Søren Pilegaard Rasmussen	a-game-theoretic-perspective-for-efficient-modern-random-access-2	-	random access (classical wireless)
+Christian Schilling	robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p	-	control of autonomous vehicles
+Christian Schilling	compositional-shielding-and-reinforcement-learning-for-multi-agen-3	-	safe reinforcement learning
+Christian Schilling	contraction-heuristics-for-tensor-decision-diagrams	5.3	equivalence checking of quantum circuits with tensor decision diagrams
+Christian Schilling	rangeenclosuresjl-a-framework-to-bound-function-ranges	-	bounding function ranges (numerics)
+Christian Schilling	verified-propagation-of-imprecise-probabilities-in-non-linear-ode	-	reachability analysis for ODEs
+Ali Sepas	deep-brain-stimulation-beneficial-for-treatment-resistant-depress	-	deep brain stimulation (medicine)
+Ali Sepas	defining-postoperative-weight-trends-in-pediatric-patients-underg	-	paediatric surgery (medicine)
+Ali Sepas	electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su	2.3	electrical control of excitons in MoSe2 heterostructures
+Ali Sepas	analysis-and-simulations-of-binary-black-hole-merger-spins-the-qu	-	black-hole merger spins (astrophysics)
+Ali Sepas	deep-brain-stimulation-is-beneficial-for-treatment-resistant-depr	-	deep brain stimulation (medicine)
+Beatriz Soret	routing-and-downlink-resource-allocation-for-multicast-traffic-in	-	LEO satellite routing
+Beatriz Soret	edge-intelligence-for-satellite-based-earth-observation-schedulin-2	-	satellite Earth observation scheduling
+Beatriz Soret	low-latency-task-oriented-image-transmission-with-opportunistic-s	-	task-oriented image transmission
+Beatriz Soret	statistical-analysis-for-energy-efficient-satellite-edge-computin	-	satellite edge computing
+Beatriz Soret	edge-intelligence-for-satellite-based-earth-observation-schedulin	-	satellite Earth observation scheduling
+Jiri Srba	gtm-an-enhanced-genetic-algorithm-for-process-discovery	-	process discovery
+Jiri Srba	towards-model-driven-heat-pump-control-in-a-multi-story-building	-	heat pump control
+Jiri Srba	measurement-noise-filtering-for-automatic-discovery-of-flow-split	-	network telemetry
+Jiri Srba	optimal-control-strategies-for-stormwater-detention-ponds	-	stormwater control
+Jiri Srba	methods-for-efficient-unfolding-of-colored-petri-nets	-	coloured Petri nets
+Cedomir Stefanovic	classical-communication-protocol-based-on-joint-classical-quantum	7.5;1.2	classical-quantum coding with superdense coding
+Cedomir Stefanovic	joint-beamforming-and-trajectory-optimization-for-multi-uav-assis-2	-	UAV beamforming
+Cedomir Stefanovic	sensing-assisted-satellite-backhaul-with-fbl-ul-and-broadcast-dl--2	-	satellite backhaul for IoT
+Cedomir Stefanovic	semi-autonomous-prosthesis-control-empowered-by-5g-and-mobile-edg	-	5G prosthesis control
+Cedomir Stefanovic	noma-grant-free-scheme-in-periodically-scheduled-uplink-for-time-	-	machine-type communication in railways
+Jakob Kaltoft Søndergaard	puncturing-for-adaptive-entanglement-assisted-stabilizer-codes	5.3;7.5	entanglement-assisted quantum error-correcting codes
+Jakob Kaltoft Søndergaard	latency-constrained-encoded-quantum-teleportation-with-punctured-	7.5;5.3	encoded quantum teleportation with punctured codes
+Jakob Kaltoft Søndergaard	task-concurrency-and-compatibility-in-measurement-based-quantum-n	7.5	measurement-based quantum networks
+Jakob Kaltoft Søndergaard	temporal-framework-for-causality-preserving-scheduling-of-measure	7.5	scheduling measurements in quantum networks
+Jakob Kaltoft Søndergaard	1q-first-generation-wireless-systems-integrating-classical-and-qu-2	7.6;7.5	wireless systems integrating classical and quantum communication
+Mikkel Hviid Thorn	magnetic-pseudo-differential-operators-with-h%C3%B6rmander-symbols-dom	-	magnetic pseudo-differential operators (operator theory)
+Mikkel Hviid Thorn	hartreefock-approksimationen-og-aspekter-af-operatorteori-mikkel-	-	news piece on a thesis prize
+Max Tschaikowski	approximate-regular-equivalence-by-partition-refinement	-	regular equivalence in networks
+Max Tschaikowski	approximate-constrained-lumping-of-chemical-reaction-networks	-	model reduction of reaction networks
+Max Tschaikowski	forward-and-backward-constrained-bisimulations-for-quantum-circui-2	5.3;3.5	bisimulation-based reduction for quantum circuit simulation
+Max Tschaikowski	coarse-graining-complex-networks-for-control-equivalence	-	coarse-graining of complex networks
+Max Tschaikowski	proper-lumping-for-positive-bilinear-control-systems	-	lumping of bilinear control systems
+Rafal Wisniewski	virtual-smart-metering-in-district-heating-networks-via-heterogen-2	-	district heating metering
+Rafal Wisniewski	probabilistic-sequential-safety-for-stochastic-dynamical-systems	-	safety of stochastic dynamical systems
+Rafal Wisniewski	dynamic-simulation-and-fault-injection-for-a-fixed-bed-methanol-s	-	methanol reactor simulation
+Rafal Wisniewski	on-embedding-design-in-quantum-physics-informed-neural-networks	5.6;5.5	quantum physics-informed neural networks
+Rafal Wisniewski	robust-fault-detection-in-mechanical-multimodal-time-series-via-s	-	fault detection in time series
+Jan Østergaard	joint-higher-order-low-rank-tensor-decompositions-for-multichanne	-	acoustic system compression
+Jan Østergaard	a-comparative-study-of-a-perceptually-informed-optimisation-frame	-	sound field reproduction
+Jan Østergaard	impedance-characterization-of-a-hl-lhc-nbsub3subsn-mqxfs-model-ma	-	superconducting accelerator magnets
+Jan Østergaard	listen-first-output-based-multi-microphone-speech-enhancement	-	speech enhancement
+Jan Østergaard	ranking-the-impact-of-contextual-specialization-in-neural-speech--2	-	speech enhancement

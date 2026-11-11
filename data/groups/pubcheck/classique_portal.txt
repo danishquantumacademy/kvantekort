@@ -1,0 +1,140 @@
+# classique members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Mahmoud Abouamer|mahmoudabo|0000-0001-5941-269X|
+p 1mv88k9 2026-10-27 digital-twin-guided-wireless-localization-via-probabilistic-inver
+p fh3xd1 2026-08-11 digital-twin-aided-prescreening-for-user-scheduling-in-mu-mimo-do
+p hm5k8o 2026-07-22 latency-constrained-encoded-quantum-teleportation-with-punctured-
+p s1e4ad 2026-03-24 digital-twin-assisted-measurement-design-and-channel-statistics-p
+p 1ftivb9 2026-02-12 resource-adaptive-teleportation-under-imperfect-entanglement-a-co
+#Suhaib Al-Rousan|suhaibar|0009-0001-4770-553X|
+#Benjamin Clausen Bennetzen|benjamin-clausen-bennetzen|0009-0007-1751-6862|
+#Christophe Biscio|christophe|0000-0002-2218-6825|
+p 171mtfv 2026-12 predicting-ionic-conductivity-of-sulfide-glass-solid-state-electr
+p 6dhc8o 2026-10 conformal-data-contamination-tests-for-in-distribution-data-acqui
+p 537zue 2026-05-30 multi-agent-conformal-prediction-with-personalized-statistical-va
+p n69uio 2026-05-05 =
+p x59wan 2026-03 =
+#René Bødker Christensen|rene|0000-0002-9209-3739|
+p tol0uk 2026-09-28 =
+p 16crkf3 2026-09-15 classical-communication-protocol-based-on-joint-classical-quantum
+p vr8x0n 2026-02-12 temporal-framework-for-causality-preserving-scheduling-of-measure
+p 7qeyyl 2026-01-12 1q-first-generation-wireless-systems-integrating-classical-and-qu-2
+p djar7a 2026 reliable-quantum-links-entanglement-error-correction-and-classica
+#Horia Cornean|cornean|0000-0003-2700-8785|
+p tgultf 2026-06 the-fibre-operators-in-the-bloch-floquet-decomposition-of-periodi
+p 182k9sz 2026-02-20 =
+p 1jqwhiq 2026-01 sharp-iteration-asymptotics-for-transfer-operators-induced-by-gre
+p u9l3t2 2026 greens-functions-for-magnetic-dirac-operators-and-bulk-edge-corre
+p v5ywoz 2026 spectral-and-dynamical-results-related-to-certain-non-integer-bas
+#Jaron Skovsted Gundersen|jaron-gundersen|0000-0003-0882-4621|
+p tol0uk 2026-09-28 =
+p 1ftivb9 2026-02-12 resource-adaptive-teleportation-under-imperfect-entanglement-a-co
+p lg1jcb 2026-01-19 when-is-distributed-nonlinear-aggregation-private-optimality-and-
+p djar7a 2026 reliable-quantum-links-entanglement-error-correction-and-classica
+p lzh22u 2025-12-17 =
+#Jaemin Kim|jaemink|0009-0007-1877-3107|
+p vaear 2026-12 entanglement-swapping-measurements-for-deterministic-entanglement
+p 1sx87a4 2026-09-30 scaling-laws-of-quantum-networks-an-entanglement-transport-framew
+p f9fxkl 2026-06-26 protocol-for-purifying-noisy-preparation-and-measurements-of-qubi-2
+p emrb68 2026 carrier-assisted-entanglement-purification-2
+p 1dmwpnm 2026 detecting-entanglement-by-state-preparation-and-local-measurement-2
+#Nikolaj Rossander Kristensen|nrk|0009-0005-2339-8247|
+#Kim Guldstrand Larsen|kgl|0000-0002-5953-3384|
+p l90w65 2026-09-18 minimizing-combined-sewer-overflows-with-online-model-predictive-
+p 1jcrp8j 2026-08 =
+p yh6tn7 2026-06 efficient-runtime-verification-of-real-time-systems-under-paramet
+p hbl11z 2026-01-18 robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p
+p 1faufiz 2026-01 safe-and-infinite-resource-scheduling-using-energy-timed-automata
+#Thomas Grubbe Sandborg Lauritsen|thomas-lauritsen|0009-0001-9089-8015|
+#Israel Leyva Mayorga|ilm|0000-0002-7116-397X|
+p etff1r 2026-10-27 dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2
+p 1rsd0ea 2026-10-23 tunable-gaussian-pulse-for-delay-doppler-isac-2
+p 1p5k0v5 2026-09-03 routing-and-downlink-resource-allocation-for-multicast-traffic-in
+p h27nsn 2026-09-01 sensing-assisted-satellite-backhaul-with-fbl-ul-and-broadcast-dl--2
+p wythz0 2026-06-05 =
+#Marius Mikučionis|marius-miku%C4%8Dionis|0000-0001-8157-5428|
+p lxqiat 2026 data-selective-online-battery-identification-using-extended-time-
+p 116t7nf 2024-05-10 scalable-computation-of-inter-core-bounds-through-exact-abstracti-2
+p rjutqr 2022-12 an-investigation-of-safe-and-near-optimal-strategies-for-preventi
+#Shashi Raj Pandey|srp|0000-0002-5781-4131|
+p 1mv88k9 2026-10-27 digital-twin-guided-wireless-localization-via-probabilistic-inver
+p etff1r 2026-10-27 dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2
+p 1vgkvyc 2026-10-01 mcir-a-feature-dependence-aware-explainability-method-with-reliab
+p 6dhc8o 2026-10 conformal-data-contamination-tests-for-in-distribution-data-acqui
+p g6ece2 2026-09-29 explainability-of-complex-ai-models-with-correlation-impact-ratio-2
+#Nicolai Peder Bülow Pedersen|nicolai-peder-b%C3%BClow-pedersen||
+p tol0uk 2026-09-28 =
+#Thomas Garm Pedersen|tgp|0000-0002-9466-6190|
+p 1ozlsrg 2026-05-12 electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su
+p 7qeyyl 2026-01-12 1q-first-generation-wireless-systems-integrating-classical-and-qu-2
+p 11ehahx 2025-12 linear-and-nonlinear-polarizabilities-of-anharmonic-oscillators-f
+p 4gvacy 2025-10 =
+p 177xs9 2025-07 =
+#Petar Popovski|petarp|0000-0001-6195-4797|
+p 1mv88k9 2026-10-27 digital-twin-guided-wireless-localization-via-probabilistic-inver
+p etff1r 2026-10-27 dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2
+p tpltsa 2026-10-27 =
+p 1rsd0ea 2026-10-23 tunable-gaussian-pulse-for-delay-doppler-isac-2
+p ip2onw 2026-10-21 energy-efficient-timely-relevant-iot-data-retrieval-with-wireless
+#Søren Pilegaard Rasmussen|spr|0009-0005-3643-901X|
+p 1ftivb9 2026-02-12 resource-adaptive-teleportation-under-imperfect-entanglement-a-co
+p djar7a 2026 reliable-quantum-links-entanglement-error-correction-and-classica
+#Christian Schilling|christianms|0000-0003-3658-1065|
+p hbl11z 2026-01-18 robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p
+p k682bw 2024-12 =
+p 15bzvp9 2024 rangeenclosuresjl-a-framework-to-bound-function-ranges
+p 1t4l82v 2024 verified-propagation-of-imprecise-probabilities-in-non-linear-ode
+p 84ct6v 2023-08 into-the-unknown-active-monitoring-of-neural-networks-extended-ve
+#Ali Sepas|asep||
+p ps7dua 2026-11 deep-brain-stimulation-beneficial-for-treatment-resistant-depress
+p r2nx5v 2026-08-25 defining-postoperative-weight-trends-in-pediatric-patients-underg
+p 1ozlsrg 2026-05-12 electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su
+p 10hw8vk 2025-12 analysis-and-simulations-of-binary-black-hole-merger-spins-the-qu
+p 1c0oo8t 2025 deep-brain-stimulation-is-beneficial-for-treatment-resistant-depr
+#Beatriz Soret|124676|0000-0003-2708-645X|
+p 1p5k0v5 2026-09-03 routing-and-downlink-resource-allocation-for-multicast-traffic-in
+p xxgms0 2026-07-02 low-latency-task-oriented-image-transmission-with-opportunistic-s
+p 193j2dk 2026-05-11 statistical-analysis-for-energy-efficient-satellite-edge-computin
+p 11ql5i9 2026-04-07 edge-intelligence-for-satellite-based-earth-observation-schedulin
+p 7qeyyl 2026-01-12 1q-first-generation-wireless-systems-integrating-classical-and-qu-2
+#Jiri Srba|srba|0000-0001-5551-6547|
+p 18nvnia 2026 =
+p xpi35x 2025 =
+p 154016a 2024-12-05 measurement-noise-filtering-for-automatic-discovery-of-flow-split
+p 15ciw7d 2024-08 =
+p z58x6i 2023-10-26 =
+#Cedomir Stefanovic|126055|0000-0002-9361-2908|
+p 16crkf3 2026-09-15 classical-communication-protocol-based-on-joint-classical-quantum
+p k9wqj6 2026-09-01 joint-beamforming-and-trajectory-optimization-for-multi-uav-assis-2
+p h27nsn 2026-09-01 sensing-assisted-satellite-backhaul-with-fbl-ul-and-broadcast-dl--2
+p 1t279dq 2026-08-31 semi-autonomous-prosthesis-control-empowered-by-5g-and-mobile-edg
+p azkno4 2026-08-01 noma-grant-free-scheme-in-periodically-scheduled-uplink-for-time-
+#Jakob Kaltoft Søndergaard|jakobks|0009-0004-0458-6202|
+p tol0uk 2026-09-28 =
+p hm5k8o 2026-07-22 latency-constrained-encoded-quantum-teleportation-with-punctured-
+p vr8x0n 2026-02-12 temporal-framework-for-causality-preserving-scheduling-of-measure
+p 7qeyyl 2026-01-12 1q-first-generation-wireless-systems-integrating-classical-and-qu-2
+p djar7a 2026 reliable-quantum-links-entanglement-error-correction-and-classica
+#Mikkel Hviid Thorn|mikkel-hviid-thorn|0009-0009-7486-4323|
+p 1n1xyj9 2026-03 magnetic-pseudo-differential-operators-with-h%C3%B6rmander-symbols-dom
+p rqh55n - hartreefock-approksimationen-og-aspekter-af-operatorteori-mikkel-
+#Max Tschaikowski|tschaikowski|0000-0002-6186-8669|
+p 7wilp7 2025-12 =
+p uu6skg 2025-07-02 =
+p z223fb 2025-06 forward-and-backward-constrained-bisimulations-for-quantum-circui-2
+p 1h7pwpk 2025 =
+p 1o8246g 2024 =
+#Loke Walsted|lokew||
+#Rafal Wisniewski|raf|0000-0001-6719-8427|
+p 1rsb3eb 2026-12-15 virtual-smart-metering-in-district-heating-networks-via-heterogen-2
+p 1qcr98t 2026-10-27 =
+p vpjxt2 2026-10-07 dynamic-simulation-and-fault-injection-for-a-fixed-bed-methanol-s
+p o7lrwo 2026-09-27 =
+p lx7g5d 2026-09-14 robust-fault-detection-in-mechanical-multimodal-time-series-via-s
+#Jan Østergaard|104838|0000-0002-3724-6114|
+p 16jowx6 2026-11-05 joint-higher-order-low-rank-tensor-decompositions-for-multichanne
+p ri69j3 2026-10 a-comparative-study-of-a-perceptually-informed-optimisation-frame
+p lk5339 2026-08 impedance-characterization-of-a-hl-lhc-nbsub3subsn-mqxfs-model-ma
+p zqwown 2026-07-14 =
+p u0kwsl 2026-07-06 ranking-the-impact-of-contextual-specialization-in-neural-speech--2

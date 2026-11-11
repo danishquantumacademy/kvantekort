@@ -1,0 +1,115 @@
+W
+Digital Twin-Guided Wireless Localization via Probabilistic Inverse Learning 2026 P 0
+Digital Twin-Aided Prescreening for User Scheduling in MU-MIMO Downlink Systems 2026 P 0
+Latency-Constrained Encoded Quantum Teleportation with Punctured Codes 2026 P 0
+Digital Twin-Assisted Measurement Design and Channel Statistics Prediction 2026 P 0
+Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework 2026 P 0
+Predicting ionic conductivity of sulfide glass solid-state electrolytes using max-flow ... 2026 J 0
+Conformal Data Contamination Tests for In-distribution Data Acquisition 2026 J 0
+Multi-Agent Conformal Prediction with Personalized Statistical Validity 2026 P 0
+Quantum Compression for Distributed Entanglement 2026 P 0
+Ring structure analysis in calcium aluminophosphate glasses 2026 J 0
+Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes 2026 P 0
+Classical Communication Protocol based on Joint Classical-Quantum Coding 2026 P 0
+Temporal Framework for Causality-Preserving Scheduling of Measurements in Quantum Networks 2026 P 0
+1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication 2026 P 0
+Reliable Quantum Links: Entanglement, Error Correction, and Classical Communication 2026 J 0
+The fibre operators in the Bloch-Floquet decomposition of periodic magnetic pseudo-diff... 2026 J 0
+On directional growth of the resolvent norm 2026 P 0
+Sharp iteration asymptotics for transfer operators induced by greedy β-expansions 2026 J 0
+Green’s Functions for Magnetic Dirac Operators and Bulk-Edge Correspondence 2026 J 0
+Spectral and dynamical results related to certain non-integer base expansions on the un... 2026 J 0
+When Is Distributed Nonlinear Aggregation Private? Optimality and Information-Theoretic... 2026 P 0
+Deflating quantum error-correcting codes 2025 P 0
+Entanglement-swapping measurements for deterministic entanglement distribution 2026 J 0
+Scaling Laws of Quantum Networks: An Entanglement Transport Framework 2026 P 0
+Protocol for purifying noisy preparation and measurements of qubits 2026 J 0
+Carrier-Assisted Entanglement Purification 2026 J 0
+Detecting Entanglement by State Preparation and Local Measurements 2026 J 0
+Minimizing Combined Sewer Overflows with Online Model-Predictive Reinforcement Learning 2026 J 0
+Efficient monitoring of timed properties 2026 J 0
+Efficient Runtime Verification of Real-Time Systems under Parametric Communication Delays 2026 J 0
+Robust lateral control for scaled autonomous vehicles using LPV polytopic approach 2026 J 0
+Safe and infinite resource scheduling using energy timed automata 2026 J 0
+Dual-Mode Wireless Devices for Adaptive Pull and Push-Based Communication 2026 J 0
+Tunable Gaussian Pulse for Delay-Doppler ISAC 2026 J 0
+Routing and Downlink Resource Allocation for Multicast Traffic in LEO Satellite Constel... 2026 J 0
+Sensing Assisted Satellite Backhaul with FBL UL and Broadcast DL for Massive IoT 2026 P 0
+Rate-Splitting--Inspired Uplink Near-Field ISAC 2026 P 0
+Data-Selective Online Battery Identification Using Extended Time Regular Expressions 2026 P 0
+Scalable Computation of Inter-Core Bounds Through Exact Abstractions 2024 P 0
+An investigation of safe and near-optimal strategies for prevention of Covid-19 exposur... 2022 J 0
+MCIR: A Feature Dependence-Aware Explainability Method with Reliability Guarantees 2026 P 0
+Explainability of Complex AI Models with Correlation Impact Ratio 2026 J 0
+Electrical Control of Excitons in Bare MoSe2 and MoSe2/NbSe2 Heterostructures 2026 J 0
+Linear and nonlinear polarizabilities of anharmonic oscillators from hypergeometric res... 2025 J 0
+Optimal Reset of Zeeman Disk Qubits 2025 J 0
+Polarizability of One-Dimensional Soft-Core Atoms 2025 J 0
+In-Context Learning for MIMO Turbo Receivers 2026 P 0
+Energy-Efficient Timely Relevant IoT Data Retrieval with Wireless Memory Approximation 2026 P 0
+Contraction Heuristics for Tensor Decision Diagrams 2024 J 0
+RangeEnclosures.jl: A framework to bound function ranges 2024 J 0
+Verified propagation of imprecise probabilities in non-linear ODEs 2024 J 0
+Into the unknown: active monitoring of neural networks (extended version) 2023 J 0
+Deep brain stimulation beneficial for treatment-resistant depression: A systematic revi... 2026 J 0
+Defining Postoperative Weight Trends in Pediatric Patients Undergoing Limb Reconstructi... 2026 J 0
+Analysis and simulations of binary black hole merger spins — The question of spin-axis ... 2025 J 0
+Deep Brain Stimulation Is Beneficial for Treatment-Resistant Depression: A Systematic R... 2025 P 0
+Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access 2026 P 0
+Statistical Analysis for Energy-Efficient Satellite Edge Computing with Latency Guarantees 2026 P 0
+Edge Intelligence for Satellite-based Earth Observation: Scheduling Image Acquisition a... 2026 P 0
+GTM: An Enhanced Genetic Algorithm for Process Discovery 2026 R 0
+Towards model-driven heat pump control in a multi-story building 2025 J 0
+Measurement-Noise Filtering for Automatic Discovery of Flow Splitting Ratios in ISP Net... 2024 J 0
+Optimal control strategies for stormwater detention ponds 2024 J 0
+Methods for Efficient Unfolding of Colored Petri Nets 2023 J 0
+Joint Beamforming and Trajectory Optimization for Multi-UAV-Assisted Integrated Sensing... 2026 J 0
+Semi-Autonomous Prosthesis Control Empowered by 5G and Mobile Edge Computing 2026 P 0
+NOMA Grant-Free Scheme in Periodically Scheduled Uplink for Time-Critical- and Massive-... 2026 J 0
+Magnetic pseudo-differential operators with Hörmander symbols dominated by tempered wei... 2026 J 0
+Hartree–Fock approksimationen og aspekter af operatorteori: Mikkel Hviid Thorn fortælle... 0 J 0
+Approximate regular equivalence by partition refinement 2025 J 0
+Approximate constrained lumping of chemical reaction networks 2025 J 0
+Forward and Backward Constrained Bisimulations for Quantum Circuits Using Decision Diag... 2025 J 0
+Coarse-graining Complex Networks for Control Equivalence 2025 J 0
+Proper Lumping for Positive Bilinear Control Systems 2024 J 0
+Virtual smart metering in district heating networks via heterogeneous spatial-temporal ... 2026 J 0
+Probabilistic Sequential Safety for Stochastic Dynamical Systems 2026 P 0
+Dynamic Simulation and Fault Injection for a Fixed-Bed Methanol Synthesis Reactor 2026 P 0
+On Embedding Design in Quantum Physics-Informed Neural Networks 2026 P 0
+Robust Fault Detection in Mechanical Multimodal Time Series via Self-Supervised Cross-M... 2026 P 0
+Joint Higher-Order Low-Rank Tensor Decompositions for Multichannel Acoustic System Comp... 2026 P 0
+A Comparative Study of a Perceptually Informed Optimisation Framework for Sound Field R... 2026 J 0
+Impedance Characterization of a HL-LHC Nb3Sn MQXFS Model Magnet During Powered Operatio... 2026 J 0
+Listen first: Output-based multi-microphone speech enhancement 2026 P 0
+Ranking the Impact of Contextual Specialization in Neural Speech Enhancement 2026 P 0
+P
+Mahmoud Abouamer|mahmoudabo|0000-0001-5941-269X|p||0|0|0p,1p,2p,3p,4p|10/1
+Suhaib Al-Rousan|suhaibar|0009-0001-4770-553X|p||0|0||0/0
+Benjamin Clausen Bennetzen|benjamin-clausen-bennetzen|0009-0007-1751-6862|p||0|0||0/0
+Christophe Biscio|christophe|0000-0002-2218-6825|p||0|0|5p,6p,7p,8p,9p|25/2
+René Bødker Christensen|rene|0000-0002-9209-3739|p||0|0|10p,11p,12p,13p,14p|14/3
+Horia Cornean|cornean|0000-0003-2700-8785|p||0|0|15p,16p,17p,18p,19p|28/2
+Jaron Skovsted Gundersen|jaron-gundersen|0000-0003-0882-4621|p||0|0|10p,4p,20p,14p,21p|9/2
+Jaemin Kim|jaemink|0009-0007-1877-3107|p||0|0|22p,23p,24p,25p,26p|7/2
+Nikolaj Rossander Kristensen|nrk|0009-0005-2339-8247|p||0|0||0/0
+Kim Guldstrand Larsen|kgl|0000-0002-5953-3384|p||0|0|27p,28p,29p,30p,31p|39/16
+Thomas Grubbe Sandborg Lauritsen|thomas-lauritsen|0009-0001-9089-8015|p||0|0||0/0
+Israel Leyva Mayorga|ilm|0000-0002-7116-397X|p||0|0|32p,33p,34p,35p,36p|42/7
+Marius Mikučionis|marius-miku%C4%8Dionis|0000-0001-8157-5428|p||0|0|37p,38p,39p|3/2
+Shashi Raj Pandey|srp|0000-0002-5781-4131|p||0|0|0p,32p,40p,6p,41p|48/6
+Nicolai Peder Bülow Pedersen|nicolai-peder-b%C3%BClow-pedersen||||0|0|10p|1/0
+Thomas Garm Pedersen|tgp|0000-0002-9466-6190|p||0|0|42p,13p,43p,44p,45p|29/2
+Petar Popovski|petarp|0000-0001-6195-4797|p||0|0|0p,32p,46p,33p,47p|261/49
+Søren Pilegaard Rasmussen|spr|0009-0005-3643-901X|p||0|0|4p,14p|2/1
+Christian Schilling|christianms|0000-0003-3658-1065|p||0|0|30p,48p,49p,50p,51p|7/9
+Ali Sepas|asep||||0|0|52p,53p,42p,54p,55p|7/0
+Beatriz Soret|124676|0000-0003-2708-645X|p||0|0|34p,56p,57p,58p,13p|32/10
+Jiri Srba|srba|0000-0001-5551-6547|p||0|0|59p,60p,61p,62p,63p|14/12
+Cedomir Stefanovic|126055|0000-0002-9361-2908|p||0|0|11p,64p,35p,65p,66p|37/13
+Jakob Kaltoft Søndergaard|jakobks|0009-0004-0458-6202|p||0|0|10p,2p,12p,13p,14p|5/2
+Mikkel Hviid Thorn|mikkel-hviid-thorn|0009-0009-7486-4323|p||0|0|67p,68p|2/0
+Max Tschaikowski|tschaikowski|0000-0002-6186-8669|p||0|0|69p,70p,71p,72p,73p|13/0
+Loke Walsted|lokew||||0|0||0/0
+Rafal Wisniewski|raf|0000-0001-6719-8427|p||0|0|74p,75p,76p,77p,78p|57/1
+Jan Østergaard|104838|0000-0002-3724-6114|p||0|0|79p,80p,81p,82p,83p|63/7

@@ -1,0 +1,167 @@
+# classique, compact harvest 11 November 2026 (AAU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Mahmoud Abouamer|~mahmoudabo/|0000-0001-5941-269X||0
+#N|10|1
+p|1mv88k9|2026-10-27|P|digital-twin-guided-wireless-localization-via-probabilistic-inver|||Digital Twin-Guided Wireless Localization via Probabilistic Inverse Learning
+p|fh3xd1|2026-08-11|P|digital-twin-aided-prescreening-for-user-scheduling-in-mu-mimo-do|||Digital Twin-Aided Prescreening for User Scheduling in MU-MIMO Downlink Systems
+p|hm5k8o|2026-07-22|P|latency-constrained-encoded-quantum-teleportation-with-punctured-|||Latency-Constrained Encoded Quantum Teleportation with Punctured Codes
+p|s1e4ad|2026-03-24|P|digital-twin-assisted-measurement-design-and-channel-statistics-p|||Digital Twin-Assisted Measurement Design and Channel Statistics Prediction
+p|1ftivb9|2026-02-12|P|resource-adaptive-teleportation-under-imperfect-entanglement-a-co|||Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework
+#M|Suhaib Al-Rousan|~suhaibar/|0009-0001-4770-553X||0
+#N|0|0
+#M|Benjamin Clausen Bennetzen|~benjamin-clausen-bennetzen/|0009-0007-1751-6862||0
+#N|0|0
+#M|Christophe Biscio|~christophe/|0000-0002-2218-6825||0
+#N|25|2
+p|171mtfv|2026-12|J|predicting-ionic-conductivity-of-sulfide-glass-solid-state-electr|||Predicting ionic conductivity of sulfide glass solid-state electrolytes using max-flow ...
+p|6dhc8o|2026-10|J|conformal-data-contamination-tests-for-in-distribution-data-acqui|||Conformal Data Contamination Tests for In-distribution Data Acquisition
+p|537zue|2026-05-30|P|multi-agent-conformal-prediction-with-personalized-statistical-va|||Multi-Agent Conformal Prediction with Personalized Statistical Validity
+p|n69uio|2026-05-05|P|=|||Quantum Compression for Distributed Entanglement
+p|x59wan|2026-03|J|=|||Ring structure analysis in calcium aluminophosphate glasses
+#M|René Bødker Christensen|~rene/|0000-0002-9209-3739||0
+#N|14|3
+p|tol0uk|2026-09-28|P|=|||Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes
+p|16crkf3|2026-09-15|P|classical-communication-protocol-based-on-joint-classical-quantum|||Classical Communication Protocol based on Joint Classical-Quantum Coding
+p|vr8x0n|2026-02-12|P|temporal-framework-for-causality-preserving-scheduling-of-measure|||Temporal Framework for Causality-Preserving Scheduling of Measurements in Quantum Networks
+p|7qeyyl|2026-01-12|P|1q-first-generation-wireless-systems-integrating-classical-and-qu-2|||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication
+p|djar7a|2026|J|reliable-quantum-links-entanglement-error-correction-and-classica|||Reliable Quantum Links: Entanglement, Error Correction, and Classical Communication
+#M|Horia Cornean|~cornean/|0000-0003-2700-8785||0
+#N|28|2
+p|tgultf|2026-06|J|the-fibre-operators-in-the-bloch-floquet-decomposition-of-periodi|||The fibre operators in the Bloch-Floquet decomposition of periodic magnetic pseudo-diff...
+p|182k9sz|2026-02-20|P|=|||On directional growth of the resolvent norm
+p|1jqwhiq|2026-01|J|sharp-iteration-asymptotics-for-transfer-operators-induced-by-gre|||Sharp iteration asymptotics for transfer operators induced by greedy β-expansions
+p|u9l3t2|2026|J|greens-functions-for-magnetic-dirac-operators-and-bulk-edge-corre|||Green’s Functions for Magnetic Dirac Operators and Bulk-Edge Correspondence
+p|v5ywoz|2026|J|spectral-and-dynamical-results-related-to-certain-non-integer-bas|||Spectral and dynamical results related to certain non-integer base expansions on the un...
+#M|Jaron Skovsted Gundersen|~jaron-gundersen/|0000-0003-0882-4621||0
+#N|9|2
+p|tol0uk|2026-09-28|P|=|||Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes
+p|1ftivb9|2026-02-12|P|resource-adaptive-teleportation-under-imperfect-entanglement-a-co|||Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework
+p|lg1jcb|2026-01-19|P|when-is-distributed-nonlinear-aggregation-private-optimality-and-|||When Is Distributed Nonlinear Aggregation Private? Optimality and Information-Theoretic...
+p|djar7a|2026|J|reliable-quantum-links-entanglement-error-correction-and-classica|||Reliable Quantum Links: Entanglement, Error Correction, and Classical Communication
+p|lzh22u|2025-12-17|P|=|||Deflating quantum error-correcting codes
+#M|Jaemin Kim|~jaemink/|0009-0007-1877-3107||0
+#N|7|2
+p|vaear|2026-12|J|entanglement-swapping-measurements-for-deterministic-entanglement|||Entanglement-swapping measurements for deterministic entanglement distribution
+p|1sx87a4|2026-09-30|P|scaling-laws-of-quantum-networks-an-entanglement-transport-framew|||Scaling Laws of Quantum Networks: An Entanglement Transport Framework
+p|f9fxkl|2026-06-26|J|protocol-for-purifying-noisy-preparation-and-measurements-of-qubi-2|||Protocol for purifying noisy preparation and measurements of qubits
+p|emrb68|2026|J|carrier-assisted-entanglement-purification-2|||Carrier-Assisted Entanglement Purification
+p|1dmwpnm|2026|J|detecting-entanglement-by-state-preparation-and-local-measurement-2|||Detecting Entanglement by State Preparation and Local Measurements
+#M|Nikolaj Rossander Kristensen|~nrk/|0009-0005-2339-8247||0
+#N|0|0
+#M|Kim Guldstrand Larsen|~kgl/|0000-0002-5953-3384||0
+#N|39|16
+p|l90w65|2026-09-18|J|minimizing-combined-sewer-overflows-with-online-model-predictive-|||Minimizing Combined Sewer Overflows with Online Model-Predictive Reinforcement Learning
+p|1jcrp8j|2026-08|J|=|||Efficient monitoring of timed properties
+p|yh6tn7|2026-06|J|efficient-runtime-verification-of-real-time-systems-under-paramet|||Efficient Runtime Verification of Real-Time Systems under Parametric Communication Delays
+p|hbl11z|2026-01-18|J|robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p|||Robust lateral control for scaled autonomous vehicles using LPV polytopic approach
+p|1faufiz|2026-01|J|safe-and-infinite-resource-scheduling-using-energy-timed-automata|||Safe and infinite resource scheduling using energy timed automata
+#M|Thomas Grubbe Sandborg Lauritsen|~thomas-lauritsen/|0009-0001-9089-8015||0
+#N|0|0
+#M|Israel Leyva Mayorga|~ilm/|0000-0002-7116-397X||0
+#N|42|7
+p|etff1r|2026-10-27|J|dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2|||Dual-Mode Wireless Devices for Adaptive Pull and Push-Based Communication
+p|1rsd0ea|2026-10-23|J|tunable-gaussian-pulse-for-delay-doppler-isac-2|||Tunable Gaussian Pulse for Delay-Doppler ISAC
+p|1p5k0v5|2026-09-03|J|routing-and-downlink-resource-allocation-for-multicast-traffic-in|||Routing and Downlink Resource Allocation for Multicast Traffic in LEO Satellite Constel...
+p|h27nsn|2026-09-01|P|sensing-assisted-satellite-backhaul-with-fbl-ul-and-broadcast-dl--2|||Sensing Assisted Satellite Backhaul with FBL UL and Broadcast DL for Massive IoT
+p|wythz0|2026-06-05|P|=|||Rate-Splitting--Inspired Uplink Near-Field ISAC
+#M|Marius Mikučionis|~marius-miku%C4%8Dionis/|0000-0001-8157-5428||0
+#N|3|2
+p|lxqiat|2026|P|data-selective-online-battery-identification-using-extended-time-|||Data-Selective Online Battery Identification Using Extended Time Regular Expressions
+p|116t7nf|2024-05-10|P|scalable-computation-of-inter-core-bounds-through-exact-abstracti-2|||Scalable Computation of Inter-Core Bounds Through Exact Abstractions
+p|rjutqr|2022-12|J|an-investigation-of-safe-and-near-optimal-strategies-for-preventi|||An investigation of safe and near-optimal strategies for prevention of Covid-19 exposur...
+#M|Shashi Raj Pandey|~srp/|0000-0002-5781-4131||0
+#N|48|6
+p|1mv88k9|2026-10-27|P|digital-twin-guided-wireless-localization-via-probabilistic-inver|||Digital Twin-Guided Wireless Localization via Probabilistic Inverse Learning
+p|etff1r|2026-10-27|J|dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2|||Dual-Mode Wireless Devices for Adaptive Pull and Push-Based Communication
+p|1vgkvyc|2026-10-01|P|mcir-a-feature-dependence-aware-explainability-method-with-reliab|||MCIR: A Feature Dependence-Aware Explainability Method with Reliability Guarantees
+p|6dhc8o|2026-10|J|conformal-data-contamination-tests-for-in-distribution-data-acqui|||Conformal Data Contamination Tests for In-distribution Data Acquisition
+p|g6ece2|2026-09-29|J|explainability-of-complex-ai-models-with-correlation-impact-ratio-2|||Explainability of Complex AI Models with Correlation Impact Ratio
+#M|Nicolai Peder Bülow Pedersen|~nicolai-peder-b%C3%BClow-pedersen/|||0
+#N|1|0
+p|tol0uk|2026-09-28|P|=|||Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes
+#M|Thomas Garm Pedersen|~tgp/|0000-0002-9466-6190||0
+#N|29|2
+p|1ozlsrg|2026-05-12|J|electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su|||Electrical Control of Excitons in Bare MoSe2 and MoSe2/NbSe2 Heterostructures
+p|7qeyyl|2026-01-12|P|1q-first-generation-wireless-systems-integrating-classical-and-qu-2|||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication
+p|11ehahx|2025-12|J|linear-and-nonlinear-polarizabilities-of-anharmonic-oscillators-f|||Linear and nonlinear polarizabilities of anharmonic oscillators from hypergeometric res...
+p|4gvacy|2025-10|J|=|||Optimal Reset of Zeeman Disk Qubits
+p|177xs9|2025-07|J|=|||Polarizability of One-Dimensional Soft-Core Atoms
+#M|Petar Popovski|~petarp/|0000-0001-6195-4797||0
+#N|261|49
+p|1mv88k9|2026-10-27|P|digital-twin-guided-wireless-localization-via-probabilistic-inver|||Digital Twin-Guided Wireless Localization via Probabilistic Inverse Learning
+p|etff1r|2026-10-27|J|dual-mode-wireless-devices-for-adaptive-pull-and-push-based-commu-2|||Dual-Mode Wireless Devices for Adaptive Pull and Push-Based Communication
+p|tpltsa|2026-10-27|P|=|||In-Context Learning for MIMO Turbo Receivers
+p|1rsd0ea|2026-10-23|J|tunable-gaussian-pulse-for-delay-doppler-isac-2|||Tunable Gaussian Pulse for Delay-Doppler ISAC
+p|ip2onw|2026-10-21|P|energy-efficient-timely-relevant-iot-data-retrieval-with-wireless|||Energy-Efficient Timely Relevant IoT Data Retrieval with Wireless Memory Approximation
+#M|Søren Pilegaard Rasmussen|~spr/|0009-0005-3643-901X||0
+#N|2|1
+p|1ftivb9|2026-02-12|P|resource-adaptive-teleportation-under-imperfect-entanglement-a-co|||Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework
+p|djar7a|2026|J|reliable-quantum-links-entanglement-error-correction-and-classica|||Reliable Quantum Links: Entanglement, Error Correction, and Classical Communication
+#M|Christian Schilling|~christianms/|0000-0003-3658-1065||0
+#N|7|9
+p|hbl11z|2026-01-18|J|robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p|||Robust lateral control for scaled autonomous vehicles using LPV polytopic approach
+p|k682bw|2024-12|J|=|||Contraction Heuristics for Tensor Decision Diagrams
+p|15bzvp9|2024|J|rangeenclosuresjl-a-framework-to-bound-function-ranges|||RangeEnclosures.jl: A framework to bound function ranges
+p|1t4l82v|2024|J|verified-propagation-of-imprecise-probabilities-in-non-linear-ode|||Verified propagation of imprecise probabilities in non-linear ODEs
+p|84ct6v|2023-08|J|into-the-unknown-active-monitoring-of-neural-networks-extended-ve|||Into the unknown: active monitoring of neural networks (extended version)
+#M|Ali Sepas|~asep/|||0
+#N|7|0
+p|ps7dua|2026-11|J|deep-brain-stimulation-beneficial-for-treatment-resistant-depress|||Deep brain stimulation beneficial for treatment-resistant depression: A systematic revi...
+p|r2nx5v|2026-08-25|J|defining-postoperative-weight-trends-in-pediatric-patients-underg|||Defining Postoperative Weight Trends in Pediatric Patients Undergoing Limb Reconstructi...
+p|1ozlsrg|2026-05-12|J|electrical-control-of-excitons-in-bare-mosesub2sub-and-mosesub2su|||Electrical Control of Excitons in Bare MoSe2 and MoSe2/NbSe2 Heterostructures
+p|10hw8vk|2025-12|J|analysis-and-simulations-of-binary-black-hole-merger-spins-the-qu|||Analysis and simulations of binary black hole merger spins — The question of spin-axis ...
+p|1c0oo8t|2025|P|deep-brain-stimulation-is-beneficial-for-treatment-resistant-depr|||Deep Brain Stimulation Is Beneficial for Treatment-Resistant Depression: A Systematic R...
+#M|Beatriz Soret|~124676/|0000-0003-2708-645X||0
+#N|32|10
+p|1p5k0v5|2026-09-03|J|routing-and-downlink-resource-allocation-for-multicast-traffic-in|||Routing and Downlink Resource Allocation for Multicast Traffic in LEO Satellite Constel...
+p|xxgms0|2026-07-02|P|low-latency-task-oriented-image-transmission-with-opportunistic-s|||Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access
+p|193j2dk|2026-05-11|P|statistical-analysis-for-energy-efficient-satellite-edge-computin|||Statistical Analysis for Energy-Efficient Satellite Edge Computing with Latency Guarantees
+p|11ql5i9|2026-04-07|P|edge-intelligence-for-satellite-based-earth-observation-schedulin|||Edge Intelligence for Satellite-based Earth Observation: Scheduling Image Acquisition a...
+p|7qeyyl|2026-01-12|P|1q-first-generation-wireless-systems-integrating-classical-and-qu-2|||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication
+#M|Jiri Srba|~srba/|0000-0001-5551-6547||0
+#N|14|12
+p|18nvnia|2026|R|=|||GTM: An Enhanced Genetic Algorithm for Process Discovery
+p|xpi35x|2025|J|=|||Towards model-driven heat pump control in a multi-story building
+p|154016a|2024-12-05|J|measurement-noise-filtering-for-automatic-discovery-of-flow-split|||Measurement-Noise Filtering for Automatic Discovery of Flow Splitting Ratios in ISP Net...
+p|15ciw7d|2024-08|J|=|||Optimal control strategies for stormwater detention ponds
+p|z58x6i|2023-10-26|J|=|||Methods for Efficient Unfolding of Colored Petri Nets
+#M|Cedomir Stefanovic|~126055/|0000-0002-9361-2908||0
+#N|37|13
+p|16crkf3|2026-09-15|P|classical-communication-protocol-based-on-joint-classical-quantum|||Classical Communication Protocol based on Joint Classical-Quantum Coding
+p|k9wqj6|2026-09-01|J|joint-beamforming-and-trajectory-optimization-for-multi-uav-assis-2|||Joint Beamforming and Trajectory Optimization for Multi-UAV-Assisted Integrated Sensing...
+p|h27nsn|2026-09-01|P|sensing-assisted-satellite-backhaul-with-fbl-ul-and-broadcast-dl--2|||Sensing Assisted Satellite Backhaul with FBL UL and Broadcast DL for Massive IoT
+p|1t279dq|2026-08-31|P|semi-autonomous-prosthesis-control-empowered-by-5g-and-mobile-edg|||Semi-Autonomous Prosthesis Control Empowered by 5G and Mobile Edge Computing
+p|azkno4|2026-08-01|J|noma-grant-free-scheme-in-periodically-scheduled-uplink-for-time-|||NOMA Grant-Free Scheme in Periodically Scheduled Uplink for Time-Critical- and Massive-...
+#M|Jakob Kaltoft Søndergaard|~jakobks/|0009-0004-0458-6202||0
+#N|5|2
+p|tol0uk|2026-09-28|P|=|||Puncturing for Adaptive Entanglement-Assisted Stabilizer Codes
+p|hm5k8o|2026-07-22|P|latency-constrained-encoded-quantum-teleportation-with-punctured-|||Latency-Constrained Encoded Quantum Teleportation with Punctured Codes
+p|vr8x0n|2026-02-12|P|temporal-framework-for-causality-preserving-scheduling-of-measure|||Temporal Framework for Causality-Preserving Scheduling of Measurements in Quantum Networks
+p|7qeyyl|2026-01-12|P|1q-first-generation-wireless-systems-integrating-classical-and-qu-2|||1Q: First-Generation Wireless Systems Integrating Classical and Quantum Communication
+p|djar7a|2026|J|reliable-quantum-links-entanglement-error-correction-and-classica|||Reliable Quantum Links: Entanglement, Error Correction, and Classical Communication
+#M|Mikkel Hviid Thorn|~mikkel-hviid-thorn/|0009-0009-7486-4323||0
+#N|2|0
+p|1n1xyj9|2026-03|J|magnetic-pseudo-differential-operators-with-h%C3%B6rmander-symbols-dom|||Magnetic pseudo-differential operators with Hörmander symbols dominated by tempered wei...
+p|rqh55n||J|hartreefock-approksimationen-og-aspekter-af-operatorteori-mikkel-|||Hartree–Fock approksimationen og aspekter af operatorteori: Mikkel Hviid Thorn fortælle...
+#M|Max Tschaikowski|~tschaikowski/|0000-0002-6186-8669||0
+#N|13|0
+p|7wilp7|2025-12|J|=|||Approximate regular equivalence by partition refinement
+p|uu6skg|2025-07-02|J|=|||Approximate constrained lumping of chemical reaction networks
+p|z223fb|2025-06|J|forward-and-backward-constrained-bisimulations-for-quantum-circui-2|||Forward and Backward Constrained Bisimulations for Quantum Circuits Using Decision Diag...
+p|1h7pwpk|2025|J|=|||Coarse-graining Complex Networks for Control Equivalence
+p|1o8246g|2024|J|=|||Proper Lumping for Positive Bilinear Control Systems
+#M|Loke Walsted|~lokew/|||0
+#N|0|0
+#M|Rafal Wisniewski|~raf/|0000-0001-6719-8427||0
+#N|57|1
+p|1rsb3eb|2026-12-15|J|virtual-smart-metering-in-district-heating-networks-via-heterogen-2|||Virtual smart metering in district heating networks via heterogeneous spatial-temporal ...
+p|1qcr98t|2026-10-27|P|=|||Probabilistic Sequential Safety for Stochastic Dynamical Systems
+p|vpjxt2|2026-10-07|P|dynamic-simulation-and-fault-injection-for-a-fixed-bed-methanol-s|||Dynamic Simulation and Fault Injection for a Fixed-Bed Methanol Synthesis Reactor
+p|o7lrwo|2026-09-27|P|=|||On Embedding Design in Quantum Physics-Informed Neural Networks
+p|lx7g5d|2026-09-14|P|robust-fault-detection-in-mechanical-multimodal-time-series-via-s|||Robust Fault Detection in Mechanical Multimodal Time Series via Self-Supervised Cross-M...
+#M|Jan Østergaard|~104838/|0000-0002-3724-6114||0
+#N|63|7
+p|16jowx6|2026-11-05|P|joint-higher-order-low-rank-tensor-decompositions-for-multichanne|||Joint Higher-Order Low-Rank Tensor Decompositions for Multichannel Acoustic System Comp...
+p|ri69j3|2026-10|J|a-comparative-study-of-a-perceptually-informed-optimisation-frame|||A Comparative Study of a Perceptually Informed Optimisation Framework for Sound Field R...
+p|lk5339|2026-08|J|impedance-characterization-of-a-hl-lhc-nbsub3subsn-mqxfs-model-ma|||Impedance Characterization of a HL-LHC Nb3Sn MQXFS Model Magnet During Powered Operatio...
+p|zqwown|2026-07-14|P|=|||Listen first: Output-based multi-microphone speech enhancement
+p|u0kwsl|2026-07-06|P|ranking-the-impact-of-contextual-specialization-in-neural-speech--2|||Ranking the Impact of Contextual Specialization in Neural Speech Enhancement

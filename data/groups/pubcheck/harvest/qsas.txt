@@ -1,0 +1,65 @@
+# qsas, compact harvest 11 November 2026 (AAU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Suhaib Al-Rousan|~suhaibar/|0009-0001-4770-553X||0
+#N|0|0
+#M|Giorgio Bacci|~grbacci/|0000-0003-4004-6049||0
+#N|7|1
+p|1x7sl6p|2026-08-11|J|=|||Quantitative Equational Logic
+p|1w5bon4|2026-07-29|R|induction-and-recursion-principles-in-a-higher-order-quantitative|||Induction and Recursion Principles in a Higher-Order Quantitative Logic for Probability
+p|fpsmzx|2026-02-18|R|=|||Rational Lawvere Logic
+p|42iv80|2024-10-01|J|=|||Sum and Tensor of Quantitative Effects
+p|1wsr1eg|2023-11-23|R|=|||Propositional Logics for the Lawvere Quantale
+#M|Benjamin Clausen Bennetzen|~benjamin-clausen-bennetzen/|0009-0007-1751-6862||0
+#N|0|0
+#M|Lukas Holik|~lukas-holik/|0000-0001-6957-1651||0
+#N|4|2
+p|1vxltbp|2026-01-08|J|=|||Parameterized Verification of Quantum Circuits
+p|ybym2t|2025-06-10|R|a-uniform-framework-for-handling-position-constraints-in-string-s|||A Uniform Framework for Handling Position Constraints in String Solving
+p|1mxs0p0|2025-05-21|J|word-equations-in-synergy-with-regular-constraints-extended-versi|||Word equations in synergy with regular constraints (extended version)
+p|4yx0ru|2025-01-07|R|=|||Verifying Quantum Circuits with Level-Synchronized Tree Automata
+#M|Nicolaj Østerby Jensen|~noje/|0009-0005-2359-204X||0
+#N|0|1
+#M|Nikolaj Rossander Kristensen|~nrk/|0009-0005-2339-8247||0
+#N|0|0
+#M|Stefano Lambiase|~stefano-lambiase/|0000-0002-9933-6203||0
+#N|25|13
+p|qs4myk|2027-01|J|from-challenge-to-change-design-principles-for-ai-transformations-2|||From challenge to change: Design principles for AI transformations
+p|1s48ow5|2026-12|J|exploring-individual-factors-in-the-adoption-of-llms-for-specific-2|||Exploring individual factors in the adoption of LLMs for specific software engineering ...
+p|17j4zuk|2026-11|J|from-values-to-adoption-on-the-role-of-individual-cultural-values|||From values to adoption: on the role of individual cultural values on fairness toolkit ...
+p|l9xsel|2026-10-21|P|engineering-requirements-for-generative-ai-agents-the-bard-proces|||Engineering Requirements for Generative AI Agents: The BARD Process Theory
+p|1uubk4t|2026-09|J|towards-ai-powered-automatic-3d-scene-generation-for-the-metavers|||Towards AI-powered automatic 3D scene generation for the metaverse: a comparative analy...
+#M|Kim Guldstrand Larsen|~kgl/|0000-0002-5953-3384||0
+#N|39|16
+p|l90w65|2026-09-18|J|minimizing-combined-sewer-overflows-with-online-model-predictive-|||Minimizing Combined Sewer Overflows with Online Model-Predictive Reinforcement Learning
+p|1jcrp8j|2026-08|J|=|||Efficient monitoring of timed properties
+p|yh6tn7|2026-06|J|efficient-runtime-verification-of-real-time-systems-under-paramet|||Efficient Runtime Verification of Real-Time Systems under Parametric Communication Delays
+p|hbl11z|2026-01-18|J|robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p|||Robust lateral control for scaled autonomous vehicles using LPV polytopic approach
+p|1faufiz|2026-01|J|safe-and-infinite-resource-scheduling-using-energy-timed-automata|||Safe and infinite resource scheduling using energy timed automata
+#M|Marius Mikučionis|~marius-miku%C4%8Dionis/|0000-0001-8157-5428||0
+#N|3|2
+p|lxqiat|2026|P|data-selective-online-battery-identification-using-extended-time-|||Data-Selective Online Battery Identification Using Extended Time Regular Expressions
+p|116t7nf|2024-05-10|P|scalable-computation-of-inter-core-bounds-through-exact-abstracti-2|||Scalable Computation of Inter-Core Bounds Through Exact Abstractions
+p|rjutqr|2022-12|J|an-investigation-of-safe-and-near-optimal-strategies-for-preventi|||An investigation of safe and near-optimal strategies for prevention of Covid-19 exposur...
+#M|Marco Antonio Muniz Rodriguez|~muniz/|0000-0003-2357-0375||0
+#N|4|0
+p|lxqiat|2026|P|data-selective-online-battery-identification-using-extended-time-|||Data-Selective Online Battery Identification Using Extended Time Regular Expressions
+p|rjutqr|2022-12|J|an-investigation-of-safe-and-near-optimal-strategies-for-preventi|||An investigation of safe and near-optimal strategies for prevention of Covid-19 exposur...
+p|osn197|2021-11-01|R|=|||Online and Proactive Vehicle Rerouting with Uppaal Stratego
+p|y2803d|2021-03-01|J|=|||Stubborn Set Reduction for Two-Player Reachability Games
+#M|Christian Schilling|~christianms/|0000-0003-3658-1065||0
+#N|7|9
+p|hbl11z|2026-01-18|J|robust-lateral-control-for-scaled-autonomous-vehicles-using-lpv-p|||Robust lateral control for scaled autonomous vehicles using LPV polytopic approach
+p|k682bw|2024-12|J|=|||Contraction Heuristics for Tensor Decision Diagrams
+p|15bzvp9|2024|J|rangeenclosuresjl-a-framework-to-bound-function-ranges|||RangeEnclosures.jl: A framework to bound function ranges
+p|1t4l82v|2024|J|verified-propagation-of-imprecise-probabilities-in-non-linear-ode|||Verified propagation of imprecise probabilities in non-linear ODEs
+p|84ct6v|2023-08|J|into-the-unknown-active-monitoring-of-neural-networks-extended-ve|||Into the unknown: active monitoring of neural networks (extended version)
+#M|Jiri Srba|~srba/|0000-0001-5551-6547||0
+#N|14|12
+p|18nvnia|2026|R|=|||GTM: An Enhanced Genetic Algorithm for Process Discovery
+p|xpi35x|2025|J|=|||Towards model-driven heat pump control in a multi-story building
+p|154016a|2024-12-05|J|measurement-noise-filtering-for-automatic-discovery-of-flow-split|||Measurement-Noise Filtering for Automatic Discovery of Flow Splitting Ratios in ISP Net...
+p|15ciw7d|2024-08|J|=|||Optimal control strategies for stormwater detention ponds
+p|z58x6i|2023-10-26|J|=|||Methods for Efficient Unfolding of Colored Petri Nets
+#M|Jonas Vester|~jonves/|||0
+#N|0|0
+#M|Loke Walsted|~lokew/|||0
+#N|0|0
