@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T06:24Z",
+ "generated": "2026-11-11T08:52Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -167,24 +167,24 @@
    "outputs": [
     {
      "date": "2026-01-01",
-     "title": "Broadband conversion of higher order LP0,m modes to Gaussian beams using silica binary phase plates",
-     "url": "https://orbit.dtu.dk/en/publications/broadband-conversion-of-higher-order-lp0m-modes-to-gaussian-beams/",
+     "title": "A Matlab code for analysis and topology optimization with Third Medium Contact",
+     "url": "https://orbit.dtu.dk/en/publications/a-matlab-code-for-analysis-and-topology-optimization-with-third-m/",
      "text": "",
      "kind": "output",
      "source": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
     },
     {
      "date": "2026-01-01",
-     "title": "Broadband Parametric Amplification in AlGaAs-on-Insulator Nanowaveguides",
-     "url": "https://orbit.dtu.dk/en/publications/broadband-parametric-amplification-in-algaas-on-insulator-nanowav/",
+     "title": "Automated Three-Dimensional Piezoresponse Force Microscopy for Polarization-Vector Mapping at the Nanoscale",
+     "url": "https://orbit.dtu.dk/en/publications/automated-three-dimensional-piezoresponse-force-microscopy-for-po/",
      "text": "",
      "kind": "output",
      "source": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
     },
     {
      "date": "2026-01-01",
-     "title": "Carrier Transport in Electrically-Driven Photonic Crystal Membrane Lasers",
-     "url": "https://orbit.dtu.dk/en/publications/carrier-transport-in-electrically-driven-photonic-crystal-membran/",
+     "title": "Beyond the quantum regression theorem in variational polaron master equations: From Ohmic to super-Ohmic environments",
+     "url": "https://orbit.dtu.dk/en/publications/beyond-the-quantum-regression-theorem-in-variational-polaron-mast/",
      "text": "",
      "kind": "output",
      "source": "https://orbit.dtu.dk/en/organisations/nanophoton-center-for-nanophotonics/"
@@ -196,7 +196,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -237,7 +237,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -319,7 +319,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -360,14 +360,121 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
   "nqcp": {
-   "news": [],
+   "news": [
+    {
+     "date": "2025-11-03",
+     "title": "NQCP and Japan’s Q-STAR advance industry collaboration",
+     "url": "https://nqcp.ku.dk/news/nqcp-and-japans-q-star-advance-industry-collaboration/",
+     "text": "ANNOUNCEMENT 2025.11.03 The Novo Nordisk Foundation Quantum Computing Programme (NQCP), based at the Niels Bohr Institute o…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2025-10-08",
+     "title": "NQCP Retreat 2025",
+     "url": "https://nqcp.ku.dk/news/nqcp-retreat-2025/",
+     "text": "NQCP LIFE 2025.10.08 On the 25th and 26th of September, we had our yearly NQCP Retreat at Helsingør. The NQCP team,…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2025-09-18",
+     "title": "UHV laboratory inauguration",
+     "url": "https://nqcp.ku.dk/news/uhv-laboratory-inauguration/",
+     "text": "TECH 2025.09.18 r …",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2025-08-21",
+     "title": "Denmark can now contribute to producing world-class chips",
+     "url": "https://nqcp.ku.dk/news/denmark-can-now-produce-world-class-chips/",
+     "text": "TECH 2025.08.21 For the first time, Denmark is establishing production of microchip wafers at the leading standard.…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "NQCP establishes a new collaboration on digital twins for quantum device development with Prineha Narang",
+     "url": "https://nqcp.ku.dk/news/nqcp-establishes-a-new-collaboration-on-digital-twins-for-quantum-device-development/",
+     "text": "NQCP Life 2025.07.21 As quantum devices grow ever more complex, modeling and predicting their behavior becomes both more…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2025-06-18",
+     "title": "Our 2025 Summer Party",
+     "url": "https://nqcp.ku.dk/news/our-2025-summer-party/",
+     "text": "NQCP Life 2025.06.18 Great weather, good food, and even better company.",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-11-29",
+     "title": "NQCP Photonic Pilot Line",
+     "url": "https://nqcp.ku.dk/news/nqcp-photonic-pilot-line/",
+     "text": "NQCP Life 2024.11.29 The Photonic Pilot Line team here at the Novo Nordisk Foundation Quantum Computing Programme (NQCP)…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-10-17",
+     "title": "NQCP Education & Outreach Group",
+     "url": "https://nqcp.ku.dk/news/nqcp-education--outreach-group/",
+     "text": "NQCP Life 2024.10.17 Building the Quantum Workforce: A profile of the Education and Outreach team at NQCP.",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-09-25",
+     "title": "The 2024 NQCP Retreat",
+     "url": "https://nqcp.ku.dk/news/the-2024-nqcp-retreat/",
+     "text": "NQCP Life 2024.09.25 In September, all of NQCP went north for a 2-day retreat in Helsingør. A highlight was the…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-06-28",
+     "title": "Joining Forces with MIT for Transatlantic Research in Quantum Computing",
+     "url": "https://nqcp.ku.dk/news/mitcollaboration/",
+     "text": "Annoucement 2024.06.28 We are pleased to announce that we are building two identical quantum laboratory setups—one at here…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-06-07",
+     "title": "Our 2024 Summer Party",
+     "url": "https://nqcp.ku.dk/news/our-2024-summer-party/",
+     "text": "NQCP Life 2024.06.07 We celebrated summer by gathering for an evening of classic Danish hotdogs, hygge, and some fun…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-06-01",
+     "title": "NQCP Team Up with NYU to Advance Quantum Material Research",
+     "url": "https://nqcp.ku.dk/news/novo-nordisk-foundation-quantum-computing-programme-partners-with-nyu-to-advance-quantum-material-research/",
+     "text": "Annoucement 2024.06.01 We have embarked on a collaborative effort with New York University’s Center for Quantum Informatio…",
+     "source": "https://nqcp.ku.dk/news/"
+    }
+   ],
    "events": [],
-   "grants": [],
+   "grants": [
+    {
+     "date": "2026-01-26",
+     "title": "Shingo Kono wins a Villum Young Investigator grant",
+     "url": "https://nqcp.ku.dk/news/shingo-kono-wins-a-villum-young-investigator-grant/",
+     "text": "ANNOUNCEMENT 2026.01.26 Shingo Kono, leader of the Intra- & Inter- connects team at NQCP, has been awarded a Villum Young…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2025-09-21",
+     "title": "NQCP celebrates major grant wins driving quantum innovation",
+     "url": "https://nqcp.ku.dk/news/nqcp-celebrates-major-grant-wins-driving-quantum-innovation/",
+     "text": "ANNOUNCEMENT 2025.09.21 r We are excited to share that several…",
+     "source": "https://nqcp.ku.dk/news/"
+    },
+    {
+     "date": "2024-02-20",
+     "title": "The quantum potential of point defects",
+     "url": "https://nqcp.ku.dk/news/point-defects/",
+     "text": "NQCP Life 2024.02.20 Senior R&D Engineer at NQCP Jim Webb answers questions about his recent Villum Experiment project…",
+     "source": "https://nqcp.ku.dk/news/"
+    }
+   ],
    "jobs": [],
    "outputs": [
     {
@@ -401,42 +508,56 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
-     "ok": false,
-     "error": "no items found",
-     "checked": "2026-11-09T06:24Z"
+     "ok": true,
+     "n": 35,
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
   "qmath": {
    "news": [
     {
-     "date": "2026-03-01",
+     "date": "2026-03-17",
+     "title": "Siddharth Vadnerkar, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/siddharth-vadnerkar-postdoc/",
+     "text": "2026.03.17 Siddharth was employed as a postdoctoral researcher in the Analysis & Quantum Section as of 1…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-03-03",
+     "title": "Marek Miller, Assistant Professor",
+     "url": "https://www.math.ku.dk/english/news/new-names/marek-miller-assistant-professor/",
+     "text": "2026.03.03 Marek was employed as an assistant professor at the department’s section for Analysis & Quantum on …",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-03-03",
      "title": "Jeong-Hoon Ju, postdoc",
      "url": "https://www.math.ku.dk/english/news/new-names/jeong-hoon-ju-postdoc/",
      "text": "2026.03.03 Jeong-Hoon was employed as a postdoc on 1 March 2026 in the Analysis & Quantum Section, associated…",
      "source": "https://qmath.ku.dk/about/news/"
     },
     {
-     "date": "2026-02-01",
-     "title": "Zhongxia Shang, postdoc",
-     "url": "https://www.math.ku.dk/english/news/new-names/zhongxia-shang-postdoc/",
-     "text": "2026.02.18 Zhongxia Shang was employed on 1 February 2026 as a postdoc in the department’s Section for Analysi…",
-     "source": "https://qmath.ku.dk/about/news/"
-    },
-    {
-     "date": "2026-01-01",
+     "date": "2026-02-18",
      "title": "Wanqi Li, research assistant",
      "url": "https://www.math.ku.dk/english/news/new-names/wanqi-li-research-assistant/",
      "text": "2026.02.18 Wanqi Li was 1. January 2026, employed as a research assistant in the Centre for the Mathematics of…",
      "source": "https://qmath.ku.dk/about/news/"
     },
     {
-     "date": "2026-01-01",
+     "date": "2026-02-18",
+     "title": "Zhongxia Shang, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/zhongxia-shang-postdoc/",
+     "text": "2026.02.18 Zhongxia Shang was employed on 1 February 2026 as a postdoc in the department’s Section for Analysi…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-01-16",
      "title": "Emil Aagaard Clausen, PhD student",
      "url": "https://www.math.ku.dk/english/news/new-names/emil-aagaard-clausen-phd-student/",
      "text": "2026.01.16 Emil was hired on 1 January 2026 as a PhD student in the Analysis & Quantum section.",
@@ -450,21 +571,28 @@
      "source": "https://qmath.ku.dk/about/news/"
     },
     {
-     "date": "2025-10-01",
+     "date": "2025-11-11",
      "title": "Vjosa Blakaj, postdoc",
      "url": "https://www.math.ku.dk/english/news/new-names/vjosa-blakaj-postdoc/",
      "text": "2025.11.11 Vjosa Blakaj was employed on 1 October 2025 as a postdoc in the department’s Analysis & Quantum…",
      "source": "https://qmath.ku.dk/about/news/"
     },
     {
-     "date": "2025-10-01",
+     "date": "2025-11-10",
+     "title": "Roberto Rubboli, postdoc",
+     "url": "https://www.math.ku.dk/english/news/new-names/roberto-rubboli-postdoc/",
+     "text": "2025.11.10 Roberto Rubboli is a Postdoctoral Researcher at the department’s section for Analysis & Quantum,…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-11-03",
      "title": "Arthur Samuel Morris, postdoc",
      "url": "https://www.math.ku.dk/english/news/new-names/arthur-samuel-morris-postdoc/",
      "text": "2025.11.03 Arthur was employed on 1 October 2025 at the department’s section for Analysis & Quantum, affiliate…",
      "source": "https://qmath.ku.dk/about/news/"
     },
     {
-     "date": "2025-10-01",
+     "date": "2025-10-09",
      "title": "Vincent Louatron, postdoc",
      "url": "https://www.math.ku.dk/english/news/new-names/vincent-louatron-postdoc/",
      "text": "2025.10.09 Vincent Louatron started as a postdoc on 1 October 2025 in the department’s section of Analysis &…",
@@ -475,27 +603,6 @@
      "title": "Vladyslav Visnevskyi, PhD student",
      "url": "https://www.math.ku.dk/english/news/new-names/vladyslav-visnevskyi-phd-student/",
      "text": "2025.10.01 Vladyslav Visnevskyi was employed on 1 October 2025 at the department’s Analysis & Quantum Section…",
-     "source": "https://qmath.ku.dk/about/news/"
-    },
-    {
-     "date": "2025-10-01",
-     "title": "Marvin Raimund Schulz, postdoc",
-     "url": "https://www.math.ku.dk/english/news/new-names/marvin-raimund-schulz-postdoc/",
-     "text": "2025.09.29 Marvin is employed as a postdoctoral researcher from 1 October 2025 in the QA Section, affiliated…",
-     "source": "https://qmath.ku.dk/about/news/"
-    },
-    {
-     "date": "2025-09-01",
-     "title": "Anne van Grinsven, PhD student",
-     "url": "https://www.math.ku.dk/english/news/new-names/anne-van-grinsven-phd-student/",
-     "text": "2025.09.02 The department has employed Anne van Grinsven as a PhD student from 1 September 2025. She will be…",
-     "source": "https://qmath.ku.dk/about/news/"
-    },
-    {
-     "date": "2025-08-01",
-     "title": "Marta Pavelka, postdoc",
-     "url": "https://www.math.ku.dk/english/news/new-names/marta-pavelka-postdoc/",
-     "text": "2025.08.18 Marta Pavelka was employed on 1 August 2025 as a postdoc in the Analysis & Quantum Section.",
      "source": "https://qmath.ku.dk/about/news/"
     }
    ],
@@ -585,23 +692,132 @@
      "source": "https://qmath.ku.dk/events/"
     }
    ],
-   "grants": [],
-   "jobs": [],
+   "grants": [
+    {
+     "date": "2026-10-30",
+     "title": "Aleksei Kulikov awarded the Viggo Brun Prize",
+     "url": "https://www.math.ku.dk/english/news/2026/aleksei-kulikov-awarded-the-viggo-brun-prize/",
+     "text": "2026.10.30 Congratulations to Aleksei Kulikov from MATH, KU, who receives the Norwegian Mathematical Society –…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-05-22",
+     "title": "Frontiers of Science: Søren Fournais and Jan Philip Solovej",
+     "url": "https://www.math.ku.dk/english/news/2026/frontiers-of-science-soeren-fournais-and-jan-philip-solovej/",
+     "text": "2026.05.22 Søren Fournais and Jan Philip Solovej receive the 2026 Frontiers of Science Award at the…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2026-04-21",
+     "title": "Charles Bennett awarded the Turing prize",
+     "url": "https://www.math.ku.dk/english/news/2026/charles-bennett-awarded-the-turing-prize/",
+     "text": "2026.04.21 Charles Bennett, adjunct professor at MATH and honorary doctor at UCPH, receives the ACM A.M. Turin…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-09-11",
+     "title": "Laura Mančinska awarded the silver medal from the Royal Academy",
+     "url": "https://www.math.ku.dk/english/news/laura-maninska-awarded-the-silver-medal-from-the-royal-academy/",
+     "text": "2025.09.11 Laura is an associate professor at the Department of Mathematical Sciences' research centre, QMATH,…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-05-28",
+     "title": "ERC Starting Grant to Daniel Stilck França",
+     "url": "https://www.math.ku.dk/english/news/erc-starting-grant-to-daniel-stilck-frana/",
+     "text": "2025.05.28 Daniel brings a grant from the European Research Council to Copenhagen to tackle noise in quantum…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-05-14",
+     "title": "Villum Investigator grant to Jan Philip Solovej",
+     "url": "https://www.math.ku.dk/english/news/villum-investigator-grant-to-jan-philip-solovej/",
+     "text": "2025.05.14 Jan Philip Solovej receives DKK 30 million to search for a mathematical explanation of the periodic…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-05-13",
+     "title": "Quantum researcher training programme",
+     "url": "https://www.math.ku.dk/english/news/quantum-researcher-training-programme/",
+     "text": "2025.05.13 With a DKK 60 million grant from the Villum Foundation, the University of Copenhagen and the…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2025-02-19",
+     "title": "Marie Curie grants to David Jekel and Harold Nieuwboer",
+     "url": "https://www.math.ku.dk/english/news/marie-curie-grants-to-david-jekel-and-harold-nieuwboer/",
+     "text": "2025.02.19 David Jekel from the USA and Harold Nieuwboer from the Netherlands have won the competitive Europea…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2024-02-02",
+     "title": "Albert H. Werner receives additional grant from Villum Foundation",
+     "url": "https://www.math.ku.dk/english/news/werner-additional-villum-grant/",
+     "text": "2024.02.02 Albert H. Werner’s new research project is called “Standard operating procedures for robust…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2023-11-21",
+     "title": "The Boeing Quantum Creators Prize awarded to Freek Witteveen",
+     "url": "https://www.math.ku.dk/english/news/the-boeing-quantum-creators-prize-awarded-to-freek-witteveen/",
+     "text": "2023.11.21 At the newly held Chicago Quantum Summit, postdoc Freek Witteveen from the department’s QMATH Centr…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2023-06-13",
+     "title": "Marie Curie grants to Spaas and Olivieri",
+     "url": "https://www.math.ku.dk/english/news/marie-curie-grants-23/",
+     "text": "2023.06.13 Two postdocs - from Italy and Belgium - have won a competitive Marie Skłodowska-Curie Postdoctoral…",
+     "source": "https://qmath.ku.dk/about/news/"
+    },
+    {
+     "date": "2023-01-18",
+     "title": "Postdoc Freek Witteveen awarded prestigious PhD Prize",
+     "url": "https://qmath.ku.dk/about/news/postdoc-freek-witteveen/",
+     "text": "2023.01.18 Postdoc Freek Witteveen won the prestigious Dutch PhD Stieltjes Prize for the academic year…",
+     "source": "https://qmath.ku.dk/about/news/"
+    }
+   ],
+   "jobs": [
+    {
+     "date": "2026-11-15",
+     "deadline": "2026-11-15",
+     "title": "Postdoctoral Positions in Mathematics",
+     "url": "https://employment.ku.dk/all-vacancies/?show=167780",
+     "text": "Application deadline · postdoc call",
+     "source": "https://qmath.ku.dk/vacant-positions/"
+    },
+    {
+     "date": "2026-11-01",
+     "deadline": "2026-11-01",
+     "title": "PhD stipends in Mathematics",
+     "url": "https://employment.ku.dk/all-vacancies/?show=167403",
+     "text": "Application deadline · PhD call",
+     "source": "https://qmath.ku.dk/vacant-positions/"
+    }
+   ],
    "outputs": [],
    "sources": [
     {
      "url": "https://qmath.ku.dk/about/news/",
      "kind": "news",
      "ok": true,
-     "n": 48,
-     "checked": "2026-11-09T06:24Z"
+     "n": 120,
+     "checked": "2026-11-11T08:52Z"
     },
     {
      "url": "https://qmath.ku.dk/events/",
      "kind": "events",
      "ok": true,
-     "n": 15,
-     "checked": "2026-11-09T06:24Z"
+     "n": 14,
+     "checked": "2026-11-11T08:52Z"
+    },
+    {
+     "url": "https://qmath.ku.dk/vacant-positions/",
+     "kind": "jobs",
+     "ok": true,
+     "n": 2,
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -667,7 +883,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -733,7 +949,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -892,14 +1108,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -915,7 +1131,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -931,7 +1147,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -947,7 +1163,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -1095,6 +1311,13 @@
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     },
     {
+     "date": "2025-03-07",
+     "title": "The Gian Paolo Brivio International Prize",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/the-gian-paolo-brivio-international-prize",
+     "text": "07.03.2025 POLIMA affiliate P. Elli Stamatopoulou receives the prize in 2025",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
      "date": "2025-01-24",
      "title": "Young physicist receives prestigious grant and returns to SDU",
      "url": "https://www.sdu.dk/en/forskning/polima/news/andre-vender-tilbage-til-sdu",
@@ -1109,6 +1332,13 @@
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     },
     {
+     "date": "2024-06-03",
+     "title": "OWTNM Workshop 2024",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/owtnm-workshop-2024",
+     "text": "03.06.2024 POLIMA PhD students visit the OWTNM Workshop 2024 in Kiel and receive poster award",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
      "date": "2024-01-18",
      "title": "Sven Ebel receives award",
      "url": "https://www.sdu.dk/en/forskning/polima/news/sven-ebel-receives-award",
@@ -1120,6 +1350,13 @@
      "title": "Mikkel Have Eriksen receives award",
      "url": "https://www.sdu.dk/en/forskning/polima/news/mikkel-have-eriksen-receives-award",
      "text": "01.12.2023 PhD student at POLIMA awarded best poster presentation at NANOP2023",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
+    {
+     "date": "2023-11-17",
+     "title": "N. Asger Mortensen receives prize",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/n-asger-mortensen-receives-prize",
+     "text": "17.11.2023 Every year, Fyens Stiftstidende gives prizes to excellent researchers from Funen. Among this year's recipients is N. Asger Mortensen from the Faculty of Engineering.",
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     },
     {
@@ -1145,14 +1382,14 @@
      "kind": "news",
      "ok": true,
      "n": 110,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -1169,7 +1406,7 @@
     {
      "date": "2026-09-02",
      "title": "SDU er i verdenselite med banebrydende forskning",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-2/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
@@ -1177,7 +1414,7 @@
     {
      "date": "2026-09-02",
      "title": "SDU er i verdenselite med banebrydende forskning",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-2/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
@@ -1250,7 +1487,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -1348,7 +1585,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -1414,7 +1651,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   },
@@ -1480,7 +1717,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-09T06:24Z"
+     "checked": "2026-11-11T08:52Z"
     }
    ]
   }
