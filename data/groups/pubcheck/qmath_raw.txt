@@ -1,0 +1,630 @@
+W
+Ground State Energy of Dense Gases of Strongly Interacting Fermions 2025 J 4404061204 0
+Ground state energy of dilute Bose gases in 1D 2022 P 4406279538 0
+Ground State Energy of Dilute Fermi Gases in 1D 2025 P 4416683882 0
+Mathematical physics of dilute Bose gases 2025 J 4409243311 0
+Periodicity of Atomic Structure in a Thomas-Fermi Mean-Field Model 2025 J 4414770211 0
+Hardy inequalities for large fermionic systems 2024 J 4399651044 0
+Preface to the Special Collection in Honor of Freeman Dyson 2024 D 4391753465 1
+Stability of Matter 2024 C 0
+SU(2)-Equivariant Quantum Channels: Semiclassical Analysis 2024 J 4404646268 0
+A simple approach to Lieb–Thirring type inequalities 2023 J 4385988593 0
+The energy of dilute Bose gases II: the general case 2023 J 3197135107 0
+Upper bound on the ground state energy of the two-component charged Bose gas with arbitrary masses. 2022 C 4283737592 0
+Wehrl-type coherent state entropy inequalities for SU (1,1) and its AX + B subgroup 2021 C 3095972626 0
+A message from the president // Brief words from the editor-in-chief 2026 J 1
+A message from the president//Brief words from the editor-in-chief 2026 J 1
+A message from the president//Brief words from the editor-in-chief 2026 J 1
+Arbeitsgemeinschaft: Analysis of Many-body Quantum Systems 2026 J 7133514464 0
+A message from the president//Brief words from the editor-in-chief 2026 J 1
+Fraudulent publishing in mathematics: a European call to action and how information infrastructure can help 2026 J 7126117861 0
+A message from the president 2025 J 1
+A message from the president / Brief words from the editor-in-chief 2025 J 1
+A message from the president//Brief words from the editor-in-chief 2025 J 1
+A message from the president//Brief words from the editor-in-chief 2024 J 1
+A message from the president // Brief words from the editor-in-chief 2024 J 1
+A message from the president // Brief words from the editor-in-chief 2024 J 1
+Greetings from the president and former president of the European Mathematical Society 2024 C 4399730174 1
+A message from the president 2023 J 1
+A message from the president 2023 J 1
+A message from the president // Brief words from the editor-in-chief 2023 J 1
+On the energy of dilute Bose gases 2023 C 2937365443 0
+A message from the president // Brief words from the editor-in-chief 2023 D 4353070295 1
+A message from the president 2023 J 4382560546 1
+Message from the president // Brief words from the editor-in-chief 2023 D 4387461670 1
+A message from the president 2023 J 4389558677 1
+A message from the president 2024 J 4392947722 1
+A message from the president // Brief words from the editor-in-chief 2024 D 4399810412 1
+A message from the president // Brief words from the editor-in-chief 2024 D 4404416965 1
+A message from the president//Brief words from the editor-in-chief 2024 D 4405856249 1
+A message from the president//Brief words from the editor-in-chief 2025 D 4410293720 1
+A message from the president / Brief words from the editor-in-chief 2025 D 4412368965 1
+The angular momentum distribution of electrons in large atoms and its deviation from Madelung's rule 2025 P 4415311690 0
+A message from the president 2025 J 4416064989 1
+Dilute bosons and fermions in one-dimension 2025 O 7118614308 0
+A message from the president//Brief words from the editor-in-chief 2026 D 7126058362 1
+A message from the president//Brief words from the editor-in-chief 2026 D 7161582867 1
+A message from the president//Brief words from the editor-in-chief 2026 D 7169716076 1
+A message from the president // Brief words from the editor-in-chief 2026 D 7213267414 1
+Stability of Matter Interacting with Classical Non-Abelian Gauge Fields 2026 P 7220996571 0
+Adiabatic Preparation of Many-Body Quantum States: Getting the Beginning and the End Right 2026 J 7204994569 0
+Fault-tolerant quantum input/output 2026 J 7134900590 0
+How to Use Quantum Computers for Biomolecular Free Energies 2026 J 4414989804 0
+Monogamy of Highly Symmetric States 2026 J 4417114353 0
+Perfect Wave Transfer in Continuous Quantum Systems 2026 J 4417170543 0
+phase2: full-state vector simulation of quantum time evolution at scale 2026 J 4411975198 0
+Phase Estimation with Partially Randomized Time Evolution 2026 J 7147411151 0
+Plethysm is in #BQP 2026 R 7170200353 0
+A cornerstone of entanglement theory restored 2025 D 4416308079 1
+Asymptotic Tensor Rank Is Characterized by Polynomials 2025 R 4411320012 0
+Barriers for rectangular matrix multiplication 2025 J 3013622826 0
+Computing Moment Polytopes of Tensors, with Applications in Algebraic Complexity and Quantum Information 2025 R 4411320041 0
+Computing moment polytopes -- with a focus on tensors, entanglement and matrix multiplication 2025 P 4416384484 0
+Discreteness of Asymptotic Tensor Ranks 2024 R 7126377487 0
+Explicit non-free tensors 2025 P 4416424506 0
+Fault-Tolerant Quantum Computation with Constant Overhead for General Noise 2025 J 4416176252 0
+Fundamental Limit on the Power of Entanglement Assistance in Quantum Communication 2025 J 4406497453 0
+High Ground State Overlap via Quantum Embedding Methods 2025 J 4406348349 0
+Making Existing Quantum Position Verification Protocols Secure Against Arbitrary Transmission Loss 2025 J 4390091716 0
+Special issue honouring Mary Beth Ruskai 2025 D 4406061165 1
+The moment polytope of matrix multiplication is not maximal 2025 P 4416424509 0
+The tetrahedral Horn problem and asymptotics of U(n) 6j symbols 2025 P 4414972619 0
+Fault-Tolerant Coding for Entanglement-Assisted Communication 2023 R 4390873676 0
+Fault-tolerant Coding for Quantum Communication 2024 J 3084532362 0
+Going Beyond Gadgets: The Importance of Scalability for Analogue Quantum Simulators 2023 P 4401256968 0
+More quantum chemistry with fewer qubits 2024 J 4403186293 0
+Partial Degeneration of Tensors 2023 P 4392650278 0
+The resource theory of tensor networks 2024 J 4405279841 0
+The tensor as an informational resource 2024 J 4400113554 0
+A Gap in the Subrank of Tensors 2023 J 4388827602 0
+Experimental proposal to probe the extended Pauli principle 2023 J 3180350895 0
+On the Relation between Quantum Data Hiding and Quantum Key Distribution 2023 R 4386075223 0
+Quantum Computing for Molecular Biology 2023 J 4375856279 0
+Tip of the Quantum Entropy Cone 2023 J 4389671845 0
+Universal points in the asymptotic spectrum of tensors 2023 J 0
+Weighted slice rank and a minimax correspondence to Strassen's spectra 2023 J 3114635005 0
+An operational environment for quantum self-testing 2022 J 3193538291 0
+A single-qubit position verification protocol that is secure against multi-qubit attacks 2022 J 4287214698 0
+Larger Corner-Free Sets from Combinatorial Degenerations 2022 R 3213681675 0
+Lindblad Tomography of a Superconducting Quantum Processor 2022 R 3158947475 0
+Asymptotic Performance of Port-Based Teleportation 2021 J 0
+Barriers for fast matrix multiplication from irreversibility 2021 J 2903605276 0
+Border Rank Nonadditivity for Higher Order Tensors 2021 J 3041791564 0
+High Entropy Random Selection Protocols 2021 J 0
+Large deviation principle for moment map estimation 2021 J 3021575312 0
+Noise-robust exploration of many-body quantum states on near-term quantum devices 2021 J 3134048117 0
+Optimization at the boundary of the tensor network variety 2021 J 3038950000 0
+Upper Bounds on Device-Independent Quantum Key Distribution 2021 J 3156910012 0
+Symmetric Subrank of Tensors and Applications 2021 P 4287241691 0
+Discreteness of Asymptotic Tensor Ranks (Extended Abstract) 2023 P 4379474801 0
+Communication Complexity, Corner-Free Sets and the Symmetric Subrank of Tensors 2022 P 3144799691 0
+Fault-tolerant interfaces for quantum LDPC codes 2026 P 7130713169 0
+Analogue quantum simulation with polylogarithmic interaction strengths by extrapolating within phases of matter 2026 P 7161059292 0
+On quantum functionals for higher-order tensors 2026 P 7155032723 0
+Quantum-for-Life/pipeline 2026 O 7162910968 0
+The Compendium of Super-Quadratic Computational Quantum Advantages 2026 P 7223699345 0
+Supporting Information for XPRIZE Phase II Report - Team Q4Proteins 2026 O 7224772277 1
+Quantum algorithm for weakly correlated molecular electronic ground states with sub-quintic scaling in the system size 2026 P 7225205422 0
+Local Limits of One-Sided Trees 2024 J 4389626945 0
+The spectrum of asymptotic Cayley trees 2024 J 4396593147 0
+From Trees to Gravity 2023 C 4384347830 0
+Trees with exponential height dependent weight 2023 J 4319081305 0
+Recursion relations for chromatic coefficients for graphs and hypergraphs 2022 J 0
+Trees with power-like height dependent weight 2022 J 4312243998 0
+Critical behaviour of loop models on causal triangulations 2021 J 3159808669 0
+Counting negative eigenvalues for the magnetic Pauli operator 2025 J 4408041163 0
+Magnetic Tunneling Between Disc-Shaped Obstacles 2025 J 4409625601 0
+Purely magnetic tunneling between radial magnetic wells 2025 J 4390834119 0
+Discrete spectrum of the magnetic Laplacian on perturbed half-planes 2024 J 4399137967 0
+The Ground State Energy of a Two-Dimensional Bose Gas 2024 J 4392092650 0
+Effective operators on an attractive magnetic edge 2023 J 4290823174 0
+Lower bounds on the energy of the Bose gas 2023 J 4384932691 0
+Estimates on derivatives of Coulombic wave functions and their electron densities 2021 J 3157807046 0
+The energy of dilute Bose gases II 2023 J 0
+The Free Energy of Dilute Bose Gases at Low Temperatures Interacting Via Strong Potentials 2026 J 7134274839 0
+Length scales for BEC in the dilute Bose gas 2021 C 4256683024 0
+Tunneling effect induced by a curved magnetic edge 2022 C 4226539911 0
+Atoms in strong magnetic fields 2022 C 4283748176 0
+Tunneling between magnetic wells in two dimensions 2025 P 4414849657 0
+Eigenvalue asymptotics for the one-particle density matrix and one-particle kinetic energy density operator 2026 P 7202207447 0
+A Mathematical Foundation for Self-testing: Lifting Common Assumptions 2026 J 4416056586 0
+Maximal device-independent randomness in every dimension 2026 J 4403810003 0
+Quantum Perfect Matchings 2026 J 4415171565 0
+Sample-optimal and memory-efficient quantum state tomography 2026 J 4404089408 0
+Gap-preserving reductions and RE-completeness of independent set games 2025 R 7128646066 0
+All real projective measurements can be self-tested 2024 J 4401222816 0
+Constant-Sized Robust Self-Tests for States and Measurements of Unbounded Dimension 2024 J 3134077858 0
+Graph isomorphism: physical resources, optimization models, and algebraic characterizations 2024 J 3018731232 0
+Counterexamples in self-testing 2023 J 4383907965 0
+Products of synchronous games 2023 J 3202191715 0
+Quantum Majority Vote 2023 R 4309805334 0
+The geometry of Bloch space in the context of quantum random access codes 2022 J 3169414253 0
+Graph isomorphism 2024 J 0
+Weak Schur sampling with logarithmic quantum memory 2023 P 4386977665 0
+Glued magic games self-test maximally entangled states 2021 P 3165131149 0
+A memory and gate efficient algorithm for unitary mixed Schur sampling 2024 P 4404088981 0
+Classification and implementation of unitary-equivariant and permutation-invariant quantum channels 2025 P 4416383396 0
+Quantum Advantage with Faulty Oracle 2024 P 4404404794 0
+Quantum interaction can superactivate cheating under parallel repetition 2026 P 7214590484 0
+Robustness of quantum spectrum estimation: weak Schur sampling under noisy inputs 2026 P 7220429318 0
+The right entanglement for perfect nonlocality and zero-error communication 2026 P 7220740801 0
+Exponential Suppression of Transport in Electric Quantum Walks 2026 J 0
+Exponential Tail Estimates for Quantum Lattice Dynamics 2026 J 4403369782 0
+Efficient and robust estimation of many-qubit Hamiltonians 2024 J 4281394052 0
+Shadow estimation of gate-set properties from random sequences 2023 J 4386001188 0
+General Framework for Randomized Benchmarking 2022 J 3093093080 0
+Lieb-Robinson bounds imply locality of interactions 2022 J 3088800464 0
+Quantum Walks: Schur Functions Meet Symmetry Protected Topological Phases 2022 J 2922216725 0
+The Semiring of Dichotomies and Asymptotic Relative Submajorization 2022 J 3018942183 0
+Absolutely Continuous Edge Spectrum of Hall Insulators on the Lattice 2021 J 3125855383 0
+Anderson Localization for Electric Quantum Walks and Skew-Shift CMV Matrices 2021 J 2955372324 0
+Chiral Floquet Systems and Quantum Walks at Half-Period 2021 J 0
+Noise-mitigated randomized measurements and self-calibrating shadow estimation 2024 P 4392617707 0
+Quantum Walks 2022 J 0
+Learning and simulating bosonic systems via finite-energy locality 2023 P 4385373527 0
+Learning and certification of local time-dependent quantum dynamics and noise 2025 P 4416024024 0
+Heisenberg-limited Hamiltonian learning continuous variable systems via engineered dissipation 2025 P 4414891105 0
+Correlation Lengths for Stochastic Matrix Product States 2025 P 4416395158 0
+Quantum Hardware and Algorithms for Engineering and Life Sciences Applications 2024 B 4390718783 0
+Oddomorphisms and homomorphism indistinguishability over graphs of bounded degree 2026 J 7170343169 0
+Asymmetric graphs with quantum symmetry 2025 J 4388555898 0
+NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability 2025 R 4400716687 0
+Quantum automorphism groups of lexicographic products of graphs 2025 J 4409226783 0
+Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability 2024 J 4383465335 0
+Transitive nonlocal games 2024 J 4400782728 0
+Solution group representations as quantum symmetries of graphs 2022 J 3215803877 0
+Computational and Theoretical Challenges for Computing the Minimum Rank of a Graph 2022 J 4293215225 0
+Limit of Gaussian operations and measurements for Gaussian state discrimination and its application to state comparison 2021 J 3082227986 0
+Quantum automorphism groups of trees 2025 J 4406477820 0
+Group Invariant Quantum Latin Squares 2024 P 4406030935 0
+Free Inhomogeneous Wreath Product of Quantum Groups 2025 P 4416365994 0
+Topological and Geometric Perspectives on Homomorphism Indistinguishability 2026 P 7221030908 0
+A Proof of the Weak Roberson Conjecture 2026 J 7221755122 0
+Estimating applied potentials in cold-atom lattice simulators 2026 J 0
+Gaussian tomography for cold-atom simulators 2026 J 0
+Measurement-Induced Entanglement in Noisy 2D Random Circuits 2026 J 4415271629 0
+Random permutation circuits beyond qubits are quantum chaotic 2026 L 7117550612 0
+Robust Superradiance and Spontaneous Spin Ordering in Disordered Waveguide Quantum Electrodynamics 2026 J 4415277243 0
+State preparation with parallel-sequential circuits 2026 J 4414901212 0
+Theory of Quantum-Enhanced Interferometry with General Markovian Light Sources 2026 J 4416679299 0
+Computational Complexity of Isometric Tensor-Network States 2025 J 4409412397 0
+Deterministic generation of two-dimensional multi-photon cluster states 2025 J 4411891383 0
+Effects of retardation on many-body superradiance in chiral waveguide QED 2024 P 4409921508 0
+Efficient tensor network simulation of multi-emitter non-Markovian systems 2024 P 4400703244 0
+Measurement-induced entanglement and complexity in random constant-depth 2D quantum circuits 2024 P 4410492287 0
+Quantum and Classical Dynamics with Random Permutation Circuits 2025 J 4406900565 0
+Unraveling Superradiance: Entanglement and Mutual Information in Collective Decay 2025 J 4411696091 0
+Analogue Quantum Simulation with Fixed-Frequency Transmon Qubits 2024 J 4392047296 0
+Deterministic generation of a 20-qubit two-dimensional photonic cluster state 2024 P 0
+Preparation of Matrix Product States with Log-Depth Quantum Circuits 2024 J 4391163834 0
+Cross-platform verification in quantum networks 2023 J 4382679216 0
+Efficient adiabatic preparation of tensor network states 2023 J 4377238232 0
+Few-Body Analog Quantum Simulation with Rydberg-Dressed Atoms in Optical Lattices 2023 J 4362579391 0
+Anomalous Behaviors of Quantum Emitters in Non-Hermitian Baths 2022 J 4309959324 0
+Bound states and photon emission in non-Hermitian nanophotonics 2022 J 4309830227 0
+Bridging the gap between classical and quantum many-body information dynamics 2022 J 4311705432 0
+Generation of photonic tensor network states with circuit QED 2022 J 3199742586 0
+Large- N limit of Dicke superradiance 2022 J 4286587587 0
+Sequential Generation of Projected Entangled-Pair States 2022 J 3178858846 0
+Supersymmetric free fermions and bosons: Locality, symmetry, and topology 2022 J 4200629243 0
+Atomic waveguide QED with atomic dimers 2021 J 4206268202 0
+Convergence Guarantees for Discrete Mode Approximations to Non-Markovian Quantum Baths 2021 J 3213876315 0
+Generation of photonic matrix product states with Rydberg atomic arrays 2021 J 3142643027 0
+Optimal two-photon excitation of bound states in non-Markovian waveguide QED 2021 J 3087113598 0
+Quantum simulation with fully coherent dipole-dipole interactions mediated by three-dimensional subwavelength atomic arrays 2021 J 3117733891 0
+Seasonal epidemic spreading on small-world networks: Biennial outbreaks and classical discrete time crystals 2021 J 3038822850 0
+Topological Two-Dimensional Floquet Lattice on a Single Superconducting Qubit 2021 J 3159487391 0
+Weakly invasive metrology: quantum advantage and physical implementations 2021 J 3035939391 0
+Supersymmetric free fermions and bosons 2022 J 0
+Seasonal epidemic spreading on small-world networks 2021 J 0
+Weakly invasive metrology 2021 J 0
+Algorithmic locality of quantum tensor network belief propagation 2026 J 7155549414 0
+Computational complexity of injective projected entangled pair states 2025 P 4416256160 0
+Noise-induced contraction of MPO truncation errors in noisy random circuits and Lindbladian dynamics 2026 P 7140194325 0
+One-dimensional quantum Gibbs states in constant circuit depth 2026 P 7214993957 0
+Contractivity of time-dependent driven-dissipative systems 2026 P 7130580380 0
+Collective decay of interacting bosons 2026 P 7163870877 0
+Gibbs state postulate from dynamical stability 2025 P 4417460520 0
+Polaron-Polaritons in Subwavelength Arrays of Trapped Atoms 2026 P 7126212008 0
+Near-optimal quantum simulation of lattice Lindbladian dynamics 2026 P 7214974778 0
+Deterministic Generation of Multipartite-Entangled Microwave Photonic States 2021 J 3146552063 0
+Physics for secure and efficient societies 2024 C 4393098334 0
+Measuring number-off-diagonal observables in cold-atom simulators 2025 O 7116354460 0
+Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning 2026 J 7166824476 0
+Efficient Hamiltonian, structure and trace distance learning of Gaussian states 2026 J 4404390522 0
+Efficient Thermalization and Universal Quantum Computing with Quantum Gibbs Samplers 2025 R 4393027509 0
+Noise-induced shallow circuits and the absence of barren plateaus 2026 J 4393114813 0
+Optimal Quantum Algorithm for Gibbs State Preparation 2026 J 4404404838 0
+Order p Quantum Wasserstein Distances from Couplings 2026 J 4392183266 0
+Sampling (noisy) quantum circuits through randomized rounding 2026 J 7154485777 0
+Efficient Simulation of Parametrized Quantum Circuits under Nonunital Noise through Pauli Backpropagation 2025 J 4406780156 0
+Lower Bounds on Learning Pauli Channels with Individual Measurements 2025 J 4406208713 0
+Quantum Metrology in the Finite-Sample Regime 2025 J 4388672565 0
+Exponentially tighter bounds on limitations of quantum error mitigation 2024 J 4400985662 0
+Learning quantum many-body systems from a few copies 2024 J 3179958133 0
+Limitations of Variational Quantum Algorithms: A Quantum Optimal Transport Approach 2023 J 4226153047 0
+Quantum Differential Privacy: An Information Theory Perspective 2023 J 4372055232 0
+A game of quantum advantage: linking verification and simulation 2022 J 3109409938 0
+Faster quantum and classical SDP approximations for quadratic binary optimization 2022 J 2972992123 0
+On contraction coefficients, partial orders and approximation of capacities for quantum channels 2022 J 3103220749 0
+Efficient Classical Simulation and Benchmarking of Quantum Processes in the Weyl Basis 2021 J 3164567370 0
+Fast and robust quantum state tomography from few basis measurements 2021 R 0
+Group Transference Techniques for the Estimation of the Decoherence Times and Capacities of Quantum Markov Semigroups 2021 J 2942094697 0
+Limitations of optimization algorithms on noisy quantum devices 2021 J 3086576671 0
+Going beyond gadgets 2024 J 0
+Limitations of Variational Quantum Algorithms 2023 J 0
+Quantum Differential Privacy 2023 J 0
+A game of quantum advantage 2022 J 0
+Quantum algorithm for ground state energy estimation using circuit depth with exponentially improved dependence on precision 2023 J 4388422292 0
+Efficient learning of ground and thermal states within phases of matter 2024 J 4402273090 0
+Efficient ground-state-energy estimation and certification on early fault-tolerant quantum computers 2025 J 4406528066 0
+Provably Efficient Learning of Phases of Matter via Dissipative Evolutions 2023 P 4388685701 0
+Efficient learning of the structure and parameters of local Pauli noise channels 2023 P 4383604974 0
+Demonstrating and Benchmarking Classical Shadows for Lindblad Tomography 2026 P 7129213247 0
+Polynomial-time thermalization and Gibbs sampling from system-bath couplings 2026 P 7125528686 0
+Robust Structure Learning of $k$-local Lindbladians 2026 P 7165673944 0
+Information-theoretic generalization bounds for learning from quantum data 2023 P 4388585600 0
+Rapid mixing of Gibbs samplers via quantum Dobrushin--Shlosman conditions 2026 P 7220384382 0
+Pairwise Liouvillian learning from randomized measurements: practical aspects and guidelines for operating the protocol in large-scale experiments 2026 P 7162581293 0
+From Simple Sources to Quantum Advantage: Homomorphic Polynomial Transduction via Relative Decoding 2026 P 7214785684 0
+Fast convergence of propagation algorithms for open quantum systems 2026 P 7220660704 0
+Compilation-informed probabilistic logical-error cancellation 2025 P 4414448021 0
+Average Contraction Coefficients of Quantum Channels 2025 P 4415194575 0
+Exponential Speed-ups for Structured Goemans-Williamson relaxations via Quantum Gibbs States and Pauli Sparsity 2025 P 4416384414 0
+Hamiltonian dynamics from pure dissipation 2026 P 7155079084 0
+Numerical experiments for Gaussian Hamiltonian learning 2026 O 7167943443 1
+Learning Local Fermionic Lindbladians under Parity Superselection 2026 P 7215784443 0
+Quantum speed-ups for solving semidefinite relaxations of polynomial optimization 2025 P 4417210797 0
+Learning the structure and interactions of Pauli channels - experimental data 2025 O 7104689496 1
+Numerics for learning time-dependent Hamiltonians 2026 O 7212255613 1
+RDQINumerics: nonlinear residual-chain reproducibility package 2026 O 7214457070 1
+IsingBlockNumerics: Certified finite-block influences for the square-lattice Ising model 2026 O 7214479605 1
+Quantum Gibbs State Preparation via Relative Decoding: From Fast-Mixing Sources to Broader Target Classes 2026 P 7220649511 0
+Robustness of Quantum Signal Processing and Resource-aware Polynomial Design 2026 P 7220685382 0
+Improved Adaptive Estimation of Quantum Partition Functions with Heisenberg Scaling 2026 P 7220869570 0
+A conditional lower bound for the Turán number of spheres 2025 J 4413228843 0
+2-LC triangulated manifolds are exponentially many 2023 J 3173168545 0
+Chordality, syzygies, and shellability for hypergraphic analogues of interval graphs 2026 P 7166650189 0
+Skeleton Chordalities 2026 P 7170635604 0
+Vertex orders in higher dimensions 2024 P 4404407087 0
+Higher-dimensional counterexamples to Hamiltonicity 2025 J 4417005974 0
+A benchmark dataset of 86 intermolecular interactions of neutrals, ions, radicals and radical ions with water and hydrogen sulfide 2026 P 7212164127 0
+Error-mitigated nonorthogonal quantum eigensolver via shadow tomography 2026 J 4415064788 0
+Quantum chemical studies of the infrared spectra of OCN− in water and icy matrices and their astrophysical implications 2026 J 7223816068 0
+Beyond real: alternative unitary cluster Jastrow models for molecular electronic structure calculations on near-term quantum computers 2025 J 4415936990 0
+Spin parameter optimization for spin‐polarized extended tight‐binding methods 2024 J 4401827727 0
+Smooth Dispersion Is Physically Appropriate: Assessing and Amending the D4 Dispersion Model 2024 J 4403415841 0
+Extensions to Extended Tight‐Binding Methods for Transition‐Metal Containing Systems 2026 J 7134818045 0
+Asymptotic Purification of Quantum Trajectories under Disordered Generalized Measurements 2026 J 4394007175 0
+Ergodic theorems for quantum trajectories under disordered generalized measurements 2026 J 4407012903 0
+Law of large numbers and central limit theorem for ergodic quantum processes 2023 J 4386295554 0
+Asymptotic Replacement for Quantum Channel Products with Applications to Inhomogeneous Matrix Product States 2026 P 7160127482 0
+Central Limit Theorems for Outcome Records in Disordered Quantum Trajectories 2026 P 7147530756 0
+Julia Sets for Sequences of Monomials 2026 P 7171526533 0
+Asymptotic Behavior of Random Time-Inhomogeneous Markovian Quantum Dynamics 2025 P 0
+Asymptotic Purification of Quantum Trajectories under Random Generalized Measurements 2024 P 0
+LIMITING THEOREMS FOR STATIONARY AND ERGODIC QUANTUM PROCESSES 2023 T 0
+A simple proof of the group-theoretic Zhang-Yeung inequality 2026 P 7214771859 0
+Limit Theorems for Disordered Quantum Trajectories 2026 P 7215129074 0
+Say NO to Optimization: A Nonorthogonal Quantum Eigensolver 2023 J 4384561345 0
+Efficient State Preparation for the Quantum Simulation of Molecules in First Quantization 2025 J 4409870600 0
+A quantum eigenvalue solver based on tensor networks 2025 J 4416631692 0
+Exponential quantum speedups for near-term molecular electronic structure methods 2025 P 4415061810 0
+Barriers to dequantization of near-term molecular electronic structure methods 2026 J 7224120114 0
+Spectral estimates for Wiener-Hopf operators with applications to area laws 0 T 7201922338 0
+Limiting absorption principle and radiation conditions for Schrödinger operators with long-range potentials 2024 J 4399045352 0
+Sharp estimates for eigenvalues of localization operators with applications to area laws 2026 P 7140538155 0
+Momentum distribution of a Fermi gas in the random phase approximation 2025 J 4413344274 0
+Implementing Bogoliubov Transformations Beyond the Shale–Stinespring Condition 2025 J 4408910234 0
+Bosonized Momentum Distribution of a Fermi Gas via Friedrichs Diagrams 2025 C 4412847755 0
+Self-Adjointness and Domain of Generalized Spin–Boson Models with Mild Ultraviolet Divergences 2025 C 4412847762 0
+Extended state space for describing renormalized Fock spaces in QFT 2024 J 3114796096 0
+Friedrichs diagrams: bosonic and fermionic 2023 J 4386800484 0
+Bogoliubov Transformations Beyond Shale–Stinespring: Generic v* v for Bosons 2023 C 4389495079 0
+Another Proof of Born’s Rule on Arbitrary Cauchy Surfaces 2022 J 3157512270 0
+Consistency Proof for Multi-time Schrödinger Equations with Particle Creation and Ultraviolet Cut-Off 2021 J 3000468500 0
+Renormalization of generalized spin-boson models with critical ultraviolet divergences 2025 P 4414430414 0
+The Ground State Energy of a Mean-Field Fermi Gas in Two Dimensions 2026 P 7118688794 0
+Mesoscopic Observables of the Dilute Fermi Gas at Low Energy 2026 P 7128766378 0
+Invariant measures of randomized quantum trajectories 2026 P 7147088598 0
+Upper Bound on the Correlation Energy of a Dense Fermi Gas in the Thermodynamic Limit 2026 P 7223024424 0
+An Improved Nonexistence Bound for the Liquid Drop Model 2026 P 7202181403 0
+On the Efimov Effect for Four Particles in Dimension Two 2026 P 7127987976 0
+The sharp one-dimensional Lieb-Thirring inequality for the sum of eigenvalues 2026 P 7212171227 0
+Absence of the confinement–induced Efimov effect: a direct proof in a specific geometry 2025 J 0
+Analytic Studies of Atomic Structures and the Efimov Effect 2025 T 0
+Interior-Point Methods on Manifolds: Theory and Applications 2026 J 4390098307 0
+Self-concordant Schrödinger operators: spectral gaps and optimization without condition numbers 2025 P 4414981846 0
+Basic quantum subroutines: finding multiple marked elements and summing numbers 2024 J 4392817690 0
+The minimal canonical form of a tensor network 2023 R 4390098167 0
+Improved Quantum Lower and Upper Bounds for Matrix Scaling 2022 J 3203481669 0
+Quantum Algorithms for Matrix Scaling and Matrix Balancing 2021 J 0
+Negative curvature obstructs the existence of good barriers for interior-point methods 2026 P 7152602501 0
+Classical and quantum algorithms for scaling problems 2024 O 7135757340 0
+Robustness of Hidden-Variable Theories and Matrix Scaling 2026 P 7213306075 0
+Mathematics of Topological Order Superselection Sector Theory of Levin-Wen Models 0 T 7164628074 0
+The Double Semion State in Infinite Volume 2025 J 4400259401 0
+The Uniform Even Subgraph and Its Connection to Phase Transitions of Graphical Representations of the Ising Model 2025 J 4410166271 0
+Sector Theory of Levin-Wen Models I : Classification of Anyon Sectors 2025 P 4416790931 0
+Sector Theory of Levin-Wen Models II : Fusion and Braiding 2026 P 7133303781 0
+A microlocal Cauchy problem through a crossing point of Hamiltonian flows 2026 J 7160979768 0
+Semiclassical resonances for matrix Schrödinger operators with vanishing interactions at crossings of classical trajectories 2025 J 4405259467 0
+Coherence as a Resource for Phase Estimation 2026 J 7143999172 0
+Single-shot Entanglement Manipulation of States and Channels Revisited 2025 J 4410770407 0
+Thermodynamic state convertibility is determined by qubit cooling and heating 2023 J 4388719923 0
+Complete Characterization of Entanglement Embezzlement 2023 P 4399604820 0
+Asymptotic State Transformations of Continuous Variable Resources 2023 J 3090446159 0
+Coherence as a Resource for Shor’s Algorithm 2022 J 4296591980 0
+Coherence of operations and interferometry 2021 J 3128245905 0
+Resource theories of states and operations 2021 T 3192514609 0
+The Structure of Higher-Order Quantum Resources with an Application to Coherence 2026 P 7215053675 0
+Quantum Conditional Entropies from Convex Trace Functionals 2026 J 7172105645 0
+The strong converse exponent of composable randomness extraction against quantum side information 2026 J 7125975857 0
+A fixed-point algorithm for matrix projections with applications in quantum information 2025 J 4417363648 0
+Mixed-state additivity properties of magic monotones based on quantum relative entropies for single-qubit states and beyond 2024 J 4403139885 0
+New Additivity Properties of the Relative Entropy of Entanglement and Its Generalizations 2024 J 4399930105 0
+Fundamental Limits on Correlated Catalytic State Transformations 2022 J 3216815963 0
+Protocol for global multiphase estimation 2023 J 4384523027 0
+Additivity of Quantum Relative Entropies as a Single-Copy Criterion 2026 J 4416061043 0
+A complete characterisation of conditional entropies 2026 P 7127069601 0
+Strong Converse Exponent of Quantum State Merging 2026 P 7204581565 0
+Maximal Rényi Relative Entropy for α>2 2026 P 7172378803 0
+Complete entanglement detection using polynomial invariants 2026 P 7164883692 0
+Lean formalization accompanying "A complete characterisation of conditional entropies" 2026 O 7211960062 1
+Log-Euclidean Rényi Conditional Mutual Information 2026 P 7214702832 0
+A complete characterisation of conditional entropy 2026 R 7133342978 0
+Entropic measures of quantum information 2026 P 7225399107 0
+Understanding the interplay of entanglement and nonlocality: motivating and developing a new branch of entanglement theory 2023 J 4389305828 0
+An estimation theoretic approach to quantum realizability problems 2023 P 4391988316 0
+A sufficient family of necessary inequalities for the compatibility of quantum marginals 2022 P 4308165163 0
+On the two-copy distillability of Werner states and a new partial trace inequality 2026 P 7171536885 0
+Frames for compactly supported functions with irrational density 2026 J 7164307941 0
+Gabor frames for functions supported on a semi-axis 2026 J 4414990839 0
+When a meromorphic function that omits three values is of bounded type 2026 J 7213285931 0
+A monotonicity theorem for subharmonic functions on manifolds 2025 J 4412096411 0
+Relative Openness of the Gabor Frame Set on the Hyperbolas 2025 J 4406202139 0
+Exponential lower bound for the eigenvalues of the time-frequency localization operator before the plunge region 2024 J 4392247349 0
+Irregular Gabor frames of Cauchy kernels 2022 J 3144216257 0
+Functionals with extrema at reproducing kernels 2022 J 4285091735 0
+Gabor frames for rational functions 2022 J 3137985746 0
+Fourier Uniqueness and Non-Uniqueness Pairs 2025 J 4406677856 0
+Fourier Interpolation and Time-Frequency Localization 2021 J 3028666501 0
+On Gaussian decay rates of harmonic oscillators and equivalences of related Fourier uncertainty principles 2023 J 4367836249 0
+Spectral synthesis for exponentials and logarithmic length 2022 J 3094213502 0
+A contractive Hardy–Littlewood inequality 2021 J 3006608523 0
+Correction to:Gabor frames for rational functions 2022 D 4296456076 1
+Contractive projections in Paley-Wiener spaces 2022 J 4310477961 0
+Completeness of certain exponential systems and zeros of lacunary polynomials 2023 J 4362716143 0
+Fekete's lemma in Banach spaces 2024 P 4404988734 0
+Fourier coefficients of continuous functions with sparse spectrum 2026 P 7160595375 0
+On the Computation of Tensor Functions under Tensor‐Tensor Multiplications with Linear Maps 2026 J 7165416822 0
+Geometric mean for T-positive definite tensors and associated Riemannian geometry 2026 J 4415393252 0
+A new formula of the determinant tensor with symmetries 2025 J 4415077851 0
+Finding tensor decompositions with sparse optimization 2025 J 4378508421 0
+Optimal constant for generalized diagonal update method 2024 J 4399363567 0
+A new formula for the determinant of 4 × 4 matrices 2023 P 4327525442 0
+Structured matrix factorization length 2026 P 7163916798 0
+Improved Upper Bounds for the Rank of the Determinant Tensor via Glynn's Formula 2026 P 7221801734 0
+Predicting Magic from Very Few Measurements 2026 J 7171939363 0
+Trading athermality for nonstabilizerness 2026 J 7155005126 0
+A trace distance-based geometric analysis of the stabilizer polytope for few-qubit systems 2026 J 4416544207 0
+Witnessing nonstabilizerness with Bell inequalities 2025 J 4416629730 0
+Semi-device-independent nonstabilizerness certification in the prepare-and-measure scenario 2025 J 4414874103 0
+Partons from stabilizer codes 2025 J 4413927789 0
+Fractonic criticality in Rydberg atom arrays 2024 J 4401755170 0
+Continuous phase transition from a chiral spin state to collinear magnetic order in a zigzag chain with Kitaev interactions 2022 J 4226289608 0
+Every Little Thing Heat Does Is Magic 2026 P 7154042644 0
+When Symmetry Suppresses Magic 2026 P 7215069094 0
+Entanglement manipulation and magic area-laws 2026 P 7221040135 0
+Guess your neighbor's input: Quantum advantage in Feige's game 2025 P 4416385793 0
+Characterizing the Lovasz theta function via walk generating functions 2025 P 4406880264 0
+Tight eigenvalue bound on the traveling salesman problem 2025 P 4416259491 0
+A Limit on the Power of Entanglement-Assistance in Quantum Communication 2024 P 0
+The Quantum Entropy Cone near its Apex 2023 P 0
+Mutual information scrambling in an Ising spin chain 2025 J 4406868618 0
+Persona-Name and Grader-Choice as Measurement-Validity Confounds in Agentic-Misalignment Evaluations: A Pre-Registered, Group-Sequential Confirmatory Study 2026 P 7169547306 0
+Changes in Abortion in Texas Following an Executive Order Ban During the Coronavirus Pandemic 2021 J 3120387518 0
+Now is the time to safeguard access to emergency contraception as abortion restrictions sweep the United States 2022 J 4283323548 0
+An Ecological Model of Reproductive Coercion 2023 J 4385475966 0
+Abortion assistance fund staff and volunteers as patient navigators following an abortion ban in Texas 2023 J 4385264462 0
+Status of abortion curriculum in genetic counseling: Survey of graduate programs and recent graduates in the United States 2024 J 4392197664 0
+Access to care following Planned Parenthood’s termination from Texas’ Medicaid network: A qualitative study 2023 J 4385979876 0
+Modular RNA:DNA Nanostructures Enable Nanopore Profiling of rRNA Processing and rRNA Variants 2026 J 7160981460 0
+Abortion Return Rates and Wait Times Before and After Texas’ Executive Order Banning Abortion During COVID-19 2024 J 4401604327 0
+Medical Society Responses to State Abortion Bans—No Role for Boycotts 2023 J 4322492612 0
+Suppression of 1/f noise in quantum simulators of gauge theories 2022 P 4306294807 0
+Stabilizing Quantum Simulators Of Gauge Theories Against 1/f Noise 2024 P 4393177778 0
+Solvable Quantum Circuits with non-Markovian Influence Matrices 2026 P 7171665959 0
+Scientific abstracts: Featured research at the 2026 Society of Family Planning Annual Meeting 2026 D 7222362002 1
+Quantum Fourier transform toolbox 2026 P 7204778241 0
+Coordinating "7 Billion Humans" Is Hard 2024 P 4400600689 0
+Optimal learning of covariant quantum states and channels 2026 P 7215060816 0
+Permutation-invariant codes: a numerical study and qudit constructions 2026 P 7135097823 0
+Feedback-Induced Advantage in Quantum Clockworks 2026 P 7134038857 0
+Adiabatic non-Abelian braiding of imperfect Majorana bound states 2026 J 7133303330 0
+Controlled parity of cooper pair tunneling in a hybrid superconducting qubit 2026 J 7171834117 0
+Directional conductance of Andreev crystals in hybrid Josephson junction arrays 2026 J 4414458408 0
+Higher Josephson Harmonics in a Tunable Double-Junction Transmon Qubit 2026 J 4417295846 0
+Non-Hermitian skin effect and electronic nonlocal transport 2026 J 4414809530 0
+From Kardar-Parisi-Zhang Scaling to Soliton Proliferation in Josephson Junction Arrays 2025 J 4417182869 0
+Phase-Biased Andreev Diffraction Grating 2025 J 4412089925 0
+Phase-controlled minimal Kitaev chain in multiterminal Josephson junctions 2025 J 4406841291 0
+Signatures of exceptional points in multiterminal superconductor–normal metal junctions 2025 J 4414793179 0
+Superconducting proximity effect in two-dimensional hole gases 2025 J 4410597976 0
+Fast universal control of a flux qubit via exponentially tunable wave-function overlap 2024 J 4394915032 0
+Fermion-parity qubit in a proximitized double quantum dot 2024 J 4399736821 0
+Majorana Qubits and Non-Abelian Physics in Quantum Dot–Based Minimal Kitaev Chains 2024 J 4391643098 0
+Non-Abelian Holonomy of Majorana Zero Modes Coupled to a Chaotic Quantum Dot 2024 L 4391023846 0
+Control of Andreev Bound States Using Superconducting Phase Texture 2023 L 4324339603 0
+Detecting Majorana modes by readout of poisoning-induced parity flips 2023 J 4323048529 0
+Nonsinusoidal current-phase relations in semiconductor–superconductor– ferromagnetic insulator devices 2023 J 4380629499 0
+Orbital-free approach for large-scale electrostatic simulations of quantum nanoelectronics devices 2023 J 4320482771 0
+Phase Asymmetry of Andreev Spectra from Cooper-Pair Momentum 2023 L 4388540881 0
+Resistivity Tensor of Vortex-Lattice States in Josephson Junction Arrays 2023 L 4388667555 0
+Conductance matrix symmetries of multiterminal semiconductor-superconductor devices 2022 J 4281478568 0
+Demonstrating Majorana non-Abelian properties using fast adiabatic charge transfer 2022 J 4210715448 0
+Evidence for spin-polarized bound states in semiconductor-superconductor-ferromagnetic-insulator islands 2022 J 4210744767 0
+Multiterminal transport spectroscopy of subgap states in Coulomb-blockaded superconductors 2022 J 4312191582 0
+Readout of Parafermionic States by Transport Measurements 2022 L 3198798992 0
+Semiconductor-ferromagnet-superconductor planar heterostructures for 1D topological superconductivity 2022 J 4221161831 0
+Engineered platforms for topological superconductivity and Majorana zero modes 2021 V 3133533977 0
+Multilevel effects in quantum dot based parity-to-charge conversion of Majorana box qubits 2021 J 3147789810 0
+Three-phase Majorana zero modes at tiny magnetic fields 2021 L 3111722282 0
+Topological superconductivity in semiconductor-superconductor-magnetic-insulator heterostructures 2021 J 3104129353 0
+Low-energy spectrum of double-junction superconducting circuits in the Born-Oppenheimer approximation 2026 P 7143345435 0
+Coherent control of spinmons 2026 P 7161122657 0
+Nonreciprocal conductance in uniformly dissipative devices 2026 P 7162315934 0
+Charge-transfer based operations revealing non-abelian statistics of Majorana bound states 2021 J 3130443065 0
+Fingerprints of unconventional pairing in superconductor-hole-gas heterostructures 2026 P 7215128981 0
+Fast and Flexible Quantum-Inspired Differential Equation Solvers with Data Integration 2026 J 0
+Quantum-inspired workflow for processing distributed fiber-optic sensor data 2026 J 0
+A little bit of self-correction 2025 J 0
+Efficient quantum thermal simulation 2025 J 0
+Quantum Algorithms: A Survey of Applications and End-to-end Complexities 2025 B 0
+Variational tensor network simulation of Gaussian boson sampling and beyond 2025 J 0
+Coarse-To-Fine Tensor Trains for Compact Visual Representations 2024 R 0
+LoQT: Low-Rank Adapters for Quantized Pretraining 2024 R 0
+Extreme Points and Factorizability for New Classes of Unital Quantum Channels 2021 J 0
+Factorizable Maps and Traces on the Universal Free Product of Matrix Algebras 2021 J 0
+The Connes-Kirchberg Problem and infinite-dimensional phenomena in quantum information theory 2025 P 4416936471 0
+Entanglement in C*-algebras: tensor products of state spaces 2025 P 4417295849 0
+Correction to: Extreme Points and Factorizability for New Classes of Unital Quantum Channels 2021 D 3180152494 1
+Rigidity and non-existence results for collapsed translators 2023 P 4412208791 0
+Uniqueness of tangent planes and (non-)removable singularities at infinity for collapsed translators 2025 P 4415088419 0
+Entropy bounds, compactness and finiteness theorems for embedded self-shrinkers with rotational symmetry 2022 J 4307782728 0
+Finite entropy translating solitons in slabs 2022 P 4297631812 0
+17 forskere: Udflytning splitter selve universitetsuddannelsernes DNA 2021 D 3181108179 1
+Årsskrift 2021: Det Unge Akademi: Jubilæumsskrift 2021 B 1
+Bi-Halfspace and Convex Hull Theorems for Translating Solitons 2021 J 0
+Forskningsfriheden i Danmark er under pres 2021 D 3208593184 1
+Unge forskere: Fondsmidler trækker forskningen skæv 2021 D 3211422964 1
+Unge forskere: Der er behov for en bedre model til at støtte coronaforsinket forskning 2021 D 3180719688 1
+Unge forskere: Flere øremærkede forskningsmidler truer fri forskning 2021 D 3212344856 1
+Unge forskere: Genåbn universiteterne nu 0 D 1
+17 forskere 2021 O 0
+Unge forskere 2021 D 1
+Årsskrift 2021: Det Unge Akademi 2021 B 1
+Flere øremærkede forskningsmidler truer fri forskning 2021 J 7126874862 0
+Unge forskere: Sæt forskningen fri fra BNP-målsætningen i 2021 2021 O 7139314602 0
+Collapsed translating solitons with planar wings 2026 P 7223355310 0
+The future of quantum technology as seen from the EU, USA and Japan: experts' vision over the next two decades 2026 V 4416929764 0
+H. Jeffrey Kimble (1949–2024) 2025 J 4407157619 1
+Hybrid quantum network for sensing in the acoustic frequency range 2025 J 4411932272 0
+Simultaneous ponderomotive squeezing of light by two mechanical modes in an optomechanical system 2025 J 4414156064 0
+High-Field Optical Cesium Magnetometer for Magnetic Resonance Imaging 2024 J 4395116468 0
+Magnetic induction sensor based on a dual-frequency atomic magnetometer 2024 J 4402481925 0
+Nonclassical Correlations between Photons and Phonons of Center-of-Mass Motion of a Mechanical Oscillator 2024 L 4403706014 0
+Optimal optomechanical cavity setups with highly reflecting membranes 2024 J 4396797680 0
+Roadmap on nanoscale magnetic resonance imaging 2024 J 4396883348 0
+Squeezed light from an oscillator measured at the rate of oscillation 2024 J 4396976175 0
+Acoustic frequency atomic spin oscillator in the quantum regime 2023 J 4387570927 0
+Entanglement-Enhanced Magnetic Induction Tomography 2023 L 4376640474 0
+Phononically shielded photonic-crystal mirror membranes for cavity quantum optomechanics 2023 J 4328110688 0
+Precision Measurement of the Excited State Landé g-factor and Diamagnetic Shift of the Cesium D2 Line 2023 J 4381433758 0
+Quantum State Engineering of Macroscopic Oscillators 2023 R 4386414411 0
+Trajectories Without Quantum Uncertainties in Composite Systems with Disparate Energy Spectra 2022 J 4283450194 0
+Two-colour high-purity Einstein-Podolsky-Rosen photonic state 2022 J 3203779425 0
+Calibration of spin-light coupling by coherently induced Faraday rotation 2021 J 0
+Dissipative optomechanical coupling with a membrane outside of an optical cavity 2021 J 3130131398 0
+High-frequency broadband laser phase noise cancellation using a delay line 2021 J 0
+Room-temperature single-photon source with near-millisecond built-in memory 2021 J 0
+Single-Photon Source with Near-Millisecond Memory based on Room-Temperature Atomic Vapour 2021 R 3203694730 0
+Small Animal Biomagnetism Applications 2022 C 4301496823 0
+Entanglement between distant macroscopic mechanical and spin systems 2021 J 0
+Quantum-mechanics-free subspaces in composite systems with incompatible energy spectra. 2021 P 3208327518 0
+Two-color high-purity entanglement 2022 R 4297798209 0
+Entanglement-enhanced optical magnetometry beyond the standard quantum limit 2026 P 7202128837 0
+Spin-deflection coupling in carbon nanotubes 2026 J 7140219340 0
+Linear spectroscopy of collective modes and the gap structure in two-dimensional superconductors 2024 J 4404525829 0
+Programmable adiabatic demagnetization for systems with trivial and topological excitations 2024 J 4403688041 0
+Achieving quantized transport in Floquet topological insulators via energy filters 2024 J 4401886766 0
+Light-Driven Spontaneous Phonon Chirality and Magnetization in Paramagnets 2024 J 4392242224 0
+Correlated insulating states in carbon nanotubes controlled by magnetic field 2022 J 4313448203 0
+Quantum Plasmonic Nonreciprocity in Parity-Violating Magnets 2022 J 4309245293 0
+Vibronic Exciton–Phonon States in Stack-Engineered van der Waals Heterojunction Photodiodes 2022 J 4283837355 0
+Anomalous random multipolar driven insulators 2022 J 4226377336 0
+Multistable excitonic Stark effect 2022 J 3084311833 0
+Prethermalization and entanglement dynamics in interacting topological pumps 2022 J 3148221394 0
+Proposal for realizing anomalous Floquet insulators via Chern band annihilation 2022 J 4223551441 0
+Quasiperiodic Floquet-Thouless Energy Pump 2021 J 3094579068 0
+Electronic Floquet gyro-liquid crystal 2021 J 3043075863 0
+Hierarchy of many-body invariants and quantized magnetization in anomalous Floquet insulators 2021 J 2966023304 0
+Spin-polarized superconductivity: Order parameter topology, current dissipation, and multiple-period Josephson effect 2021 J 3036656380 0
+Inducing exceptional points, enhancing plasmon quality and creating correlated plasmon states with modulated Floquet parametric driving 2024 J 4404394280 0
+Quantifying the accuracy of steady states obtained from the universal Lindblad equation 2024 J 4398142052 0
+Conduction Band Replicas in a 2D Moiré Semiconductor Heterobilayer 2024 J 4394873505 0
+Gauged Cooling of Topological Excitations and Emergent Fermions on Quantum Simulators 2025 J 4407952428 0
+Topological excitations at time vortices in periodically driven systems 2025 J 4408400349 0
+Universal transport in periodically driven systems without long-lived quasiparticles 2024 J 4391231820 0
+Antiscreening and Nonequilibrium Layer Electric Phases in Graphene Multilayers 2024 J 4402923410 0
+Efficiently preparing chiral states via fermionic cooling on bosonic quantum hardware 2025 J 4407839015 0
+The quantum cartpole: A benchmark environment for non-linear reinforcement learning 2024 J 4396694142 0
+Light-cones in many-body open quantum systems with memory 2024 P 4404088710 0
+Erratum: Universal Lindblad equation for open quantum systems [Phys. Rev. B 102 , 115109 (2020)] 2021 D 3198447060 1
+Dataset underpinning: "The Quantum Cartpole" 2023 O 4393690403 1
+Tunable Multiband Geometry and Fractional Phases in Higher Vortexable Systems 2026 P 7202177731 0
+Multiple vibrational resonances and Franck-Condon palisades in the low temperature photocurrent spectrum of interlayer excitons 2021 J 3130679009 0
+Revealing the strong coupling of atomic motion to interlayer excitons through photocurrent imaging at room temperature. 2021 J 3131372652 0
+Contrasting lattice geometry dependent versus independent quantities and applications to cold atom experiments. 2021 J 3155670271 0
+Self-organized Floquet band geometry in cavity-driven quantum materials 2026 P 7163867956 0
+P
+Jan Philip Solovej|jan-philip-solovej|0000-0002-0244-1497|p|5065934491|0|0|0poa,1pa,2pa,3poa,4poa,5poa,6pa,7p,8poa,9pa,10pa,11pa,12poa,13o,14o,15o,16oa,17o,18oa,19o,20o,21o,22o,23o,24o,25oa,26o,27o,28o,29a,30a,31a,32a,33a,34a,35a,36a,37a,38a,39a,40a,41a,42a,43a,44a,45a,46a,47a
+Matthias Christandl|matthias-christandl|0000-0003-2281-3355|p|5006329724|0|0|48pa,49pa,50pa,51pa,52pa,53pa,54pa,55pa,56pa,57pa,58pa,59pa,60pa,61pa,62pa,63pa,64pa,65pa,66pa,67pa,68pa,69pa,70pa,71pa,72pa,73pa,74pa,75pa,76pa,77pa,78pa,79pa,80pa,81pa,82p,83pa,84pa,85pa,86pa,87pa,88p,89pa,90pa,91p,92pa,93pa,94pa,95pa,96a,97a,98a,99a,100a,101a,102a,103a,104a,105a
+Bergfinnur Durhuus|bergfinnur-durhuus|0000-0002-0450-6792|p|5012912627|0|0|64poa,81poa,106pa,107poa,108pa,109pa,110p,111pa,112pa
+Søren Fournais|s%C3%B8ren-fournais|0000-0002-6130-5073|p|5071749987|0|0|0poa,10pa,29a,40a,113poa,114poa,115poa,116poa,117poa,118poa,119poa,120poa,121o,122a,123a,124a,125a,126a,127a
+Laura Mančinska|laura-mancinska|0000-0001-9727-4961|p|5020559291|0|0|84poa,128poa,129poa,130poa,131poa,132poa,133poa,134poa,135pa,136poa,137poa,138poa,139poa,140o,141a,142a,143a,144a,145a,146a,147a,148a
+Albert Werner|albert-h-werner|0000-0003-0134-5257|p|5087398366|0|0|72poa,75poa,94poa,149po,150poa,151poa,152poa,153poa,154poa,155pa,156poa,157poa,158pa,159po,160oa,161o,162a,163a,164a,165a,166a
+David Roberson||0000-0002-4463-8095|o|5023984902|0|1|130oa,135a,140o,167oa,168oa,169oa,170oa,171oa,172oa,173oa,174oa,175oa,176a,177a,178a,179a,180a
+Daniel Malz|daniel-hendrik-malz|0000-0002-8832-0927|p|5064695066|0|0|181po,182po,183poa,184poa,185poa,186poa,187poa,188poa,189poa,190poa,191poa,192poa,193poa,194poa,195poa,196p,197poa,198poa,199poa,200poa,201poa,202poa,203poa,204poa,205poa,206poa,207pa,208poa,209poa,210poa,211poa,212poa,213pa,214poa,215poa,216o,217o,218o,219a,220a,221a,222a,223a,224a,225a,226a,227a,228a,229a,230a
+Daniel Stilck França|daniel-stilck-fran%C3%A7a|0000-0001-9699-5994|p|5090586058|0|0|72pa,93poa,94poa,151poa,163a,231poa,232poa,233poa,234poa,235poa,236poa,237poa,238poa,239poa,240poa,241poa,242poa,243pa,244pa,245pa,246poa,247poa,248poa,249po,250poa,251poa,252o,253o,254o,255o,256a,257a,258a,259a,260a,261a,262a,263a,264a,265a,266a,267a,268a,269a,270a,271a,272a,273a,274a,275a,276a,277a,278a,279a,280a,281a,282a
+Eric Culf|||||0|1|
+Arthur Morris|arthur-samuel-morris||||0|0|
+Marta Pavelka|marta-pavelka|0009-0007-0827-4291|o|5045684303|0|0|283a,284a,285a,286a,287a,288a
+Rebecca Tomann||0009-0006-7021-7872|o|5097476702|0|1|104a,105a,289oa,290oa,291oa,292oa,293oa,294oa,295a
+Lubashan Pathirana|lubashan-l-pathirana-karunarathna|0009-0000-2130-700X|o|5072511161|0|0|165oa,296poa,297poa,298poa,299oa,300oa,301oa,302o,303o,304o,305a,306a
+Oskar Leimkuhler||||5024541251|0|1|104a,105a,307a,308a,309a,310a,311a
+Martin Dam Larsen|rmq845-rmq845|||5055221781|0|0|312pa,313pa,314a
+Vjosa Blakaj|vjosa-blakaj||||0|0|
+Marek Miller|||||1|1|
+Sascha Lill|sascha-lill|0000-0002-9474-9914|o|5005010949|0|0|315poa,316oa,317oa,318oa,319oa,320oa,321oa,322oa,323oa,324a,325a,326a,327a,328a
+Marvin Schulz|marvin-raimund-schulz|0009-0009-7565-9460|o|5079222008|0|0|329oa,330oa,331oa,332o,333o
+Marina Prokhorova|||||0|1|
+Siddharth Vadnerkar|siddharth-vadnerkar||||0|0|
+Harold Nieuwboer|harold-adriaan-nieuwboer|0000-0003-3627-3636|o|5011111072|0|0|57poa,59pa,60pa,62pa,68pa,101a,305a,334poa,335pa,336poa,337oa,338oa,339o,340a,341a,342a
+Boris Bolvig Kjær|boris-bolvig-kj%C3%A6r|||5099851171|0|0|343pa,344pa,345pa,346a,347a
+Yuming Zhao|||||1|1|
+Vincent Louatron|vincent-enzo-paul-louatron|0009-0000-0870-8722|p|5092108062|0|0|348poa,349poa
+Armando Angrisani|||||0|1|
+Thomas Theurer|thomas-alexander-theurer|0000-0002-3888-4628|o|5000779865|0|0|350poa,351poa,352oa,353oa,354oa,355oa,356oa,357a,358a
+Roberto Rubboli|roberto-rubboli|0000-0002-7914-671X|o|5008260498|0|0|359pa,360pa,361oa,362oa,363oa,364oa,365a,366a,367a,368a,369a,370a,371a,372a,373a,374a
+Thomas Fraser|thomas-coolican-fraser|0000-0002-1351-0005|o|5014382888|0|0|69pa,101a,370a,375a,376a,377a,378a
+Aleksei Kulikov|aleksei-kulikov|0000-0002-8985-1455|o|5014502314|0|0|314a,379poa,380poa,381pa,382pa,383oa,384oa,385oa,386a,387a,388a,389a,390a,391a,392a,393a,394a,395a,396a,397a
+Jeong-Hoon Ju||0000-0002-5321-8586|o|5053094561|0|1|398oa,399oa,400oa,401oa,402oa,403a,404a,405a
+Zhongxia Shang|zhongxia-shang||||0|0|
+Rafael Macedo|rafael-%C3%A1vila-mac%C3%AAdo|0000-0001-5494-7732|o|5032266757|0|0|406poa,407oa,408oa,409oa,410oa,411oa,412oa,413oa,414a,415a,416a
+Sigurd Storgaard|sigurd-anker-laursen-storgaard|0000-0003-1405-3931|o|5014109259|0|0|129poa,139oa,417pa
+Lasse Wolff|lasse-harboe-wolff|0000-0002-2562-2629|o|5024440658|0|0|64poa,81poa,223oa,418oa,419oa,420o,421o
+Garbiñe Cid Ruiz|garbi%C3%B1e-cid-ruiz||||0|0|
+Emil Mærsk Pedersen|emil-tore-m%C3%A6rsk-pedersen|0009-0005-4150-8825|p|5102620917|0|0|48po,422poa,423a
+Elias Theil|||||1|1|
+Anne van Grinsven|anne-inge-maria-van-grinsven||||0|0|
+Gabriele Ciccarello|gabriele-ciccarello||||0|0|
+Yufei Wang|||||1|1|
+Enrique Escobar Fernandez-Marcote|||||0|1|
+Emil Clausen|emil-aagaard-clausen||||0|0|
+Bhavik Kumar||0000-0002-3755-0300|o|5014892859|0|1|181o,424a,425a,426a,427a,428a,429a,430a,431a,432a,433a,434a,435a,436a
+Rune Thinggaard Hansen|rune-thinggaard-hansen-birke||||0|0|
+David Scholz|david-scholz||||0|0|
+Pietro Posta|pietro-maria-posta|0009-0004-2997-5538|o|5104431142|0|0|55pa,103a,437a,438a,439a
+Vladyslav Visnevskyi||||5128815682|0|1|147a,440a
+Jakob Miller|jakob-miller|||5128234808|0|0|441a
+Maximilian Matzler|maximilian-matzler||||0|0|
+Wanqi Li|wanqi-li||||0|0|
+Charles Bennett|||||0|1|
+Tobias Colding|||||0|1|
+Karsten Flensberg|karsten-flensberg|0000-0002-8311-0103|p|5007831198|0|0|442poa,443poa,444poa,445poa,446poa,447poa,448poa,449poa,450poa,451poa,452poa,453poa,454poa,455poa,456poa,457poa,458poa,459poa,460poa,461poa,462poa,463poa,464poa,465poa,466poa,467poa,468poa,469poa,470poa,471poa,472a,473a,474a,475a,476a
+Michael Kastoryano|michael-james-kastoryano||||1|0|477p,478p,479p,480p,481p,482p,483p,484p
+Magdalena Musat|magdalena-elena-musat|0000-0001-8250-8585|p|5000571938|0|0|485p,486p,487a,488a,489a
+Niels Martin Møller|niels-martin-m%C3%B8ller|0000-0002-7701-0536|p|5027182758|0|0|490poa,491poa,492poa,493poa,494pa,495p,496po,497poa,498pa,499pa,500pa,501p,502o,503o,504o,505a,506a,507a
+Eugene Polzik|eugene-simon-polzik|0000-0001-9859-6591|p|5007480261|0|0|508pa,509poa,510poa,511poa,512poa,513poa,514pa,515pa,516pa,517poa,518poa,519poa,520pa,521poa,522pa,523pa,524poa,525p,526pa,527p,528po,529pa,530oa,531o,532a,533a,534a
+Mark Rudner||0000-0002-5150-6234|o|5055792056|0|1|535oa,536oa,537oa,538oa,539oa,540oa,541oa,542oa,543oa,544oa,545oa,546oa,547oa,548oa,549oa,550oa,551a,552a,553a,554a,555a,556a,557a,558a,559a,560a,561a,562a,563a,564a,565a,566a,567a

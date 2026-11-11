@@ -391,6 +391,13 @@ def levels_of(sublists):
         lv = "C2" if m >= 3 else "C1" if (m >= 1 or sec >= 2) else "B2" if sec == 1 else ""
         if lv: out[a] = lv
     return out
+# publication check (data/groups/pubcheck/<key>.json, scripts/build_pubcheck.py): read once a semester
+pcheck = {}
+for f in sorted((ROOT / "data/groups/pubcheck").glob("*.json")) if (ROOT / "data/groups/pubcheck").exists() else []:
+    d = json.loads(f.read_text(encoding="utf-8"))
+    pcheck[f.stem] = {"w": d["w"], "read": d.get("read", ""), "m": {p["n"]: p for p in d["p"]},
+                      "sum": {"profile": len({r[0] for p in d["p"] for r in p["rows"] if r[2] == "profile"}),
+                              "only_elsewhere": len({r[0] for p in d["p"] for r in p["rows"] if r[2] == "elsewhere"} - {r[0] for p in d["p"] for r in p["rows"] if r[2] == "profile"})}}
 gres = {}
 for f in sorted((ROOT / "data/groups/research_outputs").glob("*.tsv")) if (ROOT / "data/groups/research_outputs").exists() else []:
     for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
@@ -411,7 +418,18 @@ for g in gcfg["groups"]:
                             "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]),
                             "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
             ev, seen = [], set()
-            for r in gres.get((g["key"], name), []):
+            pcm = pcheck.get(g["key"], {}).get("m", {}).get(name)
+            if pcm is not None:
+                # publication check: only research output on the member's university profile counts
+                pw = pcheck[g["key"]]["w"]
+                for wi, src, st in pcm["rows"]:
+                    if st != "profile": continue
+                    k = re.sub(r"\W", "", pw[wi][0].lower())
+                    if k in seen: continue
+                    seen.add(k); sb = _cls(pw[wi][0])
+                    if sb: ev.append(sb)
+            else:
+              for r in gres.get((g["key"], name), []):
                 if r["kind"] != "O" or not r["year"].isdigit() or int(r["year"]) < 2021 or SKIP_TYPE.search(r["type"]): continue
                 k = re.sub(r"\W", "", r["title"].lower())
                 if k in seen: continue
@@ -425,6 +443,8 @@ for g in gcfg["groups"]:
                     if k not in seen: seen.add(k); ev.append(x[2].split(";"))
             harvested = any(r["kind"] == "A" and r["path"].strip() != "RATE-LIMITED" for r in gres.get((g["key"], name), []))
             members[-1].update({"rl": levels_of(ev), "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
+            if pcm is not None:
+                members[-1].update({"nout": pcm["n_profile"], "harv": True, "pc": [pcm["n_profile"], pcm["n_elsewhere"], bool(pcm["slug"])]})
         elif f[0] == "PUBS": pubs.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "cite": f[3] if len(f) > 3 else ""})
         elif f[0] == "PROJ": projects.append({"title": f[1], "url": (g["portal_base"] + f[2]) if f[2] else "", "people": f[3], "period": f[4], "funder": f[5], "type": f[6] if len(f) > 6 else ""})
         elif f[0] == "PRESS": press.append({"date": f[1], "title": f[2], "url": g["portal_base"] + f[3]})
@@ -446,6 +466,7 @@ for g in gcfg["groups"]:
     groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": sort_subs(g["cfqt"]), "members": members, "pubs": pubs, "projects": projects,
                        "press": press, "acts": acts, "prizes": prizes, "static_events": events,
                        "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),
+                       "pubcheck": {"read": pcheck[g["key"]]["read"], **pcheck[g["key"]]["sum"]} if g["key"] in pcheck else None,
                        "feed": feeds.get("groups", {}).get(g["key"], {})})
 gout = {"reference": ref, "groups": groups_out, "feeds_generated": feeds.get("generated", ""), "harvested": "2026-11-02"}
 gt = (ROOT / "site/groups_template.html").read_text(encoding="utf-8")

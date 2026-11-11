@@ -1,0 +1,13 @@
+# Works in qmath_raw.txt (0-based index in the W block) that OpenAlex attached to a member but that clearly belong to another person with the same name.
+# Checked by hand on 11 November 2026.
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+436
