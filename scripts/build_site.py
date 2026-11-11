@@ -403,6 +403,11 @@ latest5 = {}
 for f in sorted((ROOT / "data/groups/pubcheck").glob("*_latest5.tsv")) if (ROOT / "data/groups/pubcheck").exists() else []:
     for r in csv.DictReader((l for l in f.open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
         latest5.setdefault((f.name[:-12], r["member"]), []).append({"slug": r["portal path"], "subs": [] if r["cfqt"] == "-" else r["cfqt"].split(";"), "basis": r["basis"]})
+# members' university research profiles: portal path and a short summary of the profile's research description
+gprof = {}
+for f in sorted((ROOT / "data/groups/profiles").glob("*.tsv")) if (ROOT / "data/groups/profiles").exists() else []:
+    for r in csv.DictReader((l for l in f.open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
+        gprof[(f.stem, r["member"])] = r
 gres = {}
 for f in sorted((ROOT / "data/groups/research_outputs").glob("*.tsv")) if (ROOT / "data/groups/research_outputs").exists() else []:
     for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
@@ -419,7 +424,9 @@ for g in gcfg["groups"]:
             per = re.search(r"\[(.*?)\]", proj)
             years = re.findall(r"(20\d\d)", per[1]) if per else []
             pp = pmap.get((g["institution"], nkey(name)))
-            members.append({"name": name, "role": role, "cat": member_cat(role), "url": (g["portal_base"] + path) if path else "",
+            gp = gprof.get((g["key"], name), {})
+            path = path or gp.get("path", "")
+            members.append({"name": name, "role": role, "cat": member_cat(role), "url": (g["portal_base"] + path) if path else "", "about": gp.get("text", ""),
                             "project": re.sub(r"\s*\[.*?\]\s*$", "", proj), "project_years": "–".join(years[:2]),
                             "output": out_, "subs": pp.get("subs", []) if pp else [], "teacher": bool(pp)})
             ev, seen = [], set()
