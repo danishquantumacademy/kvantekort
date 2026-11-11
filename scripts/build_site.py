@@ -463,6 +463,16 @@ for g in gcfg["groups"]:
                 k = (c["institution"], c["code"])
                 crs.setdefault(k, {**{x: c[x] for x in ("institution", "code", "title", "level", "url", "subs", "primary", "mapped") if x in c}, "teachers": []})
                 crs[k]["teachers"].append({"name": p["name"], "role": c["role"]})
+    if g["key"] in pcheck:
+        # latest publications = newest research output on the members' university profiles (publication check)
+        pc = pcheck[g["key"]]; TYN = {"J": "Journal article", "C": "Book chapter", "P": "Preprint", "R": "Proceedings", "B": "Book", "T": "Thesis", "L": "Letter", "V": "Review"}
+        byw = {}
+        for mname, pm in pc["m"].items():
+            for wi, src, st in pm["rows"]:
+                if st == "profile": byw.setdefault(wi, []).append(pm)
+        top = sorted(byw, key=lambda wi: (-pc["w"][wi][1], -len(byw[wi]), pc["w"][wi][0]))[:8]
+        pubs = [{"title": pc["w"][wi][0], "url": f"https://researchprofiles.ku.dk/en/persons/{byw[wi][0]['slug']}/publications/",
+                 "cite": f"{pc['w'][wi][1]} · {TYN.get(pc['w'][wi][2], 'Research output')} · on the profile of " + ", ".join(m["n"] for m in byw[wi])} for wi in top]
     groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": sort_subs(g["cfqt"]), "members": members, "pubs": pubs, "projects": projects,
                        "press": press, "acts": acts, "prizes": prizes, "static_events": events,
                        "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),
