@@ -1,8 +1,14 @@
 # QM members' university research profiles (https://portal.findresearcher.sdu.dk), read 11 November 2026.
-# text: a short summary written by Danish Quantum Academy from the research description on the profile (profile text,
-# research interests, keywords); CV and biography sections are not used. Empty when the profile has no description.
+# text: a short summary written by Danish Quantum Academy from the member's research description on the SDU research portal or,
+# where there is one, the member's page on the centre's website (sdu.dk/en/forskning/qm/about-qm/employees, read 11 November 2026); CV details are not used.
 member	path	text
 Jørgen Ellegaard Andersen	/en/persons/jea/	Quantum topology, geometric quantization of moduli spaces, topological quantum field theory and resurgence; quantum algorithms and software for optimization, differential equations, communication and error correction.
-Guillaume Laplante-Anfossi	/en/persons/glaplanteanfossi/	Keywords: algebraic topology, homotopy theory, combinatorics.
+Guillaume Laplante-Anfossi	/en/persons/glaplanteanfossi/	Algebraic topology: homotopy theory and operads.
 William Elbæk Mistegård	/en/persons/william-elb%C3%A6k-misteg%C3%A5rd-2/	Mathematics behind quantum theory: topological quantum field theory, topological quantum computing, differential geometry and topology; directs SDU's MSc programme in quantum computing.
-Matthias Oliver Wilhelm	/en/persons/mwilhelm/	Scattering amplitudes in gauge theory and gravity, Feynman integrals and special functions in quantum field theory.
+Matthias Oliver Wilhelm	/en/persons/mwilhelm/	Theoretical particle physics and gravity: quantum field theory and scattering amplitudes; leads the Scattering Amplitudes Group.
+Raphael David Simon Belliard	/en/persons/belliard/	Bridges foundational quantum mathematics and quantum technology: advanced quantum sampling techniques for digital computation and analogue simulation (Andersen team).
+Josefine Bjørndal Robl	/en/persons/robl/	Gaussian Boson Sampling: algorithms, applications and theoretical advantages of photonic quantum computing, building on a GBS-based clustering algorithm and work on bosonic quantum error-correcting codes.
+Giacomo Cappiello	/en/persons/giaccap/	Benchmarking quantum algorithms against classical ones with a rigorous mathematical approach, from quantum machine learning (quantum kernels, hybrid neural networks) to wider applications (Andersen team).
+Olga Solodovnikova	/en/persons/olgasol/	Use cases for Gaussian Boson Sampling, especially estimating high-dimensional integrals (DEiC postdoc scholarship in quantum algorithms, with J. E. Andersen and S. Shan).
+Jurek Bleischwitz	/en/persons/jurek/	Non-perturbative formulations of perturbative quantum field theories, especially Chern-Simons theory in the BV formalism, using higher category theory and derived geometry (PhD with K. Wernli and J. E. Andersen).
+Frederik Rosendal Rytter	/en/persons/rytter/	Algorithms, advantages and applications of Gaussian Boson Sampling as a model of photonic quantum computing (PhD with J. E. Andersen and S. Shan).

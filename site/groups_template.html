@@ -323,7 +323,7 @@ footer p{margin:0;max-width:86ch}
           const whyBox=el('div',{});
           grid.append(el('div',{class:'mem'},el('span',{class:'n'},m.url?el('a',{href:m.url,target:'_blank',rel:'noopener'},m.name):m.name,...lvButtons(m,whyBox)),whyBox,
             el('span',{class:'r'},m.role||'Position not stated'),
-            m.about?el('span',{class:'ab'+(m.about_src==='outputs'?' abo':''),title:m.about_src==='outputs'?'The profile has no research description; this line sums up the member’s five newest research outputs on the profile':'Summary of the research description on the member’s university profile'},m.about):null,
+            m.about?el('span',{class:'ab'+(m.about_src==='outputs'?' abo':''),title:m.about_src==='outputs'?'The profile has no research description; this line sums up the member’s five newest research outputs on the profile':'Summary of the research description on the member’s university profile or staff page'},m.about):null,
             m.l5&&m.l5.length?el('span',{class:'p'},el('em',{},'Latest publication: '),link(m.l5[0].u,m.l5[0].t),` (${(m.l5[0].d||'').slice(0,4)})`):m.output&&res?el('span',{class:'p'},el('em',{},'Latest publication: '),m.output):null,
             m.project?el('span',{class:'p'},el('em',{},'Project: '),m.project+(m.project_years?` (${m.project_years})`:'')):null,
             m.pc&&res?el('span',{class:'pc',title:'Research output since 2021: on the university research profile / found only in ORCID, OpenAlex or arXiv'},m.pc[2]?`${m.pc[0]} on university profile`:'No university profile found',m.pc[1]?el('span',{class:'pe'},` · ${m.pc[1]} not on profile`):null):null,
