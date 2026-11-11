@@ -228,7 +228,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 ## Access check
 
-The workflow "Check sources" opened 153 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **135 public, 0 behind a login**, 7 bot-protected and 11 not reachable.
+The workflow "Check sources" opened 153 pages (up to three per site) from a GitHub server, without login or cookies. Result, in [`data/sources_check.csv`](data/sources_check.csv): **140 public, 0 behind a login**, 7 bot-protected and 6 not reachable.
 
 - *Bot-protected* pages (the AU research portal) show a Cloudflare challenge to scripts but open normally in a browser without logging in.
 - *Not reachable* are mostly University of Copenhagen web servers (ku.dk), which do not answer requests from GitHub's servers; they open normally in a browser without logging in. The rest were outdated links to unit websites, which have been removed (the map links to the research-portal page instead).

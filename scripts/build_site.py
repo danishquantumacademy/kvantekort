@@ -466,6 +466,10 @@ for g in gcfg["groups"]:
                 for x in pp["rp"]["it"]:
                     k = re.sub(r"\W", "", x[3].lower())
                     if k not in seen: seen.add(k); add(x[2].split(";"), x[3], {"P": "r", "O": "o", "S": "s"}.get(x[0], "o"))
+            # research description (profile or staff page) classified on the CFQT map counts as one piece of evidence
+            dsub = [x for x in (gp.get("cfqt") or "").split(";") if x and x != "-"]
+            desc_ev = [dsub, gp.get("text", "")[:160], "r"] if dsub else None
+            if desc_ev: ev.append(dsub); evd.append(desc_ev)
             harvested = any(r["kind"] == "A" and r["path"].strip() != "RATE-LIMITED" for r in gres.get((g["key"], name), []))
             members[-1].update({"rl": levels_of(ev), "ev": evd, "nev": len(ev), "nout": sum(1 for r in gres.get((g["key"], name), []) if r["kind"] == "O"), "harv": harvested})
             if pcm is not None:
@@ -475,6 +479,7 @@ for g in gcfg["groups"]:
                     members[-1]["l5"] = [{"t": pw[x["slug"]][0] if x["slug"] in pw else x["slug"], "d": (pw[x["slug"]][4] if x["slug"] in pw else ""),
                                           "u": f"{g['portal_base']}/en/publications/{x['slug']}/", "s": x["subs"], "b": x["basis"]} for x in l5]
                     members[-1]["ev"] = [[x["s"], x["t"][:160], "l"] for x in members[-1]["l5"] if x["s"]]
+                    if desc_ev: members[-1]["ev"].append(desc_ev)
                     if not members[-1]["about"]:
                         # no research description on the profile: a short line from the classification notes of the five newest outputs
                         bs = []
