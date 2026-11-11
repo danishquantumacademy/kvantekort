@@ -1,0 +1,116 @@
+# qm members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Jørgen Ellegaard Andersen|jea|0000-0001-9721-0722|
+p ppiytf 2026-03 a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm
+p 1rvyxat 2026-02 the-genus-one-complex-quantum-chern-simons-representation-of-the--2
+p 3uar9o 2025-12 =
+p 11nqhmx 2024 sp1-symmetric-hyperk%C3%A4hler-quantisation
+p 1p33dyg 2023-08 using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p
+#Raphael David Simon Belliard|belliard||
+#Jurek Bleischwitz|jurek||
+#Giacomo Cappiello|giaccap||
+#Remus Stefan Cernat|strancernat||
+#Fie Dømler|doemler||
+#Charalampos Evangelatos|cevan|0009-0002-2787-8254|
+#Michele Fossati|fossati||
+#Pallav Goyal|pallavg||
+#Yuanhong Guo|guoyuanhong|0000-0003-4623-3056|
+#Fabian Haiden|fab|0000-0002-9966-0089|
+p 140i28r 2026-07 perverse-schobers-stability-conditions-and-quadratic-differential
+p 1gdszrb 2025-06 braid-group-actions-on-branched-coverings-and-full-exceptional-se
+p zdhj4t 2024-02 3-d-calabiyau-categories-for-teichm%C3%BCller-theory
+p vfctc0 2024 spectral-networks-and-stability-conditions-for-fukaya-categories-
+p 1e7cqog 2021 =
+#Gard Olav Helle|gardoh|0009-0009-5666-5048|
+#Sam Hindson|sam-hindson|0000-0002-6277-4971|
+#David Hofmeier|hofmeier|0009-0000-8713-0278|
+#Andreas Horst|ahor||
+#Mingyuan Hu|hmy||
+#Yang Huang|yang-huang||
+#Reinier Huese|huese||
+#Mette Elise Jørgensen|mejo||
+#Henry Mikael Kirveslahti|hklahti|0000-0002-2484-4481|
+p xcrwdw - =
+#Guillaume Laplante-Anfossi|glaplanteanfossi|0000-0002-7383-4474|
+p f1datx 2025-02 =
+p fzk4ws 2024-10 =
+p 144we9g 2022-08 =
+p nm2u1g - kashiwaravergne-solutions-degree-by-degree
+p m07kzm - =
+#Muyang Liu|liumuyang||
+#William Elbæk Mistegård|william-elb%C3%A6k-misteg%C3%A5rd-2|0000-0003-0786-5106|
+p 1mkkqna 2026-06 a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature
+p 3uar9o 2025-12 =
+p pp06oo 2022-03 resurgence-analysis-of-quantum-invariants-of-seifert-fibered-homo
+p 62grsf - asymptotic-expansions-of-the-witten-reshetikhin-turaev-invariants-2
+p 32ng5r - resurgence-analysis-of-quantum-invariants-seifert-manifolds-and-s
+#Nadia Ott|nmott|0009-0000-8335-6771|
+p oi30cj 2026-02 =
+#Jamie Jonathan Pearson|jjpearson||
+#Ole Egholm Pedersen|oep||
+#Du Pei|dpei|0000-0001-5587-6905|
+p 1fhtoa8 2026-07 =
+p k52hjo 2026-05 generalized-global-symmetries-of-tm-theories-part-ii
+#Adrian Petr|adri||
+p broluo 2025 mapping-tori-of-asubsub-autoequivalences-and-legendrian-lifts-of-
+#Petros Petsinis|petsinis||
+#Greyson Potter|gkp||
+#Duccio Di Prima|duccio|0009-0007-8900-7223|
+p 199hplr 2026-04 =
+p 1inc9fe 2025-12 activation-mechanism-of-jumping-spider-rhodopsin-1-revealed-by-cl
+p 1k19arg 2024-11 synthesis-and-characterization-of-a-novel-intrinsically-fluoresce
+p fy9lis 2024-03 =
+p 1v84v6q - assessment-of-excited-state-methods-for-one-and-two-photon-absorp
+#Lars Rasmussen|larsras||
+#Alexander Leguizamón Robayo|alexaleg||
+#Josefine Bjørndal Robl|robl|0009-0004-1173-4373|
+#Baltasar Fernández Rosado|bfrosado||
+#Frederik Rosendal Rytter|rytter||
+#Steffen Schmidt|stschmidt||
+p 1y213l0 2026-03 cubic-dirac-operators-and-dirac-cohomology-for-basic-classical-li
+#Florian Raphaël Seefeld|fseefeld|0009-0003-5798-7635|
+p s1yob0 2026-05 =
+#Benjamin Edward Peter Shackleton|shackleton||
+#Shan Shan|shan-shan|0000-0002-2880-0566|
+p 29dj6l 2026-12 quantification-of-molar-sub-regions-suggests-increasing-herbivory
+p 1p33dyg 2023-08 using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p
+p 1s7r1cg - he-has-the-whole-package-lyrics-melodies-enigmatic-mythical-image
+#Vivek Shende|vivek-shende|0000-0002-6728-7494|
+p hqyx15 2025 =
+p qhnkrq 2024-05 =
+p hp1o5g 2024 =
+p 23i56o 2023-01 =
+p 1t3mqs7 2022-06 an-algebraic-approach-to-the-algebraic-weinstein-conjecture-2
+#Olga Solodovnikova|olgasol||
+#Benjamin Sung|bsung||
+#Apoorv Tiwari|apoorvtiwari||
+p a65t8d 2026-07 gapless-phases-in-21d-with-non-invertible-symmetries
+p x16733 2026-02 21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat
+p 1xdbuc3 2025-11 =
+#Edison Santiago Carrera Unaucho|ecarrera||
+#Diana Uy-Tuazon|uytuazon||
+#Marcus Nygaard Vuust|mavuu||
+#Konstantin Wernli|konstantin-wernli|0000-0002-6300-8152|
+p 1lr29mx 2026-10 globalization-of-perturbative-chernsimons-theory-on-the-moduli-sp
+p bfstnf 2026 =
+p 1puwme 2026 perturbative-chernsimons-invariants-from-non-acyclic-flat-connect
+p 1a4qg8b 2025-10 =
+p xq4jyo 2025 on-enumerative-problems-for-maps-and-quasimaps-freckles-and-scars
+#Matthias Oliver Wilhelm|mwilhelm|0000-0002-0032-0181|
+p s1yob0 2026-05 =
+p zo9taw 2025-10 classification-of-feynman-integral-geometries-for-black-hole-scat
+p s0w6rr 2025-05 refining-integration-by-parts-reduction-of-feynman-integrals-with
+p 1ct1im4 2025-04 recurrent-features-of-amplitudes-in-planar-n-4-super-yang-mills-t
+p 4xz93e 2025-02 calabi-yau-feynman-integrals-in-gravity-%CE%B5-factorized-form-for-app
+#Hao Xu|haoxu||
+#Wennan Zhang|wennan||
+#Zichun Zhou|zzc||
+#Jeremy Alexander Ramirez Galotti|jale||
+#Martin Kuntz Jacobsen|kuntz||
+#Henrik Pedersen|henrik|0000-0002-1034-3280|
+p av685r 2023-11 determining-the-optimal-number-of-pistons-for-offshore-digital-wi
+p 126wky5 2023 improving-energy-efficiency-and-response-time-of-an-offshore-winc
+p fx5x63 2022-12 temperature-independent-fault-detection-of-solenoid-actuated-prop
+p 1xjfw9v - a-backstepping-based-controller-utilizing-a-sliding-mode-disturba
+p 19neddf - concept-evaluation-for-the-establishment-of-a-firm-end-stop-feeli

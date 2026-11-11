@@ -1,0 +1,169 @@
+# qm, compact harvest 11 November 2026 (SDU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Jørgen Ellegaard Andersen|~jea/|0000-0001-9721-0722||0
+#N|12|1
+p|ppiytf|2026-03|J|a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm|||A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT
+p|1rvyxat|2026-02|J|the-genus-one-complex-quantum-chern-simons-representation-of-the--2|||The genus one complex quantum Chern-Simons representation of the mapping class group
+p|3uar9o|2025-12|J|=|||The automorphism equivariant Hitchin index
+p|11nqhmx|2024|J|sp1-symmetric-hyperk%C3%A4hler-quantisation|||Sp(1)-symmetric hyperkähler quantisation
+p|1p33dyg|2023-08|J|using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p|||Using the ELF test, FIB-4 and NAFLD fibrosis score to screen the population for liver d...
+#M|Raphael David Simon Belliard|~belliard/|||0
+#N|0|0
+#M|Jurek Bleischwitz|~jurek/|||0
+#N|0|0
+#M|Giacomo Cappiello|~giaccap/|||0
+#N|0|0
+#M|Remus Stefan Cernat|~strancernat/|||0
+#N|0|0
+#M|Fie Dømler|~doemler/|||0
+#N|0|0
+#M|Charalampos Evangelatos|~cevan/|0009-0002-2787-8254||0
+#N|0|0
+#M|Michele Fossati|~fossati/|||0
+#N|0|0
+#M|Pallav Goyal|~pallavg/|||0
+#N|0|0
+#M|Yuanhong Guo|~guoyuanhong/|0000-0003-4623-3056||0
+#N|0|5
+#M|Fabian Haiden|~fab/|0000-0002-9966-0089||0
+#N|10|0
+p|140i28r|2026-07|J|perverse-schobers-stability-conditions-and-quadratic-differential|||Perverse schobers, stability conditions and quadratic differentials II: relative graded...
+p|1gdszrb|2025-06|J|braid-group-actions-on-branched-coverings-and-full-exceptional-se|||Braid group actions on branched coverings and full exceptional sequences
+p|zdhj4t|2024-02|J|3-d-calabiyau-categories-for-teichm%C3%BCller-theory|||3-d Calabi–Yau categories for Teichmüller theory
+p|vfctc0|2024|J|spectral-networks-and-stability-conditions-for-fukaya-categories-|||Spectral networks and stability conditions for Fukaya categories with coefficients
+p|1e7cqog|2021|J|=|||Legendrian skein algebras and Hall algebras
+#M|Gard Olav Helle|~gardoh/|0009-0009-5666-5048||0
+#N|0|1
+#M|Sam Hindson|~sam-hindson/|0000-0002-6277-4971||0
+#N|0|0
+#M|David Hofmeier|~hofmeier/|0009-0000-8713-0278||0
+#N|0|1
+#M|Andreas Horst|~ahor/|||0
+#N|0|0
+#M|Mingyuan Hu|~hmy/|||0
+#N|0|0
+#M|Yang Huang|~yang-huang/|||0
+#N|0|0
+#M|Reinier Huese|~huese/|||0
+#N|0|0
+#M|Mette Elise Jørgensen|~mejo/|||0
+#N|0|0
+#M|Henry Mikael Kirveslahti|~hklahti/|0000-0002-2484-4481||0
+#N|1|0
+p|xcrwdw||J|=|||Digital tools for analyzing nondiffeomorphic shapes
+#M|Guillaume Laplante-Anfossi|~glaplanteanfossi/|0000-0002-7383-4474||0
+#N|6|3
+p|f1datx|2025-02|J|=|||Steenrod operations via higher Bruhat orders
+p|fzk4ws|2024-10|J|=|||Topological proofs of categorical coherence
+p|144we9g|2022-08|J|=|||The diagonal of the operahedra
+p|nm2u1g||J|kashiwaravergne-solutions-degree-by-degree|||Kashiwara–Vergne solutions degree by degree
+p|m07kzm||J|=|||Closing the Open System
+#M|Muyang Liu|~liumuyang/|||0
+#N|0|0
+#M|William Elbæk Mistegård|~william-elb%C3%A6k-misteg%C3%A5rd-2/|0000-0003-0786-5106||0
+#N|5|0
+p|1mkkqna|2026-06|J|a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature|||A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum inva...
+p|3uar9o|2025-12|J|=|||The automorphism equivariant Hitchin index
+p|pp06oo|2022-03|J|resurgence-analysis-of-quantum-invariants-of-seifert-fibered-homo|||Resurgence analysis of quantum invariants of Seifert fibered homology spheres
+p|62grsf||J|asymptotic-expansions-of-the-witten-reshetikhin-turaev-invariants-2|||Asymptotic expansions of the Witten-Reshetikhin-Turaev Invariants of Mapping Tori I
+p|32ng5r||P|resurgence-analysis-of-quantum-invariants-seifert-manifolds-and-s|||Resurgence Analysis of Quantum Invariants: Seifert Manifolds and Surgeries on The Figur...
+#M|Nadia Ott|~nmott/|0009-0000-8335-6771||0
+#N|1|0
+p|oi30cj|2026-02|J|=|||Supermoduli space with Ramond punctures is not projected
+#M|Jamie Jonathan Pearson|~jjpearson/|||0
+#N|0|0
+#M|Ole Egholm Pedersen|~oep/|||0
+#N|0|0
+#M|Du Pei|~dpei/|0000-0001-5587-6905||0
+#N|2|9
+p|1fhtoa8|2026-07|J|=|||On mixed ’t Hooft anomalies of emergent symmetries
+p|k52hjo|2026-05|J|generalized-global-symmetries-of-tm-theories-part-ii|||Generalized global symmetries of T[M] theories. Part II
+#M|Adrian Petr|~adri/|||0
+#N|1|0
+p|broluo|2025|J|mapping-tori-of-asubsub-autoequivalences-and-legendrian-lifts-of-|||Mapping tori of A∞-autoequivalences and Legendrian lifts of exact Lagrangians in circul...
+#M|Petros Petsinis|~petsinis/|||0
+#N|0|0
+#M|Greyson Potter|~gkp/|||0
+#N|0|0
+#M|Duccio Di Prima|~duccio/|0009-0007-8900-7223||0
+#N|7|1
+p|199hplr|2026-04|J|=|||Self-Sensitized Photooxidation in Extended Tetrathiafulvalenes
+p|1inc9fe|2025-12|J|activation-mechanism-of-jumping-spider-rhodopsin-1-revealed-by-cl|||Activation Mechanism of Jumping Spider Rhodopsin-1 Revealed by Classical Molecular Dyna...
+p|1k19arg|2024-11|J|synthesis-and-characterization-of-a-novel-intrinsically-fluoresce|||Synthesis and Characterization of a Novel Intrinsically Fluorescent Analog of Cholester...
+p|fy9lis|2024-03|J|=|||Color Tuning in Bovine Rhodopsin through Polarizable Embedding
+p|1v84v6q||J|assessment-of-excited-state-methods-for-one-and-two-photon-absorp|||Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal P...
+#M|Lars Rasmussen|~larsras/|||0
+#N|0|0
+#M|Alexander Leguizamón Robayo|~alexaleg/|||0
+#N|0|0
+#M|Josefine Bjørndal Robl|~robl/|0009-0004-1173-4373||0
+#N|0|1
+#M|Baltasar Fernández Rosado|~bfrosado/|||0
+#N|0|0
+#M|Frederik Rosendal Rytter|~rytter/|||0
+#N|0|0
+#M|Steffen Schmidt|~stschmidt/|||0
+#N|1|0
+p|1y213l0|2026-03|J|cubic-dirac-operators-and-dirac-cohomology-for-basic-classical-li|||Cubic Dirac Operators and Dirac Cohomology for Basic Classical Lie Superalgebras
+#M|Florian Raphaël Seefeld|~fseefeld/|0009-0003-5798-7635||0
+#N|1|0
+p|s1yob0|2026-05|J|=|||The spectrum of Feynman-integral geometries at two loops
+#M|Benjamin Edward Peter Shackleton|~shackleton/|||0
+#N|0|0
+#M|Shan Shan|~shan-shan/|0000-0002-2880-0566||0
+#N|3|5
+p|29dj6l|2026-12|J|quantification-of-molar-sub-regions-suggests-increasing-herbivory|||Quantification of molar sub-regions suggests increasing herbivory during primate origins
+p|1p33dyg|2023-08|J|using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p|||Using the ELF test, FIB-4 and NAFLD fibrosis score to screen the population for liver d...
+p|1s7r1cg||J|he-has-the-whole-package-lyrics-melodies-enigmatic-mythical-image|||“He has the whole package: lyrics, melodies, enigmatic, mythical” : Images of Bob Dylan...
+#M|Vivek Shende|~vivek-shende/|0000-0002-6728-7494||0
+#N|13|3
+p|hqyx15|2025|J|=|||Adjoints, wrapping, and morphisms at infinity
+p|qhnkrq|2024-05|J|=|||Microlocal Morse theory of wrapped Fukaya categories
+p|hp1o5g|2024|J|=|||Sectorial descent for wrapped Fukaya categories
+p|23i56o|2023-01|J|=|||Invariance of microsheaves on stable Higgs bundles
+p|1t3mqs7|2022-06|J|an-algebraic-approach-to-the-algebraic-weinstein-conjecture-2|||An algebraic approach to the algebraic Weinstein conjecture
+#M|Olga Solodovnikova|~olgasol/|||0
+#N|0|0
+#M|Benjamin Sung|~bsung/|||0
+#N|0|0
+#M|Apoorv Tiwari|~apoorvtiwari/|||0
+#N|3|0
+p|a65t8d|2026-07|J|gapless-phases-in-21d-with-non-invertible-symmetries|||Gapless phases in (2+1)d with non-invertible symmetries
+p|x16733|2026-02|J|21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat|||(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry
+p|1xdbuc3|2025-11|J|=|||Categorical Symmetries in Spin Models with Atom Arrays
+#M|Edison Santiago Carrera Unaucho|~ecarrera/|||0
+#N|0|0
+#M|Diana Uy-Tuazon|~uytuazon/|||0
+#N|0|0
+#M|Marcus Nygaard Vuust|~mavuu/|||0
+#N|0|0
+#M|Konstantin Wernli|~konstantin-wernli/|0000-0002-6300-8152||0
+#N|11|2
+p|1lr29mx|2026-10|J|globalization-of-perturbative-chernsimons-theory-on-the-moduli-sp|||Globalization of Perturbative Chern–Simons Theory on the Moduli Space of Flat Connectio...
+p|bfstnf|2026|J|=|||Combinatorial QFT on graphs: First quantization formalism
+p|1puwme|2026|J|perturbative-chernsimons-invariants-from-non-acyclic-flat-connect|||Perturbative Chern–Simons invariants from non-acyclic flat connections
+p|1a4qg8b|2025-10|J|=|||Gluing formulae for heat kernels
+p|xq4jyo|2025|J|on-enumerative-problems-for-maps-and-quasimaps-freckles-and-scars|||On enumerative problems for maps and quasimaps: freckles and scars
+#M|Matthias Oliver Wilhelm|~mwilhelm/|0000-0002-0032-0181||0
+#N|27|2
+p|s1yob0|2026-05|J|=|||The spectrum of Feynman-integral geometries at two loops
+p|zo9taw|2025-10|J|classification-of-feynman-integral-geometries-for-black-hole-scat|||Classification of Feynman integral geometries for black-hole scattering at 5PM order
+p|s0w6rr|2025-05|J|refining-integration-by-parts-reduction-of-feynman-integrals-with|||Refining Integration-by-Parts Reduction of Feynman Integrals with Machine Learning
+p|1ct1im4|2025-04|J|recurrent-features-of-amplitudes-in-planar-n-4-super-yang-mills-t|||Recurrent features of amplitudes in planar N = 4 super Yang-Mills theory
+p|4xz93e|2025-02|J|calabi-yau-feynman-integrals-in-gravity-%CE%B5-factorized-form-for-app|||Calabi-Yau Feynman integrals in gravity: ε-factorized form for apparent singularities
+#M|Hao Xu|~haoxu/|||0
+#N|0|0
+#M|Wennan Zhang|~wennan/|||0
+#N|0|0
+#M|Zichun Zhou|~zzc/|||0
+#N|0|0
+#M|Jeremy Alexander Ramirez Galotti|~jale/|||0
+#N|0|0
+#M|Martin Kuntz Jacobsen|~kuntz/|||0
+#N|0|0
+#M|Henrik Pedersen|~henrik/|0000-0002-1034-3280||0
+#N|10|14
+p|av685r|2023-11|J|determining-the-optimal-number-of-pistons-for-offshore-digital-wi|||Determining the Optimal Number of Pistons for Offshore Digital Winch Drives
+p|126wky5|2023|J|improving-energy-efficiency-and-response-time-of-an-offshore-winc|||Improving Energy Efficiency and Response Time of an Offshore Winch Drive with Digital D...
+p|fx5x63|2022-12|J|temperature-independent-fault-detection-of-solenoid-actuated-prop|||Temperature-Independent Fault Detection of Solenoid-Actuated Proportional Valve
+p|1xjfw9v||J|a-backstepping-based-controller-utilizing-a-sliding-mode-disturba|||A Backstepping based Controller utilizing a Sliding Mode Disturbance Observer Applied t...
+p|19neddf||J|concept-evaluation-for-the-establishment-of-a-firm-end-stop-feeli|||Concept Evaluation for the Establishment of a Firm End-Stop Feeling in an Asymmetric Hy...

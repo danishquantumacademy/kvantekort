@@ -1,0 +1,61 @@
+# nanooptics members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Sergey I. Bozhevolnyi|seib|0000-0002-0393-4859|
+p xnnbvj 2071 full-range-birefringence-control-with-piezoelectric-mems-based-me
+p qojyzt 2026-12 =
+p 1pk04h2 2026-08 chip-integrated-metasurface-enabled-single-photon-skyrmion-source
+p 14k6tkm 2026 reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma
+p zqic3u 2025-12 =
+#Jacob Holm Colding-Jørgensen|jacol||
+#Fei Ding|feid|0000-0001-7362-519X|
+p xnnbvj 2071 full-range-birefringence-control-with-piezoelectric-mems-based-me
+p 1tiiusd 2026-06 =
+p 1ut9h1t 2026-02 isolated-iodine-single-atoms-regulating-the-in-plane-electronic-s
+p 14k6tkm 2026 reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma
+p 4esf6h 2025-12 polarization-selective-unidirectional-and-bidirectional-diffracti
+#Donghai Han|donha||
+#Jonas Beermann Kristiansen|jonas-beermann-kristiansen|0000-0001-9809-2430|
+p slutzj - vis-swir-hyperspectral-microscopy-imaging-of-plasmonic-color-prin
+p wmfjel - =
+p 1am0tiu - gapsurface-plasmon-metasurfaces-for-broadband-circulartolinear-po
+#Shailesh Kumar|shku|0000-0001-5795-0910|
+p 1pk04h2 2026-08 chip-integrated-metasurface-enabled-single-photon-skyrmion-source
+p 1op34en 2025-09 %C3%A5ngstr%C3%B6m-tunable-polarization-resolved-solid-state-photon-sources
+p 1b7lbbk 2023-12 large-spontaneous-emission-enhancement-with-silver-nanocube-dimer
+p 2iace5 2023-12 multiple-channelling-single-photon-emission-with-scattering-holog
+p n9sqam 2021-10 =
+#Yiwen Liu|yiwe|0000-0002-0415-3149|
+#Chao Meng|chao|0000-0002-2126-6954|
+p xnnbvj 2071 full-range-birefringence-control-with-piezoelectric-mems-based-me
+p 14k6tkm 2026 reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma
+p 1op34en 2025-09 %C3%A5ngstr%C3%B6m-tunable-polarization-resolved-solid-state-photon-sources
+p 1a5vnma 2025-01 rotation-induced-plasmonic-chiral-quasi-bound-states-in-the-conti
+p qmtnsw 2024-03 =
+#Yi Ouyang|yiou||
+p 1uzroju - aperture-layout-induced-effects-in-polarization-resolved-multifoc
+#Torgom Yezekyan|torgom-yezekyan|0000-0003-2019-2225|
+p zqic3u 2025-12 =
+p 1bo0hjv 2025-11 quasi-bound-states-in-the-continuum-in-finite-waveguide-grating-c
+p 1by6hp1 2025-08 an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce
+p 1h40ei3 2025-08 an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3
+p 1vnbeni 2025-07 =
+#Vladimir Zenin|Zenin|0000-0001-5512-8288|
+p 1vnbeni 2025-07 =
+p blzksu 2025-03 design-and-experimental-demonstration-of-wavelengthselective-meta
+p 16g77r1 2024-07 fourier-analysis-of-near-field-patterns-generated-by-propagating-
+p 1wu2jmb 2023-04 high-efficiency-silicon-metasurface-mirror-on-a-sapphire-substrat
+p 1xt7la9 2022-12 =
+#Espoir Elocho|eselo||
+#Gustav Engen|gen||
+#Lukas Taasti Fabian|lunie||
+#Thomas Frosted|thfro||
+#Iben Lindberg Husum|ibhus||
+#Lucas Darnell Jørgensen|lujoe||
+#Eskild Krongaard-Kruse|eskro||
+#Camille Mei Juul Lange|calan||
+#Philip Nielsen|phnie||
+#Isabella Røn Olsson|iolsse||
+#Julie Hjorth Pedersen|julped||
+#Laurids Nygaard Ulrichsen|laulr||
+#Mathias Holbech Warming|mathias-holbech-warming||

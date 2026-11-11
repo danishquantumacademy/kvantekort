@@ -1,0 +1,74 @@
+# The five newest research outputs on each polima member's SDU research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Jorge Barcia Rodriguez	modelling-methane-production-in-trickle-bed-reactors-a-biokinetic-2	-	biomethanation modelling
+Ida Juliane Bundgaard	exploring-transition-metal-dichalcogenide-nanostructures-for-elec	-	tunable structural colours from TMD nanostructures (classical nanophotonics)
+Ida Juliane Bundgaard	surface-quantum-response-of-plasmonic-heterodimers-revealing-the-	2.2;2.3	quantum surface response of plasmonic heterodimers
+Ida Juliane Bundgaard	quantum-informed-plasmonics-for-strong-coupling-the-role-of-elect	2.2;2.3	quantum plasmonics and strong coupling
+Joel Cox	active-steering-of-cathodoluminescence-through-a-generalized-smit	3.3	metasurface steering of electron-beam emission
+Joel Cox	optical-design-of-structural-colored-photovoltaics-for-building-i	-	structural colours for building-integrated photovoltaics
+Joel Cox	nonreciprocal-plasmons-in-one-dimensional-carbon-nanostructures	2.3	nonreciprocal plasmons in carbon nanostructures
+Joel Cox	nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl	2.3	hydrodynamic model of 2D magnetoplasmons
+Joel Cox	structural-colored-planar-multilayers-with-minimal-angular-color-	-	coloured multilayers for photovoltaics
+Eduardo Dias	active-steering-of-cathodoluminescence-through-a-generalized-smit	3.3	metasurface steering of electron-beam emission
+Eduardo Dias	nonlocality-in-photonic-materials-and-metamaterials-roadmap	2.2;3.3	nonlocal response in photonic materials (roadmap)
+Eduardo Dias	wave-mixing-cathodoluminescence-microscopy-of-low-frequency-excit	2.2;3.3	free-electron wave mixing in cathodoluminescence
+Eduardo Dias	%CE%BCev-electron-spectromicroscopy-using-free-space-light	2.2;3.3	free-electron-light interaction spectromicroscopy
+Eduardo Dias	ultrafast-near-field-dynamics-in-silver-nanowires-driven-by-few-c	3.3	ultrafast plasmonic near fields
+Sven Lennart Ebel	substrate-assisted-cathodoluminescence	3.3	substrate-assisted cathodoluminescence
+Sven Lennart Ebel	stimulated-interactions-of-low-energy-free-electrons-with-light	2.2	stimulated free-electron-light interactions
+Sven Lennart Ebel	an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce	3.3	materials atlas for cathodoluminescence microscopy
+Sven Lennart Ebel	an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3	-	journal cover page
+Sven Lennart Ebel	cathodoluminescence-spectroscopy-of-nanoscale-light-matter-intera-2	3.3;2.2	cathodoluminescence of nanoscale light-matter interactions
+Catarina Ferreira	optical-design-of-structural-colored-photovoltaics-for-building-i	-	structural colours for building-integrated photovoltaics
+Catarina Ferreira	structural-colored-planar-multilayers-with-minimal-angular-color-	-	coloured multilayers for photovoltaics
+Catarina Ferreira	exploring-transition-metal-dichalcogenide-nanostructures-for-elec	-	tunable structural colours from TMD nanostructures (classical nanophotonics)
+Catarina Ferreira	zno-electron-transport-layers-for-scalable-nonfullerene-acceptor-	-	organic photovoltaics
+Paulo André Dias Gonçalves	nonlocality-in-photonic-materials-and-metamaterials-roadmap	2.2;3.3	nonlocal response in photonic materials (roadmap)
+Paulo André Dias Gonçalves	graphene-plasmonics-manipulating-light-at-the-nanoscale-with-a-on	2.3;3.3	graphene plasmonics
+Paulo André Dias Gonçalves	extremely-confined-gap-plasmon-modes-when-nonlocality-matters	2.2;2.3	quantum nonlocal effects in gap plasmons
+Paulo André Dias Gonçalves	surface-response-functions-obtained-from-equilibrium-electron-den	2.3;2.2	quantum surface-response functions
+Paulo André Dias Gonçalves	polaritons-in-two-dimensional-parabolic-waveguides	2.3;3.3	polaritons in 2D materials
+Christian Nicolaisen Hansen	theoretical-investigation-of-two-dimensional-semiconductor-nanori	2.3	optical response of patterned 2D semiconductors
+Christian Nicolaisen Hansen	velocity-tunable-exciton-photon-hybridization-in-cathodoluminesce	2.2;2.3	exciton-photon hybridization probed by electron beams
+Christian Nicolaisen Hansen	theoretical-investigation-of-patterned-two-dimensional-semiconduc	2.3	optical response of patterned 2D semiconductors
+Christian Nicolaisen Hansen	quantum-informed-plasmonics-for-strong-coupling-the-role-of-elect	2.2;2.3	quantum plasmonics and strong coupling
+Jacob Terndrup Heiden	fourier-analysis-of-near-field-patterns-generated-by-propagating-	3.3	near-field microscopy of polaritons
+Jacob Terndrup Heiden	near-field-probing-of-image-phonon-polaritons-in-hexagonal-boron-	2.3;3.3	image phonon-polaritons in hBN
+Jacob Terndrup Heiden	bypassing-nonlocal-phenomena-in-metals-using-phonon-polaritons	2.3	nonlocal effects and phonon-polaritons
+Jacob Terndrup Heiden	high-index-and-low-loss-topological-insulators-for-mid-infrared-n	3.3	topological-insulator materials for mid-infrared nanophotonics
+Jacob Terndrup Heiden	image-polaritons-in-van-der-waals-crystals	2.3	image polaritons in van der Waals crystals
+Huatian Hu	nonlocality-in-photonic-materials-and-metamaterials-roadmap	2.2;3.3	nonlocal response in photonic materials (roadmap)
+Line Jelver	theoretical-investigation-of-two-dimensional-semiconductor-nanori	2.3	optical response of patterned 2D semiconductors
+Line Jelver	nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl	2.3	hydrodynamic model of 2D magnetoplasmons
+Line Jelver	nonlocality-in-photonic-materials-and-metamaterials-roadmap	2.2;3.3	nonlocal response in photonic materials (roadmap)
+Line Jelver	domain-selective-enhancement-of-second-harmonic-generation-in-mon	2.3;3.3	second-harmonic generation in monolayer MoS2
+Line Jelver	nonlocal-and-nonlinear-plasmonics-in-atomically-thin-heterostruct	2.3;2.2	nonlocal and nonlinear plasmonics in atomically thin materials
+Louise Skovborg Just	liverscreen-project-study-protocol-for-screening-for-liver-fibros	-	liver fibrosis screening (medicine)
+Toke Marstrand Pontoppidan Lindhard	populating-topologically-protected-edge-states-of-a-chern-insulat	2.1;5.2	edge states of a Chern insulator with ultracold atoms
+Daniel de Abreu Miranda	topology-in-a-one-dimensional-plasmonic-crystal-the-optical-appro	2.3	band topology of a plasmonic crystal
+Daniel de Abreu Miranda	tunable-narrowband-excitonic-optical-tamm-states-enabled-by-a-met	3.3	excitonic optical Tamm states in organic structures
+Daniel de Abreu Miranda	nanoscopy-of-surface-polarization-with-oblique-dipole-orientation	3.3	near-field nanoscopy of surface polarization
+Daniel de Abreu Miranda	coexistence-of-one-dimensional-and-two-dimensional-topology-and-g	2.3;1.1	topology in the chiral Aubry-André model
+Daniel de Abreu Miranda	mechanical-su-schrieffer-heeger-quasicrystal-topology-localizatio	-	topology of a mechanical SSH quasicrystal (classical mechanics)
+Sergii Morozov	substrate-assisted-cathodoluminescence	3.3	substrate-assisted cathodoluminescence
+Sergii Morozov	an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce	3.3	materials atlas for cathodoluminescence microscopy
+Sergii Morozov	an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3	-	journal cover page
+Sergii Morozov	inducing-room-temperature-valley-polarization-of-excitonic-emissi	2.3	valley polarization of excitons in TMD monolayers
+Sergii Morozov	photon-superbunching-in-cathodoluminescence-of-excitons-in-ws2-mo	2.2;2.3	photon statistics of exciton cathodoluminescence
+N. Asger Mortensen	substrate-assisted-cathodoluminescence	3.3	substrate-assisted cathodoluminescence
+N. Asger Mortensen	crystalline-metal-flakes-platforms-for-advanced-plasmonics-and-hy	3.3;3.2	crystalline metal flakes for plasmonics
+N. Asger Mortensen	optical-design-of-structural-colored-photovoltaics-for-building-i	-	structural colours for building-integrated photovoltaics
+N. Asger Mortensen	nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl	2.3	hydrodynamic model of 2D magnetoplasmons
+N. Asger Mortensen	structural-colored-planar-multilayers-with-minimal-angular-color-	-	coloured multilayers for photovoltaics
+Christos Mystilidis	an-s-matrix-formalism-for-the-nonclassical-optical-response-of-pl-2	2.2;2.3	nonclassical optical response of plasmonic spheres
+Christos Mystilidis	quantum-mechanics-in-plasmonic-nanocavities-from-theory-to-applic	2.2;4.4	quantum effects in plasmonic nanocavities
+Christos Mystilidis	the-uniqueness-theorem-for-nonlocal-hydrodynamic-media	2.3	uniqueness theorem for nonlocal hydrodynamic media
+Christos Mystilidis	a-potential-based-boundary-element-implementation-for-modeling-mu	3.3	boundary-element modelling of nonlocal plasmonic nanowires (title only)
+Christos Mystilidis	opensans-a-semi-analytical-solver-for-nonlocal-plasmonics	3.5;3.3	solver for nonlocal plasmonics (title only)
+Christos Tserkezis	enhanced-exciton-to-trion-conversion-in-monolayer-mossub2sub-via-	2.3	exciton-trion conversion in strained monolayer MoS2
+Christos Tserkezis	an-s-matrix-formalism-for-the-nonclassical-optical-response-of-pl-2	2.2;2.3	nonclassical optical response of plasmonic spheres
+Christos Tserkezis	theoretical-investigation-of-two-dimensional-semiconductor-nanori	2.3	optical response of patterned 2D semiconductors
+Christos Tserkezis	nonlocality-in-photonic-materials-and-metamaterials-roadmap	2.2;3.3	nonlocal response in photonic materials (roadmap)
+Christos Tserkezis	quantum-mechanics-in-plasmonic-nanocavities-from-theory-to-applic	2.2;4.4	quantum effects in plasmonic nanocavities

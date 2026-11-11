@@ -1,0 +1,115 @@
+# polima, compact harvest 11 November 2026 (SDU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Jorge Barcia Rodriguez|~jorod/|||0
+#N|1|0
+p|hvm0l9|2026-06|J|modelling-methane-production-in-trickle-bed-reactors-a-biokinetic-2|||Modelling methane production in trickle bed reactors: A biokinetic approach
+#M|Costanza Borghesi|~borghesi/|||0
+#N|0|0
+#M|Ida Juliane Bundgaard|~bundgaard/|0009-0008-3424-0949||0
+#N|3|1
+p|5i5txi||J|exploring-transition-metal-dichalcogenide-nanostructures-for-elec|||Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Struc...
+p|1x3p0bd||P|surface-quantum-response-of-plasmonic-heterodimers-revealing-the-|||Surface quantum response of plasmonic heterodimers: revealing the hidden nonlocality
+p|p658r4||J|quantum-informed-plasmonics-for-strong-coupling-the-role-of-elect|||Quantum-informed plasmonics for strong coupling: the role of electron spill-out
+#M|Minoas Chairetis|~chairetis/|||0
+#N|0|0
+#M|Emil Clausen|~eclausen/|||0
+#N|0|0
+#M|Joel Cox|~joel-cox/|0000-0002-5954-6038||0
+#N|33|3
+p|fz6rgi|2026-12|J|active-steering-of-cathodoluminescence-through-a-generalized-smit|||Active steering of cathodoluminescence through a generalized Smith–Purcell effect
+p|1cq7yx4|2026-02|J|optical-design-of-structural-colored-photovoltaics-for-building-i|||Optical design of structural colored photovoltaics for building integration: from perio...
+p|134jb6x|2026|J|=|||Nonreciprocal plasmons in one-dimensional carbon nanostructures
+p|tafave|2025-12|J|nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl|||Nonlocal electrodynamics of two-dimensional anisotropic magnetoplasmons
+p|1equ8r3|2025-12|J|structural-colored-planar-multilayers-with-minimal-angular-color-|||Structural Colored Planar Multilayers with Minimal Angular Color Dependence for Buildin...
+#M|Eduardo Dias|~dias/|0000-0002-6347-5631||0
+#N|18|3
+p|fz6rgi|2026-12|J|active-steering-of-cathodoluminescence-through-a-generalized-smit|||Active steering of cathodoluminescence through a generalized Smith–Purcell effect
+p|91unpa|2025-07|J|=|||Nonlocality in photonic materials and metamaterials: roadmap
+p|gj1luw|2025|J|wave-mixing-cathodoluminescence-microscopy-of-low-frequency-excit|||Wave-mixing cathodoluminescence microscopy of low-frequency excitations
+p|3qkhti|2023-12|J|%CE%BCev-electron-spectromicroscopy-using-free-space-light|||μeV electron spectromicroscopy using free-space light
+p|wib5y7||J|ultrafast-near-field-dynamics-in-silver-nanowires-driven-by-few-c|||Ultrafast near-field dynamics in silver nanowires driven by few-cycle short-wave infrar...
+#M|Sven Lennart Ebel|~sleb/|0009-0005-3224-6413||0
+#N|10|1
+p|t6k0o7|2026-12|J|=|||Substrate-assisted cathodoluminescence
+p|l0kmja|2026|J|=|||Stimulated interactions of low-energy free-electrons with light
+p|1by6hp1|2025-08|J|an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce|||An atlas of photonic and plasmonic materials for cathodoluminescence microscopy
+p|1h40ei3|2025-08|J|an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3|||Frontmatter: An atlas of photonic and plasmonic materials for cathodoluminescence micro...
+p|1uzd0u5||T|cathodoluminescence-spectroscopy-of-nanoscale-light-matter-intera-2|||Cathodoluminescence spectroscopy of nanoscale light-matter interactions
+#M|Catarina Ferreira|~cferreira/|0000-0002-4088-1952||0
+#N|4|9
+p|1cq7yx4|2026-02|J|optical-design-of-structural-colored-photovoltaics-for-building-i|||Optical design of structural colored photovoltaics for building integration: from perio...
+p|1equ8r3|2025-12|J|structural-colored-planar-multilayers-with-minimal-angular-color-|||Structural Colored Planar Multilayers with Minimal Angular Color Dependence for Buildin...
+p|5i5txi||J|exploring-transition-metal-dichalcogenide-nanostructures-for-elec|||Exploring Transition Metal Dichalcogenide Nanostructures for Electrically Tunable Struc...
+p|1hucd1j||J|zno-electron-transport-layers-for-scalable-nonfullerene-acceptor-|||ZnO electron transport layers for scalable nonfullerene acceptor-based organic photovol...
+#M|Paulo André Dias Gonçalves|~paulo-andr%C3%A9-dias-gon%C3%A7alves/|0000-0001-8518-3886||0
+#N|13|6
+p|91unpa|2025-07|J|=|||Nonlocality in photonic materials and metamaterials: roadmap
+p|1kl8poi|2024|J|graphene-plasmonics-manipulating-light-at-the-nanoscale-with-a-on|||Graphene plasmonics: manipulating light at the nanoscale with a one-atom-thick material
+p|1p2dx0y|2022-06|J|=|||Extremely confined gap plasmon modes: when nonlocality matters
+p|16gikls|2021-10|J|surface-response-functions-obtained-from-equilibrium-electron-den|||Surface-response functions obtained from equilibrium electron-density profiles
+p|1o9d5on|2021|J|=|||Polaritons in Two-Dimensional Parabolic Waveguides
+#M|Christian Nicolaisen Hansen|~nicolaisen/|0009-0008-2350-7652||0
+#N|4|0
+p|1yvc88p|2026|J|theoretical-investigation-of-two-dimensional-semiconductor-nanori|||Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticle...
+p|1b58b9o||J|velocity-tunable-exciton-photon-hybridization-in-cathodoluminesce|||Velocity-tunable exciton-photon hybridization in cathodoluminescence
+p|1szz499||J|theoretical-investigation-of-patterned-two-dimensional-semiconduc|||Theoretical investigation of patterned two-dimensional semiconductors for tailored ligh...
+p|p658r4||J|quantum-informed-plasmonics-for-strong-coupling-the-role-of-elect|||Quantum-informed plasmonics for strong coupling: the role of electron spill-out
+#M|Jacob Terndrup Heiden|~jahe/|0000-0003-4505-6107||0
+#N|7|7
+p|16g77r1|2024-07|J|fourier-analysis-of-near-field-patterns-generated-by-propagating-|||Fourier analysis of near-field patterns generated by propagating polaritons
+p|danx3j|2022-07|J|near-field-probing-of-image-phonon-polaritons-in-hexagonal-boron-|||Near-field probing of image phonon-polaritons in hexagonal boron nitride on gold crystals
+p|u1gcxf||J|=|||Bypassing Nonlocal Phenomena in Metals Using Phonon-Polaritons
+p|qo0tba||J|high-index-and-low-loss-topological-insulators-for-mid-infrared-n|||High-Index and Low-Loss Topological Insulators for Mid-Infrared Nanophotonics: Bismuth ...
+p|11pq89l||J|=|||Image polaritons in van der Waals crystals
+#M|Huatian Hu|~huhu/|||0
+#N|1|0
+p|91unpa|2025-07|J|=|||Nonlocality in photonic materials and metamaterials: roadmap
+#M|Line Jelver|~lije/|0000-0001-5503-5604||0
+#N|16|2
+p|1yvc88p|2026|J|theoretical-investigation-of-two-dimensional-semiconductor-nanori|||Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticle...
+p|tafave|2025-12|J|nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl|||Nonlocal electrodynamics of two-dimensional anisotropic magnetoplasmons
+p|91unpa|2025-07|J|=|||Nonlocality in photonic materials and metamaterials: roadmap
+p|17u1fks||J|domain-selective-enhancement-of-second-harmonic-generation-in-mon|||Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS2 via Ferroe...
+p|vr0ot6||J|nonlocal-and-nonlinear-plasmonics-in-atomically-thin-heterostruct|||Nonlocal and nonlinear plasmonics in atomically thin heterostructures
+#M|Louise Skovborg Just|~loju/|0009-0002-7517-0613||0
+#N|1|1
+p|10m8jp5||J|liverscreen-project-study-protocol-for-screening-for-liver-fibros|||LiverScreen project: study protocol for screening for liver fibrosis in the general pop...
+#M|Toke Marstrand Pontoppidan Lindhard|~lindhard/|0009-0003-1720-9417||0
+#N|1|0
+p|k0h1s3||J|populating-topologically-protected-edge-states-of-a-chern-insulat|||Populating topologically protected edge states of a Chern insulator with the cold-atom ...
+#M|Daniel de Abreu Miranda|~miranda/|0000-0002-9784-3340||0
+#N|8|0
+p|1cglbue|2024-12|J|topology-in-a-one-dimensional-plasmonic-crystal-the-optical-appro|||Topology in a one-dimensional plasmonic crystal: the optical approach
+p|1jdzaly|2022-12|J|tunable-narrowband-excitonic-optical-tamm-states-enabled-by-a-met|||Tunable narrowband excitonic Optical Tamm states enabled by a metal-free all-organic st...
+p|1rh4p15||J|nanoscopy-of-surface-polarization-with-oblique-dipole-orientation|||Nanoscopy of surface polarization with oblique dipole orientations
+p|1smhhgw||J|coexistence-of-one-dimensional-and-two-dimensional-topology-and-g|||Coexistence of one-dimensional and two-dimensional topology and genesis of Dirac cones ...
+p|1mgrk0q||J|mechanical-su-schrieffer-heeger-quasicrystal-topology-localizatio|||Mechanical Su-Schrieffer-Heeger quasicrystal: topology, localization, and mobility edge
+#M|Sergii Morozov|~sergii-morozov/|0000-0002-5415-326X||0
+#N|13|0
+p|t6k0o7|2026-12|J|=|||Substrate-assisted cathodoluminescence
+p|1by6hp1|2025-08|J|an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce|||An atlas of photonic and plasmonic materials for cathodoluminescence microscopy
+p|1h40ei3|2025-08|J|an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3|||Frontmatter: An atlas of photonic and plasmonic materials for cathodoluminescence micro...
+p|14f4ynb|2024-12|J|inducing-room-temperature-valley-polarization-of-excitonic-emissi|||Inducing room-temperature valley polarization of excitonic emission in transition metal...
+p|9s6u9u|2023-04|J|photon-superbunching-in-cathodoluminescence-of-excitons-in-ws2-mo|||Photon superbunching in cathodoluminescence of excitons in WS2 monolayer
+#M|N. Asger Mortensen|~namo/|0000-0001-7936-6264||0
+#N|78|0
+p|t6k0o7|2026-12|J|=|||Substrate-assisted cathodoluminescence
+p|19yg7c|2026-09|J|crystalline-metal-flakes-platforms-for-advanced-plasmonics-and-hy|||Crystalline metal flakes: platforms for advanced plasmonics and hybrid 2D material arch...
+p|1cq7yx4|2026-02|J|optical-design-of-structural-colored-photovoltaics-for-building-i|||Optical design of structural colored photovoltaics for building integration: from perio...
+p|tafave|2025-12|J|nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl|||Nonlocal electrodynamics of two-dimensional anisotropic magnetoplasmons
+p|1equ8r3|2025-12|J|structural-colored-planar-multilayers-with-minimal-angular-color-|||Structural Colored Planar Multilayers with Minimal Angular Color Dependence for Buildin...
+#M|Christos Mystilidis|~chrmys/|0000-0002-8011-2154||0
+#N|13|4
+p|jxw1ir|2025-04|J|quantum-mechanics-in-plasmonic-nanocavities-from-theory-to-applic|||Quantum mechanics in plasmonic nanocavities: from Theory to Applications
+p|s3za6q|2024-12|J|=|||The uniqueness theorem for nonlocal hydrodynamic media
+p|1gdxg3q|2023|J|a-potential-based-boundary-element-implementation-for-modeling-mu|||A Potential-Based Boundary Element Implementation for Modeling Multiple Scattering from...
+p|rgyxzs|2023|J|=|||OpenSANS: A Semi-Analytical solver for Nonlocal plasmonicS
+p|1ta4cqv|2022-12|J|a-boundary-integral-equation-formalism-for-modeling-multiple-scat|||A Boundary Integral Equation Formalism for Modeling Multiple Scattering of Light from 3...
+#M|Christos Tserkezis|~ct/|0000-0002-2075-9036||0
+#N|43|5
+p|lum82q|2026-04|J|enhanced-exciton-to-trion-conversion-in-monolayer-mossub2sub-via-|||Enhanced exciton-to-trion conversion in monolayer MoS2 via nanometrically localized str...
+p|1yvc88p|2026|J|theoretical-investigation-of-two-dimensional-semiconductor-nanori|||Theoretical investigation of two-dimensional semiconductor nanoribbons and nanoparticle...
+p|91unpa|2025-07|J|=|||Nonlocality in photonic materials and metamaterials: roadmap
+p|jxw1ir|2025-04|J|quantum-mechanics-in-plasmonic-nanocavities-from-theory-to-applic|||Quantum mechanics in plasmonic nanocavities: from Theory to Applications
+p|s3za6q|2024-12|J|=|||The uniqueness theorem for nonlocal hydrodynamic media
+#M|Nicolas Ubrig|~ubrig/|0000-0002-1966-4435||0
+#N|0|15

@@ -1,0 +1,112 @@
+W
+A geometric quantisation view on the AJ-conjecture for the Teichmüller TQFT 2026 J 0
+The genus one complex quantum Chern-Simons representation of the mapping class group 2026 J 0
+The automorphism equivariant Hitchin index 2025 J 0
+Sp(1)-symmetric hyperkähler quantisation 2024 J 0
+Using the ELF test, FIB-4 and NAFLD fibrosis score to screen the population for liver d... 2023 J 0
+Perverse schobers, stability conditions and quadratic differentials II: relative graded... 2026 J 0
+Braid group actions on branched coverings and full exceptional sequences 2025 J 0
+3-d Calabi–Yau categories for Teichmüller theory 2024 J 0
+Spectral networks and stability conditions for Fukaya categories with coefficients 2024 J 0
+Legendrian skein algebras and Hall algebras 2021 J 0
+Digital tools for analyzing nondiffeomorphic shapes 0 J 0
+Steenrod operations via higher Bruhat orders 2025 J 0
+Topological proofs of categorical coherence 2024 J 0
+The diagonal of the operahedra 2022 J 0
+Kashiwara–Vergne solutions degree by degree 0 J 0
+Closing the Open System 0 J 0
+A proof of the radial limit conjecture for Costantino-Geer-Patureau-Mirand quantum inva... 2026 J 0
+Resurgence analysis of quantum invariants of Seifert fibered homology spheres 2022 J 0
+Asymptotic expansions of the Witten-Reshetikhin-Turaev Invariants of Mapping Tori I 0 J 0
+Resurgence Analysis of Quantum Invariants: Seifert Manifolds and Surgeries on The Figur... 0 P 0
+Supermoduli space with Ramond punctures is not projected 2026 J 0
+On mixed ’t Hooft anomalies of emergent symmetries 2026 J 0
+Generalized global symmetries of T[M] theories. Part II 2026 J 0
+Mapping tori of A∞-autoequivalences and Legendrian lifts of exact Lagrangians in circul... 2025 J 0
+Self-Sensitized Photooxidation in Extended Tetrathiafulvalenes 2026 J 0
+Activation Mechanism of Jumping Spider Rhodopsin-1 Revealed by Classical Molecular Dyna... 2025 J 0
+Synthesis and Characterization of a Novel Intrinsically Fluorescent Analog of Cholester... 2024 J 0
+Color Tuning in Bovine Rhodopsin through Polarizable Embedding 2024 J 0
+Assessment of Excited-State Methods for One- and Two-Photon Absorption in the Retinal P... 0 J 0
+Cubic Dirac Operators and Dirac Cohomology for Basic Classical Lie Superalgebras 2026 J 0
+The spectrum of Feynman-integral geometries at two loops 2026 J 0
+Quantification of molar sub-regions suggests increasing herbivory during primate origins 2026 J 0
+“He has the whole package: lyrics, melodies, enigmatic, mythical” : Images of Bob Dylan... 0 J 0
+Adjoints, wrapping, and morphisms at infinity 2025 J 0
+Microlocal Morse theory of wrapped Fukaya categories 2024 J 0
+Sectorial descent for wrapped Fukaya categories 2024 J 0
+Invariance of microsheaves on stable Higgs bundles 2023 J 0
+An algebraic approach to the algebraic Weinstein conjecture 2022 J 0
+Gapless phases in (2+1)d with non-invertible symmetries 2026 J 0
+(2+1)d lattice models and tensor networks for gapped phases with categorical symmetry 2026 J 0
+Categorical Symmetries in Spin Models with Atom Arrays 2025 J 0
+Globalization of Perturbative Chern–Simons Theory on the Moduli Space of Flat Connectio... 2026 J 0
+Combinatorial QFT on graphs: First quantization formalism 2026 J 0
+Perturbative Chern–Simons invariants from non-acyclic flat connections 2026 J 0
+Gluing formulae for heat kernels 2025 J 0
+On enumerative problems for maps and quasimaps: freckles and scars 2025 J 0
+Classification of Feynman integral geometries for black-hole scattering at 5PM order 2025 J 0
+Refining Integration-by-Parts Reduction of Feynman Integrals with Machine Learning 2025 J 0
+Recurrent features of amplitudes in planar N = 4 super Yang-Mills theory 2025 J 0
+Calabi-Yau Feynman integrals in gravity: ε-factorized form for apparent singularities 2025 J 0
+Determining the Optimal Number of Pistons for Offshore Digital Winch Drives 2023 J 0
+Improving Energy Efficiency and Response Time of an Offshore Winch Drive with Digital D... 2023 J 0
+Temperature-Independent Fault Detection of Solenoid-Actuated Proportional Valve 2022 J 0
+A Backstepping based Controller utilizing a Sliding Mode Disturbance Observer Applied t... 0 J 0
+Concept Evaluation for the Establishment of a Firm End-Stop Feeling in an Asymmetric Hy... 0 J 0
+P
+Jørgen Ellegaard Andersen|jea|0000-0001-9721-0722|p||0|0|0p,1p,2p,3p,4p|12/1
+Raphael David Simon Belliard|belliard||||0|0||0/0
+Jurek Bleischwitz|jurek||||0|0||0/0
+Giacomo Cappiello|giaccap||||0|0||0/0
+Remus Stefan Cernat|strancernat||||0|0||0/0
+Fie Dømler|doemler||||0|0||0/0
+Charalampos Evangelatos|cevan|0009-0002-2787-8254|p||0|0||0/0
+Michele Fossati|fossati||||0|0||0/0
+Pallav Goyal|pallavg||||0|0||0/0
+Yuanhong Guo|guoyuanhong|0000-0003-4623-3056|p||0|0||0/5
+Fabian Haiden|fab|0000-0002-9966-0089|p||0|0|5p,6p,7p,8p,9p|10/0
+Gard Olav Helle|gardoh|0009-0009-5666-5048|p||0|0||0/1
+Sam Hindson|sam-hindson|0000-0002-6277-4971|p||0|0||0/0
+David Hofmeier|hofmeier|0009-0000-8713-0278|p||0|0||0/1
+Andreas Horst|ahor||||0|0||0/0
+Mingyuan Hu|hmy||||0|0||0/0
+Yang Huang|yang-huang||||0|0||0/0
+Reinier Huese|huese||||0|0||0/0
+Mette Elise Jørgensen|mejo||||0|0||0/0
+Henry Mikael Kirveslahti|hklahti|0000-0002-2484-4481|p||0|0|10p|1/0
+Guillaume Laplante-Anfossi|glaplanteanfossi|0000-0002-7383-4474|p||0|0|11p,12p,13p,14p,15p|6/3
+Muyang Liu|liumuyang||||0|0||0/0
+William Elbæk Mistegård|william-elb%C3%A6k-misteg%C3%A5rd-2|0000-0003-0786-5106|p||0|0|16p,2p,17p,18p,19p|5/0
+Nadia Ott|nmott|0009-0000-8335-6771|p||0|0|20p|1/0
+Jamie Jonathan Pearson|jjpearson||||0|0||0/0
+Ole Egholm Pedersen|oep||||0|0||0/0
+Du Pei|dpei|0000-0001-5587-6905|p||0|0|21p,22p|2/9
+Adrian Petr|adri||||0|0|23p|1/0
+Petros Petsinis|petsinis||||0|0||0/0
+Greyson Potter|gkp||||0|0||0/0
+Duccio Di Prima|duccio|0009-0007-8900-7223|p||0|0|24p,25p,26p,27p,28p|7/1
+Lars Rasmussen|larsras||||0|0||0/0
+Alexander Leguizamón Robayo|alexaleg||||0|0||0/0
+Josefine Bjørndal Robl|robl|0009-0004-1173-4373|p||0|0||0/1
+Baltasar Fernández Rosado|bfrosado||||0|0||0/0
+Frederik Rosendal Rytter|rytter||||0|0||0/0
+Steffen Schmidt|stschmidt||||0|0|29p|1/0
+Florian Raphaël Seefeld|fseefeld|0009-0003-5798-7635|p||0|0|30p|1/0
+Benjamin Edward Peter Shackleton|shackleton||||0|0||0/0
+Shan Shan|shan-shan|0000-0002-2880-0566|p||0|0|31p,4p,32p|3/5
+Vivek Shende|vivek-shende|0000-0002-6728-7494|p||0|0|33p,34p,35p,36p,37p|13/3
+Olga Solodovnikova|olgasol||||0|0||0/0
+Benjamin Sung|bsung||||0|0||0/0
+Apoorv Tiwari|apoorvtiwari||||0|0|38p,39p,40p|3/0
+Edison Santiago Carrera Unaucho|ecarrera||||0|0||0/0
+Diana Uy-Tuazon|uytuazon||||0|0||0/0
+Marcus Nygaard Vuust|mavuu||||0|0||0/0
+Konstantin Wernli|konstantin-wernli|0000-0002-6300-8152|p||0|0|41p,42p,43p,44p,45p|11/2
+Matthias Oliver Wilhelm|mwilhelm|0000-0002-0032-0181|p||0|0|30p,46p,47p,48p,49p|27/2
+Hao Xu|haoxu||||0|0||0/0
+Wennan Zhang|wennan||||0|0||0/0
+Zichun Zhou|zzc||||0|0||0/0
+Jeremy Alexander Ramirez Galotti|jale||||0|0||0/0
+Martin Kuntz Jacobsen|kuntz||||0|0||0/0
+Henrik Pedersen|henrik|0000-0002-1034-3280|p||0|0|50p,51p,52p,53p,54p|10/14

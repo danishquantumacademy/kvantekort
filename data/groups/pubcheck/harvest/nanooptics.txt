@@ -1,0 +1,83 @@
+# nanooptics, compact harvest 11 November 2026 (SDU research portal + ORCID; OpenAlex not read: daily limit reached)
+#M|Sergey I. Bozhevolnyi|~seib/|0000-0002-0393-4859||0
+#N|82|3
+p|xnnbvj|2071|J|full-range-birefringence-control-with-piezoelectric-mems-based-me|||Full-range birefringence control with piezoelectric MEMS-based metasurfaces
+p|qojyzt|2026-12|J|=|||Nanophotonic engineering of structured single-photon emission
+p|1pk04h2|2026-08|J|chip-integrated-metasurface-enabled-single-photon-skyrmion-source|||Chip-integrated metasurface-enabled single-photon skyrmion sources
+p|14k6tkm|2026|J|reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma|||Reflective metagrating polarimeter for single-shot full-Stokes mapping: toward digital ...
+p|zqic3u|2025-12|J|=|||Opto-mechanical analogue of Peierls transition
+#M|Jacob Holm Colding-Jørgensen|~jacol/|||0
+#N|0|0
+#M|Fei Ding|~feid/|0000-0001-7362-519X||0
+#N|63|8
+p|xnnbvj|2071|J|full-range-birefringence-control-with-piezoelectric-mems-based-me|||Full-range birefringence control with piezoelectric MEMS-based metasurfaces
+p|1tiiusd|2026-06|J|=|||Quantum dots as solid-state sources of entangled photon pairs
+p|1ut9h1t|2026-02|J|isolated-iodine-single-atoms-regulating-the-in-plane-electronic-s|||Isolated iodine single atoms regulating the in-plane electronic structure of G-C3N4 for...
+p|14k6tkm|2026|J|reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma|||Reflective metagrating polarimeter for single-shot full-Stokes mapping: toward digital ...
+p|4esf6h|2025-12|J|polarization-selective-unidirectional-and-bidirectional-diffracti|||Polarization-selective unidirectional and bidirectional diffractive neural networks for...
+#M|Donghai Han|~donha/|||0
+#N|0|0
+#M|Jonas Beermann Kristiansen|~jonas-beermann-kristiansen/|0000-0001-9809-2430||0
+#N|3|0
+p|slutzj||J|vis-swir-hyperspectral-microscopy-imaging-of-plasmonic-color-prin|||Vis-SWIR hyperspectral microscopy imaging of plasmonic color printed arrays
+p|wmfjel||J|=|||Anapole states in gap-surface plasmon resonators
+p|1am0tiu||J|gapsurface-plasmon-metasurfaces-for-broadband-circulartolinear-po|||Gap‐surface plasmon metasurfaces for broadband circular‐to‐linear polarization conversi...
+#M|Shailesh Kumar|~shku/|0000-0001-5795-0910||0
+#N|22|2
+p|1pk04h2|2026-08|J|chip-integrated-metasurface-enabled-single-photon-skyrmion-source|||Chip-integrated metasurface-enabled single-photon skyrmion sources
+p|1op34en|2025-09|J|%C3%A5ngstr%C3%B6m-tunable-polarization-resolved-solid-state-photon-sources|||Ångström-tunable polarization-resolved solid-state photon sources
+p|1b7lbbk|2023-12|J|large-spontaneous-emission-enhancement-with-silver-nanocube-dimer|||Large Spontaneous Emission Enhancement with Silver Nanocube Dimers on Silver Substrates
+p|2iace5|2023-12|J|multiple-channelling-single-photon-emission-with-scattering-holog|||Multiple channelling single-photon emission with scattering holography designed metasur...
+p|n9sqam|2021-10|J|=|||Single photon emitters coupled to plasmonic waveguides: a review
+#M|Yiwen Liu|~yiwe/|0000-0002-0415-3149||0
+#N|0|3
+#M|Chao Meng|~chao/|0000-0002-2126-6954||0
+#N|25|3
+p|xnnbvj|2071|J|full-range-birefringence-control-with-piezoelectric-mems-based-me|||Full-range birefringence control with piezoelectric MEMS-based metasurfaces
+p|14k6tkm|2026|J|reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma|||Reflective metagrating polarimeter for single-shot full-Stokes mapping: toward digital ...
+p|1op34en|2025-09|J|%C3%A5ngstr%C3%B6m-tunable-polarization-resolved-solid-state-photon-sources|||Ångström-tunable polarization-resolved solid-state photon sources
+p|1a5vnma|2025-01|J|rotation-induced-plasmonic-chiral-quasi-bound-states-in-the-conti|||Rotation-induced plasmonic chiral quasi-bound states in the continuum
+p|qmtnsw|2024-03|J|=|||MEMS-integrated metasurfaces for dynamic linear polarizers
+#M|Yi Ouyang|~yiou/|||0
+#N|1|0
+p|1uzroju||J|aperture-layout-induced-effects-in-polarization-resolved-multifoc|||Aperture-layout-induced effects in polarization-resolved multifocal metalenses based on...
+#M|Torgom Yezekyan|~torgom-yezekyan/|0000-0003-2019-2225||0
+#N|23|0
+p|zqic3u|2025-12|J|=|||Opto-mechanical analogue of Peierls transition
+p|1bo0hjv|2025-11|J|quasi-bound-states-in-the-continuum-in-finite-waveguide-grating-c|||Quasi-bound states in the continuum in finite waveguide grating couplers
+p|1by6hp1|2025-08|J|an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce|||An atlas of photonic and plasmonic materials for cathodoluminescence microscopy
+p|1h40ei3|2025-08|J|an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3|||Frontmatter: An atlas of photonic and plasmonic materials for cathodoluminescence micro...
+p|1vnbeni|2025-07|J|=|||Near-field refractometry of van der Waals crystals
+#M|Vladimir Zenin|~Zenin/|0000-0001-5512-8288||0
+#N|18|1
+p|1vnbeni|2025-07|J|=|||Near-field refractometry of van der Waals crystals
+p|blzksu|2025-03|J|design-and-experimental-demonstration-of-wavelengthselective-meta|||Design and Experimental Demonstration of Wavelength‐Selective Metamirrors on Sapphire S...
+p|16g77r1|2024-07|J|fourier-analysis-of-near-field-patterns-generated-by-propagating-|||Fourier analysis of near-field patterns generated by propagating polaritons
+p|1wu2jmb|2023-04|J|high-efficiency-silicon-metasurface-mirror-on-a-sapphire-substrat|||High-efficiency silicon metasurface mirror on a sapphire substrate
+p|1xt7la9|2022-12|J|=|||Nanoscale light field imaging with graphene
+#M|Espoir Elocho|~eselo/|||0
+#N|0|0
+#M|Gustav Engen|~gen/|||0
+#N|0|0
+#M|Lukas Taasti Fabian|~lunie/|||0
+#N|0|0
+#M|Thomas Frosted|~thfro/|||0
+#N|0|0
+#M|Iben Lindberg Husum|~ibhus/|||0
+#N|0|0
+#M|Lucas Darnell Jørgensen|~lujoe/|||0
+#N|0|0
+#M|Eskild Krongaard-Kruse|~eskro/|||0
+#N|0|0
+#M|Camille Mei Juul Lange|~calan/|||0
+#N|0|0
+#M|Philip Nielsen|~phnie/|||0
+#N|0|0
+#M|Isabella Røn Olsson|~iolsse/|||0
+#N|0|0
+#M|Julie Hjorth Pedersen|~julped/|||0
+#N|0|0
+#M|Laurids Nygaard Ulrichsen|~laulr/|||0
+#N|0|0
+#M|Mathias Holbech Warming|~mathias-holbech-warming/|||0
+#N|0|0

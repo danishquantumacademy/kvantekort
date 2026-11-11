@@ -1,0 +1,95 @@
+# polima members' research output since 2021 on their university research profiles, read 11 November 2026.
+# "#name|portal slug|orcid|openalex author" then one line per output: "p <title hash> <date> <portal path or = >".
+# Title hash and "=" as in scripts/build_pubcheck.py.
+#Jorge Barcia Rodriguez|jorod||
+p hvm0l9 2026-06 modelling-methane-production-in-trickle-bed-reactors-a-biokinetic-2
+#Costanza Borghesi|borghesi||
+#Ida Juliane Bundgaard|bundgaard|0009-0008-3424-0949|
+p 5i5txi - exploring-transition-metal-dichalcogenide-nanostructures-for-elec
+p 1x3p0bd - surface-quantum-response-of-plasmonic-heterodimers-revealing-the-
+p p658r4 - quantum-informed-plasmonics-for-strong-coupling-the-role-of-elect
+#Minoas Chairetis|chairetis||
+#Emil Clausen|eclausen||
+#Joel Cox|joel-cox|0000-0002-5954-6038|
+p fz6rgi 2026-12 active-steering-of-cathodoluminescence-through-a-generalized-smit
+p 1cq7yx4 2026-02 optical-design-of-structural-colored-photovoltaics-for-building-i
+p 134jb6x 2026 =
+p tafave 2025-12 nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl
+p 1equ8r3 2025-12 structural-colored-planar-multilayers-with-minimal-angular-color-
+#Eduardo Dias|dias|0000-0002-6347-5631|
+p fz6rgi 2026-12 active-steering-of-cathodoluminescence-through-a-generalized-smit
+p 91unpa 2025-07 =
+p gj1luw 2025 wave-mixing-cathodoluminescence-microscopy-of-low-frequency-excit
+p 3qkhti 2023-12 %CE%BCev-electron-spectromicroscopy-using-free-space-light
+p wib5y7 - ultrafast-near-field-dynamics-in-silver-nanowires-driven-by-few-c
+#Sven Lennart Ebel|sleb|0009-0005-3224-6413|
+p t6k0o7 2026-12 =
+p l0kmja 2026 =
+p 1by6hp1 2025-08 an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce
+p 1h40ei3 2025-08 an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3
+p 1uzd0u5 - cathodoluminescence-spectroscopy-of-nanoscale-light-matter-intera-2
+#Catarina Ferreira|cferreira|0000-0002-4088-1952|
+p 1cq7yx4 2026-02 optical-design-of-structural-colored-photovoltaics-for-building-i
+p 1equ8r3 2025-12 structural-colored-planar-multilayers-with-minimal-angular-color-
+p 5i5txi - exploring-transition-metal-dichalcogenide-nanostructures-for-elec
+p 1hucd1j - zno-electron-transport-layers-for-scalable-nonfullerene-acceptor-
+#Paulo André Dias Gonçalves|paulo-andr%C3%A9-dias-gon%C3%A7alves|0000-0001-8518-3886|
+p 91unpa 2025-07 =
+p 1kl8poi 2024 graphene-plasmonics-manipulating-light-at-the-nanoscale-with-a-on
+p 1p2dx0y 2022-06 =
+p 16gikls 2021-10 surface-response-functions-obtained-from-equilibrium-electron-den
+p 1o9d5on 2021 =
+#Christian Nicolaisen Hansen|nicolaisen|0009-0008-2350-7652|
+p 1yvc88p 2026 theoretical-investigation-of-two-dimensional-semiconductor-nanori
+p 1b58b9o - velocity-tunable-exciton-photon-hybridization-in-cathodoluminesce
+p 1szz499 - theoretical-investigation-of-patterned-two-dimensional-semiconduc
+p p658r4 - quantum-informed-plasmonics-for-strong-coupling-the-role-of-elect
+#Jacob Terndrup Heiden|jahe|0000-0003-4505-6107|
+p 16g77r1 2024-07 fourier-analysis-of-near-field-patterns-generated-by-propagating-
+p danx3j 2022-07 near-field-probing-of-image-phonon-polaritons-in-hexagonal-boron-
+p u1gcxf - =
+p qo0tba - high-index-and-low-loss-topological-insulators-for-mid-infrared-n
+p 11pq89l - =
+#Huatian Hu|huhu||
+p 91unpa 2025-07 =
+#Line Jelver|lije|0000-0001-5503-5604|
+p 1yvc88p 2026 theoretical-investigation-of-two-dimensional-semiconductor-nanori
+p tafave 2025-12 nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl
+p 91unpa 2025-07 =
+p 17u1fks - domain-selective-enhancement-of-second-harmonic-generation-in-mon
+p vr0ot6 - nonlocal-and-nonlinear-plasmonics-in-atomically-thin-heterostruct
+#Louise Skovborg Just|loju|0009-0002-7517-0613|
+p 10m8jp5 - liverscreen-project-study-protocol-for-screening-for-liver-fibros
+#Toke Marstrand Pontoppidan Lindhard|lindhard|0009-0003-1720-9417|
+p k0h1s3 - populating-topologically-protected-edge-states-of-a-chern-insulat
+#Daniel de Abreu Miranda|miranda|0000-0002-9784-3340|
+p 1cglbue 2024-12 topology-in-a-one-dimensional-plasmonic-crystal-the-optical-appro
+p 1jdzaly 2022-12 tunable-narrowband-excitonic-optical-tamm-states-enabled-by-a-met
+p 1rh4p15 - nanoscopy-of-surface-polarization-with-oblique-dipole-orientation
+p 1smhhgw - coexistence-of-one-dimensional-and-two-dimensional-topology-and-g
+p 1mgrk0q - mechanical-su-schrieffer-heeger-quasicrystal-topology-localizatio
+#Sergii Morozov|sergii-morozov|0000-0002-5415-326X|
+p t6k0o7 2026-12 =
+p 1by6hp1 2025-08 an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce
+p 1h40ei3 2025-08 an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3
+p 14f4ynb 2024-12 inducing-room-temperature-valley-polarization-of-excitonic-emissi
+p 9s6u9u 2023-04 photon-superbunching-in-cathodoluminescence-of-excitons-in-ws2-mo
+#N. Asger Mortensen|namo|0000-0001-7936-6264|
+p t6k0o7 2026-12 =
+p 19yg7c 2026-09 crystalline-metal-flakes-platforms-for-advanced-plasmonics-and-hy
+p 1cq7yx4 2026-02 optical-design-of-structural-colored-photovoltaics-for-building-i
+p tafave 2025-12 nonlocal-electrodynamics-of-two-dimensional-anisotropic-magnetopl
+p 1equ8r3 2025-12 structural-colored-planar-multilayers-with-minimal-angular-color-
+#Christos Mystilidis|chrmys|0000-0002-8011-2154|
+p jxw1ir 2025-04 quantum-mechanics-in-plasmonic-nanocavities-from-theory-to-applic
+p s3za6q 2024-12 =
+p 1gdxg3q 2023 a-potential-based-boundary-element-implementation-for-modeling-mu
+p rgyxzs 2023 =
+p 1ta4cqv 2022-12 a-boundary-integral-equation-formalism-for-modeling-multiple-scat
+#Christos Tserkezis|ct|0000-0002-2075-9036|
+p lum82q 2026-04 enhanced-exciton-to-trion-conversion-in-monolayer-mossub2sub-via-
+p 1yvc88p 2026 theoretical-investigation-of-two-dimensional-semiconductor-nanori
+p 91unpa 2025-07 =
+p jxw1ir 2025-04 quantum-mechanics-in-plasmonic-nanocavities-from-theory-to-applic
+p s3za6q 2024-12 =
+#Nicolas Ubrig|ubrig|0000-0002-1966-4435|

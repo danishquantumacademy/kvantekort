@@ -1,0 +1,38 @@
+# The five newest research outputs on each nanooptics member's SDU research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Sergey I. Bozhevolnyi	full-range-birefringence-control-with-piezoelectric-mems-based-me	3.3	MEMS metasurfaces for polarization control
+Sergey I. Bozhevolnyi	nanophotonic-engineering-of-structured-single-photon-emission	4.4;2.2	nanophotonic engineering of single-photon emission
+Sergey I. Bozhevolnyi	chip-integrated-metasurface-enabled-single-photon-skyrmion-source	4.4	chip-integrated single-photon skyrmion sources
+Sergey I. Bozhevolnyi	reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma	3.3	metagrating polarimeter for histopathology
+Sergey I. Bozhevolnyi	opto-mechanical-analogue-of-peierls-transition	-	optomechanical analogue of the Peierls transition (classical)
+Fei Ding	full-range-birefringence-control-with-piezoelectric-mems-based-me	3.3	MEMS metasurfaces for polarization control
+Fei Ding	quantum-dots-as-solid-state-sources-of-entangled-photon-pairs	4.4;2.2	quantum dots as entangled-photon sources
+Fei Ding	isolated-iodine-single-atoms-regulating-the-in-plane-electronic-s	-	photocatalytic CO2 reduction (chemistry)
+Fei Ding	reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma	3.3	metagrating polarimeter for histopathology
+Fei Ding	polarization-selective-unidirectional-and-bidirectional-diffracti	3.3	diffractive optical neural networks
+Jonas Beermann Kristiansen	vis-swir-hyperspectral-microscopy-imaging-of-plasmonic-color-prin	3.3	hyperspectral imaging of plasmonic colour prints
+Jonas Beermann Kristiansen	anapole-states-in-gap-surface-plasmon-resonators	3.3	anapole states in plasmonic resonators
+Jonas Beermann Kristiansen	gapsurface-plasmon-metasurfaces-for-broadband-circulartolinear-po	3.3	plasmonic metasurfaces for polarization conversion
+Shailesh Kumar	chip-integrated-metasurface-enabled-single-photon-skyrmion-source	4.4	chip-integrated single-photon skyrmion sources
+Shailesh Kumar	%C3%A5ngstr%C3%B6m-tunable-polarization-resolved-solid-state-photon-sources	4.4;3.3	tunable solid-state photon sources
+Shailesh Kumar	large-spontaneous-emission-enhancement-with-silver-nanocube-dimer	2.2;3.3	Purcell enhancement of quantum emission with nanocube dimers
+Shailesh Kumar	multiple-channelling-single-photon-emission-with-scattering-holog	4.4;3.3	metasurfaces channelling single-photon emission
+Shailesh Kumar	single-photon-emitters-coupled-to-plasmonic-waveguides-a-review	4.4;2.2	single-photon emitters coupled to plasmonic waveguides
+Chao Meng	full-range-birefringence-control-with-piezoelectric-mems-based-me	3.3	MEMS metasurfaces for polarization control
+Chao Meng	reflective-metagrating-polarimeter-for-single-shot-full-stokes-ma	3.3	metagrating polarimeter for histopathology
+Chao Meng	%C3%A5ngstr%C3%B6m-tunable-polarization-resolved-solid-state-photon-sources	4.4;3.3	tunable solid-state photon sources
+Chao Meng	rotation-induced-plasmonic-chiral-quasi-bound-states-in-the-conti	3.3	chiral bound states in the continuum in plasmonic metasurfaces
+Chao Meng	mems-integrated-metasurfaces-for-dynamic-linear-polarizers	3.3	MEMS metasurfaces as dynamic polarizers
+Yi Ouyang	aperture-layout-induced-effects-in-polarization-resolved-multifoc	3.3	polarization-resolved metalenses
+Torgom Yezekyan	opto-mechanical-analogue-of-peierls-transition	-	optomechanical analogue of the Peierls transition (classical)
+Torgom Yezekyan	quasi-bound-states-in-the-continuum-in-finite-waveguide-grating-c	3.3	bound states in the continuum in grating couplers
+Torgom Yezekyan	an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce	3.3	materials atlas for cathodoluminescence microscopy
+Torgom Yezekyan	an-atlas-of-photonic-and-plasmonic-materials-for-cathodoluminesce-3	-	journal cover page
+Torgom Yezekyan	near-field-refractometry-of-van-der-waals-crystals	3.3	near-field refractometry of van der Waals crystals
+Vladimir Zenin	near-field-refractometry-of-van-der-waals-crystals	3.3	near-field refractometry of van der Waals crystals
+Vladimir Zenin	design-and-experimental-demonstration-of-wavelengthselective-meta	3.3	metamirrors for gravitational-wave detectors
+Vladimir Zenin	fourier-analysis-of-near-field-patterns-generated-by-propagating-	3.3	near-field microscopy of polaritons
+Vladimir Zenin	high-efficiency-silicon-metasurface-mirror-on-a-sapphire-substrat	3.3	silicon metasurface mirrors for gravitational-wave detectors
+Vladimir Zenin	nanoscale-light-field-imaging-with-graphene	3.3	nanoscale light-field imaging with graphene

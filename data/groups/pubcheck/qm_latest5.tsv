@@ -1,0 +1,62 @@
+# The five newest research outputs on each qm member's SDU research portal profile, classified on the CFQT content map
+# from the title and abstract in the portal (read and classified by Danish Quantum Academy, 11 November 2026).
+# '-' = outside the CFQT content map. First subdomain = main topic.
+member	portal path	cfqt	basis
+Jørgen Ellegaard Andersen	a-geometric-quantisation-view-on-the-aj-conjecture-for-the-teichm	1.2	geometric quantisation and the Teichmüller TQFT
+Jørgen Ellegaard Andersen	the-genus-one-complex-quantum-chern-simons-representation-of-the--2	1.2	quantum representations from complex Chern-Simons theory
+Jørgen Ellegaard Andersen	the-automorphism-equivariant-hitchin-index	-	equivariant index on moduli spaces (geometry)
+Jørgen Ellegaard Andersen	sp1-symmetric-hyperk%C3%A4hler-quantisation	1.2	geometric quantisation of hyperkähler manifolds
+Jørgen Ellegaard Andersen	using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p	-	liver disease screening (medicine)
+Fabian Haiden	perverse-schobers-stability-conditions-and-quadratic-differential	-	dg-algebras and stability conditions (algebra)
+Fabian Haiden	braid-group-actions-on-branched-coverings-and-full-exceptional-se	-	Fukaya categories and branched coverings (geometry)
+Fabian Haiden	3-d-calabiyau-categories-for-teichm%C3%BCller-theory	-	Calabi-Yau categories (algebra, geometry)
+Fabian Haiden	spectral-networks-and-stability-conditions-for-fukaya-categories-	-	spectral networks in Fukaya categories (geometry)
+Fabian Haiden	legendrian-skein-algebras-and-hall-algebras	-	skein and Hall algebras (low-dimensional topology)
+Henry Mikael Kirveslahti	digital-tools-for-analyzing-nondiffeomorphic-shapes	-	Euler characteristic transform for shape analysis
+Guillaume Laplante-Anfossi	steenrod-operations-via-higher-bruhat-orders	-	Steenrod operations (algebraic topology)
+Guillaume Laplante-Anfossi	topological-proofs-of-categorical-coherence	-	categorical coherence (algebraic topology, title only)
+Guillaume Laplante-Anfossi	the-diagonal-of-the-operahedra	-	operahedra (algebraic topology, title only)
+Guillaume Laplante-Anfossi	kashiwaravergne-solutions-degree-by-degree	-	Kashiwara-Vergne problem (algebra)
+Guillaume Laplante-Anfossi	closing-the-open-system	-	essay on a cybernetic art work
+William Elbæk Mistegård	a-proof-of-the-radial-limit-conjecture-for-costantino-geer-pature	1.2	quantum invariants of three-manifolds
+William Elbæk Mistegård	the-automorphism-equivariant-hitchin-index	-	equivariant index on moduli spaces (geometry)
+William Elbæk Mistegård	resurgence-analysis-of-quantum-invariants-of-seifert-fibered-homo	1.2	resurgence of quantum invariants
+William Elbæk Mistegård	asymptotic-expansions-of-the-witten-reshetikhin-turaev-invariants-2	1.2	asymptotics of Witten-Reshetikhin-Turaev quantum invariants
+William Elbæk Mistegård	resurgence-analysis-of-quantum-invariants-seifert-manifolds-and-s	1.2	resurgence of quantum invariants
+Nadia Ott	supermoduli-space-with-ramond-punctures-is-not-projected	-	supermoduli spaces (geometry, title only)
+Du Pei	on-mixed-t-hooft-anomalies-of-emergent-symmetries	-	anomalies in quantum field theory (high-energy theory)
+Du Pei	generalized-global-symmetries-of-tm-theories-part-ii	-	symmetries of 6d SCFT compactifications (high-energy theory)
+Adrian Petr	mapping-tori-of-asubsub-autoequivalences-and-legendrian-lifts-of-	-	A-infinity categories and Legendrians (geometry)
+Duccio Di Prima	self-sensitized-photooxidation-in-extended-tetrathiafulvalenes	-	photostability of organic dyes (chemistry)
+Duccio Di Prima	activation-mechanism-of-jumping-spider-rhodopsin-1-revealed-by-cl	-	classical molecular dynamics of rhodopsin
+Duccio Di Prima	synthesis-and-characterization-of-a-novel-intrinsically-fluoresce	-	fluorescent cholesterol analog (chemistry)
+Duccio Di Prima	color-tuning-in-bovine-rhodopsin-through-polarizable-embedding	-	polarizable embedding for rhodopsin (computational chemistry)
+Duccio Di Prima	assessment-of-excited-state-methods-for-one-and-two-photon-absorp	-	excited-state quantum chemistry methods
+Steffen Schmidt	cubic-dirac-operators-and-dirac-cohomology-for-basic-classical-li	-	Lie superalgebras (algebra)
+Florian Raphaël Seefeld	the-spectrum-of-feynman-integral-geometries-at-two-loops	-	Feynman integral geometry (high-energy theory)
+Shan Shan	quantification-of-molar-sub-regions-suggests-increasing-herbivory	-	primate molar morphology
+Shan Shan	using-the-elf-test-fib-4-and-nafld-fibrosis-score-to-screen-the-p	-	liver disease screening (medicine)
+Shan Shan	he-has-the-whole-package-lyrics-melodies-enigmatic-mythical-image	-	questionnaire on images of a musician
+Vivek Shende	adjoints-wrapping-and-morphisms-at-infinity	-	categorical localization (algebra)
+Vivek Shende	microlocal-morse-theory-of-wrapped-fukaya-categories	-	wrapped Fukaya categories (symplectic geometry)
+Vivek Shende	sectorial-descent-for-wrapped-fukaya-categories	-	wrapped Fukaya categories (symplectic geometry)
+Vivek Shende	invariance-of-microsheaves-on-stable-higgs-bundles	-	microsheaves and geometric Langlands (geometry)
+Vivek Shende	an-algebraic-approach-to-the-algebraic-weinstein-conjecture-2	-	Hochschild homology and contact dynamics (geometry)
+Apoorv Tiwari	gapless-phases-in-21d-with-non-invertible-symmetries	2.4;1.2	gapless quantum phases with categorical symmetries
+Apoorv Tiwari	21d-lattice-models-and-tensor-networks-for-gapped-phases-with-cat	2.4;1.2	lattice models and tensor networks for gapped quantum phases
+Apoorv Tiwari	categorical-symmetries-in-spin-models-with-atom-arrays	2.4;5.2	categorical symmetries in spin models realisable with atom arrays
+Konstantin Wernli	globalization-of-perturbative-chernsimons-theory-on-the-moduli-sp	1.2	perturbative Chern-Simons theory in the BV formalism
+Konstantin Wernli	combinatorial-qft-on-graphs-first-quantization-formalism	1.2	combinatorial quantum field theory on graphs
+Konstantin Wernli	perturbative-chernsimons-invariants-from-non-acyclic-flat-connect	1.2	perturbative Chern-Simons invariants of 3-manifolds
+Konstantin Wernli	gluing-formulae-for-heat-kernels	-	heat kernels on Riemannian manifolds (analysis)
+Konstantin Wernli	on-enumerative-problems-for-maps-and-quasimaps-freckles-and-scars	-	enumerative geometry
+Matthias Oliver Wilhelm	the-spectrum-of-feynman-integral-geometries-at-two-loops	-	Feynman integral geometry (high-energy theory)
+Matthias Oliver Wilhelm	classification-of-feynman-integral-geometries-for-black-hole-scat	-	Feynman integrals for black-hole scattering (gravitational physics)
+Matthias Oliver Wilhelm	refining-integration-by-parts-reduction-of-feynman-integrals-with	-	machine learning for Feynman integral reduction (particle physics)
+Matthias Oliver Wilhelm	recurrent-features-of-amplitudes-in-planar-n-4-super-yang-mills-t	-	scattering amplitudes in super Yang-Mills (high-energy theory)
+Matthias Oliver Wilhelm	calabi-yau-feynman-integrals-in-gravity-%CE%B5-factorized-form-for-app	-	Calabi-Yau Feynman integrals in gravity (high-energy theory)
+Henrik Pedersen	determining-the-optimal-number-of-pistons-for-offshore-digital-wi	-	digital displacement winch drives (hydraulics)
+Henrik Pedersen	improving-energy-efficiency-and-response-time-of-an-offshore-winc	-	offshore winch drives (hydraulics)
+Henrik Pedersen	temperature-independent-fault-detection-of-solenoid-actuated-prop	-	fault detection in hydraulic valves
+Henrik Pedersen	a-backstepping-based-controller-utilizing-a-sliding-mode-disturba	-	control of hydraulic servo systems
+Henrik Pedersen	concept-evaluation-for-the-establishment-of-a-firm-end-stop-feeli	-	hydraulic steering units
