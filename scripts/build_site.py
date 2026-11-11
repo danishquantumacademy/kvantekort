@@ -284,7 +284,29 @@ for pp in plist:
         k = ("phd", ptkey(j["title"]))
         if k in seen_p: continue
         seen_p.add(k); proj_list.append({"kind": "phd", "inst": pp["institution"], "title": j["title"], "url": j["url"], "subs": j.get("subs"), "basis": "project", "who": pp["name"]})
-for g in json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]:
+# sources from the November 2026 group harvest: DTU PhD projects (Orbit), the members' five newest profile outputs
+# classified on the CFQT map, and research descriptions on profiles / staff pages classified on the map
+_l5, _desc, _dphd = {}, {}, {}
+for f5 in sorted((ROOT / "data/groups/pubcheck").glob("*_latest5.tsv")):
+    for r in csv.DictReader((l for l in f5.open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
+        _l5.setdefault(r["member"], []).append(r)
+for fp in sorted((ROOT / "data/groups/profiles").glob("*.tsv")):
+    for r in csv.DictReader((l for l in fp.open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
+        if r.get("cfqt"): _desc[r["member"]] = r
+if (ROOT / "data/groups/phd/dtu.tsv").exists():
+    for r in csv.DictReader((l for l in (ROOT / "data/groups/phd/dtu.tsv").open(encoding="utf-8") if not l.startswith("#")), delimiter="\t"):
+        _dphd.setdefault((r["member"], r["role"]), []).append(r)
+_gcfg = json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]
+_portal = {g["key"]: g["portal_base"] for g in _gcfg}
+# PhD projects that group members supervise as main supervisor at DTU (ongoing or ended 2025 or later)
+for (mname, role), rows_ in _dphd.items():
+    if role != "Main Supervisor": continue
+    for r in rows_:
+        if int(r["period"][-4:]) < 2026: continue
+        k = ("phd", ptkey(r["title"]))
+        if k in seen_p: continue
+        seen_p.add(k); proj_list.append({"kind": "phd", "inst": "DTU", "title": r["title"], "url": "https://orbit.dtu.dk/en/projects/" + r["slug"] + "/", "subs": PROJ_CFQT.get(ptkey(r["title"])), "basis": "project", "who": mname})
+for g in _gcfg:
     for line in (ROOT / "data/groups" / f"{g['key']}.txt").read_text(encoding="utf-8").splitlines():
         if not line.startswith("P||"): continue
         f = (line.split("||") + [""] * 6)
@@ -292,7 +314,21 @@ for g in json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8
         if not re.search(r"phd|ph\.d|postdoc|post-doc", role, re.I): continue
         kind = "postdoc" if re.search(r"postdoc|post-doc", role, re.I) else "phd"
         proj = re.sub(r"\s*\[.*?\]\s*$", "", f[4]).strip(); outp = re.sub(r"\s*\(20\d\d\)\s*$", "", f[5]).strip()
-        if proj:
+        own = [r for r in _dphd.get((f[1], "PhD Student"), []) if int(r["period"][-4:]) >= 2026]
+        if kind == "phd" and own:
+            proj = own[0]["title"]
+        if g["institution"] == "SDU" and kind != "phd": proj = ""  # SDU portal projects of postdocs are grants, not their research project
+        d = _desc.get(f[1]); l5m = _l5.get(f[1], [])
+        if proj and ptkey(proj) in PROJ_CFQT or (proj and not d and not l5m):
+            k = (kind, ptkey(proj))
+            if k in seen_p: continue
+            seen_p.add(k); proj_list.append({"kind": kind, "inst": g["institution"], "title": proj, "subs": PROJ_CFQT.get(ptkey(proj)), "basis": "project", "group": g["short"]})
+        elif d:
+            proj_list.append({"kind": kind, "inst": g["institution"], "title": d["text"], "subs": [] if d["cfqt"] == "-" else d["cfqt"].split(";"), "basis": "description", "group": g["short"]})
+        elif l5m:
+            x = l5m[0]
+            proj_list.append({"kind": kind, "inst": g["institution"], "title": x["basis"], "url": f"{_portal[g['key']]}/en/publications/{x['portal path']}/", "subs": [] if x["cfqt"] == "-" else x["cfqt"].split(";"), "basis": "output", "group": g["short"]})
+        elif False:
             k = (kind, ptkey(proj))
             if k in seen_p: continue
             seen_p.add(k); proj_list.append({"kind": kind, "inst": g["institution"], "title": proj, "subs": PROJ_CFQT.get(ptkey(proj)), "basis": "project", "group": g["short"]})

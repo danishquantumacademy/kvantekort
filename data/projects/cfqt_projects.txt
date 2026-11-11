@@ -295,3 +295,12 @@ OUT|Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method|
 OUT|Efficient Simulation of High-Level Quantum Gates|5.3;5.4
 OUT|On Exact Sizes of Minimal CNOT Circuits|5.3
 OUT|Crosses and Flowers: Investigating superstructures in the high-Tc superconductor La(2–x)Sr(x)CuO(4+y)|2.3
+Information processing with nano-opto-electro-mechanical systems|3.3;3.2
+Photonic computing with nano-electro-mechanical systems|3.3;3.2
+Diamond based Intracellular NMR and Cell Mechanics|6.7;4.2
+Intracellular Quantum Sensing using diamond with NV centers|6.7;4.2;6.2
+Nonlinear Photonic Integrated Circuits for Quantum Information Processing|4.4;3.3
+Topology Optimization of Quantum-Opto-Mechanical Systems|3.3;4.8
+Perturbation approaches and uncertainties in topology optimization|-
+Maximizing energy absorption by inverse design|-
+Multi-user quantum key distribution|7.3;7.5
