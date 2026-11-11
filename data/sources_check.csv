@@ -92,7 +92,7 @@ studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6483,200,https://s
 studieordninger.aau.dk,https://studieordninger.aau.dk/2026/56/6568,200,https://studieordninger.aau.dk/2026/56/6568,public
 studies.ku.dk,https://studies.ku.dk/masters/quantum-information-science/programme-structure/,200,https://www.ku.dk/studies/masters/quantum-information-science,public
 tidsskrift.dk,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,200,https://tidsskrift.dk/KVANT/article/download/167609/208571/374195,public
-uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=3Et9rmPmHoht%2F4R7wU40FfPneDfa5wbXDX4H7XvfCrcj%2BCgEYk5ySTedCT5%2FOztnJai64Vu83dkS7N5QNdMbe0v%2BNLtScIhlmKwhUunTsFym4%2FQurdKhcVlwfIKJerePICZV%2F%2BToNmh4AsyIMvnQ%2FZo6ij6qhkcNZCWsQTMRXjEHmbGxo%2FMGhEk76d%2BP9pXL0blPmocb3g7fRHz67sX2nNr3Z94Dmtau8yFEHePuF7Sg8xHOyFutbuFcTMnTn82tdOTFBwC6Hv0XT07fjcDCzU%2FSB%2FUm8E%2BbxwPIi2pYK4LMDUw1aeTR%2BRXYVzN6lSOgZmWp1giZbHrnmBD2WkHvsUVylpvSqyrDb5%2BPmCPRzY%2F8KaszaQAAAAE%3D,public
+uddannelsesstatistik.dk,https://uddannelsesstatistik.dk/gymnasiale-uddannelser/studenternes-eksamensresultater-fagkarakterer-samt-sociooekonomisk-reference/,200,https://security-check.stil.dk/NDBD/validate?config=GENERIC&data=SXvxjGSJNKCwSb17wU40FfPneDfa55G5FghUn%2BFkz%2FK3LFBTWNjmUHLq%2BVsd%2F4RS2wqUAxJjGewsq52LD9Se6w7bxKbowI%2BioiW2mKW7RSDn9HFaaymFL3JJxxbh9GGuTQtWaQ6o4L%2F9J4d4v7pA1h%2BkEZamziqsj2vvUsXN%2FlmFkWbW52vs9RWn9hQSnSMJWmpQnj%2FZuzgF2k2iPjs37morB7oFdCXZCh6W9X2WEbq2PrrVZd%2BuWU4Hx%2Fdtpkqaxc9LdBBTk%2B77AWugh36uuCaiFch9LynCcNuVrtYQistjSKOr7UiNYOOmG3QKr9vJkkRuodAwL3t8AH0Wp2WKqaLSI7%2FD6p9ByJfG%2BalEicB3WkQAAAAB,public
 uvm.dk,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,200,https://uvm.dk/media/or1flalu/240807-vejledning-til-fysik-a-stx.pdf,public
 uvm.dk,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,200,https://uvm.dk/media/d0oatodf/240807-vejledning-til-fysik-a-htx.pdf,public
 uvm.dk,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,200,https://uvm.dk/uddannelse-til-unge/gymnasiale-uddannelser/fag-og-laereplaner/stx-laereplaner/,public
@@ -104,13 +104,13 @@ www.bio.aau.dk,http://www.bio.aau.dk/,ConnectionResetError,,error
 www.bio.ku.dk,http://www.bio.ku.dk,200,https://www1.bio.ku.dk/,public
 www.bioengineering.dtu.dk,https://www.bioengineering.dtu.dk/,200,https://www.bioengineering.dtu.dk/,public
 www.bioengineering.dtu.dk,https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis,200,https://www.bioengineering.dtu.dk/research/research-sections/section-for-medical-biotechnology/nabis,public
-www.classique.aau.dk,http://www.classique.aau.dk,200,https://www.classique.aau.dk/,public
+www.classique.aau.dk,http://www.classique.aau.dk,ConnectionResetError,,error
 www.classique.aau.dk,https://www.classique.aau.dk,200,https://www.classique.aau.dk,public
-www.cmc.aau.dk,https://www.cmc.aau.dk,200,https://www.en.bio.aau.dk/research/research-centres/center-for-microbial-communities,public
+www.cmc.aau.dk,https://www.cmc.aau.dk,URLError,,error
 www.compute.dtu.dk,https://www.compute.dtu.dk/english/research/research-sections/algolog,200,https://www.compute.dtu.dk/sections/algolog,public
 www.compute.dtu.dk,https://www.compute.dtu.dk/english,200,https://www.compute.dtu.dk/,public
 www.compute.dtu.dk,https://www.compute.dtu.dk/english/research/research-sections/ese,404,https://www.compute.dtu.dk/fejl/404?item=%2fsections%2fese&user=extranet%5cAnonymous&site=computeDK,error
-www.cs.aau.dk,http://www.cs.aau.dk,200,https://www.cs.aau.dk/,public
+www.cs.aau.dk,http://www.cs.aau.dk,ConnectionResetError,,error
 www.cs.au.dk,http://www.cs.au.dk,200,https://cs.au.dk//,public
 www.dtu.dk,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab,200,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/fysik-og-ingenioervidenskab,public
 www.dtu.dk,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/kemi-og-teknologi,200,https://www.dtu.dk/uddannelse/bachelor/uddannelsesretninger/kemi-og-teknologi,public
@@ -132,7 +132,7 @@ www.ki.ku.dk,http://www.ki.ku.dk,200,https://www.ki.ku.dk/,public
 www.ku.dk,https://www.ku.dk/uddannelse/studieordninger/fysik,200,https://www.ku.dk/uddannelse/studieordninger/fysik,public
 www.ku.dk,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/fysik/BA_Fysik_2017_2025.pdf,200,https://www.ku.dk/fileadmin/site-2596/Studieordninger/Science/fysik/BA_Fysik_2017_2025.pdf,public
 www.ku.dk,https://www.ku.dk/uddannelse/studieordninger/nanoscience,200,https://www.ku.dk/uddannelse/studieordninger/nanoscience,public
-www.math.aau.dk,http://www.math.aau.dk,200,https://www.math.aau.dk/,public
+www.math.aau.dk,http://www.math.aau.dk,URLError,,error
 www.math.aau.dk,https://www.math.aau.dk/research/Mathematics/,200,https://www.math.aau.dk/research/Mathematics,public
 www.math.ku.dk,https://www.math.ku.dk/english/,200,https://www.math.ku.dk/english/,public
 www.mp.aau.dk,http://www.mp.aau.dk,200,https://www.mp.aau.dk/,public
