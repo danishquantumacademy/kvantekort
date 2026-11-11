@@ -501,7 +501,18 @@ for g in gcfg["groups"]:
             w = pc["w"][wi]; slug = next((sl for _, sl in byw[wi] if sl), "")
             url = f"https://researchprofiles.ku.dk/en/publications/{slug}/" if slug else f"https://researchprofiles.ku.dk/en/persons/{byw[wi][0][0]['slug']}/publications/"
             pubs.append({"title": w[0], "url": url, "cite": f"{_fmt(w[4] if len(w) > 4 and w[4] else str(w[1]))} · {TYN.get(w[2], 'Research output')} · on the profile of " + ", ".join(m["n"] for m, _ in byw[wi])})
-    groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": sort_subs(g["cfqt"]), "members": members, "pubs": pubs, "projects": projects,
+    gcfqt, gcfqt_n = sort_subs(g["cfqt"]), None
+    l5g = {}
+    for (gk, mname), xs in latest5.items():
+        if gk == g["key"]:
+            for x in xs:
+                if x["subs"]: l5g[x["slug"]] = x["subs"]
+    if l5g:
+        # research of the group = main topics of the members' five newest profile outputs (subdomains with at least two)
+        mc = {}
+        for subs in l5g.values(): mc[subs[0]] = mc.get(subs[0], 0) + 1
+        gcfqt = sort_subs([sb for sb, n in mc.items() if n >= 2]); gcfqt_n = {sb: mc[sb] for sb in gcfqt}
+    groups_out.append({**{k: v for k, v in g.items() if k != "feeds"}, "cfqt": gcfqt, "cfqt_n": gcfqt_n, "cfqt_total": len(l5g) if l5g else None, "members": members, "pubs": pubs, "projects": projects,
                        "press": press, "acts": acts, "prizes": prizes, "static_events": events,
                        "courses": sorted(crs.values(), key=lambda c: (c["level"] != "MSc", c["code"])),
                        "pubcheck": {"read": pcheck[g["key"]]["read"], "latest5": any(k[0] == g["key"] for k in latest5), **pcheck[g["key"]]["sum"]} if g["key"] in pcheck else None,

@@ -237,7 +237,8 @@ footer p{margin:0;max-width:86ch}
       g.sponsors&&g.sponsors.length?el('p',{class:'sponsors'},el('b',{},'Sponsors: '),...g.sponsors.flatMap((x,i)=>[i?' · ':'',link(x.url,x.name)]),el('span',{style:'color:var(--muted)'},' — as listed on the group’s website')):null));
     // CFQT
     box.append(el('section',{},el('h3',{},'Research on the CFQT content map'),
-      el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name)))))));
+      el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name+(g.cfqt_n?` · ${g.cfqt_n[s]} outputs`:'')))))),
+      g.cfqt_n?el('p',{class:'note'},`Main topics of the members' five newest research outputs on their university profiles (${g.cfqt_total} outputs on the content map); subdomains that are the main topic of at least two outputs.`):null));
     // research proficiency of the members
     {const m=memberCounts(g), svg=sv('svg',{role:'img','aria-label':`Research proficiency of the ${g.short} members`});drawTri(svg,m,{W:600,labels:true,unit:'members'});
      const withLv=g.members.filter(x=>x.rl&&Object.keys(x.rl).length), nout=g.members.reduce((n,x)=>n+(x.nout||0),0), harv=g.members.filter(x=>x.harv).length;
