@@ -337,8 +337,38 @@
      "kind": "events",
      "type": "generic_list",
      "url": "https://qmath.ku.dk/events/"
+    },
+    {
+     "kind": "jobs",
+     "type": "call_deadlines",
+     "url": "https://qmath.ku.dk/vacant-positions/"
     }
-   ]
+   ],
+   "jobs_label": "Vacancies at QMATH",
+   "jobs_all": "https://employment.ku.dk/all-vacancies/",
+   "sponsors": [
+    {
+     "name": "VILLUM FONDEN",
+     "url": "https://veluxfoundations.dk/en"
+    },
+    {
+     "name": "Independent Research Fund Denmark (DFF)",
+     "url": "https://dff.dk/"
+    },
+    {
+     "name": "European Research Council (ERC)",
+     "url": "https://erc.europa.eu/"
+    },
+    {
+     "name": "Innovation Fund Denmark",
+     "url": "https://innovationsfonden.dk/en"
+    },
+    {
+     "name": "Novo Nordisk Foundation",
+     "url": "https://novonordiskfonden.dk/en/"
+    }
+   ],
+   "sponsors_source": "https://qmath.ku.dk/"
   },
   {
    "key": "qop",

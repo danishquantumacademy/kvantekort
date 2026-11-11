@@ -28,6 +28,7 @@ MONTHS.update({k[:3]: v for k, v in list(MONTHS.items())})
 MONTHS["sept"] = 9
 MON = "|".join(sorted(MONTHS, key=len, reverse=True))
 DATE_RES = [
+    (re.compile(r"\b(20\d\d)\.(\d{1,2})\.(\d{1,2})\b"), lambda m: (int(m[1]), int(m[2]), int(m[3]))),  # 2026.10.30 (math.ku.dk)
     (re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(20\d\d)\b"), lambda m: (int(m[3]), int(m[2]), int(m[1]))),
     (re.compile(r"\b(\d{1,2})/(\d{1,2})/(20\d\d)\b"), lambda m: (int(m[3]), int(m[2]), int(m[1]))),
     (re.compile(r"\b(\d{1,2})(?:\s*[-–]\s*\d{1,2})?\.?\s+(" + MON + r")\.?,?\s+(20\d\d)\b", re.I), lambda m: (int(m[3]), MONTHS[m[2].lower()], int(m[1]))),
@@ -35,6 +36,7 @@ DATE_RES = [
 ]
 GRANT = re.compile(r"(\bgrant(s|ed)?\b|\bawarded\b|\breceives?\b.{0,80}\b(million|mio\.?|DKK|EUR|kr\.)|\bbevilling|\bbevilget|\bERC (Starting|Consolidator|Advanced|Synergy|Proof)|Sk[lł]odowska-Curie|Villum (Investigator|Young Investigator|Experiment)|\b\d+(\.\d+)? ?(million|mio\.?) ?(DKK|kr|EUR|euro))", re.I)
 JOB = re.compile(r"\b(vacanc\w*|position[s]? (?:in|at|available|open)|open position|phd position|postdoc(?:toral)? position|we are hiring|ledig\w* stilling|stillingsopslag|apply now)\b", re.I)
+PRIZE = re.compile(r"\b(prize|award(ed|s)?|medal|pris(en)?|elected (as )?fellow|fellow of the)\b", re.I)
 EVENT = re.compile(r"\b(seminar|colloquium|workshop|conference|symposium|summer school|defen[cs]e|lecture|hackathon|hack|talk|meeting|retreat)\b", re.I)
 
 
@@ -132,7 +134,30 @@ def pure_overview(html, base):
     return out
 
 
-PARSERS = {"generic_list": generic_list, "dated_lines": dated_lines, "pure_overview": pure_overview}
+def call_deadlines(html, base):
+    """Jobsider uden liste, hvor ansøgningsrunder står som tekst: 'The deadline for the next PhD call is November 1, 2026.'
+    efterfulgt af et afsnit med link til opslaget (fx QMATH). Alle runder returneres med fristen i 'deadline';
+    siden viser kun dem, hvis frist ikke er overskredet."""
+    s = soup(html)
+    main = s.find("main") or s.body or s
+    els = main.find_all(["p", "li", "h2", "h3", "h4"])
+    items = []
+    for i, el in enumerate(els):
+        txt = clean(el.get_text(" "))
+        m = re.search(r"deadline for the (?:next )?(.{2,40}?) call is (.{6,30}?\d{4})", txt, re.I)
+        if not m:
+            continue
+        d = find_date(m[2])
+        if not d:
+            continue
+        a = el.find("a", href=True) or next((x.find("a", href=True) for x in els[i + 1:i + 3] if x.find("a", href=True)), None)
+        title = clean(a.get_text(" ")) if a and len(clean(a.get_text(" "))) > 6 else f"{m[1]} call"
+        items.append({"date": d.isoformat(), "deadline": d.isoformat(), "title": title, "url": urljoin(base, a["href"]) if a else base,
+                      "text": f"Application deadline · {m[1]} call"})
+    return items
+
+
+PARSERS = {"generic_list": generic_list, "dated_lines": dated_lines, "pure_overview": pure_overview, "call_deadlines": call_deadlines}
 
 
 def classify(item, kind):
@@ -141,11 +166,11 @@ def classify(item, kind):
         return "outputs"
     if item.get("kind") == "press":
         return "news"
-    if JOB.search(item["title"]):
+    if kind == "jobs" or JOB.search(item["title"]):
         return "jobs"
     if kind == "events":
         return "events"
-    if GRANT.search(t):
+    if GRANT.search(t) or PRIZE.search(t):
         return "grants"
     return "news"
 

@@ -56,6 +56,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .phead .banner{position:absolute;inset:0 0 auto 0;height:6px}
 .phead .meta{font-size:13.5px;color:var(--muted)}
 .links{display:flex;gap:8px;flex-wrap:wrap}
+.sponsors{margin:0;font-size:13px;max-width:78ch}
 .btn{font:600 13px/1 var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--line);text-decoration:none;color:var(--fg);background:var(--bg)}
 .btn:hover{border-color:var(--accent);color:var(--accent)}
 blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--line);color:var(--muted);font-style:italic;max-width:70ch}
@@ -225,7 +226,8 @@ footer p{margin:0;max-width:86ch}
       g.quote?el('blockquote',{},`“${g.quote}”`,el('span',{style:'font-style:normal'},' — from the group’s website')):null,
       el('p',{style:'margin:0;max-width:78ch'},g.summary),
       el('div',{class:'themes'},...g.themes.map(t=>el('span',{class:'theme'},t))),
-      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},(/^Department/.test(g.kind)?'Department website ↗':'Group website ↗')),g.portal&&g.portal!==g.website?el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'):null,el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},`Vacancies at ${g.institution} ↗`))));
+      el('div',{class:'links'},el('a',{class:'btn',href:g.website,target:'_blank',rel:'noopener'},(/^Department/.test(g.kind)?'Department website ↗':'Group website ↗')),g.portal&&g.portal!==g.website?el('a',{class:'btn',href:g.portal,target:'_blank',rel:'noopener'},'Research portal ↗'):null,el('a',{class:'btn',href:g.jobs_url,target:'_blank',rel:'noopener'},(g.jobs_label||`Vacancies at ${g.institution}`)+' ↗')),
+      g.sponsors&&g.sponsors.length?el('p',{class:'sponsors'},el('b',{},'Sponsors: '),...g.sponsors.flatMap((x,i)=>[i?' · ':'',link(x.url,x.name)]),el('span',{style:'color:var(--muted)'},' — as listed on the group’s website')):null));
     // CFQT
     box.append(el('section',{},el('h3',{},'Research on the CFQT content map'),
       el('div',{class:'cfqt'},...g.cfqt.map(s=>el('div',{class:'cf'},el('span',{class:'sd',style:`color:${dcol(s.split('.')[0])}`},s),el('span',{},subName(s),el('span',{style:'color:var(--muted)'},' · '+Q.domains[s.split('.')[0]].name)))))));
@@ -249,7 +251,7 @@ footer p{margin:0;max-width:86ch}
       panel('News',news,item,'No news found on the group’s website or in the portal.',srcNote('news')),
       panel('Grants and prizes',[...grants,...g.projects.filter(p=>p.funder&&p.type!=='PhD').map(p=>({date:'',title:p.title,url:p.url,text:`${p.funder} · ${p.period}`}))],item,'No grant announcements found in the sources.'),
       panel('Events',[...up.map(e=>({...e,up:1})),...past],x=>{const n=item(x);if(x.up)n.querySelector('.d').append(el('span',{class:'tag up'},'upcoming'));return n},'No events found.',srcNote('events')),
-      panel('Open positions',F.jobs||[],item,'No positions announced on the group’s pages this week.',el('a',{href:g.jobs_url,target:'_blank',rel:'noopener',style:'font-size:13px'},`All vacancies at ${g.institution} ↗`))));
+      panel('Open positions',(F.jobs||[]).filter(j=>!j.deadline||j.deadline>=today),item,'No open positions announced on the group’s pages right now.',el('a',{href:g.jobs_all||g.jobs_url,target:'_blank',rel:'noopener',style:'font-size:13px'},`All vacancies at ${g.institution} ↗`))));
     // publications + projects
     box.append(el('div',{class:'panels'},
       panel('Latest publications',[...g.pubs,...(F.outputs||[]).filter(o=>!g.pubs.some(p=>p.title===o.title)).slice(0,4).map(o=>({title:o.title,url:o.url,cite:fmt(o.date)}))].slice(0,8),x=>el('div',{class:'it'},link(x.url,x.title),el('span',{class:'t'},x.cite)),'No publications listed.'),

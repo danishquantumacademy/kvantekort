@@ -2651,6 +2651,7 @@ Research group,KU,https://researchprofiles.ku.dk/en/persons/jan-philip-solovej/,
 Research group,KU,https://qmath.ku.dk/vacant-positions/,QMATH: university vacancies page (link target),data/groups/groups.json
 Research group feed (weekly),KU,https://qmath.ku.dk/about/news/,"QMATH: news, read automatically every Monday",data/groups/feeds.json
 Research group feed (weekly),KU,https://qmath.ku.dk/events/,"QMATH: events, read automatically every Monday",data/groups/feeds.json
+Research group feed (weekly),KU,https://qmath.ku.dk/vacant-positions/,"QMATH: jobs, read automatically every Monday",data/groups/feeds.json
 Research group,KU,https://researchprofiles.ku.dk/en/persons/matthias-christandl/,QMATH: member profile (Matthias Christandl),data/groups/qmath.txt
 Research group,KU,https://researchprofiles.ku.dk/en/persons/bergfinnur-durhuus/,QMATH: member profile (Bergfinnur Durhuus),data/groups/qmath.txt
 Research group,KU,https://researchprofiles.ku.dk/en/persons/s%C3%B8ren-fournais/,QMATH: member profile (Søren Fournais),data/groups/qmath.txt
