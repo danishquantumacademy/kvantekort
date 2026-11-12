@@ -174,7 +174,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #7b9bff;outline-offset:3p
   portal = must(portal, '<a href="#open"', '<a href="proficiency.html"');
   portal = must(portal, '<a href="Main.dc.html" style="display: flex', '<a href="index.html" style="display: flex');
   portal = must(portal, '<a href="Main.dc.html" style="color: #141a2b; text-decoration: none">Public front page</a>', '<a href="index.html" style="color: #141a2b; text-decoration: none">Front page</a>');
-  portal = must(portal, '<a href="Main.dc.html" style="display: inline-flex', '<a href="index.html?staticrypt_logout" style="display: inline-flex');
+  portal = must(portal, '<a href="Main.dc.html" style="display: inline-flex', '<a href="portal.html?staticrypt_logout" style="display: inline-flex');
   if (/Main\.dc\.html|Portal\.dc\.html|#open"/.test(portal + home)) throw new Error('design link left over');
   const portalJs = `<script>
 (function(){

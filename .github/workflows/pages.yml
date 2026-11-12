@@ -57,6 +57,8 @@ jobs:
             --template-instructions "This map is not public yet. Enter the password to open it." \
             --template-button "Open" --template-placeholder "Password" \
             --template-color-primary "#1f45c9" --template-color-secondary "#f6f7fa"
+          # "Remember me" is ticked by default, so the password is asked once and not again on every page.
+          sed -i 's/id="staticrypt-remember" type="checkbox"/& checked/' site/*.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
