@@ -1,7 +1,7 @@
 <title>Danish Quantum Education Map</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
 /* Layout: header; mini triangles (Denmark + each university) as the selector; the large CFQT proficiency
    triangle with proficiency-level bars beside the selection stats and the CFQT content map; the content map
@@ -13,8 +13,8 @@
   --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
   --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
   --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5; --heat:31,69,201;
-  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
-  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --display:"Syne","Segoe UI",system-ui,sans-serif;
+  --body:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
@@ -398,7 +398,7 @@ footer a{color:var(--accent)}
     [['I',g.L,g.R],['II',g.L,g.M],['III',g.R,g.M]].forEach(([a,p,q])=>svg.append(sv('line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:acol(a),'stroke-width':bw,'stroke-linecap':'round','pointer-events':'none'})));
     svg.append(sv('polygon',{points:P([g.A,g.BL,g.BR]),fill:'none',stroke:'var(--muted)','stroke-width':opts.labels?1.2:.8,'pointer-events':'none'}));
     if(opts.labels){
-      const tx=(x,y,txt,anchor,col)=>svg.append(sv('text',{x,y,'text-anchor':anchor,'font-family':'IBM Plex Sans, sans-serif','font-size':12.5,'font-weight':600,fill:col},txt));
+      const tx=(x,y,txt,anchor,col)=>svg.append(sv('text',{x,y,'text-anchor':anchor,'font-family':'Plus Jakarta Sans, sans-serif','font-size':12.5,'font-weight':600,fill:col},txt));
       tx(g.A[0],g.A[1]-10,'(I) Quantum concepts','middle',acol('I'));
       tx(g.BL[0],g.H+20,'(II) QT HW & SW engineering','start',acol('II'));
       tx(g.BR[0],g.H+20,'QT applications & strategies (III)','end',acol('III'));
