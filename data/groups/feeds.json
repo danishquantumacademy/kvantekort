@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:22Z",
+ "generated": "2026-11-12T17:43Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -196,7 +196,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -237,7 +237,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -319,7 +319,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -360,7 +360,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -508,14 +508,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": true,
      "n": 35,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -803,21 +803,21 @@
      "kind": "news",
      "ok": true,
      "n": 120,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     },
     {
      "url": "https://qmath.ku.dk/events/",
      "kind": "events",
      "ok": true,
      "n": 13,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     },
     {
      "url": "https://qmath.ku.dk/vacant-positions/",
      "kind": "jobs",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -883,7 +883,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -949,7 +949,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1108,14 +1108,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1131,7 +1131,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1147,7 +1147,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1163,7 +1163,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1201,6 +1201,13 @@
   },
   "polima": {
    "news": [
+    {
+     "date": "2026-11-12",
+     "title": "Sven Ebel PhD defense",
+     "url": "https://www.sdu.dk/en/forskning/polima/news/sven-ebel-phd-defense",
+     "text": "12.11.2026 5 November 2026, Sven Ebel successfully defended hus PhD thesis with the title “Cathodoluminescence Spectroscopy of Nanoscale Light-Matter Interactions”",
+     "source": "https://www.sdu.dk/en/forskning/polima/news"
+    },
     {
      "date": "2026-11-05",
      "title": "Regular guest from University of Minho",
@@ -1276,13 +1283,6 @@
      "title": "Master thesis defense",
      "url": "https://www.sdu.dk/en/forskning/polima/news/master-thesis-defense",
      "text": "09.07.2026 19 June, Viktor Damsgaard Skarby succefully defended his Master thesis",
-     "source": "https://www.sdu.dk/en/forskning/polima/news"
-    },
-    {
-     "date": "2026-06-30",
-     "title": "PhD Defense and visit from Birmingham",
-     "url": "https://www.sdu.dk/en/forskning/polima/news/phd-defense-and-visit-from-birmingham",
-     "text": "30.06.2026 29 June Nikolaos Kyvelos successfully defended his PhD thesis.",
      "source": "https://www.sdu.dk/en/forskning/polima/news"
     }
    ],
@@ -1381,15 +1381,15 @@
      "url": "https://www.sdu.dk/en/forskning/polima/news",
      "kind": "news",
      "ok": true,
-     "n": 110,
-     "checked": "2026-11-12T12:22Z"
+     "n": 111,
+     "checked": "2026-11-12T17:43Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1406,7 +1406,7 @@
     {
      "date": "2026-09-02",
      "title": "SDU er i verdenselite med banebrydende forskning",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
@@ -1422,7 +1422,7 @@
     {
      "date": "2026-09-02",
      "title": "SDU er i verdenselite med banebrydende forskning",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
@@ -1487,7 +1487,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1504,7 +1504,7 @@
     {
      "date": "2025-04-25",
      "title": "Professor om sin opfindelse: – Kan være forskellen på liv og død",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/professor-om-sin-opfindelse-kan-v%C3%A6re-forskellen-p%C3%A5-liv-og-d%C3%B8d-2/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/professor-om-sin-opfindelse-kan-v%C3%A6re-forskellen-p%C3%A5-liv-og-d%C3%B8d/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
@@ -1512,23 +1512,23 @@
     {
      "date": "2025-04-25",
      "title": "Professor om sin opfindelse: – Kan være forskellen på liv og død",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/professor-om-sin-opfindelse-kan-v%C3%A6re-forskellen-p%C3%A5-liv-og-d%C3%B8d/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/professor-om-sin-opfindelse-kan-v%C3%A6re-forskellen-p%C3%A5-liv-og-d%C3%B8d-2/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
     },
     {
      "date": "2025-03-31",
-     "title": "Lysstråler skal opdage kræft",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/lysstr%C3%A5ler-skal-opdage-kr%C3%A6ft/",
+     "title": "EU i dagens aviser mandag den 31. marts 2025",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/eu-i-dagens-aviser-mandag-den-31-marts-2025/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
     },
     {
      "date": "2025-03-31",
-     "title": "Odense-forskere står bag: Stort kræft-gennembrud Skrevet den 31. marts 2025 kl 11:56 Af Christina Frederiksen",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/odense-forskere-st%C3%A5r-bag-stort-kr%C3%A6ft-gennembrud-skrevet-den-31-ma/",
+     "title": "Få svar med det samme: Lys kan afsløre kræft på sekunder",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/f%C3%A5-svar-med-det-samme-lys-kan-afsl%C3%B8re-kr%C3%A6ft-p%C3%A5-sekunder/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
@@ -1585,7 +1585,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1651,7 +1651,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   },
@@ -1717,7 +1717,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T12:22Z"
+     "checked": "2026-11-12T17:43Z"
     }
    ]
   }
