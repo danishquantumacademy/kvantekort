@@ -6,12 +6,15 @@
 # Level: what the organisation's work reaches on the CFQT proficiency triangle, per area (I, II, III):
 #   companies that develop quantum technology: C2 in the area of their main topic, C1 in other areas;
 #   test facilities: C1; end users exploring quantum technology: B2 in applications (III), B1 in the technology area.
-#   Funding, government and support organisations are listed but not placed on the triangle.
+#   Investors and support organisations are placed at a low level in applications and strategies (III), from domain 8 (valorisation):
+#   venture investors B1 (they assess technology and markets), research funders and business associations A2, accelerators,
+#   standardisation and quantum-computing access B1; QuNorth, which buys and runs a quantum computer for users, as an end user (B2 in III).
+#   Government bodies are listed but not placed on the triangle.
 # Added 12 November 2026 from a colleague's list of quantum companies in Denmark (not on the Ecosystem Map's list view):
 #   each checked on public pages (company or university news, job ads) and in CVR; map category chosen by Danish Quantum Academy.
 #   Suppliers and service partners that sell or service enabling equipment without developing it: B2 in the technology area.
 # name|map category|application areas (map)|role|summary|city|cvr|subs|I|II|III|spinout
-55 North|Funding Agencies and Investors||investor|Quantum-focused venture fund investing from seed to series B across the quantum stack.|Frederiksberg||||||
+55 North|Funding Agencies and Investors||investor|Quantum-focused venture fund investing from seed to series B across the quantum stack.|Frederiksberg||8.1;8.2|||B1|
 Agency for Higher Education and Science|Government||government|Supports research and innovation; involved in the International Quantum Hub, an international quantum summer school and a quantum house.|Copenhagen||||||
 Alea Quantum Technologies ApS|Quantum Hardware Suppliers|Quantum Cybersecurity Solutions; Quantum Communications Systems|communication and security|Quantum random number generators for encryption.|Frederiksberg|43152483|7.2;4.4;7.4||C2|C1|
 Alexandra Institute|Test, Demonstration and Fabrication Facilities||test and fabrication|Research and technology organisation; quantum computing from the software and user side: algorithms, tools, programming, HPC-QC hybrids and use cases.|Aarhus||5.3;5.6;4.7||C1|C1|
@@ -23,16 +26,16 @@ Copenhagen Microsystems|Enabling Technology Suppliers||enabling technology|3D na
 Copenhagen Quantum|Quantum Algorithm and Software Suppliers|Quantum Components and Accessories|software and algorithms|Quantum computing for financial services: portfolio optimisation, risk analytics and fraud detection.|Copenhagen|42000507|5.6;5.5|C1||C2|
 Cryptomathic A/S|Quantum Algorithm and Software Suppliers|Quantum Cybersecurity Solutions|communication and security|Cryptographic products; roadmaps for post-quantum cryptography in key management and cryptographic services.|Aarhus|17089005|7.4|||C2|
 Danish Business Authority|Government||government|Accelerates commercialisation of quantum technology through policy and regulation; hosts the ecosystem map.|Copenhagen||||||
-Danish Chamber of Commerce|Innovation and Business Support||support|Promotes quantum innovation in Denmark and the EU and collaboration between the quantum sector and other industries.|Copenhagen||||||
+Danish Chamber of Commerce|Innovation and Business Support||support|Promotes quantum innovation in Denmark and the EU and collaboration between the quantum sector and other industries.|Copenhagen||8.1;8.2|||A2|
 Danish Fundamental Metrology A/S (DFM, Danish metrology institute)|Test, Demonstration and Fabrication Facilities||test and fabrication|Part of Quantum Test Denmark: calibration of photonic equipment, fabrication and characterisation of quantum materials, standardisation.|Hørsholm|29217939|6.1;3.1;4.8||C1||
-Danish Industries|Innovation and Business Support||support|Networking, public affairs, regulation and business development in quantum for Danish companies.|Copenhagen||||||
+Danish Industries|Innovation and Business Support||support|Networking, public affairs, regulation and business development in quantum for Danish companies.|Copenhagen||8.1;8.2|||A2|
 Danish Ministry of Defence|Government||government|Defence Innovation Accelerator for the North Atlantic (DIANA) and co-financing of quantum companies.|Copenhagen||||||
 Danish Ministry of Defence Acquisition and Logistics Organisation|Government||government|Acquisition of future defence technologies; quantum activities under the NATO Science and Technology Organisation; a yearly national QT day.|Ballerup||||||
-Danish Quantum Community|Innovation and Business Support||support|Brings together universities, startups, corporations, end users and industry associations in the Danish quantum ecosystem.|Copenhagen||||||
-Danish Standards|Innovation and Business Support||support|Represents Denmark in European and international standardisation of quantum technologies.|Copenhagen||||||
-Deep Tech Lab – Quantum|Innovation and Business Support||support|BioInnovation Institute initiative to create and mature quantum and quantum-enabling startups and spin-outs.|Copenhagen||||||
-Defence Tech Denmark|Innovation and Business Support||support|Connects innovation with defence needs through knowledge, capital and networks.|Kongens Lyngby||||||
-DeiC (Danish e-Infrastructure Consortium)|Innovation and Business Support||support|Competence development, algorithm and software development and access to testing on quantum computers.|Kongens Lyngby||||||
+Danish Quantum Community|Innovation and Business Support||support|Brings together universities, startups, corporations, end users and industry associations in the Danish quantum ecosystem.|Copenhagen||8.1;8.4|||A2|
+Danish Standards|Innovation and Business Support||support|Represents Denmark in European and international standardisation of quantum technologies.|Copenhagen||8.3;8.1|||B1|
+Deep Tech Lab – Quantum|Innovation and Business Support||support|BioInnovation Institute initiative to create and mature quantum and quantum-enabling startups and spin-outs.|Copenhagen||8.2;8.1|||B1|
+Defence Tech Denmark|Innovation and Business Support||support|Connects innovation with defence needs through knowledge, capital and networks.|Kongens Lyngby||8.1;8.2|||A2|
+DeiC (Danish e-Infrastructure Consortium)|Innovation and Business Support||support|Competence development, algorithm and software development and access to testing on quantum computers.|Kongens Lyngby||8.4;5.6|||B1|
 Dencrypt|Quantum Algorithm and Software Suppliers|Quantum Cybersecurity Solutions|communication and security|End-to-end encrypted communication approved for restricted use; projects on post-quantum cryptography and QKD.|Brøndby|25698908|7.4;7.3||C1|C2|
 Department of Radiology, Herlev and Gentofte Hospital|End Users||end user|Projects using quantum computing to interpret medical imaging and other healthcare data.|Herlev||5.6;5.1|B1||B2|
 DIASENSE ApS|Quantum Hardware Suppliers|Quantum Components and Accessories; Quantum Sensors|sensing|Quantum diamond magnetic microscope with NV centres for neuroscience, semiconductor testing and materials science.|Copenhagen|44618931|6.2;4.2;6.7||C2|C1|
@@ -41,10 +44,10 @@ FabCue ApS|Test, Demonstration and Fabrication Facilities||test and fabrication|
 FORCE Technology|Test, Demonstration and Fabrication Facilities||test and fabrication|Compliance, sensors, IoT, electronics and photonic integration; building test facilities for the national quantum strategy.|Brøndby|55117314|4.8;3.3;3.4||C1||
 Frogne A/S|End Users||end user|Logistics and mobility technology; works with quantum-inspired mathematics.|Ishøj|73249414|5.6;5.5|B1||B2|
 GlobalConnect A/S|End Users||end user|Digital infrastructure provider investing in quantum-resilient technology.|Copenhagen|26759722|7.4;7.5||B1|B2|
-Heartcore Capital|Funding Agencies and Investors||investor|Early-stage venture firm with a quantum practice in computing, sensing and post-quantum security.|Copenhagen||||||
+Heartcore Capital|Funding Agencies and Investors||investor|Early-stage venture firm with a quantum practice in computing, sensing and post-quantum security.|Copenhagen||8.1;8.2|||B1|
 IBM Danmark ApS|Quantum Hardware Suppliers|Quantum Cybersecurity Solutions; Quantum Computers or Simulators|hardware and components|Quantum computing hardware and software for academia and industry.|Copenhagen|65305216|4.1;5.1;5.3|C1|C2||
 Innovation Centre Denmark|Government||government|Connects Danish and international quantum innovation stakeholders from seven innovation hotspots.|Copenhagen||||||
-Innovation Fund Denmark|Funding Agencies and Investors||investor|Funds projects in quantum technologies.|Aarhus||||||
+Innovation Fund Denmark|Funding Agencies and Investors||investor|Funds projects in quantum technologies.|Aarhus||8.1;8.3|||A2|
 Invest in Denmark|Government||government|Supports international quantum companies and investors in establishing in Denmark.|Copenhagen||||||
 KPMG|Quantum Algorithm and Software Suppliers|Quantum Communications Systems; Quantum Computers or Simulators; Quantum Cybersecurity Solutions|software and algorithms|Hosts KPMG's worldwide quantum hub: optimisation projects, quantum education, QKD and post-quantum security; co-founder of the Danish Quantum Community.|Copenhagen|25578198|5.6;7.4;8.4|||C1|
 Kvantify ApS|Quantum Algorithm and Software Suppliers|Quantum Computers or Simulators|software and algorithms|Algorithms and software for life sciences, combining classical and quantum algorithms.|Copenhagen|42958093|5.6;5.5|C1||C2|
@@ -58,38 +61,38 @@ Ministry of Industry, Business and Financial Affairs|Government||government|Resp
 Molecular Quantum Solutions|Quantum Algorithm and Software Suppliers|Quantum Computers or Simulators; Quantum Components and Accessories|software and algorithms|Software platform to calculate properties of materials and chemicals with super- and quantum computers.|Copenhagen|40982620|5.6;5.5|C1||C2|
 Monarch Quantum|Enabling Technology Suppliers||enabling technology|Photonics control hardware ("quantum light engines") integrating lasers and modulators for quantum computers, sensors and networks.|Frederiksberg|46315782|3.3;3.4;4.3||C2||
 Hamamatsu Photonics A/S (formerly NKT Photonics)|Enabling Technology Suppliers||enabling technology|Fibres and fibre lasers for cold-atom quantum computers, sensors and optical clocks; NKT Photonics is now the Danish lasers and fibres unit of Hamamatsu Photonics.|Birkerød|10048265|3.3;6.6;4.3||C2||
-Novo Holdings|Funding Agencies and Investors||investor|Invests in a quantum technology start-up ecosystem.|Hellerup||||||
-Novo Nordisk Foundation|Funding Agencies and Investors||investor|Grants for quantum research, centres of excellence, early innovation and teaching.|Hellerup||||||
+Novo Holdings|Funding Agencies and Investors||investor|Invests in a quantum technology start-up ecosystem.|Hellerup||8.1;8.2|||B1|
+Novo Nordisk Foundation|Funding Agencies and Investors||investor|Grants for quantum research, centres of excellence, early innovation and teaching.|Hellerup||8.1;8.3|||A2|
 Partisia|Quantum Algorithm and Software Suppliers|Quantum Computers or Simulators; Quantum Cybersecurity Solutions; Quantum Communications Systems|communication and security|Quantum-proof platform for secure computation.|Aarhus|44962675|7.4;7.6|||C2|
 Phantom Photonics ApS|Quantum Hardware Suppliers|Quantum Sensors|sensing|Quantum-enabled optical sensing and 3D imaging for subsea and maritime infrastructure.|Copenhagen|46057627|6.5;6.7||C2|C1|
 PsiQre ApS|Quantum Algorithm and Software Suppliers|Quantum Cybersecurity Solutions|communication and security|Post-quantum cybersecurity and cryptographic risk management for regulated industries and critical infrastructure.|Copenhagen|45956385|7.4|||C2|
-PSV Hafnium|Funding Agencies and Investors||investor|Deep-tech venture capital with quantum as a key priority.|Kongens Lyngby||||||
+PSV Hafnium|Funding Agencies and Investors||investor|Deep-tech venture capital with quantum as a key priority.|Kongens Lyngby||8.1;8.2|||B1|
 QFactory ApS|Quantum Hardware Suppliers|Quantum Sensors; Quantum Computers or Simulators|hardware and components|Phononic-crystal membranes with ultrahigh quality factors for sensors and quantum memories.|Copenhagen|44133482|4.5;6.1;3.3||C2||
 QM Technologies ApS (Quantum Machines)|Quantum Hardware Suppliers|Quantum Computers or Simulators; Quantum Components and Accessories|hardware and components|Control systems and pulse-generation electronics for quantum computers.|Ballerup|37786268|3.4;4.6;4.7||C2||
 Qpurpose ApS|Quantum Algorithm and Software Suppliers|Quantum Computers or Simulators|software and algorithms|Quantum-enhanced solutions with quantum computing platforms.|Odense|42991449|5.6;5.5|C1||C2|SDU Center for Quantum Mathematics
 Quantum Campus Aarhus|University Hubs||university hub|Interdisciplinary quantum research at Aarhus University: computing, sensors, materials and communication.|Aarhus||||||
-Quantum Denmark – Quantum House and National Test Center|Innovation and Business Support||support|Quantum House Denmark and the National Test Center: offices, events, labs, equipment and testbeds for startups and supply-chain firms.|Copenhagen||||||
+Quantum Denmark – Quantum House and National Test Center|Innovation and Business Support||support|Quantum House Denmark and the National Test Center: offices, events, labs, equipment and testbeds for startups and supply-chain firms.|Copenhagen||8.2;4.8||A2|B1|
 Quantum DTU – Center for Quantum Technologies|University Hubs||university hub|Joint gateway to DTU's quantum research in sensors, communication, computers and simulators.|Kongens Lyngby||||||
 Quantum Foundry Copenhagen|Quantum Hardware Suppliers|Quantum Computers or Simulators; Quantum Components and Accessories|hardware and components|Tools and processes for quantum chip manufacturing with ultra-high-vacuum approaches.|Copenhagen|43618563|4.8;3.2;4.1||C2||
 QuantumSong ApS|Quantum Hardware Suppliers|Quantum Sensors|sensing|Alkali vapour cells for optically pumped magnetometers for geophysics.|Copenhagen|45874001|6.2;4.3;6.7||C2|C1|
 QunaSys|Quantum Algorithm and Software Suppliers|Quantum Cybersecurity Solutions; Quantum Computers or Simulators; Quantum Communications Systems|software and algorithms|Quantum algorithms and software.|Copenhagen|44262762|5.5;5.3;5.6|C2|C1|C1|
-QuNorth|Innovation and Business Support||support|Building Magne, a level-2 quantum computer, for real-world applications.|Copenhagen|45705846|5.1;4.3||||
+QuNorth|Innovation and Business Support||support|Building Magne, a level-2 quantum computer, for real-world applications.|Copenhagen|45705846|5.6;4.3||B1|B2|
 SDU Quantum Hub|University Hubs||university hub|Interdisciplinary quantum research at SDU and links to industry and the public sector.|Odense||||||
 SiPhotonIC|Quantum Hardware Suppliers|Quantum Components and Accessories; Quantum Communications Systems; Quantum Sensors; Quantum Computers or Simulators|hardware and components|Foundry for prototyping photonic integrated circuits (SOI, SiN, TFLN) for quantum and photonic applications.|Virum|39934639|3.3;4.4;4.8||C2||
 Sparrow Quantum|Quantum Hardware Suppliers|Quantum Computers or Simulators; Quantum Communications Systems; Quantum Components and Accessories|hardware and components|Deterministic single-photon sources for photonic quantum computers, communication and the quantum internet.|Frederiksberg|36998717|4.4;2.2;7.5|C1|C2||
 TDC NET A/S|End Users||end user|Digital infrastructure; implementing quantum communication channels and exploring quantum computing for network optimisation.|Copenhagen|40075267|7.5;7.3;5.6||B1|B2|
 Technical University of Denmark (DTU Construct)|Test, Demonstration and Fabrication Facilities||test and fabrication|Nanoscale additive manufacturing for 3D integration of quantum and photonic devices.|Kongens Lyngby||3.2;4.8||C1||
 Terma A/S|Quantum Algorithm and Software Suppliers|Quantum Communications Systems; Quantum Sensors; Quantum Cybersecurity Solutions|communication and security|Defence technology; quantum-resistant cryptography and quantum communication, sensing and computing for defence.|Lystrup|41881828|7.4;6.7;7.5||B2|C1|
-The Danish ICT Industry Association (IT-Branchen)|Innovation and Business Support||support|ICT industry association working to grow Denmark's quantum technology ecosystem.|Copenhagen||||||
-The Danish National Research Foundation|Funding Agencies and Investors||investor|Has funded ten centres of excellence in quantum physics and technology.|Copenhagen||||||
+The Danish ICT Industry Association (IT-Branchen)|Innovation and Business Support||support|ICT industry association working to grow Denmark's quantum technology ecosystem.|Copenhagen||8.1;8.2|||A2|
+The Danish National Research Foundation|Funding Agencies and Investors||investor|Has funded ten centres of excellence in quantum physics and technology.|Copenhagen||8.1;8.3|||A2|
 Topsil GlobalWafers|Enabling Technology Suppliers||enabling technology|Silicon wafers used for quantum electronic and sensor devices.|Frederikssund|37842222|3.2||C1||
 Type One Systems|Quantum Hardware Suppliers|Quantum Sensors|sensing|Scientific instrument for studying quantum systems in quantum physics, biology and materials science.|Kongens Lyngby|45044491|6.1;3.1||C2||
 UCPH Quantum Hub|University Hubs||university hub|Interdisciplinary quantum science across the University of Copenhagen.|Copenhagen||||||
 Universal Quantum|Quantum Hardware Suppliers|Quantum Computers or Simulators|hardware and components|Building quantum computers.|Copenhagen|45463761|4.3;5.1|C1|C2||
-Villum Foundation|Funding Agencies and Investors||investor|Funds quantum technology research at Danish universities.|Søborg||||||
+Villum Foundation|Funding Agencies and Investors||investor|Funds quantum technology research at Danish universities.|Søborg||8.1;8.3|||A2|
 Ørsted|End Users||end user|Energy company taking part in quantum initiatives with academia and startups.|Gentofte|36213728|5.6|||B2|
 AAU Quantum Hub|University Hubs||university hub|Quantum computing, algorithms and software, control, communication and modelling of noisy quantum systems at Aalborg University.|Aalborg||||||
-BioInnovation Institute (BII)|Innovation and Business Support||support|Foundation-funded life-science and deep-tech incubator in Copenhagen; runs the Deep Tech Lab – Quantum accelerator for quantum startups.|Copenhagen||||||
+BioInnovation Institute (BII)|Innovation and Business Support||support|Foundation-funded life-science and deep-tech incubator in Copenhagen; runs the Deep Tech Lab – Quantum accelerator for quantum startups.|Copenhagen||8.2;8.1|||B1|
 IonQ Quantum Denmark|Quantum Hardware Suppliers|Quantum Computers or Simulators; Quantum Communications Systems|hardware and components|Danish branch (2026) of IonQ: trapped-ion quantum computers and quantum networking; partners with NKT Photonics on lasers.|Copenhagen|46610679|4.3;5.1;7.5|C1|C2||
 LQUOM Denmark ApS|Quantum Hardware Suppliers|Quantum Communications Systems|communication and security|Danish subsidiary (2026) of the Japanese company LQUOM: quantum repeaters and quantum memories for long-distance quantum communication.|Copenhagen|46640942|7.5;4.5||C2||
 Microsoft Quantum Lab Lyngby|Quantum Hardware Suppliers|Quantum Computers or Simulators|hardware and components|Microsoft's largest quantum site: materials, fabrication and devices for topological qubits; partner with Atom Computing on the Magne quantum computer for QuNorth.|Kongens Lyngby||4.5;3.2;4.1||C2||
