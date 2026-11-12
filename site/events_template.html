@@ -59,6 +59,12 @@ input[type=search]{flex:1 1 220px;min-width:0}
 .tag.k{background:var(--k);color:#fff}
 .ics{font:500 12.5px var(--body);color:var(--accent);background:none;border:1px solid var(--line);border-radius:8px;padding:5px 9px;cursor:pointer;white-space:nowrap}
 .ics:hover{background:var(--chip)}
+.news{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:14px 16px;display:grid;gap:10px}
+.news h2{font-size:17px}
+.news ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:8px 22px}
+.news li{display:grid;grid-template-columns:86px minmax(0,1fr);gap:8px;font-size:14px;line-height:1.4}
+.news time{font:500 12px/1.6 var(--mono);color:var(--muted)}
+.news a.more{font-size:13.5px;justify-self:start}
 .empty{border:1px dashed var(--line);border-radius:12px;padding:22px;color:var(--muted);text-align:center}
 @media (max-width:640px){.ev{grid-template-columns:58px minmax(0,1fr)}.ev .ics{grid-column:2;justify-self:start}.dt b{font-size:22px}}
 </style>
@@ -68,7 +74,7 @@ input[type=search]{flex:1 1 220px;min-width:0}
   <!--SITENAV-->
   <header style="display:grid;gap:10px">
     <h1>Quantum events in Denmark</h1>
-    <p class="lede">Conferences, workshops, summer schools, seminars, public talks and industry meetings on quantum science and technology in Denmark – from the universities, the research groups and the Danish quantum ecosystem.</p>
+    <p class="lede">Conferences, workshops, summer schools, seminars, public talks and industry meetings on quantum science and technology in Denmark – from the universities, the research groups and the Danish quantum ecosystem – and the latest quantum news from DeiC, the Danish e-Infrastructure Consortium, which gives Danish researchers access to quantum computers.</p>
     <details class="howto"><summary>How to read this page</summary><div class="hb">
       <p><b>Upcoming</b> shows events from today on, the nearest first; <b>Past</b> shows earlier events, the newest first. Filter by type, audience or city, or search in titles, organisers and places.</p>
       <p>Each event links to its own page, where the organiser gives the programme and registration. <b>Add to calendar</b> downloads a calendar file (.ics) you can open in Outlook, Google Calendar or Apple Calendar.</p>
@@ -87,6 +93,12 @@ input[type=search]{flex:1 1 220px;min-width:0}
   </section>
 
   <section id="list" style="display:grid;gap:22px" aria-live="polite"></section>
+
+  <section class="news" id="news" aria-labelledby="newsh" hidden>
+    <h2 id="newsh">Latest quantum news from DeiC</h2>
+    <ul id="newsl"></ul>
+    <a class="more" id="newsm" href="https://www.deic.dk/da/news/all?dept=154" rel="noopener">All quantum news from DeiC (Danish e-Infrastructure Consortium)</a>
+  </section>
 
   <footer>
     <p class="note" id="src"></p>
@@ -160,8 +172,11 @@ input[type=search]{flex:1 1 220px;min-width:0}
     xs.forEach(e=>{const k=e.start.slice(0,7);if(k!==cur){cur=k;const[y,m]=k.split('-');box=el('div',{class:'month'},el('h2',{},MON[+m-1]+' '+y));L.append(box)}box.append(card(e))});
   }
   render();
+  if(D.news&&D.news.items.length){const ul=document.getElementById('newsl');
+    D.news.items.forEach(x=>ul.append(el('li',{},el('time',{datetime:x.date},fmt(x.date)),el('a',{href:x.url,rel:'noopener'},x.title))));
+    document.getElementById('news').hidden=false;}
   const n=D.counts;
-  document.getElementById('src').textContent='Sources: '+n.curated+' events collected by Danish Quantum Academy from the organisers\' public pages (checked '+D.checked+'), '+n.groups+' from the research groups\' event pages and '+n.calendar+' public events from university calendars (both updated every Monday).';
+  document.getElementById('src').textContent='Sources: '+n.curated+' events collected by Danish Quantum Academy from the organisers\' public pages (checked '+D.checked+'), '+n.groups+' from the research groups\' event pages and '+n.calendar+' public events from university calendars (both updated every Monday). DeiC news: deic.dk, read '+(D.news?D.news.read:'')+'.';
 })();
 </script>
 </body>

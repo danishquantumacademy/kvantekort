@@ -32,10 +32,11 @@ jobs:
           python scripts/fetch_group_feeds.py || echo "feed fetch failed; keeping last data"
           python scripts/fetch_outreach.py || echo "outreach fetch failed; keeping last data"
           python scripts/fetch_jobs.py || echo "job fetch failed; keeping last data"
-          if ! git diff --quiet -- data/groups/feeds.json data/outreach data/industry/jobs.json 2>/dev/null || [ -n "$(git ls-files --others --exclude-standard data/groups/feeds.json data/outreach data/industry/jobs.json)" ]; then
+          python scripts/fetch_deic.py || echo "DeiC news fetch failed; keeping last data"
+          if ! git diff --quiet -- data/groups/feeds.json data/outreach data/industry/jobs.json data/events/deic_news.json 2>/dev/null || [ -n "$(git ls-files --others --exclude-standard data/groups/feeds.json data/outreach data/industry/jobs.json data/events/deic_news.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/groups/feeds.json data/outreach data/industry/jobs.json
+            git add data/groups/feeds.json data/outreach data/industry/jobs.json data/events/deic_news.json
             git commit -m "Weekly update of research group news, events and positions [skip ci]"
             git push
           fi
