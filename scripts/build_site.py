@@ -779,10 +779,7 @@ for x in [o for o in outreach if o["kind"] == "O" and o["audience"] == "public e
     events.append({"start": d, "end": "", "time": "", "title": x["title"], "kind": "public", "org": x["provider"], "place": x["provider"], "city": city,
                    "aud": ["public"], "url": x["url"], "src": "calendar"})
     n_cal += 1
-dn = ROOT / "data/events/deic_news.json"
-deic = json.loads(dn.read_text(encoding="utf-8")) if dn.exists() else {"items": []}
-eout = {"events": events, "counts": {"curated": n_cur, "groups": n_grp, "calendar": n_cal}, "checked": ev_checked,
-        "news": {"items": deic["items"][:6], "source": deic.get("source", ""), "read": deic.get("read", "")}}
+eout = {"events": events, "counts": {"curated": n_cur, "groups": n_grp, "calendar": n_cal}, "checked": ev_checked}
 et = (ROOT / "site/events_template.html").read_text(encoding="utf-8")
 ebody = chrome(et.replace("/*DATA*/", json.dumps(eout, ensure_ascii=False).replace("</", "<\\/")), "events")
 (ROOT / "site/events.html").write_text(page.split("<body>\n")[0] + "<body>\n" + ebody + "\n</body>\n</html>\n", encoding="utf-8")

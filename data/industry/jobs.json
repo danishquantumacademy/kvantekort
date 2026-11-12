@@ -41,6 +41,12 @@
    "read": "2026-11-12",
    "ads": 0,
    "kept": 0
+  },
+  "https://www.deic.dk/da/news/all?dept=154": {
+   "status": "read by hand",
+   "read": "2026-11-12",
+   "ads": 1,
+   "kept": 1
   }
  },
  "items": [
@@ -603,6 +609,27 @@
    },
    "technical": true,
    "query": "quantum"
+  },
+  {
+   "first": "2026-02-04",
+   "title": "Postdoc scholarship on quantum algorithms or quantum software (Danish Quantum Algorithm Academy)",
+   "employer": "DeiC (Danish e-Infrastructure Consortium), at a Danish university",
+   "place": "Danish universities",
+   "url": "https://www.deic.dk/sites/default/files/2026-02/2026_Postdoc_Quantum_Algorithms_or_Quantum%20Software_0.pdf",
+   "last": "2026-03-24",
+   "academic": true,
+   "subs": [
+    "5.3",
+    "5.5",
+    "3.5"
+   ],
+   "level": "C2",
+   "prof": {
+    "II": "C2",
+    "I": "C1"
+   },
+   "technical": true,
+   "query": "DeiC"
   }
  ]
 }

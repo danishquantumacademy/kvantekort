@@ -10,6 +10,7 @@
 #   venture investors B1 (they assess technology and markets), research funders and business associations A2, accelerators,
 #   standardisation and quantum-computing access B1; QuNorth, which buys and runs a quantum computer for users, as an end user (B2 in III).
 #   Government bodies are listed but not placed on the triangle.
+# DeiC entry updated 12 November 2026 from DeiC's quantum news and service pages (deic.dk).
 # Added 12 November 2026 from a colleague's list of quantum companies in Denmark (not on the Ecosystem Map's list view):
 #   each checked on public pages (company or university news, job ads) and in CVR; map category chosen by Danish Quantum Academy.
 #   Suppliers and service partners that sell or service enabling equipment without developing it: B2 in the technology area.
@@ -35,7 +36,7 @@ Danish Quantum Community|Innovation and Business Support||support|Brings togethe
 Danish Standards|Innovation and Business Support||support|Represents Denmark in European and international standardisation of quantum technologies.|Copenhagen||8.3;8.1|||B1|
 Deep Tech Lab – Quantum|Innovation and Business Support||support|BioInnovation Institute initiative to create and mature quantum and quantum-enabling startups and spin-outs.|Copenhagen||8.2;8.1|||B1|
 Defence Tech Denmark|Innovation and Business Support||support|Connects innovation with defence needs through knowledge, capital and networks.|Kongens Lyngby||8.1;8.2|||A2|
-DeiC (Danish e-Infrastructure Consortium)|Innovation and Business Support||support|Competence development, algorithm and software development and access to testing on quantum computers.|Kongens Lyngby||8.4;5.6|||B1|
+DeiC (Danish e-Infrastructure Consortium)|Innovation and Business Support||support|Gives Danish researchers access to quantum computers (Q-Access: sandbox and specialised access, calls twice a year, roadshows at the universities) and quantum compute consulting; funds quantum education through Q-Competence and postdocs in quantum algorithms through the Danish Quantum Algorithm Academy; Danish partner in the EuroQCI quantum-secure network.|Kongens Lyngby||8.4;5.6;5.5;7.5|||B1|
 Dencrypt|Quantum Algorithm and Software Suppliers|Quantum Cybersecurity Solutions|communication and security|End-to-end encrypted communication approved for restricted use; projects on post-quantum cryptography and QKD.|Brøndby|25698908|7.4;7.3||C1|C2|
 Department of Radiology, Herlev and Gentofte Hospital|End Users||end user|Projects using quantum computing to interpret medical imaging and other healthcare data.|Herlev||5.6;5.1|B1||B2|
 DIASENSE ApS|Quantum Hardware Suppliers|Quantum Components and Accessories; Quantum Sensors|sensing|Quantum diamond magnetic microscope with NV centres for neuroscience, semiconductor testing and materials science.|Copenhagen|44618931|6.2;4.2;6.7||C2|C1|

@@ -5,7 +5,7 @@
 #   audience: ;-separated from public, students, teachers, researchers, industry
 # Events from the research groups' own event pages (data/groups/feeds.json) and public quantum events from university
 # calendars (data/outreach/calendar.json) are added automatically by scripts/build_site.py.
-# Sources include the DeiC event list (https://www.deic.dk/da/events?tid=All: the quantum events) and DeiC quantum news.
+# Sources include the DeiC event list (https://www.deic.dk/da/events?tid=All, the quantum events) and DeiC's quantum news (https://www.deic.dk/da/news/all?dept=154).
 # Checked 12 November 2026.
 2026-11-13||12:00–13:00|Quantum Research Seminar: Chemistry in a lattice for spin-photon quantum computing (Arnulf Snedker-Nielsen and Noah Kaufmann, NQCP)|seminar|UCPH Quantum Hub|University of Copenhagen|Copenhagen|researchers;students|https://quantumhub.ku.dk/events/quantum-research-seminar/quantum-research-seminar-arnulf-snedker-nielsen--noah-kaufmann/
 2026-11-16||14:00–17:00|PhD defence: Joël Beimler|defence|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|researchers;students|https://www.sdu.dk/en/updates/ddf1b60b-0c40-4082-ae6d-6243f761ec9f
@@ -38,3 +38,4 @@
 2026-11-23||13:30–16:00|DeiC Q-Access Roadshow 2026 at the University of Copenhagen: free access to quantum computers for researchers and students|workshop|DeiC|Niels Bohr Building, Margrethe Bohr Auditorium|Copenhagen|researchers;students|https://www.deic.dk/en/events/2026-11-23/q-access-roadshow-2026-university-copenhagen
 2026-12-09|||DeiC Q-Access Roadshow 2026 at Aalborg University: free access to quantum computers for researchers and students|workshop|DeiC|INNOVATE building, room A.301, Thomas Manns Vej 25|Aalborg|researchers;students|https://www.deic.dk/en/events/2026-12-09/q-access-roadshow-2026-aalborg-university
 2026-12-10|||DeiC Q-Access Roadshow 2026 at the University of Southern Denmark: free access to quantum computers for researchers and students|workshop|DeiC|SDU, Gennemsigten (Ø16-312-1)|Odense|researchers;students|https://www.deic.dk/en/events/2026-12-10/q-access-roadshow-2026-university-southern-denmark
+2026-10-27|2026-10-28||DeiC Conference 2026, with a quantum track on security, international cooperation and quantum algorithms|conference|DeiC|Comwell Kolding|Kolding|researchers;industry|https://www.lovguiden.dk/det-offentlige/deic-danish-e-infrastructure-consortium/2026-09-01-deic-konference-2026-programmet-for-cybersikkerhed-og-kvanteteknologi
