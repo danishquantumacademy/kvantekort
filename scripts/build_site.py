@@ -131,7 +131,7 @@ def chrome(html, key):
            '<button type="button" class="theme" id="themeBtn" aria-label="Switch between light and dark background"></button></span>'
            f'</div><div class="nb">{links}</div></nav>' + THEME_JS)
     foot = ('<p class="site-foot"><span>Published by <a href="https://danishquantumacademy.dk">Danish Quantum Academy</a> for the European Quantum Academy (Northern European Regional Quantum Academy).</span>'
-            '<a href="about.html">About the data and methods</a><a href="https://github.com/danishquantumacademy/kvantekort">Data and code on GitHub</a></p>')
+            '<a href="about.html">About the data and methods</a></p>')
     assert "<!--SITENAV-->" in html and "<!--SITEFOOT-->" in html, key
     return html.replace("<!--SITENAV-->", nav).replace("<!--SITEFOOT-->", foot).replace("</style>", SHARED_CSS + "</style>", 1)
 

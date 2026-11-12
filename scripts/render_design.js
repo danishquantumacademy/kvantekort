@@ -114,7 +114,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #7b9bff;outline-offset:3p
   let home = simple;
   home = must(home, 'href="Portal.dc.html"', 'href="portal.html"');
   home = must(home, '<a href="#about">About the data</a>', '<a href="about.html">About the data</a>');
-  home = must(home, '<a href="#about">Contact</a>', '<a href="https://danishquantumacademy.dk">Danish Quantum Academy</a><a href="https://github.com/danishquantumacademy/kvantekort">Data and code on GitHub</a>');
+  home = must(home, '<a href="#about">Contact</a>', '<a href="https://danishquantumacademy.dk">Danish Quantum Academy</a>');
   home = must(home, '<a href="#about">Request access from Danish Quantum Academy</a>', '<a href="https://danishquantumacademy.dk">Request access from Danish Quantum Academy</a>');
   const homeJs = `<script>
 (function(){
