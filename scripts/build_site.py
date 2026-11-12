@@ -83,7 +83,8 @@ out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
 NAV = [("Education", [("index", "proficiency.html", "Proficiency"), ("planner", "planner.html", "Study planner")]),
        ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")]),
-       ("Industry", [("industry", "industry.html", "Industry")])]
+       ("Industry", [("industry", "industry.html", "Industry")]),
+       ("Community", [("events", "events.html", "Events")])]
 SHARED_CSS = """
 /* shared site chrome: navigation, how-to-read boxes, footer */
 nav.site{display:grid;gap:8px;padding-bottom:12px;border-bottom:1px solid var(--line);font:500 13.5px var(--body)}
@@ -726,10 +727,68 @@ page = page.split("<body>\n")[0] + "<body>\n" + body + "\n</body>\n</html>\n"
 (ROOT / "site/proficiency.html").write_text(page, encoding="utf-8")
 (ROOT / "site/artifact.html").write_text(body, encoding="utf-8")
 
+# Events (events.html): a list collected from public pages (data/events/events.txt), the research groups' event pages
+# (data/groups/feeds.json, weekly) and public quantum events in university calendars (data/outreach/calendar.json, weekly).
+CITY = {"DTU": "Lyngby", "KU": "Copenhagen", "AU": "Aarhus", "SDU": "Odense", "AAU": "Aalborg"}
+UNI = {"DTU": "DTU", "KU": "University of Copenhagen", "AU": "Aarhus University", "SDU": "University of Southern Denmark", "AAU": "Aalborg University"}
+def ev_kind(t):
+    t = t.lower()
+    for k, rx in (("defence", r"defen[cs]e"), ("course", r"\bkursus\b|\bcourse\b|efteruddannelse"), ("school", r"summer school|masterclass|\bschool\b"),
+                  ("workshop", r"workshop|hack"), ("conference", r"conference|symposium|annual meeting"), ("seminar", r"seminar|colloquium|lunch|qseminar|lecture|talk|round table")):
+        if re.search(rx, t): return k
+    return "seminar"
+AUD_OF = {"defence": ["researchers", "students"], "course": ["teachers"], "school": ["students", "researchers"], "workshop": ["researchers", "students"],
+          "conference": ["researchers"], "seminar": ["researchers", "students"], "public": ["public"]}
+events, seen_ev = [], set()
+def _evkey(d, t): return d[:10] + re.sub(r"\W", "", t.lower())[:40]
+ev_checked = ""
+for ln in (ROOT / "data/events/events.txt").read_text(encoding="utf-8").splitlines():
+    if ln.startswith("# Checked"): ev_checked = ln[len("# Checked"):].strip().rstrip(".")
+    if ln.startswith("#") or not ln.strip(): continue
+    start, end, time_, title, kind, org, place, city, aud, url = ln.split("|")
+    events.append({"start": start, "end": end, "time": time_, "title": title, "kind": kind, "org": org, "place": place, "city": city,
+                   "aud": [a for a in aud.split(";") if a], "url": url, "src": "curated"})
+    seen_ev.add(_evkey(start, title))
+n_cur = len(events)
+gmeta = {g["key"]: g for g in json.loads((ROOT / "data/groups/groups.json").read_text(encoding="utf-8"))["groups"]}
+feeds_all = json.loads((ROOT / "data/groups/feeds.json").read_text(encoding="utf-8")).get("groups", {}) if (ROOT / "data/groups/feeds.json").exists() else {}
+n_grp = 0
+for gk, fd in feeds_all.items():
+    gm = gmeta.get(gk)
+    if not gm: continue
+    for e in fd.get("events", []):
+        d = e.get("date", "")
+        if not d or d < "2025-01-01": continue
+        k = ev_kind(e["title"])
+        if k == "defence" and re.search(r"master", e["title"], re.I): continue
+        key = _evkey(d, e["title"])
+        pre = lambda t: {w[:6] for w in re.findall(r"[^\W\d_]{5,}", t.lower())}
+        if key in seen_ev or any(c["start"] == d and pre(e["title"]) & pre(c["title"]) for c in events): continue
+        seen_ev.add(key)
+        events.append({"start": d, "end": "", "time": "", "title": e["title"].strip(" ,"), "kind": k, "org": f'{gm["short"]}, {UNI[gm["institution"]]}',
+                       "place": UNI[gm["institution"]], "city": CITY[gm["institution"]], "aud": AUD_OF[k], "url": e["url"], "src": "group"})
+        n_grp += 1
+n_cal = 0
+for x in [o for o in outreach if o["kind"] == "O" and o["audience"] == "public event (calendar)"]:
+    d = x["years"]
+    if not re.match(r"\d{4}-\d\d-\d\d", d): continue
+    key = _evkey(d, x["title"])
+    if key in seen_ev: continue
+    seen_ev.add(key)
+    city = "Aarhus" if "AU" in x["provider"] or "Aarhus" in x["provider"] else "Copenhagen"
+    events.append({"start": d, "end": "", "time": "", "title": x["title"], "kind": "public", "org": x["provider"], "place": x["provider"], "city": city,
+                   "aud": ["public"], "url": x["url"], "src": "calendar"})
+    n_cal += 1
+eout = {"events": events, "counts": {"curated": n_cur, "groups": n_grp, "calendar": n_cal}, "checked": ev_checked}
+et = (ROOT / "site/events_template.html").read_text(encoding="utf-8")
+ebody = chrome(et.replace("/*DATA*/", json.dumps(eout, ensure_ascii=False).replace("</", "<\\/")), "events")
+(ROOT / "site/events.html").write_text(page.split("<body>\n")[0] + "<body>\n" + ebody + "\n</body>\n</html>\n", encoding="utf-8")
+print(f"events: {len(events)} ({n_cur} curated, {n_grp} from group pages, {n_cal} from calendars)")
+
 # Front page (index.html) and the page for logged-in users (portal.html): made from the design on the Claude design canvas
 # (design/*.dc.html -> scripts/render_design.js -> site/home_template.html, site/portal_template.html); the numbers come from the data.
 NUMS = {"COURSES": len(out["courses"]), "GROUPS": len(groups_out), "MEMBERS": sum(len(g["members"]) for g in groups_out),
-        "POSITIONS": len(proj_list), "ORGS": len(orgs), "ORGS_TRI": sum(1 for o in orgs if o["prof"])}
+        "POSITIONS": len(proj_list), "ORGS": len(orgs), "ORGS_TRI": sum(1 for o in orgs if o["prof"]), "EVENTS": len(events)}
 for src, dst in (("home_template.html", "index.html"), ("portal_template.html", "portal.html")):
     h = (ROOT / "site" / src).read_text(encoding="utf-8")
     for k, v in NUMS.items(): h = h.replace(f"%%{k}%%", str(v))

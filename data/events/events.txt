@@ -1,0 +1,29 @@
+# Quantum events in Denmark (and Danish events abroad), collected by Danish Quantum Academy from public pages.
+# One event per line:  start|end|time|title|kind|organiser|place|city|audience|url
+#   start, end: YYYY-MM-DD, or YYYY-MM when the exact dates are not announced yet; end may be empty (one-day event)
+#   kind: conference, workshop, school, seminar, public, industry, defence, course
+#   audience: ;-separated from public, students, teachers, researchers, industry
+# Events from the research groups' own event pages (data/groups/feeds.json) and public quantum events from university
+# calendars (data/outreach/calendar.json) are added automatically by scripts/build_site.py.
+# Checked 12 November 2026.
+2026-11-13||12:00–13:00|Quantum Research Seminar: Chemistry in a lattice for spin-photon quantum computing (Arnulf Snedker-Nielsen and Noah Kaufmann, NQCP)|seminar|UCPH Quantum Hub|University of Copenhagen|Copenhagen|researchers;students|https://quantumhub.ku.dk/events/quantum-research-seminar/quantum-research-seminar-arnulf-snedker-nielsen--noah-kaufmann/
+2026-11-16||14:00–17:00|PhD defence: Joël Beimler|defence|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|researchers;students|https://www.sdu.dk/en/updates/ddf1b60b-0c40-4082-ae6d-6243f761ec9f
+2026-11-23||15:00–16:00|QM Research Seminar: Sebastian Pögel|seminar|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|researchers|https://www.sdu.dk/en/updates/5b81275b-594f-4e41-8082-ebf9cf99707c
+2026-11-26||15:00–16:00|QC Research Seminar: Engineering logical gates with irrep surface codes (Apoorv Tiwari)|seminar|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|researchers;students|https://www.sdu.dk/en/updates/43208735-53bc-4a17-b100-4cd25ba187fa
+2026-11-30||15:00–16:00|QM Research Seminar: Tropical QFT and the sine-Gordon model (Jury Ivan Radkovski)|seminar|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|researchers|https://www.sdu.dk/en/updates/bf3d2191-3f20-482b-9869-1fba8092ff98
+2026-12-07||15:00–16:00|QM Research Seminar: W-algebras and W∞-algebras (Arim Song)|seminar|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|researchers|https://www.sdu.dk/en/updates/77c72324-fb3d-444f-b063-219a70ab8d05
+2026-12-08||09:00–18:00|QCA Connect 2026: the annual meeting of the Aarhus quantum community, with talks, posters and industry perspectives|conference|Quantum Campus Aarhus|Aarhus University, Auditorium 1593-012|Aarhus|researchers;students;industry|https://dqc.dk/event/qca/
+2026-12-09||09:00–16:00|Microsoft QDK: Tools and Applications – free quantum development workshop for Nordic researchers and developers|workshop|QuNorth and Microsoft|NH Collection Copenhagen|Copenhagen|researchers;industry|https://qunorth.com/news/qunorth-and-microsoft-to-host-second-quantum-development-workshop-in-copenhagen
+2027-06-06|2027-06-10||Optica Quantum 2.0 Conference and Exhibition|conference|Optica|Bella Center Copenhagen|Copenhagen|researchers;industry;students|https://www.optica.org/events/topical_meetings/quantum/
+2027-06||dates to be announced|IQT Nordics 2027|conference|Inside Quantum Technology|Copenhagen|Copenhagen|industry;researchers|https://www.insidequantumtechnology.com/news-archive/announcing-the-return-of-iqt-nordics-in-copenhagen-2027/
+2027-07-26|2027-07-30||Sixth International Conference on the History of Quantum Physics (HQ-6)|conference|Niels Bohr Archive|Niels Bohr Institute, Blegdamsvej 17|Copenhagen|researchers;public|https://indico.nbi.ku.dk/event/2277/
+2027-08-25|2027-08-27||Quantum Education Summit 2027|conference|NQCP, University of Copenhagen|Copenhagen|Copenhagen|teachers;researchers;students|https://nqcp.ku.dk/quantum-education-summit-2027
+2026-01-26|2026-01-30||QST-Hackathon 2026|workshop|QPIT, DTU Physics|DTU|Lyngby|students;researchers|https://physics.dtu.dk/research/sections/qpit/events/qst-hack-2026
+2026-04-16||14:00–17:30|Quantum Symposium: Quantum Leap in Health|public|Faculty of Health and Medical Sciences, University of Copenhagen|Panum, Mærsk Tårnet, Blegdamsvej 3B|Copenhagen|researchers;public|https://quantumhub.ku.dk/events/quantum-symposium-quantum-leap-in-health
+2026-04-16|2026-04-17||Frontiers and Challenges in Quantum Biology|conference|Niels Bohr Institute|Niels Bohr Institute|Copenhagen|researchers|https://indico.nbi.ku.dk/event/2190/
+2026-07-01|2026-07-03||IEEE International Conference on Quantum Control, Computing and Learning (qCCL2026)|conference|IEEE|Aalborg|Aalborg|researchers|https://www.ieeeqccl2026.com
+2026-08-03|2026-08-07|09:00–15:00|Masterclass: Model Checking Quantum Systems (Mingsheng Ying)|school|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|students;researchers|https://www.sdu.dk/en/updates/90f75336-fb43-4a04-ac0d-5e47c52c0db6
+2026-08-10|2026-08-21|09:00–16:00|Niels Bohr Quantum Summer School|school|Center for Quantum Mathematics, SDU|D-IAS Auditorium, SDU|Odense|students;researchers|https://www.sdu.dk/en/updates/f7a14983-f1f7-413f-9983-a3bf75f15b93
+2026-08-21||10:00–17:00|Quantum Algorithms and Industrial Applications|industry|Center for Quantum Mathematics, SDU|Campusvej 55, Odense M|Odense|industry;researchers|https://www.sdu.dk/en/updates/c0df153c-4f9b-4fc5-8e5f-2d7309097359
+2026-09-01||14:00–17:00|Navigating Quantum in a Regulated World – Why Classification Matters|industry|Danish Standards and Danish Quantum Community|Danish Standards, Göteborg Plads 1, Nordhavn|Copenhagen|industry|https://www.ds.dk/da/kurser-og-arrangementer/arrangementer/navigating-quantum-in-a-regulated-world
+2026-09-09|2026-09-10||Q2B Copenhagen 2026: The Roadmap to Quantum Value|conference|QC Ware, with a Danish consortium|Øksnehallen, Halmtorvet 11|Copenhagen|industry;researchers|https://q2b.qcware.com/conference/2026-copenhagen

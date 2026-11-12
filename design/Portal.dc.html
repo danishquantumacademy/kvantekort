@@ -118,9 +118,9 @@ class Component extends DCLogic {
     const role = this.state.role;
     const btn = (on) => 'min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; font: 600 14px Plus Jakarta Sans, sans-serif; cursor: pointer; ' + (on ? 'background: #141a2b; color: #ffffff' : 'background: transparent; color: #141a2b');
     const R = {
-      student: { label: 'Student', heading: 'Plan your quantum studies', intro: 'Compare quantum courses across the five universities, see the CFQT level each one reaches, and build a study path towards a qualification profile.', tri: 'Select a university to see its course triangle, or switch to PhD and postdoc projects.', order: ['courses', 'planner', 'phd', 'groups', 'educators', 'industry'] },
-      researcher: { label: 'Researcher / educator', heading: 'Research and teaching in quantum', intro: 'See the research groups and their members\' proficiency, the evidence behind each level, PhD projects, and who teaches which course.', tri: 'Show the research of the educators and groups, area by area.', order: ['groups', 'educators', 'phd', 'courses', 'industry', 'planner'] },
-      industry: { label: 'Industry', heading: 'Skills and partners for quantum', intro: 'See what Danish quantum companies work on, which competences job ads ask for, and which courses and research groups train them.', tri: 'Show companies and job-ad demand on the triangle, next to courses and research.', order: ['industry', 'jobs', 'groups', 'courses', 'phd', 'educators'] },
+      student: { label: 'Student', heading: 'Plan your quantum studies', intro: 'Compare quantum courses across the five universities, see the CFQT level each one reaches, and build a study path towards a qualification profile.', tri: 'Select a university to see its course triangle, or switch to PhD and postdoc projects.', order: ['courses', 'planner', 'phd', 'groups', 'educators', 'industry', 'events'] },
+      researcher: { label: 'Researcher / educator', heading: 'Research and teaching in quantum', intro: 'See the research groups and their members\' proficiency, the evidence behind each level, PhD projects, and who teaches which course.', tri: 'Show the research of the educators and groups, area by area.', order: ['groups', 'educators', 'phd', 'courses', 'industry', 'planner', 'events'] },
+      industry: { label: 'Industry', heading: 'Skills and partners for quantum', intro: 'See what Danish quantum companies work on, which competences job ads ask for, and which courses and research groups train them.', tri: 'Show companies and job-ad demand on the triangle, next to courses and research.', order: ['industry', 'jobs', 'groups', 'courses', 'phd', 'educators', 'events'] },
     };
     const T = {
       courses: { title: 'Courses and triangles', text: '288 quantum courses at DTU, KU, AU, SDU and AAU, each placed on the CFQT map and triangle.', badge: 'Proficiency' },
@@ -129,6 +129,7 @@ class Component extends DCLogic {
       groups: { title: 'Research groups', text: '23 groups and 662 members, with proficiency triangles and member cards.', badge: 'Groups' },
       educators: { title: 'Educators', text: 'Who teaches which course, and how their research matches the course.', badge: 'Educators' },
       industry: { title: 'Companies and organisations', text: '87 organisations, 73 of them on the triangle, with role, city and CFQT topics.', badge: 'Industry' },
+      events: { title: 'Events', text: 'Conferences, workshops, schools, seminars and public talks on quantum in Denmark, with calendar files.', badge: 'Community' },
       jobs: { title: 'Job-ad demand', text: 'Quantum job ads collected every week, with the level each role asks for.', badge: 'Industry' },
     };
     const r = R[role];

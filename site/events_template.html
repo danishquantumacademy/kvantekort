@@ -1,0 +1,168 @@
+<title>Quantum Events in Denmark</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Events page: quantum conferences, workshops, schools, seminars, public talks and industry events in Denmark,
+   upcoming and past, with filters and a calendar file per event. */
+:root{
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5;
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --good:#0f6b3f;
+  --display:"Syne","Segoe UI",system-ui,sans-serif;
+  --body:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033;
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033;
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1160px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 22px/1.15 var(--display);margin:0;letter-spacing:-.01em}
+.lede{max-width:76ch;color:var(--muted);margin:0}
+a{color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.note{font-size:13px;color:var(--muted);max-width:86ch;margin:0}
+.bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.seg{display:inline-flex;padding:3px;border-radius:999px;background:var(--chip);gap:2px}
+.seg button{font:600 13.5px var(--body);border:0;background:none;color:var(--fg);padding:7px 14px;border-radius:999px;cursor:pointer;min-height:36px}
+.seg button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
+.seg button span{font:500 11.5px var(--mono);opacity:.75;margin-left:4px}
+input[type=search],select{font:14px var(--body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 10px;min-height:38px}
+input[type=search]{flex:1 1 220px;min-width:0}
+.kinds{display:flex;flex-wrap:wrap;gap:6px}
+.kinds button{font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:5px 11px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.kinds button i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.kinds button[aria-pressed=true]{border-color:var(--fg);background:var(--fg);color:var(--bg)}
+.month{display:grid;gap:10px}
+.month h2{font-size:18px;color:var(--muted);font-family:var(--body);font-weight:600;letter-spacing:0;border-bottom:1px solid var(--line);padding-bottom:6px}
+.ev{display:grid;grid-template-columns:76px minmax(0,1fr) auto;gap:14px;align-items:start;border:1px solid var(--line);border-left:4px solid var(--k);border-radius:12px;background:var(--surface);padding:12px 14px}
+.dt{display:grid;justify-items:center;line-height:1}
+.dt b{font:700 26px/1 var(--display);white-space:nowrap}
+.dt.r b{font-size:19px}
+.dt span{font:600 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-top:4px;text-align:center}
+.ev h3{font:600 16px/1.35 var(--body);margin:0}
+.ev h3 a{color:var(--fg);text-decoration:none}
+.ev h3 a:hover{color:var(--accent);text-decoration:underline}
+.meta{font-size:13.5px;color:var(--muted);margin-top:3px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.tag{font:500 11.5px var(--mono);padding:2px 7px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.tag.k{background:var(--k);color:#fff}
+.ics{font:500 12.5px var(--body);color:var(--accent);background:none;border:1px solid var(--line);border-radius:8px;padding:5px 9px;cursor:pointer;white-space:nowrap}
+.ics:hover{background:var(--chip)}
+.empty{border:1px dashed var(--line);border-radius:12px;padding:22px;color:var(--muted);text-align:center}
+@media (max-width:640px){.ev{grid-template-columns:58px minmax(0,1fr)}.ev .ics{grid-column:2;justify-self:start}.dt b{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <!--SITENAV-->
+  <header style="display:grid;gap:10px">
+    <h1>Quantum events in Denmark</h1>
+    <p class="lede">Conferences, workshops, summer schools, seminars, public talks and industry meetings on quantum science and technology in Denmark – from the universities, the research groups and the Danish quantum ecosystem.</p>
+    <details class="howto"><summary>How to read this page</summary><div class="hb">
+      <p><b>Upcoming</b> shows events from today on, the nearest first; <b>Past</b> shows earlier events, the newest first. Filter by type, audience or city, or search in titles, organisers and places.</p>
+      <p>Each event links to its own page, where the organiser gives the programme and registration. <b>Add to calendar</b> downloads a calendar file (.ics) you can open in Outlook, Google Calendar or Apple Calendar.</p>
+      <p>Events are collected from public pages only. Events without announced dates are shown at the start of their month with "dates to be announced". The list is not complete: tell Danish Quantum Academy about events that are missing.</p>
+    </div></details>
+  </header>
+
+  <section style="display:grid;gap:12px">
+    <div class="bar">
+      <div class="seg" role="group" aria-label="Time"><button type="button" id="tUp" aria-pressed="true">Upcoming<span id="nUp"></span></button><button type="button" id="tPast" aria-pressed="false">Past<span id="nPast"></span></button></div>
+      <input type="search" id="q" placeholder="Search title, organiser or place" aria-label="Search events">
+      <select id="aud" aria-label="Audience"><option value="">Everyone</option></select>
+      <select id="city" aria-label="City"><option value="">All of Denmark</option></select>
+    </div>
+    <div class="kinds" id="kinds" role="group" aria-label="Type of event"></div>
+  </section>
+
+  <section id="list" style="display:grid;gap:22px" aria-live="polite"></section>
+
+  <footer>
+    <p class="note" id="src"></p>
+    <!--SITEFOOT-->
+  </footer>
+</div>
+<script id="qdk-data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent), E=D.events;
+  const KIND={conference:['Conferences','#1c5cab'],workshop:['Workshops','#0d8059'],school:['Schools and masterclasses','#5a48c8'],seminar:['Seminars and colloquia','#9a6a00'],
+    public:['Public events','#c2407a'],industry:['Industry','#c4501e'],defence:['PhD defences','#5b6478'],course:['Courses','#2f7d10']};
+  const SING={conference:'Conference',workshop:'Workshop',school:'School',seminar:'Seminar',public:'Public event',industry:'Industry',defence:'PhD defence',course:'Course'};
+  const AUD={public:'General public',students:'Students',teachers:'Teachers',researchers:'Researchers',industry:'Industry'};
+  const MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else if(x==='style')e.setAttribute('style',y);else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&c!==false&&c!==''&&e.append(c));return e};
+  const today=new Date(); const T=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
+  const endOf=e=>e.end||(e.start.length===7?e.start+'-31':e.start);
+  const isUp=e=>endOf(e)>=T;
+  const st={up:true,kind:'',aud:'',city:'',q:''};
+  let s0=null; try{const s=JSON.parse(sessionStorage.getItem('dqa-events')||'null');if(s)s0=s}catch(e){}
+  if(s0)Object.assign(st,s0);
+  const save=()=>{try{sessionStorage.setItem('dqa-events',JSON.stringify(st))}catch(e){}};
+  // filters
+  const kinds=document.getElementById('kinds');
+  const kb=(k,label,col)=>{const b=el('button',{type:'button','data-k':k},col?el('i',{style:'background:'+col}):null,label);b.onclick=()=>{st.kind=st.kind===k?'':k;render()};return b};
+  kinds.append(kb('','All types'));
+  Object.entries(KIND).forEach(([k,[l,c]])=>{if(E.some(e=>e.kind===k))kinds.append(kb(k,l,c))});
+  const aud=document.getElementById('aud'); Object.entries(AUD).forEach(([k,l])=>aud.append(el('option',{value:k},l)));
+  const city=document.getElementById('city'); [...new Set(E.map(e=>e.city).filter(Boolean))].sort().forEach(c=>city.append(el('option',{value:c},c)));
+  aud.value=st.aud; city.value=st.city; document.getElementById('q').value=st.q;
+  aud.onchange=()=>{st.aud=aud.value;render()}; city.onchange=()=>{st.city=city.value;render()};
+  document.getElementById('q').oninput=e=>{st.q=e.target.value;render()};
+  document.getElementById('tUp').onclick=()=>{st.up=true;render()}; document.getElementById('tPast').onclick=()=>{st.up=false;render()};
+  const fmt=d=>{const[y,m,dd]=d.split('-');return dd?(+dd)+' '+MON[+m-1].slice(0,3)+' '+y:MON[+m-1]+' '+y};
+  function ics(e){
+    const d=s=>s.replace(/-/g,''), nx=s=>{const t=new Date(s+'T12:00:00Z');t.setUTCDate(t.getUTCDate()+1);return t.toISOString().slice(0,10).replace(/-/g,'')};
+    const esc=s=>String(s||'').replace(/[\;,]/g,m=>'\\'+m).replace(/\n/g,'\\n');
+    const tm=(e.time||'').match(/^(\d\d):(\d\d)\s*[–-]\s*(\d\d):(\d\d)$/);
+    const L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Danish Quantum Academy//Quantum events//EN','BEGIN:VEVENT','UID:'+d(e.start)+'-'+e.title.replace(/\W+/g,'').slice(0,40)+'@map.danishquantumacademy.dk','DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z'];
+    if(tm&&!e.end){L.push('DTSTART;TZID=Europe/Copenhagen:'+d(e.start)+'T'+tm[1]+tm[2]+'00','DTEND;TZID=Europe/Copenhagen:'+d(e.start)+'T'+tm[3]+tm[4]+'00')}
+    else{L.push('DTSTART;VALUE=DATE:'+d(e.start),'DTEND;VALUE=DATE:'+nx(e.end||e.start))}
+    L.push('SUMMARY:'+esc(e.title),'LOCATION:'+esc([e.place,e.city].filter(Boolean).join(', ')),'DESCRIPTION:'+esc((e.org?e.org+'. ':'')+e.url),'URL:'+e.url,'END:VEVENT','END:VCALENDAR');
+    const a=el('a',{href:URL.createObjectURL(new Blob([L.join('\r\n')],{type:'text/calendar'})),download:e.title.replace(/[^\w ]+/g,'').trim().slice(0,50).replace(/ +/g,'-')+'.ics'});
+    document.body.append(a);a.click();a.remove();
+  }
+  function card(e){
+    const [y,m,dd]=e.start.split('-'), col=(KIND[e.kind]||['', '#5b6478'])[1];
+    const tba=e.start.length===7;
+    let when;
+    if(tba) when=el('div',{class:'dt'},el('b',{},'–'),el('span',{},MON[+m-1].slice(0,3)));
+    else if(e.end&&e.end!==e.start){const[,m2,d2]=e.end.split('-');when=el('div',{class:'dt r'},el('b',{},String(+dd)+'–'+(+d2)),el('span',{},MON[+m-1].slice(0,3)+(m2!==m?'–'+MON[+m2-1].slice(0,3):'')))}
+    else when=el('div',{class:'dt'},el('b',{},String(+dd)),el('span',{},MON[+m-1].slice(0,3)));
+    const meta=[tba?'Dates to be announced':(e.end&&e.end!==e.start?fmt(e.start)+' – '+fmt(e.end):fmt(e.start)),e.time&&e.time!=='dates to be announced'?e.time:'',[e.place,e.city].filter((x,i,a)=>x&&(i===0||!a[0].includes(x))).join(', '),e.org].filter(Boolean).join(' · ');
+    const tags=el('div',{class:'tags'},el('span',{class:'tag k',style:'--k:'+col},SING[e.kind]||e.kind),...e.aud.map(a=>el('span',{class:'tag'},AUD[a]||a)));
+    const b=el('button',{type:'button',class:'ics','aria-label':'Add '+e.title+' to calendar'},'Add to calendar'); b.onclick=()=>ics(e);
+    return el('article',{class:'ev',style:'--k:'+col},when,el('div',{},el('h3',{},el('a',{href:e.url,rel:'noopener'},e.title)),el('div',{class:'meta'},meta),tags),tba?null:b);
+  }
+  function render(){
+    save();
+    const q=st.q.trim().toLowerCase();
+    const base=E.filter(e=>(!st.kind||e.kind===st.kind)&&(!st.aud||e.aud.includes(st.aud))&&(!st.city||e.city===st.city)&&(!q||(e.title+' '+e.org+' '+e.place+' '+e.city).toLowerCase().includes(q)));
+    const up=base.filter(isUp).sort((a,b)=>a.start.localeCompare(b.start)), past=base.filter(e=>!isUp(e)).sort((a,b)=>b.start.localeCompare(a.start));
+    document.getElementById('nUp').textContent=up.length; document.getElementById('nPast').textContent=past.length;
+    document.getElementById('tUp').setAttribute('aria-pressed',st.up); document.getElementById('tPast').setAttribute('aria-pressed',!st.up);
+    kinds.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===st.kind));
+    const L=document.getElementById('list'); L.replaceChildren();
+    const xs=st.up?up:past;
+    if(!xs.length){L.append(el('p',{class:'empty'},st.up?'No upcoming events match the filters.':'No past events match the filters.'));return}
+    let cur=null,box=null;
+    xs.forEach(e=>{const k=e.start.slice(0,7);if(k!==cur){cur=k;const[y,m]=k.split('-');box=el('div',{class:'month'},el('h2',{},MON[+m-1]+' '+y));L.append(box)}box.append(card(e))});
+  }
+  render();
+  const n=D.counts;
+  document.getElementById('src').textContent='Sources: '+n.curated+' events collected by Danish Quantum Academy from the organisers\' public pages (checked '+D.checked+'), '+n.groups+' from the research groups\' event pages and '+n.calendar+' public events from university calendars (both updated every Monday).';
+})();
+</script>
+</body>
+</html>
