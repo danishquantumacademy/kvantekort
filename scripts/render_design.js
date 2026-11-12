@@ -166,7 +166,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #7b9bff;outline-offset:3p
     return box.innerHTML;
   }, { pv, roles });
   const LINK = { 'Courses and triangles': 'proficiency.html', 'Study planner': 'planner.html', 'PhD and postdoc projects': 'proficiency.html?levels=PHDP,PDP',
-    'Research groups': 'groups.html', 'Educators': 'people.html', 'Companies and organisations': 'industry.html', 'Job-ad demand': 'industry.html', 'Events': 'events.html' };
+    'Research groups': 'groups.html', 'Educators': 'people.html', 'Companies and organisations': 'industry.html', 'Job-ad demand': 'industry.html', 'Events': 'events.html', 'Researcher network': 'network.html' };
   portal = portal.replace(/<a href="#open"([^>]*)>(\s*<span[^>]*>)([^<]+)</g, (m, a, s, title) => {
     if (!LINK[title]) throw new Error('no link for tile ' + title);
     return `<a href="${LINK[title]}"${a}>${s}${title}<`;

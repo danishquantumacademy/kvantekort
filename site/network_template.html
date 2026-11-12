@@ -1,0 +1,258 @@
+<title>Quantum Researcher Network</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Network page: the researchers of the quantum research groups on a map of Denmark, linked by joint research outputs
+   and PhD supervision; click a researcher to see who they work with. */
+:root{
+  --aI:#3a6a0d; --aII:#2a73b8; --aIII:#bf3653; --aI-1:#93c050; --aI-2:#78ad38; --aI-3:#55891b; --aI-4:#3a6a0d; --aI-5:#234604; --aII-1:#8bbbe8; --aII-2:#4f97d6; --aII-3:#2a73b8; --aII-4:#1a5590; --aII-5:#0c3863; --aIII-1:#ec8fa1; --aIII-2:#db5c75; --aIII-3:#bf3653; --aIII-4:#951c37; --aIII-5:#640a20; --on-1:#141a2b; --on-2:#141a2b; --on-3:#ffffff; --on-4:#ffffff; --on-5:#ffffff; --empty:#eef0f5;
+  --bg:#f6f7fa; --surface:#ffffff; --fg:#141a2b; --muted:#5b6478; --line:#dfe3ec; --chip:#eef1f7; --accent:#1f45c9;
+  --d1:#1c5cab; --d2:#c4501e; --d3:#0d8059; --d4:#9a6a00; --d5:#c2407a; --d6:#2f7d10; --d7:#5a48c8; --d8:#c0302f;
+  --good:#0f6b3f;
+  --display:"Syne","Segoe UI",system-ui,sans-serif;
+  --body:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033;
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --aI:#a8d870; --aII:#86b9ee; --aIII:#ee8ba0; --aI-1:#3f6a19; --aI-2:#5a9226; --aI-3:#7fba3e; --aI-4:#a8d870; --aI-5:#d0efa3; --aII-1:#1f4f80; --aII-2:#2c6fb2; --aII-3:#4f93dc; --aII-4:#86b9ee; --aII-5:#bcdaf7; --aIII-1:#90294a; --aIII-2:#b0344f; --aIII-3:#d65370; --aIII-4:#ee8ba0; --aIII-5:#f8c0cb; --on-1:#ffffff; --on-2:#ffffff; --on-3:#0e1220; --on-4:#0e1220; --on-5:#0e1220; --empty:#1a2033;
+  --bg:#0e1220; --surface:#151a2b; --fg:#e6e9f2; --muted:#9aa3b8; --line:#283049; --chip:#1d2338; --accent:#7b9bff;
+  --d1:#5b9ae8; --d2:#e5743f; --d3:#2fb383; --d4:#cf9a1c; --d5:#e2739f; --d6:#5fae3c; --d7:#9488ee; --d8:#e8635f; --good:#5fd39a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1240px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+h1{font:700 clamp(30px,5.5vw,48px)/1.04 var(--display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font:700 21px/1.15 var(--display);margin:0;letter-spacing:-.01em}
+h3{font:600 15px/1.3 var(--body);margin:0}
+.lede{max-width:78ch;color:var(--muted);margin:0}
+a{color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.note{font-size:13px;color:var(--muted);max-width:90ch;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(160px,100%),1fr));gap:10px}
+.stat{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px 14px;display:grid;gap:1px}
+.stat b{font:700 26px/1.1 var(--display)}
+.stat span{font-size:12.5px;color:var(--muted)}
+.bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.seg{display:inline-flex;flex-wrap:wrap;padding:3px;border-radius:12px;background:var(--chip);gap:2px}
+.seg button{font:600 13px var(--body);border:0;background:none;color:var(--fg);padding:7px 12px;border-radius:9px;cursor:pointer;min-height:36px}
+.seg button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
+.seg button span{font:500 11.5px var(--mono);opacity:.75;margin-left:4px}
+input[type=search]{font:14px var(--body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 10px;min-height:38px;flex:1 1 220px;min-width:0}
+.lay{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}
+@media (max-width:980px){.lay{grid-template-columns:minmax(0,1fr)}}
+.mapbox{border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden;position:relative}
+.mapbox svg{display:block;width:100%;height:auto;touch-action:manipulation}
+.land{fill:var(--chip);stroke:var(--line);stroke-width:1}
+.pin{fill:var(--fg)}
+.lead{stroke:var(--muted);stroke-width:.8;stroke-dasharray:3 3;fill:none}
+.ibub{fill:var(--surface);fill-opacity:.82;stroke-width:1.5}
+.gbub{fill:none;stroke:var(--line);stroke-width:1}
+.glab{font:600 10.5px var(--mono);fill:var(--muted);pointer-events:none}
+.ilab{font:700 15px var(--display);pointer-events:none}
+.clab{font:500 10.5px var(--body);fill:var(--muted);pointer-events:none}
+.lk{fill:none;stroke-linecap:round;pointer-events:none}
+.dot{cursor:pointer;stroke:var(--surface);stroke-width:.8}
+.dot.iso{opacity:.35}
+svg.sel .dot{opacity:.18}
+svg.sel .dot.nb,svg.sel .dot.me{opacity:1}
+.dot.me{stroke:var(--fg);stroke-width:2.2}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:500 12.5px var(--body);padding:5px 8px;border-radius:7px;white-space:nowrap;transform:translate(-50%,-130%);display:none}
+.side{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:14px 16px;display:grid;gap:10px;max-height:820px;overflow:auto}
+.side .who{display:grid;gap:3px}
+.side .who b{font:700 19px/1.2 var(--display)}
+.side .meta{font-size:13px;color:var(--muted)}
+.side ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.side li{display:grid;gap:2px;border-top:1px solid var(--line);padding-top:8px}
+.side li button{font:600 14px var(--body);color:var(--accent);background:none;border:0;padding:0;text-align:left;cursor:pointer}
+.side li .m{font-size:12.5px;color:var(--muted)}
+.side li .t{font-size:12.5px}
+.side li .t a{color:var(--fg)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:baseline}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);align-items:center}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left}
+th{font:600 11.5px var(--mono);color:var(--muted)}
+td.n,th.n{text-align:right;font-family:var(--mono)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:16px;align-items:start}
+@media (max-width:860px){.two{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <!--SITENAV-->
+  <header style="display:grid;gap:10px">
+    <h1>How quantum researchers in Denmark work together</h1>
+    <p class="lede">Every researcher in the 23 quantum research groups is a dot, placed in their group and university. A line joins two researchers who have published together or where one is the other's PhD supervisor. Click a dot to see who that person works with.</p>
+    <details class="howto"><summary>How to read this page</summary><div class="hb">
+      <p>The universities are drawn as circles next to their city (the dashed line points to the campus); inside each, the smaller circles are the research groups. Dots in the middle of a group have the most links.</p>
+      <p><b>Links</b> come from public sources only: two researchers are linked when the same research output appears on both their university research profiles (newest outputs, read November 2026) or in both their OpenAlex records since 2021, or when DTU Orbit lists one as main supervisor of the other's PhD project. Outputs with more than 30 of the mapped researchers as authors are left out. Thicker lines mean more joint outputs.</p>
+      <p>The map shows <b>links between groups</b> by default, which is where collaboration across the ecosystem shows. Switch to links between universities, or to all links, including those inside a group. A selected researcher always shows all their links.</p>
+      <p>The network is incomplete: only the members of the 23 groups are included, and outputs that are not on the profiles or in OpenAlex are missing. A missing line does not mean that two people do not work together.</p>
+    </div></details>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="bar">
+    <div class="seg" role="group" aria-label="Which links to show">
+      <button type="button" data-m="uni" aria-pressed="false">Between universities<span id="nUni"></span></button>
+      <button type="button" data-m="grp" aria-pressed="true">Between groups<span id="nGrp"></span></button>
+      <button type="button" data-m="all" aria-pressed="false">All links<span id="nAll"></span></button>
+    </div>
+    <input type="search" id="q" list="names" placeholder="Find a researcher" aria-label="Find a researcher">
+    <datalist id="names"></datalist>
+  </div>
+  <div class="legend" id="legend"></div>
+
+  <div class="lay">
+    <div class="mapbox" id="mapbox"><div class="tip" id="tip" role="status"></div></div>
+    <aside class="side" id="side" aria-live="polite"></aside>
+  </div>
+
+  <section style="display:grid;gap:12px">
+    <h2>Links between universities and groups</h2>
+    <div class="two">
+      <div class="tblwrap"><table id="tUni"></table></div>
+      <div class="tblwrap"><table id="tGrp"></table></div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="note">Sources: research group member lists and university research profiles (read November 2026), OpenAlex (outputs since 2021), DTU Orbit (PhD projects). Map: Natural Earth (public domain). Collected and linked by Danish Quantum Academy.</p>
+    <!--SITEFOOT-->
+  </footer>
+</div>
+<script id="qdk-data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('qdk-data').textContent), N=D.nodes, L=D.links, M=D.map;
+  const NS='http://www.w3.org/2000/svg';
+  const sv=(t,a={},...k)=>{const e=document.createElementNS(NS,t);for(const[x,y]of Object.entries(a))e.setAttribute(x,y);k.flat().forEach(c=>c!=null&&e.append(c));return e};
+  const el=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,y]of Object.entries(a)){if(x==='class')e.className=y;else e.setAttribute(x,y)}k.flat().forEach(c=>c!=null&&c!==false&&c!==''&&e.append(c));return e};
+  const P=M.proj, proj=(lon,lat)=>[(lon-P.lon0)*P.cx*P.k+P.pad,(P.lat0-lat)*P.k+P.pad];
+  // universities: campus position, where the circle is drawn (in the sea, so the map stays readable), colour
+  const U={DTU:{name:'DTU',city:'Lyngby',ll:[12.521,55.786],at:[905,250],c:'var(--d8)'},
+           KU:{name:'University of Copenhagen',city:'Copenhagen',ll:[12.571,55.697],at:[975,665],c:'var(--d1)'},
+           AU:{name:'Aarhus University',city:'Aarhus',ll:[10.203,56.168],at:[600,235],c:'var(--d3)'},
+           SDU:{name:'University of Southern Denmark',city:'Odense',ll:[10.428,55.369],at:[470,790],c:'var(--d7)'},
+           AAU:{name:'Aalborg University',city:'Aalborg',ll:[9.986,57.015],at:[330,82],c:'var(--d2)'}};
+  const GR=Object.fromEntries(D.groups.map(g=>[g.key,g]));
+  // degree, neighbours
+  const nb=N.map(()=>[]);
+  L.forEach((l,i)=>{nb[l[0]].push(i);nb[l[1]].push(i)});
+  const crossG=l=>{const a=N[l[0]],b=N[l[1]];return a.g!==b.g&&!a.g2.includes(b.g)&&!b.g2.includes(a.g)};
+  const crossU=l=>N[l[0]].i!==N[l[1]].i;
+  // layout: groups packed inside each university circle, researchers on a sunflower spiral inside their group
+  const S=6.2;
+  const pos=[];
+  Object.entries(U).forEach(([k,u])=>{
+    const gs=D.groups.filter(g=>g.i===k).map(g=>{const mem=N.map((n,i)=>i).filter(i=>N[i].g===g.key).sort((a,b)=>nb[b].length-nb[a].length);return {g,mem,r:S*Math.sqrt(mem.length+1)+7}}).sort((a,b)=>b.r-a.r);
+    const placed=[];
+    gs.forEach((c,ix)=>{
+      if(!ix){c.x=0;c.y=0}
+      else{for(let t=0;;t+=0.05){const rr=2.2*t,x=rr*Math.cos(t*1.7),y=rr*Math.sin(t*1.7);if(placed.every(p=>Math.hypot(p.x-x,p.y-y)>=p.r+c.r+13)){c.x=x;c.y=y;break}}}
+      placed.push(c)});
+    // centre the pack
+    const mx=(Math.min(...placed.map(p=>p.x-p.r))+Math.max(...placed.map(p=>p.x+p.r)))/2, my=(Math.min(...placed.map(p=>p.y-p.r))+Math.max(...placed.map(p=>p.y+p.r)))/2;
+    placed.forEach(p=>{p.x-=mx;p.y-=my});
+    u.R=Math.max(...placed.map(p=>Math.hypot(p.x,p.y)+p.r))+12; u.gs=placed;
+    placed.forEach(p=>{p.x+=u.at[0];p.y+=u.at[1];p.mem.forEach((ni,j)=>{const r=S*Math.sqrt(j+0.5),t=j*2.39996;pos[ni]=[p.x+r*Math.cos(t),p.y+r*Math.sin(t)]})});
+  });
+  // drawing
+  const box=document.getElementById('mapbox'), tip=document.getElementById('tip');
+  const VW=1195, VH=950; // wider than the map, so the university circles fit in the sea around it
+  const svg=sv('svg',{viewBox:`0 0 ${VW} ${VH}`,role:'img','aria-label':'Map of Denmark with the quantum researchers of each university grouped by research group and linked by joint research and PhD supervision'});
+  svg.append(sv('path',{d:M.d,class:'land'}));
+  const gU=sv('g'), gL=sv('g'), gD=sv('g'), gT=sv('g');
+  Object.values(U).forEach(u=>{
+    const [px,py]=proj(...u.ll), ang=Math.atan2(py-u.at[1],px-u.at[0]);
+    gU.append(sv('path',{class:'lead',d:`M${px},${py}L${u.at[0]+u.R*Math.cos(ang)},${u.at[1]+u.R*Math.sin(ang)}`}),sv('circle',{class:'pin',cx:px,cy:py,r:3.2}));
+    gU.append(sv('circle',{class:'ibub',cx:u.at[0],cy:u.at[1],r:u.R,stroke:u.c}));
+    u.gs.forEach(p=>{gU.append(sv('circle',{class:'gbub',cx:p.x,cy:p.y,r:p.r}));gT.append(sv('text',{class:'glab',x:p.x,y:p.y-p.r+11,'text-anchor':'middle'},p.g.short))});
+    gT.append(sv('text',{class:'ilab',x:u.at[0],y:u.at[1]-u.R-8,'text-anchor':'middle',fill:u.c},u.name));
+    gT.append(sv('text',{class:'clab',x:px+6,y:py+4},u.city));
+  });
+  svg.append(gU,gL,gD,gT); box.append(svg);
+  const dots=N.map((n,i)=>{const d=sv('circle',{class:'dot'+(nb[i].length?'':' iso'),cx:pos[i][0].toFixed(1),cy:pos[i][1].toFixed(1),r:Math.min(5.2,2.6+Math.sqrt(nb[i].length)*.55),fill:U[n.i].c,tabindex:'-1','data-i':i});
+    d.append(sv('title',{},n.n+' – '+GR[n.g].short));gD.append(d);return d});
+  const curve=(a,b,bend)=>{const[x1,y1]=pos[a],[x2,y2]=pos[b];if(!bend)return `M${x1.toFixed(1)},${y1.toFixed(1)}L${x2.toFixed(1)},${y2.toFixed(1)}`;
+    const mx=(x1+x2)/2,my=(y1+y2)/2,dx=x2-x1,dy=y2-y1,len=Math.hypot(dx,dy)||1,k=Math.min(90,len*.22);return `M${x1.toFixed(1)},${y1.toFixed(1)}Q${(mx-dy/len*k).toFixed(1)},${(my+dx/len*k).toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`};
+  const paths=L.map(l=>{const cu=crossU(l),p=sv('path',{class:'lk',d:curve(l[0],l[1],cu)});gL.append(p);return p});
+  const st={m:'grp',sel:null};
+  function styleLinks(){
+    L.forEach((l,i)=>{const p=paths[i];let show,strong=false;
+      if(st.sel!=null){show=l[0]===st.sel||l[1]===st.sel;strong=show}
+      else show=st.m==='all'||(st.m==='grp'&&crossG(l))||(st.m==='uni'&&crossU(l));
+      if(!show){p.setAttribute('stroke-opacity',0);p.setAttribute('stroke-width',0);return}
+      const w=Math.min(4,0.7+Math.sqrt(l[2]||1)*.55);
+      p.setAttribute('stroke',l[3]&&!l[2]?'var(--d4)':(crossU(l)?'var(--fg)':U[N[l[0]].i].c));
+      p.setAttribute('stroke-width',show?(strong?w+.6:w):0);
+      p.setAttribute('stroke-opacity',show?(strong?.85:(crossU(l)?.38:.3)):0);
+      if(l[3]&&!l[2])p.setAttribute('stroke-dasharray','4 3');});
+  }
+  // side panel
+  const side=document.getElementById('side');
+  function overview(){
+    side.replaceChildren(el('h2',{},'Most connected researchers'),el('p',{class:'meta'},'Researchers with links to the most other researchers outside their own group. Click a name or a dot.'));
+    const deg=N.map((n,i)=>[i,nb[i].filter(li=>crossG(L[li])).length]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1]).slice(0,15);
+    side.append(el('ul',{},deg.map(([i,d])=>el('li',{},btn(i),el('span',{class:'m'},GR[N[i].g].short+' · '+N[i].i+' · '+d+' researchers in other groups')))));
+  }
+  const btn=i=>{const b=el('button',{type:'button'},el('span',{class:'sw',style:'background:'+U[N[i].i].c}),N[i].n);b.onclick=()=>select(i);return b};
+  function select(i){
+    st.sel=i; svg.classList.toggle('sel',i!=null);
+    dots.forEach(d=>d.classList.remove('me','nb'));
+    if(i==null){styleLinks();overview();return}
+    dots[i].classList.add('me'); const n=N[i];
+    const ls=nb[i].map(li=>L[li]).sort((a,b)=>(b[2]-a[2])||(b[3]-a[3]));
+    ls.forEach(l=>dots[l[0]===i?l[1]:l[0]].classList.add('nb'));
+    styleLinks();
+    const head=el('div',{class:'who'},el('b',{},n.n),el('span',{class:'meta'},[n.r,GR[n.g].name.includes(GR[n.g].short)?GR[n.g].name:GR[n.g].name+' ('+GR[n.g].short+')',U[n.i].name].filter(Boolean).join(' · ')),
+      el('span',{class:'meta'},el('a',{href:'groups.html#'+n.g},'Group page'),n.u?' · ':'',n.u?el('a',{href:n.u,rel:'noopener'},'University profile'):''));
+    const close=el('button',{type:'button',style:'justify-self:start;font:500 13px var(--body);border:1px solid var(--line);background:none;color:var(--fg);border-radius:8px;padding:4px 10px;cursor:pointer'},'Show overview');close.onclick=()=>{document.getElementById('q').value='';select(null)};
+    const cu=ls.filter(crossU).length, cg=ls.filter(crossG).length;
+    side.replaceChildren(head,close,el('p',{class:'meta'},ls.length?`${ls.length} linked researchers: ${cg} in other groups, ${cu} at other universities.`:'No links found in the public sources used here.'),
+      el('ul',{},ls.map(l=>{const j=l[0]===i?l[1]:l[0];
+        return el('li',{},btn(j),el('span',{class:'m'},[GR[N[j].g].short+' · '+N[j].i,l[2]?l[2]+' joint output'+(l[2]>1?'s':''):'',l[3]?'PhD supervision':''].filter(Boolean).join(' · ')),
+          ...l[4].slice(0,3).map(t=>el('span',{class:'t'},t[2]?el('a',{href:t[2],rel:'noopener'},t[0]):t[0],' ('+t[1]+')')))})));
+    side.scrollTop=0;
+  }
+  // tooltip and clicks
+  gD.addEventListener('click',e=>{const d=e.target.closest('.dot');if(d)select(+d.dataset.i)});
+  svg.addEventListener('click',e=>{if(!e.target.closest('.dot')&&st.sel!=null)select(null)});
+  gD.addEventListener('mousemove',e=>{const d=e.target.closest('.dot');if(!d){tip.style.display='none';return}const n=N[+d.dataset.i],r=box.getBoundingClientRect();
+    tip.textContent=n.n+' · '+GR[n.g].short;tip.style.left=(e.clientX-r.left)+'px';tip.style.top=(e.clientY-r.top)+'px';tip.style.display='block'});
+  gD.addEventListener('mouseleave',()=>tip.style.display='none');
+  // search
+  const dl=document.getElementById('names'); N.forEach(n=>dl.append(el('option',{value:n.n})));
+  document.getElementById('q').addEventListener('change',e=>{const i=N.findIndex(n=>n.n.toLowerCase()===e.target.value.trim().toLowerCase());if(i>=0)select(i)});
+  // modes
+  const nUni=L.filter(crossU).length,nGrp=L.filter(crossG).length;
+  document.getElementById('nUni').textContent=nUni;document.getElementById('nGrp').textContent=nGrp;document.getElementById('nAll').textContent=L.length;
+  document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{st.m=b.dataset.m;document.querySelectorAll('[data-m]').forEach(x=>x.setAttribute('aria-pressed',x===b));if(st.sel!=null)select(null);else styleLinks()});
+  // legend and stats
+  document.getElementById('legend').append(...Object.values(U).map(u=>el('span',{},el('span',{class:'sw',style:'background:'+u.c}),u.name)),
+    el('span',{},'—— joint research (dark lines cross universities)'),el('span',{},'- - - PhD supervision'));
+  const linked=N.filter((n,i)=>nb[i].length).length;
+  const ST=[[N.length,'researchers in the 23 groups'],[linked,'with at least one link'],[L.length,'links between researchers'],[nGrp,'links between groups'],[nUni,'links between universities']];
+  document.getElementById('stats').append(...ST.map(([v,t])=>el('div',{class:'stat'},el('b',{},String(v)),el('span',{},t))));
+  // tables
+  const KU=Object.keys(U), um={};L.filter(crossU).forEach(l=>{const k=[N[l[0]].i,N[l[1]].i].sort().join('|');um[k]=um[k]||{p:0,o:0};um[k].p++;um[k].o+=l[2]});
+  const tU=document.getElementById('tUni');
+  tU.append(el('thead',{},el('tr',{},el('th',{},'Universities'),el('th',{class:'n'},'Researcher pairs'),el('th',{class:'n'},'Joint outputs'))));
+  tU.append(el('tbody',{},Object.entries(um).sort((a,b)=>b[1].p-a[1].p).map(([k,v])=>el('tr',{},el('td',{},k.replace('|',' – ')),el('td',{class:'n'},String(v.p)),el('td',{class:'n'},String(v.o))))));
+  const gm={};L.filter(crossG).forEach(l=>{const k=[N[l[0]].g,N[l[1]].g].sort().join('|');gm[k]=gm[k]||{p:0,o:0};gm[k].p++;gm[k].o+=l[2]});
+  const tG=document.getElementById('tGrp');
+  tG.append(el('thead',{},el('tr',{},el('th',{},'Groups (strongest links)'),el('th',{class:'n'},'Researcher pairs'),el('th',{class:'n'},'Joint outputs'))));
+  tG.append(el('tbody',{},Object.entries(gm).sort((a,b)=>b[1].p-a[1].p).slice(0,15).map(([k,v])=>{const[a,b]=k.split('|');return el('tr',{},el('td',{},GR[a].short+' ('+GR[a].i+') – '+GR[b].short+' ('+GR[b].i+')'),el('td',{class:'n'},String(v.p)),el('td',{class:'n'},String(v.o)))})));
+  styleLinks(); overview();
+  try{const h=decodeURIComponent(location.hash.slice(1));const i=N.findIndex(n=>n.n===h);if(i>=0)select(i)}catch(e){}
+})();
+</script>
+</body>
+</html>

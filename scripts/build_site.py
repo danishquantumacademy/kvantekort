@@ -82,7 +82,7 @@ out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
 NAV = [("Education", [("index", "proficiency.html", "Proficiency"), ("planner", "planner.html", "Study planner")]),
-       ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")]),
+       ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups"), ("network", "network.html", "Network")]),
        ("Industry", [("industry", "industry.html", "Industry")]),
        ("Community", [("events", "events.html", "Events")])]
 SHARED_CSS = """
@@ -784,6 +784,59 @@ et = (ROOT / "site/events_template.html").read_text(encoding="utf-8")
 ebody = chrome(et.replace("/*DATA*/", json.dumps(eout, ensure_ascii=False).replace("</", "<\\/")), "events")
 (ROOT / "site/events.html").write_text(page.split("<body>\n")[0] + "<body>\n" + ebody + "\n</body>\n</html>\n", encoding="utf-8")
 print(f"events: {len(events)} ({n_cur} curated, {n_grp} from group pages, {n_cal} from calendars)")
+
+# Researcher network (network.html): who works with whom, on a map of Denmark. Two kinds of link between group members:
+# joint research outputs (the same title in the members' university-profile outputs, data/groups/pubcheck, or in their
+# OpenAlex outputs since 2021, data/groups/research_outputs) and PhD supervision at DTU (data/groups/phd/dtu.tsv).
+def _tn(t): return re.sub(r"\W", "", t.lower())[:90]
+nodes, nid = [], {}
+for g in groups_out:
+    for m in g["members"]:
+        k = m["name"]
+        if k in nid:  # member of two groups: one node, both groups
+            nodes[nid[k]]["g2"].append(g["key"]); continue
+        nid[k] = len(nodes)
+        nodes.append({"n": k, "g": g["key"], "g2": [], "i": g["institution"], "c": m["cat"], "r": m["role"], "u": m["url"]})
+works = {}  # normalised title -> {"t": title, "y": year, "u": url, "who": set of node ids}
+for f in sorted((ROOT / "data/groups/pubcheck").glob("*.json")):
+    d = json.loads(f.read_text(encoding="utf-8"))
+    for pm in d["p"]:
+        if pm["n"] not in nid: continue
+        for r in pm["rows"]:
+            w = d["w"][r[0]]; key = _tn(w[0])
+            if len(key) < 12: continue
+            x = works.setdefault(key, {"t": w[0], "y": w[1], "u": "", "who": set()}); x["who"].add(nid[pm["n"]])
+for f in sorted((ROOT / "data/groups/research_outputs").glob("*.tsv")):
+    for r in csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"):
+        if r["kind"] != "O" or r["name"] not in nid: continue
+        key = _tn(r["title"])
+        if len(key) < 12: continue
+        x = works.setdefault(key, {"t": r["title"], "y": r["year"], "u": "", "who": set()}); x["who"].add(nid[r["name"]])
+        if r["path"].startswith("http") and not x["u"]: x["u"] = r["path"]
+links = {}
+for x in works.values():
+    w = sorted(x["who"])
+    if not 1 < len(w) <= 30: continue  # very large author lists (collaborations) say little about who works with whom
+    for a_ in range(len(w)):
+        for b_ in range(a_ + 1, len(w)):
+            L = links.setdefault((w[a_], w[b_]), {"p": 0, "t": [], "s": 0})
+            L["p"] += 1
+            if len(L["t"]) < 4: L["t"].append([x["t"], str(x["y"])[:4], x["u"]])
+for ln in (ROOT / "data/groups/phd/dtu.tsv").read_text(encoding="utf-8").splitlines():
+    if ln.startswith("#") or ln.startswith("member\t"): continue
+    f = ln.split("\t")
+    if len(f) < 3 or f[1] != "Main Supervisor" or f[0] not in nid or f[2] not in nid or f[0] == f[2]: continue
+    a_, b_ = sorted((nid[f[0]], nid[f[2]]))
+    links.setdefault((a_, b_), {"p": 0, "t": [], "s": 0})["s"] = 1
+nout = {"nodes": nodes, "links": [[a_, b_, L["p"], L["s"], L["t"]] for (a_, b_), L in sorted(links.items())],
+        "groups": [{"key": g["key"], "short": g["short"], "name": g["name"], "i": g["institution"]} for g in groups_out],
+        "map": json.loads((ROOT / "data/map/denmark.json").read_text(encoding="utf-8"))}
+nt = (ROOT / "site/network_template.html").read_text(encoding="utf-8")
+nbody = chrome(nt.replace("/*DATA*/", json.dumps(nout, ensure_ascii=False).replace("</", "<\\/")), "network")
+(ROOT / "site/network.html").write_text(page.split("<body>\n")[0] + "<body>\n" + nbody + "\n</body>\n</html>\n", encoding="utf-8")
+_x = sum(1 for (a_, b_) in links if nodes[a_]["i"] != nodes[b_]["i"])
+print(f"network: {len(nodes)} researchers, {len(links)} links ({sum(1 for L in links.values() if L['p'])} joint outputs, "
+      f"{sum(1 for L in links.values() if L['s'])} supervision), {_x} between universities")
 
 # Front page (index.html) and the page for logged-in users (portal.html): made from the design on the Claude design canvas
 # (design/*.dc.html -> scripts/render_design.js -> site/home_template.html, site/portal_template.html); the numbers come from the data.
