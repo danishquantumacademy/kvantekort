@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T20:56Z",
+ "generated": "2026-11-12T12:22Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -196,7 +196,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -237,7 +237,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -319,7 +319,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -360,7 +360,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -508,14 +508,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": true,
      "n": 35,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -803,21 +803,21 @@
      "kind": "news",
      "ok": true,
      "n": 120,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     },
     {
      "url": "https://qmath.ku.dk/events/",
      "kind": "events",
      "ok": true,
-     "n": 14,
-     "checked": "2026-11-11T20:56Z"
+     "n": 13,
+     "checked": "2026-11-12T12:22Z"
     },
     {
      "url": "https://qmath.ku.dk/vacant-positions/",
      "kind": "jobs",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -883,7 +883,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -949,7 +949,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1108,14 +1108,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1131,7 +1131,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1147,7 +1147,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1163,7 +1163,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1382,14 +1382,14 @@
      "kind": "news",
      "ok": true,
      "n": 110,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1406,7 +1406,7 @@
     {
      "date": "2026-09-02",
      "title": "SDU er i verdenselite med banebrydende forskning",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
@@ -1422,7 +1422,7 @@
     {
      "date": "2026-09-02",
      "title": "SDU er i verdenselite med banebrydende forskning",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning/",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/sdu-er-i-verdenselite-med-banebrydende-forskning-3/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/quantum-mathematics/"
@@ -1487,7 +1487,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1519,16 +1519,16 @@
     },
     {
      "date": "2025-03-31",
-     "title": "EU i dagens aviser mandag den 31. marts 2025",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/eu-i-dagens-aviser-mandag-den-31-marts-2025/",
+     "title": "Lysstråler skal opdage kræft",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/lysstr%C3%A5ler-skal-opdage-kr%C3%A6ft/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
     },
     {
      "date": "2025-03-31",
-     "title": "Lysstråler skal opdage kræft",
-     "url": "https://portal.findresearcher.sdu.dk/en/clippings/lysstr%C3%A5ler-skal-opdage-kr%C3%A6ft/",
+     "title": "Odense-forskere står bag: Stort kræft-gennembrud Skrevet den 31. marts 2025 kl 11:56 Af Christina Frederiksen",
+     "url": "https://portal.findresearcher.sdu.dk/en/clippings/odense-forskere-st%C3%A5r-bag-stort-kr%C3%A6ft-gennembrud-skrevet-den-31-ma/",
      "text": "",
      "kind": "press",
      "source": "https://portal.findresearcher.sdu.dk/en/organisations/sdu-nano-optics/"
@@ -1585,12 +1585,20 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
   "classique": {
    "news": [
+    {
+     "date": "2026-11-12",
+     "title": "Klimaforandringer truer vores satellitforbindelser",
+     "url": "https://vbn.aau.dk/en/clippings/klimaforandringer-truer-vores-satellitforbindelser-2/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    },
     {
      "date": "2026-10-31",
      "title": "Vi reagerer i slowmotion på AI-agenternes stormløb. Spørgsmålet er, hvordan vi holder mennesket i centrum",
@@ -1603,14 +1611,6 @@
      "date": "2026-10-20",
      "title": "Quantum networks at QCE26 met the weather",
      "url": "https://vbn.aau.dk/en/clippings/quantum-networks-at-qce26-met-the-weather/",
-     "text": "",
-     "kind": "press",
-     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
-    },
-    {
-     "date": "2026-09-15",
-     "title": "Kvantify workshop explores tools for efficient quantum programming",
-     "url": "https://vbn.aau.dk/en/clippings/kvantify-workshop-explores-tools-for-efficient-quantum-programmin/",
      "text": "",
      "kind": "press",
      "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
@@ -1651,7 +1651,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   },
@@ -1717,7 +1717,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-11T20:56Z"
+     "checked": "2026-11-12T12:22Z"
     }
    ]
   }
