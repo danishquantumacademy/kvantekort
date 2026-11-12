@@ -9,19 +9,19 @@
 <x-dc>
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Syne:wght@600;700;800&amp;display=swap" rel="stylesheet">
 <style>
 body{margin:0;background:#f4f6fb}
 a{color:#1f45c9}a:hover{color:#142f8f}
 </style>
 </helmet>
-<div style="font-family: Inter, system-ui, sans-serif; color: #141a2b; background: #f4f6fb; width: 100%; min-height: 100vh">
+<div style="font-family: Plus Jakarta Sans, system-ui, sans-serif; color: #141a2b; background: #f4f6fb; width: 100%; min-height: 100vh">
 
   <header style="border-bottom: 1px solid #e3e7f0; background: #ffffff">
     <div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
       <a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #141a2b">
         <svg width="28" height="26" viewBox="0 0 28 26" aria-hidden="true"><polygon points="14,1 27,25 1,25" fill="none" stroke="#141a2b" stroke-width="2"></polygon><polygon points="14,1 20.5,13 7.5,13" fill="#3a6a0d"></polygon><polygon points="7.5,13 14,25 1,25" fill="#2a73b8"></polygon><polygon points="20.5,13 27,25 14,25" fill="#bf3653"></polygon></svg>
-        <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 18px">Quantum Denmark</span>
+        <span style="font-family: Syne, Plus Jakarta Sans, sans-serif; font-weight: 700; font-size: 18px">Quantum Denmark</span>
       </a>
       <nav aria-label="Account" style="display: flex; flex-wrap: wrap; align-items: center; gap: 18px; font-size: 15px">
         <a href="Main.dc.html" style="color: #141a2b; text-decoration: none">Public front page</a>
@@ -34,7 +34,7 @@ a{color:#1f45c9}a:hover{color:#142f8f}
   <main style="max-width: 1200px; margin: 0 auto; padding: 48px 24px 72px; display: flex; flex-direction: column; gap: 32px">
     <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px">
       <div style="display: flex; flex-direction: column; gap: 8px; max-width: 640px">
-        <h1 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 40px">{{ heading }}</h1>
+        <h1 style="margin: 0; font-family: Syne, Plus Jakarta Sans, sans-serif; font-size: 40px">{{ heading }}</h1>
         <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #4a5368">{{ intro }}</p>
       </div>
       <div role="group" aria-label="I am a" style="display: inline-flex; flex-wrap: wrap; padding: 4px; border-radius: 999px; background: #ffffff; border: 1px solid #e3e7f0; gap: 4px">
@@ -57,9 +57,9 @@ a{color:#1f45c9}a:hover{color:#142f8f}
           <polygon points="29,216 50,252 92,252 60,198" fill="#1a5590"></polygon>
           <polygon points="292,252 250,252 271,216" fill="#640a20"></polygon>
           <polygon points="271,216 250,252 208,252 240,198" fill="#951c37"></polygon>
-          <text x="150" y="50" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#ffffff">C2</text>
-          <text x="30" y="246" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#ffffff">C2</text>
-          <text x="270" y="246" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#ffffff">C2</text>
+          <text x="150" y="50" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" fill="#ffffff">C2</text>
+          <text x="30" y="246" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="10" font-weight="700" fill="#ffffff">C2</text>
+          <text x="270" y="246" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="10" font-weight="700" fill="#ffffff">C2</text>
         </svg>
         <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #d5dcf2">{{ triNote }}</p>
         <a href="#open" style="display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #ffffff; color: #0f1530; text-decoration: none; font-weight: 600">Open the triangles</a>
@@ -68,7 +68,7 @@ a{color:#1f45c9}a:hover{color:#142f8f}
       <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-wrap: wrap; gap: 16px; align-content: flex-start">
         <sc-for list="{{ tiles }}" as="t" hint-placeholder-count="6">
           <a href="#open" style="{{ t.style }}">
-            <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 19px; font-weight: 600; color: #141a2b">{{ t.title }}</span>
+            <span style="font-family: Syne, Plus Jakarta Sans, sans-serif; font-size: 19px; font-weight: 600; color: #141a2b">{{ t.title }}</span>
             <span style="font-size: 14px; line-height: 1.5; color: #4a5368">{{ t.text }}</span>
             <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #1f45c9">{{ t.badge }}</span>
           </a>
@@ -85,7 +85,7 @@ class Component extends DCLogic {
   constructor(props) { super(props); this.state = { role: 'student' }; }
   renderVals() {
     const role = this.state.role;
-    const btn = (on) => 'min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; font: 600 14px Inter, sans-serif; cursor: pointer; ' + (on ? 'background: #141a2b; color: #ffffff' : 'background: transparent; color: #141a2b');
+    const btn = (on) => 'min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; font: 600 14px Plus Jakarta Sans, sans-serif; cursor: pointer; ' + (on ? 'background: #141a2b; color: #ffffff' : 'background: transparent; color: #141a2b');
     const R = {
       student: { label: 'Student', heading: 'Plan your quantum studies', intro: 'Compare quantum courses across the five universities, see the CFQT level each one reaches, and build a study path towards a qualification profile.', tri: 'Select a university to see its course triangle, or switch to PhD and postdoc projects.', order: ['courses', 'planner', 'phd', 'groups', 'educators', 'industry'] },
       researcher: { label: 'Researcher / educator', heading: 'Research and teaching in quantum', intro: 'See the research groups and their members\' proficiency, the evidence behind each level, PhD projects, and who teaches which course.', tri: 'Show the research of the educators and groups, area by area.', order: ['groups', 'educators', 'phd', 'courses', 'industry', 'planner'] },
