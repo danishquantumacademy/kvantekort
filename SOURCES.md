@@ -171,7 +171,7 @@ The full list, one row per page, is in [`data/sources.csv`](data/sources.csv) (c
 
 | Site | Pages |
 |---|---:|
-| datacvr.virk.dk | 42 |
+| datacvr.virk.dk | 49 |
 | www.jobindex.dk | 7 |
 | danishbusinessauthority.dk | 1 |
 
@@ -235,4 +235,4 @@ The workflow "Check sources" opened 153 pages (up to three per site) from a GitH
 
 
 
-Total: 3042 pages from 83 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).
+Total: 3049 pages from 83 sites. All were publicly accessible without login when they were read (2–3 November 2026; group feeds weekly).

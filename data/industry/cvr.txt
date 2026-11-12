@@ -42,3 +42,10 @@
 45044491|Type one systems ApS|2024-08-28|2800 Kongens Lyngby|741100 Industrielt design og modedesign|Normal
 45463761|Universal Quantum ApS|2025-03-13|2100 København Ø|262000 Fremstilling af computere og ydre enheder|Normal
 36213728|Ørsted A/S|1972-03-27|7000 Fredericia|352200 Distribution af gas|Normal
+46610679|IonQ Quantum Denmark, filial af IonQ Sweden AB|2026-07-03|2150 Nordhavn||Normal
+46640942|LQUOM Denmark ApS|2026-07-03|2100 København Ø||Normal
+46816978|Pelagic Systems ApS|2026-10-01|2200 København N||Normal
+43590324|Phanofi ApS|2022-10-18|2800 Kongens Lyngby||Normal
+45748472|QVersion ApS|2025-07-14|8000 Aarhus C||Normal
+32283470|VACPRO ApS|2009-06-24|8000 Aarhus C||Normal
+46083229|VESCENT TECHNOLOGIES ApS|2025-12-03|1260 København K||Normal

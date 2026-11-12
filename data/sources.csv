@@ -2325,6 +2325,13 @@ Industry,,https://datacvr.virk.dk/enhed/virksomhed/37842222,"CVR: Topsil GlobalW
 Industry,,https://datacvr.virk.dk/enhed/virksomhed/45044491,"CVR: Type one systems ApS (start date, place, industry code)",data/industry/cvr.txt
 Industry,,https://datacvr.virk.dk/enhed/virksomhed/45463761,"CVR: Universal Quantum ApS (start date, place, industry code)",data/industry/cvr.txt
 Industry,,https://datacvr.virk.dk/enhed/virksomhed/36213728,"CVR: Ørsted A/S (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46610679,"CVR: IonQ Quantum Denmark, filial af IonQ Sweden AB (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46640942,"CVR: LQUOM Denmark ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46816978,"CVR: Pelagic Systems ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/43590324,"CVR: Phanofi ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/45748472,"CVR: QVersion ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/32283470,"CVR: VACPRO ApS (start date, place, industry code)",data/industry/cvr.txt
+Industry,,https://datacvr.virk.dk/enhed/virksomhed/46083229,"CVR: VESCENT TECHNOLOGIES ApS (start date, place, industry code)",data/industry/cvr.txt
 Industry,,https://www.jobindex.dk/jobsoegning.rss?q=quantum,"Job ads, read every Monday",data/industry/jobs.json
 Industry,,https://www.jobindex.dk/jobsoegning.rss?q=kvante,"Job ads, read every Monday",data/industry/jobs.json
 Industry,,https://www.jobindex.dk/jobsoegning.rss?q=qubit,"Job ads, read every Monday",data/industry/jobs.json
