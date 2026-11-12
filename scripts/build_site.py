@@ -81,7 +81,7 @@ for prog in programmes["programmes"]:
 out = {"reference": ref, "courses": courses, "unmapped": unmapped}
 
 # ---- Fælles sidehoved, navigation, "How to read"-bokse og sidefod for alle sider ----
-NAV = [("Education", [("index", "index.html", "Proficiency"), ("planner", "planner.html", "Study planner")]),
+NAV = [("Education", [("index", "proficiency.html", "Proficiency"), ("planner", "planner.html", "Study planner")]),
        ("Research", [("people", "people.html", "Educators"), ("groups", "groups.html", "Groups")]),
        ("Industry", [("industry", "industry.html", "Industry")])]
 SHARED_CSS = """
@@ -144,15 +144,15 @@ body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replac
 page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
         "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
         "</head>\n<body>\n" + body + "\n</body>\n</html>\n")
-(ROOT / "site/index.html").write_text(page, encoding="utf-8")
+(ROOT / "site/proficiency.html").write_text(page, encoding="utf-8")
 (ROOT / "site/artifact.html").write_text(body, encoding="utf-8")  # til claude.ai-preview
 
-# Trekant-siden er lagt sammen med forsiden; triangle.html sender videre og bevarer parametre og anker.
+# The proficiency triangle is on proficiency.html (the front page is index.html); triangle.html forwards with parameters and anchor.
 (ROOT / "site/triangle.html").write_text(
     '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>Danish Quantum Education Map</title>'
-    '<meta http-equiv="refresh" content="0; url=index.html">'
-    '<script>location.replace("index.html"+location.search+location.hash)</script></head>'
-    '<body><p>The proficiency triangle is now on the <a href="index.html">front page</a>.</p></body></html>\n', encoding="utf-8")
+    '<meta http-equiv="refresh" content="0; url=proficiency.html">'
+    '<script>location.replace("proficiency.html"+location.search+location.hash)</script></head>'
+    '<body><p>The proficiency triangle is on the <a href="proficiency.html">Proficiency page</a>.</p></body></html>\n', encoding="utf-8")
 (ROOT / "site/triangle_artifact.html").unlink(missing_ok=True)
 
 # Studiestier (den studerendes trekant) bygges af kurserne + data/programmes.json.
@@ -723,6 +723,16 @@ if cal.exists():
 out["outreach"] = outreach
 body = chrome(tpl.replace("/*DATA*/", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")), "index")
 page = page.split("<body>\n")[0] + "<body>\n" + body + "\n</body>\n</html>\n"
-(ROOT / "site/index.html").write_text(page, encoding="utf-8")
+(ROOT / "site/proficiency.html").write_text(page, encoding="utf-8")
 (ROOT / "site/artifact.html").write_text(body, encoding="utf-8")
 
+# Front page (index.html) and the page for logged-in users (portal.html): made from the design on the Claude design canvas
+# (design/*.dc.html -> scripts/render_design.js -> site/home_template.html, site/portal_template.html); the numbers come from the data.
+NUMS = {"COURSES": len(out["courses"]), "GROUPS": len(groups_out), "MEMBERS": sum(len(g["members"]) for g in groups_out),
+        "POSITIONS": len(proj_list), "ORGS": len(orgs), "ORGS_TRI": sum(1 for o in orgs if o["prof"])}
+for src, dst in (("home_template.html", "index.html"), ("portal_template.html", "portal.html")):
+    h = (ROOT / "site" / src).read_text(encoding="utf-8")
+    for k, v in NUMS.items(): h = h.replace(f"%%{k}%%", str(v))
+    assert "%%" not in h, src
+    (ROOT / "site" / dst).write_text(h, encoding="utf-8")
+print("front page:", NUMS)

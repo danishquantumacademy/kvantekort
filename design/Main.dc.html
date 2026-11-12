@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quantum Denmark – front page</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#ffffff}
+a{color:#1f45c9}a:hover{color:#142f8f}
+.band{opacity:0;animation:bandin .9s ease-out forwards}
+@keyframes bandin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.glow{animation:glow 3.2s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+.orbit{transform-box:view-box;transform-origin:180px 190px;animation:spin 14s linear infinite}
+.orbit2{transform-box:view-box;transform-origin:180px 190px;animation:spin 22s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.float{animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,-22px)}}
+.precess{transform-box:view-box;transform-origin:60px 60px;animation:spin 7s linear infinite}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+@keyframes ring{from{transform:scale(.15);opacity:.9}to{transform:scale(1);opacity:0}}
+.photon{animation:travel 2.4s ease-in-out infinite}
+@keyframes travel{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(150px);opacity:0}}
+@media (prefers-reduced-motion: reduce){.band,.glow,.orbit,.orbit2,.float,.precess,.ring,.photon{animation:none!important;opacity:1}}
+</style>
+</helmet>
+<div style="font-family: Inter, system-ui, sans-serif; color: #141a2b; background: #ffffff; width: 100%">
+
+  <!-- top bar -->
+  <header style="border-bottom: 1px solid #e3e7f0; background: #ffffff">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+      <a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #141a2b">
+        <svg width="28" height="26" viewBox="0 0 28 26" aria-hidden="true"><polygon points="14,1 27,25 1,25" fill="none" stroke="#141a2b" stroke-width="2"></polygon><polygon points="14,1 20.5,13 7.5,13" fill="#3a6a0d"></polygon><polygon points="7.5,13 14,25 1,25" fill="#2a73b8"></polygon><polygon points="20.5,13 27,25 14,25" fill="#bf3653"></polygon></svg>
+        <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 18px">Quantum Denmark</span>
+        <span style="font-size: 13px; color: #5b6478">by Danish Quantum Academy</span>
+      </a>
+      <nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 22px; font-size: 15px">
+        <a href="#learn" style="color: #141a2b; text-decoration: none">Learn</a>
+        <a href="#denmark" style="color: #141a2b; text-decoration: none">Quantum in Denmark</a>
+        <a href="#roles" style="color: #141a2b; text-decoration: none">For students, researchers &amp; industry</a>
+        <a href="#about" style="color: #141a2b; text-decoration: none">About</a>
+        <a href="Portal.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #141a2b; color: #ffffff; text-decoration: none; font-weight: 600">Log in</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section id="top" style="position: relative; overflow: hidden; background: #0f1530; color: #ffffff">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 128px 24px 136px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+      <div style="position: relative; z-index: 2; flex: 0 1 640px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #a9b8ff; font-weight: 600">Education · Research · Industry</p>
+        <h1 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 56px; line-height: 1.05; font-weight: 700">Quantum technology in Denmark – mapped and connected</h1>
+        <p style="margin: 0; font-size: 19px; line-height: 1.55; color: #d5dcf2; max-width: 620px">Learn what quantum technology is, whatever you know already. See where Denmark teaches, researches and builds it – from upper secondary school to start-ups.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 8px">
+          <a href="#learn" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #ffffff; color: #0f1530; text-decoration: none; font-weight: 600">New to quantum? Start here</a>
+          <a href="#denmark" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; border: 1.5px solid #a9b8ff; color: #ffffff; text-decoration: none; font-weight: 600">See Denmark's quantum landscape</a>
+        </div>
+      </div>
+      <div style="position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgba(15,21,48,.82) 0%, rgba(15,21,48,.45) 40%, rgba(15,21,48,0) 62%)"></div>
+      <div style="position: absolute; z-index: 0; top: 50%; left: calc(70% - 600px); width: 1200px; height: 1200px; transform: translateY(-50%); pointer-events: none">
+        <svg width="1200" height="1200" viewBox="40 30 320 320" style="overflow: visible" role="img" aria-label="The proficiency triangle in front of an atom: a fuzzy, doughnut-shaped probability cloud whose density flickers around the triangle and suddenly jumps out to a larger orbit and back">
+          <defs>
+            <filter id="fuzz" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"></feGaussianBlur></filter>
+            <filter id="fuzz2" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"></feGaussianBlur></filter>
+            <radialGradient id="nucleus" cx="40%" cy="38%" r="60%">
+              <stop offset="0%" stop-color="#ffd1da"></stop>
+              <stop offset="100%" stop-color="#bf3653"></stop>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="190" r="64" fill="none" stroke="#7b9bff" stroke-width="30" stroke-opacity=".3" filter="url(#fuzz)">
+            <animate attributeName="r" values="64;64;122;122;64;64" keyTimes="0;0.45;0.47;0.88;0.9;1" dur="9s" repeatCount="indefinite"></animate>
+            <animate attributeName="stroke-width" values="30;30;42;42;30;30" keyTimes="0;0.45;0.47;0.88;0.9;1" dur="9s" repeatCount="indefinite"></animate>
+            <animate attributeName="stroke-opacity" values=".3;.34;.27;.24;.28;.3" dur="2.3s" repeatCount="indefinite"></animate>
+          </circle>
+          <g filter="url(#fuzz2)">
+            <sc-for list="{{ cloud.segs }}" as="g" hint-placeholder-count="48">
+              <circle cx="{{ g.x0 }}" cy="{{ g.y0 }}" r="{{ g.r0 }}" fill="#c9d4ff" opacity="{{ g.o0 }}">
+                <animate attributeName="cx" values="{{ g.xs }}" keyTimes="{{ cloud.kt }}" calcMode="discrete" dur="9s" repeatCount="indefinite"></animate>
+                <animate attributeName="cy" values="{{ g.ys }}" keyTimes="{{ cloud.kt }}" calcMode="discrete" dur="9s" repeatCount="indefinite"></animate>
+                <animate attributeName="r" values="{{ g.rs }}" keyTimes="{{ cloud.kt }}" calcMode="discrete" dur="9s" repeatCount="indefinite"></animate>
+                <animate attributeName="opacity" values="{{ g.os }}" keyTimes="{{ cloud.kt }}" calcMode="discrete" dur="9s" repeatCount="indefinite"></animate>
+              </circle>
+            </sc-for>
+          </g>
+          <circle cx="200" cy="190" r="7" fill="url(#nucleus)"></circle>
+          <g aria-hidden="true">
+            <polygon points="181.8,179.5 218.2,179.5 200.0,211.0" fill="#0f1530"></polygon>
+            <polygon points="200.0,148.0 218.2,179.5 181.8,179.5" fill="#3a6a0d"></polygon>
+            <polygon points="181.8,179.5 200.0,211.0 163.6,211.0" fill="#2a73b8"></polygon>
+            <polygon points="218.2,179.5 236.4,211.0 200.0,211.0" fill="#bf3653"></polygon>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- three ways in -->
+  <section style="background: #f4f6fb">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 56px 24px; display: flex; flex-direction: column; gap: 24px">
+      <h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 30px">Where do you want to start?</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px">
+        <a href="#learn" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 10px; padding: 26px; border-radius: 16px; background: #ffffff; border: 1px solid #e3e7f0; text-decoration: none; color: #141a2b">
+          <span style="font-size: 13px; font-weight: 600; color: #3a6a0d; text-transform: uppercase; letter-spacing: 0.06em">No prior knowledge</span>
+          <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 22px; font-weight: 600">What is quantum technology?</span>
+          <span style="font-size: 15px; line-height: 1.55; color: #4a5368">Short explanations of qubits, quantum sensors and quantum communication – no equations.</span>
+        </a>
+        <a href="#learn" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 10px; padding: 26px; border-radius: 16px; background: #ffffff; border: 1px solid #e3e7f0; text-decoration: none; color: #141a2b">
+          <span style="font-size: 13px; font-weight: 600; color: #2a73b8; text-transform: uppercase; letter-spacing: 0.06em">Some knowledge</span>
+          <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 22px; font-weight: 600">Go a level deeper</span>
+          <span style="font-size: 15px; line-height: 1.55; color: #4a5368">How the technologies work, what limits them today, and how Europe describes quantum competences (CFQT).</span>
+        </a>
+        <a href="#denmark" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 10px; padding: 26px; border-radius: 16px; background: #ffffff; border: 1px solid #e3e7f0; text-decoration: none; color: #141a2b">
+          <span style="font-size: 13px; font-weight: 600; color: #bf3653; text-transform: uppercase; letter-spacing: 0.06em">Curious about Denmark</span>
+          <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 22px; font-weight: 600">Quantum in Denmark</span>
+          <span style="font-size: 15px; line-height: 1.55; color: #4a5368">Courses, research groups and companies – who does what, and where.</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- learn -->
+  <section id="learn" style="background: #ffffff">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px">
+        <div style="display: flex; flex-direction: column; gap: 10px; max-width: 640px">
+          <h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 38px">Learn quantum technology</h2>
+          <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #4a5368">Three areas that enabling quantum technologies&nbsp; &nbsp;</p>
+        </div>
+        <div role="group" aria-label="Choose explanation depth" style="display: inline-flex; padding: 4px; border-radius: 999px; background: #eef1f7; gap: 4px">
+          <button type="button" onClick="{{ setSimple }}" style="{{ simpleBtn }}">Explain it simply</button>
+          <button type="button" onClick="{{ setDeep }}" style="{{ deepBtn }}">I know some physics</button>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px">
+        <sc-for list="{{ topics }}" as="t" hint-placeholder-count="3">
+          <article style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 14px; padding: 28px; border-radius: 16px; border: 1px solid #e3e7f0; background: #fbfcfe">
+            <sc-if value="{{ t.isComp }}" hint-placeholder-val="{{ true }}">
+              <svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="A qubit state rotating on the Bloch sphere">
+                <circle cx="60" cy="60" r="46" fill="#f1f6ea" stroke="#3a6a0d" stroke-width="1.5"></circle>
+                <ellipse cx="60" cy="60" rx="46" ry="14" fill="none" stroke="#9cbf74" stroke-width="1" stroke-dasharray="3 3"></ellipse>
+                <line x1="60" y1="12" x2="60" y2="108" stroke="#c7d8b4" stroke-width="1"></line>
+                <text x="66" y="18" font-family="Inter, sans-serif" font-size="11" fill="#3a6a0d">|0⟩</text>
+                <text x="66" y="112" font-family="Inter, sans-serif" font-size="11" fill="#3a6a0d">|1⟩</text>
+                <path d="{{ bloch.trail }}" fill="none" stroke="#78ad38" stroke-width="1" opacity=".45"></path>
+                <line x1="60" y1="60" x2="60" y2="14" stroke="#234604" stroke-width="3" stroke-linecap="round">
+                  <animate attributeName="x2" values="{{ bloch.xs }}" dur="14s" repeatCount="indefinite"></animate>
+                  <animate attributeName="y2" values="{{ bloch.ys }}" dur="14s" repeatCount="indefinite"></animate>
+                </line>
+                <circle cx="60" cy="14" r="5" fill="#234604">
+                  <animate attributeName="cx" values="{{ bloch.xs }}" dur="14s" repeatCount="indefinite"></animate>
+                  <animate attributeName="cy" values="{{ bloch.ys }}" dur="14s" repeatCount="indefinite"></animate>
+                  <animate attributeName="r" values="{{ bloch.rs }}" dur="14s" repeatCount="indefinite"></animate>
+                </circle>
+              </svg>
+            </sc-if>
+            <sc-if value="{{ t.isSens }}" hint-placeholder-val="{{ false }}">
+              <svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Waves spreading from a quantum sensor">
+                <circle class="ring" cx="60" cy="60" r="52" fill="none" stroke="#2a73b8" stroke-width="2"></circle>
+                <circle class="ring" cx="60" cy="60" r="52" fill="none" stroke="#2a73b8" stroke-width="2" style="animation-delay: .87s"></circle>
+                <circle class="ring" cx="60" cy="60" r="52" fill="none" stroke="#2a73b8" stroke-width="2" style="animation-delay: 1.74s"></circle>
+                <rect x="50" y="50" width="20" height="20" rx="4" fill="#1a5590" transform="rotate(45 60 60)"></rect>
+              </svg>
+            </sc-if>
+            <sc-if value="{{ t.isComm }}" hint-placeholder-val="{{ false }}">
+              <svg width="200" height="120" viewBox="0 0 200 120" role="img" aria-label="A quantum wave packet travelling from node A to node B">
+                <line x1="25" y1="60" x2="175" y2="60" stroke="#f2c6cf" stroke-width="1" stroke-dasharray="3 3"></line>
+                <path d="{{ wave.env0 }}" fill="#f2c6cf" opacity=".55">
+                  <animate attributeName="d" values="{{ wave.envs }}" dur="3.2s" repeatCount="indefinite"></animate>
+                </path>
+                <path d="{{ wave.re0 }}" fill="none" stroke="#bf3653" stroke-width="2" stroke-linejoin="round">
+                  <animate attributeName="d" values="{{ wave.res }}" dur="3.2s" repeatCount="indefinite"></animate>
+                </path>
+                <circle cx="25" cy="60" r="16" fill="#951c37"></circle>
+                <circle cx="175" cy="60" r="16" fill="#951c37"></circle>
+                <text x="25" y="65" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#ffffff">A</text>
+                <text x="175" y="65" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#ffffff">B</text>
+              </svg>
+            </sc-if>
+            <span style="{{ t.tagStyle }}">{{ t.tag }}</span>
+            <h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 24px">{{ t.title }}</h3>
+            <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #2c3448">{{ t.text }}</p>
+            <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #5b6478">{{ t.foot }}</p>
+          </article>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- denmark in numbers -->
+  <section id="denmark" style="background: #0f1530; color: #ffffff">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+      <div style="display: flex; flex-direction: column; gap: 10px; max-width: 700px">
+        <h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 38px">Quantum in Denmark</h2>
+        <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #d5dcf2">Every course, research group and company on the map is placed on the European Competence Framework for Quantum Technologies (CFQT) – what it covers, and how far it goes.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px">
+        <div style="flex: 1 1 200px; padding: 22px; border-radius: 14px; background: #1b2347; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">{{ n.courses }}</span><span style="font-size: 15px; color: #d5dcf2">quantum courses at 5 universities</span></div>
+        <div style="flex: 1 1 200px; padding: 22px; border-radius: 14px; background: #1b2347; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">{{ n.groups }}</span><span style="font-size: 15px; color: #d5dcf2">research groups, 662 members</span></div>
+        <div style="flex: 1 1 200px; padding: 22px; border-radius: 14px; background: #1b2347; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">{{ n.positions }}</span><span style="font-size: 15px; color: #d5dcf2">PhD and postdoc positions</span></div>
+        <div style="flex: 1 1 200px; padding: 22px; border-radius: 14px; background: #1b2347; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 44px; font-weight: 700">{{ n.orgs }}</span><span style="font-size: 15px; color: #d5dcf2">companies and organisations</span></div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px">
+        <div style="flex: 1 1 340px; padding: 26px; border-radius: 16px; background: #ffffff; color: #141a2b; display: flex; flex-direction: column; gap: 10px">
+          <h3 style="margin: 0; font-size: 19px">Upper secondary school</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4a5368">Quantum physics is part of physics A on stx and htx. Workshops and teaching material bring quantum technology into the classroom.</p>
+        </div>
+        <div style="flex: 1 1 340px; padding: 26px; border-radius: 16px; background: #ffffff; color: #141a2b; display: flex; flex-direction: column; gap: 10px">
+          <h3 style="margin: 0; font-size: 19px">Universities</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4a5368">DTU, University of Copenhagen, Aarhus University, University of Southern Denmark and Aalborg University teach quantum from bachelor to PhD.</p>
+        </div>
+        <div style="flex: 1 1 340px; padding: 26px; border-radius: 16px; background: #ffffff; color: #141a2b; display: flex; flex-direction: column; gap: 10px">
+          <h3 style="margin: 0; font-size: 19px">Industry</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4a5368">From quantum hardware and software start-ups to lasers, chips and test facilities – and the investors and organisations around them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- roles behind login -->
+  <section id="roles" style="background: #f4f6fb">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
+      <div style="display: flex; flex-direction: column; gap: 10px; max-width: 720px">
+        <h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 38px">For students, researchers and industry</h2>
+        <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #4a5368">Log in to the full map: every proficiency triangle, course, group and company, with the evidence behind each placement.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px">
+        <div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 14px; padding: 28px; border-radius: 16px; background: #ffffff; border: 1px solid #e3e7f0">
+          <h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 24px">Students</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4a5368">Find quantum courses at all five universities and plan a study path that reaches the level you aim for.</p>
+          <ul style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.8; color: #2c3448">
+            <li>Course triangles per university</li>
+            <li>Study planner and CFQT profiles</li>
+            <li>PhD and postdoc positions</li>
+          </ul>
+        </div>
+        <div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 14px; padding: 28px; border-radius: 16px; background: #ffffff; border: 1px solid #e3e7f0">
+          <h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 24px">Researchers and educators</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4a5368">See the research groups, who teaches what, and the research proficiency of each member.</p>
+          <ul style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.8; color: #2c3448">
+            <li>Research groups and member cards</li>
+            <li>Educators and their courses</li>
+            <li>Publication check and PhD projects</li>
+          </ul>
+        </div>
+        <div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 14px; padding: 28px; border-radius: 16px; background: #ffffff; border: 1px solid #e3e7f0">
+          <h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 24px">Industry</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4a5368">See what Danish quantum companies work on, which skills job ads ask for, and where the talent is trained.</p>
+          <ul style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.8; color: #2c3448">
+            <li>Companies on the triangle</li>
+            <li>Job-ad demand per CFQT area</li>
+            <li>Courses and groups by topic</li>
+          </ul>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px">
+        <a href="Portal.dc.html" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border-radius: 999px; background: #1f45c9; color: #ffffff; text-decoration: none; font-weight: 600">Log in</a>
+        <span style="font-size: 15px; color: #4a5368">No account? <a href="#about">Request access from Danish Quantum Academy</a></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="about" style="background: #ffffff; border-top: 1px solid #e3e7f0">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; font-size: 14px; color: #5b6478">
+      <div style="display: flex; flex-direction: column; gap: 6px; max-width: 560px">
+        <span style="font-weight: 600; color: #141a2b">Danish Quantum Academy</span>
+        <span style="line-height: 1.55">Part of the European Quantum Academy. All information comes from public sources; CFQT tags and levels are our estimates and are checked with educators.</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px">
+        <a href="#about">About the data</a>
+        <a href="#about">Contact</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3900}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { deep: false, k: 0 }; }
+  componentDidMount() {
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) { this.setState({ k: 1 }); return; }
+    const t0 = Date.now();
+    this.timer = setInterval(() => {
+      const k = Math.min(1, (Date.now() - t0) / 1600);
+      this.setState({ k });
+      if (k >= 1) clearInterval(this.timer);
+    }, 40);
+  }
+  componentWillUnmount() { clearInterval(this.timer); }
+  renderVals() {
+    const deep = this.state.deep;
+    const e = 1 - Math.pow(1 - this.state.k, 3);
+    const n = { courses: Math.round(288 * e), groups: Math.round(23 * e), positions: Math.round(509 * e), orgs: Math.round(87 * e) };
+    const on = 'min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; background: #141a2b; color: #ffffff; font: 600 14px Inter, sans-serif; cursor: pointer';
+    const off = 'min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; background: transparent; color: #141a2b; font: 600 14px Inter, sans-serif; cursor: pointer';
+    const tag = (c) => 'font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: ' + c;
+    const simple = [
+      { tag: 'Computing', tagStyle: tag('#3a6a0d'), title: 'Quantum computers',
+        text: 'An ordinary computer works with bits that are either 0 or 1. A quantum computer uses qubits, which can be in a combination of 0 and 1 and can be linked to each other. For some problems, such as simulating molecules, this can make calculations possible that ordinary computers cannot manage.',
+        foot: 'Today\'s quantum computers are still small and sensitive to noise.' },
+      { tag: 'Sensing', tagStyle: tag('#2a73b8'), title: 'Quantum sensors',
+        text: 'Quantum states are extremely sensitive to their surroundings. Quantum sensors turn that sensitivity into very precise measurements of magnetic fields, time, gravity or temperature.',
+        foot: 'Examples: atomic clocks and magnetic sensors for medicine.' },
+      { tag: 'Communication', tagStyle: tag('#bf3653'), title: 'Quantum communication',
+        text: 'Information carried by single particles of light cannot be copied without leaving a trace. That makes it possible to share encryption keys whose security rests on the laws of physics.',
+        foot: 'It complements new classical encryption that is safe against quantum computers.' },
+    ];
+    const deeper = [
+      { tag: 'Computing · CFQT 4–5', tagStyle: tag('#3a6a0d'), title: 'Quantum computers',
+        text: 'Qubits are built from superconducting circuits, trapped ions, neutral atoms, photons or spins. The main obstacle is noise: quantum error correction combines many physical qubits into fewer, more reliable logical qubits. Algorithms with a proven advantage include factoring and simulation of quantum systems.',
+        foot: 'CFQT domain 4 (hardware) and 5 (computing and simulation).' },
+      { tag: 'Sensing · CFQT 6', tagStyle: tag('#2a73b8'), title: 'Quantum sensors',
+        text: 'Sensors use well-controlled quantum systems – NV centres in diamond, atomic vapours, trapped atoms, squeezed light – whose energy levels shift with the quantity being measured. Entanglement and squeezing can push precision beyond the standard quantum limit.',
+        foot: 'CFQT domain 6: field sensors, clocks, inertial sensors, imaging.' },
+      { tag: 'Communication · CFQT 7', tagStyle: tag('#bf3653'), title: 'Quantum communication',
+        text: 'Quantum key distribution, quantum random number generators and, further ahead, quantum repeaters and memories that link quantum computers and sensors into a quantum internet. Distance is limited by loss in fibres, which repeaters aim to overcome.',
+        foot: 'CFQT domain 7: QRNG, QKD, network infrastructure and applications.' },
+    ];
+    const kinds = (xs) => xs.map((x, i) => ({ ...x, isComp: i === 0, isSens: i === 1, isComm: i === 2 }));
+    if (!this.anim) {
+      // Bloch sphere: the state moves pole to pole while it precesses, so it sweeps the whole sphere
+      const tilt = 0.32, R = 46, N = 241, xs = [], ys = [], rs = [], tr = [];
+      for (let i = 0; i < N; i++) {
+        const s = i / (N - 1);
+        const th = 0.12 + (Math.PI - 0.24) * (0.5 - 0.5 * Math.cos(2 * Math.PI * s));
+        const ph = 2 * Math.PI * 6 * s;
+        const X = Math.sin(th) * Math.cos(ph), Y = Math.sin(th) * Math.sin(ph), Z = Math.cos(th);
+        const sx = 60 + R * Y, sy = 60 - R * (Z * Math.cos(tilt) - X * Math.sin(tilt));
+        const depth = X * Math.cos(tilt) + Z * Math.sin(tilt);
+        xs.push(sx.toFixed(1)); ys.push(sy.toFixed(1)); rs.push((4.5 + 1.5 * depth).toFixed(2));
+        tr.push((i ? 'L' : 'M') + sx.toFixed(1) + ' ' + sy.toFixed(1));
+      }
+      // wave packet: Re psi = envelope * cos(k(x - c) - wt), the centre moving from A to B
+      const F = 160, envs = [], res = [];
+      for (let f = 0; f < F; f++) {
+        const s = f / (F - 1), c = 30 + 140 * s, w = 16 + 6 * s, amp = 26 * Math.sqrt(16 / w);
+        let re = '', top = '', bot = [];
+        for (let x = 25; x <= 175.01; x += 2.5) {
+          const g = amp * Math.exp(-Math.pow((x - c) / w, 2));
+          const v = g * Math.cos(0.42 * (x - c)) * Math.cos(2 * Math.PI * 2 * s);
+          re += (x === 25 ? 'M' : 'L') + x.toFixed(1) + ' ' + (60 - v).toFixed(1);
+          top += (x === 25 ? 'M' : 'L') + x.toFixed(1) + ' ' + (60 - g).toFixed(1);
+          bot.unshift('L' + x.toFixed(1) + ' ' + (60 + g).toFixed(1));
+        }
+        res.push(re); envs.push(top + bot.join('') + 'Z');
+      }
+      // electron density |psi(theta)|^2 around the ring: a superposition of angular modes that jumps at random moments;
+      // ground state: one maximum, larger (excited) orbit: two maxima
+      let seed = 11; const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+      const kt = [], frames = [];
+      let t = 0;
+      while (t < 1) {
+        const ex = t >= 0.45 && t < 0.9;
+        frames.push({ R: ex ? 122 : 64, m: ex ? 2 : 1, th0: rnd() * 2 * Math.PI, c: 0.55 + 0.4 * rnd(), c2: 0.25 * rnd(), ph: rnd() * 2 * Math.PI });
+        kt.push(t.toFixed(4));
+        let nt = t + (0.02 + 0.07 * rnd());
+        if (t < 0.45 && nt > 0.45) nt = 0.45;
+        if (t < 0.9 && nt > 0.9) nt = 0.9;
+        t = nt;
+      }
+      const K = 48, segs = [];
+      for (let k = 0; k < K; k++) {
+        const a = 2 * Math.PI * k / K, xs = [], ys = [], rs = [], os = [];
+        frames.forEach((f) => {
+          // psi = 1 + c e^{i m (a - th0)} + c2 e^{i (m+1)(a - th0) + i ph}
+          const u = f.m * (a - f.th0), v = (f.m + 1) * (a - f.th0) + f.ph;
+          const re = 1 + f.c * Math.cos(u) + f.c2 * Math.cos(v), im = f.c * Math.sin(u) + f.c2 * Math.sin(v);
+          const d = (re * re + im * im) / Math.pow(1 + f.c + f.c2, 2);
+          xs.push((200 + f.R * Math.cos(a)).toFixed(1)); ys.push((190 + f.R * Math.sin(a)).toFixed(1));
+          rs.push(f.R > 100 ? '17' : '12'); os.push((0.04 + 0.9 * d).toFixed(2));
+        });
+        segs.push({ xs: xs.join(';'), ys: ys.join(';'), rs: rs.join(';'), os: os.join(';'), x0: xs[0], y0: ys[0], r0: rs[0], o0: os[0] });
+      }
+      this.anim = {
+        cloud: { kt: kt.join(';'), segs },
+        bloch: { xs: xs.join(';'), ys: ys.join(';'), rs: rs.join(';'), trail: tr.join('') },
+        wave: { res: res.join(';'), envs: envs.join(';'), re0: res[0], env0: envs[0] },
+      };
+    }
+    return {
+      n,
+      bloch: this.anim.bloch,
+      cloud: this.anim.cloud,
+      wave: this.anim.wave,
+      topics: kinds(deep ? deeper : simple),
+      simpleBtn: deep ? off : on,
+      deepBtn: deep ? on : off,
+      setSimple: () => this.setState({ deep: false }),
+      setDeep: () => this.setState({ deep: true }),
+    };
+  }
+}
+</script>
+</body>
+</html>

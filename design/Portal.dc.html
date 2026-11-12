@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quantum Denmark – logged in</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#f4f6fb}
+a{color:#1f45c9}a:hover{color:#142f8f}
+</style>
+</helmet>
+<div style="font-family: Inter, system-ui, sans-serif; color: #141a2b; background: #f4f6fb; width: 100%; min-height: 100vh">
+
+  <header style="border-bottom: 1px solid #e3e7f0; background: #ffffff">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+      <a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #141a2b">
+        <svg width="28" height="26" viewBox="0 0 28 26" aria-hidden="true"><polygon points="14,1 27,25 1,25" fill="none" stroke="#141a2b" stroke-width="2"></polygon><polygon points="14,1 20.5,13 7.5,13" fill="#3a6a0d"></polygon><polygon points="7.5,13 14,25 1,25" fill="#2a73b8"></polygon><polygon points="20.5,13 27,25 14,25" fill="#bf3653"></polygon></svg>
+        <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 18px">Quantum Denmark</span>
+      </a>
+      <nav aria-label="Account" style="display: flex; flex-wrap: wrap; align-items: center; gap: 18px; font-size: 15px">
+        <a href="Main.dc.html" style="color: #141a2b; text-decoration: none">Public front page</a>
+        <span style="color: #5b6478">Signed in</span>
+        <a href="Main.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid #c9d0de; color: #141a2b; text-decoration: none">Log out</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 48px 24px 72px; display: flex; flex-direction: column; gap: 32px">
+    <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 8px; max-width: 640px">
+        <h1 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 40px">{{ heading }}</h1>
+        <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #4a5368">{{ intro }}</p>
+      </div>
+      <div role="group" aria-label="I am a" style="display: inline-flex; flex-wrap: wrap; padding: 4px; border-radius: 999px; background: #ffffff; border: 1px solid #e3e7f0; gap: 4px">
+        <sc-for list="{{ roles }}" as="r" hint-placeholder-count="3">
+          <button type="button" onClick="{{ r.pick }}" style="{{ r.style }}">{{ r.label }}</button>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px">
+      <section style="flex: 1 1 380px; min-width: 0; padding: 28px; border-radius: 18px; background: #0f1530; color: #ffffff; display: flex; flex-direction: column; gap: 16px">
+        <h2 style="margin: 0; font-size: 20px">Proficiency triangle · Denmark</h2>
+        <svg width="100%" height="240" viewBox="0 0 300 260" role="img" aria-label="Proficiency triangle for Denmark with levels A1 to C2 in three areas">
+          <polygon points="150,8 292,252 8,252" fill="none" stroke="#a9b8ff" stroke-width="1.5"></polygon>
+          <polygon points="150,8 185,68 115,68" fill="#234604"></polygon>
+          <polygon points="115,68 185,68 210,111 90,111" fill="#3a6a0d"></polygon>
+          <polygon points="90,111 210,111 221,130 79,130" fill="#55891b"></polygon>
+          <polygon points="79,130 221,130 150,252" fill="#1b2347"></polygon>
+          <polygon points="8,252 50,252 29,216" fill="#0c3863"></polygon>
+          <polygon points="29,216 50,252 92,252 60,198" fill="#1a5590"></polygon>
+          <polygon points="292,252 250,252 271,216" fill="#640a20"></polygon>
+          <polygon points="271,216 250,252 208,252 240,198" fill="#951c37"></polygon>
+          <text x="150" y="50" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#ffffff">C2</text>
+          <text x="30" y="246" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#ffffff">C2</text>
+          <text x="270" y="246" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#ffffff">C2</text>
+        </svg>
+        <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #d5dcf2">{{ triNote }}</p>
+        <a href="#open" style="display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #ffffff; color: #0f1530; text-decoration: none; font-weight: 600">Open the triangles</a>
+      </section>
+
+      <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-wrap: wrap; gap: 16px; align-content: flex-start">
+        <sc-for list="{{ tiles }}" as="t" hint-placeholder-count="6">
+          <a href="#open" style="{{ t.style }}">
+            <span style="font-family: 'Space Grotesk', Inter, sans-serif; font-size: 19px; font-weight: 600; color: #141a2b">{{ t.title }}</span>
+            <span style="font-size: 14px; line-height: 1.5; color: #4a5368">{{ t.text }}</span>
+            <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #1f45c9">{{ t.badge }}</span>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+
+    <p style="margin: 0; font-size: 14px; color: #5b6478">All tools stay open to every logged-in user; the role only changes the order and what is highlighted.</p>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1500}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { role: 'student' }; }
+  renderVals() {
+    const role = this.state.role;
+    const btn = (on) => 'min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; font: 600 14px Inter, sans-serif; cursor: pointer; ' + (on ? 'background: #141a2b; color: #ffffff' : 'background: transparent; color: #141a2b');
+    const R = {
+      student: { label: 'Student', heading: 'Plan your quantum studies', intro: 'Compare quantum courses across the five universities, see the CFQT level each one reaches, and build a study path towards a qualification profile.', tri: 'Select a university to see its course triangle, or switch to PhD and postdoc projects.', order: ['courses', 'planner', 'phd', 'groups', 'educators', 'industry'] },
+      researcher: { label: 'Researcher / educator', heading: 'Research and teaching in quantum', intro: 'See the research groups and their members\' proficiency, the evidence behind each level, PhD projects, and who teaches which course.', tri: 'Show the research of the educators and groups, area by area.', order: ['groups', 'educators', 'phd', 'courses', 'industry', 'planner'] },
+      industry: { label: 'Industry', heading: 'Skills and partners for quantum', intro: 'See what Danish quantum companies work on, which competences job ads ask for, and which courses and research groups train them.', tri: 'Show companies and job-ad demand on the triangle, next to courses and research.', order: ['industry', 'jobs', 'groups', 'courses', 'phd', 'educators'] },
+    };
+    const T = {
+      courses: { title: 'Courses and triangles', text: '288 quantum courses at DTU, KU, AU, SDU and AAU, each placed on the CFQT map and triangle.', badge: 'Proficiency' },
+      planner: { title: 'Study planner', text: 'Build a study path from your interests and compare it with the CFQT qualification profiles.', badge: 'Planner' },
+      phd: { title: 'PhD and postdoc projects', text: '509 positions, with project, supervisor and CFQT topic where known.', badge: 'Research' },
+      groups: { title: 'Research groups', text: '23 groups and 662 members, with proficiency triangles and member cards.', badge: 'Groups' },
+      educators: { title: 'Educators', text: 'Who teaches which course, and how their research matches the course.', badge: 'Educators' },
+      industry: { title: 'Companies and organisations', text: '87 organisations, 73 of them on the triangle, with role, city and CFQT topics.', badge: 'Industry' },
+      jobs: { title: 'Job-ad demand', text: 'Quantum job ads collected every week, with the level each role asks for.', badge: 'Industry' },
+    };
+    const r = R[role];
+    const tiles = r.order.map((k, i) => ({ ...T[k], style: 'flex: 1 1 260px; display: flex; flex-direction: column; gap: 8px; padding: 22px; border-radius: 16px; text-decoration: none; background: #ffffff; border: ' + (i < 2 ? '2px solid #1f45c9' : '1px solid #e3e7f0') }));
+    return {
+      heading: r.heading, intro: r.intro, triNote: r.tri, tiles,
+      roles: Object.keys(R).map((k) => ({ label: R[k].label, style: btn(k === role), pick: () => this.setState({ role: k }) })),
+    };
+  }
+}
+</script>
+</body>
+</html>
