@@ -2366,5 +2366,671 @@
     "https://doi.org/10.1021/acs.est.2c08119"
    ]
   ]
+ },
+ "Danish Fundamental Metrology A/S (DFM, Danish metrology institute)": {
+  "id": "I4387152445",
+  "display": "Danish National Metrology Institute",
+  "works": 157,
+  "co": [
+   {
+    "id": "I96673099",
+    "name": "Technical University of Denmark",
+    "count": 47
+   },
+   {
+    "id": "I1285933455",
+    "name": "Physikalisch-Technische Bundesanstalt",
+    "count": 33
+   },
+   {
+    "id": "I4210136623",
+    "name": "Bundesministerium für Wirtschaft und Energie",
+    "count": 33
+   },
+   {
+    "id": "I4210107682",
+    "name": "Laboratoire National de Métrologie et d'Essais",
+    "count": 26
+   },
+   {
+    "id": "I4210124866",
+    "name": "Český metrologický institut",
+    "count": 22
+   },
+   {
+    "id": "I124055696",
+    "name": "University of Copenhagen",
+    "count": 18
+   },
+   {
+    "id": "I1330165540",
+    "name": "Federal Institute For Materials Research and Testing",
+    "count": 11
+   },
+   {
+    "id": "I4210124062",
+    "name": "Tübitak National Metrology Institute",
+    "count": 11
+   },
+   {
+    "id": "I4210164637",
+    "name": "VSL National Metrology Institute",
+    "count": 11
+   },
+   {
+    "id": "I4210089493",
+    "name": "Ministry of Economic Affairs and Employment",
+    "count": 10
+   },
+   {
+    "id": "I4210104593",
+    "name": "Governo Italiano",
+    "count": 10
+   },
+   {
+    "id": "I4210136559",
+    "name": "Istituto Nazionale di Ricerca Metrologica",
+    "count": 10
+   },
+   {
+    "id": "I4392021227",
+    "name": "Ministero dell'Istruzione e del Merito",
+    "count": 10
+   },
+   {
+    "id": "I87653560",
+    "name": "VTT Technical Research Centre of Finland",
+    "count": 10
+   },
+   {
+    "id": "I134421475",
+    "name": "National Physical Laboratory",
+    "count": 9
+   },
+   {
+    "id": "I177969490",
+    "name": "University of Southern Denmark",
+    "count": 9
+   },
+   {
+    "id": "I2800664555",
+    "name": "RISE Research Institutes of Sweden",
+    "count": 9
+   },
+   {
+    "id": "I124158823",
+    "name": "Conservatoire National des Arts et Métiers",
+    "count": 8
+   },
+   {
+    "id": "I4210134562",
+    "name": "HESAM Université",
+    "count": 8
+   },
+   {
+    "id": "I66862912",
+    "name": "Chalmers University of Technology",
+    "count": 8
+   },
+   {
+    "id": "I1294671590",
+    "name": "Centre National de la Recherche Scientifique",
+    "count": 7
+   },
+   {
+    "id": "I198068145",
+    "name": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu",
+    "count": 7
+   },
+   {
+    "id": "I4210103407",
+    "name": "Swiss Federal Institute of Metrology",
+    "count": 7
+   },
+   {
+    "id": "I4210162136",
+    "name": "National Institute of Metrology",
+    "count": 7
+   },
+   {
+    "id": "I4405258865",
+    "name": "Laboratoire commun de métrologie",
+    "count": 7
+   }
+  ],
+  "titles": [
+   [
+    2026,
+    "Sidewall Metrology Protocol for Superconducting Qubit Devices",
+    "https://doi.org/10.48550/arxiv.2610.26223"
+   ],
+   [
+    2026,
+    "Spatially resolving multiple layer thicknesses in thin films with an optical in-line roll-to-roll characterization setup",
+    "https://doi.org/10.1364/oe.610134"
+   ],
+   [
+    2026,
+    "Report on a EURAMET pilot study for the comparison of calibrations of Conductive Atomic Force Microscopy (C-AFM)",
+    "https://doi.org/10.1109/cpem68396.2026.11756890"
+   ],
+   [
+    2026,
+    "Game of Life on Archimedean Lattices: Glider Guns and Phase Dynamics",
+    "https://doi.org/10.48550/arxiv.2608.27622"
+   ],
+   [
+    2026,
+    "Interpretable Spectral Transformer for Raman-Based Bacterial Identification Across Species and Strains",
+    "https://doi.org/10.3390/chemosensors14080179"
+   ],
+   [
+    2026,
+    "Hyperspectral imaging for inline quality monitoring of roll-to-roll slot-die coated organic photovoltaic active layers",
+    "https://doi.org/10.48550/arxiv.2607.24278"
+   ],
+   [
+    2026,
+    "Raw data for \"Towards Standardization of Conductive Atomic Force Microsopy\" manuscript",
+    "https://doi.org/10.5281/zenodo.21470369"
+   ],
+   [
+    2026,
+    "Microbiologically influenced corrosion in water utility systems: a cross-system review of knowledge gaps, standards, and mitigation challenges",
+    "https://doi.org/10.2166/aqua.2026.089"
+   ],
+   [
+    2026,
+    "Correlative confocal and atomic force microscopy imaging for particle metrology: theory and measurements",
+    "https://doi.org/10.1088/2515-7647/ae82a1"
+   ],
+   [
+    2026,
+    "Multi-channel calibration of microphone arrays based on the array related transfer function",
+    "https://doi.org/10.1016/j.apacoust.2026.111444"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D5",
+    "https://doi.org/10.5281/zenodo.20547252"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D2",
+    "https://doi.org/10.5281/zenodo.20543116"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D6",
+    "https://doi.org/10.5281/zenodo.20545483"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad - Deliverable D7",
+    "https://doi.org/10.5281/zenodo.20546738"
+   ],
+   [
+    2026,
+    "22RPT03 MultiFixRad Deliverable D3",
+    "https://doi.org/10.5281/zenodo.20541893"
+   ],
+   [
+    2026,
+    "Using a camera as a novel interpolating pyrometer for use in relative primary thermometry by DFM",
+    "https://doi.org/10.5281/zenodo.20445655"
+   ],
+   [
+    2026,
+    "Towards_Standardization_of_CAFM_Figures_data_v1",
+    "https://doi.org/10.5281/zenodo.19348198"
+   ],
+   [
+    2026,
+    "Optical and electrical signatures of charge trapping in hybrid perovskite MAPbBr3 single crystals",
+    "https://doi.org/10.1063/5.0314852"
+   ],
+   [
+    2026,
+    "CCM.M-K8.2024: Realization of the kilogram",
+    "https://doi.org/10.59161/qofv3225"
+   ],
+   [
+    2026,
+    "Magnetic texture modulated superconductivity in superconductor/ferromagnet shells of semiconductor nanowires",
+    "https://doi.org/10.48550/arxiv.2601.22051"
+   ],
+   [
+    2026,
+    "EURAMET.QM-K170: Measurement of electrolytic conductivity",
+    "https://doi.org/10.59161/puox8830"
+   ],
+   [
+    2026,
+    "Linking hydrothermal deactivation of Cu-CHA catalysts for NH 3 -SCR to dealumination and reduced [Cu 2 (NH 3 ) 4 O 2 ] 2+ formation",
+    "https://doi.org/10.1039/d5cy01491c"
+   ],
+   [
+    2026,
+    "The Isted Lion, Rehabilitation of a War Monument",
+    "https://doi.org/10.1007/978-3-030-61493-5_332-1"
+   ],
+   [
+    2026,
+    "6th International DCC-Conference",
+    "https://doi.org/10.7795/810.20260312"
+   ],
+   [
+    2026,
+    "Towards innovative optical gas standards for N2O – advancing metrological traceability for greenhouse gas quantification and control",
+    "https://doi.org/10.7795/810.20260601b"
+   ],
+   [
+    2026,
+    "Updates on the Performance and Ruggedization of MIRIDIAN1, an Integrated Optical Clock Based on Acetylene (C2H2) Overtone Transitions",
+    "https://doi.org/10.1364/cleo_at.2026.am3c.3"
+   ],
+   [
+    2026,
+    "Sensing Methane with Undetected Backscattered Mid-Infrared Light",
+    "https://doi.org/10.1364/cleo_at.2026.jtu.4"
+   ],
+   [
+    2026,
+    "Towards standardization of conductive atomic force microscopy",
+    "https://doi.org/10.1039/d6nr01323f"
+   ],
+   [
+    2026,
+    "Improving breast mass classification using control-driven data augmentation",
+    "https://doi.org/10.1016/j.rcro.2026.100581"
+   ],
+   [
+    2025,
+    "Hyper-spectral imaging with up-converted mid-infrared single-photons",
+    "https://doi.org/10.1038/s41598-025-32361-8"
+   ],
+   [
+    2025,
+    "Active fiber-loop method for improved performance assessment of Brillouin OTDR systems",
+    "https://doi.org/10.1364/ol.583530"
+   ],
+   [
+    2025,
+    "Good practice guide on metrologically traceable quality monitoring in the hydrogen supply chain, including offline measurements and onsite calibration, and recommendations for future improvements of ISO 19880-8 and ISO 21087",
+    "https://doi.org/10.5281/zenodo.18346567"
+   ],
+   [
+    2025,
+    "Fiber artefact for performance evaluation of time domain distributed fiber sensor interrogators",
+    "https://doi.org/10.1088/1361-6501/ae214e"
+   ],
+   [
+    2025,
+    "Summary report on: The development of pristine SI traceable reference materials for SMPs (0.1 μm - 10 μm) and NPs (< 0.1 μm), representative of partially degraded/naturally aged samples in complex food and environmental matrices, and for realistic polydisperse size distributions and irregular shapes",
+    "https://doi.org/10.5281/zenodo.17610267"
+   ],
+   [
+    2025,
+    "Corrigendum to “Comparison of rigorous scattering models to accurately replicate the behaviour of scattered electromagnetic waves in optical surface metrology” [Journal of Computational Physics, 521 (2025), 1-21/113519]",
+    "https://doi.org/10.1016/j.jcp.2025.114480"
+   ],
+   [
+    2025,
+    "Measurement of Lateral Resolution in Confocal Raman Spectroscopy Using Indium Arsenide Nanowires",
+    "https://doi.org/10.1002/jrs.70054"
+   ],
+   [
+    2025,
+    "Report on the validated reference techniques used for emittance and reflectance measurements of PRC materials in the spectral range 0.25 µm – 50 µm, with a target uncertainty below 3 % for emissivity and absorptivity",
+    "https://doi.org/10.5281/zenodo.17684599"
+   ],
+   [
+    2025,
+    "Super-resolution imaging with nanopipettes",
+    "https://doi.org/10.1038/s44303-025-00108-9"
+   ],
+   [
+    2025,
+    "Abstract A030: 2X-121, a novel, dual inhibitor of PARP and tankyrase, shows promising clinical benefit in a phase 2 trial in advanced, recurrent ovarian cancer patients (NCT#03878849)",
+    "https://doi.org/10.1158/1538-7445.ovarian25-a030"
+   ],
+   [
+    2025,
+    "Digital twin for 3D confocal microscopy, 3D through focus microscopy and confocal Fourier microscopy",
+    "https://doi.org/10.1117/12.3063846"
+   ],
+   [
+    2025,
+    "Accurate Identification of Bacteria Using a Spectral Transformer Machine Learning Model for Hyperspectral Raman Images",
+    "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11109654"
+   ],
+   [
+    2025,
+    "Characterization and Validation of CV-QKD Systems Traceable to the SI Units",
+    "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11111672"
+   ],
+   [
+    2025,
+    "Distributed Few-Mode Fiber Point Sensor",
+    "https://doi.org/10.1109/cleo/europe-eqec65582.2025.11110467"
+   ],
+   [
+    2025,
+    "Remote methane sensing using single-photon PPLN-waveguide upconversion lidar",
+    "https://doi.org/10.1364/oe.562989"
+   ],
+   [
+    2025,
+    "Bayesian approach for in Situ Numerical Aperture calibration and pitch determination in optical microscopy",
+    "https://doi.org/10.1016/j.measurement.2025.117851"
+   ],
+   [
+    2025,
+    "Fiber-artefact methodology for distributed Brillouin sensing",
+    "https://doi.org/10.1117/12.3062152"
+   ],
+   [
+    2025,
+    "Surface effects in quasiatomic layer etching of silicon",
+    "https://doi.org/10.1116/6.0004257"
+   ],
+   [
+    2025,
+    "Non-Invasive Real-Time Monitoring of Bacterial Activity by Non-Contact Impedance Spectroscopy for Off-the-Shelf Labware",
+    "https://doi.org/10.3390/s25082427"
+   ],
+   [
+    2025,
+    "Digital Calibration Certificates (DCC): Benefits and Challenges to overcome for implementation",
+    "https://doi.org/10.1051/epjconf/202532301001/pdf"
+   ],
+   [
+    2025,
+    "Digital Twins for 3D Confocal Microscopy: Near-Field, Far-Field, and Comparison with Experiments",
+    "https://doi.org/10.3390/s25072001"
+   ],
+   [
+    2025,
+    "Emissivity and Reflectivity Measurements for Passive Radiative Cooling Technologies",
+    "https://doi.org/10.1007/s10765-025-03532-6"
+   ],
+   [
+    2025,
+    "Instrumentation and uncertainty evaluation for absolute characterization of thin films and nanostructured surfaces in advanced optical metrology",
+    "https://doi.org/10.1088/1681-7575/adbbf3"
+   ],
+   [
+    2025,
+    "Recent progress in optical nanometrology for the semiconductor industry",
+    "https://doi.org/10.1016/j.measen.2024.101607"
+   ],
+   [
+    2025,
+    "Resolution enhancement methods in optical microscopy for dimensional optical metrology",
+    "https://doi.org/10.1051/jeos/2025002"
+   ],
+   [
+    2025,
+    "Biological and soft matter matter",
+    "https://doi.org/10.1038/s41567-024-02734-3"
+   ],
+   [
+    2025,
+    "Atomic force microscopy as a multimetrological platform for energy devices",
+    "https://doi.org/10.1039/d4nr05107f"
+   ],
+   [
+    2025,
+    "Status and future of metrology for dynamic measurement in Nordic and Baltic countries",
+    "https://doi.org/10.1051/epjconf/202532306004"
+   ],
+   [
+    2025,
+    "Digital Calibration Certificates (DCC): Benefits and Challenges to overcome for implementation",
+    "https://doi.org/10.1051/epjconf/202532301001"
+   ],
+   [
+    2025,
+    "Repeaterless Brillouin OTDR Sensing",
+    "https://doi.org/10.1364/ofc.2025.m1c.3"
+   ],
+   [
+    2025,
+    "Subsequent key comparison of the pH of a borate buffer",
+    "https://doi.org/10.1088/0026-1394/62/1a/08024"
+   ],
+   [
+    2024,
+    "DCC2GO – Supporting the implementation of Digital Calibration Certificates in the European metrology community",
+    "https://doi.org/10.1016/j.measen.2024.101499"
+   ],
+   [
+    2024,
+    "Does charge trapping affect subcritical crack growth behavior of yttria‐stabilized zirconia?",
+    "https://doi.org/10.1111/jace.20295"
+   ],
+   [
+    2024,
+    "ELENA project – electrical nanoscale metrology in industry: key outcomes",
+    "https://openalex.org/W4403664344"
+   ],
+   [
+    2024,
+    "Comparison of rigorous scattering models to accurately replicate the behaviour of scattered electromagnetic waves in optical surface metrology",
+    "https://doi.org/10.1016/j.jcp.2024.113519"
+   ],
+   [
+    2024,
+    "RETRACTED: Large-Area Bilayer Organic Solar Cells: Manipulating Interface and Morphology with Solvent Drenched Slot-Die Coating",
+    "https://doi.org/10.26434/chemrxiv-2024-gtt6j-v2"
+   ],
+   [
+    2024,
+    "RETRACTED: Large-Area Bilayer Organic Solar Cells: Manipulating Interface and Morphology with Solvent Drenched Slot-Die Coating",
+    "https://doi.org/10.26434/chemrxiv-2024-gtt6j"
+   ],
+   [
+    2024,
+    "Digital twins for 3D confocal microscopy",
+    "https://doi.org/10.1117/12.3016808"
+   ],
+   [
+    2024,
+    "Far-field super-resolution imaging using scanning photonic nanojets",
+    "https://doi.org/10.1117/12.3017486"
+   ],
+   [
+    2024,
+    "Modeling the Brillouin Spectrum in Raman Amplifier-Assisted Brillouin OTDR",
+    "https://doi.org/10.1109/jlt.2024.3412407"
+   ],
+   [
+    2024,
+    "Artificial neural network assisted spectral scatterometry for grating quality control",
+    "https://doi.org/10.1088/1361-6501/ad4e52"
+   ],
+   [
+    2024,
+    "Field-induced electronic phase separation in the high-temperature superconductor La1.94Sr0.06CuO4+y",
+    "https://doi.org/10.1103/physrevb.109.174517"
+   ],
+   [
+    2024,
+    "Survey of bidirectional transmittance distribution function measurement facilities by multilateral scale comparisons",
+    "https://doi.org/10.1088/1681-7575/ad3fbd"
+   ],
+   [
+    2024,
+    "Deep-reactive ion etching of silicon nanowire arrays at cryogenic temperatures",
+    "https://doi.org/10.1063/5.0166284"
+   ],
+   [
+    2024,
+    "High-Temperature Reaction Mechanism of NH3-SCR over Cu-CHA: One or Two Copper Ions?",
+    "https://doi.org/10.1021/acs.jpcc.4c00554"
+   ],
+   [
+    2024,
+    "Optics miniaturization strategy for demanding Raman spectroscopy applications",
+    "https://doi.org/10.1038/s41467-024-47044-7"
+   ],
+   [
+    2024,
+    "A calculable pistonphone for the absolute calibration of hydrophones in the frequency range from 0.5 Hz to 250 Hz",
+    "https://doi.org/10.1088/1681-7575/ad2d5a"
+   ],
+   [
+    2024,
+    "Mechanism for Cu-enhanced hydrothermal stability of Cu–CHA for NH 3 -SCR",
+    "https://doi.org/10.1039/d4cy00373j"
+   ],
+   [
+    2024,
+    "The CCL-K11 ongoing key comparison. Final report for 2023",
+    "https://doi.org/10.1088/0026-1394/61/1a/04002"
+   ],
+   [
+    2024,
+    "Repeaterless Brillouin OTDR Sensing over 250 km using Erbium doped Fiber Amplifier",
+    "https://doi.org/10.1364/ofc.2024.m2k.6"
+   ],
+   [
+    2024,
+    "An Acetylene-based Optical Clock with < 3 × 10 − 13 / τ Fractional Frequency Instability",
+    "https://doi.org/10.1364/cleo_at.2024.af1f.2"
+   ],
+   [
+    2024,
+    "Comparison measurements for hybrid evaluation approaches in optical nanometrology",
+    "https://doi.org/10.1051/epjconf/202430902005"
+   ],
+   [
+    2024,
+    "Simple Few-Mode Sensor with Temperature Strain Discrimination",
+    "https://openalex.org/W4412216114"
+   ],
+   [
+    2023,
+    "The sensitisation of quartz extracted from andesite",
+    "https://doi.org/10.1016/j.radmeas.2023.107048"
+   ],
+   [
+    2023,
+    "Experiment with simultaneous measurements at two optical wavelengths in the FG5X absolute gravimeter",
+    "https://doi.org/10.1088/1361-6501/ad1311"
+   ],
+   [
+    2023,
+    "Determination of the numerical aperture for spectroscopic microscopy beyond the diffraction limit",
+    "https://doi.org/10.1117/12.2685124"
+   ],
+   [
+    2023,
+    "Rigorous pH measurement in non-aqueous solution: measurement method and reference values in ethanol",
+    "https://doi.org/10.1007/s00216-023-05043-5"
+   ],
+   [
+    2023,
+    "Quartz-Enhanced Photoacoustic Spectroscopy Assisted by Partial Least-Squares Regression for Multi-Gas Measurements",
+    "https://doi.org/10.3390/s23187984"
+   ],
+   [
+    2023,
+    "Gate-tunable superconductivity in hybrid InSb–Pb nanowires",
+    "https://doi.org/10.1063/5.0155663"
+   ],
+   [
+    2023,
+    "Non-normalized Mueller ellipsometry is better than normalized Mueller ellipsometry",
+    "https://doi.org/10.1117/12.2673252"
+   ],
+   [
+    2023,
+    "Near- and far-field simulations of 2D particles with photonic structure",
+    "https://doi.org/10.1117/12.2673298"
+   ],
+   [
+    2023,
+    "Lower-temperature fabrication of airbridges by grayscale lithography to increase yield of nanowire transmons in circuit QED quantum processors",
+    "https://doi.org/10.1063/5.0146814"
+   ],
+   [
+    2023,
+    "Hybrid metrology for nanometric energy harvesting devices",
+    "https://doi.org/10.1088/1361-6501/acdf08"
+   ],
+   [
+    2023,
+    "Epitaxially Driven Phase Selectivity of Sn in Hybrid Quantum Nanowires",
+    "https://doi.org/10.1021/acsnano.3c02733"
+   ],
+   [
+    2023,
+    "Gradual emergence of superconductivity in underdoped La2−xSrxCuO4",
+    "https://doi.org/10.1103/physrevb.107.174514"
+   ],
+   [
+    2023,
+    "ELENA : a European project for electrical nanoscale metrology in industry",
+    "https://openalex.org/W4380589202"
+   ],
+   [
+    2023,
+    "Toward Photonic Nanojet Imaging for Microscopy",
+    "https://doi.org/10.23919/aces57841.2023.10114700"
+   ],
+   [
+    2023,
+    "Harvey–Shack theory for a converging–diverging Gaussian beam",
+    "https://doi.org/10.1364/josab.478801"
+   ],
+   [
+    2023,
+    "Accurate identification of bacteria in a minimally prepared environment using Raman spectroscopy assisted by machine learning",
+    "https://doi.org/10.1117/12.2646653"
+   ],
+   [
+    2023,
+    "Applications of pump modulated UV supercontinuum",
+    "https://doi.org/10.1117/12.2649984"
+   ],
+   [
+    2023,
+    "Towards quantum-enhanced Raman spectroscopy for bioimaging applications",
+    "https://doi.org/10.1117/12.2646648"
+   ]
+  ]
+ },
+ "Hamamatsu Photonics A/S (formerly NKT Photonics)": {
+  "id": "",
+  "works": 0
+ },
+ "IonQ Quantum Denmark": {
+  "id": "",
+  "works": 0
+ },
+ "LQUOM Denmark ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Pelagic Systems ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Phanofi ApS": {
+  "id": "",
+  "works": 0
+ },
+ "QVersion ApS": {
+  "id": "",
+  "works": 0
+ },
+ "VACPRO ApS": {
+  "id": "",
+  "works": 0
+ },
+ "Vescent Technologies ApS": {
+  "id": "",
+  "works": 0
  }
 }
