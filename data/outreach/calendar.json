@@ -1,23 +1,23 @@
 {
  "sources": {
   "https://nbi.ku.dk/english/kalender/?get_rss=1": {
-   "status": "not reachable (URLError)",
-   "tried": "2026-11-12"
+   "status": "not reachable (TimeoutError)",
+   "tried": "2026-11-16"
   },
   "https://nbi.ku.dk/kalender/?get_rss=1": {
-   "status": "not reachable (URLError)",
-   "tried": "2026-11-12"
+   "status": "not reachable (HTTPError)",
+   "tried": "2026-11-16"
   },
   "https://phys.au.dk/aktuelt/arrangementer": {
    "status": "read",
-   "read": "2026-11-12",
-   "events": 5,
+   "read": "2026-11-16",
+   "events": 3,
    "kept": 0
   },
   "https://phys.au.dk/en/news/events": {
    "status": "read",
-   "read": "2026-11-12",
-   "events": 5,
+   "read": "2026-11-16",
+   "events": 3,
    "kept": 0
   }
  },

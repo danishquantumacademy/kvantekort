@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T19:18Z",
+ "generated": "2026-11-16T06:51Z",
  "groups": {
   "qpit": {
    "news": [
@@ -148,14 +148,14 @@
      "kind": "events",
      "ok": true,
      "n": 14,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -196,7 +196,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -237,7 +237,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -319,7 +319,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -360,7 +360,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -508,14 +508,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": true,
      "n": 35,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -683,13 +683,6 @@
      "url": "https://www.math.ku.dk/english/calendar/events/ph.d-defence-elias-david-michael-theil/",
      "text": "17 Nov. 2026, 13:00 Title: Unitary-equivariant and permutation-invariant quantum channels",
      "source": "https://qmath.ku.dk/events/"
-    },
-    {
-     "date": "2026-11-13",
-     "title": "Ph.D. Defense Bhavik Kumar",
-     "url": "https://www.math.ku.dk/english/calendar/events/ph.d.-defense-bhavik-kumar/",
-     "text": "13 Nov. 2026, 9:30 Title: Learning from dynamics in analogue quantum simulators",
-     "source": "https://qmath.ku.dk/events/"
     }
    ],
    "grants": [
@@ -803,21 +796,21 @@
      "kind": "news",
      "ok": true,
      "n": 120,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     },
     {
      "url": "https://qmath.ku.dk/events/",
      "kind": "events",
      "ok": true,
-     "n": 13,
-     "checked": "2026-11-12T19:18Z"
+     "n": 11,
+     "checked": "2026-11-16T06:51Z"
     },
     {
      "url": "https://qmath.ku.dk/vacant-positions/",
      "kind": "jobs",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -883,7 +876,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -949,7 +942,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1108,14 +1101,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1131,7 +1124,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1147,7 +1140,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1163,7 +1156,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1382,14 +1375,14 @@
      "kind": "news",
      "ok": true,
      "n": 111,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1487,7 +1480,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1585,7 +1578,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1651,7 +1644,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   },
@@ -1717,7 +1710,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-12T19:18Z"
+     "checked": "2026-11-16T06:51Z"
     }
    ]
   }
