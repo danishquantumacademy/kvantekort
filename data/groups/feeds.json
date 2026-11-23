@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T06:51Z",
+ "generated": "2026-11-23T06:27Z",
  "groups": {
   "qpit": {
    "news": [
@@ -146,16 +146,16 @@
     {
      "url": "https://physics.dtu.dk/research/sections/qpit/Events",
      "kind": "events",
-     "ok": true,
-     "n": 14,
-     "checked": "2026-11-16T06:51Z"
+     "ok": false,
+     "error": "no items found",
+     "checked": "2026-11-23T06:27Z"
     },
     {
      "url": "https://orbit.dtu.dk/en/organisations/quantum-physics-and-information-technology/",
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -196,7 +196,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -237,7 +237,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -278,7 +278,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -319,7 +319,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -360,7 +360,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -508,14 +508,14 @@
      "kind": "outputs",
      "ok": true,
      "n": 3,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     },
     {
      "url": "https://nqcp.ku.dk/news/",
      "kind": "news",
      "ok": true,
      "n": 35,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -650,38 +650,10 @@
      "source": "https://qmath.ku.dk/events/"
     },
     {
-     "date": "2026-11-24",
-     "title": "MCS-MP Seminar: Katie Gittins",
-     "url": "https://qmath.ku.dk/events/mcs-mp-seminar/mcs-mp-seminar-katie-gittiins/",
-     "text": "24 Nov. 2026, 15:15-16:00 Speaker: Katie Gittins (Durham)",
-     "source": "https://qmath.ku.dk/events/"
-    },
-    {
      "date": "2026-11-23",
      "title": "Q-Access Roadshow",
      "url": "https://www.math.ku.dk/english/calendar/events/2026/q-access-roadshow/",
      "text": "23 Nov. 2026, 13:30-16:00 This is for researchers and students wanting to know more about getting access to quantum computers or getting inspiration on the applications of quantum computing.",
-     "source": "https://qmath.ku.dk/events/"
-    },
-    {
-     "date": "2026-11-18",
-     "title": "QLunch: Charlotte Fløe Kristjansen",
-     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qlunch-charlotte/",
-     "text": "18 Nov. 2026, 12:00-13:00 Speaker: Charlotte Fløe Kristjansen",
-     "source": "https://qmath.ku.dk/events/"
-    },
-    {
-     "date": "2026-11-18",
-     "title": "QSeminar: Joseph Carolan",
-     "url": "https://qmath.ku.dk/events/quantum-lunch/quantum-lunch-2026/qseminar-joseph-carolan/",
-     "text": "18 Nov. 2026, 14:00-15:00 Speaker: Joseph Carolan",
-     "source": "https://qmath.ku.dk/events/"
-    },
-    {
-     "date": "2026-11-17",
-     "title": "Ph.D Defence Elias David Michael Theil",
-     "url": "https://www.math.ku.dk/english/calendar/events/ph.d-defence-elias-david-michael-theil/",
-     "text": "17 Nov. 2026, 13:00 Title: Unitary-equivariant and permutation-invariant quantum channels",
      "source": "https://qmath.ku.dk/events/"
     }
    ],
@@ -796,21 +768,21 @@
      "kind": "news",
      "ok": true,
      "n": 120,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     },
     {
      "url": "https://qmath.ku.dk/events/",
      "kind": "events",
      "ok": true,
-     "n": 11,
-     "checked": "2026-11-16T06:51Z"
+     "n": 7,
+     "checked": "2026-11-23T06:27Z"
     },
     {
      "url": "https://qmath.ku.dk/vacant-positions/",
      "kind": "jobs",
      "ok": true,
      "n": 2,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -876,7 +848,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -942,7 +914,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1101,14 +1073,14 @@
      "kind": "news",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     },
     {
      "url": "https://phys.au.dk/ccq/events",
      "kind": "events",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1124,7 +1096,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1140,7 +1112,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1156,7 +1128,7 @@
      "kind": "news",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1375,14 +1347,14 @@
      "kind": "news",
      "ok": true,
      "n": 111,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     },
     {
      "url": "https://www.sdu.dk/en/forskning/polima/events",
      "kind": "events",
      "ok": false,
      "error": "no items found",
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1480,7 +1452,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1578,12 +1550,20 @@
      "kind": "outputs",
      "ok": true,
      "n": 10,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
   "classique": {
    "news": [
+    {
+     "date": "2026-11-19",
+     "title": "Aalborg Universitet køber kvantecomputer til fremtidens ingeniører",
+     "url": "https://vbn.aau.dk/en/clippings/aalborg-universitet-k%C3%B8ber-kvantecomputer-til-fremtidens-ingeni%C3%B8re/",
+     "text": "",
+     "kind": "press",
+     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
+    },
     {
      "date": "2026-11-12",
      "title": "Klimaforandringer truer vores satellitforbindelser",
@@ -1596,14 +1576,6 @@
      "date": "2026-10-31",
      "title": "Vi reagerer i slowmotion på AI-agenternes stormløb. Spørgsmålet er, hvordan vi holder mennesket i centrum",
      "url": "https://vbn.aau.dk/en/clippings/vi-reagerer-i-slowmotion-p%C3%A5-ai-agenternes-storml%C3%B8b-sp%C3%B8rgsm%C3%A5let-er/",
-     "text": "",
-     "kind": "press",
-     "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
-    },
-    {
-     "date": "2026-10-20",
-     "title": "Quantum networks at QCE26 met the weather",
-     "url": "https://vbn.aau.dk/en/clippings/quantum-networks-at-qce26-met-the-weather/",
      "text": "",
      "kind": "press",
      "source": "https://vbn.aau.dk/en/organisations/classique-center-for-classical-communication-in-the-quantum-era/"
@@ -1644,7 +1616,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   },
@@ -1710,7 +1682,7 @@
      "kind": "outputs",
      "ok": true,
      "n": 6,
-     "checked": "2026-11-16T06:51Z"
+     "checked": "2026-11-23T06:27Z"
     }
    ]
   }
